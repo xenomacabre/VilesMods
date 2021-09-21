@@ -20,6 +20,7 @@
 			<appearance>Planks</appearance>		
 			<stuffAdjective>cecropia</stuffAdjective>
 			<categories Inherit="False">
+				<li>Woody</li>
 				<li>SoftwoodLumber</li>
    			</categories>
 		</stuffProps>
@@ -44,6 +45,7 @@
 			<appearance>Planks</appearance>		
 			<stuffAdjective>pine</stuffAdjective>
 			<categories Inherit="False">
+				<li>Woody</li>
 				<li>SoftwoodLumber</li>
    			</categories>
 		</stuffProps>
@@ -68,6 +70,7 @@
 			<appearance>Planks</appearance>			
 			<stuffAdjective>willow</stuffAdjective>
 			<categories Inherit="False">
+				<li>Woody</li>
 				<li>SoftwoodLumber</li>
    			</categories>
 		</stuffProps>
@@ -93,6 +96,7 @@
 			<stuffAdjective>redwood</stuffAdjective>
 			<categories Inherit="False">
 				<li>SoftwoodLumber</li>
+				<li>Woody</li>
    			</categories>
 		</stuffProps>
 		<thingCategories Inherit="False">
@@ -116,6 +120,7 @@
 			<appearance>Planks</appearance>	
 			<stuffAdjective>cypress</stuffAdjective>
 			<categories Inherit="False">
+				<li>Woody</li>
 				<li>SoftwoodLumber</li>
    			</categories>
 		</stuffProps>
@@ -140,6 +145,7 @@
 			<appearance>Planks</appearance>	
 			<stuffAdjective>poplar</stuffAdjective>
 			<categories Inherit="False">
+				<li>Woody</li>
 				<li>SoftwoodLumber</li>
    			</categories>
 		</stuffProps>
@@ -165,6 +171,7 @@
 			<appearance>Planks</appearance>	
 			<stuffAdjective>maple</stuffAdjective>
 			<categories Inherit="False">
+				<li>Woody</li>
 				<li>HardwoodLumber</li>
    			</categories>
 		</stuffProps>
@@ -189,6 +196,7 @@
 			<appearance>Planks</appearance>	
 			<stuffAdjective>teak</stuffAdjective>
 			<categories Inherit="False">
+				<li>Woody</li>
 				<li>HardwoodLumber</li>
    			</categories>
 		</stuffProps>
@@ -213,6 +221,7 @@
 			<appearance>Planks</appearance>	
 			<stuffAdjective>birch</stuffAdjective>
 			<categories Inherit="False">
+				<li>Woody</li>
 				<li>HardwoodLumber</li>
    			</categories>
 		</stuffProps>
@@ -237,6 +246,7 @@
 			<appearance>Planks</appearance>	
 			<stuffAdjective>oak</stuffAdjective>
 			<categories Inherit="False">
+				<li>Woody</li>
 				<li>HardwoodLumber</li>
    			</categories>
 		</stuffProps>
@@ -261,6 +271,7 @@
 			<appearance>Planks</appearance>	
 			<stuffAdjective>dragonwood</stuffAdjective>
 			<categories Inherit="False">
+				<li>Woody</li>
 				<li>UltrahardwoodLumber</li>
    			</categories>
 		</stuffProps>
@@ -285,6 +296,7 @@
 			<appearance>Planks</appearance>			
 			<stuffAdjective>mangrove</stuffAdjective>
 			<categories Inherit="False">
+				<li>Woody</li>
 				<li>UltrahardwoodLumber</li>
    			</categories>
 		</stuffProps>
