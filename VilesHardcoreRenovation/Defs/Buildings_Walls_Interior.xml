@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="WallBase" Name="InteriorWall">
+		<defName>InteriorWall</defName>
+		<label>Interior Wall</label>
+		<description>An interior with very little structural integrity. The cement backerboard is flame retardant, however.</description>
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/Walls/Wall_Atlas_DryWall</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+			</linkFlags>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Walls/interior_wall_icon</uiIconPath>
+		<building>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<statBases>
+			<MaxHitPoints>160</MaxHitPoints>
+			<WorkToBuild>120</WorkToBuild>
+			<Flammability>0.2</Flammability>
+			<Beauty>1</Beauty>
+		</statBases>
+		<coversFloor>true</coversFloor>
+		<tickerType>Never</tickerType>
+		<stuffCategories>
+			<li>SoftwoodLumber</li>
+			<li>HardwoodLumber</li>
+			<li>UltrahardwoodLumber</li>
+			<li>EngineeredLumber</li>
+		</stuffCategories>
+		<costStuffCount>2</costStuffCount>
+		<costList>
+			<ComponentMedieval>1</ComponentMedieval>
+			<ConcreteResource>5</ConcreteResource>
+		</costList>
+		<researchPrerequisites>
+			<li>Construction_B3</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	<ThingDef ParentName="InteriorWall">
+		<defName>InteriorWall_Stripe</defName>
+		<label>Interior Striped Wall</label>
+		<description>An interior plaster wall with very little structural integrity. Decorated with wallpaper.</description>
+		<graphicData>
+			<texPath>Things/Building/Walls/Wall_Atlas_PaperStripe</texPath>
+		</graphicData>
+		<uiIconPath>Things/Building/Walls/Wall_Atlas_PaperStripe_ico</uiIconPath>
+		<statBases>
+			<MaxHitPoints>160</MaxHitPoints>
+			<WorkToBuild>200</WorkToBuild>
+			<Flammability>0.6</Flammability>
+			<Beauty>2</Beauty>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="InteriorWall">
+		<defName>InteriorWall_Floral</defName>
+		<label>Interior Floral Wall</label>
+		<description>An interior plaster wall with very little structural integrity. Decorated with wallpaper.</description>
+		<graphicData>
+			<texPath>Things/Building/Walls/Wall_Atlas_PaperFloral</texPath>
+		</graphicData>
+		<uiIconPath>Things/Building/Walls/Wall_Atlas_PaperFloral_ico</uiIconPath>
+		<statBases>
+			<MaxHitPoints>160</MaxHitPoints>
+			<WorkToBuild>200</WorkToBuild>
+			<Flammability>0.6</Flammability>
+			<Beauty>2</Beauty>
+		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="InteriorWall">
+		<defName>InteriorWall_Leafy</defName>
+		<label>Interior Leaf-Patterned Wall</label>
+		<description>An interior plaster wall with very little structural integrity. Decorated with wallpaper.</description>
+		<graphicData>
+			<texPath>Things/Building/Walls/Wall_Atlas_PaperLeafy</texPath>
+		</graphicData>
+		<uiIconPath>Things/Building/Walls/Wall_Atlas_PaperLeafy_ico</uiIconPath>
+		<statBases>
+			<MaxHitPoints>160</MaxHitPoints>
+			<WorkToBuild>200</WorkToBuild>
+			<Flammability>0.6</Flammability>
+			<Beauty>2</Beauty>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="WallBase">
+		<defName>WoodPanelWall</defName>
+		<label>Panel Wall</label>
+		<description>A frame wall with thing wood panels for siding. Just strong enough to justify being an exterior wall, but cheap enough to be interior as well.</description>
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/Walls/Wall_Atlas_WoodPanel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+			</linkFlags>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Walls/Wall_Atlas_WoodPanel_ico</uiIconPath>
+		<uiIconPathsStuff>
+			<li>
+				<!--<appearance>Logs</appearance>-->
+				<iconPath>Things/Building/Walls/Wall_Atlas_WoodPanel_ico</iconPath>
+			</li>
+		</uiIconPathsStuff>
+		<building>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<statBases>
+			<MaxHitPoints>280</MaxHitPoints> <!-- vanilla is 380 -->
+			<WorkToBuild>200</WorkToBuild> <!-- vanilla is 270 -->
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<coversFloor>true</coversFloor>
+		<tickerType>Never</tickerType>
+		<stuffCategories>
+			<li>SoftwoodLumber</li>
+			<li>HardwoodLumber</li>
+			<li>UltrahardwoodLumber</li>
+			<li>EngineeredLumber</li>
+		</stuffCategories>
+		<costStuffCount>5</costStuffCount>
+		<researchPrerequisites>
+			<li>Construction_B2</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="WallBase">
+		<defName>CeramicTileWall</defName>
+		<label>Tile Wall</label>
+		<description>Interior wall made of grouted tiles. Clean and pristine.</description>
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/Walls/Wall_Atlas_BathTile</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+			</linkFlags>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Walls/Wall_Atlas_BathTile_ico</uiIconPath>
+		<building>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<statBases>
+			<MaxHitPoints>320</MaxHitPoints> <!-- vanilla is 380 -->
+			<WorkToBuild>300</WorkToBuild> <!-- vanilla is 270 -->
+			<Flammability>0.0</Flammability>
+			<Cleanliness>1.0</Cleanliness>
+		</statBases>
+		<coversFloor>true</coversFloor>
+		<tickerType>Never</tickerType>
+		<stuffCategories>
+			<li>Ceramic</li>
+		</stuffCategories>
+		<costStuffCount>5</costStuffCount>
+		<researchPrerequisites>
+			<li>Firefoam</li> <!-- construction C1-->
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	</ThingDef>
+</Defs>

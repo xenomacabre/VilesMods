@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<!-- RECLAIMED WOOD -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "WoodPlankFloorSix"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>WoodPlankFloorSix</defName>
+				<label>Rustic Maple Planks (H)</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Staggered joint, light colored wood flooring in horizontal planks. Beauty: 2. Install time: 5.</description>
+				<texturePath>Terrain/Surfaces/WoodFloor</texturePath>
+				<statBases>
+					<WorkToBuild>550</WorkToBuild>
+					<Beauty>2</Beauty>
+					<Flammability>0.3</Flammability>
+				</statBases>
+				<costList>
+					<MaplePlank>2</MaplePlank>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_B1</li></researchPrerequisites>
+			</TerrainDef>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "WoodPlankFloorTwo"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>WoodPlankFloorTwo</defName>
+				<label>Rustic Maple Planks (V)</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Staggered joint, light colored wood flooring in vertical planks. Beauty: 2. Install time: 5.</description>
+				<texturePath>Terrain/Surfaces/WoodFloor1</texturePath>
+				<statBases>
+					<WorkToBuild>550</WorkToBuild>
+					<Beauty>2</Beauty>
+					<Flammability>0.3</Flammability>
+				</statBases>
+				<costList>
+					<MaplePlank>2</MaplePlank>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_B1</li></researchPrerequisites>
+			</TerrainDef>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "WoodPlankFloorThree"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>WoodPlankFloorThree</defName>
+				<label>Rustic Pine Floor</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Staggered joint, light colored wood flooring in short, horizontal planks. Beauty: 2. Cleanliness: -.2 Install time: 4</description>
+				<texturePath>Terrain/Surfaces/WoodFloor3</texturePath>
+				<statBases>
+					<WorkToBuild>450</WorkToBuild>
+					<Beauty>2</Beauty>
+					<Flammability>0.4</Flammability>
+					<Cleanliness>-.2</Cleanliness>
+				</statBases>
+				<costList>
+					<PinePlank>2</PinePlank>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_B1</li></researchPrerequisites>
+			</TerrainDef>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "WoodPlankFloorFive"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>WoodPlankFloorFive</defName>	
+				<label>Painted Floorboards</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Different-sized poplar boards assembled and then painted. Beauty: 2. Install time: 4</description>
+				<texturePath>Terrain/Surfaces/WoodFloor5</texturePath>
+				<statBases>
+					<WorkToBuild>450</WorkToBuild>
+					<Beauty>2</Beauty>
+					<Flammability>0.4</Flammability>
+				</statBases>
+				<costList>
+					<PoplarPlank>2</PoplarPlank>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_B1</li></researchPrerequisites>
+			</TerrainDef>
+		</value>
+	</Operation>
+	
+	<!-- DECKINg. The rest are new defs.-->
+	<!--
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "WoodPlankFloor"]</xpath>
+		<value>
+				<label>Redwood Decking (H)</label>
+				<renderPrecedence>400</renderPrecedence>
+				<description>Raised wooden planks for a deck, porch, or walkway. Terrain won't encroach on it. Low flammability redwood. Beauty: 3. Install time: 2</description>
+				<texturePath>Terrain/Surfaces/WoodFloor2</texturePath>
+				<statBases>
+					<WorkToBuild>250</WorkToBuild>
+					<Beauty>3</Beauty>
+					<Flammability>0.1</Flammability>
+				</statBases>
+				<costList>
+					<RedWoodPlank>4</RedWoodPlank>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_A2</li></researchPrerequisites>
+			</value>
+	</Operation>
+	-->
+	
+	
+	
+<!-- LAMINATE WOOD -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "BambooFloor"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>BambooFloor</defName>		
+				<label>Laminate Wood Floor</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Plywood engineered to look like wood planks. Not very convincing, but they snap together quickly. Fire-resistant construction. Beauty: 1. Install time: 1.5</description>
+				<texturePath>Terrain/Surfaces/bamboo_floor_a</texturePath>
+				<statBases>
+					<WorkToBuild>150</WorkToBuild>
+					<Beauty>1</Beauty>
+					<Flammability>0.1</Flammability>
+				</statBases>
+				<costList>
+					<WoodPlank>3</WoodPlank>
+				</costList>
+				<researchPrerequisites><li>Metal_floor_B1</li></researchPrerequisites>
+			</TerrainDef>
+		</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "BambooFloorC"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>BambooFloorC</defName>	
+				<label>Laminate Bamboo Floor</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Floorboards made of laminated bamboo planks. Snap together quickly. Fire-resistant construction. Beauty: 2. Cleanliness: 0.2 Install time: 2</description>
+				<texturePath>Terrain/Surfaces/bamboo_floor_b2</texturePath>
+				<statBases>
+					<WorkToBuild>2</WorkToBuild>
+					<Beauty>2</Beauty>
+					<Flammability>0.1</Flammability>
+					<Cleanliness>.2</Cleanliness>
+				</statBases>
+				<costList>
+					<BambooPlank>3</BambooPlank>
+				</costList>
+				<researchPrerequisites><li>Metal_floor_B1</li></researchPrerequisites>
+			</TerrainDef>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "BambooFloorD"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>BambooFloorD</defName>	
+				<label>Bamboo herringbone floor.</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Floorboards made of laminated bamboo planks. Arranged in a herringbone pattern. Fire-resistant construction. Beauty: 3. Install time: 3</description>
+				<texturePath>Terrain/Surfaces/bamboo_floor_a3</texturePath>
+				<statBases>
+					<WorkToBuild>350</WorkToBuild>
+					<Beauty>2</Beauty>
+					<Flammability>0.1</Flammability>
+				</statBases>
+				<costList>
+					<BambooPlank>3</BambooPlank>
+				</costList>
+				<researchPrerequisites><li>Metal_floor_B1</li></researchPrerequisites>
+			</TerrainDef>
+		</value>
+	</Operation>
+	
+	
+	<!-- PARQUET --> 
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "ParquetFloor"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>ParquetFloor</defName>
+				<label>maple Herringbone.</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Maple boards arranged in a herringbone pattern. Beauty: 5. Install time: 4</description>
+				<texturePath>Terrain/Surfaces/Parquet</texturePath>
+				<statBases>
+					<WorkToBuild>410</WorkToBuild>
+					<Beauty>5</Beauty>
+					<Flammability>0.3</Flammability>
+				</statBases>
+				<costList>
+					<MaplePlank>4</MaplePlank>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_B2</li></researchPrerequisites>
+			</TerrainDef>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "WoodPlankFloorFour"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>WoodPlankFloorFour</defName>
+				<label>oak chevron.</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Maple boards arranged in a herringbone pattern. Beauty: 5. Install time: 4</description>
+				<texturePath>Terrain/Surfaces/WoodFloor4</texturePath>
+				<statBases>
+					<WorkToBuild>410</WorkToBuild>
+					<Beauty>4</Beauty>
+					<Flammability>0.3</Flammability>
+				</statBases>
+				<costList>
+					<OakPlank>4</OakPlank>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_B2</li></researchPrerequisites>
+			</TerrainDef>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "ClutterWoodTileA"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>ClutterWoodTileA</defName>
+				<label>stained redwood floor</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Redwood floor with a rich stained finish. Beauty: 4. Install time: 4</description>
+				<texturePath>Terrain/Surfaces/FloorA</texturePath>
+				<statBases>
+					<WorkToBuild>410</WorkToBuild>
+					<Beauty>4</Beauty>
+					<Flammability>0.1</Flammability>
+				</statBases>
+				<costList>
+					<RedWoodPlank>4</RedWoodPlank>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_B2</li></researchPrerequisites>
+			</TerrainDef>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "RedWoodFloorF"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>RedWoodFloorF</defName>
+				<label>basketweave parquet</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Maple and teak boards assembled in a basketweave pattern. Beauty: 6. Install time: 5</description>
+				<texturePath>Terrain/Surfaces/redwood_floor_b3</texturePath>
+				<statBases>
+					<WorkToBuild>500</WorkToBuild>
+					<Beauty>6</Beauty>
+					<Flammability>0.3</Flammability>
+				</statBases>
+				<costList>
+					<MaplePlank>2</MaplePlank>
+					<TeakPlank>2</TeakPlank>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_B2</li></researchPrerequisites>
+			</TerrainDef>
+		</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "RedWoodFloorB"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>RedWoodFloorB</defName>
+				<label>hex weave parquet</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Oak and teak boards assembled in a hexagonal pattern. Beauty: 6. Install time: 5</description>
+				<texturePath>Terrain/Surfaces/redwood_floor_b</texturePath>
+				<statBases>
+					<WorkToBuild>500</WorkToBuild>
+					<Beauty>6</Beauty>
+					<Flammability>0.3</Flammability>
+				</statBases>
+				<costList>
+					<OakPlank>2</OakPlank>
+					<TeakPlank>2</TeakPlank>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_B2</li></researchPrerequisites>
+			</TerrainDef>
+		</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "BambooFloorE"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>BambooFloorE</defName>
+				<label>maze parquet</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Bamboo and teak boards assembled in a geometric pattern. Beauty: 6. Install time: 5</description>
+				<texturePath>Terrain/Surfaces/Bamboo_floor_b</texturePath>
+				<statBases>
+					<WorkToBuild>500</WorkToBuild>
+					<Beauty>6</Beauty>
+					<Flammability>0.3</Flammability>
+				</statBases>
+				<costList>
+					<BambooPlank>4</BambooPlank>
+					<TeakPlank>1</TeakPlank>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_B2</li></researchPrerequisites>
+			</TerrainDef>
+		</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "BambooFloorF"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>BambooFloorF</defName>
+				<label>cube parquet</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Teak boards assembled in a geometric pattern. Beauty: 5. Install time: 4</description>
+				<texturePath>Terrain/Surfaces/bamboo_floor_b1</texturePath>
+				<statBases>
+					<WorkToBuild>410</WorkToBuild>
+					<Beauty>5</Beauty>
+					<Flammability>0.3</Flammability>
+				</statBases>
+				<costList>
+					<TeakPlank>4</TeakPlank>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_B2</li></researchPrerequisites>
+			</TerrainDef>	
+		</value>
+	</Operation>	
+	
+	<!-- VERSAILLES SET -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "RedWoodFloorC"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>RedWoodFloorC</defName>
+				<label>versailles parquet</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Decorative floor panels. Beauty: 5. Install time: 5</description>
+				<texturePath>Terrain/Surfaces/redwood_floor_b2</texturePath>
+				<statBases>
+					<WorkToBuild>500</WorkToBuild>
+					<Beauty>5</Beauty>
+					<Flammability>0.3</Flammability>
+				</statBases>
+				<costList>
+					<OakPlank>4</OakPlank>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_B2</li></researchPrerequisites>
+			</TerrainDef>	
+		</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "RedWoodFloorD"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>RedWoodFloorD</defName>
+				<label>ornate parquet</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Decorative floor panels. Beauty: 6. Install time: 6</description>
+				<texturePath>Terrain/Surfaces/redwood_floor_c</texturePath>
+				<statBases>
+					<WorkToBuild>600</WorkToBuild>
+					<Beauty>6</Beauty>
+					<Flammability>0.3</Flammability>
+				</statBases>
+				<costList>
+					<OakPlank>2</OakPlank>
+					<BirchPlank>2</BirchPlank>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_B2</li></researchPrerequisites>
+			</TerrainDef>	
+		</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "RedWoodFloorE"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>RedWoodFloorE</defName>
+				<label>floral parquet</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Decorative floor panels. Beauty: 7. Install time: 6</description>
+				<texturePath>Terrain/Surfaces/redwood_floor_c2</texturePath>
+				<statBases>
+					<WorkToBuild>600</WorkToBuild>
+					<Beauty>7</Beauty>
+					<Flammability>0.3</Flammability>
+				</statBases>
+				<costList>
+					<OakPlank>1</OakPlank>
+					<MaplePlank>2</MaplePlank>
+					<PinePlank>1</PinePlank>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_B2</li></researchPrerequisites>
+			</TerrainDef>	
+		</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "RedWoodFloor"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>RedWoodFloor</defName>
+				<label>Exotic parquet</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Decorative floor panels. Beauty: 9. Install time: 7</description>
+				<texturePath>Terrain/Surfaces/redwood_floor_a</texturePath>
+				<statBases>
+					<WorkToBuild>700</WorkToBuild>
+					<Beauty>9</Beauty>
+					<Flammability>0.3</Flammability>
+				</statBases>
+				<costList>
+					<OakPlank>1</OakPlank>
+					<MaplePlank>2</MaplePlank>
+					<PinePlank>1</PinePlank>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_B2</li></researchPrerequisites>
+			</TerrainDef>	
+		</value>
+	</Operation>	
+	
+	<!-- PRIMITIVE FLOORS -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "TikiFloorFancy"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>TikiFloorFancy</defName>
+				<label>Terracotta floor</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Earthenware tiles. Functional and fire-proof. Beauty: 1. Install time: 7</description>
+				<texturePath>Terrain/Surfaces/TikiFloorFancy</texturePath>
+				<statBases>
+					<WorkToBuild>760</WorkToBuild>
+					<Beauty>1</Beauty>
+					<Flammability>0</Flammability>
+				</statBases>
+				<costList>
+					<ClayBrick>4</ClayBrick>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_A2</li></researchPrerequisites>
+			</TerrainDef>
+		</value>
+	</Operation>
+	<!--
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "FloorRedWood"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>FloorRedWood</defName>
+				<label>Terracotta herringbone</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Earthenware tiles. Functional and fire-proof. Beauty: 1. Install time: 7</description>
+				<texturePath>Terrain/Surfaces/TerraCottaHerringbone</texturePath>
+				<statBases>
+					<WorkToBuild>760</WorkToBuild>
+					<Beauty>1</Beauty>
+					<Flammability>0</Flammability>
+				</statBases>
+				<costList>
+					<ClayBrick>4</ClayBrick>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_A2</li></researchPrerequisites>
+			</TerrainDef>
+		</value>
+	</Operation>
+	-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "TikiFloorLight"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>TikiFloorLight</defName>
+				<label>Terracotta diamond</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Earthenware tiles. Functional and fire-proof. Beauty: 1. Install time: 7</description>
+				<texturePath>Terrain/Surfaces/TikiFloorLight</texturePath>
+				<statBases>
+					<WorkToBuild>760</WorkToBuild>
+					<Beauty>1</Beauty>
+					<Flammability>0</Flammability>
+				</statBases>
+				<costList>
+					<ClayBrick>4</ClayBrick>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_A2</li></researchPrerequisites>
+			</TerrainDef>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "TikiFloorBamboo"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>TikiFloorBamboo</defName>
+				<label>bamboo weave floor</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Strips of bamboo hastily woven together. Quite flammable. Beauty: 1. Cleanliness: -0.2 Install time: 2</description>
+				<texturePath>Terrain/Surfaces/TikiFloorBamboo</texturePath>
+				<statBases>
+					<WorkToBuild>250</WorkToBuild>
+					<Beauty>1</Beauty>
+					<Flammability>0.6</Flammability>
+					<Cleanliness>-0.2</Cleanliness>
+				</statBases>
+				<costList>
+					<Bamboo>4</Bamboo>
+				</costList>
+				<researchPrerequisites><li>Carpets_A1</li></researchPrerequisites>
+			</TerrainDef>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "LogFloor"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>LogFloor</defName>
+				<label>clapboard flooring (H)</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Logs split into crude, uneven planks. Beauty: 1. Cleanliness: -0.3 Install time: 2</description>
+				<texturePath>Terrain/Surfaces/LogFloor</texturePath>
+				<statBases>
+					<WorkToBuild>250</WorkToBuild>
+					<Beauty>1</Beauty>
+					<Flammability>0.5</Flammability>
+					<Cleanliness>-0.3</Cleanliness>
+				</statBases>
+				<costList>
+					<WoodLog>4</WoodLog>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_A2</li></researchPrerequisites>
+			</TerrainDef>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "TikiFloorDark"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>TikiFloorDark</defName>
+				<label>clapboard flooring (V)</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Logs split into crude, uneven planks. Beauty: 1. Install time: 2 Cleanliness: -0.3</description>
+				<texturePath>Terrain/Surfaces/LogFloorVertical</texturePath>
+				<statBases>
+					<WorkToBuild>250</WorkToBuild>
+					<Beauty>1</Beauty>
+					<Flammability>0.5</Flammability>
+					<Cleanliness>-0.3</Cleanliness>
+				</statBases>
+				<costList>
+					<WoodLog>4</WoodLog>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_A2</li></researchPrerequisites>
+			</TerrainDef>
+		</value>
+	</Operation>
+	<!--<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "LogFloorV"]</xpath>
+		<value>
+				<label>clapboard floor (V)</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Logs split into crude, uneven planks. Beauty: 1. Install time: 2</description>
+				<texturePath>Terrain/Surfaces/LogFloorVertical</texturePath>
+				<statBases>
+					<WorkToBuild>250</WorkToBuild>
+					<Beauty>1</Beauty>
+					<Flammability>0.3</Flammability>
+				</statBases>
+				<costList>
+					<WoodLog>4</WoodLog>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_A2</li></researchPrerequisites>
+			</value>
+	</Operation>-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "TikiFloorDark"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>TikiFloorDark</defName>
+				<label>straw floor</label>
+				<renderPrecedence>375</renderPrecedence>
+				<description>Throw some hay on the ground. You got more important things to do. Quite flammable. Beauty: 0. Cleanliness: -0.4 Install time: 1</description>
+				<texturePath>Terrain/Surfaces/TikiFloorDark</texturePath>
+				<edgeType>FadeRough</edgeType>
+				<statBases>
+					<WorkToBuild>150</WorkToBuild>
+					<Beauty>1</Beauty>
+					<Flammability>0.6</Flammability>
+					<Cleanliness>-0.4</Cleanliness>
+				</statBases>
+				<costList>
+					<Hay>6</Hay>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_A1</li></researchPrerequisites>
+			</TerrainDef>
+		</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "WeaveFloor"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>WeaveFloor</defName>
+				<label>flax carpet</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>A primitive rug woven from bast fibers. Quite flamamble. Beauty: 2. Cleanliness: -0.3 Install time: 3</description>
+				<texturePath>Terrain/Surfaces/WeaveFloor</texturePath>
+				<statBases>
+					<WorkToBuild>350</WorkToBuild>
+					<Beauty>2</Beauty>
+					<Flammability>0.6</Flammability>
+					<Cleanliness>-0.3</Cleanliness>
+				</statBases>
+				<costList>
+					<RawFlax>5</RawFlax>
+				</costList>
+				<researchPrerequisites><li>Carpets_A1</li></researchPrerequisites>
+			</TerrainDef>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "ThatchFloor"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>ThatchFloor</defName>
+				<label>rush matting</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>A primitive rug woven from grass fibers. Quite flamamble. Beauty: 2. Cleanliness: -0.3 Install time: 3</description>
+				<texturePath>Terrain/Surfaces/ThatchFloor</texturePath>
+				<statBases>
+					<WorkToBuild>350</WorkToBuild>
+					<Beauty>2</Beauty>
+					<Flammability>0.6</Flammability>
+					<Cleanliness>-0.3</Cleanliness>
+				</statBases>
+				<costList>
+					<Hay>5</Hay>
+				</costList>
+				<researchPrerequisites><li>Carpets_A1</li></researchPrerequisites>
+			</TerrainDef>
+			</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "WovenLeafFloor"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>WovenLeafFloor</defName>
+				<label>striped rush matting</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>A primitive rug woven from grass fibers. Quite flamamble. Beauty: 2. Cleanliness: -0.3 Install time: 3</description>
+				<texturePath>Terrain/Surfaces/WovenLeafFloor</texturePath>
+				<statBases>
+					<WorkToBuild>350</WorkToBuild>
+					<Beauty>2</Beauty>
+					<Flammability>0.6</Flammability>
+					<Cleanliness>-0.3</Cleanliness>
+				</statBases>
+				<costList>
+					<Hay>5</Hay>
+				</costList>
+				<researchPrerequisites><li>Carpets_A1</li></researchPrerequisites>
+			</TerrainDef>
+			</value>
+	</Operation>
+	
+
+	
+	
+	
+</Patch>

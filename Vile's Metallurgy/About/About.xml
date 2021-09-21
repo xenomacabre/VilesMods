@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>HMC Vile's Metallurgy</name>
+	<author>VileHeathen</author>
+	<supportedVersions>
+		<li>1.2</li>
+		<li>1.3</li>
+	</supportedVersions>
+	<packageId>vitech.metallurgy</packageId>
+	<modDependencies>
+		<li>
+			<packageId>ViTech.MedievalOverhaul</packageId>
+			<displayName>HMC Vile's Pre-Industrial</displayName>
+			<downloadUrl>https://github.com/skyarkhangel/Hardcore-SK</downloadUrl>
+		</li>
+		<li>
+			<packageId>skyarkhangel.realisticterraform</packageId>
+			<displayName>HMC Realistic Terraforming</displayName>
+			<downloadUrl>https://github.com/skyarkhangel/Hardcore-SK</downloadUrl>
+		</li>
+		<li>
+			<packageId>skyarkhangel.realisticterraform</packageId>
+			<displayName>HMC Realistic Terraforming</displayName>
+			<downloadUrl>https://github.com/skyarkhangel/Hardcore-SK</downloadUrl>
+		</li>
+		<li>
+			<packageId>zacharyfoster.minerals</packageId>
+			<displayName>Minerals</displayName>
+			<downloadUrl>https://github.com/skyarkhangel/Hardcore-SK</downloadUrl>
+		</li>
+		<li>
+			<packageId>dubwise.dubsbadhygiene</packageId>
+			<displayName>Dubs' Bad Hygiene</displayName>
+			<downloadUrl>https://github.com/skyarkhangel/Hardcore-SK</downloadUrl>
+		</li>
+		<li>
+			<packageId>skyarkhangel.survivaltoolslite</packageId>
+			<displayName>Survival Tools Lite</displayName>
+			<downloadUrl>https://github.com/skyarkhangel/Hardcore-SK</downloadUrl>
+		</li>
+		<li>
+			<packageId>dubwise.rimatomics</packageId>
+			<displayName>Rimatomics</displayName>
+			<downloadUrl>https://github.com/skyarkhangel/Hardcore-SK</downloadUrl>
+		</li>
+		
+	</modDependencies>
+	<loadAfter>
+		<li>ViTech.MedievalOverhaul</li>
+	</loadAfter>
+	<description>
+Welcome to the foundry! Please report bugs and feedback to Vile Heathen on the HSK discord. Much appreciated!	
+
+I've started a blog and Patreon for my mods! Check it out, and support me if you wish - I'm also taking commissions! 
+http://patreon.com/vileheathen
+
+Update A0.3
+-Updated for 1.3
+-Lead smelting now produces 15 instead of 10. Quick fix until the upcoming Ores and Minerals update. For now, set up a mining camp if your map lacks lead.
+-Added mod dependencies. Consider using Realistic Terraforming to get peat, clay, etc quicker. I've not tested this without it.
+-Making Rimatomics a dependancy. There's an assembly in there that allows the water wheel to use any large water body, not just rivers.
+-Fixed some typos etc.
+	
+INTRODUCTION	
+This could also be called 'Pre-Industrial Part II: Metallurgical Overhaul'. It's part of an ongoing project of mine to add some more complex mechanics to HSK that are both realistic and historically accurate, but in a manner that makes it fun, immersive, and hopefully intuitive.
+
+That said, this is the first part of a materials overhaul, with focus on early-game metallurgy and steel-making. Below is a quick summary of how it works. There is more detailed information in the descriptions of the buildings and resources, and a wiki/guide is underway.
+	
+NEOLITHIC
+A new fire pit is added which separates non-food recipes from the campfire, and adds a few more, mainly for dealing with smelting metals of antiquity such as bronze and silver.
+	
+CERAMIC KILN
+The kiln now acts like the fermenter buildings in that you load it with stuff, and then wait several days or hours instead of standing there watching it. It's in the "processing" submenu and you'll make things such as:
+		Bricks
+		Charcoal
+		Coke (metallurgical coal that is further processed)
+		Flux powder (used in ceramics and metallurgy)
+		Wootz Steel
+		Clay pots
+	
+WOOTZ STEEL
+Commonly referred to as "Damascus Steel" because a lot of wootz steel was imported to Damascus, it's a fragile, but ultra-hard steel best used for cutlery and sharp weapons.
+
+POTTERY STATION
+There is a new pottery station for making clay pots for food storage. They can be glazed with a variety of materals to increase beauty and make it seal better for improved food preservation. Vanilla pots can still be made out of metal, but they're more expensive and inferior to glazed pottery. Clay pots must be fired in the kiln, and then used as an ingredient much like how a crate is used to make a turret.
+
+BLOOMERY and WROUGHT IRON / FORGED STEEL
+The earlist technology for smelting iron. Ore is smelted into an "iron bloom", which then must be hammered into wrought iron at smithy forge (or finery forge). It's a long process with low payout, but you'll eventually run out of tin or copper for producing bronze so you'll want to start making wrought iron. Like you learned in history class. The wrought iron can further be carburized into weld-forged steel, your first type of proper steel. Contrary to popular belief, however, wrought iron can still be used to make effective weapons and armor — in this mod it is considered that these wrought iron implements are "case hardened", or tempered to strengthen the outer surface of the iron into a thin layer of steel.
+
+BOG IRON from PEAT
+Small pellets of iron can often be found in peat bogs. You can extract bog iron from peat at machining tables for a never-ending supply of iron. Mining is still the most efficient way to getting it though.
+
+BLAST FURNACE AND PIG IRON
+The blast furnace replaces the vanilla furnace. It makes iron ore into pig iron instead (a crude high-carbon form of iron which is worthless on its own). The pig must be processed at a finery into wrought iron and is much faster and more efficient than processing bloom. Pig iron can also be refined into cast iron at a foundry.
+
+FINERY FORGE / WATER WHEEL
+The finery forge is like a smithy forge except it has a heavy mechanical trip-hammer required for smashing the carbon out of pig iron to turn it into wrought iron (or welded steel). It can be operated by hand, but it's best powered by a water wheel. It's smart to build by a FLOWING RIVER if you can, otherwise you may want to rush the foundry and puddling tech.
+
+STAMP MILL / WATER WHEEL
+Another way to take advantage of the water wheel is with the stamp mill. It can be used for smashing grain, but also making gunpowder and crushing stone into rubble or sand.
+
+FOUNDRY, CASTING
+The foundry is dual purpose: It can be used for casting, which is a method of producing items quickly and in large batches. It's limited to certain types of tools, components and ammunition, and the castable metals are also very limited. It can also be used for processing certain metals and alloys, notably cast iron, and turning pig iron into wrought iron through what is called "puddling" - a method which is much more efficient than through the finery. It can also be used to produce crucible steel. More on that next.
+
+CEMENTATION FURNACE and BLISTER STEEL / CRUCIBLE STEEL
+This building works much like the kiln. Fill it with wrought iron and a source of carbon and wait several days. The iron becomes what's known as "blister steel", which is not homogenous and is useless on its own. It can be processed at a smithy or finery to produce "sheer steel", which resembles forge-welded steel, and for purposes of simplification, we'll just call it that. The ultimate, purest form of steel produced before the second industrial revolution, however is *Crucible Steel*. This is made by simply melting down the blister steel at the foundry once the tech is unlocked. It requires both coke and flux. 
+
+STEAM ENGINE
+The blowing engine is an automated bellows which speeds up the blast furnace and foundry operation.
+
+PIPES
+Water pipes are now divided into two types: aqueducts and, well, pipes. The former are made like how you're used to making them, and the latter require "plumbing components", which can be made at a forge or cast at the foundry. They're much stronger and easier to install.
+
+WEAPONS AND TOOLS
+A new CHEF KNIFE is added. Unlike the dagger and regular knife, the material used to make them can imply further bonuses. The *ULFBERT* and RIMASCUS SCIMITAR are two new swords that require wootz steel to make. An armor-piercing LUCERNE HAMMER replaces the royalty warhammer, and the royalty axe is removed and replaced with a QUARTERSTAFF, which is good for takedowns and less-lethal stick fighting.
+		
+Previous Updates: 
+
+A0.2
+-Removed grain recipes from stamp mill, fixed it so it's craft-worker based.
+-Patched cleaver, dagger, and knife to work as survival tools. The latter is renamed "survival knife" and may instill bonuses to construction and smithing. There's no penalty for not using a knife for cooking, and if the bonusus will only take affect if over 100%. Late-game alloys have cooking bonuses of 100%... updating that is on the road map.
+-Fixed some textures
+-Improved labels for processing recipes	
+		
+
+</description>
+<url></url>
+</ModMetaData>
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Facilities"]/defNames</xpath>
+		<value>
+			<li>WaterWheel</li>
+			<li>SteamEngine</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Conversion"]/defNames</xpath>
+		<value>
+			<defNames>
+				<li>SilagePile</li>
+				<li>TableMending</li>
+				<li>HandMendingWorkbench</li>
+				<li>ElectricCrematorium</li>
+				<li>Saltpeter_pit</li>
+				<li>BiofuelRefinery</li>
+			</defNames>
+		</value>
+	</Operation>
+
+	<!-- === SMITHY / FORGING === -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Smithy"]/label</xpath>
+		<value>
+			<label>Forging</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Smithy"]/defNames</xpath>
+		<value>
+			<li>Finery</li>
+		</value>
+	</Operation>
+	
+
+
+		<!-- === SMELTING / FURNACES === -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Furnaces"]/label</xpath>
+		<value>
+			<label>Smelting</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Furnaces"]/defNames</xpath>
+		<value>
+			<defNames>
+				<li>FirePit</li>
+				<li>Bloomery</li>
+				<li>TableFurnace</li>
+				<li>ElectricSmelter</li>
+				<li>EAF</li>
+			</defNames>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_FoodContainers"]/defNames</xpath>
+		<value>
+			<li>Building_ClayPot</li>
+		</value>
+	</Operation>
+	
+	
+	
+
+</Patch>

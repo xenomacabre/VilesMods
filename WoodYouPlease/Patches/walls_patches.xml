@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!--<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Wall"]/stuffCategories</xpath>
+		<value>
+			<stuffCategories>
+				<li>Hardwoods</li>
+				<li>Softwoods</li>
+				<li>Ultrahardwoods</li>
+				<li>Stony</li>
+				<li>Bricks</li>
+				<li>Metallic</li>
+				
+			</stuffCategories>
+		</value>
+    </Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Wall"]/costStuffCount</xpath>
+			<value>
+				<costStuffCount>1</costStuffCount>
+			</value>
+    </Operation>
+	-->
+</Patch>

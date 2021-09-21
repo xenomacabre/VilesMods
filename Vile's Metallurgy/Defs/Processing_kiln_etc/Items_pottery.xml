@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<ThingDef Name="ClayPotWet" ParentName="CropsBase" Abstract="true">
+		<defName>ClayPotWet</defName>
+		<label>Clay Pot (unfired)</label>
+		<description>A clay pot which hasn't been fired in a kiln yet.</description>
+		<graphicData>
+			<texPath>Things/Pottery/Pot_unfired</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<soundInteract>Stone_Drop</soundInteract>
+		<soundDrop>Stone_Drop</soundDrop>
+		<statBases>
+			<MarketValue>6</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0.2</Flammability>
+			<SellPriceFactor>0.50</SellPriceFactor>
+			<Mass>1.5</Mass>
+			<Bulk>1.5</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>Parts</li>
+		</thingCategories>
+		<stackLimit>10</stackLimit>
+	</ThingDef>
+	
+	<ThingDef ParentName="ClayPotWet">
+		<defName>ClayPotWetUnglazed</defName>
+		<label>Clay Pot (unfired)</label>
+		<graphicData>
+			<texPath>Things/Pottery/Pot_unfired</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="ClayPotWet">
+		<defName>ClayPotWetAsh</defName>
+		<label>Ash-Glazed Pot (unfired)</label>
+		<graphicData>
+			<texPath>Things/Pottery/Pot_Ash_unfired</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="ClayPotWet">
+		<defName>ClayPotWetPainted</defName>
+		<label>Painted Clay Pot (unfired)</label>
+		<graphicData>
+			<texPath>Things/Pottery/Pot_RedFigure_unfired</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="ClayPotWet">
+		<defName>ClayPotWetLead</defName>
+		<label>Lead-Glazed Pot (unfired)</label>
+		<graphicData>
+			<texPath>Things/Pottery/Pot_Lead_unfired</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="ClayPotWet">
+		<defName>ClayPotWetSalt</defName>
+		<label>Salt-Glazed Pot (unfired)</label>
+		<graphicData>
+			<texPath>Things/Pottery/Pot_Salt_unfired</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+
+	</ThingDef>
+	<ThingDef ParentName="ClayPotWet">
+		<defName>ClayPotWetTin</defName>
+		<label>Tin-Glazed Pot (unfired)</label>
+		<graphicData>
+			<texPath>Things/Pottery/Pot_Tin_unfired</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+	
+	
+	<!-- FIRED UNINSTALLED CLAY POTS -->
+	
+	<ThingDef ParentName="ClayPotWet">
+		<defName>ClayPot</defName>
+		<label>Clay Pot</label>
+		<graphicData>
+			<texPath>Things/Pottery/Pot_full_crate</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="ClayPotWet">
+		<defName>ClayPotAsh</defName>
+		<label>Ash-Glazed Pot</label>
+		<graphicData>
+			<texPath>Things/Pottery/Pot_Ash_full_crate</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="ClayPotWet">
+		<defName>ClayPotPainted</defName>
+		<label>Painted Clay Pot</label>
+		<graphicData>
+			<texPath>Things/Pottery/Pot_RedFigure_full_crate</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>		
+	</ThingDef>
+	<ThingDef ParentName="ClayPotWet">
+		<defName>ClayPotLead</defName>
+		<label>Lead-Glazed Pot</label>
+		<graphicData>
+			<texPath>Things/Pottery/Pot_Lead_full_crate</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>	
+	</ThingDef>
+	<ThingDef ParentName="ClayPotWet">
+		<defName>ClayPotTin</defName>
+		<label>Tin-Glzed Pot</label>
+		<graphicData>
+			<texPath>Things/Pottery/Pot_Tin_full_crate</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>	
+	</ThingDef>
+	<ThingDef ParentName="ClayPotWet">
+		<defName>ClayPotSalt</defName>
+		<label>Salt-Glazed Pot</label>
+		<graphicData>
+			<texPath>Things/Pottery/Pot_Salt_full_crate</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingDef>
+	
+</Defs>

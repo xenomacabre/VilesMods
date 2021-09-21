@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef ParentName="WorkTable">
+		<defName>LogSplittingSpot</defName>
+		<label>log-splitting spot</label>
+		<description>A space designated for splitting logs into firewood and firewood into kindling.</description>
+		<graphicData>
+			<texPath>Things/VileWood/LogSplittingSpot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<statBases>
+			<WorkToBuild>300</WorkToBuild>
+			<WorkTableWorkSpeedFactor>0.85</WorkTableWorkSpeedFactor>
+			<Mass>1</Mass>
+		</statBases>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<useHitPoints>False</useHitPoints>
+		<size>(1,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>Standable</passability>
+		<building>
+			<uninstallWork>150</uninstallWork>
+			<sowTag>SupportPlantsOnly</sowTag>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+			<ai_chillDestination>false</ai_chillDestination>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+		</building>
+		<recipes>
+			<li>MakeFirewoodFromUltrahardwood_Hand</li>
+			<li>MakeFirewoodFromHardwood_Hand</li>
+			<li>MakeFirewoodFromSoftwood_Hand</li>
+			<li>MakeKindling_Hand</li>
+		</recipes>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>Small_ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+			<li>
+				<compClass>CompReportWorkSpeed</compClass>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
+		</placeWorkers>
+		<useStuffTerrainAffordance>false</useStuffTerrainAffordance>
+	</ThingDef>	
+</Defs>

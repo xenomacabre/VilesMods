@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ <Defs>
+	<StuffAppearanceDef>
+    <defName>Slab</defName>
+  	</StuffAppearanceDef>
+	 
+	 <StuffAppearanceDef>
+    <defName>Bamboo</defName>
+  	</StuffAppearanceDef>
+	 
+	 <StuffAppearanceDef>
+    <defName>Logs</defName>
+  	</StuffAppearanceDef>
+	
+	<StuffAppearanceDef>
+    <defName>Panel</defName>
+  	</StuffAppearanceDef>
+	 
+	 <StuffAppearanceDef>
+    <defName>Cladding</defName>
+  	</StuffAppearanceDef>
+	
+	 <StuffAppearanceDef>
+    <defName>Smooth</defName>
+  	</StuffAppearanceDef>
+	 
+	
+	
+</Defs>

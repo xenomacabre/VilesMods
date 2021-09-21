@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_Processing</defName>
+		<label>Processing</label>
+		<description>Ovens for long-term pyroprocessing.</description>
+		<defNames>
+			<li>Kiln</li>
+			<li>CementationFurnace</li>
+		</defNames>
+		<designationCategory>Production</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+	
+	<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_Ceramics</defName>
+		<label>Glazed Ceramics</label>
+		<description>Ceramic pots.</description>
+		<defNames>
+			<li>Building_ClayPotAsh</li>
+			<li>Building_ClayPotPainted</li>
+			<li>Building_ClayPotSalt</li>
+			<li>Building_ClayPotLead</li>
+			<li>Building_ClayPotTin</li>
+		</defNames>
+		<designationCategory>LWM_DS_Storage</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+	
+	<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_Milling</defName>
+		<label>Milling</label>
+		<description>Grinding and smashing stuff into smaller bits.</description>
+		<defNames>
+			<li>StampMill</li>
+		</defNames>
+		<designationCategory>Production</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+	
+	<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_Casting</defName>
+		<label>Casting</label>
+		<description>Melting stuff into moulds.</description>
+		<defNames>
+			<li>Foundry</li>
+		</defNames>
+		<designationCategory>Production</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+	
+</Defs>

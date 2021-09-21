@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+		<!-- ========= forge, cast FASTENERS ========= -->
+	<RecipeDef>
+		<defName>Make_ComponentMedieval</defName>
+		<label>Make fasteners from metal</label>
+		<description>Makes simple fasteners (nails, rivets, etc) by pulling wire through a draw plate, cutting, and cold hammering them into shape. Produces 10.</description>
+		<jobString>Making fasteners.</jobString>
+		<workAmount>1000</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>MakeWoodPlanks_Electric</effectWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
+		<recipeUsers>
+			<li>CraftingSpot</li>
+			<li>FabricationBench</li>
+			<li>AdvToolBench</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>HCMBar</li>
+						<li>PRSBar</li>
+					</categories>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+						<li>SLDBar</li>
+						<li>HCMBar</li>
+						<li>PRSBar</li>
+					</categories>
+		</fixedIngredientFilter>
+		<products>
+			<ComponentMedieval>10</ComponentMedieval>
+		</products>
+		<skillRequirements>
+			<Crafting>1</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>Make_ComponentMedieval_Smithy</defName>
+		<label>Forge fasteners from metal</label>
+		<description>Makes simple fasteners (nails, rivets, etc) by pulling wire through a draw plate, cutting, and hot forging them into shape. Produces 10.</description>
+		<jobString>Forging Fasteners.</jobString>
+		<workAmount>600</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>MakeWoodPlanks_Electric</effectWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
+		<recipeUsers>
+			<li>FueledSmithy</li>
+			<li>ElectricSmithy</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>HCMBar</li>
+						<li>PRSBar</li>
+					</categories>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+						<li>SLDBar</li>
+						<li>HCMBar</li>
+						<li>PRSBar</li>
+					</categories>
+		</fixedIngredientFilter>
+		<products>
+			<ComponentMedieval>10</ComponentMedieval>
+		</products>
+		<skillRequirements>
+			<Crafting>1</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+	
+	
+	<RecipeDef>
+		<defName>Make_ComponentMedievalBronze</defName>
+		<label>Cast fasteners from metal.</label>
+		<description>Cast fasteners such as nails and rivets from rugged castable metals. Almost twice as fast as forging, but requires mold materials and and only castable metals may be used. Produces 40.</description>
+		<jobString>Casting fasteners.</jobString>
+		<workAmount>900</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>MakeWoodPlanks_Electric</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<recipeUsers>
+			<li>Foundry</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>CastBar</li>
+					</categories>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SandResource</li>
+						<li>SoftClay</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+						<li>CastBar</li>
+					</categories>
+				<thingDefs>
+					<li>SandResource</li>
+					<li>SoftClay</li>
+				</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ComponentMedieval>40</ComponentMedieval>
+		</products>
+		<skillRequirements>
+			<Crafting>1</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+	
+	<!-- THREADED FASTENERS, (industrial components) -->
+	
+	<RecipeDef>
+		<defName>Make_ComponentIndustrial</defName>
+		<label>Make components.</label>
+		<description>Nuts and bolts, machine screws, etc. Painstakingly threaded by hand using a screw plate. Produces 10.</description>
+		<jobString>Making components.</jobString>
+		<workAmount>2000</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
+		<recipeUsers>
+			<li>FabricationBench</li>
+			<li>AdvToolBench</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Bronze</li>	
+				<li>Plasteel</li>			
+			</thingDefs>
+			<disallowedThingDefs>
+				<li>FerrosiliconAlloy</li>
+				<li>CupronickelAlloy</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>	
+	
+	<!-- ========= forge, cast MECHANISMS ========= -->
+	
+		<RecipeDef>
+		<defName>Cast_Mechanisms</defName>
+		<label>Cast mechanisms from metal.</label>
+		<description>Cast and assemble mechanisms from strong metals. Produces 10.</description>
+		<jobString>Casting mechanisms.</jobString>
+		<workAmount>1800</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>MakeWoodPlanks_Electric</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<recipeUsers>
+			<li>Foundry</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>CastBar</li>
+					</categories>
+				</filter>
+				<count>60</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SandResource</li>
+						<li>SoftClay</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+				<categories>
+					<li>CastBar</li>
+				</categories>
+				<thingDefs>
+					<li>SandResource</li>
+					<li>SoftClay</li>
+				</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Mechanism>10</Mechanism>
+		</products>
+		<skillRequirements>
+			<Crafting>1</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>Cast_CannonParts</defName>
+		<label>Cast cannon parts (x4).</label>
+		<description>Cast cannon parts. Produces 4.</description>
+		<jobString>Casting cannon parts.</jobString>
+		<workAmount>2000</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>MakeWoodPlanks_Electric</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<recipeUsers>
+			<li>Foundry</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>CastBar</li>
+					</categories>
+				</filter>
+				<count>200</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SandResource</li>
+						<li>SoftClay</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+				<categories>
+					<li>CastBar</li>
+				</categories>
+		</fixedIngredientFilter>
+		<products>
+			<CannonParts>4</CannonParts>
+		</products>
+		<skillRequirements>
+			<Crafting>1</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+	
+	
+</Defs>

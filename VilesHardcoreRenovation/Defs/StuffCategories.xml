@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<StuffCategoryDef>
+		<defName>Aggregate</defName>
+		<label>Aggregate</label>
+	</StuffCategoryDef>
+
+	
+</Defs>

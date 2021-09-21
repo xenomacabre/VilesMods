@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<!-- MISC CHANGES -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeKindling_Hand"]/label</xpath>
+		<value>
+			<label>chop kindling (x20)</label>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeKindling_Hand"]/description</xpath>
+		<value>
+			<description>Chop firewood into kindling to be used to fuel torches and other fueled buildings. Over the course of a season, it may last longer than firewood, but it's time-consuming to make and it requires refueling buildings more frequently.</description>
+		</value>
+    </Operation>
+	
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeKindling_Electric"]/label</xpath>
+		<value>
+			<label>chop kindling</label>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeKindling_Electric"]/description</xpath>
+		<value>
+			<description>Split firewood into kindling to be used to fuel torches and other fueled buildings. Over the course of a season, it may last longer than firewood, but it's time-consuming to make and it requires refueling buildings more frequently.</description>
+		</value>
+    </Operation>
+	<!--
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeWoodPlanks_Hand"]/label</xpath>
+		<value>
+			<label>make plywood</label>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeWoodPlanks_Hand"]/description</xpath>
+		<value>
+			<description>Cut discarded wood into thin sheets and glue them together to make sturdy (but ugly) plywood. Makes 15 from 10.</description>
+		</value>
+    </Operation>
+	
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeWoodPlanks_Electric"]/label</xpath>
+		<value>
+			<label>make plywood</label>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeWoodPlanks_Electric"]/description</xpath>
+		<value>
+			<description>Cut discarded wood into thin sheets and glue them together to make sturdy (but ugly) plywood. Makes 30 from 20.</description>
+		</value>
+    </Operation>
+	-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="TableSawmillHand"]/recipes</xpath>
+		<value>
+			<recipes>
+				<!--<li>MakeRedWoodPlanks_Hand</li>-->
+				<!--<li>MakeBambooPlanks_Hand</li>-->
+				<li>MakeFirewoodFromSoftwood_Hand</li>
+				<li>MakeFirewoodFromHardwood_Hand</li>
+				<li>MakeFirewoodFromUltrahardwood_Hand</li>
+				<li>MakeKindling_Hand</li>
+				<li>MakeWoodPlanks_Hand</li>
+				
+				
+				<li>SawPlanks_Cecropia</li>
+				<li>SawPlanks_Pine</li>
+				<li>SawPlanks_Willow</li>
+				<li>MakeRedWoodPlanks_Hand</li>
+				<li>SawPlanks_Cypress</li>
+				<li>SawPlanks_Poplar</li>
+				<li>SawPlanks_Maple</li>
+				<li>SawPlanks_Teak</li>
+				<li>SawPlanks_Birch</li>
+				<li>SawPlanks_Oak</li>
+				<li>MakeBambooPlanks_Hand</li>
+				<li>SawPlanks_Drago</li>
+				<li>SawPlanks_Mangrove</li>
+
+			</recipes>
+		</value>
+    </Operation>
+	
+		<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="TableSawmillElectric"]/recipes</xpath>
+		<value>
+			<recipes>
+				<!--<li>MakeRedWoodPlanks_Hand</li>-->
+				<!--<li>MakeBambooPlanks_Hand</li>-->
+				<li>MakeFirewoodFromSoftwood_Electric</li>
+				<li>MakeFirewoodFromHardwood_Electric</li>
+				<li>MakeFirewoodFromUltrahardwood_Electric</li>
+				<li>MakeKindling_Electric</li>
+				<li>MakeWoodPlanks_Electric</li>
+				
+				<li>MillPlanks_Cecropia</li>
+				<li>MillPlanks_Pine</li>
+				<li>MillPlanks_Willow</li>
+				<li>MakeRedWoodPlanks_Electric</li>
+				<li>MillPlanks_Cypress</li>
+				<li>MillPlanks_Poplar</li>
+				<li>MillPlanks_Maple</li>
+				<li>MillPlanks_Teak</li>
+				<li>MillPlanks_Birch</li>
+				<li>MillPlanks_Oak</li>
+				<li>MakeBambooPlanks_Electric</li>
+				<li>MillPlanks_Drago</li>
+				<li>MillPlanks_Mangrove</li>
+
+			</recipes>
+		</value>
+    </Operation>
+	
+
+	
+	
+	
+	
+</Patch>

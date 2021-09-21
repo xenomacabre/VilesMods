@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains">
+		<defName>DoBillsMakeWeapons</defName>
+		<label>forge items</label>
+		<workType>Smithing</workType>
+		<priorityInType>115</priorityInType>
+		<fixedBillGiverDefs>
+			<li>ElectricSmithy</li>
+			<li>FueledSmithy</li>
+			<li>Finery</li>
+		</fixedBillGiverDefs>
+		<verb>forging</verb>
+		<gerund>forging at</gerund>
+	</WorkGiverDef>
+	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains">
+		<defName>DoBillsMetalCasting</defName>
+		<label>metal casting</label>
+		<workType>Smithing</workType>
+		<priorityInType>110</priorityInType>
+		<fixedBillGiverDefs>
+			<li>Foundry</li>
+		</fixedBillGiverDefs>
+		<verb>metal casting</verb>
+		<gerund>metal casting at</gerund>
+	</WorkGiverDef>
+	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains">
+		<defName>DoBillsPottery</defName>
+		<label>Pottery</label>
+		<workType>Art</workType>
+		<priorityInType>150</priorityInType>
+		<fixedBillGiverDefs>
+			<li>PotteryStation</li>
+		</fixedBillGiverDefs>
+		<verb>doing pottery bills</verb>
+		<gerund>doing pottery bills at</gerund>
+	</WorkGiverDef>
+</Defs>

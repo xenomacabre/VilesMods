@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="WorkTableFueled">
+		<defName>FirePit</defName>
+		<label>fire pit</label>
+		<description>A large oven dug into the earth. It can burn much hotter than a normal campfire - enough to smelt pre-iron age metals such as copper and bronze.</description>    
+		<graphicData>
+			<texPath>Things/Building/FirePit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<rect>(0.2,0,0.6,0.1)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.8, 0.5, 0.8)</volume>
+			</shadowData>
+		</graphicData>
+		<fillPercent>0.1</fillPercent>
+		<stuffCategories>
+			<li>Stony</li>
+			<li>Bricks</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>900</WorkToBuild>
+			<Flammability>0</Flammability>
+			<WorkTableWorkSpeedFactor>0.75</WorkTableWorkSpeedFactor>
+		</statBases>
+		<size>(2,2)</size>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>1</resourcesFractionWhenDeconstructed>
+		<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+		<placeWorkers>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+			<li>PlaceWorker_Heater</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>10</glowRadius>
+				<glowColor>(272,177,105,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>19</heatPerSecond>
+				<heatPushMaxTemperature>34</heatPushMaxTemperature>
+			</li>
+			<li Class="SK.CompFueled_Properties">
+				<operatingTemp>900</operatingTemp>
+				<fireDrawOffset>(0,0.15,0.1)</fireDrawOffset>
+				<smokeDrawOffset>(0,0,0.1)</smokeDrawOffset>
+				<fuelDrawOffset>(0,0.1,0.01)</fuelDrawOffset>
+				<fuelDrawScale>0.8</fuelDrawScale>
+				<fuelCapacity>18</fuelCapacity>
+				<burnFuelMultiplier>1</burnFuelMultiplier>
+				<smokesize>0.4</smokesize>
+				<canAutoBurn>true</canAutoBurn>
+				<effectOnWeather>true</effectOnWeather>
+				<smokeDensity>2</smokeDensity>
+				<fuelFilter>
+					<thingDefs>
+						<li>Charcoal</li>
+						<li>Coal</li>
+						<li>Kindling</li>
+						<li>Tallow</li>
+					</thingDefs>
+					<categories>
+						<li>Wooden</li>
+					</categories>  
+				</fuelFilter>
+			</li>
+		</comps>
+		<designationCategory>Production</designationCategory>
+		<recipes>
+			<li>CremateCorpse</li>
+			<li>BurnApparel</li>
+			<li>BurnDrugs</li>
+			<li>BurnThings</li>
+			<li>MakeCharcoal_Hand</li>
+		</recipes>
+		<building>
+			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
+		</building>
+	</ThingDef>
+	
+	<!-- ==== BLOOMERY ==== -->
+	<ThingDef ParentName="WorkTableFueled">
+		<defName>Bloomery</defName>
+		<label>bloomery</label>
+		<description>A bloomery is a small furnace used to reduce iron ore (ie. dirty, rusty rocks) into a iron bloom. The furnace doesn't get hot enough to melt the iron, but instead the carbon monoxide (CO) from the burning carbon fuel (charcoal) reacts with the iron oxide (FeO) to make carbon dioxide (CO2), leaving behind metallic iron (Fe) in a spongy mass of slag. Then you'll want to have a blacksmith beat the impurities out with a hammer if you want iron that you can actually use.</description>
+		<graphicData>
+			<texPath>Things/Building/Bloomery</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.8, 0.8, 0.8)</volume>
+				<offset>(0,0,-0.3)</offset>
+			</shadowData>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Bloomery_north</uiIconPath>
+		<stuffCategories>
+			<li>Stony</li>
+			<li>Bricks</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<statBases>
+			<WorkToBuild>1000</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Cleanliness>-8</Cleanliness>
+			<Mass>200</Mass>
+		</statBases>
+		<pathCost>30</pathCost>
+		<size>(2,2)</size>
+		<designationCategory>Production</designationCategory>
+		<interactionCellOffset>(1,0,-1)</interactionCellOffset>
+		<fillPercent>0.7</fillPercent>
+		<building>
+			<uninstallWork>1450</uninstallWork>
+		</building>
+		<recipes>
+			<li>MakeIronBloom_Bloomery</li>
+		</recipes>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(217,112,33,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>25</heatPerSecond>
+				<heatPushMaxTemperature>27</heatPushMaxTemperature>
+			</li>
+			<li Class="SK.CompFueled_Properties">
+				<operatingTemp>1000</operatingTemp>
+				<fireDrawOffset>(0.52,0.1,-0.55)</fireDrawOffset>
+				<smokeDrawOffset>(0.5,-0.1,1.5)</smokeDrawOffset>
+				<fuelDrawOffset>(0,0.1,-0.8)</fuelDrawOffset>
+				<fuelCapacity>40</fuelCapacity>
+				<burnFuelMultiplier>0.6</burnFuelMultiplier>
+				<effectOnWeather>false</effectOnWeather>
+				<smokeDensity>1</smokeDensity>
+				<fuelFilter>
+					<thingDefs>
+						<li>Coal</li>
+						<li>Charcoal</li>
+						<li>Coke</li>
+					</thingDefs>
+				</fuelFilter>
+			</li>
+			<li>
+				<compClass>CompReportWorkSpeed</compClass>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>Metallurgy_B2</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	<!-- ==== BLAST FURNACE ==== -->
+	<ThingDef ParentName="BuildingFueled">
+		<defName>TableFurnace</defName>
+		<label>blast furnace</label>
+		<description>A furnace used for smelting basic metal (typically iron) ores into metal alloys. A bellows blasts air into the furnace and the carbon in the fuel (coal, coke, or charcoal) reacts with the oxygen in the ore removing impurities and leaving behind iron rich with a high carbon content (pig iron). Copper, lead, bronze, gold and silver can also be smelted here, though those processes are much simpler due to lower melting points. Powering the bellows with a steam engine can speed up the process.</description>
+		<graphicData>
+			<texPath>Things/Building/BlastFurnace</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(6.4,6.4)</drawSize>
+			<shadowData>
+				<volume>(4, 5, 3)</volume> <!-- Width, Length?,  Height -->
+				<offset>(0,0,-1)</offset>
+			</shadowData>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<drawRotated>false</drawRotated>
+		</graphicData>
+		<uiIconPath>Things/Building/BlastFurnace_north</uiIconPath>
+		<stuffCategories>
+			<li>Stony</li>
+			<li>Bricks</li>
+		</stuffCategories>
+		<costStuffCount>240</costStuffCount>
+		<costList>
+			<ComponentMedieval>4</ComponentMedieval>
+			<Leather_Patch>8</Leather_Patch>
+		</costList>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<statBases>
+			<WorkToBuild>3400</WorkToBuild>
+			<MaxHitPoints>320</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Cleanliness>-8</Cleanliness>
+			<Mass>1000</Mass>
+		</statBases>
+		<pathCost>90</pathCost>
+		<size>(5,4)</size>
+		<designationCategory>Production</designationCategory>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
+		<fillPercent>0.7</fillPercent>
+		<building>
+			<uninstallWork>1450</uninstallWork>
+			<wantsHopperAdjacent>true</wantsHopperAdjacent>
+		</building>
+		<recipes>
+			<li>MakePigIron_Furnace</li>
+			<li>MakeTinBars_Hand</li>
+			<li>MakeCopperBars_Hand</li>
+			<li>MakeBronze_Hand</li>
+			<!--<li>MakeSteelBars_Hand</li> blast furnace does not get hot enought to melt steel-->
+			<li>MakeLeadBars_Hand</li>
+			<li>MakeGoldBars_Hand</li>
+			<li>MakeSilverBars_Hand</li>
+			<!-- <li>MakeGlassBatch</li> done at kiln -->
+			<li>MakeGlass</li>
+			<li>MakeCharcoal_Hand</li>
+		</recipes>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<!--<li>ToolCabinet</li>-->
+					<li>SteamEngine</li>
+				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(217,112,33,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>25</heatPerSecond>
+				<heatPushMaxTemperature>27</heatPushMaxTemperature>
+			</li>
+			<li Class="SK.CompFueled_Properties">
+				<operatingTemp>1300</operatingTemp>
+				<fireDrawOffset>(0,1,0)</fireDrawOffset>
+				<smokeDrawOffset>(0.5,3,1)</smokeDrawOffset>
+				<fuelDrawOffset>(0,0.1,-0.8)</fuelDrawOffset>
+				<fuelCapacity>200</fuelCapacity>
+				<burnFuelMultiplier>0.8</burnFuelMultiplier>
+				<effectOnWeather>true</effectOnWeather>
+				<smokeDensity>2</smokeDensity>
+				<fuelFilter>
+					<thingDefs>
+						<li>Coal</li>
+						<li>Charcoal</li>
+						<li>Coke</li>
+					</thingDefs>
+				</fuelFilter>
+			</li>
+			<li>
+				<compClass>CompReportWorkSpeed</compClass>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>Metallurgy_B3</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	<!-- ==== SMITHY FORGE ==== -->
+	<ThingDef ParentName="WorkTableFueled">
+		<defName>FueledSmithy</defName>
+		<label>smithy forge</label>
+		<description>This blacksmithing setup has all the tools needed to build metal armor, work tools, melee weapons, advanced bows and crossbows, as well as simple ammunition such as arrows. It requires some fuel that burns at a high temperature such as coal or peat.</description>
+		<graphicData>
+			<texPath>Things/Building/Production/NeolithicProduction/Blacksmith</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(2.3, 1.7, 2.3)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Production/NeolithicProduction/Blacksmith_south</uiIconPath>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+			<li>Stony</li>
+			<li>Bricks</li>
+		</stuffCategories>
+		<costStuffCount>220</costStuffCount>
+		<costList>
+			<ComponentMedieval>12</ComponentMedieval>
+			<Mechanism>8</Mechanism>
+		</costList>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<statBases>
+			<WorkToBuild>1700</WorkToBuild>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-12</Cleanliness>
+			<Mass>1000</Mass>
+		</statBases>
+		<pathCost>90</pathCost>
+		<size>(3,3)</size>
+		<designationCategory>Production</designationCategory>
+		<interactionCellOffset>(0,0,2)</interactionCellOffset>
+		<fillPercent>0.85</fillPercent>
+		<building>
+			<uninstallWork>1450</uninstallWork>
+		</building>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>Small_ToolCabinet</li>
+					<li>PodChair</li>
+				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>30</heatPerSecond>
+				<heatPushMaxTemperature>45</heatPushMaxTemperature>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(217,112,33,0)</glowColor>
+			</li>
+			<li Class="SK.CompFueled_Properties">
+				<operatingTemp>1400</operatingTemp>
+				<fireDrawOffset>(0,0.1,-0.05)</fireDrawOffset>
+				<smokeDrawOffset>(1.0,3.0,1.0)</smokeDrawOffset>
+				<fuelDrawOffset>(0,0.1,-0.2)</fuelDrawOffset>
+				<fuelDrawScale>1.3</fuelDrawScale>
+				<fuelCapacity>30</fuelCapacity>
+				<burnFuelMultiplier>0.4</burnFuelMultiplier>
+				<effectOnWeather>false</effectOnWeather>
+				<smokeDensity>2</smokeDensity>
+				<fuelFilter>
+					<thingDefs>
+						<li>Coal</li>
+						<li>Charcoal</li>
+					</thingDefs>
+				</fuelFilter>
+			</li>
+			<li>
+				<compClass>CompReportWorkSpeed</compClass>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
+		</placeWorkers>
+		<recipes>
+			<li>MakeWroughtIron_Forge</li>
+			<li>MakeForgeWeldedSteel_Smithy</li>
+			<li>SmeltWeapon</li>
+		</recipes>
+		<researchPrerequisites>
+			<li>Metallurgy_B2</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	<!-- ==== FINERY FORGE ==== -->
+	<ThingDef ParentName="WorkTableFueled">
+		<defName>Finery</defName>
+		<label>finery Forge</label>
+		<description>A finery is a forge that specialized in producing wrought bar iron from cast iron or bloom. The raw iron is melted and hammered into shape with a (preferrably) water-powered trip hammer, and then reheated and hammered again until the slag and much of the carbon is removed. At this stage, the melting point is too high to be melted again unless recarbonized. It can also be used to make certain products such as plate armor.</description>
+		<graphicData>
+			<texPath>Things/Building/Finery</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(7,7)</drawSize>
+			<shadowData>
+				<volume>(6, 2, 1)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<!--<drawRotated>false</drawRotated>-->
+		</graphicData>
+		<uiIconPath>Things/Building/Finery_south</uiIconPath>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>200</costStuffCount>
+		<costList>
+			<ComponentMedieval>12</ComponentMedieval>
+			<Mechanism>1</Mechanism>
+			<WoodPlank>50</WoodPlank>
+		</costList>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<statBases>
+			<WorkToBuild>1700</WorkToBuild>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-12</Cleanliness>
+			<Mass>1000</Mass>
+			<WorkTableWorkSpeedFactor>0.65</WorkTableWorkSpeedFactor>
+		</statBases>
+		<pathCost>90</pathCost>
+		<size>(6,3)</size>
+		<designationCategory>Production</designationCategory>
+		<interactionCellOffset>(0,0,2)</interactionCellOffset>
+		<fillPercent>0.85</fillPercent>
+		<building>
+			<uninstallWork>1450</uninstallWork>
+		  <!-- <wantsHopperAdjacent>true</wantsHopperAdjacent>-->
+		</building>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>Small_ToolCabinet</li>
+					<li>WaterWheel</li>
+					<li>PodChair</li>
+				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>30</heatPerSecond>
+				<heatPushMaxTemperature>45</heatPushMaxTemperature>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(217,112,33,0)</glowColor>
+			</li>
+			<li Class="SK.CompFueled_Properties">
+				<operatingTemp>1400</operatingTemp>
+				<fireDrawOffset>(0,0.1,-0.05)</fireDrawOffset>
+				<smokeDrawOffset>(3,3.0,1.0)</smokeDrawOffset>
+				<fuelDrawOffset>(0,0.1,-0.2)</fuelDrawOffset>
+				<fuelDrawScale>1.3</fuelDrawScale>
+				<fuelCapacity>30</fuelCapacity>
+				<burnFuelMultiplier>0.4</burnFuelMultiplier>
+				<effectOnWeather>false</effectOnWeather>
+				<smokeDensity>2</smokeDensity>
+				<fuelFilter>
+					<thingDefs>
+						<li>Coal</li>
+						<li>Charcoal</li>
+					</thingDefs>
+				</fuelFilter>
+			</li>
+			<li>
+				<compClass>CompReportWorkSpeed</compClass>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
+		</placeWorkers>
+		<recipes>
+			<li>MakeWroughtIron_PigIron_Finery</li>
+			<li>MakeWroughtIron_Finery</li>
+			<li>MakeForgeWeldedSteel_Finery</li>
+			<li>MakeForgeWeldedSteel_BlisterSteel_Finery</li>
+		</recipes>
+		<researchPrerequisites>
+			<li>Metallurgy_B3</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	<!-- ==== FOUNDRY ==== -->
+	<ThingDef ParentName="WorkTableFueled">
+		<defName>Foundry</defName>
+		<label>foundry</label>
+		<description>A reverberatory furnace for melting metals. The material is heated by reflected thermal energy and combustion gasses without direct contact with the fuel (as opposed to a blast furnace). It's a multi-use furnace. Pots and crucibles can be placed in the hearth, or the chamber can be completely filled with molten metal for puddling pig into wrought iron or, technology allowing, certain types of steel.</description>
+		<!--<description>A tall and narrow furnace for melting metal. The metal is loaded into the top and makes its way past layers of hot coal and flux and pours out a spout into molds.</description>-->
+		<graphicData>
+			<texPath>Things/Building/ReverberatoryFurnace</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(8.5,8.5)</drawSize>
+			<shadowData>
+				<volume>(8, 2.5, 2.5)</volume>
+				<offset>(0,3,0)</offset>
+			</shadowData>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<drawRotated>false</drawRotated>
+		</graphicData>
+		<uiIconPath>Things/Building/ReverberatoryFurnace_north</uiIconPath>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+			<li>Stony</li>
+			<li>Bricks</li>
+		</stuffCategories>
+		<costStuffCount>220</costStuffCount>
+		<costList>
+			<ComponentMedieval>12</ComponentMedieval>
+			<Mechanism>8</Mechanism>
+		</costList>
+		<!--<minifiedDef>MinifiedThing</minifiedDef>-->
+		<!--<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>-->
+		<statBases>
+			<WorkToBuild>1700</WorkToBuild>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-12</Cleanliness>
+			<Mass>1000</Mass>
+		</statBases>
+		<pathCost>90</pathCost>
+		<size>(8,3)</size>
+		<designationCategory>Production</designationCategory>
+		<interactionCellOffset>(1,0,2)</interactionCellOffset>
+		<fillPercent>1.0</fillPercent>
+		<building>
+			<uninstallWork>1450</uninstallWork>
+			<wantsHopperAdjacent>true</wantsHopperAdjacent>
+		</building>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>Small_ToolCabinet</li>
+					<li>SteamEngine</li>
+				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>30</heatPerSecond>
+				<heatPushMaxTemperature>45</heatPushMaxTemperature>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>6</glowRadius>
+				<glowColor>(217,112,33,0)</glowColor>
+			</li>
+			<li Class="SK.CompFueled_Properties">
+				<operatingTemp>1600</operatingTemp>
+				<fireDrawOffset>(0,0.1,-0.05)</fireDrawOffset>
+				<smokeDrawOffset>(0,3.0,1.0)</smokeDrawOffset>
+				<fuelDrawOffset>(0,0.1,-0.2)</fuelDrawOffset>
+				<fuelDrawScale>1.3</fuelDrawScale>
+				<fuelCapacity>30</fuelCapacity>
+				<burnFuelMultiplier>0.4</burnFuelMultiplier>
+				<effectOnWeather>false</effectOnWeather>
+				<smokeDensity>3</smokeDensity>
+				<fuelFilter>
+					<thingDefs>
+						<li>Coal</li>
+						<li>Charcoal</li>
+						<li>Coke</li>
+					</thingDefs>
+				</fuelFilter>
+			</li>
+			<li>
+				<compClass>CompReportWorkSpeed</compClass>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
+		</placeWorkers>
+		<recipes>
+			<li>MakeCastIron</li>
+			<li>PuddleWroughtIronFromPigIron</li>
+			<li>PuddleWroughtIronFromCastIron</li>
+			<!--<li>PuddleMildSteel</li>-->
+			<li>MakeCrucibleSteel</li>
+		</recipes>
+		<researchPrerequisites>
+			<li>Metallurgy_B4</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<!-- ==== WATER WHEEL ==== -->
+	<ThingDef ParentName="FacilitiesBase">
+		<defName>WaterWheel</defName>
+		<label>water wheel</label>
+		<description>Uses water to produce mechanical energy. Production builds such as the finery must be nearby to be powered by the waterwheel.</description>
+		<graphicData>
+			<texPath>Things/Building/WaterWheel</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,6)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1, 1, 5.5)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>120</costStuffCount>
+		<costList>
+			<ComponentMedieval>15</ComponentMedieval>
+		</costList>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<WorkToBuild>700</WorkToBuild>
+			<MaxHitPoints>270</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-3</Cleanliness>
+			<Mass>500</Mass>
+		</statBases>
+		<size>(1,5)</size>
+		<!--<interactionCellOffset>(0,0,-3)</interactionCellOffset>-->
+		<building>
+			<uninstallWork>1250</uninstallWork>
+			<canPlaceOverWall>true</canPlaceOverWall>
+		</building>
+		<blockLight>true</blockLight>
+		<holdsRoof>true</holdsRoof>
+		<passability>Impassable</passability>
+		<coversFloor>true</coversFloor>
+		<blockWind>true</blockWind>
+		<fillPercent>1</fillPercent>
+		<comps>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<WorkTableWorkSpeedFactor>0.6</WorkTableWorkSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+				<!--<mustBePlacedAdjacent>true</mustBePlacedAdjacent>-->
+			</li>
+			<!--<li Class="CompProperties_Power">
+				<compClass>CompPowerPlantWater</compClass>
+				<basePowerConsumption>-200</basePowerConsumption>
+				<transmitsPower>false</transmitsPower>
+			</li>-->
+			<!--<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>Waterwheel</li>
+				</linkableFacilities>
+			</li>-->
+			<li>
+				<compClass>CompReportWorkSpeed</compClass>
+			</li>
+		</comps>
+		<placeWorkers>
+			<!--<li>PlaceWorker_ReportWorkSpeedPenalties</li>-->
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			 <!-- <li>PlaceWorker_NextToHopperAccepter</li>-->
+			<!--  <li>PlaceWorker_PreventInteractionSpotOverlap</li>-->
+			  <!--<li>PlaceWorker_ReportWorkSpeedPenalties</li>-->
+				<!--<li>PlaceWorker_WatermillGenerator</li>-->
+			<li>Rimatomics.PlaceWorker_WaterStation</li>
+		</placeWorkers>
+		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>WaterWheelTech</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<!-- ==== STEAM ENGINE ==== -->
+	<ThingDef ParentName="FacilitiesBase">
+		<defName>SteamEngine</defName>
+		<label>blowing engine</label>
+		<description>A stationary steam engine for providing which blows air to speed up the efficiency of furnaces that use a bellows.</description>
+		<graphicData>
+			<texPath>Things/Building/SteamEngine</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.75, 1.5, 1.5)</volume>
+				<offset>(-0.15,0,-0.3)</offset>
+			</shadowData>
+			<drawRotated>false</drawRotated>
+		</graphicData>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<costList>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<Mechanism>2</Mechanism>
+			<Charcoal>100</Charcoal>
+		</costList>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<WorkToBuild>700</WorkToBuild>
+			<MaxHitPoints>170</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-3</Cleanliness>
+			<Mass>500</Mass>
+		</statBases>
+		<size>(2,2)</size>
+		<building>
+			<uninstallWork>900</uninstallWork>
+			<canPlaceOverWall>true</canPlaceOverWall>
+		</building>
+		<blockLight>true</blockLight>
+		<passability>Impassable</passability>
+		<coversFloor>true</coversFloor>
+		<comps>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<WorkTableWorkSpeedFactor>0.33</WorkTableWorkSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+				<!--<mustBePlacedAdjacent>true</mustBePlacedAdjacent> doesn't seem to work right -->
+			</li>
+			<!--<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>SteamEngineFuel</li>
+				</linkableFacilities>
+			</li>-->
+			<li>
+				<compClass>CompReportWorkSpeed</compClass>
+			</li>
+		</comps>
+		<placeWorkers>
+			<!--<li>PlaceWorker_ReportWorkSpeedPenalties</li>-->
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<!--<li>PlaceWorker_NextToHopperAccepter</li>-->
+			<!--  <li>PlaceWorker_PreventInteractionSpotOverlap</li>-->
+
+		</placeWorkers>
+		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>SteamEngineTech</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<!-- ==== STAMP MILL ==== -->
+	<ThingDef ParentName="WorkTable">
+		<defName>StampMill</defName>
+		<label>stamp mill</label>
+		<description>A mill that smashes rather than grinds. It can be powered by hand if you're desperate, but it's meant to be powered by a waterwheel.</description>
+		<graphicData>
+			<texPath>Things/Building/StampMill</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<drawRotated>false</drawRotated>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.5, 1.5, 2)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<costList>
+			<ComponentMedieval>8</ComponentMedieval>
+			<Mechanism>8</Mechanism>
+		</costList>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<statBases>
+			<WorkToBuild>800</WorkToBuild>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Mass>200</Mass>
+			<WorkTableWorkSpeedFactor>0.75</WorkTableWorkSpeedFactor>
+		</statBases>
+		<size>(2,2)</size>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<recipes>
+			<!--<li>MakeFlour</li>
+			<li>MakeSugar</li>
+			<li>CraftCornmeal</li>-->
+			<li>MakePowder</li>
+			<li>MakeSand_Hand</li>
+			<li>MakeSand_Hand_Chunk</li>
+			<li>MakeCrushedStone_Hand_Chunk</li>
+			<li>MakeCrushedStone_Hand</li>
+		</recipes>
+		<designationCategory>Production</designationCategory>
+		<building>
+			<uninstallWork>750</uninstallWork>
+		</building>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>WaterWheel</li>
+				</linkableFacilities>
+			</li>
+			<li>
+				<compClass>CompReportWorkSpeed</compClass>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
+		</placeWorkers>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>StampMillTech</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	
+<ThingDef ParentName="WorkTable">
+		<defName>PotteryStation</defName>
+		<label>pottery bench</label>
+		<description>A potter's wheel and bench for preparing earthenware and ceramic objects for the kiln.</description>
+		<graphicData>
+			<texPath>Things/Building/PotteryTable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,1)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.7, 1.0, 0.85)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<stuffCategories>
+			<li>Stony</li>
+			<li>Bricks</li>
+			<li>WoodLogs</li>
+		</stuffCategories>
+		<costStuffCount>120</costStuffCount>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<statBases>
+			<WorkToBuild>900</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-15</Cleanliness>
+			<WorkTableWorkSpeedFactor>1</WorkTableWorkSpeedFactor>
+			<Mass>100</Mass>
+		</statBases>
+		<size>(2,1)</size>
+		<designationCategory>Production</designationCategory>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<building>
+			<uninstallWork>900</uninstallWork>
+		</building>
+		<comps>
+			<li>
+				<compClass>CompReportWorkSpeed</compClass>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>Ceramics_A1</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+	</ThingDef>
+
+</Defs>

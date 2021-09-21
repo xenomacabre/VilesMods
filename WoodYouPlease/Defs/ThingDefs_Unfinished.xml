@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef ParentName="SK_UnfinishedBase">
+		<defName>UnfinishedPlank</defName>
+		<label>Unfinished wooden planks</label>
+		<description>Unfinished wooden planks.</description>
+		<graphicData>
+			<texPath>Things/VileWood/UnfinishedLog</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories Inherit="false" />
+	</ThingDef>
+	
+</Defs>

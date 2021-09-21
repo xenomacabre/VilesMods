@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+ 	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Dirt"]/label</xpath>
+		<value>
+			<label>silt</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="SandResource"]/label</xpath>
+		<value>
+			<label>sand</label>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Dirt"]/description</xpath>
+		<value>
+			<description>A fine grain mineral which makes up a part of mud and soil.</description>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Dirt"]</xpath>
+		<value>
+			<stuffProps>
+				<categories>
+					<li>Aggregate</li>
+				</categories>
+				<color>(130,96,66)</color>
+				<constructEffect>ConstructMetal</constructEffect>
+				<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+				<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+				<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+				<statOffsets>
+					<Beauty>0</Beauty>
+				</statOffsets>
+				<statFactors>
+					<MaxHitPoints>0.8</MaxHitPoints>
+					<WorkToMake>1.0</WorkToMake>
+					<WorkToBuild>1.0</WorkToBuild>
+					<Beauty>0</Beauty>
+					<Flammability>0.0</Flammability>
+					<Mass>1.0</Mass>
+				</statFactors>
+			</stuffProps>
+		</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="SandResource"]</xpath>
+		<value>
+			<stuffProps>
+				<categories>
+					<li>Aggregate</li>
+				</categories>
+				<color>(189,166,118)</color>
+				<constructEffect>ConstructMetal</constructEffect>
+				<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+				<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+				<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+				<statOffsets>
+					<Beauty>0</Beauty>
+				</statOffsets>
+				<statFactors>
+					<MaxHitPoints>0.9</MaxHitPoints>
+					<WorkToMake>1.1</WorkToMake>
+					<WorkToBuild>1.0</WorkToBuild>
+					<Beauty>0</Beauty>
+					<Flammability>0.0</Flammability>
+					<Mass>1.0</Mass>
+				</statFactors>
+			</stuffProps>
+		</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="CrushedStone"]</xpath>
+		<value>
+			<stuffProps>
+				<categories>
+					<li>Aggregate</li>
+				</categories>
+				<color>(155,155,137)</color>
+				<constructEffect>ConstructMetal</constructEffect>
+				<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+				<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+				<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+				<statOffsets>
+					<Beauty>0</Beauty>
+				</statOffsets>
+				<statFactors>
+					<MaxHitPoints>1.0</MaxHitPoints>
+					<WorkToMake>1.2</WorkToMake>
+					<WorkToBuild>1.2</WorkToBuild>
+					<Beauty>0</Beauty>
+					<Flammability>0.0</Flammability>
+					<Mass>1.0</Mass>
+				</statFactors>
+			</stuffProps>
+		</value>
+    </Operation>
+
+</Patch>

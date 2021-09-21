@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ <Defs>
+		<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_HardwoodFloors_H</defName>
+		<label>Hardwood Floors (H)</label>
+		<description>Horizontal hardwood floors.</description>
+		<defNames>
+			<li>WoodFloor_Pine</li>
+			<li>WoodFloor_Willow</li>
+			<li>WoodFloor_Redwood</li>
+			<li>WoodFloor_Cypress</li>
+			<li>WoodFloor_Poplar</li>
+			<li>WoodFloor_Maple</li>
+			<li>WoodFloor_Teak</li>
+			<li>WoodFloor_Birch</li>
+			<li>WoodFloor_Oak</li>
+			<li>WoodFloor_Dragonwood</li>
+			<li>WoodFloor_Mangrove</li>
+		</defNames>
+		<designationCategory>Floors</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+	 
+	 <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_HardwoodFloors_V</defName>
+		<label>Hardwood Floors (V)</label>
+		<description>Vertical hardwood floors.</description>
+		<defNames>
+			<li>WoodFloor_PineV</li>
+			<li>WoodFloor_WillowV</li>
+			<li>WoodFloor_RedwoodV</li>
+			<li>WoodFloor_CypressV</li>
+			<li>WoodFloor_PoplarV</li>
+			<li>WoodFloor_MapleV</li>
+			<li>WoodFloor_TeakV</li>
+			<li>WoodFloor_BirchV</li>
+			<li>WoodFloor_OakV</li>
+			<li>WoodFloor_DragonwoodV</li>
+			<li>WoodFloor_MangroveV</li>
+		</defNames>
+		<designationCategory>Floors</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+	 
+	  <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_ReclaimedWoodFloors</defName>
+		<label>Reclaimed Wood Floors</label>
+		<description>Rustic, rough, and repurposed hardwood floors.</description>
+		<defNames>
+			<li>WoodPlankFloorSix</li> <!-- Maple H -->
+			<li>WoodPlankFloorTwo</li> <!-- Maple V -->
+			<li>WoodPlankFloorThree</li> <!-- Stained Pine -->
+			<li>WoodPlankFloorFive</li> <!-- Painted Poplar -->
+			<li>RandomBirch</li> <!-- Sanded Birch -->
+			<li>ReclaimedVersailles</li> <!-- reclaimed oak versailles -->
+		</defNames>
+		<designationCategory>Floors</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+	 
+	 <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_RaisedFloors</defName>
+		<label>Decking</label>
+		<description>Raised wood floors for decks, porches, and boardwalks.</description>
+		<defNames>
+			<li>WoodPlankFloor</li>
+			<li>WoodPlankFloorVertical</li>
+			<li>OakDeck</li>
+			<li>OakDeckV</li>
+			<li>PineDeck</li>
+			<li>PineDeckV</li>
+		</defNames>
+		<designationCategory>Floors</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+	 
+	  <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_Matting</defName>
+		<label>Floor Matting</label>
+		<description>Various forms of matting.</description>
+		<defNames>
+			<li>BambooFloorB</li>
+			<li>TatamiMatting</li>
+			<li>RubberMatting</li>
+		</defNames>
+		<designationCategory>Floors</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+	 
+
+<!-- WALLS -->
+	 
+	 
+	 <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_PrimitiveWalls</defName>
+		<label>Primitive Walls</label>
+		<description>Walls made out of unrefined materials.</description>
+		<defNames>
+			<li>MudWall</li>
+			<li>AdobeWall</li>
+			<li>WattleWall</li>
+			<li>ClapboardWall</li>
+			<li>BambooWall</li>
+		</defNames>
+		<designationCategory>Structure</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+	 
+	 <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_InteriorWalls</defName>
+		<label>Interior Walls</label>
+		<description>Cheap and attractive interior walls.</description>
+		<defNames>
+			<li>InteriorWall</li>
+			<li>InteriorWall_Stripe</li>
+			<li>InteriorWall_Leafy</li>			
+			<li>InteriorWall_Floral</li>
+		</defNames>
+		<designationCategory>Structure</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef> 
+	 
+	 
+</Defs>

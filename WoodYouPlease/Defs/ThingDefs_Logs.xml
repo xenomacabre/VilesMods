@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+
+	
+	<!-- SOFTWOOD LOGS -->
+	<!--
+	<ThingDef Name="SoftwoodLogBase" ParentName="SK_ResourceBase" Abstract="True">
+		<defName>SoftwoodLogBase</defName>
+		<description>Uncut logs. Except when building logs walls, needs to be cut into planks for firewood to be of use.</description>
+		<graphicData>
+			<texPath>Things/VileWood/NewLogStackedBig</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<tickerType>Rare</tickerType>
+		<statBases>
+			<MarketValue>1.3</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Flammability>5.0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<StuffPower_Armor_Heat>0.05</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>1.0</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>0.6</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>0.3</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
+			<MeleeCounterParryBonus>0.85</MeleeCounterParryBonus>
+			<MaxBurningTempCelsius>500</MaxBurningTempCelsius>
+			<Mass>1.25</Mass>
+			<Bulk>1.25</Bulk>
+		</statBases>
+		<techLevel>Neolithic</techLevel>
+		<stackLimit>75</stackLimit>
+		<stuffProps>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<statFactors>
+				<MeleeWeapon_CooldownMultiplier>1.05</MeleeWeapon_CooldownMultiplier>
+				<MoveSpeed>1.1</MoveSpeed>
+				<DoorOpenSpeed>1.4</DoorOpenSpeed>
+				<MeleePenetrationFactor>0.4</MeleePenetrationFactor>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<isTechHediff>true</isTechHediff>
+		<thingCategories>
+			<li>Softwoods</li>
+		</thingCategories>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+	</ThingDef>
+	-->
+	<ThingDef Name="CecropiaLog" ParentName="SoftwoodLogBase">
+		<defName>CecropiaLog</defName>
+		<label>cecropia log</label>
+		<description>Cecropia is the lightest of the light and very easy to work with, but it's quite bland.</description>
+		<graphicData>
+			<color>(239,222,199)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>6.5</MarketValue>
+			<StuffPower_Armor_Blunt>1.0</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.55</StuffPower_Armor_Sharp>
+			<StuffPower_Insulation_Heat>1</StuffPower_Insulation_Heat>
+			<BurnDurationHours>2.4</BurnDurationHours>
+			<Mass>0.9</Mass>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Softwoods</li>
+   			</categories>
+			<stuffAdjective>cecropia log</stuffAdjective>
+			<color>(239,222,199)</color>
+			<statOffsets>
+				<Beauty>0</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>0.6</MaxHitPoints>
+				<Flammability>1.2</Flammability>
+				<Beauty>1.2</Beauty>
+				<WorkToMake>0.35</WorkToMake>
+				<WorkToBuild>0.35</WorkToBuild>
+				<MarketValue>0.78</MarketValue>
+				<BedRestEffectiveness>1.2</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.15</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.55</WorkTableWorkSpeedFactor>
+				<Mass>0.32</Mass>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	<ThingDef Name="PineLog" ParentName="SoftwoodLogBase">
+		<defName>PineLog</defName>
+		<label>pine log</label>
+		<description>Pine is a common building material where durability isn't so important. It's lightweight, and attractive, and is easy to work with.</description>
+		<graphicData>
+			<color>(244,183,79)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>6.5</MarketValue>
+			<StuffPower_Armor_Blunt>1.0</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.55</StuffPower_Armor_Sharp>
+			<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>
+			<BurnDurationHours>2.4</BurnDurationHours>
+			<Mass>1.15</Mass>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Softwoods</li>
+   			</categories>
+			<stuffAdjective>pine log</stuffAdjective>
+			<color>(244,183,79)</color>
+			<statOffsets>
+				<Beauty>2</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>0.65</MaxHitPoints>
+				<Flammability>0.7</Flammability>
+				<Beauty>1.75</Beauty>
+				<WorkToMake>0.35</WorkToMake>
+				<WorkToBuild>0.35</WorkToBuild>
+				<MarketValue>0.78</MarketValue>
+				<BedRestEffectiveness>1.32</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.0</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.6</WorkTableWorkSpeedFactor>
+				<Mass>0.37</Mass>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	<ThingDef Name="WillowLog" ParentName="SoftwoodLogBase">
+		<defName>WillowLog</defName>
+		<label>willow log</label>
+		<description>Willow is a soft wood which is fairly unremarkable. It makes good tool handles, however.</description>
+		<graphicData>
+						<color>(139,125,107)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>6.5</MarketValue>
+			<StuffPower_Armor_Blunt>1.2</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.55</StuffPower_Armor_Sharp>
+			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
+			<BurnDurationHours>2.55</BurnDurationHours>
+			<Mass>1.25</Mass>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Softwoods</li>
+   			</categories>
+			<stuffAdjective>willow log</stuffAdjective>
+			<color>(139,125,107)</color>
+			<statOffsets>
+				<Beauty>1</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>0.7</MaxHitPoints>
+				<Flammability>0.9</Flammability>
+				<Beauty>1.35</Beauty>
+				<WorkToMake>0.35</WorkToMake>
+				<WorkToBuild>0.35</WorkToBuild>
+				<MarketValue>0.78</MarketValue>
+				<BedRestEffectiveness>1.32</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.0</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.6</WorkTableWorkSpeedFactor>
+				<Mass>0.41</Mass>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+<!--
+	<ThingDef Name="RedWoodLog" ParentName="SoftwoodLogBase">
+		<defName>RedWoodLog</defName>
+		<label>redwood log</label>
+		<description>description</description>
+		<graphicData>
+			<color>(162,94,100)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>17.5</MarketValue>
+			<StuffPower_Armor_Blunt>1.0</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
+			<BurnDurationHours>2.85</BurnDurationHours>
+			<Mass>1.25</Mass>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Softwoods</li>
+   			</categories>
+			<stuffAdjective>redwood log</stuffAdjective>
+			<color>(162,94,100)</color>
+			<statOffsets>
+				<Beauty>3</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>0.8</MaxHitPoints>
+				<Flammability>0.4</Flammability>
+				<Beauty>3.0</Beauty>
+				<WorkToMake>0.5</WorkToMake>
+				<WorkToBuild>0.5</WorkToBuild>
+				<MarketValue>2.1</MarketValue>
+				<BedRestEffectiveness>1.32</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.0</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.65</WorkTableWorkSpeedFactor>
+				<Mass>0.41</Mass>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+-->
+	<ThingDef Name="CypressLog" ParentName="SoftwoodLogBase">
+		<defName>CypressLog</defName>
+		<label>cypress log</label>
+		<description>Cypress, which is known for its knotty wood grain, is fairly strong for being a light softwood.</description>
+		<graphicData>
+						<color>(182,123,77)</color>
+		</graphicData>
+		<statBases>
+			
+			<MarketValue>6.5</MarketValue>
+			<StuffPower_Armor_Blunt>0.8</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
+			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
+			<BurnDurationHours>2.7</BurnDurationHours>
+			<Mass>1.25</Mass>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Softwoods</li>
+   			</categories>
+			<stuffAdjective>cypress log</stuffAdjective>
+			<color>(182,123,77)</color>
+			<statOffsets>
+				<Beauty>1</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>0.8</MaxHitPoints>
+				<Flammability>1.5</Flammability>
+				<Beauty>1.5</Beauty>
+				<WorkToMake>0.6</WorkToMake>
+				<WorkToBuild>0.6</WorkToBuild>
+				<MarketValue>0.78</MarketValue>
+				<BedRestEffectiveness>1.08</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.0</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.55</WorkTableWorkSpeedFactor>
+				<Mass>0.46</Mass>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>	
+
+		<ThingDef Name="PoplarLog" ParentName="SoftwoodLogBase">
+		<defName>PoplarLog</defName>
+		<label>poplar log</label>
+		<description>Poplar is one of the most common woods and is very cheap and bland, but its moderate weight and strength makes it useful in all sorts of applications. It makes a half-decent shield, too.</description>
+		<graphicData>
+						<color>(222,225,153)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>6.5</MarketValue>
+			<StuffPower_Armor_Blunt>0.9</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.8</StuffPower_Armor_Sharp>
+			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
+			<BurnDurationHours>2.7</BurnDurationHours>
+			<Mass>1.45</Mass>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Softwoods</li>
+   			</categories>
+			<stuffAdjective>poplar log</stuffAdjective>
+			<color>(222,225,153)</color>
+			<statOffsets>
+				<Beauty>0</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>0.7</MaxHitPoints>
+				<Flammability>1.75</Flammability>
+				<Beauty>1</Beauty>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<MarketValue>0.78</MarketValue>
+				<BedRestEffectiveness>1.2</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.55</WorkTableWorkSpeedFactor>
+				<Mass>0.45</Mass>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>	
+	
+	<!-- HARD WOOD LOGS -->
+	<!--
+	<ThingDef Name="HardwoodLogBase" ParentName="SK_ResourceBase" Abstract="True">
+		<defName>HardwoodLogBase</defName>
+		<description>Uncut logs. Except when building logs walls, needs to be cut into planks for firewood to be of use.</description>
+		<graphicData>
+			<texPath>Things/VileWood/NewLogStackedBig</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<tickerType>Rare</tickerType>
+		<statBases>
+			<MarketValue>1.6</MarketValue>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>5.0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<StuffPower_Armor_Heat>0.04</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>0.8</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>0.45</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>0.4</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.85</BluntDamageMultiplier>
+			<MeleeCounterParryBonus>0.85</MeleeCounterParryBonus>
+			<MaxBurningTempCelsius>600</MaxBurningTempCelsius>
+			<Mass>1.8</Mass>
+			<Bulk>1.5</Bulk>
+		</statBases>
+		<techLevel>Neolithic</techLevel>
+		<stackLimit>75</stackLimit>
+		<stuffProps>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<statFactors>
+				<MeleeWeapon_CooldownMultiplier>1.15</MeleeWeapon_CooldownMultiplier>
+				<DoorOpenSpeed>1.4</DoorOpenSpeed>
+				<MeleePenetrationFactor>0.4</MeleePenetrationFactor>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<isTechHediff>true</isTechHediff>
+		<thingCategories>
+			<li>Hardwoods</li>
+		</thingCategories>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+	</ThingDef>-->
+	<!-- HARDWOOD LOGS -->
+	<ThingDef Name="MapleLog" ParentName="HardwoodLogBase">
+		<defName>MapleLog</defName>
+		<label>maple log</label>
+		<description>Maple is modestly durable and slightly heavy, and often has a beautiful wood grain pattern. It's commonly wood for construction, despite being difficult to work with.</description>
+		<graphicData>
+						<color>(205,157,90)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>8.5</MarketValue>
+			<StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.8</StuffPower_Armor_Sharp>
+			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
+			<BurnDurationHours>3.0</BurnDurationHours>
+			<Mass>1.7</Mass>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Hardwoods</li>
+   			</categories>
+			<stuffAdjective>maple log</stuffAdjective>
+			<color>(205,157,90)</color>
+			<statOffsets>
+				<Beauty>3</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>0.9</MaxHitPoints>
+				<Flammability>0.9</Flammability>
+				<Beauty>2.0</Beauty>
+				<WorkToMake>1.1</WorkToMake>
+				<WorkToBuild>1.1</WorkToBuild>
+				<MarketValue>1.02</MarketValue>
+				<BedRestEffectiveness>1.32</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.05</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.65</WorkTableWorkSpeedFactor>
+				<Mass>0.55</Mass>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>	
+	<!--<ThingDef Name="HazelLog" ParentName="HardwoodLogBase">  JUST GIVES FIREWOOD
+		<defName>HazelLog</defName>
+		<label>hazel log</label>
+		<description>description</description>
+		<graphicData>
+			<texPath>Things/Item/WoodLogStacked</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.6</MarketValue>
+			<StuffPower_Armor_Blunt>0.5</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.8</StuffPower_Armor_Sharp>
+			<BurnDurationHours>3.3</BurnDurationHours>
+			<Mass>1.8</Mass>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>hazel log</stuffAdjective>
+			<color>(101,72,65)</color>
+			<statOffsets>
+				<Beauty>2</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>0.85</MaxHitPoints>
+				<Flammability>0.9</Flammability>
+				<Beauty>1.75</Beauty>
+				<WorkToMake>1.1</WorkToMake>
+				<WorkToBuild>1.1</WorkToBuild>
+				<MarketValue>0.96</MarketValue>
+				<BedRestEffectiveness>1.38</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.05</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.6</WorkTableWorkSpeedFactor>
+				<Mass>0.58</Mass>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>	-->
+	<ThingDef Name="TeakLog" ParentName="HardwoodLogBase">
+		<defName>TeakLog</defName>
+		<label>teak log</label>
+		<description>Teak is an often sought-after hardwood. It's very expensive because it only grows in rainforest regions, and its beauty and strenth is nearly unmatched. It's very heavy, however.</description>
+		<graphicData>
+			<color>(116,92,63)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>12.5</MarketValue>
+			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.0</StuffPower_Armor_Sharp>
+			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
+			<BurnDurationHours>3.3</BurnDurationHours>
+			<Mass>1.8</Mass>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Hardwoods</li>
+   			</categories>
+			<stuffAdjective>teak log</stuffAdjective>
+			<color>(116,92,63)</color>
+			<statOffsets>
+				<Beauty>4</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>1.2</MaxHitPoints>
+				<Flammability>0.6</Flammability>
+				<Beauty>2.0</Beauty>
+				<WorkToMake>1</WorkToMake>
+				<WorkToBuild>1</WorkToBuild>
+				<MarketValue>1.5</MarketValue>
+				<BedRestEffectiveness>1.2</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>0.95</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.55</WorkTableWorkSpeedFactor>
+				<Mass>0.58</Mass>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>	
+	
+	<ThingDef Name="BirchLog" ParentName="HardwoodLogBase">
+		<defName>BirchLog</defName>
+		<label>birch log</label>
+		<description>Birch is a very bland hardwood, but is easy to work with despite being heavy and durable.</description>
+		<graphicData>
+			<texPath>Things/VileWood/NewLogBirchStackedBig</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>8</MarketValue>
+			<StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
+			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
+			<BurnDurationHours>3.3</BurnDurationHours>
+			<Mass>1.8</Mass>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Hardwoods</li>
+   			</categories>
+			<stuffAdjective>birch log</stuffAdjective>
+			<color>(217,176,167)</color>
+			<statOffsets>
+				<Beauty>0</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>0.95</MaxHitPoints>
+				<Flammability>1.1</Flammability>
+				<Beauty>1.2</Beauty>
+				<WorkToMake>0.8</WorkToMake>
+				<WorkToBuild>0.8</WorkToBuild>
+				<MarketValue>0.96</MarketValue>
+				<BedRestEffectiveness>1.02</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.05</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.6</WorkTableWorkSpeedFactor>
+				<Mass>0.58</Mass>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>	
+	
+	<ThingDef Name="OakLog" ParentName="HardwoodLogBase">
+		<defName>OakLog</defName>
+		<label>oak log</label>
+		<description>The saying "Strong as an oak" also pertains to the lumber. It's the strongest wood you can find in temperate regions. It's also the heaviest.</description>
+		<graphicData>
+			<color>(169,107,7)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>9.5</MarketValue>
+			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
+			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
+			<SharpDamageMultiplier>0.45</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+			<BurnDurationHours>3.3</BurnDurationHours>
+			<Mass>2.2</Mass>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Hardwoods</li>
+   			</categories>
+			<stuffAdjective>oak log</stuffAdjective>
+			<color>(169,107,7)</color>
+			<statOffsets>
+				<Beauty>2</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>1.1</MaxHitPoints>
+				<Flammability>1</Flammability>
+				<Beauty>1.65</Beauty>
+				<WorkToMake>1</WorkToMake>
+				<WorkToBuild>1</WorkToBuild>
+				<MarketValue>1.14</MarketValue>
+				<BedRestEffectiveness>1.26</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.55</WorkTableWorkSpeedFactor>
+				<Mass>0.71</Mass>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>	
+	
+		<ThingDef Name="DragonwoodLog" ParentName="HardwoodLogBase">
+		<defName>DragonwoodLog</defName>
+		<label>Dragonwood log</label>
+		<description>Dragonwood is a rare and incredibly hard, beautiful wood. It's sap is blood-red and has healing properties. It's very difficult to work with due to its extreme hardness.</description>
+		<graphicData>
+			<texPath>Things/VileWood/NewLogDragonStackedBig</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<StuffPower_Armor_Blunt>0.8</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
+			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
+			<SharpDamageMultiplier>0.7</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.85</BluntDamageMultiplier>
+			<BurnDurationHours>3.8</BurnDurationHours>
+			<Mass>2.6</Mass>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Ultrahardwoods</li>
+   			</categories>
+			<stuffAdjective>dragonwood log</stuffAdjective>
+			<color>(196,56,27)</color>
+			<statOffsets>
+				<Beauty>3</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>1.25</MaxHitPoints>
+				<Flammability>0.7</Flammability>
+				<Beauty>2</Beauty>
+				<WorkToMake>1.5</WorkToMake>
+				<WorkToBuild>1.5</WorkToBuild>
+				<MarketValue>3.0</MarketValue>
+				<BedRestEffectiveness>1.14</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.3</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
+				<Mass>0.83</Mass>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>	
+	
+	<ThingDef Name="MangroveLog" ParentName="HardwoodLogBase">
+		<defName>MangroveLog</defName>
+		<label>Mangrove log</label>
+		<description>Mangrove is an excellent building material due to its natural fire-resistance and incredible strength (only surpassed by dragonwood). It's often preferred to be used as firewood, however, being extremely heavy and difficult to work with.</description>
+		<graphicData>
+			<texPath>Things/VileWood/NewLogMangroveStackedBig</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<StuffPower_Armor_Blunt>0.8</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.8</StuffPower_Armor_Sharp>
+			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
+			<SharpDamageMultiplier>0.4</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.95</BluntDamageMultiplier>
+			<BurnDurationHours>3.8</BurnDurationHours>
+			<Mass>2.8</Mass>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Ultrahardwoods</li>
+   			</categories>
+			<stuffAdjective>mangrove log</stuffAdjective>
+			<color>(128,106,121)</color>
+			<statOffsets>
+				<Beauty>2</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>1.15</MaxHitPoints>
+				<Flammability>0.25</Flammability>
+				<Beauty>1.65</Beauty>
+				<WorkToMake>1.5</WorkToMake>
+				<WorkToBuild>1.5</WorkToBuild>
+				<MarketValue>3.0</MarketValue>
+				<BedRestEffectiveness>1.14</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.05</ImmunityGainSpeedFactor>	
+				<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
+				<Mass>0.91</Mass>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>	
+	
+	
+	<!--
+	<ThingDef Name="RedwoodLog" ParentName="SK_ResourceBase">
+		<defName>RedwoodLog</defName>
+		<label>redwood log</label>
+		<description>description</description>
+		<graphicData>
+			<texPath>Things/VileWood/NewLogStackedBig</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(162,94,100)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>17.5</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<StuffPower_Armor_Blunt>1.0</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
+			<Flammability>5.0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<BurnDurationHours>2.85</BurnDurationHours>
+			<StuffPower_Armor_Heat>0.05</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>1.0</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>0.6</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>0.3</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
+			<MeleeCounterParryBonus>0.85</MeleeCounterParryBonus>
+			<MaxBurningTempCelsius>500</MaxBurningTempCelsius>
+			<Mass>1.25</Mass>
+			<Bulk>1.25</Bulk>
+		</statBases>
+		<techLevel>Neolithic</techLevel>
+		<stackLimit>75</stackLimit>
+		<stuffProps>
+			<categories>
+				<li>Softwoods</li>
+   			</categories>
+			<stuffAdjective>redwood log</stuffAdjective>
+			<color>(162,94,100)</color>
+			<statOffsets>
+				<Beauty>3</Beauty>
+			</statOffsets>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<statFactors>
+				<MaxHitPoints>0.8</MaxHitPoints>
+				<Flammability>0.4</Flammability>
+				<Beauty>3.0</Beauty>
+				<WorkToMake>0.5</WorkToMake>
+				<WorkToBuild>0.5</WorkToBuild>
+				<MarketValue>2.1</MarketValue>
+				<BedRestEffectiveness>1.32</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.0</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.65</WorkTableWorkSpeedFactor>
+				<MeleeWeapon_CooldownMultiplier>1.05</MeleeWeapon_CooldownMultiplier>
+				<MoveSpeed>1.1</MoveSpeed>
+				<Mass>0.41</Mass>
+				<DoorOpenSpeed>1.4</DoorOpenSpeed>
+				<MeleePenetrationFactor>0.4</MeleePenetrationFactor>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<isTechHediff>true</isTechHediff>
+		<thingCategories>
+			<li>Softwoods</li>
+		</thingCategories>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+	-->
+
+</Defs>

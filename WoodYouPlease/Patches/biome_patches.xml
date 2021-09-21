@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<!-- MISC CHANGES harvests divided by 5 (logs are 5x bigger)-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		
+	<li Class="PatchOperationReplace">
+		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants/Plant_TreeTeak</xpath>
+		<value>
+			<Plant_TreeTeak>0.0</Plant_TreeTeak>
+		</value>
+    </li>
+	<li Class="PatchOperationReplace">
+		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants/Plant_TreeMaple</xpath>
+		<value>
+			<Plant_TreeMaple>1.0</Plant_TreeMaple>
+		</value>
+    </li>
+	<li Class="PatchOperationReplace">
+		<xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants/Plant_TreeBirch</xpath>
+		<value>
+			<Plant_TreeBirch>1.2</Plant_TreeBirch>
+		</value>
+    </li>		
+			
+			
+	<li Class="PatchOperationReplace">
+		<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildPlants/Plant_TreeTeak</xpath>
+		<value>
+			<Plant_TreeTeak>0.0</Plant_TreeTeak>
+		</value>
+    </li>
+			<!--
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateForest"]/terrainPatchMakers</xpath>
+		<value>
+			<li>
+				<perlinFrequency>0.025</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>SoilRich</terrain>
+						<min>0.13</min>
+						<max>0.20</max>
+					</li>
+					<li>
+						<terrain>Marsh</terrain>
+						<min>0.20</min>
+						<max>0.28</max>
+					</li>
+					<li>
+						<terrain>WaterShallow</terrain>
+						<min>0.28</min>
+						<max>1.06</max>
+					</li>
+					<li>
+						<terrain>WaterDeep</terrain>
+						<min>1.06</min>
+						<max>999</max>
+					</li>
+				</thresholds>
+			</li>
+		</value>
+    </li>
+			
+			-->
+			
+					
+
+	</operations>
+</Operation>
+	
+	
+	
+</Patch>

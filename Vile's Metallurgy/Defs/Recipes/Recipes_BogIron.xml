@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+
+	
+	<RecipeDef>
+		<defName>Extract_BogIron</defName>
+		<label>extract bog iron from peat</label>
+		<description>Extract tiny bits of iron from slabs of peat.</description>
+		<jobString>Extracting bog iron.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>ButcherFlesh</effectWorking>
+		<soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+		<workAmount>400</workAmount>
+		<recipeUsers>
+			<li>TableStonecutterNeolithic</li>
+			<li>TableStonecutter</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Peat</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Peat</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Steel>10</Steel>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<researchPrerequisite>BogIronTech</researchPrerequisite>
+	</RecipeDef>
+	
+</Defs>

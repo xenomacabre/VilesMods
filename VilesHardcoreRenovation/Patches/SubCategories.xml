@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Core SK</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs</xpath>
+      <value>
+
+	<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_Flagstone</defName>
+		<label>Gravel</label>
+		<description>Rough cut gravel. Good for roads or against a building's foundation. Deconstructing yields no resources.</description>
+		<defNames>
+			<li>FlagstoneSandstone</li>
+			<li>FlagstoneGranite</li>
+			<li>FlagstoneLimestone</li>
+			<li>FlagstoneSlate</li>
+			<li>FlagstoneMarble</li>
+			<li>FlagstoneBasalt</li>
+		</defNames>
+		<designationCategory>NaturalFloors</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+
+
+
+
+		
+	</value>
+    </match>
+  </Operation>
+
+
+</Patch>

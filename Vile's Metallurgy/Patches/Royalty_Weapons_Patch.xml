@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="MeleeWeapon_Warhammer"]/label</xpath>
+			<value>			
+				<label>lucerne hammer</label>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="MeleeWeapon_Warhammer"]/description</xpath>
+			<value>			
+				<description>A type of polarm / warhammer with a sharp spike for penetrating armor and a hammer for causing concussions. Very effective against armor, but doesn't inflict the most deadly wounds.</description>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="MeleeWeapon_Warhammer"]/tools</xpath>
+			<value>
+				<tools>
+					<li Class="CombatExtended.ToolCE">
+					<label>pommel</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>5</power>
+					<cooldownTime>1.3</cooldownTime>
+					<chanceFactor>0.1</chanceFactor>
+					<armorPenetrationBlunt>5</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>15</power>
+					<cooldownTime>2</cooldownTime>
+					<chanceFactor>0.33</chanceFactor>
+					<armorPenetrationBlunt>4</armorPenetrationBlunt>
+					<armorPenetrationSharp>8</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>edge</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>10</power>
+					<cooldownTime>1.8</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationBlunt>2.8</armorPenetrationBlunt>
+					<armorPenetrationSharp>8</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>10</power>
+					<cooldownTime>2.1</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationBlunt>12</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+				</li>
+				</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="MeleeWeapon_Warhammer"]/statBases</xpath>
+		<value>
+			<statBases>
+				<WorkToMake>8000</WorkToMake>
+				<Bulk>8</Bulk>
+				<Mass>3</Mass>
+				<MeleeCounterParryBonus>1.0</MeleeCounterParryBonus>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="MeleeWeapon_Warhammer"]/equippedStatOffsets</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.8</MeleeCritChance>
+				<MeleeParryChance>0.15</MeleeParryChance>
+				<MeleeDodgeChance>0.7</MeleeDodgeChance>
+			</equippedStatOffsets>
+			
+		</value>
+	</Operation>
+				
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="MeleeWeapon_Warhammer"]/thingCategories</xpath>
+		<value>
+			<thingCategories>
+				<li>SharpMelee</li>
+			</thingCategories>	
+		</value>
+	</Operation>				
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="MeleeWeapon_Warhammer"]/stuffCategories</xpath>
+		<value>
+			<stuffCategories>
+				<li>StrongMetallic</li>
+			</stuffCategories>
+		</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="MeleeWeapon_Warhammer"]/graphicData</xpath>
+		<value>			
+			<graphicData>
+				<texPath>Things/Weapons/LucerneHammer</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+		</value>
+	</Operation>			
+				
+		<!-- quarterstaff -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="MeleeWeapon_Axe"]/label</xpath>
+		<value>			
+			<label>quarterstaff</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="MeleeWeapon_Axe"]/description</xpath>
+		<value>			
+			<description>A two-handed staff made of hardwood and with metal tips. It's not the deadliest weapon, but it's easy to use and dodge with and a skilled user can knock an oppenent down. Often a practice weapon.</description>
+		</value>
+	</Operation>
+		
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="MeleeWeapon_Axe"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+				<label>tip</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.5</cooldownTime>
+				<chanceFactor>0.33</chanceFactor>
+				<armorPenetrationBlunt>4</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>1.3</cooldownTime>
+				<chanceFactor>1.33</chanceFactor>
+				<armorPenetrationBlunt>5</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+			</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="MeleeWeapon_Axe"]/statBases</xpath>
+		<value>
+			<statBases>
+				<WorkToMake>6000</WorkToMake>
+				<Bulk>7</Bulk>
+				<Mass>3</Mass>
+				<MeleeCounterParryBonus>1.8</MeleeCounterParryBonus>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="MeleeWeapon_Axe"]/equippedStatOffsets</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>1.3</MeleeCritChance>
+				<MeleeDodgeChance>0.9</MeleeDodgeChance>
+				<MeleeParryChance>0.15</MeleeParryChance>
+			</equippedStatOffsets>
+			
+		</value>
+	</Operation>
+				
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="MeleeWeapon_Axe"]/thingCategories</xpath>
+		<value>
+			<thingCategories>
+				<li>BluntMelee</li>
+			</thingCategories>	
+		</value>
+	</Operation>				
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="MeleeWeapon_Axe"]/stuffCategories</xpath>
+		<value>
+			<stuffCategories>
+				<li>Woody</li>
+			</stuffCategories>
+		</value>
+	</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="MeleeWeapon_Axe"]/graphicData</xpath>
+		<value>			
+			<graphicData>
+				<texPath>Things/Weapons/QuarterStaff</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+		</value>
+	</Operation>			
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="MeleeWeapon_Axe"]</xpath>
+		<value>			
+			<costList>
+				<ComponentMedieval>4</ComponentMedieval>
+			</costList>
+		</value>
+	</Operation>	
+
+</Patch>	

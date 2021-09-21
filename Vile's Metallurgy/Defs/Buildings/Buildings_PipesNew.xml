@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BasedHygieneMom" Name="DubsDirtyPipeBase" Abstract="True">
+    <label>pipe</label>
+    <thingClass>DubsBadHygiene.Building_Pipe</thingClass>
+    <graphicData>
+      <texPath>DBH/Things/Building/SewagePipe_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <linkType>Basic</linkType>
+      <linkFlags>
+        <li>Custom5</li>
+      </linkFlags>
+      <damageData>
+        <rect>(0,0.35,1,0.3)</rect>
+      </damageData>
+    </graphicData>
+    <building>
+      <ai_chillDestination>false</ai_chillDestination>
+      <blueprintGraphicData>
+        <texPath>DBH/Things/Building/SewagePipe_Atlas_Blueprint</texPath>
+      </blueprintGraphicData>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+    </building>
+    <altitudeLayer>Conduits</altitudeLayer>
+    <passability>Standable</passability>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <statBases>
+      <MaxHitPoints>30</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <rotatable>false</rotatable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <clearBuildingArea>false</clearBuildingArea>
+    <placeWorkers>
+      <li>DubsBadHygiene.PlaceWorker_Pipe</li>
+    </placeWorkers>
+    <tickerType>Never</tickerType>
+    <drawerType>None</drawerType>
+    <modExtensions>
+      <li Class="DubsBadHygiene.BuildWaterExt" />
+    </modExtensions>
+  </ThingDef>
+	<!--
+	<ThingDef ParentName="BasedHygieneMom" Name="DubsDirtyPipeBaseAqueduct" Abstract="True">
+    <label>aqueduct</label>
+    <thingClass>DubsBadHygiene.Building_Pipe</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Aqueduct_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+      <linkType>Basic</linkType>
+      <linkFlags>
+        <li>Custom5</li>
+      </linkFlags>
+      <damageData>
+        <rect>(0,0.35,1,0.3)</rect>
+      </damageData>
+    </graphicData>
+    <building>
+      <ai_chillDestination>false</ai_chillDestination>
+      <blueprintGraphicData>
+        <texPath>DBH/Things/Building/SewagePipe_Atlas_Blueprint</texPath>
+      </blueprintGraphicData>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+    </building>
+    <altitudeLayer>Conduits</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+	<fillPercent>0.3</fillPercent>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>450</WorkToBuild>
+      <Flammability>1.0</Flammability>
+	  <Beauty>-8</Beauty>
+    </statBases>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <rotatable>false</rotatable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <clearBuildingArea>false</clearBuildingArea>
+    <placeWorkers>
+      <li>DubsBadHygiene.PlaceWorker_Pipe</li>
+    </placeWorkers>
+    <tickerType>Never</tickerType>
+    <drawerType>None</drawerType>
+    <modExtensions>
+      <li Class="DubsBadHygiene.BuildWaterExt" />
+    </modExtensions>
+  </ThingDef>
+-->
+
+
+  <ThingDef ParentName="DubsDirtyPipeBase" DBHLite="true">
+    <defName>sewagePipeStuffAqueduct</defName>
+    <label>aqueduct</label>
+    <description>Rudimentary plumbing made of stone or brick.</description>
+    <uiIconPath>DBH/UI/Plumbing</uiIconPath>
+	<!--<graphicData>
+     	<texPath>Things/Building/Aqueduct_Atlas</texPath>
+		<shaderType>CutoutComplex</shaderType>
+	</graphicData>-->
+    <stuffCategories>
+      <li>Stony</li>
+	  <li>Ceramic</li>
+	  <li>Bricks</li>
+    </stuffCategories>
+    <costStuffCount>6</costStuffCount>
+    <comps>
+      <li Class="DubsBadHygiene.CompProperties_Pipe">
+        <mode>Sewage</mode>
+        <stuffed>true</stuffed>
+      </li>
+    </comps>
+  </ThingDef>
+	
+	
+<ThingDef ParentName="DubsDirtyPipeBase" DBHLite="true">
+    <defName>sewagePipeStuff</defName>
+    <label>plumbing</label>
+    <description>Sturdy piped plumbing.</description>
+	  <graphicData>
+		   <color>(30,87,170)</color>
+	  </graphicData>
+    <uiIconPath>DBH/UI/Plumbing</uiIconPath>
+    <!--<stuffCategories>
+		<li>PipeStuff</li>
+    </stuffCategories>
+    <costStuffCount>1</costStuffCount>-->
+	<costList>
+	    	<PipeSection>1</PipeSection>
+	</costList>
+	 <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <WorkToBuild>200</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <comps>
+      <li Class="DubsBadHygiene.CompProperties_Pipe">
+        <mode>Sewage</mode>
+        <stuffed>true</stuffed>
+      </li>
+    </comps>
+	<researchPrerequisites>
+		<li>Metallurgy_B2</li>
+	</researchPrerequisites>
+ </ThingDef>
+	
+	
+</Defs>

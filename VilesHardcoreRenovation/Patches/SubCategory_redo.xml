@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_PrimitiveWoodFloors"]/defNames</xpath>
+		<value>
+			<defNames>
+				<li>TikiFloorFancy</li> <!-- Terracotta Tile -->
+				<li>FloorRedWood</li> <!-- Terraccotta Herringbone -->
+				<li>TikiFloorLight</li> <!-- Terracotta Diamond -->
+				<li>TikiFloorBamboo</li> <!--Bamboo Weave -->
+				<li>LogFloor</li> <!-- Clapboard Floor -->
+				<li>LogFloorV</li> <!-- Clapboard Floor V -->
+				<li>TikiFloorDark</li> <!-- Straw Floor --> 
+				<li>WeaveFloor</li> <!-- Flax Carpet -->
+				<li>ThatchFloor</li> <!-- Rush Mat -->
+				<li>WovenLeafFloor</li> <!-- Striped Rush Mat -->
+			</defNames>
+		</value>
+	</Operation>
+	
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_WoodFloors"]/label</xpath> <!-- PARQUETRY -->
+		<value>
+			<label>Parquetry</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_WoodFloors"]/defNames</xpath> <!-- PARQUETRY -->
+		<value>
+			<defNames>
+				<li>ParquetFloor</li> <!-- maple herringbone -->
+				<li>WoodPlankFloorFour</li> <!-- oak chevron -->
+				<li>ClutterWoodTileA</li> <!-- Stained Teak -->
+				<li>EndCutFloor</li> <!-- End-Cut Oak -->
+				<li>RedWoodFloorF</li> <!-- Basket Weave-->
+				<li>RedWoodFloorB</li> <!-- Hex Weave -->
+				<li>BambooFloorE</li> <!-- Maze -->
+				<li>BambooFloorF</li> <!-- Cube Moasaic-->
+			</defNames>
+		</value>
+	</Operation>
+	
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_RedWoodFloors"]/label</xpath> <!-- PARQUETRY -->
+		<value>
+			<label>Parquetry Set</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_RedWoodFloors"]/defNames</xpath> <!-- PARQUETRY -->
+		<value>
+			<defNames>
+				<li>RedWoodFloorC</li> <!-- versailles -->
+				<li>RedWoodFloorD</li> <!-- ornate -->
+				<li>RedWoodFloorE</li> <!-- floral -->
+				<li>RedWoodFloor</li> <!-- Royal -->
+			</defNames>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_BambooFloors"]/label</xpath> <!-- PARQUETRY -->
+		<value>
+			<label>Laminate Wood Floor</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_BambooFloors"]/description</xpath> <!-- PARQUETRY -->
+		<value>
+			<description>Engineered wood panels that snap into place. Quick to install and fire-resistant.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName = "SubCategory_BambooFloors"]/defNames</xpath> <!-- PARQUETRY -->
+		<value>
+			<defNames>
+				<li>BambooFloor</li> <!-- plywood laminate -->
+				<li>CecropiaLaminate</li> <!-- cecropia -->
+				<li>BambooFloorC</li> <!-- bamboo -->
+				<li>BambooFloorD</li> <!-- bamboo herringbone -->
+			</defNames>
+		</value>
+	</Operation>
+
+	
+</Patch>

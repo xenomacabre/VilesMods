@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+			<operations>
+			
+				
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsKiln"]</xpath>
+			</li>	
+				
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsSmeltMetal_Hand"]/fixedBillGiverDefs</xpath>
+				<value>
+				<fixedBillGiverDefs>
+					<li>Bloomery</li> <!-- (iron age tech) -->
+					<li>TableFurnace</li> <!-- BLAST FURNACE (medieval tech)-->
+					<li>ElectricSmelter</li> <!-- REDUCTION FURNACE (industrial tech) -->
+					<li>EAF</li> <!-- still an ARC FURNACE -->
+					<li>Foundry</li>
+					<li>FirePit</li>
+				</fixedBillGiverDefs>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsUseCraftingSpot"]/fixedBillGiverDefs</xpath>
+				<value>
+				<fixedBillGiverDefs>
+					<li>CraftingSpot</li>
+					<li>PotteryStation</li>
+				</fixedBillGiverDefs>
+				</value>
+			</li>	
+				<!--
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsKiln"]/fixedBillGiverDefs</xpath>
+				<value>
+					<fixedBillGiverDefs>
+						<li>Kiln</li>
+						<li>CementationFurnace</li>
+						<li>PotteryStation</li>
+					</fixedBillGiverDefs>
+				</value>
+			</li>
+	-->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsStonecut"]/fixedBillGiverDefs</xpath>
+				<value>
+					<fixedBillGiverDefs>
+						<li>StampMill</li>
+						<li>TableStonecutterNeolithic</li>
+						<li>TableStonecutter</li>
+					</fixedBillGiverDefs>
+				</value>
+			</li>
+		
+		
+	
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="CropsBase">
+		<defName>PipeSection</defName>
+		<label>basic pipe section</label>
+		<description>Pipes and fittings for water and sewage.</description>
+		<graphicData>
+			<texPath>Things/Item/PipeSection</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+			<tickerType>Normal</tickerType>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0.2</Flammability>
+			<SellPriceFactor>0.50</SellPriceFactor>
+			<Mass>0.5</Mass>
+			<Bulk>0.5</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>Parts</li>
+		</thingCategories>
+		<stackLimit>25</stackLimit>
+	</ThingDef>
+	<!--
+	<ThingDef ParentName="CropsBase">
+		<defName>AdvancedPipeSection</defName>
+		<label>advanced pipe section</label>
+		<description>Plumbing components.</description>
+		<graphicData>
+			<texPath>Things/Item/Components/Component</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+			<tickerType>Normal</tickerType>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0.2</Flammability>
+			<SellPriceFactor>0.50</SellPriceFactor>
+			<Mass>0.5</Mass>
+			<Bulk>0.5</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>Parts</li>
+		</thingCategories>
+		<stackLimit>25</stackLimit>
+	</ThingDef>
+	-->
+	
+</Defs>

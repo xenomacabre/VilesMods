@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<!-- FORGE Wrought Iron from Bloom --> 
+	<RecipeDef>
+		<defName>MakeWroughtIron_Forge</defName>
+		<label>Forge Wrought Iron from bloom (x15)</label>
+		<description>Hot-working slag out of the bloom with a hammer and forging it into semi-finished wrought iron billets.</description>
+		<jobString>Forging wrought iron. Produces 15.</jobString>
+		<workAmount>900</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>IronBloom</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+				<li>
+				<filter>
+					<categories>
+						<li>Coal</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>IronBloom</li>
+			</thingDefs>
+			<categories>
+				<li>Coal</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<WroughtIron>15</WroughtIron>
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+  
+	<RecipeDef>
+		<defName>MakeWroughtIron_Finery</defName>
+		<label>Forge Wrought Iron from bloom (x15)</label>
+		<description>Hot-working slag out of the bloom with a trip hammer and forging it into semi-finished wrought iron billets. Produces 15.</description>
+		<jobString>Forging wrought iron.</jobString>
+		<workAmount>750</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>TripHammer</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>IronBloom</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+				<li>
+				<filter>
+					<categories>
+						<li>Coal</li>
+					</categories>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>IronBloom</li>
+			</thingDefs>
+			<categories>
+				<li>Coal</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<WroughtIron>15</WroughtIron>
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>MakeForgeWeldedSteel_Smithy</defName>
+		<label>Forge-Weld Steel (x15)</label>
+		<description>Repeatedly fold wrought iron in a coal fire to carbonize it producing a strong bar with up to hundreds of layers of soft iron and hard steel. Produces 25.</description>
+		<jobString>Forge-welding steel.</jobString>
+		<workAmount>900</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WroughtIron</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Coal</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FluxPowder</li>					
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WroughtIron</li>
+				<li>FluxPowder</li>	
+			</thingDefs>
+					<categories>
+						<li>Coal</li>
+					</categories>
+		</fixedIngredientFilter>
+		<products>
+			<ForgedSteel>15</ForgedSteel>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>MakeForgeWeldedSteel_Finery</defName>
+		<label>Forge-Weld Steel (x15)</label>
+		<description>Fold wrought iron in a coal fire to carbonize it producing a strong bar with up to hundreds of layers of soft iron and hard steel. Produces 20.</description>
+		<jobString>Forging-weld steel.</jobString>
+		<workAmount>750</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>TripHammer</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WroughtIron</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Coal</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FluxPowder</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WroughtIron</li>
+				<li>FluxPowder</li>
+			</thingDefs>
+					<categories>
+						<li>Coal</li>
+					</categories>
+		</fixedIngredientFilter>
+		<products>
+			<ForgedSteel>15</ForgedSteel>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+	
+	<!-- FINERY Wrought Iron -->
+	<RecipeDef>
+		<defName>MakeWroughtIron_PigIron_Finery</defName>
+		<label>Forge wrought iron from pig iron (x30)</label>
+		<description>Hot-working slag out of the bloom with a hammer and forging it into semi-finished wrought iron bars. Produces 25.</description>
+		<jobString>Forging wrought iron.</jobString>
+		<workAmount>750</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>TripHammer</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PigIron</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Coal</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FluxPowder</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PigIron</li>
+				<li>FluxPowder</li>
+			</thingDefs>
+			<categories>
+				<li>Coal</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<WroughtIron>30</WroughtIron>
+		</products>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+	
+	<!-- FORGE / FINERY Shear Steel -->		
+	<RecipeDef>
+		<defName>MakeForgeWeldedSteel_BlisterSteel_Finery</defName>
+		<label>Forge Shear Steel (x30)</label>
+		<description>Blister steel has an uneven distribution of carbon, in other words, it's nonhomogenous. Beat it on an anvil until it (mostly) is. This is called "shear steel", because it can hold an sharp edge if you wanted to make some shears, but it's still a forge-welded steel. Produced 20 Forge-Welded Steel.</description>
+		<jobString>Forging-welding steel form blister steel. Produces 30.</jobString>
+		<workAmount>750</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>TripHammer</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BlisterSteel</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BlisterSteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ForgedSteel>30</ForgedSteel>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Steel_B2</researchPrerequisite>
+	</RecipeDef>
+
+	<!-- REFINE Crucible Steel -->
+	<RecipeDef>
+		<defName>MakeCrucibleSteel</defName>
+		<label>Make Crucible Steel (x80)</label>
+		<description>Blister Steel is placed in a refractory crucible for several hours in a very hot fire fuled by coke. It melts and becomes a perfectly homogenous alloy of high carbon steel. To make it is a delicate and time-consuming process, but its unrivaled by any other low-tech steel. Requires a lot of coke to reach 1500 degrees. Produces 80.</description>
+		<jobString>Making crucible steel.</jobString>
+		<workAmount>2400</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BlisterSteel</li>
+					</thingDefs>
+				</filter>
+				<count>80</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FluxPowder</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SoftClay</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Coke</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>BlisterSteel</li>
+				<li>FluxPowder</li>
+				<li>Coke</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<CrucibleSteel>80</CrucibleSteel>
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Steel_B3</researchPrerequisite>
+	</RecipeDef>
+	
+<!-- CAST cast iron bars -->
+	<RecipeDef>
+		<defName>MakeCastIron</defName>
+		<label>Make Cast Iron (x30)</label>
+		<description>Further refine pig iron into cast iron by melting it down and removing impurities. Produces 30.</description>
+		<jobString>Making cast iron.</jobString>
+		<workAmount>500</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PigIron</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FluxPowder</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PigIron</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<CastIron>30</CastIron>
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>PuddleWroughtIronFromPigIron</defName>
+		<label>Puddle Wrought Iron from Pig Iron (x75)</label>
+		<description>Melt pig iron or cast iron in the hearth until it becomes molten, stir it with a paddle, removing the carbon and oxygen content. As the carbon leaves the alloy, the melting point goes up and it can no longer stay liquid. That's how you know it's done. Produces 75.</description>
+		<jobString>Puddling wrought iron.</jobString>
+		<workAmount>900</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PigIron</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PigIron</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<WroughtIron>75</WroughtIron>
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Metallurgy_B5</researchPrerequisite>
+	</RecipeDef>
+	
+		<RecipeDef>
+		<defName>PuddleWroughtIronFromCastIron</defName>
+		<label>Puddle Wrought Iron from Cast Iron (x100)</label>
+		<description>Melt pig iron or cast iron in the hearth until it becomes molten, stir it with a paddle, removing the carbon and oxygen content. As the carbon leaves the alloy, the melting point goes up and it can no longer stay liquid. That's how you know it's done. Produces 100.</description>
+		<jobString>Making crucible steel.</jobString>
+		<workAmount>900</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CastIron</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PigIron</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<WroughtIron>100</WroughtIron>
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Metallurgy_B5</researchPrerequisite>
+	</RecipeDef>
+
+	
+</Defs>

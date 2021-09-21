@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <!-- ===== SMELT iron bloom at bloomery ========= -->
+
+
+	<RecipeDef>
+		<defName>MakeIronBloom_Bloomery</defName>
+		<label>Smelt iron bloom</label>
+		<description>Smelts spongy iron bloom from iron ore and coal or charcoal. Primitive and inefficient. Produces 1  bloom.</description>
+		<jobString>Smelting iron bloom.</jobString>
+		<workAmount>1000</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li> <!-- iron ore -->
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<!--<li>
+				<filter>
+					<categories>
+						<li>Coal</li>
+					</categories>
+				</filter>
+				<count>25</count>
+			</li>-->
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li><!-- iron ore -->
+			</thingDefs>
+					<categories>
+						<li>Coal</li>
+					</categories>
+		</fixedIngredientFilter>
+		<products>
+			<IronBloom>1</IronBloom>
+		</products>
+		<skillRequirements>
+			<Crafting>2</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+	
+	<!-- SMELT Pig Iron -->
+	
+	<RecipeDef>
+		<defName>MakePigIron_Furnace</defName>
+		<label>Smelt pig iron (x50)</label>
+		<description>Smelts large ingots of pig iron (an unrefined high-carbon cast iron). Not as slaggy as iron primitive iron bloom, but it still must be decarbonized to produce useful wrought iron, either by forging at a finery, or at a pudding furnace. It's much more efficient than a bloomery, but because it takes a lot of time to get fires hot enough, it's best done in large batches.</description>
+		<jobString>Smelting pig iron.</jobString>
+		<workAmount>2400</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li> <!-- iron ore -->
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<!--<li>
+				<filter>
+					<categories>
+						<li>Coal</li>
+					</categories>
+				</filter>
+				<count>25</count>
+			</li>-->
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li><!-- iron ore -->
+			</thingDefs>
+					<!--<categories>
+						<li>Coal</li>
+					</categories>-->
+		</fixedIngredientFilter>
+		<products>
+			<PigIron>50</PigIron>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+	
+	
+	
+	<!-- SMELT Bronze Bar --> 
+	<!-- blast furnace recipe users in building def -->
+
+	
+	<RecipeDef>
+		<defName>MakeBronze_Hand</defName>
+		<label>Smelt bronze (x25)</label>
+		<description>Smelts bronze alloy from copper ore and other metals. Produces 30.</description>
+		<jobString>Smelting bronze alloy.</jobString>
+		<workAmount>625</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Copper</li>
+						<li>CopperBar</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TinBar</li>
+						<li>AluminiumBar</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Copper</li>
+				<li>CopperBar</li>
+				<li>TinBar</li>
+				<li>AluminiumBar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Bronze>25</Bronze>
+		</products>
+		<skillRequirements>
+			<Crafting>2</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Craft_B1</researchPrerequisite>
+	<recipeUsers>
+		<li>FirePit</li>
+	</recipeUsers>
+	</RecipeDef>
+	
+	<!-- SMELT Copper -->
+	
+	<RecipeDef>
+		<defName>MakeCopperBars_Hand</defName>
+		<label>Smelt copper (x10)</label>
+		<description>Smelts copper bar from copper ore. Produces 10.</description>
+		<jobString>Smelting copper alloy.</jobString>
+		<workAmount>700</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Copper</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Copper</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<CopperBar>10</CopperBar>
+		</products>
+		<skillRequirements>
+			<Crafting>1</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	<recipeUsers>
+		<li>FirePit</li>
+	</recipeUsers>
+	</RecipeDef>
+	
+	<!-- SMELT TIN -->
+	<RecipeDef>
+		<defName>MakeTinBars_Hand</defName>
+		<label>Smelt tin alloy (x10)</label>
+		<description>Smelts tin alloy from tin ore. Mainly used as an ingredient in other alloy recipes. Produces 10.</description>
+		<jobString>Smelting tin alloy.</jobString>
+		<workAmount>600</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Tin</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Tin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<TinBar>10</TinBar>
+		</products>
+		<skillRequirements>
+			<Crafting>1</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Craft_B1</researchPrerequisite>
+	<recipeUsers>
+		<li>FirePit</li>
+	</recipeUsers>
+	</RecipeDef>
+
+	<!-- SMELT lead -->
+	<RecipeDef>
+		<defName>MakeLeadBars_Hand</defName>
+		<label>Smelt lead alloy (x10)</label>
+		<description>Smelts lead alloy from anglesite ore. Produces 15.</description>
+		<jobString>Smelting lead alloy.</jobString>
+		<workAmount>800</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Anglesite</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Anglesite</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<LeadBar>15</LeadBar>
+		</products>
+		<skillRequirements>
+			<Crafting>2</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Craft_B1</researchPrerequisite>
+	<recipeUsers>
+		<li>FirePit</li>
+	</recipeUsers>
+	</RecipeDef>
+	
+	<!-- SMELT Sterling silver -->
+	<RecipeDef>
+		<defName>MakeSilverBars_Hand</defName>
+		<label>Smelt sterling silver alloy</label>
+		<description>Smelts sterling silver, a valuable alloy of silver and either copper or bauxite. Produces 10.</description>
+		<jobString>Smelting sterling silver alloy.</jobString>
+		<workAmount>750</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HCM</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Silver</li>
+			</thingDefs>
+					<categories>
+						<li>HCM</li>
+					</categories>
+		</fixedIngredientFilter>
+		<products>
+			<SilverBar>10</SilverBar>
+		</products>
+		<skillRequirements>
+			<Crafting>2</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Craft_B1</researchPrerequisite>
+	<recipeUsers>
+		<li>FirePit</li>
+	</recipeUsers>
+	</RecipeDef>
+	
+	<!-- SMELT Yellow Gold -->
+	<RecipeDef>
+		<defName>MakeGoldBars_Hand</defName>
+		<label>Smelt gold alloy</label>
+		<description>Smelts gold, a beautiful, precious alloy of gold and copper or bauxite. Produces 15.</description>
+		<jobString>Smelting gold alloy.</jobString>
+		<workAmount>700</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>HCM</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Gold</li>
+			</thingDefs>
+					<categories>
+						<li>HCM</li>
+					</categories>
+		</fixedIngredientFilter>
+		<products>
+			<GoldBar>15</GoldBar>
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Craft_B1</researchPrerequisite>
+	<recipeUsers>
+		<li>FirePit</li>
+	</recipeUsers>
+	</RecipeDef>
+	
+	
+</Defs>

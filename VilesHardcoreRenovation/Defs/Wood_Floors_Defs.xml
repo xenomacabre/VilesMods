@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ <Defs>
+	 
+	 <TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>StrawMatting</defName>
+				<label>straw matting</label>
+				<renderPrecedence>375</renderPrecedence>
+				<description>Throw some hay on the ground. You got more important things to do. Quite flammable. Beauty: 0. Cleanliness: -0.4 Install time: 1</description>
+				<texturePath>Terrain/Surfaces/TikiFloorDark</texturePath>
+				<edgeType>FadeRough</edgeType>
+				<statBases>
+					<WorkToBuild>150</WorkToBuild>
+					<Beauty>1</Beauty>
+					<Flammability>0.6</Flammability>
+					<Cleanliness>-0.4</Cleanliness>
+				</statBases>
+				<costList>
+					<Hay>6</Hay>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_A1</li></researchPrerequisites>
+			</TerrainDef>
+	 
+	 
+		<TerrainDef ParentName="WoodSK_FloorBase"> <!-- defname from NPS -->
+				<defName>FloorRedWood</defName>
+				<label>Terracotta herringbone</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Earthenware tiles. Functional and fire-proof. Beauty: 1. Install time: 7</description>
+				<texturePath>Terrain/Surfaces/TerraCottaHerringbone</texturePath>
+				<statBases>
+					<WorkToBuild>760</WorkToBuild>
+					<Beauty>1</Beauty>
+					<Flammability>0</Flammability>
+				</statBases>
+				<costList>
+					<ClayBrick>4</ClayBrick>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_A2</li></researchPrerequisites>
+	</TerrainDef>
+	
+	<TerrainDef Name="WoodFloor_Pine" ParentName="WoodSK_FloorBase">
+		<defName>WoodFloor_Pine</defName>
+		<label>pine floor (H)</label>
+		<renderPrecedence>245</renderPrecedence>
+		<description>Pine is a softwood, but they're still called hardwood floors. Huh? Beautiful flooring, but scratches easily. Beauty: 3 Cleanliness: -0.15 Install Time: 2</description>
+		<texturePath>Terrain/Surfaces/WoodFloors/Pine</texturePath>
+		<uiIconPath>Terrain/Surfaces/WoodFloors/Pine</uiIconPath>
+		<statBases>
+			<WorkToBuild>200</WorkToBuild>
+			<Beauty>3</Beauty>
+			<Cleanliness>-.15</Cleanliness>
+		</statBases>
+		<costList>
+			<PinePlank>3</PinePlank>
+		</costList>
+		<researchPrerequisites><li>Wooden_floor_B1</li></researchPrerequisites>
+	</TerrainDef>
+	 
+	 <TerrainDef Name="WoodFloor_Willow" ParentName="WoodSK_FloorBase">
+		<defName>WoodFloor_Willow</defName>
+		<label>willow floor (H)</label>
+		<renderPrecedence>245</renderPrecedence>
+		<description>Finished wood floor made of willow. Harder to keep clean, but easy to install. Beauty: 2 Cleanliness: -0.1  Install Time: 2</description>
+		<texturePath>Terrain/Surfaces/WoodFloors/Willow</texturePath>
+		<uiIconPath>Terrain/Surfaces/WoodFloors/Willow</uiIconPath>
+		<statBases>
+			<WorkToBuild>200</WorkToBuild>
+			<Beauty>2</Beauty>
+			<Cleanliness>-.1</Cleanliness>
+		</statBases>
+		<costList>
+			<WillowPlank>3</WillowPlank>
+		</costList>
+		<researchPrerequisites><li>Wooden_floor_B1</li></researchPrerequisites>
+	</TerrainDef>
+	 
+	 
+	 <TerrainDef Name="WoodFloor_Redwood" ParentName="WoodSK_FloorBase">
+		<defName>WoodFloor_Redwood</defName>
+		<label>redwood floor (H)</label>
+		<color>(234,100,109)</color>
+		<renderPrecedence>245</renderPrecedence>
+		<description>Redwood makes for rich, beautiful flooring, but it's still a softwood so it scratches easily and is thus harder to keep clean. Somewhat fire resistant. Beauty: 4 Cleanliness: -0.1 Install Time: 3</description>
+		<texturePath>Terrain/Surfaces/WoodFloors/RedwoodTeak</texturePath>
+		<uiIconPath>Terrain/Surfaces/WoodFloors/Redwoodi</uiIconPath>
+		<statBases>
+			<WorkToBuild>300</WorkToBuild>
+			<Beauty>4</Beauty>
+			<Flammability>0.2</Flammability>
+			<Cleanliness>-.15</Cleanliness>
+		</statBases>
+		<costList>
+			<RedWoodPlank>3</RedWoodPlank>
+		</costList>
+		<researchPrerequisites><li>Wooden_floor_B1</li></researchPrerequisites>
+	</TerrainDef>
+	 
+	 <TerrainDef Name="WoodFloor_Cypress" ParentName="WoodSK_FloorBase">
+		<defName>WoodFloor_Cypress</defName>
+		<label>cypress floor (H)</label>
+		<renderPrecedence>245</renderPrecedence>
+		<description>Hardwood floors made of knotty cypress. Beauty: 2 Cleanliness: 0.05 Install Time: 3</description>
+		<texturePath>Terrain/Surfaces/WoodFloors/Cypress</texturePath>
+		<uiIconPath>Terrain/Surfaces/WoodFloors/Cypress</uiIconPath>
+		<statBases>
+			<WorkToBuild>300</WorkToBuild>
+			<Beauty>2</Beauty>
+			<Cleanliness>0.05</Cleanliness>
+		</statBases>
+		<costList>
+			<CypressPlank>3</CypressPlank>
+		</costList>
+		<researchPrerequisites><li>Wooden_floor_B1</li></researchPrerequisites>
+	</TerrainDef>
+	 
+	 <TerrainDef Name="WoodFloor_Poplar" ParentName="WoodSK_FloorBase">
+		<defName>WoodFloor_Poplar</defName>
+		<label>poplar floor (H)</label>
+		<renderPrecedence>245</renderPrecedence>
+		<description>Just some poplar wood flooring. Holds up well, but is otherwise not very noteworthy. Beauty: 2 Cleanliness: 0.1 Install Time: 3</description>
+		<texturePath>Terrain/Surfaces/WoodFloors/Poplar</texturePath>
+		<uiIconPath>Terrain/Surfaces/WoodFloors/Poplar</uiIconPath>
+		<statBases>
+			<WorkToBuild>300</WorkToBuild>
+			<Beauty>2</Beauty>
+			<Cleanliness>0.1</Cleanliness>
+		</statBases>
+		<costList>
+			<PoplarPlank>3</PoplarPlank>
+		</costList>
+		<researchPrerequisites><li>Wooden_floor_B1</li></researchPrerequisites>
+	</TerrainDef>
+	 
+	 <TerrainDef Name="WoodFloor_Maple" ParentName="WoodSK_FloorBase">
+		<defName>WoodFloor_Maple</defName>
+		<label>maple floor (H)</label>
+		<renderPrecedence>245</renderPrecedence>
+		<description>Maple looks great as flooring and is known for having subtle grains and a soft color, as well as its durability. Beuaty: 3 Cleanliness: 0.2 Install Time: 3.5</description>
+		<texturePath>Terrain/Surfaces/WoodFloors/Maple</texturePath>
+		<uiIconPath>Terrain/Surfaces/WoodFloors/Maple</uiIconPath>
+		<statBases>
+			<WorkToBuild>350</WorkToBuild>
+			<Beauty>3</Beauty>
+			<Cleanliness>0.2</Cleanliness>
+		</statBases>
+		<costList>
+			<MaplePlank>3</MaplePlank>
+		</costList>
+		<researchPrerequisites><li>Wooden_floor_B1</li></researchPrerequisites>
+	</TerrainDef>
+	 
+	 <TerrainDef Name="WoodFloor_Teak" ParentName="WoodSK_FloorBase">
+		<defName>WoodFloor_Teak</defName>
+		<label>teak floor (H)</label>
+		 <color>(146,114,75)</color>
+		<renderPrecedence>245</renderPrecedence>
+		<description>Teak is an expensive, tropical wood with deep colors and even grains. It's naturally scratch resistant, so cleans easily. Beauty: 4 Cleanliness: 0.25 Install Time: 4</description>
+		<texturePath>Terrain/Surfaces/WoodFloors/RedwoodTeak</texturePath>
+		<uiIconPath>Terrain/Surfaces/WoodFloors/Teaki</uiIconPath>
+		<statBases>
+			<WorkToBuild>400</WorkToBuild>
+			<Beauty>4</Beauty>
+			<Cleanliness>0.25</Cleanliness>
+		</statBases>
+		<costList>
+			<TeakPlank>3</TeakPlank>
+		</costList>
+		<researchPrerequisites><li>Wooden_floor_B1</li></researchPrerequisites>
+	</TerrainDef>
+	 
+	 <TerrainDef Name="WoodFloor_Birch" ParentName="WoodSK_FloorBase">
+		<defName>WoodFloor_Birch</defName>
+		<label>birch floor (H)</label>
+		<renderPrecedence>245</renderPrecedence>
+		<description>Birch makes a fairly unremarkable floor, except that it doesn't mark easily. Beauty: 1 Cleanliness: 0.25 Install Time: 3.5</description>
+		<texturePath>Terrain/Surfaces/WoodFloors/Birch</texturePath>
+		<uiIconPath>Terrain/Surfaces/WoodFloors/Birch</uiIconPath>
+		<statBases>
+			<WorkToBuild>350</WorkToBuild>
+			<Beauty>1</Beauty>
+			<Cleanliness>0.25</Cleanliness>
+			<Flammability>0.4</Flammability>
+		</statBases>
+		<costList>
+			<BirchPlank>3</BirchPlank>
+		</costList>
+		<researchPrerequisites><li>Wooden_floor_B1</li></researchPrerequisites>
+	</TerrainDef>
+	 
+	 <TerrainDef Name="WoodFloor_Oak" ParentName="WoodSK_FloorBase">
+		<defName>WoodFloor_Oak</defName>
+		<label>oak floor (H)</label>
+		<renderPrecedence>245</renderPrecedence>
+		<description>Oak is known as being a standard for hardwood floors. It looks nice and is very scratch resistant. Beauty: 2 Cleanliness: 0.3 Install Time: 3.5</description>
+		<texturePath>Terrain/Surfaces/WoodFloors/Oak</texturePath>
+		<uiIconPath>Terrain/Surfaces/WoodFloors/Oak</uiIconPath>
+		<statBases>
+			<WorkToBuild>350</WorkToBuild>
+			<Beauty>2</Beauty>
+			<Cleanliness>0.3</Cleanliness>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<costList>
+			<OakPlank>3</OakPlank>
+		</costList>
+		<researchPrerequisites><li>Wooden_floor_B1</li></researchPrerequisites>
+	</TerrainDef>
+	 
+	 <TerrainDef Name="WoodFloor_Dragonwood" ParentName="WoodSK_FloorBase">
+		<defName>WoodFloor_Dragonwood</defName>
+		<label>dragonwood floor (H)</label>
+		<renderPrecedence>245</renderPrecedence>
+		<description>An exotic floor from a rare, hardy tree. Beauty: 3 Cleanliness: 0.4 Install Time: 5</description>
+		<texturePath>Terrain/Surfaces/WoodFloors/Dragonwood</texturePath>
+		<uiIconPath>Terrain/Surfaces/WoodFloors/Dragonwood</uiIconPath>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+			<Beauty>3</Beauty>
+			<Cleanliness>0.4</Cleanliness>
+		</statBases>
+		<costList>
+			<DragonwoodPlank>3</DragonwoodPlank>
+		</costList>
+		<researchPrerequisites><li>Wooden_floor_B1</li></researchPrerequisites>
+	</TerrainDef>
+	 
+	 <TerrainDef Name="WoodFloor_Mangrove" ParentName="WoodSK_FloorBase">
+		<defName>WoodFloor_Mangrove</defName>
+		<label>mangrove floor (H)</label>
+		<renderPrecedence>245</renderPrecedence>
+		<description>Floors made from very hard mangrove tree wood. Naturally fire resistant. Beauty: 1 Cleanliness: 0.4 Flammability: .1 Install Time: 5</description>
+		<texturePath>Terrain/Surfaces/WoodFloors/Mangrove</texturePath>
+		<uiIconPath>Terrain/Surfaces/WoodFloors/Mangrove</uiIconPath>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+			<Beauty>1</Beauty>
+			<Cleanliness>0.4</Cleanliness>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<costList>
+			<MangrovePlank>3</MangrovePlank>
+		</costList>
+		<researchPrerequisites><li>Wooden_floor_B1</li></researchPrerequisites>
+	</TerrainDef>
+	 
+	 
+	 <!-- VERTICAL --> 
+	 <TerrainDef ParentName="WoodFloor_Pine">
+		<defName>WoodFloor_PineV</defName>
+		<label>pine floor (V)</label>
+		<texturePath>Terrain/Surfaces/WoodFloors/PineV</texturePath>
+		<uiIconPath>Terrain/Surfaces/WoodFloors/PineV</uiIconPath>
+	</TerrainDef>
+	  <TerrainDef ParentName="WoodFloor_Willow">
+		<defName>WoodFloor_WillowV</defName>
+		<label>willow floor (V)</label>
+		<texturePath>Terrain/Surfaces/WoodFloors/WillowV</texturePath>
+		<uiIconPath>Terrain/Surfaces/WoodFloors/WillowV</uiIconPath>
+	</TerrainDef>
+	  <TerrainDef ParentName="WoodFloor_Redwood">
+		<defName>WoodFloor_RedwoodV</defName>
+		<label>redwood floor (V)</label>
+		<texturePath>Terrain/Surfaces/WoodFloors/RedwoodTeakV</texturePath>
+		<uiIconPath>Terrain/Surfaces/WoodFloors/RedwoodVi</uiIconPath>
+	</TerrainDef>
+	  <TerrainDef ParentName="WoodFloor_Cypress">
+		<defName>WoodFloor_CypressV</defName>
+		<label>cypress floor (V)</label>
+		<texturePath>Terrain/Surfaces/WoodFloors/CypressV</texturePath>
+		<uiIconPath>Terrain/Surfaces/WoodFloors/CypressV</uiIconPath>
+	</TerrainDef>
+	  <TerrainDef ParentName="WoodFloor_Poplar">
+		<defName>WoodFloor_PoplarV</defName>
+		<label>poplar floor (V)</label>
+		<texturePath>Terrain/Surfaces/WoodFloors/PoplarV</texturePath>
+		<uiIconPath>Terrain/Surfaces/WoodFloors/PoplarV</uiIconPath>
+	</TerrainDef>
+	  <TerrainDef ParentName="WoodFloor_Maple">
+		<defName>WoodFloor_MapleV</defName>
+		<label>maple floor (V)</label>
+		<texturePath>Terrain/Surfaces/WoodFloors/MapleV</texturePath>
+		<uiIconPath>Terrain/Surfaces/WoodFloors/MapleV</uiIconPath>
+	</TerrainDef>
+	  <TerrainDef ParentName="WoodFloor_Teak">
+		<defName>WoodFloor_TeakV</defName>
+		<label>teak floor (V)</label>
+		<texturePath>Terrain/Surfaces/WoodFloors/RedwoodTeakV</texturePath>
+		<uiIconPath>Terrain/Surfaces/WoodFloors/TeakVi</uiIconPath>
+	</TerrainDef>
+	  <TerrainDef ParentName="WoodFloor_Birch">
+		<defName>WoodFloor_BirchV</defName>
+		<label>birch floor (V)</label>
+		<texturePath>Terrain/Surfaces/WoodFloors/BirchV</texturePath>
+		<uiIconPath>Terrain/Surfaces/WoodFloors/BirchV</uiIconPath>
+	</TerrainDef>
+	  <TerrainDef ParentName="WoodFloor_Oak">
+		<defName>WoodFloor_OakV</defName>
+		<label>oak floor (V)</label>
+		<texturePath>Terrain/Surfaces/WoodFloors/OakV</texturePath>
+		<uiIconPath>Terrain/Surfaces/WoodFloors/OakV</uiIconPath>
+	</TerrainDef>
+	  <TerrainDef ParentName="WoodFloor_Dragonwood">
+		<defName>WoodFloor_DragonwoodV</defName>
+		<label>dragonwood floor (V)</label>
+		<texturePath>Terrain/Surfaces/WoodFloors/DragonwoodV</texturePath>
+		<uiIconPath>Terrain/Surfaces/WoodFloors/DragonwoodV</uiIconPath>
+	</TerrainDef>
+	  <TerrainDef ParentName="WoodFloor_Mangrove">
+		<defName>WoodFloor_MangroveV</defName>
+		<label>mangrove floor (V)</label>
+		<texturePath>Terrain/Surfaces/WoodFloors/MangroveV</texturePath>
+		<uiIconPath>Terrain/Surfaces/WoodFloors/MangroveV</uiIconPath>
+	</TerrainDef>
+	 
+	 
+	 
+	 
+	 <!-- non-standard -->
+	   <TerrainDef ParentName="TerrainRoadBase">
+		<defName>EarthenFloor</defName>
+		<label>earthen floor</label>
+		 <texturePath>Terrain/Surfaces/EarthenFloor</texturePath>
+			<edgeType>FadeRough</edgeType>
+			<renderPrecedence>360</renderPrecedence>
+			<pathCost>0</pathCost>
+			<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+			<statBases>
+			  <Beauty>-1</Beauty>
+			  <Cleanliness>-0.4</Cleanliness>
+			</statBases>
+			<scatterType>Rocky</scatterType>
+			<affordances>
+			  <li>Light</li>
+			  <li>Medium</li>
+			  <li>Heavy</li>
+			  <li>Diggable</li>
+			</affordances>
+			<generatedFilth>Filth_Dirt</generatedFilth>
+			<fertility>0.0</fertility>
+		<!--<researchPrerequisites><li>Wooden_floor_A2</li></researchPrerequisites>-->
+	</TerrainDef>
+	 
+	
+    
+	 
+	  <TerrainDef ParentName="WoodSK_FloorBase">
+		<defName>EndCutFloor</defName>
+		<label>end-cut oak floor</label>
+		<renderPrecedence>245</renderPrecedence>
+		<description>You can see the growth rings in these floorboards. Beauty: 2. Install Time: 6</description>
+		<texturePath>Terrain/Surfaces/EndCut</texturePath>
+		<uiIconPath>Terrain/Surfaces/EndCut_i</uiIconPath>
+		<statBases>
+			<WorkToBuild>600</WorkToBuild>
+			<Beauty>3</Beauty>
+			<Flammability>0.3</Flammability>
+		</statBases>
+		<costList>
+			<OakPlank>3</OakPlank>
+		</costList>
+		<researchPrerequisites><li>Wooden_floor_B1</li></researchPrerequisites>
+	</TerrainDef>
+	 
+	  <TerrainDef ParentName="WoodSK_FloorBase">
+		<defName>RandomBirch</defName>
+		<label>sanded birch floor</label>
+		<renderPrecedence>245</renderPrecedence>
+		<description>Sanded birch floorboards of random widths. Beauty: 1. Install time: 5</description>
+		<texturePath>Terrain/Surfaces/RandomBirch</texturePath>
+		<uiIconPath>Terrain/Surfaces/RandomBirch</uiIconPath>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+			<Beauty>1</Beauty>
+			<Flammability>0.4</Flammability>
+		</statBases>
+		<costList>
+			<BirchPlank>2</BirchPlank>
+		</costList>
+		<researchPrerequisites><li>Wooden_floor_B1</li></researchPrerequisites>
+	</TerrainDef>
+	 
+	 <TerrainDef ParentName="WoodSK_FloorBase">
+		<defName>ReclaimedVersailles</defName>
+		<label>reclaimed versailles parquet</label>
+		<renderPrecedence>245</renderPrecedence>
+		<description>Rough parquet with an aged, antique feel. Beauty: 3. Install time: 7</description>
+		<texturePath>Terrain/Surfaces/ReclaimedVersailles</texturePath>
+		<uiIconPath>Terrain/Surfaces/ReclaimedVersailles</uiIconPath>
+		<statBases>
+			<WorkToBuild>750</WorkToBuild>
+			<Beauty>3</Beauty>
+			<Flammability>0.4</Flammability>
+		</statBases>
+		<costList>
+			<OakPlank>2</OakPlank>
+		</costList>
+		<researchPrerequisites><li>Wooden_floor_B2</li></researchPrerequisites>
+	</TerrainDef>
+	 
+	  <TerrainDef ParentName="WoodSK_FloorBase">
+		<defName>TatamiMatting</defName>
+		<label>Tatami Matting</label>
+		<renderPrecedence>400</renderPrecedence>
+		<description>Strong, attractive matting made of dense, finely-woven straw. Great for a tea room or dojo. Surprisingly fire-resistant. Beauty: 4 Install Time: 6.5</description>
+		<texturePath>Terrain/Surfaces/TatamiMatting</texturePath>
+		<uiIconPath>Terrain/Surfaces/TatamiMatting</uiIconPath>
+		<statBases>
+			<WorkToBuild>650</WorkToBuild>
+			<Beauty>4</Beauty>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<costList>
+			<Hay>8</Hay>
+			<HempCloth>2</HempCloth>
+		</costList>
+		<researchPrerequisites><li>Metal_floor_B1</li></researchPrerequisites>
+	</TerrainDef>
+	 
+	  <TerrainDef ParentName="WoodSK_FloorBase">
+		<defName>RubberMatting</defName>
+		<label>Rubber Matting</label>
+		<renderPrecedence>400</renderPrecedence>
+		<description>Rubber matting which is easy to install. Function over form. Beauty: 1</description>
+		<texturePath>Terrain/Surfaces/RubberMatting</texturePath>
+		<uiIconPath>Terrain/Surfaces/RubberMatting</uiIconPath>
+		<statBases>
+			<WorkToBuild>150</WorkToBuild>
+			<Beauty>1</Beauty>
+			<Flammability>0</Flammability>
+		</statBases>
+		<costList>
+			<Rubber>5</Rubber>
+		</costList>
+		<researchPrerequisites><li>Metal_floor_B1</li></researchPrerequisites>
+	</TerrainDef>
+	 
+	 <!-- Decks -->
+	 <TerrainDef ParentName="WoodSK_FloorBase">
+		<defName>WoodPlankFloor</defName>
+		<label>Redwood Decking (H)</label>
+		<renderPrecedence>400</renderPrecedence>
+		<description>Raised wooden planks for a deck, porch, or walkway. Terrain won't encroach on it. Low flammability redwood. Beauty: 3. Install time: 2</description>
+		<texturePath>Terrain/Surfaces/WoodFloor2</texturePath>
+		<statBases>
+			<WorkToBuild>250</WorkToBuild>
+			<Beauty>3</Beauty>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<costList>
+			<RedWoodPlank>4</RedWoodPlank>
+		</costList>
+		<researchPrerequisites><li>Wooden_floor_A3</li></researchPrerequisites>
+	 </TerrainDef>
+	
+	 <TerrainDef ParentName="WoodSK_FloorBase">
+		<defName>WoodPlankFloorVertical</defName>
+		<label>Redwood Decking (H)</label>
+		<renderPrecedence>400</renderPrecedence>
+		<description>Raised wooden planks for a deck, porch, or walkway. Terrain won't encroach on it. Low flammability redwood. Beauty: 3. Install time: 2</description>
+		<texturePath>Terrain/Surfaces/WoodFloor2V</texturePath>
+		<statBases>
+			<WorkToBuild>250</WorkToBuild>
+			<Beauty>3</Beauty>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<costList>
+			<RedWoodPlank>4</RedWoodPlank>
+		</costList>
+		<researchPrerequisites><li>Wooden_floor_A3</li></researchPrerequisites>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="WoodSK_FloorBase">
+		<defName>OakDeck</defName>
+				<label>Oak Decking (H)</label>
+				<renderPrecedence>400</renderPrecedence>
+				<description>Raised wooden planks for a deck, porch, or walkway. Terrain won't encroach on it. Beauty: 3. Install time: 3</description>
+				<texturePath>Terrain/Surfaces/OakDeck</texturePath>
+				<statBases>
+					<WorkToBuild>310</WorkToBuild>
+					<Beauty>2</Beauty>
+					<Flammability>0.3</Flammability>
+				</statBases>
+				<costList>
+					<OakPlank>4</OakPlank>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_A3</li></researchPrerequisites>
+	 </TerrainDef>
+	 
+	<TerrainDef ParentName="WoodSK_FloorBase">
+		<defName>OakDeckV</defName>
+		<label>Oak Decking (V)</label>
+		<renderPrecedence>400</renderPrecedence>
+		<description>Raised wooden planks for a deck, porch, or walkway. Terrain won't encroach on it. Beauty: 3. Install time: 2</description>
+		<texturePath>Terrain/Surfaces/OakDeckV</texturePath>
+		<statBases>
+			<WorkToBuild>310</WorkToBuild>
+			<Beauty>2</Beauty>
+			<Flammability>0.3</Flammability>
+		</statBases>
+		<costList>
+			<OakPlank>4</OakPlank>
+		</costList>
+		<researchPrerequisites><li>Wooden_floor_A3</li></researchPrerequisites>
+	 </TerrainDef>
+	 
+	<TerrainDef ParentName="WoodSK_FloorBase">
+		<defName>PineDeck</defName>
+		<label>Pine Decking (H)</label>
+		<renderPrecedence>400</renderPrecedence>
+		<description>Raised wooden planks for a deck, porch, or walkway. Terrain won't encroach on it. Beauty: 3. Install time: 2</description>
+		<texturePath>Terrain/Surfaces/PineDeck</texturePath>
+		<statBases>
+			<WorkToBuild>250</WorkToBuild>
+			<Beauty>3</Beauty>
+			<Flammability>0.3</Flammability>
+		</statBases>
+		<costList>
+			<PinePlank>4</PinePlank>
+		</costList>
+		<researchPrerequisites><li>Wooden_floor_A3</li></researchPrerequisites>
+	 </TerrainDef>
+	<TerrainDef ParentName="WoodSK_FloorBase">
+		<defName>PineDeckV</defName>
+		<label>Pine Decking (V)</label>
+		<renderPrecedence>400</renderPrecedence>
+		<description>Raised wooden planks for a deck, porch, or walkway. Terrain won't encroach on it. Beauty: 3. Install time: 2</description>
+		<texturePath>Terrain/Surfaces/PineDeckV</texturePath>
+		<statBases>
+			<WorkToBuild>250</WorkToBuild>
+			<Beauty>3</Beauty>
+			<Flammability>0.3</Flammability>
+		</statBases>
+		<costList>
+			<PinePlank>4</PinePlank>
+		</costList>
+		<researchPrerequisites><li>Wooden_floor_A3</li></researchPrerequisites>
+	 </TerrainDef>
+	 
+	 <!-- LAMINATES -->
+	 
+	 <TerrainDef ParentName="WoodSK_FloorBase">
+		<defName>CecropiaLaminate</defName>
+		<label>Laminate cecropia floor.</label>
+		<renderPrecedence>250</renderPrecedence>
+		<description>Laminated cecropia planks. Not very attractive, but they snap together quickly. Fire-resistant construction. Beauty: 1. Install time: 1</description>
+		<texturePath>Terrain/Surfaces/CecropiaLaminate</texturePath>
+		<statBases>
+			<WorkToBuild>150</WorkToBuild>
+			<Beauty>1</Beauty>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<costList>
+			<CecropiaPlank>3</CecropiaPlank>
+		</costList>
+		<researchPrerequisites><li>Metal_floor_B1</li></researchPrerequisites>
+	 </TerrainDef>
+	 
+	 <!-- LOG FLOOR -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName = "LogFloor"]</xpath>
+		<value>
+			<TerrainDef ParentName="WoodSK_FloorBase">
+				<defName>LogFloor</defName>
+				<label>clapboard flooring (H)</label>
+				<renderPrecedence>250</renderPrecedence>
+				<description>Logs split into crude, uneven planks. Beauty: 1. Cleanliness: -0.3 Install time: 2</description>
+				<texturePath>Terrain/Surfaces/LogFloor</texturePath>
+				<statBases>
+					<WorkToBuild>250</WorkToBuild>
+					<Beauty>1</Beauty>
+					<Flammability>0.5</Flammability>
+					<Cleanliness>-0.3</Cleanliness>
+				</statBases>
+				<costList>
+					<WoodLog>4</WoodLog>
+				</costList>
+				<researchPrerequisites><li>Wooden_floor_A2</li></researchPrerequisites>
+			</TerrainDef>
+		</value>
+	</Operation>
+	<TerrainDef ParentName="WoodSK_FloorBase">
+		<defName>TikiFloorDark</defName>
+		<label>clapboard flooring (V)</label>
+		<renderPrecedence>250</renderPrecedence>
+		<description>Logs split into crude, uneven planks. Beauty: 1. Install time: 2 Cleanliness: -0.3</description>
+		<texturePath>Terrain/Surfaces/LogFloorVertical</texturePath>
+		<statBases>
+			<WorkToBuild>250</WorkToBuild>
+			<Beauty>1</Beauty>
+			<Flammability>0.5</Flammability>
+			<Cleanliness>-0.3</Cleanliness>
+		</statBases>
+		<costList>
+			<WoodLog>4</WoodLog>
+		</costList>
+		<researchPrerequisites><li>Wooden_floor_A2</li></researchPrerequisites>
+	</TerrainDef>
+	 
+	 
+</Defs>

@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="WallBase">
+		<defName>LogWall</defName>
+		<label>cabin wall</label>
+		<description>A rustic wall made of unrefined logs. Sturdy, but uses a lot of material.</description>
+		<graphicData>
+			<texPath>Things/Building/Linked/Wall</texPath> <!-- leaving this in linked in case later decide to do separate appearances -->
+			<graphicClass>Graphic_Appearances</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+				<li>Rock</li>
+			</linkFlags>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+		<building>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<uiIconPath>Things/Building/Linked/Wall_Log_Ico</uiIconPath>
+		<uiIconPathsStuff>
+			<li>
+				<appearance>Logs</appearance>
+				<iconPath>Things/Building/Linked/Wall_Log_Ico</iconPath>
+			</li>
+		</uiIconPathsStuff>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints> <!-- vanilla is 380 -->
+			<WorkToBuild>500</WorkToBuild> <!-- vanilla is 270 -->
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<stuffCategories>
+			<li>Softwoods</li>
+			<li>Hardwoods</li>
+			<li>Ultrahardwoods</li>
+		</stuffCategories>
+		<costStuffCount>2</costStuffCount> <!-- equal to 10 planks-->
+		<researchPrerequisites>
+			<li>Fortification_A1</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<ThingDef ParentName="WallBase">
+		<defName>ClapboardWall</defName>
+		<label>clapboard wall</label>
+		<description>A wall with siding made of wedges split from a log (ie. firewood). It can also be made from planks.</description>
+		<graphicData>
+			<texPath>Things/Building/Walls/Wall_Atlas_Clapboard</texPath> <!-- leaving this in linked in case later decide to do separate appearances -->
+			<shaderType>CutoutComplex</shaderType>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+				<li>Rock</li>
+			</linkFlags>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+		<building>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<uiIconPath>Things/Building/Walls/Wall_Atlas_Clapboard_ico</uiIconPath>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints> <!-- vanilla is 380 -->
+			<WorkToBuild>270</WorkToBuild> <!-- vanilla is 270 -->
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<stuffCategories>
+			<li>WoodLogs</li>
+			<li>SoftwoodLumber</li>
+			<li>HardwoodLumber</li>
+			<li>UltrahardwoodLumber</li>	
+		</stuffCategories>
+		<costStuffCount>4</costStuffCount>
+	</ThingDef>
+	
+
+	<ThingDef ParentName="WallBase">
+		<defName>BambooWall</defName>
+		<label>bamboo wall</label>
+		<description>A wall made out of unrefined bamboo.</description>
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/Walls/Wall_Atlas_Bamboo</texPath> <!-- leaving this in linked in case later decide to do separate appearances -->
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+				<li>Rock</li>
+			</linkFlags>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+		<building>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<uiIconPath>Things/Building/Walls/Wall_Atlas_Bamboo_ico</uiIconPath>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints> <!-- vanilla is 380 -->
+			<WorkToBuild>300</WorkToBuild> <!-- vanilla is 270 -->
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<blockWind>false</blockWind>
+		<stuffCategories>
+			<li>Bambooish</li>
+		</stuffCategories>
+		<costStuffCount>4</costStuffCount>
+	</ThingDef>
+
+	
+	<ThingDef ParentName="WallBase">
+		<defName>MudWall</defName>
+		<label>rammed-earth wall</label>
+		<description>A wall made out of compressed earth. Fireproof and stronger than you might expect, but very time consuming to make.</description>
+		<graphicData>
+			<!--<shaderType>CutoutComplex</shaderType>-->
+			<texPath>Things/Building/Walls/Wall_Atlas_Mud</texPath>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+				<li>Rock</li>
+			</linkFlags>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+		<building>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<uiIconPath>Things/Building/Walls/Wall_Atlas_Mud_ico</uiIconPath>
+		<uiIconPathsStuff>
+			<li>
+				<!--<appearance>Logs</appearance>-->
+				<iconPath>Things/Building/Walls/Wall_Atlas_Mud_ico</iconPath>
+			</li>
+		</uiIconPathsStuff>
+		<statBases>
+			<MaxHitPoints>550</MaxHitPoints> <!-- vanilla is 380 -->
+			<WorkToBuild>700</WorkToBuild> <!-- vanilla is 270 -->
+			<Flammability>0.0</Flammability>
+		</statBases>
+		<stuffCategories>
+			<li>Aggregate</li>
+		</stuffCategories>
+		<costStuffCount>6</costStuffCount>
+		<costList>
+			<SoftClay>4</SoftClay>
+		</costList>
+	</ThingDef>
+	
+	<ThingDef ParentName="WallBase">
+		<defName>AdobeWall</defName>
+		<label>adobe wall</label>
+		<description>A wall made of earthen material and finished with stucco. Time-consuming to make, but inexpensive and fire proof.</description>
+		<graphicData>
+			<!--<shaderType>CutoutComplex</shaderType>-->
+			<texPath>Things/Building/Walls/Wall_Atlas_Adobe</texPath>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+				<li>Rock</li>
+			</linkFlags>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+		<building>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<uiIconPath>Things/Building/Walls/Wall_Atlas_Adobe_ico</uiIconPath>
+		<uiIconPathsStuff>
+			<li>
+				<!--<appearance>Logs</appearance>-->
+				<iconPath>Things/Building/Walls/Wall_Atlas_Adobe_ico</iconPath>
+			</li>
+		</uiIconPathsStuff>
+		<statBases>
+			<MaxHitPoints>350</MaxHitPoints> <!-- vanilla is 380 -->
+			<WorkToBuild>550</WorkToBuild> <!-- vanilla is 270 -->
+			<Flammability>0.0</Flammability>
+		</statBases>
+		<stuffCategories>
+			<li>Aggregate</li>
+		</stuffCategories>
+		<costStuffCount>5</costStuffCount>
+		<costList>
+			<SoftClay>2</SoftClay>
+			<SandResource>2</SandResource>
+		</costList>
+	</ThingDef>
+	
+	<ThingDef ParentName="WallBase">
+		<defName>WattleWall</defName>
+		<label>wattle and daub wall</label>
+		<description>A wall made of earth and clay around a wooden latticework and binded with straw. Uses a lot of different materials found around the building site.</description>
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/Walls/Wall_Atlas_Wattle</texPath>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+				<li>Rock</li>
+			</linkFlags>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+		<building>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<uiIconPath>Things/Building/Walls/Wall_Atlas_Wattle_ico</uiIconPath>
+		<uiIconPathsStuff>
+			<li>
+				<!--<appearance>Logs</appearance>-->
+				<iconPath>Things/Building/Walls/Wall_Atlas_Wattle_ico</iconPath>
+			</li>
+		</uiIconPathsStuff>
+		<statBases>
+			<MaxHitPoints>320</MaxHitPoints> <!-- vanilla is 380 -->
+			<WorkToBuild>250</WorkToBuild> <!-- vanilla is 270 -->
+			<Flammability>0.8</Flammability>
+			<Beauty>1</Beauty>
+		</statBases>
+		<stuffCategories>
+			<li>Aggregate</li>
+		</stuffCategories>
+		<costStuffCount>2</costStuffCount>
+		<costList>
+			<Hay>2</Hay>
+			<Kindling>2</Kindling>
+			<SoftClay>2</SoftClay>
+		</costList>
+	</ThingDef>
+	
+	
+	
+	
+	
+	
+</Defs>

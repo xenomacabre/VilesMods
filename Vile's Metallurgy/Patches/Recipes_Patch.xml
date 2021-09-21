@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+			<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="Make_AshFromFecalSludge"]/recipeUsers</xpath>
+				<value>
+					<recipeUsers>
+						 <li>ElectricCrematorium</li>
+		  				 <li>BurnPit</li>
+					</recipeUsers>
+				</value>
+			</li>
+			
+		
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="MakeActivatedCarbon"]/recipeUsers</xpath>
+				<value>
+					<recipeUsers>
+						<li>meditable</li>
+						<li>DrugLab</li>
+					</recipeUsers>
+				</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="MakeCeramics"]/recipeUsers</xpath>
+				<value>
+					<recipeUsers>
+						<li>ElectricSmelter</li>
+					</recipeUsers>
+				</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="MakeCeramics"]/researchPrerequisite</xpath>
+				<value>
+					<researchPrerequisite>Metals_C1</researchPrerequisite>
+				</value>
+		</li>
+		
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

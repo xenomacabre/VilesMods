@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Core SK</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs</xpath>
+      <value>
+		  
+		<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneSlabsSandstone</defName>
+		<label>sandstone slabs</label>
+		<color>(126,104,94)</color>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>400</renderPrecedence>
+		<description>Sandstone flooring made with square slabs. Beauty: 4. Work: 760.</description>
+		<texturePath>Terrain/Surfaces/StoneSlabs</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B2</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>760</WorkToBuild>
+			<Beauty>4</Beauty>
+		</statBases>
+		<costList>
+			<BlocksSandstone>4</BlocksSandstone>
+		</costList>
+		<designationCategory>OutsideFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneSlabsGranite</defName>
+		<label>granite slabs</label>
+		<color>(105,95,97)</color>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>400</renderPrecedence>
+		<description>Granite flooring made with square slabs.Beauty: 4. Work: 760.</description>
+		<texturePath>Terrain/Surfaces/StoneSlabs</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B2</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>760</WorkToBuild>
+			<Beauty>4</Beauty>
+		</statBases>
+		<costList>
+			<BlocksGranite>4</BlocksGranite>
+		</costList>
+		<designationCategory>OutsideFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneSlabsLimestone</defName>
+		<label>limestone slabs</label>
+		<color>(158,153,135)</color>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>400</renderPrecedence>
+		<description>Limestone flooring made with square slabs. Beauty: 4. Work: 760.</description>
+		<texturePath>Terrain/Surfaces/StoneSlabs</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B2</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>760</WorkToBuild>
+			<Beauty>4</Beauty>
+		</statBases>
+		<costList>
+			<BlocksLimestone>4</BlocksLimestone>
+		</costList>
+		<designationCategory>OutsideFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneSlabsSlate</defName>
+		<label>slate slabs</label>
+		<color>(70,70,70)</color>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>400</renderPrecedence>
+		<description>Slate flooring made with square slabs. Beauty: 5. Work: 760.</description>
+		<texturePath>Terrain/Surfaces/StoneSlabs</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B2</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>760</WorkToBuild>
+			<Beauty>5</Beauty>
+		</statBases>
+		<costList>
+			<BlocksSlate>4</BlocksSlate>
+		</costList>
+		<designationCategory>OutsideFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneSlabsMarble</defName>
+		<label>marble slabs</label>
+		<color>(132,135,132)</color>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>400</renderPrecedence>
+		<description>Marble flooring made with square slabs. Beauty: 5. Work: 760.</description>
+		<texturePath>Terrain/Surfaces/StoneSlabs</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B2</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>760</WorkToBuild>
+			<Beauty>5</Beauty>
+		</statBases>
+		<costList>
+			<BlocksMarble>4</BlocksMarble>
+		</costList>
+		<designationCategory>OutsideFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SK_TileStoneBase">
+		<defName>FloorStoneSlabsCeramics</defName>
+		<label>Ceramic slabs</label>
+		<color>(255,255,255)</color>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>400</renderPrecedence>
+		<description>Ceramics flooring made with square slabs. Beauty: 5. Work: 760.</description>
+		<texturePath>Terrain/Surfaces/StoneSlabs</texturePath>
+		<researchPrerequisites>
+			<li>Stone_floor_B2</li>
+		</researchPrerequisites>
+		<statBases>
+			<WorkToBuild>760</WorkToBuild>
+			<Beauty>5</Beauty>
+		</statBases>
+		<costList>
+			<Ceramics>4</Ceramics>
+		</costList>
+		<designationCategory>OutsideFloors</designationCategory>
+	</TerrainDef>
+		  
+		</value>
+    </match>
+  </Operation>
+
+
+</Patch>

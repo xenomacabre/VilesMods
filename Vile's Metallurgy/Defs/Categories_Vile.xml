@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<StuffCategoryDef>
+		<defName>ForgedMetallic</defName>
+		<label>Forgeable metallic</label>
+	</StuffCategoryDef>
+	<StuffCategoryDef>
+		<defName>CastMetallic</defName>
+		<label>Castable metallic</label>
+	</StuffCategoryDef>
+	<!--<StuffCategoryDef>
+		<defName>Plumbing</defName>
+		<label>Plumbing</label>
+	</StuffCategoryDef>-->
+</Defs>

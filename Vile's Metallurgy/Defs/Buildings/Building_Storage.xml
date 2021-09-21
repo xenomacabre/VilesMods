@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--<ThingDef ParentName="LWM_DeepStorage">
+		<defName>RootCellar</defName>
+		<label>root cellar</label>
+		<description>A cellar dug into the ground to keep produce cool and dry. Reduces spoilage by 50%. Slow to store and retrieve items, since it takes a bit of time to "root" around in there.</description>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<graphicData>
+			<texPath>Things/Building/RootCellar</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawRotated>false</drawRotated>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<size>(3,3)</size>
+		<pathCost>20</pathCost>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<canOverlapZones>false</canOverlapZones>
+		<costList>
+			<ComponentMedieval>12</ComponentMedieval>
+		</costList>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>3400</WorkToBuild>
+			<Beauty>-10</Beauty>
+			<Bulk>40</Bulk>
+			<Mass>20</Mass>
+		</statBases>
+		<building>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+			<fixedStorageSettings>
+				<filter>
+					<categories>
+						<li>Foods</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+		</building>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="SK.CompProperties_RotModified">
+				<rotmodifier>0.4</rotmodifier>
+			</li>
+			<li Class="LWM.DeepStorage.Properties" >
+				<maxNumberStacks>4</maxNumberStacks>
+				<minTimeStoringTakes>40</minTimeStoringTakes>
+				<additionalTimeEachStack>30</additionalTimeEachStack>
+				<overlayType>SumOfItemsPerCell</overlayType>
+				<showContents>false</showContents>
+			</li>
+		</comps>
+		<researchPrerequisites Inherit="false"/>
+		<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<placeWorkers><li>PlaceWorker_NotUnderRoof</li></placeWorkers>
+	</ThingDef>
+-->
+	
+	<!-- VANILLA POT -->
+	<ThingDef ParentName="LWM_DeepStorage">
+		<defName>Pot</defName>
+		<label>metal pot</label>
+		<description>A big pot made of metal; used to preserve food. Slows rotting process almost as well as glazed ceramics. Reduces spoilage by 40%. Not cheap to construct.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Containers/Pot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			<!--<color>(141,86,65)</color>-->
+			<shadowData>
+				<volume>(0.7, 0.3, 0.7)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,1)</size>
+		<pathCost>40</pathCost>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Precious</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<ComponentMedieval>4</ComponentMedieval>
+		</costList>
+		<statBases>
+			<MarketValue>150</MarketValue>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Beauty>0</Beauty>
+			<Bulk>4</Bulk>
+			<Mass>2</Mass>
+		</statBases>
+		<building>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+			<fixedStorageSettings>
+				<filter>
+					<categories>
+						<li>Foods</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+		</building>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="SK.CompProperties_RotModified">
+				<rotmodifier>0.6</rotmodifier>
+			</li>
+			<li Class="LWM.DeepStorage.Properties" >
+				<maxNumberStacks>5</maxNumberStacks>
+				<timeStoringTakes>25</timeStoringTakes>
+				<overlayType>SumOfItemsPerCell</overlayType>
+				<showContents>false</showContents>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>Craft_B1</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	<!-- CLAY POTS -->
+	
+	<ThingDef Name="Building_ClayPot" ParentName="LWM_DeepStorage" Abstract="true">
+		<defName>Building_ClayPot</defName>
+		<graphicData>
+			<texPath>Things/Pottery/Pot_unglazed</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.7, 0.3, 0.7)</volume>
+			</shadowData>
+		</graphicData>
+		<size>(1,1)</size>
+		<pathCost>40</pathCost>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<MaxHitPoints>85</MaxHitPoints>
+			<WorkToBuild>100</WorkToBuild>
+			<Beauty>2</Beauty>
+			<Bulk>4</Bulk>
+			<Mass>2</Mass>
+		</statBases>
+		<building>
+			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+			<fixedStorageSettings>
+				<filter>
+					<categories>
+						<li>Foods</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+		</building>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="SK.CompProperties_RotModified">
+				<rotmodifier>0.55</rotmodifier>
+			</li>
+			<li Class="LWM.DeepStorage.Properties" >
+				<maxNumberStacks>5</maxNumberStacks>
+				<timeStoringTakes>25</timeStoringTakes>
+				<overlayType>SumOfItemsPerCell</overlayType>
+				<showContents>false</showContents>
+			</li>
+		</comps>
+		<constructionSkillPrerequisite>1</constructionSkillPrerequisite>
+		
+	</ThingDef>
+	
+	<ThingDef ParentName="Building_ClayPot">
+		<defName>Building_ClayPotUnglazed</defName>
+		<label>clay pot</label>
+		<description>A fired, but unglazed clay pot. Used for food storage, but it's porous and doesn't seal as well as glazed pots. Reduces spoilage by 30%.</description>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<MaxHitPoints>65</MaxHitPoints>
+			<Beauty>1</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Pottery/Pot_unglazed</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.7, 0.3, 0.7)</volume>
+			</shadowData>
+		</graphicData>
+		<costList>
+			<ClayPot>1</ClayPot>
+		</costList>
+		<comps>
+			<li Class="SK.CompProperties_RotModified">
+				<rotmodifier>0.65</rotmodifier>
+			</li>
+		</comps>	
+		<researchPrerequisites>
+			<li>Ceramics_A1</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="Building_ClayPot">
+		<defName>Building_ClayPotAsh</defName>
+		<label>Ash-glazed pot</label>
+		<description>A glazed clay pot. Beautiful and seals well for food storage. Reduces spoilage by 45%.</description>
+		<statBases>
+			<MarketValue>150</MarketValue>
+			<Beauty>10</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Pottery/Pot_Ash</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.7, 0.3, 0.7)</volume>
+			</shadowData>
+		</graphicData>
+		<costList>
+			<ClayPotAsh>1</ClayPotAsh>
+		</costList>
+		<researchPrerequisites>
+			<li>Ceramics_B1</li>
+		</researchPrerequisites>
+	</ThingDef>
+	<ThingDef ParentName="Building_ClayPot">
+		<defName>Building_ClayPotPainted</defName>
+		<label>Painted clay pot</label>
+		<description>A glazed clay pot. Beautiful and seals well for food storage. Reduces spoilage by 45%.</description>
+		<statBases>
+			<MarketValue>150</MarketValue>
+			<Beauty>10</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Pottery/Pot_RedFigure</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.7, 0.3, 0.7)</volume>
+			</shadowData>
+		</graphicData>
+		<costList>
+			<ClayPotPainted>1</ClayPotPainted>
+		</costList>
+		<researchPrerequisites>
+			<li>Ceramics_B1</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<ThingDef ParentName="Building_ClayPot">
+		<defName>Building_ClayPotSalt</defName>
+		<label>salt-glazed clay pot</label>
+		<description>A glazed clay pot. Beautiful and seals well for food storage. Reduces spoilage by 45%.</description>
+		<statBases>
+			<MarketValue>175</MarketValue>
+			<Beauty>12</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Pottery/Pot_Salt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.7, 0.3, 0.7)</volume>
+			</shadowData>
+		</graphicData>
+		<costList>
+			<ClayPotSalt>1</ClayPotSalt>
+		</costList>
+		<researchPrerequisites>
+			<li>Ceramics_B1</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<ThingDef ParentName="Building_ClayPot">
+		<defName>Building_ClayPotLead</defName>
+		<label>lead-glazed clay pot</label>
+		<description>A glazed clay pot. Beautiful and seals well for food storage. Reduces spoilage by 45%.</description>
+		<statBases>
+			<MarketValue>200</MarketValue>
+			<Beauty>18</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Pottery/Pot_Lead</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.7, 0.3, 0.7)</volume>
+			</shadowData>
+		</graphicData>
+		<costList>
+			<ClayPotLead>1</ClayPotLead>
+		</costList>
+		<researchPrerequisites>
+			<li>Ceramics_B1</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<ThingDef ParentName="Building_ClayPot">
+		<defName>Building_ClayPotTin</defName>
+		<label>tin-glazed clay pot</label>
+		<description>A glazed clay pot. Beautiful and seals well for food storage. Reduces spoilage by 45%.</description>
+		<statBases>
+			<MarketValue>275</MarketValue>
+			<Beauty>24</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Pottery/Pot_Tin</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.7, 0.3, 0.7)</volume>
+			</shadowData>
+		</graphicData>
+		<costList>
+			<ClayPotTin>1</ClayPotTin>
+		</costList>
+		<researchPrerequisites>
+			<li>Ceramics_B1</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	
+</Defs>

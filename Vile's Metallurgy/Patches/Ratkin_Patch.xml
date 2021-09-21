@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+			<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Peat-WaterShallow"]/label</xpath>
+				<value>
+					<label>Peat from bogs</label>
+				</value>
+			</li>		
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Campfire"]/recipes</xpath>
+				<value>
+					<recipes></recipes>
+				</value>
+			</li>	
+			
+		</operations>
+		</match>
+		
+		
+    </Operation>	
+</Patch>	

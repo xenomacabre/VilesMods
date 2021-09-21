@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--
+	<ThingDef ParentName="SK_BuildingBase">
+		<defName>wallLog_angle</defName>
+		<label>Angled Log Wall</label>
+		<graphicData>
+			<texPath>Things/Building/WallAngle/WallAngle</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+		<fillPercent>1</fillPercent>
+		<statBases>
+			<MaxHitPoints>380</MaxHitPoints>
+			<WorkToBuild>270</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<designationCategory>Structure</designationCategory>
+		<description>A wall at a 45 degree angle. Must be manually placed.</description>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>WoodLogs</li>
+		</stuffCategories>
+		<costStuffCount>6</costStuffCount>
+		<rotatable>true</rotatable>
+		<coversFloor>false</coversFloor>
+		<tickerType>Never</tickerType>
+		<blockLight>true</blockLight>
+		<blockWind>true</blockWind>
+		<canOverlapZones>false</canOverlapZones>
+	</ThingDef>
+
+-->
+</Defs>

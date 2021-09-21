@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- THINGS -->
+<ThingDef ParentName="SK_ResourceBase">
+		<defName>FluxPowder</defName>
+		<label>flux</label>
+		<description>A natural chemical derived from sodium carbonate or calcium oxide which acts as a purifying agent in metallurgy and lowers the melting point for glass formation in ceramics.</description>
+		<graphicData>
+			<texPath>Things/Item/CrushedStone</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(170,200,160)</color>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>900</stackLimit>
+		<statBases>
+			<MarketValue>0.4</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.5</Mass>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<!--<tradeTags>
+			<li>TerraformingResources</li>
+		</tradeTags>-->
+	</ThingDef>
+
+
+	
+	
+
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Coke</defName>
+		<label>coke</label>
+		<description>Coke is a reduction of coal - a process that happens in a kiln or oven. It burns hotter and cleaner than coal and is necessary for certain types of steel processing. It also needs to be at a much higher temperature to ignite so it's unsuitible for use at a kiln or bloomery.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/CoalOre</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(250,200,200)</color>
+		</graphicData>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<useHitPoints>true</useHitPoints>
+		<resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<MarketValue>3</MarketValue>
+			<DeteriorationRate>0.01</DeteriorationRate>
+			<Flammability>2</Flammability>
+			<MaxBurningTempCelsius>2400</MaxBurningTempCelsius> <!-- starts up at 700 -->
+			<BurnDurationHours>2.2</BurnDurationHours>
+			<Mass>0.2</Mass>
+			<Bulk>0.2</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<thingCategories>
+			<li>MetallurgicalCoal</li>
+		</thingCategories>
+		<stackLimit>600</stackLimit>
+		<deepCommonality>2.0</deepCommonality>
+		<deepCountPerCell>2500</deepCountPerCell>
+		<deepCountPerPortion>50</deepCountPerPortion>
+		<deepLumpSizeRange>
+			<min>95</min>
+			<max>150</max>
+		</deepLumpSizeRange>
+	</ThingDef>
+	
+	
+	
+</Defs>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/StatDef[defName="CookSpeed"]/minValue</xpath>
+		<value>
+			<minValue>0</minValue>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/StatDef[defName="CookSpeed"]/parts</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/StatDef[defName="CookSpeed"]</xpath>
+				<value>
+					<parts/>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/StatDef[defName="CookSpeed"]/parts</xpath>
+				<value>
+					<li Class="SurvivalToolsLite.StatPart_SurvivalTool">
+						<noToolStatFactor>1</noToolStatFactor>
+						<noToolStatFactorHardcore>1</noToolStatFactorHardcore>
+					</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/StatDef[defName="ButcheryFleshSpeed"]/parts</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/StatDef[defName="ButcheryFleshSpeed"]</xpath>
+				<value>
+					<parts/>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/StatDef[defName="ButcheryFleshSpeed"]/parts</xpath>
+				<value>
+					<li Class="SurvivalToolsLite.StatPart_SurvivalTool">
+						<noToolStatFactor>1</noToolStatFactor>
+						<noToolStatFactorHardcore>1</noToolStatFactorHardcore>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/StatDef[defName="ButcheryFleshEfficiency"]/parts</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/StatDef[defName="ButcheryFleshEfficiency"]</xpath>
+				<value>
+					<parts/>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/StatDef[defName="ButcheryFleshEfficiency"]/parts</xpath>
+				<value>
+					<li Class="SurvivalToolsLite.StatPart_SurvivalTool">
+						<noToolStatFactor>1</noToolStatFactor>
+						<noToolStatFactorHardcore>1</noToolStatFactorHardcore>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

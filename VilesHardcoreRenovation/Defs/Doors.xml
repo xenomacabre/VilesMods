@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--<ThingDef ParentName="SK_DoorBase">
+		<defName>PalisadeGate</defName>
+		<label>palisade gate</label>
+		<description>Not stockade is complete without a way in.</description>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>500</WorkToBuild>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Building/Doors/DoorPalisade_Mover</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+			<damageData>
+			
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Doors/DoorPalisade_Mover</uiIconPath>
+		<stuffCategories>
+			<li>Softwoods</li>
+			<li>Hardwoods</li>
+			<li>Ultrahardwoods</li>
+		</stuffCategories>
+		<costStuffCount>2</costStuffCount>
+		<costList>
+			<ComponentMedieval>2</ComponentMedieval>
+		</costList>
+	</ThingDef>
+	-->
+	
+	<ThingDef ParentName="FencesAFGateBase">
+		<defName>PalisadeGate</defName>
+		<label>palisade gate</label>
+		<description>A gate made of wooden logs.</description>
+		<altitudeLayer>DoorMoveable</altitudeLayer>
+		<fillPercent>1.0</fillPercent>
+		<useHitPoints>true</useHitPoints>
+		<stuffCategories>
+			<li>Softwoods</li>
+			<li>Hardwoods</li>
+			<li>Ultrahardwoods</li>
+		</stuffCategories>
+		<costStuffCount>2</costStuffCount>
+		<costList>
+			<ComponentMedieval>4</ComponentMedieval>
+		</costList>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<selectable>true</selectable>
+		<tickerType>Normal</tickerType>
+		<rotatable>false</rotatable>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<holdsRoof>false</holdsRoof>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<blockLight>false</blockLight>
+		<drawerType>RealtimeOnly</drawerType>
+		<graphicData>
+			<texPath>Things/Building/Doors/DoorPalisade_Mover</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<linkFlags>
+				<li>Custom1</li>
+			</linkFlags>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Doors/DoorPalisade_Mover_ico</uiIconPath>
+		<building>
+			<isInert>true</isInert>
+			<canPlaceOverWall>true</canPlaceOverWall>
+			<soundDoorOpenManual>Door_OpenManual</soundDoorOpenManual>
+			<soundDoorCloseManual>Door_CloseManual</soundDoorCloseManual>
+			<blueprintClass>Blueprint_Door</blueprintClass>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Fences/WoodFenceGate_Blueprint</texPath>
+			</blueprintGraphicData>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_DoorLearnOpeningSpeed</li>
+		</placeWorkers>
+	</ThingDef>
+		<ThingDef ParentName="FencesAFGateBase">
+		<defName>PalisadeGateB</defName>
+		<label>palisade gate</label>
+		<description>A gate made of wooden logs.</description>
+		<altitudeLayer>DoorMoveable</altitudeLayer>
+		<fillPercent>1.0</fillPercent>
+		<useHitPoints>true</useHitPoints>
+		<stuffCategories>
+			<li>Softwoods</li>
+			<li>Hardwoods</li>
+			<li>Ultrahardwoods</li>
+		</stuffCategories>
+		<costStuffCount>2</costStuffCount>
+		<costList>
+			<ComponentMedieval>4</ComponentMedieval>
+		</costList>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<selectable>true</selectable>
+		<tickerType>Normal</tickerType>
+		<rotatable>false</rotatable>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<holdsRoof>false</holdsRoof>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<blockLight>false</blockLight>
+		<drawerType>RealtimeOnly</drawerType>
+		<graphicData>
+			<texPath>Things/Building/Doors/DoorPalisadeB_Mover</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<linkFlags>
+				<li>Custom1</li>
+			</linkFlags>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Doors/DoorPalisadeB_Mover_ico</uiIconPath>
+		<building>
+			<isInert>true</isInert>
+			<canPlaceOverWall>true</canPlaceOverWall>
+			<soundDoorOpenManual>Door_OpenManual</soundDoorOpenManual>
+			<soundDoorCloseManual>Door_CloseManual</soundDoorCloseManual>
+			<blueprintClass>Blueprint_Door</blueprintClass>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Fences/WoodFenceGateB_Blueprint</texPath>
+			</blueprintGraphicData>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_DoorLearnOpeningSpeed</li>
+		</placeWorkers>
+	</ThingDef>
+	
+</Defs>

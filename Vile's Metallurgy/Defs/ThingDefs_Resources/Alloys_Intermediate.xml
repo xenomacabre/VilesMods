@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>IronBloom</defName>
+		<label>Iron Bloom</label>
+		<description>An unrefined product of smelting iron ore in a bloomery. It's porous and is full of slag and impurities, so is quite worthless until it is forged into wrought iron by removing the other components with heat and a hammer.</description>
+		<graphicData>
+			<texPath>Things/Item/Bloom</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<!--<color>(111,90,81)</color>-->
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>75</stackLimit>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>1</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>2</Mass>
+			<Bulk>1</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>RARBar</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>PigIron</defName>
+		<label>Pig Iron Ingot</label>
+		<description>When iron ore is smelted in a high-temperature blast furnace, you get pig iron—a crude, useless intermediate product which is very high in carbon. It can be further refined by melting in a foundry to produce high-carbon cast iron, or decarbonized into useful wrought iron at a finery forge or puddling furnace.</description>
+		<graphicData>
+			<texPath>Things/Item/PigIron</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<!--<color>(206,162,149)</color>-->
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>150</stackLimit>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>0.5</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>1</Mass>
+			<Bulk>0.5</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>RARBar</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>BlisterSteel</defName>
+		<label>Blister Steel Bar</label>
+		<description>When iron ore is smelted in a high-temperature blast furnace, you get pig iron—a crude, useless intermediate product which is very high in carbon. It can be further refined by melting in a foundry to produce high-carbon cast iron, or decarbonized into useful wrought iron at a finery forge or puddling furnace.</description>
+		<graphicData>
+			<texPath>Things/Item/BSBillet</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<!--<color>(175,108,103)</color>-->
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>600</stackLimit>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>0.65</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.35</Mass>
+			<Bulk>0.35</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>RARBar</li>
+		</thingCategories>
+	</ThingDef>
+
+	
+</Defs>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Core SK</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs</xpath>
+      <value>
+		  
+	<TerrainDef Abstract="True" ParentName="SK_FloorBase" Name="SK_FlagstoneBase">
+		<renderPrecedence>220</renderPrecedence>
+		<!--<description>Roughly-cut stone tiles. Not super pretty, but they make good surfaces for roads and outdoor walkways. Deconstructing 			flagstone yields no resources. Beauty: 1.</description> -->
+		<description>Rough cut gravel. Good for roads or against a building's foundation. Deconstructing yields no resources. Beauty: 			1.</description>
+		<texturePath>Terrain/Surfaces/Flagstone</texturePath>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<statBases>
+			<WorkToBuild>400</WorkToBuild>
+			<Beauty>1</Beauty>
+		</statBases>
+		<tags>
+			<li>Road</li>
+		</tags>
+		<researchPrerequisites>
+			<li>Stone_floor_B2</li>
+		</researchPrerequisites>
+		<designationCategory>NaturalFloors</designationCategory>
+	</TerrainDef>
+		
+<TerrainDef ParentName="SK_FloorBase">
+		<defName>PavedTile</defName>
+		<label>Paved Tile</label>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>400</renderPrecedence>
+		<description>Large grey tiles with a thick, dark border. Quick to move around on. 
+Beauty: 2.</description>
+		<texturePath>Terrain/Surfaces/PavedTile</texturePath>
+		<statBases>
+			<WorkToBuild>200</WorkToBuild>
+			<Beauty>2</Beauty>
+		</statBases>
+		<costList>
+			<ConcreteResource>2</ConcreteResource>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<researchPrerequisites>
+			<li>Concrete_floor_C1</li>
+		</researchPrerequisites>
+		<designationCategory>OutsideFloors</designationCategory>
+	</TerrainDef>
+
+		</value>
+    </match>
+  </Operation>
+
+
+</Patch>

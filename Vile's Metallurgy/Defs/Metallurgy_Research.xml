@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ResearchProjectDef ParentName="PrimitiveBase">
+		<defName>Ceramics_A1</defName>		
+		<label>Ceramics I</label>
+		<description>Learn how to make bricks and clay pots (earthenware, terracotta, etc) in a kiln.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>20.00</researchViewY>
+		<tab>Craft_SK</tab>
+		<modExtensions>
+			<li Class="ResearchTreeSK.ResearchTreeSKModExtension"/>
+		</modExtensions>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="MedievalBase">
+		<defName>Ceramics_B1</defName>		
+		<label>Ceramics II</label>
+		<description>Learn to make ceramic tiles and glaze clay pots.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>20.00</researchViewY>
+		<tab>Craft_SK</tab>
+		<prerequisites>
+			<li>Ceramics_A1</li>
+		</prerequisites>
+		<modExtensions>
+			<li Class="ResearchTreeSK.ResearchTreeSKModExtension"/>
+		</modExtensions>
+	</ResearchProjectDef>
+	
+	<!-- Metallurgy I = Craft_B1 -->
+
+	<ResearchProjectDef ParentName="MedievalBase">
+		<defName>Metallurgy_B2</defName>		
+		<label>Metallurgy II - Iron Ages</label>
+		<description>Make wrought iron and forge-welded steel at a smithy by proccessing iron bloom, which in turn can be acquired from iron ore at a bloomery. Make and install stronger, prefabricated pipes.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Craft_B1</li>
+		</prerequisites>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>22.00</researchViewY>
+		<tab>Craft_SK</tab>
+		<modExtensions>
+			<li Class="ResearchTreeSK.ResearchTreeSKModExtension"/>
+		</modExtensions>
+	</ResearchProjectDef>
+
+	
+	
+	<ResearchProjectDef ParentName="MedievalBase">
+		<defName>Metallurgy_B3</defName>		
+		<label>Metallurgy III - Medieval</label>
+		<description>Learn faster and more efficient methods of producing iron and steel via pig iron which is produced at a blast furnace and further processed at a finery forge.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Metallurgy_B2</li>
+		</prerequisites>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>22.00</researchViewY>
+		<tab>Craft_SK</tab>
+		<modExtensions>
+			<li Class="ResearchTreeSK.ResearchTreeSKModExtension"/>
+		</modExtensions>
+	</ResearchProjectDef>
+
+	
+	<ResearchProjectDef ParentName="MedievalBase">
+		<defName>Metallurgy_B4</defName>		
+		<label>Metallurgy IV - Casting</label>
+		<description>Learn how to mass produce products by casting from liquid cast iron or bronze at a Foundry.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Metallurgy_B3</li>
+		</prerequisites>
+		<researchViewX>5.00</researchViewX>
+		<researchViewY>22.00</researchViewY>
+		<tab>Craft_SK</tab>
+		<modExtensions>
+			<li Class="ResearchTreeSK.ResearchTreeSKModExtension"/>
+		</modExtensions>
+	</ResearchProjectDef>
+			
+	<ResearchProjectDef ParentName="MedievalBase">
+		<defName>Metallurgy_B5</defName>		
+		<label>Metallurgy V - Puddling</label>
+		<description>Quickly and efficiently make iron and steel by melting pig iron at a foundry.</description>
+		<baseCost>600</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Metallurgy_B4</li>
+		</prerequisites>
+		<researchViewX>6.00</researchViewX>
+		<researchViewY>22.00</researchViewY>
+		<tab>Craft_SK</tab>
+		<modExtensions>
+			<li Class="ResearchTreeSK.ResearchTreeSKModExtension"/>
+		</modExtensions>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="MedievalBase">
+		<defName>Steel_B1</defName>		
+		<label>Advanced Steel I</label>
+		<description>Learn the ancient ways of producing ultra-high carbon wootz steel.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Metallurgy_B2</li>
+		</prerequisites>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>21.00</researchViewY>
+		<tab>Craft_SK</tab>
+		<modExtensions>
+			<li Class="ResearchTreeSK.ResearchTreeSKModExtension"/>
+		</modExtensions>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="MedievalBase">
+		<defName>Steel_B2</defName>		
+		<label>Advanced Steel II</label>
+		<description>Make blister steel at a cementation furnace and then fold that into forged steel.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Metallurgy_B3</li>
+			<li>Steel_B1</li>
+		</prerequisites>
+		<researchViewX>5.00</researchViewX>
+		<researchViewY>21.00</researchViewY>
+		<tab>Craft_SK</tab>
+		<modExtensions>
+			<li Class="ResearchTreeSK.ResearchTreeSKModExtension"/>
+		</modExtensions>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="MedievalBase">
+		<defName>Steel_B3</defName>		
+		<label>Advanced Steel III</label>
+		<description>Melt blister steel down in a crucible to make crucible steel.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Metallurgy_B4</li>
+			<li>Steel_B2</li>
+		</prerequisites>
+		<researchViewX>6.00</researchViewX>
+		<researchViewY>21.00</researchViewY>
+		<tab>Craft_SK</tab>
+		<modExtensions>
+			<li Class="ResearchTreeSK.ResearchTreeSKModExtension"/>
+		</modExtensions>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="MedievalBase">
+		<defName>WaterWheelTech</defName>		
+		<label>water wheel</label>
+		<description>Increase stamp mill and finery output with a water wheel built by a flowing river.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Metallurgy_B2</li>
+		</prerequisites>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>25.00</researchViewY>
+		<tab>Craft_SK</tab>
+		<modExtensions>
+			<li Class="ResearchTreeSK.ResearchTreeSKModExtension"/>
+		</modExtensions>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="MedievalBase">
+		<defName>SteamEngineTech</defName>		
+		<label>steam engine</label>
+		<description>Learn how to build a steam-powered bellows to increase furnace speed.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Metallurgy_B3</li>
+		</prerequisites>
+		<researchViewX>5.00</researchViewX>
+		<researchViewY>25.00</researchViewY>
+		<tab>Craft_SK</tab>
+		<modExtensions>
+			<li Class="ResearchTreeSK.ResearchTreeSKModExtension"/>
+		</modExtensions>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="MedievalBase">
+		<defName>StampMillTech</defName>		<!-- Stones_B1 -->
+		<label>Stamp mill</label>
+		<description>Build a stamp mill and power it with a water wheel for faster crushing of stone and gunpowder.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Stonecutting</li>
+		</prerequisites>
+		<researchViewX>5.00</researchViewX>
+		<researchViewY>23.00</researchViewY>
+		<tab>Craft_SK</tab>
+		<modExtensions>
+			<li Class="ResearchTreeSK.ResearchTreeSKModExtension"/>
+		</modExtensions>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="MedievalBase">
+		<defName>BogIronTech</defName>		<!-- Stones_B1 -->
+		<label>Bog Iron</label>
+		<description>Learn how to extract small amounts of iron from peat.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Medieval</techLevel>
+		<prerequisites>
+			<li>Stonecutting</li>
+			<li>Mining_B1</li>
+		</prerequisites>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>24.00</researchViewY>
+		<tab>Craft_SK</tab>
+		<modExtensions>
+			<li Class="ResearchTreeSK.ResearchTreeSKModExtension"/>
+		</modExtensions>
+	</ResearchProjectDef>
+	
+</Defs>

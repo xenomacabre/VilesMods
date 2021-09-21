@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<!-- MISC CHANGES harvests divided by 5 (logs are 5x bigger)-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Mangrove"]/plant/harvestWork</xpath>
+		<value>
+			<harvestWork>1200</harvestWork>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Mangrove"]/description</xpath>
+		<value>
+			<description>Mangrove trees typically grow in swamps. Its ultra-hard wood is somewhat flame-resistant and makes great firewood since it burns slowly.</description>
+		</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreePalm"]/plant/harvestWork</xpath>
+		<value>
+			<harvestWork>800</harvestWork>
+			</value>
+    </Operation>
+		
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreeDrago"]/plant/harvestWork</xpath>
+		<value>
+			<harvestWork>2000</harvestWork>
+			</value>
+    </Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeDrago"]/statBases/Beauty</xpath>
+			<value>
+				<Beauty>10</Beauty>
+			</value>
+		</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreeDrago"]/description</xpath>
+		<value>
+			<description>A beautiful tree with rare, incredibly hard wood. It's sap is blood red and has been heard to have medicinal properties.</description>
+			</value>
+    </Operation>
+		
+		
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreeOak"]/plant/harvestWork</xpath>
+		<value>
+			<harvestWork>1200</harvestWork>
+			</value>
+    </Operation>
+
+		
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreePoplar"]/plant/harvestWork</xpath>
+		<value>
+			<harvestWork>650</harvestWork>
+			</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreePine"]/plant/harvestWork</xpath>
+		<value>
+			<harvestWork>450</harvestWork>
+			</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreeBirch"]/plant/harvestWork</xpath>
+		<value>
+			<harvestWork>900</harvestWork>
+			</value>
+    </Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreeTeak"]/plant/harvestWork</xpath>
+		<value>
+			<harvestWork>900</harvestWork>
+			</value>
+    </Operation>		
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreeCecropia"]/plant/harvestWork</xpath>
+		<value>
+			<harvestWork>450</harvestWork>
+			</value>
+    </Operation>		
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreeWillow"]/plant/harvestWork</xpath>
+		<value>
+			<harvestWork>550</harvestWork>
+			</value>
+	</Operation>	
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeWillow"]/description</xpath>
+			<value>
+				<description>Willows are fast-growing trees. They make good decoration, but its wood is mediocre.</description>
+				</value>
+		</Operation>		
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeWillow"]/statBases/Beauty</xpath>
+			<value>
+				<Beauty>4</Beauty>
+			</value>
+		</Operation>		
+		
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreeCypress"]/plant/harvestWork</xpath>
+		<value>
+			<harvestWork>600</harvestWork>
+			</value>
+    </Operation>	
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeCypress"]/description</xpath>
+			<value>
+				<description>A tall, slow-growing tree. Typically found in swamps.</description>
+				</value>
+		</Operation>	
+		
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreeMaple"]/plant/harvestWork</xpath>
+		<value>
+			<harvestWork>700</harvestWork>
+			</value>
+    </Operation>		
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeMaple"]/description</xpath>
+			<value>
+				<description>The red maple is one of the most common deciduous trees which grows in temperate climates.</description>
+				</value>
+		</Operation>	
+			
+			
+			
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PlantTreeRedwood"]/plant/harvestWork</xpath>
+		<value>
+			<harvestWork>1800</harvestWork>
+			</value>
+    </Operation>	
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeMaple"]/description</xpath>
+			<value>
+				<description>A huge, very slow growing tree. It yields a lot of wood, which is known for its beauty, and resistance to fire and insects. Its wood is fairly soft and light.</description>
+				</value>
+		</Operation>	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PlantTreeRedwood"]/label</xpath>
+		<value>
+			<label>redwood tree</label>
+		</value>
+    </Operation>	
+		
+		
+		
+		
+		
+		
+		
+		
+</Patch>

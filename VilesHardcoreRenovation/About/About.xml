@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<ModMetaData>
+<name>Vile's Hardcore Renovations</name>
+<author>Xenomacabre</author>
+<supportedVersions>
+	<li>1.3</li>
+</supportedVersions>
+<packageId>xenomacabre.HCSKwallsandfloorsreduxeno</packageId>
+<modDependencies>
+	<li>
+		<packageId>skyarkhangel.FencesAndFloorsVileUpdate</packageId>
+		<displayName>HSK Fences and Floors - Vile's Patch</displayName>
+		<downloadUrl>https://github.com/xenomacabre/VilesMods</downloadUrl>
+	</li>
+	<li>
+		<packageId>skyarkhangel.realisticterraform</packageId>
+		<displayName>HMC Realistic Terraforming</displayName>
+		<downloadUrl>https://github.com/skyarkhangel/Hardcore-SK</downloadUrl>
+	</li>
+	
+</modDependencies>
+<loadBefore>
+</loadBefore>
+<loadAfter>
+	<li>skyarkhangel.FencesAndFloorsVileUpdate</li>
+</loadAfter>
+<incompatibleWith>
+	<li>skyarkhangel.FencesAndFloors</li>
+</incompatibleWith>
+<description>
+Formerly known as Vile's Walls and Floors HD, this mod adds a new interior wall, hard-edged decking and sidewalks, and retextures many floors, most terrain, and walls styled in high-definition realism. 
+But that's not all! Now we got new fences. And even MORE floors and walls.
+
+I've started a blog and patreon for my mods! Check it out, and support me if you wish - I'm also taking commissions! 
+http://patreon.com/vileheathen
+	
+UPDATE 3.0 ALPHA (September 17) - Updated for 1.3
+	-Now dependant on the new Wood You Please mod, which overhauls timber, so each tree gives its own type of wood.
+	-Floors Overhaul: 
+		-Primitive floors revamped and now use a variety of materials such as flax, firewood, etc
+		-New "earthen floor" terraform, similar to packed dirt, but cleaner and more attractive.
+		-Lots of new wood parquet flooring, including a set of several styles which you can mix and match.
+		-Each wood has its own unique hardwood flooring which is available in both horizontal and vertical textures.
+		-"Reclaimed Wood" flooring are new rustic styles that are cheaper.
+		-New mat flooring, including tatami matting, woven bamboo mat, and rubber matting.
+	-Walls Overhaul:
+		-Several new primitive wall options, including rammed-earth walls, adobe, wattle and daub, clapboard (which is made of firewood), and bamboo walls.
+		-"Pile of Dirt" is now called "Silt" to avoid confusion, because dirt is actually made up of sand, silt, clay, and clay.
+		-Sand, silt, and rubble now in a stuff category called "Aggregate" and can be used in construction of the new primitive walls.
+		-Log Cabin Walls have a variety of colors and properties dependant on their wood type. They can be built directly from logs, but it uses them up quickly.
+		-Wood Panel Walls are made from planks, and like the cabin walls come in different varieties. They're useful as both interior and exterior walls.
+		-There are now a few varieties of wallpapered interior walls, as well as a ceramic tile wall which has a cleanliness bonus.	
+		-Metal walls come in three different textures, based on the type of alloy they're made of. 
+	-Fence Overhaul: 	
+		-Fences retextured (requires the Fences and Floors SK 1.3 patch which I've included as a separate mod). This will require manual gate placement like previous SK fence gates - You're a big kid and I believe in you. I'll improve it in a later update.
+		-new Dry Stone Wall - A rustic stone fence which will keep your animals safe and has a pastoral appeal.
+		-new Palisade Wall - A quick solution for a defensive perimeter. Comes with a gate.
+	-Doors retextured FINALLY
+	
+Development Road Map: 
+	  - Post-Apocalyptic walls and floors pack. Scrap metal walls, junk fences, etc. Waiting for NPS to be updated to 1.3 first (for wasteland biome)
+	  - Linoleum overhaul.
+	  - Diagonal walls are removed for now. May add back later once I've worked out other kinks.
+	  	  
+	  
+PREVIOUS UPDATES:	  
+	  
+Update 2.2 (May 10) - Fixed a bug where you couldn't build floors under walls
+
+Version 2.0 (May 8, 2021)
+- Added diagonal walls sections: Rotatable buildings which you place in between two kiddie-corner wall blocks. It currently only works with the log wall, because I still haven't made new textures for the other walls.
+- This mod includes new textures for many existing floors, walls, terrain and trees. If you prefer the textures from the Flora Reskin, place that mod after this one and it should prioritize those textures. You can also delete individual folders, for example, if you prefer the HD terrain but not the trees, delete the trees folder.
+- Delicately retouched some of the original HSK trees to make them slightly more crisp.
+- Added a new fire texture. Let me know if you think it sucks.
+	 
+Version 1.1 (2020)
+- Patch added to fix terraforming wasteland.	  
+
+Version 1.0 (2020)
+- Revised high-resolution floor textures
+- Log floors and hardwood can now be both vertical and horizontal
+- Hard-edged "raised" tiles: Paved tiles, stone slabs, and wood decking 
+- Some revised terrain textures (under development) 
+- New Interior Walls - Painted backer-boards over a wood frame. Quick to build but with very little structural integrity. 
+- New Wood Log Wall textures
+
+
+  </description> 
+</ModMetaData>

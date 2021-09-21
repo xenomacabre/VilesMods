@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>blisterSteel_process</defName>
+		<label>Make blister steel (x40)</label>
+		<description>Make blister steel - an intermediate product used to make crucible steel and forge-welded steel. Takes 2 days.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WroughtIron</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Charcoal</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WroughtIron</li>
+				<li>Charcoal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlisterSteel>40</BlisterSteel>
+		</products>
+		<usesTemperature>false</usesTemperature>
+		<processDays>2.0</processDays>
+		<recipeUsers>
+			<li>CementationFurnace</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>fireFlux_process</defName>
+		<label>Make flux powder (x25)</label>
+		<description>Make flux powder, an important catalyst for ceramics and metallurgy. Takes 12 hours.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CrushedStone</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CrushedStone</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<FluxPowder>25</FluxPowder>
+		</products>
+		<usesTemperature>false</usesTemperature>
+		<processDays>0.5</processDays>
+		<recipeUsers>
+			<li>Kiln</li>
+		</recipeUsers>
+	</RecipeDef>	
+	
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>ash_process</defName>
+		<label>make ash from wood (x4)</label>
+		<description>Make ash from logs or planks. Takes 12 hours.</description>
+		<!--<slotsRequired>1</slotsRequired>-->
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Wooden</li>
+						<li>Woody</li>
+					</categories>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Wooden</li>
+				<li>Woody</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ash>4</Ash>
+		</products>
+		<usesTemperature>false</usesTemperature>
+		<processDays>0.5</processDays>
+		<recipeUsers>
+			<li>Kiln</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>charcoal_process</defName>
+		<label>make charcoal from wood (x20)</label>
+		<description>Make charcoal from wood logs. Takes 12 hours.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Wooden</li>
+						<li>Woody</li>
+					</categories>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Wooden</li>
+				<li>Woody</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Charcoal>20</Charcoal>
+		</products>
+		<usesTemperature>false</usesTemperature>
+		<processDays>0.5</processDays>
+		<recipeUsers>
+			<li>Kiln</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>charcoalKindling_process</defName>
+		<label>make charcoal from kindling (x20)</label>
+		<description>Make charcoal from kindling. A bit faster than processing from logs. Takes 9 hours.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Kindling</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Kindling</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Charcoal>20</Charcoal>
+		</products>
+		<usesTemperature>false</usesTemperature>
+		<processDays>0.375</processDays>
+		<recipeUsers>
+			<li>Kiln</li>
+		</recipeUsers>	
+	</RecipeDef>
+	
+<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>coke_process</defName>
+		<label>coke coal (x20)</label>
+		<description>Convert coal into coke, with a firing process called 'coking'. Takes 16 hours.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Coal</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Coke</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Coke>20</Coke>
+		</products>
+		<usesTemperature>false</usesTemperature>
+		<processDays>0.66</processDays>
+			<researchPrerequisite>Metallurgy_B3</researchPrerequisite>
+		<recipeUsers>
+			<li>Kiln</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>wootz_process</defName>
+		<label>make traditional wootz steel (x60)</label>
+		<description>Prepare and fire a crucible to produce wootz steel using organic matter as the carbon source. Takes 3 days.</description>
+		<ingredients>
+				<li>
+				<filter>
+					<thingDefs>
+						<li>WroughtIron</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ClayPotWetUnglazed</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Kindling</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WroughtIron</li>
+				<li>ClayPot</li>
+				<li>Kindling</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<WootzSteel>60</WootzSteel>
+		</products>
+		<researchPrerequisite>Steel_B1</researchPrerequisite>
+		<usesTemperature>false</usesTemperature>
+		<processDays>3</processDays>
+		<slotsRequired>2</slotsRequired>
+		<recipeUsers>
+			<li>Kiln</li>
+			<!--<li>CementationFurnace</li>-->
+		</recipeUsers>	
+	</RecipeDef>
+	
+<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>wootzPigIron_process</defName>
+		<label>make wootz steel with pig iron (x60)</label>
+		<description>Prepare and fire a crucible to produce wootz steel using pig iron as the carbon source. Takes 2 days.</description>
+		<ingredients>
+				<li>
+				<filter>
+					<thingDefs>
+						<li>WroughtIron</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ClayPotWetUnglazed</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PigIron</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WroughtIron</li>
+				<li>ClayPot</li>
+				<li>PigIron</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<WootzSteel>60</WootzSteel>
+		</products>
+		<researchPrerequisite>Steel_B1</researchPrerequisite>
+		<usesTemperature>false</usesTemperature>
+		<processDays>2</processDays>
+		<slotsRequired>2</slotsRequired>
+		<recipeUsers>
+			<li>CementationFurnace</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeClayBricksCementation</defName>
+		<label>bake clay bricks (x80)</label>
+		<description>Bake bricks out of soft clay. Takes 24 hours.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SoftClay</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SoftClay</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ClayBrick>80</ClayBrick>
+		</products>
+		<usesTemperature>false</usesTemperature>
+		<processDays>1</processDays>
+		<recipeUsers>
+			<li>CementationFurnace</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeClayBricks</defName>
+		<label>bake clay bricks (x30)</label>
+		<description>Bake bricks out of soft clay. Takes 30 hours.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SoftClay</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SoftClay</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ClayBrick>30</ClayBrick>
+		</products>
+		<usesTemperature>false</usesTemperature>
+		<processDays>1.25</processDays>
+		<recipeUsers>
+			<li>Kiln</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeBlocksSandstoneCementation</defName>
+		<label>bake sandstone blocks (x50)</label>
+		<description>Bake sandstone blocks. Takes 24 hours.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SandResource</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SandResource</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksSandstone>50</BlocksSandstone>
+		</products>
+		<usesTemperature>false</usesTemperature>
+		<processDays>1</processDays>
+		<recipeUsers>
+			<li>CementationFurnace</li>
+		</recipeUsers>
+	</RecipeDef>
+<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeBlocksSandstone</defName>
+		<label>bake sandstone blocks (x20)</label>
+		<description>Bake sandstone blocks. Takes 30 hours.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SandResource</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SandResource</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksSandstone>20</BlocksSandstone>
+		</products>
+		<usesTemperature>false</usesTemperature>
+		<processDays>1.25</processDays>
+		<recipeUsers>
+			<li>Kiln</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeCeramics_Process</defName>
+		<label>Fire porcelain tiles (x20)</label>
+		<description>Fire porcelain tiles. Takes 36 hours.</description>
+	<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SoftClay</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GlassBatch</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GlassBatch</li>
+				<li>SoftClay</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ceramics>20</Ceramics>
+		</products>
+		<usesTemperature>false</usesTemperature>
+		<processDays>1.5</processDays>
+		<recipeUsers>
+			<li>Kiln</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeGlassBatch_Process</defName>
+		<label>Make glass batch (x10)</label>
+		<description>Process glass which can then be blown and formed into sheets at a furnace. Makes 10. Takes 36 hours.</description>
+	<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SandResource</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SandResource</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GlassBatch>10</GlassBatch>
+		</products>
+		<usesTemperature>false</usesTemperature>
+		<processDays>1.5</processDays>
+		<recipeUsers>
+			<li>Kiln</li>
+		</recipeUsers>
+		<researchPrerequisite>Glass_B1</researchPrerequisite>
+	</RecipeDef>
+	
+	
+<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeActivatedCarbon_Process</defName>
+		<label>Make activated carbon (x20)</label>
+		<description>Make activated carbon pills from coal. Produces 20. Takes 12 hours.</description>
+		<jobString>Making sctivated carbon</jobString>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Charcoal</li>
+						<li>Coal</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Charcoal</li>
+				<li>Coal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ActivatedCarbon>20</ActivatedCarbon>
+		</products>
+		<researchPrerequisite>DrugProduction</researchPrerequisite>
+		<recipeUsers>
+			<li>Kiln</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<processDays>0.5</processDays>
+	</RecipeDef>
+</Defs>

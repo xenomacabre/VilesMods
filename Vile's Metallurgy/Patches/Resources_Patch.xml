@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Charcoal"]/statBases</xpath>
+		<value>
+			<statBases>
+				<MaxHitPoints>15</MaxHitPoints>
+				<MarketValue>2</MarketValue>
+				<DeteriorationRate>0.01</DeteriorationRate>
+				<Flammability>3</Flammability>
+				<MaxBurningTempCelsius>1000</MaxBurningTempCelsius>
+				<BurnDurationHours>1.4</BurnDurationHours>
+				<Mass>0.16</Mass>
+				<Bulk>0.16</Bulk>
+			</statBases>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Coal"]/statBases</xpath>
+		<value>
+			<statBases>
+				<MaxHitPoints>10</MaxHitPoints>
+				<MarketValue>2</MarketValue>
+				<DeteriorationRate>0.01</DeteriorationRate>
+				<Flammability>3</Flammability>
+				<MaxBurningTempCelsius>1900</MaxBurningTempCelsius>
+				<BurnDurationHours>2</BurnDurationHours>
+				<Mass>0.2</Mass>
+				<Bulk>0.2</Bulk>
+			</statBases>
+		</value>
+	</Operation>
+	
+	
+	
+	
+
+	
+	
+</Patch>

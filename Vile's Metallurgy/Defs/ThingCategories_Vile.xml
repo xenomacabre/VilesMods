@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingCategoryDef>
+		<defName>Plumbing</defName>
+		<label>Plumbing</label>
+		<iconPath>UI/Icons/Parts</iconPath>
+		<parent>Manufactured</parent>
+	</ThingCategoryDef>
+	<!-- ============= HARDCORE SK CATEGORIES start =================-->
+
+		<ThingCategoryDef>
+			<defName>ForgedBar</defName>
+			<label>Forgable</label>
+			<iconPath>UI/Icons/Bars</iconPath>
+			<parent>Metallic</parent>
+		</ThingCategoryDef>
+		<ThingCategoryDef>
+			<defName>CastBar</defName>
+			<label>Castable</label>
+			<iconPath>UI/Icons/Bars</iconPath>
+			<parent>Metallic</parent>
+		</ThingCategoryDef>
+
+
+	<ThingCategoryDef>
+		<defName>MetallurgicalCoal</defName>
+		<label>Metallurgical Coal</label>
+		<iconPath>UI/Icons/Coal</iconPath>
+		<parent>Manufactured</parent>
+	</ThingCategoryDef>
+
+</Defs>

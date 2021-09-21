@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingCategoryDef>
+		<defName>RawLogs</defName>
+		<label>Raw Logs</label>
+		<iconPath>UI/Icons/Wooden</iconPath>
+		<parent>ResourcesRaw</parent>
+	</ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>Hardwoods</defName>
+		<label>Hardwood</label>
+		<iconPath>UI/Icons/Wooden</iconPath>
+		<parent>RawLogs</parent>
+	</ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>Softwoods</defName>
+		<label>Softwood</label>
+		<iconPath>UI/Icons/Wooden</iconPath>
+		<parent>RawLogs</parent>
+	</ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>Ultrahardwoods</defName>
+		<label>Ultra-hardwood</label>
+		<iconPath>UI/Icons/Wooden</iconPath>
+		<parent>RawLogs</parent>
+	</ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>BambooLogs</defName>
+		<label>Unrefined Bamboo</label>
+		<iconPath>UI/Icons/Wooden</iconPath>
+		<parent>RawLogs</parent>
+	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>HardwoodLumber</defName>
+		<label>Hardwood Lumber</label>
+		<iconPath>UI/Icons/Wooden</iconPath>
+		<parent>Woody</parent>
+	</ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>SoftwoodLumber</defName>
+		<label>Softwood Lumber</label>
+		<iconPath>UI/Icons/Wooden</iconPath>
+		<parent>Woody</parent>
+	</ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>UltrahardwoodLumber</defName>
+		<label>Ultra-hardwood Lumber</label>
+		<iconPath>UI/Icons/Wooden</iconPath>
+		<parent>Woody</parent>
+	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>EngineeredLumber</defName>
+		<label>Engineered Lumber</label>
+		<iconPath>UI/Icons/Wooden</iconPath>
+		<parent>Woody</parent>
+	</ThingCategoryDef>
+	
+	
+	
+	
+</Defs>

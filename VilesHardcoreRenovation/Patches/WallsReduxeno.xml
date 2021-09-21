@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  
+ <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName = "Wall"]/graphicData</xpath>
+	<value>
+		<shaderType>CutoutComplex</shaderType>
+	</value>
+</Operation>
+
+ <Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName = "Wall"]/stuffCategories</xpath>
+	<value>
+		<stuffCategories>
+			<li>Stony</li>
+			<li>Bricks</li>
+			<li>Metallic</li>
+		</stuffCategories>
+	</value>
+</Operation>
+
+ <Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName = "Wall"]</xpath>
+	<value>
+		<researchPrerequisites>
+			<li>Construction_B1</li>
+		</researchPrerequisites>
+	</value>
+</Operation>
+
+<!--
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Core SK</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs</xpath>
+      <value>
+		  
+		  <ThingDef ParentName="WallBase">
+			<defName>Wall</defName>
+			<label>wall</label>
+			<description>An impassable wall. It is capable of holding up a roof.</description>
+			<graphicData>
+				<shaderType>CutoutComplex</shaderType>
+				
+				<graphicClass>Graphic_Random</graphicClass>
+				<texPath>Things/Building/Linked/Wall/Wall_Atlas_Logs</texPath>
+				<linkType>CornerFiller</linkType>
+				<linkFlags>
+					<li>Wall</li>
+					<li>Rock</li>
+				</linkFlags>
+				<damageData>
+					<cornerTL>Damage/Corner</cornerTL>
+					<cornerTR>Damage/Corner</cornerTR>
+					<cornerBL>Damage/Corner</cornerBL>
+					<cornerBR>Damage/Corner</cornerBR>
+					<edgeTop>Damage/Edge</edgeTop>
+					<edgeBot>Damage/Edge</edgeBot>
+					<edgeLeft>Damage/Edge</edgeLeft>
+					<edgeRight>Damage/Edge</edgeRight>
+				</damageData>
+			</graphicData>
+			<building>
+				<blueprintGraphicData>
+					<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+				</blueprintGraphicData>
+			</building>
+			<uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
+			<statBases>
+				<MaxHitPoints>380</MaxHitPoints>
+				<WorkToBuild>270</WorkToBuild>
+				<Flammability>1.0</Flammability>
+			</statBases>
+			<stuffCategories>
+				<li>Stony</li>
+				<li>Bricks</li>
+				<li>WoodLogs</li>
+				<li>Metallic</li>
+			</stuffCategories>
+			<costStuffCount>6</costStuffCount>
+		</ThingDef>
+		  
+		</value>
+    </match>
+  </Operation>
+
+-->
+</Patch>

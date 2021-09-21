@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>Cast_Handaxe_Batch</defName>
+		<label>Cast Handaxe</label>
+		<description>Batch-cast handaxes (x3)</description>
+		<jobString>Casting handaxes from metal.</jobString>
+		<workAmount>7000</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<recipeUsers>
+			<li>Foundry</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>CastBar</li>
+					</categories>
+				</filter>
+				<count>105</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>CastBar</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>CastIron</li>
+			</disallowedThingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<TFJ_Tool_Woodcutting_Handaxe>3</TFJ_Tool_Woodcutting_Handaxe>    
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<unfinishedThingDef>UnfinishedMetallicApparel</unfinishedThingDef>
+			<!--<researchPrerequisite>ResearchCrucibleFoundry</researchPrerequisite>-->
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>Cast_Pickaxe_Batch</defName>
+		<label>batch-cast pickaxes (x3)</label>
+		<description>Cast Pickaxes from metal. Produces 3.</description>
+		<jobString>Casting pickaxes from metal.</jobString>
+		<workAmount>7000</workAmount>
+	<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<recipeUsers>
+			<li>Foundry</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>CastBar</li>
+					</categories>
+				</filter>
+				<count>105</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>CastBar</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>CastIron</li>
+			</disallowedThingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<TFJ_Tool_Mining_Pickaxe>3</TFJ_Tool_Mining_Pickaxe>    
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<unfinishedThingDef>UnfinishedMetallicApparel</unfinishedThingDef>
+			<!--<researchPrerequisite>ResearchCrucibleFoundry</researchPrerequisite>-->
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>Cast_Hammer_Batch</defName>
+		<label>batch-cast hammers (x4)</label>
+		<description>Cast hammers from metal.</description>
+		<jobString>Casting hammers from metal.</jobString>
+		<workAmount>2400</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<recipeUsers>
+			<li>Foundry</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>CastBar</li>
+					</categories>
+				</filter>
+				<count>100</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>CastBar</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>CastIron</li>
+			</disallowedThingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<TFJ_Tool_Building_Hammer>4</TFJ_Tool_Building_Hammer>    
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<unfinishedThingDef>UnfinishedMetallicApparel</unfinishedThingDef>		
+			<!--<researchPrerequisite>ResearchCrucibleFoundry</researchPrerequisite>-->
+	</RecipeDef>
+	
+<RecipeDef>
+		<defName>Cast_Sickle_Batch</defName>
+		<label>batch-cast sickles (x3).</label>
+		<description>Cast sickles from metal.</description>
+		<jobString>Casting sickles from metal.</jobString>
+		<workAmount>4000</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<recipeUsers>
+			<li>Foundry</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>CastBar</li>
+					</categories>
+				</filter>
+				<count>105</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>CastBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<TFJ_Tool_Sickle>3</TFJ_Tool_Sickle>    
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<unfinishedThingDef>UnfinishedMetallicApparel</unfinishedThingDef>
+			<!--<researchPrerequisite>ResearchCrucibleFoundry</researchPrerequisite>-->
+</RecipeDef>
+			
+<RecipeDef>
+		<defName>Cast_Hoe_Batch</defName>
+		<label>batch-cast hoes (x3).</label>
+		<description>Cast hoes from metal.</description>
+		<jobString>Casting hoes from metal.</jobString>
+		<workAmount>6000</workAmount>
+	<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<recipeUsers>
+			<li>Foundry</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>CastBar</li>
+					</categories>
+				</filter>
+				<count>105</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>CastBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<TFJ_Tool_Hoe>3</TFJ_Tool_Hoe>    
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<unfinishedThingDef>UnfinishedMetallicApparel</unfinishedThingDef>
+			<!--<researchPrerequisite>ResearchCrucibleFoundry</researchPrerequisite>-->
+</RecipeDef>
+
+
+	
+</Defs>

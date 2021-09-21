@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>NewRatkinPlus</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+			<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="RK_FueledSmithy"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites>
+						<li>Metallurgy_B2</li>
+					</researchPrerequisites>
+				</value>
+			</li>		
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Basket"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites>
+						<li>Storage_A1</li>
+					</researchPrerequisites>
+				</value>
+			</li>		
+		
+		
+		
+		</operations>
+		</match>
+		
+		
+    </Operation>	
+</Patch>	

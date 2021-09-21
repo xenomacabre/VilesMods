@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <Defs>
+	<ThingDef ParentName="FencesAFBuildingBase">
+		<defName>DryStoneWall</defName>
+		<label>drystone wall</label>
+		<description>A short wall made of stacked stones.</description>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/Building/Fences/DryStoneWall</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<!--<shaderType>CutoutComplex</shaderType>-->
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Custom1</li>
+			</linkFlags>
+		</graphicData>
+		<uiIconPath>Things/Building/Fences/DryStoneWall_Ico</uiIconPath>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>300</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<useHitPoints>true</useHitPoints>
+		<blockWind>false</blockWind>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0.5</fillPercent>
+		<coversFloor>false</coversFloor>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<tickerType>Never</tickerType>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<holdsRoof>false</holdsRoof>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<blockLight>false</blockLight>
+		<canOverlapZones>true</canOverlapZones>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>3</costStuffCount>
+		<building>
+			<isInert>true</isInert>
+			<ai_chillDestination>false</ai_chillDestination>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+	</ThingDef>
+
+	<ThingDef ParentName="FencesAFBuildingBase">
+		<defName>PalisadeWall</defName>
+		<label>palisade wall</label>
+		<description>A hastily-built defensive wall made of logs. It's tall and strong and surprisingly difficult to set fire, but you can't shoot over it. Only hide.</description>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/Building/Walls/Wall_Atlas_Palisade</texPath> <!-- leaving this in linked in case later decide to do separate appearances -->
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Custom1</li>
+			</linkFlags>
+		</graphicData>
+		<uiIconPath>Things/Building/Walls/Wall_Atlas_Palisade_ico</uiIconPath>
+		<statBases>
+			<MaxHitPoints>550</MaxHitPoints> <!-- vanilla is 380 -->
+			<WorkToBuild>300</WorkToBuild> <!-- vanilla is 270 -->
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<useHitPoints>true</useHitPoints>
+		<blockWind>false</blockWind>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>1.0</fillPercent>
+		<coversFloor>false</coversFloor>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<tickerType>Never</tickerType>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<holdsRoof>false</holdsRoof>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<blockLight>false</blockLight>
+		<canOverlapZones>true</canOverlapZones>
+		<stuffCategories>
+			<li>Softwoods</li>
+			<li>Hardwoods</li>
+			<li>Ultrahardwoods</li>
+		</stuffCategories>
+		<costStuffCount>2</costStuffCount> <!-- equal to 10 planks-->
+		<building>
+			
+			<isInert>true</isInert>
+			<ai_chillDestination>false</ai_chillDestination>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+	</ThingDef>
+	 
+	 <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_Fences</defName>
+		<label>Fences</label>
+		<description>Fences. And De-fences.</description>
+		<defNames>
+			<li>Fence</li>
+			<li>DryStoneWall</li>
+			<li>PalisadeWall</li>
+			<li>ChainFence</li>
+			<li>TechFence</li>
+		</defNames>
+		<designationCategory>Structure</designationCategory>
+	</ArchitectSense.DesignationSubCategoryDef>
+	 
+	  <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_FenceGatesH</defName>
+		<label>Horizontal Gates</label>
+		<description>Fence gates.</description>
+		<defNames>
+			<li>FenceGate</li>
+			<li>PalisadeGate</li>
+			<li>ChainFenceGate</li>
+			<li>TechFenceGate</li>
+		</defNames>
+		<designationCategory>Structure</designationCategory>
+	</ArchitectSense.DesignationSubCategoryDef>
+	 
+	 <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_FenceGatesV</defName>
+		<label>Vertical Gates</label>
+		<description>Fence gates.</description>
+		<defNames>
+			<li>WoodFenceGateB</li>
+			<li>PalisadeGateB</li>
+			<li>ChainFenceGateB</li>
+			<li>TechFenceGateB</li>
+		</defNames>
+		<designationCategory>Structure</designationCategory>
+	</ArchitectSense.DesignationSubCategoryDef>
+	 
+</Defs>

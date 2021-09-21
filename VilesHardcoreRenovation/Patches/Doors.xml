@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "Door"]/graphicData/texPath</xpath>
+		<value>
+			<texPath>Things/Building/Doors/DoorRustic_Mover</texPath>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "Door"]/uiIconPath</xpath>
+		<value>
+			<uiIconPath>Things/Building/Doors/DoorRustic_MenuIcon</uiIconPath>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "Door"]/stuffCategories</xpath>
+		<value>
+			<stuffCategories>
+				<li>SoftwoodLumber</li>
+				<li>HardwoodLumber</li>
+				<li>UltrahardwoodLumber</li>
+				<li>EngineeredLumber</li>
+			</stuffCategories>
+		</value>
+	</Operation>
+	
+	
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "MDoor"]/graphicData/texPath</xpath>
+		<value>
+			<texPath>Things/Building/Doors/DoorFancy_Mover</texPath>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "MDoor"]/uiIconPath</xpath>
+		<value>
+			<uiIconPath>Things/Building/Doors/DoorFancy_MenuIcon</uiIconPath>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "Autodoor"]/graphicData/texPath</xpath>
+		<value>
+			<texPath>Things/Building/Doors/Autodoor_Mover</texPath>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "Autodoor"]/uiIconPath</xpath>
+		<value>
+			<uiIconPath>Things/Building/Doors/Autodoor_MenuIcon</uiIconPath>
+		</value>
+	</Operation>
+	
+</Patch>

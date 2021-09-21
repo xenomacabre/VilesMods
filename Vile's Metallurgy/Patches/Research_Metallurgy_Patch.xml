@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			
+			<li Class="PatchOperationReplace">	
+				<xpath>Defs/ResearchProjectDef[defName="Glass_B1"]/prerequisites</xpath> 
+				<value>
+					<prerequisites>
+						<li>Ceramics_B1</li>
+					</prerequisites>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">	
+				<xpath>Defs/ResearchProjectDef[defName="Glass_B1"]/researchViewX</xpath>
+				<value>
+					<researchViewX>5.00</researchViewX>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">	
+				<xpath>Defs/ResearchProjectDef[defName="Craft_B1"]/label</xpath> <!-- METAL PROCESSING 1 to METALLURGY 1 -->
+				<value>
+					<label>Metallurgy I - Bronze Age</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">	
+				<xpath>Defs/ResearchProjectDef[defName="Craft_B1"]/baseCost</xpath> <!-- METAL PROCESSING 1 to METALLURGY 1 -->
+				<value>
+					<baseCost>400</baseCost>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">	
+				<xpath>Defs/ResearchProjectDef[defName="Craft_B1"]/description</xpath> <!-- METAL PROCESSING 1 to METALLURGY 1 -->
+				<value>
+					<description>Learn neolithic methods of smelting and processing metal in a deep fire pit.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">	
+				<xpath>Defs/ResearchProjectDef[defName="Metals_C1"]/prerequisites</xpath> 
+				<value>
+					<prerequisites>
+						<li>Metallurgy_B5</li>
+					</prerequisites>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">	
+				<xpath>Defs/ResearchProjectDef[defName="Stonecutting"]/researchViewX</xpath>
+				<value>
+					<researchViewX>3.00</researchViewX>
+				</value>
+			</li>
+			
+
+		</operations>
+		</match>
+    </Operation>	
+</Patch>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch><!--
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Core SK</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs</xpath>
+      <value>
+		  
+	<ThingDef ParentName="RFF_TerraformBasicBase">
+ 	   <defName>Wasteland-Gravel</defName>
+  	  <label>Wasteland ► Gravel</label>
+  	  <description>↑ Wasteland radiated terrain\n\n↓ Gravel</description>
+  	  <uiIconPath>UI/Icons/Terraforming/Wasteland-Gravel</uiIconPath>
+  	  <modExtensions>
+   	   <li Class="FertileFields.Terrain">
+   	     <above>
+  	        <li>Crashland_Wasteland</li>
+		<li>DepletedSoil</li>
+		<li>RubbleSoil</li>
+		<li>DepletedMossy</li>
+		<li>DepletedGravel</li>
+
+
+  	      </above>
+  	      <result>RockySoil</result>
+ 	     </li>
+	    </modExtensions>
+	    <statBases>
+ 	     <WorkToBuild>1500</WorkToBuild>
+	    </statBases>
+	    <costList>
+	      <Dirt>5</Dirt>
+	     <SandResource>8</SandResource>
+ 	     <CrushedStone>60</CrushedStone>
+ 	   </costList>
+	</ThingDef>
+
+	<ThingDef ParentName="RFF_TerraformBasicBase">
+ 	   <defName>RemoveNuclearWaste</defName>
+  	  <label>Wasteland ► Gravel</label>
+  	  <description>↑ Wasteland radiated terrain\n\n↓ Wasteland</description>
+  	  <uiIconPath>UI/Icons/Terraforming/Wasteland-Gravel</uiIconPath>
+  	  <modExtensions>
+   	   <li Class="FertileFields.Terrain">
+   	     <above>
+  	        <li>NuclearWaste</li>
+	      </above>
+  	      <result>Crashland_Wasteland</result>
+		<products>
+			<ToxicBarrel>1</ToxicBarrel>
+		</products>
+ 	     </li>
+	    </modExtensions>
+	    <statBases>
+ 	     <WorkToBuild>2500</WorkToBuild>
+	    </statBases>
+	    <costList>
+	      <ReinforcedConcrete>20</ReinforcedConcrete>
+		<Plasteel>20</Plasteel>
+	    
+ 	   </costList>
+	</ThingDef>
+
+ 
+     </value>
+    </match>
+  </Operation>
+-->
+</Patch>

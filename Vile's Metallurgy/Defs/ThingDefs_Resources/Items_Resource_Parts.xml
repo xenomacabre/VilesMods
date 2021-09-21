@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- =========== REALISTIC PRODUCTION SK MOD =========== -->
+
+	<ThingDef ParentName="CropsBase">
+		<defName>ComponentMedieval</defName>
+		<label>fasteners</label>
+		<description>Simple fasteners, ie. nails and rivets.</description>
+		<graphicData>
+			<texPath>Things/Item/Fasteners</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<statBases>
+			<MarketValue>6</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0.2</Flammability>
+			<SellPriceFactor>0.50</SellPriceFactor>
+			<Mass>1.5</Mass>
+			<Bulk>1.5</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>Parts</li>
+		</thingCategories>
+		<stackLimit>300</stackLimit>
+	</ThingDef>
+
+<!-- nah, we'll keep calling them components
+	<ThingDef ParentName="CropsBase">
+		<defName>ComponentIndustrial</defName>
+		<label>threaded fasteners</label>
+		<description>Fasteners with helical ridges, ie. screws and bolds. Difficult to make, but strong and required for more advanced construction.</description>
+		<graphicData>
+			<texPath>Things/Item/Components/Component</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>40</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0.2</Flammability>
+			<SellPriceFactor>0.50</SellPriceFactor>
+			<Mass>0.5</Mass>
+			<Bulk>0.5</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>Parts</li>
+		</thingCategories>
+		<stackLimit>150</stackLimit>
+	</ThingDef>
+-->
+
+</Defs>

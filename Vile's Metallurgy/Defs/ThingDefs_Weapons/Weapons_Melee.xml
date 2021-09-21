@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="BaseTool">
+		<defName>Tool_ChefKnife</defName>
+		<label>Chef Knife</label>
+		<description>A sharp blade made for chopping food ingredients, but you can stab people with it too.</description>
+		<thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
+		<graphicData>
+			<texPath>Things/Weapons/ChefKnife</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>0.5</Mass>
+			<Bulk>0.5</Bulk>
+			<MeleeCounterParryBonus>0.2</MeleeCounterParryBonus>
+			<ToolEffectivenessFactor>1</ToolEffectivenessFactor>
+		</statBases>
+		<equippedAngleOffset>200</equippedAngleOffset>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.3</cooldownTime>
+				<chanceFactor>0.3</chanceFactor>
+				<armorPenetrationBlunt>3</armorPenetrationBlunt>				
+				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.4</cooldownTime>
+				<chanceFactor>1.33</chanceFactor>
+				<armorPenetrationBlunt>0.5</armorPenetrationBlunt>
+				<armorPenetrationSharp>3.0</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<!--<equippedStatOffsets>
+			<FoodPoisonChance>-0.5</FoodPoisonChance>
+		</equippedStatOffsets>-->
+		<thingCategories>
+			<li>SurvivalToolsNeolithic</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+			</recipeUsers>
+			<researchPrerequisite>LongBlades</researchPrerequisite>
+		</recipeMaker>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>25</costStuffCount>
+		<modExtensions>
+<!-- 			<li Class="RightToolForJob.EquipRightToolExtension">
+				<purpose>Harvesing</purpose>
+			</li> -->
+			<li Class="SurvivalToolsLite.SurvivalToolProperties">
+				<baseWorkStatFactors>
+					<CookSpeed>1.3</CookSpeed>
+					<ButcheryFleshSpeed>1.2</ButcheryFleshSpeed>
+					<ButcheryFleshEfficiency>1</ButcheryFleshEfficiency>
+				</baseWorkStatFactors>
+				<defaultSurvivalToolAssignmentTags>
+					<li>Cook</li>
+				</defaultSurvivalToolAssignmentTags>
+			</li>
+		</modExtensions>
+		
+	</ThingDef>
+	
+	<ThingDef ParentName="WeaponMedievalBase">
+		<defName>NorbalMeleeWeapon_ShortSword</defName>
+		<label>+Ulfbert+</label>
+		<description>A sharp two-handed sword used only by the fiercest norbal warriors, forged from Wootz crucible steel, possibly imported from the other side of the continent.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Ulfbert</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractMelee</soundInteract>
+		<techLevel>Medieval</techLevel>
+		<weaponTags>
+			<li>NorbalHeroMelee</li>
+			<li>MedievalMelee2H</li>
+		</weaponTags>			
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<costList>
+			<WootzSteel>50</WootzSteel>
+		</costList>
+		<statBases>
+			<WorkToMake>8000</WorkToMake>
+			<Bulk>6</Bulk>
+			<Mass>2.2</Mass>
+			<MeleeCounterParryBonus>1.1</MeleeCounterParryBonus>
+		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<equippedStatOffsets>
+			<MeleeCritChance>0.7</MeleeCritChance>
+			<MeleeParryChance>0.6</MeleeParryChance>
+		</equippedStatOffsets>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>pommel</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.7</cooldownTime>
+				<chanceFactor>0.1</chanceFactor>
+				<armorPenetrationBlunt>4</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.65</cooldownTime>
+				<armorPenetrationBlunt>1.2</armorPenetrationBlunt>
+				<armorPenetrationSharp>5.0</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>21</power>
+				<cooldownTime>1.8</cooldownTime>
+				<chanceFactor>1.33</chanceFactor>
+				<armorPenetrationBlunt>6.0</armorPenetrationBlunt>
+				<armorPenetrationSharp>3.1</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<thingCategories>
+			<li>SharpMelee</li>
+			<li>HeavyMelee</li>
+		</thingCategories>
+		<recipeMaker>
+			<researchPrerequisite>Steel_B1</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef ParentName="WeaponMedievalBase">
+		<defName>MeleeWeapon_Scimitar</defName>
+		<label>Rimascus Scimitar</label>
+		<description>Also called a shamshir, this scimitar has an exceptionally curved blade, originally forged in an ancient land from steel produced in another ancient land. Designed to produce deep, grievous cuts, but it's terrible against armor.</description>
+		<graphicData>
+			<texPath>Things/Weapons/RimascusScimitar</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractMelee</soundInteract>			
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<costList>
+			<ComponentMedieval>5</ComponentMedieval>
+			<WootzSteel>40</WootzSteel>
+		</costList>
+		<statBases>
+			<WorkToMake>8000</WorkToMake>
+			<Bulk>6</Bulk>
+			<Mass>3</Mass>
+			<MeleeCounterParryBonus>1.0</MeleeCounterParryBonus>
+		</statBases>
+		<equippedAngleOffset>-45</equippedAngleOffset>
+		<equippedStatOffsets>
+			<MeleeCritChance>0.6</MeleeCritChance>
+			<MeleeParryChance>0.35</MeleeParryChance>
+			<MeleeDodgeChance>0.2</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<techLevel>Medieval</techLevel>
+		<weaponTags>
+			<li>MedievalMelee</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>pommel</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.3</cooldownTime>
+				<chanceFactor>0.1</chanceFactor>
+				<armorPenetrationBlunt>5</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>1.4</cooldownTime>
+				<chanceFactor>0.33</chanceFactor>
+				<armorPenetrationBlunt>1</armorPenetrationBlunt>
+				<armorPenetrationSharp>3.2</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>17.5</power>
+				<cooldownTime>1.5</cooldownTime>
+				<armorPenetrationBlunt>2.8</armorPenetrationBlunt>
+				<armorPenetrationSharp>3</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<recipeMaker>
+			<researchPrerequisite>Steel_B1</researchPrerequisite>
+		</recipeMaker>
+		<thingCategories>
+			<li>SharpMelee</li>
+		</thingCategories>
+	</ThingDef>
+	<!--
+	<ThingDef ParentName="WeaponMedievalBase">
+		<defName>MeleeWeapon_Warhammer</defName>
+		<label>Lucerne Hammer</label>
+		<description>A type of polarm / warhammer with a sharp spike for penetrating armor and a hammer for causing concussions. Very effective against armor, but doesn't inflict the most deadly wounds.</description>
+		<graphicData>
+			<texPath>Things/Weapons/LucerneHammer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractMelee</soundInteract>			
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+			<ComponentMedieval>6</ComponentMedieval>
+		</costList>
+		<statBases>
+			<WorkToMake>8000</WorkToMake>
+			<Bulk>8</Bulk>
+			<Mass>3</Mass>
+			<MeleeCounterParryBonus>1.0</MeleeCounterParryBonus>
+		</statBases>
+		<equippedAngleOffset>-45</equippedAngleOffset>
+		<equippedStatOffsets>
+			<MeleeCritChance>0.8</MeleeCritChance>
+			<MeleeParryChance>0.15</MeleeParryChance>
+			<MeleeDodgeChance>0.7</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<techLevel>Medieval</techLevel>
+		<weaponTags>
+			<li>MedievalMelee2H</li>
+		</weaponTags>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>pommel</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.3</cooldownTime>
+				<chanceFactor>0.1</chanceFactor>
+				<armorPenetrationBlunt>5</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>2</cooldownTime>
+				<chanceFactor>0.33</chanceFactor>
+				<armorPenetrationBlunt>4</armorPenetrationBlunt>
+				<armorPenetrationSharp>8</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>edge</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.8</cooldownTime>
+				<chanceFactor>1</chanceFactor>
+				<armorPenetrationBlunt>2.8</armorPenetrationBlunt>
+				<armorPenetrationSharp>8</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2.1</cooldownTime>
+				<chanceFactor>1</chanceFactor>
+				<armorPenetrationBlunt>12</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<recipeMaker>
+			<researchPrerequisite>LongBlades</researchPrerequisite>
+		</recipeMaker>
+		<thingCategories>
+			<li>SharpMelee</li>
+		</thingCategories>
+	</ThingDef>
+	-->
+	<!--
+	<ThingDef ParentName="WeaponMedievalBase">
+		<defName>MeleeWeapon_Axe</defName>
+		<label>Quarterstaff</label>
+		<description>A two-handed staff made of hardwood and with metal tips. It's not the deadliest weapon, but it's easy to use and dodge with and a skilled user can knock an oppenent down. Often a practice weapon.</description>
+		<graphicData>
+			<texPath>Things/Weapons/QuarterStaff</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<weaponTags>
+			<li>Neolithic</li>
+			<li>NeolithicMeleeBasic</li>
+		</weaponTags>
+		<tradeability>Sellable</tradeability>			
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<costList>
+			<ComponentMedieval>4</ComponentMedieval>
+		</costList>
+		<statBases>
+			<WorkToMake>6000</WorkToMake>
+			<Bulk>7</Bulk>
+			<Mass>3</Mass>
+			<MeleeCounterParryBonus>1.8</MeleeCounterParryBonus>
+		</statBases>
+		<equippedAngleOffset>-45</equippedAngleOffset>
+		<equippedStatOffsets>
+			<MeleeCritChance>1.3</MeleeCritChance>
+			<MeleeDodgeChance>0.9</MeleeDodgeChance>
+			<MeleeParryChance>0.15</MeleeParryChance>
+		</equippedStatOffsets>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>tip</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.5</cooldownTime>
+				<chanceFactor>0.33</chanceFactor>
+				<armorPenetrationBlunt>4</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>1.3</cooldownTime>
+				<chanceFactor>1.33</chanceFactor>
+				<armorPenetrationBlunt>5</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<thingCategories>
+			<li>BluntMelee</li>
+		</thingCategories>
+		<modExtensions>
+		  <li Class="CombatExtended.GunDrawExtension">
+			<DrawSize>1.3,1.3</DrawSize>
+		  </li>
+		</modExtensions>
+	</ThingDef>
+-->
+	
+</Defs>
