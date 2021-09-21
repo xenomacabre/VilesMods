@@ -10,15 +10,20 @@ Thank you for all the great support and feedback, and to all the talented modder
 A quick rundown of what we got so far, followed up change log:
 
 
-**Wood You Please** Overhauls trees and wood. Each tree species gives a unique type of wood with unique stats and color, adding variety and complexity, kind of like animal leathers.
+***Wood You Please***
+Overhauls trees and wood. Each tree species gives a unique type of wood with unique stats and color, adding variety and complexity, kind of like animal leathers.
 
-**Hardcore Renovation** This is formerly "Vile's Wall sand Floors HD". Adds tons of and retextures walls, floors, fences, and doors. Utilizes the new wood system.
+***Hardcore Renovation*** 
+This is formerly "Vile's Wall sand Floors HD". Adds tons of and retextures walls, floors, fences, and doors. Utilizes the new wood system.
 
-**Amuse Bouche** A meals overhaul. No more generalized "fine meals" etc. Adds tons of recipes with origins from around the world and streamlines the food hediff system.
+***Amuse Bouche*** 
+A meals overhaul. No more generalized "fine meals" etc. Adds tons of recipes with origins from around the world and streamlines the food hediff system.
 
-**Vile's Metallurgy** Overhauls production of pre-industrial matierals - mainly steel, increasing complexity and realism. Adds new alloys, production buildings, weapons, tools, and more.
+***Vile's Metallurgy*** 
+Overhauls production of pre-industrial matierals - mainly steel, increasing complexity and realism. Adds new alloys, production buildings, weapons, tools, and more.
 
-**Vile's Pre-Industrial** This is available as an optional mod in Hardcore SK and is required for Metallurgy. Retextures, rebalances, and adds content - mainly armor and black powder weapons - ranging from neolithic up until industrial tech.
+***Vile's Pre-Industrial*** 
+This is available as an optional mod in Hardcore SK and is required for Metallurgy. Retextures, rebalances, and adds content - mainly armor and black powder weapons - ranging from neolithic up until industrial tech.
 
 
 ___________________________________________ 
