@@ -29,6 +29,8 @@ These Rimworld mods are meant to work with Hardcore SK. They're currently built 
 Adding these mods is unlikely to break your savegames, though weird things might happen and you'll be missing out on some content, so I recommend starting a new save file.
 Note that Hardcore Renovations requires both my brand new mod "Wood You Please", as well as "Fences and Floors". The latter is not my mod, but I'm including a patched version that's needed.
 
+As of today, I've only done initial bug testing for these, so let's call this "Early Alpha". Please send any bug reports or balance/gameplay issues my way on Discord. Thanks!
+
 
 
  
