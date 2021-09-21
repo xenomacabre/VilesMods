@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="WorkTable">
+		<defName>Fryer</defName>
+		<label>deep fryer</label>
+		<thingClass>SK.Building_WorkTable_HeatPushAdvanced</thingClass>
+		<description>A deep fryer filled with hot cooking oil. Requires power.</description>
+		<graphicData>
+			<texPath>Things/Building/Production/FoodStuff/Fryer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1,1)</drawSize>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.8, 0.5, 0.8)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories> 
+		<costStuffCount>135</costStuffCount>
+		<costList>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ElectronicComponents>3</ElectronicComponents>
+			<Mechanism>5</Mechanism>
+		</costList>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<statBases>
+			<WorkToBuild>1800</WorkToBuild>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkTableWorkSpeedFactor>1.1</WorkTableWorkSpeedFactor>
+			<Mass>20</Mass>
+		</statBases>
+		<size>(1,1)</size>
+		<designationCategory>Production</designationCategory>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<recipes>
+			<li>MakePoutine</li>
+		</recipes>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="SK.CompProperties_LowIdleDraw">
+				<compClass>SK.CompPowerLowIdleDraw</compClass>
+				<idlePowerFactor>0.1</idlePowerFactor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>10</heatPerSecond>
+				<heatPushMaxTemperature>35</heatPushMaxTemperature>
+			</li>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>CookingTools</li>
+				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li>
+				<compClass>CompReportWorkSpeed</compClass>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
+		</placeWorkers>
+		<building>
+			<isMealSource>true</isMealSource>
+			<heatPerTickWhileWorking>0.6</heatPerTickWhileWorking>
+			<uninstallWork>250</uninstallWork>
+		</building>
+		<researchPrerequisites>
+			<li>AdvancedFabrication</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+
+
+</Defs>

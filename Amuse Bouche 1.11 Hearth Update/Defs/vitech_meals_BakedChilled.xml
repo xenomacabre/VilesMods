@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- BAKED -->
+<Defs>
+	<ThingDef ParentName="SK_MealBase">
+		<defName>Donut</defName>
+		<label>donut</label>
+		<description>Confection 40% (.25 Nutr, .45 Joy) &#xA; Origin: Holland / US &#xA; Round fried treat. With a hole.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/Donut</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>30</MarketValue>
+			<WorkToMake>1000</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.25</Nutrition>
+		</statBases>
+		<ingestible>
+			<!--<tasteThought>AteFineMeal</tasteThought>-->
+			<preferability>MealFine</preferability>
+			<joy>0.45</joy>
+			<joyKind>Gluttonous</joyKind>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedBakedGood</hediffDef>
+					<severity>0.25</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+<!-- CHILLED -->
+	
+	<ThingDef ParentName="SK_MealBase">
+		<defName>Sundae</defName>
+		<label>ice cream sundae</label>
+		<description>Chilled 60% (.5 Nutr, .6 Joy) &#xA; Origin: US &#xA; An ice cream banana split with chocolate or caramel topping.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/Sundae</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>420</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.5</Nutrition>
+		</statBases>
+		<ingestible>
+			<!--<tasteThought>AteFineMeal</tasteThought>-->
+			<preferability>MealFine</preferability>
+			<joy>0.6</joy>
+			<joyKind>Gluttonous</joyKind>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedChilled</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="SK_MealBase">
+		<defName>GazpachoSoup</defName>
+		<label>gazpacho soup</label>
+		<description>Chilled 60% (.5 Nutr, Fine) &#xA; Origin: Portugal / Spain &#xA; A cold refreshing soup made of raw vegetables.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/Gazpacho</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>75</MarketValue>
+			<WorkToMake>600</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.5</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteFineMeal</tasteThought>
+			<preferability>MealFine</preferability>
+			<!--<joy>0.6</joy>
+			<joyKind>Gluttonous</joyKind>-->
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedChilled</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+		
+
+</Defs>

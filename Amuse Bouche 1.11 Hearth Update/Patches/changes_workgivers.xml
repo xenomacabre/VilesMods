@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+			<operations>
+        		
+				
+			<li Class="PatchOperationAdd">
+            			<xpath>/Defs/WorkGiverDef[defName="DoBillsCook"]/fixedBillGiverDefs</xpath>
+            				<value>
+								<li>Fryer</li>
+								<li>Hearth</li>
+            				</value>
+        			</li>
+			</operations>
+
+			</match>
+    </Operation>	
+
+	
+</Patch>
+

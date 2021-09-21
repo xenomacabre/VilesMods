@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Rimatomics</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+			<operations>
+        		
+				
+			<li Class="PatchOperationReplace">
+            			<xpath>/Defs/WorkGiverDef[defName="RimatomicsCrafting"]/workType</xpath>
+            				<value>
+								<workType>Research</workType>
+            				</value>
+        			</li>
+			<li Class="PatchOperationReplace">
+            			<xpath>/Defs/WorkGiverDef[defName="RimatomicsCrafting"]/label</xpath>
+            				<value>
+								<label>Nuclear Research</label>
+            				</value>
+        			</li>
+			</operations>
+			</match>
+    </Operation>	
+	
+</Patch>
+

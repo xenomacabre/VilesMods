@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	 <ResearchProjectDef ParentName="HitechBase">
+		<defName>Food_C8</defName>
+		<label>Fine Cuisine</label>
+		<description>The best of the best. Learn cuisine of the finest glitterworld restaraunts.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Food_C6</li>
+		</prerequisites>
+		<researchViewX>14.00</researchViewX>
+		<researchViewY>46.00</researchViewY>
+		<tab>Food_SK</tab>
+	</ResearchProjectDef>
+</Defs>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains">
+		<defName>DoBillsCook</defName>
+		<label>cook meals</label>
+		<workType>Cooking</workType>
+		<priorityInType>100</priorityInType>
+		<fixedBillGiverDefs>
+			<li>ElectricStove</li>
+			<li>FueledStove</li>
+			<!--<li>TableOven</li>
+			<li>ElectricOven</li>-->
+			<li>TableGrill</li>
+			<li>ElectricStove_Pro</li>
+			<li>soylenttable</li>
+			<!--<li>Canningstove</li>-->
+			<!--<li>TableCoffee</li>-->
+		</fixedBillGiverDefs>
+		<verb>cook</verb>
+		<gerund>cooking at</gerund>
+	</WorkGiverDef>
+	
+	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains"> <!-- NEW-->
+		<defName>DoBillsCookCampfire</defName>
+		<label>bake at oven</label>
+		<workType>Cooking</workType>
+		<priorityInType>95</priorityInType>
+		<fixedBillGiverDefs>
+			<li>TableOven</li>
+			<li>ElectricOven</li>
+		</fixedBillGiverDefs>
+		<verb>bake</verb>
+		<gerund>baking at</gerund>
+	</WorkGiverDef>
+	
+	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains">
+		<defName>DoBillsKitchenTable</defName>
+		<!--<label>prepare meals</label>-->
+		<label>Kitchen Table Bills</label>
+		<workType>Cooking</workType>
+		<priorityInType>90</priorityInType>
+		<fixedBillGiverDefs>
+			<li>TableKitchen</li>
+		</fixedBillGiverDefs>
+		<verb>prepare</verb>
+		<gerund>preparing</gerund>
+	</WorkGiverDef>
+	
+	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains">
+		<defName>DoBillsButcherFlesh</defName>
+		<label>butcher creatures</label>
+		<workType>Cooking</workType>
+		<priorityInType>85</priorityInType>
+		<fixedBillGiverDefs>
+			<li>ButcherSpot</li>
+			<li>TableKitchen</li>
+			<li>TableButcher</li>
+		</fixedBillGiverDefs>
+		<verb>butcher</verb>
+		<gerund>butchering at</gerund>
+	</WorkGiverDef>
+		
+	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains"> <!-- NEW-->
+		<defName>DoBillsCanning</defName>
+		<label>can goods</label>
+		<workType>Cooking</workType>
+		<priorityInType>50</priorityInType>
+		<fixedBillGiverDefs>
+			<li>Canningstove</li>
+		</fixedBillGiverDefs>
+		<verb>can</verb>
+		<gerund>canning at</gerund>
+	</WorkGiverDef>
+	
+	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains"> <!-- NEW-->
+		<defName>DoBillsCoffee</defName>
+		<label>brew nonalcoholic</label>
+		<workType>Cooking</workType>
+		<priorityInType>45</priorityInType>
+		<fixedBillGiverDefs>
+			<li>TableCoffee</li>
+		</fixedBillGiverDefs>
+		<verb>brew</verb>
+		<gerund>brewing at</gerund>
+	</WorkGiverDef>
+	
+	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains">
+		<defName>DoBillsBrew</defName>
+		<label>brew liquors</label>
+		<workType>Cooking</workType>
+		<priorityInType>40</priorityInType>
+		<fixedBillGiverDefs>
+			<li>Brewery</li>
+			<li>ElectricBrewery</li>
+		</fixedBillGiverDefs>
+		<verb>brew</verb>
+		<gerund>brewing at</gerund>
+	</WorkGiverDef>
+<!--
+	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains">
+		<defName>DoBillsCookCampfire</defName>
+		<label>cook meals at campfire</label>
+		<workType>Cooking</workType>
+		<priorityInType>97</priorityInType>
+		<fixedBillGiverDefs>
+			<li>Campfire</li>
+		</fixedBillGiverDefs>
+		<verb>cook</verb>
+		<gerund>cooking at</gerund>
+	</WorkGiverDef>-->
+	
+
+	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains"> <!-- was orginally DoBillsBake-->
+		<defName>DoBillsCandy</defName>
+		<label>make candy</label>
+		<workType>Cooking</workType>
+		<priorityInType>80</priorityInType>
+		<fixedBillGiverDefs>
+			<li>CandyTable</li>
+		</fixedBillGiverDefs>
+		<verb>candymaking</verb>
+		<gerund>candymaking</gerund>
+	</WorkGiverDef>
+
+	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains">
+		<defName>DoBillsGrindStone</defName>
+		<!--<label>grind bulk grains</label>-->
+		<label>milling</label>
+		<workType>Cooking</workType>
+		<priorityInType>110</priorityInType>
+		<fixedBillGiverDefs>
+			<li>GrindStone</li>
+			<li>MillElectric</li>
+		</fixedBillGiverDefs>
+		<verb>mill</verb>
+		<gerund>milling</gerund>
+	</WorkGiverDef>
+
+
+
+</Defs>

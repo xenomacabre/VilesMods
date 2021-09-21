@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPICY -->
+<Defs>
+	<ThingDef ParentName="SK_MealBase">
+		<defName>Taco</defName>
+		<label>taco</label>
+		<description>Spicy Food 60% (.6 Nutr.) &#xA; Origin: Mexico &#xA; Handheld corn tortilla filled with spicy meat or bean mix.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/TacoVi</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>30</MarketValue>
+			<WorkToMake>900</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.6</Nutrition>
+		</statBases>
+		<ingestible>
+			<!--<tasteThought>AteFineMeal</tasteThought>-->
+			<preferability>MealSimple</preferability>
+			<!--<joy>0.0</joy>
+			<joyKind>Gluttonous</joyKind>-->
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedSpicyFood</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_MealBase">
+		<defName>JerkMeat</defName>
+		<label>jerk meat</label>
+		<description>Spicy Food 60% (.85 Nutr, Fine) &#xA; Origin: Jamaica &#xA; Meat rubbed or marinated with a hot spice mixture.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/JerkMeat</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>30</MarketValue>
+			<WorkToMake>900</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.85</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteFineMeal</tasteThought>
+			<preferability>MealFine</preferability>
+			<!--<joy>0.1</joy>
+			<joyKind>Gluttonous</joyKind>-->
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedSpicyFood</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_MealBase">
+		<defName>HotandSourSoup</defName>
+		<label>hot and sour soup</label>
+		<description>Spicy Food 60% (.85 Nutr, Lavish) &#xA; Origin: China &#xA;A soup that is both spicy and sour..</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/HotandSourSoup</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>80</MarketValue>
+			<WorkToMake>900</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.85</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteLavishMeal</tasteThought>
+			<preferability>MealLavish</preferability>
+			<joy>0.1</joy>
+			<joyKind>Gluttonous</joyKind>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedSpicyFood</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	
+
+</Defs>

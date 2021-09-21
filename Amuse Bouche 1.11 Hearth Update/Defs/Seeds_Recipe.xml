@@ -1,0 +1,28 @@
+<Defs>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedPepper</defName>
+    <label>extract pepper seeds</label>
+    <description>Extract seeds from Peppers.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawPeppers</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawPeppers</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SeedPepper>3</SeedPepper>
+    </products>
+    <researchPrerequisite>Food_Plants_A2</researchPrerequisite>
+  </RecipeDef>
+	
+</Defs>

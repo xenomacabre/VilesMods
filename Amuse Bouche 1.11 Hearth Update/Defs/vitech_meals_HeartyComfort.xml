@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- COMFORT FOOD-->
+<Defs>
+	<ThingDef ParentName="SK_MealBase">
+		<defName>Poutine</defName>
+		<label>poutine</label>
+		<description>Comfort Food 60% (.6 Nutr, .1 Joy, Fine)  &#xA; Origin: Quebec, CA &#xA; Fried potatoes with gravy and cheese curds.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/Poutine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>900</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.6</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteFineMeal</tasteThought>
+			<preferability>MealFine</preferability>
+			<!--<joy>0.0</joy>
+			<joyKind>Gluttonous</joyKind>-->
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedComfortFood</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_MealBase">
+		<defName>FishandChips</defName>
+		<label>fish and chips</label>
+		<description>Comfort Food 60% (.85 Nutr, .2 Joy)  &#xA; Origin: UK &#xA; Beer-battered fish and potatoes.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/FishandChips</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>720</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.85</Nutrition>
+		</statBases>
+		<ingestible>
+			<!---<tasteThought>AteFineMeal</tasteThought>-->
+			<preferability>MealFine</preferability>
+			<joy>0.2</joy>
+			<joyKind>Gluttonous</joyKind>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedComfortFood</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_MealBase">
+		<defName>Pho</defName>
+		<label>pho</label>
+		<description>Comfort Food 80% (1.0 Nutr, .1 Joy, Lavish)  &#xA; Origin: Vietnam &#xA; Pronounced like "fuh", it's a soup made of broth, herbs, noddles, and meat.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/Pho</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>900</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>1.0</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteLavishMeal</tasteThought>
+			<preferability>MealLavish</preferability>
+			<joy>0.1</joy>
+			<joyKind>Gluttonous</joyKind>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedComfortFood</hediffDef>
+					<severity>0.8</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- HEARTY FOOD-->
+	
+	<ThingDef ParentName="SK_MealBase">
+		<defName>Tempura</defName>
+		<label>tempura</label>
+		<description>Hearty Food 40% (.75 Nutr, .1 Joy, Lavish)  &#xA; Origin: Japan &#xA; Fish or vegetables battered and fried. Surprisingly filling.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/Tempura</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>500</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.75</Nutrition>
+		</statBases>
+		<ingestible>
+			<!--<tasteThought>AteLavishMeal</tasteThought>-->
+			<preferability>MealSimple</preferability>
+			<!--<joy>0.1</joy>
+			<joyKind>Gluttonous</joyKind>-->
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedHeartyFood</hediffDef>
+					<severity>0.4</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_MealBase">
+		<defName>PotPie</defName>
+		<label>pot pie</label>
+		<description>Hearty Food 60% (.9 Nutr)  &#xA; A heary, savory pie.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/PotPie</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>500</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.9</Nutrition>
+		</statBases>
+		<ingestible>
+			<!--<tasteThought>AteFineMeal</tasteThought>-->
+			<preferability>MealSimple</preferability>
+			<!--<joy>0.1</joy>
+			<joyKind>Gluttonous</joyKind>-->
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedHeartyFood</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_MealBase">
+		<defName>Quiche</defName>
+		<label>quiche</label>
+		<description>Hearty Food 60% (.9 Nutr, .2 Joy, Lavish)  &#xA; Origin: France &#xA; An egg-based savory tart with meat or cheese</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/Quiche</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>500</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>1.0</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteLavishMeal</tasteThought>
+			<preferability>MealLavish</preferability>
+			<joy>0.2</joy>
+			<joyKind>Gluttonous</joyKind>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedHeartyFood</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

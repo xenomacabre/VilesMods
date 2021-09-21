@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>SeedsPlease</li>
+    </mods>
+		<match Class="PatchOperationSequence">
+		<success>Always</success>
+			<operations>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/SeedsPlease.SeedDef[defName="SeedHypericum"]/label</xpath>
+            				<value>
+							<label>ginger wort seeds</label>
+            				</value>
+        			</li>
+					<li Class="PatchOperationReplace">
+            			<xpath>Defs/SeedsPlease.SeedDef[defName="SeedWildRose"]/label</xpath>
+            				<value>
+							<label>cinnamon rose seeds</label>
+            				</value>
+        			</li>
+			</operations>
+    </match>
+  </Operation>
+
+
+</Patch>

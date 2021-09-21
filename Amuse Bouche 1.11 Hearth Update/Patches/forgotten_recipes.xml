@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+			<operations>
+				<!-- Basic Knowledge of Food I -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ResearchProjectDef[defName="Food_00"]/label</xpath>
+					<value>
+					<label>Culinary Basics</label>
+					</value>
+				</li>
+				<!-- Basic Knowledge of Food II -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ResearchProjectDef[defName="Food_0"]/label</xpath>
+					<value>
+					<label>Food Prep</label>
+					</value>
+				</li>
+			<!-- Cooking V is mostly canning so it becomes FOOD PRESERVATION-->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ResearchProjectDef[defName="Food_C7"]/label</xpath>
+					<value>
+					<label>Food Preservation</label>
+					</value>
+				</li>
+        			
+			<!-- Advanced Cooking II becomes DEEP FRYING -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ResearchProjectDef[defName="Food_C6"]/label</xpath>
+					<value>
+					<label>Deep Frying</label>
+					</value>
+				</li>
+			<!-- Advanced Cooking I becomes PASTA -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ResearchProjectDef[defName="Food_C2"]/label</xpath>
+					<value>
+					<label>Pasta</label>
+					</value>
+				</li>	
+				
+				
+				
+		</operations>
+		</match>
+    </Operation>	
+</Patch>
+
+
+

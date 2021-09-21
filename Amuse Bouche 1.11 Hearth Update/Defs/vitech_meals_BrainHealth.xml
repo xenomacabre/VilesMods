@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- BRAIN -->
+<Defs>
+	<ThingDef ParentName="SK_MealBase">
+		<defName>Ramen</defName>
+		<label>ramen</label>
+		<description>Brain Food 60% (.8 Nutr, Fine)  &#xA; Origin: Japan &#xA; A noodle soup with a variety of toppings such as meat, vegetable, egg, or fermented bamboo shoots.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/Ramen</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>40</MarketValue>
+			<WorkToMake>900</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.8</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteFineMeal</tasteThought>
+			<preferability>MealFine</preferability>
+			<!--<joy>0.0</joy>
+			<joyKind>Gluttonous</joyKind>-->
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedBrainFood</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_MealBase">
+		<defName>Kippers</defName>
+		<label>kippers</label>
+		<description>Brain Food 60% (.8 Nutr)  &#xA; Origin: UK &#xA; A way of preparing grilled fish with salting and smoking.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/Kippers</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>30</MarketValue>
+			<WorkToMake>600</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.8</Nutrition>
+		</statBases>
+		<ingestible>
+			<!--<tasteThought>AteFineMeal</tasteThought>-->
+			<preferability>MealFine</preferability>
+			<!--<joy>0.1</joy>
+			<joyKind>Gluttonous</joyKind>-->
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedBrainFood</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_MealBase">
+		<defName>OystersRimefeller</defName>
+		<label>oysters rimefeller</label>
+		<description>Brain Food 60% (.85 Nutr, .2 Joy, Lavish)  &#xA; Origin: New Orleans, US  &#xA; Oysters on the half shell cooked with herbs and bread crumbs.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/OystersRimefeller</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>80</MarketValue>
+			<WorkToMake>1200</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.85</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteLavishMeal</tasteThought>
+			<preferability>MealLavish</preferability>
+			<joy>0.2</joy>
+			<joyKind>Gluttonous</joyKind>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedBrainFood</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- HEALTH FOOD-->
+	
+	<ThingDef ParentName="SK_MealBase">
+		<defName>FlaxseedSmoothie</defName>
+		<label>flaxseed smoothie</label>
+		<description>Health Food 40% (.6 Nutr, Awful)  &#xA; A drink made with blended flax seeds and fruit. Not very tasty.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/FlaxseedSmoothie</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>420</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.6</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteBlandMeal</tasteThought>
+			<preferability>MealSimple</preferability>
+			<!--<joy>0.1</joy>
+			<joyKind>Gluttonous</joyKind>-->
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedHealthFood</hediffDef>
+					<severity>0.4</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_MealBase">
+		<defName>HealthyBroth</defName>
+		<label>healthy broth</label>
+		<description>Health Food 60% (.6 Nutr, Awful)  &#xA; A broth made of mushrooms, ginger, and onion. Smells great, boring taste.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/HealthyBroth</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>600</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.6</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteBlandMeal</tasteThought>
+			<preferability>MealSimple</preferability>
+			<!--<joy>0.1</joy>
+			<joyKind>Gluttonous</joyKind>-->
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedHealthFood</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

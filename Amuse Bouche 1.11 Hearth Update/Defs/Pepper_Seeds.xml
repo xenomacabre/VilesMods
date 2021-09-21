@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	  <SeedsPlease.SeedDef ParentName="SeedBase">
+	    <defName>SeedPepper</defName>
+	    <label>pepper seeds</label>
+	    <sources>
+	      <li>PepperPlant</li>
+	    </sources>	
+	    <graphicData><texPath>Things/Item/Seeds/Pepper</texPath></graphicData>
+	    <statBases>
+	      <MarketValue>7</MarketValue>
+	    </statBases>
+ 	 </SeedsPlease.SeedDef>
+
+</Defs>

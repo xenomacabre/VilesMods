@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BuildingFueled">
+		<defName>Hearth</defName>
+		<label>hearth</label>
+		<!--<thingClass>SK.Building_AnimatedWorktable</thingClass>-->
+		<description>An open fireplace for cooking food, heating the home, and gathering with friends. More efficient and burns longer than a campfire.</description>    
+		<graphicData>
+			<texPath>Things/Building/Production/Hearth</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>  
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(1.7, 0.9, 0.85)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+<!--
+		<FramePath>Things/Building/Production/Hearth/Hearth_anim</FramePath>
+		<AnimationType>revert</AnimationType>
+		<FrameCount>3</FrameCount>
+		<multispeed>12</multispeed>
+		-->
+		<stuffCategories>
+			<li>Stony</li>
+			<li>Bricks</li>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>140</costStuffCount>
+		<costList>
+			<ComponentMedieval>10</ComponentMedieval>
+		</costList>
+		
+		<fillPercent>0.1</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0</Flammability>
+			<WorkTableWorkSpeedFactor>0.8</WorkTableWorkSpeedFactor> <!-- in between campfire and fuel stove -->
+			<MeditationFocusStrength>0</MeditationFocusStrength>
+			<Beauty>4</Beauty>
+		</statBases>
+		<size>(2,1)</size>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0.75</resourcesFractionWhenDeconstructed>
+		<altitudeLayer>Projectile</altitudeLayer>
+		<interactionCellOffset>(0,0,0)</interactionCellOffset>
+		<comps>
+			<li>
+				<compClass>CompGatherSpot</compClass>
+			</li>
+			<!--<li Class="SK.CompProperties_RestrictedPlacement">
+				<compClass>SK.CompRestrictedPlacement</compClass>
+				<thingDefs>
+					<li>Wall</li>
+					<li>ClutterSilverWall</li>
+					<li>ClutterUWallLight</li>
+				</thingDefs>
+			</li>-->
+			<li Class="CompProperties_Glower">
+				<glowRadius>9</glowRadius>
+				<glowColor>(255,202,124,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>5</heatPerSecond> <!-- should be slow. Heating a cold cabin with a fireplace takes quite a while -->
+				<heatPushMaxTemperature>35</heatPushMaxTemperature> <!-- slightly more than campfire, less than heater stove -->
+			</li>
+				<li Class="SK.CompFueled_Properties">
+					<operatingTemp>400</operatingTemp>
+					<fuelDrawOffset>(0,-0.2,-1.5)</fuelDrawOffset>
+					<fuelDrawScale>0.8</fuelDrawScale>
+					<smokeDrawOffset>(0,-0.1,0.85)</smokeDrawOffset>
+					<smokesize>0.6</smokesize>
+					<fuelCapacity>20</fuelCapacity>
+					<burnFuelMultiplier>1.15</burnFuelMultiplier>
+					<effectOnWeather>true</effectOnWeather>
+					<smokeEnabled>true</smokeEnabled>
+					<smokeDensity>1.5</smokeDensity>
+					<canAutoBurn>true</canAutoBurn>
+					<fuelFilter>
+						<thingDefs>
+							<li>Coal</li>
+							<li>Charcoal</li>
+							<li>Peat</li>
+							<li>Kindling</li>
+							<li>Tallow</li>
+						</thingDefs>
+						<categories>
+							<li>Wooden</li>
+						</categories>
+				</fuelFilter>
+			</li>
+			<li Class="CompProperties_MeditationFocus">
+				<statDef>MeditationFocusStrength</statDef>
+				<focusTypes>
+					<li>Flame</li>
+				</focusTypes>
+				<offsets>
+					<li Class="FocusStrengthOffset_Lit">
+						<offset>0.12</offset>
+					</li>
+					<li Class="FocusStrengthOffset_BuildingDefsLit">
+						<defs>
+							<li>Campfire</li>
+							<li>BowlLamp</li>
+							<li>Candle</li>
+							<li>TorchLamp</li>
+							<li MayRequire="Ludeon.RimWorld.Royalty">Brazier</li>
+						</defs>
+						<radius>9.9</radius>
+						<maxBuildings>8</maxBuildings>
+						<offsetPerBuilding>0.02</offsetPerBuilding>
+						<explanationKey>MeditationFocusPerFlame</explanationKey>
+						<explanationKeyAbstract>MeditationFocusPerFlameAbstract</explanationKeyAbstract>
+					</li>
+				</offsets>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<placeWorkers>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+			<li>PlaceWorker_Heater</li>
+			<li>PlaceWorker_MeditationOffsetBuildingsNear</li>
+			<!--<li>SK.PlaceWorker_OnlyOnThing</li>-->
+			<li>SK.PlaceWorker_WallAttachment</li>
+				<!--<li>SK.PlaceWorker_OnWall</li>-->
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<designationCategory>Temperature</designationCategory>
+		<recipes>
+			<li>MakeVegetables</li>
+			<li>MakeFriedMushrooms</li>
+			<li>CookScrambledEggs</li>
+			<li>CookRoastedMeat</li>
+			<li>CookMeatSoup</li>
+			<li>Make_Pemmican</li>
+		</recipes>
+		<building>
+			<isMealSource>true</isMealSource>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		</building>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</ThingDef>
+
+</Defs>

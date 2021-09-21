@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- COMFORT FOOD-->
+<Defs>
+	<ThingDef ParentName="SK_MealBase">
+		<defName>Samosa</defName>
+		<label>samosas</label>
+		<description>Appetizer 60% (.5 Nutr, .1 Joy) &#xA; Origin: India/Middle East  &#xA;; A baked pocket of potatoes and other ingredients.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/Samosa</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>1200</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.5</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteAppetizer</tasteThought>
+			<preferability>MealFine</preferability>
+			<joy>0.1</joy>
+			<joyKind>Gluttonous</joyKind>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedAppetizer</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_MealBase">
+		<defName>FishRoll</defName>
+		<label>fish roll</label>
+		<description>Appetizer 60% (.5 Nutr, .1 Joy) &#xA; Origin: Nigeria &#xA; A pastry filled with fish and spices. Traditionally a street food in West Africa.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/FishRoll</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>1200</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.5</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteAppetizer</tasteThought>
+			<preferability>MealFine</preferability>
+			<joy>0.1</joy>
+			<joyKind>Gluttonous</joyKind>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedAppetizer</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+<!-- DESSERTS -->
+	<ThingDef ParentName="SK_MealBase">
+		<defName>AppleTarte</defName>
+		<label>apple tarte</label>
+		<description>Dessert 80% (.5 Nutr, .6 Joy) &#xA; Origin: France &#xA; A sweet pastry topped with caramelized butter.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/AppleTarte</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>75</MarketValue>
+			<WorkToMake>1500</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.5</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteDessert</tasteThought>
+			<preferability>MealFine</preferability>
+			<joy>0.6</joy>
+			<joyKind>Gluttonous</joyKind>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedDessert</hediffDef>
+					<severity>0.8</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+		
+	<ThingDef ParentName="SK_MealBase">
+		<defName>PeachCobbler</defName>
+		<label>peach cobbler</label>
+		<description>Dessert 40% (.5 Nutr, .2 Joy) &#xA; Origin: France &#xA; A sweet pastry topped with caramelized butter.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/PeachCobbler</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>50</MarketValue>
+			<WorkToMake>1200</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.5</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteDessert</tasteThought>
+			<preferability>MealFine</preferability>
+			<joy>0.2</joy>
+			<joyKind>Gluttonous</joyKind>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedDessert</hediffDef>
+					<severity>0.4</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_MealBase">
+		<defName>CremeBrulee</defName>
+		<label>Crème brûlée</label>
+		<description>Dessert 80% (.5 Nutr, .6 Joy) &#xA; Origin: France &#xA; A sweet pastry topped with caramelized butter.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/CremeBrulee</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>200</MarketValue>
+			<WorkToMake>1800</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.5</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteDessert</tasteThought>
+			<preferability>MealLavish</preferability>
+			<joy>0.6</joy>
+			<joyKind>Gluttonous</joyKind>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedDessert</hediffDef>
+					<severity>0.8</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_MealBase">
+		<defName>MatchaCupcake</defName>
+		<label>matcha cupcake</label>
+		<description>Dessert 60% (.4 Nutr, .4 Joy) &#xA; Origin: China / US &#xA; A sweet pastry topped with caramelized butter.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/MatchaCupcake</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>900</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.4</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteDessert</tasteThought>
+			<preferability>MealFine</preferability>
+			<joy>0.4</joy>
+			<joyKind>Gluttonous</joyKind>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedDessert</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

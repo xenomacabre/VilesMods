@@ -1,0 +1,719 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+			<operations>
+		<!-- THING DEF  HEARTY STEW -->
+			<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="HeartyStew"]/description</xpath>
+    				<value>
+					<description>Hearty 60% (.9 Nutr, Fine)  &#xA;Unlike soup, stew is cooked until the broth becomes a thick gravy.</description>
+            			</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="HeartyStew"]/ingestible</xpath>
+    				<value>
+					<ingestible>
+						<tasteThought>AteFineMeal</tasteThought>
+						<preferability>MealFine</preferability>
+						<!--<joy>0.1</joy>-->
+						<ingestEffect>EatVegetarian</ingestEffect>
+						<ingestSound>Meal_Eat</ingestSound>
+						<!--<joyKind>Gluttonous</joyKind>-->
+						<outcomeDoers>
+							<li Class="IngestionOutcomeDoer_GiveHediff">
+								<hediffDef>HedHeartyFood</hediffDef>
+								<severity>0.6</severity>
+							</li>
+						</outcomeDoers>
+						</ingestible>
+            			</value>
+        			</li>
+					<li Class="PatchOperationReplace">
+									<xpath>Defs/ThingDef[defName="HeartyStew"]/graphicData</xpath>
+						<value>
+							<graphicData>
+								<texPath>Things/Item/Meal/Stew</texPath>
+								<graphicClass>Graphic_StackCount</graphicClass>
+							</graphicData>
+						</value>
+					</li>
+        		<!-- RECIPE DEF HEARTY STEW-->
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="CookHeartyStew"]/label</xpath>
+						<value>
+							<label>stew (x2 Hearty)</label>
+            			</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="CookHeartyStew"]/description</xpath>
+						<value>
+							<description>Hearty 60% (.9 Nutr, Fine)  &#xA;Unlike soup, stew is cooked until the broth becomes a thick gravy.</description>
+            			</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="CookHeartyStew"]/researchPrerequisite</xpath>
+						<value>
+							<researchPrerequisite>Food_B4</researchPrerequisite>
+            			</value>
+        			</li>
+					<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="CookHeartyStew"]/recipeUsers</xpath>
+						<value>
+						<recipeUsers>
+							<li>Hearth</li>
+							<li>FueledStove</li>
+							<li>ElectricStove</li>
+					</recipeUsers>
+						</value>
+        			</li>	
+        		<!-- THING DEF MAKI ROLLS  -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MakiRolls"]/description</xpath>
+					<value>
+						<description>Appetizer 60% (.5 Nutr, Fine )&#xA; Origin:Japan &#xA;Fish wrapped in seaweed and rice.</description>
+					</value>
+        		</li>
+				
+        		<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MakiRolls"]/statBases</xpath>
+					<value>
+						<statBases>
+							<DeteriorationRate>10</DeteriorationRate>
+							<MarketValue>10</MarketValue>
+							<Bulk>1.0</Bulk>
+							<Mass>0.5</Mass>
+							<Nutrition>0.5</Nutrition>
+						</statBases>
+					</value>
+        		</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MakiRolls"]/ingestible</xpath>
+					<value>
+					<ingestible>
+						<tasteThought>AteAppetizer</tasteThought>
+						<preferability>MealFine</preferability>
+						<joy>0.1</joy>
+						<ingestEffect>EatVegetarian</ingestEffect>
+						<ingestSound>Meal_Eat</ingestSound>
+						<joyKind>Gluttonous</joyKind>
+						<outcomeDoers>
+							<li Class="IngestionOutcomeDoer_GiveHediff">
+								<hediffDef>HedAppetizer</hediffDef>
+								<severity>0.6</severity>
+							</li>
+						</outcomeDoers>
+						</ingestible>
+					</value>
+				</li>
+        		<!-- RECIPE DEF  MAKI ROLLS -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="MakeMakiRolls"]/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite>Food_B4</researchPrerequisite>
+					</value>
+        		</li>
+        		<li Class="PatchOperationReplace">
+            		<xpath>Defs/RecipeDef[defName="MakeMakiRolls"]/label</xpath>
+    				<value>
+						<label>maki rolls (x3 Appetizer)</label>
+            		</value>
+        		</li>
+			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeMakiRolls"]/description</xpath>
+    				<value>
+					<description>Appetizer 60% (.5 Nutr, Fine )&#xA;Origin: Japan &#xA;Fish wrapped in seaweed and rice.</description>
+            			</value>
+        			</li> 			
+			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeMakiRolls"]/ingredients</xpath>
+    				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Meat_ThingDefFishSduiggles</li>
+								</thingDefs>
+							</filter>
+							<count>0.4</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RawAlgae</li>
+								</thingDefs>
+							</filter>
+							<count>0.2</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RawRice</li>
+								</thingDefs>
+							</filter>
+							<count>0.2</count>
+						</li>
+					</ingredients>
+            			</value>
+        			</li>
+			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeMakiRolls"]/products</xpath>
+    				<value>
+					<products>
+						<MakiRolls>3</MakiRolls>
+					</products>	
+				</value>
+        			</li>	
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeMakiRolls"]/skillRequirements</xpath>
+						<value>
+						<skillRequirements>
+							<Cooking>7</Cooking>
+						</skillRequirements>
+						</value>
+        			</li>	
+	 	<!-- THING DEF GRILLED CHEESE  -->
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="GrilledCheese"]/description</xpath>
+    				<value>
+					<description>Comfort 30% (.65 Nutr, Fine)  &#xA;Origin: US &#xA;A hot sandwich of cheese on bread.</description>
+            			</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="GrilledCheese"]/statBases</xpath>
+            			<value>
+    				<statBases>
+					<DeteriorationRate>10</DeteriorationRate>
+					<MarketValue>20</MarketValue>
+					<Bulk>1.0</Bulk>
+					<Mass>0.7</Mass>
+					<Nutrition>0.65</Nutrition>
+				</statBases>
+				</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="GrilledCheese"]/ingestible</xpath>
+    				<value>
+					<ingestible>
+						<preferability>MealSimple</preferability>
+						<!--<joy>0.1</joy>-->
+						<ingestEffect>EatVegetarian</ingestEffect>
+						<ingestSound>Meal_Eat</ingestSound>
+						<!--<joyKind>Gluttonous</joyKind>-->
+						<outcomeDoers>
+							<li Class="IngestionOutcomeDoer_GiveHediff">
+								<hediffDef>HedComfortFood</hediffDef>
+								<severity>0.3</severity>
+							</li>
+						</outcomeDoers>
+						</ingestible>
+            			</value>
+        			</li>
+        		<!-- RECIPE DEF  GRILLED CHEESE -->
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeCheeseGrilled"]/label</xpath>
+    				<value>
+					<label>grilled cheese (x2 Comfort Food)</label>
+            			</value>
+        			</li>
+			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeCheeseGrilled"]/description</xpath>
+    				<value>
+					<description>Comfort 30% (.65 Nutr, Fine)  &#xA;Origin: US &#xA;A hot sandwich of cheese on bread.</description>
+            			</value>
+        			</li> 
+					<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeCheeseGrilled"]/researchPrerequisite</xpath>
+						<value>
+							<researchPrerequisite>Food_B3</researchPrerequisite>
+            			</value>
+        			</li> 			
+			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeCheeseGrilled"]/ingredients</xpath>
+    				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Cheese</li>
+								</thingDefs>
+							</filter>
+							<count>0.4</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>bread</li>
+									<li>Cornbread</li>
+								</thingDefs>
+							</filter>
+							<count>0.35</count>
+						</li>
+					</ingredients>
+            			</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeCheeseGrilled"]/fixedIngredientFilter</xpath>
+    				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>Cheese</li>
+							<li>Cornbread</li>
+							<li>bread</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+            			</value>
+        			</li>
+        		<!-- THING DEF KEBAB  -->
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="Kebab"]/description</xpath>
+    				<value>
+					<description>Power 60% (.9 Nutr)  &#xA;Origin: Middle East &#xA;Meat and other vegetables grilled on a skewer.</description>
+            			</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="Kebab"]/statBases</xpath>
+            			<value>
+    				<statBases>
+					<DeteriorationRate>10</DeteriorationRate>
+					<MarketValue>20</MarketValue>
+					<Bulk>1.0</Bulk>
+					<Mass>0.7</Mass>
+					<Nutrition>0.9</Nutrition>
+				</statBases>
+				</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="Kebab"]/ingestible</xpath>
+    				<value>
+					<ingestible>
+						<preferability>MealFine</preferability>
+						<!--<joy>0.1</joy>-->
+						<ingestEffect>EatVegetarian</ingestEffect>
+						<ingestSound>Meal_Eat</ingestSound>
+						<!--<joyKind>Gluttonous</joyKind>-->
+						<outcomeDoers>
+							<li Class="IngestionOutcomeDoer_GiveHediff">
+								<hediffDef>HedPowerFood</hediffDef>
+								<severity>0.6</severity>
+							</li>
+						</outcomeDoers>
+						</ingestible>
+            			</value>
+        			</li>
+        		<!-- RECIPE DEF  KEBAB -->
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeKebab"]/label</xpath>
+    				<value>
+					<label>kebab (x2 Power Food)</label>
+            			</value>
+        			</li>
+				<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeKebab"]/description</xpath>
+						<value>
+						<description>Power 60% (.9 Nutr)  &#xA;Middle East &#xA;Meat and other vegetables grilled on a skewer. Can only be made on an open-flame grill</description>
+							</value>
+        		</li> 		
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="MakeKebab"]/workAmount</xpath>
+					<value>
+					<workAmount>600</workAmount>
+						</value>
+				</li> 	
+        		<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="MakeKebab"]/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite>Food_B4</researchPrerequisite>
+					</value>
+				</li> 	
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="MakeKebab"]/skillRequirements</xpath>
+					<value>
+					<skillRequirements>
+						<Cooking>11</Cooking>
+					</skillRequirements>
+					</value>
+        		</li>	
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeKebab"]/recipeUsers</xpath>
+						<value>
+							<recipeUsers>
+								<li>TableGrill</li>
+							</recipeUsers>
+						</value>
+        			</li>
+        			
+        		<!-- THING DEF CURRY  -->
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="CoconutCurry"]/description</xpath>
+    				<value>
+					<description>Spicy 60% (.85 Nutr, Fine)  &#xA;Origin: Thailand &#xA;Spicy red curry with a coconut milk base. Served over rice.</description>
+            			</value>
+        			</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="CoconutCurry"]/graphicData</xpath>
+						<value>
+							<graphicData>
+								<texPath>Things/Item/Meal/Curry</texPath>
+								<graphicClass>Graphic_Single</graphicClass>
+							</graphicData>
+						</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="CoconutCurry"]/statBases</xpath>
+            			<value>
+    				<statBases>
+					<DeteriorationRate>10</DeteriorationRate>
+					<MarketValue>20</MarketValue>
+					<Bulk>1.0</Bulk>
+					<Mass>0.7</Mass>
+					<Nutrition>0.85</Nutrition>
+				</statBases>
+				</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="CoconutCurry"]/ingestible</xpath>
+    				<value>
+					<ingestible>
+						<tasteThought>AteFineMeal</tasteThought>
+						<preferability>MealFine</preferability>
+						<!--<joy>0.1</joy>-->
+						<ingestEffect>EatVegetarian</ingestEffect>
+						<ingestSound>Meal_Eat</ingestSound>
+						<!--<joyKind>Gluttonous</joyKind>-->
+						<outcomeDoers>
+							<li Class="IngestionOutcomeDoer_GiveHediff">
+								<hediffDef>HedSpicyFood</hediffDef>
+								<severity>0.6</severity>
+							</li>
+						</outcomeDoers>
+						</ingestible>
+            			</value>
+        			</li>	
+        		<!-- RECIPE DEF  CURRY -->
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeCoconutCurry"]/label</xpath>
+						<value>
+							<label>coconut curry (x2 Spicy)</label>
+            			</value>
+        			</li>
+					<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeCoconutCurry"]/description</xpath>
+						<value>
+							<description>Spicy 60% (.85 Nutr, Fine)  &#xA; Origin:Thailand &#xA;Spicy red curry with a coconut milk base. Served over rice.</description>
+            			</value>
+        			</li> 		
+					<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeCoconutCurry"]/researchPrerequisite</xpath>
+						<value>
+							<researchPrerequisite>Food_C1</researchPrerequisite>
+            			</value>
+        			</li> 
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeCoconutCurry"]/ingredients</xpath>
+    				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<categories>
+									<li>MeatRaw</li>
+								</categories>
+								<thingDefs>
+									<li>Tofu</li>
+								</thingDefs>
+							</filter>
+							<count>0.3</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>coconutmilk</li>
+								</thingDefs>
+							</filter>
+							<count>0.4</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RawPeppers</li>
+								</thingDefs>
+							</filter>
+							<count>0.2</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RawRice</li>
+								</thingDefs>
+							</filter>
+							<count>0.3</count>
+						</li>
+					</ingredients>
+            			</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeCoconutCurry"]/fixedIngredientFilter</xpath>
+    				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>RawRice</li>
+							<li>coconutmilk</li>
+							<li>RawPeppers</li>
+						</thingDefs>
+						<categories>
+							<li>MeatRaw</li>
+						</categories>
+						<specialFiltersToDisallow>
+							<li>AllowPlantFood</li>
+						</specialFiltersToDisallow>
+					</fixedIngredientFilter>
+					</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeCoconutCurry"]/defaultIngredientFilter</xpath>
+    				<value>
+					<defaultIngredientFilter>
+						<thingDefs>
+							<li>RawRice</li>
+							<li>coconutmilk</li>
+							<li>RawPeppers</li>
+						</thingDefs>
+						<categories>
+							<li>MeatRaw</li>
+						</categories>
+						<disallowedThingDefs>
+							<li>Meat_Megaspider</li>
+							<li>Meat_Human</li>
+						</disallowedThingDefs>
+					</defaultIngredientFilter>
+				</value>
+        			</li>
+        			
+        		<!-- THING DEF BURGER  -->
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="CheeseBurger"]/description</xpath>
+    				<value>
+					<description>Hearty 60% (.9 Nutr, .2 Joy, Fine)  &#xA;Origin: US &#xA;A hot meat sandwich with cheese tomatoes or pickles.</description>
+            			</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="CheeseBurger"]/statBases</xpath>
+            			<value>
+    				<statBases>
+					<DeteriorationRate>10</DeteriorationRate>
+					<MarketValue>40</MarketValue>
+					<Bulk>1.5</Bulk>
+					<Mass>1.2</Mass>
+					<Nutrition>0.9</Nutrition>
+				</statBases>
+				</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="CheeseBurger"]/ingestible</xpath>
+    				<value>
+					<ingestible>
+						<tasteThought>AteFineMeal</tasteThought>
+						<preferability>MealFine</preferability>
+						<joy>0.2</joy>
+						<ingestEffect>EatVegetarian</ingestEffect>
+						<ingestSound>Meal_Eat</ingestSound>
+						<joyKind>Gluttonous</joyKind>
+						<outcomeDoers>
+							<li Class="IngestionOutcomeDoer_GiveHediff">
+								<hediffDef>HedHeartyFood</hediffDef>
+								<severity>0.6</severity>
+							</li>
+						</outcomeDoers>
+					</ingestible>
+            			</value>
+        			</li>	
+        			
+        		<!-- RECIPE DEF  BURGER -->
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeBurgerCheese"]/label</xpath>
+						<value>
+							<label>cheese burger (x3 Hearty)</label>
+            			</value>
+        			</li>
+					<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeBurgerCheese"]/description</xpath>
+						<value>
+							<description>Hearty 60% (.9 Nutr, .2 Joy, Fine)  &#xA;Origin: US &#xA;A hot meat sandwich with cheese tomatoes or pickles</description>
+            			</value>
+        			</li> 
+					<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeBurgerCheese"]/researchPrerequisite</xpath>
+						<value>
+							<researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
+            			</value>
+        			</li> 
+					
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeBurgerCheese"]/ingredients</xpath>
+						<value>
+						<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Meat_Muffalo</li>
+									<li>MetalCannedMeat_prime</li>
+								</thingDefs>
+							</filter>
+							<count>0.5</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>bread</li>
+								</thingDefs>
+							</filter>
+							<count>0.7</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Cheese</li>
+								</thingDefs>
+							</filter>
+							<count>0.3</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>RawTomatoes</li>
+									<li>PickledVeg</li>
+								</thingDefs>
+							</filter>
+							<count>0.3</count>
+						</li>
+					</ingredients>
+            			</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeBurgerCheese"]/fixedIngredientFilter</xpath>
+    				<value>
+    				<fixedIngredientFilter>
+					<thingDefs>
+						<li>Meat_Muffalo</li>
+						<li>MetalCannedMeat_prime</li>
+						<li>bread</li>
+						<li>Cheese</li>
+						<li>RawTomatoes</li>
+						<li>PickledVeg</li>
+					</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeBurgerCheese"]/defaultIngredientFilter</xpath>
+    				<value>
+					<defaultIngredientFilter>
+						<thingDefs>
+							<li>Meat_Muffalo</li>
+							<li>MetalCannedMeat_prime</li>
+							<li>bread</li>
+							<li>Cheese</li>
+							<li>RawTomatoes</li>
+							<li>PickledVeg</li>
+						</thingDefs>
+						<disallowedThingDefs>
+							<li>Meat_Megaspider</li>
+							<li>Meat_Human</li>
+						</disallowedThingDefs>
+						<disallowedCategories>
+							<li>EggsFertilized</li>
+						</disallowedCategories>
+					</defaultIngredientFilter>
+				</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeBurgerCheese"]/products</xpath>
+    				<value>
+					<products>
+						<CheeseBurger>3</CheeseBurger>
+					</products>
+            			</value>
+        			</li> 	
+        			
+        		<!-- THING DEF MISO SOUP  -->
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="MisoSoup"]/description</xpath>
+    				<value>
+					<description>Nutritious 60% (.9 Nutr, .2 Joy,  Lavish)  &#xA;Origin: Japan &#xA;A soup made with a kelp-based stock and fermented soybeans and fungus.</description>
+            			</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="MisoSoup"]/graphicData</xpath>
+						<value>
+							<graphicData>
+								<texPath>Things/Item/Meal/MisoSoup</texPath>
+								<graphicClass>Graphic_Single</graphicClass>
+							</graphicData>
+						</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="MisoSoup"]/statBases</xpath>
+            			<value>
+    				<statBases>
+					<DeteriorationRate>10</DeteriorationRate>
+					<MarketValue>45</MarketValue>
+					<Bulk>1.5</Bulk>
+					<Mass>1.2</Mass>
+					<Nutrition>0.7</Nutrition>
+				</statBases>
+				</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="MisoSoup"]/ingestible</xpath>
+    				<value>
+					<ingestible>
+						<tasteThought>AteLavishMeal</tasteThought>
+						<preferability>MealLavish</preferability>
+						<joy>0.2</joy>
+						<ingestEffect>EatVegetarian</ingestEffect>
+						<ingestSound>Meal_Eat</ingestSound>
+						<joyKind>Gluttonous</joyKind>
+						<outcomeDoers>
+							<li Class="IngestionOutcomeDoer_GiveHediff">
+								<hediffDef>HedNutritiousFood</hediffDef>
+								<severity>0.6</severity>
+							</li>
+						</outcomeDoers>
+					</ingestible>
+            			</value>
+        			</li>	
+        			
+        		<!-- RECIPE DEF  MISO SOUP -->
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeMisoSoup"]/label</xpath>
+						<value>
+							<label>miso soup (x2 Nutritious)</label>
+            			</value>
+        			</li>
+					<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeMisoSoup"]/description</xpath>
+						<value>
+							<description>Nutritious 60% (.9 Nutr, .2 Joy, Lavish)  &#xA;Origin: Japan &#xA;A soup made with a kelp-based stock and fermented soybeans and fungus.</description>
+            			</value>
+        			</li> 		
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeMisoSoup"]/researchPrerequisite</xpath>
+						<value>
+							<researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
+            			</value>
+        			</li> 	
+        
+        	
+			
+		</operations>
+		</match>
+    </Operation>	
+</Patch>
+
+
+

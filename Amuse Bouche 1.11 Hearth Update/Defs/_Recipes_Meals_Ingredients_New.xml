@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>MakePasta</defName>
+		<label>make pasta (x5)</label>
+		<description>Makes pasta from flour to be used in receipes.</description>
+		<jobString>Making pasta.</jobString>
+		<workAmount>300</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Flour</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Flour</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<products>
+			<Pasta>5</Pasta>
+		</products>
+		<skillRequirements>
+			<Cooking>5</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<recipeUsers>
+			<li>TableKitchen</li>
+		</recipeUsers>
+		<researchPrerequisite>Food_C2</researchPrerequisite>
+	</RecipeDef>
+	
+</Defs>

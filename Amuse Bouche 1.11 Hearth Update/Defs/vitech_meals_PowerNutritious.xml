@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- COMFORT FOOD-->
+<Defs>
+	<ThingDef ParentName="SK_MealBase">
+		<defName>PastaPrimavera</defName>
+		<label>pasta primavera</label>
+		<description>Nutritious Food 60% (.85 Nutr, Fine)  &#xA; Origin: Nova Scotia, CA &#xA; A pasta dish with a variety of fresh vegetables.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/PastaPrimavera</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>40</MarketValue>
+			<WorkToMake>720</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.75</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteFineMeal</tasteThought>
+			<preferability>MealFine</preferability>
+			<!--<joy>0.0</joy>
+			<joyKind>Gluttonous</joyKind>-->
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedNutritiousFood</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	<!--
+	<ThingDef ParentName="SK_MealBase">
+		<defName>GingerTofu</defName>
+		<label>ginger tofu</label>
+		<description></description>
+		<graphicData>
+			<texPath>Things/Item/Meal/GingerTofu</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>40</MarketValue>
+			<WorkToMake>720</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.8</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteFineMeal</tasteThought>
+			<preferability>MealFine</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedNutritiousFood</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	-->
+	<ThingDef ParentName="SK_MealBase">
+		<defName>Pilaf</defName>
+		<label>pilaf</label>
+		<description>Nutritious Food 60% (.8 Nutr, Lavish)  &#xA;  Rice cooked in broth with meat or vegetables and delicately spiced.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/Pilaf</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>50</MarketValue>
+			<WorkToMake>1200</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.8</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteLavishMeal</tasteThought>
+			<preferability>MealLavish</preferability>
+			<!--<joy>0.1</joy>
+			<joyKind>Gluttonous</joyKind>-->
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedNutritiousFood</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- POWER FOOD-->
+	
+	<ThingDef ParentName="SK_MealBase">
+		<defName>SpaghettiBolognese</defName>
+		<label>spaghetti bolognese</label>
+		<description>Power Food 60% (.85 Nutr) &#xA; Spaghetti with meat sauce.Or balls. Your choice.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/SpaghettiBolognese</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>720</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.85</Nutrition>
+		</statBases>
+		<ingestible>
+			<!--<tasteThought>AteLavishMeal</tasteThought>-->
+			<preferability>MealFine</preferability>
+			<!--<joy>0.1</joy>
+			<joyKind>Gluttonous</joyKind>-->
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedPowerFood</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_MealBase">
+		<defName>SeafoodChowder</defName>
+		<label>seafood chowder</label>
+		<description>Power Food 60% (.9 Nutr, Fine) &#xA; Origin: New England, US &#xA; Fish meat in a thick white broth.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/SeafoodChowder</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>50</MarketValue>
+			<WorkToMake>1200</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.9</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteFineMeal</tasteThought>
+			<preferability>MealFine</preferability>
+			<!--<joy>0.1</joy>
+			<joyKind>Gluttonous</joyKind>-->
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedPowerFood</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

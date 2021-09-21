@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+			<operations>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="WildRose"]/label</xpath>
+            				<value>
+							<label>cinnamon rose</label>
+            				</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="WildRose"]/description</xpath>
+            				<value>
+							<description>Cinnamon roses a genetically modified combination of wild rose, cinnamon, and nasturtium and has a sweet and spicy flavor.</description>
+            				</value>
+        			</li>
+					<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="Hypericum"]/label</xpath>
+            				<value>
+							<label>ginger wort</label>
+            				</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="Hypericum"]/description</xpath>
+            				<value>
+							<description>Ginger wort is a genetically modified plant with yellow flowers that have the scen t and flavor of ginger.</description>
+            				</value>
+        			</li>
+				
+					<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="Plant_WildRose"]/label</xpath>
+            				<value>
+							<label>cinnamon rose flowers</label>
+            				</value>
+        			</li>
+				<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="Plant_WildRose"]/description</xpath>
+            				<value>
+							<description>Cinnamon roses a genetically modified combination of wild rose, cinnamon, and nasturtium and has a sweet and spicy flavor.</description>
+            				</value>
+        			</li>
+				
+				<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="Plant_Hypericum"]/label</xpath>
+            				<value>
+							<label>ginger wort plant</label>
+            				</value>
+        			</li>
+				<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="Plant_Hypericum"]/description</xpath>
+            				<value>
+							<description>Ginger wort is a genetically modified plant with yellow flowers that have the scen t and flavor of ginger.</description>
+            				</value>
+        			</li>
+				
+				
+				
+			</operations>
+			</match>
+    </Operation>	
+</Patch>
+
+
+

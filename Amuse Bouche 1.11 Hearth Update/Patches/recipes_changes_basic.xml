@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+			<operations>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/RecipeDef[defName="CookMealFine"]/recipeUsers</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/RecipeDef[defName="CookMealFine_Bulk"]/recipeUsers</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/RecipeDef[defName="CookMealLavish"]/recipeUsers</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/RecipeDef[defName="CookMealLavish_Bulk"]/recipeUsers</xpath>
+				</li>	
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/RecipeDef[defName="CookMeatSoup"]/recipeUsers</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/RecipeDef[defName="MakeFriedMushrooms"]/recipeUsers</xpath>
+				</li>
+				
+				
+			</operations>
+	</match>
+    </Operation>	
+</Patch>
+
+
+

@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<HediffDef>
+		<defName>HedHauteCuisine</defName>
+		<label>ate haute cousine</label>
+		<description>Wow, what an impressive meal. A perfect balance of umami and richness.</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.5</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>Well Fed: Haute Cuisine</label>
+				<painFactor>0.75</painFactor>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>0.2</offset>
+					</li>
+					<li>
+						<capacity>Hearing</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<Comfort>.1</Comfort>
+					<MentalBreakThreshold>-.15</MentalBreakThreshold>
+				</statOffsets>
+				<!--<baseMoodEffect>10</baseMoodEffect>-->
+			</li>
+		</stages>
+	</HediffDef>
+		  
+	<HediffDef>
+		<defName>HedHeartyFood</defName>
+		<label>ate hearty food</label>
+		<description>Satiated! Warm, savory and filling, but not too fancy.</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.7</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>Well Fed: Hearty Food</label>
+				<painFactor>0.9</painFactor>
+				<capMods>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.3</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<HungerRateMultiplier>-0.15</HungerRateMultiplier>					
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+		  
+	<HediffDef>
+		<defName>HedComfortFood</defName>
+		<label>ate comfort food</label>
+		<description>Nostalgic and indulgent. I needed that.</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.7</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>Well Fed: Comfort Food</label>
+				<painFactor>0.9</painFactor>
+				<statOffsets>
+					<Comfort>.1</Comfort>
+				</statOffsets>
+				<!--<baseMoodEffect>5</baseMoodEffect>-->
+			</li>
+		</stages>
+	</HediffDef>
+		  
+	<HediffDef>
+		<defName>HedPowerFood</defName>
+		<label>ate power food</label>
+		<description>Are you pumped? I'm pumped! ROAAARR!</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.8</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>Well Fed: Power Food</label>
+				<painFactor>0.9</painFactor>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.2</offset>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.2</offset>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+		  
+	<HediffDef>
+		<defName>HedNutritiousFood</defName>
+		<label>ate nutritious food</label>
+		<description>A well-balanced meal really helps clear the mind.</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.7</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>Well Fed: Nutritious Food</label>
+				<painFactor>0.9</painFactor>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.25</offset>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>	  
+	<HediffDef>
+		<defName>HedHealthFood</defName>
+		<label>ate health food</label>
+		<description>Ugh bland and bitter, but I know I'll be better off in the long run.</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.7</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>Well Fed: Health Food</label>
+				<painFactor>0.8</painFactor>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.2</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>HedBrainFood</defName>
+		<label>ate brain food</label>
+		<description>Now I can concentrate.</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.7</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>Well Fed: Brain Food</label>
+				<painFactor>0.9</painFactor>
+					<capMods>
+						<li>
+							<capacity>Sight</capacity>
+							<offset>0.1</offset>
+						</li>
+					</capMods>
+				<statOffsets>
+					<GlobalLearningFactor>0.15</GlobalLearningFactor>					
+					<ResearchSpeed>0.05</ResearchSpeed>					
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+		  
+	<HediffDef>
+		<defName>HedSpicyFood</defName>
+		<label>ate spicy food</label>
+		<description>Hot! Hot! I can feel my endorphins kicking in!</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.7</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>Well Fed: Spicy Food</label>
+				<painFactor>0.9</painFactor>
+				<capMods>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>	
+				<statOffsets>
+					<ComfyTemperatureMin>-7.0</ComfyTemperatureMin>					
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+		
+	<HediffDef>
+		<defName>HedBakedGood</defName>
+		<label>ate baked good</label>
+		<description>Sweet and filling. Now let's get going!</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.7</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>Well Fed: Snack</label>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+			
+	<HediffDef>
+		<defName>HedDessert</defName>
+		<label>ate dessert</label>
+		<description>A great way to end a meal.</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.7</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>Well Fed: Dessert</label>
+				<painFactor>0.9</painFactor>
+				<capMods>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+		  
+	<HediffDef>
+		<defName>HedAppetizer</defName>
+		<label>appetizer</label>
+		<description>An tasty appetizer that cleanses the palate but isn't very filling.</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.7</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>Well Fed: Appetizer</label>
+				<painFactor>0.9</painFactor>
+				<capMods>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>0.2</offset>
+					</li>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>0.1</offset>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+		  
+	<HediffDef>
+		<defName>HedChilled</defName>
+		<label>ate chilled cuisine</label>
+		<description>Refreshing on a hot day.</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.7</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>Well Fed: Chilled Food</label>
+				<painFactor>0.9</painFactor>
+				<statOffsets>
+					<ComfyTemperatureMin>+7.0</ComfyTemperatureMin>		
+					<ComfyTemperatureMax>+15.0</ComfyTemperatureMax>	
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

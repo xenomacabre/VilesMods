@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- COMFORT FOOD-->
+<Defs>
+	<ThingDef ParentName="SK_MealBase">
+		<defName>Duckalorange</defName>
+		<label>duck à l'orange</label>
+		<description>Haute Cousine 60% (1.0 Nutr, .3 Joy, Lavish)  &#xA; Origin: France &#xA; Roast duck in an orange sauce. Five star.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/Duckalorange</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>100</MarketValue>
+			<WorkToMake>2400</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>1.0</Nutrition>
+			<Beauty>16.0</Beauty>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteLuxuryMeal</tasteThought>
+			<preferability>MealLavish</preferability>
+			<joy>0.3</joy>
+			<joyKind>Gluttonous</joyKind>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedHauteCuisine</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!--<ThingDef ParentName="SK_MealBase">
+		<defName>ChileenNogada</defName>
+		<label>chile en nogada</label>
+		<description></description>
+		<graphicData>
+			<texPath>Things/Item/Meal/ChileenNogada</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>100</MarketValue>
+			<WorkToMake>2700</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>1.0</Nutrition>
+			<Beauty>8.0</Beauty>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteLavishMeal</tasteThought>
+			<preferability>MealLavish</preferability>
+			<joy>0.2</joy>
+			<joyKind>Gluttonous</joyKind>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedHauteCuisine</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	-->
+	<ThingDef ParentName="SK_MealBase">
+		<defName>ThreeBirdRoast</defName>
+		<label>three bird roast</label>
+		<description>Haute Cousine 60% (.85 Nutr, .4 Joy, Lavish)  &#xA; Origin: US &#xA; AKA Turducken or Gooducken, it's three birds, one inside each other, breaded and seasoned.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/ThreeBirdRoast</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>100</MarketValue>
+			<WorkToMake>3300</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.85</Nutrition>
+			<Beauty>8.0</Beauty>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteLavishMeal</tasteThought>
+			<preferability>MealLavish</preferability>
+			<joy>0.4</joy>
+			<joyKind>Gluttonous</joyKind>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedHauteCuisine</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_MealBase">
+		<defName>SteakWellington</defName>
+		<label>steak wellington</label>
+		<description>Haute Cousine 60% (1.0 Nutr, .6 Joy, Lavish)  &#xA; Origin: UK &#xA; A fillet of prime meat wrapped in a pate and mushroom mixture inside a puff pastry. The pate requires wine, cognac, or brandy. Extremely difficult to make.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/SteakWellington</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>100</MarketValue>
+			<WorkToMake>3000</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>1.0</Nutrition>
+			<Beauty>16.0</Beauty>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteLuxuryMeal</tasteThought>
+			<preferability>MealLavish</preferability>
+			<joy>0.6</joy>
+			<joyKind>Gluttonous</joyKind>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedHauteCuisine</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_MealBase">
+		<defName>Souffle</defName>
+		<label>souffle</label>
+		<description>Haute Cousine 80% (1.0 Nutr, .6 Joy, Lavish, Beauty +24)  &#xA; Origin: France &#xA; A puffed, egg-based dish which can be either savory (cheese) or sweet (chocolate).</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/Souffle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>200</MarketValue>
+			<WorkToMake>2400</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.75</Nutrition>
+			<Beauty>24.0</Beauty>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteLuxuryMeal</tasteThought>
+			<preferability>MealLavish</preferability>
+			<joy>0.9</joy>
+			<joyKind>Gluttonous</joyKind>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedHauteCuisine</hediffDef>
+					<severity>0.8</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_MealBase">
+		<defName>Consomme</defName>
+		<label>consomme</label>
+		<description>Haute Cousine 80% (1.0 Nutr, .8 Joy, Lavish, Beauty +24)  &#xA; Origin: France &#xA; The zenith of culinary complexity, consomme is a clear soup that is made by removing all the impurities of its ingredients.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/Consomme</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>250</MarketValue>
+			<WorkToMake>3000</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.85</Nutrition>
+			<Beauty>24.0</Beauty>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteLuxuryMeal</tasteThought>
+			<preferability>MealLavish</preferability>
+			<joy>0.8</joy>
+			<joyKind>Gluttonous</joyKind>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedHauteCuisine</hediffDef>
+					<severity>0.8</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

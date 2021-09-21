@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>MakeDonuts</defName>
+		<label>make donuts (x8 Confection)</label>
+		<description>Confection 50% (.25 Nutr, .45 Joy) &#xA; Origin: Holland / US &#xA; Time to make the donuts.</description>
+		<jobString>Making donuts.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<workAmount>1000</workAmount>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Flour</li>
+					</thingDefs>
+				</filter>
+				<count>0.3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Sugar</li>
+					</thingDefs>
+				</filter>
+				<count>0.4</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>EggsUnfertilized</li>
+						<li>EggsFertilized</li>
+					</categories>
+				</filter>
+				<count>0.4</count>
+			</li>
+		</ingredients>
+		<products>
+			<Donut>8</Donut>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>EggsFertilized</li>
+				<li>EggsUnfertilized</li>
+			</categories>
+			<thingDefs>
+				<li>Sugar</li>
+				<li>Flour</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowPlantFood</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Sugar</li>
+				<li>Flour</li>
+			</thingDefs>
+			<categories>
+				<li>EggsUnfertilized</li>
+			</categories>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+			</defaultIngredientFilter>
+		<skillRequirements>
+			<Cooking>7</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<recipeUsers>
+			<li>Fryer</li>
+		</recipeUsers>
+		<researchPrerequisite>Food_C6</researchPrerequisite>
+	</RecipeDef>
+	
+	
+<!--         Fine Meals   START HERE       -->
+	
+	
+	<RecipeDef>
+		<defName>MakeSundae</defName>
+		<label>make sundae (x2 Chilled)</label>
+		<description>Chilled 60% (.5 Nutr, .6 Joy) &#xA; Origin: US &#xA; An ice cream banana split with chocolate or caramel topping.</description>
+		<jobString>Make Ice Cream Sundae.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<workAmount>420</workAmount>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Milk</li>
+					</thingDefs>
+				</filter>
+				<count>0.5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Sugar</li>
+					</thingDefs>
+				</filter>
+				<count>0.1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Rawbanana</li>
+					</thingDefs>
+				</filter>
+				<count>0.15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chocolate</li>
+						<li>Caramel</li>
+					</thingDefs>
+				</filter>
+				<count>0.1</count>
+			</li>	
+		</ingredients>
+		<products>
+			<Sundae>2</Sundae>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Milk</li>
+				<li>Sugar</li>
+				<li>Chocolate</li>	
+				<li>Caramel</li>			
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowPlantFood</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Milk</li>
+				<li>Sugar</li>
+				<li>Chocolate</li>
+				<li>Caramel</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<recipeUsers>
+			<li>CandyTable</li>
+		</recipeUsers>
+		<researchPrerequisite>Food_C4</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>MakeGazpacho</defName>
+		<label>make gazpacho soup (x2 Chilled)</label>
+		<description>Chilled 60% (.5 Nutr, Fine) &#xA; Origin: Portugal / Spain &#xA; A cold refreshing soup made of raw vegetables.</description>
+		<jobString>Making Gazpacho Soup.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<workAmount>600</workAmount>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+				
+					<thingDefs>
+						<li>RawTomatoes</li>
+					</thingDefs>
+				</filter>
+				<count>0.6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Rawonion</li>
+					</thingDefs>
+				</filter>
+				<count>0.2</count>
+			</li>
+		</ingredients>
+		<products>
+			<GazpachoSoup>2</GazpachoSoup>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawTomatoes</li>
+				<li>Rawonion</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowPlantFood</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>RawTomatoes</li>
+				<li>Rawonion</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<skillRequirements>
+			<Cooking>7</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<recipeUsers>
+			<li>TableKitchen</li>
+		</recipeUsers>
+		<researchPrerequisite>Food_B2</researchPrerequisite>
+	</RecipeDef>
+
+	
+</Defs>

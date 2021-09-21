@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThoughtDef>
+		<defName>AteBlandMeal</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackedEffectMultiplier>0.25</stackedEffectMultiplier>
+		<stackLimit>3</stackLimit>
+		<stages>
+			<li>
+				<label>Ate Bland Meal</label>
+				<description>Sure, maybe it was healthy, but I'd rather eat a sock.</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>AteAppetizer</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.2</durationDays>
+		<stackedEffectMultiplier>0.25</stackedEffectMultiplier>
+		<stackLimit>3</stackLimit>
+		<stages>
+			<li>
+				<label>Ate Appetizer</label>
+				<description>My mouth is thoroughly amused... until the main course. There IS a main course, right?</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>AteDessert</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>2</durationDays>
+		<stackedEffectMultiplier>0.2</stackedEffectMultiplier>
+		<stackLimit>4</stackLimit>
+		<stages>
+			<li>
+				<label>Ate Appetizer</label>
+				<description>Mmm. This completes my palate.</description>
+				<baseMoodEffect>4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+</Defs>

@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+			<operations>
+			
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="Pizza"]/label</xpath>
+            				<value>
+							<label>pizza margherita</label>
+            				</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="Pizza"]/ingestible</xpath>
+            				<value>
+							<ingestible>
+								<preferability>MealLavish</preferability>
+								<joy>0.1</joy>
+								<ingestEffect>EatVegetarian</ingestEffect>
+								<ingestSound>Meal_Eat</ingestSound>
+								<joyKind>Gluttonous</joyKind>
+								<outcomeDoers>
+									<li Class="IngestionOutcomeDoer_GiveHediff">
+										<hediffDef>HedComfortFood</hediffDef>
+										<severity>0.4</severity>
+									</li>
+								</outcomeDoers>
+							</ingestible>
+            				</value>
+        			</li>
+				
+					
+				<!-- COOKIE -->
+				    <li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeCookies"]/label</xpath>
+            				<value>
+							<label>Cookies (x10 Confection)</label>
+            				</value>
+        			</li>
+					<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeCookies"]/researchPrerequisite</xpath>
+            				<value>
+							<researchPrerequisite>Food_C4</researchPrerequisite>
+            				</value>
+        			</li>
+					<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeCookies"]/description</xpath>
+            				<value>
+							<description>Confection 30% (.2 Nutr, .35 Joy)  &#xA; Origin: Persia &#xA;  Cookies. You know what cookies are. These ones have chocolate chips.</description>
+            				</value>
+        			</li>
+				    <li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="cookie"]/description</xpath>
+            				<value>
+							<description>Confection 30% (.2 Nutr, .35 Joy)  &#xA; Origin: Persia &#xA;  Cookies. You know what cookies are. These ones have chocolate chips.</description>
+            				</value>
+        			</li>
+					<li Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="cookie"]/ingestible</xpath>
+						<value>
+						<ingestible>
+							<preferability>MealFine</preferability>
+							<joy>0.3</joy>
+							<ingestEffect>EatVegetarian</ingestEffect>
+							<ingestSound>Meal_Eat</ingestSound>
+							<joyKind>Gluttonous</joyKind>
+							<outcomeDoers>
+								<li Class="IngestionOutcomeDoer_GiveHediff">
+									<hediffDef>HedBakedGood</hediffDef>
+									<severity>0.35</severity>
+								</li>
+							</outcomeDoers>
+							</ingestible>
+							</value>
+        			</li>
+				
+			<!-- TAFFY -->
+				
+			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeTaffy"]/label</xpath>
+            				<value>
+							<label>saltwater taffy (x5)</label>
+            				</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeTaffy"]/description</xpath>
+            				<value>
+							<description>.1 Nutr, .3 Joy  &#xA; Origin: Atlantic City, NJ &#xA;  A chewy candy. It is made with salt. It is also made with water.</description>
+            				</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeTaffy"]/researchPrerequisite</xpath>
+            				<value>
+								<researchPrerequisite>Food_C4</researchPrerequisite>
+            				</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="Taffy"]/description</xpath>
+            				<value>
+							<description>.1 Nutr, .3 Joy  &#xA; Origin: Atlantic City, NJ &#xA;  A chewy candy. It is made with salt. It is also made with water.</description>
+            				</value>
+        			</li>
+				
+			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeTaffy"]/ingredients</xpath>
+    				<value>
+	    				<ingredients>
+			    			<li>
+							<filter>
+								<thingDefs>
+									<li>Sugar</li>
+								</thingDefs>
+							</filter>
+							<count>0.5</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Salt</li>
+								</thingDefs>
+							</filter>
+							<count>0.1</count>
+						</li>
+				</ingredients>
+            			</value>
+        			</li>
+	
+				<!-- RECIPE CINNAMON ROLL -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="MakeSweetBun"]/researchPrerequisite</xpath>
+						<value>
+							<researchPrerequisite>Bakery_B1</researchPrerequisite>
+						</value>
+        		</li>
+				<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeSweetBun"]/label</xpath>
+            				<value>
+							<label>cinnamon roll (x5 Confection)</label>
+            				</value>
+        				</li>
+				<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeSweetBun"]/description</xpath>
+            				<value>
+							<description>Confection 60% (.5 Nutr, .45 Joy)  &#xA; Origin: Sweden / Denmark &#xA;  A delicious spiral of cinnamon and sugar.</description>
+            				</value>
+        				</li>
+				<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeSweetBun"]/ingredients</xpath>
+            				<value>
+            				<ingredients>
+			            		<li>
+							<filter>
+								<thingDefs>
+									<li>Sugar</li>
+								</thingDefs>
+							</filter>
+							<count>0.4</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Flour</li>
+								</thingDefs>
+							</filter>
+							<count>0.5</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>WildRose</li>
+								</thingDefs>
+							</filter>
+							<count>0.1</count>
+						</li>
+					</ingredients>
+            				</value>
+        		</li>
+				<!-- THING CINNAMON ROLL -->
+				<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="SweetBun"]/label</xpath>
+            				<value>
+							<label>cinnamon roll</label>
+            				</value>
+        			</li>
+				<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="SweetBun"]/description</xpath>
+            				<value>
+								<description>Confection 60% (.5 Nutr, .45 Joy)  &#xA; Origin: Sweden / Denmark &#xA;  A delicious spiral of cinnamon and sugar.</description>
+            				</value>
+        		</li>
+				<li Class="PatchOperationReplace">
+            			<xpath>Defs/ThingDef[defName="SweetBun"]/ingestible</xpath>
+    				<value>
+					<ingestible>
+						<preferability>MealFine</preferability>
+						<joy>0.45</joy>
+						<ingestEffect>EatVegetarian</ingestEffect>
+						<ingestSound>Meal_Eat</ingestSound>
+						<joyKind>Gluttonous</joyKind>
+						<outcomeDoers>
+							<li Class="IngestionOutcomeDoer_GiveHediff">
+								<hediffDef>HedBakedGood</hediffDef>
+								<severity>0.6</severity>
+							</li>
+						</outcomeDoers>
+						</ingestible>
+            			</value>
+        		</li>
+				
+			</operations>
+			</match>
+    </Operation>	
+</Patch>
+
+
+
