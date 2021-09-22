@@ -86,7 +86,7 @@
 			<uninstallWork>250</uninstallWork>
 		</building>
 		<researchPrerequisites>
-			<li>AdvancedFabrication</li>
+			<li>Food_C6</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 	</ThingDef>
