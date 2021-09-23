@@ -42,8 +42,8 @@
 				<MeleeWeapon_CooldownMultiplier>1.05</MeleeWeapon_CooldownMultiplier>
 				<MoveSpeed>0.75</MoveSpeed>
 				<MarketValue>0.5</MarketValue>
-				<BedRestEffectiveness>0.6</BedRestEffectiveness>
-				<ImmunityGainSpeedFactor>0.6</ImmunityGainSpeedFactor>
+				<BedRestEffectiveness>1.0</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.0</ImmunityGainSpeedFactor>
 				<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
 				<DoorOpenSpeed>1.05</DoorOpenSpeed>
 				<MeleePenetrationFactor>0.4</MeleePenetrationFactor>
