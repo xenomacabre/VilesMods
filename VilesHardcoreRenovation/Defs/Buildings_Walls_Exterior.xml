@@ -243,7 +243,8 @@
 		<description>A wall made of earth and clay around a wooden latticework and binded with straw. Uses a lot of different materials found around the building site.</description>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
-			<texPath>Things/Building/Walls/Wall_Atlas_Wattle</texPath>
+			<texPath>Things/Building/Walls/Wall_Atlas_Wattle/Wall_Atlas_WattleB</texPath>
+			<!--<graphicClass>Graphic_Random</graphicClass>-->
 			<linkType>CornerFiller</linkType>
 			<linkFlags>
 				<li>Wall</li>
@@ -263,15 +264,14 @@
 		<building>
 			<blueprintGraphicData>
 				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
-			</blueprintGraphicData>
+			</blueprintGraphicData>	
 		</building>
-		<uiIconPath>Things/Building/Walls/Wall_Atlas_Wattle_ico</uiIconPath>
-		<uiIconPathsStuff>
+		<uiIconPath>Things/Building/Wattle_ico</uiIconPath>
+		<!--<uiIconPathsStuff>
 			<li>
-				<!--<appearance>Logs</appearance>-->
 				<iconPath>Things/Building/Walls/Wall_Atlas_Wattle_ico</iconPath>
 			</li>
-		</uiIconPathsStuff>
+		</uiIconPathsStuff>-->
 		<statBases>
 			<MaxHitPoints>320</MaxHitPoints> <!-- vanilla is 380 -->
 			<WorkToBuild>250</WorkToBuild> <!-- vanilla is 270 -->

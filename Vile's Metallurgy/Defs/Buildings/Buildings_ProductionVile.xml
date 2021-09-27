@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="WorkTableFueled">
+
+	<ThingDef ParentName="BuildingFueled">
 		<defName>FirePit</defName>
 		<label>fire pit</label>
-		<description>A large oven dug into the earth. It can burn much hotter than a normal campfire - enough to smelt pre-iron age metals such as copper and bronze.</description>    
+		<description>A large oven dug into the earth. It can burn hotter than a campfire - enough to smelt pre-iron age metals such as lead and bronze.</description>    
+		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/FirePit</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawRotated>false</drawRotated>
-			<drawSize>(2,2)</drawSize>
+			<drawSize>(1.6,1.6)</drawSize>
 			<damageData>
 				<rect>(0.2,0,0.6,0.1)</rect>
 			</damageData>
 			<shadowData>
-				<volume>(0.8, 0.5, 0.8)</volume>
+				<volume>(0.5, 0.5, 0.5)</volume>
 			</shadowData>
 		</graphicData>
 		<fillPercent>0.1</fillPercent>
@@ -28,11 +30,13 @@
 			<Flammability>0</Flammability>
 			<WorkTableWorkSpeedFactor>0.75</WorkTableWorkSpeedFactor>
 		</statBases>
-		<size>(2,2)</size>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<size>(1,1)</size>
 		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
-		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<resourcesFractionWhenDeconstructed>1</resourcesFractionWhenDeconstructed>
+		<useStuffTerrainAffordance>true</useStuffTerrainAffordance>
 		<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>1.0</resourcesFractionWhenDeconstructed>
 		<placeWorkers>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 			<li>PlaceWorker_Heater</li>
@@ -40,23 +44,23 @@
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<comps>
 			<li Class="CompProperties_Glower">
-				<glowRadius>10</glowRadius>
-				<glowColor>(272,177,105,0)</glowColor>
+				<glowRadius>4</glowRadius>
+				<glowColor>(252,187,113,0)</glowColor>
 			</li>
 			<li Class="SK.CompProperties_HeatPusherAdvanced">
 				<compClass>SK.CompHeatPusherAdvanced</compClass>
-				<heatPerSecond>19</heatPerSecond>
-				<heatPushMaxTemperature>34</heatPushMaxTemperature>
+				<heatPerSecond>18</heatPerSecond>
+				<heatPushMaxTemperature>40</heatPushMaxTemperature>
 			</li>
 			<li Class="SK.CompFueled_Properties">
 				<operatingTemp>900</operatingTemp>
 				<fireDrawOffset>(0,0.15,0.1)</fireDrawOffset>
 				<smokeDrawOffset>(0,0,0.1)</smokeDrawOffset>
 				<fuelDrawOffset>(0,0.1,0.01)</fuelDrawOffset>
-				<fuelDrawScale>0.8</fuelDrawScale>
-				<fuelCapacity>18</fuelCapacity>
+				<fuelDrawScale>0.7</fuelDrawScale>
+				<fuelCapacity>10</fuelCapacity>
 				<burnFuelMultiplier>1</burnFuelMultiplier>
-				<smokesize>0.4</smokesize>
+				<smokesize>0.5</smokesize>
 				<canAutoBurn>true</canAutoBurn>
 				<effectOnWeather>true</effectOnWeather>
 				<smokeDensity>2</smokeDensity>
@@ -66,6 +70,7 @@
 						<li>Coal</li>
 						<li>Kindling</li>
 						<li>Tallow</li>
+						<li>Peat</li>
 					</thingDefs>
 					<categories>
 						<li>Wooden</li>
@@ -74,6 +79,7 @@
 			</li>
 		</comps>
 		<designationCategory>Production</designationCategory>
+		<designationHotKey>Misc1</designationHotKey>
 		<recipes>
 			<li>CremateCorpse</li>
 			<li>BurnApparel</li>
@@ -82,10 +88,10 @@
 			<li>MakeCharcoal_Hand</li>
 		</recipes>
 		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
 		</building>
 	</ThingDef>
-	
 	<!-- ==== BLOOMERY ==== -->
 	<ThingDef ParentName="WorkTableFueled">
 		<defName>Bloomery</defName>

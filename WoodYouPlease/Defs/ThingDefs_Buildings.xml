@@ -22,7 +22,7 @@
 		</thingCategories>
 		<statBases>
 			<WorkToBuild>300</WorkToBuild>
-			<WorkTableWorkSpeedFactor>0.85</WorkTableWorkSpeedFactor>
+			<WorkTableWorkSpeedFactor>0.4</WorkTableWorkSpeedFactor>
 			<Mass>1</Mass>
 		</statBases>
 		<scatterableOnMapGen>false</scatterableOnMapGen>

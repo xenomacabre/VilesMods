@@ -69,7 +69,9 @@ III. New Woodsplitting Spot is an ingredientless building for splitting logs int
 
 IV. Anywhere there was a vanilla wood log, there is now "firewood". Anywhere there was vanilla wood planks, there is now plywood. Plywood can be made out of scraps of logs or planks, much how patch leather is made. 
 	  
-Feedback is appreciated. Thanks!	  
+Feedback is appreciated. Thanks!
+
+Update Sept 26, 2021 - Lowered splitting spot workspeed, but also lowered recipe work. Also, you can now build the woodcutting table out of planks if you wish, for increased workspeed.	  
 
 </description> 
 </ModMetaData>
