@@ -7,6 +7,9 @@
 
 Thank you for all the great support and feedback, and to all the talented modders in the HSK team and beyond. This wouldn't be possible without all of you!
 
+INSTALLATION:
+Simply place these in the /mods/ folder with the rest of the HSK mods. When activating after you load the game, put them in the order listed below, somewhere near the bottom of the list.
+
 A quick rundown of what we got so far, and recommended mod-order:
 
 
