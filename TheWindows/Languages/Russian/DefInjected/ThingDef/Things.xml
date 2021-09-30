@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SimpleOpenWindow.label>деревенское окно</SimpleOpenWindow.label>
+  <SimpleOpenWindow.description>Простая заслонка, открывающая доступ к свету и воздух, но даже в закрытом состоянии не обеспечивает хорошей теплоизоляции.</SimpleOpenWindow.description>
+
+  <OpenWindow.label>окно</OpenWindow.label>
+  <OpenWindow.description>Окно со стеклопакетом и ставнями. Может предоставлять свет и воздух отдельно.</OpenWindow.description>
+
+  <LargeOpenWindow.label>большое окно</LargeOpenWindow.label>
+  <LargeOpenWindow.description>Большое окно, пропускающее большое количество света и воздуха.</LargeOpenWindow.description>
+
+  <HugeOpenWindow.label>огромное окно</HugeOpenWindow.label>
+  <HugeOpenWindow.description>Высокое, огромное окно. Пропускает огромное количество света.</HugeOpenWindow.description>
+
+  <ReinforcedOpenWindow.label>прочное окно</ReinforcedOpenWindow.label>
+  <ReinforcedOpenWindow.description>Укреплённое окно со стеклопакетом и ставнями. Может предоставлять свет и воздух отдельно.</ReinforcedOpenWindow.description>
+
+  <LargeReinforcedOpenWindow.label>большое прочное окно</LargeReinforcedOpenWindow.label>
+  <LargeReinforcedOpenWindow.description>Большое укреплённое окно, пропускающее большое количество света и воздуха.</LargeReinforcedOpenWindow.description>
+
+</LanguageData>

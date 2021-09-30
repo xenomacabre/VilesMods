@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="BuildingBase" Name="WindowBase" Abstract="True">
+		<thingClass>OpenTheWindows.Building_Window</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<linkFlags>
+				<li>Wall</li>
+				<li>Rock</li>
+			</linkFlags>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>1</fillPercent>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<selectable>true</selectable>
+		<rotatable>true</rotatable>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Structure</designationCategory>
+		<designationHotKey>Misc3</designationHotKey>
+		<holdsRoof>true</holdsRoof>
+		<staticSunShadowHeight>1.0</staticSunShadowHeight>
+		<passability>Impassable</passability>
+		<blockLight>false</blockLight>
+		<blockWind>true</blockWind>
+		<coversFloor>true</coversFloor>
+		<castEdgeShadows>true</castEdgeShadows>
+		<canOverlapZones>false</canOverlapZones>
+		<tickerType>Normal</tickerType>
+		<placeWorkers>
+			<li>OpenTheWindows.PlaceWorker_Window</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<building>
+			<isInert>true</isInert>
+			<canPlaceOverWall>true</canPlaceOverWall>
+		</building>
+		<pathCost>50</pathCost>
+		<comps>
+			<li Class="OpenTheWindows.CompProperties_Window">
+				<commandTexture>UI/LightIcon</commandTexture>
+				<commandLabelKey>CommandOpenCloseWindowLightLabel</commandLabelKey>
+				<commandDescKey>CommandOpenCloseWindowLightDesc</commandDescKey>
+				<signal>light</signal>
+			</li>
+			<li Class="OpenTheWindows.CompProperties_Window">
+				<commandTexture>UI/AirVentIcon</commandTexture>
+				<commandLabelKey>CommandOpenCloseWindowVentLabel</commandLabelKey>
+				<commandDescKey>CommandOpenCloseWindowVentDesc</commandDescKey>
+				<signal>air</signal>
+			</li>
+		</comps>
+		<researchPrerequisites>
+			<li>Glassworks</li>
+		</researchPrerequisites>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+		</stuffCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="WindowBase">
+		<defName>SimpleOpenWindow</defName>
+		<label>rustic window</label>
+		<description>A simple, low-tech window which is little more than a hole in the wall. Equip with with a shutter to control the light, but does almost nothing to keep the heat in or out.</description>
+		<graphicData>
+			<texPath>Things/Building/SimpleWindow</texPath>
+		</graphicData>
+		<uiIconPath>Things/Building/SimpleWindow_north</uiIconPath>
+		<statBases>
+			<WorkToBuild>270</WorkToBuild>
+			<MaxHitPoints>150</MaxHitPoints>
+		</statBases>
+		<stuffCategories>
+			<li>HardwoodLumber</li>
+			<li>SoftwoodLumber</li>
+			<li>UltrahardwoodLumber</li>
+			<li>EngineeredLumber</li>
+		</stuffCategories>
+		<costStuffCount>10</costStuffCount>
+		<comps Inherit="False">
+			<li Class="OpenTheWindows.CompProperties_Window">
+				<commandTexture>UI/OpenWindows</commandTexture>
+				<commandLabelKey>CommandDesignateOpenCloseWindowLabel</commandLabelKey>
+				<commandDescKey>CommandDesignateOpenCloseWindowDesc</commandDescKey>
+				<signal>both</signal>
+			</li>
+		</comps>
+		<researchPrerequisites Inherit="False" />
+	</ThingDef>
+	
+	<ThingDef ParentName="WindowBase">
+		<defName>OpenWindow</defName>
+		<label>window</label>
+		<description>A window with a glass pane and a shutter. Can control light and air separately. Comes with a view.</description>
+		<graphicData>
+			<texPath>Things/Building/Window</texPath>
+		</graphicData>
+		<uiIconPath>Things/Building/Window_north</uiIconPath>
+		<statBases>
+			<WorkToBuild>405</WorkToBuild>
+			<MaxHitPoints>150</MaxHitPoints>
+		</statBases>
+		<costStuffCount>10</costStuffCount>
+		<costList>
+			<Glass>5</Glass>
+		</costList>
+	</ThingDef>
+	
+	<ThingDef ParentName="WindowBase">
+		<defName>LargeOpenWindow</defName>
+		<label>large window</label>
+		<description>A big glass window with a shutter that lets a large amount of light, air and the landscape in.</description>
+		<graphicData>
+			<texPath>Things/Building/LargeWindow</texPath>
+			<drawSize>(4,1)</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Building/LargeWindow_north</uiIconPath>
+		<uiIconScale>1.33</uiIconScale>
+		<statBases>
+			<WorkToBuild>1215</WorkToBuild>
+			<MaxHitPoints>300</MaxHitPoints>
+		</statBases>
+		<size>(3,1)</size>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Glass>15</Glass>
+		</costList>
+	</ThingDef>
+	
+	<ThingDef ParentName="WindowBase">
+		<defName>HugeOpenWindow</defName>
+		<label>huge window</label>
+		<description>A tall, huge window, equipped with rotating brise-soleil. Allows in a massive volume of light.</description>
+		<graphicData>
+			<texPath>Things/Building/HugeWindow</texPath>
+			<drawSize>(8.125,1)</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Building/HugeWindow</uiIconPath>
+		<uiIconScale>1.6</uiIconScale>
+		<statBases>
+			<WorkToBuild>2025</WorkToBuild>
+			<MaxHitPoints>450</MaxHitPoints>
+		</statBases>
+		<size>(5,1)</size>
+		<costStuffCount>50</costStuffCount>
+		<costList>
+			<Glass>25</Glass>
+		</costList>
+	</ThingDef>
+	
+	<ThingDef ParentName="WindowBase">
+		<defName>ReinforcedOpenWindow</defName>
+		<label>reinforced window</label>
+		<description>A small reinforced window with a glass pane and a shutter. Can control light and air separately.</description>
+		<graphicData>
+			<texPath>Things/Building/ReinforcedWindow</texPath>
+		</graphicData>
+		<uiIconPath>Things/Building/ReinforcedWindow_north</uiIconPath>
+		<statBases>
+			<WorkToBuild>675</WorkToBuild>
+			<MaxHitPoints>300</MaxHitPoints>
+		</statBases>
+		<costStuffCount>10</costStuffCount>
+		<costList>
+			<ReinforcedGlass>10</ReinforcedGlass>
+		</costList>
+		<researchPrerequisites>
+			<li>AdvancedGlassworks</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<ThingDef ParentName="WindowBase">
+		<defName>LargeReinforcedOpenWindow</defName>
+		<label>large reinforced window</label>
+		<description>A big reinforced window that lets a large amount of light, air and the landscape in.</description>
+		<graphicData>
+			<texPath>Things/Building/LargeReinforcedWindow</texPath>
+			<drawSize>(4,1)</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Building/LargeReinforcedWindow_north</uiIconPath>
+		<uiIconScale>1.33</uiIconScale>
+		<statBases>
+			<WorkToBuild>2025</WorkToBuild>
+			<MaxHitPoints>500</MaxHitPoints>
+		</statBases>
+		<size>(3,1)</size>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<ReinforcedGlass>30</ReinforcedGlass>
+		</costList>
+		<researchPrerequisites>
+			<li>AdvancedGlassworks</li>
+		</researchPrerequisites>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <!--ui-->
+  <ClosedWindow>Closed</ClosedWindow>
+  <!--New--><EmergencyClosed>Closed by emergency</EmergencyClosed>
+  <butVenting>, but venting.</butVenting>
+  <notVenting>Sealed</notVenting>
+  <Facing>Facing {0}.</Facing>
+  <LandscapeToThe>Landscape to the {0}</LandscapeToThe>
+  <cantDetermineSides>Cannot determine which side is exterior.</cantDetermineSides>
+  <!--New--><ManualCommandNote>A colonist will come to perform the task.</ManualCommandNote>
+  <CommandDesignateOpenCloseWindowLabel>Designate Open/Close</CommandDesignateOpenCloseWindowLabel>
+  <!--Changed--><CommandDesignateOpenCloseWindowDesc>Designate this window to be open or closed.</CommandDesignateOpenCloseWindowDesc>
+  <CommandOpenCloseWindowLightLabel>Allow Light</CommandOpenCloseWindowLightLabel>
+  <!--Changed--><CommandOpenCloseWindowLightDesc>Allow or block light to pass through the window.</CommandOpenCloseWindowLightDesc>
+  <CommandOpenCloseWindowVentLabel>Allow Air</CommandOpenCloseWindowVentLabel>
+  <!--Changed--><CommandOpenCloseWindowVentDesc>Allow or block air to pass through the window.</CommandOpenCloseWindowVentDesc>
+  <!--New--><CommandAutoVentilation>Automatic ventilation</CommandAutoVentilation>
+  <!--New--><CommandAutoVentilationDesc>Mark the window for opening or closing when room temperature becomes uncomfortable.</CommandAutoVentilationDesc>
+  <!--New--><DisabledForAutoVentilation>Following automatic ventilation parameters.</DisabledForAutoVentilation>
+  <!--New--><TrackingTemperature>Tracking temperature.</TrackingTemperature>
+  <!--New--><WaitingTemperatureNormalization>Waiting for temperature to equalize.</WaitingTemperatureNormalization>
+  <!--New--><CantTrackTemperature>Adjacent room is unroofed, can't track temperature.</CantTrackTemperature>
+  <!--New--><CommandCloseOnEmergency>Close on emergency</CommandCloseOnEmergency>
+  <!--New--><CommandCloseOnEmergencyDesc>Mark the window for closing when the emergency alarm is activated.</CommandCloseOnEmergencyDesc>
+  <!--New--><DisabledByEmergency>Normal operation disabled during emergency.</DisabledByEmergency>
+  <NaturalLightMap>Show natural light.</NaturalLightMap>
+  
+  <!--settings-->
+  <OpenTheWindows>Open The Windows!</OpenTheWindows>
+  <IndoorsNoNaturalLightPenalty>Outdoors need acceleration</IndoorsNoNaturalLightPenalty>
+  <IndoorsNoNaturalLightPenaltyDesc>Multiplies the outdoors level degradation when the pawn is indoors but not under a window.</IndoorsNoNaturalLightPenaltyDesc>
+  <LightTransmission>Light transmission through windows</LightTransmission>
+  <LightTransmissionIncludesRoofs>including devices on the ceiling</LightTransmissionIncludesRoofs>
+  <LightTransmissionDesc>Amount of exterior light that manages to cross glass and framings. Real world values are around 90%.</LightTransmissionDesc>
+  <!--New--><ComfortableTemperature>Comfortable temperature range (°C)</ComfortableTemperature>
+  <!--New--><ComfortableTemperatureDesc>The desired temperature range for the auto-ventilation function. The default is what the game considers the human comfort zone.</ComfortableTemperatureDesc>
+  <BeautySensitivityReduction>Beauty sensitivity reduction</BeautySensitivityReduction>
+  <BeautySensitivityReductionDesc>Numbs the pawns' sensitivity to beauty to compensate for the amount added by "Nature is Beautiful" and captured by the windows.</BeautySensitivityReductionDesc>
+  <!--New--><BeautyFromBuildings>Add beauty from buildings when calculating a window's view.</BeautyFromBuildings>
+  <!--New--><BeautyFromBuildingsDesc>If checked, beauty from buildings in view (including sculptures) will also be added to the window beauty stat, alongside plants and other items.</BeautyFromBuildingsDesc>
+  <LinkOptionsLabel>Tweak the walls graphics</LinkOptionsLabel>
+  <RequiresRestart>requires a restart</RequiresRestart>
+  <LinkWindowsAndWalls>Link with the windows</LinkWindowsAndWalls>
+  <LinkVentsAndWalls>Link with vents &amp; coolers</LinkVentsAndWalls>
+  <LinkFridgesAndWalls>Link with vents, coolers &amp; refrigerators</LinkFridgesAndWalls>
+  <!--New--><AlarmOptionsLabel>&lt;i&gt;Better Pawn Control&lt;/i&gt; integration</AlarmOptionsLabel>
+  <!--New--><AlarmReactDefault>Windows close on emergency by default</AlarmReactDefault>
+  
+</LanguageData>

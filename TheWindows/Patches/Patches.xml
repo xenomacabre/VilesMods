@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!--to Stats_Basics_General-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Nature is Beautiful [1.3+]</li>
+			<li>Beautiful Outdoors</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/StatDef[defName = "Beauty"]/parts</xpath>
+					<value>
+						<li Class="OpenTheWindows.StatPart_Landscape"/>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
