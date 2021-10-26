@@ -36,7 +36,7 @@
 			<statFactors>
 				<MaxHitPoints>0.58</MaxHitPoints>
 				<Flammability>1</Flammability>
-				<Beauty>-1</Beauty>
+				<Beauty>-2</Beauty>
 				<WorkToMake>0.6</WorkToMake>
 				<WorkToBuild>0.6</WorkToBuild>
 				<MeleeWeapon_CooldownMultiplier>1.05</MeleeWeapon_CooldownMultiplier>

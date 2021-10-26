@@ -575,7 +575,7 @@
 				<researchPrerequisites><li>Wooden_floor_A2</li></researchPrerequisites>
 			</value>
 	</Operation>-->
-	<Operation Class="PatchOperationReplace">
+	<!--<Operation Class="PatchOperationReplace">
 		<xpath>Defs/TerrainDef[defName = "TikiFloorDark"]</xpath>
 		<value>
 			<TerrainDef ParentName="WoodSK_FloorBase">
@@ -597,7 +597,7 @@
 				<researchPrerequisites><li>Wooden_floor_A1</li></researchPrerequisites>
 			</TerrainDef>
 		</value>
-	</Operation>	
+	</Operation>	-->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/TerrainDef[defName = "WeaveFloor"]</xpath>
 		<value>

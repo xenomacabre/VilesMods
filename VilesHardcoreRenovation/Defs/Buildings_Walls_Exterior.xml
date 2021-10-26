@@ -85,6 +85,7 @@
 			<MaxHitPoints>400</MaxHitPoints> <!-- vanilla is 380 -->
 			<WorkToBuild>270</WorkToBuild> <!-- vanilla is 270 -->
 			<Flammability>1.0</Flammability>
+			<Beauty>-1</Beauty>
 		</statBases>
 		<stuffCategories>
 			<li>WoodLogs</li>

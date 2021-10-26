@@ -550,7 +550,7 @@
 			<Mass>2.6</Mass>
 		</statBases>
 		<stuffProps>
-			<categories>
+			<categories Inherit="False">
 				<li>Ultrahardwoods</li>
    			</categories>
 			<stuffAdjective>dragonwood log</stuffAdjective>
@@ -571,6 +571,9 @@
 				<Mass>0.83</Mass>
 			</statFactors>
 		</stuffProps>
+		<thingCategories Inherit="False">
+			<li>Ultrahardwoods</li>
+		</thingCategories>
 	</ThingDef>	
 	
 	<ThingDef Name="MangroveLog" ParentName="HardwoodLogBase">
@@ -592,7 +595,7 @@
 			<Mass>2.8</Mass>
 		</statBases>
 		<stuffProps>
-			<categories>
+			<categories Inherit="False">
 				<li>Ultrahardwoods</li>
    			</categories>
 			<stuffAdjective>mangrove log</stuffAdjective>
@@ -613,9 +616,11 @@
 				<Mass>0.91</Mass>
 			</statFactors>
 		</stuffProps>
+		<thingCategories Inherit="False">
+			<li>Ultrahardwoods</li>
+		</thingCategories>
 	</ThingDef>	
-	
-	
+
 	<!--
 	<ThingDef Name="RedwoodLog" ParentName="SK_ResourceBase">
 		<defName>RedwoodLog</defName>

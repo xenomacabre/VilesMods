@@ -765,4 +765,54 @@
 		</products>
 	</RecipeDef>
 	
+	<RecipeDef ParentName="LumberRecipeBase_Hand">
+		<defName>SawPlanks_Chipboard</defName>
+		<label>make chipboard planks</label>
+		<description>Cut scrap wood into flakes and compress with an adhesive to make useable lumber.</description>
+		<workAmount>1100</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Kindling</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Kindling</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ChipBoard>15</ChipBoard> <!-- ==== -->
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="LumberRecipeBase_Electric">
+		<defName>MillPlanks_Chipboard</defName>
+		<label>make chipboard planks</label>
+		<description>Cut scrap wood into flakes and compress with an adhesive to make useable lumber.</description>
+		<workAmount>1100</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Kindling</li>
+					</thingDefs>
+				</filter>
+				<count>80</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Kindling</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ChipBoard>30</ChipBoard> <!-- ==== -->
+		</products>
+	</RecipeDef>
+	
+	
 </Defs>

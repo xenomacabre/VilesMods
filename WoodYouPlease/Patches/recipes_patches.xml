@@ -4,7 +4,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="MakeKindling_Hand"]/label</xpath>
 		<value>
-			<label>chop kindling (x20)</label>
+			<label>chop kindling (x50)</label>
 		</value>
     </Operation>
 	<Operation Class="PatchOperationReplace">
@@ -18,13 +18,82 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="MakeKindling_Electric"]/label</xpath>
 		<value>
-			<label>chop kindling</label>
+			<label>make kindling (x100)</label>
 		</value>
     </Operation>
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="MakeKindling_Electric"]/description</xpath>
 		<value>
 			<description>Split firewood into kindling to be used to fuel torches and other fueled buildings. Over the course of a season, it may last longer than firewood, but it's time-consuming to make and it requires refueling buildings more frequently.</description>
+		</value>
+    </Operation>
+	
+		<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeKindling_Hand"]/ingredients</xpath>
+		<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>WoodLog</li>
+						</thingDefs>
+					</filter>
+					<count>25</count>
+				</li>
+			</ingredients>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeKindling_Hand"]/products</xpath>
+		<value>
+			<products>
+				<Kindling>50</Kindling>
+			</products>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeKindling_Hand"]/fixedIngredientFilter</xpath>
+		<value>
+			<fixedIngredientFilter>
+				<thingDefs>
+					<li>WoodLog</li>
+				</thingDefs>
+			</fixedIngredientFilter>
+		</value>
+    </Operation>
+	
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeKindling_Electric"]/ingredients</xpath>
+		<value>
+			<ingredients>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>WoodLog</li>
+						</thingDefs>
+					</filter>
+					<count>50</count>
+				</li>
+			</ingredients>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeKindling_Electric"]/products</xpath>
+				<value>
+			<products>
+				<Kindling>100</Kindling>
+			</products>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeKindling_Electric"]/fixedIngredientFilter</xpath>
+		<value>
+			<fixedIngredientFilter>
+				<thingDefs>
+					<li>WoodLog</li>
+				</thingDefs>
+			</fixedIngredientFilter>
 		</value>
     </Operation>
 	<!--
@@ -66,8 +135,10 @@
 				<li>MakeFirewoodFromUltrahardwood_Hand</li>
 				<li>MakeKindling_Hand</li>
 				<li>MakeWoodPlanks_Hand</li>
+				<li>SawPlanks_Plywood_Planks</li>
+				<li>SawPlanks_Chipboard</li>
 				
-				
+		
 				<li>SawPlanks_Cecropia</li>
 				<li>SawPlanks_Pine</li>
 				<li>SawPlanks_Willow</li>
@@ -81,6 +152,7 @@
 				<li>MakeBambooPlanks_Hand</li>
 				<li>SawPlanks_Drago</li>
 				<li>SawPlanks_Mangrove</li>
+				
 
 			</recipes>
 		</value>
@@ -97,6 +169,8 @@
 				<li>MakeFirewoodFromUltrahardwood_Electric</li>
 				<li>MakeKindling_Electric</li>
 				<li>MakeWoodPlanks_Electric</li>
+				<li>MillPlanks_Plywood_Planks</li>
+				<li>MillPlanks_Chipboard</li>
 				
 				<li>MillPlanks_Cecropia</li>
 				<li>MillPlanks_Pine</li>

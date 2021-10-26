@@ -35,6 +35,13 @@
 					</prerequisites>
 				</value>
 			</li>
+			
+			<li Class="PatchOperationReplace">	
+				<xpath>Defs/ResearchProjectDef[defName="Construction_B3"]/researchViewX</xpath>
+				<value>
+						<researchViewX>6.00</researchViewX>
+				</value>
+			</li>
 	
 			<li Class="PatchOperationReplace">	
 				<xpath>Defs/ResearchProjectDef[defName="Wooden_floor_A1"]/label</xpath>

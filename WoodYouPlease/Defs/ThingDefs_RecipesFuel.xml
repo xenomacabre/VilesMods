@@ -7,7 +7,7 @@
 		<label>split ultra-hard logs into firewood (x20)</label>
 		<description>Split ultra-hard wood logs into firewood. Very slow, but it burns slow too, so it can be cut into even smaller pieces.</description>
 		<jobString>Splitting logs into firewood.</jobString>
-		<workAmount>600</workAmount>
+		<workAmount>500</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>MakeWoodPlanks_Hand</effectWorking>
 		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
@@ -37,7 +37,7 @@
 		<label>split hardwood logs into firewood (x15)</label>
 		<description>Split wood logs into firewood. Quite slow.</description>
 		<jobString>Splitting logs into firewood.</jobString>
-		<workAmount>400</workAmount>
+		<workAmount>300</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>MakeWoodPlanks_Hand</effectWorking>
 		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
@@ -68,7 +68,7 @@
 		<label>split softwood logs into firewood (x10)</label>
 		<description>Chop wood logs or bamboo logs into firewood. Faster than cutting hard woods, but must be cut into larger pieces in order to burn as long.</description>
 		<jobString>Splitting logs into firewood.</jobString>
-		<workAmount>200</workAmount>
+		<workAmount>180</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>MakeWoodPlanks_Hand</effectWorking>
 		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
