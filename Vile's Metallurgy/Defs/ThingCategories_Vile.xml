@@ -23,8 +23,8 @@
 
 
 	<ThingCategoryDef>
-		<defName>MetallurgicalCoal</defName>
-		<label>Metallurgical Coal</label>
+		<defName>Metallurgical</defName>
+		<label>Metallurgical</label>
 		<iconPath>UI/Icons/Coal</iconPath>
 		<parent>Manufactured</parent>
 	</ThingCategoryDef>

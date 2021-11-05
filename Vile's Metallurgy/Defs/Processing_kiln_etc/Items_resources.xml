@@ -59,7 +59,7 @@
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<thingCategories>
-			<li>MetallurgicalCoal</li>
+			<li>Metallurgical</li>
 		</thingCategories>
 		<stackLimit>600</stackLimit>
 		<deepCommonality>2.0</deepCommonality>

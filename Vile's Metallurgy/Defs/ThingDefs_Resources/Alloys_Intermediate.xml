@@ -20,9 +20,9 @@
 			<Mass>2</Mass>
 			<Bulk>1</Bulk>
 		</statBases>
-		<!--<thingCategories>
-			<li>RARBar</li>
-		</thingCategories>-->
+		<thingCategories>
+			<li>Metallurgical</li>
+		</thingCategories>
 	</ThingDef>
 	
 	<ThingDef ParentName="SK_ResourceBase">
@@ -45,9 +45,9 @@
 			<Mass>1</Mass>
 			<Bulk>0.5</Bulk>
 		</statBases>
-		<!--<thingCategories>
-			<li>RARBar</li>
-		</thingCategories>-->
+		<thingCategories>
+			<li>Metallurgical</li>
+		</thingCategories>
 	</ThingDef>
 	
 	<ThingDef ParentName="SK_ResourceBase">
@@ -70,9 +70,9 @@
 			<Mass>0.35</Mass>
 			<Bulk>0.35</Bulk>
 		</statBases>
-		<!--<thingCategories>
-			<li>RARBar</li>
-		</thingCategories>-->
+		<thingCategories>
+			<li>Metallurgical</li>
+		</thingCategories>
 	</ThingDef>
 
 	
