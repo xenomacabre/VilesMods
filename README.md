@@ -1,11 +1,9 @@
 # Vile's Mods
- A repository for all of Vile's Rimworld mods and patches.
+A repository for all of Vile's Rimworld mods and patches.
  
- I've started a Patreon! Check it out, and support me if you wish! http://patreon.com/vileheathen. 
- 
- The above link also functions as a blog where I will post updates and progress of current and upcoming mods, as well as guides, data, flowcharts and fun stuff like that.
+I've started a Patreon, which I also use as a sorta blog! Check it out, and support me if you wish! http://patreon.com/vileheathen. 
 
-Thank you for all the great support and feedback, and to all the talented modders in the HSK team and beyond. This wouldn't be possible without all of you!
+Thank you for all the great support and feedback, and to all the talented modders of the HSK team and beyond. This wouldn't be possible without all of you!
 
 INSTALLATION:
 Simply place these in the /mods/ folder with the rest of the HSK mods. When activating after you load the game, put them in the order listed below, somewhere near the bottom of the list.
@@ -20,6 +18,8 @@ A quick rundown of what we got so far, and recommended mod-order:
 - ***Vile's Metallurgy*** - Overhauls production of pre-industrial matierals - mainly steel, increasing complexity and realism. Adds new alloys, production buildings, weapons, tools, and more.
 
 - ***Hardcore Renovation*** - This is formerly "Vile's Wall sand Floors HD". Adds tons of and retextures walls, floors, fences, and doors. Utilizes the new wood system.
+
+- ***Biomes: From The Ground Up*** - Overhauls biomes, retextures every tree and most plants, and adds some new ones, both decorative and harvestable. Overhauls soils to be more biome-specific, and of course new textures. Besides beautification, the main purpose of this mod is to make biomes more distinct from each other.
 
 - ***Amuse Bouche*** - A meals overhaul. No more generalized "fine meals" etc. Adds tons of recipes with origins from around the world and streamlines the food hediff system.
 
