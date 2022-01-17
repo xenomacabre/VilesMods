@@ -8,7 +8,7 @@
 		<recipeUsers>
 			<li>Foundry</li>
 		</recipeUsers>
-		<researchPrerequisites><li>Metallurgy_B4</li></researchPrerequisites>
+		<researchPrerequisites Inherit = "false"><li>Metallurgy_B4</li></researchPrerequisites>
 	</RecipeDef>
 
 <!-- ==== EXPOLSIVE SHELL CAST == -->

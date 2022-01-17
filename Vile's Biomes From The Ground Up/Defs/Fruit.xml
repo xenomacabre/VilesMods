@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="SK_PlantFoodRawBase">
+		<defName>RawCattail</defName>
+		<label>cattail shoots</label>
+		<description>The inside of the cattail shoot is edible and nutritious.</description>
+		<soundInteract>Grain_Drop</soundInteract>
+		<soundDrop>Grain_Drop</soundDrop>
+		<graphicData>
+			<texPath>Things/Veg/CattailShoots</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>2.1</MarketValue>
+			<Nutrition>0.04</Nutrition>
+		</statBases>
+		<tickerType>Rare</tickerType>   
+		<thingCategories>
+			<li>BasicPlantFoodRaw</li>
+		</thingCategories>
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>60</daysToRotStart>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SmallFruitFoodRawBase">
+		<defName>RawCranberries</defName>
+		<label>Cranberries</label>
+		<description>Cranberries grow on a bush only found in acidic bogs.</description>
+		<graphicData>
+			<texPath>Things/Veg/Cranberries</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>8</MarketValue>
+			<Nutrition>0.15</Nutrition>
+		</statBases>
+		<tickerType>Rare</tickerType>   
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+			<joy>0.001</joy>
+		</ingestible>
+		<thingCategories>
+			<li>FruitFoodRaw</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>12</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SmallFruitFoodRawBase">
+		<defName>RawPricklyPear</defName>
+		<label>Prickly Pear</label>
+		<description>Prickly Pears come from a cactus that grows in arid soils.</description>
+		<graphicData>
+			<texPath>Things/Veg/PricklyPear</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>16</MarketValue>
+			<Nutrition>0.25</Nutrition>
+		</statBases>
+		<tickerType>Rare</tickerType>   
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+			<joy>0.004</joy>
+		</ingestible>
+		<thingCategories>
+			<li>FruitFoodRaw</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>12</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+		<ThingDef ParentName="SmallFruitFoodRawBase">
+		<defName>Rawblueberry</defName>
+		<label>Blueberry</label>
+		<description>Blueberries are blue, tiny, round, berry fruits that grow on Blueberry Bushes. Often used in desserts, like Blueberry Pie. Lovely to eat when raw.</description>
+		<graphicData>
+			<texPath>Things/Veg/Blueberry</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.4</MarketValue>
+			<Nutrition>0.05</Nutrition>
+		</statBases>
+		<tickerType>Rare</tickerType>   
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+			<joy>0.004</joy>
+		</ingestible>
+		<thingCategories>
+			<li>FruitFoodRaw</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>6</daysToRotStart>
+			</li>
+		</comps>    
+	</ThingDef>
+
+	
+</Defs>

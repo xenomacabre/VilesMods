@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+<!-- CULTIVATE-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_RockDirt"]/label</xpath>
+		<value>
+			<label>Cultivate</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_RockDirt"]/defNames</xpath>
+		<value>
+			<defNames>
+				<li>Terraform_EnrichSoil</li>
+				<li>Terraform_EnrichWithAsh</li>
+				<li>Topsoil-DirtFert</li>
+				<li>SoilRich-SoilTilled</li>
+				<li>Stone-Topsoil</li>
+			</defNames>
+		</value>
+	</Operation>
+	
+<!-- IMPROVE SOIL -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Sand"]/label</xpath>
+		<value>
+			<label>Improve Soil From...</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Sand"]/defNames</xpath>
+		<value>
+			<defNames>
+				<li>Terraform_FertileFromClay</li>
+				<li>Terraform_FertileFromSilty</li>
+				<li>Terraform_FertileFromSandy</li>
+				<li>Terraform_FertileFromRocky</li>
+				<li>Terraform_FertileFromHydric</li>
+				<li>Terraform_FertileFromPacked</li>
+			</defNames>
+		</value>
+	</Operation>
+<!-- DEVELOP SOIL -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Gravel"]/label</xpath>
+		<value>
+			<label>Develop Soil From...</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Gravel"]/defNames</xpath>
+		<value>
+			<defNames>
+				<li>Terraform_DevelopToWeak</li>
+				<li>Terraform_DevelopToRedClay</li>
+				<li>Terraform_DevelopToMarshy</li>
+				<li>Terraform_DevelopToSand</li>
+				<li>Terraform_DevelopToGravel</li>
+			</defNames>
+		</value>
+	</Operation>
+<!-- EXTRACT -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Soil"]/label</xpath>
+		<value>
+			<label>Extract...</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Soil"]/defNames</xpath>
+		<value>
+			<defNames>
+				<li>Terraform_GatherNutrientsFromRichSoil</li>
+				<li>Terraform_GatherClay</li>
+				<li>Terraform_GatherSilt</li>
+				<li>Terraform_GatherSand</li>
+				<li>Terraform_GatherSandFromSandySoil</li>
+				<li>Terraform_GatherGravel</li>
+			</defNames>
+		</value>
+	</Operation>		
+<!-- HARVEST PEAT -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_SoilMarshy"]/label</xpath>
+		<value>
+			<label>Harvest Peat from...</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_SoilMarshy"]/defNames</xpath>
+		<value>
+			<defNames>
+				<li>Terraform_GatherPeatFromPeatSoil</li>
+				<li>Terraform_GatherPeatFromMuckyPeat</li>
+				<li>Terraform_GatherPeatFromMuck</li>
+			</defNames>
+		</value>
+	</Operation>	
+<!-- Fill Wetland to -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Marsh"]/label</xpath>
+		<value>
+			<label>Wetlands</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Marsh"]/defNames</xpath>
+		<value>
+			<defNames>
+				<li>Terraform_FillWetlandToMarshySoil</li>
+				<li>Terraform_FillWetlandToUndevelopedSoil</li>
+				<li>Terraform_WaterToBlackWater</li>
+				<li>Terraform_WaterToSwamp</li>
+				<li>Terraform_WaterToBog</li>
+			</defNames>
+		</value>
+	</Operation>	
+<!-- Shallow Water To-->	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_WaterShallow"]/label</xpath>
+		<value>
+			<label>Shallow Water to...</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_WaterShallow"]/defNames</xpath>
+		<value>
+			<defNames>
+				<li>WaterShallow-Sand</li>
+				<li>WaterShallow-Marsh</li>
+				<li>WaterShallow-WaterDeep</li>
+			</defNames>
+		</value>
+	</Operation>
+<!-- Architectural -->	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Cultivate"]/label</xpath>
+		<value>
+			<label>Architectural</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Cultivate"]/defNames</xpath>
+		<value>
+			<defNames>
+				<li>Terraform_ToPackedDirt</li>
+				<li>Terraform_SodLawn</li>
+				<li>Terraform_SodPattern</li>
+				<li>Terraform_SodClover</li>
+				<li>Terraform_RemoveSod</li>
+			</defNames>
+		</value>
+	</Operation>
+<!-- MISC -->	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Misc"]/defNames</xpath>
+		<value>
+			<defNames>
+				<li>Terraform_SandToDesertSand</li>
+				<li>Terraform_IceToFrozenSnow</li>
+				<li>Terraform_ResurfaceIce</li>
+				<li>RockyDirt-Stone</li>
+				<li>Terraform_MakeDesertPavement</li>
+			</defNames>
+		</value>
+	</Operation>
+	
+<!-- Desert / Wasteland -->
+<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Gather"]/label</xpath>
+		<value>
+			<label>Wasteland</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Gather"]/defNames</xpath>
+		<value>
+			<defNames>
+				<!-- For Future Use -->
+			</defNames>
+		</value>
+	</Operation>
+
+
+
+
+</Patch>

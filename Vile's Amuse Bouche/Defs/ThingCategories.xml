@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>MeatSubRaw</defName>
+		<label>MeatSubstitute</label>
+		<parent>FoodRaw</parent>
+		<iconPath>Things/Item/Meal_Tofu</iconPath>
+	</ThingCategoryDef>
+
+</Defs>

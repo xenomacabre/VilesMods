@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+<!-- Wetland -->
+
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_FillWetlandToMarshySoil</defName>
+	<label>Fill Wetland to Marshy Soil</label>
+	<description>From Bog/Swamp/Black Water to farmable terrain.\n +4 Peat</description>
+	<uiIconPath>UI/Icons/Terraforming/MarshySoil</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>Marsh</li>
+				<li>SwampWater</li>
+				<li>BogWater</li>
+			</above> 
+			<result>MarshyTerrain</result>
+			<products>
+				<Peat>4</Peat>
+			</products>
+		</li>
+	</modExtensions>
+	<costList>		
+		<SandResource>10</SandResource>
+		<CrushedStone>6</CrushedStone>
+		<SoftClay>4</SoftClay>
+		<Dirt>6</Dirt>
+		<Compost>6</Compost>
+	</costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>
+
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_FillWetlandToUndevelopedSoil</defName>
+	<label>Fill Wetland to Undeveloped Soil</label>
+	<description>From Bog/Swamp/Black Water to heavy affordance terrain.\n +4 Peat</description>
+	<uiIconPath>UI/Icons/Terraforming/UndevelopedSoil</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>Marsh</li>
+				<li>SwampWater</li>
+				<li>BogWater</li>
+			</above>
+			<result>RockySoil</result>
+			<products>
+				<Peat>4</Peat>
+			</products>
+		</li>
+	</modExtensions>
+	<costList>	
+		<SandResource>14</SandResource>
+		<CrushedStone>8</CrushedStone>
+		<SoftClay>2</SoftClay>
+		<Dirt>2</Dirt>
+	</costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>
+<!-- Shallow Water To...-->
+	
+<ThingDef ParentName="RFF_TerraformAdvancedBase">
+		<defName>Terraform_WaterToBlackWater</defName>
+		<label>Water to Black Swamp</label>
+		<description>Has good defensive qualities.</description>
+		<uiIconPath>UI/Icons/Terraforming/BlackWater</uiIconPath>
+		<modExtensions>
+			<li Class="FertileFields.Terrain">
+				<above>
+					<li>WaterShallow</li>
+					<li>WaterMovingShallow</li>
+					<li>WaterOceanShallow</li>
+					<li>FishingPierFloorShallowWater</li>
+				</above>
+				<result>Marsh</result>
+			</li>
+		</modExtensions>
+		<statBases>
+			<WorkToBuild>4380</WorkToBuild>
+		</statBases>
+		<costList>
+			<Dirt>2</Dirt>
+			<SoftClay>10</SoftClay>
+			<Peat>5</Peat>
+			<SandResource>10</SandResource>
+			<Compost>10</Compost>
+		</costList>
+		<terrainAffordanceNeeded>ShallowWater</terrainAffordanceNeeded>
+</ThingDef>
+	
+	<ThingDef ParentName="RFF_TerraformAdvancedBase">
+		<defName>Terraform_WaterToSwamp</defName>
+		<label>Water to Swamp Water</label>
+		<description>Has good defensive qualities.</description>
+		<uiIconPath>UI/Icons/Terraforming/SwampWater</uiIconPath>
+		<modExtensions>
+			<li Class="FertileFields.Terrain">
+				<above>
+					<li>WaterShallow</li>
+					<li>WaterMovingShallow</li>
+					<li>WaterOceanShallow</li>
+					<li>FishingPierFloorShallowWater</li>
+				</above>
+				<result>SwampWater</result>
+			</li>
+		</modExtensions>
+		<statBases>
+			<WorkToBuild>4380</WorkToBuild>
+		</statBases>
+		<costList>
+			<Dirt>2</Dirt>
+			<SoftClay>10</SoftClay>
+			<Peat>10</Peat>
+			<SandResource>10</SandResource>
+			<Compost>5</Compost>
+		</costList>
+		<terrainAffordanceNeeded>ShallowWater</terrainAffordanceNeeded>
+</ThingDef>
+<ThingDef ParentName="RFF_TerraformAdvancedBase">
+		<defName>Terraform_WaterToBog</defName>
+		<label>Water to Bog Water</label>
+		<description>Has good defensive qualities.</description>
+		<uiIconPath>UI/Icons/Terraforming/BogWater</uiIconPath>
+		<modExtensions>
+			<li Class="FertileFields.Terrain">
+				<above>
+					<li>WaterShallow</li>
+					<li>WaterMovingShallow</li>
+					<li>WaterOceanShallow</li>
+					<li>FishingPierFloorShallowWater</li>
+				</above>
+				<result>BogWater</result>
+			</li>
+		</modExtensions>
+		<statBases>
+			<WorkToBuild>4380</WorkToBuild>
+		</statBases>
+		<costList>
+			<Dirt>2</Dirt>
+			<SoftClay>10</SoftClay>
+			<Peat>15</Peat>
+			<SandResource>10</SandResource>
+		</costList>
+		<terrainAffordanceNeeded>ShallowWater</terrainAffordanceNeeded>
+</ThingDef>	
+	
+</Defs>

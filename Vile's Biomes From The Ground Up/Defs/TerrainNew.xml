@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TerrainDef ParentName="NaturalTerrainBase">
+		<defName>RedClaySoil</defName>
+		<label>red clay soil</label>
+		<texturePath>Terrain/Surfaces/RedClaySoil</texturePath>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>340</renderPrecedence>
+		<pathCost>8</pathCost>
+		<statBases>
+			<Beauty>-1</Beauty>
+			<Cleanliness>-1</Cleanliness>
+		</statBases>
+		<scatterType>Rocky</scatterType>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<li>GrowSoil</li>
+			<li>Diggable</li>
+		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
+		<fertility>0.85</fertility>
+		<takeFootprints>True</takeFootprints>
+		<tools>
+			<li>
+				<label>dirt</label>
+				<capacities>
+					<li>KickMaterialInEyes</li>
+				</capacities>
+				<hediff>DirtInEyes</hediff>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
+	</TerrainDef>
+
+	<TerrainDef ParentName="NaturalTerrainBase">
+		<defName>WeakSoil</defName>
+		<label>weak soil</label>
+		<texturePath>Terrain/Surfaces/WeakSoil</texturePath>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>339</renderPrecedence>
+		<pathCost>8</pathCost>
+		<statBases>
+			<Beauty>-1</Beauty>
+			<Cleanliness>-1</Cleanliness>
+		</statBases>
+		<scatterType>Rocky</scatterType>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<li>GrowSoil</li>
+			<li>Diggable</li>
+		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
+		<fertility>0.4</fertility>
+		<takeFootprints>True</takeFootprints>
+		<tools>
+			<li>
+				<label>dirt</label>
+				<capacities>
+					<li>KickMaterialInEyes</li>
+				</capacities>
+				<hediff>DirtInEyes</hediff>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
+	</TerrainDef>
+	<TerrainDef ParentName="NaturalTerrainBase">
+		<defName>VolcanicSoil</defName>
+		<label>volcanic soil</label>
+		<texturePath>Terrain/Surfaces/VolcanicSoil</texturePath>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>341</renderPrecedence>
+		<pathCost>10</pathCost>
+		<statBases>
+			<Beauty>-1</Beauty>
+			<Cleanliness>-1</Cleanliness>
+		</statBases>
+		<scatterType>Rocky</scatterType>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<li>GrowSoil</li>
+			<li>Diggable</li>
+		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
+		<fertility>1.0</fertility>
+		<takeFootprints>True</takeFootprints>
+		<tools>
+			<li>
+				<label>dirt</label>
+				<capacities>
+					<li>KickMaterialInEyes</li>
+				</capacities>
+				<hediff>DirtInEyes</hediff>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="NaturalTerrainBase">
+		<defName>LeachedSoil</defName>
+		<label>leached soil</label>
+		<texturePath>Terrain/Surfaces/LeachedSoil</texturePath>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>341</renderPrecedence>
+		<pathCost>6</pathCost>
+		<statBases>
+			<Beauty>-1</Beauty>
+			<Cleanliness>-1</Cleanliness>
+		</statBases>
+		<scatterType>Rocky</scatterType>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<li>GrowSoil</li>
+			<li>Diggable</li>
+		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
+		<fertility>0.75</fertility>
+		<takeFootprints>True</takeFootprints>
+		<tools>
+			<li>
+				<label>dirt</label>
+				<capacities>
+					<li>KickMaterialInEyes</li>
+				</capacities>
+				<hediff>DirtInEyes</hediff>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="NaturalTerrainBase">
+		<defName>DesertPavement</defName>
+		<label>desert pavement</label>
+		<texturePath>Terrain/Surfaces/DesertPavement</texturePath>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>342</renderPrecedence>
+		<pathCost>0</pathCost>
+		<statBases>
+			<Beauty>-1</Beauty>
+			<Cleanliness>-1</Cleanliness>
+		</statBases>
+		<scatterType>Rocky</scatterType>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<li>Diggable</li>
+		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
+		<fertility>0</fertility>
+		<takeFootprints>False</takeFootprints>
+	</TerrainDef>
+	
+	<TerrainDef Abstract="True" Name="BogWaterBase" ParentName="WaterBase">
+    <affordances>
+      <li>ShallowWater</li>
+      <li>Bridgeable</li>
+    </affordances>
+  </TerrainDef>
+
+  <TerrainDef ParentName="BogWaterBase">
+    <defName>BogWater</defName>
+    <label>bog water</label>
+    <texturePath>Terrain/Surfaces/BogWaterRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <renderPrecedence>395</renderPrecedence>
+	  <pathCost>45</pathCost>
+    <driesTo>Mud</driesTo>
+	   <fertility>0.1</fertility>
+  </TerrainDef>
+	
+ <TerrainDef ParentName="BogWaterBase">
+    <defName>SwampWater</defName>
+    <label>swamp water</label>
+    <texturePath>Terrain/Surfaces/SwampWaterRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <renderPrecedence>396</renderPrecedence>
+	 <pathCost>50</pathCost>
+    <driesTo>MarshyTerrain</driesTo>
+	 <fertility>0.1</fertility>
+  </TerrainDef>
+	
+<TerrainDef ParentName="NaturalTerrainBase">
+		<defName>PeatSoil</defName>
+		<label>peat soil</label>
+		<texturePath>Terrain/Surfaces/PeatSoil</texturePath>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>331</renderPrecedence>
+		<pathCost>30</pathCost>
+		<statBases>
+			<Beauty>-2</Beauty>
+			<Cleanliness>-2</Cleanliness>
+		</statBases>
+		<affordances>
+			<li>Light</li>
+			<li>Diggable</li>
+		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
+		<fertility>0.1</fertility>
+		<takeFootprints>True</takeFootprints>
+		<avoidWander>true</avoidWander>
+		<driesTo>Soil</driesTo>
+		<tools>
+			<li>
+				<label>mud</label>
+				<capacities>
+					<li>KickMaterialInEyes</li>
+				</capacities>
+				<hediff>MudInEyes</hediff>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
+	</TerrainDef>	
+	
+	<TerrainDef ParentName="NaturalTerrainBase">
+		<defName>MuckyPeat</defName>
+		<label>mucky peat</label>
+		<texturePath>Terrain/Surfaces/MuckyPeat</texturePath>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>330</renderPrecedence>
+		<pathCost>25</pathCost>
+		<statBases>
+			<Beauty>-2</Beauty>
+			<Cleanliness>-2</Cleanliness>
+		</statBases>
+		<affordances>
+			<li>Light</li>
+			<li>Diggable</li>
+		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
+		<fertility>0.25</fertility>
+		<takeFootprints>True</takeFootprints>
+		<avoidWander>true</avoidWander>
+		<driesTo>Soil</driesTo>
+		<tools>
+			<li>
+				<label>mud</label>
+				<capacities>
+					<li>KickMaterialInEyes</li>
+				</capacities>
+				<hediff>MudInEyes</hediff>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
+	</TerrainDef>
+	
+	
+	<TerrainDef ParentName="NaturalTerrainBase">
+		<defName>IceClear</defName>
+		<label>Clear Ice</label>
+		<texturePath>Terrain/Surfaces/IceClear</texturePath>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>349</renderPrecedence>
+		<pathCost>40</pathCost>
+		<statBases>
+			<Beauty>1</Beauty>
+		</statBases>
+		<scatterType>None</scatterType>
+		<tags>
+			<li>Ice</li>
+		</tags>
+		<affordances>
+			<li>Light</li>
+			<li>Diggable</li>
+		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
+		<fertility>0.00</fertility>
+		<takeFootprints>False</takeFootprints>
+		<holdSnow>true</holdSnow>
+	</TerrainDef>
+	
+	<TerrainDef ParentName="NaturalTerrainBase">
+		<defName>FrozenSnow</defName>
+		<label>Frozen Snow</label>
+		<texturePath>Terrain/Surfaces/FrozenSnow</texturePath>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>348</renderPrecedence>
+		<pathCost>10</pathCost>
+		<statBases>
+			<Beauty>-1</Beauty>
+		</statBases>
+		<scatterType>None</scatterType>
+		<tags>
+			<li>Ice</li>
+		</tags>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<li>Diggable</li>
+		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
+		<fertility>0.00</fertility>
+		<takeFootprints>True</takeFootprints>
+		<holdSnow>true</holdSnow>
+	</TerrainDef>
+	
+	
+	
+	
+</Defs>

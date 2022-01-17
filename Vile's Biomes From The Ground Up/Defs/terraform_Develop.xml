@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ <Defs>
+<!-- CATEBORIES 
+  
+Cultivate
+	Enrich Soil
+Improve Soil
+ 	Firtile Soil from Clay Soil
+	Fertile Soil from Silty Soil
+	Fertile Soil from Sandy Soil
+	Fertile Soil from Rocky Soil
+	Fertile Soil from Hydric Soil
+Develop Soil
+	To Weak Soil
+	To Red Clay Soil
+	To Marshy Soil
+	To Sand
+	To Gravel
+Gather
+	All Nutrients from Rich Soil
+	Some Nutrients from Rich Soil
+	Clay
+	Clay from Sandy Soil
+	Silt
+	Sand from Sandy Soil
+	Sand
+	Gravel
+Harvest Peat From
+ 	Peaty Soil
+	Mucky Peat
+	Muck
+	Turbulent Soil
+Drain Wetland
+	to Undeveloped Soil
+	to Marshy Soil
+
+
+
+-->
+	 
+<!-- CULTIVATE-->
+	 <!-- Enrich Soil -->
+<ThingDef ParentName="RFF_TerraformBasicBase">
+		<defName>Terraform_EnrichSoil</defName>
+		<label>Enrich Soil</label>
+		<description>Grassland/Fertile/Volcanic Soil to Rich Soil.\n +2 Sand\n +4 Gravel</description>
+		<uiIconPath>UI/Icons/Terraforming/EnrichSoil</uiIconPath>
+		<modExtensions>
+			<li Class="FertileFields.Terrain">
+				<above>
+					<li>SavannaSoil</li>
+					<li>VolcanicSoil</li>
+					<li>Soil</li>
+				</above>
+				<result>SoilRich</result>
+				<products>
+					<SandResource>2</SandResource>
+					<CrushedStone>4</CrushedStone>
+				</products>
+			</li>
+		</modExtensions>
+		<costList>
+			<Dirt>4</Dirt>
+			<SoftClay>4</SoftClay>
+			<Fertilizer>4</Fertilizer>
+			<Peat>2</Peat>
+		</costList>
+		<statBases>
+			<WorkToBuild>960</WorkToBuild>
+		</statBases>
+		<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>
+
+<!-- IMPROVE SOIL -->
+<ThingDef ParentName="RFF_TerraformBasicBase">
+		<defName>Terraform_EnrichWithAsh</defName>
+		<label>Raise pH with Ash</label>
+		<description>Red Clay Soil/Mossy Soil to Volcanic Soil</description>
+		<uiIconPath>UI/Icons/Terraforming/VolcanicSoil</uiIconPath>
+		<modExtensions>
+			<li Class="FertileFields.Terrain">
+				<above>
+					<li>RedClaySoil</li>
+					<li>MossyTerrain</li>
+				</above>
+				<result>VolcanicSoil</result>
+			</li>
+		</modExtensions>
+		<costList>
+			<Compost>4</Compost>
+			<Ash>6</Ash>
+		</costList>
+		<statBases>
+			<WorkToBuild>960</WorkToBuild>
+		</statBases>
+		<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>
+	 
+<!-- From Packed Dirt-->
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	 <defName>Terraform_FertileFromPacked</defName>
+		<label>Packed Dirt</label>
+		<description>Packed Dirt/Earthen Floor</description>
+		<uiIconPath>UI/Icons/Terraforming/FertileSoil</uiIconPath>
+		<modExtensions>
+			<li Class="FertileFields.Terrain">
+				<above>
+					<li>PackedDirt</li>
+					<!--><li>EarthenFloor</li><-->
+				</above>
+				<result>Soil</result>
+			</li>
+		</modExtensions>
+		<costList>		
+			<Dirt>2</Dirt>
+			<Compost>4</Compost>
+			<SoftClay>4</SoftClay>
+		</costList>
+		<statBases>
+			<WorkToBuild>960</WorkToBuild>
+		</statBases>
+		<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+	</ThingDef>
+<!-- From Clay Soil-->
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	 <defName>Terraform_FertileFromClay</defName>
+		<label>Clay Soil</label>
+		<description>Red Clay/Cracked Clay Soil to Fertile Soil.\n +6 Clay</description>
+		<uiIconPath>UI/Icons/Terraforming/FertileSoil</uiIconPath>
+		<modExtensions>
+			<li Class="FertileFields.Terrain">
+				<above>
+					<li>RedClaySoil</li>
+					<li>DustySoil</li>
+				</above>
+				<result>Soil</result>
+				<products>
+					<SoftClay>6</SoftClay>
+				</products>
+			</li>
+		</modExtensions>
+		<costList>
+			<CrushedStone>4</CrushedStone>			
+			<Compost>4</Compost>
+		</costList>
+		<statBases>
+			<WorkToBuild>960</WorkToBuild>
+		</statBases>
+		<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+	</ThingDef>
+<!-- From Silty Soil -->
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_FertileFromSilty</defName>
+	<label>Silty Soil</label>
+	<description>Mossy/Marshy Soil to Fertile Soil.\n +6 Silt\n +2 Sand</description>
+		<uiIconPath>UI/Icons/Terraforming/FertileSoil</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>MarshyTerrain</li>
+				<li>MossyTerrain</li>
+			</above>
+			<result>Soil</result>
+			<products>
+				<Dirt>6</Dirt>
+				<SandResource>2</SandResource>
+			</products>
+		</li>
+	</modExtensions>
+	<costList>		
+		<Compost>6</Compost>
+	</costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>	 
+<!-- From Sandy Soil -->
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_FertileFromSandy</defName>
+	<label>Sandy Soil</label>
+	<description>Arid/Leached/Weak Soil to Fertile Soil.\n +2 Clay\n +6 Sand\n +2 Gravel</description>
+		<uiIconPath>UI/Icons/Terraforming/FertileSoil</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>MarginalSoil</li>
+				<li>LeachedSoil</li>
+				<li>WeakSoil</li>
+			</above>
+			<result>Soil</result>
+			<products>
+				<SoftClay>2</SoftClay>
+				<SandResource>6</SandResource>
+				<CrushedStone>2</CrushedStone>
+			</products>
+		</li>
+	</modExtensions>
+	<costList>		
+		<Compost>6</Compost>
+		<Dirt>4</Dirt>
+	</costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>	 
+<!-- From Rocky Soil -->
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_FertileFromRocky</defName>
+	<label>Frozen Soil</label>
+	<description>Turbulent Soil to Fertile Soil.\n +4 Gravel\n +2 Peat</description>
+		<uiIconPath>UI/Icons/Terraforming/FertileSoil</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>PoorSoil</li>
+			</above>
+			<result>Soil</result>
+			<products>
+				<CrushedStone>4</CrushedStone>
+				<Peat>2</Peat>
+			</products>
+		</li>
+	</modExtensions>
+	<costList>		
+		<SoftClay>2</SoftClay>
+		<SandResource>2</SandResource>
+		<Dirt>2</Dirt>
+		<Compost>4</Compost>
+	</costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>	 
+<!-- From Hydric Soil -->
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_FertileFromHydric</defName>
+	<label>Hydric Soil</label>
+	<description>Muck/Peaty Soil to Fertile Soil.\n +6 Peat</description>
+		<uiIconPath>UI/Icons/Terraforming/FertileSoil</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>Mud</li>
+				<li>MuckyPeat</li>
+				<li>PeatSoil</li>
+			</above>
+			<result>Soil</result>
+			<products>
+				<Peat>6</Peat>
+			</products>
+		</li>
+	</modExtensions>
+	<costList>		
+		<SandResource>4</SandResource>
+		<Dirt>4</Dirt>
+		<CrushedStone>4</CrushedStone>
+	</costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>	 	 
+<!-- DEVELOP SOIL...-->
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_DevelopToWeak</defName>
+	<label>to Weak Soil</label>
+	<description>+2 Gravel</description>
+	<uiIconPath>UI/Icons/Terraforming/WeakSoil</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>RockySoil</li>
+			</above>
+			<result>WeakSoil</result>
+			<products>
+				<CrushedStone>2</CrushedStone>
+			</products>
+		</li>
+	</modExtensions>
+	<costList>		
+		<SandResource>4</SandResource>
+		<SoftClay>4</SoftClay>
+		<Compost>2</Compost>
+	</costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>	 
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_DevelopToRedClay</defName>
+	<label>to Red Clay Soil</label>
+	<description>+2 Sand\n +4 Gravel</description>
+	<uiIconPath>UI/Icons/Terraforming/RedClaySoil</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>RockySoil</li>
+			</above>
+			<result>RedClaySoil</result>
+			<products>
+				<SandResource>2</SandResource>
+				<CrushedStone>4</CrushedStone>
+			</products>
+		</li>
+	</modExtensions>
+	<costList>		
+		<Dirt>2</Dirt>
+		<SoftClay>10</SoftClay>
+		<Compost>4</Compost>
+	</costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>	 
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_DevelopToMarshy</defName>
+	<label>to Marshy Soil</label>
+	<description>+2 Gravel</description>
+	<uiIconPath>UI/Icons/Terraforming/MarshySoil</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>RockySoil</li>
+			</above>
+			<result>MarshyTerrain</result>
+			<products>
+				<CrushedStone>2</CrushedStone>
+			</products>
+		</li>
+	</modExtensions>
+	<costList>		
+		<Dirt>6</Dirt>
+		<SoftClay>2</SoftClay>
+		<Compost>2</Compost>
+	</costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>	 
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_DevelopToSand</defName>
+	<label>to Coarse Sand</label>
+	<description>Undeveloped Soil to Coarse Sand</description>
+	<uiIconPath>UI/Icons/Terraforming/CoarseSand</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>RockySoil</li>
+			</above>
+			<result>Sand</result>
+		</li>
+	</modExtensions>
+	<costList>		
+		<SandResource>10</SandResource>
+	</costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>	 	<!--
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_DevelopToGravel</defName>
+	<label>to Gravel</label>
+	<description>Muck/Peaty Soil to Fertile Soil.\n\n </description>
+	<uiIconPath>UI/Icons/Terraforming/Peat-WaterShallow</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>RockySoil</li>
+			</above>
+			<result>Gravel</result>
+		</li>
+	</modExtensions>
+	<costList>		
+		<CrushedStone>10</CrushedStone>
+	</costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>	 
+-->
+		
+	
+</Defs>

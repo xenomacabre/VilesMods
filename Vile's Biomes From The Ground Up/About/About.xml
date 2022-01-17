@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<ModMetaData>
+<name>Vile's Biomes: From The Ground Up</name>
+<author>VileHeathen</author>
+<supportedVersions>
+	<li>1.3</li>
+</supportedVersions>
+<packageId>xenomacabre.HSKBiomes</packageId>
+<modDependencies>
+	<!--<li>
+		<packageId>skyarkhangel.FencesAndFloorsVileUpdate</packageId>
+		<displayName>HSK Fences and Floors: Vile's Patch</displayName>
+		<downloadUrl>https://github.com/xenomacabre/VilesMods</downloadUrl>
+	</li>
+	<li>
+		<packageId>skyarkhangel.realisticterraform</packageId>
+		<displayName>HMC Realistic Terraforming</displayName>
+		<downloadUrl>https://github.com/skyarkhangel/Hardcore-SK</downloadUrl>
+	</li>
+	<li>
+		<packageId>ViTech.HCSKWood</packageId>
+		<displayName>Wood You Please</displayName>
+		<downloadUrl>https://github.com/xenomacabre/VilesMods</downloadUrl>
+	</li>-->
+	
+</modDependencies>
+<loadBefore>
+</loadBefore>
+<loadAfter>
+	<!--<li>skyarkhangel.FencesAndFloorsVileUpdate</li>
+	<li>ViTech.HCSKWood</li>-->
+</loadAfter>
+<incompatibleWith>
+	<li>cattleya.florareskin</li>
+	
+</incompatibleWith>
+<description> Version 0.1A - 1/17/2021
+	
+Dislaimer: This is a brand new mod, which means it needs some testing. By reading this, you agree to offer your soil in exchange for early access to this mod. That is to say, please send me feedback on discord if anything seems weird or buggy, or if something just looks off. And before you ask, yes, you'll have to start a new game, or at least move your colony to a new tile so the biome can regenerate. I also recommend using the patched Seasonal Weather mod with this.
+
+Biomes: From The Groud Up overhauls biomes... from the ground up. Here's the dirt:
+	
+1. Retextures nearly every plant and tree and adds many new ones. Some are harvestable, some are purely aesthetic.
+2. Repopulates biomes to be more realistic, but more importantly, more distinct from one another.	
+3. Retextures (moved from Hardcore Renovation) and revises terrains, and adds several new ones to further give the biomes more distinction.
+4. Terrain generation is revised to form more unique landmasses in some biomes.
+5. Trees more likely to grow in groves (moved from Wood You Please).
+6. Terraforming revised to be (hopefully) more streamlined - it's a balancing work in progress.
+7. Scatterables removed from ice and sand (those ugly blotches that are always there)
+8. Adds a few new foods to go with the new plants (bog cranberries, wetland cattails, desert prickly pears, and brought back blueberries which grow in taiga and boreal)
+9. Biomes have seasonal weather (requires supporting mod), some have wet and dry seasons, wildfire seaons, hurricane seasons, etc. 	
+	
+Now for what's new and different:
+
+___SOILS!___
+New and revised soils are based off of US Soil Taxonomy (which isn't really important unless you're a nerd). They're listed in order of fertility:
+
+Rich Soil - Alluvium - typically only found around ponds and in small patches.
+Grassland Soil - Mollisol - Found in the savanna.
+Fertile Soil - Alfisol - Found in termperate forests, equivalent of vanilla "soil"
+Volcanic Soil - Andisol - Currently only found in small patches in rainforests, but can be terraformed with ash.
+Red Clay Soil - Ultisol - Found in rainforests. It turns out rainforests don't have great soil.
+Marshy Soil - Mineral Hydric Soil - Found in wetlands
+Leached Soil - Oxisol - Found in rainforests.
+Mossy Soil - Spododsol - Found is boreal forests and tundra in smaller amounts.
+Arid Soil - Aridisol - Found in deserts.
+Muck - Sapric Histosol - Found in Tropical Swamps. Contains moderate amounds of peat and organic matter.
+Cracked Clay - Vertisol - Found in deserts. Nutrients and be extracted via terraforming.
+Weak Soil - Inseptisol - Young soils found in boreak forests.
+Mucky Peat - Hemist Histosol - Found in temperate swamps. Contains a fair amount of peat and some organic matter.
+Turbulent Soil - Gelisol (Turbels) - Rocky tundra soil. 
+Peat Soil - Fabrist Histosol - Found in Bogs. Contains high amounts of peat.
+Undeveloped Soil - Entisol - Found near rock forms and gravel.
+Coarse Sand - Found in beaches and deserts with barely any nutrient value.
+Desert Sand - Dune sand found in extreme deserts. Nothing can grow here and it's hard to walk on.
+Gravel - Relatively unchanged apart from new texture.
+Desert Pavement - A strange formation sometimes found in deserts.
+Bog Water - Highly acidic water found in bogs.
+Swamp Water - Found in temperate swamps.
+Black Water - Found in tropical swamps.
+Ice - Good ol' ice. 
+Clear Ice - Smooth ice which is very hard to traverse.
+Frozen Snow - Easier to walk on than ice.
+
+___NEW PLANTS!___
+There are lots of new plants. Here are a few:
+
+TREES and SHRUBS:
+Kapok Tree: Gigantic trees found in the rainforest (experimental two-layer texture).
+Spruce Tree: Found in bogs and cold regions.
+Acacia Tree: Found in savannas and deserts.
+Juniper: Coniferous shrub found in colder regions.
+
+EDIBLE:
+Blueberry.
+Cranberries: Only found in bogs.
+Prickly pear: Found in savannas and deserts.
+Cattail: Found in wetlands.
+
+GRASSES and MOSSES:
+Sedge
+Rush
+Swampgrass (grows in water)
+Lawn Grass
+Peat Moss: Can be harvested for fertilizer
+Bearberry: Decorative tundra groundcover
+Caribou Moss
+
+___NOTES___
+
+Cattail and swampgrass currently have this thing where they appear in places they should when you first generate the map, but will disappear immediately. It shouldn't affect gameplay.
+
+Some pretty drastic changes were made to some of the biome generation. It's impossible for me to test every possible iteration, so please send feedback if you find anything weird.
+
+</description> 
+</ModMetaData>
+
+
+
+
+
+
+	

@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- RESOURCE -->
+	<ThingDef ParentName="SK_RoughPlantBase">
+		<defName>Cornmeal</defName>
+		<label>Cornmeal</label>
+		<description>Simple cornmeal, used in baking.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Item/Cornmeal</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>3</MarketValue>
+		</statBases>
+		<tickerType>Rare</tickerType>   
+		<thingCategories>
+			<li>CookingSupplies</li>
+		</thingCategories>
+		<stuffProps>
+			<categories>
+				<li>Stuff</li>
+			</categories>
+		</stuffProps>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>60</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<stackLimit>100</stackLimit>
+	</ThingDef>
+	
+	
+
+
+<!-- MEAL RECIPES -->
+	<RecipeDef>
+		<defName>BakeCornbread</defName>
+		<label>bake cornbread (2x)</label>
+		<description>Bake a tasty cornbread loaf. Produces 2.</description>
+		<jobString>Baking cornbread.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<workAmount>1000</workAmount>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<soundWorking>Recipe_CookMeal</soundWorking>          
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Flour</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Cornmeal</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Flour</li>
+				<li>Cornmeal</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<products>
+			<Cornbread>2</Cornbread>
+		</products>
+		<workSkill>Cooking</workSkill>
+		<recipeUsers>
+			<li>TableOven</li>
+			<li>ElectricOven</li>
+		</recipeUsers>
+		<researchPrerequisite>Bakery_B1</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>BakeCornbreadmuffin</defName>
+		<label>cornbran raisin muffin (x3 healthy)</label>
+		<description>Healthy 80% (.6 Nutr, Awful) &#xA;A multigrain muffin. With, ugh, raisins.</description>
+		<jobString>Baking cornbran muffins.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<workAmount>1500</workAmount>
+		<soundWorking>Recipe_CookMeal</soundWorking>          
+		<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Flour</li>
+								</thingDefs>
+							</filter>
+							<count>8</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Cornmeal</li>
+								</thingDefs>
+							</filter>
+							<count>6</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Rawgrape</li>
+								</thingDefs>
+							</filter>
+							<count>4</count>
+						</li>
+					</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Flour</li>
+				<li>Cornmeal</li>
+				<li>Rawgrape</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<products>
+			<Cornbreadmuffin>3</Cornbreadmuffin>
+		</products>
+		<workSkill>Cooking</workSkill>
+		<skillRequirements>
+			<Cooking>8</Cooking>
+		</skillRequirements>
+		<researchPrerequisite>Bakery_B2</researchPrerequisite>
+		<recipeUsers>
+			<li>TableOven</li>
+			<li>ElectricOven</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<!-- MEALS THINGDEFS -->
+
+	<ThingDef ParentName="SK_MealBase">
+		<defName>Cornbread</defName>
+		<label>Cornbread</label>
+		<description>A very simple baked loaf of bread made from corn meal.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/cornbread</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>15</MarketValue>
+			<WorkToMake>500</WorkToMake>
+			<Nutrition>0.7</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealSimple</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedSweetbun</hediffDef>
+					<severity>0.25</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>6</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="SK_MealBase">
+		<defName>Cornbreadmuffin</defName>
+		<label>Cornbran raisin muffin</label>
+		<description>Healthy 80% (.6 Nutr, Awful) &#xA; A multigrain muffin. With, ugh, raisins.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/cornbreadmuffin</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>45</MarketValue>
+			<Bulk>1.5</Bulk>
+			<Mass>1.2</Mass>
+			<Nutrition>0.6</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteBlandMeal</tasteThought>
+			<preferability>MealSimple</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedHealthFood</hediffDef>
+					<severity>0.8</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+</Defs>

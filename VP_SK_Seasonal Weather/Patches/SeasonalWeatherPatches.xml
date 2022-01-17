@@ -1,0 +1,864 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+	<xpath>Defs/BiomeDef[defName="AridShrubland"]/description</xpath>
+	  	<value>
+			<description>A tropical grassland with a wet season (spring and summer) and a drought season (winter and fall). Beware the dry autumnal electrical storms! Savannas are the home of mollisols, which are the most fertile soils in the world, although annual dought and seasonal wildfires tend to keep flora sparce, apart from the grasses. (Immersion Tip: Try Dub's Bag Hygeiene "rain irrigation" with a lower base terrain fertility).</description>
+	   </value>
+  </Operation>
+		
+	
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/BiomeDef[defName="AridShrubland"]</xpath>
+    <value>
+      <li Class="SeasonalWeather.SeasonalWeatherExtension">
+        <spring> <!-- Strong, Wet weather -->
+           	<Clear>19</Clear>
+			<Fog>2</Fog>
+			<Rain>0.5</Rain>
+			<DryThunderstorm>0.2</DryThunderstorm>
+			<RainyThunderstorm>3</RainyThunderstorm>
+			<FoggyRain>1</FoggyRain>
+				<SnowGentle>1</SnowGentle>
+				<SnowHard>1</SnowHard>	
+			<Rainstorm>2</Rainstorm>
+				<Blizzard>2</Blizzard>
+				<Whiteout>2</Whiteout>
+			<Hurricane>1</Hurricane>
+
+        </spring>
+        <summer> <!-- very wet weather -->
+    		<Clear>10</Clear>
+			<Fog>0.5</Fog>
+			<Rain>5</Rain>
+			<RainyThunderstorm>0.5</RainyThunderstorm>
+			<FoggyRain>0.1</FoggyRain>
+				<SnowGentle>1</SnowGentle>
+				<SnowHard>1</SnowHard>	
+			<Rainstorm>2</Rainstorm>
+				<Blizzard>2</Blizzard>
+				<Whiteout>2</Whiteout>
+			<Hurricane>0.1</Hurricane>
+         
+         
+        </summer>
+        <fall> <!-- Strong, dry weather -->
+        	<Clear>20</Clear>
+			<Fog>0.5</Fog>
+			<Rain>0.9</Rain>
+			<DryThunderstorm>4</DryThunderstorm>
+			<RainyThunderstorm>0.8</RainyThunderstorm>
+			<FoggyRain>0.3</FoggyRain>
+				<SnowGentle>1</SnowGentle>
+				<SnowHard>1</SnowHard>	
+			<Rainstorm>0.3</Rainstorm>
+			<Dust>1.5</Dust>
+			<DryDuststorm>0.5</DryDuststorm>
+			<Hurricane>0.5</Hurricane>
+         	<Windy>0.5</Windy>
+        
+        </fall>
+        <winter> <!-- Drought, but calm -->
+        	<Clear>20</Clear>
+			<Rain>0.1</Rain>
+			<DryThunderstorm>0.3</DryThunderstorm>
+			<Windy>2</Windy>
+			<Dust>0.5</Dust>
+			<DryDuststorm>2.0</DryDuststorm>
+			<Hurricane>0</Hurricane>
+        </winter>
+      </li>
+    </value>
+  </Operation>
+	
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/BiomeDef[defName="BorealForest"]/description</xpath>
+	  	<value>
+			<description>Also called Taigas, these cold forests have mossy, lichenous soil which is low in nutrients. Conifers, such as pine, spruce, and juniper thrive in taigas, and the only hardwood trees which can be found are birch. Small peat bogs may often be found.</description>
+	   </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/BiomeDef[defName="BorealForest"]</xpath>
+    <value>
+      <li Class="SeasonalWeather.SeasonalWeatherExtension">
+        <spring>
+          	<Clear>18</Clear>
+			<Fog>2</Fog>
+			<Rain>2</Rain>
+			<RainyThunderstorm>1</RainyThunderstorm>
+			<FoggyRain>1</FoggyRain>
+			<SnowGentle>4</SnowGentle>
+			<SnowHard>4</SnowHard>
+			<Rainstorm>1</Rainstorm>
+			<Blizzard>4</Blizzard>
+			<Whiteout>3</Whiteout>
+			<Cloudy>2</Cloudy>
+        	<Windy>2</Windy>
+        </spring>
+        <summer>
+        	<Clear>18</Clear>
+			<Fog>3</Fog>
+			<Rain>3</Rain>
+			<RainyThunderstorm>1.5</RainyThunderstorm>
+			<FoggyRain>2</FoggyRain>
+			<SnowGentle>2</SnowGentle>
+			<SnowHard>1</SnowHard>
+			<Rainstorm>1.5</Rainstorm>
+			<Blizzard>0.5</Blizzard>
+			<Whiteout>0.5</Whiteout>
+			<Cloudy>2</Cloudy>
+        	<Windy>2</Windy>
+        </summer>
+        <fall>
+      		<Clear>20</Clear>
+			<Fog>1</Fog>
+			<Rain>2</Rain>
+			<DryThunderstorm>0.3</DryThunderstorm>
+			<RainyThunderstorm>1</RainyThunderstorm>
+			<FoggyRain>1</FoggyRain>
+			<SnowGentle>3</SnowGentle>
+			<SnowHard>2</SnowHard>
+			<Rainstorm>1</Rainstorm>
+			<Blizzard>2</Blizzard>
+			<Whiteout>1</Whiteout>
+			<Cloudy>1</Cloudy>
+        	<Windy>1</Windy>
+        </fall>
+        <winter>
+     		<Clear>18</Clear>
+			<Fog>1</Fog>
+			<Rain>2</Rain>
+			<RainyThunderstorm>1</RainyThunderstorm>
+			<FoggyRain>1</FoggyRain>
+			<SnowGentle>4</SnowGentle>
+			<SnowHard>4</SnowHard>
+			<Rainstorm>1</Rainstorm>
+			<Blizzard>4</Blizzard>
+			<Whiteout>3</Whiteout>
+			<Cloudy>1</Cloudy>
+        	<Windy>1</Windy>
+        </winter>
+      </li>
+    </value>
+  </Operation>
+
+	
+	  <Operation Class="PatchOperationReplace">
+	<xpath>Defs/BiomeDef[defName="Desert"]/description</xpath>
+	  	<value>
+			<description>A sandy, arid region that supports little to modest plantlife. Electrical sandstorms in the fall often bring moderate rainfall in the winter. (Immersion Tip: Try Dub's Bag Hygeiene "rain irrigation" with a lower base terrain fertility).</description>
+	   </value>
+  </Operation>
+	
+  <Operation Class="PatchOperationAddModExtension"> <!-- Arabian Desert -->
+    <xpath>/Defs/BiomeDef[defName="Desert"]</xpath>
+    <value>
+      <li Class="SeasonalWeather.SeasonalWeatherExtension">
+        <spring> <!-- Windy, Dust Storms -->
+          <Clear>22</Clear>
+          <Rain>1</Rain>
+          <DryThunderstorm>1</DryThunderstorm>
+          <RainyThunderstorm>1</RainyThunderstorm>
+          <FoggyRain>0.5</FoggyRain>
+          <SnowGentle>0.5</SnowGentle>
+          <SnowHard>0.01</SnowHard>
+          <Dust>8</Dust>
+          <DryDuststorm>1</DryDuststorm>
+          <Cloudy>4</Cloudy>
+          <Windy>8</Windy>
+        </spring>
+        <summer> <!-- dry -->
+          <Clear>22</Clear>
+          <Rain>0.2</Rain>
+          <DryThunderstorm>1</DryThunderstorm>
+			<RainyThunderstorm>1</RainyThunderstorm>
+          <SnowGentle>0.5</SnowGentle>
+          <SnowHard>0.01</SnowHard>
+          <Dust>2</Dust>
+          <DryDuststorm>0.5</DryDuststorm>
+          <Cloudy>1</Cloudy>
+          <Windy>2</Windy>
+        </summer>
+        <fall> <!-- Sandstorms -->
+          <Clear>22</Clear>
+          <Rain>2</Rain>
+          <DryThunderstorm>1</DryThunderstorm>
+          <RainyThunderstorm>0.8</RainyThunderstorm>
+          <FoggyRain>0.5</FoggyRain>
+          <SnowGentle>0.5</SnowGentle>
+          <SnowHard>0.01</SnowHard>
+          <Dust>3</Dust>
+          <DryDuststorm>5</DryDuststorm>
+          <Cloudy>4</Cloudy>
+          <Windy>5</Windy>
+        </fall>
+        <winter> <!-- Rains -->
+          <Clear>22</Clear>
+          <Fog>0.1</Fog>
+          <Rain>3</Rain>
+          <DryThunderstorm>1</DryThunderstorm>
+          <RainyThunderstorm>1</RainyThunderstorm>
+          <FoggyRain>0.05</FoggyRain>
+          <SnowGentle>1</SnowGentle>
+          <SnowHard>0.5</SnowHard>
+          <Dust>1</Dust>
+          <DryDuststorm>0.5</DryDuststorm>
+          <Cloudy>4</Cloudy>
+          <Windy>1</Windy>
+        </winter>
+      </li>
+    </value>
+  </Operation>
+	  <Operation Class="PatchOperationReplace">
+	<xpath>Defs/BiomeDef[defName="ExtremeDesert"]/description</xpath>
+	  	<value>
+			<description>A sandy, arid region that supports hardly any life. As Electrical sandstorms in the fall end, there is little respite as there is practically no rainfall in this biome.</description>
+	   </value>
+  </Operation>
+	
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/BiomeDef[defName="ExtremeDesert"]</xpath>
+    <value>
+       <li Class="SeasonalWeather.SeasonalWeatherExtension">
+        <spring> <!-- Windy, Dust Storms -->
+          <Clear>22</Clear>
+          <Rain>0</Rain>
+          <DryThunderstorm>1</DryThunderstorm>
+          <RainyThunderstorm>0.5</RainyThunderstorm>
+          <FoggyRain>0.5</FoggyRain>
+          <SnowGentle>0.5</SnowGentle>
+          <SnowHard>0.01</SnowHard>
+          <Dust>8</Dust>
+          <DryDuststorm>3</DryDuststorm>
+          <Cloudy>2</Cloudy>
+          <Windy>10</Windy>
+        </spring>
+        <summer> <!-- dry -->
+          <Clear>22</Clear>
+          <Rain>0.2</Rain>
+          <DryThunderstorm>2</DryThunderstorm>
+			<RainyThunderstorm>0.5</RainyThunderstorm>
+          <SnowGentle>0.5</SnowGentle>
+          <SnowHard>0.01</SnowHard>
+          <Dust>5</Dust>
+          <DryDuststorm>1</DryDuststorm>
+          <Cloudy>1</Cloudy>
+          <Windy>2</Windy>
+        </summer>
+        <fall> <!-- Sandstorms -->
+          <Clear>22</Clear>
+          <Rain>0.5</Rain>
+          <DryThunderstorm>1</DryThunderstorm>
+          <RainyThunderstorm>0.8</RainyThunderstorm>
+          <FoggyRain>0.5</FoggyRain>
+          <SnowGentle>0.5</SnowGentle>
+          <SnowHard>0.01</SnowHard>
+          <Dust>3</Dust>
+          <DryDuststorm>7</DryDuststorm>
+          <Cloudy>4</Cloudy>
+          <Windy>5</Windy>
+        </fall>
+        <winter> <!-- Rains -->
+          <Clear>22</Clear>
+          <Fog>0.1</Fog>
+          <Rain>1</Rain>
+          <DryThunderstorm>1.5</DryThunderstorm>
+          <RainyThunderstorm>0.5</RainyThunderstorm>
+          <FoggyRain>0.05</FoggyRain>
+          <SnowGentle>1</SnowGentle>
+          <SnowHard>0.5</SnowHard>
+          <Dust>3</Dust>
+          <DryDuststorm>1</DryDuststorm>
+          <Cloudy>4</Cloudy>
+          <Windy>1</Windy>
+        </winter>
+      </li>
+    </value>
+  </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	<xpath>Defs/BiomeDef[defName="IceSheet"]/description</xpath>
+	  	<value>
+		<description>Land ice with an extremely cold and dry climate, and there are frequent gravitational windstorms, which tend to be worse in the Spring. With luck, small spots of tundra may be found, but otherwise there is no soil and no vegetation, and hardly any animals.</description>
+	   </value>
+  </Operation>  
+	  
+	  
+  <Operation Class="PatchOperationAddModExtension">  <!-- Antarctica landmass -->
+    <xpath>/Defs/BiomeDef[defName="IceSheet"]</xpath>
+    <value>
+      <li Class="SeasonalWeather.SeasonalWeatherExtension">
+        <spring>
+			<Clear>12</Clear>
+			<Fog>10</Fog>
+			<Rain>0</Rain>
+			<DryThunderstorm>2</DryThunderstorm>
+			<RainyThunderstorm>0</RainyThunderstorm>
+			<FoggyRain>1</FoggyRain>
+			<SnowGentle>5</SnowGentle>
+			<SnowHard>5</SnowHard>
+			<Rainstorm>0</Rainstorm>
+			<Blizzard>3</Blizzard>
+			<Whiteout>10</Whiteout>
+			<KatabaticStorm>30</KatabaticStorm>
+        </spring>
+        <summer>
+         	<Clear>12</Clear>
+			<Fog>10</Fog>
+			<Rain>2</Rain>
+			<DryThunderstorm>2</DryThunderstorm>
+			<RainyThunderstorm>0</RainyThunderstorm>
+			<FoggyRain>1</FoggyRain>
+			<SnowGentle>5</SnowGentle>
+			<SnowHard>5</SnowHard>
+			<Rainstorm>0</Rainstorm>
+			<Blizzard>5</Blizzard>
+			<Whiteout>10</Whiteout>
+			<KatabaticStorm>10</KatabaticStorm>
+        </summer>
+        <fall>
+          	<Clear>12</Clear>
+			<Fog>10</Fog>
+			<Rain>0</Rain>
+			<DryThunderstorm>2</DryThunderstorm>
+			<RainyThunderstorm>0</RainyThunderstorm>
+			<FoggyRain>1</FoggyRain>
+			<SnowGentle>5</SnowGentle>
+			<SnowHard>5</SnowHard>
+			<Rainstorm>0</Rainstorm>
+			<Blizzard>5</Blizzard>
+			<Whiteout>10</Whiteout>
+			<KatabaticStorm>10</KatabaticStorm>
+        </fall>
+        <winter>
+         	<Clear>12</Clear>
+			<Fog>10</Fog>
+			<Rain>0</Rain>
+			<DryThunderstorm>2</DryThunderstorm>
+			<RainyThunderstorm>0</RainyThunderstorm>
+			<FoggyRain>1</FoggyRain>
+			<SnowGentle>15</SnowGentle>
+			<SnowHard>5</SnowHard>
+			<Rainstorm>0</Rainstorm>
+			<Blizzard>1</Blizzard>
+			<Whiteout>10</Whiteout>
+			<KatabaticStorm>5</KatabaticStorm>
+        </winter>
+      </li>
+    </value>
+  </Operation>
+	  
+	<Operation Class="PatchOperationReplace">
+	<xpath>Defs/BiomeDef[defName="SeaIce"]/description</xpath>
+	  	<value>
+		<description>Permanent ice sheets floating on water. There is no soil for plants to grow, no minerals to mine, and almost no animal life. Weather conditions tend to be relatively peaceful, however.</description>	   
+		</value>
+  </Operation>    
+	  
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/BiomeDef[defName="SeaIce"]</xpath> <!-- Arctic-ish -->
+    <value>	
+      <li Class="SeasonalWeather.SeasonalWeatherExtension">
+        <spring>
+	      <Clear>12</Clear>
+          <Rain>1</Rain>
+          <Fog>3</Fog>
+          <DryThunderstorm>2</DryThunderstorm>
+          <FoggyRain>0.5</FoggyRain>
+          <SnowGentle>10</SnowGentle>
+          <SnowHard>2</SnowHard>
+          <FogSnow>2</FogSnow>
+          <Windy>2</Windy>
+          <Cloudy>3</Cloudy>
+        </spring>
+        <summer>
+          <Clear>12</Clear>
+          <Rain>1</Rain>
+          <Fog>1</Fog>
+          <DryThunderstorm>1</DryThunderstorm>
+          <RainyThunderstorm>1</RainyThunderstorm>
+          <FoggyRain>1</FoggyRain>
+          <SnowGentle>6</SnowGentle>
+          <SnowHard>2</SnowHard>
+          <FogSnow>2</FogSnow>
+          <Windy>2</Windy>
+          <Cloudy>2</Cloudy>
+        </summer>
+        <fall>
+          <Clear>12</Clear>
+          <Fog>0.5</Fog>
+          <Rain>2</Rain>
+          <DryThunderstorm>0</DryThunderstorm>
+          <RainyThunderstorm>0.5</RainyThunderstorm>
+          <FoggyRain>0.5</FoggyRain>
+          <SnowGentle>8</SnowGentle>
+          <SnowHard>4</SnowHard>
+          <FogSnow>2</FogSnow>
+          <Windy>6</Windy>
+          <Cloudy>9</Cloudy>
+        </fall>
+        <winter>
+          <Clear>8</Clear>
+          <DryThunderstorm>0</DryThunderstorm>
+          <SnowGentle>8</SnowGentle>
+          <SnowHard>6</SnowHard>
+          <FogSnow>2</FogSnow>
+          <Windy>2</Windy>
+          <Cloudy>9</Cloudy>
+		  <Blizzard>3</Blizzard>
+        </winter>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/BiomeDef[defName="TemperateForest"]</xpath>
+    <value>
+      <li Class="SeasonalWeather.SeasonalWeatherExtension">
+        <spring>
+			<Clear>10</Clear>
+			<Fog>1</Fog>
+			<Rain>4</Rain>
+			<DryThunderstorm>1</DryThunderstorm>
+			<RainyThunderstorm>2</RainyThunderstorm>
+			<FoggyRain>1</FoggyRain>
+			<SnowGentle>4</SnowGentle>
+			<SnowHard>4</SnowHard>
+			<Rainstorm>2</Rainstorm>
+			<Blizzard>3</Blizzard>
+			<Whiteout>1</Whiteout>
+			<Hurricane>0.5</Hurricane>
+			<Windy>6</Windy>
+          	<Cloudy>9</Cloudy>
+        </spring>
+        <summer>
+			<Clear>20</Clear>
+			<Fog>1</Fog>
+			<Rain>1</Rain>
+			<DryThunderstorm>2</DryThunderstorm>
+			<RainyThunderstorm>3</RainyThunderstorm>
+			<FoggyRain>1</FoggyRain>
+			<SnowGentle>2</SnowGentle>
+			<SnowHard>2</SnowHard>
+			<Rainstorm>1</Rainstorm>
+			<Blizzard>1</Blizzard>
+			<Whiteout>1</Whiteout>
+			<Hurricane>1</Hurricane>
+			<Windy>3</Windy>
+			<Cloudy>3</Cloudy>
+        </summer>
+        <fall>
+       		<Clear>17</Clear>
+			<Fog>5</Fog>
+			<Rain>1</Rain>
+			<DryThunderstorm>1</DryThunderstorm>
+			<RainyThunderstorm>1</RainyThunderstorm>
+			<FoggyRain>3</FoggyRain>
+			<SnowGentle>2</SnowGentle>
+			<SnowHard>2</SnowHard>
+			<Rainstorm>1</Rainstorm>
+			<Blizzard>1</Blizzard>
+			<Whiteout>1</Whiteout>
+			<Hurricane>1.5</Hurricane>
+			<Windy>4</Windy>
+			<Cloudy>4</Cloudy>
+        </fall>
+        <winter>
+           <Clear>8</Clear>
+			<Fog>3</Fog>
+			<Rain>2</Rain>
+			<DryThunderstorm>0</DryThunderstorm>
+			<RainyThunderstorm>0</RainyThunderstorm>
+			<FoggyRain>1</FoggyRain>
+			<SnowGentle>4</SnowGentle>
+			<SnowHard>3</SnowHard>
+			<Rainstorm>1</Rainstorm>
+			<Blizzard>2</Blizzard>
+			<Whiteout>1</Whiteout>
+			<Hurricane>0.0</Hurricane>
+			<Windy>3</Windy>
+			<Cloudy>8</Cloudy>
+        </winter>
+      </li>
+    </value>
+  </Operation>
+	  <Operation Class="PatchOperationReplace">
+	<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/description</xpath>
+	  	<value>
+		<description>Wetlands choked with vegetation and disease. Dense overgrowth makes it hard to move around, and clearing areas for building takes a long time. Much of the terrain is too marshy to support heavy structures. Small amounts of peat may be found here, and many fish species live in the murky water.</description>
+	</value>
+  </Operation>    
+	  
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/BiomeDef[defName="TemperateSwamp"]</xpath>
+    <value>
+      <li Class="SeasonalWeather.SeasonalWeatherExtension">
+         <spring>
+			<Clear>8</Clear>
+			<Fog>5</Fog>
+			<Rain>7</Rain>
+			<DryThunderstorm>0</DryThunderstorm>
+			<RainyThunderstorm>3</RainyThunderstorm>
+			<FoggyRain>5</FoggyRain>
+			<SnowGentle>4</SnowGentle>
+			<SnowHard>4</SnowHard>
+			<Rainstorm>2</Rainstorm>
+			<Blizzard>3</Blizzard>
+			<Whiteout>1</Whiteout>
+			<Hurricane>0.5</Hurricane>
+			<Windy>3</Windy>
+          	<Cloudy>5</Cloudy>
+        </spring>
+        <summer>
+			<Clear>10</Clear>
+			<Fog>5</Fog>
+			<Rain>7</Rain>
+			<DryThunderstorm>0</DryThunderstorm>
+			<RainyThunderstorm>5</RainyThunderstorm>
+			<FoggyRain>3</FoggyRain>
+			<SnowGentle>2</SnowGentle>
+			<SnowHard>2</SnowHard>
+			<Rainstorm>1</Rainstorm>
+			<Blizzard>1</Blizzard>
+			<Whiteout>1</Whiteout>
+			<Hurricane>1</Hurricane>
+			<Windy>3</Windy>
+			<Cloudy>3</Cloudy>
+        </summer>
+        <fall>
+       		<Clear>10</Clear>
+			<Fog>10</Fog>
+			<Rain>3</Rain>
+			<DryThunderstorm>0</DryThunderstorm>
+			<RainyThunderstorm>1</RainyThunderstorm>
+			<FoggyRain>3</FoggyRain>
+			<SnowGentle>2</SnowGentle>
+			<SnowHard>2</SnowHard>
+			<Rainstorm>1</Rainstorm>
+			<Blizzard>1</Blizzard>
+			<Whiteout>1</Whiteout>
+			<Hurricane>1.5</Hurricane>
+			<Windy>2</Windy>
+			<Cloudy>4</Cloudy>
+        </fall>
+        <winter>
+           <Clear>8</Clear>
+			<Fog>5</Fog>
+			<Rain>5</Rain>
+			<DryThunderstorm>0</DryThunderstorm>
+			<RainyThunderstorm>0</RainyThunderstorm>
+			<FoggyRain>5</FoggyRain>
+			<SnowGentle>4</SnowGentle>
+			<SnowHard>3</SnowHard>
+			<Rainstorm>1</Rainstorm>
+			<Blizzard>2</Blizzard>
+			<Whiteout>1</Whiteout>
+			<Hurricane>0.0</Hurricane>
+			<Windy>1</Windy>
+			<Cloudy>8</Cloudy>
+        </winter>
+      </li>
+    </value>
+  </Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/BiomeDef[defName="TropicalRainforest"]/description</xpath>
+	  	<value>
+		<description>A dense jungle buzzing with animal life and infested with disease. Choking overgrowth, aggressive animals, and constant sickness are why some explorers call this the "green hell". Its hurricane season occurs in the spring, followed by a foggy summer, and a relatively dry fall which can be vulnerable to wildfires.</description>
+	</value>
+  </Operation>     
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/BiomeDef[defName="TropicalRainforest"]</xpath> <!-- Amazon , Peru-->
+    <value>
+      <li Class="SeasonalWeather.SeasonalWeatherExtension">
+        <spring> <!-- Hurricane Season -->
+			<Clear>12</Clear>
+			<Fog>3</Fog>
+			<Rain>3</Rain>
+			<DryThunderstorm>0.0</DryThunderstorm>
+			<RainyThunderstorm>5</RainyThunderstorm>
+			<FoggyRain>1</FoggyRain>
+			<SnowGentle>4</SnowGentle>
+			<SnowHard>4</SnowHard>
+			<Rainstorm>3</Rainstorm>
+			<Blizzard>0</Blizzard>
+			<Whiteout>1</Whiteout>
+			<Hurricane>6</Hurricane>
+			<Windy>2</Windy>
+          	<Cloudy>3</Cloudy>
+         
+        </spring>
+        <summer> <!-- Foggy -->
+         	<Clear>10</Clear>
+			<Fog>5</Fog>
+			<Rain>2</Rain>
+			<DryThunderstorm>2</DryThunderstorm>
+			<RainyThunderstorm>0</RainyThunderstorm>
+			<FoggyRain>3</FoggyRain>
+			<SnowGentle>4</SnowGentle>
+			<SnowHard>4</SnowHard>
+			<Rainstorm>3</Rainstorm>
+			<Blizzard>0</Blizzard>
+			<Whiteout>1</Whiteout>
+			<Hurricane>2</Hurricane>
+			<Windy>2</Windy>
+          	<Cloudy>7</Cloudy>
+        </summer>
+        <fall> <!-- Widfire, Dry Season --> 
+          	<Clear>12</Clear>
+			<Fog>3</Fog>
+			<Rain>2</Rain>
+			<DryThunderstorm>5</DryThunderstorm>
+			<RainyThunderstorm>1</RainyThunderstorm>
+			<FoggyRain>1</FoggyRain>
+			<SnowGentle>4</SnowGentle>
+			<SnowHard>4</SnowHard>
+			<Rainstorm>1</Rainstorm>
+			<Blizzard>0</Blizzard>
+			<Whiteout>1</Whiteout>
+			<Hurricane>0.5</Hurricane>
+			<Windy>5</Windy>
+          	<Cloudy>2</Cloudy>
+        </fall>
+        <winter> <!-- Wet Season -->
+          	<Clear>16</Clear>
+			<Fog>1</Fog>
+			<Rain>5</Rain>
+			<DryThunderstorm>0.0</DryThunderstorm>
+			<RainyThunderstorm>5</RainyThunderstorm>
+			<FoggyRain>4</FoggyRain>
+			<SnowGentle>4</SnowGentle>
+			<SnowHard>4</SnowHard>
+			<Rainstorm>4</Rainstorm>
+			<Blizzard>0</Blizzard>
+			<Whiteout>1</Whiteout>
+			<Hurricane>2</Hurricane>
+			<Windy>2</Windy>
+          	<Cloudy>3</Cloudy>
+        </winter>
+      </li>
+    </value>
+  </Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/BiomeDef[defName="TropicalSwamp"]/description</xpath>
+	  	<value>
+		<description>Tropical wetlands often include peat swamp forests, made up of waterlogged soil and dead plant matter, as well as brackish flooded mangrove forests. Building is difficult due to the wet soil, and insects, disease and aggressive animals can make living here a nightmare.</description>
+	</value>
+  </Operation> 
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/BiomeDef[defName="TropicalSwamp"]</xpath>
+    <value>
+       <li Class="SeasonalWeather.SeasonalWeatherExtension">
+        <spring> <!-- Hurricane Season -->
+			<Clear>8</Clear>
+			<Fog>3</Fog>
+			<Rain>5</Rain>
+			<DryThunderstorm>0.0</DryThunderstorm>
+			<RainyThunderstorm>5</RainyThunderstorm>
+			<FoggyRain>1</FoggyRain>
+			<SnowGentle>4</SnowGentle>
+			<SnowHard>4</SnowHard>
+			<Rainstorm>3</Rainstorm>
+			<Blizzard>0</Blizzard>
+			<Whiteout>1</Whiteout>
+			<Hurricane>5</Hurricane>
+			<Windy>2</Windy>
+          	<Cloudy>3</Cloudy>     
+        </spring>
+        <summer> <!-- Foggy -->
+         	<Clear>15</Clear>
+			<Fog>8</Fog>
+			<Rain>1</Rain>
+			<DryThunderstorm>2</DryThunderstorm>
+			<RainyThunderstorm>0</RainyThunderstorm>
+			<FoggyRain>3</FoggyRain>
+			<SnowGentle>4</SnowGentle>
+			<SnowHard>4</SnowHard>
+			<Rainstorm>3</Rainstorm>
+			<Blizzard>0</Blizzard>
+			<Whiteout>1</Whiteout>
+			<Hurricane>2</Hurricane>
+			<Windy>2</Windy>
+          	<Cloudy>7</Cloudy>
+        </summer>
+        <fall> <!-- Dry Season --> 
+          	<Clear>15</Clear>
+			<Fog>3</Fog>
+			<Rain>2</Rain>
+			<DryThunderstorm>2</DryThunderstorm>
+			<RainyThunderstorm>1</RainyThunderstorm>
+			<FoggyRain>1</FoggyRain>
+			<SnowGentle>4</SnowGentle>
+			<SnowHard>4</SnowHard>
+			<Rainstorm>1</Rainstorm>
+			<Blizzard>0</Blizzard>
+			<Whiteout>1</Whiteout>
+			<Hurricane>0.5</Hurricane>
+			<Windy>5</Windy>
+          	<Cloudy>2</Cloudy>
+        </fall>
+        <winter> <!-- Wet Season -->
+          	<Clear>8</Clear>
+			<Fog>1</Fog>
+			<Rain>5</Rain>
+			<DryThunderstorm>0.0</DryThunderstorm>
+			<RainyThunderstorm>5</RainyThunderstorm>
+			<FoggyRain>4</FoggyRain>
+			<SnowGentle>4</SnowGentle>
+			<SnowHard>4</SnowHard>
+			<Rainstorm>4</Rainstorm>
+			<Blizzard>0</Blizzard>
+			<Whiteout>1</Whiteout>
+			<Hurricane>2</Hurricane>
+			<Windy>2</Windy>
+          	<Cloudy>3</Cloudy>
+        </winter>
+      </li>
+    </value>
+  </Operation>
+	
+  <Operation Class="PatchOperationReplace">
+	<xpath>Defs/BiomeDef[defName="Tundra"]/description</xpath>
+	  	<value>
+		<description>These mostly-frozen regions have weak, rocky soil which bear very little vegetation. There are a few small animals interspersed with large herds of migratory grazers and their predators. It's a very dry biome and has a short growing season in the summer.</description>
+			</value>
+  </Operation> 	
+	
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/BiomeDef[defName = "Tundra"]</xpath>
+    <value>
+      <li Class="SeasonalWeather.SeasonalWeatherExtension">
+        <spring>
+			<Clear>12</Clear>
+			<Fog>3</Fog>
+			<Rain>2</Rain>
+			<DryThunderstorm>2</DryThunderstorm>
+			<RainyThunderstorm>0.5</RainyThunderstorm>
+			<FoggyRain>1</FoggyRain>
+			<SnowGentle>7</SnowGentle>
+			<SnowHard>7</SnowHard>
+			<Rainstorm>1</Rainstorm>
+			<Blizzard>7</Blizzard>
+			<Whiteout>4</Whiteout>
+			<Windy>4</Windy>
+          	<Cloudy>3</Cloudy>
+        </spring>
+        <summer>         
+			<Clear>15</Clear>
+			<Fog>3</Fog>
+			<Rain>2</Rain>
+			<DryThunderstorm>1</DryThunderstorm>
+			<RainyThunderstorm>0.5</RainyThunderstorm>
+			<FoggyRain>1</FoggyRain>
+			<SnowGentle>7</SnowGentle>
+			<SnowHard>7</SnowHard>
+			<Rainstorm>1</Rainstorm>
+			<Blizzard>2</Blizzard>	
+			<Whiteout>2</Whiteout>
+			<Windy>2</Windy>
+          	<Cloudy>3</Cloudy>
+        </summer>
+        <fall>          
+			<Clear>12</Clear>
+			<Fog>3</Fog>
+			<Rain>1</Rain>
+			<DryThunderstorm>2</DryThunderstorm>
+			<RainyThunderstorm>0.5</RainyThunderstorm>
+			<FoggyRain>1</FoggyRain>
+			<SnowGentle>7</SnowGentle>
+			<SnowHard>7</SnowHard>
+			<Rainstorm>0.5</Rainstorm>
+			<Blizzard>7</Blizzard>	
+			<Whiteout>1</Whiteout>
+			<Windy>1</Windy>
+          	<Cloudy>3</Cloudy>
+        </fall>
+        <winter>          
+			<Clear>8</Clear>
+			<Fog>3</Fog>
+			<Rain>2</Rain>
+			<DryThunderstorm>2</DryThunderstorm>
+			<RainyThunderstorm>0.5</RainyThunderstorm>
+			<FoggyRain>1</FoggyRain>
+			<SnowGentle>7</SnowGentle>
+			<SnowHard>7</SnowHard>
+			<Rainstorm>0</Rainstorm>
+			<Blizzard>7</Blizzard>		
+			<Whiteout>3</Whiteout>
+			<Windy>3</Windy>
+          	<Cloudy>3</Cloudy>
+        </winter>
+      </li>
+    </value>
+  </Operation>
+	  
+	  <Operation Class="PatchOperationReplace">
+	<xpath>Defs/BiomeDef[defName="ColdBog"]/description</xpath>
+	  	<value>
+		<description>Peat bogs are a wetland where the soil is comprised almost entirely of dead plant matter. Due to anaerobic and acidic conditions, decay is slow, which is how peat forms. Although peat can be a valueable source of fuel (and bog iron), the soil does not provide a place where vegetation can thrive; however, sphagnum moss is plentiful and can be harvested and used to improve soil conditions. Cranberries and cattail are a forageable food source, but fish do not thrive in the acidic bog water.</description>
+			</value>
+  </Operation> 	
+	
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/BiomeDef[defName = "ColdBog"]</xpath>
+    <value>
+       <li Class="SeasonalWeather.SeasonalWeatherExtension">
+        <spring>
+          	<Clear>18</Clear>
+			<Fog>6</Fog>
+			<Rain>2</Rain>
+			<RainyThunderstorm>1</RainyThunderstorm>
+			<FoggyRain>1</FoggyRain>
+			<SnowGentle>4</SnowGentle>
+			<SnowHard>4</SnowHard>
+			<Rainstorm>1</Rainstorm>
+			<Blizzard>4</Blizzard>
+			<Whiteout>3</Whiteout>
+			<Cloudy>1</Cloudy>
+        	<Windy>1</Windy>
+        </spring>
+        <summer>
+        	<Clear>18</Clear>
+			<Fog>8</Fog>
+			<Rain>3</Rain>
+			<RainyThunderstorm>1.5</RainyThunderstorm>
+			<FoggyRain>2</FoggyRain>
+			<SnowGentle>2</SnowGentle>
+			<SnowHard>1</SnowHard>
+			<Rainstorm>1.5</Rainstorm>
+			<Blizzard>0.5</Blizzard>
+			<Whiteout>0.5</Whiteout>
+			<Cloudy>1</Cloudy>
+        	<Windy>1</Windy>
+        </summer>
+        <fall>
+      		<Clear>20</Clear>
+			<Fog>4</Fog>
+			<Rain>2</Rain>
+			<DryThunderstorm>0.3</DryThunderstorm>
+			<RainyThunderstorm>1</RainyThunderstorm>
+			<FoggyRain>1</FoggyRain>
+			<SnowGentle>3</SnowGentle>
+			<SnowHard>2</SnowHard>
+			<Rainstorm>1</Rainstorm>
+			<Blizzard>2</Blizzard>
+			<Whiteout>1</Whiteout>
+			<Cloudy>1</Cloudy>
+        	<Windy>1</Windy>
+        </fall>
+        <winter>
+     		<Clear>18</Clear>
+			<Fog>3</Fog>
+			<Rain>2</Rain>
+			<RainyThunderstorm>1</RainyThunderstorm>
+			<FoggyRain>1</FoggyRain>
+			<SnowGentle>4</SnowGentle>
+			<SnowHard>4</SnowHard>
+			<Rainstorm>1</Rainstorm>
+			<Blizzard>4</Blizzard>
+			<Whiteout>3</Whiteout>
+			<Cloudy>1</Cloudy>
+        	<Windy>1</Windy>
+        </winter>
+      </li>
+    </value>
+  </Operation>
+</Patch>

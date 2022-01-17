@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<TerrainDef ParentName="NaturalTerrainBase">
+		<defName>SodLawn</defName>
+		<label>Lawn Sod</label>
+		<texturePath>Terrain/Surfaces/TerrainSodLawn</texturePath>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>320</renderPrecedence>
+		<pathCost>3</pathCost>
+		<statBases>
+			<Beauty>1</Beauty>
+			<Cleanliness>-0.25</Cleanliness>
+		</statBases>
+		<scatterType>None</scatterType>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<li>Diggable</li>
+		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
+		<fertility>0.0</fertility>
+		<takeFootprints>False</takeFootprints>
+	</TerrainDef>
+
+	<TerrainDef ParentName="NaturalTerrainBase">
+		<defName>SodPattern</defName>
+		<label>Grid Sod</label>
+		<texturePath>Terrain/Surfaces/TerrainSodPattern</texturePath>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>320</renderPrecedence>
+		<pathCost>3</pathCost>
+		<statBases>
+			<Beauty>1</Beauty>
+			<Cleanliness>-0.25</Cleanliness>
+		</statBases>
+		<scatterType>None</scatterType>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<li>Diggable</li>
+		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
+		<fertility>0.0</fertility>
+		<takeFootprints>False</takeFootprints>
+	</TerrainDef>
+
+	<TerrainDef ParentName="NaturalTerrainBase">
+		<defName>SodClover</defName>
+		<label>Clover Sod</label>
+		<texturePath>Terrain/Surfaces/TerrainSodClover</texturePath>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>320</renderPrecedence>
+		<pathCost>3</pathCost>
+		<statBases>
+			<Beauty>1</Beauty>
+			<Cleanliness>-0.25</Cleanliness>
+		</statBases>
+		<scatterType>None</scatterType>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<li>Diggable</li>
+		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
+		<fertility>0.0</fertility>
+		<takeFootprints>False</takeFootprints>
+	</TerrainDef>
+
+	
+</Defs>

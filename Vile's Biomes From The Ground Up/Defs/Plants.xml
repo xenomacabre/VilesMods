@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="TreewoodBase">
+		<defName>Plant_TreeSpruce</defName>
+		<label>spruce tree</label>
+		<description>The Black Spruce is a slow-growing conifer often found in cold taiga regions, and though short for a tree, the spruce will be the tallest thing you might find in a peat bog. Due to its small size, its wood its only useful as pulp or firewood.</description>
+		<graphicData>
+			<texPath>Things/Trees/TreeSpruce</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.12, 0.2, 0.12)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<Beauty>1</Beauty>
+			<Nutrition>0.75</Nutrition>
+		</statBases>
+		<plant>
+			<visualSizeRange>
+				<min>1.3</min>
+				<max>2.8</max>
+			</visualSizeRange>
+			<growDays>21</growDays>
+			<harvestWork>600</harvestWork>
+			<harvestYield>35</harvestYield>
+			<sowMinSkill>6</sowMinSkill>
+			<sowResearchPrerequisites>
+				<li>Trees_B3</li>
+			</sowResearchPrerequisites>
+		</plant>
+		<modExtensions>
+			<li Class="SK.ExtendedPlantGraphic">
+				<hasSnowyGraphic>true</hasSnowyGraphic>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="TreewoodBase">
+		<defName>Plant_TreePalmetto</defName>
+		<label>palmetto</label>
+		<description>A type of palm</description>
+		<graphicData>
+			<texPath>Things/Trees/TreePalmetto</texPath>
+			<shadowData>
+				<volume>(0.12, 0.2, 0.12)</volume>
+				<offset>(0,0,-0.38)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<Beauty>2</Beauty>
+			<Nutrition>0.75</Nutrition>
+		</statBases>
+		<plant>
+			<visualSizeRange>
+				<min>1.2</min>
+				<max>3.2</max>
+			</visualSizeRange>
+			<growDays>18</growDays>
+			<harvestWork>600</harvestWork>
+			<harvestYield>35</harvestYield>
+			<sowMinSkill>6</sowMinSkill>
+			<sowResearchPrerequisites>
+				<li>Trees_B3</li>
+			</sowResearchPrerequisites>
+		</plant>
+		<modExtensions>
+			<li Class="SK.ExtendedPlantGraphic">
+				<hasSnowyGraphic>true</hasSnowyGraphic>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="SK_DeciduousWildPlantBase">
+	<defName>Plant_Sedge</defName>
+		<label>sedge</label>
+		<description>Similar to wild grass, though its sharp edges make it harder to harvest.</description>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Beauty>0</Beauty>
+			<Nutrition>0.2</Nutrition>
+		</statBases>
+		<pathCost>20</pathCost>
+		<graphicData>
+			<texPath>Things/Plant/PlantSedge</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowDepth>0.5</hideAtSnowDepth>
+		<fillPercent>0</fillPercent>
+		<plant>
+			<!--<leaflessGraphicPath>Things/Plant/Sedge</leaflessGraphicPath>-->
+			<harvestWork>80</harvestWork>
+			<fertilityMin>0.1</fertilityMin>
+			<maxMeshCount>16</maxMeshCount>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>Hay</harvestedThingDef>
+			<harvestYield>3</harvestYield>
+			<visualSizeRange>
+				<min>0.5</min>
+				<max>1.6</max>
+			</visualSizeRange>
+			<growDays>3.5</growDays>
+			<topWindExposure>0.4</topWindExposure>
+			<fertilitySensitivity>1.2</fertilitySensitivity>
+			<!--<wildClusterRadius>10</wildClusterRadius>
+			<wildClusterWeight>75</wildClusterWeight>-->
+			<wildClusterWeight>50</wildClusterWeight>
+			<wildClusterRadius>3</wildClusterRadius>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_PlantBase">
+	<defName>Plant_Rush</defName>
+		<label>rush</label>
+		<description>Sedges have edges and rushes are round. Grasses have joints when the cops aren't around.</description>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Beauty>0</Beauty>
+			<Nutrition>0.3</Nutrition>
+		</statBases>
+		<pathCost>20</pathCost>
+		<graphicData>
+			<texPath>Things/Plant/PlantRush</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowDepth>0.7</hideAtSnowDepth>
+		<fillPercent>0</fillPercent>
+		<plant>
+			<!--<leaflessGraphicPath>Things/Plant/Sedge</leaflessGraphicPath>-->
+			<harvestWork>80</harvestWork>
+			<fertilityMin>0.12</fertilityMin>
+			<maxMeshCount>25</maxMeshCount>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>Hay</harvestedThingDef>
+			<harvestYield>3</harvestYield>
+			<visualSizeRange Inherit="False">
+				<min>0.4</min>
+				<max>0.9</max>
+			</visualSizeRange>
+			<growDays>3</growDays>
+			<topWindExposure>0.4</topWindExposure>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<wildClusterRadius>10</wildClusterRadius>
+			<wildClusterWeight>20</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_PlantBase">
+	<defName>Plant_SwampGrass</defName>
+		<label>swamp grass</label>
+		<description>Grass that thrives in wetness.</description>
+		<selectable>True</selectable>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Beauty>0</Beauty>
+			<Nutrition>0.3</Nutrition>
+		</statBases>
+		<thingClass>SK.Plant_Algae</thingClass>
+		<pathCost>20</pathCost>
+		<graphicData>
+			<texPath>Things/Plant/PlantSwampGrass</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowDepth>0.5</hideAtSnowDepth>
+		<fillPercent>0</fillPercent>
+		<plant>
+			<!--<leaflessGraphicPath>Things/Plant/Sedge</leaflessGraphicPath>-->
+			<harvestWork>80</harvestWork>
+			<fertilityMin>0.01</fertilityMin>
+			<maxMeshCount>25</maxMeshCount>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>Hay</harvestedThingDef>
+			<harvestYield>3</harvestYield>
+			<visualSizeRange>
+				<min>0.5</min>
+				<max>1.1</max>
+			</visualSizeRange>
+			<growDays>3.5</growDays>
+			<topWindExposure>0.1</topWindExposure>
+			<fertilitySensitivity>0.01</fertilitySensitivity>
+			<wildClusterRadius>3</wildClusterRadius>
+			<wildClusterWeight>50</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+	
+	<ThingDef ParentName="TreewoodBase">
+		<defName>Plant_TreeKapok</defName>
+		<label>kapok tree</label>
+		<description>A gigantic tropical tree.</description>
+		<graphicData>
+			<texPath>Things/Trees/TreeKapok/TreeKapok</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.14, 0.35, 0.13)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+			<!--<drawSize>(5,5)</drawSize>-->
+		</graphicData>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<statBases>
+			<Beauty>1</Beauty>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<plant>
+			<visualSizeRange>
+				<min>15</min>
+				<max>16</max>
+			</visualSizeRange>
+			<growDays>90</growDays>
+			<harvestWork>850</harvestWork>
+			<harvestYield>60</harvestYield>
+			<sowResearchPrerequisites>
+				<li>Trees_B2</li>
+			</sowResearchPrerequisites>
+		</plant>
+		<comps>
+			<li Class="RimFridge.CompProperties_SecondLayer">
+				<graphicData>
+					<texPath>Things/Trees/TreeKapok/TreeKapok_Top</texPath>
+					<graphicClass>Graphic_Single</graphicClass>					
+					<shaderType>Transparent</shaderType>
+					<drawSize>(18,18)</drawSize>
+				</graphicData>
+				<altitudeLayer>Skyfaller</altitudeLayer>
+			</li>
+		</comps>
+		<!--<modExtensions>
+			<li Class="SK.ExtendedPlantGraphic">
+				<hasSnowyGraphic>true</hasSnowyGraphic>
+			</li>
+		</modExtensions>-->
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_DeciduousPlantBase">
+		<defName>Plant_PricklyPear</defName>
+		<label>prickly pear cactus</label>
+		<description>A cactus. It has fruit. Prickly fruit. Kinda tastes like strawberry.</description>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Nutrition>0.35</Nutrition>
+			<Beauty>2</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/PlantPricklyPear</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.15, 0.2, 0.15)</volume>
+			</shadowData>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>100</pathCost>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<foodType>Plant</foodType>
+		</ingestible>
+		<plant>
+			<!--<maxMeshCount>4</maxMeshCount>-->
+			<harvestWork>200</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>RawPricklyPear</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<fertilityMin>0.35</fertilityMin>
+			<wildClusterWeight>55</wildClusterWeight>
+			<wildClusterRadius>4</wildClusterRadius>
+			<visualSizeRange>
+				<min>0.9</min>
+				<max>1.7</max>
+			</visualSizeRange>
+			<growDays>6</growDays>
+			<topWindExposure>0.3</topWindExposure>
+			<fertilitySensitivity>0.4</fertilitySensitivity>
+			<wildOrder>2</wildOrder>
+			<purpose>Food</purpose>
+		</plant>
+		<modExtensions>
+			<li Class="SK.ExtendedPlantGraphic">
+				<hasSpecialFruitGraphic>true</hasSpecialFruitGraphic>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_PlantBase">
+		<defName>Plant_Cranberry</defName>
+		<label>cranberry shrub</label>
+		<description>A wild evergreen plant that thrives in wet, acidic soil known for its tart berries.</description>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Nutrition>0.35</Nutrition>
+			<Beauty>2</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/PlantCranberry</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.15, 0.2, 0.15)</volume>
+			</shadowData>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>5</pathCost>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<foodType>Plant</foodType>
+		</ingestible>
+		<plant>
+			<maxMeshCount>4</maxMeshCount>
+			<harvestWork>200</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>RawCranberries</harvestedThingDef>
+			<harvestYield>10</harvestYield>
+			<fertilityMin>0.8</fertilityMin>
+			<wildClusterWeight>200</wildClusterWeight>
+			<wildClusterRadius>4</wildClusterRadius>
+			<visualSizeRange>
+				<min>1.0</min>
+				<max>1.3</max>
+			</visualSizeRange>
+			<growDays>6</growDays>
+			<topWindExposure>0.3</topWindExposure>
+			<fertilitySensitivity>0.1</fertilitySensitivity>
+			<wildOrder>2</wildOrder>
+			<purpose>Food</purpose>
+		</plant>
+		<modExtensions>
+			<li Class="SK.ExtendedPlantGraphic">
+				<hasSpecialFruitGraphic>true</hasSpecialFruitGraphic>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_PlantBase">
+		<defName>Plant_Blueberry</defName>
+		<label>blueberry bush</label>
+		<description>Blueberry bushes produce tiny, round, blue colored fruits called blueberries. Blueberries are tasty when eaten raw.</description>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Nutrition>0.35</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/PlantBlueberryBush/blueberryPlant</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.15, 0.2, 0.15)</volume>
+			</shadowData>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>30</pathCost>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<foodType>Plant</foodType>
+		</ingestible>
+		<plant>
+			<leaflessGraphicPath>Things/Plant/PlantBlueberryBush/blueberryPlant_Leafless</leaflessGraphicPath>
+			<sowMinSkill>7</sowMinSkill>
+			<sowResearchPrerequisites>
+				<li>Fruit_Plants_B1</li>
+			</sowResearchPrerequisites>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+			<harvestWork>150</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>Rawblueberry</harvestedThingDef>
+			<harvestYield>7</harvestYield>
+			<fertilityMin>0.35</fertilityMin>
+			<wildClusterWeight>60</wildClusterWeight>
+			<wildClusterRadius>4</wildClusterRadius>
+			<visualSizeRange>
+				<min>0.25</min>
+				<max>1.3</max>
+			</visualSizeRange>
+			<growDays>4.3</growDays>
+			<topWindExposure>0.1</topWindExposure>
+			<fertilitySensitivity>0.4</fertilitySensitivity>
+			<wildOrder>2</wildOrder>
+			<purpose>Food</purpose>
+		</plant>
+		<modExtensions>
+			<li Class="SK.ExtendedPlantGraphic">
+				<hasSpecialFruitGraphic>true</hasSpecialFruitGraphic>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_PlantBase">
+		<defName>Plant_PeatMoss</defName>
+		<label>peat moss</label>
+		<description>A moss found in acidic bogs which can be dried and used to improve soil.</description>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<Nutrition>0.05</Nutrition>
+			<Beauty>0</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/PeatMoss</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>5</pathCost>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<foodType>Plant</foodType>
+		</ingestible>
+		<plant>
+			<maxMeshCount>16</maxMeshCount>
+			<harvestWork>200</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>Fertilizer</harvestedThingDef>
+			<harvestYield>1</harvestYield>
+			<fertilityMin>0.2</fertilityMin>
+			<wildClusterWeight>50</wildClusterWeight>
+			<wildClusterRadius>30</wildClusterRadius>
+			<visualSizeRange>
+				<min>0.5</min>
+				<max>1.0</max>
+			</visualSizeRange>
+			<growDays>4</growDays>
+			<topWindExposure>0</topWindExposure>
+			<fertilitySensitivity>0.1</fertilitySensitivity>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+	<ThingDef ParentName="SK_PlantBase">
+		<defName>Plant_CaribouMoss</defName>
+		<label>caribou moss</label>
+		<description>A tundra moss.</description>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<Nutrition>0.05</Nutrition>
+			<Beauty>0</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/PlantCaribouMoss</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>5</pathCost>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<foodType>Plant</foodType>
+		</ingestible>
+		<plant>
+			<maxMeshCount>4</maxMeshCount>
+			<fertilityMin>0.12</fertilityMin>
+			<wildClusterWeight>999</wildClusterWeight>
+			<wildClusterRadius>30</wildClusterRadius>
+			<visualSizeRange>
+				<min>0.6</min>
+				<max>0.9</max>
+			</visualSizeRange>
+			<growDays>4</growDays>
+			<topWindExposure>0</topWindExposure>
+			<fertilitySensitivity>0.7</fertilitySensitivity>
+			<wildOrder>1</wildOrder>
+			<wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+		</plant>
+	</ThingDef>		
+	
+	<ThingDef ParentName="SK_PlantBase">
+		<defName>Plant_Bearberry</defName>
+		<label>bearberry</label>
+		<description>A low-growing tundra shrub.</description>
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<Nutrition>0.05</Nutrition>
+			<Beauty>0</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/PlantBearberry</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>5</pathCost>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<foodType>Plant</foodType>
+		</ingestible>
+		<plant>
+			<maxMeshCount>4</maxMeshCount>
+			<fertilityMin>0.12</fertilityMin>
+			<wildClusterWeight>40</wildClusterWeight>
+			<wildClusterRadius>40</wildClusterRadius>
+			<visualSizeRange>
+				<min>0.6</min>
+				<max>1.0</max>
+			</visualSizeRange>
+			<growDays>3.5</growDays>
+			<topWindExposure>0</topWindExposure>
+			<fertilitySensitivity>1.5</fertilitySensitivity>
+			<wildOrder>2</wildOrder>
+			<wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+		</plant>
+	</ThingDef>	
+			
+	<ThingDef ParentName="SK_PlantBase">
+		<defName>Plant_Cattail</defName>
+		<label>cattail</label>
+		<description>An edible plant which grows in shallow water.</description>
+		<thingClass>SK.Plant_Algae</thingClass>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Nutrition>0.35</Nutrition>
+			<Beauty>2</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/PlantCattail</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<!--<shadowData>
+				<volume>(0.15, 0.2, 0.15)</volume>
+			</shadowData>-->
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>5</pathCost>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<foodType>Plant</foodType>
+		</ingestible>
+		<plant>
+			<maxMeshCount>16</maxMeshCount>
+			<harvestWork>200</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>RawCattail</harvestedThingDef>
+			<harvestYield>5</harvestYield>
+			<fertilityMin>0.01</fertilityMin>
+			<wildClusterWeight>100</wildClusterWeight>
+			<wildClusterRadius>5</wildClusterRadius>
+			<visualSizeRange>
+				<min>0.7</min>
+				<max>1.3</max>
+			</visualSizeRange>
+			<growDays>5</growDays>
+			<topWindExposure>0.3</topWindExposure>
+			<fertilitySensitivity>0.1</fertilitySensitivity>
+			<wildOrder>2</wildOrder>
+			<purpose>Food</purpose>
+		</plant>
+		
+	</ThingDef>
+
+	<ThingDef ParentName="TreewoodBase">
+		<defName>Plant_TreeAcacia</defName>
+		<label>acacia tree</label>
+		<description>A common savanna tree.</description>
+		<graphicData>
+			<texPath>Things/Trees/TreeAcacia</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.14, 0.35, 0.13)</volume>
+				<offset>(0,0.15,0)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<Beauty>0</Beauty>
+			<Nutrition>1</Nutrition>
+		</statBases>
+		<plant>
+			<growDays>25</growDays>
+			<harvestWork>700</harvestWork>
+			<harvestYield>30</harvestYield>
+			<wildClusterRadius>6</wildClusterRadius>
+			<wildClusterWeight>50</wildClusterWeight>
+			<visualSizeRange>
+				<min>1.9</min>
+				<max>3.5</max>
+			</visualSizeRange>
+			<sowResearchPrerequisites>
+				<li>Trees_B2</li>
+			</sowResearchPrerequisites>
+		</plant>
+		<!--<modExtensions>
+			<li Class="SK.ExtendedPlantGraphic">
+				<hasSnowyGraphic>true</hasSnowyGraphic>
+			</li>
+		</modExtensions>-->
+	</ThingDef>
+
+	<ThingDef ParentName="SK_BushBase">
+		<defName>Plant_Juniper</defName>
+		<label>juniper shrub</label>
+		<description>A short coniferious shrub.</description>
+		<graphicData>
+			<texPath>Things/Plant/PlantShrubJuniper</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.22</Nutrition>
+		</statBases>
+		<fillPercent>0.1</fillPercent>
+		<plant>
+			<visualSizeRange>
+				<min>0.7</min>
+				<max>1.5</max>
+			</visualSizeRange>
+			<maxMeshCount>16</maxMeshCount>
+			<harvestWork>130</harvestWork>
+			<fertilityMin>0.2</fertilityMin>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>Kindling</harvestedThingDef>
+			<harvestMinGrowth>0.5</harvestMinGrowth>
+			<harvestFailable>false</harvestFailable>
+			<harvestYield>4</harvestYield>
+			<growDays>5</growDays>
+			<topWindExposure>0.3</topWindExposure>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<sowMinSkill>1</sowMinSkill>
+			<sowResearchPrerequisites>
+				<li>Animal_A1</li>
+			</sowResearchPrerequisites>
+			<wildOrder>2</wildOrder>
+		</plant>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_DeciduousTreeBase">
+		<defName>Plant_TreeDwarfWillow</defName>
+		<label>dwarf willow tree</label>
+		<description>A variety of willow that has adapted to growing in cold environments.</description>
+		<graphicData>
+			<texPath>Things/Trees/TreeWillow</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.2, 0.3, 0.13)</volume>
+				<offset>(0,0,-0.44)</offset>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<Beauty>2</Beauty>
+		</statBases>
+		<plant>
+			<growDays>12</growDays>
+			<leaflessGraphicPath>Things/Trees/TreeWillow_Leafless</leaflessGraphicPath>
+			<harvestWork>500</harvestWork>
+			<harvestYield>5</harvestYield>
+			<wildClusterRadius>17</wildClusterRadius>
+			<wildClusterWeight>25</wildClusterWeight>
+			<visualSizeRange>
+				<min>0.7</min>
+				<max>1.25</max>
+			</visualSizeRange>
+			<sowMinSkill>3</sowMinSkill>
+			<sowResearchPrerequisites>
+				<li>TreeSowing</li>
+			</sowResearchPrerequisites>
+		</plant>
+	</ThingDef>
+	
+	
+	
+</Defs>

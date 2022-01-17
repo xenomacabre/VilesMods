@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAttributeRemove">
+		<xpath>Defs/TerrainDef[defName="Marsh"]</xpath>
+		<attribute>ParentName</attribute>
+	</Operation>
+	<Operation Class="PatchOperationAttributeSet">	
+		<xpath>Defs/TerrainDef[defName="Marsh"]</xpath>
+		<attribute>ParentName</attribute>
+		<value>WaterBase</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName="Marsh"]</xpath>
+		<value>
+			 <waterDepthShader>Map/WaterDepth</waterDepthShader>
+		</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/TerrainDef[defName="Marsh"]/edgeType</xpath>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Marsh"]/label</xpath>
+		<value>
+			 <label>black water</label>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Marsh"]/texturePath</xpath>
+		<value>
+			 <texturePath>Terrain/Surfaces/BlackWaterRamp</texturePath>
+		</value>
+    </Operation>
+
+	<!-- RICH SOIL -->
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="SoilRich"]/texturePath</xpath>
+		<value>
+			 <texturePath>Terrain/Surfaces/RichSoil</texturePath>
+		</value>
+    </Operation>
+	
+	<!-- GRASSLAND SOIL -->
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="SavannaSoil"]/texturePath</xpath>
+		<value>
+			 <texturePath>Terrain/Surfaces/GrasslandSoil</texturePath>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="SavannaSoil"]/fertility</xpath>
+		<value>
+			 <fertility>1.2</fertility>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="SavannaSoil"]/label</xpath>
+		<value>
+			 <label>grassland soil</label>
+		</value>
+    </Operation>
+	
+	<!-- FERTILE SOIL -->
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Soil"]/texturePath</xpath>
+		<value>
+			 <texturePath>Terrain/Surfaces/FertileSoil</texturePath>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Soil"]/fertility</xpath>
+		<value>
+			 <fertility>1.1</fertility>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Soil"]/pathCost</xpath>
+		<value>
+			 <pathCost>10</pathCost>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Soil"]/label</xpath>
+		<value>
+			 <label>fertile soil</label>
+		</value>
+    </Operation>
+	
+	<!-- MARSHY SOIL -->
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="MarshyTerrain"]/texturePath</xpath>
+		<value>
+			 <texturePath>Terrain/Surfaces/MarshySoil</texturePath>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="MarshyTerrain"]/fertility</xpath>
+		<value>
+			 <fertility>0.8</fertility>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="MarshyTerrain"]/pathCost</xpath>
+		<value>
+			 <pathCost>20</pathCost>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="MarshyTerrain"]/label</xpath>
+		<value>
+			 <label>marshy soil</label>
+		</value>
+    </Operation>
+	
+	<!-- MOSSY SOIL -->
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="MossyTerrain"]/texturePath</xpath>
+		<value>
+			 <texturePath>Terrain/Surfaces/MossySoil</texturePath>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="MossyTerrain"]/fertility</xpath>
+		<value>
+			 <fertility>0.7</fertility>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="MossyTerrain"]/pathCost</xpath>
+		<value>
+			 <pathCost>12</pathCost>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="MossyTerrain"]/label</xpath>
+		<value>
+			 <label>mossy soil</label>
+		</value>
+    </Operation>
+		
+	<!-- MUCK -->
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Mud"]/texturePath</xpath>
+		<value>
+			 <texturePath>Terrain/Surfaces/Muck</texturePath>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Mud"]/fertility</xpath>
+		<value>
+			 <fertility>0.4</fertility>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Mud"]/pathCost</xpath>
+		<value>
+			 <pathCost>20</pathCost>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Mud"]/label</xpath>
+		<value>
+			 <label>muck</label>
+		</value>
+    </Operation>
+
+	<!-- ARID SOIL -->
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="MarginalSoil"]/texturePath</xpath>
+		<value>
+			 <texturePath>Terrain/Surfaces/AridSoil</texturePath>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="MarginalSoil"]/fertility</xpath>
+		<value>
+			 <fertility>0.5</fertility>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="MarginalSoil"]/pathCost</xpath>
+		<value>
+			 <pathCost>10</pathCost>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="MarginalSoil"]/label</xpath>
+		<value>
+			 <label>Arid Soil</label>
+		</value>
+    </Operation>	
+	
+	<!-- CRACKED CLAY -->
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="DustySoil"]/texturePath</xpath>
+		<value>
+			 <texturePath>Terrain/Surfaces/CrackedClay</texturePath>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="DustySoil"]/fertility</xpath>
+		<value>
+			 <fertility>0.4</fertility>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="DustySoil"]/pathCost</xpath>
+		<value>
+			 <pathCost>4</pathCost>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="DustySoil"]/label</xpath>
+		<value>
+			 <label>Cracked Clay</label>
+		</value>
+    </Operation>		
+	
+
+	
+	<!-- TURBULENT SOIL -->
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="PoorSoil"]/texturePath</xpath>
+		<value>
+			 <texturePath>Terrain/Surfaces/TurbulentSoil</texturePath>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="PoorSoil"]/fertility</xpath>
+		<value>
+			 <fertility>0.4</fertility>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="PoorSoil"]/pathCost</xpath>
+		<value>
+			 <pathCost>20</pathCost>
+		</value>
+    </Operation>	
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="PoorSoil"]/label</xpath>
+		<value>
+			 <label>turbulent Soil</label>
+		</value>
+    </Operation>	
+	
+	<!-- UNDEVELOPED SOIL -->
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="RockySoil"]/texturePath</xpath>
+		<value>
+			 <texturePath>Terrain/Surfaces/UndevelopedSoil</texturePath>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="RockySoil"]/fertility</xpath>
+		<value>
+			 <fertility>0.2</fertility>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="RockySoil"]/pathCost</xpath>
+		<value>
+			 <pathCost>16</pathCost>
+		</value>
+    </Operation>	
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="RockySoil"]/label</xpath>
+		<value>
+			 <label>undeveloped soil</label>
+		</value>
+    </Operation>	
+
+	<!-- GRAVEL -->
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Gravel"]/texturePath</xpath>
+		<value>
+			 <texturePath>Terrain/Surfaces/RoughGravel</texturePath>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Gravel"]/fertility</xpath>
+		<value>
+			 <fertility>0.3</fertility>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Gravel"]/pathCost</xpath>
+		<value>
+			 <pathCost>12</pathCost>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Gravel"]/label</xpath>
+		<value>
+			 <label>rough gravel</label>
+		</value>
+    </Operation>	
+	
+	<!-- DESERT SAND -->
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="SoftSand"]/texturePath</xpath>
+		<value>
+			 <texturePath>Terrain/Surfaces/DesertSand</texturePath>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="SoftSand"]/fertility</xpath>
+		<value>
+			 <fertility>0</fertility>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="SoftSand"]/pathCost</xpath>
+		<value>
+			 <pathCost>20</pathCost>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="SoftSand"]/label</xpath>
+		<value>
+			 <label>desert sand</label>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="SoftSand"]/scatterType</xpath>
+		<value>
+			<scatterType>Duney</scatterType>
+		</value>
+    </Operation>
+	
+	<!-- "regular" SAND -->
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Sand"]/texturePath</xpath>
+		<value>
+			 <texturePath>Terrain/Surfaces/CoarseSand</texturePath>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Sand"]/fertility</xpath>
+		<value>
+			 <fertility>0.1</fertility>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Sand"]/pathCost</xpath>
+		<value>
+			 <pathCost>20</pathCost>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Sand"]/label</xpath>
+		<value>
+			 <label>coarse sand</label>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Sand"]/scatterType</xpath>
+		<value>
+			<scatterType>None</scatterType>
+		</value>
+    </Operation>
+	
+	<!-- ICE -->
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Ice"]/scatterType</xpath>
+		<value>
+			<scatterType>None</scatterType>
+		</value>
+    </Operation>
+	
+
+</Patch>

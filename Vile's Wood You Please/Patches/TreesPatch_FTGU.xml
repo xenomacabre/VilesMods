@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vile's Biomes: From The Ground Up</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Plant_TreeWillow"]/plant/harvestYield</xpath>
+				<value>
+					<harvestYield>4</harvestYield> <!-- was 20 -->
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Plant_TreeDwarfWillow"]/plant/harvestYield</xpath>
+				<value>
+					<harvestYield>1</harvestYield> <!-- was 20 -->
+				</value>
+			</li>
+		</operations>
+	</match>
+    </Operation>
+
+</Patch>

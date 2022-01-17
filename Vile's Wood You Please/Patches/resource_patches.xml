@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<!-- MISC CHANGES -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WoodLog"]/label</xpath>
+		<value>
+			<label>firewood</label>
+		</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WoodLog"]/description</xpath>
+		<value>
+			<description>Logs split into large chunks which can be used as fuel that burns for quite a while.</description>
+		</value>
+    </Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WoodLog"]/graphicData/texPath</xpath>
+		<value>
+			<texPath>Things/VileWood/NewFirewood</texPath>
+		</value>
+    </Operation>
+	
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WoodLog"]/statBases/BurnDurationHours</xpath>
+		<value>
+			<BurnDurationHours>0.9</BurnDurationHours>
+		</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WoodLog"]/stuffProps/statOffsets</xpath>
+		<value>
+			<statOffsets>
+				<Beauty>-1</Beauty>
+			</statOffsets>
+			</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WoodLog"]/stuffProps/statFactors</xpath>
+		<value>
+			<statFactors>
+				<MaxHitPoints>0.58</MaxHitPoints>
+				<Flammability>1</Flammability>
+				<Beauty>-2</Beauty>
+				<WorkToMake>0.6</WorkToMake>
+				<WorkToBuild>0.6</WorkToBuild>
+				<MeleeWeapon_CooldownMultiplier>1.05</MeleeWeapon_CooldownMultiplier>
+				<MoveSpeed>0.75</MoveSpeed>
+				<MarketValue>0.5</MarketValue>
+				<BedRestEffectiveness>1.0</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.0</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
+				<DoorOpenSpeed>1.05</DoorOpenSpeed>
+				<MeleePenetrationFactor>0.4</MeleePenetrationFactor>
+				<Mass>0.35</Mass>
+			</statFactors>
+		</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Kindling"]/label</xpath>
+		<value>
+			<label>kindling</label>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Kindling"]/description</xpath>
+		<value>
+			<description>Dry twigs or thin pieces cut from firewood to be used as fuel in torches and other buildings.</description>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WoodPlank"]/label</xpath>
+		<value>
+			<label>plywood</label>
+		</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WoodPlank"]/description</xpath>
+		<value>
+			<description>Laminated veneers of different kinds of wood. Ugly, but sturdy.</description>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WoodPlank"]/statBases</xpath>
+		<value>
+			<statBases>
+				<MarketValue>1.1</MarketValue>
+				<Flammability>5.0</Flammability>
+				<DeteriorationRate>0</DeteriorationRate>
+				<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
+				<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
+				<StuffPower_Armor_Heat>0.05</StuffPower_Armor_Heat>
+				<StuffPower_Insulation_Cold>1.1</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>0.6</StuffPower_Insulation_Heat>
+				<SharpDamageMultiplier>0.25</SharpDamageMultiplier>
+				<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
+				<MaxBurningTempCelsius>500</MaxBurningTempCelsius>
+				<BurnDurationHours>0.8</BurnDurationHours>
+				<Mass>0.3</Mass>
+				<Bulk>0.3</Bulk>
+			</statBases>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WoodPlank"]/stuffProps/statFactors</xpath>
+		<value>
+			<statFactors>
+				<MaxHitPoints>0.8</MaxHitPoints>
+				<Flammability>1</Flammability>
+				<Beauty>0.8</Beauty>
+				<WorkToMake>0.9</WorkToMake>
+				<WorkToBuild>0.9</WorkToBuild>
+				<MeleeWeapon_CooldownMultiplier>1.1</MeleeWeapon_CooldownMultiplier>
+				<MoveSpeed>0.8</MoveSpeed>
+				<MarketValue>0.7</MarketValue>
+				<BedRestEffectiveness>1</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>0.9</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.6</WorkTableWorkSpeedFactor>
+				<DoorOpenSpeed>1.5</DoorOpenSpeed>
+				<MeleePenetrationFactor>0.3</MeleePenetrationFactor>
+				<Mass>0.5</Mass>
+			</statFactors>
+		</value>
+    </Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WoodPlank"]/stuffProps/statOffsets/Beauty</xpath>
+		<value>
+				<Beauty>-1</Beauty>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WoodPlank"]/stuffProps/color</xpath>
+		<value>
+			<color>(255,211,157)</color>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WoodPlank"]/stuffProps/stuffAdjective</xpath>
+		<value>
+			<stuffAdjective>plywood</stuffAdjective>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WoodPlank"]/stuffProps/categories</xpath>
+		<value>
+			<categories>
+				<li>EngineeredLumber</li>
+				<li>Woody</li>
+			</categories>
+		</value>
+    </Operation>
+
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WoodPlank"]/graphicData</xpath>
+		<value>
+		<graphicData>
+			<texPath>Things/VileWood/Plywood</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(255,211,157)</color>
+		</graphicData>
+			</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WoodPlank"]/thingCategories</xpath>
+		<value>
+			<thingCategories>
+				<li>EngineeredLumber</li>
+			</thingCategories>
+		</value>
+    </Operation>
+	
+	
+</Patch>

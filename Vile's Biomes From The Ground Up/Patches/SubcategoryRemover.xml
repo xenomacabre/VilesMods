@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="RockyDirt-Sand" 
+					or defName="RockyDirt-Gravel" 
+					or defName="Sand-SoilF"
+					or defName="Sand-Gravel" 					
+					or defName="Sand-RockyDirt"
+					or defName="Sand-WaterShallow"
+					or defName="Gravel-SoilF"
+					or defName="Gravel-Sand"
+					or defName="Gravel-RockyDirt"
+					or defName="SoilF-RockyDirt"
+					or defName="SoilF-Sand"
+					or defName="SoilF-Gravel"
+					or defName="SoilF-Marsh"
+					or defName="SoilF-PackedDirt"
+					or defName="SoilMarshy-SoilF"
+					or defName="SoilMarshy-RockyDirt"
+					or defName="SoilMarshy-Marsh"
+					or defName="Marsh-SoilMarshy"
+					or defName="Marsh-WaterShallow"
+					or defName="WaterShallow-Sand"
+					or defName="WaterShallow-Marsh"
+					or defName="WaterShallow-WaterDeep"
+					or defName="RiverDeposit-Marsh"
+					
+					or defName="PoorSoil-MarginalSoil"
+					or defName="MarginalSoil-Soil"
+					or defName="LichenCoveredDirt-Soil"
+					or defName="PackedDirt-SoilF"
+					or defName="SoilF-SoilRich"
+					
+					or defName="Salt-RockyDirt"	
+					or defName="Stone-RockyDirt"
+					or defName="WaterDeep-WaterShallow"
+					or defName="Ice-WaterShallow"
+					or defName="Wasteland-Gravel"		
+					
+					or defName="Peat-WaterShallow"
+					or defName="Peat-SoilRich"
+					or defName="Peat-SavannaSoil"
+					or defName="SoftClay-WaterShallow"
+					or defName="SoftClay-SoilRich"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--
+	or defName="Stone-Topsoil"
+	or defName="Topsoil-DirtFert"
+	or defName="SoilRich-SoilTilled"
+	-->
+	
+</Patch>

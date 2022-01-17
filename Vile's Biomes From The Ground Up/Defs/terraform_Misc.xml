@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+
+	
+	<ThingDef ParentName="RFF_TerraformBasicBase">
+		<defName>Terraform_ToPackedDirt</defName>
+		<label>Packed dirt</label>
+		<description>Rudimentary raods. Roadimentary, even.</description>
+		<uiIconPath>UI/Icons/Terraforming/PackedDirt</uiIconPath>
+		<modExtensions>
+			<li Class="FertileFields.Terrain">
+				<above>
+					<li>Soil</li>
+					<li>SavannaSoil</li>
+					<li>SoilRich</li>
+					<li>MossyTerrain</li>
+					<li>VolcanicSoil</li>
+					<li>RedClaySoil</li>
+					<li>LeachedSoil</li>
+					<li>WeakSoil</li>
+				</above>
+				<result>PackedDirt</result>
+			</li>
+		</modExtensions>
+		<statBases>
+			<WorkToBuild>760</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	
+	
+	
+	<!--MISC -->
+	<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_SandToDesertSand</defName>
+	<label>Coarse Sand To Desert Sand</label>
+	<description>Fine grade sand is harder to walk on and build on.\n +4 Gravel</description>
+	<uiIconPath>UI/Icons/Terraforming/DesertSand</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>Sand</li>
+			</above>
+			<result>SoftSand</result>
+			<products>
+				<CrushedStone>4</CrushedStone>
+			</products>
+		</li>
+	</modExtensions>
+	<costList>
+		<SandResource>4</SandResource>
+	</costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>		
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_MakeDesertPavement</defName>
+	<label>Fabricate Desert Pavement</label>
+	<description>There are several theories as to how desert pavement is formed. You can also do it yourself if you want.</description>
+	<uiIconPath>UI/Icons/Terraforming/DesertPavement</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>Sand</li>
+				<li>SoftSand</li>
+			</above>
+			<result>DesertPavement</result>
+		</li>
+	</modExtensions>
+	<costList>
+		<CrushedStone>12</CrushedStone>
+	</costList>
+	<statBases>
+		<WorkToBuild>1920</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>	 
+	
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_IceToFrozenSnow</defName>
+	<label>Ice to Frozen Snow</label>
+	<description>Frozen snow is easier to walk on than ice and makes decent foundation.</description>
+	<uiIconPath>UI/Icons/Terraforming/FrozenSnow</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>Ice</li>
+				<li>IceClear</li>
+			</above>
+			<result>FrozenSnow</result>
+		</li>
+	</modExtensions>
+	<costList></costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+</ThingDef>	 
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_ResurfaceIce</defName>
+	<label>Resurface Ice</label>
+	<description>If you had some ice skates, it wouldn't be so hard to traverse. Looks pretty though.</description>
+	<uiIconPath>UI/Icons/Terraforming/IceClear</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>Ice</li>
+				<li>FrozenSnow</li>
+			</above>
+			<result>IceClear</result>
+		</li>
+	</modExtensions>
+	<costList></costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+</ThingDef>	 
+		
+	
+	
+</Defs>

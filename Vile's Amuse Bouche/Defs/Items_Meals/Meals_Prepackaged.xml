@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- COMFORT FOOD-->
+<Defs>
+	<ThingDef ParentName="MealBase">
+		<defName>MealSurvivalPack</defName>
+		<label>packaged survival meal</label>
+		<description>A high-quality packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling.</description>
+		<graphicData>
+		  <texPath>Things/Item/Meal128/MRE</texPath>
+		  <graphicClass>Graphic_MealVariants</graphicClass>
+		</graphicData>
+		<statBases>
+		  <DeteriorationRate>0.25</DeteriorationRate>
+		  <MarketValue>24</MarketValue>
+		  <Mass>0.3</Mass>
+		  <WorkToMake>450</WorkToMake>
+		  <Nutrition>0.9</Nutrition>
+		</statBases>
+		<ingestible>
+		  <preferability>MealSimple</preferability>
+		  <optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+		  <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+		  <ingestEffect>EatVegetarian</ingestEffect>
+		  <ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+		<allowedArchonexusCount>40</allowedArchonexusCount>
+  	</ThingDef>
+
+
+</Defs>

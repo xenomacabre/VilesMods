@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="MakePieBlueberry"]/fixedIngredientFilter/thingDefs</xpath>
+			<value>
+				<li>Rawblueberry</li>	
+				<li>RawCranberries</li>
+			</value>
+	</Operation>
+</Patch>

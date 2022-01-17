@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<ModMetaData>
+<name>Vile's Hardcore Renovations</name>
+<author>VileHeathen</author>
+<supportedVersions>
+	<li>1.3</li>
+</supportedVersions>
+<packageId>xenomacabre.HCSKwallsandfloorsreduxeno</packageId>
+<modDependencies>
+	<li>
+		<packageId>skyarkhangel.FencesAndFloorsVileUpdate</packageId>
+		<displayName>HSK Fences and Floors: Vile's Patch</displayName>
+		<downloadUrl>https://github.com/xenomacabre/VilesMods</downloadUrl>
+	</li>
+	<li>
+		<packageId>skyarkhangel.realisticterraform</packageId>
+		<displayName>HMC Realistic Terraforming</displayName>
+		<downloadUrl>https://github.com/skyarkhangel/Hardcore-SK</downloadUrl>
+	</li>
+	<li>
+		<packageId>ViTech.HCSKWood</packageId>
+		<displayName>Wood You Please</displayName>
+		<downloadUrl>https://github.com/xenomacabre/VilesMods</downloadUrl>
+	</li>
+	
+</modDependencies>
+<loadBefore>
+</loadBefore>
+<loadAfter>
+	<li>skyarkhangel.FencesAndFloorsVileUpdate</li>
+	<li>ViTech.HCSKWood</li>
+</loadAfter>
+<incompatibleWith>
+	<li>skyarkhangel.FencesAndFloors</li>
+</incompatibleWith>
+<description>
+Adds lots of floors and hand-drawn walls, doors, and more. Requires Vile's Wood You Please mod, which integrates different wood types from tree species. For instance, oak hardwood floors are different than pine hardwood floors. 
+	
+Update 4.1 (Biomes FTGU support) - 1/17/2021
+	Natural terrain textures are removed and are now part of Biomes: From The Ground Up, which overhauls and retextures biomes.
+	
+  </description> 
+</ModMetaData>

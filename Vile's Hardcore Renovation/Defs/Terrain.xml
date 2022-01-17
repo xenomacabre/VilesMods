@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	   <TerrainDef ParentName="TerrainRoadBase">
+		<defName>EarthenFloor</defName>
+		<label>earthen floor</label>
+		 <texturePath>Terrain/Surfaces/EarthenFloor</texturePath>
+			<edgeType>FadeRough</edgeType>
+			<renderPrecedence>360</renderPrecedence>
+			<pathCost>0</pathCost>
+			<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+			<statBases>
+			  <Beauty>-1</Beauty>
+			  <Cleanliness>-0.4</Cleanliness>
+			</statBases>
+			<scatterType>Rocky</scatterType>
+			<affordances>
+			  <li>Light</li>
+			  <li>Medium</li>
+			  <li>Heavy</li>
+			  <li>Diggable</li>
+			</affordances>
+			<generatedFilth>Filth_Dirt</generatedFilth>
+			<fertility>0.0</fertility>
+		<!--<researchPrerequisites><li>Wooden_floor_A2</li></researchPrerequisites>-->
+	</TerrainDef>
+	
+</Defs>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+	
+	<!-- DANDELION -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Dandelion"]/plant/wildClusterWeight</xpath>
+		<value>
+			<wildClusterWeight>75</wildClusterWeight>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Dandelion"]/plant/wildClusterRadius</xpath>
+		<value>
+			<wildClusterRadius>15</wildClusterRadius>
+		</value>
+    </Operation>
+	
+	<!-- ANTHURIUM -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Anthurium"]/plant/visualSizeRange</xpath>
+		<value>
+			<visualSizeRange Inherit="False">
+				<min>0.35</min>
+				<max>1.0</max>
+			</visualSizeRange>
+		</value>
+    </Operation>
+</Patch>
+
+
+

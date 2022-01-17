@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	
+	<!--taiga archipelago -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/BiomeDef[defName="BorealArchipelago"]/terrainsByFertility</xpath>
+		<value>
+			<terrainsByFertility>
+				<li>
+					<terrain>WeakSoil</terrain>
+					<min>-999</min>
+					<max>0.4</max>
+				</li>
+				<li>
+					<terrain>MossyTerrain</terrain>
+					<min>0.6</min>
+					<max>999</max>
+				</li>
+			</terrainsByFertility>
+		</value>
+    </Operation>	
+	
+	<!-- Bog Archipelago -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/BiomeDef[defName="ColdBogArchipelago"]/terrainsByFertility</xpath>
+		<value>
+		<terrainsByFertility>
+				<li>
+					<terrain>MossyTerrain</terrain>
+					<min>-999</min>
+					<max>0.2</max>
+				</li>
+				<li>
+					<terrain>MarshyTerrain</terrain>
+					<min>0.20</min>
+					<max>0.50</max>
+				</li>
+				<li>
+					<terrain>SoilRich</terrain>
+					<min>0.50</min>
+					<max>0.65</max>
+				</li>
+				<li>
+					<terrain>Mud</terrain>
+					<min>0.65</min>
+					<max>0.85</max>
+				</li>
+				<li>
+					<terrain>BogWater</terrain>
+					<min>0.85</min>
+					<max>999</max>
+				</li>
+			</terrainsByFertility>
+		</value>
+    </Operation>	
+
+			
+<!-- Desert Archipelago -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/BiomeDef[defName="DesertArchipelago"]/terrainsByFertility</xpath>
+		<value>
+		<terrainsByFertility>
+			<li>
+				<terrain>SoftSand</terrain>
+				<min>-999</min>
+				<max>0.45</max>
+			</li>
+			<li>
+				<terrain>MarginalSoil</terrain>
+				<min>0.45</min>
+				<max>0.90</max>
+			</li>
+			<li>
+				<terrain>SavannaSoil</terrain>
+				<min>0.90</min>
+				<max>999</max>
+			</li>
+		</terrainsByFertility>
+		</value>
+    </Operation>	
+	
+	<!-- Temperate Archipelago -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/BiomeDef[defName="TemperateArchipelago"]/terrainsByFertility</xpath>
+		<value>
+		<terrainsByFertility>
+				<li>
+					<terrain>Soil</terrain>
+					<min>-999</min>
+					<max>0.6</max>
+				</li>
+				<li>
+					<terrain>RedClaySoil</terrain>
+					<min>0.6</min>
+					<max>999</max>
+				</li>
+			</terrainsByFertility>
+		</value>
+    </Operation>	
+	
+	<!-- Swamp Archipelago -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/BiomeDef[defName="TemperateSwampArchipelago"]/terrainsByFertility</xpath>
+		<value>
+		<terrainsByFertility>
+				<li>
+					<terrain>MarshyTerrain</terrain>
+					<min>-999</min>
+					<max>0.65</max>
+				</li>
+				<li>
+					<terrain>SoilRich</terrain>
+					<min>0.65</min>
+					<max>0.80</max>
+				</li>
+				<li>
+					<terrain>Mud</terrain>
+					<min>0.80</min>
+					<max>0.85</max>
+				</li>
+				<li>
+					<terrain>SwampWater</terrain>
+					<min>0.85</min>
+					<max>999</max>
+				</li>
+			</terrainsByFertility>
+		</value>
+    </Operation>	
+	
+	<!-- Tropical Archipelago -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/BiomeDef[defName="TropicalArchipelago"]/terrainsByFertility</xpath>
+		<value>
+			<terrainsByFertility>
+				<li>
+					<terrain>LeachedSoil</terrain>
+					<min>-999</min>
+					<max>0.65</max>
+				</li>
+				<li>
+					<terrain>RedClaySoil</terrain>
+					<min>0.65</min>
+					<max>999</max>
+				</li>
+			</terrainsByFertility> 
+		</value>
+    </Operation>	
+	
+	<!-- Tropical Swamp Archipelago -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/BiomeDef[defName="TropicalSwampArchipelago"]/terrainsByFertility</xpath>
+		<value>
+			<terrainsByFertility>
+				<li>
+					<terrain>LeachedSoil</terrain>
+					<min>-999</min>
+					<max>0.3</max>
+				</li>
+				<li>
+					<terrain>MarshyTerrain</terrain>
+					<min>0.3</min>
+					<max>0.8</max>
+				</li>
+				<li>
+					<terrain>SwampWater</terrain>
+					<min>0.8</min>
+					<max>999</max>
+				</li>
+			</terrainsByFertility> 
+		</value>
+    </Operation>	
+	<!-- Tundra Archipelago -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/BiomeDef[defName="TundraArchipelago"]/terrainsByFertility</xpath>
+		<value>
+			<terrainsByFertility>
+				<li>
+					<terrain>MossyTerrain</terrain>
+					<min>-999</min>
+					<max>0.5</max>
+				</li>
+				<li>
+					<terrain>PoorSoil</terrain>
+					<min>0.5</min>
+					<max>999</max>
+				</li>
+			</terrainsByFertility>
+		</value>
+    </Operation>	
+</Patch>

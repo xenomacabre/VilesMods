@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	
+	
+	
+	<ThingDef ParentName="RFF_TerraformBasicBase">
+		<defName>Terraform_SodLawn</defName>
+		<label>Lawn Sod</label>
+		<description>Rich/Grassland/Volcanic/Fertile Soil\n Decorative grass lawn. Generically modified to stay green all year-round and maintenance-free.</description>
+		<uiIconPath>UI/Icons/Terraforming/TerrainSodLawn</uiIconPath>
+		<modExtensions>
+			<li Class="FertileFields.Terrain">
+				<above>
+					<li>SavannaSoil</li>
+					<li>VolcanicSoil</li>
+					<li>Soil</li>
+					<li>SoilRich</li>
+				</above>
+				<result>SodLawn</result>
+			</li>
+		</modExtensions>
+		<statBases>
+			<WorkToBuild>700</WorkToBuild>
+		</statBases>
+		<costList>
+		  <Hay>5</Hay>
+		  <Seed_Haygrass>1</Seed_Haygrass>
+ 	   </costList>
+	</ThingDef>
+	
+	<ThingDef ParentName="RFF_TerraformBasicBase">
+		<defName>Terraform_SodPattern</defName>
+		<label>Lawn Sod (Grid)</label>
+		<description>Rich/Grassland/Volcanic/Fertile Soil\n Decorative grass lawn. Generically modified to stay green all year-round and maintenance-free.</description>
+		<uiIconPath>UI/Icons/Terraforming/TerrainSodPattern</uiIconPath>
+		<modExtensions>
+			<li Class="FertileFields.Terrain">
+				<above>
+					<li>SavannaSoil</li>
+					<li>VolcanicSoil</li>
+					<li>Soil</li>
+					<li>SoilRich</li>
+				</above>
+				<result>SodPattern</result>
+			</li>
+		</modExtensions>
+		<statBases>
+			<WorkToBuild>700</WorkToBuild>
+		</statBases>
+		<costList>
+		  <Hay>5</Hay>
+		  <Seed_Haygrass>1</Seed_Haygrass>
+ 	   </costList>
+	</ThingDef>
+	
+	<ThingDef ParentName="RFF_TerraformBasicBase">
+		<defName>Terraform_SodClover</defName>
+		<label>Clover Sod</label>
+		<description>Rich/Grassland/Volcanic/Fertile Soil\n Decorative clover lawn. Generically modified to stay green all year-round and maintenance-free.</description>
+		<uiIconPath>UI/Icons/Terraforming/TerrainSodClover</uiIconPath>
+		<modExtensions>
+			<li Class="FertileFields.Terrain">
+				<above>
+					<li>SavannaSoil</li>
+					<li>VolcanicSoil</li>
+					<li>Soil</li>
+					<li>SoilRich</li>
+				</above>
+				<result>SodClover</result>
+			</li>
+		</modExtensions>
+		<statBases>
+			<WorkToBuild>700</WorkToBuild>
+		</statBases>
+		<costList>
+		  <Hay>5</Hay>
+		  <Seed_Haygrass>1</Seed_Haygrass>
+ 	   </costList>
+	</ThingDef>
+	
+	 
+	
+	<ThingDef ParentName="RFF_TerraformBasicBase">
+		<defName>Terraform_RemoveSod</defName>
+		<label>Remove Sod</label>
+		<description>Dig up sod to reveal plantable, fertile soil.</description>
+		<uiIconPath>UI/Icons/Terraforming/FertileSoil</uiIconPath>
+		<modExtensions>
+			<li Class="FertileFields.Terrain">
+				<above>
+					<li>SodLawn</li>
+					<li>SodPattern</li>
+					<li>SodClover</li>
+				</above>
+				<result>Soil</result>
+			</li>
+		</modExtensions>
+		<statBases>
+			<WorkToBuild>700</WorkToBuild>
+		</statBases>
+	</ThingDef>
+	
+	
+	
+	
+	
+</Defs>

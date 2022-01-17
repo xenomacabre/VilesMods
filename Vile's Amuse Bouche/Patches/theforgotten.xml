@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>HCSK- The Forgotten</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+            			<xpath>/Defs/RecipeDef[defName="CookGruel"]/ingredients/li/filter/thingDefs</xpath>
+            				<value>
+								<li>Rawoats</li>
+            				</value>
+        			</li>
+		
+				<li Class="PatchOperationAdd">
+            			<xpath>/Defs/RecipeDef[defName="CookGruel"]/fixedIngredientFilter/thingDefs</xpath>
+            				<value>
+								<li>Rawoats</li>
+            				</value>
+        			</li>
+		
+				<li Class="PatchOperationAdd">
+            			<xpath>/Defs/RecipeDef[defName="CookGruel"]/defaultIngredientFilter/thingDefs</xpath>
+            				<value>
+								<li>Rawoats</li>
+            				</value>
+				</li>
+				
+		</operations>
+	</match>
+    </Operation>	
+</Patch>
+

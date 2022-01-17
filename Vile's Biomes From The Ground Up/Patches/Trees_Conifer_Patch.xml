@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+<!-- CYPRESS -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreeCypress"]/modExtensions/li[@Class="SK.ExtendedPlantGraphic"]/hasSnowyGraphic</xpath>
+		<value>
+			<hasSnowyGraphic>false</hasSnowyGraphic>
+		</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreeCypress"]/graphicData/shaderParameters</xpath>
+		<value>
+			<shaderParameters Inherit="False">
+				<_FallColorSource>(0.40, 0.5652, 0.2451)</_FallColorSource>
+				<_FallColorDestination>/Other/VileTreeFallGradient</_FallColorDestination>
+				<_FallTransitionRange>(0.02, 0.15)</_FallTransitionRange>
+				<_FallBehaviorEnabled>0</_FallBehaviorEnabled>
+			</shaderParameters>
+		</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreeCypress"]/plant/visualSizeRange</xpath>
+		<value>
+			<visualSizeRange Inherit="False">
+				<min>2.2</min>
+				<max>4.4</max>
+			</visualSizeRange>
+		</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreeCypress"]/plant/leaflessGraphicPath</xpath>
+		<value>
+			<leaflessGraphicPath>Things/Trees/TreeCypress_Leafless</leaflessGraphicPath>
+		</value>
+    </Operation>
+	
+	<!--
+	<Operation Class="PatchOperationAttributeRemove">
+		<xpath>/Defs/ThingDef[defName="Plant_TreeCypress"]</xpath>
+		<attribute>ParentName</attribute>
+	</Operation>
+	<Operation Class="PatchOperationAttributeSet">	
+		<xpath>/Defs/ThingDef[defName="Plant_TreeCypress"]</xpath>
+		<attribute>ParentName</attribute>
+		<value>TreewoodBase</value>
+	</Operation>
+	-->
+	
+<!-- REDWOOD -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PlantTreeRedwood"]/plant/visualSizeRange</xpath>
+		<value>
+			<visualSizeRange Inherit="False">
+				<min>5</min>
+				<max>8</max>
+			</visualSizeRange>
+		</value>
+    </Operation>
+
+<!-- PINE -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreePine"]/plant/visualSizeRange</xpath>
+		<value>
+			<visualSizeRange Inherit="False">
+				<min>1.5</min>
+				<max>5.0</max>
+			</visualSizeRange>
+		</value>
+    </Operation>
+	
+	
+
+</Patch>
+		
+		

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+<!--GATHER......-->
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_GatherNutrientsFromRichSoil</defName>
+	<label>nutrients from rich soil</label>
+	<description>+4 Clay\n +4 Silt\n +6 Compost\n +6 Fertilizer\n +2 Peat</description>
+	<uiIconPath>UI/Icons/Terraforming/UndevelopedSoil</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>SoilRich</li>
+			</above>
+			<result>RockySoil</result>
+			<products>
+				<SoftClay>4</SoftClay>
+				<Dirt>4</Dirt>
+				<Compost>6</Compost>
+				<Fertilizer>6</Fertilizer>
+				<Peat>2</Peat>
+			</products>
+		</li>
+	</modExtensions>
+	<costList>		
+	</costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>	 
+	
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_GatherClay</defName>
+	<label>clay</label>
+	<description>Cracked Clay/Red Clay Soil\n +4 Silt\n +20 Clay\n +4 Compost\n +2 Fertilizer</description>
+	<uiIconPath>UI/Icons/Terraforming/UndevelopedSoil</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>DustySoil</li>
+				<li>RedClaySoil</li>
+			</above>
+			<result>RockySoil</result>
+			<products>
+				<Dirt>4</Dirt>
+				<SoftClay>20</SoftClay>
+				<Compost>4</Compost>
+				<Fertilizer>2</Fertilizer>
+			</products>
+		</li>
+	</modExtensions>
+	<costList></costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>	 
+	
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_GatherSilt</defName>
+	<label>Silt</label>
+	<description>Marshy/Mossy Soil\n +10 Silt\n +4 Clay\n +2 Peat</description>
+	<uiIconPath>UI/Icons/Terraforming/UndevelopedSoil</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>MarshyTerrain</li>
+				<li>MossyTerrain</li>
+			</above>
+			<result>RockySoil</result>
+			<products>
+				<Dirt>10</Dirt>
+				<SoftClay>4</SoftClay>
+				<Peat>2</Peat>
+			</products>
+		</li>
+	</modExtensions>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>	 
+
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_GatherSand</defName>
+	<label>Sand</label>
+	<description>Coarse/Desert Sand\n +20 Sand\n +8 Clay</description>
+	<uiIconPath>UI/Icons/Terraforming/UndevelopedSoil</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>Sand</li>
+				<li>SoftSand</li>
+			</above>
+			<result>RockySoil</result>
+			<products>
+				<SandResource>20</SandResource>
+				<SoftClay>8</SoftClay>
+			</products>
+		</li>
+	</modExtensions>
+	<costList>		
+	</costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>	 
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_GatherSandFromSandySoil</defName>
+	<label>Sand from Sandy Soil</label>
+	<description>Cracked Clay/Leached/Weak Soil\n +10 Sand\n +4 Clay</description>
+	<uiIconPath>UI/Icons/Terraforming/UndevelopedSoil</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>MarginalSoil</li>
+				<li>LeachedSoil</li>
+				<li>WeakSoil</li>
+			</above>
+			<result>RockySoil</result>
+			<products>
+				<SandResource>10</SandResource>
+				<SoftClay>4</SoftClay>
+			</products>
+		</li>
+	</modExtensions>
+	<costList>		
+	</costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>	 
+	
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_GatherGravel</defName>
+	<label>Gravel</label>
+	<description>Gravel/Desert Pavement\n +20 Gravel</description>
+	<uiIconPath>UI/Icons/Terraforming/UndevelopedSoil</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>Gravel</li>
+				<li>DesertPavement</li>
+			</above>
+			<result>RockySoil</result>
+			<products>
+				<CrushedStone>20</CrushedStone>
+			</products>
+		</li>
+	</modExtensions>
+	<costList>		
+	</costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>
+	<!--
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_GatherGravelFromRockySoil</defName>
+	<label>Gravel from Rocky Soil</label>
+	<description>Muck/Peaty Soil to Fertile Soil.\n\n </description>
+	<uiIconPath>UI/Icons/Terraforming/Peat-WaterShallow</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>PoorSoil</li>
+			</above>
+			<result>RockySoil</result>
+			<products>
+				<CrushedStone>8</CrushedStone>
+				<Peat>4</Peat>
+				<Compost>4</Compost>
+			</products>
+		</li>
+	</modExtensions>
+	<costList>		
+	</costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>	
+-->
+<!-- HARVEST PEAT FROM...-->
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_GatherPeatFromPeatSoil</defName>
+	<label>peat soil (bog)</label>
+	<description>To Undeveloped Soil\n +20 Peat</description>
+	<uiIconPath>UI/Icons/Terraforming/ExtractPeat</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>PeatSoil</li>
+			</above>
+			<result>RockySoil</result>
+			<products>
+				<Peat>24</Peat>
+			</products>
+		</li>
+	</modExtensions>
+	<costList>		
+	</costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>	 
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_GatherPeatFromMuckyPeat</defName>
+	<label>mucky peat (Swamp)</label>
+	<description>To Undeveloped Soil\n +16 Peat\n +4 Compost</description>
+	<uiIconPath>UI/Icons/Terraforming/ExtractPeat</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>MuckyPeat</li>
+			</above>
+			<result>RockySoil</result>
+			<products>
+				<Peat>16</Peat>
+				<Compost>4</Compost>
+				<Fertilizer>2</Fertilizer>
+			</products>
+		</li>
+	</modExtensions>
+	<costList>		
+	</costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_GatherPeatFromMuck</defName>
+	<label>muck (Tropical)</label>
+	<description>To Undeveloped Soil\n +12 Peat\n +8 Compost</description>
+	<uiIconPath>UI/Icons/Terraforming/ExtractPeat</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>Mud</li>
+			</above>
+			<result>RockySoil</result>
+			<products>
+				<Peat>12</Peat>
+				<Compost>8</Compost>
+				<Fertilizer>4</Fertilizer>
+			</products>
+		</li>
+	</modExtensions>
+	<costList>		
+	</costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>
+
+</Defs>

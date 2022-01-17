@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	
+	<!-- tropical swamp -->
+
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/BiomeDef[defName="TropicalSwamp"]/terrainsByFertility</xpath>
+		<value>
+			<terrainsByFertility>
+				<li>
+					<terrain>LeachedSoil</terrain>
+					<min>-999</min>
+					<max>0.3</max>
+				</li>
+				<li>
+					<terrain>MarshyTerrain</terrain>
+					<min>0.3</min>
+					<max>1.0</max>
+				</li>
+			
+			</terrainsByFertility>
+		</value>
+    </Operation>	
+	
+	<Operation Class="PatchOperationReplace">
+	<xpath>Defs/BiomeDef[defName="TropicalSwamp"]/terrainPatchMakers</xpath>
+	<value>
+		<terrainPatchMakers>
+			<li>
+				<perlinFrequency>0.003</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>Marsh</terrain>
+						<min>0.50</min>
+						<max>0.8</max>
+					</li>
+				</thresholds>
+			</li>
+			<li>
+				<perlinFrequency>0.035</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>SoilRich</terrain>
+						<min>-0.01</min>
+						<max>0.15</max>
+					</li>
+					
+					
+				</thresholds>
+			</li>
+			<li>
+				<perlinFrequency>0.035</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>Mud</terrain>
+						<min>0.15</min>
+						<max>0.35</max>
+					</li>
+					
+					
+				</thresholds>
+			</li>
+			
+		</terrainPatchMakers>
+		</value>
+</Operation>
+	
+	<!--SWAMP-->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/terrainsByFertility</xpath>
+		<value>
+			<terrainsByFertility>
+				<li>
+					<terrain>MarshyTerrain</terrain>
+					<min>-999</min>
+					<max>0.70</max>
+				</li>
+				<li>
+					<terrain>SoilRich</terrain>
+					<min>0.55</min>
+					<max>0.70</max>
+				</li>
+				<li>
+					<terrain>SwampWater</terrain>
+					<min>0.70</min>
+					<max>999</max>
+				</li>
+			</terrainsByFertility>
+		</value>
+    </Operation>	
+	
+	<Operation Class="PatchOperationReplace">
+	<xpath>Defs/BiomeDef[defName="TemperateSwamp"]/terrainPatchMakers</xpath>
+	<value>
+		<terrainPatchMakers>
+			<li>
+				<perlinFrequency>0.01</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>Soil</terrain>
+						<min>-0.12</min>
+						<max>0.12</max>
+					</li>
+				</thresholds>
+			</li>
+			<li>
+				<perlinFrequency>0.015</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>SwampWater</terrain>
+						<min>0.0</min>
+						<max>0.2</max>
+					</li>
+				</thresholds>
+			</li>
+			<li>
+				<perlinFrequency>0.015</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>MuckyPeat</terrain>
+						<min>0.75</min>
+						<max>1.0</max>
+					</li>
+				</thresholds>
+			</li>
+		</terrainPatchMakers>
+		</value>
+</Operation>
+	
+		<!--BOG-->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/BiomeDef[defName="ColdBog"]/terrainsByFertility</xpath>
+		<value>
+			<terrainsByFertility>
+			<li>
+					<terrain>MossyTerrain</terrain>
+					<min>-999</min>
+					<max>0.30</max>
+				</li>
+				<li>
+					<terrain>MarshyTerrain</terrain>
+					<min>0.30</min>
+					<max>0.60</max>
+				</li>
+				<li>
+					<terrain>SoilRich</terrain>
+					<min>0.60</min>
+					<max>0.72</max>
+				</li>
+				<li>
+					<terrain>PeatSoil</terrain>
+					<min>0.72</min>
+					<max>999</max>
+				</li>
+			</terrainsByFertility>
+		</value>
+    </Operation>	
+	
+	<Operation Class="PatchOperationReplace">
+	<xpath>Defs/BiomeDef[defName="ColdBog"]/terrainPatchMakers</xpath>
+	<value>
+		<terrainPatchMakers>
+
+			<li>
+				<perlinFrequency>0.075</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>PeatSoil</terrain>
+						<min>0.0</min>
+						<max>0.15</max>
+					</li>
+					<li>
+						<terrain>BogWater</terrain>
+						<min>0.15</min>
+						<max>0.5</max>
+					</li>
+				</thresholds>
+			</li>
+			
+		</terrainPatchMakers>
+		</value>
+</Operation>
+	
+</Patch>

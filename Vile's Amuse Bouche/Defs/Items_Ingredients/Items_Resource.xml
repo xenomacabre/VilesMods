@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<ThingDef ParentName="CropsBase">
+		<defName>Pasta</defName>
+		<label>pasta</label>
+		<description>Dry pasta made from flour.</description>
+		<graphicData>
+			<texPath>Things/Item/pasta</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<Nutrition>0.05</Nutrition>
+		</statBases>
+		<ingestible>
+			<foodType>Processed</foodType>
+			<preferability>DesperateOnly</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+		<thingCategories>
+			<li>CookingSupplies</li>
+		</thingCategories>
+		<tickerType>Rare</tickerType>   
+		<stuffProps>
+			<categories>
+				<li>Stuff</li>
+			</categories>
+		</stuffProps>   
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>90</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_PlantFoodRawBase">
+		<defName>RawPeppers</defName>
+		<label>Peppers</label>
+		<description>These peppers are of the genus Capsicum—very spicy.</description>
+		<graphicData>
+			<texPath>Things/Veg/Pepper</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.9</MarketValue>
+			<Nutrition>0.04</Nutrition>
+		</statBases>
+		<tickerType>Rare</tickerType>   
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>
+		<thingCategories>
+			<li>ExtraPlantFoodRaw</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>21</daysToRotStart>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="CropsBase">
+		<defName>Seitan</defName>
+		<label>seitan</label>
+		<description>Seitan is a meaty protein made from vital wheat gluten, which absorbs the flavor of whatever it is cooked in. It was enjoyed by vegetarian monks thousands of years ago and is sometimes referred to as "wheat meat".</description>
+		<graphicData>
+			<texPath>Things/Item/Seitan</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>16</MarketValue>
+			<WorkToMake>700</WorkToMake>
+			<Flammability>1.0</Flammability>
+			<Mass>0.05</Mass>
+			<Nutrition>0.35</Nutrition>
+		</statBases>
+		<ingestible>
+			<foodType>Processed</foodType>
+			<preferability>DesperateOnly</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+		<thingCategories>
+			<li>MeatSubRaw</li>
+		</thingCategories>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>14</daysToRotStart>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	
+
+
+</Defs>

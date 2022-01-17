@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	
+
+	
+	<!-- FERN -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Fern"]/plant/visualSizeRange</xpath>
+		<value>
+			<visualSizeRange Inherit="False">
+				<min>0.4</min>
+				<max>0.9</max>
+			</visualSizeRange>
+		</value>
+    </Operation>		
+	 
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Fern"]/plant/maxMeshCount</xpath>
+		<value>
+			<maxMeshCount>4</maxMeshCount>
+		</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Fern"]/plant/wildClusterWeight</xpath>
+		<value>
+			<wildClusterWeight>10</wildClusterWeight>
+		</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Fern"]/plant/wildClusterRadius</xpath>
+		<value>
+			<wildClusterRadius>5</wildClusterRadius>
+		</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Fern"]/graphicData/texPath</xpath> 
+		<value>
+			<texPath>Things/Plant/PlantFernNew</texPath>
+		</value>
+    </Operation>
+	
+<!--     GRASSES    -->
+	<!-- HAYGRASS -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Haygrass"]/plant/maxMeshCount</xpath>
+		<value>
+			<maxMeshCount>9</maxMeshCount>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Haygrass"]/graphicData/texPath</xpath>
+		<value>
+			<texPath>Things/Plant/PlantHayGrass</texPath>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Haygrass"]/plant/leaflessGraphicPath</xpath>
+		<value>
+			<leaflessGraphicPath>Things/Plant/PlantTallGrass_Leafless</leaflessGraphicPath>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Plant_Haygrass"]/plant</xpath>
+		<value>
+			<wildClusterWeight>20</wildClusterWeight>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Plant_Haygrass"]/plant</xpath>
+		<value>
+			<wildClusterRadius>20</wildClusterRadius>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Plant_Haygrass"]/plant/fertilityMin</xpath>
+		<value>
+			<fertilityMin>0.41</fertilityMin>
+		</value>
+    </Operation>
+	
+		
+	<!--   TALL GRASS -->
+		<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TallGrass"]/plant/maxMeshCount</xpath>
+		<value>
+			<maxMeshCount>16</maxMeshCount>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TallGrass"]/graphicData/texPath</xpath>
+		<value>
+			<texPath>Things/Plant/PlantTallGrass</texPath>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TallGrass"]/plant/leaflessGraphicPath</xpath>
+		<value>
+			<leaflessGraphicPath>Things/Plant/PlantTallGrass_Leafless</leaflessGraphicPath>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TallGrass"]/plant/wildClusterWeight</xpath>
+		<value>
+			<wildClusterWeight>55</wildClusterWeight>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TallGrass"]/plant/wildClusterRadius</xpath>
+		<value>
+			<wildClusterRadius>7</wildClusterRadius>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TallGrass"]/plant/visualSizeRange</xpath>
+		<value>
+			<visualSizeRange Inherit="False">
+				<min>0.7</min>
+				<max>1.0</max>
+			</visualSizeRange>
+		</value>
+    </Operation>
+	
+	<!-- MOSS -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Moss"]/graphicData/texPath</xpath>
+		<value>
+			<texPath>Things/Plant/PlantMoss</texPath>
+		</value>
+    </Operation>
+		<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Plant_Moss"]/plant</xpath>
+		<value>
+			<wildClusterWeight>40</wildClusterWeight>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Plant_Moss"]/plant</xpath>
+		<value>
+			<wildClusterRadius>30</wildClusterRadius>
+		</value>
+    </Operation>
+	
+	<!--   LAWN GRASS -->
+	<!--<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Grass"]/plant/maxMeshCount</xpath>
+		<value>
+			<maxMeshCount>4</maxMeshCount>
+		</value>	
+    </Operation>-->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Plant_Grass"]/plant/maxMeshCount</xpath>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Grass"]/label</xpath>
+		<value>
+			<label>ornamental grass</label>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Grass"]/description</xpath>
+		<value>
+			<description>Decorative grass.</description>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Grass"]/graphicData/texPath</xpath>
+		<value>
+			<texPath>Things/Plant/PlantLawnGrass</texPath>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Plant_Grass"]</xpath>
+		<value>
+			<selectable>True</selectable>
+		</value>
+    </Operation>
+	
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Plant_Grass"]/plant</xpath>
+		<value>
+			<wildClusterWeight>75</wildClusterWeight>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Plant_Grass"]/plant</xpath>
+		<value>
+			<wildClusterRadius>16</wildClusterRadius>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Plant_Grass"]/graphicData</xpath>
+		<value>
+			<shaderParameters>
+				<_FallColorSource>(0.3803, 0.4352, 0.1451)</_FallColorSource>
+				<_FallColorDestination>/Other/TreeFallGradient</_FallColorDestination>
+				<_FallTransitionRange>(0.02, 0.10)</_FallTransitionRange>
+				<_FallBehaviorEnabled>1</_FallBehaviorEnabled>
+			</shaderParameters>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Grass"]/plant/visualSizeRange</xpath>
+		<value>
+			<visualSizeRange Inherit="False">
+				<min>0.8</min>
+				<max>1.0</max>
+			</visualSizeRange>
+		</value>
+    </Operation>
+	
+	<!--<Operation Class="PatchOperationRemove">
+	<xpath>Defs/ThingDef[defName="Plant_Grass"]/plant/harvestTag</xpath>
+	</Operation>
+	
+	<Operation Class="PatchOperationRemove">
+	<xpath>Defs/ThingDef[defName="Plant_Grass"]/plant/harvestedThingDef</xpath>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Grass"]/plant/harvestYield</xpath>
+		<value>
+			<harvestYield>0</harvestYield>
+		</value>
+    </Operation>
+	-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Grass"]/plant/wildOrder</xpath>
+		<value>
+			<wildOrder>2</wildOrder>
+		</value>
+    </Operation>
+	
+	<!-- APPLE TREE -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreeApple"]/graphicData</xpath>
+		<value>
+			<graphicData>
+				<texPath>Things/Trees/TreeApple/PlantAppleTree</texPath>
+				<graphicClass>Graphic_Random</graphicClass>
+			</graphicData>
+		</value>
+    </Operation>
+	
+		<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreeApple"]/plant/leaflessGraphicPath</xpath>
+		<value>
+			<leaflessGraphicPath>Things/Trees/TreeApple/PlantAppleTree_Leafless</leaflessGraphicPath>
+		</value>
+    </Operation>
+	
+	<!-- PEACH TREE -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreePeach"]/graphicData</xpath>
+		<value>
+			<graphicData>
+				<texPath>Things/Trees/TreePeach/PlantPeachTree</texPath>
+				<graphicClass>Graphic_Random</graphicClass>
+			</graphicData>
+		</value>
+    </Operation>
+	
+		<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreePeach"]/plant/leaflessGraphicPath</xpath>
+		<value>
+			<leaflessGraphicPath>Things/Trees/TreePeach/PlantPeachTree_Leafless</leaflessGraphicPath>
+		</value>
+    </Operation>
+	
+	
+	<!-- BUSH -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Bush"]/plant/maxMeshCount</xpath>
+		<value>
+			<maxMeshCount>4</maxMeshCount>
+		</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Bush"]/graphicData/texPath</xpath>
+		<value>
+			<texPath>Things/Plant/PlantShrubChokeberry</texPath>
+		</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Bush"]/plant/visualSizeRange</xpath>
+		<value>
+			<visualSizeRange Inherit="False">
+				<min>0.7</min>
+				<max>1.0</max>
+			</visualSizeRange>
+		</value>
+    </Operation>
+	<!-- RHODODENDRON -->
+		<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Rhododendron"]/plant/visualSizeRange</xpath>
+		<value>
+			<visualSizeRange Inherit="False">
+				<min>0.7</min>
+				<max>1.0</max>
+			</visualSizeRange>
+		</value>
+    </Operation>
+	
+	<!-- BERRY BUSH -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Berry"]/plant/maxMeshCount</xpath>
+		<value>
+			<maxMeshCount>4</maxMeshCount>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Berry"]/plant/visualSizeRange</xpath>
+		<value>
+			<visualSizeRange Inherit="False">
+				<min>0.9</min>
+				<max>1.4</max>
+			</visualSizeRange>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Berry"]/label</xpath>
+		<value>
+			<label>Strazberry</label>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Berry"]/description</xpath>
+		<value>
+			<description>Someone had the grand idea to splice the genes of a strawberry with a raspberry, so you can get the full enjoyment of picking strawberries while getting scratches from raspberry thorns.</description>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Berry"]/graphicData/texPath</xpath>
+		<value>
+			<texPath>Things/Plant/PlantStrazberry</texPath>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Berry"]/plant/leaflessGraphicPath</xpath>
+		<value>
+			<leaflessGraphicPath>Things/Plant/PlantStrazberry_Leafless</leaflessGraphicPath>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName="Plant_Berry"]</xpath>
+		<value>
+			<li Class="SK.ExtendedPlantGraphic">
+				<hasSpecialFruitGraphic>true</hasSpecialFruitGraphic>
+			</li>
+		</value>
+	</Operation>
+	
+	<!-- ALOCASIA <-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Alocasia"]/graphicData/drawSize</xpath>
+		<value>
+			<drawSize>1.0</drawSize> <!-- smaller so it looks crisper -->
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Plant_Alocasia"]/plant/leaflessGraphicPath</xpath> <!-- TROPICAL ONLY -->
+    </Operation>
+
+
+	
+	<!-- LOW SHRUBS -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Plant_ShrubLow"]/graphicData</xpath>
+		<value>
+			<shaderParameters Inherit="False">
+				<_FallColorSource>(0.3803, 0.4352, 0.1451)</_FallColorSource>
+				<_FallColorDestination>/Other/TreeFallGradient</_FallColorDestination>
+				<_FallTransitionRange>(0.02, 0.10)</_FallTransitionRange>
+				<_FallBehaviorEnabled>0</_FallBehaviorEnabled>
+			</shaderParameters>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_ShrubLow"]/plant/maxMeshCount</xpath>
+		<value>
+			<maxMeshCount>4</maxMeshCount>
+		</value>
+    </Operation>
+	
+	
+
+	<!--  WATER PLANTS  -->
+
+	<!-- ALGAE -->
+	<!--<Operation Class="PatchOperationAttributeRemove">
+		<xpath>/Defs/ThingDef[defName="PlantAlgae"]</xpath>
+		<attribute>ParentName</attribute>
+	</Operation>
+	<Operation Class="PatchOperationAttributeSet">	
+		<xpath>/Defs/ThingDef[defName="PlantAlgae"]</xpath>
+		<attribute>ParentName</attribute>
+		<value>PlantBase</value>
+	</Operation>-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PlantAlgae"]/plant/visualSizeRange</xpath>
+		<value>
+			<visualSizeRange Inherit="False">
+				<min>0.5</min>
+				<max>1.2</max>
+			</visualSizeRange>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="PlantAlgae"]/plant/leaflessGraphicPath</xpath>
+    </Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PlantAlgae"]/plant/maxMeshCount</xpath>
+		<value>
+			<maxMeshCount>16</maxMeshCount>
+		</value>
+    </Operation>
+	
+</Patch>

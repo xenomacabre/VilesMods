@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>CookSoup</defName>
+		<label>soup (x2)</label>
+		<description>.85 Nutr &#xA; Pro tip: If you water down your food, it will last longer.</description>
+		<jobString>Cooking soup.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<workAmount>600</workAmount>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<soundWorking>Chemlab_Medicine_Drink</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+						<li>MeatSubRaw</li>
+					</categories>
+					<thingDefs>
+						<li>Rawmushroom</li>
+					</thingDefs>
+				</filter>
+				<count>0.35</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>BasicPlantFoodRaw</li>
+					</categories>
+					<thingDefs>
+						<li>RawGiantLeaf</li>
+					</thingDefs>
+				</filter>
+				<count>0.35</count>
+			</li>
+		</ingredients>
+		<products>
+			<Soup>2</Soup>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawGiantLeaf</li>
+				<li>Rawmushroom</li>
+			</thingDefs>
+			<categories>
+				<li>MeatRaw</li>
+				<li>MeatSubRaw</li>
+				<li>BasicPlantFoodRaw</li>
+			</categories>
+			<specialFiltersToDisallow>
+				<li>AllowPlantFood</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>RawGiantLeaf</li>
+				<li>Rawmushroom</li>
+			</thingDefs>
+			<categories>
+				<li>MeatRaw</li>
+				<li>MeatSubRaw</li>
+				<li>BasicPlantFoodRaw</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>Meat_Megaspider</li>
+				<li>Meat_Human</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<recipeUsers>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+			<li>Hearth</li>
+			<li>OpenHearth</li>
+		</recipeUsers>
+		<researchPrerequisite>Pemmican</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>CookGruel</defName>
+		<label>gruel (x2)</label>
+		<description>.7 Nutr &#xA; Watered-down porridge. Gross, unless you're a peasant.</description>
+		<jobString>Cooking gruel.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<workAmount>400</workAmount>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<soundWorking>Chemlab_Medicine_Drink</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Rawwheat</li>
+						<li>RawRice</li>
+					</thingDefs>
+				</filter>
+				<count>0.6</count>
+			</li>
+		</ingredients>
+		<products>
+			<Gruel>2</Gruel>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Rawwheat</li>
+				<li>RawRice</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Rawwheat</li>
+				<li>RawRice</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<recipeUsers>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+			<li>Hearth</li>
+			<li>OpenHearth</li>
+		</recipeUsers>
+		<researchPrerequisite>Food_00</researchPrerequisite>
+	</RecipeDef>
+	
+
+
+
+	
+</Defs>

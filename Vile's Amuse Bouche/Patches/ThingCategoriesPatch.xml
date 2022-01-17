@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Tofu"]/thingCategories</xpath>
+		<value>
+		 	<thingCategories>
+				<li>MeatSubRaw</li>
+			</thingCategories>
+		</value>
+  	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "RawShimmershroom"]</xpath>
+		<value>
+		 	<thingCategories>
+				<li>MeatSubRaw</li>
+			</thingCategories>
+		</value>
+  	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "RawGlowbulb"]</xpath>
+		<value>
+		 	<thingCategories>
+				<li>MeatSubRaw</li>
+			</thingCategories>
+		</value>
+  	</Operation>
+	
+	
+	
+</Patch>

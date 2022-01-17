@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>MakeFlour</defName>
+		<label>grind flour</label>
+		<description>Grind wheat or rice into glutinous flour. Produces 10.</description>
+		<jobString>Grinding flour.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<workAmount>600</workAmount>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Rawwheat</li>
+						<li>RawRice</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Rawwheat</li>
+				<li>RawRice</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<products>
+			<Flour>10</Flour>
+		</products>
+		<skillRequirements>
+			<Cooking>2</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>Bakery_B1</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>CraftCornmeal</defName>
+		<label>grind cornmeal</label>
+		<description>Grind corn into cornmeal. Produces 4.</description>
+		<jobString>Grinding corn.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<workAmount>700</workAmount>
+		<soundWorking>Recipe_CookMeal</soundWorking>          	
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawCorn</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawCorn</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<products>
+			<Cornmeal>4</Cornmeal>
+		</products>
+		<workSkill>Cooking</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>MakePasta</defName>
+		<label>make pasta (x5)</label>
+		<description>Makes pasta from flour to be used in receipes.</description>
+		<jobString>Making pasta.</jobString>
+		<workAmount>300</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Flour</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Flour</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<products>
+			<Pasta>5</Pasta>
+		</products>
+		<skillRequirements>
+			<Cooking>5</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<recipeUsers>
+			<li>TableKitchen</li>
+		</recipeUsers>
+		<researchPrerequisite>Food_C2</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>Seitan</defName>
+		<label>make seitan (x5)</label>
+		<description>Seitan is a meaty protein made from vital wheat gluten, which absorbs the flavor of whatever it is cooked in. It was enjoyed by vegetarian monks thousands of years ago and is sometimes referred to as "wheat meat". Produces 5.</description>
+		<jobString>Making seitan.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workAmount>600</workAmount>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Flour</li>
+					</thingDefs>
+				</filter>
+				<count>0.25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Flour</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<products>
+			<Seitan>5</Seitan>
+		</products>
+		<skillRequirements>
+			<Cooking>6</Cooking>
+		</skillRequirements>
+		<recipeUsers>
+			<li>TableKitchen</li>
+		</recipeUsers>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>Food_B2</researchPrerequisite> <!-- Food III -->
+	</RecipeDef>
+
+	
+	
+</Defs>

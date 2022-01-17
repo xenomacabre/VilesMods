@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ScatterableDef ParentName="SmearRoot">
+		<defName>NoSmear</defName>
+		<texturePath>Terrain/Scatter/NoScatter</texturePath>
+		<scatterType>None</scatterType>
+	</ScatterableDef>
+
+	<ScatterableDef ParentName="SmearRoot">
+		<defName>Dune</defName>
+		<texturePath>Terrain/Scatter/Dune</texturePath>
+		<scatterType>Duney</scatterType>
+	</ScatterableDef>
+	
+</Defs>

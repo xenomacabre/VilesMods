@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+			<operations>
+				
+
+
+			<li Class="PatchOperationReplace">	
+				<xpath>Defs/ResearchProjectDef[defName="Terraform_A1"]/tags</xpath>
+				<value>
+					<tags>
+						<li>TribalStart</li>
+					</tags>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">	
+				<xpath>Defs/ResearchProjectDef[defName="Fortification_A1"]/label</xpath>
+				<value>
+					<label>Construction 0</label>
+				</value>
+			</li>
+				
+		
+			<li Class="PatchOperationAdd">	
+				<xpath>Defs/ResearchProjectDef[defName="Construction_B1"]</xpath>
+				<value>
+					<prerequisites>
+						<li>Fortification_A1</li>
+					</prerequisites>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">	
+				<xpath>Defs/ResearchProjectDef[defName="Construction_B3"]/researchViewX</xpath>
+				<value>
+						<researchViewX>6.00</researchViewX>
+				</value>
+			</li>
+	
+			<li Class="PatchOperationReplace">	
+				<xpath>Defs/ResearchProjectDef[defName="Wooden_floor_A1"]/label</xpath>
+				<value>
+					<label>Neolithic Floors</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">	
+				<xpath>Defs/ResearchProjectDef[defName="Carpets_A1"]/label</xpath>
+				<value>
+					<label>Woven Floors</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">	
+				<xpath>Defs/ResearchProjectDef[defName="Wooden_floor_A2"]/label</xpath>
+				<value>
+					<label>Clapboard and Terracotta</label>
+				</value>
+			</li>	
+				
+			<li Class="PatchOperationReplace">	
+				<xpath>Defs/ResearchProjectDef[defName="Wooden_floor_A3"]/label</xpath>
+				<value>
+					<label>Raised Decks</label>
+				</value>
+			</li>	
+				
+				
+			<li Class="PatchOperationReplace">	
+				<xpath>Defs/ResearchProjectDef[defName="Wooden_floor_B1"]/label</xpath>
+				<value>
+					<label>Hardwood Floors</label>
+				</value>
+			</li>	
+			<li Class="PatchOperationReplace">	
+				<xpath>Defs/ResearchProjectDef[defName="Wooden_floor_B2"]/label</xpath>
+				<value>
+					<label>Parquetry</label>
+				</value>
+			</li>	
+				
+			<li Class="PatchOperationReplace">	
+				<xpath>Defs/ResearchProjectDef[defName="Metal_floor_B1"]/label</xpath>
+				<value>
+					<label>Engineered Flooring</label>
+				</value>
+			</li>	
+				<li Class="PatchOperationReplace">	
+					<xpath>Defs/ResearchProjectDef[defName="Metal_floor_B1"]/prerequisites</xpath>
+					<value>
+						<prerequisites>
+							<li>Wooden_floor_B2</li>
+						</prerequisites>
+					</value>
+				</li>		
+				<li Class="PatchOperationReplace">	
+					<xpath>Defs/ResearchProjectDef[defName="Metal_floor_B2"]/prerequisites</xpath>
+					<value>
+						<prerequisites>
+							<li>Stone_floor_B3</li>
+						</prerequisites>
+					</value>
+				</li>
+				
+		
+				
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

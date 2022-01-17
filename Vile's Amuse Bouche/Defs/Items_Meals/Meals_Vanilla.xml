@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+<!-- STIR FRY (FINE MEAL) -->
+	<ThingDef ParentName="SK_MealBase">
+		<defName>MealFine</defName>
+		<label>stir fry</label>
+		<description>.8 Nutr, Fine &#xA; Meat and veggies in a pan, fried.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal128/StirFry</texPath>
+			<graphicClass>Graphic_MealVariants</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>720</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.8</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteFineMeal</tasteThought>
+			<preferability>MealFine</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>	
+	
+	<ThingDef ParentName="SK_MealBase">
+		<defName>MealFine_Meat</defName>
+		<label>carnivore stir fry</label>
+		<description>.8 Nutr, Fine &#xA; Meat and other ingredients in a pan, fried.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal128/CarnivoreStirFry</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>720</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.8</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteFineMeal</tasteThought>
+			<preferability>MealFine</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_MealBase">
+		<defName>MealFine_Veg</defName>
+		<label>vegetarian stir fry</label>
+		<description>.8 Nutr, Fine &#xA; Assorted vggies in a pan, fried.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal128/VegetarianStirFry</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>720</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.8</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteFineMeal</tasteThought>
+			<preferability>MealFine</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+<!-- STEAK DINNER (LAVISH MEAL) SURF N TURF, BEAN N GREEN -->
+	
+<ThingDef ParentName="SK_MealBase">
+		<defName>MealLavish</defName>
+		<label>pan-seared steak</label>
+		<description>.75 Nutr, Lavish  &#xA; Pan-seared steak cuts of prime meat or Tofu, garnished with vegetables.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal128/SteakDinner</texPath>
+			<graphicClass>Graphic_MealVariants</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>720</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.75</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteLavishMeal</tasteThought>
+			<preferability>MealLavish</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+</ThingDef>
+	
+<ThingDef ParentName="SK_MealBase">
+		<defName>MealLavish_Meat</defName>
+		<label>surf 'n' turf</label>
+		<description>.75 Nutr, Lavish  &#xA; A lavish course comprised of seafood and prime meat.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal128/SurfNTurf</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>	
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>720</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.75</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteLavishMeal</tasteThought>
+			<preferability>MealLavish</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+</ThingDef>
+	
+<ThingDef ParentName="SK_MealBase">
+		<defName>MealLavish_Veg</defName>
+		<label>bean 'n' green</label>
+		<description>.75 Nutr, Lavish  &#xA; A lavish course comprised of Bean Curd (aka Tofu) and Vegetable.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal128/BeanNGreen</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>20</MarketValue>
+			<WorkToMake>720</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.75</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteLavishMeal</tasteThought>
+			<preferability>MealLavish</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+</ThingDef>
+	
+</Defs>
+
+	
+	

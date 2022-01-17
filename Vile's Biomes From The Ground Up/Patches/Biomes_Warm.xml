@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	
+	<!-- RAINFOREST -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/BiomeDef[defName="TropicalRainforest"]/terrainsByFertility</xpath>
+		<value>
+			<terrainsByFertility>
+				<li>
+					<terrain>LeachedSoil</terrain>
+					<min>-999</min>
+					<max>0.65</max>
+				</li>
+				<li>
+					<terrain>RedClaySoil</terrain>
+					<min>0.65</min>
+					<max>999</max>
+				</li>
+			</terrainsByFertility> 
+		</value>
+    </Operation>	
+	
+	<Operation Class="PatchOperationReplace">
+	<xpath>Defs/BiomeDef[defName="TropicalRainforest"]/terrainPatchMakers</xpath>
+	<value>
+		<terrainPatchMakers>
+			<li>
+				<perlinFrequency>0.003</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>VolcanicSoil</terrain>
+						<min>-0.12</min>
+						<max>0.08</max>
+					</li>
+				</thresholds>
+			</li>
+			<li>
+				<perlinFrequency>0.01</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>MarshyTerrain</terrain>
+						<min>0.7</min>
+						<max>0.9</max>
+					</li>
+				</thresholds>
+			</li>
+			<li>
+				<perlinFrequency>0.015</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>MarshyTerrain</terrain>
+						<min>0.64</min>
+						<max>0.87</max>
+					</li>
+					<li>
+						<terrain>SwampWater</terrain>
+						<min>0.87</min>
+						<max>1.0</max>
+					</li>
+				</thresholds>
+			</li>
+		</terrainPatchMakers>
+		</value>
+</Operation>
+	
+<!-- SAVANNA -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/BiomeDef[defName="AridShrubland"]/label</xpath> <!-- technically, it's tropical -->
+		<value>
+			<label>savanna</label> 
+		</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/BiomeDef[defName="AridShrubland"]/terrainsByFertility</xpath>
+		<value>
+			<terrainsByFertility>
+			<li>
+				<terrain>SavannaSoil</terrain>
+				<min>-0.1</min>
+				<max>0.55</max>
+			</li>
+			<li>
+				<terrain>DustySoil</terrain> <!-- Cracked Clay -->
+				<min>0.55</min>
+				<max>999</max>
+			</li>
+			</terrainsByFertility>
+		</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	<xpath>Defs/BiomeDef[defName="AridShrubland"]/terrainPatchMakers</xpath>
+	<value>
+		<terrainPatchMakers>
+			<li>
+				<perlinFrequency>0.009</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>SavannaSoil</terrain>
+						<min>0.65</min>
+						<max>0.99</max>
+					</li>
+					<li>
+						<terrain>WaterShallow</terrain>
+						<min>0.99</min>
+						<max>1.35</max>
+					</li>
+				</thresholds>
+			</li>
+			<li>
+				<perlinFrequency>0.02</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>Gravel</terrain> 
+						<min>0.75</min>
+						<max>0.90</max>
+					</li>
+					<li>
+						<terrain>SoftSand</terrain> 
+						<min>0.90</min>
+						<max>1.1</max>
+					</li>
+				</thresholds>
+			</li>
+		</terrainPatchMakers>
+		</value>
+</Operation>	
+	
+<!-- DESERT -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/BiomeDef[defName="Desert"]/terrainsByFertility</xpath>
+		<value>
+			<terrainsByFertility>
+			<li>
+				<terrain>SoftSand</terrain>
+				<min>-999</min>
+				<max>0.25</max>
+			</li>
+			<li>
+				<terrain>Sand</terrain>
+				<min>0.25</min>
+				<max>0.65</max>
+			</li>
+			<li>
+				<terrain>DustySoil</terrain> <!-- Cracked Clay -->
+				<min>0.65</min>
+				<max>0.85</max>
+			</li>
+			<li>
+				<terrain>MarginalSoil</terrain> <!-- Arid Soil -->
+				<min>0.85</min>
+				<max>999</max>
+			</li>
+		</terrainsByFertility>
+		</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+	<xpath>Defs/BiomeDef[defName="Desert"]/terrainPatchMakers</xpath>
+	<value>	
+	<terrainPatchMakers>
+			
+			<li>
+				<perlinFrequency>0.01</perlinFrequency> <!-- OASIS -->
+				<thresholds>
+					<li>
+						<terrain>RockySoil</terrain> <!-- Entisol -->
+						<min>0.65</min>
+						<max>0.75</max>
+					</li>
+					<li>
+						<terrain>SoilRich</terrain>
+						<min>0.75</min>
+						<max>0.93</max>
+					</li>
+					<li>
+						<terrain>WaterShallow</terrain>
+						<min>0.93</min>
+						<max>999</max>
+					</li>
+				</thresholds>
+			</li>
+		
+			<li>
+				<perlinFrequency>0.025</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>DesertPavement</terrain>
+						<min>0.75</min>
+						<max>1.1</max>
+					</li>
+					
+				</thresholds>
+			</li>
+		</terrainPatchMakers>
+	</value>
+    </Operation>
+
+<!-- EXTREME DESERT -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/BiomeDef[defName="ExtremeDesert"]/terrainsByFertility</xpath>
+		<value>
+			<terrainsByFertility>
+				<li>
+					<terrain>SoftSand</terrain>
+					<min>-999</min>
+					<max>0.65</max>
+				</li>
+				<li>
+					<terrain>Sand</terrain>
+					<min>0.65</min>
+					<max>0.99</max>
+				</li>
+				<li>
+					<terrain>DustySoil</terrain>
+					<min>0.99</min>
+					<max>999</max>
+				</li>
+			</terrainsByFertility>
+		</value>
+    </Operation>
+
+	<Operation Class="PatchOperationReplace">
+	<xpath>Defs/BiomeDef[defName="ExtremeDesert"]/terrainPatchMakers</xpath>
+	<value>	
+		<terrainPatchMakers>
+			<!--<li>
+				<perlinFrequency>0.01</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>DustySoil</terrain> 
+						<min>0.75</min>
+						<max>0.87</max>
+					</li>
+					<li>
+						<terrain>SavannaSoil</terrain>
+						<min>0.87</min>
+						<max>0.985</max>
+					</li>
+					<li>
+						<terrain>WaterShallow</terrain>
+						<min>0.985</min>
+						<max>999</max>
+					</li>
+				</thresholds>
+			</li>-->
+			<li>
+				<perlinFrequency>0.03</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>Gravel</terrain> 
+						<min>0.9</min>
+						<max>1.0</max>
+					</li>	
+				</thresholds>
+			</li>
+			
+		
+			
+		</terrainPatchMakers>
+	</value>
+    </Operation>
+	
+</Patch>
