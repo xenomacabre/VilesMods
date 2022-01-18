@@ -64,11 +64,11 @@
 				<li>Trees_B3</li>
 			</sowResearchPrerequisites>
 		</plant>
-		<modExtensions>
+		<!--<modExtensions>
 			<li Class="SK.ExtendedPlantGraphic">
 				<hasSnowyGraphic>true</hasSnowyGraphic>
 			</li>
-		</modExtensions>
+		</modExtensions>-->
 	</ThingDef>
 	
 	
@@ -235,7 +235,7 @@
 		</modExtensions>-->
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_DeciduousPlantBase">
+	<ThingDef ParentName="SK_PlantBase">
 		<defName>Plant_PricklyPear</defName>
 		<label>prickly pear cactus</label>
 		<description>A cactus. It has fruit. Prickly fruit. Kinda tastes like strawberry.</description>
@@ -563,6 +563,8 @@
 			<harvestYield>30</harvestYield>
 			<wildClusterRadius>6</wildClusterRadius>
 			<wildClusterWeight>50</wildClusterWeight>
+			<fertilityMin>0.2</fertilityMin>
+			<fertilitySensitivity>0.2</fertilitySensitivity>
 			<visualSizeRange>
 				<min>1.9</min>
 				<max>3.5</max>

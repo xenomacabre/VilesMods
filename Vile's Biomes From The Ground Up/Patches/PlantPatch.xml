@@ -54,7 +54,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Plant_Haygrass"]/graphicData/texPath</xpath>
 		<value>
-			<texPath>Things/Plant/PlantHayGrass</texPath>
+			<texPath>Things/Plant/PlantHayGrassVile</texPath>
 		</value>
     </Operation>
 	<Operation Class="PatchOperationReplace">
@@ -84,12 +84,12 @@
 	
 		
 	<!--   TALL GRASS -->
-		<Operation Class="PatchOperationReplace">
+		<!--<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Plant_TallGrass"]/plant/maxMeshCount</xpath>
 		<value>
 			<maxMeshCount>16</maxMeshCount>
 		</value>
-    </Operation>
+    </Operation>-->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Plant_TallGrass"]/graphicData/texPath</xpath>
 		<value>
@@ -296,6 +296,15 @@
 			</visualSizeRange>
 		</value>
     </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Bush"]/plant/leaflessGraphicPath</xpath>
+		<value>
+			<leaflessGraphicPath>Things/Plant/PlantShrubChokeberry_Leafless</leaflessGraphicPath>
+		</value>
+    </Operation>
+	
+	
+	
 	<!-- RHODODENDRON -->
 		<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Plant_Rhododendron"]/plant/visualSizeRange</xpath>
@@ -338,23 +347,37 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Plant_Berry"]/graphicData/texPath</xpath>
 		<value>
-			<texPath>Things/Plant/PlantStrazberry</texPath>
+			<texPath>Things/Plant/PlantStrazberry_Harvest</texPath>
 		</value>
+    </Operation>
+	<Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <li Class="PatchOperationTest">
+                <xpath>Defs/ThingDef[defName = "Plant_Berry"]/plant/immatureGraphicPath</xpath>
+                <success>Normal</success>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName = "Plant_Berry"]/plant/immatureGraphicPath</xpath>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName = "Plant_Berry"]/plant</xpath>
+                <value>
+                    <immatureGraphicPath>Things/Plant/PlantStrazberry</immatureGraphicPath>
+                </value>
+            </li>
+        </operations>
     </Operation>
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Plant_Berry"]/plant/leaflessGraphicPath</xpath>
-		<value>
+        <xpath>Defs/ThingDef[defName="Plant_Berry"]/plant/leaflessGraphicPath</xpath>
+        <value>
 			<leaflessGraphicPath>Things/Plant/PlantStrazberry_Leafless</leaflessGraphicPath>
-		</value>
+        </value>
     </Operation>
-	<Operation Class="PatchOperationAddModExtension">
-    <xpath>Defs/ThingDef[defName="Plant_Berry"]</xpath>
-		<value>
-			<li Class="SK.ExtendedPlantGraphic">
-				<hasSpecialFruitGraphic>true</hasSpecialFruitGraphic>
-			</li>
-		</value>
-	</Operation>
+
+
+
+
 	
 	<!-- ALOCASIA <-->
 	<Operation Class="PatchOperationReplace">

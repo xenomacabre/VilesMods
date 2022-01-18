@@ -6,13 +6,13 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Plant_Dandelion"]/plant/wildClusterWeight</xpath>
 		<value>
-			<wildClusterWeight>75</wildClusterWeight>
+			<wildClusterWeight>20</wildClusterWeight>
 		</value>
     </Operation>
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Plant_Dandelion"]/plant/wildClusterRadius</xpath>
 		<value>
-			<wildClusterRadius>15</wildClusterRadius>
+			<wildClusterRadius>20</wildClusterRadius>
 		</value>
     </Operation>
 	

@@ -117,9 +117,9 @@
 						<max>0.90</max>
 					</li>
 					<li>
-						<terrain>SoftSand</terrain> 
+						<terrain>Sand</terrain> 
 						<min>0.90</min>
-						<max>1.1</max>
+						<max>99</max>
 					</li>
 				</thresholds>
 			</li>
