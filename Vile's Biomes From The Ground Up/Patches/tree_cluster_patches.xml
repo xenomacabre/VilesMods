@@ -4,13 +4,13 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Plant_TreePine"]/plant</xpath>
 		<value>
-			<wildClusterRadius>25</wildClusterRadius>
+			<wildClusterRadius>20</wildClusterRadius>
 		</value>
     </Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Plant_TreePine"]/plant</xpath>
 		<value>
-			<wildClusterWeight>75</wildClusterWeight>
+			<wildClusterWeight>20</wildClusterWeight>
 		</value>
     </Operation>			
 			
@@ -65,7 +65,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Plant_TreeBirch"]/plant</xpath>
 		<value>
-			<wildClusterWeight>70</wildClusterWeight>
+			<wildClusterWeight>50</wildClusterWeight>
 		</value>
     </Operation>
 	
@@ -109,24 +109,21 @@
 		</value>
     </Operation>		
 			
-			
-			
-			
+		
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="PlantTreeRedwood"]/plant/wildClusterRadius</xpath>
 		<value>
-			<wildClusterRadius>30</wildClusterRadius>
+			<wildClusterRadius>50</wildClusterRadius>
 		</value>
     </Operation>
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="PlantTreeRedwood"]/plant/wildClusterWeight</xpath>
 		<value>
-			<wildClusterWeight>50</wildClusterWeight>
+			<wildClusterWeight>20</wildClusterWeight>
 		</value>
     </Operation>
 			
-	
-			
+		
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Plant_TreeWillow"]/plant/wildClusterRadius</xpath>
 		<value>

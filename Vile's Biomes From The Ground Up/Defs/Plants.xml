@@ -17,9 +17,10 @@
 			<Nutrition>0.75</Nutrition>
 		</statBases>
 		<plant>
+			<fertilityMin>0.15</fertilityMin>
 			<visualSizeRange>
-				<min>1.3</min>
-				<max>2.8</max>
+				<min>1.5</min>
+				<max>3.4</max>
 			</visualSizeRange>
 			<growDays>21</growDays>
 			<harvestWork>600</harvestWork>
@@ -28,6 +29,8 @@
 			<sowResearchPrerequisites>
 				<li>Trees_B3</li>
 			</sowResearchPrerequisites>
+			<wildClusterWeight>10</wildClusterWeight>
+			<wildClusterRadius>12</wildClusterRadius>
 		</plant>
 		<modExtensions>
 			<li Class="SK.ExtendedPlantGraphic">
@@ -245,7 +248,7 @@
 			<Beauty>2</Beauty>
 		</statBases>
 		<graphicData>
-			<texPath>Things/Plant/PlantPricklyPear</texPath>
+			<texPath>Things/Plant/PlantPricklyPear_Harvest</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
 				<volume>(0.15, 0.2, 0.15)</volume>
@@ -259,6 +262,7 @@
 		</ingestible>
 		<plant>
 			<!--<maxMeshCount>4</maxMeshCount>-->
+			<immatureGraphicPath>Things/Plant/PlantPricklyPear</immatureGraphicPath>
 			<harvestWork>200</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>RawPricklyPear</harvestedThingDef>
@@ -276,11 +280,11 @@
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
 		</plant>
-		<modExtensions>
+		<!--<modExtensions>
 			<li Class="SK.ExtendedPlantGraphic">
 				<hasSpecialFruitGraphic>true</hasSpecialFruitGraphic>
 			</li>
-		</modExtensions>
+		</modExtensions>-->
 	</ThingDef>
 	
 	<ThingDef ParentName="SK_PlantBase">
@@ -293,7 +297,7 @@
 			<Beauty>2</Beauty>
 		</statBases>
 		<graphicData>
-			<texPath>Things/Plant/PlantCranberry</texPath>
+			<texPath>Things/Plant/PlantCranberry_Harvest</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
 				<volume>(0.15, 0.2, 0.15)</volume>
@@ -307,6 +311,7 @@
 		</ingestible>
 		<plant>
 			<maxMeshCount>4</maxMeshCount>
+			<immatureGraphicPath>Things/Plant/PlantCranberry</immatureGraphicPath>
 			<harvestWork>200</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>RawCranberries</harvestedThingDef>
@@ -324,11 +329,11 @@
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
 		</plant>
-		<modExtensions>
+		<!--<modExtensions>
 			<li Class="SK.ExtendedPlantGraphic">
 				<hasSpecialFruitGraphic>true</hasSpecialFruitGraphic>
 			</li>
-		</modExtensions>
+		</modExtensions>-->
 	</ThingDef>
 	
 	<ThingDef ParentName="SK_PlantBase">
@@ -340,7 +345,7 @@
 			<Nutrition>0.35</Nutrition>
 		</statBases>
 		<graphicData>
-			<texPath>Things/Plant/PlantBlueberryBush/blueberryPlant</texPath>
+			<texPath>Things/Plant/PlantBlueberryBush/blueberryPlant_Harvest</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shadowData>
 				<volume>(0.15, 0.2, 0.15)</volume>
@@ -354,6 +359,7 @@
 		</ingestible>
 		<plant>
 			<leaflessGraphicPath>Things/Plant/PlantBlueberryBush/blueberryPlant_Leafless</leaflessGraphicPath>
+			<immatureGraphicPath>Things/Plant/PlantBlueberryBush/blueberryPlant</immatureGraphicPath>
 			<sowMinSkill>7</sowMinSkill>
 			<sowResearchPrerequisites>
 				<li>Fruit_Plants_B1</li>
@@ -379,11 +385,11 @@
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
 		</plant>
-		<modExtensions>
+		<!--<modExtensions>
 			<li Class="SK.ExtendedPlantGraphic">
 				<hasSpecialFruitGraphic>true</hasSpecialFruitGraphic>
 			</li>
-		</modExtensions>
+		</modExtensions>-->
 	</ThingDef>
 	
 	<ThingDef ParentName="SK_PlantBase">

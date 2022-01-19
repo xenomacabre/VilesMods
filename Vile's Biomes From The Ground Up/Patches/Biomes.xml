@@ -310,6 +310,12 @@
 	
 	
 	<!-- BOREAL FOREST -->
+<Operation Class="PatchOperationReplace">
+<xpath>Defs/BiomeDef[defName="BorealForest"]/plantDensity</xpath>	
+	<value>	
+		<plantDensity>1.0</plantDensity>	
+	</value>
+</Operation>		
 	
 <Operation Class="PatchOperationReplace">
 <xpath>Defs/BiomeDef[defName="BorealForest"]/wildPlants</xpath>	
@@ -332,13 +338,13 @@
 			<Plant_Daylily>0.15</Plant_Daylily>
 			<Plant_Astragalus>0.15</Plant_Astragalus>
 			<Plant_Crocus>0.3</Plant_Crocus>
-			<Plant_TreePoplar>0.05</Plant_TreePoplar>
-			<Plant_TreePine>8.0</Plant_TreePine>
-			<Plant_TreeSpruce>2.9</Plant_TreeSpruce>
-			<Plant_TreeBirch>1.1</Plant_TreeBirch>
+			<Plant_TreePoplar>0.03</Plant_TreePoplar>
+			<Plant_TreePine>3.0</Plant_TreePine>
+			<Plant_TreeSpruce>2.0</Plant_TreeSpruce>
+			<Plant_TreeBirch>0.7</Plant_TreeBirch>
 			<Plant_Mushroom_Blue>0.22</Plant_Mushroom_Blue>
 			<Plant_Mushroom_Red>0.17</Plant_Mushroom_Red>
-			<Plant_TreeMaple>0.1</Plant_TreeMaple>
+			<!--<Plant_TreeMaple>0.08</Plant_TreeMaple>-->
 			<PlantTreeRedwood>0.11</PlantTreeRedwood>
 		</wildPlants>
 		</value>

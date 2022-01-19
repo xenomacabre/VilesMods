@@ -60,6 +60,23 @@
 			</visualSizeRange>
 		</value>
     </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PlantTreeRedwood"]/plant/fertilityMin</xpath>
+		<value>
+			<fertilityMin>0.3</fertilityMin>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="PlantTreeRedwood"]/plant/fertilitySensitivity</xpath>
+		<value>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+		</value>
+    </Operation>
+	
+	
+	
+	
+	
 
 <!-- PINE -->
 	<Operation Class="PatchOperationReplace">
