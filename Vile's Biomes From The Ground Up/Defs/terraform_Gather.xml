@@ -14,9 +14,9 @@
 			</above>
 			<result>RockySoil</result>
 			<products>
-				<SoftClay>4</SoftClay>
-				<Dirt>4</Dirt>
-				<Compost>6</Compost>
+				<SoftClay>8</SoftClay>
+				<Dirt>8</Dirt>
+				<Compost>12</Compost>
 				<Fertilizer>6</Fertilizer>
 				<Peat>2</Peat>
 			</products>
@@ -43,7 +43,7 @@
 			</above>
 			<result>RockySoil</result>
 			<products>
-				<Dirt>4</Dirt>
+				<Dirt>6</Dirt>
 				<SoftClay>20</SoftClay>
 				<Compost>4</Compost>
 				<Fertilizer>2</Fertilizer>
@@ -70,8 +70,8 @@
 			</above>
 			<result>RockySoil</result>
 			<products>
-				<Dirt>10</Dirt>
-				<SoftClay>4</SoftClay>
+				<Dirt>12</Dirt>
+				<SoftClay>6</SoftClay>
 				<Peat>2</Peat>
 			</products>
 		</li>
@@ -97,6 +97,7 @@
 			<products>
 				<SandResource>20</SandResource>
 				<SoftClay>8</SoftClay>
+				<Dirt>2</Dirt>
 			</products>
 		</li>
 	</modExtensions>
@@ -121,8 +122,9 @@
 			</above>
 			<result>RockySoil</result>
 			<products>
-				<SandResource>10</SandResource>
+				<SandResource>12</SandResource>
 				<SoftClay>4</SoftClay>
+				<Dirt>4</Dirt>
 			</products>
 		</li>
 	</modExtensions>
@@ -148,6 +150,7 @@
 			<result>RockySoil</result>
 			<products>
 				<CrushedStone>20</CrushedStone>
+				<SandResource>4</SandResource>
 			</products>
 		</li>
 	</modExtensions>

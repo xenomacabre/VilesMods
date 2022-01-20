@@ -116,7 +116,145 @@
 		<WorkToBuild>960</WorkToBuild>
 	</statBases>
 </ThingDef>	 
+	
+<ThingDef ParentName="RFF_TerraformAdvancedBase">
+	<defName>Terraform_ShallowToDeepWater</defName>
+	<label>Shallow to Deep Water</label>
+	<description>Work: 900\n +4 Gravel\n +8 Dirt\m +12 Clay\n +20 Sand\n\n Placing impassable terrain on the map is overpowered and potentially game-breaking. Use with caution!</description>
+	<uiIconPath>UI/Icons/Terraforming/WaterShallow-WaterDeep</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>WaterShallow</li>
+				<li>WaterMovingShallow</li>
+				<li>WaterOceanShallow</li>
+				<li>FishingPierFloorShallowWater</li>
+			</above>
+			<result>WaterDeep</result>
+			<products>
+				<CrushedStone>4</CrushedStone>
+				<Dirt>8</Dirt>
+				<SoftClay>12</SoftClay>
+				<SandResource>20</SandResource>
+			</products>
+		</li>
+	</modExtensions>
+	<statBases>
+		<WorkToBuild>54000</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>ShallowWater</terrainAffordanceNeeded>
+</ThingDef>
+	
+	<ThingDef ParentName="RFF_TerraformAdvancedBase">
+		<defName>Terraform_DeepToShallowWater</defName>
+		<label>Deep to Shallow Water</label>
+		<description>Work:80</description>
+		<uiIconPath>UI/Icons/Terraforming/WaterDeep-WaterShallow</uiIconPath>
+		<modExtensions>
+			<li Class="FertileFields.Terrain">
+				<above>
+					<li>WaterDeep</li>
+					<li>WaterMovingChestDeep</li>
+					<li>WaterOceanDeep</li>
+					<li>FishingPierFloorDeepWater</li>
+				</above>
+				<result>WaterShallow</result>
+			</li>
+		</modExtensions>
+		<statBases>
+			<WorkToBuild>4800</WorkToBuild>
+		</statBases>
+		<costList>
+			<CrushedStone>4</CrushedStone>
+			<Dirt>8</Dirt>
+			<SoftClay>12</SoftClay>
+			<SandResource>20</SandResource>
+		</costList>
+		<terrainAffordanceNeeded>DeepWater</terrainAffordanceNeeded>
+	</ThingDef>
+	
+	<ThingDef ParentName="RFF_TerraformAdvancedBase">
+		<defName>Terraform_WaterToSand</defName>
+		<label>Shallow Water to Sand</label>
+		<description>Work: 80</description>
+		<uiIconPath>UI/Icons/Terraforming/WaterShallow-Sand</uiIconPath>
+		<modExtensions>
+			<li Class="FertileFields.Terrain">
+				<above>
+					<li>WaterShallow</li>
+					<li>WaterMovingShallow</li>
+					<li>WaterOceanShallow</li>
+					<li>FishingPierFloorShallowWater</li>
+				</above>
+				<result>SoftSand</result>
+			</li>
+		</modExtensions>
+		<statBases>
+			<WorkToBuild>4800</WorkToBuild>
+		</statBases>
+		<costList>
+			<CrushedStone>8</CrushedStone>
+			<Dirt>2</Dirt>
+			<SoftClay>4</SoftClay>
+			<SandResource>24</SandResource>
+		</costList>
+		<terrainAffordanceNeeded>ShallowWater</terrainAffordanceNeeded>
+	</ThingDef>
+	
+	<ThingDef ParentName="RFF_TerraformAdvancedBase">
+		<defName>Terraform_SandToWater</defName>
+		<label>Sand to Shallow Water</label>
+		<description>Coarse / Desert Sand\n Work: 73\n  +8 Gravel\n +2 Silt\n +4 Clay\n +24 Sand</description>
+		<uiIconPath>UI/Icons/Terraforming/Sand-WaterShallow</uiIconPath>
+		<modExtensions>
+			<li Class="FertileFields.Terrain">
+				<above>
+					<li>Sand</li>
+					<li>SoftSand</li>
+				</above>
+				<near>
+					<li>WaterShallow</li>
+					<li>WaterMovingShallow</li>
+					<li>WaterOceanShallow</li>
+				</near>
+				<result>WaterShallow</result>
+				<products>
+					<CrushedStone>8</CrushedStone>
+					<Dirt>2</Dirt>
+					<SoftClay>4</SoftClay>
+					<SandResource>24</SandResource>
+				</products>
+			</li>
+		</modExtensions>
+		<statBases>
+			<WorkToBuild>4380</WorkToBuild>
+		</statBases>	</ThingDef>
+	
+	<ThingDef ParentName="RFF_TerraformAdvancedBase">
+		<defName>Terraform_MarshySoilToWater</defName>
+		<label>Marshy Soil to Shallow Water</label>
+		<description>Swamp / Black / Bog Water\n Work: 120\n +4 Silt\n +4 Clay\n +2 Peat</description>
+		<uiIconPath>UI/Icons/Terraforming/Marsh-WaterShallow</uiIconPath>
+		<modExtensions>
+			<li Class="FertileFields.Terrain">
+				<above>
+					<li>MarshyTerrain</li>
+				</above>
+				<result>WaterShallow</result>
+				<products>
+					<Dirt>4</Dirt>
+					<SoftClay>4</SoftClay>
+					<Peat>2</Peat>
+				</products>
+			</li>
+		</modExtensions>
+		<statBases>
+			<WorkToBuild>7200</WorkToBuild>
+		</statBases>
+		<costList>
+			<CrushedStone>8</CrushedStone>
+			<SandResource>12</SandResource>
+		</costList>
+	</ThingDef>
 		
-	
-	
 </Defs>

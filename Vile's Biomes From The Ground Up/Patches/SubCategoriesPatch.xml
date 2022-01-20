@@ -44,7 +44,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Gravel"]/label</xpath>
 		<value>
-			<label>Develop Soil From...</label>
+			<label>Undeveloped Soil to...</label>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
@@ -119,16 +119,18 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_WaterShallow"]/label</xpath>
 		<value>
-			<label>Shallow Water to...</label>
+			<label>Water</label>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_WaterShallow"]/defNames</xpath>
 		<value>
 			<defNames>
-				<li>WaterShallow-Sand</li>
-				<li>WaterShallow-Marsh</li>
-				<li>WaterShallow-WaterDeep</li>
+				<li>Terraform_SandToWater</li>
+				<li>Terraform_WaterToSand</li>
+				<li>Terraform_MarshySoilToWater</li>
+				<li>Terraform_DeepToShallowWater</li>
+				<li>Terraform_ShallowToDeepWater</li>
 			</defNames>
 		</value>
 	</Operation>
@@ -176,7 +178,7 @@
 		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Gather"]/defNames</xpath>
 		<value>
 			<defNames>
-				<!-- For Future Use -->
+			
 			</defNames>
 		</value>
 	</Operation>

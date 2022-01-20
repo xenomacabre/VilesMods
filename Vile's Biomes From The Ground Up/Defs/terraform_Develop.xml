@@ -267,7 +267,7 @@ Drain Wetland
 <!-- DEVELOP SOIL...-->
 <ThingDef ParentName="RFF_TerraformBasicBase">	 
 	<defName>Terraform_DevelopToWeak</defName>
-	<label>to Weak Soil</label>
+	<label>Weak Soil</label>
 	<description>+2 Gravel</description>
 	<uiIconPath>UI/Icons/Terraforming/WeakSoil</uiIconPath>
 	<modExtensions>
@@ -293,7 +293,7 @@ Drain Wetland
 </ThingDef>	 
 <ThingDef ParentName="RFF_TerraformBasicBase">	 
 	<defName>Terraform_DevelopToRedClay</defName>
-	<label>to Red Clay Soil</label>
+	<label>Red Clay Soil</label>
 	<description>+2 Sand\n +4 Gravel</description>
 	<uiIconPath>UI/Icons/Terraforming/RedClaySoil</uiIconPath>
 	<modExtensions>
@@ -320,8 +320,8 @@ Drain Wetland
 </ThingDef>	 
 <ThingDef ParentName="RFF_TerraformBasicBase">	 
 	<defName>Terraform_DevelopToMarshy</defName>
-	<label>to Marshy Soil</label>
-	<description>+2 Gravel</description>
+	<label>Marshy Soil</label>
+	<description>+2 Gravel/n +4 Sand</description>
 	<uiIconPath>UI/Icons/Terraforming/MarshySoil</uiIconPath>
 	<modExtensions>
 		<li Class="FertileFields.Terrain">
@@ -331,13 +331,14 @@ Drain Wetland
 			<result>MarshyTerrain</result>
 			<products>
 				<CrushedStone>2</CrushedStone>
+				<SandResource>4</SandResource>
 			</products>
 		</li>
 	</modExtensions>
 	<costList>		
 		<Dirt>6</Dirt>
-		<SoftClay>2</SoftClay>
-		<Compost>2</Compost>
+		<SoftClay>6</SoftClay>
+		<Compost>6</Compost>
 	</costList>
 	<statBases>
 		<WorkToBuild>960</WorkToBuild>
@@ -346,7 +347,7 @@ Drain Wetland
 </ThingDef>	 
 <ThingDef ParentName="RFF_TerraformBasicBase">	 
 	<defName>Terraform_DevelopToSand</defName>
-	<label>to Coarse Sand</label>
+	<label>Coarse Sand</label>
 	<description>Undeveloped Soil to Coarse Sand</description>
 	<uiIconPath>UI/Icons/Terraforming/CoarseSand</uiIconPath>
 	<modExtensions>
