@@ -109,7 +109,7 @@
     </Operation>
 	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="MossyTerrain"]/fertility</xpath>
 		<value>
-			 <fertility>0.7</fertility>
+			 <fertility>0.75</fertility>
 		</value>
     </Operation>
 	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="MossyTerrain"]/pathCost</xpath>

@@ -56,6 +56,33 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="SmallFruitFoodRawBase">
+		<defName>RawBearberries</defName>
+		<label>Bearberries</label>
+		<description>Tiny berries that are bland until you cook them. Harvested from low-growing tundra shrubs.</description>
+		<graphicData>
+			<texPath>Things/Veg/Bearberries</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>4</MarketValue>
+			<Nutrition>0.05</Nutrition>
+		</statBases>
+		<tickerType>Rare</tickerType>   
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+			<joy>0.001</joy>
+		</ingestible>
+		<thingCategories>
+			<li>FruitFoodRaw</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>12</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SmallFruitFoodRawBase">
 		<defName>RawPricklyPear</defName>
 		<label>Prickly Pear</label>
 		<description>Prickly Pears come from a cactus that grows in arid soils.</description>
@@ -91,7 +118,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>1.4</MarketValue>
-			<Nutrition>0.05</Nutrition>
+			<Nutrition>0.1</Nutrition>
 		</statBases>
 		<tickerType>Rare</tickerType>   
 		<ingestible>

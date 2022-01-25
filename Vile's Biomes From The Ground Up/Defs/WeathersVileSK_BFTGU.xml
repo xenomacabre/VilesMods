@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	
+  <WeatherDef>
+		<defName>KatabaticStorm</defName>  <!-- ICE SHEET ONLY -->
+		<label>Katabatic Storm</label>
+	  <description>Extreme gravitational winds falling from elevated ice sheets. Snow on the ground is kicked up into a whiteout. Take shelter!</description>
+		<temperatureRange>
+			<min>-999</min>
+			<max>-5</max>
+		</temperatureRange>
+		<isBad>true</isBad>
+		<windSpeedFactor>3</windSpeedFactor>
+		<accuracyMultiplier>0.5</accuracyMultiplier>
+		<moveSpeedMultiplier>0.35</moveSpeedMultiplier>
+		<repeatable>true</repeatable>
+		<favorability>VeryBad</favorability>
+		<!--<exposedThought>SoakingWet</exposedThought>-->
+		<perceivePriority>1</perceivePriority>
+		<ambientSounds>
+			<li>Ambient_Wind_Fog</li>
+			<li>Ambient_Wind_Storm</li>
+		</ambientSounds>
+		<overlayClasses>
+			<li>WeatherOverlay_Fog</li>
+			<li>WeatherOverlay_SnowHard</li>
+			<!-- Until I can figure out how to build the assemblies
+			 <li>SeasonalWeather.WeatherOverlay_DustCloud</li>
+     		 <li>SeasonalWeather.WeatherOverlay_DustParticles</li>
+			 -->
+		</overlayClasses>
+		<durationRange>
+			<min>35000</min>
+			<max>90000</max>
+		</durationRange>
+      	   <skyColorsDay>
+			  <sky>(0.7,0.8,0.9)</sky>
+			  <shadow>(0.92,0.92,0.92)</shadow>
+			  <overlay>(0.5,0.55,0.7)</overlay>
+			  <saturation>0.9</saturation>
+			</skyColorsDay>
+			<skyColorsDusk>
+			  <sky>(0.8,0.9,1)</sky>
+			  <shadow>(0.92,0.92,0.92)</shadow>
+			  <overlay>(0.4,0.45,0.6)</overlay>
+			  <saturation>0.9</saturation>
+			</skyColorsDusk>
+			<skyColorsNightEdge>
+			  <sky>(0.25,0.40,0.55)</sky>
+			  <shadow>(0.92,0.92,0.92)</shadow>
+			  <overlay>(0.3,0.35,0.5)</overlay>
+			  <saturation>0.9</saturation>
+			</skyColorsNightEdge>
+			<skyColorsNightMid>
+			  <sky>(0.25,0.40,0.55)</sky>
+			  <shadow>(0.92,0.92,0.92)</shadow>
+			  <overlay>(0.3,0.35,0.5)</overlay>
+			  <saturation>0.9</saturation>
+			</skyColorsNightMid>
+	</WeatherDef>
+	
+	
+ <WeatherDef>
+    <defName>FoggyRain</defName>
+    <label>foggy rain</label>
+    <isBad>true</isBad>
+    <description>Reduces accuracy and movement speed.</description>
+    <temperatureRange>0~20</temperatureRange> <!-- when rain falls through cool air -->
+    <windSpeedFactor>1.5</windSpeedFactor>
+    <favorability>Neutral</favorability>
+    <perceivePriority>1</perceivePriority>
+    <exposedThought>SoakingWet</exposedThought>
+    <accuracyMultiplier>0.5</accuracyMultiplier>
+    <rainRate>1</rainRate>
+    <moveSpeedMultiplier>0.9</moveSpeedMultiplier>
+    <ambientSounds>
+      <li>Ambient_Wind_Fog</li>
+      <li>Ambient_Rain</li>
+    </ambientSounds>
+    <overlayClasses>
+      <li>WeatherOverlay_Fog</li>
+      <li>WeatherOverlay_Rain</li>
+    </overlayClasses>
+    <commonalityRainfallFactor>
+      <points>
+        <li>(0, 0)</li>
+        <li>(1300, 1)</li>
+      </points>
+    </commonalityRainfallFactor>   
+    <!-- Colors are Overcast -->
+    <skyColorsDay>
+      <sky>(0.8,0.8,0.8)</sky>
+      <shadow>(0.92,0.92,0.92)</shadow>
+      <overlay>(0.7,0.7,0.7)</overlay>
+      <saturation>0.9</saturation>
+    </skyColorsDay>
+    <skyColorsDusk>
+      <sky>(1,1,1)</sky>
+      <shadow>(0.92,0.92,0.92)</shadow>
+      <overlay>(0.6,0.6,0.6)</overlay>
+      <saturation>0.9</saturation>
+    </skyColorsDusk>
+    <skyColorsNightEdge>
+      <sky>(0.35,0.40,0.45)</sky>
+      <shadow>(0.92,0.92,0.92)</shadow>
+      <overlay>(0.5,0.5,0.5)</overlay>
+      <saturation>0.9</saturation>
+    </skyColorsNightEdge>
+    <skyColorsNightMid>
+      <sky>(0.35,0.40,0.45)</sky>
+      <shadow>(0.92,0.92,0.92)</shadow>
+      <overlay>(0.5,0.5,0.5)</overlay>
+      <saturation>0.9</saturation>
+    </skyColorsNightMid>
+ </WeatherDef>
+	
+	
+	<WeatherDef>
+		<defName>MonsoonRains</defName>
+		<label>Monsoon Rains</label>
+		<description>A long wet season.</description>
+		<temperatureRange>
+			<min>15</min>
+			<max>999</max>
+		</temperatureRange>
+		<isBad>true</isBad>
+		<windSpeedFactor>3</windSpeedFactor>
+		<!--<favorability>VeryBad</favorability>-->
+		<exposedThought>SoakingWet</exposedThought>
+		<perceivePriority>2</perceivePriority>
+		<accuracyMultiplier>0.4</accuracyMultiplier>
+		<rainRate>2.0</rainRate>
+		<repeatable>true</repeatable>
+		<moveSpeedMultiplier>0.5</moveSpeedMultiplier>
+		<ambientSounds>
+			<li>Ambient_Wind_Storm</li>
+			<li>Ambient_Rain</li>
+		</ambientSounds>
+		<durationRange>
+			<min>300000</min>
+			<max>500000</max>
+		</durationRange>
+		<eventMakers>
+			<li>
+				<averageInterval>30000</averageInterval>
+				<eventClass>WeatherEvent_LightningFlash</eventClass>
+			</li>
+			<!--<li>
+				<averageInterval>2000</averageInterval>
+				<eventClass>WeatherEvent_LightningStrike</eventClass>
+			</li>-->
+		</eventMakers>
+		<overlayClasses>
+			<li>WeatherOverlay_Rain</li>
+		</overlayClasses>
+		<commonalityRainfallFactor>
+			<points>
+				<li>(0, 0)</li>
+				<li>(1300, 1)</li>
+				<li>(4000, 20.0)</li>
+			</points>
+		</commonalityRainfallFactor>  
+		<!-- Colors are Overcast -->
+		<skyColorsDay>
+			<sky>(0.8,0.8,0.8)</sky>
+			<shadow>(0.92,0.92,0.92)</shadow>
+			<overlay>(0.8,0.8,0.9)</overlay>
+			<saturation>0.9</saturation>
+		</skyColorsDay>
+		<skyColorsDusk>
+			<sky>(1,0.95,0.9)</sky>
+			<shadow>(0.92,0.92,0.92)</shadow>
+			<overlay>(0.7,0.7,0.7)</overlay>
+			<saturation>0.9</saturation>
+		</skyColorsDusk>
+		<skyColorsNightEdge>
+			<sky>(0.35,0.40,0.45)</sky>
+			<shadow>(0.92,0.92,0.92)</shadow>
+			<overlay>(0.55,0.55,0.55)</overlay>
+			<saturation>0.9</saturation>
+		</skyColorsNightEdge>
+		<skyColorsNightMid>
+			<sky>(0.35,0.40,0.45)</sky>
+			<shadow>(0.92,0.92,0.92)</shadow>
+			<overlay>(0.55,0.55,0.55)</overlay>
+			<saturation>0.9</saturation>
+		</skyColorsNightMid>
+	</WeatherDef>
+	
+	<WeatherDef>
+		<defName>SeasonalDrought</defName>
+		<label>Seasonal Drought</label>
+		<description>A long period without rainfall.</description>
+		<repeatable>true</repeatable>
+		<favorability>Good</favorability>
+		<perceivePriority>0</perceivePriority>
+		<durationRange>
+			<min>300000</min>
+			<max>500000</max>
+		</durationRange>
+		<ambientSounds>
+		  <li>Ambient_Wind_Clear</li>
+		</ambientSounds>   
+		<!-- Colors are Clear -->
+		<skyColorsDay>
+		  <sky>(1,1,1)</sky>
+		  <shadow>(0.718,0.745,0.757)</shadow>
+		  <overlay>(1,1,0.95)</overlay>
+		  <saturation>1.25</saturation>
+		</skyColorsDay>
+		<skyColorsDusk>
+		  <sky>(0.858,0.7,0.4)</sky>
+		  <shadow>(0.955,0.886,0.914)</shadow>
+		  <overlay>(0.8,0.8,0.8)</overlay>
+		  <saturation>1.25</saturation>
+		</skyColorsDusk>
+		<skyColorsNightEdge>
+		  <sky>(0.482,0.603,0.682)</sky>
+		  <shadow>(0.92,0.92,0.92)</shadow>
+		  <overlay>(0.6,0.6,0.6)</overlay>
+		  <saturation>1.25</saturation>
+		</skyColorsNightEdge>
+		<skyColorsNightMid>
+		  <sky>(0.482,0.603,0.682)</sky>
+		  <shadow>(0.85, 0.85, 0.85)</shadow>
+		  <overlay>(0.6,0.6,0.6)</overlay>
+		  <saturation>1.25</saturation>
+		</skyColorsNightMid>
+	  </WeatherDef>
+	
+  <WeatherDef>
+    <defName>Windy</defName>
+    <label>windy</label>
+    <description>And so the wind blows...</description>
+    <repeatable>true</repeatable>
+    <favorability>Neutral</favorability>
+    <perceivePriority>1</perceivePriority>
+    <ambientSounds>
+      <li>AmbientWind_Storm</li>
+    </ambientSounds>
+    <windSpeedFactor>2</windSpeedFactor>
+    <!--This forces windy-->
+    <accuracyMultiplier>0.9</accuracyMultiplier>
+    <!-- Colors are Clear -->
+    <skyColorsDay>
+      <sky>(1,1,1)</sky>
+      <shadow>(0.718,0.745,0.757)</shadow>
+      <overlay>(1,1,1)</overlay>
+      <saturation>1.25</saturation>
+    </skyColorsDay>
+    <skyColorsDusk>
+      <sky>(0.858,0.650,0.423)</sky>
+      <shadow>(0.955,0.886,0.914)</shadow>
+      <overlay>(0.8,0.8,0.8)</overlay>
+      <saturation>1.25</saturation>
+    </skyColorsDusk>
+    <skyColorsNightEdge>
+      <sky>(0.482,0.603,0.682)</sky>
+      <shadow>(0.92,0.92,0.92)</shadow>
+      <overlay>(0.6,0.6,0.6)</overlay>
+      <saturation>1.25</saturation>
+    </skyColorsNightEdge>
+    <skyColorsNightMid>
+      <sky>(0.482,0.603,0.682)</sky>
+      <shadow>(0.85, 0.85, 0.85)</shadow>
+      <overlay>(0.6,0.6,0.6)</overlay>
+      <saturation>1.25</saturation>
+    </skyColorsNightMid>
+  </WeatherDef>
+	
+  <WeatherDef>
+    <defName>Cloudy</defName>
+    <label>cloudy</label>
+    <description>The sun is obscured by clouds.</description>
+    <repeatable>true</repeatable>
+    <favorability>Good</favorability>
+    <perceivePriority>0</perceivePriority>
+    <ambientSounds>
+      <li>AmbientWind_Clear</li>
+    </ambientSounds>
+    <!-- Colors are Overcast -->
+    <skyColorsDay>
+      <sky>(0.8,0.8,0.8)</sky>
+      <shadow>(0.92,0.92,0.92)</shadow>
+      <overlay>(0.7,0.7,0.7)</overlay>
+      <saturation>0.9</saturation>
+    </skyColorsDay>
+    <skyColorsDusk>
+      <sky>(1,1,1)</sky>
+      <shadow>(0.92,0.92,0.92)</shadow>
+      <overlay>(0.6,0.6,0.6)</overlay>
+      <saturation>0.9</saturation>
+    </skyColorsDusk>
+    <skyColorsNightEdge>
+      <sky>(0.35,0.40,0.45)</sky>
+      <shadow>(0.92,0.92,0.92)</shadow>
+      <overlay>(0.5,0.5,0.5)</overlay>
+      <saturation>0.9</saturation>
+    </skyColorsNightEdge>
+    <skyColorsNightMid>
+      <sky>(0.35,0.40,0.45)</sky>
+      <shadow>(0.92,0.92,0.92)</shadow>
+      <overlay>(0.5,0.5,0.5)</overlay>
+      <saturation>0.9</saturation>
+    </skyColorsNightMid>
+  </WeatherDef>
+  
+  
+	<!--EVENTS -->
+	<IncidentDef> <!--Lasts longer, but slightly less likely to happen in non-polar biomes.-->
+		<defName>Aurora</defName>
+		<label>aurora</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>World</li>
+		</targetTags>
+		<workerClass>IncidentWorker_Aurora</workerClass>
+		<gameCondition>Aurora</gameCondition>
+		<letterLabel>Aurora</letterLabel>
+		<letterDef>PositiveEvent</letterDef>
+		<baseChance>2.4</baseChance>
+		<minRefireDays>10</minRefireDays>
+		<durationDays>0.25~0.5</durationDays>
+		<tale>Aurora</tale>
+		<modExtensions>
+			<li Class="SK.ExtendedIncident">
+				<allowedTemperatureRange>-999~-17</allowedTemperatureRange>
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	
+</Defs>

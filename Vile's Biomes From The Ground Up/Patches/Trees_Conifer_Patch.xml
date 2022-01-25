@@ -83,7 +83,7 @@
 		<xpath>Defs/ThingDef[defName="Plant_TreePine"]/plant/visualSizeRange</xpath>
 		<value>
 			<visualSizeRange Inherit="False">
-				<min>1.5</min>
+				<min>2</min>
 				<max>5.0</max>
 			</visualSizeRange>
 		</value>

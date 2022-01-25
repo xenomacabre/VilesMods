@@ -1,14 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
 
-
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/PawnKindDef[defName="PawnKindDefFishSduiggles"]/naturalBiomes</xpath>
+		<value>
+		<naturalBiomes>
+			<li>TemperateForest</li>
+			<li>TemperateSwamp</li>
+			<li>ColdBog</li>
+			<li>TropicalRainforest</li>
+			<li>TropicalSwamp</li>
+			<li>AridShrubland</li>
+			<li>DesertArchipelago</li>
+			<li>DesertArchipelago_Fresh</li>
+			<li>TemperateArchipelago</li>
+			<li>TemperateArchipelago_Fresh</li>
+			<li>TropicalArchipelago</li>
+			<li>TropicalArchipelago_Fresh</li>
+			<li>TemperateSwampArchipelago</li>
+			<li>TemperateSwampArchipelago_Fresh</li>
+			<li>TropicalSwampArchipelago</li>
+			<li>TropicalSwampArchipelago_Fresh</li>
+		</naturalBiomes>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/PawnKindDef[defName="PawnKindDefFishSduiggles"]/livesInRiver</xpath>
+		<value>
+			<livesInRiver>false</livesInRiver> <!-- DELETE JUST TESTING -->
+		</value>
+    </Operation>
+	
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/PawnKindDef[defName="PawnKindDefFishMashgon"]/naturalBiomes</xpath>
 		<value>
 			<naturalBiomes>
 			<li>BorealForest</li>
-			<!--<li>ColdBog</li> Nothing can live in bogs-->
+			<li>ColdBog</li>
 			<li>TemperateForest</li>
 			<li>TemperateSwamp</li>
 			<li>TropicalRainforest</li>

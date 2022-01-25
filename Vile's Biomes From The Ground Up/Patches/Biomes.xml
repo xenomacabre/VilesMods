@@ -107,8 +107,6 @@
 					<Plant_TreeKapok>0.03</Plant_TreeKapok>
 					<Plant_TreePalmetto>1.0</Plant_TreePalmetto>
 					<Plant_PeatMoss>0.3</Plant_PeatMoss>
-					
-				
 				</wildPlants>
 			</value>
     </Operation>	
@@ -156,7 +154,7 @@
 <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants</xpath>	
 	<value>
 		<wildPlants>
-				<Plant_Grass>0.5</Plant_Grass>
+				<Plant_Grass>4.0</Plant_Grass>
 				<Plant_Potato>0.07</Plant_Potato>
 				<Plant_Flax>0.1</Plant_Flax>
 				<Plant_Berry>0.15</Plant_Berry>
@@ -182,7 +180,6 @@
 				<Plant_TreePoplar>1.0</Plant_TreePoplar>
 				<Plant_TreeMaple>0.9</Plant_TreeMaple>
 				<Plant_TreeWillow>0.8</Plant_TreeWillow>
-			<Plant_TallGrass>4.9</Plant_TallGrass>
 			</wildPlants>
 		</value>
 </Operation>	
@@ -192,7 +189,7 @@
 <xpath>Defs/BiomeDef[defName="TemperateArchipelago"]/wildPlants</xpath>	
 	<value>
 		<wildPlants>
-				<Plant_Grass>0.5</Plant_Grass>
+				<Plant_Grass>2</Plant_Grass>
 				<Plant_Potato>0.07</Plant_Potato>
 				<Plant_Flax>0.1</Plant_Flax>
 				<Plant_Berry>0.15</Plant_Berry>
@@ -218,8 +215,7 @@
 				<Plant_TreePoplar>1.0</Plant_TreePoplar>
 				<Plant_TreeMaple>0.9</Plant_TreeMaple>
 				<Plant_TreeWillow>0.8</Plant_TreeWillow>
-			<Plant_TallGrass>3.5</Plant_TallGrass>
-			<Plant_Rush>1.0</Plant_Rush>
+				<Plant_Rush>1.5</Plant_Rush>
 			</wildPlants>
 		</value>
 </Operation>	
@@ -235,7 +231,7 @@
 <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildPlants</xpath>	
 	<value>
 	<wildPlants>
-			<Plant_Sedge>0.8</Plant_Sedge>
+			<Plant_Sedge>1.0</Plant_Sedge>
 			<Plant_Chokevine>0.8</Plant_Chokevine>
 			<Plant_Bush>0.5</Plant_Bush>
 			<Plant_TreeWillow>0.40</Plant_TreeWillow>
@@ -261,7 +257,7 @@
 			<Plant_Dandelion>0.1</Plant_Dandelion>
 			<Plant_PeatMoss>0.4</Plant_PeatMoss>
 			<Plant_Moss>0.8</Plant_Moss>
-			<Plant_Rush>1.5</Plant_Rush>
+			<Plant_Rush>2.0</Plant_Rush>
 		</wildPlants>
 		</value>
 </Operation>		
@@ -330,7 +326,7 @@
 			<Plant_Juniper>0.45</Plant_Juniper>
 			<Plant_Healroot>0.06</Plant_Healroot>
 			<Plant_Rhododendron>0.1</Plant_Rhododendron>
-			<Plant_TallGrass>3.4</Plant_TallGrass>
+			<Plant_TallGrass>4.0</Plant_TallGrass>
 			<Plant_Moss>0.5</Plant_Moss>
 			<!--<Plant_Venus>0.5</Plant_Venus>
 			<Plant_WhiteRose>0.15</Plant_WhiteRose>-->
@@ -364,7 +360,7 @@
 			<Plant_Juniper>0.45</Plant_Juniper>
 			<Plant_Healroot>0.06</Plant_Healroot>
 			<Plant_Rhododendron>0.1</Plant_Rhododendron>
-			<Plant_TallGrass>3.4</Plant_TallGrass>
+			<Plant_TallGrass>3</Plant_TallGrass>
 			<Plant_Moss>0.5</Plant_Moss>
 			<Plant_Dandelion>0.5</Plant_Dandelion>
 			<Plant_Daylily>0.15</Plant_Daylily>
@@ -386,9 +382,9 @@
 <xpath>Defs/BiomeDef[defName="ColdBog"]/wildPlants</xpath>	
 	<value>
 		<wildPlants>
-			<Plant_Rush>4.5</Plant_Rush>
-			<Plant_Cattail>7.5</Plant_Cattail>
-			<Plant_PeatMoss>2.7</Plant_PeatMoss>
+			<Plant_Rush>3</Plant_Rush>
+			<Plant_Cattail>2.4</Plant_Cattail>
+			<Plant_PeatMoss>0.9</Plant_PeatMoss>
 			<Plant_Bush>0.05</Plant_Bush>
 			<!--<Plant_Berry>0.02</Plant_Berry>-->
 			<Plant_Astragalus>0.03</Plant_Astragalus>
@@ -397,7 +393,7 @@
 			<Plant_Venus>0.06</Plant_Venus>
 			<Plant_Cranberry>0.25</Plant_Cranberry>
 			<Plant_Blueberry>0.1</Plant_Blueberry>
-			<Plant_SwampGrass>3</Plant_SwampGrass>
+			<Plant_SwampGrass>3.0</Plant_SwampGrass>
 			<Plant_Juniper>0.1</Plant_Juniper>
 			<Plant_TreeSpruce>0.95</Plant_TreeSpruce>
 		</wildPlants>
@@ -438,21 +434,21 @@
 <xpath>Defs/BiomeDef[defName="Tundra"]/wildPlants</xpath>	
 	<value>
 		<wildPlants>
-			<Plant_Juniper>0.12</Plant_Juniper>
+			<Plant_Juniper>0.22</Plant_Juniper>
 			<Plant_Venus>0.5</Plant_Venus>
 			<Plant_Dandelion>0.3</Plant_Dandelion>
 			<Plant_Astragalus>0.32</Plant_Astragalus>
 			<Plant_Crocus>0.2</Plant_Crocus>
 			<Plant_HealrootWild>0.02</Plant_HealrootWild>
-			<Plant_Haygrass>2.0</Plant_Haygrass>
+			<Plant_TallGrass>3.5</Plant_TallGrass>
 			<Plant_Moss>3.0</Plant_Moss>
 			<Plant_Mushroom_Blue>0.04</Plant_Mushroom_Blue>
 			<Plant_Mushroom_Red>0.03</Plant_Mushroom_Red>
 			<Plant_TreeDwarfWillow>0.04</Plant_TreeDwarfWillow>
-			<Plant_TreeSpruce>0.09</Plant_TreeSpruce>
+			<Plant_TreeSpruce>0.18</Plant_TreeSpruce>
 			<Plant_PeatMoss>0.8</Plant_PeatMoss>
 			<Plant_CaribouMoss>1.5</Plant_CaribouMoss>
-			<Plant_Bearberry>3.5</Plant_Bearberry>
+			<Plant_Bearberry>2.0</Plant_Bearberry>
 			
 		</wildPlants>
 	</value>
@@ -474,17 +470,17 @@
 		<value>
 			<wildPlants>
 				<Plant_Cotton>0.04</Plant_Cotton>
-				<Plant_Agave>0.50</Plant_Agave>
-				<Plant_SaguaroCactus>0.5</Plant_SaguaroCactus>
-				<Plant_PricklyPear>0.6</Plant_PricklyPear>
+				<Plant_Agave>0.15</Plant_Agave>
+				<Plant_SaguaroCactus>0.1</Plant_SaguaroCactus>
+				<Plant_PricklyPear>0.15</Plant_PricklyPear>
 				<Plant_PincushionCactus>1.1</Plant_PincushionCactus>
-				<Plant_Bush>0.75</Plant_Bush>
-				<Plant_Haygrass>8.0</Plant_Haygrass>
+				<Plant_Bush>0.8</Plant_Bush>
+				<Plant_PangolaGrass>8.0</Plant_PangolaGrass>
 				<Plant_Psychoid>0.01</Plant_Psychoid>
 				<!--<Plant_TreePalm>0.18</Plant_TreePalm>
 				<Plant_TreeBanana>0.02</Plant_TreeBanana>-->
-				<Plant_Dandelion>0.5</Plant_Dandelion>
-				<Plant_Crocus>0.2</Plant_Crocus>
+				<Plant_Dandelion>0.3</Plant_Dandelion>
+				<Plant_Crocus>0.1</Plant_Crocus>
 				<Plant_TreeAcacia>0.45</Plant_TreeAcacia>
 				<Plant_TreeDrago>0.05</Plant_TreeDrago>
 			</wildPlants>
@@ -494,20 +490,43 @@
 	
 <!-- DESERT -->
 <Operation Class="PatchOperationReplace">
+<xpath>Defs/BiomeDef[defName="Desert"]/plantDensity</xpath>	
+	<value>	
+		<plantDensity>0.4</plantDensity>	
+	</value>
+</Operation>	
+<Operation Class="PatchOperationReplace">
+<xpath>Defs/BiomeDef[defName="Desert"]/wildPlantsCareAboutLocalFertility</xpath>	
+	<value>	
+		<wildPlantsCareAboutLocalFertility>false</wildPlantsCareAboutLocalFertility>	
+	</value>
+</Operation>	
+<Operation Class="PatchOperationReplace">
+<xpath>Defs/BiomeDef[defName="Desert"]/wildPlantRegrowDays</xpath>	
+	<value>	
+		<wildPlantRegrowDays>35</wildPlantRegrowDays>	
+	</value>
+</Operation>			
+
+
+<Operation Class="PatchOperationReplace">
 <xpath>Defs/BiomeDef[defName="Desert"]/wildPlants</xpath>
 		<value>
 			<wildPlants>
-				<Plant_Agave>0.25</Plant_Agave>
+				<Plant_HealrootWild>0.2</Plant_HealrootWild>
+				<Plant_Agave>0.5</Plant_Agave>
 				<Plant_SaguaroCactus>1.2</Plant_SaguaroCactus>
-				<Plant_PricklyPear>0.4</Plant_PricklyPear>
+				<Plant_PricklyPear>1</Plant_PricklyPear>
+				<Plant_TreePalm>0.8</Plant_TreePalm>
+				<Plant_TreePalmetto>0.9</Plant_TreePalmetto>
 				<Plant_PincushionCactus>1.1</Plant_PincushionCactus>
-				<Plant_Bush>0.25</Plant_Bush>
-				<Plant_Haygrass>7</Plant_Haygrass>
+				<Plant_Bush>0.35</Plant_Bush>
+				<Plant_PangolaGrass>3.0</Plant_PangolaGrass>
 				<Plant_Psychoid>0.01</Plant_Psychoid>
 				<Plant_Dandelion>0.5</Plant_Dandelion>
 				<Plant_Daylily>0.4</Plant_Daylily>
-				<Plant_TreeAcacia>0.45</Plant_TreeAcacia>
-				<Plant_TreeDrago>0.25</Plant_TreeDrago>
+				<Plant_TreeAcacia>0.65</Plant_TreeAcacia>
+				<Plant_TreeDrago>0.12</Plant_TreeDrago>
 			</wildPlants>
 		</value>
 </Operation>	
@@ -522,7 +541,7 @@
 				<Plant_PricklyPear>0.4</Plant_PricklyPear>
 				<Plant_PincushionCactus>1.1</Plant_PincushionCactus>
 				<Plant_Bush>0.25</Plant_Bush>
-				<Plant_Haygrass>7</Plant_Haygrass>
+				<Plant_PangolaGrass>7</Plant_PangolaGrass>
 				<Plant_Psychoid>0.01</Plant_Psychoid>
 				<Plant_Dandelion>0.5</Plant_Dandelion>
 				<Plant_Daylily>0.4</Plant_Daylily>
@@ -542,7 +561,7 @@
 				<Plant_Agave>0.25</Plant_Agave>
 				<Plant_PricklyPear>0.2</Plant_PricklyPear>
 				<Plant_SaguaroCactus>1</Plant_SaguaroCactus>
-				<Plant_Haygrass>6</Plant_Haygrass>
+				<Plant_PangolaGrass>6</Plant_PangolaGrass>
 				<Plant_Bush>0.05</Plant_Bush>
 				<Plant_TreeAcacia>0.25</Plant_TreeAcacia>
 				<Plant_TreeDrago>0.08</Plant_TreeDrago>
@@ -556,6 +575,7 @@
 		<value>
 			<wildPlants>
 				<Plant_Moss>0.25</Plant_Moss>
+				<Plant_CaribouMoss>0.25</Plant_CaribouMoss>
 			</wildPlants>
 		</value>
 </Operation>	

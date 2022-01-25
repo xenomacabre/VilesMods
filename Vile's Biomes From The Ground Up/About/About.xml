@@ -8,38 +8,26 @@
 </supportedVersions>
 <packageId>xenomacabre.HSKBiomes</packageId>
 <modDependencies>
-	<!--<li>
-		<packageId>skyarkhangel.FencesAndFloorsVileUpdate</packageId>
-		<displayName>HSK Fences and Floors: Vile's Patch</displayName>
-		<downloadUrl>https://github.com/xenomacabre/VilesMods</downloadUrl>
-	</li>
-	<li>
-		<packageId>skyarkhangel.realisticterraform</packageId>
-		<displayName>HMC Realistic Terraforming</displayName>
-		<downloadUrl>https://github.com/skyarkhangel/Hardcore-SK</downloadUrl>
-	</li>
-	<li>
-		<packageId>ViTech.HCSKWood</packageId>
-		<displayName>Wood You Please</displayName>
-		<downloadUrl>https://github.com/xenomacabre/VilesMods</downloadUrl>
-	</li>-->
-	
 </modDependencies>
 <loadBefore>
 </loadBefore>
 <loadAfter>
-	<!--<li>skyarkhangel.FencesAndFloorsVileUpdate</li>
-	<li>ViTech.HCSKWood</li>-->
+	<!--<li>ViTech.HCSKWood</li>-->
 </loadAfter>
 <incompatibleWith>
 	<li>cattleya.florareskin</li>
-	
 </incompatibleWith>
-<description>Version 0.12A - 1/19/2022 - Remixed boreal a bit, added back in missing water terraforms, fixed yet another framerate issue (should be final this time). Keep the feedback comin'!
+<description>Version 0.13A - 1/25/2022 - Seasonal Weather mod doesn't seem to be working, so please disable it (If removing Seasonal Weather breaks your savegame, re-enable seasonal weather but delete everything in VP_SK_Seasonal Weather/Patches/). Patching/adjusting biome base weathers to compensate, but likely will need some balance adjustment as we test it. Savanna will alternate a lot between month-long monsoon rains and droughts. Added harvestable caribou moss and bearberries from the Tundra to make it more playable. Adjusted grow-rate of grasses for cold biomes and moved some around a bit. More balance tweaks here and there and more to come.
+
+Version 0.12A - 1/19/2022 - Remixed boreal a bit, added back in missing water terraforms, fixed yet another framerate issue (should be final this time). Keep the feedback comin'!
 Version 0.11A - 1/18/2022 - fixed issue affecting framerate during cold weather, missing textures, improves some textures.
 Version 0.1A - 1/17/2022
 	
 Dislaimer: This is a brand new mod, which means it needs some testing. By reading this, you agree to offer your soil in exchange for early access to this mod. That is to say, please send me feedback on discord if anything seems weird or buggy, or if something just looks off. And before you ask, yes, you'll have to start a new game, or at least move your colony to a new tile so the biome can regenerate. I also recommend using the patched Seasonal Weather mod with this.
+
+I've started a blog and Patreon for my mods! Check it out, and support me if you wish. 
+http://patreon.com/vileheathen  
+Thank you everyone for the continued feedback. Special thanks to Sidfu for their patronage :Raises Wineglass of Bog Water:
 
 Biomes: From The Groud Up overhauls biomes... from the ground up. Here's the dirt:
 	
@@ -114,6 +102,8 @@ ___NOTES___
 Cattail and swampgrass currently have this thing where they appear in places they should when you first generate the map, but will disappear immediately. It shouldn't affect gameplay.
 
 Some pretty drastic changes were made to some of the biome generation. It's impossible for me to test every possible iteration, so please send feedback if you find anything weird.
+
+
 
 </description> 
 </ModMetaData>

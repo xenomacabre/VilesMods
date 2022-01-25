@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
 	<ThingDef ParentName="TreewoodBase">
 		<defName>Plant_TreeSpruce</defName>
 		<label>spruce tree</label>
@@ -18,11 +19,12 @@
 		</statBases>
 		<plant>
 			<fertilityMin>0.15</fertilityMin>
+			<fertilitySensitivity>0.2</fertilitySensitivity>
 			<visualSizeRange>
 				<min>1.5</min>
 				<max>3.4</max>
 			</visualSizeRange>
-			<growDays>21</growDays>
+			<growDays>17</growDays>
 			<harvestWork>600</harvestWork>
 			<harvestYield>35</harvestYield>
 			<sowMinSkill>6</sowMinSkill>
@@ -59,9 +61,11 @@
 				<min>1.2</min>
 				<max>3.2</max>
 			</visualSizeRange>
-			<growDays>18</growDays>
+			<fertilityMin>0.51</fertilityMin>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<growDays>10</growDays>
 			<harvestWork>600</harvestWork>
-			<harvestYield>35</harvestYield>
+			<harvestYield>20</harvestYield>
 			<sowMinSkill>6</sowMinSkill>
 			<sowResearchPrerequisites>
 				<li>Trees_B3</li>
@@ -72,122 +76,6 @@
 				<hasSnowyGraphic>true</hasSnowyGraphic>
 			</li>
 		</modExtensions>-->
-	</ThingDef>
-	
-	
-	<ThingDef ParentName="SK_DeciduousWildPlantBase">
-	<defName>Plant_Sedge</defName>
-		<label>sedge</label>
-		<description>Similar to wild grass, though its sharp edges make it harder to harvest.</description>
-		<statBases>
-			<MaxHitPoints>90</MaxHitPoints>
-			<Beauty>0</Beauty>
-			<Nutrition>0.2</Nutrition>
-		</statBases>
-		<pathCost>20</pathCost>
-		<graphicData>
-			<texPath>Things/Plant/PlantSedge</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-		</graphicData>
-		<hideAtSnowDepth>0.5</hideAtSnowDepth>
-		<fillPercent>0</fillPercent>
-		<plant>
-			<!--<leaflessGraphicPath>Things/Plant/Sedge</leaflessGraphicPath>-->
-			<harvestWork>80</harvestWork>
-			<fertilityMin>0.1</fertilityMin>
-			<maxMeshCount>16</maxMeshCount>
-			<harvestTag>Standard</harvestTag>
-			<harvestedThingDef>Hay</harvestedThingDef>
-			<harvestYield>3</harvestYield>
-			<visualSizeRange>
-				<min>0.5</min>
-				<max>1.6</max>
-			</visualSizeRange>
-			<growDays>3.5</growDays>
-			<topWindExposure>0.4</topWindExposure>
-			<fertilitySensitivity>1.2</fertilitySensitivity>
-			<!--<wildClusterRadius>10</wildClusterRadius>
-			<wildClusterWeight>75</wildClusterWeight>-->
-			<wildClusterWeight>50</wildClusterWeight>
-			<wildClusterRadius>3</wildClusterRadius>
-			<wildOrder>1</wildOrder>
-		</plant>
-	</ThingDef>
-	
-	<ThingDef ParentName="SK_PlantBase">
-	<defName>Plant_Rush</defName>
-		<label>rush</label>
-		<description>Sedges have edges and rushes are round. Grasses have joints when the cops aren't around.</description>
-		<statBases>
-			<MaxHitPoints>90</MaxHitPoints>
-			<Beauty>0</Beauty>
-			<Nutrition>0.3</Nutrition>
-		</statBases>
-		<pathCost>20</pathCost>
-		<graphicData>
-			<texPath>Things/Plant/PlantRush</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-		</graphicData>
-		<hideAtSnowDepth>0.7</hideAtSnowDepth>
-		<fillPercent>0</fillPercent>
-		<plant>
-			<!--<leaflessGraphicPath>Things/Plant/Sedge</leaflessGraphicPath>-->
-			<harvestWork>80</harvestWork>
-			<fertilityMin>0.12</fertilityMin>
-			<maxMeshCount>25</maxMeshCount>
-			<harvestTag>Standard</harvestTag>
-			<harvestedThingDef>Hay</harvestedThingDef>
-			<harvestYield>3</harvestYield>
-			<visualSizeRange Inherit="False">
-				<min>0.4</min>
-				<max>0.9</max>
-			</visualSizeRange>
-			<growDays>3</growDays>
-			<topWindExposure>0.4</topWindExposure>
-			<fertilitySensitivity>0.5</fertilitySensitivity>
-			<wildClusterRadius>10</wildClusterRadius>
-			<wildClusterWeight>20</wildClusterWeight>
-			<wildOrder>1</wildOrder>
-		</plant>
-	</ThingDef>
-	
-	<ThingDef ParentName="SK_PlantBase">
-	<defName>Plant_SwampGrass</defName>
-		<label>swamp grass</label>
-		<description>Grass that thrives in wetness.</description>
-		<selectable>True</selectable>
-		<statBases>
-			<MaxHitPoints>90</MaxHitPoints>
-			<Beauty>0</Beauty>
-			<Nutrition>0.3</Nutrition>
-		</statBases>
-		<thingClass>SK.Plant_Algae</thingClass>
-		<pathCost>20</pathCost>
-		<graphicData>
-			<texPath>Things/Plant/PlantSwampGrass</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-		</graphicData>
-		<hideAtSnowDepth>0.5</hideAtSnowDepth>
-		<fillPercent>0</fillPercent>
-		<plant>
-			<!--<leaflessGraphicPath>Things/Plant/Sedge</leaflessGraphicPath>-->
-			<harvestWork>80</harvestWork>
-			<fertilityMin>0.01</fertilityMin>
-			<maxMeshCount>25</maxMeshCount>
-			<harvestTag>Standard</harvestTag>
-			<harvestedThingDef>Hay</harvestedThingDef>
-			<harvestYield>3</harvestYield>
-			<visualSizeRange>
-				<min>0.5</min>
-				<max>1.1</max>
-			</visualSizeRange>
-			<growDays>3.5</growDays>
-			<topWindExposure>0.1</topWindExposure>
-			<fertilitySensitivity>0.01</fertilitySensitivity>
-			<wildClusterRadius>3</wildClusterRadius>
-			<wildClusterWeight>50</wildClusterWeight>
-			<wildOrder>1</wildOrder>
-		</plant>
 	</ThingDef>
 	
 	<ThingDef ParentName="TreewoodBase">
@@ -323,7 +211,7 @@
 				<min>1.0</min>
 				<max>1.3</max>
 			</visualSizeRange>
-			<growDays>6</growDays>
+			<growDays>4</growDays>
 			<topWindExposure>0.3</topWindExposure>
 			<fertilitySensitivity>0.1</fertilitySensitivity>
 			<wildOrder>2</wildOrder>
@@ -379,7 +267,7 @@
 				<min>0.25</min>
 				<max>1.3</max>
 			</visualSizeRange>
-			<growDays>4.3</growDays>
+			<growDays>3.0</growDays>
 			<topWindExposure>0.1</topWindExposure>
 			<fertilitySensitivity>0.4</fertilitySensitivity>
 			<wildOrder>2</wildOrder>
@@ -426,7 +314,7 @@
 			</visualSizeRange>
 			<growDays>4</growDays>
 			<topWindExposure>0</topWindExposure>
-			<fertilitySensitivity>0.1</fertilitySensitivity>
+			<fertilitySensitivity>0.3</fertilitySensitivity>
 			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
@@ -446,21 +334,25 @@
 		<selectable>true</selectable>
 		<pathCost>5</pathCost>
 		<ingestible>
-			<preferability>NeverForNutrition</preferability>
 			<foodType>Plant</foodType>
+			<preferability>RawBad</preferability>
 		</ingestible>
 		<plant>
+			<harvestWork>100</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>RawFungus</harvestedThingDef>
+			<harvestYield>2</harvestYield>
 			<maxMeshCount>4</maxMeshCount>
-			<fertilityMin>0.12</fertilityMin>
-			<wildClusterWeight>999</wildClusterWeight>
-			<wildClusterRadius>30</wildClusterRadius>
+			<fertilityMin>0.1</fertilityMin>
+			<wildClusterWeight>64</wildClusterWeight>
+			<wildClusterRadius>24</wildClusterRadius>
 			<visualSizeRange>
 				<min>0.6</min>
 				<max>0.9</max>
 			</visualSizeRange>
-			<growDays>4</growDays>
+			<growDays>1.8</growDays>
 			<topWindExposure>0</topWindExposure>
-			<fertilitySensitivity>0.7</fertilitySensitivity>
+			<fertilitySensitivity>0.3</fertilitySensitivity>
 			<wildOrder>1</wildOrder>
 			<wildEqualLocalDistribution>false</wildEqualLocalDistribution>
 		</plant>
@@ -469,7 +361,7 @@
 	<ThingDef ParentName="SK_PlantBase">
 		<defName>Plant_Bearberry</defName>
 		<label>bearberry</label>
-		<description>A low-growing tundra shrub.</description>
+		<description>A low-growing tundra shrub. Their berries are bland raw, but have a taste similar to cranberries when cooked.</description>
 		<statBases>
 			<MaxHitPoints>30</MaxHitPoints>
 			<Nutrition>0.05</Nutrition>
@@ -486,6 +378,10 @@
 			<foodType>Plant</foodType>
 		</ingestible>
 		<plant>
+			<harvestWork>200</harvestWork>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>RawBearberries</harvestedThingDef>
+			<harvestYield>2</harvestYield>
 			<maxMeshCount>4</maxMeshCount>
 			<fertilityMin>0.12</fertilityMin>
 			<wildClusterWeight>40</wildClusterWeight>
@@ -494,9 +390,9 @@
 				<min>0.6</min>
 				<max>1.0</max>
 			</visualSizeRange>
-			<growDays>3.5</growDays>
+			<growDays>2.5</growDays>
 			<topWindExposure>0</topWindExposure>
-			<fertilitySensitivity>1.5</fertilitySensitivity>
+			<fertilitySensitivity>0.4</fertilitySensitivity>
 			<wildOrder>2</wildOrder>
 			<wildEqualLocalDistribution>false</wildEqualLocalDistribution>
 		</plant>
@@ -570,7 +466,7 @@
 			<wildClusterRadius>6</wildClusterRadius>
 			<wildClusterWeight>50</wildClusterWeight>
 			<fertilityMin>0.2</fertilityMin>
-			<fertilitySensitivity>0.2</fertilitySensitivity>
+			<fertilitySensitivity>0.7</fertilitySensitivity>
 			<visualSizeRange>
 				<min>1.9</min>
 				<max>3.5</max>

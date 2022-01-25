@@ -360,6 +360,8 @@ Drain Wetland
 	</modExtensions>
 	<costList>		
 		<SandResource>10</SandResource>
+		<SoftClay>4</SoftClay>
+		<Dirt>2</Dirt>
 	</costList>
 	<statBases>
 		<WorkToBuild>960</WorkToBuild>

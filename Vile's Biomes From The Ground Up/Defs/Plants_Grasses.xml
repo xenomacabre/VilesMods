@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<!-- Sedge - 3.0 days, 0.4 sensitivity, warm Wetlands, Tropical -->
+	<!-- Rush - 2.0 days, 0.35 sensitivity, prefers cold, wet, grows anywhere-->
+	<!-- Pangola grass (Plant_Haygrass) - 4 days, 1.2 sensitivity, dies in winter -->
+	<!-- Swamp Grass - 2 days-->
+	<!-- Speargrass - 1.8, 0.1 -->
+	
+	
+
+	
+	<ThingDef ParentName="SK_DeciduousWildPlantBase">
+	<defName>Plant_Sedge</defName> <!-- Tropical -->
+		<label>sedge</label>
+		<description>Similar to wild grass, though its sharp edges make it harder to harvest.</description>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Beauty>0</Beauty>
+			<Nutrition>0.2</Nutrition>
+		</statBases>
+		<pathCost>20</pathCost>
+		<graphicData>
+			<texPath>Things/Plant/PlantSedge</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowDepth>0.5</hideAtSnowDepth>
+		<fillPercent>0</fillPercent>
+		<plant>
+			<!--<leaflessGraphicPath>Things/Plant/Sedge</leaflessGraphicPath>-->
+			<harvestWork>80</harvestWork>
+			<fertilityMin>0.1</fertilityMin>
+			<maxMeshCount>16</maxMeshCount>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>Hay</harvestedThingDef>
+			<harvestYield>3</harvestYield>
+			<visualSizeRange>
+				<min>0.5</min>
+				<max>1.6</max>
+			</visualSizeRange>
+			<growDays>3.0</growDays>
+			<topWindExposure>0.4</topWindExposure>
+			<fertilitySensitivity>0.4</fertilitySensitivity>
+			<!--<wildClusterRadius>10</wildClusterRadius>
+			<wildClusterWeight>75</wildClusterWeight>-->
+			<wildClusterWeight>50</wildClusterWeight>
+			<wildClusterRadius>3</wildClusterRadius>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+	
+	<ThingDef ParentName="WildPlantBase">
+	<defName>Plant_Rush</defName>
+		<label>rush</label>
+		<description>Sedges have edges and rushes are round. Grasses have joints when the cops aren't around.</description>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Beauty>0</Beauty>
+			<Nutrition>0.3</Nutrition>
+		</statBases>
+		<pathCost>20</pathCost>
+		<graphicData>
+			<texPath>Things/Plant/PlantRush</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowDepth>0.7</hideAtSnowDepth>
+		<fillPercent>0</fillPercent>
+		<plant>
+			<!--<leaflessGraphicPath>Things/Plant/Sedge</leaflessGraphicPath>-->
+			<harvestWork>80</harvestWork>
+			<fertilityMin>0.12</fertilityMin>
+			<maxMeshCount>25</maxMeshCount>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>Hay</harvestedThingDef>
+			<harvestYield>4</harvestYield>
+			<visualSizeRange Inherit="False">
+				<min>0.4</min>
+				<max>0.9</max>
+			</visualSizeRange>
+			<growDays>2</growDays>
+			<topWindExposure>0.4</topWindExposure>
+			<fertilitySensitivity>0.35</fertilitySensitivity>
+			<wildClusterRadius>10</wildClusterRadius>
+			<wildClusterWeight>20</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="SK_DeciduousWildPlantBase"> 
+		<defName>Plant_PangolaGrass</defName>
+		<label>pangola grass</label>
+		<description>Wild tall grass which slows down anyone moving over it. It provides a bountiful harvest and grows extremely well in fertile soil, but cannot survive cold winters.</description>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Beauty>0</Beauty>
+			<Nutrition>0.3</Nutrition>
+		</statBases>
+		<pathCost>18</pathCost>
+		<graphicData>
+			<texPath>Things/Plant/PlantHayGrassVile</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<fillPercent>0</fillPercent>
+		<plant>
+			<!--<leaflessGraphicPath>Things/Plant/PlantTallGrass_Leafless</leaflessGraphicPath>-->
+			<dieIfLeafless>true</dieIfLeafless>
+			<harvestWork>60</harvestWork>
+			<fertilityMin>0.11</fertilityMin>
+			<maxMeshCount>9</maxMeshCount>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>Hay</harvestedThingDef>
+			<harvestYield>4</harvestYield>
+			<visualSizeRange>
+				<min>0.3</min>
+				<max>0.8</max>
+			</visualSizeRange>
+			<growDays>4</growDays>
+			<topWindExposure>0.4</topWindExposure>
+			<fertilitySensitivity>1.2</fertilitySensitivity>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>10</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+
+	
+	<ThingDef ParentName="WildPlantBase">
+	<defName>Plant_SwampGrass</defName>
+		<label>swamp grass</label>
+		<description>Grass that thrives in wetness.</description>
+		<selectable>True</selectable>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Beauty>0</Beauty>
+			<Nutrition>0.3</Nutrition>
+		</statBases>
+		<thingClass>SK.Plant_Algae</thingClass>
+		<pathCost>20</pathCost>
+		<graphicData>
+			<texPath>Things/Plant/PlantSwampGrass</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowDepth>0.5</hideAtSnowDepth>
+		<fillPercent>0</fillPercent>
+		<plant>
+			<!--<leaflessGraphicPath>Things/Plant/Sedge</leaflessGraphicPath>-->
+			<harvestWork>80</harvestWork>
+			<fertilityMin>0.01</fertilityMin>
+			<maxMeshCount>25</maxMeshCount>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>Hay</harvestedThingDef>
+			<harvestYield>3</harvestYield>
+			<visualSizeRange>
+				<min>0.5</min>
+				<max>1.1</max>
+			</visualSizeRange>
+			<growDays>2</growDays>
+			<topWindExposure>0.1</topWindExposure>
+			<fertilitySensitivity>0.01</fertilitySensitivity>
+			<wildClusterRadius>10</wildClusterRadius>
+			<wildClusterWeight>50</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+
+	
+</Defs>

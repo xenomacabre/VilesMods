@@ -161,7 +161,7 @@
 	
 	<TerrainDef Abstract="True" Name="BogWaterBase" ParentName="WaterBase">
     <affordances>
-      <li>ShallowWater</li>
+      <!--<li>ShallowWater</li>-->
       <li>Bridgeable</li>
     </affordances>
   </TerrainDef>
@@ -172,9 +172,9 @@
     <texturePath>Terrain/Surfaces/BogWaterRamp</texturePath>
     <waterDepthShader>Map/WaterDepth</waterDepthShader>
     <renderPrecedence>395</renderPrecedence>
-	  <pathCost>45</pathCost>
+	<pathCost>45</pathCost>
     <driesTo>Mud</driesTo>
-	   <fertility>0.1</fertility>
+	<fertility>0.1</fertility>
   </TerrainDef>
 	
  <TerrainDef ParentName="BogWaterBase">

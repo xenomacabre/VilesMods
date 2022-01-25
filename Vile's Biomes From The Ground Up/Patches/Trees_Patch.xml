@@ -17,6 +17,19 @@
 		</value>
     </Operation>
 	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreePalm"]/plant/fertilityMin</xpath>
+		<value>
+			<fertilityMin>0.51</fertilityMin>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreePalm"]/plant/fertilitySensitivity</xpath>
+		<value>
+			<fertilitySensitivity>0.8</fertilitySensitivity>
+		</value>
+    </Operation>
+	
 	<Operation Class="PatchOperationAddModExtension">
         <xpath>Defs/ThingDef[defName="Plant_TreePalm"]</xpath>
         <value>
@@ -25,6 +38,14 @@
 				</li>
         </value>
     </Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Plant_TreePalm"]/plant</xpath>	
+			<value>	
+				<wildEqualLocalDistribution>false</wildEqualLocalDistribution>	
+			</value>
+	</Operation>
+	
 	
 <!-- MAPLE -->	
 	
