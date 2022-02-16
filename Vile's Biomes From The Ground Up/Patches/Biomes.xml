@@ -21,6 +21,7 @@
 					<Plant_Crocus>0.4</Plant_Crocus>
 					<Plant_Anthurium>0.04</Plant_Anthurium>
 					<Plant_TreeCecropia>1.5</Plant_TreeCecropia>
+					<Plant_TreeTeak>0.45</Plant_TreeTeak>
 					<Plant_Smokeleaf>0.05</Plant_Smokeleaf>
 					<!--<Plant_Mangrove>1.2</Plant_Mangrove>-->
 					<Plant_TreePalm>0.7</Plant_TreePalm>
@@ -70,6 +71,7 @@
 						<Plant_SwordFern>0.3</Plant_SwordFern>
 					<Plant_Sedge>2.5</Plant_Sedge>
 					<Plant_Moss>0.9</Plant_Moss>
+					<Plant_TreeTeak>0.35</Plant_TreeTeak>
 				</wildPlants>
 			</value>
     </Operation>	
@@ -107,6 +109,7 @@
 					<Plant_TreeKapok>0.03</Plant_TreeKapok>
 					<Plant_TreePalmetto>1.0</Plant_TreePalmetto>
 					<Plant_PeatMoss>0.3</Plant_PeatMoss>
+					<Plant_TreeTeak>0.35</Plant_TreeTeak>
 				</wildPlants>
 			</value>
     </Operation>	

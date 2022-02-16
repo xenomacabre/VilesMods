@@ -1,0 +1,78 @@
+<Defs>
+
+<SeedsPlease.SeedDef ParentName="SeedBase">
+  <defName>Seed_Spruce</defName>
+  <label>spruce seeds</label>
+  <sources>
+    <li>Plant_TreeSpruce</li>
+  </sources>
+</SeedsPlease.SeedDef>
+
+<SeedsPlease.SeedDef ParentName="SeedBase">
+  <defName>Seed_Palmetto</defName>
+  <label>palmetto seeds</label>
+  <sources>
+    <li>Plant_TreePalmetto</li>
+  </sources>
+</SeedsPlease.SeedDef>
+
+<SeedsPlease.SeedDef ParentName="SeedBase">
+  <defName>Seed_Kapok</defName>
+  <label>kapok seeds</label>
+  <sources>
+    <li>Plant_TreeKapok</li>
+  </sources>
+</SeedsPlease.SeedDef>
+  
+<SeedsPlease.SeedDef ParentName="SeedBase">
+  <defName>Seed_Juniper</defName>
+  <label>juniper seeds</label>
+  <sources>
+    <li>Plant_Juniper</li>
+  </sources>
+</SeedsPlease.SeedDef>
+  
+<SeedsPlease.SeedDef ParentName="SeedBase">
+  <defName>Seed_DwarfWillow</defName>
+  <label>dwarfwillow seeds</label>
+  <sources>
+    <li>Plant_TreeDwarfWillow</li>
+  </sources>
+</SeedsPlease.SeedDef>
+
+<SeedsPlease.SeedDef ParentName="SeedBase">
+  <defName>Seed_PricklyPear</defName>
+  <label>prickly pear seeds</label>
+  <sources>
+    <li>Plant_PricklyPear</li>
+  </sources>
+</SeedsPlease.SeedDef>
+
+<SeedsPlease.SeedDef ParentName="SeedBase">
+  <defName>Seed_Cranberry</defName>
+  <label>cranberry seeds</label>
+  <sources>
+    <li>Plant_Cranberry</li>
+  </sources>
+</SeedsPlease.SeedDef>
+
+ <SeedsPlease.SeedDef ParentName="SeedBase">
+  <defName>Seed_Blueberry</defName>
+  <label>cranberry seeds</label>
+  <sources>
+    <li>Plant_Blueberry</li>
+  </sources>
+</SeedsPlease.SeedDef>
+
+ <SeedsPlease.SeedDef ParentName="SeedBase">
+  <defName>Seed_Acacia</defName>
+  <label>cranberry seeds</label>
+  <sources>
+    <li>Plant_TreeAcacia</li>
+  </sources>
+</SeedsPlease.SeedDef>
+
+
+ 
+  
+</Defs>

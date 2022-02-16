@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedPricklyPear</defName>
+    <label>extract prickly pear seeds</label>
+    <description>Extract seeds.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawPricklyPear</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawPricklyPear</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Seed_PricklyPear>3</Seed_PricklyPear>
+    </products>
+    <researchPrerequisite>Cocoa</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedCranberry</defName>
+    <label>extract cranberry seeds</label>
+    <description>Extract seeds.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawCranberries</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawCranberries</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Seed_Cranberry>3</Seed_Cranberry>
+    </products>
+    <researchPrerequisite>Cocoa</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedBlueberry</defName>
+    <label>extract blueberry seeds</label>
+    <description>Extract seeds.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Rawblueberry</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Rawblueberry</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Seed_Blueberry>3</Seed_Blueberry>
+    </products>
+    <researchPrerequisite>Cocoa</researchPrerequisite>
+  </RecipeDef>
+</Defs>

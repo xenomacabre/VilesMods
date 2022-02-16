@@ -248,7 +248,7 @@
     </Operation>
 	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Gravel"]/pathCost</xpath>
 		<value>
-			 <pathCost>12</pathCost>
+			 <pathCost>4</pathCost>
 		</value>
     </Operation>
 	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Gravel"]/label</xpath>
