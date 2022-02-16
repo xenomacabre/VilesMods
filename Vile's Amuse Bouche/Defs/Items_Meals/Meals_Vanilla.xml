@@ -34,7 +34,7 @@
 	</ThingDef>	
 	
 	<ThingDef ParentName="SK_MealBase">
-		<defName>MealFine_Meat</defName>
+		<defName>MealFine_MeatVile</defName>
 		<label>carnivore stir fry</label>
 		<description>.8 Nutr, Fine &#xA; Meat and other ingredients in a pan, fried.</description>
 		<graphicData>
@@ -64,7 +64,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="SK_MealBase">
-		<defName>MealFine_Veg</defName>
+		<defName>MealFine_VegVile</defName>
 		<label>vegetarian stir fry</label>
 		<description>.8 Nutr, Fine &#xA; Assorted vggies in a pan, fried.</description>
 		<graphicData>
@@ -126,7 +126,7 @@
 </ThingDef>
 	
 <ThingDef ParentName="SK_MealBase">
-		<defName>MealLavish_Meat</defName>
+		<defName>MealLavish_MeatVile</defName>
 		<label>surf 'n' turf</label>
 		<description>.75 Nutr, Lavish  &#xA; A lavish course comprised of seafood and prime meat.</description>
 		<graphicData>
@@ -156,7 +156,7 @@
 </ThingDef>
 	
 <ThingDef ParentName="SK_MealBase">
-		<defName>MealLavish_Veg</defName>
+		<defName>MealLavish_VegVile</defName>
 		<label>bean 'n' green</label>
 		<description>.75 Nutr, Lavish  &#xA; A lavish course comprised of Bean Curd (aka Tofu) and Vegetable.</description>
 		<graphicData>

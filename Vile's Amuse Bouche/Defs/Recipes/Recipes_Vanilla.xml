@@ -89,10 +89,10 @@
 	</RecipeDef>
 	
 	<RecipeDef>
-		<defName>CookMealFine_Meat</defName>
+		<defName>CookMealFine_MeatVile</defName>
 		<label>carnivore stir fry (2 fine meals)</label>
 		<description>A one-skillet meal made of mostly meat. Slightly faster to prepare than generic stir fry. Produces 2.</description>
-		<jobString>Cooking stir fry.</jobString>
+		<jobString>Cooking meaty stir fry.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<workAmount>700</workAmount>
@@ -125,7 +125,7 @@
 			</li>
 		</ingredients>
 		<products>
-			<MealFine_Meat>2</MealFine_Meat>
+			<MealFine_MeatVile>2</MealFine_MeatVile>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
@@ -175,11 +175,11 @@
 	</RecipeDef>
 	
 	<RecipeDef>
-		<defName>CookMealFine_Veg</defName>
+		<defName>CookMealFine_VegVile</defName>
 		<label>vegetarian stir fry (2 fine meals)</label>
 		<description>A one-skillet meal made of vegetables and a vegan protein, such as tofu, seitan or mushrooms. 
 			More efficient with ingredients than generic stir fry. Produces 2.</description>
-		<jobString>Cooking stir fry.</jobString>
+		<jobString>Cooking veggie stir fry.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<workAmount>800</workAmount>
@@ -210,7 +210,7 @@
 			</li>
 		</ingredients>
 		<products>
-			<MealFine_Veg>2</MealFine_Veg>
+			<MealFine_VegVile>2</MealFine_VegVile>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
@@ -343,7 +343,7 @@
 	</RecipeDef>
 	
 	<RecipeDef>
-		<defName>CookMealLavish_Meat</defName>
+		<defName>CookMealLavish_MeatVile</defName>
 		<label>surf 'n' turf (x2 lavish meals)</label>
 		<description>.75 Nutr, Lavish  &#xA; A main course comprised of seafood and prime meat. Sllightly faster to prepare than its generic steak counterpart.</description>
 		<jobString>Cooking surf 'n' turf.</jobString>
@@ -367,7 +367,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ThingDefFishSduiggles</li>
+						<li>Meat_ThingDefFishSduiggles</li>
 						<li>Meat_Megaspider</li>
 					</thingDefs>
 				</filter>
@@ -388,7 +388,7 @@
 			</li>
 		</ingredients>
 		<products>
-			<MealLavish_Meat>2</MealLavish_Meat>
+			<MealLavish_MeatVile>2</MealLavish_MeatVile>
 		</products>
 		<fixedIngredientFilter>
 			<categories>
@@ -401,6 +401,7 @@
 				<li>Rawmushroom</li>
 				<li>Meat_Muffalo</li>
 				<li>Meat_Human</li>
+				<li>Meat_ThingDefFishSduiggles</li>
 				<li>Meat_Megaspider</li>
 			</thingDefs>
 			<specialFiltersToDisallow>
@@ -417,6 +418,7 @@
 				<li>RawGlowbulb</li>
 				<li>Rawmushroom</li>
 				<li>Meat_Muffalo</li>
+				<li>Meat_ThingDefFishSduiggles</li>
 			</thingDefs>
 			<disallowedThingDefs>
 				<li>Meat_Human</li>
@@ -436,7 +438,7 @@
 	</RecipeDef>
 
 <RecipeDef>
-		<defName>CookMealLavish_Veg</defName>
+		<defName>CookMealLavish_VegVile</defName>
 		<label>bean 'n' green (x2 lavish meals)</label>
 		<description>.75 Nutr, Lavish  &#xA; A vegetarian course comprised of Bean Curd (aka Tofu) and Vegetable. Slightly more efficient with ingredients than its generic tofu-steak counterpart.</description>
 		<jobString>Cooking bean 'n' green.</jobString>
@@ -479,7 +481,7 @@
 			</li>
 		</ingredients>
 		<products>
-			<MealLavish_Veg>2</MealLavish_Veg>
+			<MealLavish_VegVile>2</MealLavish_VegVile>
 		</products>
 		<fixedIngredientFilter>
 			<categories>

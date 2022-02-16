@@ -36,6 +36,8 @@ Completely re-engineered meal hediff system. &#xA;
 New hot pepper crops, resources.&#xA;
 New deep-fryer building.
 
+Version 1.15 - Feb 15, 2022 - Some textures and recipes moved to core SK, mod fixed to prevent errors. Increased Pro cook stove speed slightly. Added support for vanilla carnivore and vegetarian meals, but now called carn/veg "stir fry" for the fine meals, and "Surf n turf" and "bean n green" for the lavish meals. Those recipes are slightly more efficient in different ways than the regular stirfy/steak dinner.
+
 Version 1.14 - (Ideology Support) - Adds support for veg/carn versions of the vanilla analogs, with improved textures. Adds Seitan, a meat substitute made of wheat, and tofu can now be eaten by vegetarians.
 
 Version 1.13 (Forgotten Update) - Gruel added, which is made of unmilled grains and has a mood debuff. Soup is now available in neolithic era.
