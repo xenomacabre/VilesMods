@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>HMC Vile's Metallurgy</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+			<operations>
+			<!-- BLISTER STEEL -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="blisterSteel_process"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>WroughtIron</li>
+								</thingDefs>
+							</filter>
+							<count>40</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Charcoal</li>
+								</thingDefs>
+							</filter>
+							<count>50</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<!-- FLUX POWDER -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="fireFlux_process"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>CrushedStone</li>
+								</thingDefs>
+							</filter>
+							<count>50</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Coal</li>
+									<li>Charcoal</li>
+								</thingDefs>
+								<categories>
+									<li>Wooden</li>
+								</categories>  
+							</filter>
+							<count>20</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="fireFlux_process"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>Coal</li>
+							<li>Charcoal</li>
+						</thingDefs>
+						<categories>
+							<li>Wooden</li>
+						</categories>  
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			<!-- ASH - Kiln -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="ash_process"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<categories>
+									<li>Wooden</li>
+									<li>Woody</li>
+								</categories>
+							</filter>
+							<count>30</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<!-- CHARCOAL FORM WOOD - KILN -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="charcoal_process"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<categories>
+									<li>Wooden</li>
+									<li>Woody</li>
+								</categories>
+							</filter>
+							<count>30</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<!-- CHARCOAL FORM KINDLING - KILN -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="charcoalKindling_process"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Kindling</li>
+								</thingDefs>
+							</filter>
+							<count>60</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			
+			<!-- COKE COAL - KILN -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="coke_process"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Coal</li>
+								</thingDefs>
+							</filter>
+							<count>30</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			
+			<!-- TRADITIONAL WOOTZ - KILN -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="wootz_process"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+						<filter>
+							<thingDefs>
+								<li>WroughtIron</li>
+							</thingDefs>
+						</filter>
+						<count>60</count>
+					</li>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>ClayPotWetUnglazed</li>
+							</thingDefs>
+						</filter>
+						<count>1</count>
+					</li>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Kindling</li>
+							</thingDefs>
+						</filter>
+						<count>80</count>
+					</li>
+				</ingredients>
+				</value>
+			</li>
+		
+			<!-- WOOTZ PIG IRON - CEMENTATION FURNACE -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="wootzPigIron_process"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+						<filter>
+							<thingDefs>
+								<li>WroughtIron</li>
+							</thingDefs>
+						</filter>
+						<count>30</count>
+					</li>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>PigIron</li>
+							</thingDefs>
+						</filter>
+						<count>10</count>
+					</li>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Coal</li>
+								<li>Charcoal</li>
+							</thingDefs>
+						</filter>
+						<count>20</count>
+					</li>
+				</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="wootzPigIron_process"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>WroughtIron</li>
+							<li>PigIron</li>
+							<li>Coal</li>
+							<li>Charcoal</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			
+			<!-- CLAY BRICKS - CEMENTATION FURNACE -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeClayBricksCementation"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+						<filter>
+							<thingDefs>
+								<li>SoftClay</li>
+							</thingDefs>
+						</filter>
+						<count>100</count>
+					</li>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Coal</li>
+								<li>Charcoal</li>
+							</thingDefs>
+						</filter>
+						<count>15</count>
+					</li>
+				</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeClayBricksCementation"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>SoftClay</li>
+							<li>Coal</li>
+							<li>Charcoal</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			<!-- CLAY BRICKS - KILN -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeClayBricks"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+						<filter>
+							<thingDefs>
+								<li>SoftClay</li>
+							</thingDefs>
+						</filter>
+						<count>50</count>
+					</li>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Coal</li>
+								<li>Charcoal</li>
+							</thingDefs>
+							<categories>
+								<li>Wooden</li>
+							</categories>
+						</filter>
+						<count>10</count>
+					</li>
+				</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeClayBricks"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>SoftClay</li>
+							<li>Coal</li>
+							<li>Charcoal</li>
+						</thingDefs>
+						<categories>
+							<li>Wooden</li>
+						</categories>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			<!-- SANDSTONE BLOCKS - CEMENTATION FURNACE -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeBlocksSandstoneCementation"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+						<filter>
+							<thingDefs>
+								<li>SandResource</li>
+							</thingDefs>
+						</filter>
+						<count>100</count>
+					</li>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Coal</li>
+								<li>Charcoal</li>
+							</thingDefs>
+						</filter>
+						<count>15</count>
+					</li>
+				</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeBlocksSandstoneCementation"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>SandResource</li>
+							<li>Coal</li>
+							<li>Charcoal</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			
+			<!-- SANDSTONE BLOCKS - KILN -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeBlocksSandstone"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+						<filter>
+							<thingDefs>
+								<li>SandResource</li>
+							</thingDefs>
+						</filter>
+						<count>50</count>
+					</li>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Coal</li>
+								<li>Charcoal</li>
+							</thingDefs>
+							<categories>
+								<li>Wooden</li>
+							</categories>
+						</filter>
+						<count>10</count>
+					</li>
+				</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeBlocksSandstone"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>SandResource</li>
+							<li>Coal</li>
+							<li>Charcoal</li>
+						</thingDefs>
+						<categories>
+							<li>Wooden</li>
+						</categories>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			
+				<!-- PORCELAIN TILES - KILN -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeCeramics_Process"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>SoftClay</li>
+								</thingDefs>
+							</filter>
+							<count>20</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>GlassBatch</li>
+								</thingDefs>
+							</filter>
+							<count>5</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Coal</li>
+									<li>Charcoal</li>
+								</thingDefs>
+								<categories>
+									<li>Wooden</li>
+								</categories>
+							</filter>
+							<count>20</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeCeramics_Process"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>SoftClay</li>
+							<li>Coal</li>
+							<li>Charcoal</li>
+							<li>GlassBatch</li>
+						</thingDefs>
+						<categories>
+							<li>Wooden</li>
+						</categories>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			
+				<!-- GLASS BATCH - KILN -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeGlassBatch_Process"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+						<filter>
+							<thingDefs>
+								<li>SandResource</li>
+							</thingDefs>
+						</filter>
+						<count>30</count>
+					</li>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Coal</li>
+								<li>Charcoal</li>
+							</thingDefs>
+							<categories>
+								<li>Wooden</li>
+							</categories>
+						</filter>
+						<count>20</count>
+					</li>
+				</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeGlassBatch_Process"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>SandResource</li>
+							<li>Coal</li>
+							<li>Charcoal</li>
+						</thingDefs>
+						<categories>
+							<li>Wooden</li>
+						</categories>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			
+				<!-- ACTIVATED CARBON - KILN -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeActivatedCarbon_Process"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+						<filter>
+							<thingDefs>
+								<li>Charcoal</li>
+								<li>Coal</li>
+							</thingDefs>
+						</filter>
+						<count>20</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+				<!-- CLAY POT - KILN -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="ClayPot_process"]/ingredients</xpath>
+				<value>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>ClayPotWetUnglazed</li>
+							</thingDefs>
+						</filter>
+						<count>1</count>
+					</li>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Coal</li>
+								<li>Charcoal</li>
+							</thingDefs>
+						</filter>
+						<count>10</count>
+					</li>
+				</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="ClayPot_process"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>ClayPotWetUnglazed</li>
+							<li>Coal</li>
+							<li>Charcoal</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			
+			<!-- CLAY POT - ASH - KILN -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="ClayPotWetAsh_process"]/ingredients</xpath>
+				<value>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>ClayPotWetAsh</li>
+							</thingDefs>
+						</filter>
+						<count>1</count>
+					</li>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Coal</li>
+								<li>Charcoal</li>
+							</thingDefs>
+						</filter>
+						<count>10</count>
+					</li>
+				</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="ClayPotWetAsh_process"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>ClayPotWetAsh</li>
+							<li>Coal</li>
+							<li>Charcoal</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			
+				<!-- CLAY POT - PAINTED - KILN -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="ClayPotWetPainted_process"]/ingredients</xpath>
+				<value>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>ClayPotWetPainted</li>
+							</thingDefs>
+						</filter>
+						<count>1</count>
+					</li>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Coal</li>
+								<li>Charcoal</li>
+							</thingDefs>
+						</filter>
+						<count>10</count>
+					</li>
+				</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="ClayPotWetPainted_process"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>ClayPotWetPainted</li>
+							<li>Coal</li>
+							<li>Charcoal</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+							<!-- CLAY POT - SALT - KILN -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="ClayPotWetSalt_process"]/ingredients</xpath>
+				<value>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>ClayPotWetSalt</li>
+							</thingDefs>
+						</filter>
+						<count>1</count>
+					</li>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Coal</li>
+								<li>Charcoal</li>
+							</thingDefs>
+						</filter>
+						<count>10</count>
+					</li>
+				</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="ClayPotWetSalt_process"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>ClayPotWetSalt</li>
+							<li>Coal</li>
+							<li>Charcoal</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			<!-- CLAY POT - LEAD - KILN -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="ClayPotWetLead_process"]/ingredients</xpath>
+				<value>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>ClayPotWetLead</li>
+							</thingDefs>
+						</filter>
+						<count>1</count>
+					</li>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Coal</li>
+								<li>Charcoal</li>
+							</thingDefs>
+						</filter>
+						<count>10</count>
+					</li>
+				</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="ClayPotWetLead_process"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>ClayPotWetLead</li>
+							<li>Coal</li>
+							<li>Charcoal</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>			
+			
+						<!-- CLAY POT - TIN - KILN -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="ClayPotWetTin_process"]/ingredients</xpath>
+				<value>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>ClayPotWetTin</li>
+							</thingDefs>
+						</filter>
+						<count>1</count>
+					</li>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Coal</li>
+								<li>Charcoal</li>
+							</thingDefs>
+						</filter>
+						<count>10</count>
+					</li>
+				</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="ClayPotWetTin_process"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>ClayPotWetTin</li>
+							<li>Coal</li>
+							<li>Charcoal</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			
+			
+		
+		
+		
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

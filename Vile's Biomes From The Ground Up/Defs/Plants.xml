@@ -151,6 +151,14 @@
 		<plant>
 			<!--<maxMeshCount>4</maxMeshCount>-->
 			<immatureGraphicPath>Things/Plant/PlantPricklyPear</immatureGraphicPath>
+			<sowMinSkill>7</sowMinSkill>
+			<sowResearchPrerequisites>
+				<li>Fruit_Plants_B1</li>
+			</sowResearchPrerequisites>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
 			<harvestWork>200</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>RawPricklyPear</harvestedThingDef>
@@ -200,6 +208,14 @@
 		<plant>
 			<maxMeshCount>4</maxMeshCount>
 			<immatureGraphicPath>Things/Plant/PlantCranberry</immatureGraphicPath>
+			<sowMinSkill>5</sowMinSkill>
+			<sowResearchPrerequisites>
+				<li>Fruit_Plants_B1</li>
+			</sowResearchPrerequisites>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
 			<harvestWork>200</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>RawCranberries</harvestedThingDef>

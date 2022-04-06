@@ -531,6 +531,47 @@
 		</stuffProps>
 	</ThingDef>	
 	
+	<ThingDef Name="AcaciaLog" ParentName="HardwoodLogBase">
+		<defName>AcaciaLog</defName>
+		<label>acacia log</label>
+		<description>Acacia is the hardest and heaviest of the standard hardwoods.</description>
+		<graphicData>
+			<color>(145,107,90)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>11</MarketValue>
+			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.85</StuffPower_Armor_Sharp>
+			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
+			<SharpDamageMultiplier>0.55</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+			<BurnDurationHours>3.4</BurnDurationHours>
+			<Mass>2.4</Mass>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Hardwoods</li>
+   			</categories>
+			<stuffAdjective>acacia log</stuffAdjective>
+			<color>(145,107,90)</color>
+			<statOffsets>
+				<Beauty>2</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>1.1</MaxHitPoints>
+				<Flammability>1</Flammability>
+				<Beauty>1.65</Beauty>
+				<WorkToMake>1</WorkToMake>
+				<WorkToBuild>1</WorkToBuild>
+				<MarketValue>1.14</MarketValue>
+				<BedRestEffectiveness>1.26</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>0.9</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.55</WorkTableWorkSpeedFactor>
+				<Mass>0.75</Mass>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>	
+	
 		<ThingDef Name="DragonwoodLog" ParentName="HardwoodLogBase">
 		<defName>DragonwoodLog</defName>
 		<label>Dragonwood log</label>

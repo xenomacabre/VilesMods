@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="UniversalFermenterBase" Class="UniversalFermenterSK.ThingDef_UF">
+		<defName>Kiln</defName>
+		<label>Ceramic Kiln</label>
+		<description>An enclosed furnace for firing ceramics. Prepare unfired pottery and bricks at the potters wheel before loading the kiln. The fuel is included in the recipes and is added once the object is placed into the kiln. Come back in a few hours or days to remove you finished product.</description>
+		<thingClass>UniversalFermenterSK.Building_UF</thingClass>
+		<graphicData>
+			<texPath>Things/Building/KilnOld</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(1.5, 1.5, 1.5)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.05,0.1,0.9,0.9)</rect>
+			</damageData>
+		</graphicData>
+		<interactionCellOffset>(0,0,-2)</interactionCellOffset>
+		<stuffCategories>
+			<li>Stony</li>
+			<li>Bricks</li>
+		</stuffCategories>
+		<costStuffCount>120</costStuffCount>
+		<fillPercent>0.01</fillPercent>
+		<pathCost>60</pathCost>
+		<statBases>
+			<WorkToBuild>2000</WorkToBuild>
+			<MaxHitPoints>270</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Cleanliness>-8</Cleanliness>
+			<Mass>500</Mass>
+		</statBases>
+		<size>(2,2)</size>
+		<showProductIcon>true</showProductIcon>
+		<barOffset>(0.0, 0.25)</barOffset>
+		<barScale>(1.0, 1.0)</barScale>
+		<slotsCount>10</slotsCount>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(217,112,33,0)</glowColor>
+			</li>
+		</comps>
+		<tickerType>Normal</tickerType>
+		<rotatable>false</rotatable>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+		<designationCategory>Production</designationCategory>
+		<researchPrerequisites>
+			<li>Ceramics_A1</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<ThingDef ParentName="UniversalFermenterBase" Class="UniversalFermenterSK.ThingDef_UF">
+		<defName>CementationFurnace</defName>
+		<label>Cementation Furnace</label>
+		<thingClass>UniversalFermenterSK.Building_UF</thingClass>
+		<graphicData>
+			<texPath>Things/Building/CementationFurnace</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(6,6)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(2.5, 2.5, 2)</volume>
+				<offset>(0,0,-1)</offset>
+			</shadowData>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<stuffCategories>
+			<li>Stony</li>
+			<li>Bricks</li>
+		</stuffCategories>
+		<costStuffCount>120</costStuffCount>
+		<fillPercent>0.01</fillPercent>
+		<pathCost>60</pathCost>
+		<statBases>
+			<WorkToBuild>2200</WorkToBuild>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Flammability>0.0</Flammability>
+		</statBases>
+		<description>A large furnace which specialized in carburizing bar iron (wrought iron) into blister steel (which needs further refining to be useful). The fuel is included in the recipes and is added once the object is placed into the furnace. It takes several days, but it can be done in large batches and doesn't need to be monitored.</description>
+		<size>(3,3)</size>
+		<showProductIcon>true</showProductIcon>
+		<barOffset>(0.0, 0.25)</barOffset>
+		<barScale>(1.0, 1.0)</barScale>
+		<slotsCount>20</slotsCount>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(217,112,33,0)</glowColor>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+		</placeWorkers>
+		<tickerType>Normal</tickerType>
+		<rotatable>false</rotatable>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+		<designationCategory>Production</designationCategory>
+		<researchPrerequisites>
+			<li>Steel_B2</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+</Defs>

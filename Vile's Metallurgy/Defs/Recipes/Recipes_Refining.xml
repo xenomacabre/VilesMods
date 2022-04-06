@@ -468,5 +468,41 @@
 		<researchPrerequisite>Metallurgy_B5</researchPrerequisite>
 	</RecipeDef>
 
+	<RecipeDef>
+		<defName>MakeCokeElectric</defName>
+		<label>Coke Coal</label>
+		<description>Convert coal into coke, with a firing process called 'coking'. Produces 20.</description>
+		<jobString>Coking coal.</jobString>
+		<workAmount>900</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Coal</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Coal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Coke>20</Coke>
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<recipeUsers>
+			<li>ElectricSmelter</li>
+		</recipeUsers>
+	</RecipeDef>
 	
 </Defs>

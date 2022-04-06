@@ -55,6 +55,16 @@
 				</value>
 			</li>
 			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Basket"]/researchPrerequisites</xpath>
+				<value>
+					<researchPrerequisites>
+						<li>Storage_A1</li>
+					</researchPrerequisites>
+				</value>
+			</li>		
+			
+
 
 		</operations>
 		</match>

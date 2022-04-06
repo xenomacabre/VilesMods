@@ -47,6 +47,7 @@
 			</thingDefs>
 			<categories>
 				<li>MeatRaw</li>
+				<li>MeatSubRaw</li>
 				<li>EggsUnfertilized</li>
 				<li>EggsFertilized</li>
 				<li>BasicPlantFoodRaw</li>
@@ -62,6 +63,7 @@
 			</thingDefs>
 			<categories>
 				<li>MeatRaw</li>
+				<li>MeatSubRaw</li>
 				<li>EggsUnfertilized</li>
 				<li>BasicPlantFoodRaw</li>
 				<li>ExtraPlantFoodRaw</li>
@@ -92,7 +94,7 @@
 		<defName>CookMealFine_MeatVile</defName>
 		<label>carnivore stir fry (2 fine meals)</label>
 		<description>A one-skillet meal made of mostly meat. Slightly faster to prepare than generic stir fry. Produces 2.</description>
-		<jobString>Cooking meaty stir fry.</jobString>
+		<jobString>Cooking stir fry.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<workAmount>700</workAmount>
@@ -179,7 +181,7 @@
 		<label>vegetarian stir fry (2 fine meals)</label>
 		<description>A one-skillet meal made of vegetables and a vegan protein, such as tofu, seitan or mushrooms. 
 			More efficient with ingredients than generic stir fry. Produces 2.</description>
-		<jobString>Cooking veggie stir fry.</jobString>
+		<jobString>Cooking stir fry.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<workAmount>800</workAmount>
@@ -194,7 +196,7 @@
 						<li>MeatSubRaw</li> <!-- Tofu, seitan, Cave Mushroom -->
 					</categories>
 				</filter>
-				<count>0.45</count>
+				<count>0.3</count>
 			</li>
 			<li>
 				<filter>
@@ -206,7 +208,7 @@
 						<li>RawGiantLeaf</li>
 					</thingDefs>
 				</filter>
-				<count>0.35</count>
+				<count>0.5</count>
 			</li>
 		</ingredients>
 		<products>
@@ -350,7 +352,7 @@
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_CookMeal</soundWorking>
-		<workAmount>900</workAmount>
+		<workAmount>800</workAmount>
 		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
 		<allowMixingIngredients>true</allowMixingIngredients>
 		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
@@ -382,6 +384,7 @@
 						<li>RawShimmershroom</li>
 						<li>RawGlowbulb</li>
 						<li>Rawmushroom</li>
+						<li>Meat_Elephant</li>
 					</thingDefs>
 				</filter>
 				<count>0.2</count>
@@ -401,8 +404,8 @@
 				<li>Rawmushroom</li>
 				<li>Meat_Muffalo</li>
 				<li>Meat_Human</li>
-				<li>Meat_ThingDefFishSduiggles</li>
 				<li>Meat_Megaspider</li>
+				<li>Meat_ThingDefFishSduiggles</li>
 			</thingDefs>
 			<specialFiltersToDisallow>
 				<li>AllowPlantFood</li>
@@ -439,7 +442,7 @@
 
 <RecipeDef>
 		<defName>CookMealLavish_VegVile</defName>
-		<label>bean 'n' green (x2 lavish meals)</label>
+		<label>beans 'n' greens (x2 lavish meals)</label>
 		<description>.75 Nutr, Lavish  &#xA; A vegetarian course comprised of Bean Curd (aka Tofu) and Vegetable. Slightly more efficient with ingredients than its generic tofu-steak counterpart.</description>
 		<jobString>Cooking bean 'n' green.</jobString>
 		<workSpeedStat>CookSpeed</workSpeedStat>
@@ -456,7 +459,7 @@
 						<li>Tofu</li>
 					</thingDefs>
 				</filter>
-				<count>0.4</count>
+				<count>0.3</count>
 			</li>
 			<li>
 				<filter>
@@ -464,18 +467,14 @@
 						<li>BasicPlantFoodRaw</li>
 					</categories>
 				</filter>
-				<count>0.5</count>
+				<count>0.6</count>
 			</li>
 			<li>
 				<filter>
 					<categories>
 						<li>ExtraPlantFoodRaw</li>
+						<li>FungusPlantRaw</li>
 					</categories>
-					<thingDefs>
-						<li>RawShimmershroom</li>
-						<li>RawGlowbulb</li>
-						<li>Rawmushroom</li>
-					</thingDefs>
 				</filter>
 				<count>0.3</count>
 			</li>
@@ -487,11 +486,9 @@
 			<categories>
 				<li>ExtraPlantFoodRaw</li>
 				<li>BasicPlantFoodRaw</li>
+				<li>FungusPlantRaw</li>
 			</categories>
 			<thingDefs>
-				<li>RawShimmershroom</li>
-				<li>RawGlowbulb</li>
-				<li>Rawmushroom</li>
 				<li>Tofu</li>
 			</thingDefs>
 			<specialFiltersToDisallow>
@@ -502,12 +499,10 @@
 			<categories>
 				<li>ExtraPlantFoodRaw</li>
 				<li>BasicPlantFoodRaw</li>
+				<li>FungusPlantRaw</li>
 			</categories>
 			<thingDefs>
 				<li>Tofu</li>
-				<li>RawShimmershroom</li>
-				<li>RawGlowbulb</li>
-				<li>Rawmushroom</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<skillRequirements>

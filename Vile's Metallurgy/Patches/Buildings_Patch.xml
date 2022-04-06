@@ -1,35 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
 
-	<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>NewRatkinPlus</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-	<success>Always</success>
-			<operations>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="RK_FueledSmithy"]/researchPrerequisites</xpath>
+
+		<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Peat-WaterShallow"]/label</xpath>
 				<value>
-					<researchPrerequisites>
-						<li>Metallurgy_B2</li>
-					</researchPrerequisites>
+					<label>Peat from bogs</label>
 				</value>
-			</li>		
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Basket"]/researchPrerequisites</xpath>
+			</Operation>		
+			
+		<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Campfire"]/recipes</xpath>
 				<value>
-					<researchPrerequisites>
-						<li>Storage_A1</li>
-					</researchPrerequisites>
+					<recipes></recipes>
 				</value>
-			</li>		
-		
-		
-		
-		</operations>
-		</match>
-		
-		
-    </Operation>	
-</Patch>	
+			</Operation>	
+	
+		<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="CoalPowerPlant"]/comps/li[@Class="SK.CompFueled_Properties"]/fuelFilter</xpath>
+				<value>
+				<fuelFilter>
+					<categories>
+						<li>Coal</li>
+					</categories>
+					<thingDefs>
+						<li>Coke</li>
+					</thingDefs>
+				</fuelFilter>
+				</value>
+		</Operation>	
+		<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WoodFiredGenerator"]/comps/li[@Class="SK.CompFueled_Properties"]/fuelFilter</xpath>
+				<value>
+				<fuelFilter>
+					<thingDefs>
+						<li>Chemfuel</li>
+						<li>Kindling</li>
+						<li>Charcoal</li>
+						<li>Peat</li>
+					</thingDefs>
+					<categories>
+						<li>Wooden</li>
+					</categories>
+				</fuelFilter>
+				</value>
+		</Operation>	
+	
+
+	
+	
+</Patch>

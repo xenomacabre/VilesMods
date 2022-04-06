@@ -25,12 +25,14 @@
 				<DeteriorationRate>0.01</DeteriorationRate>
 				<Flammability>3</Flammability>
 				<MaxBurningTempCelsius>1900</MaxBurningTempCelsius>
-				<BurnDurationHours>2</BurnDurationHours>
+				<BurnDurationHours>1.8</BurnDurationHours>
 				<Mass>0.2</Mass>
 				<Bulk>0.2</Bulk>
 			</statBases>
 		</value>
 	</Operation>
+	
+	
 	
 	
 	

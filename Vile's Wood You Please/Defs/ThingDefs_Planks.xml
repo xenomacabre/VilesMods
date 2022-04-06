@@ -7,7 +7,6 @@
 	<ThingDef Name="CecropiaPlank" ParentName="CecropiaLog">
 		<defName>CecropiaPlank</defName>
 		<label>cecropia plank</label>
-		<description>description</description>
 		<graphicData>
 			<texPath>Things/VileWood/NewPlanksStacked</texPath>				
 		</graphicData>
@@ -32,7 +31,6 @@
 	<ThingDef Name="PinePlank" ParentName="PineLog">
 		<defName>PinePlank</defName>
 		<label>pine plank</label>
-		<description>description</description>
 		<graphicData>
 			<texPath>Things/VileWood/NewPlanksStacked</texPath>				
 		</graphicData>
@@ -57,7 +55,6 @@
 	<ThingDef Name="WillowPlank" ParentName="WillowLog">
 		<defName>WillowPlank</defName>
 		<label>willow plank</label>
-		<description>description</description>
 		<graphicData>
 			<texPath>Things/VileWood/NewPlanksStacked</texPath>			
 		</graphicData>
@@ -82,7 +79,6 @@
 	<ThingDef Name="RedWoodPlank" ParentName="RedWoodLog">
 		<defName>RedWoodPlank</defName>
 		<label>redwood plank</label>
-		<description>description</description>
 		<graphicData>
 			<texPath>Things/VileWood/NewPlanksStacked</texPath>	
 		</graphicData>
@@ -107,7 +103,6 @@
 	<ThingDef Name="CypressPlank" ParentName="CypressLog">
 		<defName>CypressPlank</defName>
 		<label>cypress plank</label>
-		<description>description</description>
 		<graphicData>
 			<texPath>Things/VileWood/NewPlanksStacked</texPath>	
 		</graphicData>
@@ -132,7 +127,6 @@
 	<ThingDef Name="PoplarPlank" ParentName="PoplarLog">
 		<defName>PoplarPlank</defName>
 		<label>poplar plank</label>
-		<description>description</description>
 		<graphicData>
 			<texPath>Things/VileWood/NewPlanksStacked</texPath>	
 		</graphicData>
@@ -158,7 +152,6 @@
 	<ThingDef Name="MaplePlank" ParentName="MapleLog">
 		<defName>MaplePlank</defName>
 		<label>maple plank</label>
-		<description>description</description>
 		<graphicData>
 			<texPath>Things/VileWood/NewPlanksStacked</texPath>	
 		</graphicData>
@@ -183,7 +176,6 @@
 	<ThingDef Name="TeakPlank" ParentName="TeakLog">
 		<defName>TeakPlank</defName>
 		<label>teak plank</label>
-		<description>description</description>
 		<graphicData>
 			<texPath>Things/VileWood/NewPlanksStacked</texPath>	
 		</graphicData>
@@ -208,9 +200,9 @@
 	<ThingDef Name="BirchPlank" ParentName="BirchLog">
 		<defName>BirchPlank</defName>
 		<label>birch plank</label>
-		<description>description</description>
 		<graphicData>
-			<texPath>Things/VileWood/NewPlanksStacked</texPath>				
+			<texPath>Things/VileWood/NewPlanksStacked</texPath>			
+			<color>(217,176,167)</color>			
 		</graphicData>
 		<statBases>
 			<MarketValue>1.6</MarketValue>
@@ -233,7 +225,6 @@
 	<ThingDef Name="OakPlank" ParentName="OakLog">
 		<defName>OakPlank</defName>
 		<label>oak plank</label>
-		<description>description</description>
 		<graphicData>
 			<texPath>Things/VileWood/NewPlanksStacked</texPath>			
 		</graphicData>
@@ -255,17 +246,42 @@
 		</thingCategories>
 	</ThingDef>
 	
+	<ThingDef Name="AcaciaPlank" ParentName="AcaciaLog">
+		<defName>AcaciaPlank</defName>
+		<label>acacia plank</label>
+		<!--<description>description</description>-->
+		<graphicData>
+			<texPath>Things/VileWood/NewPlanksStacked</texPath>			
+		</graphicData>
+		<statBases>
+			<MarketValue>2.0</MarketValue>
+			<BurnDurationHours>1.2</BurnDurationHours>
+			<Mass>0.48</Mass>
+		</statBases>
+		<stuffProps>	
+			<appearance>Planks</appearance>	
+			<stuffAdjective>acacia</stuffAdjective>
+			<categories Inherit="False">
+				<li>Woody</li>
+				<li>HardwoodLumber</li>
+   			</categories>
+		</stuffProps>
+		<thingCategories Inherit="False">
+			<li>HardwoodLumber</li>
+		</thingCategories>
+	</ThingDef>
+	
 	<ThingDef Name="DragonwoodPlank" ParentName="DragonwoodLog">
 		<defName>DragonwoodPlank</defName>
 		<label>dragonwood plank</label>
-		<description>description</description>
 		<graphicData>
 			<texPath>Things/VileWood/NewPlanksStacked</texPath>			
+			<color>(196,56,27)</color>
 		</graphicData>
 		<statBases> <!-- ADJUST -->
 			<MarketValue>1.9</MarketValue>
 			<BurnDurationHours>1.1</BurnDurationHours>
-			<Mass>0.44</Mass>
+			<Mass>0.56</Mass>
 		</statBases>
 		<stuffProps>	
 			<appearance>Planks</appearance>	
@@ -283,14 +299,14 @@
 	<ThingDef Name="MangrovePlank" ParentName="MangroveLog">
 		<defName>MangrovePlank</defName>
 		<label>mangrove plank</label>
-		<description>description</description>
 		<graphicData>
 			<texPath>Things/VileWood/NewPlanksStacked</texPath>			
+			<color>(128,106,121)</color>
 		</graphicData>
 		<statBases> <!-- ADJUST -->
 			<MarketValue>1.9</MarketValue>
 			<BurnDurationHours>1.1</BurnDurationHours>
-			<Mass>0.44</Mass>
+			<Mass>0.54</Mass>
 		</statBases>
 		<stuffProps>
 			<appearance>Planks</appearance>			
@@ -340,13 +356,14 @@
 		</thingCategories>
 		<stuffProps>
 			<categories>
+				<li>Woody</li>
 				<li>EngineeredLumber</li>
 			</categories>
 			<color>(255,214,189)</color>
 			<constructEffect>ConstructWood</constructEffect>
 			<appearance>Planks</appearance>
 			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
-			<stuffAdjective>wooden</stuffAdjective>
+			<stuffAdjective>chipboard</stuffAdjective>
 			<statOffsets>
 				<Beauty>-2</Beauty>
 			</statOffsets>

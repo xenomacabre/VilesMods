@@ -58,7 +58,7 @@
 
  <SeedsPlease.SeedDef ParentName="SeedBase">
   <defName>Seed_Blueberry</defName>
-  <label>cranberry seeds</label>
+  <label>blueberry seeds</label>
   <sources>
     <li>Plant_Blueberry</li>
   </sources>
@@ -66,7 +66,7 @@
 
  <SeedsPlease.SeedDef ParentName="SeedBase">
   <defName>Seed_Acacia</defName>
-  <label>cranberry seeds</label>
+  <label>acacia tree seeds</label>
   <sources>
     <li>Plant_TreeAcacia</li>
   </sources>

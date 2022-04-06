@@ -549,7 +549,7 @@
 		<defName>SawPlanks_Drago</defName>
 		<label>saw dragonwood planks</label>
 		<jobString>Sawing dragonwood planks.</jobString>
-		<workAmount>1325</workAmount>
+		<workAmount>2000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -574,7 +574,7 @@
 		<defName>MillPlanks_Drago</defName>
 		<label>mill dragonwood planks</label>
 		<jobString>Milling dragonwood planks.</jobString>
-		<workAmount>1325</workAmount>
+		<workAmount>2000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -694,6 +694,55 @@
 		</products>
 	</RecipeDef>
 	
+	<RecipeDef ParentName="LumberRecipeBase_Hand">
+		<defName>SawPlanks_Acacia</defName>
+		<label>saw acacia planks</label>
+		<jobString>Sawing acacia planks.</jobString>
+		<workAmount>1555</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AcaciaLog</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AcaciaLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AcaciaPlank>15</AcaciaPlank> <!-- ==== -->
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="LumberRecipeBase_Electric">
+		<defName>MillPlanks_Acacia</defName>
+		<label>mill acacia planks</label>
+		<jobString>Milling acacia planks.</jobString>
+		<workAmount>1555</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AcaciaLog</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AcaciaLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AcaciaPlank>30</AcaciaPlank> <!-- ==== -->
+		</products>
+	</RecipeDef>
+	
 		<RecipeDef ParentName="LumberRecipeBase_Hand">
 		<defName>MakeBambooPlanks_Hand</defName>
 		<label>laminate bamboo planks</label>
@@ -750,7 +799,7 @@
 		<defName>SawPlanks_Mangrove</defName>
 		<label>saw mangrove planks</label>
 		<jobString>Sawing mangrove planks.</jobString>
-		<workAmount>950</workAmount>
+		<workAmount>1750</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -774,7 +823,7 @@
 		<defName>MillPlanks_Mangrove</defName>
 		<label>mill mangrove planks</label>
 		<jobString>Milling mangrove planks.</jobString>
-		<workAmount>950</workAmount>
+		<workAmount>1750</workAmount>
 		<ingredients>
 			<li>
 				<filter>

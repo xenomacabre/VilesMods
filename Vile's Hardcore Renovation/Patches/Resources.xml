@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
+
+<!-- Materials-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@Name="SoftwoodLogBase"]/stuffProps/appearance</xpath>
+		<value>
+			<appearance>Logs</appearance>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="HardwoodLogBase"]/stuffProps/appearance</xpath>
+		<value>
+			<appearance>Logs</appearance>
+		</value>
+    </Operation>
+	
+<!--Walls -->
+
   
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[@Name="SK_StoneBlocksBase"]/stuffProps/appearance</xpath>

@@ -79,7 +79,7 @@
 				<!--<stuffAdjective>wood log</stuffAdjective>-->
 				<!--<color>(149,103,65)</color>-->
 				<constructEffect>ConstructWood</constructEffect>
-				<appearance>Logs</appearance>
+				<appearance>Planks</appearance>
 				<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
 				<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
 				<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
@@ -152,7 +152,7 @@
 
 					<!--<color>(149,103,65)</color>-->
 					<constructEffect>ConstructWood</constructEffect>
-					<appearance>Logs</appearance>
+					<appearance>Planks</appearance>
 					<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
 					<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
 					<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
@@ -282,6 +282,7 @@
 		<xpath>Defs/ThingDef[defName="BambooPlank"]/stuffProps/categories</xpath>
 		<value>
 			<categories>
+				<li>Woody</li>
 				<li>HardwoodLumber</li>
 				<li>EngineeredLumber</li>
 			</categories>

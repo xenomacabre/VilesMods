@@ -62,13 +62,13 @@
 			<li>Metallurgical</li>
 		</thingCategories>
 		<stackLimit>600</stackLimit>
-		<deepCommonality>2.0</deepCommonality>
+		<!--<deepCommonality>2.0</deepCommonality>
 		<deepCountPerCell>2500</deepCountPerCell>
 		<deepCountPerPortion>50</deepCountPerPortion>
 		<deepLumpSizeRange>
 			<min>95</min>
 			<max>150</max>
-		</deepLumpSizeRange>
+		</deepLumpSizeRange>-->
 	</ThingDef>
 	
 	

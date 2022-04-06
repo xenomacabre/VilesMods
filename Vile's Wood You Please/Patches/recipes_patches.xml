@@ -149,6 +149,7 @@
 				<li>SawPlanks_Teak</li>
 				<li>SawPlanks_Birch</li>
 				<li>SawPlanks_Oak</li>
+				<li>SawPlanks_Acacia</li>
 				<li>MakeBambooPlanks_Hand</li>
 				<li>SawPlanks_Drago</li>
 				<li>SawPlanks_Mangrove</li>
@@ -182,6 +183,7 @@
 				<li>MillPlanks_Teak</li>
 				<li>MillPlanks_Birch</li>
 				<li>MillPlanks_Oak</li>
+				<li>MillPlanks_Acacia</li>
 				<li>MakeBambooPlanks_Electric</li>
 				<li>MillPlanks_Drago</li>
 				<li>MillPlanks_Mangrove</li>

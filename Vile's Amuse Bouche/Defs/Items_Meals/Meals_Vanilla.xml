@@ -157,7 +157,7 @@
 	
 <ThingDef ParentName="SK_MealBase">
 		<defName>MealLavish_VegVile</defName>
-		<label>bean 'n' green</label>
+		<label>beans 'n' greens</label>
 		<description>.75 Nutr, Lavish  &#xA; A lavish course comprised of Bean Curd (aka Tofu) and Vegetable.</description>
 		<graphicData>
 			<texPath>Things/Item/Meal128/BeanNGreen</texPath>
