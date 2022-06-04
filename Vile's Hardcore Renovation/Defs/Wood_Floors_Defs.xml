@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
  <Defs>
+
 	 
-	 <TerrainDef ParentName="WoodSK_FloorBase">
-				<defName>StrawMatting</defName>
-				<label>straw matting</label>
-				<renderPrecedence>375</renderPrecedence>
-				<description>Throw some hay on the ground. You got more important things to do. Quite flammable. Beauty: 0. Cleanliness: -0.4 Install time: 1</description>
-				<texturePath>Terrain/Surfaces/TikiFloorDark</texturePath>
-				<edgeType>FadeRough</edgeType>
-				<statBases>
-					<WorkToBuild>150</WorkToBuild>
-					<Beauty>1</Beauty>
-					<Flammability>0.6</Flammability>
-					<Cleanliness>-0.4</Cleanliness>
-				</statBases>
-				<costList>
-					<Hay>6</Hay>
-				</costList>
-				<researchPrerequisites><li>Wooden_floor_A1</li></researchPrerequisites>
-			</TerrainDef>
+	   <TerrainDef ParentName="FloorBase">
+			<defName>StrawMatting</defName>
+			<label>straw matting</label>
+			<description>Throw some hay on the ground. You got more important things to do. Quite flammable, but accepts little filth so it's great for barn floors. Beauty: 0. Cleanliness: -0.1 Install time: 1</description>
+			<texturePath>Terrain/Surfaces/TikiFloorDark</texturePath>
+			<!--<edgeType>Hard</edgeType>-->
+			<renderPrecedence>240</renderPrecedence>
+			<burnedDef>BurnedStrawMatting</burnedDef>
+			<pathCost>0</pathCost>
+			<statBases>
+			  <Beauty>0</Beauty>
+			  <Cleanliness>-0.1</Cleanliness>
+			  <WorkToBuild>120</WorkToBuild>
+			  <FilthMultiplier>0.05</FilthMultiplier>
+			  <Flammability>1.5</Flammability>
+			</statBases>
+			<costList>
+			  <Hay>4</Hay>
+			</costList>
+			<designationHotKey>Misc6</designationHotKey>
+		  </TerrainDef>
 	 
 	 
 		<TerrainDef ParentName="WoodSK_FloorBase"> <!-- defname from NPS -->

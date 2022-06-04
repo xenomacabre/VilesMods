@@ -51,6 +51,61 @@
 			</blueprintGraphicData>
 		</building>
 	</ThingDef>
+	
+	<ThingDef ParentName="FencesAFBuildingBase">
+		<defName>WattleFence</defName>
+		<label>wattle fence</label>
+		<description>A weak fence made of sticks.</description>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/Building/Fences/WattleFence</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<!--<shaderType>CutoutComplex</shaderType>-->
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Custom1</li>
+			</linkFlags>
+		</graphicData>
+		<uiIconPath>Things/Building/Fences/WattleFence_Ico</uiIconPath>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToBuild>100</WorkToBuild>
+			<Flammability>1.5</Flammability>
+		</statBases>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<useHitPoints>true</useHitPoints>
+		<blockWind>false</blockWind>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0.25</fillPercent>
+		<coversFloor>false</coversFloor>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<tickerType>Never</tickerType>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<holdsRoof>false</holdsRoof>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<blockLight>false</blockLight>
+		<canOverlapZones>true</canOverlapZones>
+		<stuffCategories>
+			<li>WoodLogs</li>
+		</stuffCategories>
+		<costStuffCount>2</costStuffCount>
+		<costList>
+			<Kindling>4</Kindling>
+		</costList>
+		<building>
+			<isInert>true</isInert>
+			<ai_chillDestination>false</ai_chillDestination>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+	</ThingDef>
 
 	<ThingDef ParentName="FencesAFBuildingBase">
 		<defName>PalisadeWall</defName>
@@ -126,6 +181,7 @@
 		<label>Horizontal Gates</label>
 		<description>Fence gates.</description>
 		<defNames>
+			<li>WattleFenceGate</li>
 			<li>FenceGate</li>
 			<li>PalisadeGate</li>
 			<li>ChainFenceGate</li>
@@ -139,7 +195,8 @@
 		<label>Vertical Gates</label>
 		<description>Fence gates.</description>
 		<defNames>
-			<li>WoodFenceGateB</li>
+			<li>WattleFenceGateB</li>
+			<li>WoodFenceGateB</li> 
 			<li>PalisadeGateB</li>
 			<li>ChainFenceGateB</li>
 			<li>TechFenceGateB</li>

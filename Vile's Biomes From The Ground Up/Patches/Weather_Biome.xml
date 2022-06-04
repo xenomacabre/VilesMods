@@ -222,10 +222,10 @@
 	<xpath>Defs/BiomeDef[defName="Desert"]/baseWeatherCommonalities</xpath>
 		<value>
 			<baseWeatherCommonalities>
-				<Clear>18</Clear>
+				<Clear>12</Clear>
 				<Cloudy>1</Cloudy>
 				<Windy>2</Windy>
-				<Rain>2</Rain>
+				<Rain>4</Rain>
 				<DryThunderstorm>4</DryThunderstorm>
 				<RainyThunderstorm>2.2</RainyThunderstorm>
 				<SnowGentle>1</SnowGentle>

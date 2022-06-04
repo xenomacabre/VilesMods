@@ -31,7 +31,7 @@
 	<statBases>
 		<WorkToBuild>960</WorkToBuild>
 	</statBases>
-	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+	<terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
 </ThingDef>
 
 <ThingDef ParentName="RFF_TerraformBasicBase">	 
@@ -61,7 +61,7 @@
 	<statBases>
 		<WorkToBuild>960</WorkToBuild>
 	</statBases>
-	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+	<terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
 </ThingDef>
 <!-- Shallow Water To...-->
 	

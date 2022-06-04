@@ -302,7 +302,7 @@
 		<description>A moss found in acidic bogs which can be dried and used to improve soil.</description>
 		<statBases>
 			<MaxHitPoints>30</MaxHitPoints>
-			<Nutrition>0.05</Nutrition>
+			<Nutrition>0.35</Nutrition>
 			<Beauty>0</Beauty>
 		</statBases>
 		<graphicData>
@@ -340,7 +340,7 @@
 		<description>A tundra moss.</description>
 		<statBases>
 			<MaxHitPoints>30</MaxHitPoints>
-			<Nutrition>0.05</Nutrition>
+			<Nutrition>0.35</Nutrition>
 			<Beauty>0</Beauty>
 		</statBases>
 		<graphicData>
@@ -380,7 +380,7 @@
 		<description>A low-growing tundra shrub. Their berries are bland raw, but have a taste similar to cranberries when cooked.</description>
 		<statBases>
 			<MaxHitPoints>30</MaxHitPoints>
-			<Nutrition>0.05</Nutrition>
+			<Nutrition>0.2</Nutrition>
 			<Beauty>0</Beauty>
 		</statBases>
 		<graphicData>
@@ -507,7 +507,9 @@
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<statBases>
-			<Nutrition>0.22</Nutrition>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Nutrition>0.35</Nutrition>
+			<Beauty>2</Beauty>
 		</statBases>
 		<fillPercent>0.1</fillPercent>
 		<plant>

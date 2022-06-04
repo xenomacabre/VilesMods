@@ -18,7 +18,7 @@
 			<MeleeCounterParryBonus>0.2</MeleeCounterParryBonus>
 			<ToolEffectivenessFactor>1</ToolEffectivenessFactor>
 		</statBases>
-		<equippedAngleOffset>200</equippedAngleOffset>
+		<equippedAngleOffset>-200</equippedAngleOffset>
 		<tools>
 			<li Class="CombatExtended.ToolCE">
 				<label>handle</label>

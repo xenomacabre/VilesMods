@@ -151,4 +151,122 @@
 		</placeWorkers>
 	</ThingDef>
 	
+	
+	<ThingDef ParentName="FencesAFGateBase">
+		<defName>WattleFenceGate</defName> <!-- changed to overwrite vanilla -->
+		<label>wattle fence gate</label>
+		<description>A gate made of sticks.</description>
+		<altitudeLayer>DoorMoveable</altitudeLayer>
+		<fillPercent>0.25</fillPercent>
+		<useHitPoints>true</useHitPoints>
+		<stuffCategories>
+			<li>WoodLogs</li>
+		</stuffCategories>
+		<costStuffCount>5</costStuffCount>
+		<costList>
+			<Kindling>4</Kindling>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>200</WorkToBuild>
+			<Flammability>1.5</Flammability>
+		</statBases>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<selectable>true</selectable>
+		<tickerType>Normal</tickerType>
+		<rotatable>false</rotatable>
+		<!--  <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>  -->
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<holdsRoof>false</holdsRoof>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<blockLight>false</blockLight>
+		<drawerType>RealtimeOnly</drawerType>
+		<graphicData>
+			<texPath>Things/Building/Fences/WattleFenceGate_Mover</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkFlags>
+				<li>Custom1</li>
+			</linkFlags>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Fences/WattleGateIco</uiIconPath>
+		<building>
+			<isInert>true</isInert>
+			<canPlaceOverWall>true</canPlaceOverWall>
+			<soundDoorOpenManual>Door_OpenManual</soundDoorOpenManual>
+			<soundDoorCloseManual>Door_CloseManual</soundDoorCloseManual>
+			<blueprintClass>Blueprint_Door</blueprintClass>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Fences/WoodFenceGate_Blueprint</texPath>
+			</blueprintGraphicData>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_DoorLearnOpeningSpeed</li>
+		</placeWorkers>
+	</ThingDef>
+	<ThingDef ParentName="FencesAFGateBase">
+		<defName>WattleFenceGateB</defName>
+		<label>wattle fence gate</label>
+		<description>A gate made of sticks.</description>
+		<altitudeLayer>DoorMoveable</altitudeLayer>
+		<fillPercent>0.25</fillPercent>
+		<useHitPoints>true</useHitPoints>
+		<stuffCategories>
+			<li>WoodLogs</li>
+		</stuffCategories>
+		<costStuffCount>5</costStuffCount>
+		<costList>
+			<Kindling>4</Kindling>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>200</WorkToBuild>
+			<Flammability>1.5</Flammability>
+		</statBases>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<selectable>true</selectable>
+		<tickerType>Normal</tickerType>
+		<rotatable>false</rotatable>
+		<!--  <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>  -->
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<holdsRoof>false</holdsRoof>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<blockLight>false</blockLight>
+		<drawerType>RealtimeOnly</drawerType>
+		<graphicData>
+			<texPath>Things/Building/Fences/WattleFenceGateB_Mover</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkFlags>
+				<li>Custom1</li>
+			</linkFlags>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Fences/WattleGateBIco</uiIconPath>
+		<building>
+			<isInert>true</isInert>
+			<canPlaceOverWall>true</canPlaceOverWall>
+			<soundDoorOpenManual>Door_OpenManual</soundDoorOpenManual>
+			<soundDoorCloseManual>Door_CloseManual</soundDoorCloseManual>
+			<blueprintClass>Blueprint_Door</blueprintClass>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Fences/WoodFenceGateB_Blueprint</texPath>
+			</blueprintGraphicData>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_DoorLearnOpeningSpeed</li>
+		</placeWorkers>
+	</ThingDef>
+	
 </Defs>

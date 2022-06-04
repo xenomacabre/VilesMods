@@ -270,7 +270,7 @@
     </Operation>
 	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="SoftSand"]/pathCost</xpath>
 		<value>
-			 <pathCost>20</pathCost>
+			 <pathCost>25</pathCost>
 		</value>
     </Operation>
 	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="SoftSand"]/label</xpath>
@@ -297,7 +297,7 @@
     </Operation>
 	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Sand"]/pathCost</xpath>
 		<value>
-			 <pathCost>20</pathCost>
+			 <pathCost>10</pathCost>
 		</value>
     </Operation>
 	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Sand"]/label</xpath>

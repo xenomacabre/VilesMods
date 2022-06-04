@@ -21,6 +21,19 @@
 					<harvestYield>1</harvestYield> <!-- was 20 -->
 				</value>
 			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Plant_TreeAcacia"]/plant</xpath> 
+				<value>
+					<harvestedThingDef>AcaciaLog</harvestedThingDef>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Plant_TreeAcacia"]/plant/harvestYield</xpath>
+				<value>
+					<harvestYield>6</harvestYield> <!-- was 75 -->
+				</value>
+			</li>
+			
 		</operations>
 	</match>
     </Operation>

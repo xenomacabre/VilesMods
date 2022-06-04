@@ -91,12 +91,8 @@
 		</value>
     </Operation>
 
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Plant_TreeAcacia"]/plant/harvestYield</xpath>
-		<value>
-			<harvestYield>6</harvestYield> <!-- was 75 -->
-		</value>
-    </Operation>
+
+
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Plant_Mangrove"]/plant/harvestYield</xpath>
 		<value>
@@ -189,12 +185,7 @@
 			<harvestedThingDef>CypressLog</harvestedThingDef>
 		</value>
     </Operation>
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Plant_TreeAcacia"]/plant</xpath> 
-		<value>
-			<harvestedThingDef>AcaciaLog</harvestedThingDef>
-		</value>
-    </Operation>
+
 
 	
 	

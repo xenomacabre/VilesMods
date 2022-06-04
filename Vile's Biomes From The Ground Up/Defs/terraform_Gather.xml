@@ -5,12 +5,13 @@
 <ThingDef ParentName="RFF_TerraformBasicBase">	 
 	<defName>Terraform_GatherNutrientsFromRichSoil</defName>
 	<label>nutrients from rich soil</label>
-	<description>+4 Clay\n +4 Silt\n +6 Compost\n +6 Fertilizer\n +2 Peat</description>
+	<description>Rich Soil / Grassland Soil\n +4 Clay\n +4 Silt\n +6 Compost\n +6 Fertilizer\n +2 Peat</description>
 	<uiIconPath>UI/Icons/Terraforming/UndevelopedSoil</uiIconPath>
 	<modExtensions>
 		<li Class="FertileFields.Terrain">
 			<above>
 				<li>SoilRich</li>
+				<li>SavannaSoil</li>
 			</above>
 			<result>RockySoil</result>
 			<products>

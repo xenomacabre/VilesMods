@@ -317,7 +317,33 @@ Drain Wetland
 		<WorkToBuild>960</WorkToBuild>
 	</statBases>
 	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
-</ThingDef>	 
+</ThingDef>	
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_DevelopToCrackedClay</defName>
+	<label>Cracked Clay Soil</label>
+	<description>+2 Sand\n +4 Gravel</description>
+	<uiIconPath>UI/Icons/Terraforming/CrackedClay</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>RockySoil</li>
+			</above>
+			<result>DustySoil</result>
+			<products>
+				<CrushedStone>4</CrushedStone>
+			</products>
+		</li>
+	</modExtensions>
+	<costList>		
+		<Dirt>2</Dirt>
+		<SoftClay>10</SoftClay>
+		<Compost>4</Compost>
+	</costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>	  
 <ThingDef ParentName="RFF_TerraformBasicBase">	 
 	<defName>Terraform_DevelopToMarshy</defName>
 	<label>Marshy Soil</label>
