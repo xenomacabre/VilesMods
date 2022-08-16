@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- LIGHT LEATHER -->
+	<RecipeDef>
+		<defName>Make_LeatherThermatan</defName>
+		<label>make thermatan leather</label>
+		<description>Make an ultra-grade variety of leather with exceptional strength, beauty, and insulation by infusing heavy leathers with esters extracted from dragon blood.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Leather_Elephant</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DragonEsters</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Leather_Elephant</li>
+				<li>DragonEsters</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Leather_KirinHide>25</Leather_KirinHide>
+		</products>
+		<recipeUsers>
+			<li>TableLoom</li>
+		</recipeUsers>
+		 <researchPrerequisite>Repair_table_B1</researchPrerequisite>
+		<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<workAmount>600</workAmount>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>Make_LeatherVentan</defName>
+		<label>make ventan leather</label>
+		<description>Make an ultra-grade variety of leather with exceptional strength and breathability by infusing breathable leathers with esters extracted from dragon blood.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Leather_Boomanimal</li>	
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DragonEsters</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Leather_Boomanimal</li>
+				<li>DragonEsters</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Leather_FireDragonskin>25</Leather_FireDragonskin>
+		</products>
+		<recipeUsers>
+			<li>TableLoom</li>
+		</recipeUsers>
+		<researchPrerequisite>Repair_table_B1</researchPrerequisite>
+		<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<workAmount>600</workAmount>
+	</RecipeDef>
+	
+	<!-- ARMATAN LEATHER -->
+	<RecipeDef>
+		<defName>Make_LeatherArmatan</defName>
+		<label>make armatan leather</label>
+		<description>Make an ultra-grade variety of leather with unbeatable strength and durability by lining Heavy Fur with a mesh made of the guard hairs of beasts.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Leather_Heavy</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GuardianHairs</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Leather_Heavy</li>
+				<li>GuardianHairs</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Leather_Thrumbo>25</Leather_Thrumbo>
+		</products>
+		<recipeUsers>
+			<li>TableLoom</li>
+		</recipeUsers>
+		<researchPrerequisite>Repair_table_B1</researchPrerequisite>
+		<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<workAmount>600</workAmount>
+	</RecipeDef>
+	
+	<!-- BREATHABLE LEATHER -->
+	<RecipeDef>
+		<defName>Make_LeatherHygieiatan</defName>
+		<label>make hygieiatan leather</label>
+		<description>Make and ultra-grade variety of leather with uncanny immunogenic properties by infusing sterile leather with the vapors created from the talons of beithirian beasts.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Leather_Nightling</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TalonAether</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Leather_Nightling</li>
+				<li>TalonAether</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Leather_FeatheredRaptorLeather>25</Leather_FeatheredRaptorLeather>
+		</products>
+		<recipeUsers>
+			<li>TableLoom</li>
+		</recipeUsers>
+		<researchPrerequisite>Repair_table_B1</researchPrerequisite>
+		<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<workAmount>600</workAmount>
+	</RecipeDef>
+	
+	
+	
+</Defs>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>AsariRace</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Alien_Asari"]/statBases/leatherAmount</xpath>
+				<value>
+					<LeatherAmount>3</LeatherAmount>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Alien_Asari"]/race/leatherDef</xpath>
+				<value>
+					<leatherDef>Hide_HumanSkin</leatherDef>
+				</value>
+			</li>
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

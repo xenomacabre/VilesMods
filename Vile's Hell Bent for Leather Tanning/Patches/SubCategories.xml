@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Sewing"]/defNames</xpath>
+				<value>
+					<li>TanningRack</li>
+					<li>BriningStation</li>
+					<li>DyeingStation</li>
+					<li>TanningVat</li>
+					<li>TanningDrum</li>
+				</value>
+			</li>
+			
+
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<ThingDef Name="LeatherBase_Upholstery" ParentName="SK_LeatherBase">
+		<defName>Leather_UpholsteryBrown</defName>
+		<label>upholstery leather (brown)</label>
+		<description>This is top-grain leather, fresh after being split. It is not embossed or finished, so it still breathes well, but it's ugly and unprotected.</description>
+		<graphicData>
+			<color>(118,124,168)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>3</MarketValue>
+			<StuffPower_Armor_Sharp>0.85</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.1</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>25</StuffPower_Insulation_Heat>
+			<Mass>0.01</Mass>
+			<Bulk>0.01</Bulk>
+		</statBases>
+		<stuffProps>
+			<color>(118,124,168)</color>
+			<commonality>0.0025</commonality>
+			<stuffAdjective>upholstery leather</stuffAdjective>
+			<statFactors>
+				<MaxHitPoints>0.95</MaxHitPoints>
+				<Beauty>0.7</Beauty>
+				<MoveSpeed>1</MoveSpeed>
+				<MarketValue>0.75</MarketValue>
+				<WorkToMake>1</WorkToMake>
+				<WorkToBuild>1.5</WorkToBuild>
+				<BedRestEffectiveness>0.85</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>0.95</ImmunityGainSpeedFactor>
+				<Mass>0.55</Mass>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	<!--
+	<ThingDef ParentName="LeatherBase_Finished">
+		<defName>Leather_FinishedBrown</defName>
+		<label>finished leather (brown)</label>
+		<graphicData>
+			<color>(128,87,77)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(128,87,77)</color>
+			<commonality>0.0025</commonality>
+		</stuffProps>
+	</ThingDef>
+	-->
+	<ThingDef ParentName="LeatherBase_Finished">
+		<defName>Leather_FinishedBlack</defName>
+		<label>finished leather (black)</label>
+		<graphicData>
+			<color>(85,84,82)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(85,84,82)</color>
+			<commonality>0.0025</commonality>
+		</stuffProps>
+	</ThingDef>
+	
+	<ThingDef ParentName="LeatherBase_Nubuck">
+		<defName>Leather_NubuckYellow</defName>
+		<label>nubuck (yellow)</label>
+		<graphicData>
+			<color>(244,197,52)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(244,197,52)</color>
+			<commonality>0.0025</commonality>
+		</stuffProps>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="LeatherBase_Upholstery">
+		<defName>Leather_UpholsteryGray</defName>
+		<label>upholstery leather (gray)</label>
+		<graphicData>
+			<color>(183,179,165)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(183,179,165)</color>
+			<commonality>0.0025</commonality>
+		</stuffProps>
+	</ThingDef>
+	
+	<ThingDef ParentName="LeatherBase_Upholstery">
+		<defName>Leather_UpholsteryBordeaux</defName>
+		<label>upholstery leather (bordeaux)</label>
+		<graphicData>
+			<color>(166,61,95)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(166,61,95)</color>
+			<commonality>0.0025</commonality>
+		</stuffProps>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="SK_LeatherBase">
+		<defName>Leather_CorrectedGrain</defName>
+		<label>unfinished leather</label>
+		<description>This is top-grain leather, fresh after being split. It is not embossed or finished, so it still breathes well, but it's ugly and unprotected.</description>
+		<graphicData>
+			<color>(255,228,210)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>3</MarketValue>
+			<StuffPower_Armor_Sharp>0.85</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.1</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>25</StuffPower_Insulation_Heat>
+			<Mass>0.01</Mass>
+			<Bulk>0.01</Bulk>
+		</statBases>
+		<stuffProps>
+			<color>(255,228,210)</color>
+			<commonality>0.075</commonality>
+			<statFactors>
+				<MaxHitPoints>0.95</MaxHitPoints>
+				<Beauty>0.7</Beauty>
+				<MoveSpeed>1</MoveSpeed>
+				<MarketValue>0.75</MarketValue>
+				<WorkToMake>1</WorkToMake>
+				<WorkToBuild>1.5</WorkToBuild>
+				<BedRestEffectiveness>0.85</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>0.95</ImmunityGainSpeedFactor>
+				<Mass>0.55</Mass>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+	<ThingDef ParentName="CropsBase">
+		<defName>Leather_Scraps</defName>
+		<label>leather strips</label>
+		<description>Shredded pieces of leather which can be used to make bonded leather or as a component in certain recipes.</description>
+		<graphicData>
+			<texPath>Things/Item/Components/LeatherStrips</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<statBases>
+			<MarketValue>2</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0.5</Flammability>
+			<SellPriceFactor>0.50</SellPriceFactor>
+			<Mass>0.25</Mass>
+			<Bulk>0.25</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>Parts</li>
+		</thingCategories>
+		<stackLimit>500</stackLimit>
+	</ThingDef>
+	
+	
+	
+	
+</Defs>

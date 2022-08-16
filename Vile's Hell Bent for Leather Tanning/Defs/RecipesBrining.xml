@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- SALTING -->
+	<RecipeDef>
+		<defName>BrineCure_ExoticSkins</defName>
+		<label>cure exotic skins</label>
+		<jobString>Brine-curing.</jobString>
+		<description>Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_ExoticSkin</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_ExoticSkin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_ExoticSkinCured>1</Hide_ExoticSkinCured>
+		</products>
+		<recipeUsers>
+			<li>BriningStation</li>
+		</recipeUsers>
+		<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<workAmount>150</workAmount>
+	</RecipeDef>
+<RecipeDef>
+		<defName>BrineCure_LightAnimalSkins</defName>
+		<label>cure light animal skins</label>
+	<jobString>Brine-curing.</jobString>
+		<description>Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_LightAnimalSkin</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_LightAnimalSkin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_LightAnimalSkinCured>1</Hide_LightAnimalSkinCured>
+		</products>
+		<recipeUsers>
+			<li>BriningStation</li>
+		</recipeUsers>
+	<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<workAmount>150</workAmount>
+	</RecipeDef>
+<RecipeDef>
+		<defName>BrineCure_RodentSkins</defName>
+		<label>cure rodent skins</label>
+	<jobString>Brine-curing.</jobString>
+		<description>Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_RodentSkin</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_RodentSkin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_RodentSkinCured>1</Hide_RodentSkinCured>
+		</products>
+		<recipeUsers>
+			<li>BriningStation</li>
+		</recipeUsers>
+	<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<workAmount>150</workAmount>
+	</RecipeDef>
+	
+	<!-- HIDES -->
+<RecipeDef>
+		<defName>BrineCure_PorousHide</defName>
+		<label>cure porous hides</label>
+	<jobString>Brine-curing.</jobString>
+		<description>Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_PorousHide</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_PorousHide</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_PorousHideCured>1</Hide_PorousHideCured>
+		</products>
+		<recipeUsers>
+			<li>BriningStation</li>
+		</recipeUsers>
+	<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<workAmount>200</workAmount>
+	</RecipeDef>
+	
+<RecipeDef>
+		<defName>BrineCure_ImmunogenicHide</defName>
+		<label>cure immunogenic hides</label>
+	<jobString>Brine-curing.</jobString>
+		<description>Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_ImmunogenicHide</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_ImmunogenicHide</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_ImmunogenicHideCured>1</Hide_ImmunogenicHideCured>
+		</products>
+		<recipeUsers>
+			<li>BriningStation</li>
+		</recipeUsers>
+	<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<workAmount>250</workAmount>
+	</RecipeDef>
+	
+<RecipeDef>
+		<defName>BrineCure_SoftHide</defName>
+		<label>cure soft hides</label>
+	<jobString>Brine-curing.</jobString>
+		<description>Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_SoftHide</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_SoftHide</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_SoftHideCured>1</Hide_SoftHideCured>
+		</products>
+		<recipeUsers>
+			<li>BriningStation</li>
+		</recipeUsers>
+	<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<workAmount>175</workAmount>
+	</RecipeDef>
+	
+<RecipeDef>
+	<defName>BrineCure_DurableHide</defName>
+		<label>cure durable hides</label>
+	<jobString>Brine-curing.</jobString>
+		<description>Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_DurableHide</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_DurableHide</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_DurableHideCured>1</Hide_DurableHideCured>
+		</products>
+		<recipeUsers>
+			<li>BriningStation</li>
+		</recipeUsers>
+	<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<workAmount>275</workAmount>
+	</RecipeDef>
+	
+<RecipeDef>
+	<defName>BrineCure_HeavyHide</defName>
+		<label>cure heavy hides</label>
+	<jobString>Brine-curing.</jobString>
+		<description>Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_HeavyHide</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_HeavyHide</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_HeavyHideCured>1</Hide_HeavyHideCured>
+		</products>
+		<recipeUsers>
+			<li>BriningStation</li>
+		</recipeUsers>
+	<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<workAmount>325</workAmount>
+	</RecipeDef>
+	
+<RecipeDef>
+		<defName>BrineCure_StockHide</defName>
+		<label>cure stock hides</label>
+	<jobString>Brine-curing.</jobString>
+		<description>Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_StockHide</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_StockHide</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_StockHideCured>1</Hide_StockHideCured>
+		</products>
+		<recipeUsers>
+			<li>BriningStation</li>
+		</recipeUsers>
+	<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<workAmount>200</workAmount>
+	</RecipeDef>
+	
+	<!-- PELT -->
+	
+<RecipeDef>
+	<defName>BrineCure_HeavyFurPelt</defName>
+		<label>cure heavy fur pelts</label>
+	<jobString>Brine-curing.</jobString>
+		<description>Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_HeavyFurPelt</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_HeavyFurPelt</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_HeavyFurPeltCured>1</Hide_HeavyFurPeltCured>
+		</products>
+		<recipeUsers>
+			<li>BriningStation</li>
+		</recipeUsers>
+	<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<workAmount>375</workAmount>
+	</RecipeDef>
+	
+<RecipeDef>
+		<defName>BrineCure_RichFurPelt</defName>
+		<label>cure rich fur pelts</label>
+	<jobString>Brine-curing.</jobString>
+		<description>Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_RichFurPelt</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_RichFurPelt</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_HeavyFurPeltCured>1</Hide_HeavyFurPeltCured>
+		</products>
+		<recipeUsers>
+			<li>BriningStation</li>
+		</recipeUsers>
+	<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<workAmount>200</workAmount>
+	</RecipeDef>
+	
+<RecipeDef>
+	<defName>BrineCure_RuggedFurPelt</defName>
+		<label>cure rugged fur pelts</label>
+	<jobString>Brine-curing.</jobString>
+		<description>Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_RuggedFurPelt</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_RuggedFurPelt</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_RuggedFurPeltCured>1</Hide_RuggedFurPeltCured>
+		</products>
+		<recipeUsers>
+			<li>BriningStation</li>
+		</recipeUsers>
+	<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<workAmount>225</workAmount>
+	</RecipeDef>
+	
+<RecipeDef>
+		<defName>BrineCure_WarmFurPelt</defName>
+		<label>cure warm fur pelts</label>
+	<jobString>Brine-curing.</jobString>
+		<description>Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_WarmFurPelt</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_WarmFurPelt</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_WarmFurPeltCured>1</Hide_WarmFurPeltCured>
+		</products>
+		<recipeUsers>
+			<li>BriningStation</li>
+		</recipeUsers>
+	<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<workAmount>200</workAmount>
+	</RecipeDef>
+	
+</Defs>

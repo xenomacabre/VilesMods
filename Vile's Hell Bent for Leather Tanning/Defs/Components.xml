@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+<!-- COMPONENTS -->
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>DragonEsters</defName>
+		<label>Dragon Esters</label>
+		<description>A glyceride extracted from kirins, wyverns, and feenix. Can be infused with certain leathers to improve their properties.</description>
+		<graphicData>
+			<texPath>Things/Item/Components/DragonEsters</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<tickerType>Rare</tickerType>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>1</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>2</Flammability>
+			<Mass>0.12</Mass>
+			<Bulk>0.12</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>CTextiles</li>
+		</thingCategories>
+		<stackLimit>500</stackLimit>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>GuardianHairs</defName>
+		<label>Guardian Hairs</label>
+		<description>The coarse, outer hairs found in the fur of mythical canines and thrumbo. It can be used to enhanced certain furs.</description>
+		<graphicData>
+			<texPath>Things/Item/Components/GuardianHairs</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(150,200,100)</color>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<tickerType>Rare</tickerType>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>1</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>2</Flammability>
+			<Mass>0.12</Mass>
+			<Bulk>0.12</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>CTextiles</li>
+		</thingCategories>
+		<stackLimit>500</stackLimit>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>TalonAether</defName>
+		<label>Talon Aether</label>
+		<description>A smokelike vapor that forms when the pulverizing the talons of a behir or other the raptors which are hybridized from behir DNA.</description>
+		<graphicData>
+			<texPath>Things/Item/Components/TalonAether</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<tickerType>Rare</tickerType>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>1</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>2</Flammability>
+			<Mass>0.12</Mass>
+			<Bulk>0.12</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>CTextiles</li>
+		</thingCategories>
+		<stackLimit>500</stackLimit>
+	</ThingDef>
+	
+
+<ThingDef ParentName="SK_ResourceBase">
+		<defName>Rawhide</defName>
+		<label>Rawhide</label>
+		<description>Rawhide is a stretched and cured animal hide, like parchment, but thicker. It becomes very hard and strong once it solidifies and can be used in the place of metal in some armors, providing protection. However, it's unstable and breaks down over time when exposed to the elements. It's also not especially light since it had to be very thick to offer protection.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/ChitinScales</texPath>
+			<color>(245,189,109)</color>
+			<drawSize>0.75</drawSize>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>600</stackLimit>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<MarketValue>0.5</MarketValue>
+			<StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.65</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.13</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>18</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.6</BluntDamageMultiplier>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0.5</Flammability>
+			<Mass>0.35</Mass>
+			<Bulk>0.35</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>HardLeathers</li> <!--  -->
+		</thingCategories>
+		<smeltable>true</smeltable>
+		<stuffProps>
+			<stuffAdjective>Rawhide</stuffAdjective>
+			<!--<appearance>Metal</appearance>-->
+			<categories>
+				<li>LeatheryHard</li>
+			</categories>
+			<constructEffect>ConstructMetal</constructEffect>
+			<color>(245,189,109)</color>
+			<commonality>0.1</commonality>
+			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<statFactors>
+				<MaxHitPoints>0.9</MaxHitPoints>
+				<Beauty>0.8</Beauty>
+				<Flammability>1</Flammability>
+				<WorkToMake>0.8</WorkToMake>
+				<WorkToBuild>0.8</WorkToBuild>
+				<DoorOpenSpeed>0.6</DoorOpenSpeed>
+				<MeleeWeapon_CooldownMultiplier>1.2</MeleeWeapon_CooldownMultiplier>
+				<MoveSpeed>0.7</MoveSpeed>
+				<MarketValue>0.5</MarketValue>
+				<BedRestEffectiveness>0.8</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>0.95</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.9</WorkTableWorkSpeedFactor>
+				<MeleePenetrationFactor>0.7</MeleePenetrationFactor>
+				<Mass>1.2</Mass>
+			</statFactors>
+		</stuffProps>
+		<!--<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>-->
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>BoiledLeather</defName>
+		<label>cuir bouilli</label>
+		<description>Also known as 'boiled leather', it's made by treating leather to make it hard and mouldable. It can be used in place of metal on many medieval armors, though because it as to be thick to provide protection, it's quite heavy and is not suitable for full-plate. Because it doesn't conduct heat like metal, it provides better protection against heat.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/ChitinScales</texPath>
+			<color>(100,75,18)</color>
+			<drawSize>0.75</drawSize>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>600</stackLimit>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<MarketValue>0.5</MarketValue>
+			<StuffPower_Armor_Blunt>0.75</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.7</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.16</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>5</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.6</BluntDamageMultiplier>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0.5</Flammability>
+			<Mass>0.35</Mass>
+			<Bulk>0.35</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>HardLeathers</li> <!--  -->
+		</thingCategories>
+		<smeltable>true</smeltable>
+		<stuffProps>
+			<stuffAdjective>Rawhide</stuffAdjective>
+			<!--<appearance>Metal</appearance>-->
+			<categories>
+				<li>LeatheryHard</li>
+			</categories>
+			<constructEffect>ConstructMetal</constructEffect>
+			<color>(127,81,18)</color>
+			<commonality>0.1</commonality>
+			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<statFactors>
+				<MaxHitPoints>1.2</MaxHitPoints>
+				<Beauty>0.8</Beauty>
+				<Flammability>1</Flammability>
+				<WorkToMake>0.8</WorkToMake>
+				<WorkToBuild>0.8</WorkToBuild>
+				<DoorOpenSpeed>0.6</DoorOpenSpeed>
+				<MeleeWeapon_CooldownMultiplier>1.2</MeleeWeapon_CooldownMultiplier>
+				<MoveSpeed>0.7</MoveSpeed>
+				<MarketValue>0.5</MarketValue>
+				<BedRestEffectiveness>0.8</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>0.95</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.9</WorkTableWorkSpeedFactor>
+				<MeleePenetrationFactor>0.7</MeleePenetrationFactor>
+				<Mass>1.15</Mass>
+			</statFactors>
+		</stuffProps>
+		<!--<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>-->
+	</ThingDef>
+
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Chitin</defName>
+		<label>Chitin</label>
+		<description>Chitin is extracted from exoskeletons of genetically engineered insects or shelled creatures. It's fairly lightweight and can be used in the place of metal in some types of armor where the smaller pieces can be used like scales. I can be processed into a strong fabric with the right technology, or be processed into polymers for use in finishing certain leathers.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/ChitinScales</texPath>
+			<color>(75,68,80)</color>
+			<drawSize>0.75</drawSize>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>600</stackLimit>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<MarketValue>6</MarketValue>
+			<StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.7</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.12</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>7</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>7</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>0.8</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.6</BluntDamageMultiplier>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.35</Mass>
+			<Bulk>0.35</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>HardLeathers</li> <!--  -->
+		</thingCategories>
+		<smeltable>true</smeltable>
+		<stuffProps>
+			<stuffAdjective>Chitin</stuffAdjective>
+			<appearance>Metal</appearance>
+			<categories>
+				<li>LeatheryHard</li>
+			</categories>
+			<constructEffect>ConstructMetal</constructEffect>
+			<color>(210,140,20)</color>
+			<commonality>0.5</commonality>
+		<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<statFactors>
+				<MaxHitPoints>1.55</MaxHitPoints>
+				<Beauty>0.8</Beauty>
+				<Flammability>0</Flammability>
+				<WorkToMake>0.8</WorkToMake>
+				<WorkToBuild>0.8</WorkToBuild>
+				<DoorOpenSpeed>0.6</DoorOpenSpeed>
+				<MeleeWeapon_CooldownMultiplier>1.2</MeleeWeapon_CooldownMultiplier>
+				<MoveSpeed>0.7</MoveSpeed>
+				<MarketValue>1</MarketValue>
+				<BedRestEffectiveness>0.8</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>0.95</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.9</WorkTableWorkSpeedFactor>
+				<MeleePenetrationFactor>0.7</MeleePenetrationFactor>
+				<Mass>1.1</Mass>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>DragonScales</defName>
+		<label>dragon scales</label>
+		<description>Draconic reptiles sport a strong armor which protects their skin. The small plates are hard as iron but light as feathers and can be used as a component for building armor. It can aslo be processed into compound paste.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/ChitinScales</texPath>
+			<color>(50,190,122)</color>
+			<drawSize>0.9</drawSize>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>600</stackLimit>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>12</MarketValue>
+			<StuffPower_Armor_Blunt>0.8</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.95</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.175</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>1.2</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.7</BluntDamageMultiplier>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.2</Mass>
+			<Bulk>0.35</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<!-- <slagDef>ChunkSlagSteel</slagDef> Should be marked. Bcs it lead to GenLeaving NRE. Vanilla --> 
+		<thingCategories>
+			<li>HardLeathers</li> <!--  -->
+		</thingCategories>
+		<smeltable>false</smeltable>
+		<stuffProps>
+			<stuffAdjective>Dragon Plate</stuffAdjective>
+			<!--<appearance>Metal</appearance>-->
+			<categories>
+				<li>LeatheryHard</li>
+			</categories>
+			<constructEffect>ConstructMetal</constructEffect>
+			<color>(50,190,122)</color>
+			<commonality>0.05</commonality>
+			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+			<statFactors>
+				<MaxHitPoints>1.7</MaxHitPoints>
+				<Beauty>1.0</Beauty>
+				<Flammability>0</Flammability>
+				<WorkToMake>1.0</WorkToMake>
+				<WorkToBuild>1.0</WorkToBuild>
+				<DoorOpenSpeed>0.7</DoorOpenSpeed>
+				<MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
+				<MoveSpeed>0.8</MoveSpeed>
+				<MarketValue>1.2</MarketValue>
+				<BedRestEffectiveness>0.85</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>0.95</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>1.0</WorkTableWorkSpeedFactor>
+				<MeleePenetrationFactor>1.0</MeleePenetrationFactor>
+				<Mass>0.8</Mass>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- LIGHT LEATHER -->
+	<RecipeDef>
+		<defName>TanBrain_LeatherBuckskin</defName>
+		<label>tan buckskin</label>
+		<description>LoremIpsum</description>
+		<uiIconThing>Leather_Dog</uiIconThing>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>UncuredHides</li>
+						<li>CuredHides</li>	
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+						<li>UncuredHides</li>
+						<li>CuredHides</li>	
+					</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Leather_Dog>25</Leather_Dog>
+		</products>
+		<recipeUsers>
+			<li>Campfire</li>
+			<li MayRequire="vitech.metallurgy">FirePit</li>
+		</recipeUsers>
+		<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<workAmount>1200</workAmount>
+	</RecipeDef>
+	
+</Defs>

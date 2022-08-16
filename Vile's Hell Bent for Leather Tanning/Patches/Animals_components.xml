@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Feenix"]</xpath>
+				<value>
+					<butcherProducts>
+						<DragonEsters>65</DragonEsters>
+						<DragonScales>80</DragonScales>
+					</butcherProducts>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Kirin"]</xpath>
+				<value>
+					<butcherProducts>
+						<DragonEsters>85</DragonEsters>
+						<DragonScales>70</DragonScales>
+					</butcherProducts>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="GreenWyvern"]</xpath>
+				<value>
+					<butcherProducts>
+						<DragonEsters>50</DragonEsters>
+						<DragonScales>60</DragonScales>
+					</butcherProducts>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Barghest"]</xpath>
+				<value>
+					<butcherProducts>
+						<GuardianHairs>85</GuardianHairs>
+					</butcherProducts>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Thrumbo"]</xpath>
+				<value>
+					<butcherProducts>
+						<GuardianHairs>85</GuardianHairs>
+					</butcherProducts>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Behir"]</xpath>
+				<value>
+					<butcherProducts>
+						<TalonAether>85</TalonAether>
+						<DragonScales>45</DragonScales>
+					</butcherProducts>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="FRaptor"]</xpath>
+				<value>
+					<butcherProducts>
+						<TalonAether>30</TalonAether>
+					</butcherProducts>
+				</value>
+			</li>
+			
+		</operations>
+	</match>
+    </Operation>	
+</Patch>	

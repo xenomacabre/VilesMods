@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef Name="Recipe_DyeLeatherBase" Abstract="True">
+		
+		<jobString>Dyeing leather.</jobString>
+		<description>Dye, finish, and emboss corrected-grain leather. This is considered "good" quality leather compared to "excellent" quality full-grain leather. It doesn't breathe as well, but it is still sturdy and attractive.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Leather_CorrectedGrain</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Leather_CorrectedGrain</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>DyeingStation</li>
+		</recipeUsers>
+		<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<workAmount>500</workAmount>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Recipe_DyeLeatherBase">
+		<defName>Make_FinishedLeatherBrown</defName>
+		<label>dye and finish leather (indy brown)</label>
+		<products>
+			<Leather_Fox>8</Leather_Fox>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Recipe_DyeLeatherBase">
+		<defName>Make_FinishedLeatherBlack</defName>
+		<label>dye and finish leather (patent black)</label>
+		<products>
+			<Leather_FinishedBlack>8</Leather_FinishedBlack>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Recipe_DyeLeatherBase">
+		<defName>Make_NubuckChestnut</defName>
+		<label>sand and dye nubuck (chestnut)</label>
+		<jobString>Dyeing nubuck.</jobString>
+		<description>Dye and lightly sand corrected-grain leather. Nubuck is considered "good" quality leather compared to "excellent" quality full-grain leather. It's gently sanded to have a suede-like finish, but since it's not coated, it breathes better than other corrected-grain treatments and is quite attractive.</description>
+		<products>
+			<Leather_BarghestFur>8</Leather_BarghestFur>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="Recipe_DyeLeatherBase">
+		<defName>Make_NubuckYellow</defName>
+		<label>sand and dye nubuck (danger yellow)</label>
+		<jobString>Dyeing nubuck.</jobString>
+		<description>Dye and lightly sand corrected-grain leather. Nubuck is considered "good" quality leather compared to "excellent" quality full-grain leather. It's gently sanded to have a suede-like finish, but since it's not coated, it breathes better than other corrected-grain treatments and is quite attractive.</description>
+		<products>
+			<Leather_NubuckYellow>8</Leather_NubuckYellow>
+		</products>
+	</RecipeDef>
+		
+	<RecipeDef ParentName="Recipe_DyeLeatherBase">
+		<defName>Make_UpholsteryLeatherBrown</defName>
+		<label>make upholstery leather (vintage brown)</label>
+		<jobString>Dyeing upholstery leather.</jobString>
+		<description>Dye and finish corrected-grain leather with a protective coat. This leather is considered "good" quality leather compared to "excellent" quality full-grain leather. It works well for furniture, and though not quite as comfortable as nubuck, it can take a beating.</description>
+		<products>
+			<Leather_UpholsteryBrown>8</Leather_UpholsteryBrown>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="Recipe_DyeLeatherBase">
+		<defName>Make_UpholsteryLeatherGray</defName>
+		<label>make upholstery leather (modern gray)</label>
+		<jobString>Dyeing upholstery leather.</jobString>
+		<description>Dye and finish corrected-grain leather with a protective coat. This leather is considered "good" quality leather compared to "excellent" quality full-grain leather. It works well for furniture, and though not quite as comfortable as nubuck, it can take a beating.</description>
+		<products>
+			<Leather_UpholsteryGray>8</Leather_UpholsteryGray>
+		</products>
+	</RecipeDef>
+	<RecipeDef ParentName="Recipe_DyeLeatherBase">
+		<defName>Make_UpholsteryLeatherBordeaux</defName>
+		<label>make upholstery leather (bordeaux)</label>
+		<jobString>Dyeing upholstery leather.</jobString>
+		<description>Dye and finish corrected-grain leather with a protective coat. This leather is considered "good" quality leather compared to "excellent" quality full-grain leather. It works well for furniture, and though not quite as comfortable as nubuck, it can take a beating.</description>
+		<products>
+			<Leather_UpholsteryBordeaux>8</Leather_UpholsteryBordeaux>
+		</products>
+	</RecipeDef>
+	
+</Defs>

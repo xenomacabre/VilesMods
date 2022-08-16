@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains">
+		<defName>DoBillsTanningDrum</defName>
+		<label>use chrome-tanning drum</label>
+		<workType>Tailoring</workType>
+		<priorityInType>64</priorityInType>
+		<fixedBillGiverDefs>
+			<li>TanningDrum</li>
+		</fixedBillGiverDefs>
+		<verb>tanning hides</verb>
+		<gerund>tanning hides</gerund>
+	</WorkGiverDef>
+	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains">
+		<defName>DoBillsBriningStation</defName>
+		<label>brine-cure hides</label>
+		<workType>Tailoring</workType>
+		<priorityInType>65</priorityInType>
+		<fixedBillGiverDefs>
+			<li>BriningStation</li>
+		</fixedBillGiverDefs>
+		<verb>brining hides</verb>
+		<gerund>brining hides</gerund>
+	</WorkGiverDef>
+	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains">
+		<defName>DoBillsDyeingStation</defName>
+		<label>dye and process leathers</label>
+		<workType>Tailoring</workType>
+		<priorityInType>66</priorityInType>
+		<fixedBillGiverDefs>
+			<li>DyeingStation</li>
+		</fixedBillGiverDefs>
+		<verb>post-processing leathers</verb>
+		<gerund>post-processing leathers</gerund>
+	</WorkGiverDef>
+	
+</Defs>
+

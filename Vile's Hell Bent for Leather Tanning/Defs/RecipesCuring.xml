@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>RackDry_Rawhide</defName>
+		<label>make rawhide</label>
+		<description>Rawhide is made by curing and treating raw skins and hides, but it's not tanned. It dries very hard and can be used in place of metal in some armor recipes.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>CuredHides</li>
+						<li>UncuredHides</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>CuredHides</li>
+				<li>UncuredHides</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Rawhide>10</Rawhide>
+		</products>
+		<recipeUsers>
+			<li>TanningRack</li>
+		</recipeUsers>
+		<temperatureSafe>
+			<min>0</min>
+			<max>30</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>5</min>
+			<max>25</max>
+		</temperatureIdeal>
+		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<processDays>1</processDays>
+	</RecipeDef>
+	
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>RackDry_ExoticSkins</defName>
+		<label>air-cure exotic skins</label>
+		<description>Thin skins of small animals can be cured simply by air-drying. Climate conditions must be favorable.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_ExoticSkin</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_ExoticSkin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_ExoticSkinCured>1</Hide_ExoticSkinCured>
+		</products>
+		<recipeUsers>
+			<li>TanningRack</li>
+		</recipeUsers>
+		<temperatureSafe>
+			<min>0</min>
+			<max>30</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>5</min>
+			<max>25</max>
+		</temperatureIdeal>
+		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<processDays>2.5</processDays>
+	</RecipeDef>
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>RackDry_LightAnimalSkins</defName>
+		<label>air-cure light animal skins</label>
+		<description>Thin skins of small animals can be cured simply by air-drying. Climate conditions must be favorable.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_LightAnimalSkin</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_LightAnimalSkin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_LightAnimalSkinCured>1</Hide_LightAnimalSkinCured>
+		</products>
+		<recipeUsers>
+			<li>TanningRack</li>
+		</recipeUsers>
+		<temperatureSafe>
+			<min>0</min>
+			<max>30</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>5</min>
+			<max>25</max>
+		</temperatureIdeal>
+		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<processDays>2.25</processDays>
+	</RecipeDef>
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>RackDry_RodentSkins</defName>
+		<label>air-cure rodent skins</label>
+		<description>Thin skins of small animals can be cured simply by air-drying. Climate conditions must be favorable.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_RodentSkin</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_RodentSkin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_RodentSkinCured>1</Hide_RodentSkinCured>
+		</products>
+		<recipeUsers>
+			<li>TanningRack</li>
+		</recipeUsers>
+		<temperatureSafe>
+			<min>0</min>
+			<max>30</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>5</min>
+			<max>25</max>
+		</temperatureIdeal>
+		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<processDays>1.8</processDays>
+	</RecipeDef>
+	
+	<!-- SALTING -->
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>RackSalt_ExoticSkins</defName>
+		<label>cure exotic skins</label>
+		<description>Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_ExoticSkin</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+						<li>Ash</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_ExoticSkin</li>
+				<li>Salt</li>
+				<li>Ash</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_ExoticSkinCured>1</Hide_ExoticSkinCured>
+		</products>
+		<recipeUsers>
+			<li>TanningRack</li>
+		</recipeUsers>
+		<processDays>0.5</processDays>
+	</RecipeDef>
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>RackSalt_LightAnimalSkins</defName>
+		<label>cure light animal skins</label>
+		<description>Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_LightAnimalSkin</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+						<li>Ash</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_LightAnimalSkin</li>
+				<li>Salt</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_LightAnimalSkinCured>1</Hide_LightAnimalSkinCured>
+		</products>
+		<recipeUsers>
+			<li>TanningRack</li>
+		</recipeUsers>
+		<processDays>0.5</processDays>
+	</RecipeDef>
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>RackSalt_RodentSkins</defName>
+		<label>cure rodent skins</label>
+		<description>Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_RodentSkin</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+						<li>Ash</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_RodentSkin</li>
+				<li>Salt</li>
+				<li>Ash</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_RodentSkinCured>1</Hide_RodentSkinCured>
+		</products>
+		<recipeUsers>
+			<li>TanningRack</li>
+		</recipeUsers>
+		<processDays>0.5</processDays>
+	</RecipeDef>
+	
+	<!-- HIDES -->
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>RackSalt_PorousHide</defName>
+		<label>cure porous hides</label>
+		<description>Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_PorousHide</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+						<li>Ash</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_PorousHide</li>
+				<li>Salt</li>
+				<li>Ash</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_PorousHideCured>1</Hide_PorousHideCured>
+		</products>
+		<recipeUsers>
+			<li>TanningRack</li>
+		</recipeUsers>
+		<processDays>1</processDays>
+	</RecipeDef>
+	
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>RackSalt_ImmunogenicHide</defName>
+		<label>cure immunogenic hides</label>
+		<description>Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_ImmunogenicHide</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+						<li>Ash</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_ImmunogenicHide</li>
+				<li>Salt</li>
+				<li>Ash</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_ImmunogenicHideCured>1</Hide_ImmunogenicHideCured>
+		</products>
+		<recipeUsers>
+			<li>TanningRack</li>
+		</recipeUsers>
+		<processDays>1.2</processDays>
+	</RecipeDef>
+	
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>RackSalt_SoftHide</defName>
+		<label>cure soft hides</label>
+		<description>Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_SoftHide</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+						<li>Ash</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_SoftHide</li>
+				<li>Salt</li>
+				<li>Ash</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_SoftHideCured>1</Hide_SoftHideCured>
+		</products>
+		<recipeUsers>
+			<li>TanningRack</li>
+		</recipeUsers>
+		<processDays>1</processDays>
+	</RecipeDef>
+	
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>RackSalt_DurableHide</defName>
+		<label>cure durable hides</label>
+		<description>Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_DurableHide</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+						<li>Ash</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_DurableHide</li>
+				<li>Salt</li>
+				<li>Ash</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_DurableHideCured>1</Hide_DurableHideCured>
+		</products>
+		<recipeUsers>
+			<li>TanningRack</li>
+		</recipeUsers>
+		<processDays>1.8</processDays>
+	</RecipeDef>
+	
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>RackSalt_HeavyHide</defName>
+		<label>cure heavy hides</label>
+		<description>Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_HeavyHide</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+						<li>Ash</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_HeavyHide</li>
+				<li>Salt</li>
+				<li>Ash</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_HeavyHideCured>1</Hide_HeavyHideCured>
+		</products>
+		<recipeUsers>
+			<li>TanningRack</li>
+		</recipeUsers>
+		<processDays>2.2</processDays>
+	</RecipeDef>
+	
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>RackSalt_StockHide</defName>
+		<label>cure stock hides</label>
+		<description>Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_StockHide</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+						<li>Ash</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_StockHide</li>
+				<li>Salt</li>
+				<li>Ash</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_StockHideCured>1</Hide_StockHideCured>
+		</products>
+		<recipeUsers>
+			<li>TanningRack</li>
+		</recipeUsers>
+		<processDays>1.5</processDays>
+	</RecipeDef>
+	
+	<!-- PELT -->
+	
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>RackSalt_HeavyFurPelt</defName>
+		<label>cure heavy fur pelts</label>
+		<description>Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_HeavyFurPelt</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+						<li>Ash</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_HeavyFurPelt</li>
+				<li>Salt</li>
+				<li>Ash</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_HeavyFurPeltCured>1</Hide_HeavyFurPeltCured>
+		</products>
+		<recipeUsers>
+			<li>TanningRack</li>
+		</recipeUsers>
+		<processDays>2.2</processDays>
+	</RecipeDef>
+	
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>RackSalt_RichFurPelt</defName>
+		<label>cure rich fur pelts</label>
+		<description>Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_RichFurPelt</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+						<li>Ash</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_RichFurPelt</li>
+				<li>Salt</li>
+				<li>Ash</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_HeavyFurPeltCured>1</Hide_HeavyFurPeltCured>
+		</products>
+		<recipeUsers>
+			<li>TanningRack</li>
+		</recipeUsers>
+		<processDays>1.2</processDays>
+	</RecipeDef>
+	
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>RackSalt_RuggedFurPelt</defName>
+		<label>cure rugged fur pelts</label>
+		<description>Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_RuggedFurPelt</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+						<li>Ash</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_RuggedFurPelt</li>
+				<li>Salt</li>
+				<li>Ash</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_RuggedFurPeltCured>1</Hide_RuggedFurPeltCured>
+		</products>
+		<recipeUsers>
+			<li>TanningRack</li>
+		</recipeUsers>
+		<processDays>1.6</processDays>
+	</RecipeDef>
+	
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>RackSalt_WarmFurPelt</defName>
+		<label>cure warm fur pelts</label>
+		<description>Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_WarmFurPelt</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+						<li>Ash</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_WarmFurPelt</li>
+				<li>Salt</li>
+				<li>Ash</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_WarmFurPeltCured>1</Hide_WarmFurPeltCured>
+		</products>
+		<recipeUsers>
+			<li>TanningRack</li>
+		</recipeUsers>
+		<processDays>1.4</processDays>
+	</RecipeDef>
+	
+</Defs>

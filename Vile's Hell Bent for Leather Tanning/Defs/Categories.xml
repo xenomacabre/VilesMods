@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingCategoryDef>
+		<defName>HardLeathers</defName>
+		<label>Hard Leatherlike</label>
+		<parent>Textiles</parent>
+		<iconPath>Things/Item/Resource/ChitinScales/ChitinScales_a</iconPath>
+	</ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>CuredHides</defName>
+		<label>Cured Hides</label>
+		<parent>CTextiles</parent>
+		<iconPath>Things/Item/Resource/TanningStuff/SkinCured/A</iconPath>
+	</ThingCategoryDef>
+		<ThingCategoryDef>
+		<defName>UncuredHides</defName>
+		<label>uncured Hides</label>
+		<parent>CTextiles</parent>
+		<iconPath>Things/Item/Resource/TanningStuff/SkinRaw/A</iconPath>
+	</ThingCategoryDef>
+	
+	<StuffCategoryDef>
+		<defName>LeatheryHard</defName>
+		<label>Organic Plating</label>
+	</StuffCategoryDef>
+	
+</Defs>
+

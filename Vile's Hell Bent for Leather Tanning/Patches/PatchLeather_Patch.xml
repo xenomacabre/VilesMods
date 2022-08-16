@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			
+			<li Class="PatchOperationReplace"> <!-- mattress bed -->
+				<xpath>Defs/ThingDef[defName="Bedroll"]/costList</xpath>
+				<value>
+					<costList>
+						<ComponentMedieval>4</ComponentMedieval>
+						<Leather_Scraps>70</Leather_Scraps>
+					</costList>
+				</value>
+			</li>
+				<li Class="PatchOperationReplace"> <!-- mattress bed -->
+				<xpath>Defs/ThingDef[defName="BedrollDouble"]/costList</xpath>
+				<value>
+					<costList>
+						<ComponentMedieval>8</ComponentMedieval>
+						<Leather_Scraps>120</Leather_Scraps>
+					</costList>
+				</value>
+			</li>
+		</operations>
+		</match>
+    </Operation>	
+	
+
+	
+	
+</Patch>	

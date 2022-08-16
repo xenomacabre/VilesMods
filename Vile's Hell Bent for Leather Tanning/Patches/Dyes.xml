@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="CookPaint"]/label</xpath>
+				<value>
+					<label>make color pigments</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="CookPaint"]/description</xpath>
+				<value>
+					<description>Extract pigments from ingredients for use with dyes and paints.</description>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="PaintingSupplies"]/label</xpath>
+				<value>
+					<label>color pigments</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="PaintingSupplies"]/description</xpath>
+				<value>
+					<description>Pigments which can be mixed with a binder while producting paintings, or used for dyeing textiles.</description>
+				</value>
+			</li>
+
+
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

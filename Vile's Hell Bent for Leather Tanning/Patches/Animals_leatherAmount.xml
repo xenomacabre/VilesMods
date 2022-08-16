@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Feenix" or defName="GreenWyvern"]/statBases/LeatherAmount</xpath>
+				<value>
+					<LeatherAmount>15</LeatherAmount>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Kirin" or
+					defName="Behir"]/statBases/LeatherAmount</xpath>
+				<value>
+					<LeatherAmount>12</LeatherAmount>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="SK_AnimalThingBase"]/statBases/LeatherAmount</xpath>
+				<value>
+					<LeatherAmount>6</LeatherAmount>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="InstectoidBase" or
+					defName="Mutant_Ogre" or
+					defName="FRaptor"]/statBases/LeatherAmount</xpath>
+				<value>
+					<LeatherAmount>5</LeatherAmount>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Fishercat" or
+					defName="Human" or 
+					defName="Alien_Nova" or
+					defName="Aline_Dova" or
+					defName="Norbal" or
+					defName="Alien_Orassan" or
+					defName="SkynetCovert" or
+					defName="ChjAndroid"]/statBases/LeatherAmount</xpath>
+				<value>
+					<LeatherAmount>4</LeatherAmount>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ermine" or
+					defName="Meerkat" or
+					defName="YorkshireTerrier" or
+					defName="Goose"]/statBases/LeatherAmount</xpath>
+				<value>
+					<LeatherAmount>3</LeatherAmount>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Turkey"]/statBases/LeatherAmount</xpath>
+				<value>
+					<LeatherAmount>2</LeatherAmount>
+				</value>
+			</li>
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	
+

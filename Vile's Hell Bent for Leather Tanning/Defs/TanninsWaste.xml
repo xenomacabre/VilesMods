@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="CropsBase">
+		<defName>TreeBark</defName>
+		<label>tree bark</label>
+		<description>The tannins in this bark can be used for tanning hides into leather.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/TreeBark</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<statBases>
+			<MarketValue>0.5</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>1.5</Flammability>
+			<SellPriceFactor>0.20</SellPriceFactor>
+			<Mass>0.1</Mass>
+			<Bulk>0.1</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>PlantMatter</li>
+		</thingCategories>
+		<stackLimit>1000</stackLimit>
+	</ThingDef>
+	<!--
+	<ThingDef ParentName="CropsBase">
+		<defName>ChromeWastewater</defName>
+		<label>chrome waste</label>
+		<description>Chrome leather tanning is the second-most most dangerous industry on The Rim, just after fission-battery taste-testing. This is why.</description>
+		<graphicData>
+			<texPath>Things/Item/Waste/ChromeBarrel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<statBases>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>1.5</Flammability>
+			<Mass>0.1</Mass>
+			<Cleanliness>-100</Cleanliness>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+		  	<li>Waste</li>
+		</thingCategories>
+		<stackLimit>500</stackLimit>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(43,128,115,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_ApplyHediffAround">
+				<hediff>ToxicBuildup</hediff>
+				<radius>3</radius>
+				<severityToAdd>0.01</severityToAdd>
+			</li>
+		</comps>
+		<tradeNeverStack>false</tradeNeverStack>
+   		 <drawGUIOverlay>true</drawGUIOverlay>
+		 <tradeability>None</tradeability>
+	</ThingDef>
+	-->
+</Defs>
+

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Vile's Hell Bent for Leather Tanning</name>
+	<author>VileHeathen</author>
+	<supportedVersions><li>1.3</li></supportedVersions>
+	<packageId>vitech.leathertanning</packageId>
+	<description>
+=====================================
+VILE'S HELL BENT FOR LEATHER Tanning 
+V.0.1
+AUG.16.2022
+=====================================
+
+Hell Bent for Leather Tanning is another supplement to Vile's overhaul system which adds, uhhhh, leather tanning. 
+
+This is currently in early alpha, and I have very limited time for testing so I'm humbly relying on help for feedback and bug reports. So, um, take that as both a disclaimer and a plead. I will try to make updates daily. Thanks in advance!
+
+Some feedback I would appreciate:
+	- Missing/wrong textures (note that the leather colors will likelye change)
+	- Missing or broken recipes
+	- Balance issues with recipes and materials
+	- Elements that just don't seem "fun"
+	- Content you want to see
+	- Any other bugs or things that don't seem right
+	
+Notes for fellow modders and patchers at the end of this doc!
+
+=====================================
+QUICK GUIDE / WHAT'S NEW
+=====================================
+
+Hides and Skins: When you butcher an animal, you now get hides, skins and furs instead of leather. This makes the production chain more challenging, but it also gives you options and new materials and colors to play with. 
+
+Once you get going, you'll have a choice once you're ready to tan your hides. You can produce full-grain leathers, which uses the entire thickness, showing the true grain of the skin. It's the superior option. Because blemishes of the hide's surface must be cut off, there is wasted product in the form of strips, which can later be made into poor-quality bonded leather. Your other option is to split the hide. This will give you an unfinished "top-grain" leather where the blemishes are sanded off so you get more leather for your dollar. That's not all - you also get the split leather, or the flesh-side of the leather. This is suede. It kinda sucks but it breathes nicely and can made into "genuine leather". The top-grains leathers can also be dyed and processed into embossed finished leather, nubuck, and upholstry leather. There are also ways to produce ultra-grade leathers using products harvested from Feenix, Kirins, Thrumbos and similar animals.
+
+ROTTING AND CURING: Raw skins and hides will eventually rot unless you cure them or freeze them. There are two ways to cure hides:
+
+- Drying Rack: Small skins can be air dried, but thicker hides must be cured with salt or ash. Takes over a day.
+
+- Brining Station: Soak skins and	 hides in brine. Uses salt as fuel, and can be done quiclkly be a colonist.
+
+- Freezing: Just throw it in a freezer.
+
+LEATHER TANNING: Hides and skins must be tanned to become useable leather.
+
+- Brain Tanning: A traditional method using animal innards and smoking at a campfire. Produces only buckskin. Neolithic Tech.
+
+- Vegetable Tanning: A method that uses tannins from tree bark to tan the hide. Can take over a day.
+
+- tree bark is now produced when cutting wood.
+
+- Chrome Tanning: A method of tanning that uses chromium. Fast and done in large batches, but long exposure to the tanning drum can cause serious heath effects.
+
+=====================================
+LLEATHER GRADES (and their bet uses)
+=====================================
+FULL-GRAIN LEATHER - Premium leather. Uses the whole hide, with wasted strips leftover.
+	Breathable Leather 
+	Exotic Leather
+	Heavy Leather 
+	Durable Leather	
+	Stock Leather	
+	Light Leather
+	Soft Leather
+	Sterile Leather
+	Warm Fur
+	Rugged Fur
+	Heavy Fur
+	Fine Fur
+	
+TOP-GRAIN LEATHERS - Instead of using the full grain, the leather can be split. The top part can be processed later into more useful leathers and dyed various colors.
+	Unfinished Leather	
+	Finished Leather
+	Nubuck
+	Upholstry Leather
+	
+SPLIT LEATHERS et al - The flesh side of the split. Not as good quality as the top grain.
+	Suede 
+	Genuine Leather
+	Bonded Leather(made from leftover leather strips)
+	
+ULTRA-GRADE LEATHER - Large beasts like Feenix and Thrumbo drop resources when butchered that can be mixed with leathers to produce superior leathers.
+	Ventan Leather (compare to Feenix Leather)
+	Thermatan Leather (compare to Kirin leather)
+	Armatan Leather (best for armor)
+	Hygieiatan Leather (best for hospitals)
+	
+Hard Leather Materials: New and revised materials that can be used in place of metal in certain armor recipes and clothing.
+	Rawhide
+	Cuir Bouilli (aka boiled leather)
+	Chitin
+	Dragon Scales (from wyvern, kirin, feenix)
+
+=====================================
+MODDING / PATCHING NOTES:
+=====================================
+Hide defs are new, most leather defs are patched from existing defs. So if you add another mod which adds new pawns, you will need to change the "leatherType" to one of the new hide defs. Furthermore, you'll want to reduce the "leatherAmount" by 1/5th since tanning multiplies the ingredients by 5-ish. 
+
+</description>
+<url></url>
+</ModMetaData>
+

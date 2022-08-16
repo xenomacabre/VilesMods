@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>HMC Vile's Pre-Industrial Overhaul</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			
+			
+			<li Class="PatchOperationAdd"> <!-- KABUTO --><!-- SPANGENHELM --> <!-- HORDE HELMET -->
+				<xpath>Defs/ThingDef[defName="MedievalTimes_Helmet_Domed" or defName="MedievalArmor_NasalHelmet" or defName="Apparel_ThumperHood"]/stuffCategories</xpath>
+				<value>
+					<li>LeatheryHard</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd"> <!-- Segmentata --><!-- horde warlord lamellar --><!-- brigandine --><!-- cuirass --><!-- tatami --><!-- munition --><!-- shimmering crown -->
+				<xpath>Defs/ThingDef[defName="ViTech_GladiatorLaminar" or 
+					defName="MedievalTimes_Cloaked_Hauberk" or
+					defName="MedievalTimes_Plates_Full_Cloaked" or
+					defName="Apparello_Syndicatellorare" or
+					defName="ViTech_TatamiArmor" or	
+					defName="Apparel_PlateArmor" or
+					defName="Apparello_ohlala"]/stuffCategories</xpath>			
+				<value>
+					<li>LeatheryHard</li>
+				</value>
+			</li>
+			
+			<!-- HORDE ARCHER ARMOR - bonafide leather armor -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ViTech_HordeArcher"]/stuffCategories</xpath>
+				<value>
+					<stuffCategories>
+						<li>LeatheryHard</li>
+					</stuffCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ViTech_HordeArcher"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>4</ArmorRating_Sharp>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ViTech_HordeArcher"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>4</ArmorRating_Blunt>
+				</value>
+			</li>
+			
+			<!-- WARMASK -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Apparel_WarMask" or 
+					defName="Apparel_BronzeHelmet"]/stuffCategories</xpath>
+				<value>
+					<stuffCategories>
+						<li>LeatheryHard</li>
+					</stuffCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ViTech_HordeArcher"]/statBases/ArmorRating_Sharp</xpath>
+				<value>
+					<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ViTech_HordeArcher"]/statBases/ArmorRating_Blunt</xpath>
+				<value>
+					<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+				</value>
+			</li>
+	
+		<!-- VANBRACES, GREAVES -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MedievalTimes_Gloves_Plated" or 
+					defName="MedievalTimes_Boots_Steel_Plated"]/stuffCategories</xpath>
+				<value>
+					<stuffCategories>
+						<li>LeatheryHard</li>
+						<li>StrongMetallic</li>
+					</stuffCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MedievalTimes_Gloves_Plated" or 
+					defName="MedievalTimes_Boots_Steel_Plated"]/costList</xpath>
+				<value>
+					<costList>
+						<ComponentIndustrial>5</ComponentIndustrial>
+					</costList>
+				</value>
+			</li>
+			
+			<!-- SCUTUM SHIELD -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ShieldBone"]/costList</xpath>
+				<value>
+					<costList>
+						<Rawhide>15</Rawhide>
+					</costList>
+				</value>
+			</li>
+			<!-- HEATER SHIELD -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MedievalShield"]/costList</xpath>
+				<value>
+					<costList>
+						<BoiledLeather>25</BoiledLeather>
+					</costList>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="BuildPavise"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<categories>
+									<li>Woody</li>
+								</categories>
+							</filter>
+							<count>20</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Rawhide</li>
+									<li>BoiledLeather</li>
+								</thingDefs>
+							</filter>
+							<count>30</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			
+			<!-- LEATHER STIP STUFF -->
+			
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="ViTech_MailMitts"]/costList</xpath>
+					<value>
+						<costList>
+							<Leather_Scraps>20</Leather_Scraps>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Slag_Plate_Crude"]/costList</xpath>
+					<value>
+						<costList>
+							<BoiledLeather>40</BoiledLeather>
+							<ChunkSlagSteel>5</ChunkSlagSteel>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="ViTech_GladiatorLaminar"]/costList</xpath>
+					<value>
+						<costList>
+							<Leather_Scraps>70</Leather_Scraps>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace"> <!-- patchwork garment -->
+					<xpath>Defs/ThingDef[defName="Apparel_RagDressB"]/costList</xpath>
+					<value>
+						<costList>
+							<Leather_Scraps>70</Leather_Scraps>
+						</costList>
+					</value>
+				</li>
+				
+				
+				<li Class="PatchOperationReplace"> <!-- patchwork garment -->
+					<xpath>Defs/ThingDef[defName="Apparel_RagDressB"]/costList</xpath>
+					<value>
+						<costList>
+							<Leather_Scraps>70</Leather_Scraps>
+						</costList>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace"> <!-- galea -->
+					<xpath>Defs/ThingDef[defName="Apparello_NorbalThunder"]/costList</xpath>
+					<value>
+						<costList>
+							<Leather_Scraps>40</Leather_Scraps>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace"> <!-- horde helmet -->
+					<xpath>Defs/ThingDef[defName="Apparel_RagDressB"]/costList</xpath>
+					<value>
+						<costList>
+							<Leather_Scraps>70</Leather_Scraps>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace"> <!--great helm  -->
+					<xpath>Defs/ThingDef[defName="Apparello_NorbalWarrior"]/costList</xpath>
+					<value>
+						<costList>
+							<Leather_Scraps>40</Leather_Scraps>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace"> <!-- wire mail -->
+					<xpath>Defs/ThingDef[defName="Slag_Plate_Improved"]/costList</xpath>
+					<value>
+						<costList>
+							<Leather_Scraps>70</Leather_Scraps>
+						</costList>
+					</value>
+				</li>
+			
+			
+			
+			
+
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

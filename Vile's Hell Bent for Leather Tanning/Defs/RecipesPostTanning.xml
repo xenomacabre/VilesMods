@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>Make_Patchleather</defName>
+		<label>make bonded leather</label>
+		<description>Combine various leather scraps with a bonding material, such as rubber or polymers. The process is similar to making paper.</description>
+		<jobString>Making bonded leather.</jobString>
+		<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workAmount>500</workAmount>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>50</targetCountAdjustment>
+		<recipeUsers>
+			<li>LeatherworkerTable</li>
+			<li>TableLoom</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Leather_Scraps</li>
+					</thingDefs>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Rubber</li>
+						<li>Polymers</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Leather_Scraps</li>
+				<li>Rubber</li>
+				<li>Polymers</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Leather_Patch>30</Leather_Patch>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<researchPrerequisite>Apparel_B1</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>Make_GenuineLeather</defName>
+		<label>make genuine leather</label>
+		<description>Suede is polished, finished, and coated with a polymer to strengthen it and give it a fake leather grain. It's poor-quality leather, but still useful.</description>
+		<jobString>Making genuine leather.</jobString>
+		<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workAmount>700</workAmount>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>50</targetCountAdjustment>
+		<recipeUsers>
+			<li>LeatherworkerTable</li>
+			<li>TableLoom</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Leather_Chinchilla</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Polymers</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Leather_Chinchilla</li>
+				<li>Polymers</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Leather_Bird>30</Leather_Bird>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<researchPrerequisite>Apparel_B1</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>Make_LeatherScraps</defName>
+		<label>make leather strips</label>
+		<description>Shred leather into small strips which can be used to make bonded leather, or may be used as a building component for certain recipes.</description>
+		<jobString>Making patchleather.</jobString>
+		<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workAmount>900</workAmount>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>50</targetCountAdjustment>
+		<recipeUsers>
+			<li>LeatherworkerTable</li>
+			<li>TableLoom</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Leathers</li>
+					</categories>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Leathers</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>Leather_Patch</li>
+				<li>Leather_Human</li>
+				<li>Chitin</li>
+			</disallowedThingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Leather_Scraps>75</Leather_Scraps>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<researchPrerequisite>Apparel_A1</researchPrerequisite>
+	</RecipeDef>
+	
+</Defs>

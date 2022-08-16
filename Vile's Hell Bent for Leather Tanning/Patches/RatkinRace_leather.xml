@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>NewRatkinPlus</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="AnimalThingBase"]/statBases/LeatherAmount</xpath>
+				<value>
+					<LeatherAmount>6</LeatherAmount>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="RK_KingHamster"]/race/leatherDef</xpath>
+				<value>
+					<leatherDef>Hide_SoftHide</leatherDef>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Rotti"]/race/leatherDef</xpath>
+				<value>
+					<leatherDef>Hide_RodentSkin</leatherDef>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ratkin"]/statBases/leatherAmount</xpath>
+				<value>
+					<LeatherAmount>3</LeatherAmount>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ratkin"]/race/leatherDef</xpath>
+				<value>
+					<leatherDef>Hide_HumanSkin</leatherDef>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Feenix" or defName="GreenWyvern"]/statBases/LeatherAmount</xpath>
+				<value>
+					<LeatherAmount>15</LeatherAmount>
+				</value>
+			</li>
+			
+			
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

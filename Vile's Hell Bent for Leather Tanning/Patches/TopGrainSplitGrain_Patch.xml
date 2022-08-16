@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	
+	<Operation Class="PatchOperationAttributeAdd">
+		<xpath>Defs/ThingDef[defName="Leather_Fox"]</xpath>
+		<attribute>Name</attribute>
+		<value>LeatherBase_Finished</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAttributeAdd">
+		<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]</xpath>
+		<attribute>Name</attribute>
+		<value>LeatherBase_Nubuck</value>
+	</Operation>
+	
+	<!--<Operation Class="PatchOperationAttributeAdd">
+		<xpath>Defs/ThingDef[defName="Leather_Elephant"]</xpath>
+		<attribute>Name</attribute>
+		<value>LeatherBase_Upholstery</value>
+	</Operation>-->
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+		
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ChitinPlating"]/label</xpath>
+				<value>
+					<label>chitin weave</label>
+				</value>
+			</li>
+			
+
+			<!-- finished LEATHER brown --> 
+			
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Fox"]/label</xpath>
+				<value>
+					<label>finished leather (vintage brown)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Fox"]/description</xpath>
+				<value>
+					<description>Corrected-grain leather is leather that has the grain sanded off to hide damage and imperfections. It is the next quality under full-grain leather. Correcting allows for more product and less waste, especially if it is split, although it loses some integrity and the finished surface means poor breathability. To make it look like leather, it is dyed and embossed.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Fox"]/stuffProps/commonality</xpath>
+				<value>
+					<commonality>0.075</commonality>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Fox"]/graphicData/color</xpath>
+				<value>
+					<color>(128,87,77)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Fox"]/statBases/StuffPower_Armor_Sharp</xpath>
+				<value>
+					<StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Fox"]/statBases/StuffPower_Armor_Blunt</xpath>
+				<value>
+					<StuffPower_Armor_Blunt>0.65</StuffPower_Armor_Blunt>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Fox"]/statBases/StuffPower_Armor_Heat</xpath>
+				<value>
+					<StuffPower_Armor_Heat>0.1</StuffPower_Armor_Heat>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Fox"]/statBases/StuffPower_Insulation_Cold</xpath>
+				<value>
+					<StuffPower_Insulation_Cold>25</StuffPower_Insulation_Cold>
+				</value>
+			</li>
+				<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Fox"]/statBases/StuffPower_Insulation_Heat</xpath>
+				<value>
+					<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Fox"]/stuffProps/color</xpath>
+				<value>
+					<color>(128,87,77)</color>
+				</value>
+			</li>
+				<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Leather_Fox"]/stuffProps</xpath>
+						<value>
+							<stuffAdjective>leather</stuffAdjective>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Fox"]/stuffProps/statFactors/MaxHitPoints</xpath>
+						<value>
+							<MaxHitPoints>1.1</MaxHitPoints>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Fox"]/stuffProps/statFactors/Beauty</xpath>
+						<value>
+							<Beauty>1.25</Beauty>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Fox"]/stuffProps/statFactors/MarketValue</xpath>
+						<value>
+							<MarketValue>0.8</MarketValue>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Fox"]/stuffProps/statFactors/BedRestEffectiveness</xpath>
+						<value>
+							<BedRestEffectiveness>0.75</BedRestEffectiveness>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Fox"]/stuffProps/statFactors/ImmunityGainSpeedFactor</xpath>
+						<value>
+							<ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Fox"]/stuffProps/statFactors/WorkToMake</xpath>
+						<value>
+							<WorkToMake>1</WorkToMake>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Fox"]/stuffProps/statFactors/WorkToBuild</xpath>
+						<value>
+							<WorkToBuild>1</WorkToBuild>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Leather_Fox"]/stuffProps/statFactors/Mass</xpath>
+						<value>
+							<Mass>0.5</Mass>
+						</value>
+					</li>
+			
+			<!-- NUBUCK LEATHER --> 
+		
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/label</xpath>
+				<value>
+					<label>nubuck (chestnut)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/description</xpath>
+				<value>
+					<description>Nubuck is a top-grain leather where the surface grain is sanded off. Unlike other corrected-grain leathers, nubuck is left with a smooth, sanded surface, though it may be dyed. The surface is similar to suede, though smoother, stronger, and indesputibly of higher quality. Because the surface is not embossed or coated, the leather breathes exceptionably well.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/stuffProps/commonality</xpath>
+				<value>
+					<commonality>0.05</commonality>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/graphicData/color</xpath>
+				<value>
+					<color>(199,91,58)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/statBases/StuffPower_Armor_Sharp</xpath>
+				<value>
+					<StuffPower_Armor_Sharp>0.75</StuffPower_Armor_Sharp>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/statBases/StuffPower_Armor_Blunt</xpath>
+				<value>
+					<StuffPower_Armor_Blunt>0.65</StuffPower_Armor_Blunt>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/statBases/StuffPower_Armor_Heat</xpath>
+				<value>
+					<StuffPower_Armor_Heat>0.1</StuffPower_Armor_Heat>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/statBases/StuffPower_Insulation_Cold</xpath>
+				<value>
+					<StuffPower_Insulation_Cold>17</StuffPower_Insulation_Cold>
+				</value>
+			</li>
+				<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/statBases/StuffPower_Insulation_Heat</xpath>
+				<value>
+					<StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/stuffProps/color</xpath>
+				<value>
+					<color>(199,91,58)</color>
+				</value>
+			</li>
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/stuffProps</xpath>
+						<value>
+							<stuffAdjective>nubuck</stuffAdjective>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/stuffProps/statFactors/MaxHitPoints</xpath>
+						<value>
+							<MaxHitPoints>1.1</MaxHitPoints>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/stuffProps/statFactors/Beauty</xpath>
+						<value>
+							<Beauty>3</Beauty>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/stuffProps/statFactors/MarketValue</xpath>
+						<value>
+							<MarketValue>0.8</MarketValue>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/stuffProps/statFactors/BedRestEffectiveness</xpath>
+						<value>
+							<BedRestEffectiveness>1.15</BedRestEffectiveness>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/stuffProps/statFactors/ImmunityGainSpeedFactor</xpath>
+						<value>
+							<ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/stuffProps/statFactors/WorkToMake</xpath>
+						<value>
+							<WorkToMake>1.2</WorkToMake>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/stuffProps/statFactors/WorkToBuild</xpath>
+						<value>
+							<WorkToBuild>1.2</WorkToBuild>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/stuffProps/statFactors/Mass</xpath>
+						<value>
+							<Mass>0.5</Mass>
+						</value>
+					</li>
+			
+			<!-- UPHOLSTRY LEATHER  
+			
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/label</xpath>
+				<value>
+					<label>upholstery leather (brown)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/description</xpath>
+				<value>
+					<description>Upholstry leather is made from top-grain leather where the top is sanded off and treated, dyed, and embossed to have a consistent texture. It's an economical way to process hides, and is attractive and makes fairly comfortable furniture. It breathes terribly when used for clothing, however.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/stuffProps/commonality</xpath>
+				<value>
+					<commonality>0.0025</commonality>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/graphicData/color</xpath>
+				<value>
+					<color>(188,124,68)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/statBases/StuffPower_Armor_Sharp</xpath>
+				<value>
+					<StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/statBases/StuffPower_Armor_Blunt</xpath>
+				<value>
+					<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/statBases/StuffPower_Armor_Heat</xpath>
+				<value>
+					<StuffPower_Armor_Heat>0.1</StuffPower_Armor_Heat>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/statBases/StuffPower_Insulation_Cold</xpath>
+				<value>
+					<StuffPower_Insulation_Cold>25</StuffPower_Insulation_Cold>
+				</value>
+			</li>
+				<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/statBases/StuffPower_Insulation_Heat</xpath>
+				<value>
+					<StuffPower_Insulation_Heat>-20</StuffPower_Insulation_Heat>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/stuffProps/color</xpath>
+				<value>
+					<color>(188,124,68)</color>
+				</value>
+			</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/stuffProps/statFactors/MaxHitPoints</xpath>
+						<value>
+							<MaxHitPoints>1.2</MaxHitPoints>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/stuffProps/statFactors/Beauty</xpath>
+						<value>
+							<Beauty>1.25</Beauty>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/stuffProps/statFactors/MarketValue</xpath>
+						<value>
+							<MarketValue>0.8</MarketValue>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/stuffProps/statFactors/BedRestEffectiveness</xpath>
+						<value>
+							<BedRestEffectiveness>1.1</BedRestEffectiveness>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/stuffProps/statFactors/ImmunityGainSpeedFactor</xpath>
+						<value>
+							<ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/stuffProps/statFactors/WorkToMake</xpath>
+						<value>
+							<WorkToMake>1.5</WorkToMake>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/stuffProps/statFactors/WorkToBuild</xpath>
+						<value>
+							<WorkToBuild>1</WorkToBuild>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/stuffProps/statFactors/Mass</xpath>
+						<value>
+							<Mass>0.7</Mass>
+						</value>
+					</li>
+			-->
+			<!-- SUEDE --> 
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Chinchilla"]/label</xpath>
+				<value>
+					<label>suede</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Chinchilla"]/description</xpath>
+				<value>
+					<description>When a hide is split during the tanning process, the cheaper, inner flesh side of the split, if uncoated, it suede. Suede breathes incredibly well since it doesn't contain the strong, thick part of the hide, and it can be quite fashionable, however, it tears easily and offers very little protection.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Chinchilla"]/stuffProps/commonality</xpath>
+				<value>
+					<commonality>0.075</commonality>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Chinchilla"]/graphicData/color</xpath>
+				<value>
+					<color>(170,128,90)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Chinchilla"]/statBases/StuffPower_Armor_Sharp</xpath>
+				<value>
+					<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Chinchilla"]/statBases/StuffPower_Armor_Blunt</xpath>
+				<value>
+					<StuffPower_Armor_Blunt>0.8</StuffPower_Armor_Blunt>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Chinchilla"]/statBases/StuffPower_Armor_Heat</xpath>
+				<value>
+					<StuffPower_Armor_Heat>0.08</StuffPower_Armor_Heat>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Chinchilla"]/statBases/StuffPower_Insulation_Cold</xpath>
+				<value>
+					<StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+				</value>
+			</li>
+				<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Chinchilla"]/statBases/StuffPower_Insulation_Heat</xpath>
+				<value>
+					<StuffPower_Insulation_Heat>25</StuffPower_Insulation_Heat>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Chinchilla"]/stuffProps/color</xpath>
+				<value>
+					<color>(170,128,90)</color>
+				</value>
+			</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Chinchilla"]/stuffProps/statFactors/MaxHitPoints</xpath>
+						<value>
+							<MaxHitPoints>0.85</MaxHitPoints>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Chinchilla"]/stuffProps/statFactors/Beauty</xpath>
+						<value>
+							<Beauty>2</Beauty>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Chinchilla"]/stuffProps/statFactors/MarketValue</xpath>
+						<value>
+							<MarketValue>0.7</MarketValue>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Chinchilla"]/stuffProps/statFactors/BedRestEffectiveness</xpath>
+						<value>
+							<BedRestEffectiveness>1</BedRestEffectiveness>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Chinchilla"]/stuffProps/statFactors/ImmunityGainSpeedFactor</xpath>
+						<value>
+							<ImmunityGainSpeedFactor>0.8</ImmunityGainSpeedFactor>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Chinchilla"]/stuffProps/statFactors/WorkToMake</xpath>
+						<value>
+							<WorkToMake>1.5</WorkToMake>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Chinchilla"]/stuffProps/statFactors/WorkToBuild</xpath>
+						<value>
+							<WorkToBuild>1.5</WorkToBuild>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Leather_Chinchilla"]/stuffProps/statFactors/Mass</xpath>
+						<value>
+							<Mass>0.45</Mass>
+						</value>
+					</li>
+			
+			<!-- GENUINE LEATHER --> 
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Bird"]/label</xpath>
+				<value>
+					<label>genuine leather</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Bird"]/description</xpath>
+				<value>
+					<description>Don't let the name fool you - the "genuine" means that it's not not leather. I.e. it's technically leather. Hooray. It's what you get when you take leftovers after splitting top-grain (suede), dying it, and pressing a pattern on it to seal it and make it look like leather grain. It's stronger and warmer than suede, but bested by all other types of leather, except bonded leather. It's highly economical, but still useful for clothing and furniture.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Bird"]/stuffProps/commonality</xpath>
+				<value>
+					<commonality>0.15</commonality>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Bird"]/graphicData/color</xpath>
+				<value>
+					<color>(115,57,0)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Bird"]/statBases/StuffPower_Armor_Sharp</xpath>
+				<value>
+					<StuffPower_Armor_Sharp>0.7</StuffPower_Armor_Sharp>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Bird"]/statBases/StuffPower_Armor_Blunt</xpath>
+				<value>
+					<StuffPower_Armor_Blunt>0.85</StuffPower_Armor_Blunt>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Bird"]/statBases/StuffPower_Armor_Heat</xpath>
+				<value>
+					<StuffPower_Armor_Heat>0.09</StuffPower_Armor_Heat>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Bird"]/statBases/StuffPower_Insulation_Cold</xpath>
+				<value>
+					<StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+				</value>
+			</li>
+				<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Bird"]/statBases/StuffPower_Insulation_Heat</xpath>
+				<value>
+					<StuffPower_Insulation_Heat>-10</StuffPower_Insulation_Heat>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Bird"]/stuffProps/color</xpath>
+				<value>
+					<color>(115,57,0)</color>
+				</value>
+			</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Bird"]/stuffProps/statFactors/MaxHitPoints</xpath>
+						<value>
+							<MaxHitPoints>1</MaxHitPoints>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Bird"]/stuffProps/statFactors/Beauty</xpath>
+						<value>
+							<Beauty>0.8</Beauty>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Bird"]/stuffProps/statFactors/MarketValue</xpath>
+						<value>
+							<MarketValue>0.75</MarketValue>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Bird"]/stuffProps/statFactors/BedRestEffectiveness</xpath>
+						<value>
+							<BedRestEffectiveness>0.8</BedRestEffectiveness>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Bird"]/stuffProps/statFactors/ImmunityGainSpeedFactor</xpath>
+						<value>
+							<ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Bird"]/stuffProps/statFactors/WorkToMake</xpath>
+						<value>
+							<WorkToMake>1.5</WorkToMake>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Bird"]/stuffProps/statFactors/WorkToBuild</xpath>
+						<value>
+							<WorkToBuild>1.5</WorkToBuild>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Leather_Bird"]/stuffProps/statFactors/Mass</xpath>
+						<value>
+							<Mass>0.5</Mass>
+						</value>
+					</li>
+			
+			<!-- BONDED LEATHER --> 
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Patch"]/label</xpath>
+				<value>
+					<label>bonded leather</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Patch"]/description</xpath>
+				<value>
+					<description>Bonded leather is made by combining leftover scraps of leather. It holds together slightly better than suede, but it is inferior in every other aspect.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Patch"]/stuffProps/commonality</xpath>
+				<value>
+					<commonality>0.075</commonality>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Patch"]/graphicData/color</xpath>
+				<value>
+					<color>(88,67,43)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Patch"]/statBases/StuffPower_Armor_Sharp</xpath>
+				<value>
+					<StuffPower_Armor_Sharp>0.7</StuffPower_Armor_Sharp>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Patch"]/statBases/StuffPower_Armor_Blunt</xpath>
+				<value>
+					<StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Patch"]/statBases/StuffPower_Armor_Heat</xpath>
+				<value>
+					<StuffPower_Armor_Heat>0.08</StuffPower_Armor_Heat>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Patch"]/statBases/StuffPower_Insulation_Cold</xpath>
+				<value>
+					<StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+				</value>
+			</li>
+				<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Patch"]/statBases/StuffPower_Insulation_Heat</xpath>
+				<value>
+					<StuffPower_Insulation_Heat>-10</StuffPower_Insulation_Heat>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Patch"]/stuffProps/color</xpath>
+				<value>
+					<color>(88,67,43)</color>
+				</value>
+			</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Patch"]/stuffProps/statFactors/MaxHitPoints</xpath>
+						<value>
+							<MaxHitPoints>0.95</MaxHitPoints>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Patch"]/stuffProps/statFactors/Beauty</xpath>
+						<value>
+							<Beauty>0.6</Beauty>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Patch"]/stuffProps/statFactors/MarketValue</xpath>
+						<value>
+							<MarketValue>0.65</MarketValue>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Patch"]/stuffProps/statFactors/BedRestEffectiveness</xpath>
+						<value>
+							<BedRestEffectiveness>0.7</BedRestEffectiveness>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Patch"]/stuffProps/statFactors/ImmunityGainSpeedFactor</xpath>
+						<value>
+							<ImmunityGainSpeedFactor>0.9</ImmunityGainSpeedFactor>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Patch"]/stuffProps/statFactors/WorkToMake</xpath>
+						<value>
+							<WorkToMake>1.5</WorkToMake>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/ThingDef[defName="Leather_Patch"]/stuffProps/statFactors/WorkToBuild</xpath>
+						<value>
+							<WorkToBuild>0.7</WorkToBuild>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Leather_Patch"]/stuffProps/statFactors/Mass</xpath>
+						<value>
+							<Mass>0.65</Mass>
+						</value>
+					</li>
+
+
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

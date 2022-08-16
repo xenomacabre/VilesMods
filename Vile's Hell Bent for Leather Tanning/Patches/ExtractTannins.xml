@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="MakeWoodPlanks_Hand"]/products</xpath>
+				<value>
+					<TreeBark>10</TreeBark>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="MakeWoodPlanks_Electric"]/products</xpath>
+				<value>
+					<TreeBark>20</TreeBark>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="MakeRedWoodPlanks_Hand"]/products</xpath>
+				<value>
+					<TreeBark>10</TreeBark>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="MakeRedWoodPlanks_Electric"]/products</xpath>
+				<value>
+					<TreeBark>20</TreeBark>
+				</value>
+			</li>
+		</operations>
+		</match>
+    </Operation>	
+	
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Wood You Please</li>
+	</mods>
+	<nomatch Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="MakeKindling_Hand"]/products</xpath>
+				<value>
+					<TreeBark>10</TreeBark>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="MakeKindling_Electric"]/products</xpath>
+				<value>
+					<TreeBark>20</TreeBark>
+				</value>
+			</li>
+		</operations>
+		</nomatch>
+    </Operation>	
+	
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Wood You Please</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="SawPlanks_Pine"]/products</xpath>
+				<value>
+					<TreeBark>10</TreeBark>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="MillPlanks_Pine"]/products</xpath>
+				<value>
+					<TreeBark>20</TreeBark>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="SawPlanks_Willow"]/products</xpath>
+				<value>
+					<TreeBark>10</TreeBark>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="MillPlanks_Willow"]/products</xpath>
+				<value>
+					<TreeBark>20</TreeBark>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="SawPlanks_Cypress"]/products</xpath>
+				<value>
+					<TreeBark>10</TreeBark>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="MillPlanks_Cypress"]/products</xpath>
+				<value>
+					<TreeBark>20</TreeBark>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="SawPlanks_Poplar"]/products</xpath>
+				<value>
+					<TreeBark>10</TreeBark>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="MillPlanks_Poplar"]/products</xpath>
+				<value>
+					<TreeBark>20</TreeBark>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="SawPlanks_Maple"]/products</xpath>
+				<value>
+					<TreeBark>10</TreeBark>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="MillPlanks_Maple"]/products</xpath>
+				<value>
+					<TreeBark>20</TreeBark>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="SawPlanks_Teak"]/products</xpath>
+				<value>
+					<TreeBark>10</TreeBark>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="MillPlanks_Teak"]/products</xpath>
+				<value>
+					<TreeBark>20</TreeBark>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="SawPlanks_Drago"]/products</xpath>
+				<value>
+					<TreeBark>10</TreeBark>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="MillPlanks_Drago"]/products</xpath>
+				<value>
+					<TreeBark>20</TreeBark>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="SawPlanks_Birch"]/products</xpath>
+				<value>
+					<TreeBark>10</TreeBark>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="MillPlanks_Birch"]/products</xpath>
+				<value>
+					<TreeBark>20</TreeBark>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="SawPlanks_Oak"]/products</xpath>
+				<value>
+					<TreeBark>10</TreeBark>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="MillPlanks_Oak"]/products</xpath>
+				<value>
+					<TreeBark>20</TreeBark>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="SawPlanks_Acacia"]/products</xpath>
+				<value>
+					<TreeBark>10</TreeBark>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="MillPlanks_Acacia"]/products</xpath>
+				<value>
+					<TreeBark>20</TreeBark>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="SawPlanks_Mangrove"]/products</xpath>
+				<value>
+					<TreeBark>10</TreeBark>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="MillPlanks_Mangrove"]/products</xpath>
+				<value>
+					<TreeBark>20</TreeBark>
+				</value>
+			</li>
+		</operations>
+		</match>
+    </Operation>	
+	
+</Patch>	
