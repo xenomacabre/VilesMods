@@ -99,7 +99,7 @@
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_KirinHide"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
-							<MaxHitPoints>2.1</MaxHitPoints>
+							<MaxHitPoints>2.25</MaxHitPoints>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">
@@ -189,7 +189,7 @@
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_FireDragonskin"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
-							<MaxHitPoints>2.1</MaxHitPoints>
+							<MaxHitPoints>2.2</MaxHitPoints>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">
@@ -271,7 +271,7 @@
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Thrumbo"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
-							<MaxHitPoints>2.25</MaxHitPoints>
+							<MaxHitPoints>2.4</MaxHitPoints>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">
@@ -353,7 +353,7 @@
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_FeatheredRaptorLeather"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
-							<MaxHitPoints>2.1</MaxHitPoints>
+							<MaxHitPoints>2.2</MaxHitPoints>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">

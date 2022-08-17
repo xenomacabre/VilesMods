@@ -4,15 +4,15 @@
 	<ThingDef Name="LeatherBase_Upholstery" ParentName="SK_LeatherBase">
 		<defName>Leather_UpholsteryBrown</defName>
 		<label>upholstery leather (brown)</label>
-		<description>This is top-grain leather, fresh after being split. It is not embossed or finished, so it still breathes well, but it's ugly and unprotected.</description>
+		<description>Corrected-grain leather that is finished and embossed. It's attractive, sturdy, and somewhat comfortable, and great for furniture of all types, but makes for terrible clothing.</description>
 		<graphicData>
 			<color>(118,124,168)</color>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<MarketValue>3</MarketValue>
-			<StuffPower_Armor_Sharp>0.85</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.8</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Heat>0.1</StuffPower_Armor_Heat>
 			<StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>25</StuffPower_Insulation_Heat>
@@ -24,15 +24,15 @@
 			<commonality>0.0025</commonality>
 			<stuffAdjective>upholstery leather</stuffAdjective>
 			<statFactors>
-				<MaxHitPoints>0.95</MaxHitPoints>
-				<Beauty>0.7</Beauty>
+				<MaxHitPoints>1.5</MaxHitPoints>
+				<Beauty>3</Beauty>
 				<MoveSpeed>1</MoveSpeed>
-				<MarketValue>0.75</MarketValue>
+				<MarketValue>0.8</MarketValue>
 				<WorkToMake>1</WorkToMake>
 				<WorkToBuild>1.5</WorkToBuild>
-				<BedRestEffectiveness>0.85</BedRestEffectiveness>
-				<ImmunityGainSpeedFactor>0.95</ImmunityGainSpeedFactor>
-				<Mass>0.55</Mass>
+				<BedRestEffectiveness>1.1</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>
+				<Mass>0.7</Mass>
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
@@ -123,13 +123,13 @@
 			<color>(255,228,210)</color>
 			<commonality>0.075</commonality>
 			<statFactors>
-				<MaxHitPoints>0.95</MaxHitPoints>
+				<MaxHitPoints>1</MaxHitPoints>
 				<Beauty>0.7</Beauty>
 				<MoveSpeed>1</MoveSpeed>
 				<MarketValue>0.75</MarketValue>
 				<WorkToMake>1</WorkToMake>
-				<WorkToBuild>1.5</WorkToBuild>
-				<BedRestEffectiveness>0.85</BedRestEffectiveness>
+				<WorkToBuild>1</WorkToBuild>
+				<BedRestEffectiveness>1</BedRestEffectiveness>
 				<ImmunityGainSpeedFactor>0.95</ImmunityGainSpeedFactor>
 				<Mass>0.55</Mass>
 			</statFactors>

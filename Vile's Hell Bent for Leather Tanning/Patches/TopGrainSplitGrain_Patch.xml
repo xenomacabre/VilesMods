@@ -108,7 +108,7 @@
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Fox"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
-							<MaxHitPoints>1.1</MaxHitPoints>
+							<MaxHitPoints>1.2</MaxHitPoints>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">
@@ -227,7 +227,7 @@
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
-							<MaxHitPoints>1.1</MaxHitPoints>
+							<MaxHitPoints>1.2</MaxHitPoints>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">
@@ -562,7 +562,7 @@
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Bird"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
-							<MaxHitPoints>1</MaxHitPoints>
+							<MaxHitPoints>0.95</MaxHitPoints>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">
@@ -673,7 +673,7 @@
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Patch"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
-							<MaxHitPoints>0.95</MaxHitPoints>
+							<MaxHitPoints>0.9</MaxHitPoints>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">
