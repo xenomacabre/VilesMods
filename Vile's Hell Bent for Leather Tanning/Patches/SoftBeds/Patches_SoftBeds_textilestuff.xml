@@ -105,7 +105,7 @@
 			<li Class="PatchOperationReplace"> <!-- Fine fur -->
 				<xpath>Defs/ThingDef[defName="Leather_Panthera"]/statBases/Bed_Immunity_Stuff</xpath>
 				<value><!-- IGSF 1.1 -->
-					<Bed_Immunity_Stuff>0..48</Bed_Immunity_Stuff>
+					<Bed_Immunity_Stuff>0.48</Bed_Immunity_Stuff>
 				</value> 
 			</li><li Class="PatchOperationReplace"> <!-- Fine fur -->
 				<xpath>Defs/ThingDef[defName="Leather_Panthera"]/statBases/Bedding_Beauty_Stuff</xpath>

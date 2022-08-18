@@ -2,63 +2,123 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 	<mods>
-		<li>Core SK</li>
+		<li>Wood You Please</li>
 	</mods>
-	<match Class="PatchOperationSequence">
+	<nomatch Class="PatchOperationSequence">
 	<success>Always</success>
 		<operations>
 			
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/RecipeDef[defName="MakeWoodPlanks_Hand"]/products</xpath>
+				<xpath>Defs</xpath>
 				<value>
-					<TreeBark>10</TreeBark>
+					<RecipeDef>
+						<defName>ExtractTreeBark_Hand</defName>
+						<label>extract bark for tannins</label>
+						<description>Remove tree bark to be used for tannins. The rest is kindling, though much is wasted.</description>
+						<jobString>Removing tree bark.</jobString>
+						<workAmount>900</workAmount>
+						<workSpeedStat>SmithingSpeed</workSpeedStat>
+						<effectWorking>MakeWoodPlanks_Hand</effectWorking>
+						<soundWorking>Sawing_Wood_Sound</soundWorking>
+						<ingredients>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>WoodLog</li>
+										<li>RedWoodLog</li>
+									</thingDefs>
+								</filter>
+								<count>10</count>
+							</li>
+						</ingredients>
+						<fixedIngredientFilter>
+							<thingDefs>
+								<li>WoodLog</li>
+								<li>RedWoodLog</li>
+							</thingDefs>
+						</fixedIngredientFilter>
+						<products>
+							<TreeBark>20</TreeBark>
+							<Kindling>5</Kindling>
+						</products>
+						<skillRequirements>
+							<Crafting>2</Crafting>
+						</skillRequirements>
+						<workSkill>Crafting</workSkill>
+						<workSkillLearnFactor>0.8</workSkillLearnFactor>
+						<recipeUsers>
+							<li>TableSawmillHand</li>
+							<li>TableSawmillElectric</li>
+						</recipeUsers>
+					</RecipeDef>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/RecipeDef[defName="MakeWoodPlanks_Electric"]/products</xpath>
-				<value>
-					<TreeBark>20</TreeBark>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/RecipeDef[defName="MakeRedWoodPlanks_Hand"]/products</xpath>
-				<value>
-					<TreeBark>10</TreeBark>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/RecipeDef[defName="MakeRedWoodPlanks_Electric"]/products</xpath>
-				<value>
-					<TreeBark>20</TreeBark>
-				</value>
-			</li>
+			
 		</operations>
-		</match>
+		</nomatch>
     </Operation>	
 	
 	<Operation Class="PatchOperationFindMod">
 	<mods>
 		<li>Wood You Please</li>
 	</mods>
-	<nomatch Class="PatchOperationSequence">
+	<match Class="PatchOperationSequence">
 	<success>Always</success>
 		<operations>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/RecipeDef[defName="MakeKindling_Hand"]/products</xpath>
+				<xpath>Defs</xpath>
 				<value>
-					<TreeBark>10</TreeBark>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/RecipeDef[defName="MakeKindling_Electric"]/products</xpath>
-				<value>
-					<TreeBark>20</TreeBark>
+					<RecipeDef>
+						<defName>ExtractTreeBark_Hand</defName>
+						<label>extract bark for tannins</label>
+						<description>Remove tree bark to be used for tannins. The rest is kindling, though much is wasted.</description>
+						<jobString>Removing tree bark.</jobString>
+						<workAmount>900</workAmount>
+						<workSpeedStat>SmithingSpeed</workSpeedStat>
+						<effectWorking>MakeWoodPlanks_Hand</effectWorking>
+						<soundWorking>Sawing_Wood_Sound</soundWorking>
+						<ingredients>
+							<li>
+								<filter>
+									<categories>
+										<li>Ultrahardwoods</li>
+										<li>Hardwoods</li>
+										<li>Softwoods</li>
+									</categories>
+								</filter>
+								<count>2</count>
+							</li>
+						</ingredients>
+						<fixedIngredientFilter>
+							<categories>
+								<li>Ultrahardwoods</li>
+								<li>Hardwoods</li>
+								<li>Softwoods</li>
+							</categories>
+						</fixedIngredientFilter>
+						<products>
+							<TreeBark>20</TreeBark>
+							<Kindling>5</Kindling>
+							<WoodLog>5</WoodLog>
+						</products>
+						<skillRequirements>
+							<Crafting>2</Crafting>
+						</skillRequirements>
+						<workSkill>Crafting</workSkill>
+						<workSkillLearnFactor>0.8</workSkillLearnFactor>
+						<recipeUsers>
+							<li>TableSawmillHand</li>
+							<li>TableSawmillElectric</li>
+						</recipeUsers>
+					</RecipeDef>
 				</value>
 			</li>
 		</operations>
-		</nomatch>
+		</match>
     </Operation>	
 	
+	
+	<!--
 	<Operation Class="PatchOperationFindMod">
 	<mods>
 		<li>Wood You Please</li>
@@ -212,5 +272,5 @@
 		</operations>
 		</match>
     </Operation>	
-	
+	-->
 </Patch>	

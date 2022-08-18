@@ -164,22 +164,23 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Muffalo" 
 				or defName="Alphabeaver" 
+				or defName="Husky"
+				or defName="Lynx"
 				or @Name="SK_ThingFoxBase" 
+				or defName="SnowLeopard"
+				or defName="Snowhare"
 				or defName="Raccoon"]/race/leatherDef</xpath>
 				<value>
 					<leatherDef>Hide_WarmFurPelt</leatherDef>
 				</value>
-			</li>
+			</li><!--
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="Husky"
-				or defName="Snowhare"
-				or defName="Lynx"
-				or defName="SnowLeopard"]/race</xpath>
+				<xpath>Defs/ThingDef[defName="Snowhare"]/race</xpath>
 				<value>
 					<leatherDef>Hide_WarmFurPelt</leatherDef>
 				</value>
 			</li>
-			
+		-->	
 		
 		</operations>
 		</match>

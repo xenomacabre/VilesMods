@@ -14,7 +14,7 @@
 						<li>CuredHides</li>	
 					</categories>
 				</filter>
-				<count>5</count>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -24,7 +24,7 @@
 					</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Leather_Dog>25</Leather_Dog>
+			<Leather_Dog>10</Leather_Dog>
 		</products>
 		<recipeUsers>
 			<li>Campfire</li>
@@ -32,7 +32,7 @@
 		</recipeUsers>
 		<workSpeedStat>TailoringSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
-		<workAmount>1200</workAmount>
+		<workAmount>800</workAmount>
 	</RecipeDef>
 	
 </Defs>

@@ -58,6 +58,20 @@
 			</visualSizeRange>
 		</value>
     </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreeMaple"]/graphicData/texPath</xpath>
+		<value>
+			<texPath>Things/Trees/TreeMapleVile</texPath>
+		</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreeMaple"]/plant/leaflessGraphicPath</xpath>
+		<value>
+			<leaflessGraphicPath>Things/Trees/TreeMapleVile_Leafless</leaflessGraphicPath>
+		</value>
+    </Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Plant_TreeMaple"]/graphicData</xpath>
 		<value>
