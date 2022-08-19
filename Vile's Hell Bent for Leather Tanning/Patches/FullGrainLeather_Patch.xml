@@ -69,6 +69,13 @@
 			</li>
 			
 			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/statBases/MarketValue</xpath>
+				<value>
+					<MarketValue>7</MarketValue>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/stuffProps/color</xpath>
 				<value>
 					<color>(161,104,91)</color>
@@ -177,6 +184,12 @@
 				<xpath>Defs/ThingDef[defName="Leather_Boomanimal"]/statBases/StuffPower_Insulation_Heat</xpath>
 				<value>
 					<StuffPower_Insulation_Heat>30</StuffPower_Insulation_Heat>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Boomanimal"]/statBases/MarketValue</xpath>
+				<value>
+					<MarketValue>7</MarketValue>
 				</value>
 			</li>
 			
@@ -292,6 +305,13 @@
 			</li>
 			
 			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Lizard"]/statBases/MarketValue</xpath>
+				<value>
+					<MarketValue>10</MarketValue>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Lizard"]/stuffProps/color</xpath>
 				<value>
 					<color>(105,204,104)</color>
@@ -399,6 +419,13 @@
 				<xpath>Defs/ThingDef[defName="Leather_Elephant"]/statBases/StuffPower_Insulation_Heat</xpath>
 				<value>
 					<StuffPower_Insulation_Heat>5</StuffPower_Insulation_Heat>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Elephant"]/statBases/MarketValue</xpath>
+				<value>
+					<MarketValue>9</MarketValue>
 				</value>
 			</li>
 			
@@ -513,6 +540,14 @@
 					<StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
 				</value>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Plain"]/statBases/MarketValue</xpath>
+				<value>
+					<MarketValue>5</MarketValue>
+				</value>
+			</li>
+			
+			
 			
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Plain"]/stuffProps/color</xpath>
@@ -625,6 +660,14 @@
 				</value>
 			</li>
 			
+					<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Light"]/statBases/MarketValue</xpath>
+				<value>
+					<MarketValue>3</MarketValue>
+				</value>
+			</li>
+			
+			
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Light"]/stuffProps/color</xpath>
 				<value>
@@ -733,6 +776,12 @@
 				<xpath>Defs/ThingDef[defName="Leather_Pig"]/statBases/StuffPower_Insulation_Heat</xpath>
 				<value>
 					<StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Pig"]/statBases/MarketValue</xpath>
+				<value>
+					<MarketValue>5</MarketValue>
 				</value>
 			</li>
 			
@@ -848,6 +897,13 @@
 			</li>
 			
 			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Nightling"]/statBases/MarketValue</xpath>
+				<value>
+					<MarketValue>7</MarketValue>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Nightling"]/stuffProps/color</xpath>
 				<value>
 					<color>(204,237,218)</color>
@@ -957,11 +1013,17 @@
 					<StuffPower_Insulation_Heat>15</StuffPower_Insulation_Heat>
 				</value>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Dog"]/statBases/MarketValue</xpath>
+				<value>
+					<MarketValue>2</MarketValue>
+				</value>
+			</li>
 			
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Dog"]/stuffProps/color</xpath>
 				<value>
-					<color>(176,166,138)</color>
+					<color>(255,175,57)</color>
 				</value>
 			</li>
 					<li Class="PatchOperationReplace">
@@ -1021,7 +1083,7 @@
 				</value>
 			</li>
 				<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Leather_Dog"]/stuffProps/color</xpath>
+				<xpath>Defs/ThingDef[defName="Leather_Human"]/stuffProps/color</xpath>
 				<value>
 					<color>(174,51,6)</color>
 				</value>

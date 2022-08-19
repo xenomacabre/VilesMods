@@ -94,6 +94,13 @@
 			</li>
 			
 			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Fox"]/statBases/MarketValue</xpath>
+				<value>
+					<MarketValue>4</MarketValue>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Fox"]/stuffProps/color</xpath>
 				<value>
 					<color>(128,87,77)</color>
@@ -209,6 +216,13 @@
 				<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/statBases/StuffPower_Insulation_Heat</xpath>
 				<value>
 					<StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/statBases/MarketValue</xpath>
+				<value>
+					<MarketValue>4</MarketValue>
 				</value>
 			</li>
 			
@@ -443,6 +457,13 @@
 			</li>
 			
 			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Chinchilla"]/statBases/MarketValue</xpath>
+				<value>
+					<MarketValue>1.8</MarketValue>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Chinchilla"]/stuffProps/color</xpath>
 				<value>
 					<color>(170,128,90)</color>
@@ -554,6 +575,13 @@
 			</li>
 			
 			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Bird"]/statBases/MarketValue</xpath>
+				<value>
+					<MarketValue>2.2</MarketValue>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Bird"]/stuffProps/color</xpath>
 				<value>
 					<color>(115,57,0)</color>
@@ -661,6 +689,13 @@
 				<xpath>Defs/ThingDef[defName="Leather_Patch"]/statBases/StuffPower_Insulation_Heat</xpath>
 				<value>
 					<StuffPower_Insulation_Heat>-10</StuffPower_Insulation_Heat>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Patch"]/statBases/MarketValue</xpath>
+				<value>
+					<MarketValue>1.7</MarketValue>
 				</value>
 			</li>
 			

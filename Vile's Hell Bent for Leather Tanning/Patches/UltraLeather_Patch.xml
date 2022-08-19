@@ -39,6 +39,12 @@
 					<WorkToBuild>2.4</WorkToBuild>
 				</value>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_KirinHide" or defName="Leather_FireDragonskin" or defName="Leather_Thrumbo" or defName="Leather_FeatheredRaptorLeather"]/stuffProps/statFactors/MarketValue</xpath>
+				<value>
+					<MarketValue>12.5</MarketValue>
+				</value>
+			</li>
 
 			<!-- THERMATAN LEATHER --> 
 			<li Class="PatchOperationReplace">

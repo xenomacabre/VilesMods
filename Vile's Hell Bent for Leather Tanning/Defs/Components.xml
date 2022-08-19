@@ -162,7 +162,7 @@
 		<stackLimit>600</stackLimit>
 		<techLevel>Medieval</techLevel>
 		<statBases>
-			<MarketValue>0.5</MarketValue>
+			<MarketValue>3</MarketValue>
 			<StuffPower_Armor_Blunt>0.75</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Sharp>0.7</StuffPower_Armor_Sharp>
 			<StuffPower_Armor_Heat>0.16</StuffPower_Armor_Heat>

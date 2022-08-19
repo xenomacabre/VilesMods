@@ -5,7 +5,7 @@
 <ThingDef ParentName="RFF_TerraformBasicBase">	 
 	<defName>Terraform_GatherNutrientsFromRichSoil</defName>
 	<label>nutrients from rich soil</label>
-	<description>Rich Soil / Grassland Soil\n +4 Clay\n +4 Silt\n +6 Compost\n +6 Fertilizer\n +2 Peat</description>
+	<description>Rich Soil / Grassland Soil\n +8 Clay\n +8 Silt\n +12 Compost\n +6 Fertilizer\n +2 Peat</description>
 	<uiIconPath>UI/Icons/Terraforming/UndevelopedSoil</uiIconPath>
 	<modExtensions>
 		<li Class="FertileFields.Terrain">
@@ -30,7 +30,35 @@
 	</statBases>
 	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
 </ThingDef>	 
-	
+
+<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_GatherNutrientsFromFertileSoil</defName>
+	<label>nutrients from fertile soil</label>
+	<description>Fertile Soil / Volcanic Soil \n +6 Clay\n +6 Silt\n +6 Compost\n +3 Fertilizer</description>
+	<uiIconPath>UI/Icons/Terraforming/UndevelopedSoil</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>Soil</li>
+				<li>VolcanicSoil</li>
+			</above>
+			<result>RockySoil</result>
+			<products>
+				<SoftClay>6</SoftClay>
+				<Dirt>6</Dirt>
+				<Compost>6</Compost>
+				<Fertilizer>3</Fertilizer>
+			</products>
+		</li>
+	</modExtensions>
+	<costList>		
+	</costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>	
+
 <ThingDef ParentName="RFF_TerraformBasicBase">	 
 	<defName>Terraform_GatherClay</defName>
 	<label>clay</label>

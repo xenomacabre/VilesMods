@@ -72,6 +72,7 @@
 		<value>
 			<defNames>
 				<li>Terraform_GatherNutrientsFromRichSoil</li>
+				<li>Terraform_GatherNutrientsFromFertileSoil</li>
 				<li>Terraform_GatherClay</li>
 				<li>Terraform_GatherSilt</li>
 				<li>Terraform_GatherSand</li>

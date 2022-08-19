@@ -15,7 +15,7 @@
 			<Mass>0.03</Mass>
 			<Bulk>0.1</Bulk>
 			<Flammability>0.8</Flammability>
-			<MarketValue>1</MarketValue>
+			<MarketValue>15</MarketValue>
 		</statBases>
 		
 		<smeltable>true</smeltable>
@@ -35,6 +35,9 @@
 		<thingCategories>
 			<li>CuredHides</li>
 		</thingCategories>
+		<statBases>
+			<MarketValue>12</MarketValue>
+		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="Hide_HumanSkinBase">
 		<defName>Hide_HumanSkin</defName>
@@ -97,6 +100,9 @@
 		<thingCategories>
 			<li>CuredHides</li>
 		</thingCategories>
+		<statBases>
+			<MarketValue>10</MarketValue>
+		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="Hide_LightAnimalSkinBase">
 		<defName>Hide_LightAnimalSkin</defName>
@@ -130,6 +136,9 @@
 		<thingCategories>
 			<li>CuredHides</li>
 		</thingCategories>
+		<statBases>
+			<MarketValue>19</MarketValue>
+		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="Hide_RodentSkinBase">
 		<defName>Hide_RodentSkin</defName>
@@ -161,6 +170,9 @@
 		<thingCategories>
 			<li>CuredHides</li>
 		</thingCategories>
+		<statBases>
+			<MarketValue>15</MarketValue>
+		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="Hide_PorousHideBase">
 		<defName>Hide_PorousHide</defName>
@@ -170,7 +182,7 @@
 		</graphicData>
 		<comps>
 			<li Class="CompProperties_Rottable">
-				<daysToRotStart>15</daysToRotStart>
+				<daysToRotStart>20</daysToRotStart>
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
@@ -189,6 +201,9 @@
 		<thingCategories>
 			<li>CuredHides</li>
 		</thingCategories>
+		<statBases>
+			<MarketValue>15</MarketValue>
+		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="Hide_ImmunogenicHideBase">
 		<defName>Hide_ImmunogenicHide</defName>
@@ -198,7 +213,7 @@
 		</graphicData>
 		<comps>
 			<li Class="CompProperties_Rottable">
-				<daysToRotStart>15</daysToRotStart>
+				<daysToRotStart>20</daysToRotStart>
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
@@ -217,6 +232,9 @@
 		<thingCategories>
 			<li>CuredHides</li>
 		</thingCategories>
+		<statBases>
+			<MarketValue>15</MarketValue>
+		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="Hide_SoftHideBase">
 		<defName>Hide_SoftHide</defName>
@@ -245,6 +263,9 @@
 		<thingCategories>
 			<li>CuredHides</li>
 		</thingCategories>
+		<statBases>
+			<MarketValue>20</MarketValue>
+		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="Hide_DurableHideBase">
 		<defName>Hide_DurableHide</defName>
@@ -273,6 +294,9 @@
 		<thingCategories>
 			<li>CuredHides</li>
 		</thingCategories>
+		<statBases>
+			<MarketValue>30</MarketValue>
+		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="Hide_HeavyHideBase">
 		<defName>Hide_HeavyHide</defName>
@@ -301,6 +325,9 @@
 		<thingCategories>
 			<li>CuredHides</li>
 		</thingCategories>
+		<statBases>
+			<MarketValue>15</MarketValue>
+		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="Hide_StockHideBase">
 		<defName>Hide_StockHide</defName>
@@ -336,6 +363,9 @@
 		<thingCategories>
 			<li>CuredHides</li>
 		</thingCategories>
+		<statBases>
+			<MarketValue>25</MarketValue>
+		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="Hide_HeavyFurPeltBase">
 		<defName>Hide_HeavyFurPelt</defName>
@@ -364,6 +394,9 @@
 		<thingCategories>
 			<li>CuredHides</li>
 		</thingCategories>
+		<statBases>
+			<MarketValue>30</MarketValue>
+		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="Hide_RichFurPeltBase">
 		<defName>Hide_RichFurPelt</defName>
@@ -392,6 +425,9 @@
 		<thingCategories>
 			<li>CuredHides</li>
 		</thingCategories>
+		<statBases>
+			<MarketValue>20</MarketValue>
+		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="Hide_RuggedFurPeltBase">
 		<defName>Hide_RuggedFurPelt</defName>
@@ -420,6 +456,9 @@
 		<thingCategories>
 			<li>CuredHides</li>
 		</thingCategories>
+		<statBases>
+			<MarketValue>18</MarketValue>
+		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="Hide_WarmFurPeltBase">
 		<defName>Hide_WarmFurPelt</defName>

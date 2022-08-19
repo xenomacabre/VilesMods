@@ -110,7 +110,7 @@
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
-			<MarketValue>3</MarketValue>
+			<MarketValue>2.5</MarketValue>
 			<StuffPower_Armor_Sharp>0.85</StuffPower_Armor_Sharp>
 			<StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Heat>0.1</StuffPower_Armor_Heat>
@@ -146,7 +146,7 @@
 		</graphicData>
 		<techLevel>Neolithic</techLevel>
 		<statBases>
-			<MarketValue>2</MarketValue>
+			<MarketValue>0.2</MarketValue>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>0.5</Flammability>
 			<SellPriceFactor>0.50</SellPriceFactor>
