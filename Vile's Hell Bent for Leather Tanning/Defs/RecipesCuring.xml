@@ -570,7 +570,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Hide_HeavyFurPeltCured>1</Hide_HeavyFurPeltCured>
+			<Hide_RichFurPeltCured>1</Hide_RichFurPeltCured>
 		</products>
 		<recipeUsers>
 			<li>TanningRack</li>
