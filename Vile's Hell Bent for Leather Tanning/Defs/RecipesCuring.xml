@@ -29,13 +29,15 @@
 		</recipeUsers>
 		<temperatureSafe>
 			<min>0</min>
-			<max>30</max>
+			<max>35</max>
 		</temperatureSafe>
 		<temperatureIdeal>
 			<min>5</min>
 			<max>25</max>
 		</temperatureIdeal>
 		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.9</speedAboveSafe>
 		<processDays>1</processDays>
 	</RecipeDef>
 	
@@ -64,15 +66,17 @@
 		<recipeUsers>
 			<li>TanningRack</li>
 		</recipeUsers>
-		<temperatureSafe>
+	<temperatureSafe>
 			<min>0</min>
-			<max>30</max>
+			<max>35</max>
 		</temperatureSafe>
 		<temperatureIdeal>
 			<min>5</min>
 			<max>25</max>
 		</temperatureIdeal>
 		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.9</speedAboveSafe>
 		<processDays>2.5</processDays>
 	</RecipeDef>
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
@@ -102,13 +106,15 @@
 		</recipeUsers>
 		<temperatureSafe>
 			<min>0</min>
-			<max>30</max>
+			<max>35</max>
 		</temperatureSafe>
 		<temperatureIdeal>
 			<min>5</min>
 			<max>25</max>
 		</temperatureIdeal>
 		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.9</speedAboveSafe>
 		<processDays>2.25</processDays>
 	</RecipeDef>
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
@@ -138,13 +144,15 @@
 		</recipeUsers>
 		<temperatureSafe>
 			<min>0</min>
-			<max>30</max>
+			<max>35</max>
 		</temperatureSafe>
 		<temperatureIdeal>
 			<min>5</min>
 			<max>25</max>
 		</temperatureIdeal>
 		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.9</speedAboveSafe>
 		<processDays>1.8</processDays>
 	</RecipeDef>
 	
@@ -185,6 +193,17 @@
 		<recipeUsers>
 			<li>TanningRack</li>
 		</recipeUsers>
+		<temperatureSafe>
+			<min>0</min>
+			<max>35</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>5</min>
+			<max>25</max>
+		</temperatureIdeal>
+		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.9</speedAboveSafe>
 		<processDays>0.5</processDays>
 	</RecipeDef>
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
@@ -222,6 +241,17 @@
 		<recipeUsers>
 			<li>TanningRack</li>
 		</recipeUsers>
+		<temperatureSafe>
+			<min>0</min>
+			<max>35</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>5</min>
+			<max>25</max>
+		</temperatureIdeal>
+		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.9</speedAboveSafe>
 		<processDays>0.5</processDays>
 	</RecipeDef>
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
@@ -260,6 +290,17 @@
 		<recipeUsers>
 			<li>TanningRack</li>
 		</recipeUsers>
+		<temperatureSafe>
+			<min>0</min>
+			<max>35</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>5</min>
+			<max>25</max>
+		</temperatureIdeal>
+		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.9</speedAboveSafe>
 		<processDays>0.5</processDays>
 	</RecipeDef>
 	
@@ -300,6 +341,17 @@
 		<recipeUsers>
 			<li>TanningRack</li>
 		</recipeUsers>
+		<temperatureSafe>
+			<min>0</min>
+			<max>35</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>5</min>
+			<max>25</max>
+		</temperatureIdeal>
+		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.9</speedAboveSafe>
 		<processDays>1</processDays>
 	</RecipeDef>
 	
@@ -339,6 +391,17 @@
 		<recipeUsers>
 			<li>TanningRack</li>
 		</recipeUsers>
+		<temperatureSafe>
+			<min>0</min>
+			<max>35</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>5</min>
+			<max>25</max>
+		</temperatureIdeal>
+		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.9</speedAboveSafe>
 		<processDays>1.2</processDays>
 	</RecipeDef>
 	
@@ -378,6 +441,17 @@
 		<recipeUsers>
 			<li>TanningRack</li>
 		</recipeUsers>
+		<temperatureSafe>
+			<min>0</min>
+			<max>35</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>5</min>
+			<max>25</max>
+		</temperatureIdeal>
+		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.9</speedAboveSafe>
 		<processDays>1</processDays>
 	</RecipeDef>
 	
@@ -417,6 +491,17 @@
 		<recipeUsers>
 			<li>TanningRack</li>
 		</recipeUsers>
+		<temperatureSafe>
+			<min>0</min>
+			<max>35</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>5</min>
+			<max>25</max>
+		</temperatureIdeal>
+		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.9</speedAboveSafe>
 		<processDays>1.8</processDays>
 	</RecipeDef>
 	
@@ -456,6 +541,17 @@
 		<recipeUsers>
 			<li>TanningRack</li>
 		</recipeUsers>
+		<temperatureSafe>
+			<min>0</min>
+			<max>35</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>5</min>
+			<max>25</max>
+		</temperatureIdeal>
+		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.9</speedAboveSafe>
 		<processDays>2.2</processDays>
 	</RecipeDef>
 	
@@ -495,6 +591,17 @@
 		<recipeUsers>
 			<li>TanningRack</li>
 		</recipeUsers>
+		<temperatureSafe>
+			<min>0</min>
+			<max>35</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>5</min>
+			<max>25</max>
+		</temperatureIdeal>
+		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.9</speedAboveSafe>
 		<processDays>1.5</processDays>
 	</RecipeDef>
 	
@@ -536,6 +643,17 @@
 		<recipeUsers>
 			<li>TanningRack</li>
 		</recipeUsers>
+		<temperatureSafe>
+			<min>0</min>
+			<max>35</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>5</min>
+			<max>25</max>
+		</temperatureIdeal>
+		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.9</speedAboveSafe>
 		<processDays>2.2</processDays>
 	</RecipeDef>
 	
@@ -570,11 +688,22 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Hide_RichFurPeltCured>1</Hide_RichFurPeltCured>
+			<Hide_HeavyFurPeltCured>1</Hide_HeavyFurPeltCured>
 		</products>
 		<recipeUsers>
 			<li>TanningRack</li>
 		</recipeUsers>
+		<temperatureSafe>
+			<min>0</min>
+			<max>35</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>5</min>
+			<max>25</max>
+		</temperatureIdeal>
+		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.9</speedAboveSafe>
 		<processDays>1.2</processDays>
 	</RecipeDef>
 	
@@ -614,6 +743,17 @@
 		<recipeUsers>
 			<li>TanningRack</li>
 		</recipeUsers>
+		<temperatureSafe>
+			<min>0</min>
+			<max>35</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>5</min>
+			<max>25</max>
+		</temperatureIdeal>
+		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.9</speedAboveSafe>
 		<processDays>1.6</processDays>
 	</RecipeDef>
 	
@@ -653,6 +793,17 @@
 		<recipeUsers>
 			<li>TanningRack</li>
 		</recipeUsers>
+		<temperatureSafe>
+			<min>0</min>
+			<max>35</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>5</min>
+			<max>25</max>
+		</temperatureIdeal>
+		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.9</speedAboveSafe>
 		<processDays>1.4</processDays>
 	</RecipeDef>
 	

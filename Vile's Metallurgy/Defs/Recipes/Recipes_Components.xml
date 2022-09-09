@@ -119,9 +119,9 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<categories>
-						<li>CastBar</li>
-					</categories>
+				<categories>
+					<li>CastBar</li>
+				</categories>
 				<thingDefs>
 					<li>SandResource</li>
 					<li>SoftClay</li>
@@ -284,6 +284,10 @@
 				<categories>
 					<li>CastBar</li>
 				</categories>
+				<thingDefs>
+					<li>SandResource</li>
+					<li>SoftClay</li>
+				</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<CannonParts>4</CannonParts>

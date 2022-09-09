@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
+
+	<ThingDef ParentName="SK_LeatherBase">
+		<defName>TannedFur</defName>
+		<label>tanned fur</label>
+		<description>A crudely-tanned animal fur. Warmer and comfier than buckskin, but it's not a very strong material.</description>
+		<graphicData>
+			<color>(147,105,72)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>2</MarketValue>
+			<StuffPower_Armor_Sharp>0.5</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.9</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.08</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>32</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>-4</StuffPower_Insulation_Heat>
+			<Mass>0.01</Mass>
+			<Bulk>0.01</Bulk>
+		</statBases>
+		<stuffProps>
+			<color>(147,105,72)</color>
+			<commonality>0.01</commonality>
+			<stuffAdjective>tanned fur</stuffAdjective>
+			<statFactors>
+				<MaxHitPoints>0.82</MaxHitPoints>
+				<Beauty>1.4</Beauty>
+				<MoveSpeed>1</MoveSpeed>
+				<MarketValue>0.75</MarketValue>
+				<WorkToMake>1.8</WorkToMake>
+				<WorkToBuild>1.8</WorkToBuild>
+				<BedRestEffectiveness>0.9</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>0.8</ImmunityGainSpeedFactor>
+				<Mass>0.7</Mass>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
 	
 	<ThingDef Name="LeatherBase_Upholstery" ParentName="SK_LeatherBase">
 		<defName>Leather_UpholsteryBrown</defName>
@@ -14,8 +50,8 @@
 			<StuffPower_Armor_Sharp>0.8</StuffPower_Armor_Sharp>
 			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Heat>0.1</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>25</StuffPower_Insulation_Heat>
+			<StuffPower_Insulation_Cold>25</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
 			<Mass>0.01</Mass>
 			<Bulk>0.01</Bulk>
 		</statBases>

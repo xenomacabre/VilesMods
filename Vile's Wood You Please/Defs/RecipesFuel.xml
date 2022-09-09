@@ -4,10 +4,10 @@
 	<!-- Tree harvest yield reduced by a factor of five, so firewood in increased by that amount -->
 	<RecipeDef Name="MakeFirewoodFromUltrahardwood_Hand">
 		<defName>MakeFirewoodFromUltrahardwood_Hand</defName>
-		<label>split ultra-hard logs into firewood (x20)</label>
+		<label>split ultra-hard logs into firewood (x40)</label>
 		<description>Split ultra-hard wood logs into firewood. Very slow, but it burns slow too, so it can be cut into even smaller pieces.</description>
 		<jobString>Splitting logs into firewood.</jobString>
-		<workAmount>500</workAmount>
+		<workAmount>600</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>MakeWoodPlanks_Hand</effectWorking>
 		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
@@ -18,7 +18,7 @@
 						<li>Ultrahardwoods</li>
 					</categories>
 				</filter>
-				<count>2</count>
+				<count>3</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -27,14 +27,14 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<WoodLog>20</WoodLog>
+			<WoodLog>40</WoodLog>
 		</products>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>0.25</workSkillLearnFactor>
 	</RecipeDef>
 	<RecipeDef Name="MakeFirewoodFromHardwood_Hand">
 		<defName>MakeFirewoodFromHardwood_Hand</defName>
-		<label>split hardwood logs into firewood (x15)</label>
+		<label>split hardwood logs into firewood (x25)</label>
 		<description>Split wood logs into firewood. Quite slow.</description>
 		<jobString>Splitting logs into firewood.</jobString>
 		<workAmount>300</workAmount>
@@ -48,7 +48,7 @@
 						<li>Hardwoods</li>
 					</categories>
 				</filter>
-				<count>2</count>
+				<count>3</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -57,7 +57,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<WoodLog>15</WoodLog>
+			<WoodLog>25</WoodLog>
 		</products>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>0.25</workSkillLearnFactor>
@@ -65,7 +65,7 @@
 	
 	<RecipeDef Name="MakeFirewoodFromSoftwood_Hand">
 		<defName>MakeFirewoodFromSoftwood_Hand</defName>
-		<label>split softwood logs into firewood (x10)</label>
+		<label>split softwood logs into firewood (x15)</label>
 		<description>Chop wood logs or bamboo logs into firewood. Faster than cutting hard woods, but must be cut into larger pieces in order to burn as long.</description>
 		<jobString>Splitting logs into firewood.</jobString>
 		<workAmount>180</workAmount>
@@ -79,7 +79,7 @@
 						<li>Softwoods</li>
 					</categories>
 				</filter>
-				<count>2</count>
+				<count>3</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -88,7 +88,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<WoodLog>10</WoodLog>
+			<WoodLog>15</WoodLog>
 		</products>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>0.25</workSkillLearnFactor>
@@ -96,7 +96,7 @@
 	
 	<RecipeDef Name="MakeFirewoodFromUltrahardwood_Electric" ParentName="MakeFirewoodFromUltrahardwood_Hand">
 		<defName>MakeFirewoodFromUltrahardwood_Electric</defName>
-		<workAmount>300</workAmount>
+		<workAmount>350</workAmount>
 	</RecipeDef>
 	<RecipeDef Name="MakeFirewoodFromHardwood_Electric" ParentName="MakeFirewoodFromHardwood_Hand">
 		<defName>MakeFirewoodFromHardwood_Electric</defName>

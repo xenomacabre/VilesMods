@@ -82,7 +82,7 @@
 				<Rainstorm>1</Rainstorm>
 				<Blizzard>2</Blizzard>
 				<Whiteout>2</Whiteout>
-				<Hurricane>0.5</Hurricane>
+				<Hurricane>0</Hurricane>
 			</baseWeatherCommonalities>
 		</value>
     </Operation>

@@ -99,7 +99,7 @@
 		<defName>Make_LeatherScraps</defName>
 		<label>make leather strips</label>
 		<description>Shred leather into small strips which can be used to make bonded leather, or may be used as a building component for certain recipes.</description>
-		<jobString>Making patchleather.</jobString>
+		<jobString>Making leather strips.</jobString>
 		<workSpeedStat>TailoringSpeed</workSpeedStat>
 		<effectWorking>Tailor</effectWorking>
 		<soundWorking>Recipe_Tailor</soundWorking>

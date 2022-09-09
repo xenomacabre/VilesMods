@@ -248,7 +248,7 @@
 		</stuffProps>
 	</ThingDef>	
 
-		<ThingDef Name="PoplarLog" ParentName="SoftwoodLogBase">
+	<ThingDef Name="PoplarLog" ParentName="SoftwoodLogBase">
 		<defName>PoplarLog</defName>
 		<label>poplar log</label>
 		<description>Poplar is one of the most common woods and is very cheap and bland, but its moderate weight and strength makes it useful in all sorts of applications. It makes a half-decent shield, too.</description>

@@ -1004,13 +1004,13 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Dog"]/statBases/StuffPower_Insulation_Cold</xpath>
 				<value>
-					<StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+					<StuffPower_Insulation_Cold>16</StuffPower_Insulation_Cold>
 				</value>
 			</li>
 				<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Dog"]/statBases/StuffPower_Insulation_Heat</xpath>
 				<value>
-					<StuffPower_Insulation_Heat>15</StuffPower_Insulation_Heat>
+					<StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">

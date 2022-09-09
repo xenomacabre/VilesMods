@@ -45,7 +45,7 @@
 			<li Class="PatchOperationReplace"> <!-- Buckskin -->
 				<xpath>Defs/ThingDef[defName="Leather_Dog"]/statBases/Bed_Immunity_Stuff</xpath>
 				<value><!-- IGSF 0.8 -->
-					<Bed_Immunity_Stuff>0.4</Bed_Immunity_Stuff>
+					<Bed_Immunity_Stuff>0.45</Bed_Immunity_Stuff>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace"> <!-- Buckskin -->
@@ -472,6 +472,14 @@
 					<Textile_Softness>0.32</Textile_Softness>
 					<Bed_Immunity_Stuff>0.49</Bed_Immunity_Stuff>
 					<Bedding_Beauty_Stuff>3</Bedding_Beauty_Stuff> 
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="TannedFur"]/statBases</xpath>
+				<value><!-- IGSF 0.84 -->
+					<Textile_Softness>0.22</Textile_Softness>
+					<Bed_Immunity_Stuff>0.4</Bed_Immunity_Stuff>
+					<Bedding_Beauty_Stuff>1.4</Bedding_Beauty_Stuff> 
 				</value>
 			</li>
 			

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
 
-
+		<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="PassiveCooler" or defName="ColdstonePassiveCooler"]/costList</xpath>
+				<value>
+					<costList>
+						<ComponentMedieval>5</ComponentMedieval>
+						<WoodLog>100</WoodLog>
+					</costList>
+				</value>
+		</Operation>	
+		
 		<Operation Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Peat-WaterShallow"]/label</xpath>
 				<value>

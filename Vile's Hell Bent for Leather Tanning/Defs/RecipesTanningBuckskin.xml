@@ -3,8 +3,8 @@
 <!-- LIGHT LEATHER -->
 	<RecipeDef>
 		<defName>TanBrain_LeatherBuckskin</defName>
-		<label>tan buckskin</label>
-		<description>LoremIpsum</description>
+		<label>brain-tan buckskin</label>
+		<description>Tan raw hides into simple buckskin leather using a solution made with animal brains.</description>
 		<uiIconThing>Leather_Dog</uiIconThing>
 		<ingredients>
 			<li>
@@ -25,6 +25,52 @@
 		</fixedIngredientFilter>
 		<products>
 			<Leather_Dog>10</Leather_Dog>
+		</products>
+		<recipeUsers>
+			<li>Campfire</li>
+			<li MayRequire="vitech.metallurgy">FirePit</li>
+		</recipeUsers>
+		<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<workAmount>800</workAmount>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>TanBrain_FurTanned</defName>
+		<label>brain-tan fur</label>
+		<description>Tan raw furs into simple tanned fur using a solution made with animal brains.</description>
+		<uiIconThing>Leather_Dog</uiIconThing>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_HeavyFurPeltCured</li>
+						<li>Hide_HeavyFurPelt</li>	
+						<li>Hide_RichFurPeltCured</li>
+						<li>Hide_RichFurPelt</li>
+						<li>Hide_RuggedFurPeltCured</li>
+						<li>Hide_RuggedFurPelt</li>
+						<li>Hide_WarmFurPeltCured</li>
+						<li>Hide_WarmFurPelt</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_HeavyFurPeltCured</li>
+				<li>Hide_HeavyFurPelt</li>	
+				<li>Hide_RichFurPeltCured</li>
+				<li>Hide_RichFurPelt</li>
+				<li>Hide_RuggedFurPeltCured</li>
+				<li>Hide_RuggedFurPelt</li>
+				<li>Hide_WarmFurPeltCured</li>
+				<li>Hide_WarmFurPelt</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<TannedFur>10</TannedFur>
 		</products>
 		<recipeUsers>
 			<li>Campfire</li>

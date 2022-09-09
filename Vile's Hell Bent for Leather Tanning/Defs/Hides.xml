@@ -276,6 +276,7 @@
 		<comps>
 			<li Class="CompProperties_Rottable">
 				<daysToRotStart>15</daysToRotStart>
+				
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
@@ -307,6 +308,7 @@
 		<comps>
 			<li Class="CompProperties_Rottable">
 				<daysToRotStart>15</daysToRotStart>
+				
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
@@ -338,6 +340,7 @@
 		<comps>
 			<li Class="CompProperties_Rottable">
 				<daysToRotStart>15</daysToRotStart>
+				
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
@@ -376,6 +379,7 @@
 		<comps>
 			<li Class="CompProperties_Rottable">
 				<daysToRotStart>15</daysToRotStart>
+				
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
@@ -396,6 +400,7 @@
 		</thingCategories>
 		<statBases>
 			<MarketValue>30</MarketValue>
+			
 		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="Hide_RichFurPeltBase">
@@ -407,6 +412,7 @@
 		<comps>
 			<li Class="CompProperties_Rottable">
 				<daysToRotStart>15</daysToRotStart>
+				
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
@@ -438,6 +444,7 @@
 		<comps>
 			<li Class="CompProperties_Rottable">
 				<daysToRotStart>15</daysToRotStart>
+				
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
@@ -469,6 +476,7 @@
 		<comps>
 			<li Class="CompProperties_Rottable">
 				<daysToRotStart>15</daysToRotStart>
+				
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>

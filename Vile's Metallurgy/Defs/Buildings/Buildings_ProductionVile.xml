@@ -399,7 +399,6 @@
 		<recipes>
 			<li>MakeWroughtIron_Forge</li>
 			<li>MakeForgeWeldedSteel_Smithy</li>
-			<li>SmeltWeapon</li>
 		</recipes>
 		<researchPrerequisites>
 			<li>Metallurgy_B2</li>
@@ -620,6 +619,7 @@
 			<li>PuddleWroughtIronFromCastIron</li>
 			<!--<li>PuddleMildSteel</li>-->
 			<li>MakeCrucibleSteel</li>
+			<li>SmeltWeapon</li>
 		</recipes>
 		<researchPrerequisites>
 			<li>Metallurgy_B4</li>

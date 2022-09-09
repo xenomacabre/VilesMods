@@ -33,7 +33,7 @@
 		<defName>MakeWoodPlanks_Hand</defName>
 		<label>make plywood from logs</label>
 		<jobString>Making plywood.</jobString>
-		<description>Cut and laminate different types of timber to make plywood.</description>
+		<description>Cut and laminate different types of timber to make plywood. It's a more efficient use of the log, but it's quite ugly when used for construction.</description>
 		<workAmount>1000</workAmount>
 		<ingredients>
 			<li>
@@ -55,14 +55,14 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<WoodPlank>15</WoodPlank>
+			<WoodPlank>20</WoodPlank>
 		</products>
 	</RecipeDef>
 	<RecipeDef ParentName="LumberRecipeBase_Hand">
 		<defName>SawPlanks_Plywood_Planks</defName>
 		<label>make plywood from planks</label>
 		<jobString>Making Plywood.</jobString>
-		<description>Cut and laminate different types of lumber to make plywood.</description>
+		<description>Cut and laminate different types of lumber to make plywood. It's a more efficient use of the plank, but it's quite ugly when used for construction.</description>
 		<workAmount>350</workAmount>
 		<ingredients>
 			<li>
@@ -84,7 +84,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<WoodPlank>15</WoodPlank>
+			<WoodPlank>20</WoodPlank>
 		</products>
 	</RecipeDef>
 	
@@ -92,7 +92,7 @@
 		<defName>MakeWoodPlanks_Electric</defName>
 		<label>make plywood from logs</label>
 		<jobString>Making Plywood.</jobString>
-		<description>Cut and laminate different types of timber to make plywood.</description>
+		<description>Cut and laminate different types of timber to make plywood. It's a more efficient use of the log, but it's quite ugly when used for construction.</description>
 		<workAmount>1000</workAmount>
 		<ingredients>
 			<li>
@@ -114,14 +114,14 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<WoodPlank>30</WoodPlank>
+			<WoodPlank>40</WoodPlank>
 		</products>
 	</RecipeDef>
 	<RecipeDef ParentName="LumberRecipeBase_Hand">
 		<defName>MillPlanks_Plywood_Planks</defName>
 		<label>make plywood from planks</label>
 		<jobString>Making Plywood.</jobString>
-		<description>Cut and laminate different types of lumber to make plywood.</description>
+		<description>Cut and laminate different types of lumber to make plywood. It's a more efficient use of the plank, but it's quite ugly when used for construction.</description>
 		<workAmount>350</workAmount>
 		<ingredients>
 			<li>
@@ -143,7 +143,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<WoodPlank>30</WoodPlank>
+			<WoodPlank>40</WoodPlank>
 		</products>
 	</RecipeDef>
 	

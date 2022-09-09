@@ -10,7 +10,7 @@
 		</value>
     </Operation>
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="HardwoodLogBase"]/stuffProps/appearance</xpath>
+		<xpath>/Defs/ThingDef[@Name="HardwoodLogBase"]/stuffProps/appearance</xpath>
 		<value>
 			<appearance>Logs</appearance>
 		</value>

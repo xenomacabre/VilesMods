@@ -111,15 +111,15 @@
 		<xpath>Defs/ThingDef[defName="WoodPlank"]/stuffProps/statFactors</xpath>
 		<value>
 			<statFactors>
-				<MaxHitPoints>0.8</MaxHitPoints>
-				<Flammability>1</Flammability>
-				<Beauty>0.8</Beauty>
+				<MaxHitPoints>0.75</MaxHitPoints>
+				<Flammability>1.1</Flammability>
+				<Beauty>0.6</Beauty>
 				<WorkToMake>0.9</WorkToMake>
 				<WorkToBuild>0.9</WorkToBuild>
 				<MeleeWeapon_CooldownMultiplier>1.1</MeleeWeapon_CooldownMultiplier>
 				<MoveSpeed>0.8</MoveSpeed>
-				<MarketValue>0.7</MarketValue>
-				<BedRestEffectiveness>1</BedRestEffectiveness>
+				<MarketValue>0.6</MarketValue>
+				<BedRestEffectiveness>0.9</BedRestEffectiveness>
 				<ImmunityGainSpeedFactor>0.9</ImmunityGainSpeedFactor>
 				<WorkTableWorkSpeedFactor>0.6</WorkTableWorkSpeedFactor>
 				<DoorOpenSpeed>1.5</DoorOpenSpeed>
@@ -132,7 +132,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="WoodPlank"]/stuffProps/statOffsets/Beauty</xpath>
 		<value>
-				<Beauty>-1</Beauty>
+				<Beauty>-2</Beauty>
 		</value>
     </Operation>
 	<Operation Class="PatchOperationReplace">

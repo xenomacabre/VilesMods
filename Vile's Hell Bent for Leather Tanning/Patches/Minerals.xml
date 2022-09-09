@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Minerals</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreSalt" or defName="SolidOreSalt" or defName= "HewnOreSalt"]/randomlyDropResources/li/CountPerDrop</xpath>
+				<value>
+					<CountPerDrop>25</CountPerDrop>
+				</value>
+			</li>
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	
