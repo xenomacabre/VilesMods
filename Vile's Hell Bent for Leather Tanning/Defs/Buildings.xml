@@ -105,7 +105,7 @@
 		</statBases>
 		<size>(2,2)</size>
 		<designationCategory>Production</designationCategory>
-		<interactionCellOffset>(0,-1,0)</interactionCellOffset>
+		<interactionCellOffset>(0,0,0)</interactionCellOffset>
 		<building>
 			<uninstallWork>1000</uninstallWork>
 		</building>
@@ -134,6 +134,7 @@
 		<researchPrerequisites>
 			<li>Apparel_B1</li>
 		</researchPrerequisites>
+		<fillPercent>0.35</fillPercent>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 	</ThingDef>
 	

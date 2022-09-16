@@ -727,8 +727,6 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Hide_HumanSkin</li>
-						<li>Hide_HumanSkinCured</li>
 						<li>Hide_ExoticSkin</li>
 						<li>Hide_ExoticSkinCured</li>
 						<li>Hide_LightAnimalSkin</li>
@@ -750,8 +748,6 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Hide_HumanSkin</li>
-				<li>Hide_HumanSkinCured</li>
 				<li>Hide_ExoticSkin</li>
 				<li>Hide_ExoticSkinCured</li>
 				<li>Hide_LightAnimalSkin</li>
@@ -771,5 +767,47 @@
 		<workSkill>Crafting</workSkill>
 		<workAmount>1000</workAmount>
 	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>TanDrum_HumanLeather</defName>
+		<label>tan human leather</label>
+		<description>LoremIpsum</description>
+		<uiIconThing>Leather_Human</uiIconThing>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_HumanSkinCured</li>
+						<li>Hide_HumanSkin</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chromium</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_HumanSkinCured</li>
+				<li>Hide_HumanSkin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Leather_Human>25</Leather_Human>
+		</products>
+		<recipeUsers>
+			<li>TanningDrum</li>
+		</recipeUsers>
+		<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<workAmount>800</workAmount>
+	</RecipeDef>
+
 	
 </Defs>

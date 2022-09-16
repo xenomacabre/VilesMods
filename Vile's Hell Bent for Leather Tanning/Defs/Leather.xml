@@ -42,7 +42,7 @@
 		<label>upholstery leather (brown)</label>
 		<description>Corrected-grain leather that is finished and embossed. It's attractive, sturdy, and somewhat comfortable, and great for furniture of all types, but makes for terrible clothing.</description>
 		<graphicData>
-			<color>(118,124,168)</color>
+			<color>(188,84,68)</color>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -56,7 +56,7 @@
 			<Bulk>0.01</Bulk>
 		</statBases>
 		<stuffProps>
-			<color>(118,124,168)</color>
+			<color>(188,84,68)</color>
 			<commonality>0.0025</commonality>
 			<stuffAdjective>upholstery leather</stuffAdjective>
 			<statFactors>

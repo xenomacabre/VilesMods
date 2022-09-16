@@ -637,5 +637,52 @@
 		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
 		<processDays>4</processDays>
 	</RecipeDef>
+	
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>TanVat_HumanLeather</defName>
+		<label>tan human leather</label>
+		<description>LoremIpsum</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_HumanSkinCured</li>
+						<li>Hide_HumanSkin</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TreeBark</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+					<li>Hide_HumanSkinCured</li>
+					<li>Hide_HumanSkin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Leather_Human>5</Leather_Human>
+		</products>
+		<recipeUsers>
+			<li>TanningVat</li>
+		</recipeUsers>
+		<temperatureSafe>
+			<min>0</min>
+			<max>55</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>10</min>
+			<max>30</max>
+		</temperatureIdeal>
+		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<processDays>4</processDays>
+	</RecipeDef>
 
 </Defs>

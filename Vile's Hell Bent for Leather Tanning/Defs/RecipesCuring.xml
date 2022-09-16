@@ -155,6 +155,44 @@
 		<speedAboveSafe>0.9</speedAboveSafe>
 		<processDays>1.8</processDays>
 	</RecipeDef>
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>RackDry_HumanSkins</defName>
+		<label>air-cure human skins</label>
+		<description>Thin skins of small animals can be cured simply by air-drying. Climate conditions must be favorable.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_HumanSkin</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_HumanSkin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_HumanSkinCured>1</Hide_HumanSkinCured>
+		</products>
+		<recipeUsers>
+			<li>TanningRack</li>
+		</recipeUsers>
+		<temperatureSafe>
+			<min>0</min>
+			<max>35</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>5</min>
+			<max>25</max>
+		</temperatureIdeal>
+		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.9</speedAboveSafe>
+		<processDays>1.8</processDays>
+	</RecipeDef>
 	
 	<!-- SALTING -->
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
@@ -286,6 +324,56 @@
 		</fixedIngredientFilter>
 		<products>
 			<Hide_RodentSkinCured>1</Hide_RodentSkinCured>
+		</products>
+		<recipeUsers>
+			<li>TanningRack</li>
+		</recipeUsers>
+		<temperatureSafe>
+			<min>0</min>
+			<max>35</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>5</min>
+			<max>25</max>
+		</temperatureIdeal>
+		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.9</speedAboveSafe>
+		<processDays>0.5</processDays>
+	</RecipeDef>
+	
+		<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>RackSalt_HumanSkins</defName>
+		<label>cure human skins</label>
+		<description>Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_HumanSkin</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+						<li>Ash</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_HumanSkin</li>
+				<li>Salt</li>
+				<li>Ash</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_HumanSkinCured>1</Hide_HumanSkinCured>
 		</products>
 		<recipeUsers>
 			<li>TanningRack</li>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Skynet</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SkynetCovert"]/statBases/LeatherAmount</xpath>
+				<value>
+					<LeatherAmount>4</LeatherAmount>
+				</value>
+			</li>			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SkynetCovert"]/race/leatherDef</xpath>
+				<value>
+					<leatherDef>Hide_HumanSkin</leatherDef>
+				</value>
+			</li>
+		</operations>
+	</match>
+    </Operation>	
+</Patch>	

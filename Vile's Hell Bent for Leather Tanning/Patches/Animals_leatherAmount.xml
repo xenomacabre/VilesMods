@@ -39,17 +39,23 @@
 			
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Fishercat" or
-					defName="Human" or 
-					defName="Alien_Nova" or
-					defName="Aline_Dova" or
-					defName="Norbal" or
-					defName="Alien_Orassan" or
-					defName="SkynetCovert" or
-					defName="ChjAndroid"]/statBases/LeatherAmount</xpath>
+					defName="Human"]/statBases/LeatherAmount</xpath>
 				<value>
 					<LeatherAmount>4</LeatherAmount>
 				</value>
 			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova" or
+					defName="Alien_Dova" or
+					defName="Norbal" or
+					defName="Alien_Orassan"]/statBases/LeatherAmount</xpath>
+				<value>
+					<LeatherAmount>4</LeatherAmount>
+				</value>
+			</li>
+			
+			
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Ermine" or
 					defName="Meerkat" or

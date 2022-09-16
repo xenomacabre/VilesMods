@@ -92,6 +92,37 @@
 		<workAmount>150</workAmount>
 	</RecipeDef>
 	
+	<RecipeDef>
+		<defName>BrineCure_HumanSkins</defName>
+		<label>cure human skins</label>
+		<jobString>Brine-curing.</jobString>
+		<description>Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_HumanSkin</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_HumanSkin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_HumanSkinCured>1</Hide_HumanSkinCured>
+		</products>
+		<recipeUsers>
+			<li>BriningStation</li>
+		</recipeUsers>
+	<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<workAmount>200</workAmount>
+	</RecipeDef>
+	
 	<!-- HIDES -->
 <RecipeDef>
 		<defName>BrineCure_PorousHide</defName>
