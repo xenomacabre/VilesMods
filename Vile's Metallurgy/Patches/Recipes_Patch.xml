@@ -44,14 +44,19 @@
 		</li>
 		
 		
-		<li Class="PatchOperationAdd">
-			<xpath>Defs/RecipeDef[defName="SmeltWeapon"]</xpath>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="SmeltWeapon"]/researchPrerequisite</xpath>
 				<value>
 					<researchPrerequisite>Metallurgy_B4</researchPrerequisite>
 				</value>
 		</li>
 		
-		
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="Make_CannonParts_Forged"]/workAmount</xpath>
+				<value>
+					<workAmount>3000</workAmount>
+				</value>
+		</li>
 		</operations>
 		</match>
     </Operation>	

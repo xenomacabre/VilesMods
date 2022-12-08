@@ -119,6 +119,12 @@
 							<Mass>0.65</Mass>
 						</value>
 					</li>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Leather_Wolf"]/stuffProps/statFactors</xpath>
+							<value>
+								<Cleanliness>0.9</Cleanliness>
+							</value>
+						</li>
 			
 				<!-- WARM FUR --> 
 			<li Class="PatchOperationReplace">
@@ -230,6 +236,12 @@
 							<Mass>0.7</Mass>
 						</value>
 					</li>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Leather_Bluefur"]/stuffProps/statFactors</xpath>
+							<value>
+								<Cleanliness>0.9</Cleanliness>
+							</value>
+						</li>
 					
 			<!-- HEAVY FUR --> 
 			<li Class="PatchOperationReplace">
@@ -341,6 +353,12 @@
 							<Mass>0.85</Mass>
 						</value>
 					</li>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Leather_Heavy"]/stuffProps/statFactors</xpath>
+							<value>
+								<Cleanliness>0.9</Cleanliness>
+							</value>
+						</li>
 					
 			<!-- FINE FUR --> 
 			<li Class="PatchOperationReplace">
@@ -452,6 +470,12 @@
 							<Mass>0.6</Mass>
 						</value>
 					</li>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Leather_Panthera"]/stuffProps/statFactors</xpath>
+							<value>
+								<Cleanliness>0.9</Cleanliness>
+							</value>
+						</li>
 			
 
 

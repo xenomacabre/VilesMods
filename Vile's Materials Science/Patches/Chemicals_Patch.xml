@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Powder"]/label</xpath>
+				<value>
+					<label>Nitrocellulose</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Powder"]/description</xpath>
+				<value>
+					<description>"Gun powder" typically refers to the old timey stuff they put in muskets. This stuff is the real deal. Nitrocellulose. Guncotton. It's synthesized from cellulose, nitre, and sulfur.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Powder"]/graphicData</xpath>
+				<value>
+					<graphicData>  
+						<texPath>Things/Item/Chemical/Nitrocellulose</texPath>
+						<graphicClass>Graphic_Single</graphicClass> 
+					</graphicData> 
+				</value>
+			</li>
+			
+			<!-- carbon nanotube -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Carbon"]/label</xpath>
+				<value>
+					<label>Carbon Nanotubes</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Carbon"]/description</xpath>
+				<value>
+					<description>CNT's are molecular-sized tubes made of carbon. They can be used to reinforce copmosite materials and clothing.</description>
+				</value>
+			</li>
+		
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	
+

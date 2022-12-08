@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<!--<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="WeaponNeoliticBase"]/recipeMaker</xpath>
+				<recipeMaker>
+					<workSpeedStat>SmithingSpeed</workSpeedStat>
+					<workSkill>Crafting</workSkill>
+					<effectWorking>Smith</effectWorking>
+					<soundWorking>Recipe_Smith</soundWorking>
+					<recipeUsers>
+						<li>CraftingSpot</li>
+					</recipeUsers>
+					<defaultIngredientFilter>
+						<categories>
+							<li>Root</li>
+						</categories>
+						<disallowedThingDefs>
+							<li>Plasteel</li>
+						</disallowedThingDefs>
+					</defaultIngredientFilter>
+					<skillRequirements>
+						<Crafting>1</Crafting>
+					</skillRequirements>
+					<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+				</recipeMaker>
+			</li>
+	
+-->
+		
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

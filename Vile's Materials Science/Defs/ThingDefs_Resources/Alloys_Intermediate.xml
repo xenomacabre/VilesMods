@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Vanadium</defName>
+		<label>vanadium (V)</label>
+		<description>An alloy additive used to increase the strength of certain alloys.</description>
+		<graphicData>
+			<texPath>Things/Item/Ingot</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(213,232,255)</color>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>150</stackLimit>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.4</Mass>
+			<Bulk>0.4</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>RARBar</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Solder</defName>
+		<label>Solder</label>
+		<description>An alloy used to connect other materials, often for electronics.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/Solder</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>150</stackLimit>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.4</Mass>
+			<Bulk>0.4</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>RARBar</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Manganese</defName>
+		<label>manganese (Mn)</label>
+		<description>An alloy additive used to increase the strength and workability of industrial steels.</description>
+		<graphicData>
+			<texPath>Things/Item/Ingot</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(213,232,255)</color>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>150</stackLimit>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.4</Mass>
+			<Bulk>0.4</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>RARBar</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Zinc</defName>
+		<label>zinc (Zn)</label>
+		<description>An important alloy additive used for galvanizing low-carbon steels and creating brass.</description>
+		<graphicData>
+			<texPath>Things/Item/Ingot</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(205,240,236)</color>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>150</stackLimit>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.4</Mass>
+			<Bulk>0.4</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>RARBar</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Molybdenum</defName>
+		<label>molybdenum (Mo)</label>
+		<description>Pronounced mə-LIB-də-nəm, this additive metal has an incredibly high melting point, so it's often used to increase alloy stability in high temperatures.</description>
+		<graphicData>
+			<texPath>Things/Item/Ingot</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(165,168,187)</color>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>150</stackLimit>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.4</Mass>
+			<Bulk>0.4</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>RARBar</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>PureSilver</defName>
+		<label>pure silver (Ag)</label>
+		<description>Not useful on its own. Make it into sterling silver or press it into coins.</description>
+		<graphicData>
+			<texPath>Things/Item/Ingot</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(222,222,222)</color>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>150</stackLimit>
+		<techLevel>Neolithic</techLevel>
+		<statBases>
+			<MarketValue>3</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.4</Mass>
+			<Bulk>0.4</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>RARBar</li>
+		</thingCategories>
+	</ThingDef>
+	
+	
+</Defs>

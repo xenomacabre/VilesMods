@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>ProduceAPoly</defName>
+		<label>Fabricate Hyperalloy x15</label>
+		<description>TTIER 5 - Ultra Tech
+>>> Optimal		Heavy Armor, Hospitals
+>> Suitable		Workshops, Durability
+X Inadvisable 	Weight, Production
+			
+Tools Recommended: Digging, Mining, Building
+			
+Hyperalloy is synthesized at the atomic level and refined with coltan extracted from certain gemstones. Its unparalleled toughness and strength make it suitable for nearly any application. If only it weren't so hard to fabricate.</description>
+		<jobString>Fabricating alpha poly.</jobString>
+		<workAmount>6000</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+				<li>
+				<filter>
+					<categories>
+						<li>SuperBar</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RoughGem</li>
+						<li>CutGem</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Antimatter</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<products>
+			<AlphaPoly>15</AlphaPoly>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SuperBar</li>
+			</categories>
+			<thingDefs>
+				<li>RoughGem</li>
+				<li>CutGem</li>
+				<li>Antimatter</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>19</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>ProduceBPoly</defName>
+		<label>Fabricate beta poly x15</label>
+		<description>TIER 5 - Ultra Tech
+>>> Optimal		Durability, Temperature regulation
+>> Suitable		Production
+X Inadvisable 	Weight, Production
+			
+Tools Recommended: Digging, Mining, Building
+			
+Originally developed as military hardware, polymimetic alloy is programmable matter which is able to change states between liquid and solid. This allows it to be quickly formed and can maintain a rigid or flexible shape, suitible for everything from clothes, weapons, buildings, and armor. Because it can reform when damaged, it has unmatched longevity as a material.</description>
+		<jobString>Fabricating beta poly.</jobString>
+		<workAmount>9000</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BiosyntheticMaterial</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Antimatter</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Vanadium</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<BetaPoly>15</BetaPoly>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Antimatter</li>
+				<li>BiosyntheticMaterial</li>
+				<li>Vanadium</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>20</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>ProduceYautjavium</defName>
+		<label>Fabricate Yautjavium x15</label>
+		<description>TIER 5 - Ultra Tech
+>>> Optimal		
+>> Suitable		
+X Inadvisable 	
+			
+Tools Recommended: 
+			
+This lightweight, exotic alloy is refined at the molecular level and it can hold an edge as such. No blade is sharper than one made of Yautjavian alloy and no metal armor is harder, but it's not an invincible material.</description>
+		<jobString>Fabricating yautjavium alloy.</jobString>
+		<workAmount>9000</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CopperBar</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GlassBatch</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Antimatter</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CarbonAlloy</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<products>
+			<Yautjavium>15</Yautjavium>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CopperBar</li>
+				<li>Antimatter</li>
+				<li>CarbonAlloy</li>
+				<li>GlassBatch</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>20</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+	
+</Defs>

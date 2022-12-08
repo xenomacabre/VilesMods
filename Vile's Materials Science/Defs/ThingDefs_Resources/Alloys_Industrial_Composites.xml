@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- INDUSTRIAL -->
+	<!-- HDPE -->
+	<ThingDef ParentName="SK_ResourceBase" Name="HDPEBase">
+		<defName>Plastic</defName>
+		<label>polyethylene plastic (HDPE)</label>
+		<description>TIER 3 - Industrial (commodity)
+>>> Optimal	Economy
+>> Suitable	Hospitals
+X Inadvisable 	Weapons, Tools
+			
+Tools Recommended: None
+Notes: Apparel made from this is equipped much faster
+			
+High-density polyethylene is one of the three main commodity plastics. It can be used for many practical applications, but isn't especially outstanding in any regard except weight and production speed. It's resistant to harsh solvents and cleaning products making it an good material for hospitals and kitchens.</description>
+		<graphicData>
+			<texPath>Things/Item/Material/HDPEWhite</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>600</stackLimit>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>2</MarketValue>
+			<StuffPower_Armor_Blunt>1.55</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.68</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.095</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>6</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>0.75</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1</BluntDamageMultiplier>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.20</Mass>
+			<Bulk>0.35</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>Plastics</li>
+			<li>LightBar</li>
+			<li>INSBar</li>
+		</thingCategories>
+		<smeltable>true</smeltable>
+		<stuffProps>
+			<stuffAdjective>HDPE</stuffAdjective>
+			<categories>
+				<li>Plastic</li>
+				<li>StrongMetallic</li>
+				<li>LightMaterial</li>
+			</categories>
+			<constructEffect>ConstructMetal</constructEffect>
+			<color>(248,248,239)</color>
+			<commonality>0.5</commonality>
+			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<statFactors>
+				<MaxHitPoints>1.2</MaxHitPoints>
+				<Beauty>1.2</Beauty>
+				<Flammability>0</Flammability>
+				<WorkToMake>0.9</WorkToMake>
+				<WorkToBuild>0.9</WorkToBuild>
+				<DoorOpenSpeed>1.4</DoorOpenSpeed>
+				<MeleeWeapon_CooldownMultiplier>0.6</MeleeWeapon_CooldownMultiplier>
+				<MoveSpeed>0.8</MoveSpeed>
+				<MarketValue>0.75</MarketValue>
+				<BedRestEffectiveness>1.2</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.25</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>1.05</WorkTableWorkSpeedFactor>
+				<MeleePenetrationFactor>0.8</MeleePenetrationFactor>
+				<Mass>0.42</Mass>
+				<Cleanliness>1.5</Cleanliness>
+				<EquipDelay>0.5</EquipDelay>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<modExtensions>
+		    <li Class="SurvivalToolsLite.StuffPropsTool">
+                <toolStatFactors>
+                    <TreeFellingSpeed>0.8</TreeFellingSpeed>
+					<PlantHarvestingSpeed>0.8</PlantHarvestingSpeed>
+					<PlantSowingSpeed>0.8</PlantSowingSpeed>
+					<DiggingSpeed>0.8</DiggingSpeed>
+					<MiningYieldDigging>0.8</MiningYieldDigging>
+					<ConstructionSpeed>0.8</ConstructionSpeed>
+					<CookSpeed>0.8</CookSpeed>
+					<ButcheryFleshSpeed>0.8</ButcheryFleshSpeed>
+                </toolStatFactors>
+            </li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="HDPEBase">
+		<defName>PPPlastic</defName>
+		<label>Polypropylene Plastic</label>
+		<description>TIER 3 - Industrial (commodity)
+>>> Optimal	Economy
+>> Suitable	Riot Armor (cheap)
+X Inadvisable 	Weapons, Tools
+			
+Tools Recommended: None
+Notes: Apparel made from this is equipped much faster
+			
+PP is one of the three main commodity plastics. It can be used for many practical applications, but isn't especially outstanding in any regard except weight and production speed. It can be used to make cheap but fairly adequate riot control armor.</description>
+		<graphicData>
+			<texPath>Things/Item/Material/HDPEBlue</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>2</MarketValue>
+			<StuffPower_Armor_Blunt>1.56</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.74</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.095</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>6</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>0.75</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1</BluntDamageMultiplier>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.20</Mass>
+			<Bulk>0.35</Bulk>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>Polypropylene</stuffAdjective>
+			<categories>
+				<li>Plastic</li>
+				<li>StrongMetallic</li>
+				<li>LightMaterial</li>
+			</categories>
+			<color>(84,127,255)</color>
+			<statFactors>
+				<MaxHitPoints>1.28</MaxHitPoints>
+				<Beauty>1.2</Beauty>
+				<Flammability>0</Flammability>
+				<WorkToMake>0.9</WorkToMake>
+				<WorkToBuild>0.9</WorkToBuild>
+				<DoorOpenSpeed>1.4</DoorOpenSpeed>
+				<MeleeWeapon_CooldownMultiplier>0.6</MeleeWeapon_CooldownMultiplier>
+				<MoveSpeed>0.8</MoveSpeed>
+				<MarketValue>0.75</MarketValue>
+				<BedRestEffectiveness>1.2</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.15</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>1.05</WorkTableWorkSpeedFactor>
+				<MeleePenetrationFactor>0.8</MeleePenetrationFactor>
+				<Mass>0.55</Mass>
+				<Cleanliness>1.25</Cleanliness>
+				<EquipDelay>0.5</EquipDelay>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+	<ThingDef ParentName="HDPEBase">
+		<defName>PVCPlastic</defName>
+		<label>PVC Plastic</label>
+		<description>TIER 3 - Industrial (commodity)
+>>> Optimal	Economy
+>> Suitable	Construction (cheap)
+X Inadvisable 	Hospitals, Tools
+			
+Tools Recommended: None
+Notes: Apparel made from this is equipped much faster
+			
+Polyvinyl chloride is one of the three main commodity plastics. It can be used for many practical applications, but isn't especially outstanding in any regard except weight and construction speed. It's stronger than other cheap plastics and joins easily which makes is a good building material. However, it's one of the more toxix plastics.</description>
+		<graphicData>
+			<texPath>Things/Item/Material/HDPEGreen</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>2</MarketValue>
+			<StuffPower_Armor_Blunt>1.42</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.7</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.095</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>6</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>0.75</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1</BluntDamageMultiplier>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.20</Mass>
+			<Bulk>0.35</Bulk>
+		</statBases>
+		<stuffProps>
+			<stuffAdjective>PVC Plastic</stuffAdjective>
+			<color>(104,234,230)</color>
+			<statFactors>
+				<MaxHitPoints>1.4</MaxHitPoints>
+				<Beauty>1.2</Beauty>
+				<Flammability>0</Flammability>
+				<WorkToMake>0.9</WorkToMake>
+				<WorkToBuild>0.8</WorkToBuild>
+				<DoorOpenSpeed>1.4</DoorOpenSpeed>
+				<MeleeWeapon_CooldownMultiplier>0.6</MeleeWeapon_CooldownMultiplier>
+				<MoveSpeed>0.8</MoveSpeed>
+				<MarketValue>0.75</MarketValue>
+				<BedRestEffectiveness>1.2</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>0.95</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>1.1</WorkTableWorkSpeedFactor>
+				<MeleePenetrationFactor>0.8</MeleePenetrationFactor>
+				<Mass>0.58</Mass>
+				<Cleanliness>0.9</Cleanliness>
+				<EquipDelay>0.5</EquipDelay>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+	<!-- Plexiglass -->
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Plexiglass</defName>
+		<label>plexiglass</label>
+		<description>TIER 3 - Industrial (commodity)
+>>> Optimal	Glass substitute
+>> Suitable	Furniture
+X Inadvisable 	Armor, Tools
+			
+Tools Recommended: None
+Notes: Apparel made from this is equipped much faster
+
+Plexiglass is transparent Polymethyl methacrylate, or acrylic glass. It's stronger than glass, but much weaker than polycarbonate, and unlike glass, can be used in many of the same applications as plastics.</description>
+		<graphicData>
+			<texPath>Things/Item/Material/PolycarbonateClear</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>600</stackLimit>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>2</MarketValue>
+			<StuffPower_Armor_Blunt>1.4</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.75</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.095</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>6</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>0.75</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1</BluntDamageMultiplier>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.25</Mass>
+			<Bulk>0.35</Bulk>
+			<Cleanliness>1.15</Cleanliness>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>Plastics</li>
+			<li>LightBar</li>
+			<li>INSBar</li>
+			<li>GlassCat</li>
+		</thingCategories>
+		<smeltable>true</smeltable>
+		<stuffProps>
+			<stuffAdjective>Plexiglass</stuffAdjective>
+			<categories>
+				<li>Plastic</li>
+				<li>StrongMetallic</li>
+				<li>LightMaterial</li>
+				<li>Glass</li>
+			</categories>
+			<constructEffect>ConstructMetal</constructEffect>
+			<color>(216,235,255)</color>
+			<commonality>0.25</commonality>
+			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<statFactors>
+				<MaxHitPoints>1.15</MaxHitPoints>
+				<Beauty>2.5</Beauty>
+				<Flammability>0</Flammability>
+				<WorkToMake>0.9</WorkToMake>
+				<WorkToBuild>0.9</WorkToBuild>
+				<DoorOpenSpeed>1.4</DoorOpenSpeed>
+				<MeleeWeapon_CooldownMultiplier>0.6</MeleeWeapon_CooldownMultiplier>
+				<MoveSpeed>0.8</MoveSpeed>
+				<MarketValue>0.75</MarketValue>
+				<BedRestEffectiveness>1.2</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.05</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>1.05</WorkTableWorkSpeedFactor>
+				<MeleePenetrationFactor>0.8</MeleePenetrationFactor>
+				<Mass>0.5</Mass>
+				<Cleanliness>1.15</Cleanliness>
+				<EquipDelay>0.5</EquipDelay>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<modExtensions>
+		    <li Class="SurvivalToolsLite.StuffPropsTool">
+                <toolStatFactors>
+                    <TreeFellingSpeed>0.9</TreeFellingSpeed>
+					<PlantHarvestingSpeed>1.05</PlantHarvestingSpeed>
+					<PlantSowingSpeed>1</PlantSowingSpeed>
+					<DiggingSpeed>0.9</DiggingSpeed>
+					<MiningYieldDigging>0.9</MiningYieldDigging>
+					<ConstructionSpeed>0.9</ConstructionSpeed>
+					<CookSpeed>1.05</CookSpeed>
+					<ButcheryFleshSpeed>1.05</ButcheryFleshSpeed>
+                </toolStatFactors>
+            </li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ABS -->
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>ABS</defName>
+		<label>ABS plastic</label>
+		<description>TIER 3 - Industrial (engineering)
+>>> Optimal	Production
+>> Suitable	Riot Control Weapons and Armor (moderate), Furniture
+X Inadvisable 	Kitchens
+			
+Tools Recommended: Bladed (fair)
+Notes: Apparel made from this is equipped much faster
+
+Riding the line between a commodity and engineering plastic, Acrylonitrile-butadiene-styrene is a strong, stiff plastic. It's easier to work with than even HDPE, though more difficult to produce. It's scratch-resistant and shiny due to the styrene, heat reistant due to the acrylonitrile, and has high impact resistance due to the butadiene rubber. It can actually be used to make somewhat adequate knives and tools. If you've ever stepped on a lego, you've experienced just how hard and sharp ABS can be.</description>
+		<graphicData>
+			<texPath>Things/Item/Material/ABSBlack</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>600</stackLimit>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>4</MarketValue>
+			<StuffPower_Armor_Blunt>1.65</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.85</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.09</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>5</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>0.95</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.15</BluntDamageMultiplier>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.25</Mass>
+			<Bulk>0.35</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>Plastics</li>
+			<li>LightBar</li>
+			<li>INSBar</li>
+		</thingCategories>
+		<smeltable>true</smeltable>
+		<stuffProps>
+			<stuffAdjective>ABS</stuffAdjective>
+			<categories>
+				<li>Plastic</li>
+				<li>StrongMetallic</li>
+				<li>LightMaterial</li>
+				<li>CorrosionResistant</li>
+			</categories>
+			<constructEffect>ConstructMetal</constructEffect>
+			<color>(41,55,57)</color>
+			<commonality>0.25</commonality>
+			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<statFactors>
+				<MaxHitPoints>1.5</MaxHitPoints>
+				<Beauty>3</Beauty>
+				<Flammability>0.2</Flammability>
+				<WorkToMake>0.85</WorkToMake>
+				<WorkToBuild>0.75</WorkToBuild>
+				<DoorOpenSpeed>1.4</DoorOpenSpeed>
+				<MeleeWeapon_CooldownMultiplier>0.6</MeleeWeapon_CooldownMultiplier>
+				<MoveSpeed>0.8</MoveSpeed>
+				<MarketValue>0.75</MarketValue>
+				<BedRestEffectiveness>1</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>1.05</WorkTableWorkSpeedFactor>
+				<MeleePenetrationFactor>0.9</MeleePenetrationFactor>
+				<Mass>0.55</Mass>
+				<Cleanliness>1</Cleanliness>
+				<EquipDelay>0.5</EquipDelay>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<modExtensions>
+		    <li Class="SurvivalToolsLite.StuffPropsTool">
+                <toolStatFactors>
+                    <TreeFellingSpeed>0.9</TreeFellingSpeed>
+					<PlantHarvestingSpeed>1.05</PlantHarvestingSpeed>
+					<PlantSowingSpeed>1</PlantSowingSpeed>
+					<DiggingSpeed>0.9</DiggingSpeed>
+					<MiningYieldDigging>0.9</MiningYieldDigging>
+					<ConstructionSpeed>0.9</ConstructionSpeed>
+					<CookSpeed>1.05</CookSpeed>
+					<ButcheryFleshSpeed>1.05</ButcheryFleshSpeed>
+                </toolStatFactors>
+            </li>
+		</modExtensions>
+	</ThingDef>	
+	
+	<!-- PC-->
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Polycarbonate</defName>
+		<label>polycarbonate</label>
+		<description>TIER 3 - Industrial (engineering)
+>>> Optimal	Riot control weapons/armor
+>> Suitable	Ballistic Glass
+X Inadvisable 	Production
+			
+Tools Recommended: Building (fair)
+Notes: Apparel made from this is equipped much faster, and is less bulky.
+
+Polycarbonate is a clear plastic which is often used for bulletproof glass and riot gear. It has high impact strength but because it is very stiff, it will shatter faster than soft and flexible polyethylene.</description>
+		<graphicData>
+			<texPath>Things/Item/Material/PolycarbonateRed</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>600</stackLimit>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<StuffPower_Armor_Blunt>1.6</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.05</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.11</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>5</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>1</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.4</BluntDamageMultiplier>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.25</Mass>
+			<Bulk>0.35</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>Plastics</li>
+			<li>LightBar</li>
+			<li>INSBar</li>
+			<li>GlassCat</li>
+		</thingCategories>
+		<smeltable>true</smeltable>
+		<stuffProps>
+			<stuffAdjective>Polycarbonate</stuffAdjective>
+			<categories>
+				<li>Plastic</li>
+				<li>StrongMetallic</li>
+				<li>RuggedMetallic</li>
+				<li>LightMaterial</li>
+				<li>CorrosionResistant</li>
+				<li>Glass</li>
+			</categories>
+			<constructEffect>ConstructMetal</constructEffect>
+			<color>(255,85,50)</color>
+			<commonality>0.25</commonality>
+			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<statFactors>
+				<MaxHitPoints>1.85</MaxHitPoints>
+				<Beauty>2</Beauty>
+				<Flammability>0</Flammability>
+				<WorkToMake>1.4</WorkToMake>
+				<WorkToBuild>1.4</WorkToBuild>
+				<DoorOpenSpeed>1.4</DoorOpenSpeed>
+				<MeleeWeapon_CooldownMultiplier>0.6</MeleeWeapon_CooldownMultiplier>
+				<MoveSpeed>0.8</MoveSpeed>
+				<MarketValue>0.8</MarketValue>
+				<BedRestEffectiveness>1.05</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.18</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>1.1</WorkTableWorkSpeedFactor>
+				<MeleePenetrationFactor>1</MeleePenetrationFactor>
+				<Mass>0.5</Mass>
+				<Cleanliness>1.1</Cleanliness>
+				<WornBulk>0.9</WornBulk>
+				<EquipDelay>0.5</EquipDelay>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<modExtensions>
+		    <li Class="SurvivalToolsLite.StuffPropsTool">
+                <toolStatFactors>
+                    <TreeFellingSpeed>1</TreeFellingSpeed>
+					<PlantHarvestingSpeed>1</PlantHarvestingSpeed>
+					<PlantSowingSpeed>0.8</PlantSowingSpeed>
+					<DiggingSpeed>0.7</DiggingSpeed>
+					<MiningYieldDigging>0.8</MiningYieldDigging>
+					<ConstructionSpeed>1.1</ConstructionSpeed>
+					<CookSpeed>1</CookSpeed>
+					<ButcheryFleshSpeed>1</ButcheryFleshSpeed>
+                </toolStatFactors>
+            </li>
+		</modExtensions>
+	</ThingDef>
+	
+	<!-- FIBERGLASS -->
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Fiberglass</defName>
+		<label>fiberglass</label>
+		<description>TIER 3 - Industrial (engineering)
+>>> Optimal	Construction
+>> Suitable	Workshops, Thermal Armor/bunker gear (cheap)
+X Inadvisable 	Tools, Weapons
+			
+Tools Recommended: Tree-cutting (fair)
+Notes: Apparel made from this is equipped much faster
+			
+Glass-fiber reinforced plastic is a composite material of glass fibers set into a thermoset polymer matrix. It's lightweight and easy to work with and builds sturdy structures. It's popular for its insulation properties and can even be used to fabricate armor which is strong against energy weapons, or cheap gear for firefighters.</description>
+		<graphicData>
+			<texPath>Things/Item/Material/Fiberglass</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>600</stackLimit>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>8</MarketValue>
+			<StuffPower_Armor_Blunt>1.45</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.15</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.16</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>70</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>1</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.28</Mass>
+			<Bulk>0.35</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>Plastics</li>
+			<li>LightBar</li>
+			<li>INSBar</li>
+		</thingCategories>
+		<smeltable>true</smeltable>
+		<stuffProps>
+			<stuffAdjective>Fiberglass</stuffAdjective>
+			<categories>	
+				<li>Plastic</li>
+				<li>StrongMetallic</li>
+				<li>LightMaterial</li>
+				<li>CorrosionResistant</li>
+			</categories>
+			<constructEffect>ConstructMetal</constructEffect>
+			<color>(255,246,145)</color>
+			<commonality>0.35</commonality>
+			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<statFactors>
+				<MaxHitPoints>1.7</MaxHitPoints>
+				<Beauty>1</Beauty>
+				<Flammability>0</Flammability>
+				<WorkToMake>1.2</WorkToMake>
+				<WorkToBuild>1.2</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+				<MeleeWeapon_CooldownMultiplier>0.7</MeleeWeapon_CooldownMultiplier>
+				<MoveSpeed>0.8</MoveSpeed>
+				<MarketValue>0.8</MarketValue>
+				<BedRestEffectiveness>1.1</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>1.2</WorkTableWorkSpeedFactor>
+				<MeleePenetrationFactor>0.9</MeleePenetrationFactor>
+				<Mass>0.7</Mass>
+				<Cleanliness>1.3</Cleanliness>
+				<EquipDelay>0.5</EquipDelay>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<modExtensions>
+		    <li Class="SurvivalToolsLite.StuffPropsTool">
+                <toolStatFactors>
+                    <TreeFellingSpeed>1.1</TreeFellingSpeed>
+					<PlantHarvestingSpeed>0.9</PlantHarvestingSpeed>
+					<PlantSowingSpeed>0.9</PlantSowingSpeed>
+					<DiggingSpeed>0.9</DiggingSpeed>
+					<MiningYieldDigging>0.9</MiningYieldDigging>
+					<ConstructionSpeed>0.9</ConstructionSpeed>
+					<CookSpeed>0.9</CookSpeed>
+					<ButcheryFleshSpeed>0.9</ButcheryFleshSpeed>
+                </toolStatFactors>
+            </li>
+		</modExtensions>
+	</ThingDef>
+
+	
+</Defs>

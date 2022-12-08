@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
+<!--
   <ThingDef ParentName="BasedHygieneMom" Name="DubsDirtyPipeBase" Abstract="True">
     <label>pipe</label>
     <thingClass>DubsBadHygiene.Building_Pipe</thingClass>
@@ -44,6 +44,7 @@
       <li Class="DubsBadHygiene.BuildWaterExt" />
     </modExtensions>
   </ThingDef>
+-->
 	<!--
 	<ThingDef ParentName="BasedHygieneMom" Name="DubsDirtyPipeBaseAqueduct" Abstract="True">
     <label>aqueduct</label>

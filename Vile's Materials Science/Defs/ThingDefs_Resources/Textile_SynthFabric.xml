@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- RAYON -->
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Rayon</defName>
+		<label>Rayon</label>
+		<description>TIER 3 - Industrial (Commodity)
+>>> Optimal	Economy
+>> Suitable	Summer
+X Inadvisable 	Durability
+
+Rayon is a silk-like fabric made by treating cellulose fiber with chemicals. It's very light.</description>
+		<graphicData>
+			<texPath>Things/Item/Textile/Polyester</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(255,161,161)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<MarketValue>9.0</MarketValue>
+			<Flammability>1.5</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<StuffPower_Armor_Blunt>0.85</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.28</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.13</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>5</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+			<Mass>0.03</Mass>
+			<Bulk>0.03</Bulk>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<stackLimit>300</stackLimit>
+		<techLevel>Industrial</techLevel>
+		<stuffProps>
+			<commonality>0.8</commonality>
+			<stuffAdjective>Rayon</stuffAdjective>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<color>(255,161,161)</color>
+			<statFactors>
+				<MaxHitPoints>1.3</MaxHitPoints>
+				<Beauty>1.8</Beauty>
+				<WorkToMake>1.5</WorkToMake>
+				<WorkToBuild>1.5</WorkToBuild>
+				<MoveSpeed>0.8</MoveSpeed>
+				<MarketValue>1.5</MarketValue>
+				<BedRestEffectiveness>1.15</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+				<Mass>0.3</Mass>
+				<Cleanliness>2</Cleanliness>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>HTextiles</li>
+		</thingCategories>
+	</ThingDef>
+	
+<!-- VELOUR -->
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Velour</defName>
+		<label>Velour</label>
+		<description>TIER 3 - Industrial
+>>> Optimal	Bedding, Furniture
+>> Suitable	All-season
+X Inadvisable 	Armor, Economy
+
+This luxurious fabric is made of a blend of cotton and rayon. It's exceptionally beautiful and makes fantastic furniture.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Cloth</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(209,52,83)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<MarketValue>12.0</MarketValue>
+			<Flammability>2</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<StuffPower_Armor_Blunt>0.95</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.85</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.133</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>15</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+			<Mass>0.03</Mass>
+			<Bulk>0.03</Bulk>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<stackLimit>300</stackLimit>
+		<techLevel>Industrial</techLevel>
+		<stuffProps>
+			<commonality>0.2</commonality>
+			<stuffAdjective>Velour</stuffAdjective>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<color>(209,52,83)</color>
+			<statFactors>
+				<MaxHitPoints>1.5</MaxHitPoints>
+				<Beauty>4</Beauty>
+				<WorkToMake>1.2</WorkToMake>
+				<WorkToBuild>1.2</WorkToBuild>
+				<MoveSpeed>0.8</MoveSpeed>
+				<MarketValue>1.5</MarketValue>
+				<BedRestEffectiveness>1.35</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.05</ImmunityGainSpeedFactor>
+				<Mass>0.5</Mass>
+				<Cleanliness>1.33</Cleanliness>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>HTextiles</li>
+		</thingCategories>
+	</ThingDef>
+	
+
+<!-- POLYESTER -->
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Synthread</defName>
+		<label>Polyester</label>
+		<description>TIER 3 - Industrial (Commodity)
+>>> Optimal	Production
+>> Suitable	Hospitals, Durability
+X Inadvisable 	Bedding
+
+Polyester is synthetic fabric made from polymer fibers. It's exceptionally easy to work with making it a commodity material, insulates well, but isn't the most comfortable in hot climates. It's antimicrobial properties make it an excellent candidate for hospital bedding.</description>
+		<graphicData>
+			<texPath>Things/Item/Textile/Polyester</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(255,255,190)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<MarketValue>5.0</MarketValue>
+			<Flammability>0.3</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<StuffPower_Armor_Blunt>1.2</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.5</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.135</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>16</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>6</StuffPower_Insulation_Heat>
+			<Mass>0.03</Mass>
+			<Bulk>0.03</Bulk>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<stackLimit>300</stackLimit>
+		<techLevel>Industrial</techLevel>
+		<stuffProps>
+			<commonality>1.6</commonality>
+			<stuffAdjective>Polyester</stuffAdjective>
+			<categories>
+				<li>HF</li>
+			</categories>
+			<color>(255,255,190)</color>
+			<statFactors>
+				<MaxHitPoints>1.8</MaxHitPoints>
+				<Beauty>1.2</Beauty>
+				<WorkToMake>0.6</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+				<MoveSpeed>0.7</MoveSpeed>
+				<MarketValue>1.3</MarketValue>
+				<BedRestEffectiveness>1.05</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.3</ImmunityGainSpeedFactor>
+				<Mass>0.4</Mass>
+				<Cleanliness>3</Cleanliness>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>HTextiles</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<!-- Modacrylic -->
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Modacrylic</defName>
+		<label>Modacrylic</label>
+		<description>TIER 3 - Industrial (Commodity)
+>>> Optimal	Heat Resistance, Summer
+>> Suitable	Winter, Production
+X Inadvisable 	Bedding
+
+Modacrylic is a synthetic fiber often used for commercial multi-risk hazard protection. Helps regulated body temperature and moisture. Available in high-visibility yellow.</description>
+		<graphicData>
+			<texPath>Things/Item/Textile/Polyester</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(255,233,28)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<MarketValue>11</MarketValue>
+			<Flammability>-1</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<StuffPower_Armor_Blunt>1.45</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.2</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.155</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>90</StuffPower_Insulation_Heat>
+			<Mass>0.03</Mass>
+			<Bulk>0.03</Bulk>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<stackLimit>300</stackLimit>
+		<techLevel>Industrial</techLevel>
+		<stuffProps>
+			<commonality>0.8</commonality>
+			<stuffAdjective>Modacrylic</stuffAdjective>
+			<categories>
+				<li>HF</li>
+			</categories>
+			<color>(255,233,28)</color>
+			<statFactors>
+				<MaxHitPoints>2.1</MaxHitPoints>
+				<Flammability>-1</Flammability>
+				<Beauty>1.1</Beauty>
+				<WorkToMake>1</WorkToMake>
+				<WorkToBuild>1</WorkToBuild>
+				<MoveSpeed>0.7</MoveSpeed>
+				<MarketValue>1.4</MarketValue>
+				<BedRestEffectiveness>1.05</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.15</ImmunityGainSpeedFactor>
+				<Mass>0.55</Mass>
+				<Cleanliness>2</Cleanliness>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>HTextiles</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<!-- FLEECE -->
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Fleece</defName>
+		<label>Polar fleece</label>
+		<description>TIER 3 - Industrial (Commodity)
+>>> Optimal	Winter
+>> Suitable	Bedding
+X Inadvisable 	Summer
+
+Fleece is a synthetic fabric made of polyester. It's warm and has many of the same properties as wool, but at a fraction of the weight.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Wool</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(140,213,192)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<MarketValue>8.0</MarketValue>
+			<Flammability>0.3</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<StuffPower_Armor_Blunt>1.2</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.2</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.12</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>34</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>-5</StuffPower_Insulation_Heat>
+			<Mass>0.03</Mass>
+			<Bulk>0.03</Bulk>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<stackLimit>300</stackLimit>
+		<techLevel>Industrial</techLevel>
+		<stuffProps>
+			<commonality>1</commonality>
+			<stuffAdjective>fleece</stuffAdjective>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<color>(140,213,192)</color>
+			<statFactors>
+				<MaxHitPoints>1.6</MaxHitPoints>
+				<Beauty>1.35</Beauty>
+				<WorkToMake>1.3</WorkToMake>
+				<WorkToBuild>1.3</WorkToBuild>
+				<MoveSpeed>0.7</MoveSpeed>
+				<MarketValue>1.2</MarketValue>
+				<BedRestEffectiveness>1.1</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>
+				<Mass>0.45</Mass>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>HTextiles</li>
+		</thingCategories>
+	</ThingDef>
+	
+<!-- HF Industrial -->
+	<!-- NOMEX -->
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Nomex</defName>
+		<label>Nomex</label>
+		<description>TIER 3 - Industrial (Engineering)
+>>> Optimal	Extreme Heat Resistance, Summer
+>> Suitable	Thermal Armor
+X Inadvisable 	Production, Economy
+
+Nomex is a meta-aramid (a class of high-performance synthetic fiber), which has fire resistance properties. It's not nearly as strong as para-aramids (ie, Kevlar), but it excels against energy weapons and is ideal for a firefighters bunker gear. Both aramids are durable and long-lasting.</description>
+		<graphicData>
+			<texPath>Things/Item/Textile/Nomex</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(69,107,255)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<MarketValue>25.0</MarketValue>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<StuffPower_Armor_Blunt>1.4</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.4</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.78</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>25</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>120</StuffPower_Insulation_Heat>
+			<Mass>0.03</Mass>
+			<Bulk>0.03</Bulk>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<stackLimit>300</stackLimit>
+		<techLevel>Spacer</techLevel>
+		<stuffProps>
+			<commonality>0.2</commonality>
+			<stuffAdjective>Nomex</stuffAdjective>
+			<categories>
+				<li>HF</li>
+			</categories>
+			<color>(69,107,255)</color>
+			<statFactors>
+				<MaxHitPoints>2.15</MaxHitPoints>
+				<Beauty>1.5</Beauty>
+				<Flammability>-1</Flammability>
+				<WorkToMake>1.6</WorkToMake>
+				<WorkToBuild>1.6</WorkToBuild>
+				<MoveSpeed>0.7</MoveSpeed>
+				<MarketValue>2</MarketValue>
+				<BedRestEffectiveness>1.1</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>
+				<Mass>0.7</Mass>
+				<Cleanliness>2</Cleanliness>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>HTextiles</li>
+		</thingCategories>
+	</ThingDef>
+	
+	
+	<!-- KEVLAR -->
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Kevlar</defName>
+		<label>Kevlar</label>
+		<description>TIER 3 - Industrial (Engineering)
+>>> Optimal	Ballistic Armor
+>> Suitable	Durability
+X Inadvisable 	Economy, Summer
+
+Kevlar is a para-aramid (a class of high-performance synthetic fiber). In contrast to Nomex, it has can be used as ballistic armor and tends to be uncomfortable in hot weather. Both aramids are durable and long-lasting.</description>
+		<graphicData>
+			<texPath>Things/Item/Textile/HiTech</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(136,189,97)</color>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<tickerType>Rare</tickerType>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>25</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Flammability>0.05</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<StuffPower_Armor_Blunt>1.65</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.85</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.158</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>15</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>-3</StuffPower_Insulation_Heat>
+			<Mass>0.1</Mass>
+			<Bulk>0.1</Bulk>
+		</statBases>
+		<stuffProps>
+			<commonality>0.35</commonality>
+			<constructEffect>ConstructMetal</constructEffect>
+			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<categories>
+				<li>HF</li>
+			</categories>
+			<color>(136,189,97)</color>
+			<statFactors>
+				<MaxHitPoints>2.4</MaxHitPoints>
+				<Flammability>0.03</Flammability>
+				<Beauty>1.0</Beauty>
+				<WorkToMake>1.5</WorkToMake>
+				<WorkToBuild>1.5</WorkToBuild>
+				<MoveSpeed>0.8</MoveSpeed>
+				<MarketValue>2</MarketValue>
+				<BedRestEffectiveness>1</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>
+				<Mass>0.8</Mass>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>HTextiles</li>
+		</thingCategories>
+		<stackLimit>150</stackLimit>
+	</ThingDef>
+	
+<!-- SPACER -->
+	<!-- DYNEEMA -->
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Hyperweave</defName>
+		<label>Dyneema</label>
+		<description>TIER 4 - High Tech
+>>> Optimal	Ballistic Armor
+>> Suitable	Durability
+X Inadvisable 	Production
+
+Dyneema is an UHMWPE (ultra-high molecular weight polyurythane). It is the strongest ballistic fiber on the market, is lightweight and comfortable.</description>
+		<graphicData>
+			<texPath>Things/Item/Textile/HexFabric</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(161,182,180)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>35</MarketValue>
+			<MaxHitPoints>200</MaxHitPoints>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0.1</Flammability>
+			<StuffPower_Armor_Blunt>1.65</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>2.2</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.16</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>7</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>18</StuffPower_Insulation_Heat>
+			<Mass>0.03</Mass>
+			<Bulk>0.03</Bulk>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<techLevel>Spacer</techLevel>
+		<stuffProps>
+			<commonality>0.2</commonality>
+			<stuffAdjective>dyneema</stuffAdjective>
+			<categories>
+				<li>HF</li>
+			</categories>
+			<color>(0,106,126)</color>
+			<statFactors>
+				<MaxHitPoints>2.6</MaxHitPoints>
+				<Flammability>0.1</Flammability>
+				<WorkToMake>2</WorkToMake>
+				<WorkToBuild>2</WorkToBuild>
+				<Beauty>1.5</Beauty>
+				<MoveSpeed>1.2</MoveSpeed>
+				<MarketValue>2.5</MarketValue>
+				<BedRestEffectiveness>1.2</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.2</ImmunityGainSpeedFactor>
+				<Mass>0.55</Mass>
+				<Cleanliness>2</Cleanliness>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>HTextiles</li>
+		</thingCategories>
+		<stackLimit>150</stackLimit>
+	</ThingDef>
+	
+	<!-- ZYLON -->
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>ChitinPlating</defName>
+		<label>Zylon</label>
+		<description>TIER 4 - High Tech
+>>> Optimal	Thermal Armor, Heat Resistance
+>> Suitable	Ballistic Armor
+X Inadvisable 	Durability
+
+Recognized by its golden hue, Zylon is a high-perfomance synthetic fiber with fire-resistant properties. It makes top-tier ballistic armor, bested only by Dyneema, but as a textile, it's unrivaled against energy weapons. It also makes effective fire-fighting apparel, second only to Nomex. Its only real failing is the fibers tend to break down over time so it doesn't have the longevity other ballistic fibers have.</description>
+		<graphicData>
+			<texPath>Things/Item/Textile/HexFabric</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(255,207,100)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>35</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<StuffPower_Armor_Blunt>1.7</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.9</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.2</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>14</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>75</StuffPower_Insulation_Heat>
+			<Mass>0.03</Mass>
+			<Bulk>0.03</Bulk>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<techLevel>Spacer</techLevel>
+		<stuffProps>
+			<commonality>0.2</commonality>
+			<stuffAdjective>zylon</stuffAdjective>
+			<categories>
+				<li>HF</li>
+			</categories>
+			<color>(255,207,100)</color>
+			<statFactors>
+				<MaxHitPoints>1.9</MaxHitPoints>
+				<Flammability>-1</Flammability>
+				<WorkToMake>1.8</WorkToMake>
+				<WorkToBuild>1.8</WorkToBuild>
+				<Beauty>2</Beauty>
+				<MoveSpeed>1.2</MoveSpeed>
+				<MarketValue>2.5</MarketValue>
+				<BedRestEffectiveness>1.15</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.3</ImmunityGainSpeedFactor>
+				<Mass>0.8</Mass>
+				<Cleanliness>3</Cleanliness>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>HTextiles</li>
+		</thingCategories>
+		<stackLimit>150</stackLimit>
+	</ThingDef>
+	
+		<!-- MICROPEL -->
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Micropel</defName>
+		<label>Micropel</label>
+		<description>TIER 4 - High Tech
+>>> Optimal	Hospitals
+>> Suitable	Bedding, Production
+X Inadvisable 	Armor
+
+Micropel is a self-cleaning polyester-based fabric that utilizes nanoparticles of silver and carbon nanotubes. It has a long lifespan and is perfectly suited for hospitals.</description>
+		<graphicData>
+			<texPath>Things/Item/Textile/HiTech</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(188,220,255)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>25</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<StuffPower_Armor_Blunt>0.9</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.12</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>8</StuffPower_Insulation_Heat>
+			<Mass>0.03</Mass>
+			<Bulk>0.03</Bulk>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<techLevel>Spacer</techLevel>
+		<stuffProps>
+			<commonality>0.15</commonality>
+			<stuffAdjective>micropel</stuffAdjective>
+			<categories>
+				<li>HF</li>
+			</categories>
+			<color>(188,220,255)</color>
+			<statFactors>
+				<MaxHitPoints>2.4</MaxHitPoints>
+				<Flammability>0</Flammability>
+				<WorkToMake>1.2</WorkToMake>
+				<WorkToBuild>1.2</WorkToBuild>
+				<Beauty>2</Beauty>
+				<MoveSpeed>1.2</MoveSpeed>
+				<MarketValue>1.5</MarketValue>
+				<BedRestEffectiveness>1.2</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.45</ImmunityGainSpeedFactor>
+				<Mass>0.45</Mass>
+				<Cleanliness>6</Cleanliness>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>HTextiles</li>
+		</thingCategories>
+		<stackLimit>150</stackLimit>
+	</ThingDef>
+
+	
+	
+</Defs>

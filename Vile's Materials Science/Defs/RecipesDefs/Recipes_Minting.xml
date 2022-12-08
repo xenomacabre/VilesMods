@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>MakeCoins</defName>
+		<label>Mint Silver Coins x100</label>
+		<description>Mint coins from sterling silver. Produces 100.</description>
+		<jobString>Minting coins.</jobString>
+		<workAmount>300</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SilverBar</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SilverBar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Silver>10</Silver>
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	    <workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Metals_C1</researchPrerequisite>
+	</RecipeDef>
+    <RecipeDef>
+		<defName>MeltCoins</defName>
+		<label>Melt Coins into Alloy x10</label>
+		<description>Melt silver coins into useful ingots. Produces 10.</description>
+		<jobString>Minting coins.</jobString>
+		<workAmount>300</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Silver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<SilverBar>10</SilverBar>
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	    <workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Metals_C1</researchPrerequisite>
+	</RecipeDef>
+    <!--
+    <RecipeDef>
+		<defName>LiquidateSilver</defName>
+		<label>Liquidate from Sterling Silver/Coins</label>
+		<description>Separate pure silver and copper from sterling silver alloy or silver coins.</description>
+		<jobString>Minting coins.</jobString>
+		<workAmount>500</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SilverBar</li>
+                        <li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SilverBar</li>
+                <li>Silver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PureSilver>8</PureSilver>
+            <CopperBar>2</CopperBar>
+		</products>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	    <workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Metals_C1</researchPrerequisite>
+	</RecipeDef>
+    -->
+</Defs>
+    

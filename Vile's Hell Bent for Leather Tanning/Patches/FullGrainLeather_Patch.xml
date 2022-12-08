@@ -129,7 +129,12 @@
 							<Mass>0.65</Mass>
 						</value>
 					</li>
-			
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/stuffProps/statFactors</xpath>
+							<value>
+								<Cleanliness>1.3</Cleanliness>
+							</value>
+						</li>
 
 			<!-- BREATHABLE LEATHER --> 
 			<li Class="PatchOperationReplace">
@@ -247,6 +252,12 @@
 							<Mass>0.6</Mass>
 						</value>
 					</li>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Leather_Boomanimal"]/stuffProps/statFactors</xpath>
+							<value>
+								<Cleanliness>1.3</Cleanliness>
+							</value>
+						</li>
 			
 			<!-- EXOTIC LEATHER --> 
 			<li Class="PatchOperationReplace">
@@ -365,6 +376,12 @@
 							<Mass>0.6</Mass>
 						</value>
 					</li>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Leather_Lizard"]/stuffProps/statFactors</xpath>
+							<value>
+								<Cleanliness>1.3</Cleanliness>
+							</value>
+						</li>
 			
 			<!-- HEAVY LEATHER --> 
 			<li Class="PatchOperationReplace">
@@ -483,6 +500,13 @@
 							<Mass>0.8</Mass>
 						</value>
 					</li>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Leather_Elephant"]/stuffProps/statFactors</xpath>
+							<value>
+								<Cleanliness>1.3</Cleanliness>
+							</value>
+						</li>
+			
 			
 			
 			<!-- STOCK LEATHER --> 
@@ -546,9 +570,6 @@
 					<MarketValue>5</MarketValue>
 				</value>
 			</li>
-			
-			
-			
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Plain"]/stuffProps/color</xpath>
 				<value>
@@ -603,6 +624,13 @@
 							<Mass>0.6</Mass>
 						</value>
 					</li>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Leather_Plain"]/stuffProps/statFactors</xpath>
+							<value>
+								<Cleanliness>1.3</Cleanliness>
+							</value>
+						</li>
+			
 			
 			<!-- LIGHT LEATHER --> 
 			<li Class="PatchOperationReplace">
@@ -722,6 +750,12 @@
 							<Mass>0.5</Mass>
 						</value>
 					</li>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Leather_Light"]/stuffProps/statFactors</xpath>
+							<value>
+								<Cleanliness>1.3</Cleanliness>
+							</value>
+						</li>
 					
 			<!-- SOFT LEATHER --> 
 			<li Class="PatchOperationReplace">
@@ -839,6 +873,12 @@
 							<Mass>0.65</Mass>
 						</value>
 					</li>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Leather_Pig"]/stuffProps/statFactors</xpath>
+							<value>
+								<Cleanliness>1.3</Cleanliness>
+							</value>
+						</li>
 		
 			<!-- STERILE LEATHER --> 
 			<li Class="PatchOperationReplace">
@@ -957,6 +997,13 @@
 							<Mass>0.65</Mass>
 						</value>
 					</li>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Leather_Nightling"]/stuffProps/statFactors</xpath>
+							<value>
+								<Cleanliness>1.8</Cleanliness>
+							</value>
+						</li>
+		
 					
 			<!-- BUCKSKIN LEATHER --> 
 			<li Class="PatchOperationReplace">
@@ -1075,6 +1122,13 @@
 						</value>
 					</li>
 			
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Leather_Dog"]/stuffProps/statFactors</xpath>
+							<value>
+								<Cleanliness>0.75</Cleanliness>
+							</value>
+						</li>
+			
 			<!-- HUMAN -->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Human"]/graphicData/color</xpath>
@@ -1088,6 +1142,12 @@
 					<color>(174,51,6)</color>
 				</value>
 			</li>
+				<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Leather_Human"]/stuffProps/statFactors</xpath>
+							<value>
+								<Cleanliness>1</Cleanliness>
+							</value>
+						</li>
 		</operations>
 		</match>
     </Operation>	

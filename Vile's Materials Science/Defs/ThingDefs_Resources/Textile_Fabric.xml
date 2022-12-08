@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- LINEN -->
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Flaxcloth</defName>
+		<label>Linen</label>
+		<description>TIER 2 - Medieval
+>>> Optimal	Bedding
+>> Suitable	Durability
+X Inadvisable 	Production
+
+A study, all-purpose fabric. It's good for all seasons and makes fantastic bed sheets.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Cloth</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(214,196,170)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>1.5</MarketValue>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<StuffPower_Armor_Blunt>0.97</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.08</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.10</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+			<Mass>0.02</Mass>
+			<Bulk>0.02</Bulk>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<stackLimit>150</stackLimit>
+		<techLevel>Medieval</techLevel>
+		<stuffProps>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<color>(214,196,170)</color>
+			<statFactors>
+				<MaxHitPoints>1.75</MaxHitPoints>
+				<Beauty>1.2</Beauty>
+				<WorkToMake>1.25</WorkToMake>
+				<WorkToBuild>1.25</WorkToBuild>
+				<MoveSpeed>0.95</MoveSpeed>
+				<MarketValue>0.7</MarketValue>
+				<BedRestEffectiveness>1.2</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.08</ImmunityGainSpeedFactor>
+				<Mass>0.52</Mass>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BTextiles</li>
+		</thingCategories>
+		<comps>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+		</comps>
+	</ThingDef>  
+	
+	<!-- COTTON CLOTH -->
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Cloth</defName>
+		<label>cloth</label>
+		<description>TIER 2 - Medieval
+>>> Optimal	Production
+>> Suitable	Economy, Winter
+X Inadvisable 	Durability
+
+Cotton cloth is an economical and production-oriented fabric in that it's easy to produce and work with and good for all seasons. It's the warmest of the organic fabrics but doesn't breath as well as hemp or linen. It's lightweight, but fragile.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Cloth</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(206,204,204)</color>	
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>1.5</MarketValue>
+			<Flammability>1.75</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<StuffPower_Armor_Blunt>0.95</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.115</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>16</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+			<Mass>0.01</Mass>
+			<Bulk>0.01</Bulk>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<stackLimit>300</stackLimit>
+		<techLevel>Medieval</techLevel>
+		<stuffProps>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<color>(206,204,204)</color>			
+			<statFactors>
+				<MaxHitPoints>1.5</MaxHitPoints>
+				<Beauty>1.1</Beauty>
+				<MoveSpeed>1</MoveSpeed>
+				<MarketValue>0.8</MarketValue>
+				<WorkToMake>0.8</WorkToMake>
+				<WorkToBuild>0.8</WorkToBuild>
+				<BedRestEffectiveness>1.1</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.14</ImmunityGainSpeedFactor>
+				<Mass>0.4</Mass>
+			</statFactors>
+			<commonality>1.4</commonality>
+			<allowColorGenerators>true</allowColorGenerators>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BTextiles</li>
+		</thingCategories>
+		<comps>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+		</comps><!--
+		<colorGeneratorInTraderStock Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>5</weight>
+					<only>(0.33,0.33,0.33,1)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<min>(0.3,0.3,0.3,1)</min>
+					<max>(0.9,0.9,0.9,1)</max>
+				</li>
+				<li>
+					<weight>5</weight>
+					<only>(0.9,0.9,0.9,1)</only>
+				</li>
+			</options>
+		</colorGeneratorInTraderStock>
+		-->
+		<allowedArchonexusCount>100</allowedArchonexusCount>
+	</ThingDef>
+	
+	<!-- HEMP FABRIC -->
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>HempCloth</defName>
+		<label>Hemp</label>
+		<description>TIER 2 - Medieval
+>>> Optimal	Hospitals
+>> Suitable	Armor, Summer
+X Inadvisable 	Economy
+
+Hemp is a type of cloth woven from smokeweed. It has natural antimicrobial properties and makes fairly strong padded armor, but it's harder to spin than cloth.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Cloth</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(170,181,133)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>3</MarketValue>
+			<Flammability>1.25</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<StuffPower_Armor_Blunt>0.93</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.62</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.132</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>9</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+			<Mass>0.015</Mass>
+			<Bulk>0.015</Bulk>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<stackLimit>300</stackLimit>
+		<techLevel>Medieval</techLevel>
+		<stuffProps>
+			<stuffAdjective>Hemp</stuffAdjective>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<color>(170,181,133)</color>
+			<allowColorGenerators>false</allowColorGenerators>
+			<statFactors>
+				<MaxHitPoints>1.8</MaxHitPoints>
+				<Beauty>1.6</Beauty>
+				<MoveSpeed>1.0</MoveSpeed>
+				<MarketValue>0.8</MarketValue>
+				<WorkToMake>0.8</WorkToMake>
+				<WorkToBuild>0.8</WorkToBuild>
+				<BedRestEffectiveness>1.15</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.25</ImmunityGainSpeedFactor>
+				<Mass>0.47</Mass>
+				<Cleanliness>1.8</Cleanliness>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BTextiles</li>
+		</thingCategories>
+		<comps>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+	
+</Defs>

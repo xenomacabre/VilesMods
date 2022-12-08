@@ -27,13 +27,13 @@
 	<success>Always</success>
 		<operations>
 		
-			<li Class="PatchOperationReplace">
+			<!--<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="ChitinPlating"]/label</xpath>
 				<value>
 					<label>chitin weave</label>
 				</value>
 			</li>
-			
+			-->
 
 			<!-- finished LEATHER brown --> 
 			
@@ -160,6 +160,12 @@
 							<Mass>0.5</Mass>
 						</value>
 					</li>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Leather_Fox"]/stuffProps/statFactors</xpath>
+							<value>
+								<Cleanliness>1.1</Cleanliness>
+							</value>
+						</li>
 			
 			<!-- NUBUCK LEATHER --> 
 		
@@ -259,7 +265,7 @@
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/stuffProps/statFactors/BedRestEffectiveness</xpath>
 						<value>
-							<BedRestEffectiveness>1.15</BedRestEffectiveness>
+							<BedRestEffectiveness>1.05</BedRestEffectiveness>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">
@@ -286,6 +292,12 @@
 							<Mass>0.5</Mass>
 						</value>
 					</li>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/stuffProps/statFactors</xpath>
+							<value>
+								<Cleanliness>1</Cleanliness>
+							</value>
+						</li>
 			
 			<!-- UPHOLSTRY LEATHER  
 			
@@ -517,6 +529,12 @@
 							<Mass>0.45</Mass>
 						</value>
 					</li>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Leather_Chinchilla"]/stuffProps/statFactors</xpath>
+							<value>
+								<Cleanliness>0.85</Cleanliness>
+							</value>
+						</li>
 			
 			<!-- GENUINE LEATHER --> 
 			<li Class="PatchOperationReplace">
@@ -635,7 +653,12 @@
 							<Mass>0.5</Mass>
 						</value>
 					</li>
-			
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Leather_Bird"]/stuffProps/statFactors</xpath>
+							<value>
+								<Cleanliness>1</Cleanliness>
+							</value>
+						</li>		
 			<!-- BONDED LEATHER --> 
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Patch"]/label</xpath>
@@ -753,7 +776,12 @@
 							<Mass>0.65</Mass>
 						</value>
 					</li>
-
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Leather_Patch"]/stuffProps/statFactors</xpath>
+							<value>
+								<Cleanliness>1</Cleanliness>
+							</value>
+						</li>
 
 		</operations>
 		</match>

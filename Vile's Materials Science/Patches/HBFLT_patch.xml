@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vile's Hell Bent for Leather Tanning</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>  
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeCompasteFromDragonScales"]/label</xpath>
+				<value>
+                    <label>Make Epoxy Resin from Dragon Scales x5</label>
+				</value>
+			</li>
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeCompasteFromDragonScales"]/description</xpath>
+				<value>
+                    <description>Craft epoxy resin, used in a wide variety of recipes.</description>
+				</value>
+			</li>
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeCompasteFromDragonScales"]/recipeUsers</xpath>
+				<value>
+                    <recipeUsers>
+                        <li>ChemistryLab</li>
+                    </recipeUsers>				
+                </value>
+			</li>
+            
+            
+             <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakePolymersFromChitin"]/label</xpath>
+				<value>
+                    <label>Make polymer fibers from chitin x5</label>
+				</value>
+			</li>
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakePolymersFromChitin"]/description</xpath>
+				<value>
+                    <description>Craft polymer fibers, used in a wide variety of recipes.</description>
+				</value>
+			</li>
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakePolymersFromChitin"]/recipeUsers</xpath>
+				<value>
+                    <recipeUsers>
+                        <li>ChemistryLab</li>
+                    </recipeUsers>				
+                </value>
+			</li>
+              <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakePolymersFromChitin"]/ingredients</xpath>
+				<value>
+                   <ingredients>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>Chitin</li>
+                                </thingDefs>
+                            </filter>
+                            <count>20</count>
+                        </li>
+                    </ingredients>	
+                </value>
+			</li>
+             <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakePolymersFromChitin"]/products</xpath>
+				<value>
+                    <products>
+                        <SyntheticFibers>5</SyntheticFibers>
+                    </products>
+                </value>
+			</li>
+
+            
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	
+

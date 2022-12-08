@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Steel"]/label</xpath>
+				<value>
+					<label>Magnetite (Fe+Cr+Zn)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Steel"]/description</xpath>
+				<value>
+					<description>This mineral is an iron ore (Fe). Chromium (Cr) and Zinc (Zn) can also be recovered at a Metal Extraction Plant and Electrolytic Refinery respectively.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Steel"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Item/Ores/Magnetite</texPath>
+						<graphicClass>Graphic_StackCount</graphicClass>
+						<!--<color>(125,140,131)</color>-->
+					</graphicData>
+				</value>
+			</li>
+			<!--
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Silver"]/label</xpath>
+				<value>
+					<label>Sphalerite (Zn+Mn+Co)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Silver"]/description</xpath>
+				<value>
+					<description>This mineral is a zinc ore (Zn). Manganese (Mn) and Cobalt (Co) can also be recovered at a Metal Extraction Plant and Electrolytic Refinery respectively.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Silver"]/description</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Item/Ores/Sphalerite</texPath>
+						<graphicClass>Graphic_StackCount</graphicClass>
+						</graphicData>
+				</value>
+			</li>
+			-->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Gold"]/label</xpath>
+				<value>
+					<label>Native Gold (Au)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Gold"]/description</xpath>
+				<value>
+					<description>This mineral is a gold ore (Au). Silver(Ag) and Copper(Cu) can also be recovered at a Metal Extraction Plant and Electrolytic Refinery respectively.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Gold"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Item/Ores/NativeGold</texPath>
+						<graphicClass>Graphic_StackCount</graphicClass>
+						<!--<color>(125,140,131)</color>-->
+					</graphicData>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Anglesite"]/label</xpath>
+				<value>
+					<label>Galena (Pb/Ag+Cu)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Anglesite"]/description</xpath>
+				<value>
+					<description>This mineral is a lead ore (Au) which contains amounts of silver (Ag). Copper(Cu) can also be recovered at a Metal Extraction Plant.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Anglesite"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Item/Ores/Galena</texPath>
+						<graphicClass>Graphic_StackCount</graphicClass>
+						<!--<color>(125,140,131)</color>-->
+					</graphicData>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Nickel"]/label</xpath>
+				<value>
+					<label>Pentlandite (Ni/Fe+Co)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Nickel"]/description</xpath>
+				<value>
+					<description>This mineral is an ore of both Nickel (Ni) and Iron (Fe). Cobalt (Cu) may also be recovered at an Electrolytic Refinery.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Nickel"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Item/Ores/Pentlandite</texPath>
+						<graphicClass>Graphic_StackCount</graphicClass>
+						<!--<color>(125,140,131)</color>-->
+					</graphicData>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Tin"]/label</xpath>
+				<value>
+					<label>Cassiterite (Sn+Ag+W)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Tin"]/description</xpath>
+				<value>
+					<description>This mineral is a tin ore (Sn). Silver (Ag) and Tungsten (W) can also be recovered at a Metal Extraction Plant and Electrolytic Refinery respectively.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Tin"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Item/Ores/Cassiterite</texPath>
+						<graphicClass>Graphic_StackCount</graphicClass>
+						<!--<color>(125,140,131)</color>-->
+					</graphicData>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Copper"]/label</xpath>
+				<value>
+					<label>Kalcopyrite (Cu+Fe+Au)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Copper"]/description</xpath>
+				<value>
+					<description>This mineral is a copper ore (Cu). Iron (Fe) and gold (Au) can also be recovered at a Metal Extraction Plant and Electrolytic Refinery respectively.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Copper"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Item/Ores/Chalcopyrite</texPath>
+						<graphicClass>Graphic_StackCount</graphicClass>
+						<!--<color>(125,140,131)</color>-->
+					</graphicData>
+				</value>
+			</li>
+		
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Aluminium"]/label</xpath>
+				<value>
+					<label>Bauxite (Al+Si+Cr)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Aluminium"]/description</xpath>
+				<value>
+					<description>This mineral is an aluminium ore (Al). Silicon (Si) and Chromium (Cr) can also be recovered at a Metal Extraction Plant and Electrolytic Refinery respectively.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Aluminium"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Item/Ores/Bauxite</texPath>
+						<graphicClass>Graphic_StackCount</graphicClass>
+						<!--<color>(125,140,131)</color>-->
+					</graphicData>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ilmenite"]/label</xpath>
+				<value>
+					<label>Rutile (Ti+Mo)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ilmenite"]/description</xpath>
+				<value>
+					<description>This mineral is a titanium ore (Ti). Molybdenum (Mo) can also be recovered at a Electrolytic Refinery.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ilmenite"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Item/Ores/Rutile</texPath>
+						<graphicClass>Graphic_StackCount</graphicClass>
+						<!--<color>(125,140,131)</color>-->
+					</graphicData>
+				</value>
+			</li>
+				
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Wolframite"]/label</xpath>
+				<value>
+					<label>Scheelite (W+Mo)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Wolframite"]/description</xpath>
+				<value>
+					<description>This mineral is a tungsten ore (W). It is also the only viable source of molybdenum (Mo), which can also be recovered at a Electrolytic Refinery.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Wolframite"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Item/Ores/Scheelite</texPath>
+						<graphicClass>Graphic_StackCount</graphicClass>
+						<!--<color>(125,140,131)</color>-->
+					</graphicData>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Uranium"]/label</xpath>
+				<value>
+					<label>Carnotite (U+V)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Uranium"]/description</xpath>
+				<value>
+					<description>This mineral is a uranium ore (U). It is also the only viable source of vanadium (V), which can also be recovered at a Electrolytic Refinery.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Uranium"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Item/Ores/Carnotite</texPath>
+						<graphicClass>Graphic_StackCount</graphicClass>
+						<!--<color>(125,140,131)</color>-->
+					</graphicData>
+				</value>
+			</li>
+			
+			
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

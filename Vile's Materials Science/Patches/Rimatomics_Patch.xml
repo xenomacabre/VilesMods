@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Rimatomics</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="turbineBlade"]/costList</xpath>
+				<value>
+					 <costList>
+					   <ComponentAdvanced>4</ComponentAdvanced>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="turbineBlade"]/costStuffCount</xpath>
+				<value>
+					 <costList>
+					   <costStuffCount>40</costStuffCount>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="turbineBlade"]/stuffCategories</xpath>
+                <value>
+                    <stuffCategories>
+                        <li>SolidMetallic</li> <!-- superalloys-->
+                    </stuffCategories>
+                </value>
+            </li>
+			
+            
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/RecipeDef[defName="PotassiumIodide"]/costList</xpath>
+                <value>
+                    <costList>
+                      <Chlorine>3</Chlorine>
+                      <Nitre>5</Nitre>
+                    </costList>
+                </value>
+            </li>
+			
+            
+          
+		
+			
+			
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	
+

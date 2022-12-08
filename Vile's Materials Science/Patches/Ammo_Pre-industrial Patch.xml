@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>HMC Vile's Pre-Industrial Overhaul</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+            <!-- POWDER -->
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakePowder_medieval"]/products</xpath>
+				<value>
+					<products>
+                        <BlackPowder>20</BlackPowder>
+                    </products>
+				</value>
+			</li>
+            
+            
+            
+            
+            <!-- ARTILLERY AMMO -->
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeAmmo_38mmCannonball"]/ingredients</xpath>
+				<value>
+						<ingredients>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>LeadBar</li>
+									</thingDefs>
+								</filter>
+								<count>5</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>BlackPowder</li>
+									</thingDefs>
+								</filter>
+								<count>5</count>
+							</li>
+						</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeAmmo_38mmCannonball"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>LeadBar</li>
+							<li>BlackPowder</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+            
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeAmmo_Grapeshot"]/ingredients</xpath>
+				<value>
+						<ingredients>
+							<li>
+								<filter>
+									<categories>
+										<li>StoneChunks</li>
+									</categories>
+								</filter>
+								<count>1</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>BlackPowder</li>
+									</thingDefs>
+								</filter>
+								<count>5</count>
+							</li>
+						</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeAmmo_Grapeshot"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+                        <categories>
+                            <li>StoneChunks</li>
+                        </categories>
+						<thingDefs>
+							<li>BlackPowder</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+            
+            <!-- SMALL FIREARMS AMMO -->
+            
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeAmmo_69Musket_Lead"]/ingredients</xpath>
+				<value>
+						<ingredients>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>LeadBar</li>
+									</thingDefs>
+								</filter>
+								<count>2</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>BlackPowder</li>
+									</thingDefs>
+								</filter>
+								<count>1</count>
+							</li>
+						</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeAmmo_69Musket_Lead"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<categories>
+							<li>HeavyBar</li>
+						</categories>
+						<thingDefs>
+							<li>BlackPowder</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeAmmo_69Musket_Buck"]/ingredients</xpath>
+				<value>
+						<ingredients>
+							<li>
+								<filter>
+									<categories>
+										<li>SLDBar</li>
+										<li>USLDBar</li>
+									</categories>
+								</filter>
+								<count>3</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>BlackPowder</li>
+									</thingDefs>
+								</filter>
+								<count>1</count>
+							</li>
+						</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeAmmo_69Musket_Buck"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>BlackPowder</li>
+						</thingDefs>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeAmmo_MinieBall"]/ingredients</xpath>
+				<value>
+						<ingredients>
+							<li>
+								<filter>
+									<categories>
+										<li>SLDBar</li>
+										<li>USLDBar</li>
+									</categories>
+								</filter>
+								<count>2</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>BlackPowder</li>
+									</thingDefs>
+								</filter>
+								<count>1</count>
+							</li>
+						</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeAmmo_MinieBall"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>BlackPowder</li>
+						</thingDefs>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeAmmo_5070Govt"]/ingredients</xpath>
+				<value>
+						<ingredients>
+							<li>
+								<filter>
+									<categories>
+										<li>SLDBar</li>
+										<li>USLDBar</li>
+									</categories>
+								</filter>
+								<count>4</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>LeadBar</li>
+									</thingDefs>
+								</filter>
+								<count>2</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>BlackPowder</li>
+									</thingDefs>
+								</filter>
+								<count>1</count>
+							</li>
+						</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeAmmo_5070Govt"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+						<thingDefs>
+							<li>LeadBar</li>
+							<li>BlackPowder</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeAmmo_44Rimfire"]/ingredients</xpath>
+				<value>
+						<ingredients>
+							<li>
+								<filter>
+									<categories>
+										<li>SLDBar</li>
+										<li>USLDBar</li>
+									</categories>
+								</filter>
+								<count>2</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>LeadBar</li>
+									</thingDefs>
+								</filter>
+								<count>2</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>BlackPowder</li>
+									</thingDefs>
+								</filter>
+								<count>1</count>
+							</li>
+						</ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeAmmo_44Rimfire"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+						<thingDefs>
+							<li>LeadBar</li>
+							<li>BlackPowder</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			
+			
+			
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	
+

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			
+            <!-- sewing kits are about twice value as an indstrial component -->
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SewingKit"]/label</xpath>
+				<value>
+					<label>textile kit</label>
+				</value>
+			</li>
+		     <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SewingKit"]/description</xpath>
+				<value>
+                    <description>Miscellaneous cloth, pins, gromets etc. Necessary for repairing weapons and mending apparel, as well as the construction of some garments and armor.</description>    
+				</value>
+			</li>
+           
+      
+            <!-- Kabuto, visored sallet, bevored sallet, manchira, cuirass, munition, alwyte, gothic, gauntlets, vambraces, sabaton, greaves, barbute -->
+             
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MedievalTimes_Helmet_Domed"
+                     or defName="MedievalTimes_Helmet_Sallet"
+                     or defName="Apparello_HornedHead"
+                     or defName="MedievalTimes_Plates_Steel_Middle"
+                     or defName="Apparello_Syndicatellorare"
+                     or defName="Apparel_PlateArmor"
+                     or defName="ViTech_WhitePlateArmor"
+                     or defName="MedievalArmor_PlateArmor"
+                     or defName="MedievalTimes_Gauntlets"
+                     or defName="MedievalTimes_Gloves_Plated"
+                     or defName="Apparello_MetalBoots"
+                     or defName="MedievalTimes_Boots_Steel_Plated"
+                    or defName="Apparello_Slughood"]/costList</xpath>
+				<value>
+					<costList>
+                        <SewingKit>2</SewingKit>
+                    </costList>
+				</value>
+			 </li>
+            <!-- Brigandine, 3/4 plate-->
+              <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MedievalTimes_Plates_Full_Cloaked"
+                    or defName="MedievalTimes_Hauberk"]/costList</xpath>
+				<value>
+					<costList>
+                        <SewingKit>4</SewingKit>
+                    </costList>
+				</value>
+			 </li>
+            
+             <!-- tatami -->
+              <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ViTech_TatamiArmor"]/costList</xpath>
+				<value>
+					<costList>
+                        <SewingKit>8</SewingKit>
+                    </costList>
+				</value>
+			 </li>
+            
+            <!-- royal armet -->
+              <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Apparello_MojoFeather"]/costList</xpath>
+				<value>
+					<costList>
+                        <SewingKit>2</SewingKit>
+                        <GoldBar>1</GoldBar>
+                    </costList>
+				</value>
+			</li> 
+            <!-- royal plate -->
+              <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ViTech_RoyalPlateArmor"]/costList</xpath>
+				<value>
+					<costList>
+                        <SewingKit>2</SewingKit>
+                        <GoldBar>3</GoldBar>
+                    </costList>
+				</value>
+			</li>
+            
+            <!-- CLOTHING -->
+            <!-- quilted jacket, jerking -->
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Apparel_ParkaB"
+                    or defName="Apparello_Brocade"]/costList</xpath>
+				<value>
+					<costList>
+                        <SewingKit>1</SewingKit>
+                    </costList>
+				</value>
+			 </li>
+            
+            <!-- VANILLA -->
+            <!-- Traders coat, feral gas mask,  -->
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Apparello_Trypophobia"
+                    or defName="Apparel_ScorcherHelmet"]/costList</xpath>
+				<value>
+					<costList>
+                        <SewingKit>2</SewingKit>
+                        <Compaste>8</Compaste>
+                    </costList>
+				</value>
+			 </li>
+            <!-- Tcaravaneers hat, fedora  -->
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Apparello_Sandtrader"
+                    or defName="Apparello_Fedora"]/costList</xpath>
+				<value>
+					<costList>
+                        <SewingKit>2</SewingKit>
+                        <Compaste>4</Compaste>
+                    </costList>
+				</value>
+			 </li>
+             <!-- holstered chaps, tshirt, urban shirt  -->
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Apparello_Holser"
+                    or defName="Apparel_BasicShirt"
+                     or defName="Apparello_Urbulence"]/costList</xpath>
+				<value>
+					<costList>
+                        <ComponentMedieval>6</ComponentMedieval>
+                    </costList>
+				</value>
+			 </li>
+            <!-- Bandit scarf -->
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Apparello_Bandit"]/costList</xpath>
+				<value>
+					<costList>
+                        <Compaste>8</Compaste>
+                    </costList>
+				</value>
+			 </li>
+            <!-- dinner jacket -->
+             <li Class="PatchOperationReplace"> 
+				<xpath>Defs/ThingDef[defName="Apparel_Cassie"]/costList</xpath>
+				<value>
+					<costList>
+                        <SewingKit>2</SewingKit>
+                    </costList>
+				</value>
+			 </li>
+             <!-- bib, cook aprons -->
+             <li Class="PatchOperationReplace"> 
+				<xpath>Defs/ThingDef[defName="Apparello_Smithaprontosaurus"
+                    or defName="Apparello_Cookaprontosaurus"]/costList</xpath>
+				<value>
+					<costList>
+                        <SewingKit>1</SewingKit>
+                        <Compaste>8</Compaste>
+                    </costList>
+				</value>
+			 </li>
+            <!-- flak vest -->
+             <li Class="PatchOperationReplace"> 
+				<xpath>Defs/ThingDef[defName="Apparel_FlakVest"]/costList</xpath>
+				<value>
+					<costList>
+                        <SewingKit>2</SewingKit>
+                        <Compaste>11</Compaste>
+                    </costList>
+				</value>
+			 </li>
+             <!-- mining vest -->
+             <li Class="PatchOperationReplace"> 
+				<xpath>Defs/ThingDef[defName="Apparel_FlakVest"
+                    or defName="MiningVest"]/costList</xpath>
+				<value>
+					<costList>
+                        <SewingKit>4</SewingKit>
+                        <Modacrylic>10</Modacrylic>
+                    </costList>
+				</value>
+			 </li>
+            
+
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	
+

@@ -35,6 +35,7 @@
 			<WorkToBuild>120</WorkToBuild>
 			<Flammability>0.2</Flammability>
 			<Beauty>1</Beauty>
+			<Cleanliness>0.2</Cleanliness>
 		</statBases>
 		<coversFloor>true</coversFloor>
 		<tickerType>Never</tickerType>
@@ -43,6 +44,7 @@
 			<li>HardwoodLumber</li>
 			<li>UltrahardwoodLumber</li>
 			<li>EngineeredLumber</li>
+			<li>StrongMetallic</li>
 		</stuffCategories>
 		<costStuffCount>2</costStuffCount>
 		<costList>
@@ -68,6 +70,7 @@
 			<WorkToBuild>200</WorkToBuild>
 			<Flammability>0.6</Flammability>
 			<Beauty>2</Beauty>
+			<Cleanliness>0.2</Cleanliness>
 		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="InteriorWall">
@@ -83,6 +86,7 @@
 			<WorkToBuild>200</WorkToBuild>
 			<Flammability>0.6</Flammability>
 			<Beauty>2</Beauty>
+			<Cleanliness>0.2</Cleanliness>
 		</statBases>
 	</ThingDef>
 	<ThingDef ParentName="InteriorWall">
@@ -98,6 +102,7 @@
 			<WorkToBuild>200</WorkToBuild>
 			<Flammability>0.6</Flammability>
 			<Beauty>2</Beauty>
+			<Cleanliness>0.2</Cleanliness>
 		</statBases>
 	</ThingDef>
 	
@@ -125,12 +130,6 @@
 			</damageData>
 		</graphicData>
 		<uiIconPath>Things/Building/Walls/Wall_Atlas_WoodPanel_ico</uiIconPath>
-		<uiIconPathsStuff>
-			<li>
-				<!--<appearance>Logs</appearance>-->
-				<iconPath>Things/Building/Walls/Wall_Atlas_WoodPanel_ico</iconPath>
-			</li>
-		</uiIconPathsStuff>
 		<building>
 			<blueprintGraphicData>
 				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
@@ -140,6 +139,7 @@
 			<MaxHitPoints>280</MaxHitPoints> <!-- vanilla is 380 -->
 			<WorkToBuild>200</WorkToBuild> <!-- vanilla is 270 -->
 			<Flammability>1.0</Flammability>
+			<Cleanliness>0.1</Cleanliness>
 		</statBases>
 		<coversFloor>true</coversFloor>
 		<tickerType>Never</tickerType>
@@ -190,7 +190,7 @@
 			<MaxHitPoints>320</MaxHitPoints> <!-- vanilla is 380 -->
 			<WorkToBuild>300</WorkToBuild> <!-- vanilla is 270 -->
 			<Flammability>0.0</Flammability>
-			<Cleanliness>1.0</Cleanliness>
+			<Cleanliness>0.4</Cleanliness>
 		</statBases>
 		<coversFloor>true</coversFloor>
 		<tickerType>Never</tickerType>

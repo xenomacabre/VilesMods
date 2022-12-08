@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<!-- BEDS -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="SleepingSpot" or defName="DoubleSleepingSpot"]/statBases</xpath>
+				<value>
+					<Cleanliness>-10</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BagBed"]/statBases</xpath>
+				<value>
+					<Cleanliness>1</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Bedroll" or defName="BedrollDouble"]/statBases</xpath> <!-- Matress -->
+				<value>
+					<Cleanliness>3</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Bed" or defName="DoubleBed"]/statBases</xpath> <!-- Matress -->
+				<value>
+					<Cleanliness>5</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="industrial_single_bed" or defName="industrial_double_bed"]/statBases</xpath> <!-- Matress -->
+				<value>
+					<Cleanliness>6</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="prison_single_bed_RT" or defName="prison_single_bed_LB"]/statBases</xpath> <!-- Matress -->
+				<value>
+					<Cleanliness>4</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="MilleniumBed" or defName="MilleniumDoubleBed" or defName="RoyalBed"]/statBases</xpath> <!-- Matress -->
+				<value>
+					<Cleanliness>7</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="PodBed" or defName="space_double_bed" or defName="cryo_single_bed" or defName="cryo_double_bed"]/statBases</xpath> <!-- Matress -->
+				<value>
+					<Cleanliness>9</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="HospitalBed"]/statBases</xpath>
+				<value>
+					<Cleanliness>10</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="AdvHospitalBed"]/statBases</xpath>
+				<value>
+					<Cleanliness>12</Cleanliness>
+				</value>
+			</li>
+			
+			<!-- Other Furniture -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="SimplePillow" 
+					or defName="Bench"
+					or defName="DiningChair"
+					or defName="MilleniumChair"
+					or defName="EggArmchair"
+					or defName="Armchair"
+					or defName="RusticCouch"
+					or defName="ClutterCouchA"
+					or defName="MilleniumCouch"
+					or defName="PodChair"]/statBases</xpath>
+				<value>
+					<Cleanliness>0.5</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Stool" 
+					or defName="FoldingStool"]/statBases</xpath>
+				<value>
+					<Cleanliness>1</Cleanliness>
+				</value>
+			</li>
+			
+	
+			
+
+			
+			<!-- Facilities -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="LabTerminal" or defName="medieval_surg_lamp"]/statBases</xpath>
+				<value>
+					<Cleanliness>1</Cleanliness>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="medieval_surg_washpan" 
+					or defName="industrial_surg_lamp"
+					or defName="medieval_surg_instruments"
+					or defName="space_surg_lamp"
+					or defName="MultiAnalyzer"
+					or defName="LabStation"
+					or defName="VitalsMonitor"
+					or defName="FileCabinet"
+					or defName="CookingTools"]/statBases</xpath>
+				<value>
+					<Cleanliness>2</Cleanliness>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="industrial_surg_instruments"
+					or defName="DermalRegenerator"]/statBases</xpath>
+				<value>
+					<Cleanliness>3</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="space_surg_instruments"]/statBases</xpath>
+				<value>
+					<Cleanliness>4</Cleanliness>
+				</value>
+			</li>
+			
+			<!-- FRIDGE / TEMPERATURE / STORAGE-->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Pot"]/statBases</xpath> 
+				<value>
+					<Cleanliness>0.5</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="RimFridge_SingleRefrigerator"
+					or defName="DisplayCase"
+					or defName="TrayRackSingle"
+					or defName="RimFridge_SingleWallRefrigerator"
+					or defName="TemperatureGauge"]/statBases</xpath> 
+				<value>
+					<Cleanliness>1</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="RimFridge_Refrigerator"
+					
+					or defName="FoodDisplayCounter"
+					or defName="RimFridge_WallRefrigerator"
+					or defName="RimFridge_QuadRefrigerator"]/statBases</xpath> 
+				<value>
+					<Cleanliness>2</Cleanliness>
+				</value>
+			</li>
+			<!-- MISC -->
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="SimpleResearchBench"]/statBases</xpath> 
+				<value>
+					<Cleanliness>3</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="HiTechResearchBench"]/statBases</xpath> 
+				<value>
+					<Cleanliness>5</Cleanliness>
+				</value>
+			</li>
+<!-- REPLACE --><li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="HolyBasin"]/statBases/Cleanliness</xpath> 
+				<value>
+					<Cleanliness>0.5</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Wall" or defName="ClutterSilverWall" or defName="ClutterUWallLight"]/statBases</xpath> 
+				<value>
+					<Cleanliness>0.2</Cleanliness>
+				</value>
+			</li>
+			<!-- PRODUCTION -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="TableGrill" or thingDef="CandyTable" or thingDef="MillElectric" or thingDef="ElectricBrewery" or thingDef="DrugLab" or thingDef="TableCoffee" or thingDef="Canningstove" or thingDef="soylenttable" or defName="meditable"]/statBases</xpath>
+				<value>
+					<Cleanliness>1</Cleanliness>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="FueledStove" 
+					or defName="ElectricOven"
+					or defName="NutrientPasteDispenser"]/statBases</xpath>
+				<value>
+					<Cleanliness>2</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="TableKitchen" 
+					or defName="ElectricStove"]/statBases</xpath>
+				<value>
+					<Cleanliness>3</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="ElectricStove_Pro"]/statBases</xpath> 
+				<value>
+					<Cleanliness>5</Cleanliness>
+				</value>
+			</li>
+			
+			<!-- RUGS -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="OneOneRoundRug" or defName="OneOneSquareRug"]/statBases</xpath> 
+				<value>
+					<Cleanliness>0.1</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="TwoTwoRoundRug" or defName="TwoTwoSquareRug"]/statBases</xpath> 
+				<value>
+					<Cleanliness>0.4</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="ThreeThreeRoundRug" or defName="ThreeThreeSquareRug"]/statBases</xpath> 
+				<value>
+					<Cleanliness>0.9</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="FourFourRoundRug" or defName="FourFourSquareRug"]/statBases</xpath> 
+				<value>
+					<Cleanliness>2</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="FiveFiveRoundRug" or defName="FiveFiveSquareRug"]/statBases</xpath> 
+				<value>
+					<Cleanliness>2.5</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="SixSixRoundRug" or defName="SixSixSquareRug"]/statBases</xpath> 
+				<value>
+					<Cleanliness>3.6</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="SevenSevenRoundRug" or defName="SevenSevenSquareRug"]/statBases</xpath> 
+				<value>
+					<Cleanliness>4.8</Cleanliness>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="OneTwoRunner"]/statBases</xpath> 
+				<value>
+					<Cleanliness>0.2</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="OneThreeRunner"]/statBases</xpath> 
+				<value>
+					<Cleanliness>0.3</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="OneFourRunner"]/statBases</xpath> 
+				<value>
+					<Cleanliness>0.4</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="OneFiveRunner"]/statBases</xpath> 
+				<value>
+					<Cleanliness>0.5</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="OneSixRunner"]/statBases</xpath> 
+				<value>
+					<Cleanliness>0.6</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="OneSevenRunner"]/statBases</xpath> 
+				<value>
+					<Cleanliness>0.7</Cleanliness>
+				</value>
+			</li>
+			
+			
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="ThoThreeRectangleRug"]/statBases</xpath> 
+				<value>
+					<Cleanliness>0.6</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="TwoFourRectangleRug"]/statBases</xpath> 
+				<value>
+					<Cleanliness>0.8</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="ThreeFourRectangleRug"]/statBases</xpath> 
+				<value>
+					<Cleanliness>1.2</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="ThreeFiveRectangleRug"]/statBases</xpath> 
+				<value>
+					<Cleanliness>1.5</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="FourFiveRectangleRug"]/statBases</xpath> 
+				<value>
+					<Cleanliness>2</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="FourSixRectangleRug"]/statBases</xpath> 
+				<value>
+					<Cleanliness>2.4</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="FourSevenRectangleRug"]/statBases</xpath> 
+				<value>
+					<Cleanliness>2.8</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="FiveSevenRectangleRug"]/statBases</xpath> 
+				<value>
+					<Cleanliness>3.5</Cleanliness>
+				</value>
+			</li>
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	
+

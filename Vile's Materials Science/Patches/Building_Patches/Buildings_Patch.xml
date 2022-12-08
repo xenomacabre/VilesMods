@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MatterConverter"]/label</xpath>
+				<value>
+					<label>Nucleosynthetic Converter</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MatterConverter"]/description</xpath>
+				<value>
+					<description>A particle accelerator which separates matter into base elemantary particles. This substrate can be used to synthesize new materials.</description>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="EAF"]/description</xpath>
+				<value>
+					<description>Produces alloys from base metals using electric arcs.</description>
+				</value>
+			</li>
+	
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="EAF"]/recipes</xpath>
+				<value>
+					<recipes>
+						<li>SmeltWeapon</li>
+						<li>MakeMaxametSteel</li>
+						<li>MakeAerMetSteel</li>
+						<li>MakePyromet</li>
+						<li>MakeStellite</li>
+						<li>MakeNimonic</li>
+						<li>MakeCarborundum</li>
+						<li>MakeTungstenCarbide</li>
+						<li>MakeTennalum</li>
+						<li>MakeDualPhaseTitanium</li>
+						<li>MakeNitinol</li>
+						<li>ExtractMetalFromSlag</li>
+					</recipes>
+				</value>
+			</li>	
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="EAF"]/statBases</xpath>
+				<value>
+					<WorkTableWorkSpeedFactor>1.2</WorkTableWorkSpeedFactor>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Matterfab"]/recipes</xpath>
+				<value>
+					<li>ProduceYautjavium</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="TableKitchen"]/recipes</xpath>
+				<value>
+					<li>MakePlantWax</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationInsert">
+				<xpath>Defs/ThingDef[defName="AmmoBench"]/recipes/li[1]</xpath>
+				<value>
+					<li>MakeNitrocellulose</li>
+				</value>
+			</li>
+            
+            <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="TableLoom"]/comps</xpath>
+				<value>
+					     <li Class="CompProperties_Facility">
+                            <maxSimultaneous>3</maxSimultaneous>
+                        </li>
+				</value>
+			</li>
+            
+		<!--	<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="TableLoom"]/recipes</xpath>
+				<value>
+					   <recipes>
+						  	<li>MakePolymerFibers</li>
+				        <li>MakePolyester</li>
+						   <li>MakeRayonViscose</li>
+						   <li>MakeMycotanLeather</li>
+						   <li>MakePVCLeather</li>
+						   <li>MakeNomex</li>
+						   <li>MakeKevlar</li>
+						   <li>MakeMicropel</li>
+						   <li>MakeDyneema</li>
+						   <li>MakeZylon</li>
+					   </recipes>
+					</li>
+				</value>
+			</li>
+			-->
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TableChemlab"]/recipes</xpath>
+				<value>
+					<recipes>
+						<li>MakeEpoxy</li>		
+						<li>MakeRubber</li>
+						<li>ExtractSulfur</li>
+                        <li>MakeIsopropylAlcohol</li>
+						<li>MakeHDPE</li>
+						<li>MakePolypropylene</li>
+						<li>MakePVCPlastic</li>
+						<li>MakePlexiglass</li>
+						<li>MakeABS</li>
+						<li>MakePolycarbonate</li>
+						<li>MakeFiberglass</li>
+						<li>MakeNanotechFramework</li>
+						<li>MakeCarbonNanotubes</li>
+						<li>MakeNanocomposite</li> <!-- nanocomposite -->
+						<li>MakeAerographene</li>
+					</recipes>
+				</value>
+			</li>	
+
+
+			
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	
+

@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Minerals</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<!-- MAGNETITE -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreSteel"]/randomlyDropResources</xpath>
+				<value>
+					<randomlyDropResources>
+					 	<li>
+							<ResourceDefName>Titanomagnetite</ResourceDefName>
+							<DropProbability>0.05</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						 </li>
+						 <li>
+							<ResourceDefName>Steel</ResourceDefName>
+							<DropProbability>7</DropProbability>
+							<CountPerDrop>5</CountPerDrop>
+						 </li>
+					</randomlyDropResources>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SolidOreSteel"]/randomlyDropResources</xpath>
+				<value>
+					 <randomlyDropResources>
+						  <li>
+							<ResourceDefName>Titanomagnetite</ResourceDefName>
+							<DropProbability>0.07</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						  <li>
+							<ResourceDefName>Steel</ResourceDefName>
+							<DropProbability>11</DropProbability>
+							<CountPerDrop>5</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="HewnOreSteel"]/randomlyDropResources</xpath>
+				<value>
+					 <randomlyDropResources>
+						  <li>
+							<ResourceDefName>Titanomagnetite</ResourceDefName>
+							<DropProbability>0.1</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						  <li>
+							<ResourceDefName>Steel</ResourceDefName>
+							<DropProbability>13</DropProbability>
+							<CountPerDrop>5</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>
+		
+			<!-- SPHALERITE -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreSilver"]/randomlyDropResources</xpath>
+				<value>
+					<randomlyDropResources>
+						   <li>
+							<ResourceDefName>Sulfur</ResourceDefName>
+							<DropProbability>0.3</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						  <li>
+							<ResourceDefName>Sphalerite</ResourceDefName>
+							<DropProbability>5</DropProbability>
+							<CountPerDrop>5</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SolidOreSilver"]/randomlyDropResources</xpath>
+				<value>
+						<randomlyDropResources>
+						  <li>
+							<ResourceDefName>Sulfur</ResourceDefName>
+							<DropProbability>0.3</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						  <li>
+							<ResourceDefName>Sphalerite</ResourceDefName>
+							<DropProbability>6</DropProbability>
+							<CountPerDrop>6</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="HewnOreSilver"]/randomlyDropResources</xpath>
+				<value>
+					<randomlyDropResources>
+						  <li>
+							<ResourceDefName>Sulfur</ResourceDefName>
+							<DropProbability>0.3</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						  <li>
+							<ResourceDefName>Sphalerite</ResourceDefName>
+							<DropProbability>6</DropProbability>
+							<CountPerDrop>8</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>
+			
+			<!-- gold -->
+	
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreGold"]/randomlyDropResources</xpath>
+				<value>
+				 <randomlyDropResources>
+					  <!--<li>
+						<ResourceDefName>Palladium</ResourceDefName>
+						<DropProbability>0.1</DropProbability>
+						<CountPerDrop>15</CountPerDrop>
+					  </li>-->
+					  <li>
+						<ResourceDefName>Silver</ResourceDefName>
+						<DropProbability>0.2</DropProbability>
+						<CountPerDrop>30</CountPerDrop>
+					  </li>
+					  <li>
+						<ResourceDefName>Gold</ResourceDefName>
+						<DropProbability>5</DropProbability>
+						<CountPerDrop>10</CountPerDrop>
+					  </li>
+					</randomlyDropResources>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SolidOreGold"]/randomlyDropResources</xpath>
+				<value>
+					    <randomlyDropResources>
+							 <!--<li>
+							<ResourceDefName>Palladium</ResourceDefName>
+							<DropProbability>0.2</DropProbability>
+							<CountPerDrop>15</CountPerDrop>
+						  </li>-->
+						  <li>
+							<ResourceDefName>Silver</ResourceDefName>
+							<DropProbability>0.2</DropProbability>
+							<CountPerDrop>30</CountPerDrop>
+						  </li>
+						  <li>
+							<ResourceDefName>Gold</ResourceDefName>
+							<DropProbability>6</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="HewnOreGold"]/randomlyDropResources</xpath>
+				<value>
+					 <randomlyDropResources>
+						  <li>
+							<ResourceDefName>Silver</ResourceDefName>
+							<DropProbability>0.2</DropProbability>
+							<CountPerDrop>30</CountPerDrop>
+						  </li>
+						  <li>
+							<ResourceDefName>Gold</ResourceDefName>
+							<DropProbability>7</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>
+			
+			<!-- galena -->
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreLead"]/randomlyDropResources</xpath>
+				<value>
+					 <randomlyDropResources>
+					   <li>
+						<ResourceDefName>Sulfur</ResourceDefName>
+						<DropProbability>0.3</DropProbability>
+						<CountPerDrop>10</CountPerDrop>
+					  </li>
+					  <li>
+						<ResourceDefName>Anglesite</ResourceDefName>
+						<DropProbability>7</DropProbability>
+						<CountPerDrop>10</CountPerDrop>
+					  </li>
+					</randomlyDropResources>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SolidOreLead"]/randomlyDropResources</xpath>
+				<value>
+					 <randomlyDropResources>
+						  <li>
+							<ResourceDefName>Sulfur</ResourceDefName>
+							<DropProbability>0.3</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						  <li>
+							<ResourceDefName>Anglesite</ResourceDefName>
+							<DropProbability>9</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="HewnOreLead"]/randomlyDropResources</xpath>
+				<value>
+					 <randomlyDropResources>
+					  <li>
+						<ResourceDefName>Sulfur</ResourceDefName>
+						<DropProbability>0.3</DropProbability>
+						<CountPerDrop>10</CountPerDrop>
+					  </li>
+					  <li>
+						<ResourceDefName>Anglesite</ResourceDefName>
+						<DropProbability>10</DropProbability>
+						<CountPerDrop>10</CountPerDrop>
+					  </li>
+					</randomlyDropResources>
+				</value>
+			</li>
+			
+			<!-- Pentlandite -->
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreNickel"]/randomlyDropResources</xpath>
+				<value>
+					 <randomlyDropResources>
+						  <li>
+							<ResourceDefName>Nickel</ResourceDefName>
+							<DropProbability>5</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SolidOreNickel"]/randomlyDropResources</xpath>
+				<value>
+					 <randomlyDropResources>
+						  <li>
+							<ResourceDefName>Nickel</ResourceDefName>
+							<DropProbability>7</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="HewnOreNickel"]/randomlyDropResources</xpath>
+				<value>
+					 <randomlyDropResources>
+						  <li>
+							<ResourceDefName>Nickel</ResourceDefName>
+							<DropProbability>8</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>
+			
+			<!-- cassiterite -->
+			
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreTin"]/randomlyDropResources</xpath>
+				<value>
+					 <randomlyDropResources>
+						  <li>
+							<ResourceDefName>Quartz</ResourceDefName>
+							<DropProbability>0.3</DropProbability>
+							<CountPerDrop>1</CountPerDrop>
+						  </li>
+						  <li>
+							<ResourceDefName>Tin</ResourceDefName>
+							<DropProbability>6</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SolidOreTin"]/randomlyDropResources</xpath>
+				<value>
+					 <randomlyDropResources>
+						  <li>
+							<ResourceDefName>Quartz</ResourceDefName>
+							<DropProbability>0.3</DropProbability>
+							<CountPerDrop>1</CountPerDrop>
+						  </li>
+						  <li>
+							<ResourceDefName>Tin</ResourceDefName>
+							<DropProbability>8</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						</randomlyDropResources>				
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="HewnOreTin"]/randomlyDropResources</xpath>
+				<value>
+					 <randomlyDropResources>
+						  <li>
+							<ResourceDefName>Quartz</ResourceDefName>
+							<DropProbability>0.3</DropProbability>
+							<CountPerDrop>1</CountPerDrop>
+						  </li>
+						  <li>
+							<ResourceDefName>Tin</ResourceDefName>
+							<DropProbability>10</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>
+
+			<!-- kalcopyrite -->
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreCopper"]/randomlyDropResources</xpath>
+				<value>
+					 <randomlyDropResources>
+						 <!-- <li>
+							<ResourceDefName>Malachite</ResourceDefName>
+							<DropProbability>6</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>-->
+						  <li>
+							<ResourceDefName>Copper</ResourceDefName>
+							<DropProbability>6</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+					</randomlyDropResources>
+				</value>
+			</li>	
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SolidOreCopper"]/randomlyDropResources</xpath>
+				<value>
+					<randomlyDropResources>
+						  <li>
+							<ResourceDefName>Copper</ResourceDefName>
+							<DropProbability>9</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>	
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="HewnOreCopper"]/randomlyDropResources</xpath>
+				<value>
+					<randomlyDropResources>
+						  <li>
+							<ResourceDefName>Copper</ResourceDefName>
+							<DropProbability>10</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>
+
+			<!-- Bauxite -->
+			
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreAluminium"]/randomlyDropResources</xpath>
+				<value>
+					  <randomlyDropResources>
+						  <li>
+							<ResourceDefName>Aluminium</ResourceDefName>
+							<DropProbability>6</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SolidOreAluminium"]/randomlyDropResources</xpath>
+				<value>
+					  <randomlyDropResources>
+						  <li>
+							<ResourceDefName>Aluminium</ResourceDefName>
+							<DropProbability>9</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="HewnOreAluminium"]/randomlyDropResources</xpath>
+				<value>
+					  <randomlyDropResources>
+						  <li>
+							<ResourceDefName>Aluminium</ResourceDefName>
+							<DropProbability>10</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>
+	
+			<!-- RUTILE -->
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreTitanium"]/randomlyDropResources</xpath>
+				<value>
+					<randomlyDropResources>
+						  <li>
+							<ResourceDefName>Ilmenite</ResourceDefName>
+							<DropProbability>6</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SolidOreTitanium"]/randomlyDropResources</xpath>
+				<value>
+					<randomlyDropResources>
+						  <li>
+							<ResourceDefName>Ilmenite</ResourceDefName>
+							<DropProbability>9</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="HewnOreTitanium"]/randomlyDropResources</xpath>
+				<value>
+					<randomlyDropResources>
+						  <li>
+							<ResourceDefName>Ilmenite</ResourceDefName>
+							<DropProbability>10</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>
+			
+			<!-- scheelite -->
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreTungsten"]/randomlyDropResources</xpath>
+				<value>
+						<randomlyDropResources>
+						  <li>
+							<ResourceDefName>Wolframite</ResourceDefName>
+							<DropProbability>4</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SolidOreTungsten"]/randomlyDropResources</xpath>
+				<value>
+						<randomlyDropResources>
+						  <li>
+							<ResourceDefName>Wolframite</ResourceDefName>
+							<DropProbability>6</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="HewnOreTungsten"]/randomlyDropResources</xpath>
+				<value>
+						<randomlyDropResources>
+						  <li>
+							<ResourceDefName>Wolframite</ResourceDefName>
+							<DropProbability>8</DropProbability>
+							<CountPerDrop>10</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>
+			
+			<!-- carnotite -->
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreUranium"]/randomlyDropResources</xpath>
+				<value>
+					<randomlyDropResources>
+						  <li>
+							<ResourceDefName>Uranium</ResourceDefName>
+							<DropProbability>7</DropProbability>
+							<CountPerDrop>5</CountPerDrop>
+						  </li>
+						</randomlyDropResources>				
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SolidOreUranium"]/randomlyDropResources</xpath>
+				<value>
+					<randomlyDropResources>
+						  <li>
+							<ResourceDefName>Uranium</ResourceDefName>
+							<DropProbability>9</DropProbability>
+							<CountPerDrop>5</CountPerDrop>
+						  </li>
+						</randomlyDropResources>				
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="HewnOreUranium"]/randomlyDropResources</xpath>
+				<value>
+					<randomlyDropResources>
+						  <li>
+							<ResourceDefName>Uranium</ResourceDefName>
+							<DropProbability>10</DropProbability>
+							<CountPerDrop>5</CountPerDrop>
+						  </li>
+						</randomlyDropResources>
+				</value>
+			</li>
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

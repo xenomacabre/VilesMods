@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingCategoryDef[defName="RARBar"]/label</xpath>
+				<value>
+					<label>Base Metal</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingCategoryDef[defName="USLDBar"]/label</xpath>
+				<value>
+					<label>Strong</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingCategoryDef[defName="USLDHBar"]/label</xpath>
+				<value>
+					<label>Strong Heavy</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingCategoryDef[defName="Metallic"]/label</xpath>
+				<value>
+					<label>Material</label>
+				</value>
+			</li>
+			<!-- STUFF-->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/StuffCategoryDef[defName="StrongMetallic"]/label</xpath>
+				<value>
+					<label>Structural Material</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/StuffCategoryDef[defName="RuggedMetallic"]/label</xpath>
+				<value>
+					<label>Hard Material</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/StuffCategoryDef[defName="SolidMetallic"]/label</xpath>
+				<value>
+					<label>High-Performance Material</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/StuffCategoryDef[defName="HeavyMetallic"]/label</xpath>
+				<value>
+					<label>Heavy Material</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/StuffCategoryDef[defName="Metallic"]/label</xpath>
+				<value>
+					<label>Material</label>
+				</value>
+			</li>
+			
+			
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	
+

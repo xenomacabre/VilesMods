@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Core SK</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="TableButcher"]/stuffCategories</xpath>
+					<value>
+						<li>HardwoodLumber</li>
+						<li>UltrahardwoodLumber</li>				
+					</value>
+				</li>
+
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="TableButcher" or
+						defName="TableKitchen" or
+						defName="CandyTable" or
+						defName="NutrientPasteDispenser" or
+						defName="Hopper" or
+						defName="JerkyRack" or
+						defName="DryingRack" or
+						defName="DrugLab" or
+						defName="TableCoffee" or
+						defName="ElectricTailoringBench" or
+						defName="TableLoom" or
+						defName="TableMending" or
+						defName="WeaponCraftingWorkTable" or
+						defName="AdvWeaponCraftingWorkTable" or
+						defName="TableBasicProsthetic"]/stuffCategories</xpath>
+					<value>
+						<li>Plastic</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="soylenttable" or
+						defName="TableElectronics" or
+						defName="HyperTailoringBench" or
+						defName="MatterConverter" or
+						defName="AdvToolBench" or
+						defName="BiofuelRefinery" or
+						defName="meditable" or
+						defName="TableOrganvat" or
+						defName="MechWeaponCraftingWorkTable" or
+						defName="TableSynthetics" or
+						defName="TableBionics" or
+						defName="UpgradingStation" or
+						defName="RobAssem"]/stuffCategories</xpath>
+					<value>
+						<li>Plastic</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="industrial_surg_instruments" or
+						defName="industrial_surg_lamp" or
+						defName="space_surg_instruments" or
+						defName="space_surg_lamp" or
+						defName="HiTechResearchBench" or
+						defName="CommsConsole" or
+						defName="MultiAnalyzer" or
+						defName="CounterTopModular" or
+						defName="LabStation" or
+						defName="LabTerminal" or
+						defName="VitalsMonitor" or
+						defName="AdvancedVitalsMonitor" or
+						defName="Patterner" or
+						defName="CookingTools"]/stuffCategories</xpath>
+					<value>
+						<li>Plastic</li>
+					</value>
+				</li>
+         
+                <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="soylenttable"]/costList</xpath>
+					<value>	
+                       <costList>
+                            <Rubber>20</Rubber>
+                            <PPPlastic>70</PPPlastic>
+                            <ComponentIndustrial>10</ComponentIndustrial>
+                            <Electronics>5</Electronics>
+                        </costList>
+					</value>
+				</li>
+                
+                  <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="TableElectronics"]/costList</xpath>
+					<value>	
+                       <costList>
+                            <Wire>20</Wire>
+                            <ComponentIndustrial>10</ComponentIndustrial>
+                            <Mechanism>10</Mechanism>
+                        </costList>
+					</value>
+				</li>
+                
+                  <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="HyperTailoringBench"]/costList</xpath>
+					<value>	
+                        <costList>
+                            <ABS>40</ABS>
+                            <MagneticMaterial>15</MagneticMaterial>
+                            <Microchips>3</Microchips>
+                            <AdvMechanism>6</AdvMechanism>
+                        </costList>
+					</value>
+				</li>        
+                
+                <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="AdvToolBench"]/costList</xpath>
+					<value>	
+                        <costList>
+                            <PobediteAlloy>40</PobediteAlloy>
+                            <PVCPlastic>20</PVCPlastic>
+                            <Electronics>10</Electronics>
+                            <ComponentIndustrial>15</ComponentIndustrial>
+                            <Mechanism>10</Mechanism>
+                        </costList>
+					</value>
+				</li>
+                
+                <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="ElectricSmithy"]/costList</xpath>
+					<value>	
+                        <costList>
+                            <PobediteAlloy>80</PobediteAlloy>
+                              <ComponentIndustrial>8</ComponentIndustrial>
+                            <ElectronicComponents>8</ElectronicComponents>
+                            <Mechanism>3</Mechanism>
+                        </costList>
+					</value>
+				</li>
+                
+                <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="EAF"]/costList</xpath>
+					<value>	
+                        <costList>
+                            <GlassBatch>30</GlassBatch>
+                            <ClayBrick>40</ClayBrick>
+                            <ComponentIndustrial>15</ComponentIndustrial>
+                            <Mechanism>10</Mechanism>
+                            <ElectronicComponents>6</ElectronicComponents>
+                        </costList>
+					</value>
+				</li>
+         
+                <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="BiofuelRefinery"]/stuffCategories</xpath>
+					<value>	
+                        <stuffCategories>
+                            <li>CorrosionResistant</li>
+                        </stuffCategories>
+					</value>
+				</li>
+                   <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="BiofuelRefinery"]/stuffCategories</xpath>
+					<value>	
+                        <stuffCategories>
+                            <li>StrongMetallic</li>
+                        </stuffCategories>
+					</value>
+				</li>
+                
+                <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="meditable"]/costList</xpath>
+					<value>	
+                        <costList>
+                            <Polycarbonate>30</Polycarbonate>
+                            <PPPlastic>45</PPPlastic>
+                            <Plastic>20</Plastic>
+                            <ComponentIndustrial>10</ComponentIndustrial>
+                            <Electronics>4</Electronics>
+                        </costList>
+					</value>
+				</li>
+                
+                <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="TableOrganvat"]/costList</xpath>
+					<value>	
+                        <costList>
+                            <Rubber>35</Rubber>
+                            <Plexiglass>25</Plexiglass>
+                            <Glass>25</Glass>
+                            <Electronics>5</Electronics>
+                        </costList>
+					</value>
+				</li>
+                
+                
+                 <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="MechWeaponCraftingWorkTable"]/label</xpath>
+					<value>	
+                       <label>energy weapon workbench</label>
+					</value>
+				</li>
+
+                
+                  <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="TableSynthetics"]/costList</xpath>
+					<value>	
+                        <costList>
+                              <Plastic>65</Plastic>
+                            <Paraffins>20</Paraffins>
+                            <Electronics>6</Electronics>
+                            <ComponentSpacer>5</ComponentSpacer>
+                        </costList>
+					</value>
+				</li>
+                
+                    <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="TableBionics"]/costList</xpath>
+					<value>	
+                       <costList>
+                            <ABS>80</ABS>
+                            <TitaniumBar>25</TitaniumBar>
+                            <Electronics>15</Electronics>
+                            <ComponentSpacer>5</ComponentSpacer>
+                        </costList>
+					</value>
+				</li>
+                
+                <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="UpgradingStation"]/costList</xpath>
+					<value>	
+                        <costList>
+                            <CarbonAlloy>80</CarbonAlloy>
+                            <NitinolAlloy>45</NitinolAlloy>
+                            <Microchips>5</Microchips>
+                            <ComponentSpacer>7</ComponentSpacer>
+                            <AdvMechanism>10</AdvMechanism>
+                        </costList>
+					</value>
+				</li>
+                
+                 <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="RobAssem"]/costList</xpath>
+					<value>	
+                        <costList>
+                            <PobediteAlloy>45</PobediteAlloy>
+                            <ComponentSpacer>8</ComponentSpacer>
+                            <AdvMechanism>10</AdvMechanism>
+                            <Microchips>5</Microchips>
+                            <ABS>30</ABS>
+                        </costList>
+					</value>
+				</li>
+                
+                <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="HadronCollider"]/label</xpath>
+					<value>	
+                        <label>micro hadron collider</label>
+					</value>
+				</li>
+                  <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="HadronCollider"]/description</xpath>
+					<value>	
+                         <description>A scaled-down apparatus for accelerating subatomic particles to high velocities by means of electric or electromagnetic fields. The accelerated particles are generally made to collide with other particles, either as a research technique or for the generation of high-energy X-rays and gamma rays.</description>
+                    </value>
+				</li>
+
+                
+			</operations>
+		</match>
+    </Operation>	
+</Patch>

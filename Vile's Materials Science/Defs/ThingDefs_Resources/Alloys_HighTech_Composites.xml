@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- INDUSTRIAL -->
+	<!-- HDPE -->
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>CarbonAlloy</defName>
+		<label>nanocomposite</label>
+		<description>TIER 4 - High Tech
+>>> Optimal	Light Armor, Hospitals
+>> Suitable	Workshops
+X Inadvisable 	Production, Economy
+			
+Tools Recommended: Bladed			
+Notes: Apparel made from this is equipped much faster and is less bulky
+
+Carbon nanotubes and UHMWPE fibers in an epoxy matrix. Features superior ballistic protection with good flexibility, toughness, and is lightweight.</description>
+		<graphicData>
+			<texPath>Things/Item/Material/Nanocomposite</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>600</stackLimit>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MarketValue>50</MarketValue>
+			<StuffPower_Armor_Blunt>1.5</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.55</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.155</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>7</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>7</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>1.5</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.2</BluntDamageMultiplier>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.25</Mass>
+			<Bulk>0.35</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>Plastics</li>
+			<li>LightBar</li>
+			<li>INSBar</li>
+		</thingCategories>
+		<smeltable>true</smeltable>
+		<stuffProps>
+			<stuffAdjective>Nanocomposite</stuffAdjective>
+			<categories>	
+				<li>Plastic</li>
+				<li>StrongMetallic</li>
+				<li>RuggedMetallic</li>
+				<li>LightMaterial</li>
+				<li>CorrosionResistant</li>
+			</categories>
+			<constructEffect>ConstructMetal</constructEffect>
+			<color>(198,184,239)</color>
+			<commonality>0.05</commonality>
+			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<statFactors>
+				<MaxHitPoints>3.1</MaxHitPoints>
+				<Beauty>4</Beauty>
+				<Flammability>0</Flammability>
+				<WorkToMake>3.8</WorkToMake>
+				<WorkToBuild>3.8</WorkToBuild>
+				<DoorOpenSpeed>1.3</DoorOpenSpeed>
+				<MeleeWeapon_CooldownMultiplier>0.7</MeleeWeapon_CooldownMultiplier>
+				<MoveSpeed>0.8</MoveSpeed>
+				<MarketValue>0.95</MarketValue>
+				<BedRestEffectiveness>1.3</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.3</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>1.5</WorkTableWorkSpeedFactor>
+				<MeleePenetrationFactor>1.7</MeleePenetrationFactor>
+				<Mass>0.6</Mass>
+				<Cleanliness>4.5</Cleanliness>
+				<WornBulk>0.9</WornBulk>
+				<EquipDelay>0.5</EquipDelay>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<modExtensions>
+		    <li Class="SurvivalToolsLite.StuffPropsTool">
+                <toolStatFactors>
+                    <TreeFellingSpeed>1.2</TreeFellingSpeed>
+					<PlantHarvestingSpeed>1.5</PlantHarvestingSpeed>
+					<PlantSowingSpeed>1.5</PlantSowingSpeed>
+					<DiggingSpeed>1.3</DiggingSpeed>
+					<MiningYieldDigging>1.6</MiningYieldDigging>
+					<ConstructionSpeed>1.2</ConstructionSpeed>
+					<CookSpeed>1.7</CookSpeed>
+					<ButcheryFleshSpeed>1.6</ButcheryFleshSpeed>
+                </toolStatFactors>
+            </li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Aerographene</defName>
+		<label>aerographene composite</label>
+		<description>TIER 4 - High Tech
+>>> Optimal	Thermal Armor, Riot Armor 
+>> Suitable	Firefighter's gear
+X Inadvisable 	Tools, Weapons, Durability
+			
+Tools Recommended: None			
+Notes: Apparel made from this is equipped much faster
+
+Aerographene, or graphene aerogel is the only known solid that is lighter than air. It has incredible compression strength and insulation properties making it ideal for thermal-rated armor, riot gear, and even fire protection. It is encapsulated in a polymer matrix to increase toughness at the cost of extra weight.</description>
+		<graphicData>
+			<texPath>Things/Item/Material/Aerographene</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<stackLimit>600</stackLimit>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MarketValue>50</MarketValue>
+			<StuffPower_Armor_Blunt>2.1</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.3</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.22</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>150</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>1</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.85</BluntDamageMultiplier>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>-1</Flammability>
+			<Mass>0.15</Mass>
+			<Bulk>0.35</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>Plastics</li>
+			<li>LightBar</li>
+			<li>INSBar</li>
+		</thingCategories>
+		<smeltable>true</smeltable>
+		<stuffProps>
+			<stuffAdjective>Aerographene</stuffAdjective>
+			<categories>
+				<li>Plastic</li>
+				<li>StrongMetallic</li>
+				<li>RuggedMetallic</li>
+				<li>LightMaterial</li>
+				<li>CorrosionResistant</li>
+			</categories>
+			<constructEffect>ConstructMetal</constructEffect>
+			<color>(206,255,203)</color>
+			<commonality>0.04</commonality>
+			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<statFactors>
+				<MaxHitPoints>2.2</MaxHitPoints>
+				<Beauty>1</Beauty>
+				<Flammability>-1</Flammability>
+				<WorkToMake>3.5</WorkToMake>
+				<WorkToBuild>3.5</WorkToBuild>
+				<DoorOpenSpeed>1.4</DoorOpenSpeed>
+				<MeleeWeapon_CooldownMultiplier>0.6</MeleeWeapon_CooldownMultiplier>
+				<MoveSpeed>0.8</MoveSpeed>
+				<MarketValue>0.95</MarketValue>
+				<BedRestEffectiveness>1.2</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>1.3</WorkTableWorkSpeedFactor>
+				<MeleePenetrationFactor>0.8</MeleePenetrationFactor>
+				<Mass>0.3</Mass>
+				<Cleanliness>2</Cleanliness>
+				<EquipDelay>0.4</EquipDelay>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<modExtensions>
+		    <li Class="SurvivalToolsLite.StuffPropsTool">
+                <toolStatFactors>
+                    <TreeFellingSpeed>0.8</TreeFellingSpeed>
+					<PlantHarvestingSpeed>1</PlantHarvestingSpeed>
+					<PlantSowingSpeed>0.8</PlantSowingSpeed>
+					<DiggingSpeed>0.8</DiggingSpeed>
+					<MiningYieldDigging>0.8</MiningYieldDigging>
+					<ConstructionSpeed>0.8</ConstructionSpeed>
+					<CookSpeed>0.8</CookSpeed>
+					<ButcheryFleshSpeed>0.8</ButcheryFleshSpeed>
+                </toolStatFactors>
+            </li>
+		</modExtensions>
+	</ThingDef>
+	
+</Defs>

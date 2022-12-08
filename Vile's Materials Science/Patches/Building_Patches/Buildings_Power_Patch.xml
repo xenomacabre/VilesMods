@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Core SK</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[DefName="HeavyPowerConduit"]</xpath>
+                    <value>                  
+                        <CarbonAlloy>2</CarbonAlloy> <!-- nanocomposite -->
+                    </value>
+                </li>
+                
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[DefName="HeavyPowerConduit"]/costList</xpath>
+                    <value>      
+                        <costList>
+                            <Wire>1</Wire>
+                            <PVCPlastic>1</PVCPlastic>
+                          </costList>
+                    </value>
+                </li>
+                
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[DefName="AdvancedSolarGenerator"]/costList</xpath>
+                    <value>                  
+                       <costList>
+                            <Polycarbonate>45</Polycarbonate>
+                            <Glass>45</Glass>
+                            <ReinforcedConcrete>12</ReinforcedConcrete>
+                            <AdvMechanism>5</AdvMechanism>
+                            <Electronics>5</Electronics>
+                        </costList>
+                    </value>
+                </li>
+                
+                <!-- WIND TURBINE -->
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[DefName="WindTurbine"]/costList</xpath>
+                    <value>                  
+                       <costList>
+                            <ComponentIndustrial>8</ComponentIndustrial>
+                            <ElectronicComponents>2</ElectronicComponents>
+                            <Mechanism>3</Mechanism>
+                             <ReinforcedConcrete>8</ReinforcedConcrete>
+                           <Wire>10</Wire>
+                        </costList>
+                    </value>
+                </li>              
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[DefName="WindTurbine"]/stuffCategories</xpath>
+                    <value>                  
+                      <stuffCategories>
+                            <li>LightMaterial</li>
+                        </stuffCategories>
+                    </value>
+                </li>               
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[DefName="WindTurbine"]/costStuffCount</xpath>
+                    <value>                  
+                        <costStuffCount>110</costStuffCount>
+                    </value>
+                </li>
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[DefName="WindTurbine"]/statBases/MaxHitPoints</xpath>
+                    <value>                  
+                       <MaxHitPoints>325</MaxHitPoints>
+                    </value>
+                </li>
+                
+                  <!-- ADV WIND TURBINE -->
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[DefName="AdvancedWindTurbine"]/costList</xpath>
+                    <value>                  
+                         <costList>
+                            <Fiberglass>60</Fiberglass>
+                             <PVCPlastic>8</PVCPlastic>
+                             <Compaste>8</Compaste>
+                            <ReinforcedConcrete>16</ReinforcedConcrete>
+                            <AdvMechanism>8</AdvMechanism>
+                            <Electronics>4</Electronics>
+                             <Wire>16</Wire>
+                        </costList>
+                    </value>
+                </li>              
+
+                
+                 <!-- fuel PLANT -->
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[DefName="ChemfuelPoweredGenerator"]/costList</xpath>
+                    <value>                  
+                          <costList>
+                            <Paraffins>10</Paraffins>
+                            <CarbonSteel>50</CarbonSteel>
+                            <MakeAnodizedAluminiumBlue>30</MakeAnodizedAluminiumBlue>
+                            <ComponentIndustrial>10</ComponentIndustrial>
+                            <Mechanism>6</Mechanism>
+                        </costList>
+                    </value>
+                </li>              
+ 
+                 <!--chemfuel PLANT -->
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[DefName="FuelPowerplant"]/costList</xpath>
+                    <value>                  
+                          <costList>
+                            <Paraffins>10</Paraffins>
+                            <SteelBar>35</SteelBar>
+                             <MakeAnodizedAluminiumBlue>20</MakeAnodizedAluminiumBlue>
+                            <ComponentIndustrial>8</ComponentIndustrial>
+                            <Mechanism>5</Mechanism>
+                        </costList>
+                    </value>
+                </li>      
+                
+                 <!--geothermal genny -->
+                   <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[DefName="GeothermalGenerator"]/stuffCategories</xpath>
+                    <value>                  
+                      <stuffCategories>
+                            <li>CorrosionResistant</li>
+                        </stuffCategories>
+                    </value>
+                </li>    
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[DefName="GeothermalGenerator"]/costList</xpath>
+                    <value>                  
+                          <costList>     
+                              <Brass>20</Brass>
+                            <ReinforcedConcrete>60</ReinforcedConcrete>
+                            <Polycarbonate>40</Polycarbonate>
+                            <Electronics>12</Electronics>
+                            <Mechanism>8</Mechanism>
+                        </costList>
+                    </value>
+                </li>      
+                
+                <!-- Thermoelectric -->
+                   <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[DefName="ThermoelectricGenerator"]/costList</xpath>
+                    <value>                  
+                        <costList>
+                            <Aerographene>70</Aerographene>
+                            <Rubber>60</Rubber>
+                            <ComponentSpacer>6</ComponentSpacer>
+                           <AdvMechanism>1</AdvMechanism>
+                            <Microchips>4</Microchips>
+                        </costList>
+                    </value>
+                </li>    
+                
+                   <!-- GAUSS WIND TURBINE -->
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[DefName="GauseWindTurbine"]/costList</xpath>
+                    <value>                  
+                       <costList>
+                            <Compaste>50</Compaste>
+                           <Nanocomposite>140</Nanocomposite>
+                            <ReinforcedConcrete>80</ReinforcedConcrete>
+                            <AdvMechanism>5</AdvMechanism>
+                            <Microchips>2</Microchips>
+                           <Wire>10</Wire>
+                        </costList>
+                    </value>
+                </li>      
+                
+                   <!-- Tesla Genny -->
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[DefName="TeslaLigthningPower"]/costList</xpath>
+                    <value>                  
+                      <costList>
+                        <CopparBar>50</CopparBar>
+                        <Glass>200</Glass>
+                        <HMFibers>200</HMFibers>
+                        <ReinforcedConcrete>100</ReinforcedConcrete>
+                        <Microchips>6</Microchips>
+                    </costList>
+                    </value>
+                </li>     
+                
+                <!-- Binary Cycle Geothermal Plant -->
+                      <!-- plasma geothermal -->
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[DefName="PlasmaGeothermalPlant"]/costList</xpath>
+                    <value>                  
+                         <costList>
+                            <turbineBlade>20</turbineBlade>
+                             <AerMet>30</AerMet>
+                                <ReinforcedConcrete>100</ReinforcedConcrete>
+                              <AdvMechanism>5</AdvMechanism>
+                            <Microchips>5</Microchips>
+                        </costList>
+                    </value>
+                </li>               
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[DefName="PlasmaGeothermalPlant"]/costList</xpath>
+                    <value>                  
+                       <comps>
+                            <li Class="CompProperties_Flickable"/>
+                            <li Class="CompProperties_Breakdownable"/>
+                            <li Class="CompProperties_Power">
+                                <compClass>SK.CompPowerPlantFueled</compClass>
+                                <basePowerConsumption>-20000</basePowerConsumption>
+                                <transmitsPower>true</transmitsPower>
+                            </li>
+                            <li Class="SK.CompFueled_Properties">
+                                <canAutoBurn>true</canAutoBurn>
+                                <operatingTemp>3000</operatingTemp>
+                                <drawfirefuel>false</drawfirefuel>
+                                <smokeDrawOffset>(0,0,1.5)</smokeDrawOffset>
+                                <smokesize>2.0</smokesize>
+                                <fuelCapacity>25</fuelCapacity>
+                                <burnFuelMultiplier>0.25</burnFuelMultiplier>
+                                <smokeEnabled>false</smokeEnabled>
+                                <fuelFilter>
+                                    <thingDefs>
+                                        <li>SyntheticAmmonia</li>
+                                    </thingDefs>
+                                </fuelFilter>
+                            </li>
+                            <li Class="CompProperties_Glower">
+                                <glowRadius>5</glowRadius>
+                                <glowColor>(0,255,246,1)</glowColor>
+                            </li>
+                            <li Class="SK.CompProperties_HeatPusherAdvanced">
+                                <compClass>SK.CompHeatPusherAdvanced</compClass>
+                                <heatPerSecond>40</heatPerSecond>
+                                <heatPushMaxTemperature>75</heatPushMaxTemperature>
+                            </li>
+                            <li Class="CompProperties_Explosive">
+                                <explosiveRadius>7</explosiveRadius>
+                                <explosiveDamageType>Flame</explosiveDamageType>
+                            </li>
+                            <li Class="SK.CompProperties_RestrictedPlacement">
+                                <compClass>SK.CompRestrictedPlacement</compClass>
+                                <restrictedThing>
+                                    <li>SteamGeyser</li>
+                                </restrictedThing>
+                            </li>
+                        </comps>
+                    </value>
+                </li>  
+                <!-- Plasma generator -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[DefName="PlasmaGen"]/costList</xpath>
+                    <value>                  
+                        <costList>
+                            <Molybdenum>20</Molybdenum>
+                            <PobediteAlloy>20</PobediteAlloy>
+                            <Fiberglass>50</Fiberglass>
+                            <ReinforcedConcrete>25</ReinforcedConcrete>
+                            <Microchips>2</Microchips>
+                        </costList>    
+                    </value>
+                </li>    
+                
+                
+                 <!-- ion xenon -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[DefName="XenonIonTurbine"]/costList</xpath>
+                    <value>                  
+                        <costList>
+                            <turbineBlade>40</turbineBlade>
+                            <Fiberglass>60</Fiberglass>
+                            <ReinforcedConcrete>60</ReinforcedConcrete>
+                            <BiosyntheticMaterial>60</BiosyntheticMaterial>
+                            <AdvMechanism>12</AdvMechanism>
+                            <Microchips>5</Microchips>
+                        </costList>
+                    </value>
+                </li>    
+                
+                
+             <!-- antimatter -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[DefName="XenonIonTurbine"]/costList</xpath>
+                    <value>                  
+                       <costList>
+                            <turbineBlade>100</turbineBlade>
+                            <Fiberglass>20</Fiberglass>
+                           <Nanocomposite>40</Nanocomposite>
+                            <ReinforcedConcrete>200</ReinforcedConcrete>
+                            <MagneticMaterial>65</MagneticMaterial>
+                            <AdvMechanism>15</AdvMechanism>
+                            <Microchips>5</Microchips>
+                        </costList>
+                    </value>
+                </li>    
+                
+			</operations>
+		</match>
+    </Operation>	
+</Patch>

@@ -3,7 +3,7 @@
 <!-- LIGHT LEATHER -->
 	<RecipeDef>
 		<defName>TanBrain_LeatherBuckskin</defName>
-		<label>brain-tan buckskin</label>
+		<label>brain-tan buckskin x10</label>
 		<description>Tan raw hides into simple buckskin leather using a solution made with animal brains.</description>
 		<uiIconThing>Leather_Dog</uiIconThing>
 		<ingredients>
@@ -37,7 +37,7 @@
 	
 	<RecipeDef>
 		<defName>TanBrain_FurTanned</defName>
-		<label>brain-tan fur</label>
+		<label>brain-tan fur x10</label>
 		<description>Tan raw furs into simple tanned fur using a solution made with animal brains.</description>
 		<uiIconThing>Leather_Dog</uiIconThing>
 		<ingredients>

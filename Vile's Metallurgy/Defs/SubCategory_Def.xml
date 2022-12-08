@@ -38,15 +38,6 @@
 		<debug>false</debug>
 	</ArchitectSense.DesignationSubCategoryDef>
 	
-	<ArchitectSense.DesignationSubCategoryDef>
-		<defName>SubCategory_Casting</defName>
-		<label>Casting</label>
-		<description>Melting stuff into moulds.</description>
-		<defNames>
-			<li>Foundry</li>
-		</defNames>
-		<designationCategory>Production</designationCategory>
-		<debug>false</debug>
-	</ArchitectSense.DesignationSubCategoryDef>
+
 	
 </Defs>

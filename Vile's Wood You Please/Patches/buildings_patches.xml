@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TableSawmillElectric"]/researchPrerequisites</xpath> 
+				<value>
+					<researchPrerequisites>
+						<li>Concrete_C1</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+		</operations>
+		</match>
+    </Operation>	
+	
+	
+	
+</Patch>	

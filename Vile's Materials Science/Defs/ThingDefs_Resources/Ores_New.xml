@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--<ThingDef ParentName="SK_ResourceBase">
+		<defName>PureSilver</defName>
+		<label>FineSilver</label>
+		<description>Too soft to be used as-is. Make it into sterling silver or press it into coins.<graphicData>
+			<texPath>Things/Item/Ores/Gold</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(255,215,0)</color>
+		</graphicData>
+		<soundInteract>Silver_Drop</soundInteract>
+		<soundDrop>Silver_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<stackLimit>150</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MarketValue>25</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.25</Mass>
+			<Bulk>0.25</Bulk>
+			<RoyalFavorValue>0.015</RoyalFavorValue>
+		</statBases>
+		<thingCategories>
+			<li>PRS</li>
+		</thingCategories>
+		<smeltable>true</smeltable>
+		<stuffProps>
+			<categories>
+				<li>Matty</li>
+			</categories>
+		</stuffProps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<deepCommonality>0.6</deepCommonality>
+		<deepCountPerCell>1000</deepCountPerCell>
+		<deepCountPerPortion>10</deepCountPerPortion>
+		<deepLumpSizeRange>
+			<min>1</min>
+			<max>12</max>
+		</deepLumpSizeRange>
+	</ThingDef>
+	-->
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Titanomagnetite</defName>
+		<label>Titanomagnetite (Fe+Ti+V)</label>
+		<description>This is a rare titanium-rich magnetite.</description>
+		<graphicData>
+			<texPath>Things/Item/Ores/Titanomagnetite</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<!--<color>(255,215,0)</color>-->
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<stackLimit>150</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MarketValue>3</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.25</Mass>
+			<Bulk>0.25</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>RAR</li>
+		</thingCategories>
+		<smeltable>true</smeltable>
+		<stuffProps>
+			<categories>
+				<li>Matty</li>
+			</categories>
+		</stuffProps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<!--<deepCommonality>0.6</deepCommonality>
+		<deepCountPerCell>1000</deepCountPerCell>
+		<deepCountPerPortion>10</deepCountPerPortion>
+		<deepLumpSizeRange>
+			<min>1</min>
+			<max>12</max>
+		</deepLumpSizeRange>-->
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Sphalerite</defName>
+		<label>Sphalerite (Zn+Mn+Co)</label>
+		<description>This mineral is an zinc ore (Zn). Manganese (Mn) and Cobalt (Co) can also be recovered at a Metal Extraction Plant and Electrolytic Refinery respectively.</description>
+		<graphicData>
+			<texPath>Things/Item/Ores/Sphalerite</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<!--<color>(255,215,0)</color>-->
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<stackLimit>150</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MarketValue>25</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.25</Mass>
+			<Bulk>0.25</Bulk>
+			<RoyalFavorValue>0.015</RoyalFavorValue>
+		</statBases>
+		<thingCategories>
+			<li>RAR</li>
+		</thingCategories>
+		<smeltable>true</smeltable>
+		<stuffProps>
+			<categories>
+				<li>Matty</li>
+			</categories>
+		</stuffProps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<deepCommonality>0.6</deepCommonality>
+		<deepCountPerCell>1000</deepCountPerCell>
+		<deepCountPerPortion>10</deepCountPerPortion>
+		<deepLumpSizeRange>
+			<min>1</min>
+			<max>12</max>
+		</deepLumpSizeRange>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>BogIron</defName>
+		<label>Bog Iron (Fe + Mn)</label>
+		<description>Gothite is an iron ore (Fe). Manganese (Mn) can also be recovered at a Metal Extraction Plant.</description>
+		<graphicData>
+			<texPath>Things/Item/Ores/BogIron</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<!--<color>(255,215,0)</color>-->
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<stackLimit>150</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MarketValue>2.0</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.25</Mass>
+			<Bulk>0.25</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>SLD</li>
+		</thingCategories>
+		<smeltable>true</smeltable>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<!--<deepCommonality>0.6</deepCommonality>
+		<deepCountPerCell>1000</deepCountPerCell>
+		<deepCountPerPortion>10</deepCountPerPortion>
+		<deepLumpSizeRange>
+			<min>1</min>
+			<max>12</max>
+		</deepLumpSizeRange>-->
+	</ThingDef>
+	
+	  <ThingDef ParentName="ResourceBase">
+    <defName>Quartz</defName>
+    <label>Quartz (SiO_2)</label>
+    <description>A mineral of nearly pure silica.</description>
+    <graphicData>
+      <texPath>Things/Item/Ores/Quartz</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <altitudeLayer>ItemImportant</altitudeLayer>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <MarketValue>25</MarketValue>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Flammability>0</Flammability>
+      <Mass>0.1</Mass>
+      <Beauty>3</Beauty>
+    </statBases>
+    <stackLimit>50</stackLimit>
+    <smallVolume>false</smallVolume>
+  </ThingDef>
+</Defs>

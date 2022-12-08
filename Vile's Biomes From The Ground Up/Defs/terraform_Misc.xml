@@ -24,7 +24,7 @@
 			</li>
 		</modExtensions>
 		<statBases>
-			<WorkToBuild>760</WorkToBuild>
+			<WorkToBuild>400</WorkToBuild>
 		</statBases>
 	</ThingDef>
 	
@@ -73,7 +73,7 @@
 		<CrushedStone>12</CrushedStone>
 	</costList>
 	<statBases>
-		<WorkToBuild>1920</WorkToBuild>
+		<WorkToBuild>1220</WorkToBuild>
 	</statBases>
 	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
 </ThingDef>	 

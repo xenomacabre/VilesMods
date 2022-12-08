@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Polymers</defName>
+		<label>Ethylene</label>
+		<description>Ethylene is product of refined Crude Oil. It's a colorless, very flammable gas used for making polyester, PVC, polyethylene, and plystyrene at a Petrochemical Plant.</description>
+		<graphicData>
+			<texPath>Things/Item/Chemical/Ethylene</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<tickerType>Normal</tickerType>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>1.5</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>5</Flammability>
+			<Mass>0.07</Mass>
+			<Bulk>0.07</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>Hydrocarbons</li>
+		</thingCategories>
+		<stackLimit>600</stackLimit>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>1.5</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.037</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<wickTicks>
+					<min>10</min>
+					<max>100</max>
+				</wickTicks>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Sulphates</defName>
+		<label>Benzene</label>
+		<description>Benzene is product of refined Crude Oil. It's a colorless, aromatic,  flammable liquid used for making napalm, polycarbonate, epoxy resin, polystyrene, and aramid fibers (such as kevlar) at a Petrochemical Plant.</description>
+		<graphicData>
+			<texPath>Things/Item/Chemical/Benzene</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<tickerType>Normal</tickerType>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>1.5</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>5</Flammability>
+			<Mass>0.07</Mass>
+			<Bulk>0.07</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>Hydrocarbons</li>
+		</thingCategories>
+		<stackLimit>600</stackLimit>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>1.0</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.03</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<wickTicks>
+					<min>60</min>
+					<max>120</max>
+				</wickTicks>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Propylene</defName>
+		<label>Propylene</label>
+		<description>Propylene is product of refined Crude Oil. It's a colorless, gas used for making acrylic.</description>
+		<graphicData>
+			<texPath>Things/Item/Chemical/Propylene</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<tickerType>Normal</tickerType>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>1.5</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>5</Flammability>
+			<Mass>0.07</Mass>
+			<Bulk>0.07</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>Hydrocarbons</li>
+		</thingCategories>
+		<stackLimit>600</stackLimit>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>1.0</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.03</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<wickTicks>
+					<min>60</min>
+					<max>120</max>
+				</wickTicks>
+			</li>
+		</comps>
+	</ThingDef>
+	<!--
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Lubricant</defName>
+		<label>Lubricant</label>
+		<description>Synthetic lubricants are required to keep high performance machines running.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Polymers</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<tickerType>Rare</tickerType>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>2</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>5</Flammability>
+			<Mass>0.07</Mass>
+			<Bulk>0.07</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>Hydrocarbons</li>
+		</thingCategories>
+		<stackLimit>600</stackLimit>
+	</ThingDef>
+	-->
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Butadiene</defName>
+		<label>Butadiene</label>
+		<description>Pronounced byoo-tuh-dye-een, butadiene is an extremely flammable colorless gas. It's primarily used for synethesizing rubber and ABS plastic.</description>
+		<graphicData>
+			<texPath>Things/Item/Chemical/Butadiene</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<tickerType>Normal</tickerType>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>1.5</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>5</Flammability>
+			<Mass>0.07</Mass>
+			<Bulk>0.07</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>Hydrocarbons</li>
+		</thingCategories>
+		<stackLimit>600</stackLimit>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>3</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.039</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<wickTicks>
+					<min>120</min>
+					<max>240</max>
+				</wickTicks>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Xylene</defName>
+		<label>Xylene</label>
+		<description>Xylene is an important petrochemical used for various synthetic textiles at a Petrochemical Plant. It's also an ingredient in some drugs and medicines. It's somewhat flammable.</description>
+		<graphicData>
+			<texPath>Things/Item/Chemical/Xylene</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<tickerType>Normal</tickerType>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>1.5</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>5</Flammability>
+			<Mass>0.07</Mass>
+			<Bulk>0.07</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>Hydrocarbons</li>
+		</thingCategories>
+		<stackLimit>600</stackLimit>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>0.5</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.03</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<wickTicks>
+					<min>60</min>
+					<max>120</max>
+				</wickTicks>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>SyntheticFibers</defName>
+		<label>Polymer Fibers</label>
+		<description>A synthetic fiber spun from Polyethylene Terephthalate, better known as PET, is mostly used for weaving polyester fabric at a loom. Polymer fibers can be made using xylene and ethylene or automatically via a refinery.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Synteticfibres</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<tickerType>Rare</tickerType>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>5</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>2</Flammability>
+			<Mass>0.12</Mass>
+			<Bulk>0.12</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>Chemical</li>
+		</thingCategories>
+		<stackLimit>150</stackLimit>
+        <stuffProps>
+			<!--<categories>
+				<li>Nothing</li>
+			</categories>-->
+			<color>(93,197,229)</color>
+		</stuffProps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>HMFibers</defName>
+		<label>High-Modulus Fibers</label>
+		<description>These fibers are spun at a special refinery. It is a form of polyethylene called ultra-high-molecular-weight-polyethylene, or UHMWPE. Unlike HDPE, it is extremely strong, and can be incorporated or woven into ballistic-rated materials.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/HMFibres</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<tickerType>Rare</tickerType>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>12</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>2</Flammability>
+			<Mass>0.12</Mass>
+			<Bulk>0.12</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>Chemical</li>
+		</thingCategories>
+		<stackLimit>150</stackLimit>
+        <stuffProps>
+			<!--<categories>
+				<li>Nothing</li>
+			</categories>-->
+			<color>(255,246,34)</color>
+		</stuffProps>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Compaste</defName>
+		<label>Epoxy Resin</label>
+		<description>Thermoset epoxy has many applications, including apparel production and as a polymer matrix for composite materials such as fiberglass.</description>
+		<graphicData>
+			<texPath>Things/Item/Chemical/ThermosetResin</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>300</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<tickerType>Rare</tickerType>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>5</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>1.5</Flammability>
+			<Mass>0.06</Mass>
+			<Bulk>0.06</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>Chemical</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Polystyrene</defName>
+		<label>Polystyrene</label>
+		<description>Polystyrene is a polymer made via ethylene and benzene products. It has some practical commercial applications, but out here it's more important as an ingredient in napalm. It's also used to make ABS plastic and it is the main component in synthetic rubber.</description>
+		<graphicData>
+			<texPath>Things/Item/Chemical/Styrene</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<tickerType>Rare</tickerType>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>4</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>5</Flammability>
+			<Mass>0.07</Mass>
+			<Bulk>0.07</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>Hydrocarbons</li>
+		</thingCategories>
+		<stackLimit>300</stackLimit>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>SyntheticAmmonia</defName>
+		<label>Ammonia</label>
+		<description>Ammonia is synthesized via nitrogen and hydrogen using hydrocarbons as a feedstock. It's useful for explosives, as a working fluid for binary cycle plants, and for certain plastics.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/SyntheticAmmonia</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<MarketValue>15</MarketValue>
+			<DeteriorationRate>0.05</DeteriorationRate>
+			<Flammability>0.5</Flammability>
+			<Mass>0.17</Mass>
+			<Bulk>0.17</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>1.0</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.03</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<wickTicks>
+					<min>5</min>
+					<max>10</max>
+				</wickTicks>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>Chemical</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+	</ThingDef>
+
+    <ThingDef ParentName="SK_ResourceBase">
+		<defName>Neutroamine</defName>
+		<label>neutroamine</label>
+		<description>A synthetic precursor chemical made from an artificially engineered plant. Useless on its own, many drugs require neutroamine as an ingredient.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Neutroamine</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+		<stackLimit>400</stackLimit>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<MarketValue>10</MarketValue>
+			<Flammability>1.0</Flammability>
+			<WorkToMake>700</WorkToMake>
+			<Mass>0.02</Mass>
+			<DeteriorationRate>1.0</DeteriorationRate> 
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<costList>
+			<NeutroPetals>6</NeutroPetals>
+            <SyntheticAmmonia>1</SyntheticAmmonia>
+		</costList>
+		<recipeMaker>
+			<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+			<workSkill>Medicine</workSkill>
+			<recipeUsers>
+				<li>DrugLab</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Medicine>6</Medicine>
+				<Crafting>3</Crafting>
+			</skillRequirements>	
+		    <researchPrerequisite>Drugs_C2</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+
+
+</Defs>

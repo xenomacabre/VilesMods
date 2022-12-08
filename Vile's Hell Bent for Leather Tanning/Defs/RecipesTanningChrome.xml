@@ -3,7 +3,7 @@
 <!-- LIGHT LEATHER -->
 	<RecipeDef>
 		<defName>TanDrum_LeatherLight</defName>
-		<label>tan light full-grain leather</label>
+		<label>tan light full-grain leather (x25)</label>
 		<description>LoremIpsum</description>
 		<uiIconThing>Leather_Light</uiIconThing>
 		<ingredients>
@@ -46,7 +46,7 @@
 
 	<RecipeDef>
 		<defName>TanDrum_LeatherLightRodent</defName>
-		<label>tan light full-grain leather (rodent)</label>
+		<label>tan light full-grain leather (rodent) (x25)</label>
 		<description>LoremIpsum</description>
 		<ingredients>
 			<li>
@@ -88,7 +88,7 @@
 	<!-- EXOTIC LEATHER -->
 	<RecipeDef>
 		<defName>TanDrum_LeatherExotic</defName>
-		<label>tan exotic full-grain leather</label>
+		<label>tan exotic full-grain leather (x25)</label>
 		<description>LoremIpsum</description>
 		<ingredients>
 			<li>
@@ -131,7 +131,7 @@
 	<!-- BREATHABLE LEATHER -->
 	<RecipeDef>
 		<defName>TanDrum_LeatherBreathable</defName>
-		<label>tan breathable full-grain leather</label>
+		<label>tan breathable full-grain leather (x25)</label>
 		<description>LoremIpsum</description>
 		<ingredients>
 			<li>
@@ -174,7 +174,7 @@
 	<!-- HEAVY LEATHER -->
 	<RecipeDef>
 		<defName>TanDrum_LeatherHeavy</defName>
-		<label>tan heavy full-grain leather</label>
+		<label>tan heavy full-grain leather (x25)</label>
 		<description>LoremIpsum</description>
 		<ingredients>
 			<li>
@@ -221,7 +221,7 @@
 	<!-- DURABLE LEATHER -->
 	<RecipeDef>
 		<defName>TanDrum_LeatherDurable</defName>
-		<label>tan durable full-grain leather</label>
+		<label>tan durable full-grain leather (x25)</label>
 		<description>LoremIpsum</description>
 		<ingredients>
 			<li>
@@ -268,7 +268,7 @@
 	<!-- STOCK LEATHER -->
 	<RecipeDef>
 		<defName>TanDrum_LeatherStock</defName>
-		<label>tan stock full-grain leather</label>
+		<label>tan stock full-grain leather (x25)</label>
 		<description>LoremIpsum</description>
 		<ingredients>
 			<li>
@@ -311,7 +311,7 @@
 	<!-- SOFT LEATHER -->
 	<RecipeDef>
 		<defName>TanDrum_LeatherSoft</defName>
-		<label>tan soft full-grain leather</label>
+		<label>tan soft full-grain leather (x25)</label>
 		<description>LoremIpsum</description>
 		<ingredients>
 			<li>
@@ -359,7 +359,7 @@
 		<!-- STERILE LEATHER -->
 	<RecipeDef>
 		<defName>TanDrum_LeatherSterile</defName>
-		<label>tan sterile full-grain leather</label>
+		<label>tan sterile full-grain leather (x25)</label>
 		<description>LoremIpsum</description>
 		<ingredients>
 			<li>
@@ -402,7 +402,7 @@
 	<!-- WARM FURS -->
 	<RecipeDef>
 		<defName>TanDrum_FurWarm</defName>
-		<label>tan warm furs</label>
+		<label>tan warm furs (x25)</label>
 		<description>LoremIpsum</description>
 		<ingredients>
 			<li>
@@ -445,7 +445,7 @@
 	<!-- RUGGED FURS -->
 	<RecipeDef>
 		<defName>TanDrum_FurRugged</defName>
-		<label>tan rugged furs</label>
+		<label>tan rugged furs (x25)</label>
 		<description>LoremIpsum</description>
 		<ingredients>
 			<li>
@@ -488,7 +488,7 @@
 	<!-- HEAVY FURS -->
 	<RecipeDef>
 		<defName>TanDrum_FurHeavy</defName>
-		<label>tan heavy furs</label>
+		<label>tan heavy furs (x25)</label>
 		<description>LoremIpsum</description>
 		<ingredients>
 			<li>
@@ -531,7 +531,7 @@
 	<!-- RICH FURS -->
 	<RecipeDef>
 		<defName>TanDrum_FurFine</defName>
-		<label>tan fine furs</label>
+		<label>tan fine furs (x25)</label>
 		<description>LoremIpsum</description>
 		<ingredients>
 			<li>
@@ -574,7 +574,7 @@
 	<!-- SPLIT  -->
 	<RecipeDef>
 		<defName>TanDrum_SplitHeavy</defName>
-		<label>split and tan heavy hides</label>
+		<label>split and tan heavy hides (x25)</label>
 		<description>LoremIpsum</description>
 		<ingredients>
 			<li>
@@ -619,7 +619,7 @@
 	
 	<RecipeDef>
 		<defName>TanDrum_SplitThick</defName>
-		<label>split and tan thick hides</label>
+		<label>split and tan thick hides (x25)</label>
 		<description>LoremIpsum</description>
 		<ingredients>
 			<li>
@@ -672,7 +672,7 @@
 	
 	<RecipeDef>
 		<defName>TanDrum_SplitMedium</defName>
-		<label>split and tan medium hides</label>
+		<label>split and tan medium hides (x25)</label>
 		<description>LoremIpsum</description>
 		<ingredients>
 			<li>
@@ -721,7 +721,7 @@
 	
 		<RecipeDef>
 		<defName>TanDrum_SplitThin</defName>
-		<label>split and tan thin skins</label>
+		<label>split and tan thin skins (x25)</label>
 		<description>LoremIpsum</description>
 		<ingredients>
 			<li>
@@ -770,7 +770,7 @@
 	
 	<RecipeDef>
 		<defName>TanDrum_HumanLeather</defName>
-		<label>tan human leather</label>
+		<label>tan human leather (x25)</label>
 		<description>LoremIpsum</description>
 		<uiIconThing>Leather_Human</uiIconThing>
 		<ingredients>

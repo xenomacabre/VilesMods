@@ -219,7 +219,7 @@
 						<li>PigIron</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>30</count>
 			</li>
 			<li>
 				<filter>
@@ -372,7 +372,7 @@
 						<li>PigIron</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>30</count>
 			</li>
 			<li>
 				<filter>
@@ -414,7 +414,7 @@
 						<li>PigIron</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>75</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -433,7 +433,7 @@
 		<researchPrerequisite>Metallurgy_B5</researchPrerequisite>
 	</RecipeDef>
 	
-		<RecipeDef>
+	<RecipeDef>
 		<defName>PuddleWroughtIronFromCastIron</defName>
 		<label>Puddle Wrought Iron from Cast Iron (x100)</label>
 		<description>Melt pig iron or cast iron in the hearth until it becomes molten, stir it with a paddle, removing the carbon and oxygen content. As the carbon leaves the alloy, the melting point goes up and it can no longer stay liquid. That's how you know it's done. Produces 100.</description>
@@ -454,11 +454,55 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>PigIron</li>
+				<li>CastIron</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<WroughtIron>100</WroughtIron>
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Metallurgy_B5</researchPrerequisite>
+	</RecipeDef>
+	
+	
+	<RecipeDef>
+		<defName>RefinePureAluminiumFoundry</defName>
+		<label>Refine Pure Aluminium from Bauxite</label>
+		<description>Aluminum is a lightweight metal that is easily machinable. It's not very strong, however. The bauxite is sintered (powdered) with sodium bicarbonate and then cast into bars. Produces 40.</description>
+		<jobString>Making crucible steel.</jobString>
+		<workAmount>900</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Aluminium</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Aluminium</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AluminiumBar>40</AluminiumBar>
 		</products>
 		<skillRequirements>
 			<Crafting>3</Crafting>
@@ -506,3 +550,4 @@
 	</RecipeDef>
 	
 </Defs>
+	

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeGlassBatch"]/label</xpath>
+				<value>
+					<label>extract silica from sand</label>
+				</value>
+			</li>
+			<!--<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeGlassBatch"]/workAmount</xpath>
+				<value>
+					<workAmount>1500</workAmount>
+				</value>
+			</li>-->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeGlassBatch"]/description</xpath>
+				<value>
+					<description>Extract silicon dioxide from quartz found in sand. Useful for making glass, ceramics and for metallurgical purposes.</description>
+				</value>
+			</li>
+            
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="GlassBatch"]/label</xpath>
+				<value>
+					<label>silica</label>
+				</value>
+			</li>
+			 <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="GlassBatch"]/description</xpath>
+				<value>
+					<description>Short for Silicon Dioxide, it's found in quarts and as a component of sand. It's used to make glass, ceramics, aerogel, and various alloys.</description>
+				</value>
+			</li>
+		     <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="GlassBatch"]/graphicData</xpath>
+				<value>
+					 <graphicData>
+                        <texPath>Things/Item/Chemical/Silica</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                    </graphicData>
+				</value>
+			</li>
+
+            
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

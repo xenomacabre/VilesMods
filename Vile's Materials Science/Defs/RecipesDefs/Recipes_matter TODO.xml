@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	 <RecipeDef>
+    <defName>ConvertResourcesRaw</defName>
+    <label>Make nucleosynthetic substrate</label>
+    <description>Create nucleosynthetic substrate by processing and converting various types of raw resources. Produces 150.</description>
+    <jobString>Converting resources to inorganic matter.</jobString>
+    <workAmount>10000</workAmount>
+		<workSpeedStat>ElectronicCraftingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>ResourcesRaw</li>
+          </categories>
+        </filter>
+        <count>300</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>ResourcesRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <Matter>150</Matter>
+    </products>
+		<skillRequirements>
+			<Crafting>15</Crafting>
+		</skillRequirements>
+  	<workSkill>Crafting</workSkill>
+    <workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Super_matter_D1</researchPrerequisite>
+  </RecipeDef>
+</Defs>

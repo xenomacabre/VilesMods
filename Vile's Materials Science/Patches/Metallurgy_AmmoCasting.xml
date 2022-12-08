@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vile's Metallurgy</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>  
+             
+             <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="CastAmmo_69Musket_Buck"]/ingredients</xpath>
+				<value>
+                 <ingredients>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>LeadBar</li>
+                            </thingDefs>
+                        </filter>
+                        <count>15</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>BlackPowder</li>
+                            </thingDefs>
+                        </filter>
+                        <count>5</count>
+                    </li>
+                </ingredients>
+				</value>
+			</li>         
+             <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="CastAmmo_69Musket_Buck"]/fixedIngredientFilter</xpath>
+				<value>
+                    <fixedIngredientFilter>
+                        <thingDefs>
+                              <li>LeadBar</li>
+                            <li>BlackPowder</li>
+                        </thingDefs>
+                    </fixedIngredientFilter>
+				</value>
+			</li>
+            
+            
+             <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="CastAmmo_69Musket_Lead"]/ingredients</xpath>
+				<value>
+                    <ingredients>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>LeadBar</li>
+                                </thingDefs>
+                            </filter>
+                            <count>10</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>BlackPowder</li>
+                                </thingDefs>
+                            </filter>
+                            <count>5</count>
+                        </li>
+                    </ingredients>
+				</value>
+			</li>         
+             <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="CastAmmo_69Musket_Lead"]/fixedIngredientFilter</xpath>
+				<value>
+                    <fixedIngredientFilter>
+                        <thingDefs>
+                              <li>LeadBar</li>
+                            <li>BlackPowder</li>
+                        </thingDefs>
+                    </fixedIngredientFilter>
+				</value>
+			</li>
+            
+            
+             <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="CastAmmo_MinieBall"]/ingredients</xpath>
+				<value>
+                    <ingredients>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>LeadBar</li>
+                                </thingDefs>
+                            </filter>
+                            <count>10</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>BlackPowder</li>
+                                </thingDefs>
+                            </filter>
+                            <count>5</count>
+                        </li>
+                    </ingredients>
+				</value>
+			</li>         
+             <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="CastAmmo_MinieBall"]/fixedIngredientFilter</xpath>
+				<value>
+                    <fixedIngredientFilter>
+                        <thingDefs>
+                            <li>BlackPowder</li>
+                            <li>LeadBar</li>
+                        </thingDefs>
+                    </fixedIngredientFilter>
+				</value>
+			</li>
+            
+            
+            
+            
+             <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="CastAmmo_38mmCannonball"]/ingredients</xpath>
+				<value>
+                  <ingredients>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>LeadBar</li>
+                                </thingDefs>
+                            </filter>
+                            <count>10</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>BlackPowder</li>
+                                </thingDefs>
+                            </filter>
+                            <count>20</count>
+                        </li>
+                    </ingredients>
+				</value>
+			</li>         
+             <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="CastAmmo_38mmCannonball"]/fixedIngredientFilter</xpath>
+				<value>
+                   <fixedIngredientFilter>
+                        <thingDefs>
+                            <li>LeadBar</li>
+                            <li>BlackPowder</li>
+                        </thingDefs>
+                    </fixedIngredientFilter>
+				</value>
+			</li>
+            
+            
+             <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="CastAmmo_200Pounder_GreekFire"]/ingredients</xpath>
+				<value>
+                   <ingredients>
+                         <li>
+                            <filter>
+                                <categories>
+                                    <li>CastBar</li>
+                                </categories>
+                            </filter>
+                            <count>50</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <categories>
+                                    <li>Woody</li>
+                                </categories>
+                            </filter>
+                            <count>50</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>FSX</li>
+                                </thingDefs>
+                            </filter>
+                            <count>25</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>BlackPowder</li>
+                                </thingDefs>
+                            </filter>
+                            <count>50</count>
+                        </li>
+                    </ingredients>
+				</value>
+			</li>         
+             <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="CastAmmo_200Pounder_GreekFire"]/fixedIngredientFilter</xpath>
+				<value>
+                    <fixedIngredientFilter>
+                        <categories>
+                            <li>CastBar</li>
+                            <li>Woody</li>
+                        </categories>
+                        <thingDefs>
+                            <li>FSX</li>
+                            <li>BlackPowder</li>
+                        </thingDefs>
+                    </fixedIngredientFilter>
+				</value>
+			</li>
+            
+            
+            
+              <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="CastAmmo_200Pounder_Shell"]/ingredients</xpath>
+				<value>
+                   <ingredients>
+                        <li>
+                            <filter>
+                                <categories>
+                                    <li>CastBar</li>
+                                </categories>
+                            </filter>
+                            <count>50</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <categories>
+                                    <li>Woody</li>
+                                </categories>
+                            </filter>
+                            <count>50</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>BlackPowder</li>
+                                </thingDefs>
+                            </filter>
+                            <count>50</count>
+                        </li>
+                    </ingredients>
+				</value>
+			</li>         
+             <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="CastAmmo_200Pounder_Shell"]/fixedIngredientFilter</xpath>
+				<value>
+                  	<fixedIngredientFilter>
+                        <categories>
+                            <li>CastBar</li>
+                            <li>Woody</li>
+                        </categories>
+                        <thingDefs>
+                            <li>BlackPowder</li>
+                        </thingDefs>
+                    </fixedIngredientFilter>
+				</value>
+			</li>
+            
+            
+            
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="CastAmmo_3inCannon_Canister"]/ingredients</xpath>
+				<value>
+                    <ingredients>
+                            <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>LeadBar</li>
+                                </thingDefs>
+                            </filter>
+                            <count>25</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <categories>
+                                    <li>Woody</li>
+                                </categories>
+                            </filter>
+                            <count>25</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>BlackPowder</li>
+                                </thingDefs>
+                            </filter>
+                            <count>50</count>
+                        </li>
+                    </ingredients>
+				</value>
+			</li>         
+             <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="CastAmmo_3inCannon_Canister"]/fixedIngredientFilter</xpath>
+				<value>
+                  	<fixedIngredientFilter>
+                        <categories>
+                            <li>Woody</li>
+                        </categories>
+                        <thingDefs>
+                            <li>BlackPowder</li>
+                            <li>LeadBar</li>
+                        </thingDefs>
+                    </fixedIngredientFilter>
+				</value>
+			</li>
+            
+            
+              <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="CastAmmo_3inCannon_Shell"]/ingredients</xpath>
+				<value>
+                    <ingredients>
+                        <li>
+                        <filter>
+                            <categories>
+                                <li>CastBar</li>
+                            </categories>
+                        </filter>
+                        <count>25</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <categories>
+                                <li>Woody</li>
+                            </categories>
+                        </filter>
+                        <count>25</count>
+                    </li>
+                    <li>
+                        <filter>
+                            <thingDefs>
+                                <li>BlackPowder</li>
+                            </thingDefs>
+                        </filter>
+                        <count>50</count>
+                    </li>
+                </ingredients>
+				</value>
+			</li>         
+             <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="CastAmmo_3inCannon_Shell"]/fixedIngredientFilter</xpath>
+				<value>
+                   <fixedIngredientFilter>
+                        <categories>
+                            <li>CastBar</li>
+                            <li>Woody</li>
+                        </categories>
+                        <thingDefs>
+                            <li>BlackPowder</li>
+                        </thingDefs>
+                    </fixedIngredientFilter>
+				</value>
+			</li>
+            
+          
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	
+

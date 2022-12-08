@@ -34,11 +34,18 @@
 						<clipPath>TripHammer</clipPath>
 					</li>
 				</grains>
+                 <volumeRange>
+                      <min>90</min>        
+                      <max>100</max>
+                    </volumeRange> 
 				<pitchRange>
 					<min>0.9152174</min>
 					<max>1.042391</max>
 				</pitchRange>
-				<distRange>10~30</distRange>
+                <distRange>
+                  <min>4.88235</min>        
+                  <max>30.70592</max>
+                </distRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 		</subSounds>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_Alloys</defName>
+		<label>Casting/Alloying</label>
+		<description>Mixing of smelted base metals.</description>
+		<defNames>
+			<li>InductionFurnace</li>
+			<li>EAF</li>
+            <li>Foundry</li>
+		</defNames>
+		<designationCategory>Production</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+  
+</Defs>

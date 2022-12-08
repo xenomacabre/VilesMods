@@ -442,11 +442,11 @@
 		</recipeUsers>
 	</RecipeDef>
 	
-<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>MakeGlassBatch_Process</defName>
 		<label>Make glass batch (x10)</label>
 		<description>Process glass which can then be blown and formed into sheets at a furnace. Makes 10. Takes 36 hours.</description>
-	<ingredients>
+		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>

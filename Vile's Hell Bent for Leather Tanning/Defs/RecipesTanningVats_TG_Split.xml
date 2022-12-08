@@ -2,7 +2,7 @@
 <Defs>
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>TanVat_TopGrain_Heavy</defName>
-		<label>split and tan heavy hides</label>
+		<label>split and tan heavy hides (x8/x15)</label>
 		<description>Splits a hide into good-quality top-grain and low-quality suede. The Top-grain leather has the surface corrected to remove imperfections which allows for less wasted product. It may later be dyed and embossed to make a higher-quality product.</description>
 		<ingredients>
 			<li>
@@ -54,7 +54,7 @@
 	
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>TanVat_TopGrain_Thick</defName>
-		<label>split and tan thick hides</label>
+		<label>split and tan thick hides (x8/x10)</label>
 		<description>Splits a hide into good-quality top-grain and low-quality suede. The Top-grain leather has the surface corrected to remove imperfections which allows for less wasted product. It may later be dyed and embossed to make a higher-quality product.</description>
 		<ingredients>
 			<li>
@@ -114,7 +114,7 @@
 	
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>TanVat_TopGrain_Medium</defName>
-		<label>split and tan medium hides</label>
+		<label>split and tan medium hides (x7/x6)</label>
 		<description>Splits a hide into good-quality top-grain and low-quality suede. The Top-grain leather has the surface corrected to remove imperfections which allows for less wasted product. It may later be dyed and embossed to make a higher-quality product.</description>
 		<ingredients>
 			<li>
@@ -170,7 +170,7 @@
 	
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>TanVat_TopGrain_ThinSkins</defName>
-		<label>split and tan thin skins</label>
+		<label>split and tan thin skins (x8/x3)</label>
 		<description>Splits a skin into good-quality top-grain and low-quality suede. The Top-grain leather has the surface corrected to remove imperfections which allows for less wasted product. It may later be dyed and embossed to make a higher-quality product.</description>
 		<ingredients>
 			<li>

@@ -27,7 +27,7 @@
 	
 	<ThingDef ParentName="SK_ResourceBase">
 		<defName>PigIron</defName>
-		<label>Pig Iron Ingot</label>
+		<label>Pig Iron (Fe)</label>
 		<description>When iron ore is smelted in a high-temperature blast furnace, you get pig iron—a crude, useless intermediate product which is very high in carbon. It can be further refined by melting in a foundry to produce high-carbon cast iron, or decarbonized into useful wrought iron at a finery forge or puddling furnace.</description>
 		<graphicData>
 			<texPath>Things/Item/PigIron</texPath>
@@ -36,14 +36,14 @@
 		</graphicData>
 		<soundInteract>Metal_Drop</soundInteract>
 		<soundDrop>Metal_Drop</soundDrop>
-		<stackLimit>150</stackLimit>
+		<stackLimit>600</stackLimit>
 		<techLevel>Industrial</techLevel>
 		<statBases>
 			<MarketValue>0.5</MarketValue>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>0</Flammability>
-			<Mass>1</Mass>
-			<Bulk>0.5</Bulk>
+			<Mass>0.35</Mass>
+			<Bulk>0.35</Bulk>
 		</statBases>
 		<thingCategories>
 			<li>Metallurgical</li>
@@ -53,7 +53,7 @@
 	<ThingDef ParentName="SK_ResourceBase">
 		<defName>BlisterSteel</defName>
 		<label>Blister Steel Bar</label>
-		<description>When iron ore is smelted in a high-temperature blast furnace, you get pig iron—a crude, useless intermediate product which is very high in carbon. It can be further refined by melting in a foundry to produce high-carbon cast iron, or decarbonized into useful wrought iron at a finery forge or puddling furnace.</description>
+		<description>Useless on its own, blister steel is an intermediate iron product where carbon is baked into the outer layers. It's used to make crucible steel and can also be folded into forged steel.</description>
 		<graphicData>
 			<texPath>Things/Item/BSBillet</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>

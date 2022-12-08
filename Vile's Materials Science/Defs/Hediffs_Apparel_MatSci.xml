@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef>
+		<defName>WearingTurnoutGear</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.88, 0.83, 0.78)</defaultLabelColor>
+		<isBad>false</isBad>
+		<label>turnout gear</label>
+		<description>Wearing turnout gear</description>
+		<makesSickThought>false</makesSickThought>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<stages>
+		  <li>
+			<label>wearing</label>
+			<statOffsets>
+				<ComfyTemperatureMax>800</ComfyTemperatureMax>
+				<Flammability>-1</Flammability>
+			</statOffsets>
+		  </li>
+		</stages>
+	  </HediffDef> 
+</Defs>

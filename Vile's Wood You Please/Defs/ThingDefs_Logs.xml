@@ -92,6 +92,7 @@
 				<Mass>0.32</Mass>
 			</statFactors>
 		</stuffProps>
+	
 	</ThingDef>
 	<ThingDef Name="PineLog" ParentName="SoftwoodLogBase">
 		<defName>PineLog</defName>
@@ -615,6 +616,20 @@
 		<thingCategories Inherit="False">
 			<li>Ultrahardwoods</li>
 		</thingCategories>
+		<modExtensions>
+		    <li Class="SurvivalToolsLite.StuffPropsTool">
+                <toolStatFactors>
+                    <TreeFellingSpeed>0.85</TreeFellingSpeed>
+					<PlantHarvestingSpeed>0.85</PlantHarvestingSpeed>
+					<PlantSowingSpeed>0.85</PlantSowingSpeed>
+					<DiggingSpeed>0.85</DiggingSpeed>
+					<MiningYieldDigging>0.95</MiningYieldDigging>
+					<ConstructionSpeed>0.85</ConstructionSpeed>
+					<CookSpeed>0.7</CookSpeed>
+					<ButcheryFleshSpeed>0.7</ButcheryFleshSpeed>
+                </toolStatFactors>
+            </li>
+		</modExtensions>
 	</ThingDef>	
 	
 	<ThingDef Name="MangroveLog" ParentName="HardwoodLogBase">
@@ -660,6 +675,20 @@
 		<thingCategories Inherit="False">
 			<li>Ultrahardwoods</li>
 		</thingCategories>
+		<modExtensions>
+		    <li Class="SurvivalToolsLite.StuffPropsTool">
+                <toolStatFactors>
+                    <TreeFellingSpeed>0.85</TreeFellingSpeed>
+					<PlantHarvestingSpeed>0.85</PlantHarvestingSpeed>
+					<PlantSowingSpeed>0.85</PlantSowingSpeed>
+					<DiggingSpeed>0.85</DiggingSpeed>
+					<MiningYieldDigging>0.95</MiningYieldDigging>
+					<ConstructionSpeed>0.85</ConstructionSpeed>
+					<CookSpeed>0.7</CookSpeed>
+					<ButcheryFleshSpeed>0.7</ButcheryFleshSpeed>
+                </toolStatFactors>
+            </li>
+		</modExtensions>
 	</ThingDef>	
 
 	<!--

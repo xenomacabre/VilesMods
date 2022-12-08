@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ResearchProjectDef[defName="Machining"]/prerequisites</xpath> <!-- cellulose required to make propellant -->
+				<value>
+					<li>Chemistry_C0</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ResearchProjectDef[defName="BiofuelRefining"]/prerequisites</xpath> <!-- cellulose required to make propellant -->
+				<value>
+					<li>Chemistry_C0</li>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ResearchProjectDef[defName="ResearchMobileMineralSonarEnhancedScan"]/label</xpath> <!-- cellulose required to make propellant -->
+				<value>
+					<label>Advanced Materials</label>
+				</value>
+			</li>
+			
+		</operations>
+		</match>
+    </Operation>	
+	
+	
+	
+</Patch>	

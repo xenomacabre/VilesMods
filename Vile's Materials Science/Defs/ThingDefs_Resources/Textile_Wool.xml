@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>WoolMegasloth</defName>
+		<label>Megasloth wool</label>
+		<description>TIER 1 - Neolithic
+>>> Optimal	Armor
+>> Suitable	Durability
+X Inadvisable 	Bedding, Weight
+
+While somewhat coarse, Megasloth wool's long fibers make it very strong with fair defensive properties, but is hard to source. It is good for any climate.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Wool</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(189,161,116)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<MarketValue>4</MarketValue>
+			<Flammability>1.5</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<StuffPower_Armor_Blunt>0.99</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.12</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.09</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>8</StuffPower_Insulation_Heat>
+			<Mass>0.02</Mass>
+			<Bulk>0.02</Bulk>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<stackLimit>300</stackLimit>
+		<techLevel>Neolithic</techLevel>
+		<stuffProps>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<color>(189,161,116)</color>
+			<statFactors>
+				<MaxHitPoints>1.4</MaxHitPoints>
+				<Beauty>1.1</Beauty>
+				<MoveSpeed>0.75</MoveSpeed>
+				<MarketValue>1.2</MarketValue>
+				<WorkToMake>1.7</WorkToMake>
+				<WorkToBuild>1.7</WorkToBuild>
+				<BedRestEffectiveness>0.8</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.0</ImmunityGainSpeedFactor>
+				<Mass>0.75</Mass>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BTextiles</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>WoolBison</defName>
+		<label>Bison wool</label>
+		<description>TIER 1 - Neolithic
+>>> Optimal	Winter
+>> Suitable	Armor (blunt)
+X Inadvisable 	Furniture
+
+Thick and coarse wool of a bison. Great for winter clothes an its thickness helps prevent blunt trauma.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Wool</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(104,69,45)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<MarketValue>3.0</MarketValue>
+			<Flammability>1.5</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<StuffPower_Armor_Blunt>1.1</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.86</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.08</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>22</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>6</StuffPower_Insulation_Heat>
+			<Mass>0.02</Mass>
+			<Bulk>0.02</Bulk>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<stackLimit>300</stackLimit>
+		<techLevel>Neolithic</techLevel>
+		<stuffProps>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<color>(104,69,45)</color>
+			<statFactors>
+				<MaxHitPoints>1.25</MaxHitPoints>
+				<Beauty>1</Beauty>
+				<MoveSpeed>0.85</MoveSpeed>
+				<MarketValue>0.7</MarketValue>
+				<WorkToMake>1.5</WorkToMake>
+				<WorkToBuild>1.5</WorkToBuild>
+				<BedRestEffectiveness>0.9</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>
+				<Mass>0.66</Mass>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BTextiles</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>WoolMuffalo</defName>
+		<label>Muffalo wool</label>
+		<description>TIER 1 - Neolithic
+>>> Optimal	Winter
+>> Suitable	Production
+X Inadvisable 	Summer, Weight
+
+Muffalo Wool is soft, light and provides very good insulation. It's easier to work with than other wools, but still time consuming.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Wool</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(179,192,186)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<MarketValue>3</MarketValue>
+			<Flammability>1.5</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.85</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.072</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>27</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>-8</StuffPower_Insulation_Heat>
+			<Mass>0.02</Mass>
+			<Bulk>0.02</Bulk>
+		</statBases>
+		<techLevel>Neolithic</techLevel>
+		<tickerType>Rare</tickerType>
+		<stackLimit>300</stackLimit>
+		<stuffProps>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<color>(179,192,186)</color>
+			<statFactors>
+				<MaxHitPoints>1.35</MaxHitPoints>
+				<Beauty>1.2</Beauty>
+				<MoveSpeed>0.8</MoveSpeed>
+				<MarketValue>0.7</MarketValue>
+				<WorkToMake>1.3</WorkToMake>
+				<WorkToBuild>1.3</WorkToBuild>
+				<BedRestEffectiveness>1.1</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.0</ImmunityGainSpeedFactor>
+				<Mass>0.72</Mass>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BTextiles</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>WoolAlpaca</defName>
+		<label>Alpaca wool</label>
+		<description>TIER 1 - Neolithic
+>>> Optimal	Durability
+>> Suitable	Winter
+X Inadvisable 	Armor
+
+Alpaca is warm and sturdy, but isn't very useful for armor.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Wool</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(237,216,174)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<MarketValue>4.0</MarketValue>
+			<Flammability>1.5</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<StuffPower_Armor_Blunt>0.9</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.65</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.085</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>6</StuffPower_Insulation_Heat>
+			<Mass>0.02</Mass>
+			<Bulk>0.02</Bulk>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<stackLimit>300</stackLimit>
+		<techLevel>Neolithic</techLevel>
+		<stuffProps>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<color>(180,148,109)</color>
+			<statFactors>
+				<MaxHitPoints>1.5</MaxHitPoints>
+				<Beauty>1.3</Beauty>
+				<MoveSpeed>0.85</MoveSpeed>
+				<MarketValue>0.7</MarketValue>
+				<WorkToMake>1.43</WorkToMake>
+				<WorkToBuild>1.43</WorkToBuild>
+				<BedRestEffectiveness>1.1</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>
+				<Mass>0.66</Mass>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BTextiles</li>
+		</thingCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>WoolDromedary</defName>
+		<label>Dromedary hair</label>
+		<description>TIER 1 - Neolithic
+>>> Optimal	Summer
+>> Suitable	Winter
+X Inadvisable 	Durability
+
+Dromedary Hair clothing is usually worn by desert travelers to protect them from the heat. It provides excellent insulation due to its thermostatic properties, and it's great all year-round.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Wool</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(220,179,132)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>3</MarketValue>
+			<Flammability>1.75</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<StuffPower_Armor_Blunt>0.95</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.09</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+			<Mass>0.02</Mass>
+			<Bulk>0.02</Bulk>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<stackLimit>300</stackLimit>
+		<techLevel>Neolithic</techLevel>
+		<stuffProps>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<color>(220,179,132)</color>
+			<statFactors>
+				<MaxHitPoints>1.28</MaxHitPoints>
+				<Beauty>1.3</Beauty>
+				<MoveSpeed>0.85</MoveSpeed>
+				<MarketValue>0.7</MarketValue>
+				<WorkToMake>1.47</WorkToMake>
+				<WorkToBuild>1.47</WorkToBuild>
+				<BedRestEffectiveness>1.12</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>
+				<Mass>0.65</Mass>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BTextiles</li>
+		</thingCategories>
+	</ThingDef>
+	
+<ThingDef ParentName="SK_ResourceBase">
+    <defName>WoolSheep</defName>
+    <label>sheep wool</label>
+    <description>TIER 1 - Neolithic
+>>> Optimal	Bedding, Production
+>> Suitable	Economy
+X Inadvisable 	Durability
+
+Sheep's wool is soft and makes decent bedding and is good for all seasons, but it's not very strong. It's your basic economy wool.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Wool</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(219,214,209)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<MarketValue>2</MarketValue>
+			<Flammability>1.65</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<StuffPower_Armor_Blunt>0.96</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.84</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.085</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>16</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>8</StuffPower_Insulation_Heat>
+			<Mass>0.02</Mass>
+			<Bulk>0.02</Bulk>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<stackLimit>300</stackLimit>
+		<techLevel>Medieval</techLevel>
+		<stuffProps>
+			<commonality>0.24</commonality>
+			<stuffAdjective>Ram Wool</stuffAdjective>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<color>(219,214,209)</color>
+			<statFactors>
+				<MaxHitPoints>1.15</MaxHitPoints>
+				<Beauty>1.2</Beauty>
+				<MoveSpeed>0.85</MoveSpeed>
+				<MarketValue>0.7</MarketValue>
+				<WorkToMake>1.3</WorkToMake>
+				<WorkToBuild>1.3</WorkToBuild>
+				<BedRestEffectiveness>1.2</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+				<Mass>0.62</Mass>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<thingCategories>
+			<li>BTextiles</li>
+		</thingCategories>
+	</ThingDef>
+	
+	
+</Defs>

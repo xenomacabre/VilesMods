@@ -20,19 +20,21 @@
 				<filter>
 					<categories>
 						<li>SLDBar</li>
-						<li>HCMBar</li>
-						<li>PRSBar</li>
 					</categories>
+					<thingDefs>
+						<li>CopperBar</li>
+					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>10</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<categories>
-						<li>SLDBar</li>
-						<li>HCMBar</li>
-						<li>PRSBar</li>
-					</categories>
+				<li>SLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>CopperBar</li>
+			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<ComponentMedieval>10</ComponentMedieval>
@@ -62,19 +64,21 @@
 				<filter>
 					<categories>
 						<li>SLDBar</li>
-						<li>HCMBar</li>
-						<li>PRSBar</li>
 					</categories>
+					<thingDefs>
+						<li>CopperBar</li>
+					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>10</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<categories>
-						<li>SLDBar</li>
-						<li>HCMBar</li>
-						<li>PRSBar</li>
-					</categories>
+				<li>SLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>CopperBar</li>
+			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<ComponentMedieval>10</ComponentMedieval>

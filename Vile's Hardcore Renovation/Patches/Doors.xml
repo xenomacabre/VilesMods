@@ -24,9 +24,8 @@
 			</stuffCategories>
 		</value>
 	</Operation>
-	
-	
-	
+    
+
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName = "MDoor"]/graphicData/texPath</xpath>
 		<value>

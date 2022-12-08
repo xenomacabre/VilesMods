@@ -28,5 +28,11 @@
 		<iconPath>UI/Icons/Coal</iconPath>
 		<parent>Manufactured</parent>
 	</ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>Pottery</defName>
+		<label>Pottery</label>
+		<iconPath>Things/Pottery/Pot_unfired</iconPath>
+		<parent>Manufactured</parent>
+	</ThingCategoryDef>
 
 </Defs>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="Pila"]/costList</xpath>
+			</li>
+ 			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Pila"]</xpath>
+				<value>
+                    <stuffCategories>
+                        <li>HardwoodLumber</li>
+                    </stuffCategories>
+				</value>
+			</li>
+		    <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Pila"]</xpath>
+				<value>
+                    <costStuffCount>1</costStuffCount>
+				</value>
+			</li>
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

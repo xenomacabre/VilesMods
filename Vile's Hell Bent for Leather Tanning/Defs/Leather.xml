@@ -33,6 +33,7 @@
 				<BedRestEffectiveness>0.9</BedRestEffectiveness>
 				<ImmunityGainSpeedFactor>0.8</ImmunityGainSpeedFactor>
 				<Mass>0.7</Mass>
+				<Cleanliness>0.5</Cleanliness>
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
@@ -40,7 +41,7 @@
 	<ThingDef Name="LeatherBase_Upholstery" ParentName="SK_LeatherBase">
 		<defName>Leather_UpholsteryBrown</defName>
 		<label>upholstery leather (brown)</label>
-		<description>Corrected-grain leather that is finished and embossed. It's attractive, sturdy, and somewhat comfortable, and great for furniture of all types, but makes for terrible clothing.</description>
+		<description>Corrected-grain leather that is finished and embossed. It's attractive, sturdy, and somewhat comfortable, and great for furniture of all types, but makes for terrible clothing. Very easy to clean.</description>
 		<graphicData>
 			<color>(188,84,68)</color>
 		</graphicData>
@@ -69,6 +70,7 @@
 				<BedRestEffectiveness>1.1</BedRestEffectiveness>
 				<ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>
 				<Mass>0.7</Mass>
+				<Cleanliness>1.5</Cleanliness>
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
@@ -168,6 +170,7 @@
 				<BedRestEffectiveness>1</BedRestEffectiveness>
 				<ImmunityGainSpeedFactor>0.95</ImmunityGainSpeedFactor>
 				<Mass>0.55</Mass>
+				<Cleanliness>1</Cleanliness>
 			</statFactors>
 		</stuffProps>
 	</ThingDef>

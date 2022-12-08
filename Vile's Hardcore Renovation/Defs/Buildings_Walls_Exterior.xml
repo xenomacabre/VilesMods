@@ -55,7 +55,7 @@
 	<ThingDef ParentName="WallBase">
 		<defName>ClapboardWall</defName>
 		<label>clapboard wall</label>
-		<description>A wall with siding made of wedges split from a log (ie. firewood). It can also be made from planks.</description>
+		<description>A wall with siding made of wedges split from a log (ie. firewood). It can also be made from planks. Not the most sanitary.</description>
 		<graphicData>
 			<texPath>Things/Building/Walls/Wall_Atlas_Clapboard</texPath> <!-- leaving this in linked in case later decide to do separate appearances -->
 			<shaderType>CutoutComplex</shaderType>
@@ -86,6 +86,7 @@
 			<WorkToBuild>270</WorkToBuild> <!-- vanilla is 270 -->
 			<Flammability>1.0</Flammability>
 			<Beauty>-1</Beauty>
+			<Cleanliness>-0.2</Cleanliness>
 		</statBases>
 		<stuffCategories>
 			<li>WoodLogs</li>
@@ -168,12 +169,12 @@
 			</blueprintGraphicData>
 		</building>
 		<uiIconPath>Things/Building/Walls/Wall_Atlas_Mud_ico</uiIconPath>
-		<uiIconPathsStuff>
+		<!--<uiIconPathsStuff>
 			<li>
-				<!--<appearance>Logs</appearance>-->
+				<appearance>Logs</appearance>
 				<iconPath>Things/Building/Walls/Wall_Atlas_Mud_ico</iconPath>
 			</li>
-		</uiIconPathsStuff>
+		</uiIconPathsStuff>-->
 		<statBases>
 			<MaxHitPoints>550</MaxHitPoints> <!-- vanilla is 380 -->
 			<WorkToBuild>700</WorkToBuild> <!-- vanilla is 270 -->
@@ -217,12 +218,12 @@
 			</blueprintGraphicData>
 		</building>
 		<uiIconPath>Things/Building/Walls/Wall_Atlas_Adobe_ico</uiIconPath>
-		<uiIconPathsStuff>
+		<!--<uiIconPathsStuff>
 			<li>
-				<!--<appearance>Logs</appearance>-->
+				<appearance>Logs</appearance>
 				<iconPath>Things/Building/Walls/Wall_Atlas_Adobe_ico</iconPath>
 			</li>
-		</uiIconPathsStuff>
+		</uiIconPathsStuff>-->
 		<statBases>
 			<MaxHitPoints>350</MaxHitPoints> <!-- vanilla is 380 -->
 			<WorkToBuild>550</WorkToBuild> <!-- vanilla is 270 -->

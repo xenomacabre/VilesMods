@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="makemedicine"]/ingredients</xpath>
+				<value>
+					<ingredients>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>IsopropylAlcohol</li>
+                                </thingDefs>
+                            </filter>
+                            <count>3</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>MedicineHerbal</li>
+                                </thingDefs>
+                            </filter>
+                            <count>5</count>
+                        </li>
+                         <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>aloe</li>
+                                </thingDefs>
+                            </filter>
+                            <count>2</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>RawCotton</li>
+                                </thingDefs>
+                            </filter>
+                            <count>10</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>Bandagekit</li>
+                                </thingDefs>
+                            </filter>
+                            <count>4</count>
+                        </li>                  
+                    </ingredients>
+				</value>
+			</li>
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="makemedicine"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+                        <thingDefs>
+                            <li>IsopropylAlcohol</li>
+                            <li>MedicineHerbal</li>
+                            <li>aloe</li>
+                            <li>RawCotton</li>
+                            <li>Bandagekit</li>
+                        </thingDefs>
+                    </fixedIngredientFilter>
+				</value>
+			</li>
+            
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="makeadvmedicine"]/ingredients</xpath>
+				<value>
+					<ingredients>
+                       <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>Microchips</li>
+                                </thingDefs>
+                            </filter>
+                            <count>1</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>MedicalDrink</li>
+                                </thingDefs>
+                            </filter>
+                            <count>2</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>BiosyntheticMaterial</li>
+                                </thingDefs>
+                            </filter>
+                            <count>2</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>IsopropylAlcohol</li>
+                                </thingDefs>
+                            </filter>
+                            <count>3</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>Neutroamine</li>
+                                </thingDefs>
+                            </filter>
+                            <count>2</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>Micropel</li>
+                                </thingDefs>
+                            </filter>
+                            <count>3</count>
+                        </li>   
+                    </ingredients>
+				</value>
+			</li>
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="makeadvmedicine"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+                        <thingDefs>
+                            <li>Microchips</li>
+                            <li>MedicalDrink</li>
+                            <li>BiosyntheticMaterial</li>
+                            <li>IsopropylAlcohol</li>
+                            <li>Neutroamine</li>
+                            <li>Micropel</li>
+                        </thingDefs>
+                    </fixedIngredientFilter>
+				</value>
+			</li>
+            
+            
+            
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	
+

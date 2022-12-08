@@ -1,35 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<!--<ThingDef ParentName="SK_DoorBase">
+	<ThingDef ParentName="SK_DoorBase">
 		<defName>PalisadeGate</defName>
-		<label>palisade gate</label>
-		<description>Not stockade is complete without a way in.</description>
+		<label>palisade fence gate</label>
+		<description>A strong gate made of wooden logs.</description>
 		<statBases>
-			<MaxHitPoints>300</MaxHitPoints>
+			<MaxHitPoints>250</MaxHitPoints>
 			<WorkToBuild>500</WorkToBuild>
+			<DoorOpenSpeed>0.75</DoorOpenSpeed>
 		</statBases>
 		<graphicData>
-			<texPath>Things/Building/Doors/DoorPalisade_Mover</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-
+			<texPath>Things/Building/Doors/Multi/GatePalisade_Mover</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shadowData>
+				<volume>(0.3, 0.5, 0.3)</volume>
+			</shadowData>
+			<linkFlags>
+				<li>Custom1</li>
+			</linkFlags>
 			<damageData>
-			
 				<enabled>false</enabled>
 			</damageData>
 		</graphicData>
-		<uiIconPath>Things/Building/Doors/DoorPalisade_Mover</uiIconPath>
+		<uiIconPath>Things/Building/Doors/Multi/GatePalisadeIco_south</uiIconPath>
 		<stuffCategories>
 			<li>Softwoods</li>
 			<li>Hardwoods</li>
 			<li>Ultrahardwoods</li>
 		</stuffCategories>
-		<costStuffCount>2</costStuffCount>
+		<costStuffCount>3</costStuffCount>
 		<costList>
-			<ComponentMedieval>2</ComponentMedieval>
+			<ComponentMedieval>4</ComponentMedieval>
 		</costList>
+		<holdsRoof>false</holdsRoof>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<blockWind>false</blockWind>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<relatedBuildCommands>
+				<li>Fence</li>
+				<li>PenMarker</li>
+			</relatedBuildCommands>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Doors/Multi/GatePalisadeIco</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+			</blueprintGraphicData>
+			<soundDoorOpenManual>Door_FenceGateManual</soundDoorOpenManual>
+			<soundDoorCloseManual>Door_FenceGateManual</soundDoorCloseManual>
+		</building>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+		</comps>
 	</ThingDef>
-	-->
-	
+	<!--
 	<ThingDef ParentName="FencesAFGateBase">
 		<defName>PalisadeGate</defName>
 		<label>palisade gate</label>
@@ -90,6 +113,7 @@
 			<li>PlaceWorker_DoorLearnOpeningSpeed</li>
 		</placeWorkers>
 	</ThingDef>
+	
 		<ThingDef ParentName="FencesAFGateBase">
 		<defName>PalisadeGateB</defName>
 		<label>palisade gate</label>
@@ -150,10 +174,61 @@
 			<li>PlaceWorker_DoorLearnOpeningSpeed</li>
 		</placeWorkers>
 	</ThingDef>
+	-->
+	<ThingDef ParentName="SK_DoorBase">
+		<defName>WattleFenceGate</defName>
+		<label>wattle fence gate</label>
+		<description>A gate made of sticks.</description>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>200</WorkToBuild>
+			<DoorOpenSpeed>1</DoorOpenSpeed>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Building/Doors/Multi/WattleFenceGate_Mover</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shadowData>
+				<volume>(0.3, 0.5, 0.3)</volume>
+			</shadowData>
+			<linkFlags>
+				<li>Custom1</li>
+			</linkFlags>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Doors/Multi/WattleGateIco_south</uiIconPath>
+		<stuffCategories>
+			<li>WoodLogs</li>
+		</stuffCategories>
+		<costStuffCount>5</costStuffCount>
+		<costList>
+			<Kindling>4</Kindling>
+		</costList>
+		<holdsRoof>false</holdsRoof>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<blockWind>false</blockWind>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<relatedBuildCommands>
+				<li>Fence</li>
+				<li>PenMarker</li>
+			</relatedBuildCommands>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Doors/Multi/WattleGateIco</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+			</blueprintGraphicData>
+			<soundDoorOpenManual>Door_FenceGateManual</soundDoorOpenManual>
+			<soundDoorCloseManual>Door_FenceGateManual</soundDoorCloseManual>
+		</building>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+		</comps>
+	</ThingDef>
 	
-	
+	<!--
 	<ThingDef ParentName="FencesAFGateBase">
-		<defName>WattleFenceGate</defName> <!-- changed to overwrite vanilla -->
+		<defName>WattleFenceGate</defName>
 		<label>wattle fence gate</label>
 		<description>A gate made of sticks.</description>
 		<altitudeLayer>DoorMoveable</altitudeLayer>
@@ -175,7 +250,6 @@
 		<selectable>true</selectable>
 		<tickerType>Normal</tickerType>
 		<rotatable>false</rotatable>
-		<!--  <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>  -->
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<holdsRoof>false</holdsRoof>
 		<staticSunShadowHeight>0</staticSunShadowHeight>
@@ -233,7 +307,6 @@
 		<selectable>true</selectable>
 		<tickerType>Normal</tickerType>
 		<rotatable>false</rotatable>
-		<!--  <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>  -->
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<holdsRoof>false</holdsRoof>
 		<staticSunShadowHeight>0</staticSunShadowHeight>
@@ -267,6 +340,62 @@
 		<placeWorkers>
 			<li>PlaceWorker_DoorLearnOpeningSpeed</li>
 		</placeWorkers>
+	</ThingDef>
+	-->
+	
+	<!--========================= Farm Gate =============================-->
+	<ThingDef ParentName="SK_DoorBase">
+		<defName>FenceGate</defName>
+		<label>farm fence gate</label>
+		<description>A gate made of planks. Opens much quicker than wattle fences.</description>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<WorkToBuild>250</WorkToBuild>
+			<DoorOpenSpeed>1.5</DoorOpenSpeed>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Building/Doors/Multi/WoodFenceGate_Mover</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shadowData>
+				<volume>(0.3, 0.5, 0.3)</volume>
+			</shadowData>
+			<linkFlags>
+				<li>Custom1</li>
+			</linkFlags>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Doors/Multi/WoodFenceGateIco_south</uiIconPath>
+		<stuffCategories>
+			<li>SoftwoodLumber</li>
+			<li>HardwoodLumber</li>
+			<li>UltrahardwoodLumber</li>
+			<li>EngineeredLumber</li>
+		</stuffCategories>
+		<costStuffCount>5</costStuffCount>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<holdsRoof>false</holdsRoof>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<blockWind>false</blockWind>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<relatedBuildCommands>
+				<li>Fence</li>
+				<li>PenMarker</li>
+			</relatedBuildCommands>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Doors/Multi/WoodFenceGateIco</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+			</blueprintGraphicData>
+			<soundDoorOpenManual>Door_FenceGateManual</soundDoorOpenManual>
+			<soundDoorCloseManual>Door_FenceGateManual</soundDoorCloseManual>
+		</building>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+		</comps>
 	</ThingDef>
 	
 </Defs>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+	<!-- ACCESSORIES -->	
+            <!-- aviators-->
+              <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Apparello_Pilot"]/costList</xpath>
+				<value>
+					<costList>
+                        <Polycarbonate>5</Polycarbonate>
+                        <Compaste>10</Compaste>
+                    </costList>
+				</value>
+			 </li>
+              <!-- shades-->
+              <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Apparello_Shadess"]/costList</xpath>
+				<value>
+					<costList>
+                        <Glass>5</Glass>
+                        <Compaste>10</Compaste>
+                    </costList>
+				</value>
+			 </li>
+              <!-- ski goggles-->
+              <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Apparello_Brimsk"]/costList</xpath>
+				<value>
+					<costList>
+                        <Plexiglass>8</Plexiglass>
+                        <Compaste>10</Compaste>
+                        <SewingKit>1</SewingKit>
+                    </costList>
+				</value>
+			 </li>
+            
+             <!-- storm mask-->
+              <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Marine_BattleMask"]/costList</xpath>
+				<value>
+					<costList>
+                        <Polycarbonate>8</Polycarbonate>
+                        <Compaste>10</Compaste>
+                        <SewingKit>1</SewingKit>
+                    </costList>
+				</value>
+			 </li>
+  <!-- INDUSTRIAL OUTERWEAR -->          
+              <!-- combat / suit jacket-->
+              <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Apparel_FlakJacket"]/costList</xpath>
+				<value>
+                    <costList>
+                        <SewingKit>4</SewingKit>
+                        <SyntheticFibers>10</SyntheticFibers>
+                    </costList>
+				</value>
+			 </li>
+              <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Apparel_FlakJacket"]/label</xpath>
+				<value>
+                   <label>combat jacket</label>
+				</value>
+			 </li>
+              <!-- chef jacket-->
+              <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Apparel_FSChefJacket"]/costList</xpath>
+				<value>
+					<costList>
+                        <SewingKit>1</SewingKit>
+                    </costList>
+				</value>
+			 </li>
+            
+ <!-- OTHER INDUSTRIAL -->
+              <!-- spurred boots-->
+              <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Apparello_Boots"]/costList</xpath>
+				<value>
+					<costList>
+                        <ComponentIndustrial>2</ComponentIndustrial>
+                        <SyntheticFibers>5</SyntheticFibers>
+                    </costList>
+				</value>
+			 </li>
+             <!-- MP ARMOR-->
+              <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Marine_Armor"]/costList</xpath>
+				<value>
+                    <costList>
+                        <SewingKit>4</SewingKit>
+                        <Kevlar>30</Kevlar>
+                        <SyntheticFibers>16</SyntheticFibers>
+                        <Compaste>25</Compaste>
+                    </costList>
+				</value>
+			 </li>
+              <!-- constructors trousers-->
+              <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Marine_Armor"]/costList</xpath>
+				<value>
+                        <costList>
+                            <SewingKit>5</SewingKit>
+                            <Modacrylic>10</Modacrylic>
+                            <Compaste>15</Compaste>
+                        </costList>
+				</value>
+			 </li>
+              <!-- respirator -->
+              <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Apparel_Respirator"]/costList</xpath>
+				<value>
+                        <costList>
+                            <ActivatedCarbon>5</ActivatedCarbon>
+                            <SewingKit>2</SewingKit>
+                            <Paraffins>5</Paraffins>
+                        </costList>
+				</value>
+			 </li>
+             <!-- Ballistic shield -->
+              <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="BallisticShield"]/costList</xpath>
+				<value>
+                       <costList>
+                            <ComponentIndustrial>3</ComponentIndustrial>
+                           <ReinforcedGlass>5</ReinforcedGlass>
+                            <Kevlar>10</Kevlar>
+                        </costList>
+				</value>
+			 </li>
+            
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	
+

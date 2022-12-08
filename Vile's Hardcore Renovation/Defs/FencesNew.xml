@@ -151,7 +151,7 @@
 			<li>Hardwoods</li>
 			<li>Ultrahardwoods</li>
 		</stuffCategories>
-		<costStuffCount>2</costStuffCount> <!-- equal to 10 planks-->
+		<costStuffCount>3</costStuffCount> <!-- equal to 15 planks-->
 		<building>
 			
 			<isInert>true</isInert>
@@ -167,6 +167,7 @@
 		<label>Fences</label>
 		<description>Fences. And De-fences.</description>
 		<defNames>
+			<li>WattleFence</li>
 			<li>Fence</li>
 			<li>DryStoneWall</li>
 			<li>PalisadeWall</li>
@@ -178,7 +179,7 @@
 	 
 	  <ArchitectSense.DesignationSubCategoryDef>
 		<defName>SubCategory_FenceGatesH</defName>
-		<label>Horizontal Gates</label>
+		<label>Gates</label>
 		<description>Fence gates.</description>
 		<defNames>
 			<li>WattleFenceGate</li>
@@ -189,7 +190,7 @@
 		</defNames>
 		<designationCategory>Structure</designationCategory>
 	</ArchitectSense.DesignationSubCategoryDef>
-	 
+	 <!--
 	 <ArchitectSense.DesignationSubCategoryDef>
 		<defName>SubCategory_FenceGatesV</defName>
 		<label>Vertical Gates</label>
@@ -203,5 +204,67 @@
 		</defNames>
 		<designationCategory>Structure</designationCategory>
 	</ArchitectSense.DesignationSubCategoryDef>
-	 
+	 -->
+	 <!--========================= Farm Fence =============================-->
+	<ThingDef ParentName="FencesAFBuildingBase">
+		<defName>Fence</defName>  <!-- changed to overwrite vanilla -->
+		<label>fence</label>
+		<description>A good, old fashioned wooden fence.</description>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/Building/Fences/WoodFence</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Custom1</li>
+			</linkFlags>
+		</graphicData>
+		<uiIconPath>Things/Building/Fences/WoodFenceIco</uiIconPath>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>120</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<costStuffCount>5</costStuffCount>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<useHitPoints>true</useHitPoints>
+		<blockWind>false</blockWind>
+		<castEdgeShadows>false</castEdgeShadows>
+		<fillPercent>0.35</fillPercent>
+		<coversFloor>false</coversFloor>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<tickerType>Never</tickerType>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<holdsRoof>false</holdsRoof>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<blockLight>false</blockLight>
+		<canOverlapZones>true</canOverlapZones>
+		<stuffCategories>
+			<li>SoftwoodLumber</li>
+			<li>HardwoodLumber</li>
+			<li>UltrahardwoodLumber</li>
+			<li>EngineeredLumber</li>
+		</stuffCategories>
+		<building>
+			<isInert>true</isInert>
+			<isFence>true</isFence>
+			<ai_chillDestination>false</ai_chillDestination>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Fences/WoodFence_Blueprint</texPath>
+			</blueprintGraphicData>
+		</building>
+		<!--<damageMultipliers>
+			<li>
+				<damageDef>Bomb</damageDef>
+				<multiplier>3</multiplier>
+			</li>
+		</damageMultipliers>-->
+	</ThingDef>
+	
 </Defs>

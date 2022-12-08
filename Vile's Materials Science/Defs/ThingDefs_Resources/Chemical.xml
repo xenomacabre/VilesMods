@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Chlorine</defName>
+		<label>Chlorine</label>
+		<description>Chlorine is a yellow-green gas which is useful in the production of several materials. It can be made along with lye by electrolyzing sodium chloride (ie. salt).</description>
+		<graphicData>
+			<texPath>Things/Item/Chemical/Chlorine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<MarketValue>7</MarketValue>
+			<DeteriorationRate>0.05</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.05</Mass>
+			<Bulk>0.05</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<thingCategories>
+			<li>Chemical</li>
+		</thingCategories>
+		<stackLimit>300</stackLimit>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Paraffins</defName>
+		<label>Teflon</label>
+		<description>Teflon, or PTFE, is a thermoplastic with extremely high corrosion and chemical resistance, friction resistance, and is hydrophobic. Its applications include hazmat gear, as a biomaterial, and lubricant for certain machines. It's highly toxic so best not to use it to coat your pans.</description>
+		<graphicData>
+			<texPath>Things/Item/Chemical/Teflon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<MarketValue>7</MarketValue>
+			<DeteriorationRate>0.05</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.05</Mass>
+			<Bulk>0.05</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<thingCategories>
+			<li>Chemical</li>
+		</thingCategories>
+		<stackLimit>300</stackLimit>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>IsopropylAlcohol</defName>
+		<label>Isopropyl Alcohol</label>
+		<description>A petrochemical derivitive used for disinfection. (work in progress)</description>
+		<graphicData>
+			<texPath>Things/Item/Chemical/IsopropylAlcohol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<MarketValue>7</MarketValue>
+			<DeteriorationRate>0.05</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.05</Mass>
+			<Bulk>0.05</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<thingCategories>
+			<li>Chemical</li>
+		</thingCategories>
+		<stackLimit>300</stackLimit>
+	</ThingDef>
+	
+		<ThingDef ParentName="SK_ResourceBase">
+		<defName>Lye</defName>
+		<label>Lye (sodium hydroxide)</label>
+		<description>Also known as lye or caustic soda, sodium hydroxide is useful for processing alumina from bauxite and synthesizing viscose for rayon, as well as many household uses such as bar soap and drain cleaner. It can be made along with chlorine by electrolyzing sodium chloride (ie. salt).</description>
+		<graphicData>
+			<texPath>Things/Item/Chemical/Lye</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<MarketValue>7</MarketValue>
+			<DeteriorationRate>0.05</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.05</Mass>
+			<Bulk>0.05</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<thingCategories>
+			<li>Chemical</li>
+		</thingCategories>
+		<stackLimit>300</stackLimit>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Cellulose</defName>
+		<label>Cellulose</label>
+		<description>Cellulose is required to make the silk-like fabric Rayon, and Nitrocellulose, a propellant required for modern ammuntion. It can be extracted from cotton, hemp, and wood fiber.</description>
+		<graphicData>
+			<texPath>Things/Item/Chemical/Cellulose</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<MarketValue>7</MarketValue>
+			<DeteriorationRate>0.05</DeteriorationRate>
+			<Flammability>1</Flammability>
+			<Mass>0.05</Mass>
+			<Bulk>0.05</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<thingCategories>
+			<li>Chemical</li>
+		</thingCategories>
+		<stackLimit>300</stackLimit>
+	</ThingDef>
+	
+	<!-- Nitrocellulose in patches -->
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>BlackPowder</defName>
+		<label>Gunpowder</label>
+		<description>Gunpowder, also known as black powder, is the earliest known chemical explosive. It is a mixture of Sulfur, Coal Ore and Nitre. The Sulfur and Coal Ore act as fuels, and the Nitre is an oxidizer. Modern firearms use Nitrocellulose as a chamical propellant.</description>
+		<graphicData>  
+			<texPath>Things/Item/Resource/Powder</texPath>
+			<graphicClass>Graphic_Single</graphicClass> 
+		</graphicData> 
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<tickerType>Normal</tickerType>
+		<stackLimit>150</stackLimit>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<MaxHitPoints>5</MaxHitPoints>
+			<DeteriorationRate>0.01</DeteriorationRate>
+			<Flammability>14</Flammability>
+			<Mass>0.03</Mass>
+			<Bulk>0.1</Bulk>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>2</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.2</explosiveExpandPerStackcount>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<wickTicks>
+					<min>5</min>
+					<max>10</max>
+				</wickTicks>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>ExplosivesCat</li>
+		</thingCategories> 
+	</ThingDef>
+	
+	<!-- Plant Wax - replaces paraffin for candles -->
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>PlantWax</defName>
+		<label>plant wax</label>
+		<description>Candle wax made from coconut or soybean oil.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Paraffinwax</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<MarketValue>7</MarketValue>
+			<DeteriorationRate>0.05</DeteriorationRate>
+			<Flammability>2</Flammability>
+			<Mass>0.05</Mass>
+			<Bulk>0.05</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<thingCategories>
+			<li>Chemical</li>
+		</thingCategories>
+		<stackLimit>300</stackLimit>
+	</ThingDef>
+
+</Defs>

@@ -15,19 +15,17 @@
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>CopperBar</li>
-						<li>Bronze</li>
-					</thingDefs>
+					<categories>
+						<li>CastBar</li>
+					</categories>
 				</filter>
 				<count>35</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<thingDefs>
-				<li>CopperBar</li>
-				<li>Bronze</li>
-			</thingDefs>
+			<categories>
+                <li>CastBar</li>
+            </categories>
 		</fixedIngredientFilter>
 		<products>
 			<TFJ_Tool_Woodcutting_Handaxe>1</TFJ_Tool_Woodcutting_Handaxe>    
@@ -55,17 +53,20 @@
 			<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Bronze</li>
-					</thingDefs>
+					<categories>
+						<li>CastBar</li>
+					</categories>
 				</filter>
 				<count>35</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Bronze</li>
-			</thingDefs>
+					<categories>
+						<li>CastBar</li>
+					</categories>
+            <disallowedThingDefs>
+				<li>CastIron</li>
+			</disallowedThingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<TFJ_Tool_Mining_Pickaxe>1</TFJ_Tool_Mining_Pickaxe>    
@@ -93,19 +94,17 @@
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>CopperBar</li>
-						<li>Bronze</li>
-					</thingDefs>
+					<categories>
+						<li>CastBar</li>
+					</categories>
 				</filter>
 				<count>35</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<thingDefs>
-				<li>CopperBar</li>
-				<li>Bronze</li>
-			</thingDefs>
+					<categories>
+						<li>CastBar</li>
+					</categories>
 		</fixedIngredientFilter>
 		<products>
 			<TFJ_Tool_Building_Hammer>1</TFJ_Tool_Building_Hammer>    
@@ -133,21 +132,17 @@
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>CopperBar</li>
-						<li>Bronze</li>
-						<li>CastIron</li>
-					</thingDefs>
+					<categories>
+						<li>CastBar</li>
+					</categories>
 				</filter>
 				<count>35</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<thingDefs>
-				<li>CopperBar</li>
-				<li>Bronze</li>
-				<li>CastIron</li>
-			</thingDefs>
+					<categories>
+						<li>CastBar</li>
+					</categories>
 		</fixedIngredientFilter>
 		<products>
 			<TFJ_Tool_Sickle>1</TFJ_Tool_Sickle>    
@@ -175,21 +170,17 @@
 			<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>CopperBar</li>
-						<li>Bronze</li>
-						<li>CastIron</li>
-					</thingDefs>
+					<categories>
+						<li>CastBar</li>
+					</categories>
 				</filter>
 				<count>35</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<thingDefs>
-				<li>CopperBar</li>
-				<li>Bronze</li>
-				<li>CastIron</li>
-			</thingDefs>
+					<categories>
+						<li>CastBar</li>
+					</categories>
 		</fixedIngredientFilter>
 		<products>
 			<TFJ_Tool_Hoe>1</TFJ_Tool_Hoe>    

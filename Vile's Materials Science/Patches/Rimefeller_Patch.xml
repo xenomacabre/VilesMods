@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Rimefeller</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakePipe"]/label</xpath>
+				<value>
+					<label>Make drill pipe</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakePipe"]/label</xpath>
+				<value>
+					<label>Make drill pipe x10</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakePipe"]/description</xpath>
+				<value>
+					<description>Oil production requires pipes for oil rigs. Must me made of ductile metals with a tensile strength of at least 600 megapascals.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakePipe"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>CarbonSteel</li>
+									<li>SteelBar</li>
+									<li>AlnicoAlloy</li>
+									<li>SpringSteel</li>
+								</thingDefs>
+								<categories>
+									<li>USLDBar</li>
+								</categories>
+							</filter>
+							<count>50</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakePipe"]/fixedIngredientFilter</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<categories>
+							<li>SLDBar</li>
+							<li>USLDBar</li>
+						</categories>
+						<thingDefs>
+							<li>CarbonSteel</li>
+							<li>SteelBar</li>
+							<li>AlnicoAlloy</li>
+							<li>SpringSteel</li>
+						</thingDefs>
+						<disallowedThingDefs>
+							<li>Carborundum</li>
+							<li>PobediteAlloy</li>
+						</disallowedThingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+			
+			
+			
+			
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	
+

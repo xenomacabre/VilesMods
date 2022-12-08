@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ComponentIndustrial"]/label</xpath>
+				<value>
+					<label>threaded fasteners</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ComponentIndustrial"]/description</xpath>
+				<value>
+					<description>Screws, bolts and industrial components which are critical for modern assemblies.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ComponentIndustrial"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Item/Parts/ThreadedFasteners</texPath>
+						<graphicClass>Graphic_StackCount</graphicClass>
+					</graphicData>
+				 </value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ComponentAdvanced"]/label</xpath>
+				<value>
+					<label>machine fasteners</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ComponentAdvanced"]/description</xpath>
+				<value>
+					<description>Precision screws, bolts and other advanced components which are critical for advanced assemblies.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ComponentAdvanced"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Item/Parts/MachineFasteners</texPath>
+						<graphicClass>Graphic_StackCount</graphicClass>
+					</graphicData>
+				 </value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ComponentSpacer"]/label</xpath>
+				<value>
+					<label>self-sealing fasteners</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ComponentSpacer"]/description</xpath>
+				<value>
+					<description>Self-sealing stem bolts, autoscrews, reflex-pins and other high tech components which are critical for spacer assemblies.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ComponentSpacer"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Item/Parts/SelfSealingFasteners</texPath>
+						<graphicClass>Graphic_StackCount</graphicClass>
+					</graphicData>
+				 </value>
+			</li>
+			
+			
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ComponentUltra"]/label</xpath>
+				<value>
+					<label>claytronic fasteners</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ComponentUltra"]/description</xpath>
+				<value>
+					<description>Who needs nails when you can just tell a swarm of nanobots to hold two things in place?</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ComponentUltra"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Item/Parts/ClaytronicFasteners</texPath>
+						<graphicClass>Graphic_StackCount</graphicClass>
+					</graphicData>
+				 </value>
+			</li>
+			<!-- mechanisms are unchanged -->
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="BioMicrochips"]/label</xpath>
+				<value>
+					<label>quantum computer</label>
+				</value>
+			</li>
+			
+
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

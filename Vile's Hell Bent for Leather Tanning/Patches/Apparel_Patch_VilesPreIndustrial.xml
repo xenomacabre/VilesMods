@@ -17,10 +17,9 @@
 				</value>
 			</li>
 			
-			<li Class="PatchOperationAdd"> <!-- Segmentata --><!-- horde warlord lamellar --><!-- brigandine --><!-- cuirass --><!-- tatami --><!-- munition --><!-- shimmering crown -->
+			<li Class="PatchOperationAdd"> <!-- Segmentata --><!-- brigandine --><!-- cuirass --><!-- tatami --><!-- munition --><!-- shimmering crown -->
 				<xpath>Defs/ThingDef[defName="ViTech_GladiatorLaminar" or 
 					defName="MedievalTimes_Cloaked_Hauberk" or
-					defName="MedievalTimes_Plates_Full_Cloaked" or
 					defName="Apparello_Syndicatellorare" or
 					defName="ViTech_TatamiArmor" or	
 					defName="Apparel_PlateArmor" or
@@ -29,6 +28,15 @@
 					<li>LeatheryHard</li>
 				</value>
 			</li>
+            <li Class="PatchOperationReplace"> <!-- horde warlord lamellar  -->
+				<xpath>Defs/ThingDef[defName="MedievalTimes_Cloaked_Hauberk"]/costList</xpath>
+				<value>
+					<costList>
+						<TannedFur>30</TannedFur>
+					</costList>
+				</value>
+			</li>
+            
 			
 			<!-- HORDE ARCHER ARMOR - bonafide leather armor -->
 			<li Class="PatchOperationReplace">
@@ -150,15 +158,32 @@
 						</costList>
 					</value>
 				</li>
-				<li Class="PatchOperationReplace">
+				<li Class="PatchOperationReplace"> <!-- Feral Scrapmetal armor -->
 					<xpath>Defs/ThingDef[defName="Slag_Plate_Crude"]/costList</xpath>
 					<value>
 						<costList>
-							<BoiledLeather>40</BoiledLeather>
 							<ChunkSlagSteel>5</ChunkSlagSteel>
 						</costList>
 					</value>
 				</li>
+            	<li Class="PatchOperationReplace"> <!-- Feral Scrapmetal armor -->
+					<xpath>Defs/ThingDef[defName="Slag_Plate_Crude"]/stuffCategories</xpath>
+					<value>
+						<stuffCategories>
+                            <li>LeatheryHard</li>
+                        </stuffCategories>
+					</value>
+				</li>
+                <li Class="PatchOperationReplace"> <!-- Feral Scrapmetal armor -->
+					<xpath>Defs/ThingDef[defName="Slag_Plate_Crude"]/costStuffCount</xpath>
+					<value>
+						<costStuffCount>40</costStuffCount>
+					</value>
+				</li>
+            
+            
+
+            
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[defName="ViTech_GladiatorLaminar"]/costList</xpath>
 					<value>
@@ -175,16 +200,7 @@
 						</costList>
 					</value>
 				</li>
-				
-				
-				<li Class="PatchOperationReplace"> <!-- patchwork garment -->
-					<xpath>Defs/ThingDef[defName="Apparel_RagDressB"]/costList</xpath>
-					<value>
-						<costList>
-							<Leather_Scraps>70</Leather_Scraps>
-						</costList>
-					</value>
-				</li>
+
 				
 				<li Class="PatchOperationReplace"> <!-- galea -->
 					<xpath>Defs/ThingDef[defName="Apparello_NorbalThunder"]/costList</xpath>
@@ -194,8 +210,16 @@
 						</costList>
 					</value>
 				</li>
+                <li Class="PatchOperationReplace"> <!-- imperial helm -->
+					<xpath>Defs/ThingDef[defName="ImperialHelmet_Vile"]/costList</xpath>
+					<value>
+						<costList>
+							<Leather_Scraps>40</Leather_Scraps>
+						</costList>
+					</value>
+				</li>
 				<li Class="PatchOperationReplace"> <!-- horde helmet -->
-					<xpath>Defs/ThingDef[defName="Apparel_RagDressB"]/costList</xpath>
+					<xpath>Defs/ThingDef[defName="Apparel_ThumperHood"]/costList</xpath>
 					<value>
 						<costList>
 							<Leather_Scraps>70</Leather_Scraps>
@@ -215,6 +239,7 @@
 					<value>
 						<costList>
 							<Leather_Scraps>70</Leather_Scraps>
+                            <Wire>40</Wire>
 						</costList>
 					</value>
 				</li>

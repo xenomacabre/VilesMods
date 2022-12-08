@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Minerals</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<!-- MAGNETITE -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreSteel"]/label</xpath>
+				<value>
+					<label>Magnetite (Fe+Cr+Zn) Weathered Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SolidOreSteel"]/label</xpath>
+				<value>
+					<label>Magnetite (Fe+Cr+Zn) Solid Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="HewnOreSteel"]/label</xpath>
+				<value>
+					<label>Magnetite (Fe+Cr+Zn) Hewn Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreSteel" or defName="SolidOreSteel" or defName="HewnOreSteel"]/description</xpath>
+				<value>
+					<description>This mineral is an iron ore (Fe). Chromium (Cr) and Zinc (Zn) can also be recovered at a Metal Extraction Plant and Electrolytic Refinery respectively.</description>
+				</value>
+			</li>
+		
+			<!-- SPHALERITE -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreSilver"]/label</xpath>
+				<value>
+					<label>Sphalerite (Zn+Mn+Co) Weathered Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SolidOreSilver"]/label</xpath>
+				<value>
+					<label>Sphalerite (Zn+Mn+Co) Solid Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="HewnOreSilver"]/label</xpath>
+				<value>
+					<label>Sphalerite (Zn+Mn+Co) Hewn Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreSilver" or defName="SolidOreSilver" or defName="HewnOreSilver"]/description</xpath>
+				<value>
+					<description>This sulfide mineral is a zinc ore (Zn). Manganese (Mn) and Cobalt (Co) can also be recovered at a Metal Extraction Plant and Electrolytic Refinery respectively.</description>
+				</value>
+			</li>
+			
+			<!-- gold -->
+	
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreGold"]/label</xpath>
+				<value>
+					<label>Native Gold (Au) Weathered Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SolidOreGold"]/label</xpath>
+				<value>
+					<label>Native Gold (Au) Solid Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="HewnOreGold"]/label</xpath>
+				<value>
+					<label>Native Gold (Au) Hewn Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreGold" or defName="SolidOreGold" or defName="HewnOreGold"]/description</xpath>
+				<value>
+					<description>This mineral is a gold ore (Au). Silver(Ag) and Copper(Cu) can also be recovered at a Metal Extraction Plant and Electrolytic Refinery respectively.</description>
+				</value>
+			</li>
+			
+			<!-- galena -->
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreLead"]/label</xpath>
+				<value>
+					<label>Galena (Pb/Ag+Cu) Weathered Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SolidOreLead"]/label</xpath>
+				<value>
+					<label>Galena (Pb/Ag+Cu) Solid Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="HewnOreLead"]/label</xpath>
+				<value>
+					<label>Galena (Pb+/Ag+Cu) Hewn Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreLead" or defName="SolidOreLead" or defName="HewnOreLead"]/description</xpath>
+				<value>
+					<description>This sulfide mineral is a lead ore (Au) which contains amounts of silver (Ag). Copper(Cu) can also be recovered at a Metal Extraction Plant.</description>
+				</value>
+			</li>
+			
+			<!-- Pentlandite -->
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreNickel"]/label</xpath>
+				<value>
+					<label>Pentlandite (Ni+Fe+Co) Weathered Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SolidOreNickel"]/label</xpath>
+				<value>
+					<label>Pentlandite (Ni+Fe+Co) Solid Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="HewnOreNickel"]/label</xpath>
+				<value>
+					<label>Pentlandite (Ni+Fe+Co) Hewn Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreNickel" or defName="SolidOreNickel" or defName="HewnOreNickel"]/description</xpath>
+				<value>
+					<description>This mineral is an ore of both Nickel (Ni) and Iron (Fe). Cobalt (Cu) may also be recovered at an Electrolytic Refinery.</description>
+				</value>
+			</li>
+			
+			<!-- cassiterite -->
+			
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreTin"]/label</xpath>
+				<value>
+					<label>Cassiterite (Sn+Ag+W) Weathered Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SolidOreTin"]/label</xpath>
+				<value>
+					<label>Cassiterite (Sn+Ag+W) Solid Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="HewnOreTin"]/label</xpath>
+				<value>
+					<label>Cassiterite (Sn+Ag+W) Hewn Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreTin" or defName="SolidOreTin" or defName="HewnOreTin"]/description</xpath>
+				<value>
+					<description>This mineral is a tin ore (Sn). Silver (Ag) and Tungsten (W) can also be recovered at a Metal Extraction Plant and Electrolytic Refinery respectively.</description>
+				</value>
+			</li>
+			
+			<!-- kalcopyrite -->
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreCopper"]/label</xpath>
+				<value>
+					<label>Kalcopyrite (Cu+Fe+Au) Weathered Ore</label>
+				</value>
+			</li>	
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SolidOreCopper"]/label</xpath>
+				<value>
+					<label>Kalcopyrite (Cu+Fe+Au) Solid Ore</label>
+				</value>
+			</li>	
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="HewnOreCopper"]/label</xpath>
+				<value>
+					<label>Kalcopyrite (Cu+Fe+Au) Hewn Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreCopper" or defName="SolidOreCopper" or defName="HewnOreCopper"]/description</xpath>
+				<value>
+					<description>This mineral is a copper ore (Cu). Iron (Fe) and gold (Au) can also be recovered at a Metal Extraction Plant and Electrolytic Refinery respectively.</description>
+				</value>
+			</li>
+			
+			<!-- Bauxite -->
+			
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreAluminum"]/label</xpath>
+				<value>
+					<label>Bauxite (Al+Cr) Weathered Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SolidOreAluminum"]/label</xpath>
+				<value>
+					<label>Bauxite (Al+Cr) Solid Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="HewnOreAluminium"]/label</xpath>
+				<value>
+					<label>Bauxite (Al+Cr) Hewn Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreAluminium" or defName="SolidOreAluminium" or defName="HewnOreAluminium"]/description</xpath>
+				<value>
+					<description>This mineral is an aluminium ore (Al). Silicon (Si) and Chromium (Cr) can also be recovered at a Metal Extraction Plant and Electrolytic Refinery respectively.</description>
+				</value>
+			</li>
+			
+			<!-- RUTILE -->
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreTitanium"]/label</xpath>
+				<value>
+					<label>Rutile (Ti+Mo) Weathered Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SolidOreTitanium"]/label</xpath>
+				<value>
+					<label>Rutile (Ti+Mo) Solid Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="HewnOreTitanium"]/label</xpath>
+				<value>
+					<label>Rutile (Ti+Mo) Hewn Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreTitanium" or defName="SolidOreTitanium" or defName="HewnOreTitanium"]/description</xpath>
+				<value>
+					<description>This mineral is a titanium ore (Ti). Molybdenum (Mo) can also be recovered at a Electrolytic Refinery.</description>
+				</value>
+			</li>
+			
+			<!-- scheelite -->
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreTungsten"]/label</xpath>
+				<value>
+					<label>Scheelite (W+Mo) Weathered Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SolidOreTungsten"]/label</xpath>
+				<value>
+					<label>Scheelite (W+Mo) Solid Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="HewnOreTungsten"]/label</xpath>
+				<value>
+					<label>Scheelite (W+Mo) Hewn Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreTungsten" or defName="SolidOreTungsten" or defName="HewnOreTungsten"]/description</xpath>
+				<value>
+					<description>This mineral is a tungsten ore (W). It is also the only viable source of molybdenum (Mo), which can also be recovered at a Electrolytic Refinery.</description>
+				</value>
+			</li>
+			
+			<!-- carnotite -->
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreUranium"]/label</xpath>
+				<value>
+					<label>Carnotite (U+V) Weathered Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SolidOreUranium"]/label</xpath>
+				<value>
+					<label>Carnotite (U+V) Solid Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="HewnOreUranium"]/label</xpath>
+				<value>
+					<label>Carnotite (U+V) Hewn Ore</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreUranium" or defName="SolidOreUranium" or defName="HewnOreUranium"]/description</xpath>
+				<value>
+					<description>This mineral is a uranium ore (U). It is also the only viable source of vanadium (V), which can also be recovered at a Electrolytic Refinery.</description>				
+				</value>
+			</li>
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

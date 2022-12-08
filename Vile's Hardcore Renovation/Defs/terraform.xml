@@ -67,6 +67,10 @@
 					<li>SavannaSoil</li>
 					<li>SoilRich</li>
 					<li>MossyTerrain</li>
+					<li>VolcanicSoil</li>
+					<li>RedClaySoil</li>
+					<li>LeachedSoil</li>
+					<li>WeakSoil</li>
 				</above>
 				<result>EarthenFloor</result>
 			</li>
@@ -77,6 +81,25 @@
 		<costList>
 		  <Hay>2</Hay>
  	   </costList>
+	</ThingDef>
+	
+	<ThingDef ParentName="RFF_TerraformBasicBase">
+		<defName>Terraform_RemoveEarthenFloor</defName>
+		<label>Remove road/floor</label>
+		<description>Dig up earthen floor or packed dirt to reveal weak soil.</description>
+		<uiIconPath>Terrain/Surfaces/RemoveEarth_i</uiIconPath>
+		<modExtensions>
+			<li Class="FertileFields.Terrain">
+				<above>
+					<li>EarthenFloor</li>
+					<li>PackedDirt</li>
+				</above>
+				<result>WeakSoil</result>
+			</li>
+		</modExtensions>
+		<statBases>
+			<WorkToBuild>600</WorkToBuild>
+		</statBases>
 	</ThingDef>
 	 
 </Defs>

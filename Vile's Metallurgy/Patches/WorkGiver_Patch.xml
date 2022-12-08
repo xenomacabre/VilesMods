@@ -15,17 +15,12 @@
 			</li>	
 				
 
-			<li Class="PatchOperationReplace">
+			<li Class="PatchOperationAdd">
 				<xpath>Defs/WorkGiverDef[defName="DoBillsSmeltMetal_Hand"]/fixedBillGiverDefs</xpath>
 				<value>
-				<fixedBillGiverDefs>
 					<li>Bloomery</li> <!-- (iron age tech) -->
-					<li>TableFurnace</li> <!-- BLAST FURNACE (medieval tech)-->
-					<li>ElectricSmelter</li> <!-- REDUCTION FURNACE (industrial tech) -->
-					<li>EAF</li> <!-- still an ARC FURNACE -->
 					<li>Foundry</li>
 					<li>FirePit</li>
-				</fixedBillGiverDefs>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">

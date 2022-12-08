@@ -23,7 +23,7 @@
 		</statBases>
 		<useHitPoints>true</useHitPoints>
 		<thingCategories>
-			<li>Parts</li>
+			<li>Pottery</li>
 		</thingCategories>
 		<stackLimit>10</stackLimit>
 	</ThingDef>

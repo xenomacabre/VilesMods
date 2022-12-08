@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+            <!-- INTERMEDIATE ALLOY COLORS -->
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TinBar"]/color</xpath>
+				<value>
+					<color>(200,200,200)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="NickelBar"]/color</xpath>
+				<value>
+					<color>(254,240,209)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Chromium"]/color</xpath>
+				<value>
+					<color>(255,255,255)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="CopperBar"]/color</xpath>
+				<value>
+					<color>(223,98,49)</color>
+				</value>
+			</li>
+			
+            <!-- ALLOY NAMES AND CATS -->
+            
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SilverBar"]/graphicData/texPath</xpath>
+				<value>
+					<texPath>Things/Item/Material/PureAluminium</texPath>
+				</value>
+			</li>
+             <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="GoldBar"]/graphicData/texPath</xpath>
+				<value>
+					<texPath>Things/Item/Material/PureAluminium</texPath>
+				</value>
+			</li>
+            
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="CopperBar"]/label</xpath>
+				<value>
+					<label>pure copper (Cu)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="CopperBar"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>RARBar</li>
+						<li>HCMBar</li>
+					</thingCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="CopperBar"]/stuffProps/categories</xpath>
+				<value>
+					<categories>
+						<li>Metallic</li>
+						<li>StrongMetallic</li>
+						<li>CastMetallic</li>
+					</categories>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TinBar"]/label</xpath>
+				<value>
+					<label>pure tin (Sn)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TinBar"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>RARBar</li>
+					</thingCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TinBar"]/stuffProps/categories</xpath>
+				<value>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</value>
+			</li>
+			
+			<!--<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SilverBar"]/label</xpath>
+				<value>
+					<label>Sterling Silver</label>
+				</value>
+			</li>-->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="SilverBar"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>PRSBar</li>
+					</thingCategories>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Chromium"]/label</xpath>
+				<value>
+					<label>pure chromium (Cr)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="LeadBar"]/label</xpath>
+				<value>
+					<label>pure lead (Pb)</label>
+				</value>
+			</li>
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="LeadBar"]/stuffProps/categories</xpath>
+				<value>
+					<categories>
+                        <li>Metallic</li>
+                        <li>StrongMetallic</li>
+                    </categories>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="NickelBar"]/label</xpath>
+				<value>
+					<label>pure nickel (Ni)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Cobalt"]/label</xpath>
+				<value>
+					<label>pure cobalt (Co)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Tungsten"]/label</xpath>
+				<value>
+					<label>pure tungsten (W)</label>
+				</value>
+			</li>
+			
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

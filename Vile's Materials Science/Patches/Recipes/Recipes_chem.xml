@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MakeNapalm"]/recipeUsers</xpath>
+				<value>
+                   <recipeUsers>
+                       <li>TableChemlab</li>
+                    </recipeUsers>
+				</value>
+			</li>
+ 	        <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MakeNapalm"]/ingredients</xpath>
+				<value>
+                  <ingredients>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>Chemfuel</li>
+                                </thingDefs>
+                            </filter>
+                            <count>30</count>
+                        </li>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>Polystyrene</li>
+                                </thingDefs>
+                            </filter>
+                            <count>15</count>
+                        </li>
+                    </ingredients>
+				</value>
+			</li>
+		  <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MakeNapalm"]/ingredients</xpath>
+				<value>
+                     <fixedIngredientFilter>
+                        <thingDefs>
+                            <li>Chemfuel</li>
+                            <li>Polystyrene</li>
+                        </thingDefs>
+                    </fixedIngredientFilter>
+				</value>
+			</li>
+            
+            <!-- AMMO -->
+            
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MakeAmmo_Flamethrower_Napalm"]/ingredients</xpath>
+				<value>
+                  <ingredients>
+                        <li>
+                            <filter>
+                                <thingDefs>
+                                    <li>Napalm</li>
+                                </thingDefs>
+                            </filter>
+                            <count>5</count>
+                        </li>
+                    </ingredients>
+				</value>
+			</li>
+		  <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MakeAmmo_Flamethrower_Napalm"]/ingredients</xpath>
+				<value>
+                     <fixedIngredientFilter>
+                        <thingDefs>
+                            <li>Napalm</li>
+                        </thingDefs>
+                    </fixedIngredientFilter>
+				</value>
+			</li>
+            
+            
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

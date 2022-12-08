@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="CropsBase">
+		<defName>NanotechFramework</defName>
+		<label>nanotech framework</label>
+		<description>Programmable matter enabled. Operating system functioning within normal parameters. Artificial intelligence machine learning via cellular organic material. Ready for command input.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/NanotechFramework</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MarketValue>500</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>1</Flammability>
+			<SellPriceFactor>0.70</SellPriceFactor>
+			<Mass>0.7</Mass>
+			<Bulk>0.7</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>Parts</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+	</ThingDef>
+	
+	<ThingDef ParentName="CropsBase">
+		<defName>SewingKit</defName>
+		<label>textile kit</label>
+		<description>A sewing kit with needle, thread, buttons, grommets, metal components etc. Used for making clothing.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/SewingKit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>1</Flammability>
+			<SellPriceFactor>0.50</SellPriceFactor>
+			<Mass>0.5</Mass>
+			<Bulk>0.5</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>Parts</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+	</ThingDef>
+    
+   <!--  <ThingDef ParentName="RimatomicResourceBase">-->
+<ThingDef ParentName="CropsBase">  
+    <defName>TurbineBlade_Vile</defName>
+    <label>Turbine Blades</label>
+    <description>Used to construct turbine generators.</description>
+     <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Rimatomics/Things/Resources/turbineBlade</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <statBases>
+      <Flammability>0</Flammability>
+      <MarketValue>1.42</MarketValue>
+      <Mass>0.08</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Parts</li>
+    </thingCategories>
+    <intricate>true</intricate>
+   <!--  <recipeMaker>
+      <productCount>10</productCount>
+      <workAmount>900</workAmount>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+     <recipeUsers>
+        <li>TableRimatomicsMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Titanium>50</Titanium>
+    </costList>-->
+  </ThingDef>
+</Defs>

@@ -21,7 +21,7 @@
 		<workAmount>800</workAmount>
 		<unfinishedThingDef>UnfinishedBalls</unfinishedThingDef>
 		<ingredients>
-				<li>
+            <li>
 				<filter>
 					<categories>
 						<li>CastBar</li>
@@ -321,10 +321,8 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<categories>
-				<li>HeavyBar</li>
-			</categories>
 			<thingDefs>
+                <li>LeadBar</li>
 				<li>Powder</li>
 			</thingDefs>
 		</fixedIngredientFilter>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+		
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Pipe"]/label</xpath>
+				<value>
+					<label>drill pipe</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Pipe"]/description</xpath>
+				<value>
+					<description>Oil production requires pipes for oil rigs. Must me made of ductile metals with a tensile strength of at least 600 megapascals.</description>
+				</value>
+			</li>
+
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="AdvMechanism"]/label</xpath>
+				<value>
+					<label>Actuator Mechanisms</label>
+				</value>
+			</li>
+			
+			<!-- electronics -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Silicon"]/label</xpath>
+				<value>
+					<label>semiconductor material</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Silicon"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>ElectronicsCat</li>
+					</thingCategories>
+				</value>
+			</li>
+			
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ElectronicComponents"]/label</xpath>
+				<value>
+					<label>transistor</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Microchips"]/label</xpath>
+				<value>
+					<label>microprocessor</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="BioMicrochips"]/label</xpath>
+				<value>
+					<label>quantum computer</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Carbon"]/label</xpath>
+				<value>
+					<label>carbon nanotube</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Carbon"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Item/Chemical/Graphite</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+					</graphicData>
+				 </value>
+			</li>
+			<!-- Hi tech resources -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MagneticMaterial"]/label</xpath>
+				<value>
+					<label>piezoelectric material</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Hexcell"]/label</xpath>
+				<value>
+					<label>nanowire battery</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Hexcell"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Item/Parts/NanowireBattery</texPath>
+						<graphicClass>Graphic_StackCount</graphicClass>
+					</graphicData>
+				 </value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="BiosyntheticMaterial"]/label</xpath>
+				<value>
+					<label>electroactive polymer</label>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Matter"]/label</xpath>
+				<value>
+					<label>nucleosynthetic substrate</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Matter"]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Item/Parts/NucleosyntheticSubstrate</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+					</graphicData>
+				 </value>
+			</li>
+			
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	
+

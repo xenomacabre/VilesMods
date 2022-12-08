@@ -59,9 +59,9 @@
 						<offset>0.3</offset>
 					</li>
 				</capMods>
-				<statOffsets>
-					<HungerRateMultiplier>-0.15</HungerRateMultiplier>					
-				</statOffsets>
+
+					<hungerRateFactorOffset>-0.15</hungerRateFactorOffset>					
+
 			</li>
 		</stages>
 	</HediffDef>

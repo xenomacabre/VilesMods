@@ -127,6 +127,12 @@
 							<ImmunityGainSpeedFactor>1.3</ImmunityGainSpeedFactor>
 						</value>
 					</li>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Leather_KirinHide"]/stuffProps/statFactors</xpath>
+							<value>
+								<Cleanliness>1.75</Cleanliness>
+							</value>
+						</li>
 			
 			
 			<!-- VENTAN LEATHER --> 
@@ -216,6 +222,12 @@
 							<ImmunityGainSpeedFactor>1.25</ImmunityGainSpeedFactor>
 						</value>
 					</li>
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Leather_FireDragonskin"]/stuffProps/statFactors</xpath>
+							<value>
+								<Cleanliness>1.5</Cleanliness>
+							</value>
+						</li>
 			
 			
 			<!-- ARMATAN LEATHER --> 
@@ -298,7 +310,12 @@
 							<ImmunityGainSpeedFactor>1.2</ImmunityGainSpeedFactor>
 						</value>
 					</li>
-	
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Leather_Thrumbo"]/stuffProps/statFactors</xpath>
+							<value>
+								<Cleanliness>1.25</Cleanliness>
+							</value>
+						</li>
 			
 			<!-- HYGIEIATAN LEATHER --> 
 			<li Class="PatchOperationReplace">
@@ -380,7 +397,12 @@
 							<ImmunityGainSpeedFactor>1.45</ImmunityGainSpeedFactor>
 						</value>
 					</li>
-		
+						<li Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Leather_FeatheredRaptorLeather"]/stuffProps/statFactors</xpath>
+							<value>
+								<Cleanliness>2.5</Cleanliness>
+							</value>
+						</li>		
 		</operations>
 		</match>
     </Operation>	

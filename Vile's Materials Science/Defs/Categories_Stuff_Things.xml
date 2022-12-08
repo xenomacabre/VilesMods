@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- IN PATCHES
+	<ThingCategoryDef>
+		<defName>RARBar</defName>
+		<label>Engineering</label>
+		<iconPath>UI/Icons/Bars</iconPath>
+		<parent>Metallic</parent>
+	</ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>USLDBar</defName>
+		<label>tech-solid</label>
+		<iconPath>UI/Icons/Metals</iconPath>
+		<parent>Metallic</parent>
+	</ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>USLDHBar</defName>
+		<label>Tech-solid heavy</label>
+		<iconPath>UI/Icons/Metals</iconPath>
+		<parent>Metallic</parent>
+	</ThingCategoryDef>
+	-->
+	<ThingCategoryDef>
+		<defName>INSBar</defName>
+		<label>Insulating</label>
+		<iconPath>UI/Icons/Metals</iconPath>
+		<parent>Metallic</parent>
+	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>LightBar</defName>
+		<label>Strong Light</label>
+		<iconPath>UI/Icons/Metals</iconPath>
+		<parent>Metallic</parent>
+	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>MAGBar</defName>
+		<label>Magnetic</label>
+		<iconPath>UI/Icons/Bars</iconPath>
+		<parent>Metallic</parent>
+	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>SuperBar</defName>
+		<label>Superalloy</label>
+		<iconPath>UI/Icons/Bars</iconPath>
+		<parent>Metallic</parent>
+	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>Plastics</defName>
+		<label>Polymers</label>
+		<iconPath>UI/Icons/Bars</iconPath>
+		<parent>Metallic</parent>
+	</ThingCategoryDef>
+	
+	<!-- STUFF-->
+	
+	<StuffCategoryDef>
+		<defName>CorrosionResistant</defName>
+		<label>Corrosion Resistant</label>
+	</StuffCategoryDef>
+	<StuffCategoryDef>
+		<defName>LightMaterial</defName>
+		<label>Light Material</label>
+	</StuffCategoryDef>
+    <StuffCategoryDef>
+		<defName>Nothing</defName>
+		<label>Nothing</label>
+	</StuffCategoryDef>
+	
+</Defs>

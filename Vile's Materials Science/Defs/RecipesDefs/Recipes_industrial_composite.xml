@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- INDUSTRIAL -->
+	<RecipeDef Name="MakeHDPE">
+		<defName>MakeHDPE</defName>
+		<label>Make HDPE Plastic x25</label>
+		<description>High-density polyethylene is an economic plastic widely used for both commercial and industrial applications. It's cheap, lightweight, and tough (for a plastic)</description>
+		<jobString>Making HDPE plastic.</jobString>
+		<workAmount>1800</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Polymers</li> <!-- ethylene -->
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<products>
+			<Plastic>25</Plastic>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Polymers</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>15</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>MakePVCPlastic</defName>
+		<label>Make PVC Plastic x25</label>
+		<description>Polyvinyl chloride is an economic plastic widely used for both commercial and industrial applications. It's cheap, lightweight, and tough (for a plastic). Slightly heavier and more rigid than HDPE.</description>	
+        <jobString>Making PVC plastic.</jobString>
+		<workAmount>1800</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+       
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Polymers</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chlorine</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Polymers</li>
+				<li>Chlorine</li>				
+			</thingDefs>
+		</fixedIngredientFilter>
+         <products>
+			<PVCPlastic>25</PVCPlastic>
+		</products>
+        <skillRequirements>
+			<Crafting>15</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>MakePolypropylene</defName>
+		<label>Make Polypropylene Plastic x25</label>
+		<description>Polypropylene is an economic plastic widely used for both commercial and industrial applications. It's cheap, lightweight, and tough (for a plastic). Slightly more brittle and harder than HDPE, but the difference is mostly cosmetic.</description>
+		<jobString>Making polypropylene plastic.</jobString>
+		<workAmount>1800</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+      
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Propylene</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Propylene</li>			
+			</thingDefs>
+		</fixedIngredientFilter>
+          <products>
+			<PPPlastic>25</PPPlastic>
+		</products>
+        <skillRequirements>
+			<Crafting>15</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+
+	
+	<RecipeDef>
+		<defName>MakeABS</defName>
+		<label>Make ABS Plastic x20</label>
+		<description>Acrylonitrile Butadiene Styrene is a hard, strong plastic, essentially halfway between HDPE and polycarbonate. It's scratch resistant exceptionally easy to manipulate.</description>
+		<jobString>Making ABS plastic.</jobString>
+		<workAmount>2800</workAmount>	
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Propylene</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticAmmonia</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Butadiene</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Polystyrene</li> 
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<products>
+			<ABS>20</ABS>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Butadiene</li>
+				<li>Polystyrene</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>17</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+        <researchPrerequisite>Oil_Industry_C4</researchPrerequisite>
+	</RecipeDef>
+
+	
+	<RecipeDef>
+		<defName>MakePlexiglass</defName>
+		<label>Make Plexiglass x25</label>
+		<description>Polycarbonate is an extremely hard and tough plastic. It also can be transparent, which makes it useful for the construction of bullet resistant glass.</description>
+		<jobString>Making polycarbonate plastic.</jobString>
+		<workAmount>1800</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Propylene</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<products>
+			<Plexiglass>25</Plexiglass>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Propylene</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>17</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>MakePolycarbonate</defName>
+		<label>Make Polycarbonate Plastic x15</label>
+		<description>Polycarbonate is an extremely hard and tough plastic. It also can be transparent, which makes it useful for the construction of bullet resistant glass.</description>
+		<jobString>Making polycarbonate plastic.</jobString>
+		<workAmount>2800</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Sulphates</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chlorine</li> 
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ActivatedCarbon</li> 
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<Polycarbonate>15</Polycarbonate>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ActivatedCarbon</li>
+				<li>Sulphates</li> <!-- Benzene -->
+				<li>Chlorine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>17</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+         <researchPrerequisite>Oil_Industry_C4</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>MakeFiberglass</defName>
+		<label>Make Fiberglass x20</label>
+		<description>Fiberglass is a strong, flexible material. It's sturdy, light, and insulates very well.</description>
+		<jobString>Making fiberglass.</jobString>
+		<workAmount>2200</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GlassBatch</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Compaste</li> 
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<products>
+			<Fiberglass>20</Fiberglass>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>GlassBatch</li>
+				<li>Compaste</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>17</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+        <researchPrerequisite>Oil_Industry_C4</researchPrerequisite>
+	</RecipeDef>
+	
+	<!-- HIGH TECH -->
+	
+	<RecipeDef>
+		<defName>MakeNanocomposite</defName>
+		<label>Make Nanocomposite x25</label>
+		<description>Carbon nanotubes and UHMWPE fibers in an epoxy matrix. Features superior ballistic protection with good flexibility, toughness, and is lightweight.</description>
+		<jobString>Making nanocomposite.</jobString>
+		<workAmount>4000</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carbon</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Compaste</li> 
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HMFibers</li> 
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<CarbonAlloy>25</CarbonAlloy>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Carbon</li>
+				<li>Compaste</li>
+				<li>HMFibers</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>19</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+        <researchPrerequisite>Oil_Industry_D1</researchPrerequisite>
+	</RecipeDef>
+	
+<RecipeDef>
+		<defName>MakeAerographene</defName>
+		<label>Make Aerographene Composite x25</label>
+		<description>An extremely lightweight material encased in layers of formed fiberglass. The superior choice for thermal-rated armor, riot gear, and fire protection.</description>
+		<jobString>Making aerographene composite.</jobString>
+		<workAmount>4000</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Fiberglass</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Sulphates</li> <!-- Benzene --> 
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Carbon</li> <!-- nanotubes-->
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<products>
+			<Aerographene>25</Aerographene>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Fiberglass</li>
+				<li>Sulphates</li>
+				<li>Carbon</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>19</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+        <researchPrerequisite>Oil_Industry_D1</researchPrerequisite>
+
+	</RecipeDef>
+	
+	
+</Defs>

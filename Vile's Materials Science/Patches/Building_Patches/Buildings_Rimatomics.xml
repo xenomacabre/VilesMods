@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Rimatomics</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+                
+                
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="ReactorCoreA"]/label</xpath>
+                    <value>                  
+                            <label>Pressurized Water Reactor</label>              
+                     </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="ReactorCoreA"]/costList</xpath>
+                    <value>                  
+                        <costList>
+                            <FerrosiliconAlloy>60</FerrosiliconAlloy>
+                            <ReinforcedConcrete>200</ReinforcedConcrete>
+                            <Fiberglass>120</Fiberglass>
+                            <Mechanism>24</Mechanism>
+                            <ComponentIndustrial>18</ComponentIndustrial>
+                        </costList>
+                    </value>
+                </li>
+               
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="ReactorCoreB"]/label</xpath>
+                    <value>                  
+                            <label>Breeder Reactor</label>              
+                     </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="ReactorCoreB"]/costList</xpath>
+                    <value>                  
+                        <costList>
+                            <MaxametSteel>100</MaxametSteel>
+                           <ReinforcedConcrete>250</ReinforcedConcrete>
+                            <SyntheticFibers>75</SyntheticFibers>
+                            <AdvMechanism>20</AdvMechanism>
+                            <ComponentSpacer>20</ComponentSpacer>
+                        </costList>
+                    </value>
+                </li>
+                
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="ReactorCoreC"]/label</xpath>
+                    <value>                  
+                            <label>Advanced Breeder Reactor</label>              
+                     </value>
+                </li>
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="ReactorCoreC"]/costList</xpath>
+                    <value>                  
+                        <costList>
+                            <Aerographene>100</Aerographene>
+                           <ReinforcedConcrete>400</ReinforcedConcrete>
+                            <MagneticMaterial>40</MagneticMaterial>
+                            <AdvMechanism>30</AdvMechanism>
+                            <Microchips>5</Microchips>
+                        </costList>
+                    </value>
+                </li>
+                
+                
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="CoolingWater"]/stuffCategories</xpath>
+                    <value>                  
+                            <stuffCategories>
+                                <li>CorrosionResistant</li>
+                            </stuffCategories>              
+                     </value>
+                </li>
+                
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="CoolingTower"]/costList</xpath>
+                    <value>                  
+                        <costList>
+                            <Fiberglass>500</Fiberglass>
+                            <ReinforcedConcrete>600</ReinforcedConcrete>
+                            <ComponentIndustrial>15</ComponentIndustrial>
+                            <Mechanism>10</Mechanism>        
+                        </costList>
+                    </value>
+                </li>
+                
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Transformer"]/costList</xpath>
+                    <value>                  
+                       <costList>
+                           <Wire>30</Wire>
+                            <Fiberglass>20</Fiberglass>
+                            <ComponentIndustrial>5</ComponentIndustrial>
+                            <Electronics>2</Electronics>
+                        </costList>
+                    </value>
+                </li>
+    <!-- PIPES -->            
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[@Name="RimatomicsPipeBase"]/stuffCategories</xpath>
+                </li>
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[@Name="RimatomicsPipeBase"]/costStuffCount</xpath>
+                     <value>
+                          <costStuffCount>5</costStuffCount>
+                     </value>
+                </li>
+                   <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="coolingPipe" or defName="steamPipe" or defName="waterPipe"]</xpath>
+                    <value>                  
+                         <costList>
+                          <PipeSection>2</PipeSection>
+                        </costList>          
+                    </value>
+                </li>
+                
+    
+               <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="coolingPipe"]</xpath>
+                    <value>                  
+                         <stuffCategories>
+                            <li>CorrosionResistant</li>
+                        </stuffCategories>             
+                    </value>
+                </li>
+               <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="steamPipe"]</xpath>
+                    <value>                  
+                         <stuffCategories>
+                            <li>SolidMetallic</li>
+                        </stuffCategories>             
+                    </value>
+                </li>
+                 <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="waterPipe"]</xpath>
+                    <value>                  
+                         <stuffCategories>
+                            <li>StrongMetallic</li>
+                        </stuffCategories>             
+                    </value>
+                </li>
+                
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="HighVoltage" or defName="controllerLoom"]</xpath>
+                    <value>                  
+                         <stuffCategories>
+                            <li>StrongMetallic</li>
+                        </stuffCategories>             
+                    </value>
+                </li>
+               <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="HighVoltage"]</xpath>
+                    <value>                  
+                         <costList>
+                          <Rubber>2</Rubber>
+                          <Wire>2</Wire>
+                        </costList>          
+                    </value>
+                </li>
+                
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="controllerLoom"]</xpath>
+                    <value>                  
+                         <costList>
+                          <Wire>1</Wire>
+                        </costList>          
+                    </value>
+                </li>
+                
+        </operations>
+		</match>
+    </Operation>	
+</Patch>
+

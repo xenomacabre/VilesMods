@@ -33,11 +33,30 @@
 	</Operation>
 	
 	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="CopperBar"]/stuffProps/statFactors</xpath>
+		<value>
+			<Cleanliness>3.2</Cleanliness>
+		</value>
+	</Operation>
 	
-	
-	
-	
-
-	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="LeadBar"]/stuffProps/statFactors</xpath>
+		<value>
+			<Cleanliness>0.2</Cleanliness>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="GoldBar"]/stuffProps/statFactors</xpath>
+		<value>
+			<Cleanliness>1.8</Cleanliness>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="SilverBar"]/stuffProps/statFactors</xpath>
+		<value>
+			<Cleanliness>2.8</Cleanliness>
+		</value>
+	</Operation>
 	
 </Patch>

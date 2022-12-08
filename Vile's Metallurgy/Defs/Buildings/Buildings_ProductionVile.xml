@@ -97,7 +97,8 @@
 		<defName>Bloomery</defName>
 		<label>bloomery</label>
 		<description>A bloomery is a small furnace used to reduce iron ore (ie. dirty, rusty rocks) into a iron bloom. The furnace doesn't get hot enough to melt the iron, but instead the carbon monoxide (CO) from the burning carbon fuel (charcoal) reacts with the iron oxide (FeO) to make carbon dioxide (CO2), leaving behind metallic iron (Fe) in a spongy mass of slag. Then you'll want to have a blacksmith beat the impurities out with a hammer if you want iron that you can actually use.</description>
-		<graphicData>
+		<drawerType>MapMeshAndRealTime</drawerType>
+        <graphicData>
 			<texPath>Things/Building/Bloomery</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -160,7 +161,8 @@
 			</li>
 			<li Class="SK.CompFueled_Properties">
 				<operatingTemp>1000</operatingTemp>
-				<fireDrawOffset>(0.52,0.1,-0.55)</fireDrawOffset>
+                <fuelDrawScale>0.25</fuelDrawScale>
+				<fireDrawOffset>(0,-1,-0.2)</fireDrawOffset>
 				<smokeDrawOffset>(0.5,-0.1,1.5)</smokeDrawOffset>
 				<fuelDrawOffset>(0,0.1,-0.8)</fuelDrawOffset>
 				<fuelCapacity>40</fuelCapacity>
@@ -194,7 +196,8 @@
 		<defName>TableFurnace</defName>
 		<label>blast furnace</label>
 		<description>A furnace used for smelting basic metal (typically iron) ores into metal alloys. A bellows blasts air into the furnace and the carbon in the fuel (coal, coke, or charcoal) reacts with the oxygen in the ore removing impurities and leaving behind iron rich with a high carbon content (pig iron). Copper, lead, bronze, gold and silver can also be smelted here, though those processes are much simpler due to lower melting points. Powering the bellows with a steam engine can speed up the process.</description>
-		<graphicData>
+		<drawerType>MapMeshAndRealTime</drawerType>
+        <graphicData>
 			<texPath>Things/Building/BlastFurnace</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -231,6 +234,7 @@
 			<Flammability>0</Flammability>
 			<Cleanliness>-8</Cleanliness>
 			<Mass>1000</Mass>
+			<WorkTableWorkSpeedFactor>0.9</WorkTableWorkSpeedFactor>
 		</statBases>
 		<pathCost>90</pathCost>
 		<size>(5,4)</size>
@@ -239,7 +243,7 @@
 		<fillPercent>0.7</fillPercent>
 		<building>
 			<uninstallWork>1450</uninstallWork>
-			<wantsHopperAdjacent>true</wantsHopperAdjacent>
+			<!--<wantsHopperAdjacent>true</wantsHopperAdjacent>-->
 		</building>
 		<recipes>
 			<li>MakePigIron_Furnace</li>
@@ -273,7 +277,7 @@
 			</li>
 			<li Class="SK.CompFueled_Properties">
 				<operatingTemp>1300</operatingTemp>
-				<fireDrawOffset>(0,1,0)</fireDrawOffset>
+				<fireDrawOffset>(0,1,-1)</fireDrawOffset>
 				<smokeDrawOffset>(0.5,3,1)</smokeDrawOffset>
 				<fuelDrawOffset>(0,0.1,-0.8)</fuelDrawOffset>
 				<fuelCapacity>200</fuelCapacity>
@@ -307,6 +311,7 @@
 		<defName>FueledSmithy</defName>
 		<label>smithy forge</label>
 		<description>This blacksmithing setup has all the tools needed to build metal armor, work tools, melee weapons, advanced bows and crossbows, as well as simple ammunition such as arrows. It requires some fuel that burns at a high temperature such as coal or peat.</description>
+        <drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/Production/NeolithicProduction/Blacksmith</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -345,6 +350,7 @@
 			<Flammability>1.0</Flammability>
 			<Cleanliness>-12</Cleanliness>
 			<Mass>1000</Mass>
+			<WorkTableWorkSpeedFactor>0.95</WorkTableWorkSpeedFactor>
 		</statBases>
 		<pathCost>90</pathCost>
 		<size>(3,3)</size>
@@ -407,12 +413,14 @@
 	</ThingDef>
 	
 	<!-- ==== FINERY FORGE ==== -->
-	<ThingDef ParentName="WorkTableFueled">
+	<ThingDef Class="SK.ThingDef_AnimatedWorktable" ParentName="BuildingFueled">
 		<defName>Finery</defName>
 		<label>finery Forge</label>
+        <thingClass>SK.Building_AnimatedWorktable</thingClass>
 		<description>A finery is a forge that specialized in producing wrought bar iron from cast iron or bloom. The raw iron is melted and hammered into shape with a (preferrably) water-powered trip hammer, and then reheated and hammered again until the slag and much of the carbon is removed. At this stage, the melting point is too high to be melted again unless recarbonized. It can also be used to make certain products such as plate armor.</description>
-		<graphicData>
-			<texPath>Things/Building/Finery</texPath>
+		<drawerType>MapMeshAndRealTime</drawerType>
+        <graphicData>
+			<texPath>Things/Building/Finery/Finery</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(7,7)</drawSize>
@@ -426,9 +434,9 @@
 				<cornerBL>Damage/Corner</cornerBL>
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
-			<!--<drawRotated>false</drawRotated>-->
+			<drawRotated>false</drawRotated>
 		</graphicData>
-		<uiIconPath>Things/Building/Finery_south</uiIconPath>
+		<uiIconPath>Things/Building/Finery/Finery_south</uiIconPath>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<stuffCategories>
 			<li>RuggedMetallic</li>
@@ -437,7 +445,7 @@
 		<costList>
 			<ComponentMedieval>12</ComponentMedieval>
 			<Mechanism>1</Mechanism>
-			<WoodPlank>50</WoodPlank>
+			<WoodLog>100</WoodLog>
 		</costList>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<thingCategories>
@@ -454,7 +462,7 @@
 		<pathCost>90</pathCost>
 		<size>(6,3)</size>
 		<designationCategory>Production</designationCategory>
-		<interactionCellOffset>(0,0,2)</interactionCellOffset>
+		<interactionCellOffset>(2,0,2)</interactionCellOffset>
 		<fillPercent>0.85</fillPercent>
 		<building>
 			<uninstallWork>1450</uninstallWork>
@@ -465,7 +473,6 @@
 				<linkableFacilities>
 					<li>Small_ToolCabinet</li>
 					<li>WaterWheel</li>
-					<li>PodChair</li>
 				</linkableFacilities>
 			</li>
 			<li Class="CompProperties_Flickable"/>
@@ -475,19 +482,31 @@
 				<heatPushMaxTemperature>45</heatPushMaxTemperature>
 			</li>
 			<li Class="CompProperties_Glower">
-				<glowRadius>2</glowRadius>
-				<glowColor>(217,112,33,0)</glowColor>
+				<glowRadius>7</glowRadius>
+				<glowColor>(255,140,70,0)</glowColor>
 			</li>
 			<li Class="SK.CompFueled_Properties">
+                <!--
 				<operatingTemp>1400</operatingTemp>
-				<fireDrawOffset>(0,0.1,-0.05)</fireDrawOffset>
 				<smokeDrawOffset>(3,3.0,1.0)</smokeDrawOffset>
+               <fireDrawOffset>(0,-1,-0.05)</fireDrawOffset>
 				<fuelDrawOffset>(0,0.1,-0.2)</fuelDrawOffset>
-				<fuelDrawScale>1.3</fuelDrawScale>
+				<fuelDrawScale>0.8</fuelDrawScale>
 				<fuelCapacity>30</fuelCapacity>
 				<burnFuelMultiplier>0.4</burnFuelMultiplier>
 				<effectOnWeather>false</effectOnWeather>
 				<smokeDensity>2</smokeDensity>
+                -->
+                <operatingTemp>1400</operatingTemp>
+				<drawfirefuel>false</drawfirefuel>
+				<canAutoBurn>true</canAutoBurn>
+				<smokeDrawOffset>(2,-0.1,-1)</smokeDrawOffset>
+				<smokesize>0.5</smokesize>
+				<fuelCapacity>30</fuelCapacity>
+				<burnFuelMultiplier>1.1</burnFuelMultiplier>
+				<effectOnWeather>true</effectOnWeather>
+				<smokeEnabled>true</smokeEnabled>
+				<smokeDensity>1</smokeDensity>
 				<fuelFilter>
 					<thingDefs>
 						<li>Coal</li>
@@ -521,7 +540,8 @@
 		<label>foundry</label>
 		<description>A reverberatory furnace for melting metals. The material is heated by reflected thermal energy and combustion gasses without direct contact with the fuel (as opposed to a blast furnace). It's a multi-use furnace. Pots and crucibles can be placed in the hearth, or the chamber can be completely filled with molten metal for puddling pig into wrought iron or, technology allowing, certain types of steel.</description>
 		<!--<description>A tall and narrow furnace for melting metal. The metal is loaded into the top and makes its way past layers of hot coal and flux and pours out a spout into molds.</description>-->
-		<graphicData>
+		<drawerType>MapMeshAndRealTime</drawerType>
+        <graphicData>
 			<texPath>Things/Building/ReverberatoryFurnace</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
@@ -560,6 +580,7 @@
 			<Flammability>1.0</Flammability>
 			<Cleanliness>-12</Cleanliness>
 			<Mass>1000</Mass>
+			<WorkTableWorkSpeedFactor>0.95</WorkTableWorkSpeedFactor>
 		</statBases>
 		<pathCost>90</pathCost>
 		<size>(8,3)</size>

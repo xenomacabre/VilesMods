@@ -7,8 +7,8 @@
 
 	<RecipeDef>
 		<defName>MakeIronBloom_Bloomery</defName>
-		<label>Smelt iron bloom</label>
-		<description>Smelts spongy iron bloom from iron ore and coal or charcoal. Primitive and inefficient. Produces 1  bloom.</description>
+		<label>Make iron bloom from ore</label>
+		<description>Produces spongy iron bloom from iron ore and coal or charcoal. Primitive and inefficient. Produces 1  bloom.</description>
 		<jobString>Smelting iron bloom.</jobString>
 		<workAmount>1000</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
@@ -23,22 +23,11 @@
 				</filter>
 				<count>15</count>
 			</li>
-			<!--<li>
-				<filter>
-					<categories>
-						<li>Coal</li>
-					</categories>
-				</filter>
-				<count>25</count>
-			</li>-->
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li><!-- iron ore -->
 			</thingDefs>
-					<categories>
-						<li>Coal</li>
-					</categories>
 		</fixedIngredientFilter>
 		<products>
 			<IronBloom>1</IronBloom>
@@ -54,10 +43,10 @@
 	
 	<RecipeDef>
 		<defName>MakePigIron_Furnace</defName>
-		<label>Smelt pig iron (x50)</label>
-		<description>Smelts large ingots of pig iron (an unrefined high-carbon cast iron). Not as slaggy as iron primitive iron bloom, but it still must be decarbonized to produce useful wrought iron, either by forging at a finery, or at a pudding furnace. It's much more efficient than a bloomery, but because it takes a lot of time to get fires hot enough, it's best done in large batches.</description>
+		<label>Make pig iron (x100)</label>
+		<description>Makes large ingots of pig iron (an unrefined high-carbon cast iron). Not as slaggy as primitive iron bloom, but it still must be decarbonized to produce useful wrought iron, either by forging at a finery, or at a pudding furnace. It's much more efficient than a bloomery, but because it takes a lot of time to get fires hot enough, it's best done in large batches.</description>
 		<jobString>Smelting pig iron.</jobString>
-		<workAmount>2400</workAmount>
+		<workAmount>2800</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>
 		<soundWorking>Recipe_Smelt</soundWorking>
@@ -68,27 +57,16 @@
 						<li>Steel</li> <!-- iron ore -->
 					</thingDefs>
 				</filter>
-				<count>100</count>
+				<count>80</count>
 			</li>
-			<!--<li>
-				<filter>
-					<categories>
-						<li>Coal</li>
-					</categories>
-				</filter>
-				<count>25</count>
-			</li>-->
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li><!-- iron ore -->
 			</thingDefs>
-					<!--<categories>
-						<li>Coal</li>
-					</categories>-->
 		</fixedIngredientFilter>
 		<products>
-			<PigIron>50</PigIron>
+			<PigIron>100</PigIron>
 		</products>
 		<skillRequirements>
 			<Crafting>4</Crafting>
@@ -116,7 +94,6 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Copper</li>
 						<li>CopperBar</li>
 					</thingDefs>
 				</filter>
@@ -151,6 +128,7 @@
 		<researchPrerequisite>Craft_B1</researchPrerequisite>
 	<recipeUsers>
 		<li>FirePit</li>
+        <li>Foundry</li>
 	</recipeUsers>
 	</RecipeDef>
 	
@@ -190,6 +168,7 @@
     	<workSkillLearnFactor>0.8</workSkillLearnFactor>
 	<recipeUsers>
 		<li>FirePit</li>
+        <li>Foundry</li>
 	</recipeUsers>
 	</RecipeDef>
 	
@@ -229,6 +208,7 @@
 		<researchPrerequisite>Craft_B1</researchPrerequisite>
 	<recipeUsers>
 		<li>FirePit</li>
+        <li>Foundry</li>
 	</recipeUsers>
 	</RecipeDef>
 
@@ -268,6 +248,7 @@
 		<researchPrerequisite>Craft_B1</researchPrerequisite>
 	<recipeUsers>
 		<li>FirePit</li>
+        <li>Foundry</li>
 	</recipeUsers>
 	</RecipeDef>
 	
@@ -288,7 +269,7 @@
 						<li>Silver</li>
 					</thingDefs>
 				</filter>
-				<count>7</count>
+				<count>8</count>
 			</li>
 			<li>
 				<filter>
@@ -296,7 +277,7 @@
 						<li>HCM</li>
 					</categories>
 				</filter>
-				<count>3</count>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
