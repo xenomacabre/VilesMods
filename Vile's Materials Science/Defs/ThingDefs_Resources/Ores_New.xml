@@ -178,5 +178,8 @@
     </statBases>
     <stackLimit>50</stackLimit>
     <smallVolume>false</smallVolume>
+	<thingCategories>
+		<li>Extracted</li>
+	</thingCategories>
   </ThingDef>
 </Defs>

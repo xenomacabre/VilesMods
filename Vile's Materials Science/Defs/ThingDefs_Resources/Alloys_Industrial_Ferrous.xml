@@ -96,7 +96,7 @@ An economical metal, mild steel would be the modern equivalent to wrought iron. 
 >> Suitable	Weapons, Tools
 X Inadvisable 	None (balanced)
 				
-Tools Recommended: Bladed
+Tools Recommended: Cook
 				
 Carbon steels have more carbon than wrought iron and less than cast iron. This one is a medium carbon steel, a sweet spot where the material is ductlie enough to be easily worked but hard enough to be strong and hold and edge. It produces sturdy, deadly swords and sharp knives, and is generally a well-rounded, useful alloy.</description>
 		<graphicData>
@@ -180,7 +180,7 @@ Carbon steels have more carbon than wrought iron and less than cast iron. This o
 		<defName>SteelBar</defName>
 		<label>Abrasion steel (AR500)</label>
 		<description>TIER 3 - Industrial
->>> Optimal	Durability, Armor (heavy)
+>>> Optimal	Armor (heavy), Durability
 >> Suitable	Tools
 X Inadvisable	Production, Construction
 
@@ -356,7 +356,7 @@ Tools Recommended: Bladed (fair)
 		<description>TIER 3 - Industrial
 >>> Optimal	Tools
 >> Suitable	Blade Weapons, Workshops
-X Inadvisable	Construction, Bedding
+X Inadvisable	Construction
 			
 Tools Recommended: All (esp. knives)
 			
@@ -441,7 +441,7 @@ Tool steel has tungsten and other components to increase hardness and toughness,
 		<label>spring steel</label>
 		<description>TIER 3 - Industrial
 >>> Optimal	Bladed Weapons
->> Suitable	Durability, Tools
+>> Suitable	Durability
 X Inadvisable	Workshops, Production
 			
 Tools Recommended: Bladed, Tree-cutting

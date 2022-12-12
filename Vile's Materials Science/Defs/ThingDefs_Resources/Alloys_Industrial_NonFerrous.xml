@@ -93,8 +93,8 @@ Commercially pure aluminum is the lightest weight metal available. It has superi
 		<defName>CupronickelAlloy</defName>
 		<label>brass</label>
 		<description>TIER 3 - Industrial
->>> Optimal	Hospitals, Blunt Weapons
->> Suitable	Kitchens, Furniture
+>>> Optimal	Hospitals, Beauty
+>> Suitable	Kitchens
 X Inadvisable 	Armor
 			
 Tools Recommended: Building (decent)
@@ -185,7 +185,7 @@ Brass is a conductive copper-zinc alloy. It's tougher than bronze, but softer so
 		<label>anodized 3003 aluminium</label>
 		<description>TIER 3 - Industrial
 >>> Optimal	Construction, Lightweight
->> Suitable	Economy, Beauty
+>> Suitable	Economy
 X Inadvisable 	Durability, Blunt Weapons
 			
 Tools Recommended: Any (mediocre, but light and efficient)
@@ -277,7 +277,7 @@ Anodizing is a chemical process that not only colors and adds beauty to the 3003
         <label>anodized 6061 aluminium</label>
         		<description>TIER 3 - Industrial
 >>> Optimal	Construction, Lightweight
->> Suitable	Production, Beauty
+>> Suitable	Production
 X Inadvisable 	Durability, Blunt Weapons
 			
 Tools Recommended: Any (mediocre, but light and efficient)
@@ -322,7 +322,7 @@ Anodizing is a chemical process that not only colors and adds beauty to the 6061
 >> Suitable	Lightweight
 X Inadvisable 	Durability, Construction
 			
-Tools Recommended: Building (best in tier), Crop-cutting
+Tools Recommended: Building (best in tier), Harvesting
 			
 Many engineers consider titanium to be an over-rated metal, filling an overlapping role between aluminium and steel. It has its uses however, being strong and light. Shocks vibrate titanium less than steel which makes it an ideal metal for hammer construction. It also has biomedical uses.</description>
 		<graphicData>

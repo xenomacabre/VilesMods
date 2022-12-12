@@ -469,48 +469,7 @@
 	</RecipeDef>
 	
 	
-	<RecipeDef>
-		<defName>RefinePureAluminiumFoundry</defName>
-		<label>Refine Pure Aluminium from Bauxite</label>
-		<description>Aluminum is a lightweight metal that is easily machinable. It's not very strong, however. The bauxite is sintered (powdered) with sodium bicarbonate and then cast into bars. Produces 40.</description>
-		<jobString>Making crucible steel.</jobString>
-		<workAmount>900</workAmount>
-		<workSpeedStat>SmeltingSpeed</workSpeedStat>
-		<effectWorking>Smelt</effectWorking>
-		<soundWorking>Recipe_Smelt</soundWorking>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Aluminium</li>
-					</thingDefs>
-				</filter>
-				<count>40</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Salt</li>
-					</thingDefs>
-				</filter>
-				<count>4</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Aluminium</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<AluminiumBar>40</AluminiumBar>
-		</products>
-		<skillRequirements>
-			<Crafting>3</Crafting>
-		</skillRequirements>
-		<workSkill>Crafting</workSkill>
-    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
-		<researchPrerequisite>Metallurgy_B5</researchPrerequisite>
-	</RecipeDef>
+	
 
 	<RecipeDef>
 		<defName>MakeCokeElectric</defName>

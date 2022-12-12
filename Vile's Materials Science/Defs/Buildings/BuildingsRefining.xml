@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	
+
 	<ThingDef Class="SK.ThingDef_AnimatedWorktable"  ParentName="WorkTable">
 		<defName>ElectricSmelter</defName>
 		<label>metal extraction plant</label>
@@ -63,7 +63,7 @@
 			<li>SmeltPendladite_Basic</li>
 			<li>SmeltPentlandite_Industrial</li>
 			<li>SmeltScheelite_Industrial</li>
-			<li>SmeltRutile_Industrial</li>		
+			<li>SmeltRutile_Industrial</li>
 		</recipes>
 		<tickerType>Normal</tickerType>
 		<comps>
@@ -114,7 +114,7 @@
 		<designationHotKey>Misc4</designationHotKey>
 		<constructionSkillPrerequisite>9</constructionSkillPrerequisite>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="WorkTable">
 		<defName>ElectrolyticRefinery</defName>
 		<label>electrolytic refinery</label>
@@ -218,8 +218,8 @@
 		<designationHotKey>Misc4</designationHotKey>
 		<constructionSkillPrerequisite>15</constructionSkillPrerequisite>
 	</ThingDef>
-	
-	
+
+
 	<ThingDef Class="SK.ThingDef_AnimatedWorktable" ParentName="WorkTable">
 		<defName>InductionFurnace</defName>
 		<label>induction furnace</label>
@@ -329,7 +329,7 @@
 		<designationHotKey>Misc4</designationHotKey>
 		<constructionSkillPrerequisite>9</constructionSkillPrerequisite>
 	</ThingDef>
-	
+
     <ThingDef ParentName="WorkTable">
 		<defName>ChemistryLab</defName>
 		<label>Chemistry Station</label>
@@ -385,14 +385,14 @@
 			<li>
 				<compClass>CompReportWorkSpeed</compClass>
 			</li>
-            
+
             <li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
 					    <li>Patterner</li>
 					<li>TableLoom</li>
 				</linkableFacilities>
 			</li>
- 
+
 			<li Class="CF.CompProperties_UnlocksRecipe">
 			   <linkableFacilities>
 				  <li>
@@ -412,7 +412,7 @@
                     <li>MakeZylon</li>
 				 </recipes>
             </li>
-            
+
 		</comps>
 		<building>
 			<uninstallWork>1450</uninstallWork>
@@ -423,5 +423,5 @@
 		</placeWorkers>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 	</ThingDef>
-  
+
 </Defs>

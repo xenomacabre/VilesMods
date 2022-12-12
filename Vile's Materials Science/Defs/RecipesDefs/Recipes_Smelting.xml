@@ -142,7 +142,7 @@
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
     	<workSkillLearnFactor>0.8</workSkillLearnFactor>
-		<researchPrerequisite>Metals_C2</researchPrerequisite>
+		<researchPrerequisite>Metals_C3</researchPrerequisite>
 	</RecipeDef>
 	
 	<!-- BOG IRON -->
@@ -287,7 +287,7 @@
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
     	<workSkillLearnFactor>0.8</workSkillLearnFactor>
-		<researchPrerequisite>Metals_C2</researchPrerequisite>
+		<researchPrerequisite>Metals_C3</researchPrerequisite>
 	</RecipeDef>
 	
 	<!-- KALCOPYRITE -->
@@ -417,7 +417,7 @@
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
     	<workSkillLearnFactor>0.8</workSkillLearnFactor>
-		<researchPrerequisite>Metals_C2</researchPrerequisite>
+		<researchPrerequisite>Metals_C3</researchPrerequisite>
 	</RecipeDef>
 	
 	<!-- CASSITERITE -->
@@ -525,7 +525,7 @@
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
     	<workSkillLearnFactor>0.8</workSkillLearnFactor>
-		<researchPrerequisite>Metals_C2</researchPrerequisite>
+		<researchPrerequisite>Metals_C3</researchPrerequisite>
 	</RecipeDef>
 	
 	<!-- GALENA -->
@@ -636,7 +636,7 @@
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
     	<workSkillLearnFactor>0.8</workSkillLearnFactor>
-		<researchPrerequisite>Metals_C2</researchPrerequisite>
+		<researchPrerequisite>Metals_C3</researchPrerequisite>
 	</RecipeDef>
 	
 	<!-- SPHALERITE -->
@@ -767,7 +767,7 @@
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
     	<workSkillLearnFactor>0.8</workSkillLearnFactor>
-		<researchPrerequisite>Metals_C2</researchPrerequisite>
+		<researchPrerequisite>Metals_C3</researchPrerequisite>
 	</RecipeDef>
 	
 	<!-- NATIVE GOLD -->
@@ -955,7 +955,7 @@
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
     	<workSkillLearnFactor>0.8</workSkillLearnFactor>
-		<researchPrerequisite>Metals_C2</researchPrerequisite>
+		<researchPrerequisite>Metals_C3</researchPrerequisite>
 	</RecipeDef>
 
 	<!-- PENTLANDITE -->
@@ -1084,7 +1084,7 @@
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
     	<workSkillLearnFactor>0.8</workSkillLearnFactor>
-		<researchPrerequisite>Metals_C2</researchPrerequisite>
+		<researchPrerequisite>Metals_C3</researchPrerequisite>
 	</RecipeDef>
 	
 	<!-- SCHEELITE -->
@@ -1156,7 +1156,7 @@
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
     	<workSkillLearnFactor>0.8</workSkillLearnFactor>
-		<researchPrerequisite>Metals_C2</researchPrerequisite>
+		<researchPrerequisite>Metals_C3</researchPrerequisite>
 	</RecipeDef>
 	
 	<!-- RUTILE -->
@@ -1228,7 +1228,7 @@
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
     	<workSkillLearnFactor>0.8</workSkillLearnFactor>
-		<researchPrerequisite>Metals_C2</researchPrerequisite>
+		<researchPrerequisite>Metals_C3</researchPrerequisite>
 	</RecipeDef>
 	
 	<!-- CARNOTITE -->
@@ -1300,7 +1300,7 @@
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
     	<workSkillLearnFactor>0.8</workSkillLearnFactor>
-		<researchPrerequisite>Metals_C2</researchPrerequisite>
+		<researchPrerequisite>Metals_C3</researchPrerequisite>
 	</RecipeDef>
 	
 	<!-- QUARTZ -->

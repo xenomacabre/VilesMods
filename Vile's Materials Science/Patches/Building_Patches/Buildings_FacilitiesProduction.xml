@@ -124,18 +124,7 @@
                         </costList>
 					</value>
 				</li>
-                
-                <li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="ElectricSmithy"]/costList</xpath>
-					<value>	
-                        <costList>
-                            <PobediteAlloy>80</PobediteAlloy>
-                              <ComponentIndustrial>8</ComponentIndustrial>
-                            <ElectronicComponents>8</ElectronicComponents>
-                            <Mechanism>3</Mechanism>
-                        </costList>
-					</value>
-				</li>
+          
                 
                 <li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[defName="EAF"]/costList</xpath>

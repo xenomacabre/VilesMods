@@ -230,7 +230,7 @@
 	<!-- Modacrylic -->
 	<RecipeDef>
 		<defName>MakeModacrylic</defName>
-		<label>Make Modacrylic fabric x20</label>
+		<label>Make Modacrylic fabric x15</label>
 		<description>Modacrylic is a synthetic fiber often used for commercial multi-risk hazard protection. Helps regulated body temperature and moisture.</description>
 		<jobString>Making Modacrylic.</jobString>
 		<workAmount>1500</workAmount>

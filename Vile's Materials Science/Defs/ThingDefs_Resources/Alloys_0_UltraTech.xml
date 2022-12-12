@@ -10,7 +10,7 @@ X Inadvisable 	Weight, Production
 			
 Tools Recommended: Building, Mining
 			
-Hyperalloy is synthesized at the atomic level and refined with niobium and tantalum. Its unparalleled toughness and strength make it suitable for nearly any application. If only it weren't so hard to fabricate.</description>
+Hyperalloy is synthesized at the atomic level and refined with niobium and tantalum. It's extremely dense which allows for thinner armor plates and unparalleled toughness and strength which make it suitable for nearly any application. If only it weren't so hard to fabricate.</description>
 		<graphicData>
 			<texPath>Things/Item/Material/Hyperalloy</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -73,6 +73,8 @@ Hyperalloy is synthesized at the atomic level and refined with niobium and tanta
 				<WorkTableWorkSpeedFactor>2</WorkTableWorkSpeedFactor>
 				<MeleePenetrationFactor>1.7</MeleePenetrationFactor>
 				<Mass>1.25</Mass>
+                <Cleanliness>5.5</Cleanliness>
+                <WornBulk>0.65</WornBulk>
 			</statFactors>
 			<statOffsets>
 				<Beauty>4</Beauty>
@@ -99,13 +101,13 @@ Hyperalloy is synthesized at the atomic level and refined with niobium and tanta
 		<defName>BetaPoly</defName>
 		<label>polymimetic alloy</label>
 		<description>TIER 5 - Ultra Tech
->>> Optimal	Durability, Temperature regulation
->> Suitable	Production
-X Inadvisable 	Weight, Production
+>>> Optimal	Durability, Production
+>> Suitable	Firefighters Gear
+X Inadvisable 	Hospitals
 			
 Tools Recommended: Tree-cutting (highest), Cooking tools
 			
-Originally developed as military hardware, polymimetic alloy is programmable matter which is able to change states between liquid and solid. This allows it to be quickly formed and can maintain a rigid or flexible shape, suitible for everything from clothes, weapons, buildings, and armor. Because it can reform when damaged, it has unmatched longevity as a material.</description>
+Originally developed as military hardware, polymimetic alloy is programmable matter which is able to change states between liquid and solid. This allows it to be quickly formed and can maintain a rigid or flexible shape, suitible for everything from clothes, weapons, buildings, and armor. Because it can reform when damaged, it has unmatched longevity as a material. And because of this, armor made of it can be equipped almost instantly.</description>
 		<graphicData>
 			<texPath>Things/Item/Material/PolymimeticAlloy</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -165,10 +167,13 @@ Originally developed as military hardware, polymimetic alloy is programmable mat
 				<MoveSpeed>0.7</MoveSpeed>
 				<MarketValue>1</MarketValue>
 				<BedRestEffectiveness>1.45</BedRestEffectiveness>
-				<ImmunityGainSpeedFactor>1.35</ImmunityGainSpeedFactor>
+				<ImmunityGainSpeedFactor>1.25</ImmunityGainSpeedFactor>
 				<WorkTableWorkSpeedFactor>1.65</WorkTableWorkSpeedFactor>
 				<MeleePenetrationFactor>1.5</MeleePenetrationFactor>
 				<Mass>1</Mass>
+                 <Cleanliness>2</Cleanliness>
+                <WornBulk>0.9</WornBulk>
+                <EquipDelay>0.1</EquipDelay>
 			</statFactors>
 			<statOffsets>
 				<Beauty>6</Beauty>
@@ -266,6 +271,9 @@ This lightweight, exotic alloy is refined at the molecular level and it can hold
 				<WorkTableWorkSpeedFactor>1.8</WorkTableWorkSpeedFactor>
 				<MeleePenetrationFactor>1.9</MeleePenetrationFactor>
 				<Mass>0.6</Mass>
+                 <Cleanliness>3.5</Cleanliness>
+                <WornBulk>0.8</WornBulk>
+                <EquipDelay>0.33</EquipDelay>
 			</statFactors>
 		</stuffProps>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>

@@ -7,9 +7,9 @@
 		<description>TIER 4 - High Tech
 >>> Optimal	Bladed Weapons and Tools
 >> Suitable	Heavy Armor, Workshops
-X Inadvisable 	Kitchens, Hospitals
+X Inadvisable 	Hospitals
 			
-Tools Recommended: Bladed (fair)
+Tools Recommended: Harvesting / Cooking (best in class)
 Notes: Armor plats made from this are thinner and slightly less bulky
 			
 MaxaMet is an ultra-hard high-speed tool steel (HSS). It's just shy of the hardness of a carbide, but much less brittle. A blade made of Maxamet will penetrate and slice like no other, making for top-tier swords and cutting tools. Heat-treated for an attractive purple hue. It's more difficult to clean than other advanced alloys.</description>
@@ -59,7 +59,7 @@ MaxaMet is an ultra-hard high-speed tool steel (HSS). It's just shy of the hardn
 				<MaxHitPoints>3.15</MaxHitPoints>
 				<Beauty>1.7</Beauty>
 				<Flammability>0</Flammability>
-				<WorkToMake>2.5</WorkToMake>
+				<WorkToMake>2.2</WorkToMake>
 				<WorkToBuild>2.5</WorkToBuild>
 				<DoorOpenSpeed>0.7</DoorOpenSpeed>
 				<MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
@@ -98,8 +98,8 @@ MaxaMet is an ultra-hard high-speed tool steel (HSS). It's just shy of the hardn
 		<description>TIER 4 - High Tech
 >>> Optimal	Heavy Armor, Durability
 >> Suitable	Defensive construction
-X Inadvisable 	Thermal Armor
-			
+X Inadvisable 	Production
+            
 Tools Recommended: Building, Tree-Cutting
 Notes: Magnetic, Corrosion-resistant, Less bulky armor 
 
@@ -151,7 +151,7 @@ Possibly coined for its use in the aerospace industry, Aermet is the highest-rat
 				<MaxHitPoints>3.9</MaxHitPoints>
 				<Beauty>1.4</Beauty>
 				<Flammability>0</Flammability>
-				<WorkToMake>2.2</WorkToMake>
+				<WorkToMake>2.55</WorkToMake>
 				<WorkToBuild>1.8</WorkToBuild>
 				<DoorOpenSpeed>0.7</DoorOpenSpeed>
 				<MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
@@ -188,8 +188,8 @@ Possibly coined for its use in the aerospace industry, Aermet is the highest-rat
 		<defName>Pyromet</defName>
 		<label>PyroMet</label>
 		<description>TIER 4 - High Tech
->>> Optimal	Economy, Engineering
->> Suitable	Thermal Armor (cheap)
+>>> Optimal	Thermal Armor
+>> Suitable	Engineering
 X Inadvisable 	Ballistic Armor, Blades
 			
 Tools Recommended: None
@@ -207,7 +207,7 @@ Pyromet is a nickel-chromium stainless steel superalloy, useful for producing co
 		<statBases>
 			<MarketValue>30</MarketValue>
 			<StuffPower_Armor_Blunt>1.35</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>1.4</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Sharp>1.5</StuffPower_Armor_Sharp>
 			<StuffPower_Armor_Heat>0.16</StuffPower_Armor_Heat>
 			<StuffPower_Insulation_Cold>-1</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>-1</StuffPower_Insulation_Heat>
@@ -286,7 +286,7 @@ Pyromet is a nickel-chromium stainless steel superalloy, useful for producing co
 X Inadvisable 	Economy
 			
 Tools Recommended: Building, Tree-Cutting, Cooking
-Notes: Corrosion-resistant, Superalloy, Slightly less bulky armor
+Notes: Corrosion-resistant, Superalloy
 
 Stellite is a superalloy of cobalt and chromium, an important material for turbines, rocket engines and other applications that require performance in extreme conditions. Though not exceptionally feasible from an economic standpoint, lathes and workbenches operate at peak efficienty with this material, and it makes decent hammers and other tools.</description>
 		<graphicData>
@@ -349,7 +349,7 @@ Stellite is a superalloy of cobalt and chromium, an important material for turbi
 				<MeleePenetrationFactor>1.4</MeleePenetrationFactor>
 				<Mass>1.15</Mass>
 				<Cleanliness>3</Cleanliness>
-				<WornBulk>0.95</WornBulk>
+				<WornBulk>1</WornBulk>
 			</statFactors>
 		</stuffProps>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -473,7 +473,7 @@ X Inadvisable 	Durability, Workshops
 Tools Recommended: Cooking (fair)
 Notes: Magnetic, Corrosion-resistant, Light
 
-Perhaps more commmonly known as silicon carbide, this diamond-hard ceramic is commonly employed for personal armor plating due to its extreme strengh and hardness as well as low weight and cost. It's not a very tough material however, and though it may stop the highest caliber rounds, it will fracture after a few hits. Though it can make fairly sharp kitchen knives, it's not recommended for tools.</description>
+Perhaps more commmonly known as silicon carbide, this diamond-hard ceramic is commonly employed for personal armor plating due to its extreme strengh and hardness as well as low weight and cost. It's not a very tough material however, and though it may stop the highest caliber rounds, it will fracture after a few hits. Though it can make fairly sharp kitchen knives, it's not recommended for other tools.</description>
 		<graphicData>
 			<texPath>Things/Item/Material/Carborundum</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -562,7 +562,7 @@ Perhaps more commmonly known as silicon carbide, this diamond-hard ceramic is co
 		<description>TIER 4 - High Tech
 >>> Optimal	Workshops
 >> Suitable	Tools, Bladed Weapons
-X Inadvisable 	Armor, Construction
+X Inadvisable 	Construction
 			
 Tools Recommended: Mining, Digging, Cooking
 Notes: Magnetic, Corrosion-resistant, Heavy
@@ -628,6 +628,7 @@ Cemented tungsten carbide is a very hard, dense material often used for tools â€
 				<MeleePenetrationFactor>1.6</MeleePenetrationFactor>
 				<Mass>1.4</Mass>
 				<Cleanliness>1.9</Cleanliness>
+                <EquipDelay>0.8</EquipDelay>
 			</statFactors>
 		</stuffProps>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
@@ -653,7 +654,7 @@ Cemented tungsten carbide is a very hard, dense material often used for tools â€
 		<label>Tennalum</label>
 		<description>TIER 4 - High Tech
 >>> Optimal	Construction
->> Suitable	Bedrooms, Riot Batons
+>> Suitable	Bedrooms, Production, Riot batons
 X Inadvisable 	Mining Tools, Armor
 			
 Tools Recommended: Any/None (quick but mediocre)
@@ -752,7 +753,7 @@ Tennalum is a high-grade variety of 7068 Aluminium, perhaps the strongest alumin
 X Inadvisable 	Production
 			
 Tools Recommended: Any non-bladed
-Notes: Magnetic, Corrosion-resistant, Superalloy, Light
+Notes: Corrosion-resistant, Superalloy, Light
 
 Also known as Ti-6Al-4V or more commonly Grade 5 Titanium, it's alloyed with Aluminium and Vanadium. Due to its strength, light weight, and shock-absorbing qualities, it makes fine tools (especially non-bladed ones). And being a superalloy along with Stellite, Pyromet, and Nimonic, it's useful for high-temperature applications and components, and makes lightweight and decently strong armor with a nearly unmatched in energy-weapon defense rating (among alloy armors). It's extremely hard to work with, however.</description>
 		<graphicData>
@@ -840,7 +841,6 @@ Also known as Ti-6Al-4V or more commonly Grade 5 Titanium, it's alloyed with Alu
 	</ThingDef>
 	
 	<!-- NITINOL -->
-	
 	<ThingDef ParentName="SK_ResourceBase">
 		<defName>NitinolAlloy</defName>
 		<label>nitinol alloy</label>
