@@ -422,6 +422,9 @@
 			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
 		</placeWorkers>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+        <researchPrerequisites>
+			<li>Chemistry_C0</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 </Defs>

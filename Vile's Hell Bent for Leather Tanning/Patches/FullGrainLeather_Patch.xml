@@ -225,7 +225,7 @@
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Boomanimal"]/stuffProps/statFactors/BedRestEffectiveness</xpath>
 						<value>
-							<BedRestEffectiveness>1.2</BedRestEffectiveness>
+							<BedRestEffectiveness>1.15</BedRestEffectiveness>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">
@@ -237,13 +237,13 @@
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Boomanimal"]/stuffProps/statFactors/WorkToMake</xpath>
 						<value>
-							<WorkToMake>1.5</WorkToMake>
+							<WorkToMake>1.8</WorkToMake>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Boomanimal"]/stuffProps/statFactors/WorkToBuild</xpath>
 						<value>
-							<WorkToBuild>1.5</WorkToBuild>
+							<WorkToBuild>1.8</WorkToBuild>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">
@@ -361,13 +361,13 @@
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Lizard"]/stuffProps/statFactors/WorkToMake</xpath>
 						<value>
-							<WorkToMake>2</WorkToMake>
+							<WorkToMake>1.5</WorkToMake>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Lizard"]/stuffProps/statFactors/WorkToBuild</xpath>
 						<value>
-							<WorkToBuild>2</WorkToBuild>
+							<WorkToBuild>1.5</WorkToBuild>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">

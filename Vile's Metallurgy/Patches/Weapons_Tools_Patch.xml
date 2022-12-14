@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
+
+<!-- SHIV -->
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/ThingDef[defName="MeleeWeapon_Schiv"]/equippedStatOffsets/CookSpeed</xpath>
+		</Operation>
+			<Operation Class="PatchOperationRemove">
+			<xpath>Defs/ThingDef[defName="MeleeWeapon_Schiv"]/equippedStatOffsets/ButcheryFleshSpeed</xpath>
+		</Operation>	
+		<Operation Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="MeleeWeapon_Schiv"]</xpath>
+			<value>
+			  <thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
+			</value>
+		</Operation>		
+		<Operation Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="MeleeWeapon_Schiv"]/statBases</xpath>
+			<value>
+			  <ToolEffectivenessFactor>1</ToolEffectivenessFactor>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName="MeleeWeapon_Schiv"]</xpath>
+			<value>
+				<li Class="SurvivalToolsLite.SurvivalToolProperties">
+					<baseWorkStatFactors>
+						<CookSpeed>1.0</CookSpeed>
+						<ButcheryFleshSpeed>1.0</ButcheryFleshSpeed>
+					</baseWorkStatFactors>
+					<defaultSurvivalToolAssignmentTags>
+						<li>Cook</li>
+					</defaultSurvivalToolAssignmentTags>
+				</li>
+			</value>
+		</Operation>
 	<!-- DAGGER -->
 		<Operation Class="PatchOperationReplace">
 			<xpath>Defs/ThingDef[defName="MeleeWeapon_Dagger"]/equippedStatOffsets</xpath>
@@ -30,8 +64,8 @@
 				<value>
 					<li Class="SurvivalToolsLite.SurvivalToolProperties">
 						<baseWorkStatFactors>
-							<CookSpeed>1.0</CookSpeed>
-							<ButcheryFleshSpeed>1.0</ButcheryFleshSpeed>
+							<CookSpeed>1.1</CookSpeed>
+							<ButcheryFleshSpeed>1.1</ButcheryFleshSpeed>
 						</baseWorkStatFactors>
 						<defaultSurvivalToolAssignmentTags>
 							<li>Cook</li>
@@ -70,7 +104,7 @@
 				<value>
 					<li Class="SurvivalToolsLite.SurvivalToolProperties">
 						<baseWorkStatFactors>
-							<CookSpeed>1.1</CookSpeed>
+							<CookSpeed>1.15</CookSpeed>
 							<ButcheryFleshSpeed>1.3</ButcheryFleshSpeed>
 							<ButcheryFleshEfficiency>1.1</ButcheryFleshEfficiency>
 						</baseWorkStatFactors>
@@ -122,8 +156,8 @@
 				<value>
 					<li Class="SurvivalToolsLite.SurvivalToolProperties">
 						<baseWorkStatFactors>
-							<CookSpeed>1.1</CookSpeed>
-							<ButcheryFleshSpeed>1.1</ButcheryFleshSpeed>
+							<CookSpeed>1.2</CookSpeed>
+							<ButcheryFleshSpeed>1.2</ButcheryFleshSpeed>
 							<PlantHarvestingSpeed>1.0</PlantHarvestingSpeed>
 							<ConstructionSpeed>1.0</ConstructionSpeed>
 							<SmithingSpeed>1.0</SmithingSpeed>

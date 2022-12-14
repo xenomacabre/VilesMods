@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Minerals</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+
+
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="BigQuartzCrystal"]/randomlyDropResources</xpath>
+				<value>
+                    <randomlyDropResources>
+					    <li>
+                            <ResourceDefName>Quartz</ResourceDefName>
+                            <DropProbability>4</DropProbability>
+                           <CountPerDrop>5</CountPerDrop>
+                      </li> 
+                    </randomlyDropResources>
+				</value>
+			</li>
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="BigQuartzCrystalTrophy"]/costList</xpath>
+				<value>
+					 <costList>
+                          <Quartz>5</Quartz>
+                        </costList>
+				</value>
+			</li>
+            
+             <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="QuartzCrystal"]/randomlyDropResources</xpath>
+				<value>
+                    <randomlyDropResources>
+                        <li>
+                            <ResourceDefName>Quartz</ResourceDefName>
+                            <DropProbability>2</DropProbability>
+                             <CountPerDrop>2</CountPerDrop>
+                          </li>
+                      </randomlyDropResources>
+				</value>
+			</li>
+            
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="LodestoneCrystal"]/randomlyDropResources</xpath>
+				<value>
+                      <randomlyDropResources>
+                          <li>
+                            <ResourceDefName>RoughGem</ResourceDefName>
+                            <DropProbability>0.3</DropProbability>
+                          </li>
+                          <li>
+                            <ResourceDefName>Steel</ResourceDefName>
+                            <DropProbability>4</DropProbability>
+                            <CountPerDrop>10</CountPerDrop>
+                          </li>
+                        </randomlyDropResources>
+                    </value>
+			</li>
+           
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

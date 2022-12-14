@@ -114,7 +114,6 @@
 		<thingCategories>
 			<li>HardLeathers</li> <!--  -->
 		</thingCategories>
-		<smeltable>true</smeltable>
 		<stuffProps>
 			<stuffAdjective>Rawhide</stuffAdjective>
 			<!--<appearance>Metal</appearance>-->
@@ -179,7 +178,6 @@
 		<thingCategories>
 			<li>HardLeathers</li> <!--  -->
 		</thingCategories>
-		<smeltable>true</smeltable>
 		<stuffProps>
 			<stuffAdjective>Rawhide</stuffAdjective>
 			<!--<appearance>Metal</appearance>-->
@@ -244,7 +242,6 @@
 		<thingCategories>
 			<li>HardLeathers</li> <!--  -->
 		</thingCategories>
-		<smeltable>true</smeltable>
 		<stuffProps>
 			<stuffAdjective>Chitin</stuffAdjective>
 			<appearance>Metal</appearance>
@@ -311,7 +308,6 @@
 		<thingCategories>
 			<li>HardLeathers</li> <!--  -->
 		</thingCategories>
-		<smeltable>false</smeltable>
 		<stuffProps>
 			<stuffAdjective>Dragon Plate</stuffAdjective>
 			<!--<appearance>Metal</appearance>-->

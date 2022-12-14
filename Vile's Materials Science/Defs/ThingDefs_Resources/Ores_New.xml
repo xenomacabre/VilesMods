@@ -65,7 +65,7 @@
 		<thingCategories>
 			<li>RAR</li>
 		</thingCategories>
-		<smeltable>true</smeltable>
+		<!--<smeltable>true</smeltable>-->
 		<stuffProps>
 			<categories>
 				<li>Matty</li>
@@ -106,7 +106,7 @@
 		<thingCategories>
 			<li>RAR</li>
 		</thingCategories>
-		<smeltable>true</smeltable>
+		<!--<smeltable>true</smeltable>-->
 		<stuffProps>
 			<categories>
 				<li>Matty</li>
@@ -146,7 +146,7 @@
 		<thingCategories>
 			<li>SLD</li>
 		</thingCategories>
-		<smeltable>true</smeltable>
+		<!--<smeltable>true</smeltable>-->
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<!--<deepCommonality>0.6</deepCommonality>
 		<deepCountPerCell>1000</deepCountPerCell>

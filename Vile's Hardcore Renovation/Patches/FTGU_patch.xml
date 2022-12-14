@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vile's Biomes: From The Ground Up</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+
+            <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="SoilF-EarthenFloor"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
+				<value>
+					 <li>VolcanicSoil</li>
+					  <li>RedClaySoil</li>
+					  <li>LeachedSoil</li>
+					  <li>WeakSoil</li>
+				</value>
+			</li>
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Terraform_RemoveEarthenFloor"]/modExtensions/li[@Class="FertileFields.Terrain"]/result</xpath>
+				<value>
+					 <result>WeakSoil</result>
+				</value>
+			</li>
+
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

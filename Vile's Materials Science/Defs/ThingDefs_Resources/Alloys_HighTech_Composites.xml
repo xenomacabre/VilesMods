@@ -88,6 +88,7 @@ Carbon nanotubes and UHMWPE fibers in an epoxy matrix. Features superior ballist
 					<DiggingSpeed>1.3</DiggingSpeed>
 					<MiningYieldDigging>1.6</MiningYieldDigging>
 					<ConstructionSpeed>1.2</ConstructionSpeed>
+					<SmithingSpeed>1.2</SmithingSpeed>
 					<CookSpeed>1.7</CookSpeed>
 					<ButcheryFleshSpeed>1.6</ButcheryFleshSpeed>
                 </toolStatFactors>
@@ -99,7 +100,7 @@ Carbon nanotubes and UHMWPE fibers in an epoxy matrix. Features superior ballist
 		<defName>Aerographene</defName>
 		<label>aerographene composite</label>
 		<description>TIER 4 - High Tech
->>> Optimal	Thermal/Riot Armor 
+>>> Optimal	Construction, Thermal/Riot Armor 
 >> Suitable	Firefighter's gear
 X Inadvisable 	Tools, Weapons, Durability
 			
@@ -118,7 +119,7 @@ Aerographene, or graphene aerogel is the only known solid that is lighter than a
 		<statBases>
 			<MarketValue>50</MarketValue>
 			<StuffPower_Armor_Blunt>2.1</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>1.3</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Sharp>1.44</StuffPower_Armor_Sharp>
 			<StuffPower_Armor_Heat>0.22</StuffPower_Armor_Heat>
 			<StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>150</StuffPower_Insulation_Heat>
@@ -155,8 +156,8 @@ Aerographene, or graphene aerogel is the only known solid that is lighter than a
 				<MaxHitPoints>2.2</MaxHitPoints>
 				<Beauty>1</Beauty>
 				<Flammability>-1</Flammability>
-				<WorkToMake>3.5</WorkToMake>
-				<WorkToBuild>3.5</WorkToBuild>
+				<WorkToMake>3</WorkToMake>
+				<WorkToBuild>2</WorkToBuild>
 				<DoorOpenSpeed>1.4</DoorOpenSpeed>
 				<MeleeWeapon_CooldownMultiplier>0.6</MeleeWeapon_CooldownMultiplier>
 				<MoveSpeed>0.8</MoveSpeed>
@@ -180,6 +181,7 @@ Aerographene, or graphene aerogel is the only known solid that is lighter than a
 					<DiggingSpeed>0.8</DiggingSpeed>
 					<MiningYieldDigging>0.8</MiningYieldDigging>
 					<ConstructionSpeed>0.8</ConstructionSpeed>
+					<SmithingSpeed>0.8</SmithingSpeed>
 					<CookSpeed>0.8</CookSpeed>
 					<ButcheryFleshSpeed>0.8</ButcheryFleshSpeed>
                 </toolStatFactors>

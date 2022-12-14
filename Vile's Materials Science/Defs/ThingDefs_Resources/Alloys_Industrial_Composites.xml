@@ -85,6 +85,7 @@ High-density polyethylene is one of the three main commodity plastics. It can be
 					<DiggingSpeed>0.8</DiggingSpeed>
 					<MiningYieldDigging>0.8</MiningYieldDigging>
 					<ConstructionSpeed>0.8</ConstructionSpeed>
+					<SmithingSpeed>0.8</SmithingSpeed>
 					<CookSpeed>0.8</CookSpeed>
 					<ButcheryFleshSpeed>0.8</ButcheryFleshSpeed>
                 </toolStatFactors>
@@ -292,6 +293,7 @@ Plexiglass is transparent Polymethyl methacrylate, or acrylic glass. It's strong
 					<DiggingSpeed>0.9</DiggingSpeed>
 					<MiningYieldDigging>0.9</MiningYieldDigging>
 					<ConstructionSpeed>0.9</ConstructionSpeed>
+					<SmithingSpeed>0.9</SmithingSpeed>
 					<CookSpeed>1.05</CookSpeed>
 					<ButcheryFleshSpeed>1.05</ButcheryFleshSpeed>
                 </toolStatFactors>
@@ -384,6 +386,7 @@ Riding the line between a commodity and engineering plastic, Acrylonitrile-butad
 					<DiggingSpeed>0.9</DiggingSpeed>
 					<MiningYieldDigging>0.9</MiningYieldDigging>
 					<ConstructionSpeed>0.9</ConstructionSpeed>
+					<SmithingSpeed>0.9</SmithingSpeed>
 					<CookSpeed>1.05</CookSpeed>
 					<ButcheryFleshSpeed>1.05</ButcheryFleshSpeed>
                 </toolStatFactors>
@@ -480,6 +483,7 @@ Polycarbonate is a clear plastic which is often used for bulletproof glass and r
 					<DiggingSpeed>0.7</DiggingSpeed>
 					<MiningYieldDigging>0.8</MiningYieldDigging>
 					<ConstructionSpeed>1.1</ConstructionSpeed>
+					<SmithingSpeed>1.1</SmithingSpeed>
 					<CookSpeed>1</CookSpeed>
 					<ButcheryFleshSpeed>1</ButcheryFleshSpeed>
                 </toolStatFactors>
@@ -570,9 +574,10 @@ Glass-fiber reinforced plastic is a composite material of glass fibers set into 
                     <TreeFellingSpeed>1.1</TreeFellingSpeed>
 					<PlantHarvestingSpeed>0.9</PlantHarvestingSpeed>
 					<PlantSowingSpeed>0.9</PlantSowingSpeed>
-					<DiggingSpeed>0.9</DiggingSpeed>
-					<MiningYieldDigging>0.9</MiningYieldDigging>
-					<ConstructionSpeed>0.9</ConstructionSpeed>
+					<DiggingSpeed>1</DiggingSpeed>
+					<MiningYieldDigging>1</MiningYieldDigging>
+					<ConstructionSpeed>0.95</ConstructionSpeed>
+					<SmithingSpeed>0.95</SmithingSpeed>
 					<CookSpeed>0.9</CookSpeed>
 					<ButcheryFleshSpeed>0.9</ButcheryFleshSpeed>
                 </toolStatFactors>

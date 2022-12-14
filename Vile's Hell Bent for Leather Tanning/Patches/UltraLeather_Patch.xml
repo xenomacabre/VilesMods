@@ -105,7 +105,7 @@
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_KirinHide"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
-							<MaxHitPoints>2.25</MaxHitPoints>
+							<MaxHitPoints>2.3</MaxHitPoints>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">
@@ -182,13 +182,13 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_FireDragonskin"]/statBases/StuffPower_Insulation_Cold</xpath>
 				<value>
-					<StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+					<StuffPower_Insulation_Cold>15</StuffPower_Insulation_Cold>
 				</value>
 			</li>
 				<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_FireDragonskin"]/statBases/StuffPower_Insulation_Heat</xpath>
 				<value>
-					<StuffPower_Insulation_Heat>60</StuffPower_Insulation_Heat>
+					<StuffPower_Insulation_Heat>75</StuffPower_Insulation_Heat>
 				</value>
 			</li>
 			
@@ -289,7 +289,7 @@
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Thrumbo"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
-							<MaxHitPoints>2.4</MaxHitPoints>
+							<MaxHitPoints>2.35</MaxHitPoints>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">
@@ -357,13 +357,13 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_FeatheredRaptorLeather"]/statBases/StuffPower_Insulation_Cold</xpath>
 				<value>
-					<StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+					<StuffPower_Insulation_Cold>45</StuffPower_Insulation_Cold>
 				</value>
 			</li>
 				<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_FeatheredRaptorLeather"]/statBases/StuffPower_Insulation_Heat</xpath>
 				<value>
-					<StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+					<StuffPower_Insulation_Heat>35</StuffPower_Insulation_Heat>
 				</value>
 			</li>
 			
@@ -376,7 +376,7 @@
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_FeatheredRaptorLeather"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
-							<MaxHitPoints>2.2</MaxHitPoints>
+							<MaxHitPoints>2.45</MaxHitPoints>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">

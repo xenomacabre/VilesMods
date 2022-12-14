@@ -67,10 +67,7 @@
 					<li>SavannaSoil</li>
 					<li>SoilRich</li>
 					<li>MossyTerrain</li>
-					<li>VolcanicSoil</li>
-					<li>RedClaySoil</li>
-					<li>LeachedSoil</li>
-					<li>WeakSoil</li>
+                     
 				</above>
 				<result>EarthenFloor</result>
 			</li>
@@ -86,7 +83,7 @@
 	<ThingDef ParentName="RFF_TerraformBasicBase">
 		<defName>Terraform_RemoveEarthenFloor</defName>
 		<label>Remove road/floor</label>
-		<description>Dig up earthen floor or packed dirt to reveal weak soil.</description>
+		<description>Dig up earthen floor or packed dirt to reveal rocky soil.</description>
 		<uiIconPath>Terrain/Surfaces/RemoveEarth_i</uiIconPath>
 		<modExtensions>
 			<li Class="FertileFields.Terrain">
@@ -94,7 +91,7 @@
 					<li>EarthenFloor</li>
 					<li>PackedDirt</li>
 				</above>
-				<result>WeakSoil</result>
+				<result>MarginalSoil</result>
 			</li>
 		</modExtensions>
 		<statBases>

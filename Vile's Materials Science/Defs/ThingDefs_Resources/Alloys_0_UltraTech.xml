@@ -23,7 +23,7 @@ Hyperalloy is synthesized at the atomic level and refined with niobium and tanta
 		<statBases>
 			<MarketValue>60</MarketValue>
 			<StuffPower_Armor_Blunt>1.65</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>1.7</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Sharp>2</StuffPower_Armor_Sharp>
 			<StuffPower_Armor_Heat>0.22</StuffPower_Armor_Heat>
 			<StuffPower_Insulation_Cold>-2</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>-2</StuffPower_Insulation_Heat>
@@ -90,6 +90,7 @@ Hyperalloy is synthesized at the atomic level and refined with niobium and tanta
 					<DiggingSpeed>2.3</DiggingSpeed>
 					<MiningYieldDigging>2</MiningYieldDigging>
 					<ConstructionSpeed>2.3</ConstructionSpeed>
+					<SmithingSpeed>2.3</SmithingSpeed>
 					<CookSpeed>1.7</CookSpeed>
 					<ButcheryFleshSpeed>1.7</ButcheryFleshSpeed>
                 </toolStatFactors>
@@ -102,7 +103,7 @@ Hyperalloy is synthesized at the atomic level and refined with niobium and tanta
 		<label>polymimetic alloy</label>
 		<description>TIER 5 - Ultra Tech
 >>> Optimal	Durability, Production
->> Suitable	Firefighters Gear
+>> Suitable	Firefighters Gear/Armor
 X Inadvisable 	Hospitals
 			
 Tools Recommended: Tree-cutting (highest), Cooking tools
@@ -119,8 +120,8 @@ Originally developed as military hardware, polymimetic alloy is programmable mat
 		<techLevel>Ultra</techLevel>
 		<statBases>
 			<MarketValue>70</MarketValue>
-			<StuffPower_Armor_Blunt>1.6</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>1.6</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>2</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.7</StuffPower_Armor_Sharp>
 			<StuffPower_Armor_Heat>0.2</StuffPower_Armor_Heat>
 			<StuffPower_Insulation_Cold>60</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>250</StuffPower_Insulation_Heat>
@@ -189,6 +190,7 @@ Originally developed as military hardware, polymimetic alloy is programmable mat
 					<DiggingSpeed>1.7</DiggingSpeed>
 					<MiningYieldDigging>1.7</MiningYieldDigging>
 					<ConstructionSpeed>1.7</ConstructionSpeed>
+					<SmithingSpeed>1.7</SmithingSpeed>
 					<CookSpeed>2</CookSpeed>
 					<ButcheryFleshSpeed>2</ButcheryFleshSpeed>
                 </toolStatFactors>
@@ -202,8 +204,8 @@ Originally developed as military hardware, polymimetic alloy is programmable mat
 		<defName>Yautjavium</defName>
 		<label>yautjavium</label>
 		<description>TIER 5 - Ultra Tech
->>> Optimal	Armor, Bladed weapons
->> Suitable	Lightweight
+>>> Optimal	Workshops, Light Armor
+>> Suitable	Bladed weapons
 X Inadvisable 	Durability
 			
 Tools Recommended: Cooking Tools (highest), Farm Tools
@@ -221,7 +223,7 @@ This lightweight, exotic alloy is refined at the molecular level and it can hold
 		<statBases>
 			<MarketValue>80</MarketValue>
 			<StuffPower_Armor_Blunt>1.7</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>2</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Sharp>1.85</StuffPower_Armor_Sharp>
 			<StuffPower_Armor_Heat>0.25</StuffPower_Armor_Heat>
 			<StuffPower_Insulation_Cold>0</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
@@ -286,6 +288,7 @@ This lightweight, exotic alloy is refined at the molecular level and it can hold
 					<DiggingSpeed>1.5</DiggingSpeed>
 					<MiningYieldDigging>1.7</MiningYieldDigging>
 					<ConstructionSpeed>2</ConstructionSpeed>
+					<SmithingSpeed>2</SmithingSpeed>
 					<CookSpeed>2.3</CookSpeed>
 					<ButcheryFleshSpeed>2.3</ButcheryFleshSpeed>
                 </toolStatFactors>

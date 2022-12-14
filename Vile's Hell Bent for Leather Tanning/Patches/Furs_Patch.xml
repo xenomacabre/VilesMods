@@ -19,7 +19,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Wolf"]/description</xpath>
 				<value>
-					<description>Taking advantage of the course guard hairs of animals such as the wolf, this offers good protection against blades, though does not has as much padding as heavy fur, although it breathes better and is lighter.</description>
+					<description>Taking advantage of the course guard hairs of animals such as the wolf, this offers good protection against blades. And although it does not have as much padding as heavy fur, it's lighter and lasts longer.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -37,7 +37,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Wolf"]/statBases/StuffPower_Armor_Sharp</xpath>
 				<value>
-					<StuffPower_Armor_Sharp>1.35</StuffPower_Armor_Sharp>
+					<StuffPower_Armor_Sharp>1.25</StuffPower_Armor_Sharp>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -74,7 +74,7 @@
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Wolf"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
-							<MaxHitPoints>1.45</MaxHitPoints>
+							<MaxHitPoints>1.85</MaxHitPoints>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">
@@ -221,13 +221,13 @@
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Bluefur"]/stuffProps/statFactors/WorkToMake</xpath>
 						<value>
-							<WorkToMake>1.5</WorkToMake>
+							<WorkToMake>1.25</WorkToMake>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Bluefur"]/stuffProps/statFactors/WorkToBuild</xpath>
 						<value>
-							<WorkToBuild>1.5</WorkToBuild>
+							<WorkToBuild>1.25</WorkToBuild>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">

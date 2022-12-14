@@ -120,6 +120,7 @@
 						<DiggingSpeed>0.6</DiggingSpeed>
 						<MiningYieldDigging>0.85</MiningYieldDigging>
 						<ConstructionSpeed>0.7</ConstructionSpeed>
+						<SmithingSpeed>0.7</SmithingSpeed>
 						<CookSpeed>0.6</CookSpeed>
 						<ButcheryFleshSpeed>0.6</ButcheryFleshSpeed>
 					</toolStatFactors>
@@ -207,6 +208,7 @@
 					<DiggingSpeed>0.7</DiggingSpeed>
 					<MiningYieldDigging>0.9</MiningYieldDigging>
 					<ConstructionSpeed>0.8</ConstructionSpeed>
+					<SmithingSpeed>0.8</SmithingSpeed>
 					<CookSpeed>0.6</CookSpeed>
 					<ButcheryFleshSpeed>0.6</ButcheryFleshSpeed>
                 </toolStatFactors>

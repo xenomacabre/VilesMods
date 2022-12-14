@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Minerals</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+
+             <li Class="PatchOperationAddModExtension">
+                    <xpath>Defs/ThingDef[defName="ZF_BlocksBasalt"]</xpath>
+                    <value>
+                        <li Class="SurvivalToolsLite.StuffPropsTool">
+                            <toolStatFactors>
+                                <TreeFellingSpeed>0.85</TreeFellingSpeed>
+                                <PlantHarvestingSpeed>0.85</PlantHarvestingSpeed>
+                                <PlantSowingSpeed>0.85</PlantSowingSpeed>
+                                <DiggingSpeed>0.85</DiggingSpeed>
+                                <MiningYieldDigging>0.9</MiningYieldDigging>
+                                <ConstructionSpeed>0.775</ConstructionSpeed>
+                            </toolStatFactors>
+                            <wearFactorMultiplier>1.3</wearFactorMultiplier>
+                        </li>
+                    </value>
+             </li>
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="BlocksGranite"]/modExtensions/li[@Class="SurvivalToolsLite.StuffPropsTool"]/toolStatFactors/TreeFellingSpeed</xpath>
+				<value>
+					<TreeFellingSpeed>0.775</TreeFellingSpeed>
+				</value>
+			</li>
+              <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="BlocksGranite"]/modExtensions/li[@Class="SurvivalToolsLite.StuffPropsTool"]/toolStatFactors/ConstructionSpeed</xpath>
+				<value>
+					<ConstructionSpeed>0.85</ConstructionSpeed>
+				</value>
+			</li>
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="BlocksLimestone"]/modExtensions/li[@Class="SurvivalToolsLite.StuffPropsTool"]/toolStatFactors/TreeFellingSpeed</xpath>
+				<value>
+					<TreeFellingSpeed>0.8</TreeFellingSpeed>
+				</value>
+			</li>
+            
+             <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BlocksGranite"]/stuffProps/statFactors</xpath>
+				<value>
+					<Beauty>1.3</Beauty>
+				</value>
+			</li>
+            <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BlocksGranite"]/stuffProps/statFactors</xpath>
+				<value>
+					<WorkToBuild>5</WorkToBuild>
+				</value>
+			</li>
+            <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BlocksGranite"]/stuffProps/statFactors</xpath>
+				<value>
+					<WorkToMake>3.5</WorkToMake>
+				</value>
+			</li>
+            
+             <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ZF_BlocksBasalt"]/stuffProps/statFactors/WorkToBuild</xpath>
+				<value>
+					<WorkToBuild>4.5</WorkToBuild>
+				</value>
+			</li>
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ZF_BlocksBasalt"]/stuffProps/statFactors/WorkToMake</xpath>
+				<value>
+					<WorkToMake>3.5</WorkToMake>
+				</value>
+			</li>
+            
+            <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BlocksLimestone"]/stuffProps/statFactors</xpath>
+				<value>
+					<WorkToMake>2.5</WorkToMake>
+				</value>
+			</li>
+            
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="BlocksMarble"]/stuffProps/statFactors/WorkToMake</xpath>
+				<value>
+					<WorkToMake>1.66</WorkToMake>
+				</value>
+			</li>
+            
+             <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="BlocksSandstone"]/stuffProps/statFactors/WorkToBuild</xpath>
+				<value>
+					<WorkToBuild>4</WorkToBuild>
+				</value>
+			</li>
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="BlocksSandstone"]/stuffProps/statFactors/WorkToMake</xpath>
+				<value>
+					<WorkToMake>1.33</WorkToMake>
+				</value>
+			</li>      
+            
+            <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BlocksSlate"]/stuffProps/statFactors</xpath>
+				<value>
+					<WorkToBuild>4</WorkToBuild>
+				</value>
+			</li>
+            <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BlocksSlate"]/stuffProps/statFactors</xpath>
+				<value>
+					<WorkToMake>3</WorkToMake>
+				</value>
+			</li>  
+            
+<li Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="ZF_BlocksBasalt"]/description</xpath>
+    <value>
+<description>Recommended: Defensive construction, Tree-cutting tools (fair)
+    
+Durability: Fairly good
+Beauty: Ugly
+Work to craft: Very difficult
+Work to build: Fairly difficult</description>
+    </value>
+</li>
+            
+<li Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BlocksGranite"]/description</xpath>
+    <value>
+<description>Recommended: Defensive construction, Building tools (fair)
+    
+Durability: good
+Beauty: Attractive
+Work to craft: Very difficult
+Work to build: Very difficult</description>
+    </value>
+</li>
+            
+<li Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BlocksLimestone"]/description</xpath>
+    <value>
+<description>Recommended: Any construction, Building tools (adequate)
+    
+Durability: decent
+Beauty: Slightly attractive
+Work to craft: Average
+Work to build: Fairly difficult</description>
+    </value>
+</li>
+            
+<li Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BlocksMarble"]/description</xpath>
+    <value>
+<description>Recommended: Luxury construction, Tools (mediocre, but quick to make)
+    
+Durability: low
+Beauty: Luxurious
+Work to craft: Fast
+Work to build: Very difficult</description>
+    </value>
+</li>   
+            
+<li Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BlocksSandstone"]/description</xpath>
+    <value>
+<description>Recommended: Workbench/Utility construction, Building Tools (poor, but quick to make)
+    
+Durability: Moderate
+Beauty: Average
+Work to craft: Very Fast
+Work to build: Slightly difficult</description>
+    </value>
+</li>    
+            
+<li Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BlocksSlate"]/description</xpath>
+    <value>
+<description>Recommended: Workbench/Utility construction, Tree-cutting Tools (adequate)
+    
+Durability: Moderate-low
+Beauty: Average
+Work to craft: Average
+Work to build: Slightly difficult</description>
+    </value>
+</li> 
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

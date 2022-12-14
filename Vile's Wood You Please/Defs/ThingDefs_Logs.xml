@@ -573,7 +573,7 @@
 		</stuffProps>
 	</ThingDef>	
 	
-		<ThingDef Name="DragonwoodLog" ParentName="HardwoodLogBase">
+	<ThingDef Name="DragonwoodLog" ParentName="HardwoodLogBase">
 		<defName>DragonwoodLog</defName>
 		<label>Dragonwood log</label>
 		<description>Dragonwood is a rare and incredibly hard, beautiful wood. It's sap is blood-red and has healing properties. It's very difficult to work with due to its extreme hardness.</description>
@@ -625,6 +625,7 @@
 					<DiggingSpeed>0.85</DiggingSpeed>
 					<MiningYieldDigging>0.95</MiningYieldDigging>
 					<ConstructionSpeed>0.85</ConstructionSpeed>
+					<SmithingSpeed>0.85</SmithingSpeed>
 					<CookSpeed>0.7</CookSpeed>
 					<ButcheryFleshSpeed>0.7</ButcheryFleshSpeed>
                 </toolStatFactors>
@@ -684,6 +685,7 @@
 					<DiggingSpeed>0.85</DiggingSpeed>
 					<MiningYieldDigging>0.95</MiningYieldDigging>
 					<ConstructionSpeed>0.85</ConstructionSpeed>
+					<SmithingSpeed>0.85</SmithingSpeed>
 					<CookSpeed>0.7</CookSpeed>
 					<ButcheryFleshSpeed>0.7</ButcheryFleshSpeed>
                 </toolStatFactors>

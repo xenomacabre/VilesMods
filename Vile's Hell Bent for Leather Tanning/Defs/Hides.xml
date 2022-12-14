@@ -18,7 +18,7 @@
 			<MarketValue>15</MarketValue>
 		</statBases>
 		
-		<smeltable>true</smeltable>
+
 		<useHitPoints>true</useHitPoints>
 		<techLevel>Neolithic</techLevel>
 	</ThingDef>
@@ -50,9 +50,6 @@
 				<daysToRotStart>15</daysToRotStart>
 			</li>
 		</comps>
-		<smeltProducts>
-			<Hide_HumanSkinCured>10</Hide_HumanSkinCured>
-		</smeltProducts>
 		<tickerType>Rare</tickerType>
 		<thingCategories>
 			<li>UncuredHides</li>
@@ -81,9 +78,6 @@
 				<daysToRotStart>15</daysToRotStart>
 			</li>
 		</comps>
-		<smeltProducts>
-			<Hide_ExoticSkinCured>10</Hide_ExoticSkinCured>
-		</smeltProducts>
 		<tickerType>Rare</tickerType>
 		<thingCategories>
 			<li>UncuredHides</li>
@@ -115,9 +109,6 @@
 				<daysToRotStart>15</daysToRotStart>
 			</li>
 		</comps>
-		<smeltProducts>
-			<Hide_LightAnimalSkinCured>10</Hide_LightAnimalSkinCured>
-		</smeltProducts>
 		<tickerType>Rare</tickerType>
 		<thingCategories>
 			<li>UncuredHides</li>
