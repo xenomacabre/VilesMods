@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- IngredientValueGetter_Mass -->
+	<CF_BillRequiresMass>Requires {0}kg of {1}</CF_BillRequiresMass>
+</LanguageData>

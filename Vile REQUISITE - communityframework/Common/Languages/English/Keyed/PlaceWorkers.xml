@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- PlaceWorkers -->
+	<CF_Roofed_NeedsRoof>{0} needs to be placed under a roof</CF_Roofed_NeedsRoof>
+	<CF_Chandelier_TooTall>{0} is too tall to place a {1} here</CF_Chandelier_TooTall>
+	<CF_MustBePlacedOnWall>{0} must be placed on a wall</CF_MustBePlacedOnWall>	
+</LanguageData>

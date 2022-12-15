@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<!-- HediffComp_SeverityFromSkill -->
+	<CF_SeverityFromSkill_SkillRequire>Required skills:</CF_SeverityFromSkill_SkillRequire>
+	<CF_SeverityFromSkill_SkillMin>Minimum level required:</CF_SeverityFromSkill_SkillMin>
+	<CF_SeverityFromSkill_SkillAverage>Average of relevant skills:</CF_SeverityFromSkill_SkillAverage>
+	
+</LanguageData>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Placement Restrictors -->
+  <CF_MustBePlacedOnWall>{0} 壁に置かなければなりません</CF_MustBePlacedOnWall>
+  <!-- Chandelier -->
+  <CF_Chandelier_TooTall>{0} 大きすぎてここには {1} を設置できません</CF_Chandelier_TooTall>
+  <CF_Roofed_NeedsRoof>{0} 屋根の下に置く必要があります</CF_Roofed_NeedsRoof>
+</LanguageData>

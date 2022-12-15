@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+		
+            
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="FueledStove" 
+					or defName="ElectricOven"]/statBases/Cleanliness</xpath>
+				<value>
+					<Cleanliness>2</Cleanliness>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TableKitchen"]/statBases/Cleanliness</xpath>
+				<value>
+					<Cleanliness>3</Cleanliness>
+				</value>
+			</li>
+   
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	
+

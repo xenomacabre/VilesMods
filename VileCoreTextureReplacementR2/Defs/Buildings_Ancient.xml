@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="SK_BuildingBase">
+		<defName>Urn</defName>
+		<label>urn</label>
+		<description>An ancient-style decorative container.</description>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.40</fillPercent>
+		<statBases>
+			<MaxHitPoints>40</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>5</Beauty>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<canOverlapZones>false</canOverlapZones>
+		<pathCost>50</pathCost>
+		<rotatable>false</rotatable>
+		<building>
+			<isInert>true</isInert>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+		<graphicData>
+			<texPath>Things/Building/Misc/Urn/Urn</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.55, 0.35, 0.3)</volume>
+				<offset>(0, 0, -0.28)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.3,0,0.3,0.9)</rect>
+			</damageData>
+		</graphicData>
+	</ThingDef>
+
+</Defs>

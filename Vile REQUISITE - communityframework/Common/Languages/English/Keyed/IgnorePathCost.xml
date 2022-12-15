@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!--HediffComp_IgnorePathCost-->
+	<CF_IgnorePathCost_StringExtra>Terrain path cost is ignored</CF_IgnorePathCost_StringExtra>
+
+</LanguageData>

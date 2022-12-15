@@ -1,0 +1,5 @@
+Source/communityframework/.vs/
+Source/communityframework/communityframework/obj/
+Source/communityframework/packages/
+Source/communityframework/communityframework/communityframework.csproj.user
+*.pdb

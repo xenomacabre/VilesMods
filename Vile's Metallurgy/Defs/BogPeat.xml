@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	 <ThingDef ParentName="RFF_TerraformBasicBase">
+        <defName>Peat-WaterShallow</defName>
+        <label>Peat from bogs</label>
+        <description>↑ Lichen-covered dirt\n↑ Marsh\n↑ Mud\n\n↓ Shallow water\n\n  ▪ 2 rubble\n  ▪ 4 dirt\n  ▪ 15 clay\n  ▪ 15 peat\n  ▪ 2 sand</description>
+        <uiIconPath>UI/Icons/Terraforming/Peat-WaterShallow</uiIconPath>
+        <modExtensions>
+          <li Class="FertileFields.Terrain">
+            <above>
+              <li>MarshyTerrain</li>
+              <li>Marsh</li>
+              <li>Mud</li>
+            </above>
+            <result>WaterShallow</result>
+            <products>
+              <CrushedStone>2</CrushedStone>
+              <Dirt>4</Dirt>
+              <SoftClay>15</SoftClay>
+              <Peat>15</Peat>
+              <SandResource>2</SandResource>
+            </products>
+          </li>
+        </modExtensions>
+        <statBases>
+          <WorkToBuild>960</WorkToBuild>
+        </statBases>
+        <terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+      </ThingDef>
+</Defs>

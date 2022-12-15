@@ -197,16 +197,13 @@
 			</li>
 			
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="FueledStove" 
-					or defName="ElectricOven"
-					or defName="NutrientPasteDispenser"]/statBases</xpath>
+				<xpath>Defs/ThingDef[defName="NutrientPasteDispenser"]/statBases</xpath>
 				<value>
 					<Cleanliness>2</Cleanliness>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="TableKitchen" 
-					or defName="ElectricStove"]/statBases</xpath>
+				<xpath>Defs/ThingDef[defName="ElectricStove"]/statBases</xpath>
 				<value>
 					<Cleanliness>3</Cleanliness>
 				</value>

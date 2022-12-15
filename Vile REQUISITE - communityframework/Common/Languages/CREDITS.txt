@@ -1,0 +1,16 @@
+﻿# ChineseSimplified
+翻译: 		leafzxg
+Translation by: leafzxg
+# ChineseTraditional
+翻譯: 		leafzxg
+Translation by: leafzxg
+# Japanese
+Translation by: namidasechi
+# Spanish
+Traduccion por: CANALETA
+Translation by: CANALETA
+# SpanishLatin
+Traduccion por: CANALETA
+Translation by: CANALETA
+# French
+Translation by: qux

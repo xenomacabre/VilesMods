@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vile's Metallurgy</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TableFurnace"]/costList</xpath>
+				<value>
+					<costList>
+                        <ComponentMedieval>6</ComponentMedieval>
+                        <Leather_Dog>20</Leather_Dog>
+                    </costList>
+				</value>
+			</li>
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

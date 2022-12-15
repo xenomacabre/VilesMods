@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Placement Restrictors -->
+  <CF_MustBePlacedOnWall>{0}必須靠墻而建。</CF_MustBePlacedOnWall>
+  <!-- Chandelier -->
+  <CF_Chandelier_TooTall>{0}太高了，不能在{1}上放置</CF_Chandelier_TooTall>
+  <CF_Roofed_NeedsRoof>{0}需要放置於屋頂下</CF_Roofed_NeedsRoof>
+</LanguageData>
