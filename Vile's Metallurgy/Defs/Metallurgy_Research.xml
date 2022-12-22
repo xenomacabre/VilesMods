@@ -184,7 +184,7 @@
 			<li>Metallurgy_B3</li>
 		</prerequisites>
 		<researchViewX>5.00</researchViewX>
-		<researchViewY>25.00</researchViewY>
+		<researchViewY>24.00</researchViewY>
 		<tab>Craft_SK</tab>
 		<modExtensions>
 			<li Class="ResearchTreeSK.ResearchTreeSKModExtension"/>

@@ -43,6 +43,7 @@ MaxaMet is an ultra-hard high-speed tool steel (HSS). It's just shy of the hardn
 		</thingCategories>
 		<smeltable>true</smeltable>
 		<stuffProps>
+            <appearance>Panel</appearance>
 			<stuffAdjective>Maxamet Steel</stuffAdjective>
 			<categories>
 				<li>Metallic</li>
@@ -135,6 +136,7 @@ Possibly coined for its use in the aerospace industry, Aermet is the highest-rat
 		</thingCategories>
 		<smeltable>true</smeltable>
 		<stuffProps>
+            <appearance>Panel</appearance>
 			<stuffAdjective>AerMet</stuffAdjective>
 			<categories>
 				<li>Metallic</li>
@@ -698,6 +700,7 @@ Tennalum is a high-grade variety of 7068 Aluminium, perhaps the strongest alumin
 		</thingCategories>
 		<smeltable>true</smeltable>
 		<stuffProps>
+            <appearance>Cladding</appearance>
 			<stuffAdjective>Tennalum</stuffAdjective>
 			<categories>
 				<li>Metallic</li>
@@ -892,6 +895,7 @@ Half Nickel, half titanium. It's an important alloy used for high tech actuators
 		</thingCategories>
 		<smeltable>true</smeltable>
 		<stuffProps>
+            <appearance>Panel</appearance>
 			<stuffAdjective>Nitinol</stuffAdjective>
 			<categories>
 				<li>Metallic</li>

@@ -31,7 +31,8 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[@Name="InstectoidBase" or
 					defName="Mutant_Ogre" or
-					defName="FRaptor"]/statBases/LeatherAmount</xpath>
+					defName="FRaptor" or
+                    defName="Animal_Desiri"]/statBases/LeatherAmount</xpath>
 				<value>
 					<LeatherAmount>5</LeatherAmount>
 				</value>

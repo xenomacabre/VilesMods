@@ -28,7 +28,14 @@
 	</mods>
 	<match Class="PatchOperationSequence">
 	<success>Always</success>
-		<operations>  
+		<operations>
+            
+            <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CrucibleSteel"]/stuffProps</xpath>
+				<value>
+                    <appearance>Panel</appearance>
+				</value>
+			</li>
             <li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="FirePit" or defName="Foundry"]/recipes</xpath>
 				<value>
@@ -55,7 +62,7 @@
 			</li>
 
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Extract_BogIron"]/Products</xpath>
+				<xpath>Defs/RecipeDef[defName="Extract_BogIron"]/Products</xpath>
 				<value>
                     <products>
                         <BogIron>10</BogIron>
@@ -64,7 +71,7 @@
 			</li>
 		
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="MakeIronBloom_Bloomery"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName="MakeIronBloom_Bloomery"]/ingredients</xpath>
 				<value>
                     	<ingredients>
                             <li>
@@ -80,7 +87,7 @@
 				</value>
 			</li>
 		    <li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="MakeIronBloom_Bloomery"]/fixedIngredientFilter</xpath>
+				<xpath>Defs/RecipeDef[defName="MakeIronBloom_Bloomery"]/fixedIngredientFilter</xpath>
 				<value>
                     <fixedIngredientFilter>
                         <thingDefs>
@@ -93,7 +100,7 @@
             
             
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="MakePigIron_Furnace"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName="MakePigIron_Furnace"]/ingredients</xpath>
 				<value>
                     <ingredients>
                         <li>
@@ -109,7 +116,7 @@
 				</value>
 			</li>
 		    <li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="MakePigIron_Furnace"]/fixedIngredientFilter</xpath>
+				<xpath>Defs/RecipeDef[defName="MakePigIron_Furnace"]/fixedIngredientFilter</xpath>
 				<value>
                      <fixedIngredientFilter>
                         <thingDefs>

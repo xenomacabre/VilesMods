@@ -10,9 +10,10 @@
 			<texPath>Things/Building/Fences/DryStoneWall</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<!--<shaderType>CutoutComplex</shaderType>-->
-			<linkType>Basic</linkType>
+			<linkType>CornerFiller</linkType>
 			<linkFlags>
 				<li>Custom1</li>
+                <li>Wall</li>
 			</linkFlags>
 		</graphicData>
 		<uiIconPath>Things/Building/Fences/DryStoneWall_Ico</uiIconPath>

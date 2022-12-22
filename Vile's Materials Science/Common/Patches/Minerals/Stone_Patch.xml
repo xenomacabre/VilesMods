@@ -20,11 +20,19 @@
                                 <DiggingSpeed>0.85</DiggingSpeed>
                                 <MiningYieldDigging>0.9</MiningYieldDigging>
                                 <ConstructionSpeed>0.775</ConstructionSpeed>
+                                <SmithingSpeed>0.775</SmithingSpeed>
                             </toolStatFactors>
                             <wearFactorMultiplier>1.3</wearFactorMultiplier>
                         </li>
                     </value>
              </li>
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="BlocksGranite" or defName="BloacksLimestone" or defName="BlocksSandstone" or defName="BlocksMarble" or defName="BlocksSlate"]/modExtensions/li[@Class="SurvivalToolsLite.StuffPropsTool"]/toolStatFactors</xpath>
+                <value>
+                     <SmithingSpeed>0.775</SmithingSpeed>
+                </value>
+            </li>
+            
             <li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="BlocksGranite"]/modExtensions/li[@Class="SurvivalToolsLite.StuffPropsTool"]/toolStatFactors/TreeFellingSpeed</xpath>
 				<value>

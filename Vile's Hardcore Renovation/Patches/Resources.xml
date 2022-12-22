@@ -1,175 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
-
-<!-- Materials-->
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[@Name="SoftwoodLogBase"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Logs</appearance>
-		</value>
-    </Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[@Name="HardwoodLogBase"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Logs</appearance>
-		</value>
-    </Operation>
-	
-<!--Walls -->
-
-  
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[@Name="SK_StoneBlocksBase"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Slab</appearance>
-		</value>
-    </Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="Bamboo"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Bamboo</appearance>
-		</value>
-    </Operation>
-	
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="LeadBar"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Cladding</appearance>
-		</value>
-    </Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="AluminiumBar"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Cladding</appearance>
-		</value>
-    </Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="Plasteel"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Cladding</appearance>
-		</value>
-    </Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="FerrosiliconAlloy"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Panel</appearance>
-		</value>
-    </Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="CupronickelAlloy"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Cladding</appearance>
-		</value>
-    </Operation>
-		<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="SteelBar"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Panel</appearance>
-		</value>
-    </Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="AlnicoAlloy"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Panel</appearance>
-		</value>
-    </Operation>
-		<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="DepletedUranium"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Panel</appearance>
-		</value>
-    </Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="CarbonAlloy"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Smooth</appearance>
-		</value>
-    </Operation>
-	
-	 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="CopperBar"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Cladding</appearance>
-		</value>
-    </Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="TinBar"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Cladding</appearance>
-		</value>
-    </Operation>  
-	 <Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="Bronze"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Smooth</appearance>
-		</value>
-    </Operation>   
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="GoldBar"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Smooth</appearance>
-		</value>
-    </Operation>  
-	 <Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="SilverBar"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Smooth</appearance>
-		</value>
-    </Operation>  
-	
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="StelliteAlloy"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Smooth</appearance>
-		</value>
-    </Operation>  
-	 <Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="TitaniumBar"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Panel</appearance>
-		</value>
-    </Operation>   
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="NitinolAlloy"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Smooth</appearance>
-		</value>
-    </Operation>  
-	 <Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="PobediteAlloy"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Panel</appearance>
-		</value>
-    </Operation>  
-	 <Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="Titanium"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Panel</appearance>
-		</value>
-    </Operation>  
-	
-	 <Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="AlphaPoly"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Panel</appearance>
-		</value>
-    </Operation>  
-	 <Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="BetaPoly"]/stuffProps/appearance</xpath>
-		<value>
-			<appearance>Smooth</appearance>
-		</value>
-    </Operation>  
-	
-	
-	 <Operation Class="PatchOperationReplace">
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[@Name="SK_StoneBlocksBase"]/stuffProps/appearance</xpath>
+                <value>
+                    <appearance>Slab</appearance>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="Bamboo"]/stuffProps/appearance</xpath>
+                <value>
+                    <appearance>Bamboo</appearance>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+		    <xpath>/Defs/ThingDef[@Name="SoftwoodLogBase"]/stuffProps/appearance</xpath>
+                <value>
+                    <appearance>Logs</appearance>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[@Name="HardwoodLogBase"]/stuffProps/appearance</xpath>
+                <value>
+                    <appearance>Logs</appearance>
+                </value>
+            </li>
+            	
+	 <li Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName="ReinforcedConcrete"]/stuffProps/appearance</xpath>
 		<value>
 			<appearance>Slab</appearance>
 		</value>
-    </Operation> 
+    </li> 
+        </operations>
+    </match>
+    </Operation>	
+
+    
+    
+    
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vile's Materials Science</li>
+	</mods>
+	<nomatch Class="PatchOperationSequence">
+<!--	<success>Always</success>-->
+		<operations>
+
+<!-- Materials-->
+
+	
+	
+<!--Walls -->
+
+  
+	
+	
+	
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="LeadBar"]/stuffProps/appearance</xpath>
+		<value>
+			<appearance>Cladding</appearance>
+		</value>
+    </li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="AluminiumBar"]/stuffProps/appearance</xpath>
+		<value>
+			<appearance>Cladding</appearance>
+		</value>
+    </li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Plasteel"]/stuffProps/appearance</xpath>
+		<value>
+			<appearance>Cladding</appearance>
+		</value>
+    </li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="FerrosiliconAlloy"]/stuffProps/appearance</xpath>
+		<value>
+			<appearance>Panel</appearance>
+		</value>
+    </li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="CupronickelAlloy"]/stuffProps/appearance</xpath>
+		<value>
+			<appearance>Cladding</appearance>
+		</value>
+    </li>
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="SteelBar"]/stuffProps/appearance</xpath>
+		<value>
+			<appearance>Panel</appearance>
+		</value>
+    </li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="AlnicoAlloy"]/stuffProps/appearance</xpath>
+		<value>
+			<appearance>Panel</appearance>
+		</value>
+    </li>
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="DepletedUranium"]/stuffProps/appearance</xpath>
+		<value>
+			<appearance>Panel</appearance>
+		</value>
+    </li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="CarbonAlloy"]/stuffProps/appearance</xpath>
+		<value>
+			<appearance>Smooth</appearance>
+		</value>
+    </li>
+	
+	 	<li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="CopperBar"]/stuffProps/appearance</xpath>
+		<value>
+			<appearance>Cladding</appearance>
+		</value>
+    </li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="TinBar"]/stuffProps/appearance</xpath>
+		<value>
+			<appearance>Cladding</appearance>
+		</value>
+    </li>  
+	 <li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Bronze"]/stuffProps/appearance</xpath>
+		<value>
+			<appearance>Smooth</appearance>
+		</value>
+    </li>   
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="GoldBar"]/stuffProps/appearance</xpath>
+		<value>
+			<appearance>Smooth</appearance>
+		</value>
+    </li>  
+	 <li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="SilverBar"]/stuffProps/appearance</xpath>
+		<value>
+			<appearance>Smooth</appearance>
+		</value>
+    </li>  
+	
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="StelliteAlloy"]/stuffProps/appearance</xpath>
+		<value>
+			<appearance>Smooth</appearance>
+		</value>
+    </li>  
+	 <li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="TitaniumBar"]/stuffProps/appearance</xpath>
+		<value>
+			<appearance>Panel</appearance>
+		</value>
+    </li>   
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="NitinolAlloy"]/stuffProps/appearance</xpath>
+		<value>
+			<appearance>Smooth</appearance>
+		</value>
+    </li>  
+	 <li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="PobediteAlloy"]/stuffProps/appearance</xpath>
+		<value>
+			<appearance>Panel</appearance>
+		</value>
+    </li>  
+	 <li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="Titanium"]/stuffProps/appearance</xpath>
+		<value>
+			<appearance>Panel</appearance>
+		</value>
+    </li>  
+	
+	 <li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="AlphaPoly"]/stuffProps/appearance</xpath>
+		<value>
+			<appearance>Panel</appearance>
+		</value>
+    </li>  
+	 <li Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="BetaPoly"]/stuffProps/appearance</xpath>
+		<value>
+			<appearance>Smooth</appearance>
+		</value>
+    </li>  
+	
 
 
 
+        </operations>
+		</nomatch>
+    </Operation>	
 </Patch>

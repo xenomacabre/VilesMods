@@ -390,7 +390,6 @@ An economical metal, mild steel would be the modern equivalent to wrought iron. 
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>
 		<soundWorking>Recipe_Smelt</soundWorking>
-		
 		<fixedIngredientFilter>
 			<thingDefs>
 						<li>AluminiumBar</li>
@@ -398,9 +397,6 @@ An economical metal, mild steel would be the modern equivalent to wrought iron. 
 						<li>CopperBar</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<products>
-			<AnodizedAluminiumBlue>25</AnodizedAluminiumBlue>
-		</products>
 		<skillRequirements>
 			<Crafting>8</Crafting>
 		</skillRequirements>
@@ -447,6 +443,7 @@ An economical metal, mild steel would be the modern equivalent to wrought iron. 
 	<RecipeDef ParentName="RecipeAluminiumBarAnodized_Parent">
 		<defName>MakeAnodizedAluminiumRed</defName>
 		<label>Make 3003 aluminium x25 (red)</label>
+        <description>Anodizing is a chemical process that not only colors and adds beauty to the 3003 Aluminum alloy, but also toughness. Additions of silicon give it strength and durability, while still maintaining its light weight and great workability. It's less durable than 6061, so is best for commercial use. Weapons and tools made of this tend to be a bit sub-par, but they can be made quickly, and buildings made with 6061 go up quickly.</description>
         <workAmount>1300</workAmount>
 		<products>
 			<AnodizedAluminiumRed>25</AnodizedAluminiumRed>

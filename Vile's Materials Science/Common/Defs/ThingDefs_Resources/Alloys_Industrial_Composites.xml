@@ -44,6 +44,7 @@ High-density polyethylene is one of the three main commodity plastics. It can be
 		</thingCategories>
 		<smeltable>true</smeltable>
 		<stuffProps>
+            <appearance>Cladding</appearance>
 			<stuffAdjective>HDPE</stuffAdjective>
 			<categories>
 				<li>Plastic</li>
@@ -251,6 +252,7 @@ Plexiglass is transparent Polymethyl methacrylate, or acrylic glass. It's strong
 		</thingCategories>
 		<smeltable>true</smeltable>
 		<stuffProps>
+            <appearance>Cladding</appearance>
 			<stuffAdjective>Plexiglass</stuffAdjective>
 			<categories>
 				<li>Plastic</li>
@@ -344,6 +346,7 @@ Riding the line between a commodity and engineering plastic, Acrylonitrile-butad
 		</thingCategories>
 		<smeltable>true</smeltable>
 		<stuffProps>
+            <appearance>Cladding</appearance>
 			<stuffAdjective>ABS</stuffAdjective>
 			<categories>
 				<li>Plastic</li>
@@ -438,6 +441,7 @@ Polycarbonate is a clear plastic which is often used for bulletproof glass and r
 		</thingCategories>
 		<smeltable>true</smeltable>
 		<stuffProps>
+            <appearance>Cladding</appearance>
 			<stuffAdjective>Polycarbonate</stuffAdjective>
 			<categories>
 				<li>Plastic</li>
@@ -535,6 +539,7 @@ Glass-fiber reinforced plastic is a composite material of glass fibers set into 
 		</thingCategories>
 		<smeltable>true</smeltable>
 		<stuffProps>
+            <appearance>Cladding</appearance>
 			<stuffAdjective>Fiberglass</stuffAdjective>
 			<categories>	
 				<li>Plastic</li>

@@ -58,7 +58,7 @@ An economical metal, mild steel would be the modern equivalent to wrought iron. 
 				<Beauty>1</Beauty>
 				<Flammability>0</Flammability>
 				<WorkToMake>1.1</WorkToMake>
-				<WorkToBuild>0.8</WorkToBuild>
+				<WorkToBuild>1</WorkToBuild>
 				<DoorOpenSpeed>0.7</DoorOpenSpeed>
 				<MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
 				<MoveSpeed>0.7</MoveSpeed>
@@ -305,6 +305,7 @@ Tools Recommended: Bladed (fair)
 		</thingCategories>
 		<smeltable>true</smeltable>
 		<stuffProps>
+            <appearance>Panel</appearance>
 			<stuffAdjective>Stainless Steel</stuffAdjective>
 			<categories>
 				<li>Metallic</li>
@@ -482,6 +483,7 @@ Spring steel is one of the toughest industrial steels. Part of this comes from i
 		</thingCategories>
 		<smeltable>true</smeltable>
 		<stuffProps>
+            <appearance>Panel</appearance>
 			<stuffAdjective>Spring Steel</stuffAdjective>
 			<categories>
 				<li>Metallic</li>

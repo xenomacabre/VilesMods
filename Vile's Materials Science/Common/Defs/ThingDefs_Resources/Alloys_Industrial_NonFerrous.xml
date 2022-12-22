@@ -43,6 +43,7 @@ Commercially pure aluminum is the lightest weight metal available. It has superi
 		</thingCategories>
 		<smeltable>true</smeltable>
 		<stuffProps>
+            <appearance>Cladding</appearance>
 			<stuffAdjective>Aluminium</stuffAdjective>
 			<categories>
 				<li>Metallic</li>
@@ -130,6 +131,7 @@ Brass is a conductive copper-zinc alloy. It's tougher than bronze, but softer so
 		</thingCategories>
 		<smeltable>true</smeltable>
 		<stuffProps>
+            <appearance>Panel</appearance>
 			<stuffAdjective>Brass</stuffAdjective>
 			<categories>
 				<li>Metallic</li>
@@ -223,6 +225,7 @@ Anodizing is a chemical process that not only colors and adds beauty to the 3003
 		</thingCategories>
 		<smeltable>true</smeltable>
 		<stuffProps>
+            <appearance>Cladding</appearance>
 			<stuffAdjective>Anodized Aluminium</stuffAdjective>
 			<categories>
 				<li>Metallic</li>
@@ -447,6 +450,7 @@ Depleted Uranium Alloy is created by refining Uranium Ore through a Gas Centrifu
 		</thingCategories>
 		<smeltable>true</smeltable>
 		<stuffProps>
+            <appearance>Panel</appearance>
 			<categories>
 				<li>Metallic</li>
 				<li>HeavyMetallic</li>

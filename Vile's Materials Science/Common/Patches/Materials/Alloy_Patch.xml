@@ -10,25 +10,25 @@
 		<operations>
             <!-- INTERMEDIATE ALLOY COLORS -->
             <li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="TinBar"]/color</xpath>
+				<xpath>Defs/ThingDef[defName="TinBar"]/graphicData/color</xpath>
 				<value>
 					<color>(200,200,200)</color>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="NickelBar"]/color</xpath>
+				<xpath>Defs/ThingDef[defName="NickelBar"]/graphicData/color</xpath>
 				<value>
 					<color>(254,240,209)</color>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Chromium"]/color</xpath>
+				<xpath>Defs/ThingDef[defName="Chromium"]/graphicData/color</xpath>
 				<value>
 					<color>(255,255,255)</color>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="CopperBar"]/color</xpath>
+				<xpath>Defs/ThingDef[defName="CopperBar"]/graphicData/color</xpath>
 				<value>
 					<color>(223,98,49)</color>
 				</value>

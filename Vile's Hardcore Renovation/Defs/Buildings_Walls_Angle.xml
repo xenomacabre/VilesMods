@@ -1,12 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!--
+
 	<ThingDef ParentName="SK_BuildingBase">
-		<defName>wallLog_angle</defName>
-		<label>Angled Log Wall</label>
+		<defName>wall_angle</defName>
+		<label>Diagonal Wall</label>
 		<graphicData>
-			<texPath>Things/Building/WallAngle/WallAngle</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/Building/DiagonalWall</texPath>
+            <graphicClass>Graphic_Appearances</graphicClass>			
+            <shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+            <drawRotated>false</drawRotated>
+			<allowFlip>true</allowFlip>
+		</graphicData>
+        <uiIconPath>Things/Building/DiagonalWall_ui</uiIconPath>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>380</MaxHitPoints>
+			<WorkToBuild>270</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<designationCategory>Structure</designationCategory>
+		<description>A wall at a 45 degree angle. Must be manually placed.</description>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>Stony</li>
+			<li>Bricks</li>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>3</costStuffCount>
+		<rotatable>true</rotatable>
+		<coversFloor>false</coversFloor>
+		<tickerType>Never</tickerType>
+		<blockLight>true</blockLight>
+		<blockWind>true</blockWind>
+		<canOverlapZones>true</canOverlapZones>
+        <clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+    
+	<ThingDef ParentName="SK_BuildingBase">
+		<defName>wallCabin_angle</defName>
+		<label>Diagonal Cabin Wall</label>
+		<graphicData>
+			<texPath>Things/Building/DiagonalWall</texPath>
+			<graphicClass>Graphic_Appearances</graphicClass>	
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(3,3)</drawSize>
 			<damageData>
@@ -19,27 +65,31 @@
 				<edgeLeft>Damage/Edge</edgeLeft>
 				<edgeRight>Damage/Edge</edgeRight>
 			</damageData>
+            <drawRotated>false</drawRotated>
+			<allowFlip>true</allowFlip>
 		</graphicData>
-		<fillPercent>1</fillPercent>
+        <uiIconPath>Things/Building/DiagonalWallCabin_ui</uiIconPath>
+		<fillPercent>0</fillPercent>
 		<statBases>
-			<MaxHitPoints>380</MaxHitPoints>
-			<WorkToBuild>270</WorkToBuild>
+			<MaxHitPoints>400</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<designationCategory>Structure</designationCategory>
 		<description>A wall at a 45 degree angle. Must be manually placed.</description>
 		<size>(1,1)</size>
 		<stuffCategories>
-			<li>WoodLogs</li>
+			<li>Softwoods</li>
+            <li>Hardwoods</li>
+            <li>Ultrahardwoods</li>
 		</stuffCategories>
-		<costStuffCount>6</costStuffCount>
+		<costStuffCount>2</costStuffCount>
 		<rotatable>true</rotatable>
 		<coversFloor>false</coversFloor>
 		<tickerType>Never</tickerType>
 		<blockLight>true</blockLight>
 		<blockWind>true</blockWind>
-		<canOverlapZones>false</canOverlapZones>
+		<canOverlapZones>true</canOverlapZones>
+        <clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
-
--->
 </Defs>

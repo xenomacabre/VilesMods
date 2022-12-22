@@ -93,6 +93,14 @@
 					<leatherDef>Hide_LightAnimalSkin</leatherDef>
 				</value>
 			</li>
+            
+            <li Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+				<xpath>Defs/ThingDef[defName="WasteRat"
+                    or defName="Toxalope"]/race/leatherDef</xpath>
+				<value>
+					<leatherDef>Hide_ImmunogenicHide</leatherDef>
+				</value>
+			</li>
 			
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Chinchilla" 
@@ -172,7 +180,8 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Cow" 
 				or defName="Goat" 
-				or defName="Yak"]/race/leatherDef</xpath>
+				or defName="Yak"
+                or defName="Animal_Desiri"]/race/leatherDef</xpath>
 				<value>
 					<leatherDef>Hide_StockHide</leatherDef>
 				</value>
