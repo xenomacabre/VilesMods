@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>The Windows</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+              <!-- NEW CATEGORY and SUBS -->
+
+            <li Class="PatchOperationAdd">
+				<xpath>Defs</xpath>
+				<value>
+					 <DesignationCategoryDef>
+                        <defName>DoorsWindows</defName>
+                        <label>Doors/Windows</label>
+                        <order>525</order>
+                        <specialDesignatorClasses>
+                            <li>Designator_Cancel</li>
+                            <li>Designator_Deconstruct</li>
+                        </specialDesignatorClasses>
+                    </DesignationCategoryDef>
+				</value>
+			</li>
+                       
+              <li Class="PatchOperationReplace">	
+				<xpath>Defs/ThingDef[@Name="SK_DoorBase"]/designationCategory</xpath>
+				<value>
+					<designationCategory>DoorsWindows</designationCategory>
+				</value>
+			</li>
+             <li Class="PatchOperationReplace">	
+				<xpath>Defs/ThingDef[defName="CellDoor"
+                    or defName="ClosedBlastDoor"]/designationCategory</xpath>
+				<value>
+					<designationCategory>DoorsWindows</designationCategory>
+				</value>
+			</li>
+            
+          
+            <li Class="PatchOperationAdd">
+				<xpath>Defs</xpath>
+				<value>
+                    <ArchitectSense.DesignationSubCategoryDef>
+                        <defName>SubCategory_Primitive</defName>
+                        <label>primitive windows</label>
+                        <description>Primitive rustic windows.</description>
+                        <defNames>
+                            <li>RusticWindowDaub</li>
+                            <li>RusticWindowClapboard</li>    
+                            <li>RusticWindowAdobe</li>
+                            <li>RusticWindowBamboo</li>
+                            <li>RusticWindowMud</li>
+                        </defNames>
+                        <designationCategory>DoorsWindows</designationCategory>
+                    </ArchitectSense.DesignationSubCategoryDef>
+				</value>
+			</li>
+            <li Class="PatchOperationAdd">
+				<xpath>Defs</xpath>
+				<value>
+                    <ArchitectSense.DesignationSubCategoryDef>
+                        <defName>SubCategory_Farmhouse</defName>
+                        <label>farmhouse style</label>
+                        <description>Glass paned windows.</description>
+                        <defNames>
+                            <li>WindowClapboard</li>
+                            <li>WindowDaub</li>    
+                            <li>WindowPanel</li>
+                        </defNames>
+                        <designationCategory>DoorsWindows</designationCategory>
+                    </ArchitectSense.DesignationSubCategoryDef>
+				</value>
+			</li>
+               <li Class="PatchOperationAdd">
+				<xpath>Defs</xpath>
+				<value>
+                    <ArchitectSense.DesignationSubCategoryDef>
+                        <defName>SubCategory_Traditional</defName>
+                        <label>traditional style</label>
+                        <description>Glass paned windows.</description>
+                        <defNames>
+                            <li>WindowCabin</li>
+                            <li>WindowAdobe</li>    
+                            <li>WindowBamboo</li>
+                            <li>WindowMud</li>
+                        </defNames>
+                        <designationCategory>DoorsWindows</designationCategory>
+                    </ArchitectSense.DesignationSubCategoryDef>
+				</value>
+			</li>
+             <li Class="PatchOperationAdd">
+				<xpath>Defs</xpath>
+				<value>
+                    <ArchitectSense.DesignationSubCategoryDef>
+                        <defName>SubCategory_Ornate</defName>
+                        <label>ornate style</label>
+                        <description>Glass paned windows.</description>
+                        <defNames>
+                            <li>WindowBrick</li>
+                            <li>WindowSlab</li>    
+                        </defNames>
+                        <designationCategory>DoorsWindows</designationCategory>
+                    </ArchitectSense.DesignationSubCategoryDef>
+				</value>
+			</li>
+             <li Class="PatchOperationAdd">
+				<xpath>Defs</xpath>
+				<value>
+                    <ArchitectSense.DesignationSubCategoryDef>
+                        <defName>SubCategory_Industrial</defName>
+                        <label>industrial style</label>
+                        <description>Glass paned windows.</description>
+                        <defNames>
+                            <li>WindowSmooth</li>
+                            <li>WindowPlate</li>    
+                            <li>WindowCladding</li>
+                        </defNames>
+                        <designationCategory>DoorsWindows</designationCategory>
+                    </ArchitectSense.DesignationSubCategoryDef>
+				</value>
+			</li>
+              <li Class="PatchOperationAdd">
+				<xpath>Defs</xpath>
+				<value>
+                    <ArchitectSense.DesignationSubCategoryDef>
+                        <defName>SubCategory_WindowWalls</defName>
+                        <label>window walls</label>
+                        <description>Floor-to-ceiling windows.</description>
+                        <defNames>
+                            <li>WindowWall1x</li>
+                            <li>WindowWall3x</li>    
+                            <li>WindowWall5x</li>
+                        </defNames>
+                        <designationCategory>DoorsWindows</designationCategory>
+                    </ArchitectSense.DesignationSubCategoryDef>
+				</value>
+			</li>
+            
+            
+
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

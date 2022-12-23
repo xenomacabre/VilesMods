@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Glass+Lights</li>
+			<li>Just Glass</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ResearchProjectDef[defName = "RTR_TransparentRoofing"]/prerequisites</xpath>
+			<value>
+				<li>GlassworksResearch</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ResearchProjectDef[defName = "RTR_TransparentRoofing"]/prerequisites</xpath>
+			<value>
+				<li>Glassworks</li>
+			</value>
+		</nomatch>
+	</Operation>
+</Patch>
+

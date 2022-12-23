@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Glass+Lights</li>
+			<li>Just Glass</li>
+		</mods>
+		<nomatch Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "OpenWindow"]/costList</xpath>
+					<value>
+						<GlassPane>1</GlassPane>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "LargeOpenWindow"]/costList</xpath>
+					<value>
+						<GlassPane>3</GlassPane>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "ReinforcedOpenWindow"]/costList</xpath>
+					<value>
+						<GlassPane>1</GlassPane>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "LargeReinforcedOpenWindow"]/costList</xpath>
+					<value>
+						<GlassPane>3</GlassPane>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "HugeOpenWindow"]/costList</xpath>
+					<value>
+						<GlassPane>5</GlassPane>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[@Name="BasedSkyLight"]</xpath>
+					<value>
+						<researchPrerequisites>
+							<li>Glassworks</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName = "SmeltGlass"]</xpath>
+					<value>
+						<researchPrerequisite>Glassworks</researchPrerequisite>
+					</value>
+				</li>
+				
+				<!--Adding cost in steel to balance with windows-->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "SkyLightA"]/costList</xpath>
+					<value>
+						<Steel>5</Steel>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "SkyLightB"]/costList</xpath>
+					<value>
+						<Steel>20</Steel>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "SkyLightC"]/costList</xpath>
+					<value>
+						<Steel>10</Steel>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "SkyLightD"]/costList</xpath>
+					<value>
+						<Steel>10</Steel>
+					</value>
+				</li>
+				
+				<!--Addons-->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "SkyLightE"]/costList</xpath>
+					<value>
+						<costList>
+							<Steel>10</Steel>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "SkyLightF"]/costList</xpath>
+					<value>
+						<costList>
+							<Steel>10</Steel>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "SkyLightG"]/costList</xpath>
+					<value>
+						<costList>
+							<Steel>15</Steel>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "SkyLightH"]/costList</xpath>
+					<value>
+						<costList>
+							<Steel>20</Steel>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName = "SkyLightI"]/costList</xpath>
+					<value>
+						<costList>
+							<Steel>25</Steel>
+						</costList>
+					</value>
+				</li>
+			</operations>
+		</nomatch>
+		
+		<match Class="PatchOperationFindMod">
+			<mods>
+				<li>Dubs Skylights</li>
+			</mods>
+			<nomatch Class="PatchOperationSequence">
+				<success>Always</success>
+				<operations>
+					
+					<!--From Maaxar's Dubs Skylights Glass+Lights Patch-->
+					<li Class="PatchOperationTest">
+						<xpath>/Defs/ThingDef[defName = "Glass"]</xpath>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName = "SkyLightA"]/costList</xpath>
+						<value>
+							<costList>
+								<Glass>1</Glass>
+								<Steel>5</Steel>
+							</costList>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName = "SkyLightB"]/costList</xpath>
+						<value>
+							<costList>
+								<Glass>8</Glass>
+								<Steel>20</Steel>
+							</costList>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName = "SkyLightC"]/costList</xpath>
+						<value>
+							<costList>
+								<Glass>4</Glass>
+								<Steel>10</Steel>
+							</costList>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName = "SkyLightD"]/costList</xpath>
+						<value>
+							<costList>
+								<Glass>4</Glass>
+								<Steel>10</Steel>
+							</costList>
+						</value>
+					</li>
+					
+					<!--Addons-->
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName = "SkyLightE"]/costList</xpath>
+						<value>
+							<costList>
+								<Glass>2</Glass>
+								<Steel>10</Steel>
+							</costList>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName = "SkyLightF"]/costList</xpath>
+						<value>
+							<costList>
+								<Glass>3</Glass>
+								<Steel>10</Steel>
+							</costList>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName = "SkyLightG"]/costList</xpath>
+						<value>
+							<costList>
+								<Glass>6</Glass>
+								<Steel>15</Steel>
+							</costList>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName = "SkyLightH"]/costList</xpath>
+						<value>
+							<costList>
+								<Glass>8</Glass>
+								<Steel>20</Steel>
+							</costList>
+						</value>
+					</li>
+					<li Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName = "SkyLightI"]/costList</xpath>
+						<value>
+							<costList>
+								<Glass>12</Glass>
+								<Steel>25</Steel>
+							</costList>
+						</value>
+					</li>            
+					
+					<li Class="PatchOperationRemove">
+						<xpath>/Defs/RecipeDef[defName = "SmeltGlass"]</xpath>
+					</li>
+					<li Class="PatchOperationRemove">
+						<xpath>/Defs/ThingDef[defName = "GlassPane"]</xpath>
+					</li>
+					
+					<!--My own-->
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[@ParentName="BasedSkyLight"]</xpath>
+						<value>
+							<researchPrerequisites>
+								<li>GlassworksResearch</li>
+							</researchPrerequisites>
+						</value>
+					</li>
+				</operations>
+			</nomatch>
+		</match>
+	</Operation>
+</Patch>

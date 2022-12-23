@@ -261,7 +261,7 @@ Plexiglass is transparent Polymethyl methacrylate, or acrylic glass. It's strong
 				<li>Glass</li>
 			</categories>
 			<constructEffect>ConstructMetal</constructEffect>
-			<color>(216,235,255)</color>
+			<color>(179,234,255)</color>
 			<commonality>0.25</commonality>
 			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
@@ -590,5 +590,58 @@ Glass-fiber reinforced plastic is a composite material of glass fibers set into 
 		</modExtensions>
 	</ThingDef>
 
+    <!-- REINFORCED GLASS -->
+    <ThingDef ParentName="SK_ResourceBase">
+		<defName>ReinforcedGlass</defName>
+		<label>Reinforced Glass Frame</label>
+		<description>A stronger version of Glass Frames that is harder to work with, but has more potential uses.</description>
+		<graphicData>
+			<texPath>Things/Item/ReinforcedGlass</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>150</stackLimit>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+            <MarketValue>20</MarketValue>
+			<StuffPower_Armor_Blunt>1.5</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.2</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.11</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>5</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>1.5</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1</BluntDamageMultiplier>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.25</Mass>
+			<Bulk>0.35</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>GlassCat</li>
+		</thingCategories>
+		<stuffProps>
+			<stuffAdjective>Reinforced Glass</stuffAdjective>
+			<categories>
+				<li>Glass</li>
+			</categories>
+			<color>(244,245,233)</color>
+			<constructEffect>ConstructMetal</constructEffect>
+			<appearance>GlassGL</appearance>
+			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<statFactors>
+				<MaxHitPoints>2.25</MaxHitPoints>
+				<Beauty>1.75</Beauty>
+				<Flammability>0</Flammability>
+				<WorkToMake>2.5</WorkToMake>
+				<WorkToBuild>2.5</WorkToBuild>
+				<DoorOpenSpeed>1.5</DoorOpenSpeed>
+				<MeleeWeapon_CooldownMultiplier>0.6</MeleeWeapon_CooldownMultiplier>
+				<MeleePenetrationFactor>1.25</MeleePenetrationFactor>
+				<Mass>0.55</Mass>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+	</ThingDef>
 	
 </Defs>
