@@ -25,15 +25,14 @@
 				</value>
 			</li>
                        
-              <li Class="PatchOperationReplace">	
+            <li Class="PatchOperationReplace">	
 				<xpath>Defs/ThingDef[@Name="SK_DoorBase"]/designationCategory</xpath>
 				<value>
 					<designationCategory>DoorsWindows</designationCategory>
 				</value>
 			</li>
              <li Class="PatchOperationReplace">	
-				<xpath>Defs/ThingDef[defName="CellDoor"
-                    or defName="ClosedBlastDoor"]/designationCategory</xpath>
+				<xpath>Defs/ThingDef[defName="ClosedBlastDoor"]/designationCategory</xpath>
 				<value>
 					<designationCategory>DoorsWindows</designationCategory>
 				</value>
