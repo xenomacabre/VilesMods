@@ -58,7 +58,7 @@
 			</li>
 		</comps>
 		<researchPrerequisites>
-			<li>Glass_B1</li>
+			<li>Glassworks</li>
 		</researchPrerequisites>
 		<!--<stuffCategories>
 			<li>StrongMetallic</li>
@@ -98,7 +98,9 @@
 				<signal>both</signal>
 			</li>
 		</comps>
-		<researchPrerequisites Inherit="False" />
+		<researchPrerequisites Inherit="False">
+			<li>Construction_B1</li>
+		</researchPrerequisites>
         <costList>
 			<ComponentMedieval>1</ComponentMedieval>
 		</costList>
@@ -390,7 +392,7 @@
 		<description>A floor-to-ceiling window and blinds. Can control light and air separately. Can be very fragile or very strong, depending on materials used.</description>
 		<graphicData>
 			<texPath>Things/Building/WindowWall3</texPath>
-			<drawSize>(8.125,1)</drawSize>
+			<drawSize>(7,1)</drawSize>
 		</graphicData>
 		<uiIconPath>Things/Building/WindowWall3_north</uiIconPath>
 		<uiIconScale>1.6</uiIconScale>

@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ResearchProjectDef>
+	<ResearchProjectDef ParentName="MedievalBase">
 		<defName>Glassworks</defName>
 		<label>glassworks</label>
 		<description>Glass will make it possible to build windows that block the wind while letting the light in.</description>
 		<techLevel>Medieval</techLevel>
 		<baseCost>500</baseCost>
-		<researchViewX>1</researchViewX>
-		<researchViewY>5</researchViewY>
+		<tab>Buildings_SK</tab>
+		<researchViewX>6</researchViewX>
+		<researchViewY>20</researchViewY>
+		<prerequisites>
+			<li>Glass_B1</li>
+		</prerequisites>
 	</ResearchProjectDef>
 	
-	<ResearchProjectDef>
+	<ResearchProjectDef ParentName="HitechBase">
 		<defName>AdvancedGlassworks</defName>
 		<label>security glass</label>
 		<description>Construct windows made of crytalized plasteel, equally as strong as the walls themselves.</description>
 		<techLevel>Industrial</techLevel>
 		<baseCost>2000</baseCost>
-		<researchViewX>14</researchViewX>
-		<researchViewY>4</researchViewY>
+		<researchViewX>18</researchViewX>
+		<researchViewY>3</researchViewY>
+		<tab>Buildings_SK</tab>
 		<prerequisites>
 			<li>MultiAnalyzer</li>
 		</prerequisites>
