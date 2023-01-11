@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Dubs Bad Hygiene</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+
+    <li Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DBHAdministerFluids"]/label</xpath>
+            <value>
+                <label>give fluids</label>
+            </value>
+    </li>   
+    <li Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DBHAdministerFluidsWarden"]/label</xpath>
+            <value>
+                <label>give fluids</label>
+            </value>
+    </li> 			
+	 <li Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsBurnPit"]/label</xpath>
+            <value>
+                <label>burn pit</label>
+            </value>
+    </li> 		
+	  <li Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="UnloadWashing"]/label</xpath>
+            <value>
+                <label>unload wash</label>
+            </value>
+    </li> 			
+	 <li Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="LoadWashing"]/label</xpath>
+            <value>
+                <label>load wash</label>
+            </value>
+    </li> 			
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

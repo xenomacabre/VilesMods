@@ -4,6 +4,7 @@
 		<defName>TanVat_LeatherLight</defName>
 		<label>tan light full-grain leather (x5)</label>
 		<description>LoremIpsum</description>
+         <jobString>Veg-tanning light leather.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -53,6 +54,7 @@
 		<defName>TanVat_LeatherLightRodent</defName>
 		<label>tan light full-grain leather (rodent) (x5)</label>
 		<description>LoremIpsum</description>
+         <jobString>Veg-tanning light rodent leather.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -100,6 +102,7 @@
 		<defName>TanVat_LeatherExotic</defName>
 		<label>tan exotic full-grain leather (x5)</label>
 		<description>LoremIpsum</description>
+         <jobString>Veg-tanning exotic leather.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -148,6 +151,7 @@
 		<defName>TanVat_LeatherBreathable</defName>
 		<label>tan breathable full-grain leather (x5)</label>
 		<description>LoremIpsum</description>
+         <jobString>Veg-tanning breathable leather.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -196,6 +200,7 @@
 		<defName>TanVat_LeatherHeavy</defName>
 		<label>tan heavy full-grain leather (x5)</label>
 		<description>LoremIpsum</description>
+         <jobString>Veg-tanning heavy leather.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -248,6 +253,7 @@
 		<defName>TanVat_LeatherDurable</defName>
 		<label>tan durable full-grain leather (x5)</label>
 		<description>LoremIpsum</description>
+         <jobString>Veg-tanning durable leather.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -300,6 +306,7 @@
 		<defName>TanVat_LeatherStock</defName>
 		<label>tan stock full-grain leather (x5)</label>
 		<description>LoremIpsum</description>
+         <jobString>Veg-tanning stock leather.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -348,6 +355,7 @@
 		<defName>TanVat_LeatherSoft</defName>
 		<label>tan soft full-grain leather (x5)</label>
 		<description>LoremIpsum</description>
+         <jobString>Veg-tanning soft leather.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -400,6 +408,7 @@
 		<defName>TanVat_LeatherSterile</defName>
 		<label>tan sterile full-grain leather (x5)</label>
 		<description>LoremIpsum</description>
+         <jobString>Veg-tanning sterile leather.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -450,6 +459,7 @@
 		<defName>TanVat_FurWarm</defName>
 		<label>tan warm furs (x5)</label>
 		<description>LoremIpsum</description>
+         <jobString>Veg-tanning warm fur.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -498,6 +508,7 @@
 		<defName>TanVat_FurRugged</defName>
 		<label>tan rugged furs (x5)</label>
 		<description>LoremIpsum</description>
+         <jobString>Veg-tanning rugged fur.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -546,6 +557,7 @@
 		<defName>TanVat_FurHeavy</defName>
 		<label>tan heavy furs (x5)</label>
 		<description>LoremIpsum</description>
+         <jobString>Veg-tanning heavy fur.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -594,6 +606,7 @@
 		<defName>TanVat_FurRich</defName>
 		<label>tan rich furs (x5)</label>
 		<description>LoremIpsum</description>
+         <jobString>Veg-tanning rich fur.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -642,6 +655,7 @@
 		<defName>TanVat_HumanLeather</defName>
 		<label>tan human leather</label>
 		<description>LoremIpsum</description>
+         <jobString>Veg-tanning human leather.</jobString>
 		<ingredients>
 			<li>
 				<filter>

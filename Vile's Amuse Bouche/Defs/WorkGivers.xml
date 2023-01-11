@@ -37,7 +37,7 @@
 	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains">
 		<defName>DoBillsKitchenTable</defName>
 		<!--<label>prepare meals</label>-->
-		<label>Kitchen Table Bills</label>
+		<label>Kitchen Table</label>
 		<workType>Cooking</workType>
 		<priorityInType>90</priorityInType>
 		<fixedBillGiverDefs>
@@ -49,7 +49,7 @@
 	
 	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains">
 		<defName>DoBillsButcherFlesh</defName>
-		<label>butcher creatures</label>
+		<label>butcher</label>
 		<workType>Cooking</workType>
 		<priorityInType>85</priorityInType>
 		<fixedBillGiverDefs>
@@ -112,7 +112,7 @@
 	
 
 	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains"> <!-- was orginally DoBillsBake-->
-		<defName>DoBillsCandy</defName>
+		<defName>DoBillsBake</defName>
 		<label>make candy</label>
 		<workType>Cooking</workType>
 		<priorityInType>80</priorityInType>

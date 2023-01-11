@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>NewRatkinPlus</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+
+        <li Class="PatchOperationReplace">
+                <xpath>Defs/WorkTypeDef[defName="RK_HamsterWheel"]/labelShort</xpath>
+                <value>
+                    <labelShort>POWER</labelShort>
+                </value>
+        </li>   
+			
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

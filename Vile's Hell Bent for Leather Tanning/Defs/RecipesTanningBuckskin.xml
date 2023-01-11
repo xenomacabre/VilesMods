@@ -6,6 +6,7 @@
 		<label>brain-tan buckskin x10</label>
 		<description>Tan raw hides into simple buckskin leather using a solution made with animal brains.</description>
 		<uiIconThing>Leather_Dog</uiIconThing>
+        <jobString>Brain-tanning buckskin.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -40,6 +41,7 @@
 		<label>brain-tan fur x10</label>
 		<description>Tan raw furs into simple tanned fur using a solution made with animal brains.</description>
 		<uiIconThing>Leather_Dog</uiIconThing>
+         <jobString>Brain-tanning fur.</jobString>
 		<ingredients>
 			<li>
 				<filter>

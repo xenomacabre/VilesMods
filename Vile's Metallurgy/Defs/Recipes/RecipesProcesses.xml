@@ -342,7 +342,7 @@
 		</products>
 		<usesTemperature>false</usesTemperature>
 		<processDays>1.25</processDays>
-		<recipeUsers>
+        <recipeUsers>
 			<li>Kiln</li>
 		</recipeUsers>
 	</RecipeDef>

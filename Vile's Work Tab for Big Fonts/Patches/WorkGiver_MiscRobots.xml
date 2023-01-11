@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Misc. Robots</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+
+    <li Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillAIRobotRepairAtStation"]/label</xpath>
+            <value>
+                <label>repair robot</label>
+            </value>
+    </li>   
+			
+			
+			
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

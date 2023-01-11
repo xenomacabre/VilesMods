@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <!-- max string length 14 -->
+    <!-- === PATIENT === -->
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="PatientGoToBedEmergencyTreatment"]/label</xpath>
+            <value>
+                <label>for emergency</label>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="PatientGoToBedTreatment"]/label</xpath>
+            <value>
+                <label>for treatment</label>
+            </value>
+    </Operation>	  
+     <!-- === DOCTOR === -->
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoctorTendEmergency"]/label</xpath>
+            <value>
+                <label>tend URGENT!</label>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoctorTendToHumanlikes"]/label</xpath>
+            <value>
+                <label>tend patient</label>
+            </value>
+    </Operation>	  
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoctorTendToSelf"]/label</xpath>
+            <value>
+                <label>tend self</label>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoctorFeedHumanlikes"]/label</xpath>
+            <value>
+                <label>feed patient</label>
+            </value>
+    </Operation>	   
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsMedicalHumanOperation"]/label</xpath>
+            <value>
+                <label>operate human</label>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoctorRescue"]/label</xpath>
+            <value>
+                <label>rescue to bed</label>
+            </value>
+    </Operation>	
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoctorTendToAnimals"]/label</xpath>
+            <value>
+                <label>tend animal</label>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoctorFeedAnimals"]/label</xpath>
+            <value>
+                <label>feed animal</label>
+            </value>
+    </Operation>	
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsMedicalAnimalOperation"]/label</xpath>
+            <value>
+                <label>operate animal</label>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="TakeToBedToOperate"]/label</xpath>
+            <value>
+                <label>bring operate patient to bed</label>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="VisitSickPawn"]/label</xpath>
+            <value>
+                <label>visit sick</label>
+            </value>
+    </Operation>	
+    <!-- === BASIC === -->
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="Open"]/label</xpath>
+            <value>
+                <label>open container</label>
+            </value>
+    </Operation>	
+    <!-- === WARDEN === -->
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoExecution"]/label</xpath>
+            <value>
+                <label>prisoner exec.</label>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="ExecuteGuiltyColonist"]/label</xpath>
+            <value>
+                <label>colonist exec.</label>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="ReleasePrisoner"]/label</xpath>
+            <value>
+                <label>release</label>
+            </value>
+    </Operation>	
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="TakePrisonerToBed"]/label</xpath>
+            <value>
+                <label>take to bed</label>
+            </value>
+    </Operation>	
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DeliverFoodToPrisoner"]/label</xpath>
+            <value>
+                <label>deliver food</label>
+            </value>
+    </Operation>	
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="ChatWithPrisoner"]/label</xpath>
+            <value>
+                <label>chat / convert</label>
+            </value>
+    </Operation>	
+<!-- === HANDLING === -->    
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="TakeRoamingAnimalsToPen"]/label</xpath>
+            <value>
+                <label>rope roaming</label>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="Slaughter"]/label</xpath>
+            <value>
+                <label>slaughter</label>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="ReleaseToWild"]/label</xpath>
+            <value>
+                <label>release</label>
+            </value>
+    </Operation>	
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="Tame"]/label</xpath>
+            <value>
+                <label>tame wild</label>
+            </value>
+    </Operation>	
+  <!-- === COOKING === -->    
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="CookFillHopper"]/label</xpath>
+            <value>
+                <label>fill hoppers</label>
+            </value>
+    </Operation>
+<!-- === CONSTURCTION === -->
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="FixBrokenDownBuilding"]/label</xpath>
+            <value>
+                <label>fix buildings</label>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="Uninstall"]/label</xpath>
+            <value>
+                <label>uninstall</label>
+            </value>
+    </Operation>	
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="ConstructFinishFrames"]/label</xpath>
+            <value>
+                <label>build frames</label>
+            </value>
+    </Operation>	
+       <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="ConstructDeliverResourcesToFrames"]/label</xpath>
+            <value>
+                <label>haul to frame</label>
+            </value>
+    </Operation>	
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="ConstructDeliverResourcesToBlueprints"]/label</xpath>
+            <value>
+                <label>haul blueprint</label>
+            </value>
+    </Operation> 
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="Deconstruct"]/label</xpath>
+            <value>
+                <label>deconstruct</label>
+            </value>
+    </Operation>	
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="Repair"]/label</xpath>
+            <value>
+                <label>repair damage</label>
+            </value>
+    </Operation>         
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="PaintBuilding"]/label</xpath>
+            <value>
+                <label>paint building</label>
+            </value>
+    </Operation>   
+<!-- === MINING === -->
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="Drill"]/label</xpath>
+            <value>
+                <label>deep drill</label>
+            </value>
+    </Operation> 
+<!-- === SMITHING === -->
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsMachiningTable"]/label</xpath>
+            <value>
+                <label>machining</label>
+            </value>
+    </Operation> 
+<!-- === ART === -->
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsSculpt"]/label</xpath>
+            <value>
+                <label>make art</label>
+            </value>
+    </Operation> 
+<!-- === CRAFT === -->
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsProduceDrugs"]/label</xpath>
+            <value>
+                <label>drug-making</label>
+            </value>
+    </Operation> 
+ <!-- === HAUL === -->
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="Refuel"]/label</xpath>
+            <value>
+                <label>refuel</label>
+            </value>
+    </Operation>  
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="UnloadCarriers"]/label</xpath>
+            <value>
+                <label>unload carrier</label>
+            </value>
+    </Operation>    
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="LoadTransporters"]/label</xpath>
+            <value>
+                <label>load transport</label>
+            </value>
+    </Operation>    
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="HaulGeneral"]/label</xpath>
+            <value>
+                <label>haul general</label>
+            </value>
+    </Operation>    
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="HaulMerge"]/label</xpath>
+            <value>
+                <label>merge</label>
+            </value>
+    </Operation>    
+<!-- === RESEARCH === -->
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="Research"]/label</xpath>
+            <value>
+                <label>research</label>
+            </value>
+    </Operation>    
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="LongRangeScan"]/label</xpath>
+            <value>
+                <label>LR scan</label>
+            </value>
+    </Operation>    
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="GroundPenetratingScan"]/label</xpath>
+            <value>
+                <label>ground scan</label>
+            </value>
+    </Operation>    
+
+    
+    
+    
+    
+    
+</Patch>

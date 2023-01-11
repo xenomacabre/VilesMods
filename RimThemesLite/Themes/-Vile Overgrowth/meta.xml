@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RimThemes>
+
+  <customFontSizeTinyDefault>16</customFontSizeTinyDefault>
+  <customFontSizeSmallDefault>17</customFontSizeSmallDefault>
+  <customFontSizeMediumDefault>18</customFontSizeMediumDefault>
+  
+  <menuAlignment>middle</menuAlignment>
+  <windowAnim>slideTop</windowAnim>
+  <particleMode>mono</particleMode>
+  <description>Thy bricks art fuzzy.</description>
+  <!--<category>medieval</category>-->
+  <dialogStacking>true</dialogStacking>
+  
+  <GenUI.MouseoverColor>(8,73,25)</GenUI.MouseoverColor>
+  <Widgets.WindowBGFillColor>(26,38,23)</Widgets.WindowBGFillColor>
+  <Widgets.WindowBGBorderColor>(125,255,33)</Widgets.WindowBGBorderColor>
+  
+  <Widgets.TutorWindowBGFillColor>(142,181,48)</Widgets.TutorWindowBGFillColor>
+  <Widgets.TutorWindowBGBorderColor>(214,255,68)</Widgets.TutorWindowBGBorderColor>
+  
+  <Widgets.MenuSectionBGFillColor>(26,38,23)</Widgets.MenuSectionBGFillColor>
+  <Widgets.MenuSectionBGBorderColor>(142,181,48)</Widgets.MenuSectionBGBorderColor>
+  
+  <Widgets.OptionUnselectedBGFillColor>(26,38,23)</Widgets.OptionUnselectedBGFillColor>
+  <Widgets.OptionSelectedBGFillColor>(63,78,69)</Widgets.OptionSelectedBGFillColor>
+  <Widgets.optionTextActiveColor>(235,242,200)</Widgets.optionTextActiveColor>
+  
+  <FloatMenuOption.ColorTextDisabled>(229,229,0)</FloatMenuOption.ColorTextDisabled>
+  <FloatMenuOption.ColorBGDisabled>(82,102,68)</FloatMenuOption.ColorBGDisabled>
+  <FloatMenuOption.ColorBGActiveMouseover>(63,78,69)</FloatMenuOption.ColorBGActiveMouseover>
+  <FloatMenuOption.ColorBGActive>(26,38,23)</FloatMenuOption.ColorBGActive>
+</RimThemes>

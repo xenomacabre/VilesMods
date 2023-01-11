@@ -21,8 +21,9 @@
 	<description>
 DO NOT USE THIS PATCH unless you are experiencing problems with the kiln and cementation furnace. This is a quick and dirty fix for a bug which a minority of players are experiencing. 
 
+Those ovens will no longer be powered by fuel, and instead the fuel is included in the recipes. This means the kiln will no longer heat up rooms it's in. 
 
-Those ovens will no longer be powered by fuel, and instead the fuel is included in the recipes. This means the kiln will no longer heat up rooms it's in. Hopefully we'll figure out a more practical solution and this patch won't be needed in the future.
+UPDATE: I finally started getting this error. There does seem to be a way around it without using this patch. This error only seems to happen upon the initial load of your savegame. If you reload it as soon as it opens, it should work normally. Hopefully we'll find a proper fix for this soon.
 
 Thanks for all the feedback!
 

@@ -23,6 +23,12 @@ A quick rundown of what we got so far, and recommended mod-order:
 
 - ***Amuse Bouche*** - A meals overhaul. No more generalized "fine meals" etc. Adds tons of recipes with origins from around the world and streamlines the food hediff system.
 
+- ***Hell-Bent for Leather Tanning*** - Revises leathers and furs, and adds a tanning requirement to use them.
+
+- ***Work Tab for Big Fonts*** - Reorganizes and relabels certain workdefs to make the Work Tab more legible.
+
+- ***RimThemes*** - Adds new themes to the RimThemes mod. MERGE THIS FOLDER with the current RimThemes folder. Do not delete the original folder.
+
 
 
 
@@ -31,12 +37,12 @@ A quick rundown of what we got so far, and recommended mod-order:
 ___________________________________________ 
 Update September 20, 2021 - Updated for 1.3
 
-These Rimworld mods are meant to work with Hardcore SK. They're currently built for Rimworld 1.3, so you'll need the dev branch here, if you're not already playing it: https://github.com/skyarkhangel/Hardcore-SK/tree/development
+These Rimworld mods are meant to work with Hardcore SK. They're currently built for Rimworld 1.4, so you'll need the dev branch here, if you're not already playing it: https://github.com/skyarkhangel/Hardcore-SK/tree/development
 
 Adding these mods is unlikely to break your savegames, though weird things might happen and you'll be missing out on some content, so I recommend starting a new save file.
 Note that Hardcore Renovations requires both my brand new mod "Wood You Please", as well as "Fences and Floors". The latter is not my mod, but I'm including a patched version that's needed.
 
-As of today, I've only done initial bug testing for these, so let's call this "Early Alpha". Please send any bug reports or balance/gameplay issues my way on Discord. Thanks!
+Please send any bug reports or balance/gameplay issues my way on Discord. Thanks!
 
 
 

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <!-- max string length 14 -->
+    <!-- === HAULING === -->
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsCremate"]/label</xpath>
+            <value>
+                <label>cremation</label>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="HaulDeliverResourcesToFrames"]/label</xpath>
+            <value>
+                <label>to frame</label>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="HaulDeliverResourcesToBlueprints"]/label</xpath>
+            <value>
+                <label>to blueprint</label>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="HaulPriorityHighPriorityOverride"]/label</xpath>
+            <value>
+                <label>high priority</label>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="HaulPriorityMisc"]/label</xpath>
+            <value>
+                <label>priority</label>
+            </value>
+    </Operation>	
+    <!-- === COOKING - others changed in amuse bouche already === -->
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsButcherFlesh"]/label</xpath>
+            <value>
+                <label>butcher</label>
+            </value>
+    </Operation>	
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsKitchenTable"]/label</xpath>
+            <value>
+                <label>prep meal</label>
+            </value>
+    </Operation>	
+    <!-- === SMITHING === -->
+	 <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsFabricationBench"]/label</xpath>
+            <value>
+                <label>assemble</label>
+            </value>
+    </Operation>	
+    <!-- === CRAFT === -->
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsMakeWoodPlanks"]/label</xpath>
+            <value>
+                <label>sawmill</label>
+            </value>
+    </Operation>	
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsTableElectronics"]/label</xpath>
+            <value>
+                <label>electronics</label>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsTableLoom"]/label</xpath>
+            <value>
+                <label>loom</label>
+            </value>
+    </Operation>
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsUseCraftingSpot"]/label</xpath>
+            <value>
+                <label>neolithic</label>
+            </value>
+    </Operation>
+	 <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsMatterfab"]/label</xpath>
+            <value>
+                <label>matter fab</label>
+            </value>
+    </Operation>
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsTableSurrogates"]/label</xpath>
+            <value>
+                <label>prosthetics</label>
+            </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsMixconcrete"]/label</xpath>
+            <value>
+                <label>mix concrete</label>
+            </value>
+    </Operation>
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsTableChemlab"]/label</xpath>
+            <value>
+                <label>chemlab</label>
+            </value>
+    </Operation>  
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsMakeGlass"]/label</xpath>
+            <value>
+                <label>glass</label>
+            </value>
+    </Operation>  
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsWeaponCraftingWorkTable"]/label</xpath>
+            <value>
+                <label>gunsmithing</label>
+            </value>
+    </Operation>  
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsConvert"]/label</xpath>
+            <value>
+                <label>convert matter</label>
+            </value>
+    </Operation>  
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsMedical"]/label</xpath>
+            <value>
+                <label>medical craft</label>
+            </value>
+    </Operation>      
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsUseSaltMine"]/label</xpath>
+            <value>
+                <label>salt mine</label>
+            </value>
+    </Operation>  
+<!-- === TERRAFORMER.XML === -->
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="StudyMechanoidTerraformer"]/label</xpath>
+            <value>
+                <label>study mech.</label>
+            </value>
+    </Operation>      
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="StudyAncientStargate"]/label</xpath>
+            <value>
+                <label>study stargete</label>
+            </value>
+    </Operation>     
+ <!-- === QARRY xml === -->
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="QRY_MineQuarry"]/label</xpath>
+            <value>
+                <label>quarry digging</label>
+            </value>
+    </Operation>      
+  <!-- === FISHING xml === -->   
+    <Operation Class="PatchOperationAdd">
+            <xpath>Defs/WorkGiverDef[defName="WorkGiver_UseAquacultureBasin"]</xpath>
+            <value>
+                <label>aquaculture</label>
+            </value>
+    </Operation>      
+     <Operation Class="PatchOperationAdd">
+            <xpath>Defs/WorkGiverDef[defName="WorkGiver_FishAtFishingPier"]</xpath>
+            <value>
+                <label>fish at pier</label>
+            </value>
+    </Operation>     
+     <Operation Class="PatchOperationAdd">
+            <xpath>Defs/WorkGiverDef[defName="WorkGiver_FishAtFishingZone"]</xpath>
+            <value>
+                <label>fish zone</label>
+            </value>
+    </Operation>   
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsMakeFishingBait"]/label</xpath>
+            <value>
+                <label>make fish bait</label>
+            </value>
+    </Operation>      
+    <!-- FERMENTER -->
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="UF_WorkGiver_TakeProductOutOfUniversalFermenter"]/label</xpath>
+            <value>
+                <label>empty UF</label>
+            </value>
+    </Operation>  
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="UF_WorkGiver_FillUniversalFermenter"]/label</xpath>
+            <value>
+                <label>load UF</label>
+            </value>
+    </Operation>  
+    
+    
+    
+    
+    
+    
+</Patch>

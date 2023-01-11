@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Pick Up And Haul</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+
+    <li Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="HaulToInventory"]/label</xpath>
+            <value>
+                <label>pick up and haul</label>
+            </value>
+    </li>   		
+			
+			
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	
