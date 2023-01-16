@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsHaulCampfire" or
+                defName="TakeBeerOutOfFermentingBarrel" or 
+                defName="FillFermentingBarrel" or 
+                defName="UnloadComposter" or
+                defName="FillComposter"]/workType</xpath>
+            <value>
+                <workType>Misc</workType>
+            </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsCremate" or
+                defName="UF_WorkGiver_TakeProductOutOfUniversalFermenter" or 
+                defName="UF_WorkGiver_FillUniversalFermenter" or
+                defName="DoBillsBurnPit" or
+                defName="DoBillsConvert"]/workType</xpath>
+            <value>
+                <workType>Processing</workType>
+            </value>
+    </Operation>
+    
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="Refuel" or
+                defName="RefillWater"]/workType</xpath>
+            <value>
+                <workType>BasicWorker</workType>
+            </value>
+    </Operation>
+    
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="DoBillsUseCraftingSpot"]/workType</xpath>
+            <value>
+                <workType>Smithing</workType>
+            </value>
+    </Operation>
+    
+  <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="HaulToGeneBank" or
+                defName="CarryToGeneExtractor" or 
+                defName="CarryToGrowthVat" or
+                defName="EmptyWasteContainer" or
+                defName="HaulMechsToCharger" or
+                defName="CarryToSubcoreScanner"]/workType</xpath>
+            <value>
+                <workType>BiotechHauling</workType>
+            </value>
+    </Operation>
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="HaulToGrowthVat"]/workType</xpath>
+            <value>
+                <workType>Childcare</workType>
+            </value>
+    </Operation>
+    
+    
+    
+</Patch>

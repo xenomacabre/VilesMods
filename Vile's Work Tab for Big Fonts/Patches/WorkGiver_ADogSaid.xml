@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>A Dog Said... Animal Prosthetics</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+
+        <li Class="PatchOperationReplace">
+                <xpath>Defs/WorkGiverDef[defName="DoBillsAnimalProsthetics"]/label</xpath>
+                <value>
+                    <label>animal prosthetics</label>
+                </value>
+        </li>   
+			
+			
+			
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

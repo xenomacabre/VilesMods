@@ -99,7 +99,7 @@
 			</li>
 		</comps>
 		<researchPrerequisites Inherit="False">
-			<li>Construction_B1</li>
+			<li>Fortification_A1</li>
 		</researchPrerequisites>
         <costList>
 			<ComponentMedieval>1</ComponentMedieval>

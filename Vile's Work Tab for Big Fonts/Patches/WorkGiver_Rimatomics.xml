@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Skynet</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+
+    <li Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="LoadRailgunMagazine"]/label</xpath>
+            <value>
+                <label>load sabot</label>
+            </value>
+    </li>   
+    <li Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="RimatomicsConstruction"]/label</xpath>
+            <value>
+                <label>nuke construction</label>
+            </value>
+    </li> 			
+    <li Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="RimatomicsSuperviseResearch"]/label</xpath>
+            <value>
+                <label>supervise research</label>
+            </value>
+    </li> 	
+            
+ 
+            
+			
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

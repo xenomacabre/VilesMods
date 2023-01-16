@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkTypeDef[defName="Firefighter"]/labelShort</xpath>
+            <value>
+                <labelShort>FIRE FIGHT</labelShort>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkTypeDef[defName="Patient"]/labelShort</xpath>
+            <value>
+                <labelShort>PATIENT</labelShort>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkTypeDef[defName="Doctor"]/labelShort</xpath>
+            <value>
+                <labelShort>DOCTOR</labelShort>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkTypeDef[defName="PatientBedRest"]/labelShort</xpath>
+            <value>
+                <labelShort>BED REST</labelShort>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkTypeDef[defName="BasicWorker"]/labelShort</xpath>
+            <value>
+                <labelShort>BASIC</labelShort>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkTypeDef[defName="Warden"]/labelShort</xpath>
+            <value>
+                <labelShort>WARDEN</labelShort>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkTypeDef[defName="Handling"]/labelShort</xpath>
+            <value>
+                <labelShort>HANDLING</labelShort>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkTypeDef[defName="Cooking"]/labelShort</xpath>
+            <value>
+                <labelShort>COOK</labelShort>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkTypeDef[defName="Hunting"]/labelShort</xpath>
+            <value>
+                <labelShort>HUNT</labelShort>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkTypeDef[defName="Construction"]/labelShort</xpath>
+            <value>
+                <labelShort>BUILD</labelShort>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkTypeDef[defName="Growing"]/labelShort</xpath>
+            <value>
+                <labelShort>GROW</labelShort>
+            </value>
+    </Operation>	
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkTypeDef[defName="Mining"]/labelShort</xpath>
+            <value>
+                <labelShort>MINE</labelShort>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkTypeDef[defName="PlantCutting"]/labelShort</xpath>
+            <value>
+                <labelShort>PLANT CUT</labelShort>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkTypeDef[defName="Smithing"]/labelShort</xpath>
+            <value>
+                <labelShort>SMITH</labelShort>
+            </value>
+    </Operation>	     
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkTypeDef[defName="Tailoring"]/labelShort</xpath>
+            <value>
+                <labelShort>TAILOR</labelShort>
+            </value>
+    </Operation>	       
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkTypeDef[defName="Art"]/labelShort</xpath>
+            <value>
+                <labelShort>ART</labelShort>
+            </value>
+    </Operation>	
+       <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkTypeDef[defName="Crafting"]/labelShort</xpath>
+            <value>
+                <labelShort>CRAFT</labelShort>
+            </value>
+    </Operation>	
+       <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkTypeDef[defName="Hauling"]/labelShort</xpath>
+            <value>
+                <labelShort>HAUL</labelShort>
+            </value>
+    </Operation>	
+       <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkTypeDef[defName="Cleaning"]/labelShort</xpath>
+            <value>
+                <labelShort>CLEAN</labelShort>
+            </value>
+    </Operation>	
+       <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkTypeDef[defName="Research"]/labelShort</xpath>
+            <value>
+                <labelShort>RESEARCH</labelShort>
+            </value>
+    </Operation>	
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkTypeDef[defName="Childcare"]/labelShort</xpath>
+            <value>
+                <labelShort>CHILDCARE</labelShort>
+            </value>
+    </Operation>
+    
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkTypeDef[defName="HaulingUrgent"]/labelShort</xpath>
+            <value>
+                <labelShort>HAUL+</labelShort>
+            </value>
+    </Operation>
+    
+</Patch>

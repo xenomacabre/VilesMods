@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Patch>
-
+    
+    <!-- NOT -->
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>[JPT] Soft Warm Beds HSK</li>
+	</mods>
+		<nomatch Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace"> <!-- stock leather -->
+				<xpath>Defs/ThingDef[defName="HayBed"]/statBases/BedRestEffectiveness</xpath>
+				<value><!-- IGSF 0.96 -->
+					<BedRestEffectiveness>0.57</BedRestEffectiveness>
+				</value>
+			</li>
+            <li Class="PatchOperationReplace"> <!-- stock leather -->
+				<xpath>Defs/ThingDef[defName="HayBed"]/statBases/ImmunityGainSpeedFactor</xpath>
+				<value><!-- IGSF 0.96 -->
+					<ImmunityGainSpeedFactor>0.85</ImmunityGainSpeedFactor>
+				</value>
+			</li>
+              <li Class="PatchOperationReplace"> <!-- stock leather -->
+				<xpath>Defs/ThingDef[defName="SleepingSpot" or defName="DoubleSleepingSpot"]/statBases/BedRestEffectiveness</xpath>
+				<value><!-- IGSF 0.96 -->
+					<BedRestEffectiveness>0.52</BedRestEffectiveness>
+				</value>
+			</li>
+            <li Class="PatchOperationReplace"> <!-- stock leather -->
+				<xpath>Defs/ThingDef[defName="HayBed" or defName="DoubleSleepingSpot"]/statBases/ImmunityGainSpeedFactor</xpath>
+				<value><!-- IGSF 0.96 -->
+					<ImmunityGainSpeedFactor>0.8</ImmunityGainSpeedFactor>
+				</value>
+			</li> 
+            
+    	</operations>
+		</nomatch>
+</Operation>
+    
 	<!-- Pure stuff: Basics -->
 	
 	<Operation Class="PatchOperationFindMod">

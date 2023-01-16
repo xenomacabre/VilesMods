@@ -1,5 +1,101 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+    
+    <ThingDef ParentName="MiscBuildingBase">
+		<defName>CounterServiceModular</defName>
+		<label>service counter</label>
+		<description>A bar which can have stockpile zones overlapping.</description>
+        <!--<socialPropernessMatters>true</socialPropernessMatters>
+        <surfaceType>Eat</surfaceType>-->
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>80</pathCost>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.4</fillPercent>
+		<designationCategory>Furniture</designationCategory>
+		<canOverlapZones>true</canOverlapZones>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>	
+		<uiIconPath>Things/Building/Research/CounterIco</uiIconPath>	
+		<graphicData>
+			<texPath>Things/Building/Linked/Counter/CounterService_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Custom1</li>
+			</linkFlags>
+		</graphicData>	
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<WorkToMake>450</WorkToMake>
+			<Flammability>1.0</Flammability>
+			<Beauty>1</Beauty>
+			<Bulk>4</Bulk>
+			<Mass>2</Mass>
+		</statBases>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Metallic</li>
+			<li>Stony</li>
+			<li>Bricks</li>
+			<li>Ceramic</li> 
+		</stuffCategories>
+		<costStuffCount>5</costStuffCount>
+		<rotatable>false</rotatable>
+		<placingDraggableDimensions>2</placingDraggableDimensions>
+		<researchPrerequisites>
+			<li>Fortification_A1</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	</ThingDef>
+    
+    <ThingDef ParentName="MiscBuildingBase">
+		<defName>CounterBarModular</defName>
+		<label>bar counter</label>
+		<description>A bar for eating a drinking.</description>
+        <socialPropernessMatters>true</socialPropernessMatters>
+        <surfaceType>Eat</surfaceType>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Standable</passability>
+		<pathCost>80</pathCost>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>0.4</fillPercent>
+		<designationCategory>Furniture</designationCategory>
+		<canOverlapZones>true</canOverlapZones>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>	
+		<uiIconPath>Things/Building/Research/CounterIco</uiIconPath>	
+		<graphicData>
+			<texPath>Things/Building/Linked/Counter/CounterBar_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>Basic</linkType>
+			<linkFlags>
+				<li>Custom1</li>
+			</linkFlags>
+		</graphicData>	
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<WorkToMake>450</WorkToMake>
+			<Flammability>1.0</Flammability>
+			<Beauty>1</Beauty>
+			<Bulk>4</Bulk>
+			<Mass>2</Mass>
+		</statBases>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Metallic</li>
+			<li>Stony</li>
+			<li>Bricks</li>
+			<li>Ceramic</li> 
+		</stuffCategories>
+		<costStuffCount>5</costStuffCount>
+		<rotatable>false</rotatable>
+		<placingDraggableDimensions>2</placingDraggableDimensions>
+		<researchPrerequisites>
+			<li>Fortification_A1</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	</ThingDef>
 
 	<ThingDef ParentName="WallBase" Name="InteriorWall">
 		<defName>InteriorWall</defName>

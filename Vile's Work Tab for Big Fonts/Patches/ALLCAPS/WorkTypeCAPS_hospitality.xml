@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Hospitality</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+
+        <li Class="PatchOperationReplace">
+                <xpath>Defs/WorkTypeDef[defName="Diplomat"]/labelShort</xpath>
+                <value>
+                    <labelShort>ENTERTAIN</labelShort>
+                </value>
+        </li>   
+			
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	
