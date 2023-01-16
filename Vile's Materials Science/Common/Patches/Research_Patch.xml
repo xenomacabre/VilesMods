@@ -26,6 +26,17 @@
 					<label>Advanced Materials</label>
 				</value>
 			</li>
+
+			<li Class="PatchOperationAttributeRemove">
+				<xpath>/Defs/ResearchProjectDef[defName="Glass_C1"]</xpath>
+				<attribute>ParentName</attribute>
+			</li>
+
+			<li Class="PatchOperationAttributeSet">	
+				<xpath>/Defs/ResearchProjectDef[defName="Glass_C1"]</xpath>
+				<attribute>ParentName</attribute>
+				<value>MedievalBase</value>
+			</li>
 			
 		</operations>
 		</match>
