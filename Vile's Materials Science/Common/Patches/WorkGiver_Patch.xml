@@ -16,6 +16,12 @@
 					<li>InductionFurnace</li>	
 				</value>
 			</li>
+				<li Class="PatchOperationAdd">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsTableChemlab"]/fixedBillGiverDefs</xpath>
+				<value>
+					<li>ChemistryLab</li>
+				</value>
+			</li>
 		
 		</operations>
 		</match>

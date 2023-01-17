@@ -9,6 +9,26 @@
 	<success>Always</success>
 		<operations>
 			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Candle"]/comps/li[@Class="CompProperties_Refuelable"]</xpath> 
+				<value>
+					<li Class="CompProperties_Refuelable">
+						<fuelConsumptionRate>2.0</fuelConsumptionRate>
+						<fuelCapacity>6.0</fuelCapacity>
+						<fuelConsumptionPerTickInRain>0.045</fuelConsumptionPerTickInRain>
+						<fuelFilter>
+							<thingDefs>
+								<li>Tallow</li>
+								<li>PlantWax</li>
+								<li MayRequire="ViTech.HCSKWood">Pitch</li>
+							</thingDefs>
+						</fuelFilter>
+						<destroyOnNoFuel>false</destroyOnNoFuel>
+						<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+					</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="MatterConverter"]/label</xpath>
 				<value>
 					<label>Nucleosynthetic Converter</label>
