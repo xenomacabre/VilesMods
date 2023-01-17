@@ -52,20 +52,15 @@
 				<xpath>Defs/RecipeDef[defName="MakePipe"]/fixedIngredientFilter</xpath>
 				<value>
 					<fixedIngredientFilter>
-						<categories>
-							<li>SLDBar</li>
-							<li>USLDBar</li>
-						</categories>
-						<thingDefs>
-							<li>CarbonSteel</li>
-							<li>SteelBar</li>
-							<li>AlnicoAlloy</li>
-							<li>SpringSteel</li>
-						</thingDefs>
-						<disallowedThingDefs>
-							<li>Carborundum</li>
-							<li>PobediteAlloy</li>
-						</disallowedThingDefs>
+							<thingDefs>
+									<li>CarbonSteel</li>
+									<li>SteelBar</li>
+									<li>AlnicoAlloy</li>
+									<li>SpringSteel</li>
+								</thingDefs>
+								<categories>
+									<li>USLDBar</li>
+								</categories>
 					</fixedIngredientFilter>
 				</value>
 			</li>
