@@ -34,6 +34,7 @@ Also known as PVC leather, this vegan material competes with animal leathers. It
 		<stackLimit>300</stackLimit>
 		<techLevel>Industrial</techLevel>
 		<stuffProps>
+			<commonality>0.05</commonality>
 			<stuffAdjective>Vinyl</stuffAdjective>
 			<categories>
 				<li>Leathery</li>
@@ -90,6 +91,7 @@ This strong faux leather is made from devilstrand mushrooms. Fairly difficult to
 		<stackLimit>300</stackLimit>
 		<techLevel>Industrial</techLevel>
 		<stuffProps>
+			<commonality>0.05</commonality>
 			<stuffAdjective>Mycotan</stuffAdjective>
 			<categories>
 				<li>Leathery</li>

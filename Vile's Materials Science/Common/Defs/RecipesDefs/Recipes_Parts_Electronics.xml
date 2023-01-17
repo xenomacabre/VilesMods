@@ -35,7 +35,7 @@
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>0.8</workSkillLearnFactor>
-        <researchPrerequisite>Metals_C1</researchPrerequisite>
+        <researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
 	</RecipeDef>
 	
 	<RecipeDef>
@@ -56,6 +56,9 @@
 					<categories>
 						<li>INSBar</li>
 					</categories>
+					<thingDefs>
+						<li>Glass</li>
+					</thingDefs>
 				</filter>
 				<count>10</count>
 			</li>
@@ -91,6 +94,7 @@
 				<li>AluminiumBar</li>
 				<li>Solder</li>
 				<li>SilverBar</li>
+				<li>Glass</li>
 			</thingDefs>
 			<categories>
 				<li>INSBar</li>
