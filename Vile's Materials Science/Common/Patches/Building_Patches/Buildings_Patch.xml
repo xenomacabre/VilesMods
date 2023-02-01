@@ -19,7 +19,6 @@
 							<thingDefs>
 								<li>Tallow</li>
 								<li>PlantWax</li>
-								<li MayRequire="ViTech.HCSKWood">Pitch</li>
 							</thingDefs>
 						</fuelFilter>
 						<destroyOnNoFuel>false</destroyOnNoFuel>
@@ -130,7 +129,7 @@
 					<recipes>
 						<li>MakeEpoxy</li>		
 						<li>MakeRubber</li>
-						<li>ExtractSulfur</li>
+						<li>MakePolystyrene</li>
                         <li>MakeIsopropylAlcohol</li>
 						<li>MakeHDPE</li>
 						<li>MakePolypropylene</li>
