@@ -4,17 +4,19 @@
 		<thingClass>OpenTheWindows.Building_Window</thingClass>
 		<category>Building</category>
 		<graphicData>
-			<graphicClass>Graphic_Multi</graphicClass>
+            <graphicClass>Graphic_Multi</graphicClass>
 			<linkFlags>
 				<li>Wall</li>
 				<li>Rock</li>
 			</linkFlags>
+            <shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>1</fillPercent>
 		<useHitPoints>true</useHitPoints>
 		<statBases>
 			<Flammability>1.0</Flammability>
+			<Beauty>1.0</Beauty>
 		</statBases>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 		<selectable>true</selectable>
@@ -36,6 +38,7 @@
 		</placeWorkers>
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<building>
+			<paintable>true</paintable>
 			<isInert>true</isInert>
 			<canPlaceOverWall>true</canPlaceOverWall>
 		</building>
@@ -57,12 +60,11 @@
 		<researchPrerequisites>
 			<li>Glassworks</li>
 		</researchPrerequisites>
-		<stuffCategories>
-			<li>Metallic</li>
+		<!--<stuffCategories>
+			<li>StrongMetallic</li>
 			<li>Woody</li>
-			<li>Stony</li>
 			<li MayRequire="argon.vmeu">VMEu_ConcreteStuffCategory</li>
-		</stuffCategories>
+		</stuffCategories>-->
 		<damageMultipliers>
 			<li>
 				<damageDef>Bomb</damageDef>
@@ -74,19 +76,18 @@
 			</li>
 		</damageMultipliers>
 	</ThingDef>
-	
-	<ThingDef ParentName="WindowBase">
+    	
+	<ThingDef ParentName="WindowBase" Name="RusticWindowBase" Abstract="True">
 		<defName>SimpleOpenWindow</defName>
-		<label>rustic window</label>
 		<description>A simple, low-tech window which is little more than a hole in the wall. Equip with with a shutter to control the light, but does almost nothing to keep the heat in or out.</description>
-		<graphicData>
-			<texPath>Things/Building/SimpleWindow</texPath>
-			<drawSize>(1.019999980926513671875,1)</drawSize>
+		<graphicData>		
+			<drawSize>(1.0209,1)</drawSize>
 		</graphicData>
-		<uiIconPath>Things/Building/SimpleWindow_north</uiIconPath>
 		<statBases>
 			<WorkToBuild>270</WorkToBuild>
 			<MaxHitPoints>100</MaxHitPoints>
+            <Flammability>1.0</Flammability>
+			<Beauty>1.0</Beauty>
 		</statBases>
 		<costStuffCount>5</costStuffCount>
 		<comps Inherit="False">
@@ -97,113 +98,318 @@
 				<signal>both</signal>
 			</li>
 		</comps>
-		<researchPrerequisites Inherit="False" />
+		<researchPrerequisites Inherit="False">
+			<li>Fortification_A1</li>
+		</researchPrerequisites>
+        <costList>
+			<ComponentMedieval>1</ComponentMedieval>
+		</costList>
 	</ThingDef>
-	
-	<ThingDef ParentName="WindowBase">
-		<defName>OpenWindow</defName>
-		<label>window</label>
-		<description>A window with a glass pane and a shutter. Can control light and air separately. Comes with a view.</description>
+    
+    <ThingDef ParentName="RusticWindowBase">
+        <defName>RusticWindowAdobe</defName>
+        <label>adobe</label>
+        <graphicData>
+            <texPath>Things/Building/RusticWindowAdobe</texPath>
+        </graphicData>
+        <uiIconPath>Things/Building/RusticWindowAdobe_north</uiIconPath>
+        <stuffCategories>
+            <li>Aggregate</li>
+        </stuffCategories>
+    </ThingDef>
+    <ThingDef ParentName="RusticWindowBase">
+        <defName>RusticWindowBamboo</defName>
+        <label>bamboo</label>
+        <graphicData>
+            <texPath>Things/Building/RusticWindowBamboo</texPath>
+        </graphicData>
+        <uiIconPath>Things/Building/RusticWindowBamboo_north</uiIconPath>
+        <stuffCategories>
+            <li>Bambooish</li>
+        </stuffCategories>
+    </ThingDef>
+    <ThingDef ParentName="RusticWindowBase">
+        <defName>RusticWindowMud</defName>
+        <label>rammed earth</label>
+        <graphicData>
+            <texPath>Things/Building/RusticWindowMud</texPath>
+        </graphicData>
+        <uiIconPath>Things/Building/RusticWindowMud_north</uiIconPath>
+        <stuffCategories>
+            <li>Aggregate</li>
+        </stuffCategories>
+    </ThingDef>
+    <ThingDef ParentName="RusticWindowBase">
+        <defName>RusticWindowClapboard</defName>
+        <label>clapboard</label>
+        <graphicData>
+            <texPath>Things/Building/RusticWindowClapboard</texPath>
+        </graphicData>
+        <uiIconPath>Things/Building/RusticWindowClapboard_north</uiIconPath>
+        <stuffCategories>
+            <li>WoodLogs</li>
+            <li>SoftwoodLumber</li>
+            <li>HardwoodLumber</li>
+            <li>UltrahardwoodLumber</li>
+            </stuffCategories>
+    </ThingDef>
+    <ThingDef ParentName="RusticWindowBase">
+        <defName>RusticWindowDaub</defName>
+        <label>daub</label>
+        <graphicData>
+            <texPath>Things/Building/RusticWindowDaub</texPath>
+        </graphicData>
+        <uiIconPath>Things/Building/RusticWindowDaub_north</uiIconPath>
+        <stuffCategories>
+            <li>Aggregate</li>
+        </stuffCategories>
+    </ThingDef>
+    
+<!-- NORMAL 1x1 windows -->    
+    <ThingDef ParentName="WindowBase" Name="BasicWindowBase" Abstract="True">
+		<description>A window with a glass pane and blinds. Can control light and air separately.</description>
 		<graphicData>
-			<texPath>Things/Building/Window</texPath>
-			<drawSize>(1.019999980926513671875,1)</drawSize>
+			<drawSize>(1.0209,1)</drawSize>
 		</graphicData>
-		<uiIconPath>Things/Building/Window_north</uiIconPath>
 		<statBases>
 			<WorkToBuild>405</WorkToBuild>
 			<MaxHitPoints>150</MaxHitPoints>
+            <Flammability>0.5</Flammability>
+			<Beauty>2.0</Beauty>
 		</statBases>
 		<costStuffCount>5</costStuffCount>
 		<costList>
-			<Steel>5</Steel>
+			<Glass>10</Glass>
+            <ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+	</ThingDef>
+    
+    <!-- FARMHOUSE -->
+      <ThingDef ParentName="BasicWindowBase">
+        <defName>WindowClapboard</defName>
+          <label>clapboard</label>
+        <graphicData>
+            <texPath>Things/Building/WindowClapboard</texPath>
+        </graphicData>
+        <uiIconPath>Things/Building/WindowClapboard_north</uiIconPath>
+        <stuffCategories>
+            <li>WoodLogs</li>
+            <li>SoftwoodLumber</li>
+            <li>HardwoodLumber</li>
+            <li>UltrahardwoodLumber</li>
+            </stuffCategories>
+    </ThingDef>
+    <ThingDef ParentName="BasicWindowBase">
+        <defName>WindowDaub</defName>
+        <label>daub</label>
+        <graphicData>
+            <texPath>Things/Building/WindowDaub</texPath>
+        </graphicData>
+        <uiIconPath>Things/Building/WindowDaub_north</uiIconPath>
+        <stuffCategories>
+            <li>Aggregate</li>
+        </stuffCategories>
+    </ThingDef>
+     <ThingDef ParentName="BasicWindowBase">
+        <defName>WindowPanel</defName>
+         <label>panel</label>
+        <graphicData>
+            <texPath>Things/Building/WindowPanel</texPath>
+        </graphicData>
+        <uiIconPath>Things/Building/WindowPanel_north</uiIconPath>
+        <stuffCategories>
+            <li>SoftwoodLumber</li>
+            <li>HardwoodLumber</li>
+            <li>UltrahardwoodLumber</li>
+        </stuffCategories>
+    </ThingDef>
+    
+    <!-- TRADITIONAL -->
+     <ThingDef ParentName="BasicWindowBase">
+        <defName>WindowCabin</defName>
+         <label>cabin</label>
+        <graphicData>
+            <texPath>Things/Building/WindowCabin</texPath>
+        </graphicData>
+         <uiIconPath>Things/Building/WindowCabin_north</uiIconPath>
+        <stuffCategories>
+            <li>Softwoods</li>
+            <li>Hardwoods</li>
+            <li>Ultrahardwoods</li>
+        </stuffCategories>
+    </ThingDef>
+    <ThingDef ParentName="BasicWindowBase">
+        <defName>WindowAdobe</defName>
+        <label>adobe</label>
+        <graphicData>
+            <texPath>Things/Building/WindowAdobe</texPath>
+        </graphicData>
+         <uiIconPath>Things/Building/WindowAdobe_north</uiIconPath>
+        <stuffCategories>
+            <li>Aggregate</li>
+        </stuffCategories>
+    </ThingDef>
+    <ThingDef ParentName="BasicWindowBase">
+        <defName>WindowBamboo</defName>
+        <label>bamboo</label>
+        <graphicData>
+            <texPath>Things/Building/WindowBamboo</texPath>
+        </graphicData>
+        <uiIconPath>Things/Building/WindowBamboo_north</uiIconPath>
+        <stuffCategories>
+            <li>Bambooish</li>
+        </stuffCategories>
+    </ThingDef>
+    <ThingDef ParentName="BasicWindowBase">
+        <defName>WindowMud</defName>
+        <label>rammed earth</label>
+        <graphicData>
+            <texPath>Things/Building/WindowMud</texPath>
+        </graphicData>
+        <uiIconPath>Things/Building/WindowMud_north</uiIconPath>
+        <stuffCategories>
+            <li>Aggregate</li>
+        </stuffCategories>
+    </ThingDef>
+    
+  
+    
+    <!-- ORNATE -->
+    
+    <ThingDef ParentName="BasicWindowBase">
+        <defName>WindowBrick</defName>
+        <label>brick</label>
+        <graphicData>
+            <texPath>Things/Building/WindowBrick</texPath>
+        </graphicData>
+         <uiIconPath>Things/Building/WindowBrick_north</uiIconPath>
+        <stuffCategories>
+            <li>Bricks</li>
+        </stuffCategories>
+    </ThingDef>
+    <ThingDef ParentName="BasicWindowBase">
+        <defName>WindowSlab</defName>
+        <label>stone block</label>
+        <graphicData>
+            <texPath>Things/Building/WindowSlab</texPath>
+        </graphicData>
+         <uiIconPath>Things/Building/WindowSlab_north</uiIconPath>
+        <stuffCategories>
+            <li>Stony</li>
+        </stuffCategories>
+    </ThingDef>
+    
+    <!-- INDUSTRIAL -->
+      <ThingDef ParentName="BasicWindowBase">
+        <defName>WindowSmooth</defName>
+          <label>smooth metal</label>
+        <graphicData>
+            <texPath>Things/Building/WindowSmooth</texPath>
+        </graphicData>
+         <uiIconPath>Things/Building/WindowSmooth_north</uiIconPath>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+    </ThingDef>
+      <ThingDef ParentName="BasicWindowBase">
+        <defName>WindowPlate</defName>
+          <label>plated metal</label>
+        <graphicData>
+            <texPath>Things/Building/WindowPlate</texPath>
+        </graphicData>
+         <uiIconPath>Things/Building/WindowPlate_north</uiIconPath>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+    </ThingDef>
+      <ThingDef ParentName="BasicWindowBase">
+        <defName>WindowCladding</defName>
+          <label>cladding</label>
+        <graphicData>
+            <texPath>Things/Building/WindowCladding</texPath>
+        </graphicData>
+         <uiIconPath>Things/Building/WindowCladding_north</uiIconPath>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+    </ThingDef>
+    
+    <!-- WINDOW WALLS -->
+    
+     <ThingDef ParentName="WindowBase">
+         <defName>WindowWall1x</defName>
+         <label>window wall (1x1)</label>
+		<description>A floor-to-ceiling window and blinds. Can control light and air separately. Can be very fragile or very strong, depending on materials used.</description>
+		<graphicData>
+            <texPath>Things/Building/WindowWall1</texPath>
+			<drawSize>(1.019999980926513671875,1)</drawSize>
+		</graphicData>
+         <uiIconPath>Things/Building/WindowWall1_north</uiIconPath>
+		<statBases>
+			<WorkToBuild>405</WorkToBuild>
+			<MaxHitPoints>200</MaxHitPoints>
+            <Flammability>0</Flammability>
+			<Beauty>3.0</Beauty>
+		</statBases>
+        <stuffCategories Inherit="False">
+			<li>Glass</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<costList>
+            <ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 	</ThingDef>
 	
 	<ThingDef ParentName="WindowBase">
-		<defName>LargeOpenWindow</defName>
-		<label>large window</label>
-		<description>A big glass window with a shutter that lets a large amount of light, air and the landscape in.</description>
+		<defName>WindowWall3x</defName>
+		<label>window wall (3x1)</label>
+		<description>A floor-to-ceiling window and blinds. Can control light and air separately. Can be very fragile or very strong, depending on materials used.</description>
 		<graphicData>
-			<texPath>Things/Building/LargeWindow</texPath>
+			<texPath>Things/Building/WindowWall3</texPath>
 			<drawSize>(4,1)</drawSize>
 		</graphicData>
-		<uiIconPath>Things/Building/LargeWindow_north</uiIconPath>
+		<uiIconPath>Things/Building/WindowWall3_north</uiIconPath>
 		<uiIconScale>1.33</uiIconScale>
 		<statBases>
 			<WorkToBuild>1215</WorkToBuild>
-			<MaxHitPoints>300</MaxHitPoints>
+			<MaxHitPoints>400</MaxHitPoints>
+            <Flammability>0</Flammability>
+			<Beauty>9.0</Beauty>
 		</statBases>
 		<size>(3,1)</size>
-		<costStuffCount>15</costStuffCount>
+        <stuffCategories Inherit="False">
+			<li>Glass</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
 		<costList>
-			<Steel>15</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 	</ThingDef>
-	
-	<ThingDef ParentName="WindowBase">
-		<defName>HugeOpenWindow</defName>
-		<label>huge window</label>
-		<description>A tall, huge window, equipped with rotating brise-soleil. Allows in a massive volume of light.</description>
+    
+    <ThingDef ParentName="WindowBase">
+		<defName>WindowWall5x</defName>
+		<label>window wall (5x1)</label>
+		<description>A floor-to-ceiling window and blinds. Can control light and air separately. Can be very fragile or very strong, depending on materials used.</description>
 		<graphicData>
-			<texPath>Things/Building/HugeWindow</texPath>
-			<drawSize>(8.125,1)</drawSize>
+			<texPath>Things/Building/WindowWall3</texPath>
+			<drawSize>(7,1)</drawSize>
 		</graphicData>
-		<uiIconPath>Things/Building/HugeWindow</uiIconPath>
+		<uiIconPath>Things/Building/WindowWall3_north</uiIconPath>
 		<uiIconScale>1.6</uiIconScale>
 		<statBases>
-			<WorkToBuild>2025</WorkToBuild>
-			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>1215</WorkToBuild>
+			<MaxHitPoints>600</MaxHitPoints>
+            <Flammability>0</Flammability>
+			<Beauty>15.0</Beauty>
 		</statBases>
 		<size>(5,1)</size>
-		<costStuffCount>25</costStuffCount>
+        <stuffCategories Inherit="False">
+			<li>Glass</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
 		<costList>
-			<Steel>25</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 	</ThingDef>
 	
-	<ThingDef ParentName="WindowBase">
-		<defName>ReinforcedOpenWindow</defName>
-		<label>reinforced window</label>
-		<description>A small reinforced window with a glass pane and a shutter. Can control light and air separately.</description>
-		<graphicData>
-			<texPath>Things/Building/ReinforcedWindow</texPath>
-			<drawSize>(1.019999980926513671875,1)</drawSize>
-		</graphicData>
-		<uiIconPath>Things/Building/ReinforcedWindow_north</uiIconPath>
-		<statBases>
-			<WorkToBuild>675</WorkToBuild>
-			<MaxHitPoints>300</MaxHitPoints>
-		</statBases>
-		<costStuffCount>5</costStuffCount>
-		<costList>
-			<Plasteel>10</Plasteel>
-		</costList>
-		<researchPrerequisites>
-			<li>AdvancedGlassworks</li>
-		</researchPrerequisites>
-	</ThingDef>
-	
-	<ThingDef ParentName="WindowBase">
-		<defName>LargeReinforcedOpenWindow</defName>
-		<label>large reinforced window</label>
-		<description>A big reinforced window that lets a large amount of light, air and the landscape in.</description>
-		<graphicData>
-			<texPath>Things/Building/LargeReinforcedWindow</texPath>
-			<drawSize>(4,1)</drawSize>
-		</graphicData>
-		<uiIconPath>Things/Building/LargeReinforcedWindow_north</uiIconPath>
-		<uiIconScale>1.33</uiIconScale>
-		<statBases>
-			<WorkToBuild>2025</WorkToBuild>
-			<MaxHitPoints>500</MaxHitPoints>
-		</statBases>
-		<size>(3,1)</size>
-		<costStuffCount>15</costStuffCount>
-		<costList>
-			<Plasteel>30</Plasteel>
-		</costList>
-		<researchPrerequisites>
-			<li>AdvancedGlassworks</li>
-		</researchPrerequisites>
-	</ThingDef>
 </Defs>
