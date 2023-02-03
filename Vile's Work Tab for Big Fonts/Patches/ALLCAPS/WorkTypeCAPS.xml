@@ -121,12 +121,7 @@
                 <labelShort>RESEARCH</labelShort>
             </value>
     </Operation>	
-     <Operation Class="PatchOperationReplace">
-            <xpath>Defs/WorkTypeDef[defName="Childcare"]/labelShort</xpath>
-            <value>
-                <labelShort>CHILDCARE</labelShort>
-            </value>
-    </Operation>
+
     
      <Operation Class="PatchOperationReplace">
             <xpath>Defs/WorkTypeDef[defName="HaulingUrgent"]/labelShort</xpath>

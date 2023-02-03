@@ -29,7 +29,31 @@
     </Operation>
     
     
+    <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkTypeDef[defName="Childcare"]/labelShort</xpath>
+            <value>
+                <labelShort>CHILDCARE</labelShort>
+            </value>
+    </Operation>
     
+        
+  <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="HaulToGeneBank" or
+                defName="CarryToGeneExtractor" or 
+                defName="CarryToGrowthVat" or
+                defName="EmptyWasteContainer" or
+                defName="HaulMechsToCharger" or
+                defName="CarryToSubcoreScanner"]/workType</xpath>
+            <value>
+                <workType>BiotechHauling</workType>
+            </value>
+    </Operation>
+     <Operation Class="PatchOperationReplace">
+            <xpath>Defs/WorkGiverDef[defName="HaulToGrowthVat"]/workType</xpath>
+            <value>
+                <workType>Childcare</workType>
+            </value>
+    </Operation>
     
     
     
