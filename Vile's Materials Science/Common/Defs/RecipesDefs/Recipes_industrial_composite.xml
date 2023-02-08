@@ -4,7 +4,15 @@
 	<RecipeDef Name="MakeHDPE">
 		<defName>MakeHDPE</defName>
 		<label>Make HDPE Plastic x25</label>
-		<description>High-density polyethylene is an economic plastic widely used for both commercial and industrial applications. It's cheap, lightweight, and tough (for a plastic)</description>
+		<description>TIER 3 - Industrial (commodity)
+>>> Optimal	Economy
+>> Suitable	Hospitals
+X Inadvisable 	Weapons, Tools
+			
+Tools Recommended: None
+Notes: Apparel made from this is equipped much faster
+			
+High-density polyethylene is one of the three main commodity plastics. It can be used for many practical applications, but isn't especially outstanding in any regard except weight and production speed. It's resistant to harsh solvents and cleaning products making it an good material for hospitals and kitchens.</description>
 		<jobString>Making HDPE plastic.</jobString>
 		<workAmount>1800</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
@@ -38,7 +46,15 @@
 	<RecipeDef>
 		<defName>MakePVCPlastic</defName>
 		<label>Make PVC Plastic x25</label>
-		<description>Polyvinyl chloride is an economic plastic widely used for both commercial and industrial applications. It's cheap, lightweight, and tough (for a plastic). Slightly heavier and more rigid than HDPE.</description>	
+		<description>TIER 3 - Industrial (commodity)
+>>> Optimal	Economy
+>> Suitable	Construction (cheap)
+X Inadvisable 	Hospitals, Tools
+			
+Tools Recommended: None
+Notes: Apparel made from this is equipped much faster
+			
+Polyvinyl chloride is one of the three main commodity plastics. It can be used for many practical applications, but isn't especially outstanding in any regard except weight and construction speed. It's stronger than other cheap plastics and joins easily which makes is a good building material. However, it's one of the more toxix plastics.</description>
         <jobString>Making PVC plastic.</jobString>
 		<workAmount>1800</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
@@ -81,8 +97,15 @@
 	
 	<RecipeDef>
 		<defName>MakePolypropylene</defName>
-		<label>Make Polypropylene Plastic x25</label>
-		<description>Polypropylene is an economic plastic widely used for both commercial and industrial applications. It's cheap, lightweight, and tough (for a plastic). Slightly more brittle and harder than HDPE, but the difference is mostly cosmetic.</description>
+		<description>TIER 3 - Industrial (commodity)
+>>> Optimal	Economy
+>> Suitable	Riot Armor (cheap)
+X Inadvisable 	Weapons, Tools
+			
+Tools Recommended: None
+Notes: Apparel made from this is equipped much faster
+			
+PP is one of the three main commodity plastics. It can be used for many practical applications, but isn't especially outstanding in any regard except weight and production speed. It can be used to make cheap but fairly adequate riot control armor.</description>
 		<jobString>Making polypropylene plastic.</jobString>
 		<workAmount>1800</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
@@ -118,7 +141,15 @@
 	<RecipeDef>
 		<defName>MakeABS</defName>
 		<label>Make ABS Plastic x20</label>
-		<description>Acrylonitrile Butadiene Styrene is a hard, strong plastic, essentially halfway between HDPE and polycarbonate. It's scratch resistant exceptionally easy to manipulate.</description>
+		<description>TIER 3 - Industrial (engineering)
+>>> Optimal	Production
+>> Suitable	Riot Control Weapons and Armor (moderate), Furniture
+X Inadvisable 	Kitchens
+			
+Tools Recommended: Bladed (fair)
+Notes: Apparel made from this is equipped much faster
+
+Riding the line between a commodity and engineering plastic, Acrylonitrile-butadiene-styrene is a strong, stiff plastic. It's easier to work with than even HDPE, though more difficult to produce. It's scratch-resistant and shiny due to the styrene, heat reistant due to the acrylonitrile, and has high impact resistance due to the butadiene rubber. It can actually be used to make somewhat adequate knives and tools. If you've ever stepped on a lego, you've experienced just how hard and sharp ABS can be.</description>
 		<jobString>Making ABS plastic.</jobString>
 		<workAmount>2800</workAmount>	
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
@@ -179,7 +210,15 @@
 	<RecipeDef>
 		<defName>MakePlexiglass</defName>
 		<label>Make Plexiglass x25</label>
-		<description>Polycarbonate is an extremely hard and tough plastic. It also can be transparent, which makes it useful for the construction of bullet resistant glass.</description>
+		<description>TIER 3 - Industrial (commodity)
+>>> Optimal	Glass substitute
+>> Suitable	Furniture
+X Inadvisable 	Armor, Tools
+			
+Tools Recommended: None
+Notes: Apparel made from this is equipped much faster
+
+Plexiglass is transparent Polymethyl methacrylate, or acrylic glass. It's stronger than glass, but much weaker than polycarbonate, and unlike glass, can be used in many of the same applications as plastics.</description>
 		<jobString>Making polycarbonate plastic.</jobString>
 		<workAmount>1800</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
@@ -213,7 +252,15 @@
 	<RecipeDef>
 		<defName>MakePolycarbonate</defName>
 		<label>Make Polycarbonate Plastic x15</label>
-		<description>Polycarbonate is an extremely hard and tough plastic. It also can be transparent, which makes it useful for the construction of bullet resistant glass.</description>
+		<description>TIER 3 - Industrial (engineering)
+>>> Optimal	Riot control weapons/armor
+>> Suitable	Ballistic Glass
+X Inadvisable 	Production
+			
+Tools Recommended: Building (fair)
+Notes: Apparel made from this is equipped much faster, and is less bulky.
+
+Polycarbonate is a clear plastic which is often used for bulletproof glass and riot gear. It has high impact strength but because it is very stiff, it will shatter faster than soft and flexible polyethylene.</description>
 		<jobString>Making polycarbonate plastic.</jobString>
 		<workAmount>2800</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
@@ -266,7 +313,15 @@
 	<RecipeDef>
 		<defName>MakeFiberglass</defName>
 		<label>Make Fiberglass x20</label>
-		<description>Fiberglass is a strong, flexible material. It's sturdy, light, and insulates very well.</description>
+		<description>TIER 3 - Industrial (engineering)
+>>> Optimal	Construction
+>> Suitable	Workshops, Thermal Armor/bunker gear (cheap)
+X Inadvisable 	Tools, Weapons
+			
+Tools Recommended: Tree-cutting (fair)
+Notes: Apparel made from this is equipped much faster
+			
+Glass-fiber reinforced plastic is a composite material of glass fibers set into a thermoset polymer matrix. It's lightweight and easy to work with and builds sturdy structures. It's popular for its insulation properties and can even be used to fabricate armor which is strong against energy weapons, or cheap gear for firefighters.</description>
 		<jobString>Making fiberglass.</jobString>
 		<workAmount>2200</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>

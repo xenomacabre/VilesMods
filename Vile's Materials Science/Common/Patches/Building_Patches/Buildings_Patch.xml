@@ -3,29 +3,48 @@
 
 	<Operation Class="PatchOperationFindMod">
 	<mods>
-		<li>Core SK</li>
+		<li>Vile's Wood You Please</li>
 	</mods>
-	<match Class="PatchOperationSequence">
-	<success>Always</success>
+	<nomatch Class="PatchOperationSequence">
 		<operations>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Candle"]/comps/li[@Class="CompProperties_Refuelable"]</xpath> 
 				<value>
-					<li Class="CompProperties_Refuelable">
-						<fuelConsumptionRate>2.0</fuelConsumptionRate>
-						<fuelCapacity>6.0</fuelCapacity>
-						<fuelConsumptionPerTickInRain>0.045</fuelConsumptionPerTickInRain>
+					<li Class="SK.CompFueled_Properties">
+						<factorByDifficulty>false</factorByDifficulty>
+						<operatingTemp>300</operatingTemp>
+						<!-- <fireDrawOffset>(0,0,0)</fireDrawOffset>
+						<fireDrawScale>0.2</fireDrawScale>
+						<fuelDrawOffset>(0,0.1,-0.05)</fuelDrawOffset>
+						<fuelDrawScale>0.75</fuelDrawScale> -->
+						<fuelCapacity>15</fuelCapacity>
+						<burnFuelMultiplier>2</burnFuelMultiplier>
+						<canAutoBurn>true</canAutoBurn>
+						<smokeEnabled>false</smokeEnabled>
+						<effectOnWeather>true</effectOnWeather>
+						<smokeDensity>0</smokeDensity>
 						<fuelFilter>
 							<thingDefs>
 								<li>Tallow</li>
 								<li>PlantWax</li>
 							</thingDefs>
 						</fuelFilter>
-						<destroyOnNoFuel>false</destroyOnNoFuel>
-						<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
 					</li>
 				</value>
 			</li>
+
+	</operations>
+	</nomatch>
+</Operation>				
+
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			
 
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="MatterConverter"]/label</xpath>

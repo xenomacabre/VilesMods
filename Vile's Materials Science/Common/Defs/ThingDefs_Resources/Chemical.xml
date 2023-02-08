@@ -199,7 +199,7 @@
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<thingCategories>
-			<li>Chemical</li>
+			<li>FuelCat</li>
 		</thingCategories>
 		<stackLimit>300</stackLimit>
 	</ThingDef>
