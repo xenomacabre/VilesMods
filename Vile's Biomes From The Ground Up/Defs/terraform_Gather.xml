@@ -41,6 +41,7 @@
 			<above>
 				<li>Soil</li>
 				<li>VolcanicSoil</li>
+				<li MayRequire="vileheathen.mountainsmeadows">PrairieSoil</li>
 			</above>
 			<result>RockySoil</result>
 			<products>

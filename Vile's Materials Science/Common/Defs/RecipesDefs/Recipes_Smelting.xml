@@ -757,10 +757,9 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Zinc>15</Zinc>
-			<PigIron>15</PigIron>
-			<LeadBar>5</LeadBar>
-			<Sulfur>12</Sulfur>
+			<Zinc>25</Zinc>
+			<Manganese>15</Manganese>
+			<Cobalt>15</Cobalt>
 		</products>
 		<skillRequirements>
 			<Crafting>10</Crafting>

@@ -165,6 +165,8 @@
 				<li>Terraform_ResurfaceIce</li>
 				<li>RockyDirt-Stone</li>
 				<li>Terraform_MakeDesertPavement</li>
+				<li>Terraform_FillStone</li>
+				<li>Terraform_FillQuarry</li>
 			</defNames>
 		</value>
 	</Operation>

@@ -43,8 +43,8 @@
 			<fertilitySensitivity>0.4</fertilitySensitivity>
 			<!--<wildClusterRadius>10</wildClusterRadius>
 			<wildClusterWeight>75</wildClusterWeight>-->
-			<wildClusterWeight>50</wildClusterWeight>
-			<wildClusterRadius>3</wildClusterRadius>
+			<wildClusterWeight>20</wildClusterWeight>
+			<wildClusterRadius>12</wildClusterRadius>
 			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>

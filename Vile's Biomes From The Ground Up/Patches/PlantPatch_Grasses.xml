@@ -99,7 +99,7 @@
 		<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Plant_Grass"]/plant/maxMeshCount</xpath>
 		<value>
-			<maxMeshCount>9</maxMeshCount>
+			<maxMeshCount>16</maxMeshCount>
 		</value>	
     </Operation>
 	<Operation Class="PatchOperationReplace">
@@ -141,13 +141,13 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Plant_Grass"]/plant</xpath>
 		<value>
-			<wildClusterWeight>64</wildClusterWeight>
+			<wildClusterWeight>20</wildClusterWeight>
 		</value>
     </Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Plant_Grass"]/plant</xpath>
 		<value>
-			<wildClusterRadius>32</wildClusterRadius>
+			<wildClusterRadius>42</wildClusterRadius>
 		</value>
     </Operation>
 
