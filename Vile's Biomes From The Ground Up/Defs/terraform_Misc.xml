@@ -28,7 +28,68 @@
 		</statBases>
 	</ThingDef>
 	
-	
+	<ThingDef ParentName="RFF_TerraformBasicBase">
+		<defName>Terraform_FillQuarry</defName>
+		<label>Reclaim Soil</label>
+		<description>Reclaim soil from an retired quarry.</description>
+		<uiIconPath>UI/Icons/Terraforming/UndevelopedSoil</uiIconPath>
+		<modExtensions>
+			<li Class="FertileFields.Terrain">
+				<above>
+					<li>QRY_ReclaimedSoil</li>
+				</above>
+				<result>RockySoil</result>
+			</li>
+		</modExtensions>
+		<costList>		
+			<CrushedStone>6</CrushedStone>
+			<SandResource>4</SandResource>
+		</costList>
+		<statBases>
+			<WorkToBuild>400</WorkToBuild>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="RFF_TerraformBasicBase">
+		<defName>Terraform_FillStone</defName>
+		<label>Break up stone</label>
+		<description>Break up solid stone into gravel.</description>
+		<uiIconPath>UI/Icons/Terraforming/Gravel</uiIconPath>
+		<modExtensions>
+			<li Class="FertileFields.Terrain">
+				<above>
+					<li>Sandstone_Smooth</li>
+					<li>Sandstone_Rough</li>
+					<li>Sandstone_RoughHewn</li>
+					<li>Granite_Smooth</li>
+					<li>Granite_Rough</li>
+					<li>Granite_RoughHewn</li>
+					<li>Limestone_Smooth</li>
+					<li>Limestone_Rough</li>
+					<li>Limestone_RoughHewn</li>
+					<li>Slate_Smooth</li>
+					<li>Slate_Rough</li>
+					<li>Slate_RoughHewn</li>
+					<li>Marble_Smooth</li>
+					<li>Marble_Rough</li>
+					<li>Marble_RoughHewn</li>	
+					<li>ZF_BasaltBase_Smooth</li>
+					<li>ZF_BasaltBase_Rough</li>
+					<li>ZF_BasaltBase_RoughHewn</li>
+					<li>ZF_ClaystoneBase_Smooth</li>
+					<li>ZF_ClaystoneBase_Rough</li>
+					<li>ZF_ClaystoneBase_RoughHewn</li>
+					<li>ZF_MudstoneBase_Smooth</li>
+					<li>ZF_MudstoneBase_Rough</li>
+					<li>ZF_MudstoneBase_RoughHewn</li>	
+					</above>
+				<result>Gravel</result>
+			</li>
+		</modExtensions>
+		<statBases>
+			<WorkToBuild>400</WorkToBuild>
+		</statBases>
+	</ThingDef>
 	
 	<!--MISC -->
 	<ThingDef ParentName="RFF_TerraformBasicBase">	 

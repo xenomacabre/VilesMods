@@ -79,6 +79,11 @@
 				<li>
 					<terrain>MossyTerrain</terrain>
 					<min>-999</min>
+					<max>0.75</max>
+				</li>
+                <li>
+					<terrain>Soil</terrain>
+					<min>0.75</min>
 					<max>999</max>
 				</li>
 			</terrainsByFertility>
@@ -90,31 +95,31 @@
 		<value>
 			<terrainPatchMakers>
 				<li>
-					<perlinFrequency>0.015</perlinFrequency>
+					<perlinFrequency>0.02</perlinFrequency>
 					<thresholds>
 						<li>
 							<terrain>MossyTerrain</terrain>
-							<min>0.15</min>
-							<max>0.45</max>
+							<min>0.4</min>
+							<max>0.6</max>
 						</li>
 						<li>
 							<terrain>SoilRich</terrain>
-							<min>0.45</min>
-							<max>0.60</max>
+							<min>0.6</min>
+							<max>0.5</max>
 						</li>
 						<li>
 							<terrain>WaterShallow</terrain>
-							<min>0.60</min>
-							<max>0.72</max>
+							<min>0.5</min>
+							<max>0.5</max>
 						</li>
 						<li>
 							<terrain>WaterDeep</terrain>
-							<min>0.72</min>
+							<min>0.95</min>
 							<max>1.24</max>
 						</li>
 					</thresholds>
 				</li>
-				<li>
+				<!--<li>
 					<perlinFrequency>0.01</perlinFrequency>
 					<thresholds>
 						<li>
@@ -128,9 +133,9 @@
 							<max>1.2</max>
 						</li>
 					</thresholds>
-				</li>
+				</li>-->
 				<li>
-					<perlinFrequency>0.08</perlinFrequency>
+					<perlinFrequency>0.02</perlinFrequency>
 					<thresholds>
 						<li>
 							<terrain>WeakSoil</terrain> <!-- Weak Soil -->

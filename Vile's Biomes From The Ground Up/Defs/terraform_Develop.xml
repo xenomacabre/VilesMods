@@ -63,8 +63,8 @@ Drain Wetland
 		<costList>
 			<Dirt>4</Dirt>
 			<SoftClay>4</SoftClay>
-			<Fertilizer>4</Fertilizer>
-			<Peat>2</Peat>
+			<Fertilizer>6</Fertilizer>
+			<!--<Peat>2</Peat>-->
 		</costList>
 		<statBases>
 			<WorkToBuild>960</WorkToBuild>

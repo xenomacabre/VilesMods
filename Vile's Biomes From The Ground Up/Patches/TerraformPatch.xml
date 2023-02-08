@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "SoilRich-SoilTilled"]/costList</xpath>
+				<value>
+					<costList>
+						<Dirt>4</Dirt>
+						<SoftClay>2</SoftClay>
+						<SandResource>2</SandResource>
+						<Fertilizer>8</Fertilizer>
+					</costList>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+    <Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "Topsoil-DirtFert"]/costList</xpath>
+				<value>
+					<costList>
+						<Dirt>8</Dirt>
+						<SoftClay>4</SoftClay>
+						<SandResource>6</SandResource>
+						<Fertilizer>10</Fertilizer>
+					</costList>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+    
+    <Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "Stone-Topsoil"]/costList</xpath>
+				<value>
+					<costList>
+						<Dirt>8</Dirt>
+						<SoftClay>7</SoftClay>
+						<SandResource>8</SandResource>
+						<Fertilizer>12</Fertilizer>
+					</costList>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

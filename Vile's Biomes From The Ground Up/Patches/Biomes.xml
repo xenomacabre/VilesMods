@@ -35,6 +35,9 @@
 						<Plant_SwordFern>0.3</Plant_SwordFern>
 					<Plant_Sedge>2.5</Plant_Sedge>
 					<Plant_Moss>0.9</Plant_Moss>
+                			<Plant_Tinctoria MayRequire="Ludeon.RimWorld.Ideology">0.015</Plant_Tinctoria>
+			<Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">1.2</Plant_GrayGrass>
+			<Plant_RatPalm MayRequire="Ludeon.RimWorld.Biotech">0.5</Plant_RatPalm>
 				</wildPlants>
 			</value>
     </Operation>	
@@ -72,6 +75,8 @@
 					<Plant_Sedge>2.5</Plant_Sedge>
 					<Plant_Moss>0.9</Plant_Moss>
 					<Plant_TreeTeak>0.35</Plant_TreeTeak>
+                <Plant_Tinctoria MayRequire="Ludeon.RimWorld.Ideology">0.02</Plant_Tinctoria>
+			<Plant_RatPalm MayRequire="Ludeon.RimWorld.Biotech">1.5</Plant_RatPalm>
 				</wildPlants>
 			</value>
     </Operation>	
@@ -110,6 +115,8 @@
 					<Plant_TreePalmetto>1.0</Plant_TreePalmetto>
 					<Plant_PeatMoss>0.3</Plant_PeatMoss>
 					<Plant_TreeTeak>0.35</Plant_TreeTeak>
+                <Plant_Tinctoria MayRequire="Ludeon.RimWorld.Ideology">0.02</Plant_Tinctoria>
+			<Plant_RatPalm MayRequire="Ludeon.RimWorld.Biotech">1.5</Plant_RatPalm>
 				</wildPlants>
 			</value>
     </Operation>	
@@ -183,6 +190,10 @@
 				<Plant_TreePoplar>1.0</Plant_TreePoplar>
 				<Plant_TreeMaple>0.9</Plant_TreeMaple>
 				<Plant_TreeWillow>0.8</Plant_TreeWillow>
+            <Plant_Tinctoria MayRequire="Ludeon.RimWorld.Ideology">0.01</Plant_Tinctoria>
+			<Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">2</Plant_GrayGrass>
+			<Plant_Ripthorn MayRequire="Ludeon.RimWorld.Biotech">0.8</Plant_Ripthorn>
+			<Plant_Witchwood MayRequire="Ludeon.RimWorld.Biotech">0.6</Plant_Witchwood>
 			</wildPlants>
 		</value>
 </Operation>	
@@ -261,6 +272,8 @@
 			<Plant_PeatMoss>0.4</Plant_PeatMoss>
 			<Plant_Moss>0.8</Plant_Moss>
 			<Plant_Rush>2.0</Plant_Rush>
+        <Plant_Tinctoria MayRequire="Ludeon.RimWorld.Ideology">0.015</Plant_Tinctoria>
+			<Plant_Witchwood MayRequire="Ludeon.RimWorld.Biotech">1.1</Plant_Witchwood>
 		</wildPlants>
 		</value>
 </Operation>		
@@ -324,13 +337,13 @@
 			<Plant_Mushroom>0.15</Plant_Mushroom>
 			<Plant_Berry>0.2</Plant_Berry>
 			<Plant_Bush>0.5</Plant_Bush>
-			<Plant_PeatMoss>0.2</Plant_PeatMoss>
+			<Plant_PeatMoss>0.1</Plant_PeatMoss>
 			<Plant_Blueberry>0.45</Plant_Blueberry>
 			<Plant_Juniper>0.45</Plant_Juniper>
 			<Plant_Healroot>0.06</Plant_Healroot>
 			<Plant_Rhododendron>0.1</Plant_Rhododendron>
 			<Plant_TallGrass>4.0</Plant_TallGrass>
-			<Plant_Moss>0.5</Plant_Moss>
+			<Plant_Moss>0.6</Plant_Moss>
 			<!--<Plant_Venus>0.5</Plant_Venus>
 			<Plant_WhiteRose>0.15</Plant_WhiteRose>-->
 			<Plant_Dandelion>0.5</Plant_Dandelion>
@@ -345,6 +358,10 @@
 			<Plant_Mushroom_Red>0.17</Plant_Mushroom_Red>
 			<!--<Plant_TreeMaple>0.08</Plant_TreeMaple>-->
 			<PlantTreeRedwood>0.11</PlantTreeRedwood>
+            <Plant_Tinctoria MayRequire="Ludeon.RimWorld.Ideology">0.0075</Plant_Tinctoria>
+			<Plant_Ripthorn MayRequire="Ludeon.RimWorld.Biotech">4</Plant_Ripthorn>
+			<Plant_TreeGrayPine MayRequire="Ludeon.RimWorld.Biotech">12</Plant_TreeGrayPine>
+			<Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">4.0</Plant_GrayGrass>
 		</wildPlants>
 		</value>
 </Operation>
@@ -486,6 +503,8 @@
 				<Plant_Crocus>0.1</Plant_Crocus>
 				<Plant_TreeAcacia>0.45</Plant_TreeAcacia>
 				<Plant_TreeDrago>0.05</Plant_TreeDrago>
+                			<Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">5</Plant_GrayGrass>
+			<Plant_PebbleCactus MayRequire="Ludeon.RimWorld.Biotech">0.7</Plant_PebbleCactus>
 			</wildPlants>
 	
 		</value>
@@ -530,6 +549,9 @@
 				<Plant_Daylily>0.4</Plant_Daylily>
 				<Plant_TreeAcacia>0.65</Plant_TreeAcacia>
 				<Plant_TreeDrago>0.12</Plant_TreeDrago>
+                			<Plant_Tinctoria MayRequire="Ludeon.RimWorld.Ideology">0.005</Plant_Tinctoria>
+			<Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">5</Plant_GrayGrass>
+			<Plant_PebbleCactus MayRequire="Ludeon.RimWorld.Biotech">1</Plant_PebbleCactus>    
 			</wildPlants>
 		</value>
 </Operation>	
@@ -550,6 +572,9 @@
 				<Plant_Daylily>0.4</Plant_Daylily>
 				<Plant_TreeAcacia>0.45</Plant_TreeAcacia>
 				<Plant_TreeDrago>0.25</Plant_TreeDrago>
+                	<Plant_Tinctoria MayRequire="Ludeon.RimWorld.Ideology">0.005</Plant_Tinctoria>
+			<Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">5</Plant_GrayGrass>
+			<Plant_PebbleCactus MayRequire="Ludeon.RimWorld.Biotech">1</Plant_PebbleCactus>   
 			</wildPlants>
 		</value>
 </Operation>		
@@ -568,6 +593,8 @@
 				<Plant_Bush>0.05</Plant_Bush>
 				<Plant_TreeAcacia>0.25</Plant_TreeAcacia>
 				<Plant_TreeDrago>0.08</Plant_TreeDrago>
+                <Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">5</Plant_GrayGrass>
+			<Plant_PebbleCactus MayRequire="Ludeon.RimWorld.Biotech">1</Plant_PebbleCactus>
 			</wildPlants>
 		</value>
 </Operation>	

@@ -397,7 +397,7 @@
 			<harvestWork>200</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>RawBearberries</harvestedThingDef>
-			<harvestYield>2</harvestYield>
+			<harvestYield>7</harvestYield>
 			<maxMeshCount>4</maxMeshCount>
 			<fertilityMin>0.12</fertilityMin>
 			<wildClusterWeight>40</wildClusterWeight>
@@ -535,13 +535,15 @@
 				<li>Animal_A1</li>
 			</sowResearchPrerequisites>
 			<wildOrder>2</wildOrder>
+            <wildClusterRadius>8</wildClusterRadius>
+			<wildClusterWeight>64</wildClusterWeight>
 		</plant>
 	</ThingDef>
 	
 	<ThingDef ParentName="SK_DeciduousTreeBase">
 		<defName>Plant_TreeDwarfWillow</defName>
 		<label>dwarf willow tree</label>
-		<description>A variety of willow that has adapted to growing in cold environments.</description>
+		<description>A variety of willow that has adapted to growing in cold environments. Due to its small stature, it's only useful for pulp and firewood.</description>
 		<graphicData>
 			<texPath>Things/Trees/TreeWillow</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
