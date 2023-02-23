@@ -696,7 +696,8 @@
 			<li>
 				<filter>
 					<categories>
-						<li>Coal</li> <li>Metallurgical</li>
+						<li>Coal</li> 
+						<li>Metallurgical</li>
 					</categories>
 				</filter>
 				<count>3</count>
@@ -707,7 +708,8 @@
 				<li>Sphalerite</li>
 			</thingDefs>
 			<categories>
-				<li>Coal</li> <li>Metallurgical</li>
+				<li>Coal</li> 
+				<li>Metallurgical</li>
 			</categories>
 		</fixedIngredientFilter>
 		<products>
