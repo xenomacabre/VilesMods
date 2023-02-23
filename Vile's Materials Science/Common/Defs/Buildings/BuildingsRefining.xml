@@ -64,6 +64,7 @@
 			<li>SmeltPentlandite_Industrial</li>
 			<li>SmeltScheelite_Industrial</li>
 			<li>SmeltRutile_Industrial</li>
+			<li>SmeltCarnotite_Industrial</li>
 		</recipes>
 		<tickerType>Normal</tickerType>
 		<comps>
@@ -202,6 +203,7 @@
 				   <li>SmeltPentlandite_HighTech</li>
 				   <li>SmeltScheelite_HighTech</li>
 				   <li>SmeltRutile_HighTech</li>
+				   <li>SmeltCarnotite_HighTech</li>
 			   </recipes>
 			</li>
 		</comps>
