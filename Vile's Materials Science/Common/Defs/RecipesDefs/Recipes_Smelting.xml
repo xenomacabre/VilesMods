@@ -1198,7 +1198,7 @@
 	</RecipeDef>
 	<RecipeDef>
 		<defName>SmeltRutile_HighTech</defName>
-		<label>Spec: Rutile (20 T1, 10 Mo)</label>
+		<label>Spec: Rutile (20 Ti, 10 Mo)</label>
 		<description>Process Rutile into Tungsten. Molybdenum is also recovered, but it takes more time and energy.</description>
 		<jobString>Processing Rutile (Ti, Cr).</jobString>
 		<workAmount>5600</workAmount>
