@@ -3,7 +3,7 @@
 	 <RecipeDef>
     <defName>ConvertResourcesRaw</defName>
     <label>Make nucleosynthetic substrate</label>
-    <description>WORK IN PROGRESS. Create nucleosynthetic substrate by processing and converting various types of raw resources. Produces 150.</description>
+    <description>Create nucleosynthetic substrate by processing and converting various types of raw resources. Produces 150.</description>
     <jobString>Converting resources to inorganic matter.</jobString>
     <workAmount>10000</workAmount>
 		<workSpeedStat>ElectronicCraftingSpeed</workSpeedStat>

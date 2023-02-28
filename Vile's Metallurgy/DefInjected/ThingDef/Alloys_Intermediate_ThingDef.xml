@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/ThingDefs_Resources/Alloys_Intermediate.xml-->
+            <!-- Iron Bloom -->
+<IronBloom.label>Железное цветение</IronBloom.label>
+                  <!-- An unrefined product of smelting iron ore in a bloomery. It's porous and is full of slag and impurities, so is quite worthless until it is forged into wrought iron by removing the other components with heat and a hammer. -->
+<IronBloom.description>Непереработанный продукт выплавки железной руды на печи. Он пористый и полон шлака и примесей, поэтому совершенно бесполезен, пока его не переработают в кованое железо, удалив другие компоненты с помощью ковки.</IronBloom.description>
+          <!-- Pig Iron Ingot -->
+<PigIron.label>Слиток чугуна</PigIron.label>
+                <!-- When iron ore is smelted in a high-temperature blast furnace, you get pig iron—a crude, useless intermediate product which is very high in carbon. It can be further refined by melting in a foundry to produce high-carbon cast iron, or decarbonized into useful wrought iron at a finery forge or puddling furnace. -->
+<PigIron.description>Когда железная руда выплавляется в высокотемпературной доменной печи, вы получаете чугун — сырой, бесполезный промежуточный продукт с очень высоким содержанием углерода. Он может быть дополнительно переработан путем плавки в печке для получения высокоуглеродистого чугуна или обезуглероживания в пригодное кованое железо в кузнице или печи для переработки чугуна.</PigIron.description>
+               <!-- Blister Steel Bar -->
+<BlisterSteel.label>Слиток чёрной стали</BlisterSteel.label>
+                     <!-- Useless on its own, blister steel is an intermediate iron product where carbon is baked into the outer layers. It's used to make crucible steel and can also be folded into forged steel. -->
+<BlisterSteel.description>Бесполезна сама по себе, чёрная сталь это средняя сталь, в которой карбон находится в наружных слоях. Она может быть перекована в кованную сталь.</BlisterSteel.description>
+
+</LanguageData>

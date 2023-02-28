@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+<RecipeDef Name="SeasonFirewoodBase" Abstract="True">
+	<recipeUsers>
+		<li>SeasoningRack</li>
+	</recipeUsers>
+	<temperatureSafe>
+		<min>-273</min>
+		<max>1000</max>
+	</temperatureSafe>
+	<temperatureIdeal>
+		<min>20</min>
+		<max>60</max>
+	</temperatureIdeal>
+	<sunFactor>
+		<min>0.75</min>
+		<max>1.35</max>
+	</sunFactor>
+	<rainFactor>
+		<min>1</min>
+		<max>0.5</max>
+	</rainFactor>
+	<speedBelowSafe>0.2</speedBelowSafe>
+	<speedAboveSafe>1</speedAboveSafe>
+	<graphicSuffix>_filled</graphicSuffix>
+</RecipeDef>
+
+<RecipeDef ParentName="SeasonFirewoodBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<defName>SeasonFirewood_Cecropia</defName>
+	<label>season cecropia</label>
+	<description>Burns 60% more efficiently. Takes 30 days to season.</description>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Firewood_Cecropia</li>
+				</thingDefs>
+			</filter>
+			<count>20</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>Firewood_Cecropia</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<FirewoodSeasoned_Cecropia>20</FirewoodSeasoned_Cecropia>
+	</products>
+	<processDays>30</processDays>
+	<graphicSuffix>_filled</graphicSuffix>
+</RecipeDef>
+<RecipeDef ParentName="SeasonFirewoodBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<defName>SeasonFirewood_Pine</defName>
+	<label>season pine</label>
+	<description>Burns 30% more efficiently. Takes 15 days to season.</description>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Firewood_Pine</li>
+				</thingDefs>
+			</filter>
+			<count>15</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>Firewood_Pine</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<FirewoodSeasoned_Pine>15</FirewoodSeasoned_Pine>
+	</products>
+	<processDays>15</processDays>
+	<graphicSuffix>_filled</graphicSuffix>
+</RecipeDef>
+<RecipeDef ParentName="SeasonFirewoodBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<defName>SeasonFirewood_Willow</defName>
+	<label>season willow</label>
+	<description>Burns 80% more efficiently. Takes 45 days to season.</description>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Firewood_Willow</li>
+				</thingDefs>
+			</filter>
+			<count>15</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>Firewood_Willow</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<FirewoodSeasoned_Willow>15</FirewoodSeasoned_Willow>
+	</products>
+	<processDays>45</processDays>
+	<graphicSuffix>_filled</graphicSuffix>
+</RecipeDef>
+<RecipeDef ParentName="SeasonFirewoodBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<defName>SeasonFirewood_Redwood</defName>
+	<label>season redwood</label>
+	<description>Burns 40% more efficiently. Takes 30 days to season.</description>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Firewood_Redwood</li>
+				</thingDefs>
+			</filter>
+			<count>15</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>Firewood_Redwood</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<FirewoodSeasoned_Redwood>15</FirewoodSeasoned_Redwood>
+	</products>
+	<processDays>30</processDays>
+	<graphicSuffix>_filled</graphicSuffix>
+</RecipeDef>
+<RecipeDef ParentName="SeasonFirewoodBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<defName>SeasonFirewood_Spruce</defName>
+	<label>season spruce</label>
+	<description>Burns 70% more efficiently. Takes 30 days to season.</description>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Firewood_Spruce</li>
+				</thingDefs>
+			</filter>
+			<count>15</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>Firewood_Spruce</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<FirewoodSeasoned_Spruce>15</FirewoodSeasoned_Spruce>
+	</products>
+	<processDays>30</processDays>
+	<graphicSuffix>_filled</graphicSuffix>
+</RecipeDef>
+<RecipeDef ParentName="SeasonFirewoodBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<defName>SeasonFirewood_Cypress</defName>
+	<label>season cypress</label>
+	<description>Burns 40% more efficiently. Takes 20 days to season.</description>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Firewood_Cypress</li>
+				</thingDefs>
+			</filter>
+			<count>15</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>Firewood_Cypress</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<FirewoodSeasoned_Cypress>15</FirewoodSeasoned_Cypress>
+	</products>
+	<processDays>20</processDays>
+	<graphicSuffix>_filled</graphicSuffix>
+</RecipeDef>
+<RecipeDef ParentName="SeasonFirewoodBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<defName>SeasonFirewood_Poplar</defName>
+	<label>season poplar</label>
+	<description>Burns 80% more efficiently. Takes 20 days to season.</description>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Firewood_Poplar</li>
+				</thingDefs>
+			</filter>
+			<count>15</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>Firewood_Poplar</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<FirewoodSeasoned_Poplar>15</FirewoodSeasoned_Poplar>
+	</products>
+	<processDays>20</processDays>
+	<graphicSuffix>_filled</graphicSuffix>
+</RecipeDef>
+<RecipeDef ParentName="SeasonFirewoodBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<defName>SeasonFirewood_Maple</defName>
+	<label>season maple</label>
+	<description>Burns 40% more efficiently. Takes 20 days to season.</description>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Firewood_Maple</li>
+				</thingDefs>
+			</filter>
+			<count>15</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>Firewood_Maple</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<FirewoodSeasoned_Maple>15</FirewoodSeasoned_Maple>
+	</products>
+	<processDays>20</processDays>
+	<graphicSuffix>_filled</graphicSuffix>
+</RecipeDef>
+<RecipeDef ParentName="SeasonFirewoodBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<defName>SeasonFirewood_Teak</defName>
+	<label>season teak</label>
+	<description>Burns 40% more efficiently. Takes 60 days to season.</description>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Firewood_Teak</li>
+				</thingDefs>
+			</filter>
+			<count>15</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>Firewood_Teak</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<FirewoodSeasoned_Teak>15</FirewoodSeasoned_Teak>
+	</products>
+	<processDays>60</processDays>
+	<graphicSuffix>_filled</graphicSuffix>
+</RecipeDef>
+<RecipeDef ParentName="SeasonFirewoodBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<defName>SeasonFirewood_Acacia</defName>
+	<label>season acacia</label>
+	<description>Burns 40% more efficiently. Takes 45 days to season.</description>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Firewood_Acacia</li>
+				</thingDefs>
+			</filter>
+			<count>15</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>Firewood_Acacia</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<FirewoodSeasoned_Acacia>15</FirewoodSeasoned_Acacia>
+	</products>
+	<processDays>45</processDays>
+	<graphicSuffix>_filled</graphicSuffix>
+</RecipeDef>
+<RecipeDef ParentName="SeasonFirewoodBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<defName>SeasonFirewood_Birch</defName>
+	<label>season birch</label>
+	<description>Burns 40% more efficiently. Takes 30 days to season.</description>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Firewood_Birch</li>
+				</thingDefs>
+			</filter>
+			<count>15</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>Firewood_Birch</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<FirewoodSeasoned_Birch>15</FirewoodSeasoned_Birch>
+	</products>
+	<processDays>30</processDays>
+	<graphicSuffix>_filled</graphicSuffix>
+</RecipeDef>
+<RecipeDef ParentName="SeasonFirewoodBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<defName>SeasonFirewood_Oak</defName>
+	<label>season oak</label>
+	<description>Burns 60% more efficiently. Takes 60 days to season.</description>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Firewood_Oak</li>
+				</thingDefs>
+			</filter>
+			<count>15</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>Firewood_Oak</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<FirewoodSeasoned_Oak>15</FirewoodSeasoned_Oak>
+	</products>
+	<processDays>60</processDays>
+	<graphicSuffix>_filled</graphicSuffix>
+</RecipeDef>
+<RecipeDef ParentName="SeasonFirewoodBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<defName>SeasonFirewood_Bamboo</defName>
+	<label>season bamboo</label>
+	<description>Burns 70% more efficiently. Takes 20 days to season.</description>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Firewood_Bamboo</li>
+				</thingDefs>
+			</filter>
+			<count>25</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>Firewood_Bamboo</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<FirewoodSeasoned_Bamboo>25</FirewoodSeasoned_Bamboo>
+	</products>
+	<processDays>20</processDays>
+	<graphicSuffix>_filled</graphicSuffix>
+</RecipeDef>
+<RecipeDef ParentName="SeasonFirewoodBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<defName>SeasonFirewood_Dragonwood</defName>
+	<label>season dragonwood</label>
+	<description>Burns 90% more efficiently. Takes 45 days to season.</description>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Firewood_Dragonwood</li>
+				</thingDefs>
+			</filter>
+			<count>15</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>Firewood_Dragonwood</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<FirewoodSeasoned_Dragonwood>15</FirewoodSeasoned_Dragonwood>
+	</products>
+	<processDays>45</processDays>
+	<graphicSuffix>_filled</graphicSuffix>
+</RecipeDef>
+<RecipeDef ParentName="SeasonFirewoodBase" Class="UniversalFermenterSK.RecipeDef_UF">
+	<defName>SeasonFirewood_Mangrove</defName>
+	<label>season mangrove</label>
+	<description>Burns 230% more efficiently. Takes 60 days to season.</description>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Firewood_Mangrove</li>
+				</thingDefs>
+			</filter>
+			<count>15</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>Firewood_Mangrove</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<FirewoodSeasoned_Mangrove>15</FirewoodSeasoned_Mangrove>
+	</products>
+	<processDays>60</processDays>
+	<graphicSuffix>_filled</graphicSuffix>
+</RecipeDef>
+	
+</Defs>

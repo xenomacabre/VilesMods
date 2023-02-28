@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  	<RR_PawnBadge.BadgeDef>
+		<defName>Building</defName>
+		<label>Building</label>
+		<description>Building</description>
+		<icon>PawnBadge/Skill/Building</icon>
+	</RR_PawnBadge.BadgeDef>
+  	<RR_PawnBadge.BadgeDef>
+		<defName>Harvest</defName>
+		<label>Harvest</label>
+		<description>Harvest</description>
+		<icon>PawnBadge/Skill/Harvest</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>Timber</defName>
+		<label>Timber</label>
+		<description>Timber</description>
+		<icon>PawnBadge/Skill/Timber</icon>
+	</RR_PawnBadge.BadgeDef>
+	
+  	<RR_PawnBadge.BadgeDef>
+		<defName>LaborCraft</defName>
+		<label>Fast Labor</label>
+		<description>Fast Labor Craft</description>
+		<icon>PawnBadge/Skill/LaborCraft</icon>
+	</RR_PawnBadge.BadgeDef>
+  	<RR_PawnBadge.BadgeDef>
+		<defName>SkillCraft</defName>
+		<label>Skill Craft</label>
+		<description>Skill Craft</description>
+		<icon>PawnBadge/Skill/SkillCraft</icon>
+	</RR_PawnBadge.BadgeDef>
+
+
+
+<!-- Melee -->
+  	<RR_PawnBadge.BadgeDef>
+		<defName>Tank</defName>
+		<label>Tank</label>
+		<description>Tank</description>
+		<icon>PawnBadge/Militar/Tank</icon>
+	</RR_PawnBadge.BadgeDef>
+  	<RR_PawnBadge.BadgeDef>
+		<defName>HeavyMelee</defName>
+		<label>Heavy Melee</label>
+		<description>Heavy Melee</description>
+		<icon>PawnBadge/Militar/HeavyMelee</icon>
+	</RR_PawnBadge.BadgeDef>
+  	<RR_PawnBadge.BadgeDef>
+		<defName>LightMelee</defName>
+		<label>Light Melee</label>
+		<description>Light Melee</description>
+		<icon>PawnBadge/Militar/LightMelee</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>ReservistM</defName>
+		<label>Reservist-Melee</label>
+		<description>Reservist-Melee</description>
+		<icon>PawnBadge/Militar/ReservistM</icon>
+	</RR_PawnBadge.BadgeDef>
+
+<!-- RANGED -->
+  	<RR_PawnBadge.BadgeDef>
+		<defName>Crossbow</defName>
+		<label>Archer</label>
+		<description>Archer</description>
+		<icon>PawnBadge/Militar/Crossbow</icon>
+	</RR_PawnBadge.BadgeDef>
+  	<RR_PawnBadge.BadgeDef>
+		<defName>Sharpshooter</defName>
+		<label>Sharpshooter</label>
+		<description>Sharpshooter</description>
+		<icon>PawnBadge/Militar/Sharpshooter</icon>
+	</RR_PawnBadge.BadgeDef>
+  	<RR_PawnBadge.BadgeDef>
+		<defName>Infantry</defName>
+		<label>Infantry</label>
+		<description>Infantry</description>
+		<icon>PawnBadge/Militar/Infantry</icon>
+	</RR_PawnBadge.BadgeDef>
+  	<RR_PawnBadge.BadgeDef>
+		<defName>ReservistR</defName>
+		<label>Reservist-Ranged</label>
+		<description>Reservist-Ranged</description>
+		<icon>PawnBadge/Militar/ReservistR</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	
+</Defs>

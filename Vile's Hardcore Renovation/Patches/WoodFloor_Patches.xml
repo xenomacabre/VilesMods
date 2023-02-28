@@ -605,16 +605,16 @@
 				<defName>WeaveFloor</defName>
 				<label>flax carpet</label>
 				<renderPrecedence>250</renderPrecedence>
-				<description>A primitive rug woven from bast fibers. Quite flamamble. Beauty: 2. Cleanliness: -0.3 Install time: 3</description>
+				<description>A primitive rug woven from bast fibers. Quite flamamble. Beauty: 2. Cleanliness: 0 Install time: 3</description>
 				<texturePath>Terrain/Surfaces/WeaveFloor</texturePath>
 				<statBases>
 					<WorkToBuild>350</WorkToBuild>
 					<Beauty>2</Beauty>
 					<Flammability>0.6</Flammability>
-					<Cleanliness>-0.3</Cleanliness>
+					<Cleanliness>0</Cleanliness>
 				</statBases>
 				<costList>
-					<RawFlax>5</RawFlax>
+					<RawFlax>4</RawFlax>
 				</costList>
 				<researchPrerequisites><li>Carpets_A1</li></researchPrerequisites>
 			</TerrainDef>

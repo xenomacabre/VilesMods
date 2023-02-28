@@ -1,6 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ThingDef ParentName="SK_DoorBase">
+		<defName>DoorBarn</defName>
+		<label>barn door</label>
+		<description>Animals can pass through this door. Lock it to close it for the winter.</description>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Building/Doors/DoorBarn_Mover</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<damageData>
+				<!--  no damage marks because they don't move with the door
+        <rect>(0,0.12,1,0.76)</rect>-->
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Doors/DoorBarn_MenuIcon</uiIconPath>
+		<stuffCategories>
+			<li>SoftwoodLumber</li>
+			<li>HardwoodLumber</li>
+			<li>UltrahardwoodLumber</li>
+			<li>EngineeredLumber</li>
+		</stuffCategories>
+		<building>
+		  <roamerCanOpen>true</roamerCanOpen>
+		</building>
+		<costStuffCount>10</costStuffCount>
+		<costList>
+			<ComponentMedieval>1</ComponentMedieval>
+		</costList>
+	</ThingDef>
+
+	<ThingDef ParentName="SK_DoorBase">
+		<defName>DoorOrnate</defName>
+		<label>ornate door</label>
+		<description>A door with ornate hinges and reinforced with metal bands.</description>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>900</WorkToBuild>
+			<Beauty>5</Beauty>
+			<DoorOpenSpeed>0.9</DoorOpenSpeed>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Building/Doors/DoorOrnate_Mover</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<damageData>
+				<!--  no damage marks because they don't move with the door
+        <rect>(0,0.12,1,0.76)</rect>-->
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Doors/DoorOrnate_MenuIcon</uiIconPath>
+		<stuffCategories>
+			<li>SoftwoodLumber</li>
+			<li>HardwoodLumber</li>
+			<li>UltrahardwoodLumber</li>
+			<li>EngineeredLumber</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<costList>
+			<ComponentMedieval>5</ComponentMedieval>
+		</costList>
+	</ThingDef>
+	<ThingDef ParentName="SK_DoorBase">
 		<defName>PalisadeGate</defName>
 		<label>palisade fence gate</label>
 		<description>A strong gate made of wooden logs.</description>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/Buildings/Buildings_ProductionVile.xml-->
+          <!-- fire pit -->
+<FirePit.label>Кострище</FirePit.label>
+                <!-- A large oven dug into the earth. It can burn hotter than a campfire - enough to smelt pre-iron age metals such as lead and bronze. -->
+<FirePit.description>Большая печь, врытая в землю. Она может гореть жарче, чем обычный костер, - этого достаточно, чтобы выплавлять металлы до-железного века, такие как свинец и бронза.</FirePit.description>
+           <!-- bloomery -->
+<Bloomery.label>Печь для создания цветений</Bloomery.label>
+                 <!-- A bloomery is a small furnace used to reduce iron ore (ie. dirty, rusty rocks) into a iron bloom. The furnace doesn't get hot enough to melt the iron, but instead the carbon monoxide (CO) from the burning carbon fuel (charcoal) reacts with the iron oxide (FeO) to make carbon dioxide (CO2), leaving behind metallic iron (Fe) in a spongy mass of slag. Then you'll want to have a blacksmith beat the impurities out with a hammer if you want iron that you can actually use. -->
+<Bloomery.description>Печь для создания цветений - это небольшая печь, используемая для переработки железной руды (т.е. грязные, ржавые камни) в железное цветение. Печь не нагревается настолько, чтобы расплавить железо, но вместо этого монооксид углерода (CO) из горящего углеродного топлива (древесного угля) вступает в реакцию с оксидом железа (FeO) с образованием диоксида углерода (CO2), оставляя металлическое железо (Fe) в виде губчатой массы шлака. Затем вам понадобится, чтобы кузнец выбил примеси молотком, если вам нужно железо, которое вы действительно можете использовать.</Bloomery.description>
+               <!-- blast furnace -->
+<TableFurnace.label>Доменная печь</TableFurnace.label>
+                     <!-- A furnace used for smelting basic metal (typically iron) ores into metal alloys. A bellows blasts air into the furnace and the carbon in the fuel (coal, coke, or charcoal) reacts with the oxygen in the ore removing impurities and leaving behind iron rich with a high carbon content (pig iron). Copper, lead, bronze, gold and silver can also be smelted here, though those processes are much simpler due to lower melting points. Powering the bellows with a steam engine can speed up the process. -->
+<TableFurnace.description>Печь, используемая для плавки основных металлических (обычно железных) руд в металлические сплавы. Меха нагнетают воздух в печь, и углерод в топливе (уголь, кокс или древесный уголь) вступает в реакцию с кислородом в руде, удаляя примеси и оставляя после себя железо с высоким содержанием углерода (чугун). В ней также можно выплавлять медь, свинец, бронзу, золото и серебро, хотя эти процессы намного проще из-за более низких температур плавления. Приведение в действие мехов с помощью парового генератора может ускорить этот процесс.</TableFurnace.description>
+               <!-- smithy forge -->
+<FueledSmithy.label>Кузнечный цех</FueledSmithy.label>
+                     <!-- This blacksmithing setup has all the tools needed to build metal armor, work tools, melee weapons, advanced bows and crossbows, as well as simple ammunition such as arrows. It requires some fuel that burns at a high temperature such as coal or peat. -->
+<FueledSmithy.description>В кузнечном цехе есть все инструменты, необходимые для изготовления металлических доспехов, рабочих инструментов, оружия ближнего боя, усовершенствованных луков и арбалетов, а также простые боеприпасы, такие как стрелы. Для этого требуется некоторое количество топлива, которое горит при высокой температуре, например уголь или торф.</FueledSmithy.description>
+         <!-- finery Forge -->
+<Finery.label>Кузница для переработки</Finery.label>
+               <!-- A finery is a forge that specialized in producing wrought bar iron from cast iron or bloom. The raw iron is melted and hammered into shape with a (preferrably) water-powered trip hammer, and then reheated and hammered again until the slag and much of the carbon is removed. At this stage, the melting point is too high to be melted again unless recarbonized. It can also be used to make certain products such as plate armor. -->
+<Finery.description>Кузница для переработку - это кузница, специализирующаяся на производстве кованных слитков из отливного железа или цветений. Необработанное железо расплавляют и придают ему форму (предпочтительно) отбойным молотком на водяной тяге, а затем повторно нагревают и снова отбивают до тех пор, пока не будет удален шлак и большая часть углерода. На этой стадии температура плавления слишком высока, чтобы ее можно было снова расплавить, если только она не подвергнется рекарбонизации. Такое железо может быть использовано для изготовления определенных изделий, таких как пластинчатая броня.</Finery.description>
+          <!-- foundry -->
+<Foundry.label>Литейный цех</Foundry.label>
+                <!-- A reverberatory furnace for melting metals. The material is heated by reflected thermal energy and combustion gasses without direct contact with the fuel (as opposed to a blast furnace). It's a multi-use furnace. Pots and crucibles can be placed in the hearth, or the chamber can be completely filled with molten metal for puddling pig into wrought iron or, technology allowing, certain types of steel. -->
+<Foundry.description>Печь для плавки металлов. Материал нагревается за счет отраженной тепловой энергии и газов сгорания без прямого контакта с топливом (в отличие от доменной печи). Это многоцелевая печь. Горшки и тигли можно поместить в очаг, или камера может быть полностью заполнена расплавленным металлом для выплавки чугуна в кованое железо или, если позволяет технология, некоторые виды стали.</Foundry.description>
+             <!-- water wheel -->
+<WaterWheel.label>Водяное колесо</WaterWheel.label>
+                   <!-- Uses water to produce mechanical energy. Production builds such as the finery must be nearby to be powered by the waterwheel. -->
+<WaterWheel.description>Использует течение для производства механической энергии. Производственные сооружения, такие как кузница для переработки, должны находиться поблизости, чтобы приводиться в действие водяным колесом.</WaterWheel.description>
+              <!-- blowing engine -->
+<SteamEngine.label>Паровой двигатель</SteamEngine.label>
+                    <!-- A stationary steam engine for providing which blows air to speed up the efficiency of furnaces that use a bellows. -->
+<SteamEngine.description>Стационарный паровой двигатель для обеспечения подачи воздуха для повышения эффективности печей, в которых используются меха.</SteamEngine.description>
+            <!-- stamp mill -->
+<StampMill.label>Дробящая мельница</StampMill.label>
+                  <!-- A mill that smashes rather than grinds. It can be powered by hand if you're desperate, but it's meant to be powered by a waterwheel. -->
+<StampMill.description>Мельница, которая скорее разрушает, нежели дробит. Её можно привести в действие вручную если вы в отчаянии, но она предназначена для приведения в действие с помощью водяного колеса.</StampMill.description>
+                 <!-- pottery bench -->
+<PotteryStation.label>Гончарный верстак</PotteryStation.label>
+                       <!-- A potter's wheel and bench for preparing earthenware and ceramic objects for the kiln. -->
+<PotteryStation.description>Гончарный круг и верстак для подготовки керамических изделий к обжигу.</PotteryStation.description>
+
+</LanguageData>

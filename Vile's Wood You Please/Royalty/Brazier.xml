@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<ThingDef ParentName="SK_LampBase">
+		<defName>Brazier</defName>
+		<label>brazier</label>
+		<description>A large, ceremonial bowl used for burning solid fuel.
+Light radius: 9
+Max heat: 25
+Capacity: 30
+Efficiency: 20%</description>
+		<graphicData>
+			<texPath>Things/Building/Misc/Brazier</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<shadowData>
+				<volume>(0.55, 0.35, 0.3)</volume>
+				<offset>(0, 0, -0.28)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.2,0.3,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<pathCost>42</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<fillPercent>0.15</fillPercent>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToBuild>200</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Bulk>30</Bulk>
+			<Mass>15</Mass>
+			<MeditationFocusStrength>0.0</MeditationFocusStrength>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Stony</li>
+			<li>Metallic</li>
+			<li>Ceramic</li>
+			<li>Precious</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<placeWorkers>
+			<li>PlaceWorker_Heater</li>
+			<li>PlaceWorker_MeditationOffsetBuildingsNear</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="SK.CompFueled_Properties">
+						<factorByDifficulty>false</factorByDifficulty>
+						<operatingTemp>700</operatingTemp>
+						<!-- <fireDrawOffset>(0,0,0)</fireDrawOffset>
+						<fireDrawScale>0.2</fireDrawScale>
+						<fuelDrawOffset>(0,0.1,-0.05)</fuelDrawOffset>
+						<fuelDrawScale>0.75</fuelDrawScale> -->
+						<fuelCapacity>40</fuelCapacity>
+						<burnFuelMultiplier>2.5</burnFuelMultiplier>
+						<canAutoBurn>true</canAutoBurn>
+						<smokeEnabled>false</smokeEnabled>
+						<effectOnWeather>true</effectOnWeather>
+						<smokeDensity>0</smokeDensity>
+						<fuelFilter>
+							<categories>
+								<li>Wooden</li>
+							</categories>  
+							<thingDefs>
+								<li>Kindling</li>
+							 	<li>Charcoal</li>
+								<li>Coal</li>
+								<li>Coke</li>
+							</thingDefs>
+						</fuelFilter>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>9</glowRadius>
+				<glowColor>(252,187,113,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>12</heatPerSecond>
+				<heatPushMaxTemperature>23</heatPushMaxTemperature>
+			</li>
+			<li Class="SK.CompProperties_FireOverlayMod">
+				<offset>(0,0,0.22)</offset>
+				<fireSize>1</fireSize>
+			</li>
+			<li Class="CompProperties_MeditationFocus">
+				<statDef>MeditationFocusStrength</statDef>
+				<focusTypes>
+					<li>Flame</li>
+				</focusTypes>
+				<offsets>
+					<li Class="FocusStrengthOffset_Lit">
+						<offset>0.1</offset>
+					</li>
+					<li Class="FocusStrengthOffset_BuildingDefsLit">
+						<defs>
+							<li>Campfire</li>
+							<li>BowlLamp</li>
+							<li>Candle</li>
+							<li>TorchLamp</li>
+							<li MayRequire="Ludeon.RimWorld.Royalty">Brazier</li>
+							<li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
+							<li MayRequire="Ludeon.RimWorld.Ideology">Darktorch</li>
+							<li MayRequire="Ludeon.RimWorld.Ideology">DarktorchFungus</li>
+						</defs>
+						<radius>9.9</radius>
+						<maxBuildings>8</maxBuildings>
+						<offsetPerBuilding>0.01</offsetPerBuilding>
+						<explanationKey>MeditationFocusPerFlame</explanationKey>
+						<explanationKeyAbstract>MeditationFocusPerFlameAbstract</explanationKeyAbstract>
+					</li>
+				</offsets>
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>SK.ITab_Fuel</li>
+		</inspectorTabs>
+		<uiIconOffset>(0, -0.04)</uiIconOffset>
+		<building>
+			<uninstallWork>150</uninstallWork>
+		</building>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+	</ThingDef>
+
+
+</Defs>

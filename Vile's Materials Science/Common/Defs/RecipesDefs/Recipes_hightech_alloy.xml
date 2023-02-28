@@ -65,7 +65,7 @@
 	<RecipeDef>
 		<defName>MakeAerMetSteel</defName>
 		<label>Make AerMet martenistic stainless steel x25</label>
-		<description>Maxamet 100 is a brand of ultra-strong stainless steel. It's primary role as for personal armor and armor plating, but it's useful for anything you want to last a very long time. Especially wood axes.</description>
+		<description>Aermet 100 is a brand of ultra-strong stainless steel. It's primary role as for personal armor and armor plating, but it's useful for anything you want to last a very long time. Especially wood axes.</description>
 		<jobString>Making AerMet 100 steel.</jobString>
 		<workAmount>2400</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
@@ -123,7 +123,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<MaxametSteel>25</MaxametSteel>
+			<AerMet>25</AerMet>
 		</products>
 		<skillRequirements>
 			<Crafting>15</Crafting>

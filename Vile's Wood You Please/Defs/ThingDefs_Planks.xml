@@ -320,7 +320,7 @@
 			<li>UltrahardwoodLumber</li>
 		</thingCategories>
 	</ThingDef>
-\
+
 	<ThingDef ParentName="SK_ResourceBase">
 		<defName>ChipBoard</defName>
 		<label>chipboard</label>
@@ -386,5 +386,5 @@
 		</stuffProps>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 	</ThingDef>
-\
+
 </Defs>

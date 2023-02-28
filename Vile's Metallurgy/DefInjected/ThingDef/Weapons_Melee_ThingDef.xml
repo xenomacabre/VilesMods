@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/ThingDefs_Weapons/Weapons_Melee.xml-->
+                 <!-- Chef Knife -->
+<Tool_ChefKnife.label>Нож шеф-повара</Tool_ChefKnife.label>
+                       <!-- A sharp blade made for chopping food ingredients, but you can stab people with it too. -->
+<Tool_ChefKnife.description>Острое лезвие, предназначенное для измельчения пищевых ингредиентов, но им можно нарезать и людей.</Tool_ChefKnife.description>
+                         <!-- handle -->
+<Tool_ChefKnife.tools.0.label>Рукоять</Tool_ChefKnife.tools.0.label>
+                         <!-- point -->
+<Tool_ChefKnife.tools.1.label>Остриё</Tool_ChefKnife.tools.1.label>
+                               <!-- +Ulfbert+ -->
+<NorbalMeleeWeapon_ShortSword.label>+Ульфберт+</NorbalMeleeWeapon_ShortSword.label>
+                                     <!-- A sharp two-handed sword used only by the fiercest norbal warriors, forged from Wootz crucible steel, possibly imported from the other side of the continent. -->
+<NorbalMeleeWeapon_ShortSword.description>Острый двуручный меч, которым пользуются только самые свирепые воины норбалов, выкованный из стали Вутца, возможно, привезенной с другой стороны континента.</NorbalMeleeWeapon_ShortSword.description>
+                                       <!-- pommel -->
+<NorbalMeleeWeapon_ShortSword.tools.0.label>Навершие</NorbalMeleeWeapon_ShortSword.tools.0.label>
+                                       <!-- point -->
+<NorbalMeleeWeapon_ShortSword.tools.1.label>Остриё</NorbalMeleeWeapon_ShortSword.tools.1.label>
+                                       <!-- edge -->
+<NorbalMeleeWeapon_ShortSword.tools.2.label>Кромка</NorbalMeleeWeapon_ShortSword.tools.2.label>
+                       <!-- Rimascus Scimitar -->
+<MeleeWeapon_Scimitar.label>Римаскус Ятаган</MeleeWeapon_Scimitar.label>
+                             <!-- Also called a shamshir, this scimitar has an exceptionally curved blade, originally forged in an ancient land from steel produced in another ancient land. Designed to produce deep, grievous cuts, but it's terrible against armor. -->
+<MeleeWeapon_Scimitar.description>Также называемый шамширом, этот ятаган имеет сильно изогнутое лезвие, первоначально выкованное древней цивилизации из стали, произведенной в другой древней цивилизации. Предназначен для нанесения глубоких, болезненных порезов, но он имеет ужасное бронепробитие.</MeleeWeapon_Scimitar.description>
+                               <!-- pommel -->
+<MeleeWeapon_Scimitar.tools.0.label>Навершие</MeleeWeapon_Scimitar.tools.0.label>
+                               <!-- point -->
+<MeleeWeapon_Scimitar.tools.1.label>Остриё</MeleeWeapon_Scimitar.tools.1.label>
+                               <!-- edge -->
+<MeleeWeapon_Scimitar.tools.2.label>Кромка</MeleeWeapon_Scimitar.tools.2.label>
+
+</LanguageData>

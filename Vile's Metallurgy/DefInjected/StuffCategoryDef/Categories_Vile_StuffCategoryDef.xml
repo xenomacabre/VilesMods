@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/Categories_Vile.xml-->
+                 <!-- Forgeable metallic -->
+<ForgedMetallic.label>Металл, поддающийся ковке</ForgedMetallic.label>
+               <!-- Castable metallic -->
+<CastMetallic.label>Металл, поддающийся литью</CastMetallic.label>
+
+</LanguageData>

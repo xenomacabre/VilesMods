@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/ThingDefs_Resources/Alloys_Ferrous.xml-->
+              <!-- wrought iron bar -->
+<WroughtIron.label>Слиток кованного железа</WroughtIron.label>
+                    <!-- Wrought iron is your mostly-pure form of iron, meaning it has a very low carbon content. It's ductile (malleable) and be easily banged into shape, and that's it's greatest perk.This means the finished product may be easily bent. It's best used for fast construction, cheap tools, and as an intermediate material to produce blister steel or wootz steel. It can be made into weapons and armor by heat-treating to harden the face and edges, but still is only marginally effective. -->
+<WroughtIron.description>Кованое железо - это ваша в основном чистая форма железа, что означает, что в нем очень низкое содержание углерода. Он пластичен (ковкий), и ему легко придать нужную форму, это является его самым большим преимуществом. Это означает, что готовое изделие можно легко согнуть. Его лучше всего использовать для быстрого строительства, дешевых инструментов и в качестве промежуточного материала для производства чёрной стали или стали Вутца. Его можно превратить в оружие и доспехи путем термической обработки для упрочнения поверхности и краев, но он всё равно сомнительно эффективен.</WroughtIron.description>
+              <!-- forge-welded steel bar -->
+<ForgedSteel.label>Кузнечно сваренный стальной слиток</ForgedSteel.label>
+                    <!-- Take your iron bloom, and forge some of it into useless high-carbon bars and some into wrought iron. Weld them together, folding and twisting several times. You can make a fairly strong piece of metal this way with a beautiful pattern. This can also be done with nonhomogenous blister steel. -->
+<ForgedSteel.description>Возьмите своё железное соцветие и перекуйте часть его в бесполезные высокоуглеродистые бруски, а часть - в кованое железо. Сваривайте их вместе, соединяя и скручивая несколько раз. Таким образом, вы можете сделать довольно прочный кусок металла с красивым патерном. Это также можно сделать с помощью неоднородной чёрной стали.</ForgedSteel.description>
+           <!-- cast iron bar -->
+<CastIron.label>Слиток чугуна</CastIron.label>
+                 <!-- Cast iron has an exceptionally high carbon content which makes it very hard but very brittle. In that way it's even less pure an iron than steel is, so the name is a bit misleading. It shouldn't be used for weapons and armor, but its low melting point means it can be easily cast into molds to quickly produce things such as pipes, cannon barrels, nails, and farm tools. -->
+<CastIron.description>Чугун имеет исключительно высокое содержание углерода, что делает его очень твердым, но очень хрупким. Таким образом, это еще менее чистое железо, чем сталь. Его не следует использовать для изготовления оружия и доспехов, но его низкая температура плавления означает, что его можно легко отливать в формы для быстрого изготовления таких вещей, как трубы, стволы пушек, гвозди и сельскохозяйственные инструменты.</CastIron.description>
+             <!-- wootz steel bar -->
+<WootzSteel.label>Слиток стали Вутц</WootzSteel.label>
+                   <!-- Wootz steel is made in small batches by filling a disposable clay crucible with iron and organic carbon material. The carbon combines with the iron and brings its melting point down and forms into an ultra-high carbon steel. The process takes well over a day. It's exceptionally sharp and makes great cutting tools. -->
+<WootzSteel.description>Сталь Вутц изготавливается небольшими партиями путем заполнения одноразового глиняного тигля железом и органическим углеродным материалом. Углерод соединяется с железом, снижает его температуру плавления и образует сверхвысокоуглеродистую сталь. Этот процесс занимает более суток. Эта сталь очень острая, и идеально подходит для создания различных режущих инструментов.</WootzSteel.description>
+                                 <!-- Wootz Steel -->
+<WootzSteel.stuffProps.stuffAdjective>Сталь Вутц</WootzSteel.stuffProps.stuffAdjective>
+                <!-- crucible steel bar -->
+<CrucibleSteel.label>Тигельная сталь</CrucibleSteel.label>
+                      <!-- Blister Steel is placed in a refractory crucible for several hours in a very hot fire fuled by coke. It melts and becomes a perfectly homogenous alloy of high carbon steel. To make it is a delicate and time-consuming process, but its unrivaled by any other low-tech steel. -->
+<CrucibleSteel.description>Чёрная сталь помещается в огнеупорный тигель на несколько часов на очень горячем огне, подогреваемом коксом. Она плавится и превращается в однородный сплав высокоуглеродистой стали. Его изготовление - деликатный и трудоемкий процесс, но он не имеет себе равных среди примитивной стали.</CrucibleSteel.description>
+                                    <!-- Crucible Steel -->
+<CrucibleSteel.stuffProps.stuffAdjective>Тигельная сталь</CrucibleSteel.stuffProps.stuffAdjective>
+
+</LanguageData>

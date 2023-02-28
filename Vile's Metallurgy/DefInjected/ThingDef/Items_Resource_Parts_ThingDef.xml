@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/ThingDefs_Resources/Items_Resource_Parts.xml-->
+                    <!-- fasteners -->
+<ComponentMedieval.label>Крепежи</ComponentMedieval.label>
+                          <!-- Simple fasteners, ie. nails and rivets. -->
+<ComponentMedieval.description>Простые крепежи, т.е. гвозди и заклепки.</ComponentMedieval.description>
+
+</LanguageData>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/Recipes/Recipes_CastToolsBatch.xml-->
+                     <!-- Cast Handaxe -->
+<Cast_Handaxe_Batch.label>Отлить ручной топор</Cast_Handaxe_Batch.label>
+                           <!-- Batch-cast handaxes (x3) -->
+<Cast_Handaxe_Batch.description>Отлить партию ручных топоров (х3)</Cast_Handaxe_Batch.description>
+                         <!-- Casting handaxes from metal. -->
+<Cast_Handaxe_Batch.jobString>Отливает ручные топоры из металла.</Cast_Handaxe_Batch.jobString>
+                     <!-- batch-cast pickaxes (x3) -->
+<Cast_Pickaxe_Batch.label>Отлить партию кирок (х3)</Cast_Pickaxe_Batch.label>
+                           <!-- Cast Pickaxes from metal. Produces 3. -->
+<Cast_Pickaxe_Batch.description>Отлить кирки из металла. Производит 3.</Cast_Pickaxe_Batch.description>
+                         <!-- Casting pickaxes from metal. -->
+<Cast_Pickaxe_Batch.jobString>Отливает кирки из металла.</Cast_Pickaxe_Batch.jobString>
+                    <!-- batch-cast hammers (x4) -->
+<Cast_Hammer_Batch.label>Отлить партию молотков (х4)</Cast_Hammer_Batch.label>
+                          <!-- Cast hammers from metal. -->
+<Cast_Hammer_Batch.description>Отлить молотки из металла.</Cast_Hammer_Batch.description>
+                        <!-- Casting hammers from metal. -->
+<Cast_Hammer_Batch.jobString>Отливает молотки из металла.</Cast_Hammer_Batch.jobString>
+                    <!-- batch-cast sickles (x3). -->
+<Cast_Sickle_Batch.label>Отлить партию серпов (х3)</Cast_Sickle_Batch.label>
+                          <!-- Cast sickles from metal. -->
+<Cast_Sickle_Batch.description>Отлить серпы из металла.</Cast_Sickle_Batch.description>
+                        <!-- Casting sickles from metal. -->
+<Cast_Sickle_Batch.jobString>Отливает серпы из металла.</Cast_Sickle_Batch.jobString>
+                 <!-- batch-cast hoes (x3). -->
+<Cast_Hoe_Batch.label>Отлить партию мотыг (x3)</Cast_Hoe_Batch.label>
+                       <!-- Cast hoes from metal. -->
+<Cast_Hoe_Batch.description>Отлить мотыги из металла.</Cast_Hoe_Batch.description>
+                     <!-- Casting hoes from metal. -->
+<Cast_Hoe_Batch.jobString>Отливает мотыги из металла.</Cast_Hoe_Batch.jobString>
+
+</LanguageData>

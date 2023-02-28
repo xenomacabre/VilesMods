@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/Buildings/Building_Processing.xml-->
+       <!-- Ceramic Kiln -->
+<Kiln.label>Керамическая печь</Kiln.label>
+             <!-- An enclosed furnace for firing ceramics. Prepare unfired pottery and bricks at the potters wheel before loading the kiln. The fuel is included in the recipes and is added once the object is placed into the kiln. Come back in a few hours or days to remove you finished product. -->
+<Kiln.description>Закрытая печь для обжига керамики. Перед загрузкой в печь подготовьте необожженную глиняную посуду и кирпичи на гончарном круге. Топливо включено в рецептуру и добавляется после помещения изделия в печь. Вернитесь через несколько часов или дней, чтобы забрать готовый продукт.</Kiln.description>
+                     <!-- Cementation Furnace -->
+<CementationFurnace.label>Цементационная печь</CementationFurnace.label>
+                           <!-- A large furnace which specialized in carburizing bar iron (wrought iron) into blister steel (which needs further refining to be useful). The fuel is included in the recipes and is added once the object is placed into the furnace. It takes several days, but it can be done in large batches and doesn't need to be monitored. -->
+<CementationFurnace.description>Большая печь, которая специализирована на насыщении углеродом слиткового железа (кованого железа) в чёрную сталь (которая нуждается в дальнейшей переработке, чтобы быть полезной). Топливо включено в рецепт и добавляется сразу после помещения предмета в печь. Это занимает несколько дней, но может быть сделано большими партиями и не требует контроля.</CementationFurnace.description>
+
+</LanguageData>

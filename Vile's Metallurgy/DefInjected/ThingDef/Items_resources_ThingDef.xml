@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/Processing_kiln_etc/Items_resources.xml-->
+             <!-- flux -->
+<FluxPowder.label>Флакс</FluxPowder.label>
+                   <!-- A natural chemical derived from sodium carbonate or calcium oxide which acts as a purifying agent in metallurgy and lowers the melting point for glass formation in ceramics. -->
+<FluxPowder.description>Природное химическое вещество, получаемое из карбоната натрия или оксида кальция, которое действует как очищающий агент в металлургии и снижает температуру плавления для стеклообразования в керамике.</FluxPowder.description>
+       <!-- coke -->
+<Coke.label>Кокс</Coke.label>
+             <!-- Coke is a reduction of coal - a process that happens in a kiln or oven. It burns hotter and cleaner than coal and is necessary for certain types of steel processing. It also needs to be at a much higher temperature to ignite so it's unsuitible for use at a kiln or bloomery. -->
+<Coke.description>Кокс - это восстановление угля - процесс, который происходит в печи. Кокс горит горячее и чище, чем уголь, и необходим для определенных видов обработки стали. Кроме того, точка воспламенения кокса гораздо выше, поэтому его нельзя использовать в печи или печи для переработки цветений.</Coke.description>
+
+</LanguageData>

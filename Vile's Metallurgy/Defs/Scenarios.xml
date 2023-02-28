@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ScenarioDef>
+		<defName>TheGuildmasters</defName>
+		<label>The Medieval Guild</label>
+		<description>The trade routes have vanished and the resources have dried up, so a small guild of trade workers sets out to build a new home.</description>
+		<scenario>
+			<summary>Trade workers build a new home.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>PlayerGuild</factionDef>
+			</playerFaction>
+			<parts>
+				<!-- Game start dialog -->
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>The trade routes have vanished and the resources have dried up, so a guild of trade workers sets out to build a new home.</text>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+				<!-- Config pages -->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnCount>5</pawnCount>
+					<pawnChoiceCount>8</pawnChoiceCount>
+				</li>
+
+				<!-- Player starting things -->
+				<li Class="ScenPart_StartingAnimal">
+					<def>StartingAnimal</def>
+					<animalKind>Horse</animalKind>
+					<count>1</count>
+					<bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+				</li>
+				<li Class="ScenPart_StartingAnimal">
+					<def>StartingAnimal</def>
+					<animalKind>Sheep</animalKind>
+					<count>2</count>
+					<bondToRandomPlayerPawnChance>0</bondToRandomPlayerPawnChance>
+				</li>
+				<li Class="ScenPart_StartingAnimal">
+					<def>StartingAnimal</def>
+					<animalKind>Chicken</animalKind>
+					<count>3</count>
+					<bondToRandomPlayerPawnChance>0</bondToRandomPlayerPawnChance>
+				</li>
+				<!-- Player starting stuff spawn method-->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+
+				<!-- Player pawns modifiers -->
+
+				<!-- Player starting things -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>bread</thingDef>
+					<count>30</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Pemmican</thingDef>
+					<count>500</count>
+				</li>
+                <li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Seed_Potato</thingDef>
+					<count>50</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Beer</thingDef>
+					<count>8</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineHerbal</thingDef>
+					<count>30</count>
+				</li>
+
+			
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>TFJ_Tool_Woodcutting_Handaxe</thingDef>
+					<stuff>WroughtIron</stuff>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>TFJ_Tool_Building_Hammer</thingDef>
+					<stuff>WroughtIron</stuff>
+					<count>3</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>TFJ_Tool_Sickle</thingDef>
+					<stuff>WroughtIron</stuff>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>TFJ_Tool_Mining_Pickaxe</thingDef>
+					<stuff>WroughtIron</stuff>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MeleeWeapon_Dagger</thingDef>
+					<stuff>WroughtIron</stuff>
+					<count>2</count>
+				</li>
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Bow_Great</thingDef>
+					<stuff>WoodLog</stuff>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Ammo_Arrow_Steel</thingDef>
+					<count>100</count>
+				</li>
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MeleeWeapon_Morningstar</thingDef>
+					<stuff>WroughtIron</stuff>
+					<count>2</count>
+				</li>
+				
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedievalShield</thingDef>
+					<stuff>WroughtIron</stuff>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>DeployableTent</thingDef>
+					<stuff>Flaxcloth</stuff>
+					<count>5</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>WoodPlank</thingDef>
+					<count>120</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>BlocksLimestone</thingDef>
+					<count>300</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>WoodLog</thingDef>
+					<count>120</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsNearPlayerStart">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>ComponentMedieval</thingDef>
+					<count>20</count>
+				</li>
+				
+
+				<!-- Scatter some things near player start -->
+				
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>ShipChunk</thingDef>
+					<count>10</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>ShipMechChunk</thingDef>
+					<count>6</count>
+				</li>
+				
+				
+				<li Class="ScenPart_ForcedTrait">
+					<def>ForcedTrait</def>
+					<chance>0.1</chance>
+					<context>PlayerStarter</context>
+					<trait>Aesthete</trait>
+				</li>
+				<li Class="ScenPart_ForcedTrait">
+					<def>ForcedTrait</def>
+					<chance>0.05</chance>
+					<trait>Inventor</trait>
+				</li>
+				<li Class="ScenPart_ForcedTrait">
+					<def>ForcedTrait</def>
+					<chance>0.12</chance>
+					<context>PlayerStarter</context>
+					<trait>Perfectionist</trait>
+				</li>
+				<li Class="ScenPart_ForcedTrait">
+					<def>ForcedTrait</def>
+					<chance>0.12</chance>
+					<context>PlayerStarter</context>
+					<trait>TorturedArtist</trait>
+				</li>
+				<li Class="ScenPart_ForcedTrait">
+					<def>ForcedTrait</def>
+					<chance>0.2</chance>
+					<context>PlayerStarter</context>
+					<trait>DIY</trait>
+				</li>
+				
+				<!-- RESEARCH -->
+		
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Fortification_A1</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Storage_A1</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Wooden_floor_A2</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Carpets_A1</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Storage_B1</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Bow_A1</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Apparel_A1</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Ceramics_B1</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Pemmican</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Animal_A2</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Fabric_Plants_A1</project>
+				</li>
+					<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Craft_B1</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Food_Plants_A2</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Research_table_B1</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Medical_Plants_A1</project>
+				</li>
+				
+			</parts>
+		</scenario>
+	</ScenarioDef>
+</Defs>

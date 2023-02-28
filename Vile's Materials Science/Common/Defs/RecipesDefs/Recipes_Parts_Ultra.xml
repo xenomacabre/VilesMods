@@ -32,10 +32,10 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>GlassBatch</li>
+						<li>Quartz</li>
 					</thingDefs>
 				</filter>
-				<count>150</count>
+				<count>3</count>
 			</li>
 		</ingredients>
 		<products>
@@ -44,7 +44,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Zinc</li>
-				<li>GlassBatch</li>
+				<li>Quartz</li>
 				<li>NanotechFramework</li>
 			</thingDefs>
 		</fixedIngredientFilter>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/ThingDefs_Resources/Items_Pipe_components.xml-->
+              <!-- basic pipe section -->
+<PipeSection.label>Базовая секция трубы</PipeSection.label>
+                    <!-- Pipes and fittings for water and sewage. -->
+<PipeSection.description>Трубы для водоснабжения и канализации.</PipeSection.description>
+
+</LanguageData>

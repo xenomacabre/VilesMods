@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/IncidentDef[defName="ColdSnap"]/baseChance</xpath>
+			<value>
+   				<baseChance>20</baseChance>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/IncidentDef[defName="ColdSnap"]/minRefireDays</xpath>
+			<value>
+   				 <minRefireDays>8</minRefireDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/IncidentDef[defName="ColdSnap"]/modExtensions</xpath>
+			<value>
+				<modExtensions>
+					<li Class="SK.ExtendedIncident">
+						<allowedTemperatureRange>-50~0</allowedTemperatureRange>
+						<!-- current map temperature-->
+					</li>
+				</modExtensions>			
+			</value>
+		</li>
+		
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/WorkGiverDefs_Vile.xml-->
+                     <!-- forge items -->
+<DoBillsMakeWeapons.label>Ковать вещи</DoBillsMakeWeapons.label>
+                      <!-- forging at -->
+<DoBillsMakeWeapons.gerund>Ковать на...</DoBillsMakeWeapons.gerund>
+                      <!-- metal casting -->
+<DoBillsMetalCasting.label>Отливать металлы</DoBillsMetalCasting.label>
+                     <!-- metal casting -->
+<DoBillsMetalCasting.verb>Отливать металлы</DoBillsMetalCasting.verb>
+                       <!-- metal casting at -->
+<DoBillsMetalCasting.gerund>Отливать металлы в...</DoBillsMetalCasting.gerund>
+                 <!-- Pottery -->
+<DoBillsPottery.label>Заниматься гончарством =</DoBillsPottery.label>
+                <!-- doing pottery bills -->
+<DoBillsPottery.verb>Производить керамику</DoBillsPottery.verb>
+                  <!-- doing pottery bills at -->
+<DoBillsPottery.gerund>Производить керамику на...</DoBillsPottery.gerund>
+
+</LanguageData>

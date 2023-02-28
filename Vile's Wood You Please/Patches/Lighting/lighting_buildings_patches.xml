@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations><!-- WALL LAMP -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WallTorch"]/label</xpath> 
+				<value>
+					<label>lantern sconce</label>
+				</value>
+			</li>
+				<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WallTorch"]/description</xpath> 
+				<value>
+					<description>A wall-mounted oil lamp. Fairly efficient and much brighter than candles and torches.
+Light radius: 8
+Max Heat: 23
+Capacity: 5
+Efficiency: 65%
+Rain-proof</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">	
+				<xpath>Defs/ThingDef[defName="WallTorch"]/graphicData/texPath</xpath> 
+				<value>
+					<texPath>Things/Building/Sconce/Sconce</texPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">	
+				<xpath>Defs/ThingDef[defName="WallTorch"]/uiIconPath</xpath> 
+				<value>
+					<uiIconPath>Things/Building/Sconce/Sconce_ui</uiIconPath>
+
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WallTorch"]/stuffCategories</xpath> 
+				<value>
+					<stuffCategories>
+						<li>Metallic</li>
+					</stuffCategories>
+					</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WallTorch"]/costStuffCount</xpath> 
+				<value>
+					<costStuffCount>25</costStuffCount>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="WallTorch"]</xpath> 
+				<value>
+					<costList>
+						<ComponentMedieval>1</ComponentMedieval>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="WallTorch"]/comps</xpath> 
+				<value>
+					<li Class="CompProperties_Flickable"/>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WallTorch"]/drawerType</xpath> 
+				<value>
+					<drawerType>MapMeshAndRealTime</drawerType>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="WallTorch"]</xpath> 
+				<value>
+					<inspectorTabs>
+						<li>SK.ITab_Fuel</li>
+					</inspectorTabs>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WallTorch"]/comps/li[@Class="CompProperties_Refuelable"]</xpath> 
+				<value>
+					<li Class="SK.CompFueled_Properties">
+						<factorByDifficulty>false</factorByDifficulty>
+						<operatingTemp>300</operatingTemp>
+						<!-- <fireDrawOffset>(-0.48,0.15,0.15)</fireDrawOffset>
+						<fireDrawScale>0.25</fireDrawScale> -->
+						<!-- <fuelDrawOffset>(0,0.1,-0.05)</fuelDrawOffset>
+						<fuelDrawScale>0.25</fuelDrawScale> -->
+						<fuelCapacity>5</fuelCapacity>
+						<burnFuelMultiplier>6.5</burnFuelMultiplier>
+						<canAutoBurn>true</canAutoBurn>
+						<smokeEnabled>false</smokeEnabled>
+						<effectOnWeather>false</effectOnWeather>
+						<smokeDensity>0</smokeDensity>
+						<fuelFilter>
+							<thingDefs>
+								<li>Turpentine</li>
+								<li>Tallow</li>
+								<li>PlantWax</li>
+							</thingDefs>
+						</fuelFilter>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="WallTorch"]/comps</xpath> 
+				<value>
+					<li Class="RimFridge.CompProperties_SecondLayer">
+						<graphicData>
+							<texPath>Things/Building/Sconce/Sconce_top</texPath>
+							<graphicClass>Graphic_Multi</graphicClass>
+							<drawSize>(1.0,2.0)</drawSize>
+						</graphicData>
+						<altitudeLayer>Skyfaller</altitudeLayer>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WallTorch"]/comps/li[@Class="CompProperties_Glower"]</xpath> 
+				<value>
+					<li Class="CompProperties_Glower">
+						<glowRadius>8</glowRadius>
+						<glowColor>(200,160,100,0)</glowColor>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WallTorch"]/comps/li[@Class="SK.CompProperties_FireOverlayMod"]</xpath> 
+				<value>
+					<li Class="SK.CompProperties_FireOverlayMod">
+						<fireSize>0.25</fireSize>
+						<offset>(-0.48,0.15,0.15)</offset>
+					</li>
+				</value>
+			</li>
+				<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="WallTorch"]</xpath> 
+						<value>
+							<researchPrerequisites>
+								<li>Light_B2</li>
+							</researchPrerequisites>
+						</value>
+					</li>
+			
+		<!-- STANDING TORCH -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TorchLamp"]/label</xpath> 
+				<value>
+					<label>standing torch</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TorchLamp"]/description</xpath> 
+				<value>
+					<description>A large standing torch, too big to be carried. Coated with oil or pitch, and you can even tie dry plant matter around it and burn that in a pinch.
+Light radius: 8
+Max Heat: 23
+Capacity: 8
+Efficiency: 30%</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TorchLamp"]/stuffCategories</xpath> 
+				<value>
+					<stuffCategories>
+						<li>WoodLogs</li>
+					</stuffCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TorchLamp"]/comps/li[@Class="CompProperties_Glower"]</xpath> 
+				<value>
+					<li Class="CompProperties_Glower">
+						<glowRadius>8</glowRadius>
+						<glowColor>(217,177,113,0)</glowColor>
+					</li>
+				</value>
+			</li>
+				<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TorchLamp"]/comps/li[@Class="SK.CompProperties_HeatPusherAdvanced"]</xpath> 
+				<value>
+					<li Class="SK.CompProperties_HeatPusherAdvanced">
+						<compClass>SK.CompHeatPusherAdvanced</compClass>
+						<heatPerSecond>8</heatPerSecond>
+						<heatPushMaxTemperature>23</heatPushMaxTemperature>
+					</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="TorchLamp"]/comps</xpath> 
+				<value>
+					<li Class="CompProperties_Flickable"/>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="TorchLamp"]</xpath> 
+				<value>
+					<inspectorTabs>
+						<li>SK.ITab_Fuel</li>
+					</inspectorTabs>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="TorchLamp"]/comps/li[@Class="CompProperties_Refuelable"]</xpath> 
+				<value>
+					<li Class="SK.CompFueled_Properties">
+						<factorByDifficulty>false</factorByDifficulty>
+						<operatingTemp>300</operatingTemp>
+						<!-- <fireDrawOffset>(0,0,0)</fireDrawOffset>
+						<fireDrawScale>0.4</fireDrawScale>
+						<fuelDrawOffset>(0,0.1,-0.05)</fuelDrawOffset>
+						<fuelDrawScale>0.75</fuelDrawScale> -->
+						<fuelCapacity>10</fuelCapacity>
+						<burnFuelMultiplier>4</burnFuelMultiplier>
+						<canAutoBurn>true</canAutoBurn>
+						<smokeEnabled>false</smokeEnabled>
+						<effectOnWeather>true</effectOnWeather>
+						<smokeDensity>0</smokeDensity>
+						<fuelFilter>
+							<thingDefs>
+								<li>Kindling</li>
+								<li>Pitch</li>
+								<li>Tallow</li>
+								<li>PlantWax</li>
+								<li>Turpentine</li>
+							</thingDefs>
+						</fuelFilter>
+					</li>
+				</value>
+			</li>
+
+			<!-- CRESSET -->
+			<li Class="PatchOperationReplace">	
+				<xpath>Defs/ThingDef[defName="BowlLamp"]/label</xpath> 
+				<value>
+					<label>cresset</label>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="BowlLamp"]/graphicData</xpath> 
+				<value>
+					<drawSize>(1.2,1.8)</drawSize>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="BowlLamp"]</xpath> 
+				<value>
+					<altitudeLayer>PawnUnused</altitudeLayer>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="BowlLamp"]/drawerType</xpath> 
+				<value>
+					<drawerType>MapMeshAndRealTime</drawerType>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">	
+				<xpath>Defs/ThingDef[defName="BowlLamp"]/graphicData/texPath</xpath> 
+				<value>
+					<texPath>Things/Building/Cresset</texPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="BowlLamp"]/description</xpath> 
+				<value>
+					<description>A bowl filled with lit fuel mounted on a pole. Historically used as a beacon, it burns through a lot of fuel.
+Light radius: 10
+Max heat: 30
+Capacity: 20
+Efficiency: 15%</description>
+				</value>
+			</li>
+				<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="BowlLamp"]/pathCost</xpath> 
+				<value>
+					<pathCost>20</pathCost>				
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="BowlLamp"]/comps/li[@Class="SK.CompFueled_Properties"]</xpath> 
+				<value>
+					<li Class="SK.CompFueled_Properties">
+						<factorByDifficulty>false</factorByDifficulty>
+						<operatingTemp>300</operatingTemp>
+						<!-- <fireDrawOffset>(0,0,0)</fireDrawOffset>
+						<fireDrawScale>0.4</fireDrawScale>
+						<fuelDrawOffset>(0,0.1,-0.2)</fuelDrawOffset>
+						<fuelDrawScale>0.8</fuelDrawScale> -->
+						<fuelCapacity>15</fuelCapacity>
+						<burnFuelMultiplier>1.5</burnFuelMultiplier>
+						<canAutoBurn>true</canAutoBurn>
+						<smokeEnabled>false</smokeEnabled>
+						<effectOnWeather>true</effectOnWeather>
+						<smokeDensity>0</smokeDensity>
+						<fuelFilter>
+							<thingDefs>
+								<li>WoodLog</li>
+								<li>Kindling</li>
+								<li>Pitch</li>
+								<li>Tallow</li>
+								<li>PlantWax</li>
+								<li>Turpentine</li>
+							</thingDefs>
+						</fuelFilter>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="BowlLamp"]/comps/li[@Class="SK.CompProperties_HeatPusherAdvanced"]</xpath> 
+				<value>
+					<li Class="SK.CompProperties_HeatPusherAdvanced">
+						<compClass>SK.CompHeatPusherAdvanced</compClass>
+						<heatPerSecond>8</heatPerSecond>
+						<heatPushMaxTemperature>30</heatPushMaxTemperature>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BowlLamp"]/comps</xpath> 
+				<value>
+					<li Class="RimFridge.CompProperties_SecondLayer">
+						<graphicData>
+							<texPath>Things/Building/Cresset_top</texPath>
+							<graphicClass>Graphic_Single</graphicClass>
+							<drawSize>(1.2,1.8)</drawSize>
+						</graphicData>
+						<altitudeLayer>Skyfaller</altitudeLayer>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="BowlLamp"]/comps/li[@Class="CompProperties_Glower"]</xpath> 
+				<value>
+					<li Class="CompProperties_Glower">
+						<glowRadius>10</glowRadius>
+						<glowColor>(217,177,113,0)</glowColor>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="BowlLamp"]/comps/li[@Class="SK.CompProperties_FireOverlayMod"]</xpath> 
+				<value>
+					<li Class="SK.CompProperties_FireOverlayMod">
+						<fireSize>0.3</fireSize>
+						<offset>(0,0.15,0.7)</offset>
+					</li>
+				</value>
+			</li>
+
+			<!-- CANDLE -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Candle"]/label</xpath> 
+				<value>
+					<label>candelabra</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Candle"]/costStuffCount</xpath> 
+				<value>
+					<costStuffCount>25</costStuffCount>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Candle"]/description</xpath> 
+				<value>
+					<description>A stand that holds three candles. Illuminates a much greater space than a single candle holder.
+Light radius: 8
+Max heat: 16
+Capacity: 3
+Efficiency: 20%</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">	
+				<xpath>Defs/ThingDef[defName="Candle"]/graphicData/texPath</xpath> 
+				<value>
+					<texPath>Things/Building/Candlabra</texPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">	
+				<xpath>Defs/ThingDef[defName="Candle"]/statBases</xpath> 
+				<value>
+					<statBases>
+						<MaxHitPoints>150</MaxHitPoints>
+						<WorkToBuild>600</WorkToBuild>
+						<Beauty>10</Beauty>
+						<Bulk>3</Bulk>
+						<Mass>1</Mass>
+						<MeditationFocusStrength>0.0</MeditationFocusStrength>
+						<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
+					</statBases>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="Candle"]/graphicData</xpath> 
+				<value>
+					<drawSize>(1.2,2.4)</drawSize>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="Candle"]/graphicData</xpath> 
+				<value>
+					<shaderType>CutoutComplex</shaderType>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Candle"]/comps</xpath> 
+				<value>
+					<li Class="CompProperties_Flickable"/>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Candle"]</xpath> 
+				<value>
+					<inspectorTabs>
+						<li>SK.ITab_Fuel</li>
+					</inspectorTabs>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Candle"]/comps/li[@Class="CompProperties_Refuelable"]</xpath> 
+				<value>
+					<li Class="SK.CompFueled_Properties">
+						<factorByDifficulty>false</factorByDifficulty>
+						<operatingTemp>300</operatingTemp>
+						<!-- <fireDrawOffset>(0,0,0)</fireDrawOffset>
+						<fireDrawScale>0.2</fireDrawScale>
+						<fuelDrawOffset>(0,0.1,-0.05)</fuelDrawOffset>
+						<fuelDrawScale>0.75</fuelDrawScale> -->
+						<fuelCapacity>15</fuelCapacity>
+						<burnFuelMultiplier>2</burnFuelMultiplier>
+						<canAutoBurn>true</canAutoBurn>
+						<smokeEnabled>false</smokeEnabled>
+						<effectOnWeather>true</effectOnWeather>
+						<smokeDensity>0</smokeDensity>
+						<fuelFilter>
+							<thingDefs>
+								<li>CandleFuel</li>
+							</thingDefs>
+						</fuelFilter>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Candle"]/comps/li[@Class="SK.CompProperties_CandleFireOverlayMod"]</xpath> 
+				<value>
+					<li Class="SK.CompProperties_CandleFireOverlayMod">
+						<offset>(0,0,1.22)</offset>
+						<fireSize>0.2</fireSize>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Candle"]/comps/li[@Class="CompProperties_Glower"]</xpath> 
+				<value>
+						<li Class="CompProperties_Glower">
+							<glowRadius>8</glowRadius>
+							<glowColor>(252,187,113,0)</glowColor>
+						</li>
+				</value>
+			</li>
+				<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Candle"]/comps/li[@Class="SK.CompProperties_HeatPusherAdvanced"]</xpath> 
+				<value>
+					<li Class="SK.CompProperties_HeatPusherAdvanced">
+						<compClass>SK.CompHeatPusherAdvanced</compClass>
+						<heatPerSecond>4</heatPerSecond>
+						<heatPushMaxTemperature>16</heatPushMaxTemperature>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Candle"]/researchPrerequisites</xpath> 
+				<value>
+					<researchPrerequisites>
+						<li>Light_B1</li>
+					</researchPrerequisites>
+				</value>
+			</li>
+
+<!-- Brazier-->
+
+			<!-- <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Brazier"]/description</xpath> 
+				<value>
+					<description>A large, ceremonial bowl used for burning solid fuel.
+Light radius: 9
+Max heat: 25
+Capacity: 30
+Efficiency: 20%</description>
+				</value>
+			</li>
+	<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Brazier"]/comps/li[@Class="CompProperties_Glower"]</xpath> 
+				<value>
+						<li Class="CompProperties_Glower">
+							<glowRadius>9</glowRadius>
+							<glowColor>(252,187,113,0)</glowColor>
+						</li>
+				</value>
+			</li>
+
+		<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Brazier"]/comps/li[@Class="CompProperties_FireOverlay"]</xpath> 
+				<value>
+					<li Class="SK.CompProperties_FireOverlayMod">
+						<offset>(0,0,0.22)</offset>
+						<fireSize>1</fireSize>
+					</li>
+				</value>
+			</li>
+		<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Brazier"]/comps/li[@Class="CompProperties_Refuelable"]</xpath> 
+				<value>
+					   <li Class="SK.CompFueled_Properties">
+						<factorByDifficulty>false</factorByDifficulty>
+						<operatingTemp>700</operatingTemp>
+						<fuelCapacity>40</fuelCapacity>
+						<burnFuelMultiplier>2.5</burnFuelMultiplier>
+						<canAutoBurn>true</canAutoBurn>
+						<smokeEnabled>false</smokeEnabled>
+						<effectOnWeather>true</effectOnWeather>
+						<smokeDensity>0</smokeDensity>
+						<fuelFilter>
+							<categories>
+								<li>Wooden</li>
+							</categories>  
+							<thingDefs>
+							 	<li>Charcoal</li>
+								<li>Coal</li>
+								<li>Coke</li>
+							</thingDefs>
+						</fuelFilter>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Brazier"]</xpath> 
+				<value>
+					<inspectorTabs>
+						<li>SK.ITab_Fuel</li>
+					</inspectorTabs>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Brazier"]/comps/li[@Class="CompProperties_HeatPusher"]</xpath> 
+				<value>
+					<li Class="SK.CompProperties_HeatPusherAdvanced">
+						<compClass>SK.CompHeatPusherAdvanced</compClass>
+						<heatPerSecond>12</heatPerSecond>
+						<heatPushMaxTemperature>23</heatPushMaxTemperature>
+					</li>
+				</value>
+			</li>	 -->
+
+
+		
+  	
+	
+	<!-- Campfire - remove planks -->
+	<li Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Campfire"]/comps/li[@Class="SK.CompFueled_Properties"]/fuelFilter</xpath> 
+		<value>
+				<fuelFilter>
+					<thingDefs>
+						<li>Charcoal</li>
+						<li>Coal</li>
+						<li>Kindling</li>
+						<li>Peat</li>
+						<!-- <li>Tallow</li> -->
+					</thingDefs>
+					<categories>
+						<li>Wooden</li>
+						<!-- <li>Woody</li> -->
+					</categories>  
+				</fuelFilter>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Campfire"]/comps/li[@Class="SK.CompFueled_Properties"]/burnFuelMultiplier</xpath> 
+		<value>
+			<burnFuelMultiplier>1.5</burnFuelMultiplier>
+		</value>
+	</li>
+	</operations>
+		</match>
+	  </Operation>
+</Patch>	

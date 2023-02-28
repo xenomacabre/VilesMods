@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Lights"]/defNames</xpath>
+		<value>
+			<li>Rushlight</li>
+			<li>FireBasket</li>
+			<li>OilStreetLamp</li>
+			<li>WallCandle</li>
+			<li>TreeTorch</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Conversion"]/defNames</xpath>
+		<value>
+
+				<li>SeasoningRack</li>
+
+		</value>
+	</Operation>
+
+		<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Sawmills"]/defNames</xpath>
+		<value>
+
+				<li>ChoppingBlock</li>
+				<li>LogSplittingSpot</li>
+
+		</value>
+	</Operation>
+
+</Patch>

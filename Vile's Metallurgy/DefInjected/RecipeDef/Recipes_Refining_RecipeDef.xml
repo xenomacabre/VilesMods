@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/Recipes/Recipes_Refining.xml-->
+                        <!-- Forge Wrought Iron from bloom (x15) -->
+<MakeWroughtIron_Forge.label>Выковать кованое железо из цветений (x15)</MakeWroughtIron_Forge.label>
+                              <!-- Hot-working slag out of the bloom with a hammer and forging it into semi-finished wrought iron billets. -->
+<MakeWroughtIron_Forge.description>Убрать шлак из цветений с помощью молотка и перековать в полу-готовые изделия из кованого железа.</MakeWroughtIron_Forge.description>
+                            <!-- Forging wrought iron. Produces 15. -->
+<MakeWroughtIron_Forge.jobString>Выковывание кованного железа. Производит 15.</MakeWroughtIron_Forge.jobString>
+                         <!-- Forge Wrought Iron from bloom (x15) -->
+<MakeWroughtIron_Finery.label>Выковать кованое железо из цветений (x15)</MakeWroughtIron_Finery.label>
+                               <!-- Hot-working slag out of the bloom with a trip hammer and forging it into semi-finished wrought iron billets. Produces 15. -->
+<MakeWroughtIron_Finery.description>Убрать шлак из цветений с помощью отбойного молотка и перековать в полу-готовые изделия из кованого железа. Производит 15.</MakeWroughtIron_Finery.description>
+                             <!-- Forging wrought iron. -->
+<MakeWroughtIron_Finery.jobString>Выковывает кованное железо.</MakeWroughtIron_Finery.jobString>
+                              <!-- Forge-Weld Steel (x15) -->
+<MakeForgeWeldedSteel_Smithy.label>Ковать сталь сварочным способом(x15)</MakeForgeWeldedSteel_Smithy.label>
+                                    <!-- Repeatedly fold wrought iron in a coal fire to carbonize it producing a strong bar with up to hundreds of layers of soft iron and hard steel. Produces 25. -->
+<MakeForgeWeldedSteel_Smithy.description>Многократно обжигать кованое железо на огне чтобы оно обуглилось, образуя прочный слиток с сотнями слоев мягкого железа и твердой стали. Производит 25.</MakeForgeWeldedSteel_Smithy.description>
+                                  <!-- Forge-welding steel. -->
+<MakeForgeWeldedSteel_Smithy.jobString>Ковать сталь сварочным способом.</MakeForgeWeldedSteel_Smithy.jobString>
+                              <!-- Forge-Weld Steel (x15) -->
+<MakeForgeWeldedSteel_Finery.label>Ковать сталь сварочным способом (x15)</MakeForgeWeldedSteel_Finery.label>
+                                    <!-- Fold wrought iron in a coal fire to carbonize it producing a strong bar with up to hundreds of layers of soft iron and hard steel. Produces 20. -->
+<MakeForgeWeldedSteel_Finery.description>Обжигать кованое железо на огне, чтобы оно обуглилось, образуя прочный брус с сотнями слоев мягкого железа и твердой стали. Производит 20.</MakeForgeWeldedSteel_Finery.description>
+                                  <!-- Forging-weld steel. -->
+<MakeForgeWeldedSteel_Finery.jobString>Куёт сталь сварочным способом.</MakeForgeWeldedSteel_Finery.jobString>
+                                 <!-- Forge wrought iron from pig iron (x30) -->
+<MakeWroughtIron_PigIron_Finery.label>Выковать кованое железо из чугуна (x30)</MakeWroughtIron_PigIron_Finery.label>
+                                       <!-- Hot-working slag out of the bloom with a hammer and forging it into semi-finished wrought iron bars. Produces 25. -->
+<MakeWroughtIron_PigIron_Finery.description>Убрать шлак из цветений с помощью молотка и перековать их в полу-законченный изделия из кованого железа. Производит 25.</MakeWroughtIron_PigIron_Finery.description>
+                                     <!-- Forging wrought iron. -->
+<MakeWroughtIron_PigIron_Finery.jobString>Куёт кованое железо.</MakeWroughtIron_PigIron_Finery.jobString>
+                                           <!-- Forge Shear Steel (x30) -->
+<MakeForgeWeldedSteel_BlisterSteel_Finery.label>Ковать чёрную сталь (x30)</MakeForgeWeldedSteel_BlisterSteel_Finery.label>
+                                                 <!-- Blister steel has an uneven distribution of carbon, in other words, it's nonhomogenous. Beat it on an anvil until it (mostly) is. This is called "shear steel", because it can hold an sharp edge if you wanted to make some shears, but it's still a forge-welded steel. Produced 20 Forge-Welded Steel. -->
+<MakeForgeWeldedSteel_BlisterSteel_Finery.description>Чёрная сталь имеет неравномерное распределение углерода, другими словами, она неоднородна. Бейте его на наковальне, пока оно (в основном) не станет однородным. Это называется "режущая сталь", потому что она может иметь очень острую кромку, если вы захотите сделать несколько ножниц, но это все равно сталь, сделанная путём ковки сварочным способом. Производит 20 кованно-сваренной стали.</MakeForgeWeldedSteel_BlisterSteel_Finery.description>
+                                               <!-- Forging-welding steel form blister steel. Produces 30. -->
+<MakeForgeWeldedSteel_BlisterSteel_Finery.jobString>Куёт сталь сварочным способом. Производит 30.</MakeForgeWeldedSteel_BlisterSteel_Finery.jobString>
+                    <!-- Make Crucible Steel (x80) -->
+<MakeCrucibleSteel.label>Сделать тигельную сталь (x80)</MakeCrucibleSteel.label>
+                          <!-- Blister Steel is placed in a refractory crucible for several hours in a very hot fire fuled by coke. It melts and becomes a perfectly homogenous alloy of high carbon steel. To make it is a delicate and time-consuming process, but its unrivaled by any other low-tech steel. Requires a lot of coke to reach 1500 degrees. Produces 80. -->
+<MakeCrucibleSteel.description>Черная сталь помещается в огнеупорный тигель на несколько часов на очень горячем огне, подогреваемом коксом. Она плавится и превращается в идеально однородный сплав высокоуглеродистой стали. Его изготовление - деликатный и трудоемкий процесс, но он не имеет себе равных среди низкотехнологичной стали. Требуется много кокса, чтобы достичь 1500 градусов. Производит 80.</MakeCrucibleSteel.description>
+                        <!-- Making crucible steel. -->
+<MakeCrucibleSteel.jobString>Делает тигельную сталь.</MakeCrucibleSteel.jobString>
+               <!-- Make Cast Iron (x30) -->
+<MakeCastIron.label>Сделать отливное железо (x30)</MakeCastIron.label>
+                     <!-- Further refine pig iron into cast iron by melting it down and removing impurities. Produces 30. -->
+<MakeCastIron.description>Переработать чугун в литое железо путем его расплавления и очищения. Производит 30.</MakeCastIron.description>
+                   <!-- Making cast iron. -->
+<MakeCastIron.jobString>Делает литое железо.</MakeCastIron.jobString>
+                               <!-- Puddle Wrought Iron from Pig Iron (x75) -->
+<PuddleWroughtIronFromPigIron.label>Сделать кованное железо из чугуна (x75)</PuddleWroughtIronFromPigIron.label>
+                                     <!-- Melt pig iron or cast iron in the hearth until it becomes molten, stir it with a paddle, removing the carbon and oxygen content. As the carbon leaves the alloy, the melting point goes up and it can no longer stay liquid. That's how you know it's done. Produces 75. -->
+<PuddleWroughtIronFromPigIron.description>Грейте чугун или литое железо в очаге до тех пор, пока не расплавится. Перемешайте его, удалив тем самым содержание углерода и кислорода. Как только углерод покинет сплав, температура плавления повысится, и сплав больше не может оставаться жидким. Так вы узнаете, что процес завершён. Производит 75.</PuddleWroughtIronFromPigIron.description>
+                                   <!-- Puddling wrought iron. -->
+<PuddleWroughtIronFromPigIron.jobString>Делает кованное железо.</PuddleWroughtIronFromPigIron.jobString>
+                                <!-- Puddle Wrought Iron from Cast Iron (x100) -->
+<PuddleWroughtIronFromCastIron.label>Делает кованное железо из литого (X100)</PuddleWroughtIronFromCastIron.label>
+                                      <!-- Melt pig iron or cast iron in the hearth until it becomes molten, stir it with a paddle, removing the carbon and oxygen content. As the carbon leaves the alloy, the melting point goes up and it can no longer stay liquid. That's how you know it's done. Produces 100. -->
+<PuddleWroughtIronFromCastIron.description>Грейте чугун или литое железо в очаге до тех пор, пока не расплавится. Перемешайте его, удалив тем самым содержание углерода и кислорода. Как только углерод покинет сплав, температура плавления повысится, и сплав больше не может оставаться жидким. Так вы узнаете, что процес завершён. Производит 100.</PuddleWroughtIronFromCastIron.description>
+                                    <!-- Making crucible steel. -->
+<PuddleWroughtIronFromCastIron.jobString>Делает тигельная сталь.</PuddleWroughtIronFromCastIron.jobString>
+                   <!-- Coke Coal -->
+<MakeCokeElectric.label>Сделать коксовый уголь</MakeCokeElectric.label>
+                         <!-- Convert coal into coke, with a firing process called 'coking'. Produces 20. -->
+<MakeCokeElectric.description>Преобразуйте уголь в кокс с помощью процесса обжига, называемого "коксованием". Производит 20.</MakeCokeElectric.description>
+                       <!-- Coking coal. -->
+<MakeCokeElectric.jobString>Коксует уголь.</MakeCokeElectric.jobString>
+
+</LanguageData>

@@ -78,8 +78,9 @@
 			<color>(239,222,199)</color>
 			<statOffsets>
 				<Beauty>0</Beauty>
+				<BurnDurationHours>-0.1</BurnDurationHours>
 			</statOffsets>
-			<statFactors>
+			<statFactors>		
 				<MaxHitPoints>0.6</MaxHitPoints>
 				<Flammability>1.2</Flammability>
 				<Beauty>1.2</Beauty>
@@ -117,8 +118,10 @@
 			<color>(244,183,79)</color>
 			<statOffsets>
 				<Beauty>2</Beauty>
+				<BurnDurationHours>0</BurnDurationHours>
 			</statOffsets>
 			<statFactors>
+				<BurnDurationHours>2.4</BurnDurationHours>
 				<MaxHitPoints>0.65</MaxHitPoints>
 				<Flammability>0.7</Flammability>
 				<Beauty>1.75</Beauty>
@@ -155,8 +158,10 @@
 			<color>(139,125,107)</color>
 			<statOffsets>
 				<Beauty>1</Beauty>
+				<BurnDurationHours>0.08</BurnDurationHours>
 			</statOffsets>
 			<statFactors>
+						
 				<MaxHitPoints>0.7</MaxHitPoints>
 				<Flammability>0.9</Flammability>
 				<Beauty>1.35</Beauty>
@@ -233,8 +238,10 @@
 			<color>(182,123,77)</color>
 			<statOffsets>
 				<Beauty>1</Beauty>
+				<BurnDurationHours>0.1</BurnDurationHours>
 			</statOffsets>
 			<statFactors>
+				
 				<MaxHitPoints>0.8</MaxHitPoints>
 				<Flammability>1.5</Flammability>
 				<Beauty>1.5</Beauty>
@@ -272,6 +279,7 @@
 			<color>(222,225,153)</color>
 			<statOffsets>
 				<Beauty>0</Beauty>
+				<BurnDurationHours>-0.1</BurnDurationHours>
 			</statOffsets>
 			<statFactors>
 				<MaxHitPoints>0.7</MaxHitPoints>
@@ -362,6 +370,7 @@
 			<color>(205,157,90)</color>
 			<statOffsets>
 				<Beauty>3</Beauty>
+				<BurnDurationHours>0.14</BurnDurationHours>
 			</statOffsets>
 			<statFactors>
 				<MaxHitPoints>0.9</MaxHitPoints>
@@ -435,6 +444,7 @@
 			<color>(116,92,63)</color>
 			<statOffsets>
 				<Beauty>4</Beauty>
+				<BurnDurationHours>0.35</BurnDurationHours>
 			</statOffsets>
 			<statFactors>
 				<MaxHitPoints>1.2</MaxHitPoints>
@@ -475,6 +485,7 @@
 			<color>(217,176,167)</color>
 			<statOffsets>
 				<Beauty>0</Beauty>
+				<BurnDurationHours>0.29</BurnDurationHours>
 			</statOffsets>
 			<statFactors>
 				<MaxHitPoints>0.95</MaxHitPoints>
@@ -516,6 +527,7 @@
 			<color>(169,107,7)</color>
 			<statOffsets>
 				<Beauty>2</Beauty>
+				<BurnDurationHours>0.43</BurnDurationHours>
 			</statOffsets>
 			<statFactors>
 				<MaxHitPoints>1.1</MaxHitPoints>
@@ -557,6 +569,7 @@
 			<color>(145,107,90)</color>
 			<statOffsets>
 				<Beauty>2</Beauty>
+				<BurnDurationHours>0.3</BurnDurationHours>
 			</statOffsets>
 			<statFactors>
 				<MaxHitPoints>1.1</MaxHitPoints>
@@ -599,6 +612,7 @@
 			<color>(196,56,27)</color>
 			<statOffsets>
 				<Beauty>3</Beauty>
+				<BurnDurationHours>0.5</BurnDurationHours>
 			</statOffsets>
 			<statFactors>
 				<MaxHitPoints>1.25</MaxHitPoints>
@@ -659,6 +673,7 @@
 			<color>(128,106,121)</color>
 			<statOffsets>
 				<Beauty>2</Beauty>
+				<BurnDurationHours>0.65</BurnDurationHours>
 			</statOffsets>
 			<statFactors>
 				<MaxHitPoints>1.15</MaxHitPoints>

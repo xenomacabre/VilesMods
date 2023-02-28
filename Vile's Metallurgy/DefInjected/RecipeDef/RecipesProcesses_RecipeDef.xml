@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/Recipes/RecipesProcesses.xml-->
+                       <!-- Make blister steel (x40) -->
+<blisterSteel_process.label>Изготовить чёрную сталь (x40)</blisterSteel_process.label>
+                             <!-- Make blister steel - an intermediate product used to make crucible steel and forge-welded steel. Takes 2 days. -->
+<blisterSteel_process.description>Сделайте черную сталь - промежуточный продукт, используемый для производства тигельной и кованной стали. Занимает 2 дня.</blisterSteel_process.description>
+                   <!-- Make flux powder (x25) -->
+<fireFlux_process.label>Сделать флюс (x25)</fireFlux_process.label>
+                         <!-- Make flux powder, an important catalyst for ceramics and metallurgy. Takes 12 hours. -->
+<fireFlux_process.description>Сделайте флюсовый порошок, важный катализатор для керамики и металлургии. Занимает 12 часов.</fireFlux_process.description>
+              <!-- make ash from wood (x4) -->
+<ash_process.label>Сделать золу из дерева (x4)</ash_process.label>
+                    <!-- Make ash from logs or planks. Takes 12 hours. -->
+<ash_process.description>Сделайте золу из бревен или досок. Занимает 12 часов.</ash_process.description>
+                   <!-- make charcoal from wood (x20) -->
+<charcoal_process.label>Сделать древесный уголь из дерева (x20)</charcoal_process.label>
+                         <!-- Make charcoal from wood logs. Takes 12 hours. -->
+<charcoal_process.description>Сделайте древесный уголь из брёвен. Занимает 12 часов.</charcoal_process.description>
+                           <!-- make charcoal from kindling (x20) -->
+<charcoalKindling_process.label>Сделать древесный уголь из хвороста (x20)</charcoalKindling_process.label>
+                                 <!-- Make charcoal from kindling. A bit faster than processing from logs. Takes 9 hours. -->
+<charcoalKindling_process.description>Сделайте древесный уголь из хвороста. Немного быстрее, чем из брёвен. Занимает 9 часов.</charcoalKindling_process.description>
+               <!-- coke coal (x20) -->
+<coke_process.label>Сделать коксовый уголь(x20)</coke_process.label>
+                     <!-- Convert coal into coke, with a firing process called 'coking'. Takes 16 hours. -->
+<coke_process.description>Преобразование угля в кокс с помощью процесса обжига, называемого "коксованием". Занимает 16 часов.</coke_process.description>
+                <!-- make traditional wootz steel (x60) -->
+<wootz_process.label>изготовить традиционную сталь вутц (x60)</wootz_process.label>
+                      <!-- Prepare and fire a crucible to produce wootz steel using organic matter as the carbon source. Takes 3 days. -->
+<wootz_process.description>Подготовьте и обжожгите тигель для получения стали вутц, используя органические вещества в качестве источника углерода. Занимает 3 дня.</wootz_process.description>
+                       <!-- make wootz steel with pig iron (x60) -->
+<wootzPigIron_process.label>Сделать сталь вутц из чугуна (x60)</wootzPigIron_process.label>
+                             <!-- Prepare and fire a crucible to produce wootz steel using pig iron as the carbon source. Takes 2 days. -->
+<wootzPigIron_process.description>Подготовьте и обжожгите тигель для производства стали вутц, используя чугун в качестве источника углерода. Занимает 2 дня.</wootzPigIron_process.description>
+                            <!-- bake clay bricks (x80) -->
+<MakeClayBricksCementation.label>Обжечь глинянные кирпичи (x80)</MakeClayBricksCementation.label>
+                                  <!-- Bake bricks out of soft clay. Takes 24 hours. -->
+<MakeClayBricksCementation.description>Обожгите кирпичи из мягкой глины. Занимает 24 часа.</MakeClayBricksCementation.description>
+                 <!-- bake clay bricks (x30) -->
+<MakeClayBricks.label>Обжечь глинянные кирпичи (x30)</MakeClayBricks.label>
+                       <!-- Bake bricks out of soft clay. Takes 30 hours. -->
+<MakeClayBricks.description>Обожгите кирпичи из мягкой глины. 30 часов.</MakeClayBricks.description>
+                                 <!-- bake sandstone blocks (x50) -->
+<MakeBlocksSandstoneCementation.label>Обжечь песчаниковые блоки(x50)</MakeBlocksSandstoneCementation.label>
+                                       <!-- Bake sandstone blocks. Takes 24 hours. -->
+<MakeBlocksSandstoneCementation.description>Обожгите блоки из песчаника. Занимает 24 часа.</MakeBlocksSandstoneCementation.description>
+                      <!-- bake sandstone blocks (x20) -->
+<MakeBlocksSandstone.label>Обжечь песчаниковые блоки (x20)</MakeBlocksSandstone.label>
+                            <!-- Bake sandstone blocks. Takes 30 hours. -->
+<MakeBlocksSandstone.description>Обожгите блоки из песчаника. Занимает 30 часов.</MakeBlocksSandstone.description>
+                       <!-- Fire porcelain tiles (x20) -->
+<MakeCeramics_Process.label>Обжечь порцеляну (x20)</MakeCeramics_Process.label>
+                             <!-- Fire porcelain tiles. Takes 36 hours. -->
+<MakeCeramics_Process.description>Обжечь порцеляну. Занимает 36 часов.</MakeCeramics_Process.description>
+                         <!-- Make glass batch (x10) -->
+<MakeGlassBatch_Process.label>Изготовить партию стекла (x10)</MakeGlassBatch_Process.label>
+                               <!-- Process glass which can then be blown and formed into sheets at a furnace. Makes 10. Takes 36 hours. -->
+<MakeGlassBatch_Process.description>Обработайте стекло, которое затем можно выдуть и сформировать в плиты в печке. Производит 10 штук. Занимает 36 часов.</MakeGlassBatch_Process.description>
+                              <!-- Make activated carbon (x20) -->
+<MakeActivatedCarbon_Process.label>Сделать активированный уголь (x20)</MakeActivatedCarbon_Process.label>
+                                    <!-- Make activated carbon pills from coal. Produces 20. Takes 12 hours. -->
+<MakeActivatedCarbon_Process.description>Изготовить таблетки активированного угля из угля(как бы логично не звучало). Производится 20. Занимает 12 часов.</MakeActivatedCarbon_Process.description>
+                                  <!-- Making sctivated carbon -->
+<MakeActivatedCarbon_Process.jobString>Делает активированный уголь</MakeActivatedCarbon_Process.jobString>
+
+</LanguageData>

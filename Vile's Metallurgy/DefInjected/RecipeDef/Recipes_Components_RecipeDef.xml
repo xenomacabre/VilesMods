@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/Recipes/Recipes_Components.xml-->
+                         <!-- Make fasteners from metal -->
+<Make_ComponentMedieval.label>Сделать крепежи из металла</Make_ComponentMedieval.label>
+                               <!-- Makes simple fasteners (nails, rivets, etc) by pulling wire through a draw plate, cutting, and cold hammering them into shape. Produces 10. -->
+<Make_ComponentMedieval.description>Сделать простые крепежи (гвозди, заклепки и т.д.) Путем протягивания проволоки через вытяжную пластину, резки и придания им формы ударами молотка без нагрева. Производит 10.</Make_ComponentMedieval.description>
+                             <!-- Making fasteners. -->
+<Make_ComponentMedieval.jobString>Делает крепежи.</Make_ComponentMedieval.jobString>
+                                <!-- Forge fasteners from metal -->
+<Make_ComponentMedieval_Smithy.label>Выковать крепежи</Make_ComponentMedieval_Smithy.label>
+                                      <!-- Makes simple fasteners (nails, rivets, etc) by pulling wire through a draw plate, cutting, and hot forging them into shape. Produces 10. -->
+<Make_ComponentMedieval_Smithy.description>Сделать простые крепежи (гвозди, заклепки и т.д.) Путем протягивания проволоки через вытяжную пластину, резки и горячей штамповки их по форме. Производит 10.</Make_ComponentMedieval_Smithy.description>
+                                    <!-- Forging Fasteners. -->
+<Make_ComponentMedieval_Smithy.jobString>Куёт крепежи.</Make_ComponentMedieval_Smithy.jobString>
+                               <!-- Cast fasteners from metal. -->
+<Make_ComponentMedievalBronze.label>Отлить крепежи из металла.</Make_ComponentMedievalBronze.label>
+                                     <!-- Cast fasteners such as nails and rivets from rugged castable metals. Almost twice as fast as forging, but requires mold materials and and only castable metals may be used. Produces 40. -->
+<Make_ComponentMedievalBronze.description>Отлить крепежи, такие как гвозди и заклепки, из прочных металлов путём отливки. Почти в два раза быстрее, чем ковка, но требует формовочных материалов, и можно использовать только литые металлы. Производит 40.</Make_ComponentMedievalBronze.description>
+                                   <!-- Casting fasteners. -->
+<Make_ComponentMedievalBronze.jobString>Отливает крепежи</Make_ComponentMedievalBronze.jobString>
+                           <!-- Make components. -->
+<Make_ComponentIndustrial.label>Сделать компоненты.</Make_ComponentIndustrial.label>
+                                 <!-- Nuts and bolts, machine screws, etc. Painstakingly threaded by hand using a screw plate. Produces 10. -->
+<Make_ComponentIndustrial.description>Гайки и болты, машинные винты и т.д. Тщательно нарезаются вручную. Производит 10.</Make_ComponentIndustrial.description>
+                               <!-- Making components. -->
+<Make_ComponentIndustrial.jobString>Делает компоненты.</Make_ComponentIndustrial.jobString>
+                  <!-- Cast mechanisms from metal. -->
+<Cast_Mechanisms.label>Отлить механизмы из металла.</Cast_Mechanisms.label>
+                        <!-- Cast and assemble mechanisms from strong metals. Produces 10. -->
+<Cast_Mechanisms.description>Отлить и собрать механизмы из прочных металлов. Производит 10.</Cast_Mechanisms.description>
+                      <!-- Casting mechanisms. -->
+<Cast_Mechanisms.jobString>Отливает механизмы.</Cast_Mechanisms.jobString>
+                   <!-- Cast cannon parts (x4). -->
+<Cast_CannonParts.label>Отлить детали пушки (x4).</Cast_CannonParts.label>
+                         <!-- Cast cannon parts. Produces 4. -->
+<Cast_CannonParts.description>Отлить детали пушки. Производит 4.</Cast_CannonParts.description>
+                       <!-- Casting cannon parts. -->
+<Cast_CannonParts.jobString>Отливает детали пушки.</Cast_CannonParts.jobString>
+
+</LanguageData>

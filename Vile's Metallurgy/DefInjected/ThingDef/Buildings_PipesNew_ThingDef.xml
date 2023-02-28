@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/Buildings/Buildings_PipesNew.xml-->
+                          <!-- aqueduct -->
+<sewagePipeStuffAqueduct.label>Акведук</sewagePipeStuffAqueduct.label>
+                                <!-- Rudimentary plumbing made of stone or brick. -->
+<sewagePipeStuffAqueduct.description>Элементарная пломба из камня или кирпича.</sewagePipeStuffAqueduct.description>
+                  <!-- plumbing -->
+<sewagePipeStuff.label>водопроводная пломба</sewagePipeStuff.label>
+                        <!-- Sturdy piped plumbing. -->
+<sewagePipeStuff.description>Укреплённая водопроводная пломба.</sewagePipeStuff.description>
+
+</LanguageData>

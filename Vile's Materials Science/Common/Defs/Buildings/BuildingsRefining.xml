@@ -380,6 +380,7 @@
             <li>VulcanizeRubber</li>
             <li>MakePTFE</li>
 			<li>ExtractSulfur</li>
+			<li>MakeAmmonia</li>
         </recipes>
 		<designationCategory>Production</designationCategory>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>

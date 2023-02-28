@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/Recipes/Recipes_CastTools.xml-->
+               <!-- Cast Handaxe -->
+<Cast_Handaxe.label>Сделать ручной топор</Cast_Handaxe.label>
+                     <!-- Cast a Handaxe from metal. -->
+<Cast_Handaxe.description>Отлить ручной топор из металла.</Cast_Handaxe.description>
+                   <!-- Casting a handaxe from metal. -->
+<Cast_Handaxe.jobString>Отлить ручной топор из металла.</Cast_Handaxe.jobString>
+               <!-- Cast Pickaxe -->
+<Cast_Pickaxe.label>Отлить кирку</Cast_Pickaxe.label>
+                     <!-- Cast a Pickaxe from metal. -->
+<Cast_Pickaxe.description>Отлить кирку из металла.</Cast_Pickaxe.description>
+                   <!-- Casting a pickaxe from metal. -->
+<Cast_Pickaxe.jobString>Делает кирку из металла.</Cast_Pickaxe.jobString>
+              <!-- Cast Hammer -->
+<Cast_Hammer.label>Отлить молоток</Cast_Hammer.label>
+                    <!-- Cast a hammer from metal. -->
+<Cast_Hammer.description>Отлить молоток из металла.</Cast_Hammer.description>
+                  <!-- Casting a hammer from metal. -->
+<Cast_Hammer.jobString>Отливает молоток из металла.</Cast_Hammer.jobString>
+              <!-- Cast Sickle -->
+<Cast_Sickle.label>Отлить серп</Cast_Sickle.label>
+                    <!-- Cast a sickle from metal. -->
+<Cast_Sickle.description>Отлить серп из металла.</Cast_Sickle.description>
+                  <!-- Casting a sickle from metal. -->
+<Cast_Sickle.jobString>Отливает серп из металла.</Cast_Sickle.jobString>
+           <!-- Cast Hoe -->
+<Cast_Hoe.label>Отлить мотыгу</Cast_Hoe.label>
+                 <!-- Cast a hoe from metal. -->
+<Cast_Hoe.description>Отлить мотыгу из металла.</Cast_Hoe.description>
+               <!-- Casting a hoe from metal. -->
+<Cast_Hoe.jobString>Отливает мотыгу из металла.</Cast_Hoe.jobString>
+
+</LanguageData>

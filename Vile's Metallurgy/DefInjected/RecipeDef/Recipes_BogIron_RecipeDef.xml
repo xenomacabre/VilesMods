@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/Recipes/Recipes_BogIron.xml-->
+                  <!-- extract bog iron from peat -->
+<Extract_BogIron.label>Извлечь болотное железо из торфа</Extract_BogIron.label>
+                        <!-- Extract tiny bits of iron from slabs of peat. -->
+<Extract_BogIron.description>Извлечь крошечные кусочки железа из кусков торфа.</Extract_BogIron.description>
+                      <!-- Extracting bog iron. -->
+<Extract_BogIron.jobString>Извлекает болотное железо.</Extract_BogIron.jobString>
+
+</LanguageData>

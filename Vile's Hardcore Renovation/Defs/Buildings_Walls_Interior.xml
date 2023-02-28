@@ -26,7 +26,7 @@
 		</graphicData>	
 		<statBases>
 			<MaxHitPoints>75</MaxHitPoints>
-			<WorkToMake>450</WorkToMake>
+			<WorkToBuild>450</WorkToBuild>
 			<Flammability>1.0</Flammability>
 			<Beauty>1</Beauty>
 			<Bulk>4</Bulk>
@@ -74,7 +74,7 @@
 		</graphicData>	
 		<statBases>
 			<MaxHitPoints>75</MaxHitPoints>
-			<WorkToMake>450</WorkToMake>
+			<WorkToBuild>450</WorkToBuild>
 			<Flammability>1.0</Flammability>
 			<Beauty>1</Beauty>
 			<Bulk>4</Bulk>

@@ -6,7 +6,6 @@
 		<li>Core SK</li>
 	</mods>
 	<match Class="PatchOperationSequence">
-	<success>Always</success>
 		<operations>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="TableSawmillElectric"]/researchPrerequisites</xpath> 
@@ -19,7 +18,34 @@
 		</operations>
 		</match>
     </Operation>	
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vile's Amuse Bouche</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Hearth" or defName="OpenHearth"]/comps/li[@Class="SK.CompFueled_Properties"]/fuelFilter</xpath> 
+					<value>
+							<fuelFilter>
+								<thingDefs>
+									<li>Coal</li>
+									<li>Charcoal</li>
+									<li>Peat</li>
+									<li>Kindling</li>
+								</thingDefs>
+								<categories>
+									<li>Wooden</li>
+								</categories>
+							</fuelFilter>
+					</value>
+				</li>
+		</operations>
+		</match>
+    </Operation>	
 	
 	
 	
 </Patch>	
+

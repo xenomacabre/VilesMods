@@ -1,12 +1,473 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	
+
+
 	<!-- Tree harvest yield reduced by a factor of five, so firewood in increased by that amount -->
+	<RecipeDef>
+		<defName>ExtractPitch</defName>
+		<label>extract pitch (x15)</label>
+		<description>Extract flammable, sticky pitch from resinous wood.</description>
+		<jobString>Extracting pitch.</jobString>
+		<workAmount>900</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_MakeBow</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Firewood_Pine</li>
+						<li>Firewood_Spruce</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Firewood_Pine</li>
+				<li>Firewood_Spruce</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>ChoppingBlock</li>
+			<li>LogSplittingSpot</li>
+		</recipeUsers>
+		<products>
+			<Pitch>15</Pitch>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.25</workSkillLearnFactor>
+	</RecipeDef>
+	<RecipeDef>
+		<defName>ExtractVegOil</defName>
+		<label>extract vegetable oil (fuel) from seeds (x30)</label>
+		<description>Exctact oil from seed used for fueling lamps and for making candles. Burns longer than animal oils.</description>
+		<jobString>Extracting vegetable oil.</jobString>
+		<workAmount>900</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SeedsCategory</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SeedsCategory</li>
+			</categories>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+		</defaultIngredientFilter>
+		<recipeUsers>
+			<li>TableButcher</li>
+			<li>TableKitchen</li>
+		</recipeUsers>
+		<products>
+			<PlantWax>30</PlantWax>
+		</products>
+		<workSkill>Cooking</workSkill>
+		<workSkillLearnFactor>0.25</workSkillLearnFactor>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>MakeFishOil</defName>
+		<label>Render fish oil (x15)</label>
+		<description>Extract oil from fish, used for oil lamps or candle-making. Smelly, and doesn't burn as long as animal tallow.</description>
+		<jobString>Rendering fish oil.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>600</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Meat_ThingDefFishSduiggles</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<products>
+			<FishOil>15</FishOil>
+		</products>
+		<fixedIngredientFilter>
+				<thingDefs>
+					<li>Meat_ThingDefFishSduiggles</li>
+				</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Cooking>3</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<recipeUsers>
+			<li>Campfire</li>
+			<li>FueledStove</li>
+			<li MayRequire="ViTech.HCSKamusebouche">Hearth</li>
+			<li MayRequire="ViTech.HCSKamusebouche">OpenHearth</li>
+		</recipeUsers>
+        <researchPrerequisite>Food_00</researchPrerequisite>
+	</RecipeDef>
+	<RecipeDef>
+		<defName>MakeTurpentine</defName>
+		<label>make turpentine (x10)</label>
+		<description>Distill turpentine from pitch. Useful as a lamp fuel.</description>
+		<jobString>Making turpentine.</jobString>
+		<workAmount>600</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Pitch</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Pitch</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>FueledStove</li>
+			<li MayRequire="ViTech.HCSKamusebouche">Hearth</li>
+			<li MayRequire="ViTech.HCSKamusebouche">OpenHearth</li>
+			<li MayRequire="Vile's Materials Science">ChemistryLab</li>
+		</recipeUsers>
+		<products>
+			<Turpentine>10</Turpentine>
+		</products>
+		<workSkill>Cooking</workSkill>
+		<workSkillLearnFactor>0.25</workSkillLearnFactor>
+		<researchPrerequisite>Food_00</researchPrerequisite>
+	</RecipeDef>
+
+
+	<RecipeDef>
+		<defName>MakeRushlight</defName>
+		<label>Make rushlights (x30)</label>
+		<description>Make rushlights - a poor man's candle. Must be burned in a rushlight-holder.</description>
+		<jobString>Making rushlights.</jobString>
+		<workAmount>300</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hay</li>
+						<li>Kindling</li>
+						<li>RawFlax</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Tallow</li>
+						<li>PlantWax</li>
+						<li>FishOil</li>
+						<li>Pitch</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hay</li>
+				<li>Kindling</li>
+				<li>Tallow</li>
+				<li>PlantWax</li>
+				<li>FishOil</li>
+				<li>RawFlax</li>
+				<li>Pitch</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>Campfire</li>
+			<li>FueledStove</li>
+			<li MayRequire="ViTech.HCSKamusebouche">Hearth</li>
+			<li MayRequire="ViTech.HCSKamusebouche">OpenHearth</li>
+		</recipeUsers>
+		<products>
+			<RushlightFuel>30</RushlightFuel>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.25</workSkillLearnFactor>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>MakeCandles</defName>
+		<label>Dip candles (x20)</label>
+		<description>Make candles to fuel candle-holders.</description>
+		<jobString>Making candles.</jobString>
+		<workAmount>1500</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Tallow</li>
+						<li>PlantWax</li>
+						<li>FishOil</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Cloth</li>
+						<li>HempCloth</li>
+						<li>Flaxcloth</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Tallow</li>
+				<li>PlantWax</li>
+				<li>FishOil</li>
+				<li>Cloth</li>
+				<li>HempCloth</li>
+				<li>Flaxcloth</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>Campfire</li>
+			<li>FueledStove</li>
+			<li MayRequire="ViTech.HCSKamusebouche">Hearth</li>
+			<li MayRequire="ViTech.HCSKamusebouche">OpenHearth</li>
+		</recipeUsers>
+		<products>
+			<CandleFuel>20</CandleFuel>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.25</workSkillLearnFactor>
+				<researchPrerequisite>Light_B1</researchPrerequisite>
+	</RecipeDef>
+
+	
+
+	<!-- NEW KINDLING -->
+	<RecipeDef>
+		<defName>MakeKindlingFromGreenFirewood_Hand</defName>
+		<label>Make kindling from green firewood (x20)</label>
+		<description>Making kindling from firewood.</description>
+		<workAmount>450</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>MakeWoodPlanks_Hand</effectWorking>
+		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+		<jobString>Splitting logs into kindling.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>FirewoodGreen</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>FirewoodGreen</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Kindling>20</Kindling>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.25</workSkillLearnFactor>
+	</RecipeDef>
+	<RecipeDef>
+		<defName>MakeKindlingFromSeasonedFirewood_Hand</defName>
+		<label>Make kindling from seasoned firewood (x25)</label>
+		<description>Making kindling from firewood.</description>
+		<jobString>Splitting firewood into kindling.</jobString>
+		<workAmount>300</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>MakeWoodPlanks_Hand</effectWorking>
+		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>FirewoodSeasoned</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>FirewoodSeasoned</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Kindling>25</Kindling>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.25</workSkillLearnFactor>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>MakeFirewoodFromPlanks_Hand</defName>
+		<label>Make kindling from planks (x50)</label>
+		<description>Split wood logs into kindling.</description>
+		<jobString>Splitting planks into kindling.</jobString>
+		<workAmount>250</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>MakeWoodPlanks_Hand</effectWorking>
+		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SoftwoodLumber</li>
+						<li>HardwoodLumber</li>
+						<li>UltrahardwoodLumber</li>
+					</categories>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SoftwoodLumber</li>
+				<li>HardwoodLumber</li>
+				<li>UltrahardwoodLumber</li>
+			</categories>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Kindling>50</Kindling>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.25</workSkillLearnFactor>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>MakeRivenBoards</defName>
+		<label>Split firewood into riven boards (x20)</label>
+		<description>Split wood down the grain, radially to make thin wedges which can be used for crude construction or as fast-burning fuel.</description>
+		<jobString>Riving firewood into boards.</jobString>
+		<workAmount>250</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>MakeWoodPlanks_Hand</effectWorking>
+		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>FirewoodGreen</li>
+						<li>FirewoodSeasoned</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>FirewoodGreen</li>
+				<li>FirewoodSeasoned</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>TableSawmillElectric</li>
+		</recipeUsers>
+		<products>
+			<WoodLog>20</WoodLog>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.25</workSkillLearnFactor>
+	</RecipeDef>
+	
+	<!--
+	<RecipeDef Name="MakeFirewoodFromSoftwood_Hand">
+		<defName>MakeFirewoodFromSoftwood_Hand</defName>
+		<label>split softwood logs into kindling (x80)</label>
+		<description>Split wood logs into kindling.</description>
+		<jobString>Splitting logs into kindling.</jobString>
+		<workAmount>600</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>MakeWoodPlanks_Hand</effectWorking>
+		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Softwoods</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Softwoods</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<WoodLog>80</WoodLog>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.25</workSkillLearnFactor>
+	</RecipeDef>
+	<RecipeDef Name="MakeFirewoodFromHardwood_Hand">
+		<defName>MakeFirewoodFromHardwood_Hand</defName>
+		<label>split hardwood logs into kindling (50)</label>
+		<description>Split wood logs into kindling.</description>
+		<jobString>Splitting logs into kindling.</jobString>
+		<workAmount>600</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>MakeWoodPlanks_Hand</effectWorking>
+		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Hardwoods</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Hardwoods</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<WoodLog>50</WoodLog>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.25</workSkillLearnFactor>
+	</RecipeDef>
 	<RecipeDef Name="MakeFirewoodFromUltrahardwood_Hand">
 		<defName>MakeFirewoodFromUltrahardwood_Hand</defName>
-		<label>split ultra-hard logs into firewood (x40)</label>
-		<description>Split ultra-hard wood logs into firewood. Very slow, but it burns slow too, so it can be cut into even smaller pieces.</description>
-		<jobString>Splitting logs into firewood.</jobString>
+		<label>split ultra-hard logs into kindling (30)</label>
+		<description>Split ultra-hard wood logs into kindling. Very slow, but it burns slow too, so it can be cut into even smaller pieces.</description>
+		<jobString>Splitting logs into kindling.</jobString>
 		<workAmount>600</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>MakeWoodPlanks_Hand</effectWorking>
@@ -18,7 +479,7 @@
 						<li>Ultrahardwoods</li>
 					</categories>
 				</filter>
-				<count>3</count>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -27,84 +488,23 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<WoodLog>40</WoodLog>
+			<WoodLog>30</WoodLog>
 		</products>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>0.25</workSkillLearnFactor>
-	</RecipeDef>
-	<RecipeDef Name="MakeFirewoodFromHardwood_Hand">
-		<defName>MakeFirewoodFromHardwood_Hand</defName>
-		<label>split hardwood logs into firewood (x25)</label>
-		<description>Split wood logs into firewood. Quite slow.</description>
-		<jobString>Splitting logs into firewood.</jobString>
-		<workAmount>300</workAmount>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>MakeWoodPlanks_Hand</effectWorking>
-		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Hardwoods</li>
-					</categories>
-				</filter>
-				<count>3</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Hardwoods</li>
-			</categories>
-		</fixedIngredientFilter>
-		<products>
-			<WoodLog>25</WoodLog>
-		</products>
-		<workSkill>Crafting</workSkill>
-		<workSkillLearnFactor>0.25</workSkillLearnFactor>
-	</RecipeDef>
-	
-	<RecipeDef Name="MakeFirewoodFromSoftwood_Hand">
-		<defName>MakeFirewoodFromSoftwood_Hand</defName>
-		<label>split softwood logs into firewood (x15)</label>
-		<description>Chop wood logs or bamboo logs into firewood. Faster than cutting hard woods, but must be cut into larger pieces in order to burn as long.</description>
-		<jobString>Splitting logs into firewood.</jobString>
-		<workAmount>180</workAmount>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>MakeWoodPlanks_Hand</effectWorking>
-		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Softwoods</li>
-					</categories>
-				</filter>
-				<count>3</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Softwoods</li>
-			</categories>
-		</fixedIngredientFilter>
-		<products>
-			<WoodLog>15</WoodLog>
-		</products>
-		<workSkill>Crafting</workSkill>
-		<workSkillLearnFactor>0.25</workSkillLearnFactor>
-	</RecipeDef>
-	
+	</RecipeDef> -->
+<!-- 
 	<RecipeDef Name="MakeFirewoodFromUltrahardwood_Electric" ParentName="MakeFirewoodFromUltrahardwood_Hand">
 		<defName>MakeFirewoodFromUltrahardwood_Electric</defName>
-		<workAmount>350</workAmount>
+		<workAmount>300</workAmount>
 	</RecipeDef>
 	<RecipeDef Name="MakeFirewoodFromHardwood_Electric" ParentName="MakeFirewoodFromHardwood_Hand">
 		<defName>MakeFirewoodFromHardwood_Electric</defName>
-		<workAmount>200</workAmount>
+		<workAmount>300</workAmount>
 	</RecipeDef>
 	<RecipeDef Name="MakeFirewoodFromSoftwood_Electric" ParentName="MakeFirewoodFromSoftwood_Hand">
 		<defName>MakeFirewoodFromSoftwood_Electric</defName>
-		<workAmount>150</workAmount>
-	</RecipeDef>
+		<workAmount>300</workAmount>
+	</RecipeDef> -->
 	
 </Defs>

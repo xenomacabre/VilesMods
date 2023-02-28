@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/ThingDefs_Resources/Alloys_NonFerrous.xml-->
+         <!-- bronze bar -->
+<Bronze.label>бронзовый слиток</Bronze.label>
+               <!-- Bronze is an alloy consisting primarily of copper, commonly with about 12% tin and often with the addition of other metals such as aluminium, nickel. -->
+<Bronze.description>Бронза - это сплав, состоящий в основном из меди, обычно с содержанием около 12% олова и часто с добавлением других металлов, таких как алюминий и никель.</Bronze.description>
+
+</LanguageData>

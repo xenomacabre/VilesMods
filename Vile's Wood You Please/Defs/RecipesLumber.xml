@@ -790,7 +790,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<BambooPlank>30</BambooPlank> <!-- ==== -->
+			<BambooPlank>30</BambooPlank>
 		</products>
 	</RecipeDef>
 	
@@ -840,7 +840,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<MangrovePlank>30</MangrovePlank> <!-- ==== -->
+			<MangrovePlank>30</MangrovePlank>
 		</products>
 	</RecipeDef>
 	
@@ -857,7 +857,7 @@
 						<li>Kindling</li>
 					</thingDefs>
 				</filter>
-				<count>40</count>
+				<count>20</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -866,7 +866,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<ChipBoard>15</ChipBoard> <!-- ==== -->
+			<ChipBoard>15</ChipBoard> 
 		</products>
 	</RecipeDef>
 	<RecipeDef ParentName="LumberRecipeBase_Electric">
@@ -879,19 +879,19 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Kindling</li>
+						<li>WoodLog</li>
 					</thingDefs>
 				</filter>
-				<count>80</count>
+				<count>40</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Kindling</li>
+				<li>WoodLog</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<ChipBoard>30</ChipBoard> <!-- ==== -->
+			<ChipBoard>30</ChipBoard> 
 		</products>
 	</RecipeDef>
 	

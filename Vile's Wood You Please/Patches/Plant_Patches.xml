@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<!-- MISC CHANGES harvests divided by 5 (logs are 5x bigger)-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreePine"]/plant/growDays</xpath>
+		<value>
+			<growDays>19</growDays> <!-- was 23-->
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_TreePine"]/plant/harvestYield</xpath>
+		<value>
+			<harvestYield>8</harvestYield> <!-- was 50 -->
+		</value>
+    </Operation>
+	<!-- <Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Plant_Bush" or 
+				defName="Plant_Rhododendron"]/plant/harvestedThingDef</xpath>
+		<value>
+					<harvestedThingDef>WoodLog</harvestedThingDef>
+		</value>
+    </Operation> -->
+
+	
+	
+</Patch>

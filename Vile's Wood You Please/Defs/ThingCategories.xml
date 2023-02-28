@@ -57,7 +57,17 @@
 		<parent>Woody</parent>
 	</ThingCategoryDef>
 	
-	
-	
+	<ThingCategoryDef>
+		<defName>FirewoodSeasoned</defName>
+		<label>Firewood (seasoned)</label>
+		<iconPath>UI/Icons/Wooden</iconPath>
+		<parent>Wooden</parent>
+	</ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>FirewoodGreen</defName>
+		<label>Firewood (green)</label>
+		<iconPath>UI/Icons/Wooden</iconPath>
+		<parent>Wooden</parent>
+	</ThingCategoryDef>
 	
 </Defs>

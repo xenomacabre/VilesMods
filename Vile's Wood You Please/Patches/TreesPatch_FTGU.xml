@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Patch>
+
 <Operation Class="PatchOperationFindMod">
 	<mods>
 		<li>Vile's Biomes: From The Ground Up</li>
@@ -8,17 +9,24 @@
 	<match Class="PatchOperationSequence">
 	<success>Always</success>
 		<operations>
+			<!-- <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Plant_Juniper"]/plant/harvestedThingDef</xpath>
+				<value>
+					<harvestedThingDef>WoodLog</harvestedThingDef>
+				</value>
+			</li> -->
+
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Plant_TreeWillow"]/plant/harvestYield</xpath>
 				<value>
-					<harvestYield>4</harvestYield> <!-- was 20 -->
+					<harvestYield>4</harvestYield> 
 				</value>
 			</li>
 
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Plant_TreeDwarfWillow"]/plant/harvestYield</xpath>
 				<value>
-					<harvestYield>1</harvestYield> <!-- was 20 -->
+					<harvestYield>16</harvestYield>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -34,6 +42,63 @@
 				</value>
 			</li>
 			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Plant_TreeSpruce"]/plant</xpath> 
+				<value>
+					<harvestedThingDef>Firewood_Spruce</harvestedThingDef>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Plant_TreeDwarfWillow"]/plant</xpath> 
+				<value>
+					<harvestedThingDef>Firewood_Willow</harvestedThingDef>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs</xpath> 
+				<value>
+					<ThingDef ParentName="FirewoodBase">
+						<defName>Firewood_Acacia</defName>
+						<label>firewood (acacia)</label>
+						<graphicData>
+							<color>(145,107,90)</color>
+						</graphicData>
+						<description>Green firewood used for fuel. 
+Burn rate: 1.9 hrs</description>
+						<statBases>
+							<BurnDurationHours>1.9</BurnDurationHours>
+						</statBases>
+						<recipeMaker>
+								<workAmount>900</workAmount>
+						</recipeMaker>
+						<costList>
+							<AcaciaLog>3</AcaciaLog>
+						</costList>
+					</ThingDef>
+	
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs</xpath> 
+				<value>
+					<ThingDef ParentName="FirewoodSeasonedBase">
+						<defName>FirewoodSeasoned_Acacia</defName>
+						<label>seasoned firewood (acacia)</label>
+						<graphicData>
+							<color>(145,107,90)</color>
+						</graphicData>
+						<description>Seasoned firewood used for fuel. 
+Burn rate: 2.6 hrs</description>
+						<statBases>
+							<BurnDurationHours>2.6</BurnDurationHours>
+						</statBases>
+					</ThingDef>
+	
+				</value>
+			</li>
+
+
+
 		</operations>
 	</match>
     </Operation>

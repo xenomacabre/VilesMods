@@ -18,7 +18,7 @@
 		</graphicData>
 		<uiIconPath>Things/Building/Fences/DryStoneWall_Ico</uiIconPath>
 		<statBases>
-			<MaxHitPoints>250</MaxHitPoints>
+			<MaxHitPoints>190</MaxHitPoints>
 			<WorkToBuild>300</WorkToBuild>
 			<Flammability>0</Flammability>
 		</statBases>

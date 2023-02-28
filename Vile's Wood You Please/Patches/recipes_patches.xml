@@ -1,7 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
-	<!-- MISC CHANGES -->
+
+	<!-- TALLOW -->
 	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeTallow"]/label</xpath>
+		<value>
+			<label>Render tallow (x15)</label>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeTallow"]/jobString</xpath>
+		<value>
+			<jobString>Rendering tallow.</jobString>
+		</value>
+    </Operation>
+
+
+	<Operation Class="PatchOperationAdd">
+			<xpath>Defs/RecipeDef[defName="MakeTallow"]/recipeUsers</xpath>
+			<value>
+				<li MayRequire="ViTech.HCSKamusebouche">Hearth</li>
+				<li MayRequire="ViTech.HCSKamusebouche">OpenHearth</li>
+			</value>
+		</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeTallow"]/ingredients</xpath>
+		<value>
+			<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Meat_Elephant</li>
+						<li>Meat_Human</li>
+						<li>Meat_Muffalo</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeTallow"]/fixedIngredientFilter</xpath>
+		<value>
+			<fixedIngredientFilter>
+				<thingDefs>
+					<li>Meat_Elephant</li>
+					<li>Meat_Human</li>
+					<li>Meat_Muffalo</li>
+				</thingDefs>
+				<disallowedThingDefs>
+					<li>Tofu</li>
+				</disallowedThingDefs>
+		</fixedIngredientFilter>
+		</value>
+    </Operation>
+
+	
+
+	<!-- MISC CHANGES -->
+	<!-- <Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="MakeKindling_Hand"]/label</xpath>
 		<value>
 			<label>chop kindling (x50)</label>
@@ -95,7 +154,7 @@
 				</thingDefs>
 			</fixedIngredientFilter>
 		</value>
-    </Operation>
+    </Operation> -->
 	<!--
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="MakeWoodPlanks_Hand"]/label</xpath>
@@ -130,10 +189,10 @@
 			<recipes>
 				<!--<li>MakeRedWoodPlanks_Hand</li>-->
 				<!--<li>MakeBambooPlanks_Hand</li>-->
-				<li>MakeFirewoodFromSoftwood_Hand</li>
-				<li>MakeFirewoodFromHardwood_Hand</li>
-				<li>MakeFirewoodFromUltrahardwood_Hand</li>
-				<li>MakeKindling_Hand</li>
+				<!-- <li>MakeFirewoodFromSoftwood_Hand</li> -->
+				<!-- <li>MakeFirewoodFromHardwood_Hand</li> -->
+				<!-- <li>MakeFirewoodFromUltrahardwood_Hand</li> -->
+				<!-- <li>MakeKindling_Hand</li> -->
 				<li>MakeWoodPlanks_Hand</li>
 				<li>SawPlanks_Plywood_Planks</li>
 				<li>SawPlanks_Chipboard</li>
@@ -165,10 +224,10 @@
 			<recipes>
 				<!--<li>MakeRedWoodPlanks_Hand</li>-->
 				<!--<li>MakeBambooPlanks_Hand</li>-->
-				<li>MakeFirewoodFromSoftwood_Electric</li>
+				<!-- <li>MakeFirewoodFromSoftwood_Electric</li>
 				<li>MakeFirewoodFromHardwood_Electric</li>
-				<li>MakeFirewoodFromUltrahardwood_Electric</li>
-				<li>MakeKindling_Electric</li>
+				<li>MakeFirewoodFromUltrahardwood_Electric</li> -->
+				<!-- <li>MakeKindling_Electric</li> -->
 				<li>MakeWoodPlanks_Electric</li>
 				<li>MillPlanks_Plywood_Planks</li>
 				<li>MillPlanks_Chipboard</li>

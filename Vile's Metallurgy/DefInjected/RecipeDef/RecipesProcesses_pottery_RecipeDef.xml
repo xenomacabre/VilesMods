@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/Recipes/RecipesProcesses_pottery.xml-->
+                  <!-- fire clay pot -->
+<ClayPot_process.label>Обжечь глинянный горшок</ClayPot_process.label>
+                        <!-- Bake a Clay Pot for food storage. Fire it again after glazing for even better preservation. Takes 24 hours. -->
+<ClayPot_process.description>Обожгите глиняный горшок для хранения продуктов. После глазурования снова обожгите его для еще лучшей сохранности. Занимает 24 часа.</ClayPot_process.description>
+                        <!-- fire ash-glazed pot -->
+<ClayPotWetAsh_process.label>Обжечь горшок, глазурованный золой</ClayPotWetAsh_process.label>
+                              <!-- Bake a green-tinted glaze for a clay pot. Makes a tighter seal and also looks pretty. Beauty: 10  Takes 24 hours. -->
+<ClayPotWetAsh_process.description>Глазуруйте глинянный горшок тёмно-зелёным цветом. Обеспечивает улучшеную защиту содержимого, а также выглядит красиво. Красота: 10 Занимает 24 часа.</ClayPotWetAsh_process.description>
+                            <!-- fire painted pot -->
+<ClayPotWetPainted_process.label>Обжечь горшок огненно-красного цвета</ClayPotWetPainted_process.label>
+                                  <!-- Bake a red-figure glazed pot. Makes a tighter seal and also looks pretty. Beauty: 10  Takes 24 hours. -->
+<ClayPotWetPainted_process.description>Глазуруйте глинянный горшок огненно-красным цветом. Обеспечивает улучшеную защиту содержимого, а также выглядит красиво. Красота: 10 Занимает 24 часа.</ClayPotWetPainted_process.description>
+                         <!-- fire salt-glazed pot -->
+<ClayPotWetSalt_process.label>Горшок глазурованный солью</ClayPotWetSalt_process.label>
+                               <!-- Make a textured glaze for a clay pot. Needs to be fired again to harden it. Makes a tighter seal and also looks pretty. Beauty: 10  Takes 24 hours. -->
+<ClayPotWetSalt_process.description>Сдедайте обьёмное глазировани для глинняного горшка. Необходимо обжечь ещё раз для улучшения прочности.Обеспечивает улучшеную защиту содержимого, а также выглядит красиво. Красота: 10 Занимает 24 часа.</ClayPotWetSalt_process.description>
+                         <!-- fire lead-glazed pot -->
+<ClayPotWetLead_process.label>Обжечь горшок, глазурованный свинцом</ClayPotWetLead_process.label>
+                               <!-- Make a tan-colored glaze for a clay pot. Needs to be fired again to harden it. Makes a tighter seal and also looks pretty. Beauty: 18  Takes 24 hours. -->
+<ClayPotWetLead_process.description>Глазуруйте глинянный горшок цветом загара. Необходимо обжечь ещё раз для улучшения прочности. Обеспечивает улучшеную защиту содержимого, а также выглядит красиво. Красота: 18 Занимает 24 часа.</ClayPotWetLead_process.description>
+                        <!-- fire tin-glazed pot -->
+<ClayPotWetTin_process.label>Обдечь ярко раскрашенный горшок</ClayPotWetTin_process.label>
+                              <!-- Make a bright-colored glaze for a clay pot. Needs to be fired again to harden it. Makes a tighter seal and also looks pretty. Beauty: 24  Takes 24 hours. -->
+<ClayPotWetTin_process.description>Глазуруйте глинянный горшок ярким цветом. Нужно обжечь ещё раз для улучшения прочности. Обеспечивает улучшеную защиту содержимого, а также выглядит красиво. Красота: 24 Занимает 24 часа.</ClayPotWetTin_process.description>
+                 <!-- Make un-glazed clay pot -->
+<MakeClayPotWet.label>Изготовить неглазурованный глиняный горшок</MakeClayPotWet.label>
+                       <!-- A pot made out of clay. Needs to be fired in a kiln to be of any use. Unlike glazed clay pots, this does not require a skilled artist. -->
+<MakeClayPotWet.description>Горшок, сделанный из глины. Для получения хоть какой-то пользы его необходимо обжечь в печи. В отличие от глазированных горшков, такой горшок не требует хорошего художника.</MakeClayPotWet.description>
+                     <!-- Making unfired clay pot. -->
+<MakeClayPotWet.jobString>Делает необожжённый глинянный Горшок.</MakeClayPotWet.jobString>
+                           <!-- Make ash-glazed pot -->
+<MakeClayPotWetGlazed_ash.label>Изготовить горшок, глазированный золой</MakeClayPotWetGlazed_ash.label>
+                                 <!-- Make a green-tinted glaze for a clay pot. Needs to be fired again to harden it. Makes a tighter seal and also looks pretty. Beauty: 10 -->
+<MakeClayPotWetGlazed_ash.description>Глазуруйте глинянный горшок зелёным цветом цветом. Нужно обжечь ещё раз для улучшения прочности. Обеспечивает улучшеную защиту содержимого, а также выглядит красиво. Красота: 10</MakeClayPotWetGlazed_ash.description>
+                               <!-- Glazing clay pot. -->
+<MakeClayPotWetGlazed_ash.jobString>Глазирует глинянный Горшок.</MakeClayPotWetGlazed_ash.jobString>
+                               <!-- make painted pot -->
+<MakeClayPotWetGlazed_painted.label>Изготовить расписной горшок</MakeClayPotWetGlazed_painted.label>
+                                     <!-- Make a red-figure painted pot by making a glaze out of a clay slurry and etching designs into it. Very time-consuming, but requires no special materials. Must be fired in a kiln after. Beauty: 10 -->
+<MakeClayPotWetGlazed_painted.description>Сделайте расписной горшок с красными рисунками, приготовив глазировку из глиняного раствора и нарисовав на ней узоры. Очень трудоемко, но не требует специальных материалов. Нужно обжечь в печи. Красота: 10</MakeClayPotWetGlazed_painted.description>
+                                   <!-- Glazing clay pot. -->
+<MakeClayPotWetGlazed_painted.jobString>Глазирует глинянный Горшок.</MakeClayPotWetGlazed_painted.jobString>
+                            <!-- Make salt-glazed clay pot -->
+<MakeClayPotWetGlazed_salt.label>Изготовление глиняного горшка, глазированного солью</MakeClayPotWetGlazed_salt.label>
+                                  <!-- Make a textured glaze for a clay pot. Needs to be fired again to harden it. Makes a tighter seal and also looks pretty. Beauty: 10 -->
+<MakeClayPotWetGlazed_salt.description>Сделайте фактурное глазирование для глиняного горшка. Требуется повторный обжиг для улучшения прочности. Обеспечивает лучшую защиту содержимого, а также выглядит красиво. Красота: 10</MakeClayPotWetGlazed_salt.description>
+                                <!-- Glazing clay pot. -->
+<MakeClayPotWetGlazed_salt.jobString>Глазирует глиняный Горшок.</MakeClayPotWetGlazed_salt.jobString>
+                            <!-- Make lead-glazed clay pot -->
+<MakeClayPotWetGlazed_lead.label>Изготовление глиняного горшка из свинцовой глазури</MakeClayPotWetGlazed_lead.label>
+                                  <!-- Make a tan-colored glaze for a clay pot. Needs to be fired again to harden it. Makes a tighter seal and also looks pretty. Beauty: 18 -->
+<MakeClayPotWetGlazed_lead.description>Сделайте глазурь цвета загара для глиняного горшка. Требуется повторный обжиг для упрочнения. Обеспечивает более плотное уплотнение, а также выглядит красиво. Красота: 18</MakeClayPotWetGlazed_lead.description>
+                                <!-- Glazing clay pot. -->
+<MakeClayPotWetGlazed_lead.jobString>Глазирует глиняный горшок.</MakeClayPotWetGlazed_lead.jobString>
+                           <!-- Make tin-glazed clay pot -->
+<MakeClayPotWetGlazed_tin.label>Изготовить глиняный горшок глазированный оловом</MakeClayPotWetGlazed_tin.label>
+                                 <!-- Make a bright-colored glaze for a clay pot. Needs to be fired again to harden it. Makes a tighter seal and also looks pretty. Beauty: 24 -->
+<MakeClayPotWetGlazed_tin.description>Глазуруйте глинянный горшок ярким цветом. Нужно обжечь ещё раз для улучшения прочности. Обеспечивает улучшеную защиту содержимого, а также выглядит красиво. Красота: 24 Занимает 24 часа.</MakeClayPotWetGlazed_tin.description>
+                               <!-- Glazing clay pot. -->
+<MakeClayPotWetGlazed_tin.jobString>Глазирует глиняный горшок.</MakeClayPotWetGlazed_tin.jobString>
+
+</LanguageData>

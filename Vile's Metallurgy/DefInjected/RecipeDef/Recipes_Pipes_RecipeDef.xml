@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/Recipes/Recipes_Pipes.xml-->
+                             <!-- Cast plumbing components from metal -->
+<Make_PipeSectionBasic_Cast.label>Отлить сантехнические компоненты из металла</Make_PipeSectionBasic_Cast.label>
+                                   <!-- Cast pipes and fittings for sewage and drinking water (hopefully seperately). Produces 16. -->
+<Make_PipeSectionBasic_Cast.description>Отлить трубы и пломбы для канализации и питьевой воды (надеюсь отдельно). Производит 16.</Make_PipeSectionBasic_Cast.description>
+                                 <!-- Assembling components. -->
+<Make_PipeSectionBasic_Cast.jobString>Собирает компоненты.</Make_PipeSectionBasic_Cast.jobString>
+                               <!-- forge plumbing components -->
+<Make_PipeSectionBasic_Forged.label>Выковать сантехнические компоненты</Make_PipeSectionBasic_Forged.label>
+                                     <!-- Forge pipes and fittings for sewage and drinking water (hopefully seperately). Produces 4. -->
+<Make_PipeSectionBasic_Forged.description>Выковать трубы и фитинги для канализации и питьевой воды (надеюсь отдельно). Производит 4.</Make_PipeSectionBasic_Forged.description>
+                                   <!-- Assembling components. -->
+<Make_PipeSectionBasic_Forged.jobString>Собирает компоненты.</Make_PipeSectionBasic_Forged.jobString>
+
+</LanguageData>

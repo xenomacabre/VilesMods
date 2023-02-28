@@ -1,35 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
+
+<!-- TALLOW -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Tallow"]/statBases/BurnDurationHours</xpath>
+
+			<value>
+				<BurnDurationHours>1.25</BurnDurationHours>
+			</value>
+
+    </Operation>
+
+
+	<!-- rushlihgt -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Kindling"]/label</xpath>
+		<value>
+			<label>kindling</label>
+		</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Kindling"]/description</xpath>
+		<value>
+			<description>Dry sticks and thinly-cut wood. Burns hot and fast.</description>
+		</value>
+    </Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Kindling"]/graphicData</xpath>
+		<value>
+			<graphicData>
+				<texPath>Things/VileWood/Kindling</texPath>
+				<graphicClass>Graphic_StackCount</graphicClass>
+			</graphicData>
+		</value>
+    </Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Kindling"]/statBases/BurnDurationHours</xpath>
+		<value>
+			<BurnDurationHours>0.65</BurnDurationHours>
+		</value>
+    </Operation>
+
+	<!-- Hay -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Hay"]/statBases</xpath>
+		<value>
+			<MaxBurningTempCelsius>300</MaxBurningTempCelsius>
+			<BurnDurationHours>0.55</BurnDurationHours>
+		</value>
+    </Operation>
+
 	<!-- MISC CHANGES -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="WoodLog"]/label</xpath>
 		<value>
-			<label>firewood</label>
+			<label>riven boards</label>
 		</value>
     </Operation>
 	
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="WoodLog"]/description</xpath>
 		<value>
-			<description>Logs split into large chunks which can be used as fuel that burns for quite a while.</description>
+			<description>Wood that is split down the grain, radially to make thin wedges which can be used for crude construction or as fast-burning fuel.</description>
 		</value>
     </Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="WoodLog"]/graphicData/texPath</xpath>
 		<value>
-			<texPath>Things/VileWood/NewFirewood</texPath>
+			<texPath>Things/VileWood/RivenWood</texPath>
 		</value>
     </Operation>
-	
-	
+
+	<!-- <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="WoodLog"]</xpath>
+		<value>
+			<stuffCategories>
+			<li>Softwoods</li>
+			<li>Hardwoods</li>
+			<li>Ultrahardwoods</li>
+			</stuffCategories>
+			<costStuffCount>1</costStuffCount>
+		</value>
+    </Operation> -->
+
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="WoodLog"]/statBases/BurnDurationHours</xpath>
 		<value>
-			<BurnDurationHours>0.9</BurnDurationHours>
+			<BurnDurationHours>0.75</BurnDurationHours>
 		</value>
     </Operation>
-	
+		<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WoodLog"]/stuffProps/stuffAdjective</xpath>
+		<value>
+			<stuffAdjective>wooden</stuffAdjective>
+			</value>
+    </Operation>
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="WoodLog"]/stuffProps/statOffsets</xpath>
 		<value>
@@ -61,18 +130,37 @@
 		</value>
     </Operation>
 	
-	<Operation Class="PatchOperationReplace">
+	<!-- Tinder Wood-->
+	<!-- <Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Kindling"]/label</xpath>
 		<value>
-			<label>kindling</label>
+			<label>Tinderwood</label>
 		</value>
     </Operation>
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Kindling"]/description</xpath>
 		<value>
-			<description>Dry twigs or thin pieces cut from firewood to be used as fuel in torches and other buildings.</description>
+			<description>Small dry sticks or grass used for starting fires and making small torches. Burns extremely fast.</description>
 		</value>
     </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Kindling"]/statBases/BurnDurationHours</xpath>
+		<value>
+			<BurnDurationHours>0.55</BurnDurationHours>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Kindling"]/graphicData</xpath>
+		<value>
+		<graphicData>
+			<texPath>Things/VileWood/Tinder</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+			</value>
+    </Operation> -->
+
+<!-- Plywood -->
+
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="WoodPlank"]/label</xpath>
 		<value>

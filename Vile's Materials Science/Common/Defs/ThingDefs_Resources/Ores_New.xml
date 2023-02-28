@@ -48,7 +48,8 @@
 		<graphicData>
 			<texPath>Things/Item/Ores/Titanomagnetite</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
-			<!--<color>(255,215,0)</color>-->
+			<color>(255,215,0)</color>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<soundInteract>Metal_Drop</soundInteract>
 		<soundDrop>Metal_Drop</soundDrop>
@@ -88,7 +89,8 @@
 		<graphicData>
 			<texPath>Things/Item/Ores/Sphalerite</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
-			<!--<color>(255,215,0)</color>-->
+			<color>(185,185,185)</color>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<soundInteract>Metal_Drop</soundInteract>
 		<soundDrop>Metal_Drop</soundDrop>
@@ -129,7 +131,8 @@
 		<graphicData>
 			<texPath>Things/Item/Ores/BogIron</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
-			<!--<color>(255,215,0)</color>-->
+			<color>(255,215,0)</color>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<soundInteract>Metal_Drop</soundInteract>
 		<soundDrop>Metal_Drop</soundDrop>

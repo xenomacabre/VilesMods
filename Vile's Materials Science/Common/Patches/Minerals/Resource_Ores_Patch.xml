@@ -26,7 +26,8 @@
 					<graphicData>
 						<texPath>Things/Item/Ores/Magnetite</texPath>
 						<graphicClass>Graphic_StackCount</graphicClass>
-						<!--<color>(125,140,131)</color>-->
+						<color>(137,124,121)</color>
+						<shaderType>CutoutComplex</shaderType>
 					</graphicData>
 				</value>
 			</li>
@@ -71,7 +72,8 @@
 					<graphicData>
 						<texPath>Things/Item/Ores/NativeGold</texPath>
 						<graphicClass>Graphic_StackCount</graphicClass>
-						<!--<color>(125,140,131)</color>-->
+						<color>(255,190,58)</color>
+						<shaderType>CutoutComplex</shaderType>
 					</graphicData>
 				</value>
 			</li>
@@ -94,7 +96,8 @@
 					<graphicData>
 						<texPath>Things/Item/Ores/Galena</texPath>
 						<graphicClass>Graphic_StackCount</graphicClass>
-						<!--<color>(125,140,131)</color>-->
+						<color>(161,169,232)</color>
+						<shaderType>CutoutComplex</shaderType>
 					</graphicData>
 				</value>
 			</li>
@@ -117,7 +120,8 @@
 					<graphicData>
 						<texPath>Things/Item/Ores/Pentlandite</texPath>
 						<graphicClass>Graphic_StackCount</graphicClass>
-						<!--<color>(125,140,131)</color>-->
+						<color>(255,255,187)</color>
+						<shaderType>CutoutComplex</shaderType>
 					</graphicData>
 				</value>
 			</li>
@@ -140,7 +144,8 @@
 					<graphicData>
 						<texPath>Things/Item/Ores/Cassiterite</texPath>
 						<graphicClass>Graphic_StackCount</graphicClass>
-						<!--<color>(125,140,131)</color>-->
+						<color>(98,109,108)</color>
+						<shaderType>CutoutComplex</shaderType>
 					</graphicData>
 				</value>
 			</li>
@@ -163,7 +168,8 @@
 					<graphicData>
 						<texPath>Things/Item/Ores/Chalcopyrite</texPath>
 						<graphicClass>Graphic_StackCount</graphicClass>
-						<!--<color>(125,140,131)</color>-->
+						<color>(208,117,31)</color>
+						<shaderType>CutoutComplex</shaderType>
 					</graphicData>
 				</value>
 			</li>
@@ -186,7 +192,8 @@
 					<graphicData>
 						<texPath>Things/Item/Ores/Bauxite</texPath>
 						<graphicClass>Graphic_StackCount</graphicClass>
-						<!--<color>(125,140,131)</color>-->
+						<color>(232,108,102)</color>
+						<shaderType>CutoutComplex</shaderType>
 					</graphicData>
 				</value>
 			</li>
@@ -209,7 +216,8 @@
 					<graphicData>
 						<texPath>Things/Item/Ores/Rutile</texPath>
 						<graphicClass>Graphic_StackCount</graphicClass>
-						<!--<color>(125,140,131)</color>-->
+						<color>(161,37,51)</color>
+						<shaderType>CutoutComplex</shaderType>
 					</graphicData>
 				</value>
 			</li>
@@ -232,7 +240,8 @@
 					<graphicData>
 						<texPath>Things/Item/Ores/Scheelite</texPath>
 						<graphicClass>Graphic_StackCount</graphicClass>
-						<!--<color>(125,140,131)</color>-->
+						<color>(130,100,100)</color>
+						<shaderType>CutoutComplex</shaderType>
 					</graphicData>
 				</value>
 			</li>
@@ -255,7 +264,8 @@
 					<graphicData>
 						<texPath>Things/Item/Ores/Carnotite</texPath>
 						<graphicClass>Graphic_StackCount</graphicClass>
-						<!--<color>(125,140,131)</color>-->
+						<color>(161,233,55)</color>
+						<shaderType>CutoutComplex</shaderType>
 					</graphicData>
 				</value>
 			</li>

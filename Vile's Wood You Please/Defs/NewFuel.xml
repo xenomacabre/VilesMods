@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Pitch</defName>
+		<label>pitch</label>
+		<description>Pitch extracted from trees. Can be used as a fuel.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Tallow</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(150,150,0)</color>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<techLevel>Neolithic</techLevel>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<MarketValue>2</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>2</Flammability>
+			<MaxBurningTempCelsius>300</MaxBurningTempCelsius>
+			<BurnDurationHours>1</BurnDurationHours>
+			<Mass>0.09</Mass>
+			<Bulk>0.1</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<thingCategories>
+			<li>FuelCat</li>
+		</thingCategories>
+		<stackLimit>300</stackLimit>
+	</ThingDef>
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>FishOil</defName>
+		<label>fish oil</label>
+		<description>Pitch extracted from trees. Can be used as a fuel.</description>
+		<graphicData>
+			<texPath>Things/VileWood/VegOil</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<techLevel>Neolithic</techLevel>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<MarketValue>2</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>2</Flammability>
+			<MaxBurningTempCelsius>300</MaxBurningTempCelsius>
+			<BurnDurationHours>1.1</BurnDurationHours>
+			<Mass>0.09</Mass>
+			<Bulk>0.1</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<thingCategories>
+			<li>FuelCat</li>
+		</thingCategories>
+		<stackLimit>300</stackLimit>
+	</ThingDef>
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>Turpentine</defName>
+		<label>turpentine</label>
+		<description>A fluid obtained by processing tree pitch. Can be burned as lamp fuel.</description>
+		<graphicData>
+			<texPath>Things/VileWood/Turpentine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<techLevel>Neolithic</techLevel>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<MarketValue>5</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>2</Flammability>
+			<MaxBurningTempCelsius>300</MaxBurningTempCelsius>
+			<BurnDurationHours>1.7</BurnDurationHours>
+			<Mass>0.09</Mass>
+			<Bulk>0.1</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<thingCategories>
+			<li>FuelCat</li>
+		</thingCategories>
+		<stackLimit>300</stackLimit>
+	</ThingDef>
+
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>RushlightFuel</defName>
+		<label>rushlights</label>
+		<description>Grass or plant matter dipped in grease - A poor man's candle.</description>
+		<graphicData>
+			<texPath>Things/VileWood/Rushlights</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<MarketValue>3</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>3</Flammability>
+			<MaxBurningTempCelsius>300</MaxBurningTempCelsius>
+			<BurnDurationHours>1</BurnDurationHours>
+			<Mass>0.08</Mass>
+			<Bulk>0.07</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<thingCategories>
+			<li>FuelCat</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+	</ThingDef>
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>CandleFuel</defName>
+		<label>Candles</label>
+		<description>A candle made of wax or fat. Must be burned in a candle holder.</description>
+		<graphicData>
+			<texPath>Things/VileWood/CandleFuel</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<MaxHitPoints>20</MaxHitPoints>
+			<MarketValue>10</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>2</Flammability>
+			<MaxBurningTempCelsius>300</MaxBurningTempCelsius>
+			<BurnDurationHours>2</BurnDurationHours>
+			<Mass>0.09</Mass>
+			<Bulk>0.1</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<thingCategories>
+			<li>FuelCat</li>
+		</thingCategories>
+		<stackLimit>75</stackLimit>
+	</ThingDef>
+	
+<!-- Seasoned is parent -->
+<ThingDef ParentName="SK_ResourceBase" Name="FirewoodSeasonedBase" Abstract="True">
+	<description>Wood logs cut into large, rough pieces of firewood. Hardwoods tend to burn longer than softwoods.</description>
+	<graphicData>
+		<texPath>Things/VileWood/SeasonedFirewood</texPath>
+		<graphicClass>Graphic_StackCount</graphicClass>
+	</graphicData>
+	<soundInteract>Wood_Drop</soundInteract>
+	<soundDrop>Wood_Drop</soundDrop>
+	<tickerType>Rare</tickerType>
+	<statBases>
+		<MarketValue>2.4</MarketValue>
+		<MaxHitPoints>150</MaxHitPoints>
+		<Flammability>5.0</Flammability>
+		<DeteriorationRate>0</DeteriorationRate>
+		<MaxBurningTempCelsius>550</MaxBurningTempCelsius>
+		<Mass>0.4</Mass>
+		<Bulk>0.3</Bulk>
+	</statBases>
+	<techLevel>Neolithic</techLevel>
+	<stackLimit>300</stackLimit>
+	<thingCategories>
+		<li>FirewoodSeasoned</li>
+	</thingCategories>
+</ThingDef>
+
+<!-- Green is child -->
+<ThingDef ParentName="FirewoodSeasonedBase" Name="FirewoodBase" Abstract="True">
+	<description>Wood logs cut into large, rough pieces of firewood. Hardwoods tend to burn longer than softwoods.</description>
+	<graphicData>
+		<texPath>Things/VileWood/GreenFirewood</texPath>
+		<graphicClass>Graphic_StackCount</graphicClass>
+	</graphicData>
+	<statBases>
+		<MarketValue>1.4</MarketValue>
+		<MaxBurningTempCelsius>450</MaxBurningTempCelsius>
+		<Mass>0.2</Mass>
+	</statBases>
+	<thingCategories Inherit="False">
+		<li>FirewoodGreen</li>
+	</thingCategories>
+	<recipeMaker>
+		<productCount>30</productCount>
+		<!--<workAmount>180</workAmount>-->
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>MakeWoodPlanks_Hand</effectWorking>
+		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+		<recipeUsers>
+			<li>ChoppingBlock</li>
+			<li>LogSplittingSpot</li>
+		</recipeUsers>
+    </recipeMaker>
+</ThingDef>
+
+
+
+<ThingDef ParentName="FirewoodBase">
+	<defName>Firewood_Cecropia</defName>
+	<label>firewood (cecropia)</label>
+	<graphicData>
+		<color>(239,222,199)</color>
+	</graphicData>
+	<description>Green firewood used for fuel.
+Green burn rate: 0.9 hrs
+Seasoned burn rate: 1.5 hrs</description>
+	<statBases>
+		<BurnDurationHours>0.9</BurnDurationHours>
+	</statBases>
+	<recipeMaker>
+			<workAmount>400</workAmount>
+	</recipeMaker>
+	<costList>
+		<CecropiaLog>3</CecropiaLog>
+	</costList>
+</ThingDef>
+	<ThingDef ParentName="FirewoodSeasonedBase">
+		<defName>FirewoodSeasoned_Cecropia</defName>
+		<label>seasoned firewood (cecropia)</label>
+		<graphicData>
+			<color>(239,222,199)</color>
+		</graphicData>
+		<description>Seasoned firewood used for fuel.
+Burn rate: 1.5 hrs</description>
+		<statBases>
+			<BurnDurationHours>1.5</BurnDurationHours>
+		</statBases>
+	</ThingDef>
+
+<ThingDef ParentName="FirewoodBase">
+	<defName>Firewood_Pine</defName>
+	<label>firewood (pine)</label>
+	<graphicData>
+			<color>(244,183,79)</color>
+	</graphicData>
+	<description>Green firewood used for fuel. 
+Green burn rate: 1.0 hrs
+Seasoned burn rate: 1.3 hrs</description>
+	<statBases>
+		<BurnDurationHours>1.0</BurnDurationHours>
+	</statBases>
+	<recipeMaker>
+			<workAmount>300</workAmount>
+	</recipeMaker>
+	<costList>
+		<PineLog>3</PineLog>
+	</costList>
+</ThingDef>
+	<ThingDef ParentName="FirewoodSeasonedBase">
+		<defName>FirewoodSeasoned_Pine</defName>
+		<label>seasoned firewood (pine)</label>
+		<graphicData>
+				<color>(244,183,79)</color>
+		</graphicData>
+		<description>Seasoned firewood used for fuel. 
+Burn rate: 1.3 hrs</description>
+		<statBases>
+			<BurnDurationHours>1.3</BurnDurationHours>
+		</statBases>
+	</ThingDef>
+
+<ThingDef ParentName="FirewoodBase">
+	<defName>Firewood_Willow</defName>
+	<label>firewood (willow)</label>
+	<graphicData>
+						<color>(139,125,107)</color>
+		</graphicData>
+	<description>Green firewood used for fuel. 
+Green burn rate: 0.9 hrs
+Seasoned burn rate: 1.6 hrs</description>
+	<statBases>
+		<BurnDurationHours>0.9</BurnDurationHours>
+	</statBases>
+	<recipeMaker>
+			<workAmount>300</workAmount>
+	</recipeMaker>
+	<costList>
+		<WillowLog>3</WillowLog>
+	</costList>
+</ThingDef>
+	<ThingDef ParentName="FirewoodSeasonedBase">
+		<defName>FirewoodSeasoned_Willow</defName>
+		<label>seasoned firewood (willow)</label>
+		<graphicData>
+						<color>(139,125,107)</color>
+		</graphicData>
+		<description>Seasoned firewood used for fuel. 
+Burn rate: 1.6 hrs</description>
+		<statBases>
+			<BurnDurationHours>1.6</BurnDurationHours>
+		</statBases>
+	</ThingDef>
+
+<ThingDef ParentName="FirewoodBase">
+	<defName>Firewood_Redwood</defName>
+	<label>firewood (redwood)</label>
+	<graphicData>
+			<color>(162,94,100)</color>
+		</graphicData>
+	<description>Green firewood used for fuel.\n 
+Green burn rate: 1.1 hrs
+Seasoned burn rate: 1.6 hrs</description>
+	<statBases>
+		<BurnDurationHours>1.1</BurnDurationHours>
+	</statBases>
+	<recipeMaker>
+			<workAmount>350</workAmount>
+	</recipeMaker>
+	<costList>
+		<RedWoodLog>3</RedWoodLog>
+	</costList>
+</ThingDef>
+	<ThingDef ParentName="FirewoodSeasonedBase">
+		<defName>FirewoodSeasoned_Redwood</defName>
+		<label>seasoned firewood (redwood)</label>
+		<graphicData>
+			<color>(162,94,100)</color>
+		</graphicData>
+		<description>Seasoned firewood used for fuel. 
+Burn rate: 1.6 hrs</description>
+		<statBases>
+			<BurnDurationHours>1.6</BurnDurationHours>
+		</statBases>
+	</ThingDef>
+
+<ThingDef ParentName="FirewoodSeasonedBase"> <!-- No log -->
+	<defName>Firewood_Spruce</defName>
+	<label>firewood (spruce)</label>
+	<description>Green firewood used for fuel. 
+Green burn rate: 1.0 hrs
+Seasoned burn rate: 1.7 hrs</description>
+	<statBases>
+		<BurnDurationHours>1.0</BurnDurationHours>
+	</statBases>
+	<thingCategories Inherit="False">
+		<li>FirewoodGreen</li>
+	</thingCategories>
+</ThingDef>
+	<ThingDef ParentName="FirewoodSeasonedBase">
+		<defName>FirewoodSeasoned_Spruce</defName>
+		<label>seasoned firewood (spruce)</label>
+		<description>Seasoned firewood used for fuel. 
+Burn rate: 1.7 hrs</description>
+		<statBases>
+			<BurnDurationHours>1.7</BurnDurationHours>
+		</statBases>
+	</ThingDef>	
+
+<ThingDef ParentName="FirewoodBase">
+	<defName>Firewood_Cypress</defName>
+	<label>firewood (cypress)</label>
+	<graphicData>
+						<color>(182,123,77)</color>
+		</graphicData>
+	<description>Green firewood used for fuel. 
+Green burn rate: 1.3 hrs
+Seasoned burn rate: 1.9 hrs</description>
+	<statBases>
+		<BurnDurationHours>1.3</BurnDurationHours>
+	</statBases>
+	<recipeMaker>
+			<workAmount>350</workAmount>
+	</recipeMaker>
+	<costList>
+		<CypressLog>3</CypressLog>
+	</costList>
+</ThingDef>
+	<ThingDef ParentName="FirewoodSeasonedBase">
+		<defName>FirewoodSeasoned_Cypress</defName>
+		<label>seasoned firewood (cypress)</label>
+		<graphicData>
+						<color>(182,123,77)</color>
+		</graphicData>
+		<description>Seasoned firewood used for fuel. 
+Burn rate: 1.9 hrs</description>
+		<statBases>
+			<BurnDurationHours>1.9</BurnDurationHours>
+		</statBases>
+	</ThingDef>
+
+<ThingDef ParentName="FirewoodBase">
+	<defName>Firewood_Poplar</defName>
+	<label>firewood (poplar)</label>
+	<graphicData>
+						<color>(222,225,153)</color>
+		</graphicData>
+	<description>Green firewood used for fuel. 
+Green burn rate: 0.8 hrs
+Seasoned burn rate: 1.4 hrs</description>
+	<statBases>
+		<BurnDurationHours>0.8</BurnDurationHours>
+	</statBases>
+	<recipeMaker>
+			<workAmount>300</workAmount>
+	</recipeMaker>
+	<costList>
+		<PoplarLog>3</PoplarLog>
+	</costList>
+</ThingDef>
+	<ThingDef ParentName="FirewoodSeasonedBase">
+		<defName>FirewoodSeasoned_Poplar</defName>
+		<label>seasoned firewood (poplar)</label>
+		<graphicData>
+						<color>(222,225,153)</color>
+		</graphicData>
+		<description>Seasoned firewood used for fuel. 
+Burn rate: 1.4 hrs</description>
+		<statBases>
+			<BurnDurationHours>1.4</BurnDurationHours>
+		</statBases>
+	</ThingDef>
+
+<ThingDef ParentName="FirewoodBase">
+	<defName>Firewood_Maple</defName>
+	<label>firewood (maple)</label>
+	<graphicData>
+						<color>(205,157,90)</color>
+		</graphicData>
+	<description>Green firewood used for fuel. 
+Green burn rate: 1.5 hrs
+Seasoned burn rate: 2.1 hrs</description>
+	<statBases>
+		<BurnDurationHours>1.5</BurnDurationHours>
+	</statBases>
+	<recipeMaker>
+			<workAmount>400</workAmount>
+	</recipeMaker>
+	<costList>
+		<MapleLog>3</MapleLog>
+	</costList>
+</ThingDef>
+	<ThingDef ParentName="FirewoodSeasonedBase">
+		<defName>FirewoodSeasoned_Maple</defName>
+		<label>seasoned firewood (maple)</label>
+		<graphicData>
+						<color>(205,157,90)</color>
+		</graphicData>
+		<description>Seasoned firewood used for fuel. 
+Burn rate: 2.1 hrs</description>
+		<statBases>
+			<BurnDurationHours>2.1</BurnDurationHours>
+		</statBases>
+	</ThingDef>
+
+<ThingDef ParentName="FirewoodBase">
+	<defName>Firewood_Teak</defName>
+	<label>firewood (teak)</label>
+			<graphicData>
+			<color>(116,92,63)</color>
+		</graphicData>
+	<description>Green firewood used for fuel. 
+Green burn rate: 1.8 hrs
+Seasoned burn rate: 2.6 hrs</description>
+	<statBases>
+		<BurnDurationHours>1.8</BurnDurationHours>
+	</statBases>
+	<recipeMaker>
+			<workAmount>600</workAmount>
+	</recipeMaker>
+	<costList>
+		<TeakLog>3</TeakLog>
+	</costList>
+</ThingDef>
+	<ThingDef ParentName="FirewoodSeasonedBase">
+		<defName>FirewoodSeasoned_Teak</defName>
+		<label>seasoned firewood (teak)</label>
+				<graphicData>
+			<color>(116,92,63)</color>
+		</graphicData>
+		<description>Seasoned firewood used for fuel. 
+Burn rate: 2.6 hrs</description>
+		<statBases>
+			<BurnDurationHours>2.6</BurnDurationHours>
+		</statBases>
+	</ThingDef>
+
+<!-- <ThingDef ParentName="FirewoodBase">
+	<defName>Firewood_Acacia</defName>
+	<label>firewood (acacia)</label>
+	<description>Green firewood used for fuel. 
+Burn rate: 1.9 hrs</description>
+	<statBases>
+		<BurnDurationHours>1.9</BurnDurationHours>
+	</statBases>
+	<recipeMaker>
+			<workAmount>900</workAmount>
+	</recipeMaker>
+	<costList>
+		<AcaciaLog>3</AcaciaLog>
+	</costList>
+</ThingDef>
+	<ThingDef ParentName="FirewoodSeasonedBase">
+		<defName>FirewoodSeasoned_Acacia</defName>
+		<label>seasoned firewood (acacia)</label>
+		<description>Seasoned firewood used for fuel. 
+Burn rate: 2.6 hrs</description>
+		<statBases>
+			<BurnDurationHours>2.6</BurnDurationHours>
+		</statBases>
+	</ThingDef> -->
+
+<ThingDef ParentName="FirewoodBase">
+	<defName>Firewood_Birch</defName>
+	<label>firewood (birch)</label>
+			<graphicData>
+			<color>(217,176,167)</color>
+		</graphicData>
+	<description>Green firewood used for fuel. 
+Green burn rate: 1.7 hrs
+Seasoned burn rate: 2.3 hrs</description>
+	<statBases>
+		<BurnDurationHours>1.7</BurnDurationHours>
+	</statBases>
+	<recipeMaker>
+			<workAmount>550</workAmount>
+	</recipeMaker>
+	<costList>
+		<BirchLog>3</BirchLog>
+	</costList>
+</ThingDef>
+	<ThingDef ParentName="FirewoodSeasonedBase">
+		<defName>FirewoodSeasoned_Birch</defName>
+		<label>seasoned firewood (birch)</label>
+		<graphicData>
+			<color>(217,176,167)</color>
+		</graphicData>
+		<description>Seasoned firewood used for fuel. 
+Burn rate: 2.3 hrs</description>
+		<statBases>
+			<BurnDurationHours>2.3</BurnDurationHours>
+		</statBases>
+	</ThingDef>
+
+<ThingDef ParentName="FirewoodBase">
+	<defName>Firewood_Oak</defName>
+	<label>firewood (oak)</label>
+			<graphicData>
+			<color>(169,107,7)</color>
+		</graphicData>
+	<description>Green firewood used for fuel. 
+Green burn rate: 1.8 hrs
+Seasoned burn rate: 2.9 hrs</description>
+	<statBases>
+		<BurnDurationHours>1.8</BurnDurationHours>
+	</statBases>
+	<recipeMaker>
+			<workAmount>600</workAmount>
+	</recipeMaker>
+	<costList>
+		<OakLog>3</OakLog>
+	</costList>
+</ThingDef>
+	<ThingDef ParentName="FirewoodSeasonedBase">
+		<defName>FirewoodSeasoned_Oak</defName>
+		<label>seasoned firewood (oak)</label>
+				<graphicData>
+			<color>(169,107,7)</color>
+		</graphicData>
+		<description>Seasoned firewood used for fuel. 
+Burn rate: 2.9 hrs</description>
+		<statBases>
+			<BurnDurationHours>2.9</BurnDurationHours>
+		</statBases>
+	</ThingDef>
+
+<ThingDef ParentName="FirewoodBase">
+	<defName>Firewood_Bamboo</defName>
+	<label>firewood (bamboo)</label>
+		<graphicData>
+		<color>(245,238,103)</color>
+		</graphicData>
+	<description>Green firewood used for fuel. 
+Green burn rate: 0.9 hrs
+Seasoned burn rate: 1.5 hrs</description>
+	<statBases>
+		<BurnDurationHours>0.9</BurnDurationHours>
+	</statBases>
+	<recipeMaker>
+			<workAmount>500</workAmount>
+	</recipeMaker>
+	<costList>
+		<Bamboo>5</Bamboo>
+	</costList>
+</ThingDef>
+	<ThingDef ParentName="FirewoodSeasonedBase">
+		<defName>FirewoodSeasoned_Bamboo</defName>
+		<label>seasoned firewood (bamboo)</label>
+		<graphicData>
+			<color>(245,238,103)</color>
+		</graphicData>
+		<description>Seasoned firewood used for fuel. 
+Burn rate: 1.5 hrs</description>
+		<statBases>
+			<BurnDurationHours>1.5</BurnDurationHours>
+		</statBases>
+	</ThingDef>
+
+<ThingDef ParentName="FirewoodBase">
+	<defName>Firewood_Dragonwood</defName>
+	<label>firewood (dragonwood)</label>
+		<graphicData>
+			<color>(196,56,27)</color>
+		</graphicData>
+	<description>Green firewood used for fuel. 
+Green burn rate: 1.5 hrs
+Seasoned burn rate: 2.9 hrs</description>
+	<statBases>
+		<BurnDurationHours>1.5</BurnDurationHours>
+	</statBases>
+	<recipeMaker>
+			<workAmount>600</workAmount>
+	</recipeMaker>
+	<costList>
+		<DragonwoodLog>3</DragonwoodLog>
+	</costList>
+</ThingDef>
+	<ThingDef ParentName="FirewoodSeasonedBase">
+		<defName>FirewoodSeasoned_Dragonwood</defName>
+		<label>seasoned firewood (dragonwood)</label>
+		<graphicData>
+			<color>(196,56,27)</color>
+		</graphicData>
+		<description>Seasoned firewood used for fuel. 
+Burn rate: 2.9 hrs</description>
+		<statBases>
+			<BurnDurationHours>2.9</BurnDurationHours>
+		</statBases>
+	</ThingDef>
+
+<ThingDef ParentName="FirewoodBase">
+	<defName>Firewood_Mangrove</defName>
+	<label>firewood (mangrove)</label>
+		<graphicData>
+			<color>(128,106,121)</color>
+		</graphicData>
+	<description>Green firewood used for fuel. 
+Green burn rate: 0.9 hrs
+Seasoned burn rate: 3.1 hrs</description>
+	<statBases>
+		<BurnDurationHours>0.9</BurnDurationHours>
+	</statBases>
+	<recipeMaker>
+			<workAmount>600</workAmount>
+	</recipeMaker>
+	<costList>
+		<MangroveLog>3</MangroveLog>
+	</costList>
+</ThingDef>
+	<ThingDef ParentName="FirewoodSeasonedBase">
+		<defName>FirewoodSeasoned_Mangrove</defName>
+		<label>seasoned firewood (mangrove)</label>
+		<graphicData>
+			<color>(128,106,121)</color>
+		</graphicData>
+		<description>Seasoned firewood used for fuel. 
+Burn rate: 3.1 hrs</description>
+		<statBases>
+			<BurnDurationHours>3.1</BurnDurationHours>
+		</statBases>
+	</ThingDef>
+
+
+<!-- 
+	<ThingDef ParentName="SK_ResourceVerbBase">
+		<defName>WoodLog</defName>
+		<label>firewood</label>
+		<description>Wood from trees or other fibrous plants. Useful for building structures, weapons, and even simple prosthetics. A raw stick of wood can be used as a weapon in a pinch. It can be processed into planks or kindling.</description>
+		<graphicData>
+			<texPath>Things/Item/WoodLogStacked</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<tickerType>Rare</tickerType>
+		<stuffCategories>
+			<li>Softwoods</li>
+			<li>Hardwoods</li>
+			<li>Ultrahardwoods</li>
+		</stuffCategories>
+		<costStuffCount>1</costStuffCount>
+		<statBases>
+			<MarketValue>1.4</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Flammability>5.0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+			<StuffPower_Armor_Blunt>0.75</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.04</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>0.85</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>0.45</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>0.3</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
+			<MaxBurningTempCelsius>550</MaxBurningTempCelsius>
+			<MeleeCounterParryBonus>0.85</MeleeCounterParryBonus>
+			<Mass>0.3</Mass>
+			<Bulk>0.3</Bulk>
+		</statBases>
+		<techLevel>Neolithic</techLevel>
+		<stackLimit>300</stackLimit>
+		<stuffProps>
+			<stuffAdjective>wood log</stuffAdjective>
+			<categories>
+				<li>WoodLogs</li>
+			</categories>
+			<color>(149,103,65)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<statOffsets>
+				<Beauty>2</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>0.85</MaxHitPoints>
+				<Flammability>1</Flammability>
+				<Beauty>1.3</Beauty>
+				<WorkToMake>0.6</WorkToMake>
+				<WorkToBuild>0.6</WorkToBuild>
+				<MeleeWeapon_CooldownMultiplier>1.05</MeleeWeapon_CooldownMultiplier>
+				<MoveSpeed>0.75</MoveSpeed>
+				<MarketValue>0.65</MarketValue>
+				<BedRestEffectiveness>1.0</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.0</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.65</WorkTableWorkSpeedFactor>
+				<DoorOpenSpeed>1.15</DoorOpenSpeed>
+				<MeleePenetrationFactor>0.4</MeleePenetrationFactor>
+				<Mass>0.45</Mass>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<isTechHediff>true</isTechHediff>
+		<thingCategories>
+			<li>Wooden</li>
+		</thingCategories>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2.1</cooldownTime>
+				<chanceFactor>1.33</chanceFactor>
+				<armorPenetrationBlunt>0.738</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Base</linkedBodyPartsGroup>
+			</li>
+		</tools>
+	</ThingDef>
+	 -->
+	
+	
+</Defs>

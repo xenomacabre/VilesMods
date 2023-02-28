@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/SubCategory_Def.xml-->
+                         <!-- Processing -->
+<SubCategory_Processing.label>Обработка</SubCategory_Processing.label>
+                               <!-- Ovens for long-term pyroprocessing. -->
+<SubCategory_Processing.description>Печи для длительной пирообработки.</SubCategory_Processing.description>
+                       <!-- Glazed Ceramics -->
+<SubCategory_Ceramics.label>Глазурованная керамика</SubCategory_Ceramics.label>
+                             <!-- Ceramic pots. -->
+<SubCategory_Ceramics.description>Керамические горшки.</SubCategory_Ceramics.description>
+                      <!-- Milling -->
+<SubCategory_Milling.label>Фрезеровка</SubCategory_Milling.label>
+                            <!-- Grinding and smashing stuff into smaller bits. -->
+<SubCategory_Milling.description>Измельчение и дробление материала на более мелкие кусочки.</SubCategory_Milling.description>
+                      <!-- Casting -->
+<SubCategory_Casting.label>Отливка</SubCategory_Casting.label>
+                            <!-- Melting stuff into moulds. -->
+<SubCategory_Casting.description>Отливка материала по формам.</SubCategory_Casting.description>
+
+</LanguageData>

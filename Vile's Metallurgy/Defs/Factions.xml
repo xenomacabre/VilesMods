@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<FactionDef ParentName="SK_PlayerFactionBase">
+		<defName>PlayerGuild</defName>
+		<label>Guildmasters</label>
+		<description>A guild of trade professionals and apprentices.</description>
+		<isPlayer>true</isPlayer>
+		<pawnsPlural>trade workers</pawnsPlural>
+		<pawnSingular>tradesperson</pawnSingular>
+		<basicMemberKind>Tradesperson</basicMemberKind>
+		<techLevel>Medieval</techLevel>
+		<allowedCultures>
+			<li>Vigingr</li>
+		</allowedCultures>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+		</disallowedMemes>
+		<disallowedPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+		</disallowedPrecepts>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Tribal</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<factionIconPath>World/WorldObjects/Expanding/Norbals</factionIconPath>
+		<settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
+		<playerInitialSettlementNameMaker>NamerFactionBaseNorbal</playerInitialSettlementNameMaker>
+		<settlementNameMaker>NamerFactionBaseNorbal</settlementNameMaker>
+		<factionNameMaker>NamerFactionNorbal</factionNameMaker>
+		<forageabilityFactor>1.5</forageabilityFactor>
+		<startingResearchTags>
+			<li>TribalStart</li>
+		</startingResearchTags>
+		<apparelStuffFilter>
+			<categories>
+				<li>Leathers</li>
+			</categories>
+			<thingDefs>
+				<li>WoodPlank</li>
+				<li>Cloth</li>
+				<li>WoolMuffalo</li>
+				<li>WoolDromedary</li>
+				<li>WoolAlpaca</li>
+				<li>HempCloth</li>
+				<li>WoolSheep</li>
+				<li>Bronze</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</apparelStuffFilter>
+	</FactionDef>
+	
+	<PawnKindDef ParentName="SK_BasePlayerPawnKind">
+		<defName>Tradesperson</defName>
+		<label>tradesperson</label>
+
+		<defaultFactionType>PlayerGuild</defaultFactionType>
+		<chemicalAddictionChance>0.00</chemicalAddictionChance>
+		<initialResistanceRange>13~21</initialResistanceRange>
+		<apparelMoney>
+			<min>300</min>
+			<max>1000</max>
+		</apparelMoney>
+		<!--<apparelRequired>
+			<li>Norballo_Shirt</li>
+		</apparelRequired>
+		-->
+		<apparelAllowHeadgearChance>0.6</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>Medieval</li>
+			<!--<li>BronzeAge</li>-->
+		</apparelTags>
+		<weaponMoney>
+			<min>200</min>
+			<max>370</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>MedievalMelee</li>
+			<li>MeleeTools</li>
+		</weaponTags>
+		<backstoryCryptosleepCommonality>0.01</backstoryCryptosleepCommonality>
+		<maxGenerationAge>45</maxGenerationAge>
+	</PawnKindDef>
+	
+</Defs>

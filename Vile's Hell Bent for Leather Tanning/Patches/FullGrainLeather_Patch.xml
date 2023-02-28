@@ -281,7 +281,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Lizard"]/graphicData/color</xpath>
 				<value>
-					<color>(105,204,104)</color>
+					<color>(67,130,66)</color>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -325,7 +325,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Lizard"]/stuffProps/color</xpath>
 				<value>
-					<color>(105,204,104)</color>
+					<color>(107, 163, 106)</color>
 				</value>
 			</li>
 					<li Class="PatchOperationReplace">

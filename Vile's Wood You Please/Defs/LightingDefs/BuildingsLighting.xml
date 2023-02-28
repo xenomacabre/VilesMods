@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+<ThingDef ParentName="SK_LampBase">
+		<defName>Rushlight</defName>
+		<label>Rushlight Holder</label>
+		<description>Rush or grass is dipped in grease. They're typically a sign of poverty. Has a clip for attaching the rush light as well as a counterbalance that can hold a small, trimmed candle.
+Light radius: 5
+Max heat: 12
+Capacity: 1
+Efficiency: 50%</description>
+		<graphicData>
+			<texPath>Things/Building/Rushlight</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.2, 0.3, 0.2)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.35,0.35,0.3,0.3)</rect>
+			</damageData>
+			<drawSize>(1.2,1.2)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<pathCost>8</pathCost>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<fillPercent>0.15</fillPercent>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<MaxHitPoints>70</MaxHitPoints>
+			<WorkToBuild>130</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Bulk>4</Bulk>
+			<Mass>1</Mass>
+			<MeditationFocusStrength>0.0</MeditationFocusStrength>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>WoodLogs</li>
+		</stuffCategories>
+		<costStuffCount>5</costStuffCount>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<placeWorkers>
+			<li>PlaceWorker_Heater</li>
+			<li>PlaceWorker_MeditationOffsetBuildingsNear</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li Class="SK.CompFueled_Properties">
+				<operatingTemp>450</operatingTemp>
+				<!-- <fireDrawOffset>(0,0.15,0.1)</fireDrawOffset>
+				<fireDrawScale>0.2</fireDrawScale>
+				<fuelDrawOffset>(0,0,0.01)</fuelDrawOffset>
+				<fuelDrawScale>0.7</fuelDrawScale> -->
+				<fuelCapacity>5</fuelCapacity>
+				<burnFuelMultiplier>5</burnFuelMultiplier>
+				<canAutoBurn>true</canAutoBurn>
+				<smokeEnabled>false</smokeEnabled>
+				<effectOnWeather>true</effectOnWeather>
+				<smokeDensity>0</smokeDensity>
+				<fuelFilter>
+					<thingDefs>
+						<li>RushlightFuel</li>
+						<li>CandleFuel</li>
+					</thingDefs> 
+				</fuelFilter>
+			</li>
+			<!-- <li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>40.0</fuelConsumptionRate>
+				<fuelCapacity>10</fuelCapacity>
+				<fuelConsumptionPerTickInRain>0.045</fuelConsumptionPerTickInRain>
+				<fuelFilter>
+					<thingDefs>
+						<li>Hay</li>
+						<li>Candle</li>
+					</thingDefs>
+				</fuelFilter>
+				<initialFuelPercent>0</initialFuelPercent>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li> -->
+			<li Class="CompProperties_Glower">
+				<glowRadius>5</glowRadius>
+				<glowColor>(217,177,113,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>2</heatPerSecond>
+				<heatPushMaxTemperature>12</heatPushMaxTemperature>
+			</li>
+			<li Class="SK.CompProperties_FireOverlayMod">
+				<fireSize>0.2</fireSize>
+				<offset>(-0.4,0,0.75)</offset>
+			</li>
+			<li Class="CompProperties_MeditationFocus">
+				<statDef>MeditationFocusStrength</statDef>
+				<focusTypes>
+					<li>Flame</li>
+				</focusTypes>
+				<offsets>
+					<li Class="FocusStrengthOffset_Lit">
+						<offset>0.1</offset>
+					</li>
+					<li Class="FocusStrengthOffset_BuildingDefsLit">
+						<defs>
+							<li>Campfire</li>
+							<li>BowlLamp</li>
+							<li>Candle</li>
+							<li>TorchLamp</li>
+							<li MayRequire="Ludeon.RimWorld.Royalty">Brazier</li>
+							<li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
+							<li MayRequire="Ludeon.RimWorld.Ideology">Darktorch</li>
+							<li MayRequire="Ludeon.RimWorld.Ideology">DarktorchFungus</li>
+						</defs>
+						<radius>9.9</radius>
+						<maxBuildings>8</maxBuildings>
+						<offsetPerBuilding>0.01</offsetPerBuilding>
+						<explanationKey>MeditationFocusPerFlame</explanationKey>
+						<explanationKeyAbstract>MeditationFocusPerFlameAbstract</explanationKeyAbstract>
+					</li>
+				</offsets>
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>SK.ITab_Fuel</li>
+		</inspectorTabs>
+		<building>
+			<uninstallWork>10</uninstallWork>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+		</building>
+		<constructionSkillPrerequisite>1</constructionSkillPrerequisite>
+	</ThingDef>
+
+	<ThingDef ParentName="SK_LampBase">
+		<defName>FireBasket</defName>
+		<label>fire basket</label>
+		<description>A metal basket for a contained bonfire. Typically meant for outdoor use as it heats up a room quickly.
+Light radius: 9
+Max heat: 35
+Capacity: 20
+Efficiency: 15%</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Things/Building/FireBasket/FireBasket</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawRotated>true</drawRotated>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(0.4, 0.2, 0.4)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.35,0.35,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<passability>PassThroughOnly</passability>
+		<rotatable>true</rotatable>
+		<pathCost>8</pathCost>
+		<tickerType>Normal</tickerType>
+		<fillPercent>0.2</fillPercent>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>130</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Bulk>15</Bulk>
+			<Mass>5</Mass>
+			<MeditationFocusStrength>0.0</MeditationFocusStrength>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>25</costStuffCount>
+		<costList>
+			<ComponentMedieval>2</ComponentMedieval>
+		</costList>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<placeWorkers>
+			<li>PlaceWorker_Heater</li>
+			<li>PlaceWorker_MeditationOffsetBuildingsNear</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			
+			<li Class="CompProperties_Flickable"/>
+			<li Class="SK.CompFueled_Properties">
+				<operatingTemp>650</operatingTemp>
+				<!-- <fireDrawOffset>(0,0.15,0.1)</fireDrawOffset>
+				<fireDrawScale>0.2</fireDrawScale>
+				<fuelDrawOffset>(0,0,0.01)</fuelDrawOffset>
+				<fuelDrawScale>0.7</fuelDrawScale> -->
+				<fuelCapacity>20</fuelCapacity>
+				<burnFuelMultiplier>2</burnFuelMultiplier>
+				<canAutoBurn>true</canAutoBurn>
+				<smokeEnabled>false</smokeEnabled>
+				<effectOnWeather>true</effectOnWeather>
+				<smokeDensity>0</smokeDensity>
+				<fuelFilter>
+					<categories>
+						<li>Wooden</li>
+					</categories>  
+					<thingDefs>
+						<li>Kindling</li>
+						<li>Charcoal</li>
+						<li>Coal</li>					
+					</thingDefs>
+				</fuelFilter>
+			</li>
+			<li Class="RimFridge.CompProperties_SecondLayer">
+				<graphicData>
+					<texPath>Things/Building/FireBasket/FireBasketTop</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(1,1)</drawSize>
+					<drawRotated>true</drawRotated>
+				</graphicData>
+				<altitudeLayer>Skyfaller</altitudeLayer>
+			</li>	
+			<li Class="CompProperties_Glower">
+				<glowRadius>8</glowRadius>
+				<glowColor>(230,200,113,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>24</heatPerSecond>
+				<heatPushMaxTemperature>35</heatPushMaxTemperature>
+			</li>
+			<li Class="SK.CompProperties_FireOverlayMod">
+				<fireSize>0.7</fireSize>
+				<offset>(0,1,0.1)</offset>
+			</li>
+			<li Class="CompProperties_MeditationFocus">
+				<statDef>MeditationFocusStrength</statDef>
+				<focusTypes>
+					<li>Flame</li>
+				</focusTypes>
+				<offsets>
+					<li Class="FocusStrengthOffset_Lit">
+						<offset>0.1</offset>
+					</li>
+					<li Class="FocusStrengthOffset_BuildingDefsLit">
+						<defs>
+							<li>Campfire</li>
+							<li>BowlLamp</li>
+							<li>Candle</li>
+							<li>TorchLamp</li>
+							<li MayRequire="Ludeon.RimWorld.Royalty">Brazier</li>
+							<li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
+							<li MayRequire="Ludeon.RimWorld.Ideology">Darktorch</li>
+							<li MayRequire="Ludeon.RimWorld.Ideology">DarktorchFungus</li>
+						</defs>
+						<radius>9.9</radius>
+						<maxBuildings>8</maxBuildings>
+						<offsetPerBuilding>0.01</offsetPerBuilding>
+						<explanationKey>MeditationFocusPerFlame</explanationKey>
+						<explanationKeyAbstract>MeditationFocusPerFlameAbstract</explanationKeyAbstract>
+					</li>
+				</offsets>
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>SK.ITab_Fuel</li>
+		</inspectorTabs>
+		<building>
+			<uninstallWork>150</uninstallWork>
+		</building>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>Light_B1</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+		<ThingDef ParentName="SK_LampBase">
+		<defName>OilStreetLamp</defName>
+		<label>lamppost</label>
+		<description>An elegant fueled street lamp. Has a reservoir which can hold a decent amount of oil, and through the use of mirrors, it reflects light downward, providing excellent light.
+Light radius: 10
+Max heat: 15
+Capacity: 10
+Efficiency: 65%
+Rain-proof</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Things/Building/StreetLamp</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>true</drawRotated>
+			<drawSize>(1.75,3.5)</drawSize>
+			<shadowData>
+				<volume>(0.4, 0.2, 0.4)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.35,0.35,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/StreetLamp_ui</uiIconPath>
+		<rotatable>true</rotatable>
+		<pathCost>30</pathCost>
+		<tickerType>Normal</tickerType>
+		<fillPercent>0.3</fillPercent>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>1200</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Bulk>40</Bulk>
+			<Mass>40</Mass>
+			<MeditationFocusStrength>0.0</MeditationFocusStrength>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+			<ComponentMedieval>4</ComponentMedieval>
+			<Glass>5</Glass>
+			<TinBar>5</TinBar>
+		</costList>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<placeWorkers>
+			<li>PlaceWorker_Heater</li>
+			<li>PlaceWorker_MeditationOffsetBuildingsNear</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<altitudeLayer>PawnUnused</altitudeLayer>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="SK.CompFueled_Properties">
+				<operatingTemp>650</operatingTemp>
+				<!-- <fireDrawOffset>(0,0.15,0.1)</fireDrawOffset>
+				<fireDrawScale>0.2</fireDrawScale>
+				<fuelDrawOffset>(0,0,0.01)</fuelDrawOffset>
+				<fuelDrawScale>0.7</fuelDrawScale> -->
+				<fuelCapacity>10</fuelCapacity>
+				<burnFuelMultiplier>6.5</burnFuelMultiplier>
+				<canAutoBurn>true</canAutoBurn>
+				<smokeEnabled>false</smokeEnabled>
+				<effectOnWeather>false</effectOnWeather>
+				<smokeDensity>0</smokeDensity>
+				<fuelFilter>
+					<thingDefs>
+						<li>Turpentine</li>
+						<li>Tallow</li>
+						<li>PlantWax</li>
+						<li>FishOil</li>
+					</thingDefs>  
+				</fuelFilter>
+			</li>
+			<li Class="RimFridge.CompProperties_SecondLayer">
+				<graphicData>
+					<texPath>Things/Building/StreetLamp_top</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(1.75,3.5)</drawSize>
+					<drawRotated>true</drawRotated>
+				</graphicData>
+				<altitudeLayer>Skyfaller</altitudeLayer>
+			</li>	
+			<li Class="CompProperties_Glower">
+				<glowRadius>8</glowRadius>
+				<glowColor>(230,200,113,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>4</heatPerSecond>
+				<heatPushMaxTemperature>15</heatPushMaxTemperature>
+			</li>
+			<li Class="SK.CompProperties_FireOverlayMod">
+				<fireSize>0.2</fireSize>
+				<offset>(0,1,1.55)</offset>
+			</li>
+			<li Class="CompProperties_MeditationFocus">
+				<statDef>MeditationFocusStrength</statDef>
+				<focusTypes>
+					<li>Flame</li>
+				</focusTypes>
+				<offsets>
+					<li Class="FocusStrengthOffset_Lit">
+						<offset>0.1</offset>
+					</li>
+					<li Class="FocusStrengthOffset_BuildingDefsLit">
+						<defs>
+							<li>Campfire</li>
+							<li>BowlLamp</li>
+							<li>Candle</li>
+							<li>TorchLamp</li>
+							<li MayRequire="Ludeon.RimWorld.Royalty">Brazier</li>
+							<li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
+							<li MayRequire="Ludeon.RimWorld.Ideology">Darktorch</li>
+							<li MayRequire="Ludeon.RimWorld.Ideology">DarktorchFungus</li>
+						</defs>
+						<radius>9.9</radius>
+						<maxBuildings>8</maxBuildings>
+						<offsetPerBuilding>0.01</offsetPerBuilding>
+						<explanationKey>MeditationFocusPerFlame</explanationKey>
+						<explanationKeyAbstract>MeditationFocusPerFlameAbstract</explanationKeyAbstract>
+					</li>
+				</offsets>
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>SK.ITab_Fuel</li>
+		</inspectorTabs>
+		<building>
+			<uninstallWork>350</uninstallWork>
+		</building>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>Light_B2</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+<ThingDef ParentName="SK_LampBase">
+		<defName>WallCandle</defName>
+		<label>candle sconce</label>
+		<thingClass>Building</thingClass>
+		<description>A wall mounted candle for lighting a small area. Burns slowly, but not a great source of light or heat.
+Light radius: 6
+Max heat: 10
+Capacity: 1
+Efficiency: 60%</description>
+		<graphicData>
+			<texPath>Things/Building/WallCandle/WallCandle</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1.0,2.0)</drawSize>
+			<drawRotated>true</drawRotated>
+			<allowFlip>true</allowFlip>
+		</graphicData>
+		<uiIconPath>Things/Building/WallCandle/WallCandle_ui</uiIconPath>
+		<altitudeLayer>PawnUnused</altitudeLayer>
+		<fillPercent>0.15</fillPercent>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<WorkToBuild>80</WorkToBuild>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Bulk>4</Bulk>
+			<Mass>2</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
+		</statBases>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>10</costStuffCount>
+		<surfaceType>Item</surfaceType>
+		<placeWorkers>
+			<li>PlaceWorker_Heater</li>
+			<li>SK.PlaceWorker_NotOnWall</li>
+			<li>SK.PlaceWorker_WallAttachment</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<building>
+			<uninstallWork>150</uninstallWork>
+			<isEdifice>false</isEdifice>
+			<canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+		<comps>
+			<li Class="SK.CompFueled_Properties">
+						<factorByDifficulty>false</factorByDifficulty>
+						<operatingTemp>500</operatingTemp>
+						<!-- <fireDrawOffset>(0,0,0)</fireDrawOffset>
+						<fireDrawScale>0.4</fireDrawScale>
+						<fuelDrawOffset>(0,0.1,-0.05)</fuelDrawOffset>
+						<fuelDrawScale>0.75</fuelDrawScale> -->
+						<fuelCapacity>5</fuelCapacity>
+						<burnFuelMultiplier>6.5</burnFuelMultiplier>
+						<canAutoBurn>true</canAutoBurn>
+						<smokeEnabled>false</smokeEnabled>
+						<effectOnWeather>true</effectOnWeather>
+						<smokeDensity>0</smokeDensity>
+						<fuelFilter>
+							<thingDefs>
+								<li>CandleFuel</li>
+							</thingDefs>
+						</fuelFilter>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>6</glowRadius>
+				<glowColor>(217,177,113,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>2</heatPerSecond>
+				<heatPushMaxTemperature>10</heatPushMaxTemperature>
+			</li>
+			<li Class="SK.CompProperties_FireOverlayMod">
+				<fireSize>0.15</fireSize>
+				<offset>(-0.48,0,0.2)</offset>
+			</li>
+			
+			<li Class="SK.CompProperties_RestrictedPlacement">
+				<compClass>SK.CompRestrictedPlacement</compClass>
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>SK.ITab_Fuel</li>
+		</inspectorTabs>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>Light_B1</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="SK_LampBase">
+		<defName>TreeTorch</defName>
+		<label>tree torch</label>
+		<thingClass>Building</thingClass>
+		<description>A one-time use heat and light source made by standing a log upright and cutting a hole through the middle, much like a chimney. The type of log doesn't matter. It will heat up an area quickly and won't go out in the rain, but it must be rebuilt once it burns out.
+Light radius: 7
+Max heat: 24 (12 per second)
+Capacity: Single-use</description>
+		<graphicData>
+			<texPath>Things/Building/TreeTorch</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.0,1.0)</drawSize>
+			<drawRotated>true</drawRotated>
+			<allowFlip>true</allowFlip>
+		</graphicData>
+		<uiIconPath>Things/Building/TreeTorch</uiIconPath>
+		<fillPercent>0.15</fillPercent>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<WorkToBuild>250</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<Bulk>4</Bulk>
+			<Mass>2</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
+		</statBases>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>Softwoods</li>
+			<li>Hardwoods</li>
+			<li>Ultrahardwoods</li>
+		</stuffCategories>
+		<costStuffCount>1</costStuffCount>
+		<placeWorkers>
+			<li>PlaceWorker_Heater</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<building>
+			<uninstallWork>30</uninstallWork>
+		</building>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>0.5</fuelConsumptionRate>
+				<fuelCapacity>1.0</fuelCapacity>
+				<!-- <fuelConsumptionPerTickInRain>0.00001</fuelConsumptionPerTickInRain> -->
+				<fuelFilter>
+					<categories>
+						<li>Softwoods</li>
+						<li>Hardwoods</li>
+						<li>Ultrahardwoods</li>
+					</categories>
+				</fuelFilter>
+				<initialFuelPercent>1</initialFuelPercent>
+				<destroyOnNoFuel>true</destroyOnNoFuel>
+				<showAllowAutoRefuelToggle>false</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>7</glowRadius>
+				<glowColor>(217,177,113,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>12</heatPerSecond>
+				<heatPushMaxTemperature>24</heatPushMaxTemperature>
+			</li>
+			<li Class="SK.CompProperties_FireOverlayMod">
+				<fireSize>0.4</fireSize>
+				<offset>(0,0,0.28)</offset>
+			</li>
+		</comps>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+	</ThingDef>
+
+
+
+</Defs>

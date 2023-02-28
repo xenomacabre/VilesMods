@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/Recipes/Recipes_Ammo_Cast.xml-->
+                           <!-- make 3-in explosive shell -->
+<CastAmmo_3inCannon_Shell.label>Сделать 3-дюймовый взрывной снаряд</CastAmmo_3inCannon_Shell.label>
+                                 <!-- Craft 3-in explosive shell. -->
+<CastAmmo_3inCannon_Shell.description>Сделать 3-дюймовый взрывной снаряд.</CastAmmo_3inCannon_Shell.description>
+                               <!-- Making 3-in explosive shell. -->
+<CastAmmo_3inCannon_Shell.jobString>Делает 3-дюймовый взрывной снаряд.</CastAmmo_3inCannon_Shell.jobString>
+                              <!-- make 3-in canister shot -->
+<CastAmmo_3inCannon_Canister.label>Сделать 3-дюймовый картечный снаряд</CastAmmo_3inCannon_Canister.label>
+                                    <!-- Craft 3-in canister shot. -->
+<CastAmmo_3inCannon_Canister.description>Сделать 3-дюймовый картечный снаряд.</CastAmmo_3inCannon_Canister.description>
+                                  <!-- Making 3-in canister shot. -->
+<CastAmmo_3inCannon_Canister.jobString>Делает 3-дюймовый картечный снаряд.</CastAmmo_3inCannon_Canister.jobString>
+                            <!-- make 200-lb explosive shell -->
+<CastAmmo_200Pounder_Shell.label>Cделать 200-фунтовый взрывной снаряд</CastAmmo_200Pounder_Shell.label>
+                                  <!-- Craft 200-lb explosive shell. -->
+<CastAmmo_200Pounder_Shell.description>Сделать 200-фунтовый взрывной снаряд.</CastAmmo_200Pounder_Shell.description>
+                                <!-- Making 200-lb explosive shell. -->
+<CastAmmo_200Pounder_Shell.jobString>Делает 200-фунтовый взрывной снаряд.</CastAmmo_200Pounder_Shell.jobString>
+                                <!-- make 200-lb greek fire shell -->
+<CastAmmo_200Pounder_GreekFire.label>Cделать 200-фунтовый зажигательный снаряд</CastAmmo_200Pounder_GreekFire.label>
+                                      <!-- Craft 200-lb greek fire shell. -->
+<CastAmmo_200Pounder_GreekFire.description>Сделать 200-фунтовый зажигательный снаряд.</CastAmmo_200Pounder_GreekFire.description>
+                                    <!-- Making 200-lb greek fire shell. -->
+<CastAmmo_200Pounder_GreekFire.jobString>Делает 200-фунтовый зажигательный снаряд.</CastAmmo_200Pounder_GreekFire.jobString>
+                          <!-- make 38mm Cannonball -->
+<CastAmmo_38mmCannonball.label>Cделать 38 мм ядро</CastAmmo_38mmCannonball.label>
+                                <!-- Craft cannonball. -->
+<CastAmmo_38mmCannonball.description>Сделать пушечное ядро.</CastAmmo_38mmCannonball.description>
+                              <!-- Making cannonball. -->
+<CastAmmo_38mmCannonball.jobString>Делает пушечное ядро.</CastAmmo_38mmCannonball.jobString>
+                     <!-- cast .58 MinieBall x100 -->
+<CastAmmo_MinieBall.label>Сделать .58 патронов Миньё x100</CastAmmo_MinieBall.label>
+                           <!-- Cast 100 .58 Minie Balls. -->
+<CastAmmo_MinieBall.description>Отлить 100 шт .58 патронов Миньё.</CastAmmo_MinieBall.description>
+                         <!-- Making .58 Minie Balls. -->
+<CastAmmo_MinieBall.jobString>Делает .58 патроны Миньё.</CastAmmo_MinieBall.jobString>
+                         <!-- cast .69 Musket Ball x100 -->
+<CastAmmo_69Musket_Lead.label>Сделать .69 мушкетный патронx100</CastAmmo_69Musket_Lead.label>
+                               <!-- Craft 100 .69 Musket Ball rounds and measure out powder charge. -->
+<CastAmmo_69Musket_Lead.description>Сделать 100 шт .69 мушкетный патрон и отмерить пороховой заряд.</CastAmmo_69Musket_Lead.description>
+                             <!-- Making .69 Musket Ball rounds. -->
+<CastAmmo_69Musket_Lead.jobString>Делает .69 мушкетный патрон.</CastAmmo_69Musket_Lead.jobString>
+                         <!-- cast .69 Musket Buck and Ball x100 -->
+<CastAmmo_69Musket_Buck.label>Сделать .69 мушкетный с дробью x100</CastAmmo_69Musket_Buck.label>
+                               <!-- Cast 100 .69 Musket Buck and Ball rounds. -->
+<CastAmmo_69Musket_Buck.description>Отлить 100 шт .69 мушкетных патронов с дробью.</CastAmmo_69Musket_Buck.description>
+                             <!-- Making .69 Musket Buck and Ball rounds. -->
+<CastAmmo_69Musket_Buck.jobString>Делает .69 мушкетный патрон с дробью.</CastAmmo_69Musket_Buck.jobString>
+
+</LanguageData>

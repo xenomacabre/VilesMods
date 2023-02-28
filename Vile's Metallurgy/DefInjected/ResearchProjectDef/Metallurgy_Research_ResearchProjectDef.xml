@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/Metallurgy_Research.xml-->
+              <!-- Ceramics I -->
+<Ceramics_A1.label>Керамика I</Ceramics_A1.label>
+                    <!-- Learn how to make bricks and clay pots (earthenware, terracotta, etc) in a kiln. -->
+<Ceramics_A1.description>Узнайте, как делать кирпичи и глиняные горшки (фаянсовые, терракотовые и т.д.) в печи.</Ceramics_A1.description>
+              <!-- Ceramics II -->
+<Ceramics_B1.label>Керамика II</Ceramics_B1.label>
+                    <!-- Learn to make ceramic tiles and glaze clay pots. -->
+<Ceramics_B1.description>Научитесь делать керамическую плитку и глазурировать глиняные горшки.</Ceramics_B1.description>
+                <!-- Metallurgy II - Iron Ages -->
+<Metallurgy_B2.label>Металлургия II - Железный век</Metallurgy_B2.label>
+                      <!-- Make wrought iron and forge-welded steel at a smithy by proccessing iron bloom, which in turn can be acquired from iron ore at a bloomery. Make and install stronger, prefabricated pipes. -->
+<Metallurgy_B2.description>Производите кованое железо и кузнечную сталь в кузнице, обрабатывая цветения, которые, в свою очередь, можно получить из железной руды обработанной в кричной печи. Изготавливать и устанавливать более прочные, заранее обработанные трубы.</Metallurgy_B2.description>
+                <!-- Metallurgy III - Medieval -->
+<Metallurgy_B3.label>Металлургия III - Средневековая</Metallurgy_B3.label>
+                      <!-- Learn faster and more efficient methods of producing iron and steel via pig iron which is produced at a blast furnace and further processed at a finery forge. -->
+<Metallurgy_B3.description>Изучите более быстрые и эффективные методы производства железа и стали с помощью чугуна, который производится в доменной печи и далее обрабатывается в кузнице.</Metallurgy_B3.description>
+                <!-- Metallurgy IV - Casting -->
+<Metallurgy_B4.label>Металлургия IV - Литье</Metallurgy_B4.label>
+                      <!-- Learn how to mass produce products by casting from liquid cast iron or bronze at a Foundry. -->
+<Metallurgy_B4.description>Узнайте, как массово производить изделия методом литья из жидкого чугуна или бронзы на литейном станке.</Metallurgy_B4.description>
+                <!-- Metallurgy V - Puddling -->
+<Metallurgy_B5.label>Металлургия V - Пудлингование</Metallurgy_B5.label>
+                      <!-- Quickly and efficiently make iron and steel by melting pig iron at a foundry. -->
+<Metallurgy_B5.description>Быстро и эффективно производите железо и сталь путем плавки чугуна в литейном станке.</Metallurgy_B5.description>
+           <!-- Advanced Steel I -->
+<Steel_B1.label>Продвинутая сталь I</Steel_B1.label>
+                 <!-- Learn the ancient ways of producing ultra-high carbon wootz steel. -->
+<Steel_B1.description>Узнайте о древних способах производства сверхвысокоуглеродистой стали Вутца.</Steel_B1.description>
+           <!-- Advanced Steel II -->
+<Steel_B2.label>Продвинутая сталь II</Steel_B2.label>
+                 <!-- Make blister steel at a cementation furnace and then fold that into forged steel. -->
+<Steel_B2.description>Производите черную сталь в цементационной печи, а затем превращайте ее в кованую сталь.</Steel_B2.description>
+           <!-- Advanced Steel III -->
+<Steel_B3.label>Продвинутая сталь III</Steel_B3.label>
+                 <!-- Melt blister steel down in a crucible to make crucible steel. -->
+<Steel_B3.description>Расплавьте черную сталь в тигле, чтобы получить тигельную сталь.</Steel_B3.description>
+                 <!-- water wheel -->
+<WaterWheelTech.label>Водяное колесо</WaterWheelTech.label>
+                       <!-- Increase stamp mill and finery output with a water wheel built by a flowing river. -->
+<WaterWheelTech.description>Увеличьте производительность дробящей мельницы и переработки с помощью водяного колеса, построенного на текущей реке.</WaterWheelTech.description>
+                  <!-- steam engine -->
+<SteamEngineTech.label>паровой двигатель</SteamEngineTech.label>
+                        <!-- Learn how to build a steam-powered bellows to increase furnace speed. -->
+<SteamEngineTech.description>Узнайте, как построить меха на паровой тяге для увеличения скорости печи.</SteamEngineTech.description>
+                <!-- Stamp mill -->
+<StampMillTech.label>Дробящая мельница</StampMillTech.label>
+                      <!-- Build a stamp mill and power it with a water wheel for faster crushing of stone and gunpowder. -->
+<StampMillTech.description>Постройте штемпельную мельницу и запитайте её с помощью водяного колеса для более быстрого дробления камня и пороха.</StampMillTech.description>
+              <!-- Bog Iron -->
+<BogIronTech.label>Болотное железо</BogIronTech.label>
+                    <!-- Learn how to extract small amounts of iron from peat. -->
+<BogIronTech.description>Узнайте, как извлечь небольшое количество железа из торфа.</BogIronTech.description>
+
+</LanguageData>

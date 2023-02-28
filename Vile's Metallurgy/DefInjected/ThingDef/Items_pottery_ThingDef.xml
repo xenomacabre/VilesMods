@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/Processing_kiln_etc/Items_pottery.xml-->
+                     <!-- Clay Pot (unfired) -->
+<ClayPotWetUnglazed.label>Глиняный горшок (необожженный)</ClayPotWetUnglazed.label>
+                           <!-- A clay pot which hasn't been fired in a kiln yet. -->
+<ClayPotWetUnglazed.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotWetUnglazed.description>
+                <!-- Ash-Glazed Pot (unfired) -->
+<ClayPotWetAsh.label>Горшок, глазированный золой (необожженный)</ClayPotWetAsh.label>
+                      <!-- A clay pot which hasn't been fired in a kiln yet. -->
+<ClayPotWetAsh.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotWetAsh.description>
+                    <!-- Painted Clay Pot (unfired) -->
+<ClayPotWetPainted.label>Расписной глиняный горшок (необожженный)</ClayPotWetPainted.label>
+                          <!-- A clay pot which hasn't been fired in a kiln yet. -->
+<ClayPotWetPainted.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotWetPainted.description>
+                 <!-- Lead-Glazed Pot (unfired) -->
+<ClayPotWetLead.label>Горшок, глазированный свинцом (необожженный)</ClayPotWetLead.label>
+                       <!-- A clay pot which hasn't been fired in a kiln yet. -->
+<ClayPotWetLead.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotWetLead.description>
+                 <!-- Salt-Glazed Pot (unfired) -->
+<ClayPotWetSalt.label>Горшок, глазированный солью (необожженный)</ClayPotWetSalt.label>
+                       <!-- A clay pot which hasn't been fired in a kiln yet. -->
+<ClayPotWetSalt.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotWetSalt.description>
+                <!-- Tin-Glazed Pot (unfired) -->
+<ClayPotWetTin.label>Горшок, глазированный оловом(необожженный)</ClayPotWetTin.label>
+                      <!-- A clay pot which hasn't been fired in a kiln yet. -->
+<ClayPotWetTin.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotWetTin.description>
+          <!-- Clay Pot -->
+<ClayPot.label>Глиняный горшок</ClayPot.label>
+                <!-- A clay pot which hasn't been fired in a kiln yet. -->
+<ClayPot.description>Глиняный горшок, который еще не обжигали в печи.</ClayPot.description>
+             <!-- Ash-Glazed Pot -->
+<ClayPotAsh.label>Горшок, глазированный золой</ClayPotAsh.label>
+                   <!-- A clay pot which hasn't been fired in a kiln yet. -->
+<ClayPotAsh.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotAsh.description>
+                 <!-- Painted Clay Pot -->
+<ClayPotPainted.label>Расписной глиняный горшок</ClayPotPainted.label>
+                       <!-- A clay pot which hasn't been fired in a kiln yet. -->
+<ClayPotPainted.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotPainted.description>
+              <!-- Lead-Glazed Pot -->
+<ClayPotLead.label>Горшок, глазированный свинцом</ClayPotLead.label>
+                    <!-- A clay pot which hasn't been fired in a kiln yet. -->
+<ClayPotLead.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotLead.description>
+             <!-- Tin-Glzed Pot -->
+<ClayPotTin.label>Горшок, глазированный оловом</ClayPotTin.label>
+                   <!-- A clay pot which hasn't been fired in a kiln yet. -->
+<ClayPotTin.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotTin.description>
+              <!-- Salt-Glazed Pot -->
+<ClayPotSalt.label>Горшок, глазированный солью</ClayPotSalt.label>
+                    <!-- A clay pot which hasn't been fired in a kiln yet. -->
+<ClayPotSalt.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotSalt.description>
+
+</LanguageData>

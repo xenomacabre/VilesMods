@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vile's Materials Science</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="PlantWax"]</xpath>
+				<value>
+					<ThingDef ParentName="SK_ResourceBase">
+						<defName>PlantWax</defName>
+						<label>vegetable oil</label>
+						<description>Oil extracted from certain seeds.</description>
+						<graphicData>
+							<texPath>Things/VileWood/VegOil</texPath>
+							<graphicClass>Graphic_Single</graphicClass>
+							<color>(150,150,0)</color>
+						</graphicData>
+						<soundInteract>Standard_Drop</soundInteract>
+						<soundDrop>Standard_Drop</soundDrop>
+						<techLevel>Neolithic</techLevel>
+						<statBases>
+							<MaxHitPoints>5</MaxHitPoints>
+							<MarketValue>2</MarketValue>
+							<DeteriorationRate>0</DeteriorationRate>
+							<Flammability>2</Flammability>
+							<MaxBurningTempCelsius>300</MaxBurningTempCelsius>
+							<BurnDurationHours>1.4</BurnDurationHours>
+							<Mass>0.09</Mass>
+							<Bulk>0.1</Bulk>
+						</statBases>
+						<tickerType>Normal</tickerType>
+						<thingCategories>
+							<li>FuelCat</li>
+						</thingCategories>
+						<stackLimit>300</stackLimit>
+					</ThingDef>
+				</value>
+			</li>
+		</operations>
+		</match>
+    </Operation>	
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vile's Materials Science</li>
+	</mods>
+	<nomatch Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs</xpath>
+				<value>
+					<ThingDef ParentName="SK_ResourceBase">
+						<defName>PlantWax</defName>
+						<label>vegetable oil</label>
+						<description>Oil extracted from certain seeds.</description>
+						<graphicData>
+							<texPath>Things/VileWood/VegOil</texPath>
+							<graphicClass>Graphic_Single</graphicClass>
+							<color>(150,150,0)</color>
+						</graphicData>
+						<soundInteract>Standard_Drop</soundInteract>
+						<soundDrop>Standard_Drop</soundDrop>
+						<techLevel>Neolithic</techLevel>
+						<statBases>
+							<MaxHitPoints>5</MaxHitPoints>
+							<MarketValue>2</MarketValue>
+							<DeteriorationRate>0</DeteriorationRate>
+							<Flammability>2</Flammability>
+							<MaxBurningTempCelsius>300</MaxBurningTempCelsius>
+							<BurnDurationHours>1.4</BurnDurationHours>
+							<Mass>0.09</Mass>
+							<Bulk>0.1</Bulk>
+						</statBases>
+						<tickerType>Normal</tickerType>
+						<thingCategories>
+							<li>FuelCat</li>
+						</thingCategories>
+						<stackLimit>300</stackLimit>
+					</ThingDef>
+				</value>
+			</li>
+		</operations>
+		</nomatch>
+    </Operation>
+</Patch>	
+

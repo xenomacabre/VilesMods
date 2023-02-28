@@ -1,8 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
+
+<ThingDef ParentName="UniversalFermenterBase" Class="UniversalFermenterSK.ThingDef_UF">
+		<defName>SeasoningRack</defName>
+		<label>SeasoningRack</label>
+		<description>A storage rack for seasoning firewood. Some species take longer to season than others.</description>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Things/Building/SeasoningRack</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.2,1.1)</drawSize>
+			<shadowData>
+				<volume>(0, 0, 0)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<costList>
+			<ComponentMedieval>2</ComponentMedieval>
+		</costList>
+		<fillPercent>0.3</fillPercent>
+		<pathCost>60</pathCost>
+		<statBases>
+			<WorkToBuild>2200</WorkToBuild>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Flammability>0.0</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<tickerType>Rare</tickerType>
+		<rotatable>true</rotatable>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+		<designationCategory>Production</designationCategory>	
+		<!-- ThingDef_UF fields -->
+		<showProductIcon>false</showProductIcon>
+		<barOffset>(0.0, 0.25)</barOffset>
+		<barScale>(1.0, 1.0)</barScale>
+		<slotsCount>30</slotsCount>
+	</ThingDef>
+
 	<ThingDef ParentName="WorkTable">
 		<defName>LogSplittingSpot</defName>
-		<label>log-splitting spot</label>
+		<label>splitting spot</label>
 		<description>A space designated for splitting logs into firewood and firewood into kindling.</description>
 		<graphicData>
 			<texPath>Things/VileWood/LogSplittingSpot</texPath>
@@ -41,10 +92,10 @@
 			</buildingTags>
 		</building>
 		<recipes>
-			<li>MakeFirewoodFromUltrahardwood_Hand</li>
-			<li>MakeFirewoodFromHardwood_Hand</li>
-			<li>MakeFirewoodFromSoftwood_Hand</li>
-			<li>MakeKindling_Hand</li>
+			<li>MakeKindlingFromGreenFirewood_Hand</li>
+			<li>MakeKindlingFromSeasonedFirewood_Hand</li>
+			<li>MakeFirewoodFromPlanks_Hand</li>
+			<li>MakeRivenBoards</li>
 		</recipes>
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">
@@ -62,4 +113,78 @@
 		</placeWorkers>
 		<useStuffTerrainAffordance>false</useStuffTerrainAffordance>
 	</ThingDef>	
+
+	<ThingDef ParentName="WorkTable">
+		<defName>ChoppingBlock</defName>
+		<label>chopping block</label>
+		<description>A sturdy block and maul for efficiently cutting and splitting logs into firewood.</description>
+		<graphicData>
+			<texPath>Things/Building/ChoppingLog</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1.1,1.1)</drawSize>
+			<drawRotated>false</drawRotated>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<stuffCategories>
+			<li>Hardwoods</li>
+			<li>Softwoods</li>
+			<li>Ultrahardwoods</li>
+			<li>HardwoodLumber</li>
+			<li>SoftwoodLumber</li>
+			<li>UltrahardwoodLumber</li>
+		</stuffCategories>
+		<costStuffCount>4</costStuffCount>
+		<costList>
+			<TFJ_Tool_Woodcutting_Handaxe>1</TFJ_Tool_Woodcutting_Handaxe>
+		</costList>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<statBases>
+			<WorkToBuild>400</WorkToBuild>
+			<WorkTableWorkSpeedFactor>1.0</WorkTableWorkSpeedFactor>
+			<Mass>1</Mass>
+		</statBases>
+		<size>(1,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>Standable</passability>
+		<building>
+			<uninstallWork>150</uninstallWork>
+			<ai_chillDestination>false</ai_chillDestination>
+			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+		</building>
+		<recipes>
+			<li>MakeKindlingFromGreenFirewood_Hand</li>
+			<li>MakeKindlingFromSeasonedFirewood_Hand</li>
+			<li>MakeFirewoodFromPlanks_Hand</li>
+			<li>MakeRivenBoards</li>
+		</recipes>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>Small_ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+			<li>
+				<compClass>CompReportWorkSpeed</compClass>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
+		</placeWorkers>
+		<useStuffTerrainAffordance>false</useStuffTerrainAffordance>
+	</ThingDef>	
+
+
 </Defs>

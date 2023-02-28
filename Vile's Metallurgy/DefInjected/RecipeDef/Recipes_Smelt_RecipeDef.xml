@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/Recipes/Recipes_Smelt.xml-->
+                         <!-- Smelt iron bloom -->
+<MakeIronBloom_Bloomery.label>Сплавить цветение</MakeIronBloom_Bloomery.label>
+                               <!-- Smelts spongy iron bloom from iron ore and coal or charcoal. Primitive and inefficient. Produces 1  bloom. -->
+<MakeIronBloom_Bloomery.description>Выплавьте губчатое железное цветение из железной руды и угля/древесного угля. Примитивный и неэффективный метод. Производит 1 цветение.</MakeIronBloom_Bloomery.description>
+                             <!-- Smelting iron bloom. -->
+<MakeIronBloom_Bloomery.jobString>Плавит железное цветение.</MakeIronBloom_Bloomery.jobString>
+                      <!-- Smelt pig iron (x50) -->
+<MakePigIron_Furnace.label>Выплавка чугуна (x50)</MakePigIron_Furnace.label>
+                            <!-- Smelts large ingots of pig iron (an unrefined high-carbon cast iron). Not as slaggy as iron primitive iron bloom, but it still must be decarbonized to produce useful wrought iron, either by forging at a finery, or at a pudding furnace. It's much more efficient than a bloomery, but because it takes a lot of time to get fires hot enough, it's best done in large batches. -->
+<MakePigIron_Furnace.description>Выплавляет большие слитки чугуна (непереработанный высокоуглеродистый чугун). Не так много шлака как в примитивном чугуне, но его все равно нужно декарбонизировать, чтобы получить полезное кованое железо, либо путем ковки на кузне, либо в специальной печи. Это намного эффективнее, доменная печь, но поскольку требуется много времени, чтобы раскалить огонь до достаточно высокой температуры, это лучше делать большими партиями.</MakePigIron_Furnace.description>
+                          <!-- Smelting pig iron. -->
+<MakePigIron_Furnace.jobString>Плавит чугун</MakePigIron_Furnace.jobString>
+                  <!-- Smelt bronze (x25) -->
+<MakeBronze_Hand.label>Выплавить бронзу (x25)</MakeBronze_Hand.label>
+                        <!-- Smelts bronze alloy from copper ore and other metals. Produces 30. -->
+<MakeBronze_Hand.description>Выплавить бронзовый сплав из медной руды и других металлов. Производит 30.</MakeBronze_Hand.description>
+                      <!-- Smelting bronze alloy. -->
+<MakeBronze_Hand.jobString>Плавит бронзу.</MakeBronze_Hand.jobString>
+                      <!-- Smelt copper (x10) -->
+<MakeCopperBars_Hand.label>Выплавить медь (x10)</MakeCopperBars_Hand.label>
+                            <!-- Smelts copper bar from copper ore. Produces 10. -->
+<MakeCopperBars_Hand.description>Выплавить медный слиток из медной руды. Производит 10.</MakeCopperBars_Hand.description>
+                          <!-- Smelting copper alloy. -->
+<MakeCopperBars_Hand.jobString>Плавит медный сплав.</MakeCopperBars_Hand.jobString>
+                   <!-- Smelt tin alloy (x10) -->
+<MakeTinBars_Hand.label>Выплавить оловянный сплав (x10)</MakeTinBars_Hand.label>
+                         <!-- Smelts tin alloy from tin ore. Mainly used as an ingredient in other alloy recipes. Produces 10. -->
+<MakeTinBars_Hand.description>Выплавить оловянный сплав из оловянной руды. В основном используется как ингредиент в других сплавах. Производит 10.</MakeTinBars_Hand.description>
+                       <!-- Smelting tin alloy. -->
+<MakeTinBars_Hand.jobString>Плавит оловянный сплав.</MakeTinBars_Hand.jobString>
+                    <!-- Smelt lead alloy (x10) -->
+<MakeLeadBars_Hand.label>Выплавить свинцовый сплав (x10)</MakeLeadBars_Hand.label>
+                          <!-- Smelts lead alloy from anglesite ore. Produces 15. -->
+<MakeLeadBars_Hand.description>Выплавить свинцовый сплав из англезитовой руды. Производит 15.</MakeLeadBars_Hand.description>
+                        <!-- Smelting lead alloy. -->
+<MakeLeadBars_Hand.jobString>Плавит свинцовый сплав.</MakeLeadBars_Hand.jobString>
+                      <!-- Smelt sterling silver alloy -->
+<MakeSilverBars_Hand.label>Плавить сплав стерлингового серебра</MakeSilverBars_Hand.label>
+                            <!-- Smelts sterling silver, a valuable alloy of silver and either copper or bauxite. Produces 10. -->
+<MakeSilverBars_Hand.description>Выплавить Стерлинговое серебро, ценный сплав серебра с медью или бокситами. Производит 10.</MakeSilverBars_Hand.description>
+                          <!-- Smelting sterling silver alloy. -->
+<MakeSilverBars_Hand.jobString>Плавит сплав Стерлингового серебра.</MakeSilverBars_Hand.jobString>
+                    <!-- Smelt gold alloy -->
+<MakeGoldBars_Hand.label>Выплавить золотой сплав</MakeGoldBars_Hand.label>
+                          <!-- Smelts gold, a beautiful, precious alloy of gold and copper or bauxite. Produces 15. -->
+<MakeGoldBars_Hand.description>Выплавить золото, красивый, драгоценный сплав золота и меди/боксита. Производит 15.</MakeGoldBars_Hand.description>
+                        <!-- Smelting gold alloy. -->
+<MakeGoldBars_Hand.jobString>Плавит золотой сплав.</MakeGoldBars_Hand.jobString>
+
+</LanguageData>

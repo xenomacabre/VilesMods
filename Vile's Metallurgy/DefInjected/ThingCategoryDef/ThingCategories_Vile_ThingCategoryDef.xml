@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<!--/Defs/ThingCategories_Vile.xml-->
+           <!-- Plumbing -->
+<Plumbing.label>Сантехника</Plumbing.label>
+            <!-- Forgable -->
+<ForgedBar.label>Поддающиеся ковке</ForgedBar.label>
+          <!-- Castable -->
+<CastBar.label>Поддающиеся литью</CastBar.label>
+                <!-- Metallurgical -->
+<Metallurgical.label>Металлургия</Metallurgical.label>
+
+</LanguageData>

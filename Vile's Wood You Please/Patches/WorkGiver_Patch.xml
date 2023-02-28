@@ -4,6 +4,7 @@
 			<xpath>Defs/WorkGiverDef[defName="DoBillsMakeWoodPlanks"]/fixedBillGiverDefs</xpath>
 			<value>
 				<li>LogSplittingSpot</li>
+				<li>ChoppingBlock</li>
 			</value>
 		</Operation>
 	
