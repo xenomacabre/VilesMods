@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<ThingDef ParentName="SmallFruitFoodRawBase">
+		<defName>Rawcloudberry</defName>
+		<label>Cloudberry</label>
+		<description>Cloudberries are small, amber colored, sweet, raspberry-like fruits that grow on Cloudberry Plants. Marevlous to eat when raw.</description>
+		<graphicData>
+			<texPath>Things/Fruits/cloudberries</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>6</MarketValue>
+			<Nutrition>0.05</Nutrition>
+		</statBases>
+		<tickerType>Rare</tickerType>   
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+			<joy>0.006</joy>
+		</ingestible>
+		<thingCategories>
+			<li>FruitFoodRaw</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>4</daysToRotStart>
+			</li>
+		</comps>    
+	</ThingDef>
+
+</Defs>

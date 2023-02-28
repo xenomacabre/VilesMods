@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	
+
+			
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plantwheat"]/plant/wildClusterRadius</xpath>
+		<value>
+			<wildClusterRadius>20</wildClusterRadius>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plantwheat"]/plant/wildClusterWeight</xpath>
+		<value>
+			<wildClusterWeight>20</wildClusterWeight>
+		</value>
+	</Operation>		
+			
+
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Dandelion"]/plant/wildClusterRadius</xpath>
+		<value>
+			<wildClusterRadius>18</wildClusterRadius>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Dandelion"]/plant/wildClusterWeight</xpath>
+		<value>
+			<wildClusterWeight>32</wildClusterWeight>
+		</value>
+	</Operation>		
+    
+    
+	
+</Patch>
+
+
+			

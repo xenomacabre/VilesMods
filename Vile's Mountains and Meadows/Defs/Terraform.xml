@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="RFF_TerraformBasicBase">
+		<defName>Terraform_ToPrairieSoil</defName>
+		<label>Fertile Soil to Prairie Soil</label>
+		<description>Change the appearance of fertile soil to look grassier.</description>
+		<uiIconPath>Terrain/Surfaces/PrairieSoil_Ico</uiIconPath>
+		<modExtensions>
+			<li Class="FertileFields.Terrain">
+				<above>
+					<li>SavannaSoil</li>
+					<li>VolcanicSoil</li>
+					<li>Soil</li>
+				</above>
+				<result>PrairieSoil</result>
+			</li>
+		</modExtensions>
+		<statBases>
+			<WorkToBuild>660</WorkToBuild>
+		</statBases>
+		<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+    </ThingDef>
+
+	
+	
+</Defs>

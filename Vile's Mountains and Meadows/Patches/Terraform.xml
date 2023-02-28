@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	
+
+			
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Terraform_GatherNutrientsFromFertileSoil"]/description</xpath>
+		<value>
+			<description>Fertile / Prairie / Volcanic Soil \n +6 Clay\n +6 Silt\n +6 Compost\n +3 Fertilizer</description>
+		</value>
+    </Operation>
+	
+   <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Terraform_GatherNutrientsFromFertileSoil"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
+		<value>
+			<li>PrairieSoil</li>
+		</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Terraform_SodLawn"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
+		<value>
+			<li>PrairieSoil</li>
+		</value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Terraform_SodPattern"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
+		<value>
+			<li>PrairieSoil</li>
+		</value>
+    </Operation>
+    
+        <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Terraform_SodClover"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
+		<value>
+			<li>PrairieSoil</li>
+		</value>
+    </Operation>
+    
+        <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Terraform_ToPackedDirt"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
+		<value>
+			<li>PrairieSoil</li>
+		</value>
+    </Operation>
+    
+        <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="SoilF-EarthenFloor"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
+		<value>
+			<li>PrairieSoil</li>
+		</value>
+    </Operation>
+    
+
+</Patch>
+
+
+
+			
