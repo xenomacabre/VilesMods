@@ -54,7 +54,7 @@ X Inadvisable 	Hospitals, Tools
 Tools Recommended: None
 Notes: Apparel made from this is equipped much faster
 			
-Polyvinyl chloride is one of the three main commodity plastics. It can be used for many practical applications, but isn't especially outstanding in any regard except weight and construction speed. It's stronger than other cheap plastics and joins easily which makes is a good building material. However, it's one of the more toxix plastics.</description>
+Polyvinyl chloride is one of the three main commodity plastics. It can be used for many practical applications, but isn't especially outstanding in any regard except weight and construction speed. It's stronger than other cheap plastics and joins easily which makes is a good building material. However, it's one of the more toxix plastics.</description>	
         <jobString>Making PVC plastic.</jobString>
 		<workAmount>1800</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
@@ -97,6 +97,7 @@ Polyvinyl chloride is one of the three main commodity plastics. It can be used f
 	
 	<RecipeDef>
 		<defName>MakePolypropylene</defName>
+		<label>Make Polypropylene Plastic x25</label>
 		<description>TIER 3 - Industrial (commodity)
 >>> Optimal	Economy
 >> Suitable	Riot Armor (cheap)
