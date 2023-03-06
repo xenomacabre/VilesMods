@@ -49,6 +49,8 @@
 		<barOffset>(0.0, 0.25)</barOffset>
 		<barScale>(1.0, 1.0)</barScale>
 		<slotsCount>30</slotsCount>
+		<fillDelay>33</fillDelay>
+		<takeDelay>33</takeDelay>
 	</ThingDef>
 
 	<ThingDef ParentName="WorkTable">

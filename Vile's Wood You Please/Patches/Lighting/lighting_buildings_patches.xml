@@ -275,7 +275,7 @@ Efficiency: 30%</description>
 Light radius: 10
 Max heat: 30
 Capacity: 20
-Efficiency: 15%</description>
+Efficiency: 25%</description>
 				</value>
 			</li>
 				<li Class="PatchOperationReplace">
@@ -294,8 +294,8 @@ Efficiency: 15%</description>
 						<fireDrawScale>0.4</fireDrawScale>
 						<fuelDrawOffset>(0,0.1,-0.2)</fuelDrawOffset>
 						<fuelDrawScale>0.8</fuelDrawScale> -->
-						<fuelCapacity>15</fuelCapacity>
-						<burnFuelMultiplier>1.5</burnFuelMultiplier>
+						<fuelCapacity>20</fuelCapacity>
+						<burnFuelMultiplier>2.5</burnFuelMultiplier>
 						<canAutoBurn>true</canAutoBurn>
 						<smokeEnabled>false</smokeEnabled>
 						<effectOnWeather>true</effectOnWeather>

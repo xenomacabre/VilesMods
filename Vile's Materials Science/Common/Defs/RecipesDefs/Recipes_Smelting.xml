@@ -1200,7 +1200,7 @@
 		<defName>SmeltRutile_HighTech</defName>
 		<label>Spec: Rutile (20 Ti, 10 Mo)</label>
 		<description>Process Rutile into Tungsten. Molybdenum is also recovered, but it takes more time and energy.</description>
-		<jobString>Processing Rutile (Ti, Cr).</jobString>
+		<jobString>Processing Rutile (Ti, Mo).</jobString>
 		<workAmount>5600</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>

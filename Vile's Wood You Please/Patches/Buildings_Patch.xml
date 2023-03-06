@@ -11,4 +11,13 @@
 		</value>
     </Operation>
 
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Basket"]/stuffCategories</xpath>
+		<value>
+			<stuffCategories>
+				<li>Kindlingstuff</li>
+			</stuffCategories>
+		</value>
+    </Operation>
+
 </Patch>
