@@ -526,7 +526,7 @@
 		<defName>MakeNitinol</defName>
 		<label>Make Nitinol x25</label>
 		<description>This alloy is equal parts titanium and nickel. It has unique shape memory qualities and superb flexibility. It's an important engineering alloy, required to build advanced machine parts, but its great for swords and knives and medical devices.</description>
-		<jobString>Making dual-phase titanium.</jobString>
+		<jobString>Making nitinol.</jobString>
 		<workAmount>3300</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>

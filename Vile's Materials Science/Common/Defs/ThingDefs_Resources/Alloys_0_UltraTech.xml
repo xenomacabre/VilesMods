@@ -87,7 +87,7 @@ Hyperalloy is synthesized at the atomic level and refined with niobium and tanta
                     <TreeFellingSpeed>1.7</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.7</PlantHarvestingSpeed>
 					<PlantSowingSpeed>2</PlantSowingSpeed>
-					<DiggingSpeed>2.3</DiggingSpeed>
+					<MiningSpeed>2.3</MiningSpeed>
 					<MiningYieldDigging>2</MiningYieldDigging>
 					<ConstructionSpeed>2.3</ConstructionSpeed>
 					<SmithingSpeed>2.3</SmithingSpeed>
@@ -187,7 +187,7 @@ Originally developed as military hardware, polymimetic alloy is programmable mat
                     <TreeFellingSpeed>2.3</TreeFellingSpeed>
 					<PlantHarvestingSpeed>2</PlantHarvestingSpeed>
 					<PlantSowingSpeed>1.7</PlantSowingSpeed>
-					<DiggingSpeed>1.7</DiggingSpeed>
+					<MiningSpeed>1.7</MiningSpeed>
 					<MiningYieldDigging>1.7</MiningYieldDigging>
 					<ConstructionSpeed>1.7</ConstructionSpeed>
 					<SmithingSpeed>1.7</SmithingSpeed>
@@ -285,7 +285,7 @@ This lightweight, exotic alloy is refined at the molecular level and it can hold
                     <TreeFellingSpeed>2</TreeFellingSpeed>
 					<PlantHarvestingSpeed>2.1</PlantHarvestingSpeed>
 					<PlantSowingSpeed>2.1</PlantSowingSpeed>
-					<DiggingSpeed>1.5</DiggingSpeed>
+					<MiningSpeed>1.5</MiningSpeed>
 					<MiningYieldDigging>1.7</MiningYieldDigging>
 					<ConstructionSpeed>2</ConstructionSpeed>
 					<SmithingSpeed>2</SmithingSpeed>
@@ -370,7 +370,7 @@ This lightweight, exotic alloy is refined at the molecular level and it can hold
                     <TreeFellingSpeed>1.7</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.7</PlantHarvestingSpeed>
 					<PlantSowingSpeed>1.7</PlantSowingSpeed>
-					<DiggingSpeed>1.7</DiggingSpeed>
+					<MiningSpeed>1.7</MiningSpeed>
 					<MiningYieldDigging>1.7</MiningYieldDigging>
 					<ConstructionSpeed>1.7</ConstructionSpeed>
 					<CookSpeed>1.7</CookSpeed>

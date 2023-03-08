@@ -16,7 +16,7 @@
 	<!--<li>ViTech.HCSKWood</li>-->
 </loadAfter>
 <incompatibleWith>
-	<li>cattleya.florareskin</li>
+	<li>NimeBeer.florareskin</li>
 </incompatibleWith>
 <description>Version 0.13A - 1/25/2022 - Seasonal Weather mod doesn't seem to be working, so please disable it (If removing Seasonal Weather breaks your savegame, re-enable seasonal weather but delete everything in VP_SK_Seasonal Weather/Patches/). Patching/adjusting biome base weathers to compensate, but likely will need some balance adjustment as we test it. Savanna will alternate a lot between month-long monsoon rains and droughts. Added harvestable caribou moss and bearberries from the Tundra to make it more playable. Adjusted grow-rate of grasses for cold biomes and moved some around a bit. More balance tweaks here and there and more to come.
 
@@ -28,7 +28,7 @@ Dislaimer: This is a brand new mod, which means it needs some testing. By readin
 
 I've started a blog and Patreon for my mods! Check it out, and support me if you wish. 
 http://patreon.com/vileheathen  
-Thank you everyone for the continued feedback. Special thanks to Sidfu for their patronage :Raises Wineglass of Bog Water:
+Thank you everyone for the continued feedback. Special thanks to Sidfu, Pautinich, and Kamil for their patronage :Raises Wineglass of Bog Water:
 
 Biomes: From The Groud Up overhauls biomes... from the ground up. Here's the dirt:
 	

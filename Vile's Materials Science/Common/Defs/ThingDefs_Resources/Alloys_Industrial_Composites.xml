@@ -83,7 +83,7 @@ High-density polyethylene is one of the three main commodity plastics. It can be
                     <TreeFellingSpeed>0.8</TreeFellingSpeed>
 					<PlantHarvestingSpeed>0.8</PlantHarvestingSpeed>
 					<PlantSowingSpeed>0.8</PlantSowingSpeed>
-					<DiggingSpeed>0.8</DiggingSpeed>
+					<MiningSpeed>0.8</MiningSpeed>
 					<MiningYieldDigging>0.8</MiningYieldDigging>
 					<ConstructionSpeed>0.8</ConstructionSpeed>
 					<SmithingSpeed>0.8</SmithingSpeed>
@@ -292,7 +292,7 @@ Plexiglass is transparent Polymethyl methacrylate, or acrylic glass. It's strong
                     <TreeFellingSpeed>0.9</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.05</PlantHarvestingSpeed>
 					<PlantSowingSpeed>1</PlantSowingSpeed>
-					<DiggingSpeed>0.9</DiggingSpeed>
+					<MiningSpeed>0.9</MiningSpeed>
 					<MiningYieldDigging>0.9</MiningYieldDigging>
 					<ConstructionSpeed>0.9</ConstructionSpeed>
 					<SmithingSpeed>0.9</SmithingSpeed>
@@ -386,7 +386,7 @@ Riding the line between a commodity and engineering plastic, Acrylonitrile-butad
                     <TreeFellingSpeed>0.9</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.05</PlantHarvestingSpeed>
 					<PlantSowingSpeed>1</PlantSowingSpeed>
-					<DiggingSpeed>0.9</DiggingSpeed>
+					<MiningSpeed>0.9</MiningSpeed>
 					<MiningYieldDigging>0.9</MiningYieldDigging>
 					<ConstructionSpeed>0.9</ConstructionSpeed>
 					<SmithingSpeed>0.9</SmithingSpeed>
@@ -484,7 +484,7 @@ Polycarbonate is a clear plastic which is often used for bulletproof glass and r
                     <TreeFellingSpeed>1</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1</PlantHarvestingSpeed>
 					<PlantSowingSpeed>0.8</PlantSowingSpeed>
-					<DiggingSpeed>0.7</DiggingSpeed>
+					<MiningSpeed>0.7</MiningSpeed>
 					<MiningYieldDigging>0.8</MiningYieldDigging>
 					<ConstructionSpeed>1.1</ConstructionSpeed>
 					<SmithingSpeed>1.1</SmithingSpeed>
@@ -579,7 +579,7 @@ Glass-fiber reinforced plastic is a composite material of glass fibers set into 
                     <TreeFellingSpeed>1.1</TreeFellingSpeed>
 					<PlantHarvestingSpeed>0.9</PlantHarvestingSpeed>
 					<PlantSowingSpeed>0.9</PlantSowingSpeed>
-					<DiggingSpeed>1</DiggingSpeed>
+					<MiningSpeed>1</MiningSpeed>
 					<MiningYieldDigging>1</MiningYieldDigging>
 					<ConstructionSpeed>0.95</ConstructionSpeed>
 					<SmithingSpeed>0.95</SmithingSpeed>

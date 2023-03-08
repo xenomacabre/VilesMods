@@ -80,7 +80,7 @@ Commercially pure aluminum is the lightest weight metal available. It has superi
                     <TreeFellingSpeed>0.9</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1</PlantHarvestingSpeed>
 					<PlantSowingSpeed>1</PlantSowingSpeed>
-					<DiggingSpeed>0.8</DiggingSpeed>
+					<MiningSpeed>0.8</MiningSpeed>
 					<MiningYieldDigging>1</MiningYieldDigging>
 					<ConstructionSpeed>0.8</ConstructionSpeed>
 					<SmithingSpeed>0.8</SmithingSpeed>
@@ -173,7 +173,7 @@ Brass is a conductive copper-zinc alloy. It's tougher than bronze, but softer so
                     <TreeFellingSpeed>1.1</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.2</PlantHarvestingSpeed>
 					<PlantSowingSpeed>1.2</PlantSowingSpeed>
-					<DiggingSpeed>1.2</DiggingSpeed>
+					<MiningSpeed>1.2</MiningSpeed>
 					<MiningYieldDigging>1.2</MiningYieldDigging>
 					<ConstructionSpeed>1.3</ConstructionSpeed>
 					<SmithingSpeed>1.3</SmithingSpeed>
@@ -267,7 +267,7 @@ Anodizing is a chemical process that not only colors and adds beauty to the 3003
                     <TreeFellingSpeed>1.1</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.1</PlantHarvestingSpeed>
 					<PlantSowingSpeed>1.1</PlantSowingSpeed>
-					<DiggingSpeed>0.9</DiggingSpeed>
+					<MiningSpeed>0.9</MiningSpeed>
 					<MiningYieldDigging>1.1</MiningYieldDigging>
 					<ConstructionSpeed>1.1</ConstructionSpeed>
 					<SmithingSpeed>1.1</SmithingSpeed>
@@ -310,7 +310,7 @@ Anodizing is a chemical process that not only colors and adds beauty to the 6061
                     <TreeFellingSpeed>1.15</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.1</PlantHarvestingSpeed>
 					<PlantSowingSpeed>1.1</PlantSowingSpeed>
-					<DiggingSpeed>0.95</DiggingSpeed>
+					<MiningSpeed>0.95</MiningSpeed>
 					<MiningYieldDigging>1.1</MiningYieldDigging>
 					<ConstructionSpeed>1.15</ConstructionSpeed>
 					<CookSpeed>1.1</CookSpeed>
@@ -400,7 +400,7 @@ Many engineers consider titanium to be an over-rated metal, filling an overlappi
                     <TreeFellingSpeed>1.1</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.35</PlantHarvestingSpeed>
 					<PlantSowingSpeed>1.1</PlantSowingSpeed>
-					<DiggingSpeed>0.9</DiggingSpeed>
+					<MiningSpeed>0.9</MiningSpeed>
 					<MiningYieldDigging>1.1</MiningYieldDigging>
 					<ConstructionSpeed>1.55</ConstructionSpeed>
 					<SmithingSpeed>1.55</SmithingSpeed>
@@ -486,7 +486,7 @@ Depleted Uranium Alloy is created by refining Uranium Ore through a Gas Centrifu
                     <TreeFellingSpeed>1.3</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.1</PlantHarvestingSpeed>
 					<PlantSowingSpeed>1</PlantSowingSpeed>
-					<DiggingSpeed>1.4</DiggingSpeed>
+					<MiningSpeed>1.4</MiningSpeed>
 					<MiningYieldDigging>1.4</MiningYieldDigging>
 					<ConstructionSpeed>1.3</ConstructionSpeed>
 					<SmithingSpeed>1.3</SmithingSpeed>

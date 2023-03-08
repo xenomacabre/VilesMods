@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
+<!-- 
     <ThingDef ParentName="BaseAnimalPawn" Name="FishThingBase" Abstract="True">
 		<statBases>
 			<LeatherAmount>25</LeatherAmount>
@@ -25,7 +25,7 @@
 	</ThingDef>
 
 	<PawnKindDef Name="FishKindBase" Abstract="True">
-	</PawnKindDef>
+	</PawnKindDef> -->
     
 <!-- HYPNOSQUID - medium -->
     
