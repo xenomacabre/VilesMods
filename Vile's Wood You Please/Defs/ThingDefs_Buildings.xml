@@ -75,7 +75,7 @@
 		</thingCategories>
 		<statBases>
 			<WorkToBuild>300</WorkToBuild>
-			<WorkTableWorkSpeedFactor>0.4</WorkTableWorkSpeedFactor>
+			<WorkTableWorkSpeedFactor>0.6</WorkTableWorkSpeedFactor>
 			<Mass>1</Mass>
 		</statBases>
 		<scatterableOnMapGen>false</scatterableOnMapGen>
@@ -151,7 +151,7 @@
 		</thingCategories>
 		<statBases>
 			<WorkToBuild>400</WorkToBuild>
-			<WorkTableWorkSpeedFactor>1.0</WorkTableWorkSpeedFactor>
+			<WorkTableWorkSpeedFactor>1.2</WorkTableWorkSpeedFactor>
 			<Mass>1</Mass>
 		</statBases>
 		<size>(1,1)</size>
