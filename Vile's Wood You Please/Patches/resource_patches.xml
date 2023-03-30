@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
 
+
 <!-- TALLOW -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Tallow"]/statBases/BurnDurationHours</xpath>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+		<WorkGiverDef ParentName="WorkGiverPrioritizeSustains">
+		<defName>DoBillsMakeWoodWirewood</defName>
+		<label>split wood</label>
+		<workType>Crafting</workType>
+		<priorityInType>76</priorityInType>
+		<fixedBillGiverDefs>
+			<li>LogSplittingSpot</li>
+			<li>ChoppingBlock</li>
+		</fixedBillGiverDefs>
+		<verb>split wood</verb>
+		<gerund>splitting wood</gerund>
+	</WorkGiverDef>
+
+</Defs>

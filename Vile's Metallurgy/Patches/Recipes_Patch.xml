@@ -17,6 +17,19 @@
 					</recipeUsers>
 				</value>
 			</li>
+
+	<li Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="MakeCharcoal_Hand" or defName="MakeCharcoal_Electric"]/label</xpath>
+				<value>
+					<label>make charcoal (x10)</label>
+				</value>
+		</li>
+			<li Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="MakeCharcoal_Hand" or defName="MakeCharcoal_Electric"]/products/Charcoal</xpath>
+				<value>
+					<Charcoal>10</Charcoal>
+				</value>
+		</li>	
 			
 		
 		<li Class="PatchOperationReplace">

@@ -3,10 +3,9 @@
 
 	<Operation Class="PatchOperationFindMod">
 	<mods>
-		<li>Core SK</li>
+		<li>[JPT] Soft Warm Beds HSK</li>
 	</mods>
-	<match Class="PatchOperationSequence">
-	<success>Always</success>
+	<nomatch Class="PatchOperationSequence">
 		<operations>
 			
 			<li Class="PatchOperationReplace"> <!-- mattress bed -->
@@ -28,7 +27,7 @@
 				</value>
 			</li>
 		</operations>
-		</match>
+		</nomatch>
     </Operation>	
 	
 

@@ -43,7 +43,12 @@
 					<li>MeltCoins</li>
 				</value>
 			</li>
-            
+              <li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="CrucibleSteel"]/stuffProps/categories</xpath>
+				<value>
+                    <li>CorrosionResistant</li>
+				</value>
+			</li>
             
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="TableFurnace"]/recipes</xpath>
@@ -62,7 +67,7 @@
 			</li>
 
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName="Extract_BogIron"]/Products</xpath>
+				<xpath>Defs/RecipeDef[defName="Extract_BogIron"]/products</xpath>
 				<value>
                     <products>
                         <BogIron>10</BogIron>

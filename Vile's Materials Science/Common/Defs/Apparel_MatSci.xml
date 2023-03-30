@@ -2,7 +2,7 @@
 <Defs>
 	
 	
-	<ThingDef ParentName="ArmorIndustrialBase">
+	<!-- <ThingDef ParentName="ArmorIndustrialBase">
 		<defName>TurnoutGear</defName>
 		<label>Bunker Gear</label>
 		<description>Hear-resistant jumpsuit worn by fire fighters.</description>
@@ -81,11 +81,6 @@
         <recipeMaker>
             <researchPrerequisite>FlakArmor</researchPrerequisite>
         </recipeMaker>
-		<!--<modExtensions>
-			<li Class="CombatExtended.ApparelHediffExtension">
-				<hediff>WearingTurnoutGear</hediff>
-			</li>
-		</modExtensions>-->
-	</ThingDef>
+	</ThingDef> -->
   
 </Defs>

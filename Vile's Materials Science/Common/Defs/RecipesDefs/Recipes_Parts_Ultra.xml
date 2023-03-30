@@ -4,7 +4,7 @@
 		<defName>BuildMagneticMaterial</defName>
 		<label>Synthesize piezoelectric material x5</label>
 		<description>Synthesize material which can accumulate extreme electrical charge. Produces 5.</description>
-		<jobString>Synthesizing magnetic material.</jobString>
+		<jobString>Synthesizing piezoelectric material.</jobString>
 		<workAmount>2400</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>

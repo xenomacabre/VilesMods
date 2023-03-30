@@ -2,7 +2,7 @@
 <Defs>
 	<ThingDef ParentName="SK_ResourceBase">
 		<defName>AluminiumBar</defName>
-		<label>pure aluminum (Al)</label>
+		<label>pure aluminium (Al)</label>
 		<description>TIER 3 - Industrial (early)
 >>> Optimal	Base Metal
 >> Suitable	Construction
@@ -10,7 +10,7 @@ X Inadvisable 	Durability, Weapons
 			
 Tools Recommended: None / Farm tools (poor, but lightweight)
 			
-Commercially pure aluminum is the lightest weight metal available. It has superior machinability and good weldablity so it is great for quick construction. Farm tools made from it, although mediocre in effectiveness, are lightweight which can be important for a multitasking farmer. It's mainly used as an ingredient for more advanced alloys.</description>
+Commercially pure aluminium is the lightest weight metal available. It has superior machinability and good weldablity so it is great for quick construction. Farm tools made from it, although mediocre in effectiveness, are lightweight which can be important for a multitasking farmer. It's mainly used as an ingredient for more advanced alloys.</description>
 		<graphicData>
 			<texPath>Things/Item/Material/PureAluminium</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -226,7 +226,7 @@ Anodizing is a chemical process that not only colors and adds beauty to the 3003
 		<smeltable>true</smeltable>
 		<stuffProps>
             <appearance>Cladding</appearance>
-			<stuffAdjective>Anodized Aluminium</stuffAdjective>
+			<stuffAdjective>3003 Aluminium</stuffAdjective>
 			<categories>
 				<li>Metallic</li>
 				<li>StrongMetallic</li>
@@ -298,6 +298,7 @@ Anodizing is a chemical process that not only colors and adds beauty to the 6061
 			<StuffPower_Armor_Heat>0.08</StuffPower_Armor_Heat>
 		</statBases>
 		<stuffProps>
+			<stuffAdjective>6061 Aluminium</stuffAdjective>
 			<color>(2,129,253)</color>
             <statFactors>
 				<MaxHitPoints>1.75</MaxHitPoints>

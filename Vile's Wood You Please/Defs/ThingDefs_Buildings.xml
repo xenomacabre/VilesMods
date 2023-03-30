@@ -76,6 +76,7 @@
 		<statBases>
 			<WorkToBuild>300</WorkToBuild>
 			<WorkTableWorkSpeedFactor>0.6</WorkTableWorkSpeedFactor>
+			<OutdoorWorkRateFactor>0.6</OutdoorWorkRateFactor>
 			<Mass>1</Mass>
 		</statBases>
 		<scatterableOnMapGen>false</scatterableOnMapGen>
@@ -152,6 +153,7 @@
 		<statBases>
 			<WorkToBuild>400</WorkToBuild>
 			<WorkTableWorkSpeedFactor>1.2</WorkTableWorkSpeedFactor>
+			<OutdoorWorkRateFactor>1.2</OutdoorWorkRateFactor>
 			<Mass>1</Mass>
 		</statBases>
 		<size>(1,1)</size>
