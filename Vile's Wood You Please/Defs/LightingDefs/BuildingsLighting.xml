@@ -140,7 +140,7 @@ Efficiency: 50%</description>
 		<defName>FireBasket</defName>
 		<label>fire basket</label>
 		<description>A metal basket for a contained bonfire. Typically meant for outdoor use as it heats up a room quickly.
-Light radius: 9
+Light radius: 8
 Max heat: 35
 Capacity: 20
 Efficiency: 15%</description>

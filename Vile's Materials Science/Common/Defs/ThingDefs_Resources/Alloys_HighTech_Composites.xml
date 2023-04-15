@@ -85,7 +85,7 @@ Carbon nanotubes and UHMWPE fibers in an epoxy matrix. Features superior ballist
                     <TreeFellingSpeed>1.2</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.5</PlantHarvestingSpeed>
 					<PlantSowingSpeed>1.5</PlantSowingSpeed>
-					<DiggingSpeed>1.3</DiggingSpeed>
+					<MiningSpeed>1.3</MiningSpeed>
 					<MiningYieldDigging>1.6</MiningYieldDigging>
 					<ConstructionSpeed>1.2</ConstructionSpeed>
 					<SmithingSpeed>1.2</SmithingSpeed>
@@ -178,7 +178,7 @@ Aerographene, or graphene aerogel is the only known solid that is lighter than a
                     <TreeFellingSpeed>0.8</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1</PlantHarvestingSpeed>
 					<PlantSowingSpeed>0.8</PlantSowingSpeed>
-					<DiggingSpeed>0.8</DiggingSpeed>
+					<MiningSpeed>0.8</MiningSpeed>
 					<MiningYieldDigging>0.8</MiningYieldDigging>
 					<ConstructionSpeed>0.8</ConstructionSpeed>
 					<SmithingSpeed>0.8</SmithingSpeed>

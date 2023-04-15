@@ -92,4 +92,97 @@
 		<canOverlapZones>true</canOverlapZones>
         <clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
+	
+	<ThingDef ParentName="SK_BuildingBase">
+		<defName>wall_angle_north</defName>
+		<label>Diagonal Wall Upper</label>
+		<graphicData>
+			<texPath>Things/Building/DiagonalWall2</texPath>
+            <graphicClass>Graphic_Appearances</graphicClass>			
+            <shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+            <drawRotated>false</drawRotated>
+			<allowFlip>true</allowFlip>
+		</graphicData>
+        <uiIconPath>Things/Building/DiagonalWall2_ui</uiIconPath>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>380</MaxHitPoints>
+			<WorkToBuild>270</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<designationCategory>Structure</designationCategory>
+		<description>A wall at a 45 degree angle. Must be manually placed.</description>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>Stony</li>
+			<li>Bricks</li>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>3</costStuffCount>
+		<rotatable>true</rotatable>
+		<coversFloor>false</coversFloor>
+		<tickerType>Never</tickerType>
+		<blockLight>true</blockLight>
+		<blockWind>true</blockWind>
+		<canOverlapZones>true</canOverlapZones>
+        <clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+    
+	<ThingDef ParentName="SK_BuildingBase">
+		<defName>wallCabin_angle_north</defName>
+		<label>Diagonal Cabin Wall Upper</label>
+		<graphicData>
+			<texPath>Things/Building/DiagonalWall2</texPath>
+			<graphicClass>Graphic_Appearances</graphicClass>	
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+            <drawRotated>false</drawRotated>
+			<allowFlip>true</allowFlip>
+		</graphicData>
+        <uiIconPath>Things/Building/DiagonalWallCabin2_ui</uiIconPath>
+		<fillPercent>0</fillPercent>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<designationCategory>Structure</designationCategory>
+		<description>A wall at a 45 degree angle. Must be manually placed.</description>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>Softwoods</li>
+            <li>Hardwoods</li>
+            <li>Ultrahardwoods</li>
+		</stuffCategories>
+		<costStuffCount>2</costStuffCount>
+		<rotatable>true</rotatable>
+		<coversFloor>false</coversFloor>
+		<tickerType>Never</tickerType>
+		<blockLight>true</blockLight>
+		<blockWind>true</blockWind>
+		<canOverlapZones>true</canOverlapZones>
+        <clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	
 </Defs>

@@ -34,7 +34,7 @@
 		<label>fish oil</label>
 		<description>Pitch extracted from trees. Can be used as a fuel.</description>
 		<graphicData>
-			<texPath>Things/VileWood/VegOil</texPath>
+			<texPath>Things/VileWood/FishOil</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Standard_Drop</soundInteract>
@@ -156,7 +156,7 @@
 		<Flammability>5.0</Flammability>
 		<DeteriorationRate>0</DeteriorationRate>
 		<MaxBurningTempCelsius>550</MaxBurningTempCelsius>
-		<Mass>0.4</Mass>
+		<Mass>0.2</Mass>
 		<Bulk>0.3</Bulk>
 	</statBases>
 	<techLevel>Neolithic</techLevel>
@@ -167,22 +167,31 @@
 </ThingDef>
 
 <!-- Green is child -->
-<ThingDef ParentName="FirewoodSeasonedBase" Name="FirewoodBase" Abstract="True">
+<!-- <ThingDef ParentName="FirewoodSeasonedBase" Name="FirewoodBase" Abstract="True"> -->
+<ThingDef ParentName="SK_ResourceBase" Name="FirewoodBase" Abstract="True">
 	<description>Wood logs cut into large, rough pieces of firewood. Hardwoods tend to burn longer than softwoods.</description>
 	<graphicData>
 		<texPath>Things/VileWood/GreenFirewood</texPath>
 		<graphicClass>Graphic_StackCount</graphicClass>
 	</graphicData>
+	<soundInteract>Wood_Drop</soundInteract>
+	<soundDrop>Wood_Drop</soundDrop>
+	<tickerType>Rare</tickerType>
 	<statBases>
 		<MarketValue>1.4</MarketValue>
 		<MaxBurningTempCelsius>450</MaxBurningTempCelsius>
-		<Mass>0.2</Mass>
+		<MaxHitPoints>150</MaxHitPoints>
+		<Flammability>5.0</Flammability>
+		<DeteriorationRate>0</DeteriorationRate>
+		<Mass>0.4</Mass>
+		<Bulk>0.3</Bulk>
 	</statBases>
-	<thingCategories Inherit="False">
+	<techLevel>Neolithic</techLevel>
+	<thingCategories>
 		<li>FirewoodGreen</li>
 	</thingCategories>
 	<recipeMaker>
-		<productCount>30</productCount>
+		<productCount>40</productCount>
 		<!--<workAmount>180</workAmount>-->
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
@@ -210,7 +219,7 @@ Seasoned burn rate: 1.5 hrs</description>
 		<BurnDurationHours>0.9</BurnDurationHours>
 	</statBases>
 	<recipeMaker>
-			<workAmount>400</workAmount>
+			<workAmount>300</workAmount>
 	</recipeMaker>
 	<costList>
 		<CecropiaLog>3</CecropiaLog>
@@ -241,13 +250,15 @@ Seasoned burn rate: 1.3 hrs</description>
 	<statBases>
 		<BurnDurationHours>1.0</BurnDurationHours>
 	</statBases>
+
 	<recipeMaker>
-			<workAmount>300</workAmount>
+			<workAmount>200</workAmount>
 	</recipeMaker>
 	<costList>
 		<PineLog>3</PineLog>
 	</costList>
 </ThingDef>
+
 	<ThingDef ParentName="FirewoodSeasonedBase">
 		<defName>FirewoodSeasoned_Pine</defName>
 		<label>seasoned firewood (pine)</label>
@@ -274,7 +285,7 @@ Seasoned burn rate: 1.6 hrs</description>
 		<BurnDurationHours>0.9</BurnDurationHours>
 	</statBases>
 	<recipeMaker>
-			<workAmount>300</workAmount>
+			<workAmount>250</workAmount>
 	</recipeMaker>
 	<costList>
 		<WillowLog>3</WillowLog>
@@ -306,7 +317,7 @@ Seasoned burn rate: 1.6 hrs</description>
 		<BurnDurationHours>1.1</BurnDurationHours>
 	</statBases>
 	<recipeMaker>
-			<workAmount>350</workAmount>
+			<workAmount>250</workAmount>
 	</recipeMaker>
 	<costList>
 		<RedWoodLog>3</RedWoodLog>
@@ -361,7 +372,7 @@ Seasoned burn rate: 1.9 hrs</description>
 		<BurnDurationHours>1.3</BurnDurationHours>
 	</statBases>
 	<recipeMaker>
-			<workAmount>350</workAmount>
+			<workAmount>300</workAmount>
 	</recipeMaker>
 	<costList>
 		<CypressLog>3</CypressLog>
@@ -393,7 +404,7 @@ Seasoned burn rate: 1.4 hrs</description>
 		<BurnDurationHours>0.8</BurnDurationHours>
 	</statBases>
 	<recipeMaker>
-			<workAmount>300</workAmount>
+			<workAmount>250</workAmount>
 	</recipeMaker>
 	<costList>
 		<PoplarLog>3</PoplarLog>
@@ -425,7 +436,7 @@ Seasoned burn rate: 2.1 hrs</description>
 		<BurnDurationHours>1.5</BurnDurationHours>
 	</statBases>
 	<recipeMaker>
-			<workAmount>400</workAmount>
+			<workAmount>350</workAmount>
 	</recipeMaker>
 	<costList>
 		<MapleLog>3</MapleLog>
@@ -457,7 +468,7 @@ Seasoned burn rate: 2.6 hrs</description>
 		<BurnDurationHours>1.8</BurnDurationHours>
 	</statBases>
 	<recipeMaker>
-			<workAmount>600</workAmount>
+			<workAmount>450</workAmount>
 	</recipeMaker>
 	<costList>
 		<TeakLog>3</TeakLog>
@@ -514,7 +525,7 @@ Seasoned burn rate: 2.3 hrs</description>
 		<BurnDurationHours>1.7</BurnDurationHours>
 	</statBases>
 	<recipeMaker>
-			<workAmount>550</workAmount>
+			<workAmount>400</workAmount>
 	</recipeMaker>
 	<costList>
 		<BirchLog>3</BirchLog>
@@ -546,7 +557,7 @@ Seasoned burn rate: 2.9 hrs</description>
 		<BurnDurationHours>1.8</BurnDurationHours>
 	</statBases>
 	<recipeMaker>
-			<workAmount>600</workAmount>
+			<workAmount>450</workAmount>
 	</recipeMaker>
 	<costList>
 		<OakLog>3</OakLog>
@@ -578,7 +589,7 @@ Seasoned burn rate: 1.5 hrs</description>
 		<BurnDurationHours>0.9</BurnDurationHours>
 	</statBases>
 	<recipeMaker>
-			<workAmount>500</workAmount>
+			<workAmount>400</workAmount>
 	</recipeMaker>
 	<costList>
 		<Bamboo>5</Bamboo>
@@ -610,7 +621,7 @@ Seasoned burn rate: 2.9 hrs</description>
 		<BurnDurationHours>1.5</BurnDurationHours>
 	</statBases>
 	<recipeMaker>
-			<workAmount>600</workAmount>
+			<workAmount>500</workAmount>
 	</recipeMaker>
 	<costList>
 		<DragonwoodLog>3</DragonwoodLog>
@@ -642,7 +653,7 @@ Seasoned burn rate: 3.1 hrs</description>
 		<BurnDurationHours>0.9</BurnDurationHours>
 	</statBases>
 	<recipeMaker>
-			<workAmount>600</workAmount>
+			<workAmount>500</workAmount>
 	</recipeMaker>
 	<costList>
 		<MangroveLog>3</MangroveLog>

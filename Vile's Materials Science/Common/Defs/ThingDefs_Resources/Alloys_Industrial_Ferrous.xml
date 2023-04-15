@@ -78,7 +78,7 @@ An economical metal, mild steel would be the modern equivalent to wrought iron. 
                     <TreeFellingSpeed>1.2</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.2</PlantHarvestingSpeed>
 					<PlantSowingSpeed>1.2</PlantSowingSpeed>
-					<DiggingSpeed>1.2</DiggingSpeed>
+					<MiningSpeed>1.2</MiningSpeed>
 					<MiningYieldDigging>1.2</MiningYieldDigging>
 					<ConstructionSpeed>1.2</ConstructionSpeed>
 					<SmithingSpeed>1.2</SmithingSpeed>
@@ -167,7 +167,7 @@ Carbon steels have more carbon than wrought iron and less than cast iron. This o
                     <TreeFellingSpeed>1.3</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.3</PlantHarvestingSpeed>
 					<PlantSowingSpeed>1.3</PlantSowingSpeed>
-					<DiggingSpeed>1.3</DiggingSpeed>
+					<MiningSpeed>1.3</MiningSpeed>
 					<MiningYieldDigging>1.3</MiningYieldDigging>
 					<ConstructionSpeed>1.3</ConstructionSpeed>
 					<SmithingSpeed>1.3</SmithingSpeed>
@@ -255,7 +255,7 @@ AR500 is an Abrasion-Resistant Steel - a high-carbon steel which is quenched and
                     <TreeFellingSpeed>1.5</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.3</PlantHarvestingSpeed>
 					<PlantSowingSpeed>1.55</PlantSowingSpeed>
-					<DiggingSpeed>1.55</DiggingSpeed>
+					<MiningSpeed>1.55</MiningSpeed>
 					<MiningYieldDigging>1.55</MiningYieldDigging>
 					<ConstructionSpeed>1.3</ConstructionSpeed>
 					<SmithingSpeed>1.3</SmithingSpeed>
@@ -344,7 +344,7 @@ Tools Recommended: Bladed (fair)
                     <TreeFellingSpeed>1.2</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.35</PlantHarvestingSpeed>
 					<PlantSowingSpeed>1.1</PlantSowingSpeed>
-					<DiggingSpeed>1.1</DiggingSpeed>
+					<MiningSpeed>1.1</MiningSpeed>
 					<MiningYieldDigging>1.3</MiningYieldDigging>
 					<ConstructionSpeed>1.2</ConstructionSpeed>
 					<SmithingSpeed>1.2</SmithingSpeed>
@@ -431,7 +431,7 @@ Tool steel has tungsten and other components to increase hardness and toughness,
                     <TreeFellingSpeed>1.45</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.45</PlantHarvestingSpeed>
 					<PlantSowingSpeed>1.45</PlantSowingSpeed>
-					<DiggingSpeed>1.55</DiggingSpeed>
+					<MiningSpeed>1.55</MiningSpeed>
 					<MiningYieldDigging>1.55</MiningYieldDigging>
 					<ConstructionSpeed>1.5</ConstructionSpeed>
 					<SmithingSpeed>1.5</SmithingSpeed>
@@ -520,7 +520,7 @@ Spring steel is one of the toughest industrial steels. Part of this comes from i
                     <TreeFellingSpeed>1.55</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.55</PlantHarvestingSpeed>
 					<PlantSowingSpeed>1.3</PlantSowingSpeed>
-					<DiggingSpeed>1.3</DiggingSpeed>
+					<MiningSpeed>1.3</MiningSpeed>
 					<MiningYieldDigging>1.3</MiningYieldDigging>
 					<ConstructionSpeed>1.3</ConstructionSpeed>
 					<SmithingSpeed>1.3</SmithingSpeed>

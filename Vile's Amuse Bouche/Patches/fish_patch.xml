@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+			<operations>
+        		
+				
+			<li Class="PatchOperationAdd">
+            			<xpath>/Defs/ThingDef[@Name="FishThingBase"]/race</xpath>
+            				<value>
+								   <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+									<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+									<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+            				</value>
+        			</li>
+			</operations>
+
+			</match>
+    </Operation>	
+
+	
+</Patch>

@@ -49,6 +49,8 @@
 		<barOffset>(0.0, 0.25)</barOffset>
 		<barScale>(1.0, 1.0)</barScale>
 		<slotsCount>30</slotsCount>
+		<fillDelay>33</fillDelay>
+		<takeDelay>33</takeDelay>
 	</ThingDef>
 
 	<ThingDef ParentName="WorkTable">
@@ -73,7 +75,8 @@
 		</thingCategories>
 		<statBases>
 			<WorkToBuild>300</WorkToBuild>
-			<WorkTableWorkSpeedFactor>0.4</WorkTableWorkSpeedFactor>
+			<WorkTableWorkSpeedFactor>0.6</WorkTableWorkSpeedFactor>
+			<OutdoorWorkRateFactor>0.6</OutdoorWorkRateFactor>
 			<Mass>1</Mass>
 		</statBases>
 		<scatterableOnMapGen>false</scatterableOnMapGen>
@@ -149,7 +152,8 @@
 		</thingCategories>
 		<statBases>
 			<WorkToBuild>400</WorkToBuild>
-			<WorkTableWorkSpeedFactor>1.0</WorkTableWorkSpeedFactor>
+			<WorkTableWorkSpeedFactor>1.2</WorkTableWorkSpeedFactor>
+			<OutdoorWorkRateFactor>1.2</OutdoorWorkRateFactor>
 			<Mass>1</Mass>
 		</statBases>
 		<size>(1,1)</size>

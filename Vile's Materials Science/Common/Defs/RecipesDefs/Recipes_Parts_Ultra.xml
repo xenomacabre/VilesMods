@@ -4,7 +4,7 @@
 		<defName>BuildMagneticMaterial</defName>
 		<label>Synthesize piezoelectric material x5</label>
 		<description>Synthesize material which can accumulate extreme electrical charge. Produces 5.</description>
-		<jobString>Synthesizing magnetic material.</jobString>
+		<jobString>Synthesizing piezoelectric material.</jobString>
 		<workAmount>2400</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>
@@ -32,10 +32,10 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Quartz</li>
+						<li>GlassBatch</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>150</count>
 			</li>
 		</ingredients>
 		<products>
@@ -44,7 +44,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Zinc</li>
-				<li>Quartz</li>
+				<li>GlassBatch</li>
 				<li>NanotechFramework</li>
 			</thingDefs>
 		</fixedIngredientFilter>

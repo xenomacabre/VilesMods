@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Minerals</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+
+	<!-- Sphalerite-->
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="MineableSilver"]/building/mineableScatterCommonality</xpath>
+				<value>
+					<mineableScatterCommonality>0.75</mineableScatterCommonality>
+				</value>
+			</li>
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

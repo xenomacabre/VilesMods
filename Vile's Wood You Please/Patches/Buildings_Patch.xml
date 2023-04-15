@@ -11,4 +11,47 @@
 		</value>
     </Operation>
 
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Basket"]/stuffCategories</xpath>
+		<value>
+			<stuffCategories>
+				<li>Kindlingstuff</li>
+			</stuffCategories>
+		</value>
+    </Operation>
+
+<!--BedRestEffectiveness Settings-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "HayBed"]/stuffCategories</xpath>
+		<value>
+			<stuffCategories>
+				<li>WoodLogs</li>
+				<li>Woody</li>
+			</stuffCategories>
+			</value>
+	</Operation>
+
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>[JPT] Soft Warm Beds HSK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName = "HayBed"]/statBases/BedRestEffectiveness</xpath>
+					<value>
+						<BedRestEffectiveness>0.55</BedRestEffectiveness>
+					</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			  <xpath>Defs/ThingDef[defName="HayBed"]/statBases/ImmunityGainSpeedFactor</xpath>
+			  <value>
+				<ImmunityGainSpeedFactor>0.25</ImmunityGainSpeedFactor>
+			  </value>
+			</li>
+		</operations>
+	</match>
+ </Operation>
 </Patch>

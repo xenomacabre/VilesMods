@@ -29,6 +29,7 @@
 			<WorkToBuild>900</WorkToBuild>
 			<Flammability>0</Flammability>
 			<WorkTableWorkSpeedFactor>0.75</WorkTableWorkSpeedFactor>
+			<OutdoorWorkRateFactor>0.7</OutdoorWorkRateFactor>
 		</statBases>
 		<altitudeLayer>FloorEmplacement</altitudeLayer>
 		<size>(1,1)</size>
@@ -90,6 +91,9 @@
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
+			<buildingTags>
+                <li>NoOutdoorPenaltyUnderRoof</li>
+            </buildingTags>
 		</building>
 	</ThingDef>
 	<!-- ==== BLOOMERY ==== -->
@@ -131,6 +135,7 @@
 			<Flammability>0</Flammability>
 			<Cleanliness>-8</Cleanliness>
 			<Mass>200</Mass>
+			<OutdoorWorkRateFactor>0.8</OutdoorWorkRateFactor>
 		</statBases>
 		<pathCost>30</pathCost>
 		<size>(2,2)</size>
@@ -139,6 +144,9 @@
 		<fillPercent>0.7</fillPercent>
 		<building>
 			<uninstallWork>1450</uninstallWork>
+			<buildingTags>
+                <li>NoOutdoorPenaltyUnderRoof</li>
+            </buildingTags>
 		</building>
 		<recipes>
 			<li>MakeIronBloom_Bloomery</li>
@@ -235,6 +243,7 @@
 			<Cleanliness>-8</Cleanliness>
 			<Mass>1000</Mass>
 			<WorkTableWorkSpeedFactor>0.9</WorkTableWorkSpeedFactor>
+			<OutdoorWorkRateFactor>0.9</OutdoorWorkRateFactor>
 		</statBases>
 		<pathCost>90</pathCost>
 		<size>(5,4)</size>
@@ -244,6 +253,9 @@
 		<building>
 			<uninstallWork>1450</uninstallWork>
 			<!--<wantsHopperAdjacent>true</wantsHopperAdjacent>-->
+			<buildingTags>
+                <li>NoOutdoorPenaltyUnderRoof</li>
+            </buildingTags>
 		</building>
 		<recipes>
 			<li>MakePigIron_Furnace</li>
@@ -305,7 +317,7 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 	</ThingDef>
-	
+
 	<!-- ==== SMITHY FORGE ==== -->
 	<ThingDef ParentName="WorkTableFueled">
 		<defName>FueledSmithy</defName>
@@ -346,20 +358,24 @@
 		</thingCategories>
 		<statBases>
 			<WorkToBuild>1700</WorkToBuild>
-			<MaxHitPoints>250</MaxHitPoints>
-			<Flammability>1.0</Flammability>
-			<Cleanliness>-12</Cleanliness>
-			<Mass>1000</Mass>
-			<WorkTableWorkSpeedFactor>0.95</WorkTableWorkSpeedFactor>
+            <MaxHitPoints>250</MaxHitPoints>
+            <Flammability>1.0</Flammability>
+            <Cleanliness>-12</Cleanliness>
+            <Mass>1000</Mass>
+            <WorkTableWorkSpeedFactor>0.95</WorkTableWorkSpeedFactor>
+            <OutdoorWorkRateFactor>0.8</OutdoorWorkRateFactor>
 		</statBases>
 		<pathCost>90</pathCost>
 		<size>(3,3)</size>
 		<designationCategory>Production</designationCategory>
 		<interactionCellOffset>(0,0,2)</interactionCellOffset>
 		<fillPercent>0.85</fillPercent>
-		<building>
-			<uninstallWork>1450</uninstallWork>
-		</building>
+		 <building>
+            <uninstallWork>1450</uninstallWork>
+            <buildingTags>
+                <li>NoOutdoorPenaltyUnderRoof</li>
+            </buildingTags>
+        </building>
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
@@ -458,6 +474,7 @@
 			<Cleanliness>-12</Cleanliness>
 			<Mass>1000</Mass>
 			<WorkTableWorkSpeedFactor>0.65</WorkTableWorkSpeedFactor>
+			<OutdoorWorkRateFactor>0.55</OutdoorWorkRateFactor>
 		</statBases>
 		<pathCost>90</pathCost>
 		<size>(6,3)</size>
@@ -467,6 +484,9 @@
 		<building>
 			<uninstallWork>1450</uninstallWork>
 		  <!-- <wantsHopperAdjacent>true</wantsHopperAdjacent>-->
+		  <buildingTags>
+                <li>NoOutdoorPenaltyUnderRoof</li>
+            </buildingTags>
 		</building>
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">
@@ -581,6 +601,7 @@
 			<Cleanliness>-12</Cleanliness>
 			<Mass>1000</Mass>
 			<WorkTableWorkSpeedFactor>0.95</WorkTableWorkSpeedFactor>
+			<OutdoorWorkRateFactor>0.95</OutdoorWorkRateFactor>
 		</statBases>
 		<pathCost>90</pathCost>
 		<size>(8,3)</size>
@@ -590,6 +611,9 @@
 		<building>
 			<uninstallWork>1450</uninstallWork>
 			<wantsHopperAdjacent>true</wantsHopperAdjacent>
+			<buildingTags>
+                <li>NoOutdoorPenaltyUnderRoof</li>
+            </buildingTags>
 		</building>
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">
@@ -750,7 +774,7 @@
 		<costList>
 			<ComponentIndustrial>6</ComponentIndustrial>
 			<Mechanism>2</Mechanism>
-			<Charcoal>100</Charcoal>
+			<Charcoal>50</Charcoal>
 		</costList>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<statBases>
@@ -839,6 +863,7 @@
 			<Flammability>1.0</Flammability>
 			<Mass>200</Mass>
 			<WorkTableWorkSpeedFactor>0.75</WorkTableWorkSpeedFactor>
+			<OutdoorWorkRateFactor>0.65</OutdoorWorkRateFactor>
 		</statBases>
 		<size>(2,2)</size>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -855,6 +880,9 @@
 		<designationCategory>Production</designationCategory>
 		<building>
 			<uninstallWork>750</uninstallWork>
+			<buildingTags>
+                <li>NoOutdoorPenaltyUnderRoof</li>
+            </buildingTags>
 		</building>
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">

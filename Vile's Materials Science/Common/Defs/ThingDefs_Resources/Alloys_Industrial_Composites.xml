@@ -29,7 +29,7 @@ High-density polyethylene is one of the three main commodity plastics. It can be
 			<StuffPower_Armor_Heat>0.095</StuffPower_Armor_Heat>
 			<StuffPower_Insulation_Cold>6</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
-			<SharpDamageMultiplier>0.75</SharpDamageMultiplier>
+			<SharpDamageMultiplier>0.6</SharpDamageMultiplier>
 			<BluntDamageMultiplier>1</BluntDamageMultiplier>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>0</Flammability>
@@ -64,13 +64,13 @@ High-density polyethylene is one of the three main commodity plastics. It can be
 				<WorkToMake>0.9</WorkToMake>
 				<WorkToBuild>0.9</WorkToBuild>
 				<DoorOpenSpeed>1.4</DoorOpenSpeed>
-				<MeleeWeapon_CooldownMultiplier>0.6</MeleeWeapon_CooldownMultiplier>
+				<MeleeWeapon_CooldownMultiplier>0.7</MeleeWeapon_CooldownMultiplier>
 				<MoveSpeed>0.8</MoveSpeed>
 				<MarketValue>0.75</MarketValue>
 				<BedRestEffectiveness>1.2</BedRestEffectiveness>
 				<ImmunityGainSpeedFactor>1.25</ImmunityGainSpeedFactor>
 				<WorkTableWorkSpeedFactor>1.05</WorkTableWorkSpeedFactor>
-				<MeleePenetrationFactor>0.8</MeleePenetrationFactor>
+				<MeleePenetrationFactor>0.6</MeleePenetrationFactor>
 				<Mass>0.42</Mass>
 				<Cleanliness>1.5</Cleanliness>
 				<EquipDelay>0.5</EquipDelay>
@@ -83,12 +83,12 @@ High-density polyethylene is one of the three main commodity plastics. It can be
                     <TreeFellingSpeed>0.8</TreeFellingSpeed>
 					<PlantHarvestingSpeed>0.8</PlantHarvestingSpeed>
 					<PlantSowingSpeed>0.8</PlantSowingSpeed>
-					<DiggingSpeed>0.8</DiggingSpeed>
+					<MiningSpeed>0.8</MiningSpeed>
 					<MiningYieldDigging>0.8</MiningYieldDigging>
 					<ConstructionSpeed>0.8</ConstructionSpeed>
 					<SmithingSpeed>0.8</SmithingSpeed>
 					<CookSpeed>0.8</CookSpeed>
-					<ButcheryFleshSpeed>0.8</ButcheryFleshSpeed>
+					<ButcheryFleshSpeed>0.6</ButcheryFleshSpeed>
                 </toolStatFactors>
             </li>
 		</modExtensions>
@@ -117,7 +117,7 @@ PP is one of the three main commodity plastics. It can be used for many practica
 			<StuffPower_Armor_Heat>0.095</StuffPower_Armor_Heat>
 			<StuffPower_Insulation_Cold>6</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
-			<SharpDamageMultiplier>0.75</SharpDamageMultiplier>
+			<SharpDamageMultiplier>0.6</SharpDamageMultiplier>
 			<BluntDamageMultiplier>1</BluntDamageMultiplier>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>0</Flammability>
@@ -139,13 +139,13 @@ PP is one of the three main commodity plastics. It can be used for many practica
 				<WorkToMake>0.9</WorkToMake>
 				<WorkToBuild>0.9</WorkToBuild>
 				<DoorOpenSpeed>1.4</DoorOpenSpeed>
-				<MeleeWeapon_CooldownMultiplier>0.6</MeleeWeapon_CooldownMultiplier>
+				<MeleeWeapon_CooldownMultiplier>0.7</MeleeWeapon_CooldownMultiplier>
 				<MoveSpeed>0.8</MoveSpeed>
 				<MarketValue>0.75</MarketValue>
 				<BedRestEffectiveness>1.2</BedRestEffectiveness>
 				<ImmunityGainSpeedFactor>1.15</ImmunityGainSpeedFactor>
 				<WorkTableWorkSpeedFactor>1.05</WorkTableWorkSpeedFactor>
-				<MeleePenetrationFactor>0.8</MeleePenetrationFactor>
+				<MeleePenetrationFactor>0.6</MeleePenetrationFactor>
 				<Mass>0.55</Mass>
 				<Cleanliness>1.25</Cleanliness>
 				<EquipDelay>0.5</EquipDelay>
@@ -176,7 +176,7 @@ Polyvinyl chloride is one of the three main commodity plastics. It can be used f
 			<StuffPower_Armor_Heat>0.095</StuffPower_Armor_Heat>
 			<StuffPower_Insulation_Cold>6</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
-			<SharpDamageMultiplier>0.75</SharpDamageMultiplier>
+			<SharpDamageMultiplier>0.6</SharpDamageMultiplier>
 			<BluntDamageMultiplier>1</BluntDamageMultiplier>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>0</Flammability>
@@ -193,13 +193,13 @@ Polyvinyl chloride is one of the three main commodity plastics. It can be used f
 				<WorkToMake>0.9</WorkToMake>
 				<WorkToBuild>0.8</WorkToBuild>
 				<DoorOpenSpeed>1.4</DoorOpenSpeed>
-				<MeleeWeapon_CooldownMultiplier>0.6</MeleeWeapon_CooldownMultiplier>
+				<MeleeWeapon_CooldownMultiplier>0.7</MeleeWeapon_CooldownMultiplier>
 				<MoveSpeed>0.8</MoveSpeed>
 				<MarketValue>0.75</MarketValue>
 				<BedRestEffectiveness>1.2</BedRestEffectiveness>
 				<ImmunityGainSpeedFactor>0.95</ImmunityGainSpeedFactor>
 				<WorkTableWorkSpeedFactor>1.1</WorkTableWorkSpeedFactor>
-				<MeleePenetrationFactor>0.8</MeleePenetrationFactor>
+				<MeleePenetrationFactor>0.6</MeleePenetrationFactor>
 				<Mass>0.58</Mass>
 				<Cleanliness>0.9</Cleanliness>
 				<EquipDelay>0.5</EquipDelay>
@@ -235,7 +235,7 @@ Plexiglass is transparent Polymethyl methacrylate, or acrylic glass. It's strong
 			<StuffPower_Armor_Heat>0.095</StuffPower_Armor_Heat>
 			<StuffPower_Insulation_Cold>6</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
-			<SharpDamageMultiplier>0.75</SharpDamageMultiplier>
+			<SharpDamageMultiplier>0.6</SharpDamageMultiplier>
 			<BluntDamageMultiplier>1</BluntDamageMultiplier>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>0</Flammability>
@@ -273,13 +273,13 @@ Plexiglass is transparent Polymethyl methacrylate, or acrylic glass. It's strong
 				<WorkToMake>0.9</WorkToMake>
 				<WorkToBuild>0.9</WorkToBuild>
 				<DoorOpenSpeed>1.4</DoorOpenSpeed>
-				<MeleeWeapon_CooldownMultiplier>0.6</MeleeWeapon_CooldownMultiplier>
+				<MeleeWeapon_CooldownMultiplier>0.7</MeleeWeapon_CooldownMultiplier>
 				<MoveSpeed>0.8</MoveSpeed>
 				<MarketValue>0.75</MarketValue>
 				<BedRestEffectiveness>1.2</BedRestEffectiveness>
 				<ImmunityGainSpeedFactor>1.05</ImmunityGainSpeedFactor>
 				<WorkTableWorkSpeedFactor>1.05</WorkTableWorkSpeedFactor>
-				<MeleePenetrationFactor>0.8</MeleePenetrationFactor>
+				<MeleePenetrationFactor>0.6</MeleePenetrationFactor>
 				<Mass>0.5</Mass>
 				<Cleanliness>1.15</Cleanliness>
 				<EquipDelay>0.5</EquipDelay>
@@ -292,7 +292,7 @@ Plexiglass is transparent Polymethyl methacrylate, or acrylic glass. It's strong
                     <TreeFellingSpeed>0.9</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.05</PlantHarvestingSpeed>
 					<PlantSowingSpeed>1</PlantSowingSpeed>
-					<DiggingSpeed>0.9</DiggingSpeed>
+					<MiningSpeed>0.9</MiningSpeed>
 					<MiningYieldDigging>0.9</MiningYieldDigging>
 					<ConstructionSpeed>0.9</ConstructionSpeed>
 					<SmithingSpeed>0.9</SmithingSpeed>
@@ -331,7 +331,7 @@ Riding the line between a commodity and engineering plastic, Acrylonitrile-butad
 			<StuffPower_Armor_Heat>0.09</StuffPower_Armor_Heat>
 			<StuffPower_Insulation_Cold>5</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
-			<SharpDamageMultiplier>0.95</SharpDamageMultiplier>
+			<SharpDamageMultiplier>0.8</SharpDamageMultiplier>
 			<BluntDamageMultiplier>1.15</BluntDamageMultiplier>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>0</Flammability>
@@ -367,7 +367,7 @@ Riding the line between a commodity and engineering plastic, Acrylonitrile-butad
 				<WorkToMake>0.85</WorkToMake>
 				<WorkToBuild>0.75</WorkToBuild>
 				<DoorOpenSpeed>1.4</DoorOpenSpeed>
-				<MeleeWeapon_CooldownMultiplier>0.6</MeleeWeapon_CooldownMultiplier>
+				<MeleeWeapon_CooldownMultiplier>0.7</MeleeWeapon_CooldownMultiplier>
 				<MoveSpeed>0.8</MoveSpeed>
 				<MarketValue>0.75</MarketValue>
 				<BedRestEffectiveness>1</BedRestEffectiveness>
@@ -386,7 +386,7 @@ Riding the line between a commodity and engineering plastic, Acrylonitrile-butad
                     <TreeFellingSpeed>0.9</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.05</PlantHarvestingSpeed>
 					<PlantSowingSpeed>1</PlantSowingSpeed>
-					<DiggingSpeed>0.9</DiggingSpeed>
+					<MiningSpeed>0.9</MiningSpeed>
 					<MiningYieldDigging>0.9</MiningYieldDigging>
 					<ConstructionSpeed>0.9</ConstructionSpeed>
 					<SmithingSpeed>0.9</SmithingSpeed>
@@ -425,7 +425,7 @@ Polycarbonate is a clear plastic which is often used for bulletproof glass and r
 			<StuffPower_Armor_Heat>0.11</StuffPower_Armor_Heat>
 			<StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>5</StuffPower_Insulation_Heat>
-			<SharpDamageMultiplier>1</SharpDamageMultiplier>
+			<SharpDamageMultiplier>0.9</SharpDamageMultiplier>
 			<BluntDamageMultiplier>1.4</BluntDamageMultiplier>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>0</Flammability>
@@ -464,7 +464,7 @@ Polycarbonate is a clear plastic which is often used for bulletproof glass and r
 				<WorkToMake>1.4</WorkToMake>
 				<WorkToBuild>1.4</WorkToBuild>
 				<DoorOpenSpeed>1.4</DoorOpenSpeed>
-				<MeleeWeapon_CooldownMultiplier>0.6</MeleeWeapon_CooldownMultiplier>
+				<MeleeWeapon_CooldownMultiplier>0.7</MeleeWeapon_CooldownMultiplier>
 				<MoveSpeed>0.8</MoveSpeed>
 				<MarketValue>0.8</MarketValue>
 				<BedRestEffectiveness>1.05</BedRestEffectiveness>
@@ -484,7 +484,7 @@ Polycarbonate is a clear plastic which is often used for bulletproof glass and r
                     <TreeFellingSpeed>1</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1</PlantHarvestingSpeed>
 					<PlantSowingSpeed>0.8</PlantSowingSpeed>
-					<DiggingSpeed>0.7</DiggingSpeed>
+					<MiningSpeed>0.7</MiningSpeed>
 					<MiningYieldDigging>0.8</MiningYieldDigging>
 					<ConstructionSpeed>1.1</ConstructionSpeed>
 					<SmithingSpeed>1.1</SmithingSpeed>
@@ -524,7 +524,7 @@ Glass-fiber reinforced plastic is a composite material of glass fibers set into 
 			<StuffPower_Armor_Heat>0.16</StuffPower_Armor_Heat>
 			<StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>70</StuffPower_Insulation_Heat>
-			<SharpDamageMultiplier>1</SharpDamageMultiplier>
+			<SharpDamageMultiplier>0.7</SharpDamageMultiplier>
 			<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>0</Flammability>
@@ -560,7 +560,7 @@ Glass-fiber reinforced plastic is a composite material of glass fibers set into 
 				<WorkToMake>1.2</WorkToMake>
 				<WorkToBuild>1.2</WorkToBuild>
 				<DoorOpenSpeed>1.2</DoorOpenSpeed>
-				<MeleeWeapon_CooldownMultiplier>0.7</MeleeWeapon_CooldownMultiplier>
+				<MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
 				<MoveSpeed>0.8</MoveSpeed>
 				<MarketValue>0.8</MarketValue>
 				<BedRestEffectiveness>1.1</BedRestEffectiveness>
@@ -579,7 +579,7 @@ Glass-fiber reinforced plastic is a composite material of glass fibers set into 
                     <TreeFellingSpeed>1.1</TreeFellingSpeed>
 					<PlantHarvestingSpeed>0.9</PlantHarvestingSpeed>
 					<PlantSowingSpeed>0.9</PlantSowingSpeed>
-					<DiggingSpeed>1</DiggingSpeed>
+					<MiningSpeed>1</MiningSpeed>
 					<MiningYieldDigging>1</MiningYieldDigging>
 					<ConstructionSpeed>0.95</ConstructionSpeed>
 					<SmithingSpeed>0.95</SmithingSpeed>

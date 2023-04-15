@@ -20,7 +20,7 @@
 						<li>Charcoal</li>
 					</thingDefs>
 				</filter>
-				<count>20</count>
+				<count>10</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -102,7 +102,7 @@
 	
 <RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>charcoal_process</defName>
-		<label>make charcoal from wood (x20)</label>
+		<label>make charcoal from wood (x10)</label>
 		<description>Make charcoal from wood logs. Takes 12 hours.</description>
 		<ingredients>
 			<li>
@@ -122,7 +122,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<Charcoal>20</Charcoal>
+			<Charcoal>10</Charcoal>
 		</products>
 		<usesTemperature>false</usesTemperature>
 		<processDays>0.5</processDays>
@@ -133,7 +133,7 @@
 	
 <RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>charcoalKindling_process</defName>
-		<label>make charcoal from kindling (x20)</label>
+		<label>make charcoal from kindling (x10)</label>
 		<description>Make charcoal from kindling. A bit faster than processing from logs. Takes 9 hours.</description>
 		<ingredients>
 			<li>
@@ -151,7 +151,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Charcoal>20</Charcoal>
+			<Charcoal>10</Charcoal>
 		</products>
 		<usesTemperature>false</usesTemperature>
 		<processDays>0.375</processDays>

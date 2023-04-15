@@ -251,7 +251,7 @@
 	<processDays>60</processDays>
 	<graphicSuffix>_filled</graphicSuffix>
 </RecipeDef>
-<RecipeDef ParentName="SeasonFirewoodBase" Class="UniversalFermenterSK.RecipeDef_UF">
+<RecipeDef ParentName="SeasonFirewoodBase" Class="UniversalFermenterSK.RecipeDef_UF" MayRequire="xenomacabre.hskbiomes">
 	<defName>SeasonFirewood_Acacia</defName>
 	<label>season acacia</label>
 	<description>Burns 40% more efficiently. Takes 45 days to season.</description>

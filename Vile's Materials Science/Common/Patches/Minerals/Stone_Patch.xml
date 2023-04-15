@@ -17,7 +17,7 @@
                                 <TreeFellingSpeed>0.85</TreeFellingSpeed>
                                 <PlantHarvestingSpeed>0.85</PlantHarvestingSpeed>
                                 <PlantSowingSpeed>0.85</PlantSowingSpeed>
-                                <DiggingSpeed>0.85</DiggingSpeed>
+                                <MiningSpeed>0.85</MiningSpeed>
                                 <MiningYieldDigging>0.9</MiningYieldDigging>
                                 <ConstructionSpeed>0.775</ConstructionSpeed>
                                 <SmithingSpeed>0.775</SmithingSpeed>

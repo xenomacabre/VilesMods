@@ -55,6 +55,7 @@ Efficiency: 22%</description>
 			<li>
 				<compClass>CompGatherSpot</compClass>
 			</li>
+			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Glower">
 				<glowRadius>8</glowRadius>
 				<glowColor>(255,202,124,0)</glowColor>
@@ -211,6 +212,7 @@ Efficiency: 25%</description>
 					<li>ClutterUWallLight</li>
 				</thingDefs>
 			</li>-->
+			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Glower">
 				<glowRadius>8</glowRadius>
 				<glowColor>(255,202,124,0)</glowColor>

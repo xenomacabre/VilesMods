@@ -32,6 +32,7 @@ Montane Forest (a boreal forest variation, less dense, may contain lakes)
 Montane Birch Grasslands (a cold grassland)
 Adds back Cloudberries, and a new flower, bluebells.
 
+
 Uses Odeum's Biomes Kit (details below) 
 
 BiomesKit is a framework for the placement of biomes on the world map at worldgen. Previously, modders needed to utilize C# to add new biomes to rimworld. With BiomesKit, placement of a biome can be controlled with XML tags in the BiomeDef itself.

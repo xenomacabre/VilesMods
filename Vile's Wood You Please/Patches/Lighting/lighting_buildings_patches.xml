@@ -271,11 +271,11 @@ Efficiency: 30%</description>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="BowlLamp"]/description</xpath> 
 				<value>
-					<description>A bowl filled with lit fuel mounted on a pole. Historically used as a beacon, it burns through a lot of fuel.
+					<description>A bowl filled with lit fuel mounted on a pole. Historically used as a beacon, it burns through a lot of fuel. Can be quickly moved around where needed.
 Light radius: 10
 Max heat: 30
 Capacity: 20
-Efficiency: 15%</description>
+Efficiency: 25%</description>
 				</value>
 			</li>
 				<li Class="PatchOperationReplace">
@@ -294,8 +294,8 @@ Efficiency: 15%</description>
 						<fireDrawScale>0.4</fireDrawScale>
 						<fuelDrawOffset>(0,0.1,-0.2)</fuelDrawOffset>
 						<fuelDrawScale>0.8</fuelDrawScale> -->
-						<fuelCapacity>15</fuelCapacity>
-						<burnFuelMultiplier>1.5</burnFuelMultiplier>
+						<fuelCapacity>20</fuelCapacity>
+						<burnFuelMultiplier>2.5</burnFuelMultiplier>
 						<canAutoBurn>true</canAutoBurn>
 						<smokeEnabled>false</smokeEnabled>
 						<effectOnWeather>true</effectOnWeather>
@@ -354,6 +354,13 @@ Efficiency: 15%</description>
 					</li>
 				</value>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="BowlLamp"]/building/uninstallWork</xpath> 
+				<value>
+					<uninstallWork>10</uninstallWork>
+				</value>
+			</li>
+			
 
 			<!-- CANDLE -->
 			<li Class="PatchOperationReplace">
