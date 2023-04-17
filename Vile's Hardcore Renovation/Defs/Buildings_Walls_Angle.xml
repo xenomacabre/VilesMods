@@ -23,6 +23,7 @@
 			<allowFlip>true</allowFlip>
 		</graphicData>
         <uiIconPath>Things/Building/DiagonalWall_ui</uiIconPath>
+		<passability>Impassable</passability>
 		<fillPercent>0</fillPercent>
 		<statBases>
 			<MaxHitPoints>380</MaxHitPoints>
@@ -69,6 +70,7 @@
 			<allowFlip>true</allowFlip>
 		</graphicData>
         <uiIconPath>Things/Building/DiagonalWallCabin_ui</uiIconPath>
+		<passability>Impassable</passability>
 		<fillPercent>0</fillPercent>
 		<statBases>
 			<MaxHitPoints>400</MaxHitPoints>
@@ -115,6 +117,7 @@
 			<allowFlip>true</allowFlip>
 		</graphicData>
         <uiIconPath>Things/Building/DiagonalWall2_ui</uiIconPath>
+		<passability>Impassable</passability>
 		<fillPercent>0</fillPercent>
 		<statBases>
 			<MaxHitPoints>380</MaxHitPoints>
@@ -161,6 +164,7 @@
 			<allowFlip>true</allowFlip>
 		</graphicData>
         <uiIconPath>Things/Building/DiagonalWallCabin2_ui</uiIconPath>
+		<passability>Impassable</passability>
 		<fillPercent>0</fillPercent>
 		<statBases>
 			<MaxHitPoints>400</MaxHitPoints>
