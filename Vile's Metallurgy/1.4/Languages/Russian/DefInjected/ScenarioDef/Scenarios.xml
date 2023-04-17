@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TheGuildmasters.label>Гильдия средневековых рабочих</TheGuildmasters.label>
+  <TheGuildmasters.description>Торговые пути исчезли, а ресурсы иссякли, поэтому небольшая гильдия торговых рабочих отправляется строить новый дом.</TheGuildmasters.description>
+  <TheGuildmasters.scenario.name>Гильдия средневековых рабочих</TheGuildmasters.scenario.name>
+  <TheGuildmasters.scenario.summary>Гильдия торговых рабочих строят новый дом.</TheGuildmasters.scenario.summary>
+  <TheGuildmasters.scenario.description>Торговые пути исчезли, а ресурсы иссякли, поэтому небольшая гильдия торговых рабочих отправляется строить новый дом.</TheGuildmasters.scenario.description>
+  <TheGuildmasters.scenario.parts.0.text>Торговые пути исчезли, а ресурсы иссякли, поэтому небольшая гильдия торговых рабочих отправляется строить новый дом.</TheGuildmasters.scenario.parts.0.text>
+
+
+</LanguageData>

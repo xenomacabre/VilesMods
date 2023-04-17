@@ -440,9 +440,9 @@
 	</RecipeDef>
 
 <RecipeDef>
-		<defName>MakeTurbineBlades</defName>
+		<defName>Make_turbineBlade</defName>
 		<label>Assemble Turbine Blades x10</label>
-		<description>Used to construct turbine generators. Must be made of materials that can withstand extreme conditions.</description>
+		<description>Used to construct turbine generators. Must be made using superalloys that can withstand extreme conditions.</description>
 		<jobString>Assembling turbine blades.</jobString>
 		<workAmount>900</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
@@ -455,25 +455,20 @@
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Nimonic</li>
-                        <li>Pyromet</li>
-                        <li>StelliteAlloy</li>
-					</thingDefs>
+					<categories>
+						<li>SuperBar</li>
+					</categories>
 				</filter>
 				<count>50</count>
 			</li>
-			
 		</ingredients>
 		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Nimonic</li>
-                <li>Pyromet</li>
-                <li>StelliteAlloy</li>
-			</thingDefs>
+			<categories>
+				<li>SuperBar</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<TurbineBlade_Vile>10</TurbineBlade_Vile>
+			<turbineBlade>10</turbineBlade>
 		</products>
 		<skillRequirements>
 			<Crafting>13</Crafting>

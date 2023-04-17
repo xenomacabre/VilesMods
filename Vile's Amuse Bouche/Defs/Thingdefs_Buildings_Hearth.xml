@@ -137,6 +137,8 @@ Efficiency: 22%</description>
 			<li>CookRoastedMeat</li>
 			<li>CookMeatSoup</li>
 			<li>Make_Pemmican</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Make_BabyFood</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Make_BabyFoodBulk</li>
 		</recipes>
 		<building>
 			<isMealSource>true</isMealSource>
@@ -290,6 +292,8 @@ Efficiency: 25%</description>
 			<li>CookRoastedMeat</li>
 			<li>CookMeatSoup</li>
 			<li>Make_Pemmican</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Make_BabyFood</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Make_BabyFoodBulk</li>
 		</recipes>
 		<building>
 			<isMealSource>true</isMealSource>

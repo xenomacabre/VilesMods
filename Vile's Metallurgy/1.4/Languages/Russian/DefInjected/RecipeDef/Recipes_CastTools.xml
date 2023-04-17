@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Cast_Handaxe.label>Сделать топор</Cast_Handaxe.label>
+  <Cast_Handaxe.description>Сделать топор из металла.</Cast_Handaxe.description>
+  <Cast_Handaxe.jobString>Делаю топор из металла.</Cast_Handaxe.jobString>
+
+  <Cast_Pickaxe.label>Сделать кирку</Cast_Pickaxe.label>
+  <Cast_Pickaxe.description>Сделать кирку из металла.</Cast_Pickaxe.description>
+  <Cast_Pickaxe.jobString>Делаю кирку из металла.</Cast_Pickaxe.jobString>
+
+  <Cast_Hammer.label>Сделать молоток</Cast_Hammer.label>
+  <Cast_Hammer.description>Сделать молоток из металла.</Cast_Hammer.description>
+  <Cast_Hammer.jobString>Делаю молоток из металла.</Cast_Hammer.jobString>
+
+  <Cast_Sickle.label>Сделать серп</Cast_Sickle.label>
+  <Cast_Sickle.description>Сделать серп из металла.</Cast_Sickle.description>
+  <Cast_Sickle.jobString>Делаю серп из металла.</Cast_Sickle.jobString>
+
+  <Cast_Hoe.label>Сделать мотыгу</Cast_Hoe.label>
+  <Cast_Hoe.description>Сделать мотыгу из металла.</Cast_Hoe.description>
+  <Cast_Hoe.jobString>Делаю мотыгу из металла.</Cast_Hoe.jobString>
+
+
+</LanguageData>

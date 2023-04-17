@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- SMELT iron bloom at bloomery -->
+
+  <MakeIronBloom_Bloomery.label>Сплавить цветение</MakeIronBloom_Bloomery.label>
+  <MakeIronBloom_Bloomery.description>Выплавьте губчатое железное цветение из железной руды и угля/древесного угля. Примитивный и неэффективный метод. Производит 1 цветение</MakeIronBloom_Bloomery.description>
+  <MakeIronBloom_Bloomery.jobString>Выплавляю железное цветение.</MakeIronBloom_Bloomery.jobString>
+
+
+  <!-- SMELT Pig Iron -->
+
+  <MakePigIron_Furnace.label>Выплавка чугуна (x100)</MakePigIron_Furnace.label>
+  <MakePigIron_Furnace.description>Выплавляет большие слитки чугуна (непереработанный высокоуглеродистый чугун). Не так много шлака как в примитивном чугуне, но его все равно нужно декарбонизировать, чтобы получить полезное кованое железо, либо путем ковки на кузне, либо в специальной печи. Это намного эффективнее, доменная печь, но поскольку требуется много времени, чтобы раскалить огонь до достаточно высокой температуры, это лучше делать большими партиями.</MakePigIron_Furnace.description>
+  <MakePigIron_Furnace.jobString>Выплавляю чугун.</MakePigIron_Furnace.jobString>
+
+
+  <!-- blast furnace recipe users in building def -->
+
+  <MakeBronze_Hand.label>Выплавить бронзовый сплав (x25)</MakeBronze_Hand.label>
+  <MakeBronze_Hand.description>Выплавить бронзовый сплав из медной руды и других металлов. Производит 30.</MakeBronze_Hand.description>
+  <MakeBronze_Hand.jobString>Выплавляю бронзу.</MakeBronze_Hand.jobString>
+
+
+  <!-- SMELT Copper -->
+
+  <MakeCopperBars_Hand.label>Выплавить медный сплав (x10)</MakeCopperBars_Hand.label>
+  <MakeCopperBars_Hand.description>Выплавить медный слиток из медной руды. Производит 10.</MakeCopperBars_Hand.description>
+  <MakeCopperBars_Hand.jobString>Выплавляю медь.</MakeCopperBars_Hand.jobString>
+
+
+  <!-- SMELT TIN -->
+
+  <MakeTinBars_Hand.label>Выплавить оловянный сплав (x10)</MakeTinBars_Hand.label>
+  <MakeTinBars_Hand.description>Выплавить оловянный сплав из оловянной руды. В основном используется как ингредиент в других сплавах. Производит 10</MakeTinBars_Hand.description>
+  <MakeTinBars_Hand.jobString>Выплавляю олово.</MakeTinBars_Hand.jobString>
+
+
+  <!-- SMELT lead -->
+
+  <MakeLeadBars_Hand.label>Выплавить свинцовый сплав (x10)</MakeLeadBars_Hand.label>
+  <MakeLeadBars_Hand.description>Выплавить свинцовый сплав из англезитовой руды. Производит 15.</MakeLeadBars_Hand.description>
+  <MakeLeadBars_Hand.jobString>Выплавляю свинец.</MakeLeadBars_Hand.jobString>
+
+
+  <!-- SMELT Sterling silver -->
+
+  <MakeSilverBars_Hand.label>Выплавить сплав стерлингового серебра</MakeSilverBars_Hand.label>
+  <MakeSilverBars_Hand.description>Выплавить Стерлинговое серебро, ценный сплав серебра с медью или бокситами. Производит 10.</MakeSilverBars_Hand.description>
+  <MakeSilverBars_Hand.jobString>Выплавляю стерлинговое серебро.</MakeSilverBars_Hand.jobString>
+
+
+  <!-- SMELT Yellow Gold -->
+
+  <MakeGoldBars_Hand.label>Выплавить золотой сплав</MakeGoldBars_Hand.label>
+  <MakeGoldBars_Hand.description>Выплавить золото, красивый, драгоценный сплав золота и меди/боксита. Производит 15.</MakeGoldBars_Hand.description>
+  <MakeGoldBars_Hand.jobString>Выплавить золотой сплав.</MakeGoldBars_Hand.jobString>
+
+
+</LanguageData>

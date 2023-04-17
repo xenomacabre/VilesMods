@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PlayerGuild.label>Гильдмастеры</PlayerGuild.label>
+  <PlayerGuild.description>Гильдия профессионалов торговли и их учеников.</PlayerGuild.description>
+  <PlayerGuild.pawnsPlural>trade workers</PlayerGuild.pawnsPlural>
+
+
+</LanguageData>

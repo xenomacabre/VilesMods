@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SubCategory_Processing.label>Обработка</SubCategory_Processing.label>
+  <SubCategory_Processing.description>Печи для длительной пирообработки. Это процесс, при котором материалы подвергаются воздействию высоких температур для того, чтобы вызвать химические или физические изменения. Пирообработка включает в себя такие термины, как обжиг руды, прокаливание и спекание.</SubCategory_Processing.description>
+
+  <SubCategory_Ceramics.label>Глазурованная керамика</SubCategory_Ceramics.label>
+  <SubCategory_Ceramics.description>Керамические горшки покрытые глазурью. Стекловидное покрытие на поверхности керамического изделия. Кроме того, глазурью также называют исходный материал или смесь материалов, которые после нанесения на керамическое изделие и обжига дают соответствующее покрытие.</SubCategory_Ceramics.description>
+
+  <SubCategory_Milling.label>Фрезерование (измельчение)</SubCategory_Milling.label>
+  <SubCategory_Milling.description>Измельчение и дробление вещей на мелкие кусочки.</SubCategory_Milling.description>
+
+
+</LanguageData>

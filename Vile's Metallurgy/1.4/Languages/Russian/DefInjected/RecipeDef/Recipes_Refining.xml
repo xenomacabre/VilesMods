@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- FORGE Wrought Iron from Bloom -->
+
+  <MakeWroughtIron_Forge.label>Выковать кованое железо из цветений x15</MakeWroughtIron_Forge.label>
+  <MakeWroughtIron_Forge.description>Убрать шлак из цветений с помощью молотка и перековать в полу-готовые изделия из кованого железа.</MakeWroughtIron_Forge.description>
+  <MakeWroughtIron_Forge.jobString>Изготавливаю кованое железо из цветений.</MakeWroughtIron_Forge.jobString>
+
+  <MakeWroughtIron_Finery.label>Выковать кованое железо из цветений x15</MakeWroughtIron_Finery.label>
+  <MakeWroughtIron_Finery.description>Убрать шлак из цветений с помощью отбойного молотка и перековать в полу-готовые изделия из кованого железа. Производит 15.</MakeWroughtIron_Finery.description>
+  <MakeWroughtIron_Finery.jobString>Изготавливаю кованое железо из цветений.</MakeWroughtIron_Finery.jobString>
+
+  <MakeForgeWeldedSteel_Smithy.label>Ковать кузнечную сталь сварочным способомx15</MakeForgeWeldedSteel_Smithy.label>
+  <MakeForgeWeldedSteel_Smithy.description>Многократно обжигать кованое железо на огне чтобы оно обуглилось, образуя прочный слиток с сотнями слоев мягкого железа и твердой стали. Производит 25.</MakeForgeWeldedSteel_Smithy.description>
+  <MakeForgeWeldedSteel_Smithy.jobString>Изготавливаю кузнечную сталь сварочным способом.</MakeForgeWeldedSteel_Smithy.jobString>
+
+  <MakeForgeWeldedSteel_Finery.label>Ковать кузнечную сталь сварочным способом x15</MakeForgeWeldedSteel_Finery.label>
+  <MakeForgeWeldedSteel_Finery.description>Обжигать кованое железо на огне, чтобы оно обуглилось, образуя прочный брус с сотнями слоев мягкого железа и твердой стали. Производит 20.</MakeForgeWeldedSteel_Finery.description>
+  <MakeForgeWeldedSteel_Finery.jobString>Изготавливаю сталь сварочным способом.</MakeForgeWeldedSteel_Finery.jobString>
+
+
+  <!-- FINERY Wrought Iron -->
+
+  <MakeWroughtIron_PigIron_Finery.label>Выковать кованое железо из чугуна x30</MakeWroughtIron_PigIron_Finery.label>
+  <MakeWroughtIron_PigIron_Finery.description>Убрать шлак из цветений с помощью молотка и перековать их в полу-законченные изделия из кованого железа. Производит 25.</MakeWroughtIron_PigIron_Finery.description>
+  <MakeWroughtIron_PigIron_Finery.jobString>Изготавливаю кованое железо из чугуна.</MakeWroughtIron_PigIron_Finery.jobString>
+
+
+  <!-- FORGE / FINERY Shear Steel -->
+
+  <MakeForgeWeldedSteel_BlisterSteel_Finery.label>Выковать чёрную сталь x30</MakeForgeWeldedSteel_BlisterSteel_Finery.label>
+  <MakeForgeWeldedSteel_BlisterSteel_Finery.description>Выковывание чёрной стали - это процесс создания металлической конструкции из чугуна или стали, используя технику ковки. Чёрная сталь получается из чугуна или стали, содержащих большое количество углерода. В процессе выковывания удаляется лишний углерод, что делает сталь более прочной и эластичной.
+
+Процесс начинается с подогрева металла до достаточно высокой температуры, при которой он становится пластичным и готовым к ковке. Затем металл ударяют молотом или прессуют, чтобы изменить его форму и размеры. В процессе ковки металл часто перекалывают, чтобы улучшить его свойства.
+
+Выковка металла происходит на наковальнях. Металлические заготовки помещаются на наковальню, где специальный молот их деформирует и изменяет форму. В зависимости от требуемой формы, заготовки могут поворачиваться и обрабатываться с разных сторон.
+
+После ковки металлические заготовки охлаждаются и обрабатываются, чтобы улучшить их качество. Этот процесс может включать в себя обрезку, шлифовку, прожигание и другие методы обработки металла.</MakeForgeWeldedSteel_BlisterSteel_Finery.description>
+  <MakeForgeWeldedSteel_BlisterSteel_Finery.jobString>Изготавливает чёрную сталь.</MakeForgeWeldedSteel_BlisterSteel_Finery.jobString>
+
+
+  <!-- REFINE Crucible Steel -->
+
+  <MakeCrucibleSteel.label>Сделать тигельную сталь x80</MakeCrucibleSteel.label>
+  <MakeCrucibleSteel.description>Черная сталь помещается в огнеупорный тигель на несколько часов на очень горячем огне, подогреваемом коксом. Она плавится и превращается в идеально однородный сплав высокоуглеродистой стали. Его изготовление - деликатный и трудоемкий процесс, но он не имеет себе равных среди низкотехнологичной стали. Требуется много кокса, чтобы достичь 1500 градусов. Производит 80.</MakeCrucibleSteel.description>
+  <MakeCrucibleSteel.jobString>Изготавливает тигельную сталь.</MakeCrucibleSteel.jobString>
+
+
+  <!-- CAST cast iron bars -->
+
+  <MakeCastIron.label>Сделать отливное литое железо x30</MakeCastIron.label>
+  <MakeCastIron.description>Переработать чугун в литое железо путем его расплавления и очищения. Производит 30.</MakeCastIron.description>
+  <MakeCastIron.jobString>Изготавливает отливное железо.</MakeCastIron.jobString>
+
+  <PuddleWroughtIronFromPigIron.label>Сделать кованое железо из чугуна x75</PuddleWroughtIronFromPigIron.label>
+  <PuddleWroughtIronFromPigIron.description>Грейте чугун или литое железо в очаге до тех пор, пока не расплавится. Перемешайте его, удалив тем самым содержание углерода и кислорода. Как только углерод покинет сплав, температура плавления повысится, и сплав больше не может оставаться жидким. Так вы узнаете, что процес завершён. Производит 75.</PuddleWroughtIronFromPigIron.description>
+  <PuddleWroughtIronFromPigIron.jobString>Изготавливает кованное железо.</PuddleWroughtIronFromPigIron.jobString>
+
+  <PuddleWroughtIronFromCastIron.label>Сделать кованое железо из отливного литого железа X100</PuddleWroughtIronFromCastIron.label>
+  <PuddleWroughtIronFromCastIron.description>Грейте чугун или литое железо в очаге до тех пор, пока не расплавится. Перемешайте его, удалив тем самым содержание углерода и кислорода. Как только углерод покинет сплав, температура плавления повысится, и сплав больше не может оставаться жидким. Так вы узнаете, что процес завершён. Производит 100.</PuddleWroughtIronFromCastIron.description>
+  <PuddleWroughtIronFromCastIron.jobString>Изготавливает кованое железо.</PuddleWroughtIronFromCastIron.jobString>
+
+  <MakeCokeElectric.label>Сделать коксовый уголь</MakeCokeElectric.label>
+  <MakeCokeElectric.description>Коксовый уголь - это твёрдое топливо, получаемое путём обработки каменного угля в отсутствии воздуха при высоких температурах. Производит 20.</MakeCokeElectric.description>
+  <MakeCokeElectric.jobString>Изготавливаю коксовый уголь.</MakeCokeElectric.jobString>
+
+
+</LanguageData>

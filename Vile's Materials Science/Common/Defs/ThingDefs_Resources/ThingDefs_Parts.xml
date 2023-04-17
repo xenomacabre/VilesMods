@@ -52,8 +52,8 @@
     
    <!--  <ThingDef ParentName="RimatomicResourceBase">-->
 <ThingDef ParentName="CropsBase">  
-    <defName>TurbineBlade_Vile</defName>
-    <label>Turbine Blades</label>
+    <defName>turbineBlade</defName>
+    <label>Turbine Blade</label>
     <description>Used to construct turbine generators.</description>
      <techLevel>Spacer</techLevel>
     <graphicData>

@@ -16,22 +16,20 @@
 					</costList>
 				</value>
 			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName="turbineBlade"]/costStuffCount</xpath>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="turbineBlade"]</xpath>
 				<value>
-					 <costList>
-					   <costStuffCount>40</costStuffCount>
-					</costList>
+					<costStuffCount>40</costStuffCount>
 				</value>
 			</li>
-			<li Class="PatchOperationReplace">
-                <xpath>Defs/RecipeDef[defName="turbineBlade"]/stuffCategories</xpath>
-                <value>
-                    <stuffCategories>
-                        <li>SolidMetallic</li> <!-- superalloys-->
-                    </stuffCategories>
-                </value>
-            </li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="turbineBlade"]</xpath>
+				<value>
+					<stuffCategories>
+						<li>SolidMetallic</li> <!-- superalloys-->
+					</stuffCategories>
+				</value>
+			</li>
 			
             
             <li Class="PatchOperationReplace">

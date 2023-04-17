@@ -27,8 +27,10 @@
 	
 </modDependencies>
 <loadBefore>
+
 </loadBefore>
 <loadAfter>
+	<li>notfood.SeedsPlease</li>
 	<li>skyarkhangel.FencesAndFloorsVileUpdate</li>
 	<li>ViTech.HCSKWood</li>
 </loadAfter>

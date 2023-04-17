@@ -29,7 +29,7 @@
 			<WorkToBuild>900</WorkToBuild>
 			<Flammability>0</Flammability>
 			<WorkTableWorkSpeedFactor>0.75</WorkTableWorkSpeedFactor>
-			<OutdoorWorkRateFactor>0.7</OutdoorWorkRateFactor>
+			<OutdoorWorkRateFactor>1</OutdoorWorkRateFactor>
 		</statBases>
 		<altitudeLayer>FloorEmplacement</altitudeLayer>
 		<size>(1,1)</size>
@@ -48,6 +48,7 @@
 				<glowRadius>4</glowRadius>
 				<glowColor>(252,187,113,0)</glowColor>
 			</li>
+			<li Class="CompProperties_Flickable"/>
 			<li Class="SK.CompProperties_HeatPusherAdvanced">
 				<compClass>SK.CompHeatPusherAdvanced</compClass>
 				<heatPerSecond>18</heatPerSecond>
@@ -135,7 +136,7 @@
 			<Flammability>0</Flammability>
 			<Cleanliness>-8</Cleanliness>
 			<Mass>200</Mass>
-			<OutdoorWorkRateFactor>0.8</OutdoorWorkRateFactor>
+			<OutdoorWorkRateFactor>1</OutdoorWorkRateFactor>
 		</statBases>
 		<pathCost>30</pathCost>
 		<size>(2,2)</size>
@@ -243,7 +244,7 @@
 			<Cleanliness>-8</Cleanliness>
 			<Mass>1000</Mass>
 			<WorkTableWorkSpeedFactor>0.9</WorkTableWorkSpeedFactor>
-			<OutdoorWorkRateFactor>0.9</OutdoorWorkRateFactor>
+			<OutdoorWorkRateFactor>1</OutdoorWorkRateFactor>
 		</statBases>
 		<pathCost>90</pathCost>
 		<size>(5,4)</size>
@@ -363,7 +364,7 @@
             <Cleanliness>-12</Cleanliness>
             <Mass>1000</Mass>
             <WorkTableWorkSpeedFactor>0.95</WorkTableWorkSpeedFactor>
-            <OutdoorWorkRateFactor>0.8</OutdoorWorkRateFactor>
+            <OutdoorWorkRateFactor>0.9</OutdoorWorkRateFactor>
 		</statBases>
 		<pathCost>90</pathCost>
 		<size>(3,3)</size>
@@ -474,7 +475,7 @@
 			<Cleanliness>-12</Cleanliness>
 			<Mass>1000</Mass>
 			<WorkTableWorkSpeedFactor>0.65</WorkTableWorkSpeedFactor>
-			<OutdoorWorkRateFactor>0.55</OutdoorWorkRateFactor>
+			<OutdoorWorkRateFactor>1</OutdoorWorkRateFactor>
 		</statBases>
 		<pathCost>90</pathCost>
 		<size>(6,3)</size>
@@ -601,7 +602,7 @@
 			<Cleanliness>-12</Cleanliness>
 			<Mass>1000</Mass>
 			<WorkTableWorkSpeedFactor>0.95</WorkTableWorkSpeedFactor>
-			<OutdoorWorkRateFactor>0.95</OutdoorWorkRateFactor>
+			<OutdoorWorkRateFactor>1</OutdoorWorkRateFactor>
 		</statBases>
 		<pathCost>90</pathCost>
 		<size>(8,3)</size>
@@ -863,7 +864,7 @@
 			<Flammability>1.0</Flammability>
 			<Mass>200</Mass>
 			<WorkTableWorkSpeedFactor>0.75</WorkTableWorkSpeedFactor>
-			<OutdoorWorkRateFactor>0.65</OutdoorWorkRateFactor>
+			<OutdoorWorkRateFactor>1</OutdoorWorkRateFactor>
 		</statBases>
 		<size>(2,2)</size>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>

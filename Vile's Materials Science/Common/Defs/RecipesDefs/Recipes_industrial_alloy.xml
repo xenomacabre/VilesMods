@@ -54,7 +54,7 @@ An economical metal, mild steel would be the modern equivalent to wrought iron. 
 		<defName>MakeStainlessSteel</defName>
 		<label>Make stainless steel x30</label>
 		<description>A high-chromium steel known for its corrosion resistance and longevity. An economical choice for kitchens, workshops, and hospitals.</description>
-		<jobString>Smelting sendust alloy.</jobString>
+		<jobString>Making stainless steel alloy.</jobString>
 		<workAmount>1200</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>

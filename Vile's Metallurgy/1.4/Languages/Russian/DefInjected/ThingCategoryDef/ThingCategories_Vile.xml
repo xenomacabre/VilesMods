@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Plumbing.label>Сантехника</Plumbing.label>
+
+
+  <!-- HARDCORE SK CATEGORIES start -->
+
+  <ForgedBar.label>Поддающиеся ковке</ForgedBar.label>
+  <CastBar.label>Поддающиеся литью</CastBar.label>
+  <Metallurgical.label>Металлургия</Metallurgical.label>
+  <Pottery.label>Заниматься гончарством</Pottery.label>
+
+
+</LanguageData>

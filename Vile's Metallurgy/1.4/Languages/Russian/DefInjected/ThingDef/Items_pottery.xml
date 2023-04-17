@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ClayPotWet.label>Глиняный горшок (необожженный)</ClayPotWet.label>
+  <ClayPotWet.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotWet.description>
+
+  <ClayPotWetUnglazed.label>Глиняный горшок (необожженный)</ClayPotWetUnglazed.label>
+  <ClayPotWetUnglazed.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotWetUnglazed.description>
+
+  <ClayPotWetAsh.label>Горшок, глазурованный золой/пеплом (необожженный)</ClayPotWetAsh.label>
+  <ClayPotWetAsh.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotWetAsh.description>
+
+  <ClayPotWetPainted.label>Расписной глиняный горшок (необожженный)</ClayPotWetPainted.label>
+  <ClayPotWetPainted.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotWetPainted.description>
+
+  <ClayPotWetLead.label>Горшок, глазурованный свинцом (необожженный)</ClayPotWetLead.label>
+  <ClayPotWetLead.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotWetLead.description>
+
+  <ClayPotWetSalt.label>Горшок, глазурованный солью (необожженный)</ClayPotWetSalt.label>
+  <ClayPotWetSalt.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotWetSalt.description>
+
+  <ClayPotWetTin.label>Горшок, глазурованный оловом(необожженный)</ClayPotWetTin.label>
+  <ClayPotWetTin.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotWetTin.description>
+
+
+  <!-- FIRED UNINSTALLED CLAY POTS -->
+
+  <ClayPot.label>Глиняный горшок</ClayPot.label>
+  <ClayPot.description>Глиняный горшок, который еще не обжигали в печи.</ClayPot.description>
+
+  <ClayPotAsh.label>Горшок, глазурованный золой/пеплом</ClayPotAsh.label>
+  <ClayPotAsh.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotAsh.description>
+
+  <ClayPotPainted.label>Расписной глиняный горшок</ClayPotPainted.label>
+  <ClayPotPainted.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotPainted.description>
+
+  <ClayPotLead.label>Горшок, глазурованный свинцом</ClayPotLead.label>
+  <ClayPotLead.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotLead.description>
+
+  <ClayPotTin.label>Горшок, глазурованный оловом</ClayPotTin.label>
+  <ClayPotTin.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotTin.description>
+
+  <ClayPotSalt.label>Горшок, глазурованный солью</ClayPotSalt.label>
+  <ClayPotSalt.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotSalt.description>
+
+
+</LanguageData>

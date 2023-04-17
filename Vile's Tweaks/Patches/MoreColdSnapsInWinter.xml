@@ -10,7 +10,7 @@
 		<li Class="PatchOperationReplace">
 			<xpath>Defs/IncidentDef[defName="ColdSnap"]/baseChance</xpath>
 			<value>
-   				<baseChance>20</baseChance>
+   				<baseChance>30</baseChance>
 			</value>
 		</li>
 		<li Class="PatchOperationReplace">
@@ -24,7 +24,7 @@
 			<value>
 				<modExtensions>
 					<li Class="SK.ExtendedIncident">
-						<allowedTemperatureRange>-50~0</allowedTemperatureRange>
+						<allowedTemperatureRange>-50~-2</allowedTemperatureRange>
 						<!-- current map temperature-->
 					</li>
 				</modExtensions>			

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- forge, cast FASTENERS -->
+
+  <Make_ComponentMedieval.label>Сделать примитивный компонент из металла</Make_ComponentMedieval.label>
+  <Make_ComponentMedieval.description>Изготавливает примитивные компоненты (гвозди, заклепки и т. д.), протягивая проволоку через волочильную пластину, разрезая и придавая им форму холодным молотком. Средневековый уровень. Производит х10 шт.</Make_ComponentMedieval.description>
+  <Make_ComponentMedieval.jobString>Делаю примитивные компоненты.</Make_ComponentMedieval.jobString>
+
+  <Make_ComponentMedieval_Smithy.label>Выплавить примитивный компонент из металла</Make_ComponentMedieval_Smithy.label>
+  <Make_ComponentMedieval_Smithy.description>Изготавливает примитивные компоненты (гвозди, заклепки и т. д.), протягивая проволоку через волочильную пластину, разрезая и придавая им форму холодным молотком. Средневековый уровень. Производит х10 шт.</Make_ComponentMedieval_Smithy.description>
+  <Make_ComponentMedieval_Smithy.jobString>Выплавляю примитивные компоненты.</Make_ComponentMedieval_Smithy.jobString>
+
+  <Make_ComponentMedievalBronze.label>Сделать примитивный компонент из металла</Make_ComponentMedievalBronze.label>
+  <Make_ComponentMedievalBronze.description>Изготавливает примитивный компонент (гвозди, заклепки и т. д.), из прочных литейных металлов. Почти в два раза быстрее, чем ковка, но требует формовочных материалов и может использовать только литейные металлы. Средневековый уровень. Производит х40 шт.</Make_ComponentMedievalBronze.description>
+  <Make_ComponentMedievalBronze.jobString>Делаю примитивные компоненты.</Make_ComponentMedievalBronze.jobString>
+
+
+  <!-- THREADED FASTENERS, (industrial components) -->
+
+  <Make_ComponentIndustrial.label>Сделать компоненты из металла</Make_ComponentIndustrial.label>
+  <Make_ComponentIndustrial.description>Изготавливает обычные привычные нам компоненты. Гайки и болты, крепежные винты и т. д. Тщательно навинчиваются вручную с помощью винтовой пластины. Индустриальный уровень. Производит х10 шт.</Make_ComponentIndustrial.description>
+  <Make_ComponentIndustrial.jobString>Делаю компоненты.</Make_ComponentIndustrial.jobString>
+
+
+  <!-- forge, cast MECHANISMS -->
+
+  <Cast_Mechanisms.label>Сделать обычный механизм из металла.</Cast_Mechanisms.label>
+  <Cast_Mechanisms.description>Изготавливает и собирает обычные механизмы из прочных металлов. Производит х10 шт.</Cast_Mechanisms.description>
+  <Cast_Mechanisms.jobString>Делаю обычные механизмы.</Cast_Mechanisms.jobString>
+
+  <Cast_CannonParts.label>Сделать детали для пушки x4 шт.</Cast_CannonParts.label>
+  <Cast_CannonParts.description>Изготавливает пушечные детали. Производит х4 шт.</Cast_CannonParts.description>
+  <Cast_CannonParts.jobString>Делаю пушечные компоненты.</Cast_CannonParts.jobString>
+
+
+</LanguageData>

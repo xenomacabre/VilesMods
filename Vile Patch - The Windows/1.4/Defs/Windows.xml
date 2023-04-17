@@ -42,7 +42,7 @@
 			<isInert>true</isInert>
 			<canPlaceOverWall>true</canPlaceOverWall>
 		</building>
-		<pathCost>50</pathCost>
+		<!-- <pathCost>50</pathCost> -->
 		<comps>
 			<li Class="OpenTheWindows.CompProperties_Window">
 				<commandTexture>UI/LightIcon</commandTexture>
@@ -76,6 +76,8 @@
 			</li>
 		</damageMultipliers>
 	</ThingDef>
+
+    <!--2571189146 -->
     	
 	<ThingDef ParentName="WindowBase" Name="RusticWindowBase" Abstract="True">
 		<defName>SimpleOpenWindow</defName>

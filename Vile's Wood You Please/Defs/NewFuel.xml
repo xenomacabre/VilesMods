@@ -32,7 +32,7 @@
 	<ThingDef ParentName="SK_ResourceBase">
 		<defName>FishOil</defName>
 		<label>fish oil</label>
-		<description>Pitch extracted from trees. Can be used as a fuel.</description>
+		<description>Flammable oil extracted from fish. Can be used as a fuel.</description>
 		<graphicData>
 			<texPath>Things/VileWood/FishOil</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Make_PipeSectionBasic_Cast.label>Сделать сантехнические компоненты для труб из металла</Make_PipeSectionBasic_Cast.label>
+  <Make_PipeSectionBasic_Cast.description>Изготавливает компоненты литых труб и фитингов для канализации и питьевой воды (желательно отдельно). Производит х16 шт.</Make_PipeSectionBasic_Cast.description>
+  <Make_PipeSectionBasic_Cast.jobString>Собираю сантехнические компоненты.</Make_PipeSectionBasic_Cast.jobString>
+
+  <Make_PipeSectionBasic_Forged.label>Выплавить сантехнические компоненты</Make_PipeSectionBasic_Forged.label>
+  <Make_PipeSectionBasic_Forged.description>Выплавляет компоненты литых труб и фитингов для канализации и питьевой воды (желательно отдельно). Производит х4 шт.</Make_PipeSectionBasic_Forged.description>
+  <Make_PipeSectionBasic_Forged.jobString>Собираю сантехнические компоненты.</Make_PipeSectionBasic_Forged.jobString>
+
+
+</LanguageData>

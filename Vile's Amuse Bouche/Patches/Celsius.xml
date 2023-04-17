@@ -16,6 +16,13 @@
 								<WorkTableWorkSpeedFactor>1.2</WorkTableWorkSpeedFactor>
             				</value>
         			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Hearth" or defName="OpenHearth"]/statBases</xpath>
+				<value>
+					<MaxTemp>40</MaxTemp>
+				</value>	
+			</li>
 			</operations>
 
 			</match>

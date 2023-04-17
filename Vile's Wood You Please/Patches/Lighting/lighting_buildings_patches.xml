@@ -100,6 +100,7 @@ Rain-proof</description>
 						<smokeDensity>0</smokeDensity>
 						<fuelFilter>
 							<thingDefs>
+								<li>FishOil</li>
 								<li>Turpentine</li>
 								<li>Tallow</li>
 								<li>PlantWax</li>
@@ -227,6 +228,7 @@ Efficiency: 30%</description>
 							<thingDefs>
 								<li>Kindling</li>
 								<li>Pitch</li>
+								<li>FishOil</li>
 								<li>Tallow</li>
 								<li>PlantWax</li>
 								<li>Turpentine</li>
@@ -305,6 +307,7 @@ Efficiency: 25%</description>
 								<li>WoodLog</li>
 								<li>Kindling</li>
 								<li>Pitch</li>
+								<li>FishOil</li>
 								<li>Tallow</li>
 								<li>PlantWax</li>
 								<li>Turpentine</li>

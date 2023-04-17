@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <blisterSteel_process.label>Изготовить чёрную сталь (x40)</blisterSteel_process.label>
+  <blisterSteel_process.description>Выплавляет черную сталь - промежуточный продукт, используемый для производства тигельной и кованной стали. Занимает 2 дня.</blisterSteel_process.description>
+
+  <fireFlux_process.label>Сделать флюс-порошок (x25)</fireFlux_process.label>
+  <fireFlux_process.description>Изготавливает флюсовый порошок, важный катализатор для керамики и металлургии. Занимает 12 часов.</fireFlux_process.description>
+
+  <ash_process.label>Сделать пепел из дерева (x4)</ash_process.label>
+  <ash_process.description>Изготавливает пепел из бревен или досок. Занимает 12 часов.</ash_process.description>
+
+  <charcoal_process.label>Сделать древесный уголь из дерева (x10)</charcoal_process.label>
+  <charcoal_process.description>Изготавливает древесный уголь из брёвен. Занимает 12 часов.</charcoal_process.description>
+
+  <charcoalKindling_process.label>Сделать древесный уголь из хвороста (x10)</charcoalKindling_process.label>
+  <charcoalKindling_process.description>Изготавливает древесный уголь из хвороста. Немного быстрее, чем из брёвен. Занимает 9 часов.</charcoalKindling_process.description>
+
+  <coke_process.label>Сделать коксовый уголь (x20)</coke_process.label>
+  <coke_process.description>Преобразование угля в кокс с помощью процесса обжига, называемого "коксованием". Занимает 16 часов.</coke_process.description>
+
+  <wootz_process.label>Изготовить традиционную сталь Вутц (вукцинит) (x60)</wootz_process.label>
+  <wootz_process.description>Подготовьте и обжожгите тигель для получения стали Вутц, используя органические вещества в качестве источника углерода. Занимает 3 дня.</wootz_process.description>
+
+  <wootzPigIron_process.label>Сделать традиционную сталь Вутц (вукцинит) из чугуна (x60)</wootzPigIron_process.label>
+  <wootzPigIron_process.description>Подготовьте и обжожгите тигель для производства стали Вутц, используя чугун в качестве источника углерода. Занимает 2 дня.</wootzPigIron_process.description>
+
+  <MakeClayBricksCementation.label>Обжечь глинянные кирпичи (x80)</MakeClayBricksCementation.label>
+  <MakeClayBricksCementation.description>Обожгите кирпичи из мягкой глины. Занимает 24 часа.</MakeClayBricksCementation.description>
+
+  <MakeClayBricks.label>Обжечь глинянные кирпичи (x30)</MakeClayBricks.label>
+  <MakeClayBricks.description>Обожгите кирпичи из мягкой глины. Занимает 30 часов.</MakeClayBricks.description>
+
+  <MakeBlocksSandstoneCementation.label>Обжечь песчаниковые блоки (x50)</MakeBlocksSandstoneCementation.label>
+  <MakeBlocksSandstoneCementation.description>Обожгите блоки из песчаника. Занимает 24 часа.</MakeBlocksSandstoneCementation.description>
+
+  <MakeBlocksSandstone.label>Изготовить блоки песчаника (x20)</MakeBlocksSandstone.label>
+  <MakeBlocksSandstone.description>Обожгите блоки из песчаника. Занимает 30 часов.</MakeBlocksSandstone.description>
+
+  <MakeCeramics_Process.label>Обжечь керамику (x20)</MakeCeramics_Process.label>
+  <MakeCeramics_Process.description>Изготовить керамику. Занимает 36 часов.</MakeCeramics_Process.description>
+
+  <MakeGlassBatch_Process.label>Изготовить стекольную шихту (x10)</MakeGlassBatch_Process.label>
+  <MakeGlassBatch_Process.description>Обработайте стекольную шихту, которую затем можно выдуть и сформировать в стекло в печке. Производит 10 штук. Занимает 36 часов.</MakeGlassBatch_Process.description>
+
+  <MakeActivatedCarbon_Process.label>Сделать активированный уголь (x20)</MakeActivatedCarbon_Process.label>
+  <MakeActivatedCarbon_Process.description>Изготовить таблетки активированного угля из угля(как бы логично не звучало). Производится 20. Занимает 12 часов.</MakeActivatedCarbon_Process.description>
+  <MakeActivatedCarbon_Process.jobString>Изготавливает активированный уголь.</MakeActivatedCarbon_Process.jobString>
+
+
+</LanguageData>

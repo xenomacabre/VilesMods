@@ -13,6 +13,7 @@
 <loadBefore>
 </loadBefore>
 <loadAfter>
+	<li>notfood.SeedsPlease</li>
 	<!--<li>ViTech.HCSKWood</li>-->
 </loadAfter>
 <incompatibleWith>

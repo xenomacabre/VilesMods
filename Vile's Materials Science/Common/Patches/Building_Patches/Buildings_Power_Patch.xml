@@ -97,7 +97,7 @@
                           <costList>
                             <Paraffins>10</Paraffins>
                             <CarbonSteel>50</CarbonSteel>
-                            <MakeAnodizedAluminiumBlue>30</MakeAnodizedAluminiumBlue>
+                            <AnodizedAluminiumBlue>30</AnodizedAluminiumBlue>
                             <ComponentIndustrial>10</ComponentIndustrial>
                             <Mechanism>6</Mechanism>
                         </costList>
@@ -111,7 +111,7 @@
                           <costList>
                             <Paraffins>10</Paraffins>
                             <SteelBar>35</SteelBar>
-                             <MakeAnodizedAluminiumBlue>20</MakeAnodizedAluminiumBlue>
+                             <AnodizedAluminiumBlue>20</AnodizedAluminiumBlue>
                             <ComponentIndustrial>8</ComponentIndustrial>
                             <Mechanism>5</Mechanism>
                         </costList>
@@ -131,7 +131,7 @@
                     <xpath>Defs/ThingDef[DefName="GeothermalGenerator"]/costList</xpath>
                     <value>                  
                           <costList>     
-                              <Brass>20</Brass>
+                              <CupronickelAlloy>20</CupronickelAlloy>
                             <ReinforcedConcrete>60</ReinforcedConcrete>
                             <Polycarbonate>40</Polycarbonate>
                             <Electronics>12</Electronics>
@@ -160,7 +160,7 @@
                     <value>                  
                        <costList>
                             <Compaste>50</Compaste>
-                           <Nanocomposite>140</Nanocomposite>
+                           <CarbonAlloy>140</CarbonAlloy>
                             <ReinforcedConcrete>80</ReinforcedConcrete>
                             <AdvMechanism>5</AdvMechanism>
                             <Microchips>2</Microchips>
@@ -174,7 +174,7 @@
                     <xpath>Defs/ThingDef[DefName="TeslaLigthningPower"]/costList</xpath>
                     <value>                  
                       <costList>
-                        <CopparBar>50</CopparBar>
+                        <CopperBar>50</CopperBar>
                         <Glass>200</Glass>
                         <HMFibers>200</HMFibers>
                         <ReinforcedConcrete>100</ReinforcedConcrete>
@@ -278,12 +278,12 @@
                 
              <!-- antimatter -->
                 <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[DefName="XenonIonTurbine"]/costList</xpath>
+                    <xpath>Defs/ThingDef[DefName="AntimatterReactor"]/costList</xpath>
                     <value>                  
                        <costList>
                             <turbineBlade>100</turbineBlade>
                             <Fiberglass>20</Fiberglass>
-                           <Nanocomposite>40</Nanocomposite>
+                            <CarbonAlloy>40</CarbonAlloy>
                             <ReinforcedConcrete>200</ReinforcedConcrete>
                             <MagneticMaterial>65</MagneticMaterial>
                             <AdvMechanism>15</AdvMechanism>

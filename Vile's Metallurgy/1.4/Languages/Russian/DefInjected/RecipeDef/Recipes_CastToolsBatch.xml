@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Cast_Handaxe_Batch.label>Cделать партию топоров х3 шт.</Cast_Handaxe_Batch.label>
+  <Cast_Handaxe_Batch.description>Производит топоры (x3).</Cast_Handaxe_Batch.description>
+  <Cast_Handaxe_Batch.jobString>Делаю топоры из металла.</Cast_Handaxe_Batch.jobString>
+
+  <Cast_Pickaxe_Batch.label>Сделать партию кирок x3 шт.</Cast_Pickaxe_Batch.label>
+  <Cast_Pickaxe_Batch.description>Производит кирки (х3).</Cast_Pickaxe_Batch.description>
+  <Cast_Pickaxe_Batch.jobString>Делаю кирки из металла</Cast_Pickaxe_Batch.jobString>
+
+  <Cast_Hammer_Batch.label>Сделать партию молотков х4 шт.</Cast_Hammer_Batch.label>
+  <Cast_Hammer_Batch.description>Производит молотки из металла (х4).</Cast_Hammer_Batch.description>
+  <Cast_Hammer_Batch.jobString>Делаю молотки из металла.</Cast_Hammer_Batch.jobString>
+
+  <Cast_Sickle_Batch.label>Сделать партию серпов x3 шт.</Cast_Sickle_Batch.label>
+  <Cast_Sickle_Batch.description>Производит серпы из металла (х3).</Cast_Sickle_Batch.description>
+  <Cast_Sickle_Batch.jobString>Делаю серпы из металла.</Cast_Sickle_Batch.jobString>
+
+  <Cast_Hoe_Batch.label>Сделать партию мотыг x3 шт.</Cast_Hoe_Batch.label>
+  <Cast_Hoe_Batch.description>Производит мотыги из металла (х3).</Cast_Hoe_Batch.description>
+  <Cast_Hoe_Batch.jobString>Делаю мотыги из металла.</Cast_Hoe_Batch.jobString>
+
+
+</LanguageData>

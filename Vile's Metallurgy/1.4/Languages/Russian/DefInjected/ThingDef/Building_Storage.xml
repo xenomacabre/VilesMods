@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- VANILLA POT -->
+
+  <Pot.label>Металлический горшок</Pot.label>
+  <Pot.description>Большая металлическая кастрюля, используемая для консервирования пищи. Замедляет процесс гниения почти так же хорошо, как глазурованная керамика. Уменьшает порчу на 40%. Строительство обходится недешево.</Pot.description>
+
+
+  <!-- CLAY POTS -->
+
+  <Building_ClayPotUnglazed.label>Глиняный горшок</Building_ClayPotUnglazed.label>
+  <Building_ClayPotUnglazed.description>Обожженный, но неглазурованный глиняный горшок. Используется для хранения продуктов, но он пористый и не герметизируется так хорошо, как глазированные горшки. Уменьшает порчу на 30%.</Building_ClayPotUnglazed.description>
+
+  <Building_ClayPotAsh.label>Глиняный горшок, глазурованный золой (пеплом)</Building_ClayPotAsh.label>
+  <Building_ClayPotAsh.description>Глазурованный глиняный горшок. Выглядит красиво, к тому же хорошо запечатывается для хранения продуктов. Уменьшает порчу на 45%.</Building_ClayPotAsh.description>
+
+  <Building_ClayPotPainted.label>Расписной глиняный горшок</Building_ClayPotPainted.label>
+  <Building_ClayPotPainted.description>Глазурованный глиняный горшок. Выглядит красиво, к тому же хорошо запечатывается для хранения продуктов. Уменьшает порчу на 45%.</Building_ClayPotPainted.description>
+
+  <Building_ClayPotSalt.label>Глиняный горшок, глазурованный солью</Building_ClayPotSalt.label>
+  <Building_ClayPotSalt.description>Глазурованный глиняный горшок. Выглядит красиво, к тому же хорошо запечатывается для хранения продуктов. Уменьшает порчу на 45%.</Building_ClayPotSalt.description>
+
+  <Building_ClayPotLead.label>Глиняный горшок, глазурованный свинцом</Building_ClayPotLead.label>
+  <Building_ClayPotLead.description>Глазурованный глиняный горшок. Выглядит красиво, к тому же хорошо запечатывается для хранения продуктов. Уменьшает порчу на 45%.</Building_ClayPotLead.description>
+
+  <Building_ClayPotTin.label>Глиняный горшок, глазурованный оловом</Building_ClayPotTin.label>
+  <Building_ClayPotTin.description>Глазурованный глиняный горшок. Выглядит красиво, к тому же хорошо запечатывается для хранения продуктов. Уменьшает порчу на 45%.</Building_ClayPotTin.description>
+
+
+</LanguageData>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <ThingDef ParentName="BasedHygieneMom" Name="DubsDirtyPipeBaseAqueduct" Abstract="True">
+    <label>aqueduct</label>
+    <thingClass>DubsBadHygiene.Building_Pipe</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Aqueduct_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+      <linkType>Basic</linkType>
+      <linkFlags>
+        <li>Custom5</li>
+      </linkFlags>
+      <damageData>
+        <rect>(0,0.35,1,0.3)</rect>
+      </damageData>
+    </graphicData>
+    <building>
+      <ai_chillDestination>false</ai_chillDestination>
+      <blueprintGraphicData>
+        <texPath>DBH/Things/Building/SewagePipe_Atlas_Blueprint</texPath>
+      </blueprintGraphicData>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+    </building>
+    <altitudeLayer>Conduits</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+	<fillPercent>0.3</fillPercent>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>450</WorkToBuild>
+      <Flammability>1.0</Flammability>
+	  <Beauty>-8</Beauty>
+    </statBases>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <rotatable>false</rotatable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <clearBuildingArea>false</clearBuildingArea>
+    <placeWorkers>
+      <li>DubsBadHygiene.PlaceWorker_Pipe</li>
+    </placeWorkers>
+    <tickerType>Never</tickerType>
+    <drawerType>None</drawerType>
+    <modExtensions>
+      <li Class="DubsBadHygiene.BuildWaterExt" />
+    </modExtensions>
+  </ThingDef> -->
+
+  <sewagePipeStuffAqueduct.label>Акведук</sewagePipeStuffAqueduct.label>
+  <sewagePipeStuffAqueduct.description>Элементарная труба из камня или кирпича, используется для прокладки водопровода или канализации.</sewagePipeStuffAqueduct.description>
+
+  <sewagePipeStuff.label>Водопроводная пломба</sewagePipeStuff.label>
+  <sewagePipeStuff.description>Укреплённая водопроводная пломба.</sewagePipeStuff.description>
+
+
+</LanguageData>

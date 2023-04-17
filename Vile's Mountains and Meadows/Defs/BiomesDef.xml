@@ -144,7 +144,7 @@
 			<Rainstorm>1</Rainstorm>
 			<Blizzard>3</Blizzard>
 			<Whiteout>1</Whiteout>
-			<Hurricane>1</Hurricane>
+			<Hurricane>0.2</Hurricane>
 			<!--<DryDuststorm>1</DryDuststorm>
 			<DustStorm>1</DustStorm>-->
 		</baseWeatherCommonalities>

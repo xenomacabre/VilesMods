@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Tool_ChefKnife.label>Нож шеф-повара</Tool_ChefKnife.label>
+  <Tool_ChefKnife.description>Острое лезвие, предназначенное для измельчения пищевых ингредиентов, но им можно нарезать и людей.</Tool_ChefKnife.description>
+  <Tool_ChefKnife.tools.0.label>Рукоять</Tool_ChefKnife.tools.0.label>
+  <Tool_ChefKnife.tools.1.label>Остриё</Tool_ChefKnife.tools.1.label>
+
+  <NorbalMeleeWeapon_ShortSword.label>+Ульфберт+</NorbalMeleeWeapon_ShortSword.label>
+  <NorbalMeleeWeapon_ShortSword.description>Острый двуручный меч, которым пользуются только самые свирепые воины норбалов, выкованный из стали Вутца, возможно, привезенной с другой стороны континента.</NorbalMeleeWeapon_ShortSword.description>
+  <NorbalMeleeWeapon_ShortSword.tools.0.label>Навершие</NorbalMeleeWeapon_ShortSword.tools.0.label>
+  <NorbalMeleeWeapon_ShortSword.tools.1.label>Остриё</NorbalMeleeWeapon_ShortSword.tools.1.label>
+  <NorbalMeleeWeapon_ShortSword.tools.2.label>Кромка</NorbalMeleeWeapon_ShortSword.tools.2.label>
+
+  <MeleeWeapon_Scimitar.label>Римаскус Ятаган</MeleeWeapon_Scimitar.label>
+  <MeleeWeapon_Scimitar.description>Также называемый шамширом, этот ятаган имеет сильно изогнутое лезвие, первоначально выкованное древней цивилизации из стали, произведенной в другой древней цивилизации. Предназначен для нанесения глубоких, болезненных порезов, но он имеет ужасное бронепробитие.</MeleeWeapon_Scimitar.description>
+  <MeleeWeapon_Scimitar.tools.0.label>Навершие</MeleeWeapon_Scimitar.tools.0.label>
+  <MeleeWeapon_Scimitar.tools.1.label>Остриё</MeleeWeapon_Scimitar.tools.1.label>
+  <MeleeWeapon_Scimitar.tools.2.label>Кромка</MeleeWeapon_Scimitar.tools.2.label>
+
+
+</LanguageData>
