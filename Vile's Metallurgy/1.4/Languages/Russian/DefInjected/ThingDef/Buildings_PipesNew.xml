@@ -51,8 +51,8 @@
   <sewagePipeStuffAqueduct.label>Акведук</sewagePipeStuffAqueduct.label>
   <sewagePipeStuffAqueduct.description>Элементарная труба из камня или кирпича, используется для прокладки водопровода или канализации.</sewagePipeStuffAqueduct.description>
 
-  <sewagePipeStuff.label>Водопроводная пломба</sewagePipeStuff.label>
-  <sewagePipeStuff.description>Укреплённая водопроводная пломба.</sewagePipeStuff.description>
+  <sewagePipeStuff.label>Водопроводная труба</sewagePipeStuff.label>
+  <sewagePipeStuff.description>Водонепроницаемая труба для канализации и воды соответственно.</sewagePipeStuff.description>
 
 
 </LanguageData>

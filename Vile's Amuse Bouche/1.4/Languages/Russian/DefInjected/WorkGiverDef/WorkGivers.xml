@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoBillsCook.label>Готовить еду</DoBillsCook.label>
+  <DoBillsCook.verb>готовлю</DoBillsCook.verb>
+  <DoBillsCook.gerund>готовлю на</DoBillsCook.gerund>
+
+  <DoBillsCookCampfire.label>Запекать в духовке</DoBillsCookCampfire.label>
+  <DoBillsCookCampfire.verb>запекаю</DoBillsCookCampfire.verb>
+  <DoBillsCookCampfire.gerund>запекаю на</DoBillsCookCampfire.gerund>
+
+  <DoBillsKitchenTable.label>Кухонный стол</DoBillsKitchenTable.label>
+  <DoBillsKitchenTable.verb>готовлю</DoBillsKitchenTable.verb>
+  <DoBillsKitchenTable.gerund>готовлю на</DoBillsKitchenTable.gerund>
+
+  <DoBillsButcherFlesh.label>Разделка</DoBillsButcherFlesh.label>
+  <DoBillsButcherFlesh.verb>разделываю</DoBillsButcherFlesh.verb>
+  <DoBillsButcherFlesh.gerund>разделываю на</DoBillsButcherFlesh.gerund>
+
+  <DoBillsCanning.label>Делать консервы</DoBillsCanning.label>
+  <DoBillsCanning.verb>консервирую</DoBillsCanning.verb>
+  <DoBillsCanning.gerund>консервирую на</DoBillsCanning.gerund>
+
+  <DoBillsCoffee.label>Варить безалкагольное</DoBillsCoffee.label>
+  <DoBillsCoffee.verb>варю</DoBillsCoffee.verb>
+  <DoBillsCoffee.gerund>варю на</DoBillsCoffee.gerund>
+
+  <DoBillsBrew.label>Варить алкоголь</DoBillsBrew.label>
+  <DoBillsBrew.verb>варю</DoBillsBrew.verb>
+  <DoBillsBrew.gerund>варю на</DoBillsBrew.gerund>
+
+
+  <!-- <WorkGiverDef ParentName="WorkGiverPrioritizeSustains">
+		<defName>DoBillsCookCampfire</defName>
+		<label>Готовить еду на костре</label>
+		<workType>Cooking</workType>
+		<priorityInType>97</priorityInType>
+		<fixedBillGiverDefs>
+			<li>Campfire</li>
+		</fixedBillGiverDefs>
+		<verb>готовлю</verb>
+		<gerund>готовлю на</gerund>
+	</WorkGiverDef> -->
+
+  <DoBillsBake.label>Делать конфеты</DoBillsBake.label>
+  <DoBillsBake.verb>сладоварение</DoBillsBake.verb>
+  <DoBillsBake.gerund>делать сладости на</DoBillsBake.gerund>
+
+  <DoBillsGrindStone.label>Измелчить</DoBillsGrindStone.label>
+  <DoBillsGrindStone.verb>измельчаю</DoBillsGrindStone.verb>
+  <DoBillsGrindStone.gerund>измельчаю на</DoBillsGrindStone.gerund>
+
+
+</LanguageData>

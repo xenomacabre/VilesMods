@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CookSoup.label>Суп (x2)</CookSoup.label>
+  <CookSoup.description>.85 питательности 
+ Совет: если вы разбавите еду водой, она сохранится дольше.</CookSoup.description>
+  <CookSoup.jobString>Варю сур.</CookSoup.jobString>
+
+  <CookGruel.label>Каша (x2)</CookGruel.label>
+  <CookGruel.description>.7 Питательности
+ Разбавленная каша. Мерзко, если только ты не крестьянин.</CookGruel.description>
+  <CookGruel.jobString>Варю кашу.</CookGruel.jobString>
+
+
+</LanguageData>

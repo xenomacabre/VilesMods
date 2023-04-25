@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SeasonFirewood_Cecropia.label>Высушить цекорпиевые дрова</SeasonFirewood_Cecropia.label>
+  <SeasonFirewood_Cecropia.description>Сгорает на 60% эффективнее. Сушка длится 30 дней.</SeasonFirewood_Cecropia.description>
+
+  <SeasonFirewood_Pine.label>Высушить сосновые дрова</SeasonFirewood_Pine.label>
+  <SeasonFirewood_Pine.description>Сгорает на 30% эффективнее. Сушка длится 15 дней.</SeasonFirewood_Pine.description>
+
+  <SeasonFirewood_Willow.label>Высушить ивовые дрова</SeasonFirewood_Willow.label>
+  <SeasonFirewood_Willow.description>Сгорает на 80% эффективнее. Сушка длится 45 дней.</SeasonFirewood_Willow.description>
+
+  <SeasonFirewood_Redwood.label>Высушить дрова красного дерева</SeasonFirewood_Redwood.label>
+  <SeasonFirewood_Redwood.description>Сгорает на 40% эффективнее. Сушка длится 30 дней.</SeasonFirewood_Redwood.description>
+
+  <SeasonFirewood_Spruce.label>Высушить еловые дрова</SeasonFirewood_Spruce.label>
+  <SeasonFirewood_Spruce.description>Сгорает на 70% эффективнее. Сушка длится 30 дней.</SeasonFirewood_Spruce.description>
+
+  <SeasonFirewood_Cypress.label>Высушить кипарисовые дрова</SeasonFirewood_Cypress.label>
+  <SeasonFirewood_Cypress.description>Сгорает на 40% эффективнее. Сушка длится 20 дней.</SeasonFirewood_Cypress.description>
+
+  <SeasonFirewood_Poplar.label> Высушить тополевые дрова</SeasonFirewood_Poplar.label>
+  <SeasonFirewood_Poplar.description>Сгорает на 80% эффективнее. Сушка длится 20 дней.</SeasonFirewood_Poplar.description>
+
+  <SeasonFirewood_Maple.label>Высушить кленовые дрова</SeasonFirewood_Maple.label>
+  <SeasonFirewood_Maple.description>Сгорает на 40% эффективнее. Сушка длится 20 дней.</SeasonFirewood_Maple.description>
+
+  <SeasonFirewood_Teak.label>Высушить дрова тикового дерева</SeasonFirewood_Teak.label>
+  <SeasonFirewood_Teak.description>Сгорает на 40% эффективнее. Сушка длится 60 дней.</SeasonFirewood_Teak.description>
+
+  <SeasonFirewood_Acacia.label>Высушить акациевые дрова</SeasonFirewood_Acacia.label>
+  <SeasonFirewood_Acacia.description>Сгорает на 40% эффективнее. Сушка длится 45 дней.</SeasonFirewood_Acacia.description>
+
+  <SeasonFirewood_Birch.label>Высушить березовые дрова</SeasonFirewood_Birch.label>
+  <SeasonFirewood_Birch.description>Сгорает на 40% эффективнее. Сушка длится 30 дней.</SeasonFirewood_Birch.description>
+
+  <SeasonFirewood_Oak.label>Высушить дубовые дрова</SeasonFirewood_Oak.label>
+  <SeasonFirewood_Oak.description>Сгорает на 60% эффективнее. Сушка длится 60 дней.</SeasonFirewood_Oak.description>
+
+  <SeasonFirewood_Bamboo.label>Высушить бамбук</SeasonFirewood_Bamboo.label>
+  <SeasonFirewood_Bamboo.description>Сгорает на 70% эффективнее. Сушка длится 20 дней.</SeasonFirewood_Bamboo.description>
+
+  <SeasonFirewood_Dragonwood.label>Высушить дрова драконового дерева</SeasonFirewood_Dragonwood.label>
+  <SeasonFirewood_Dragonwood.description>Сгорает на 90% эффективнее. Сушка длится 45 дней.</SeasonFirewood_Dragonwood.description>
+
+  <SeasonFirewood_Mangrove.label>Высушить мангровые дрова</SeasonFirewood_Mangrove.label>
+  <SeasonFirewood_Mangrove.description>Сгорает на 230% эффективнее. Сушка длится 60 дней.</SeasonFirewood_Mangrove.description>
+
+
+</LanguageData>

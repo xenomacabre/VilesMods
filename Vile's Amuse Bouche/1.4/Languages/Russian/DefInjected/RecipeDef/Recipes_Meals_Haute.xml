@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeDuckalorange.label>Утка с апельсином (x4 высокая кухня)</MakeDuckalorange.label>
+  <MakeDuckalorange.description>Высокая кухня 60% (.1 питательность, .3 удовольствие, .3 удовольствие, роскошная, красота +16)
+  Происхождение: Франция
+  Жареная утка в апельсиновом соусе. Пятизвездочная.</MakeDuckalorange.description>
+  <MakeDuckalorange.jobString>Пеку утку с апельсином</MakeDuckalorange.jobString>
+
+  <MakeThreeBirdRoast.label>Жаркое из трех птиц (x10 высокая кухня)</MakeThreeBirdRoast.label>
+  <MakeThreeBirdRoast.description>Высокая кухня 60% (.85 питательность, .4 удовольствие, роскошная, красота +8)  
+Происхождение: США
+АКА Турдакен или Гудакен, это три птицы, одна внутри другой, панированные и приправленные.</MakeThreeBirdRoast.description>
+  <MakeThreeBirdRoast.jobString>Делаю жаркое из трех птиц.</MakeThreeBirdRoast.jobString>
+
+  <MakeSteakWellington.label>Стейк Веллингтон (x8 высокая кухни)</MakeSteakWellington.label>
+  <MakeSteakWellington.description>Высокая кухня 60% (1.0 питательность, .9 удовольствие, роскошная, красота +16)  
+ Происхождение: Великобритания
+  Филе первосортного мяса, завернутое в паштетно-грибную смесь в слоеном тесте. Для паштета требуется вино, коньяк или бренди. Чрезвычайно трудно сделать.</MakeSteakWellington.description>
+  <MakeSteakWellington.jobString>Жарю стейк Веллингтон.</MakeSteakWellington.jobString>
+
+  <MakeSouffle.label>Суфле (x4 высокая кухня)</MakeSouffle.label>
+  <MakeSouffle.description>Высокая кухня 80% (.75 питательность, .8 удовольствие, роскошная, красота +24)  
+ Происхождение: Франция
+  Воздушное блюдо на яичной основе, которое может быть как пикантным (сыр), так и сладким (шоколад).</MakeSouffle.description>
+  <MakeSouffle.jobString>Делаю суфле.</MakeSouffle.jobString>
+
+  <MakeConsomme.label>Консоме (x6 высокая кухни)</MakeConsomme.label>
+  <MakeConsomme.description>Высокая кухня 80% (1.0 питательность, .8 удовольствие, роскошная, красота +24)  
+ Происхождение: Франция
+  Верх кулинарной сложности, консоме — это прозрачный суп, приготовленный путем удаления всех примесей из его ингредиентов.</MakeConsomme.description>
+  <MakeConsomme.jobString>Делаю консоме.</MakeConsomme.jobString>
+
+
+</LanguageData>

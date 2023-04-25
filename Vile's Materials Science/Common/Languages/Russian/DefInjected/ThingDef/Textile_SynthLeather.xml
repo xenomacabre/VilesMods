@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- PVC LEATHER -->
+
+  <PVCLeather.label>Винил</PVCLeather.label>
+  <PVCLeather.description>УРОВЕНЬ 3 - Индустриальный
+&gt;&gt;&gt; Оптимально для производства:	Экономия
+&gt;&gt; Хорошо подходящий для:     Зимний сезон
+X Нецелесообразно для использования в: 	Летний сезон
+
+Также известный как кожзаменитель ПВХ, этот веганский материал конкурирует с животными кожами. Он не так прочен, как некоторые более дорогие кожи, но очень экономичен и удивительно менее вреден, чем современный процесс дубления кожи. Он хорошо изолирует, но вовсе не дышит.</PVCLeather.description>
+  <PVCLeather.stuffProps.stuffAdjective>винила</PVCLeather.stuffProps.stuffAdjective>
+
+
+  <!-- Mycotan leather -->
+
+  <DevilstrandCloth.label>Дьявлонитник</DevilstrandCloth.label>
+  <DevilstrandCloth.description>УРОВЕНЬ 3 - Индустриальный
+&gt;&gt;&gt; Оптимально для производства:	Высокопрочный
+&gt;&gt; Хорошо подходящий для:     Броня
+X Нецелесообразно для использования в: 	Зимний сезон
+
+Эта прочная искусственная кожа сделана из дьявлонитника. Довольно сложная в обработке.</DevilstrandCloth.description>
+  <DevilstrandCloth.stuffProps.stuffAdjective>дьявлонитника</DevilstrandCloth.stuffProps.stuffAdjective>
+
+
+</LanguageData>

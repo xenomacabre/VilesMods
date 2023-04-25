@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ElectricSmelter.label>Электроплавильня</ElectricSmelter.label>
+  <ElectricSmelter.description>Дробит, измельчает и обжигает сырую руду для извлечения металлов. Он извлекает более широкий спектр металлов, чем более ранние методы извлечения, а добавление ячейки с электролитическим переработчиком позволяет выделять еще более ценных металлов. Он может работать на открытом воздухе.</ElectricSmelter.description>
+
+  <ElectrolyticRefinery.label>Электролитический переработчик</ElectrolyticRefinery.label>
+  <ElectrolyticRefinery.description>Электролиз основных металлов из руды в растворе. Извлекает больше полезного материала, чем традиционное пироизвлечение, но требует большого количества электроэнергии. ВАЖНО: Для работы необходимо подключение к электроплавильне.</ElectrolyticRefinery.description>
+
+  <InductionFurnace.label>Индукционная печь</InductionFurnace.label>
+  <InductionFurnace.description>Печь, которая производит сплавы из неблагородных металлов. Требует электричество.</InductionFurnace.description>
+
+  <ChemistryLab.label>Химическая станция</ChemistryLab.label>
+  <ChemistryLab.description>Стол и все необходимые инструменты для смешивания и обработки химических веществ. При подключении к электрическому станку здесь можно создавать продвинутые текстильные материалы. Конструкция выполнена из материалов, устойчивых к коррозии.</ChemistryLab.description>
+
+
+</LanguageData>

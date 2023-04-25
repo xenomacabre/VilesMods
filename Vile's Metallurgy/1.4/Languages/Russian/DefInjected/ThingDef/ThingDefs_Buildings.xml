@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SeasoningRack.label>Сушилка для дров</SeasoningRack.label>
+  <SeasoningRack.description>Стеллаж для хранения дров. Некоторым видам дров требуется больше времени для сушки, чем другим.</SeasoningRack.description>
+
+  <LogSplittingSpot.label>Место для рубки брёвен</LogSplittingSpot.label>
+  <LogSplittingSpot.description>Место, предназначенное для раскалывания бревен на дрова и дров на растопку.</LogSplittingSpot.description>
+
+  <ChoppingBlock.label>Удобное место для рубки брёвен</ChoppingBlock.label>
+  <ChoppingBlock.description>Прочный блок и топор для эффективной рубки и раскалывания бревен на дрова.</ChoppingBlock.description>
+
+
+</LanguageData>

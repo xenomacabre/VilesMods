@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Pitch.label>Смола</Pitch.label>
+  <Pitch.description>Смола, извлеченная из деревьев. Можно использовать как топливо.</Pitch.description>
+
+  <FishOil.label>Рыбий жир</FishOil.label>
+  <FishOil.description>Смалец извлеченный из рыбы. Можно использовать как топливо.</FishOil.description>
+
+  <Turpentine.label>Скипидар</Turpentine.label>
+  <Turpentine.description>Жидкость, полученная путем переработки древесной смолы. Можно сжигать как топливо для ламп.</Turpentine.description>
+
+  <RushlightFuel.label>Рашлайт</RushlightFuel.label>
+  <RushlightFuel.description>Рашлайт - это свечка. Используется в фонаре. Рашлайт (англ. "rushlight") - это светильник, который использовался в прошлом для освещения жилых помещений. Это была длинная палка или металлический каркас, на конце которого была привязана или прикреплена кусочком воска или смолы пропитанная льняная нить или дикая тростниковая пальма. Когда нить была зажжена, она давала тусклый свет, который использовался для освещения комнаты.</RushlightFuel.description>
+
+  <CandleFuel.label>Свечи</CandleFuel.label>
+  <CandleFuel.description>Свеча из воска или жира. Топливо для подсвечника.</CandleFuel.description>
+
+
+  <!-- <ThingDef ParentName="FirewoodSeasonedBase" Name="FirewoodBase" Abstract="True"> -->
+
+  <Firewood_Cecropia.label>Дрова (цекорпия)</Firewood_Cecropia.label>
+  <Firewood_Cecropia.description>Свежие дрова, используемые в качестве топлива.
+Скорость горения (свежее): 0.9 часов
+Скорость горения (высушенное): 1.5 часов</Firewood_Cecropia.description>
+
+  <FirewoodSeasoned_Cecropia.label>Высушенные дрова (цекорпия)</FirewoodSeasoned_Cecropia.label>
+  <FirewoodSeasoned_Cecropia.description>Высушенные дрова, используемые в качестве топлива.
+Скорость горения: 1.5 часов</FirewoodSeasoned_Cecropia.description>
+
+  <Firewood_Pine.label>Дрова (сосна)</Firewood_Pine.label>
+  <Firewood_Pine.description>Свежие дрова, используемые в качестве топлива. 
+Скорость горения (свежее): 1.0 часов
+Скорость горения (высушенное): 1.3 часов</Firewood_Pine.description>
+
+  <FirewoodSeasoned_Pine.label>Высушенные дрова (сосна)</FirewoodSeasoned_Pine.label>
+  <FirewoodSeasoned_Pine.description>Высушенные дрова, используемые в качестве топлива. 
+Скорость горения: 1.3 часов</FirewoodSeasoned_Pine.description>
+
+  <Firewood_Willow.label>Дрова (ива)</Firewood_Willow.label>
+  <Firewood_Willow.description>Свежие дрова, используемые в качестве топлива. 
+Скорость горения (свежее): 0.9 часов
+Скорость горения (высушенное): 1.6 часов</Firewood_Willow.description>
+
+  <FirewoodSeasoned_Willow.label>Высушенные дрова (ива)</FirewoodSeasoned_Willow.label>
+  <FirewoodSeasoned_Willow.description>Высушенные дрова, используемые в качестве топлива. 
+Скорость горения: 1.6 часов</FirewoodSeasoned_Willow.description>
+
+  <Firewood_Redwood.label>Дрова (красное дерево)</Firewood_Redwood.label>
+  <Firewood_Redwood.description>Свежие дрова, используемые в качестве топлива.
+Скорость горения (свежее): 1.1 часов
+Скорость горения (высушенное): 1.6 часов</Firewood_Redwood.description>
+
+  <FirewoodSeasoned_Redwood.label>Высушенные дрова (красное дерево)</FirewoodSeasoned_Redwood.label>
+  <FirewoodSeasoned_Redwood.description>Высушенные дрова, используемые в качестве топлива. 
+Скорость горения: 1.6 часов</FirewoodSeasoned_Redwood.description>
+
+  <Firewood_Spruce.label>Дрова (ель)</Firewood_Spruce.label>
+  <Firewood_Spruce.description>Свежие дрова, используемые в качестве топлива. 
+Скорость горения (свежее): 1.0 часов
+Скорость горения (высушенное): 1.7 часов</Firewood_Spruce.description>
+
+  <FirewoodSeasoned_Spruce.label>Высушенные дрова (ель)</FirewoodSeasoned_Spruce.label>
+  <FirewoodSeasoned_Spruce.description>Высушенные дрова, используемые в качестве топлива. 
+Скорость горения: 1.7 часов</FirewoodSeasoned_Spruce.description>
+
+  <Firewood_Cypress.label>Дрова (кипарис)</Firewood_Cypress.label>
+  <Firewood_Cypress.description>Свежие дрова, используемые в качестве топлива. 
+Скорость горения (свежее): 1.3 часов
+Скорость горения (высушенное): 1.9 часов</Firewood_Cypress.description>
+
+  <FirewoodSeasoned_Cypress.label>Высушенные дрова (кипарис)</FirewoodSeasoned_Cypress.label>
+  <FirewoodSeasoned_Cypress.description>Высушенные дрова, используемые в качестве топлива. 
+Скорость горения: 1.9 часов</FirewoodSeasoned_Cypress.description>
+
+  <Firewood_Poplar.label>Дрова (тополь)</Firewood_Poplar.label>
+  <Firewood_Poplar.description>Свежие дрова, используемые в качестве топлива. 
+Скорость горения (свежее): 0.8 часов
+Скорость горения (высушенное): 1.4 часов</Firewood_Poplar.description>
+
+  <FirewoodSeasoned_Poplar.label>Высушенные дрова (тополь)</FirewoodSeasoned_Poplar.label>
+  <FirewoodSeasoned_Poplar.description>Высушенные дрова, используемые в качестве топлива. 
+Скорость горения: 1.4 часов</FirewoodSeasoned_Poplar.description>
+
+  <Firewood_Maple.label>Дрова (клён)</Firewood_Maple.label>
+  <Firewood_Maple.description>Свежие дрова, используемые в качестве топлива. 
+Скорость горения (свежее): 1.5 часов
+Скорость горения (высушенное): 2.1 часов</Firewood_Maple.description>
+
+  <FirewoodSeasoned_Maple.label>Высушенные дрова (клён)</FirewoodSeasoned_Maple.label>
+  <FirewoodSeasoned_Maple.description>Высушенные дрова, используемые в качестве топлива. 
+Скорость горения: 2.1 часов</FirewoodSeasoned_Maple.description>
+
+  <Firewood_Teak.label>Дрова (тиковое дерево)</Firewood_Teak.label>
+  <Firewood_Teak.description>Свежие дрова, используемые в качестве топлива. 
+Скорость горения (свежее): 1.8 часов
+Скорость горения (высушенное): 2.6 часов</Firewood_Teak.description>
+
+  <FirewoodSeasoned_Teak.label>Высушенные дрова (тиковое дерево)</FirewoodSeasoned_Teak.label>
+  <FirewoodSeasoned_Teak.description>Высушенные дрова, используемые в качестве топлива. 
+Скорость горения: 2.6 часов</FirewoodSeasoned_Teak.description>
+
+
+<!-- <ThingDef ParentName="FirewoodBase">
+	<defName>Firewood_Acacia</defName>
+	<label>Дрова (акация)</label>
+	<description>Свежие дрова, используемые в качестве топлива. 
+Скорость горения (свежее): 1.9 часов</description>
+	<statBases>
+		<BurnDurationHours>1.9</BurnDurationHours>
+	</statBases>
+	<recipeMaker>
+			<workAmount>900</workAmount>
+	</recipeMaker>
+	<costList>
+		<AcaciaLog>3</AcaciaLog>
+	</costList>
+</ThingDef>
+	<ThingDef ParentName="FirewoodSeasonedBase">
+		<defName>FirewoodSeasoned_Acacia</defName>
+		<label>Высушенные дрова (акация)</label>
+		<description>Высушенные дрова, используемые в качестве топлива. 
+Скорость горения: 2.6 часов</description>
+		<statBases>
+			<BurnDurationHours>2.6</BurnDurationHours>
+		</statBases>
+	</ThingDef> -->
+
+  <Firewood_Birch.label>Дрова (берёза)</Firewood_Birch.label>
+  <Firewood_Birch.description>Свежие дрова, используемые в качестве топлива. 
+Скорость горения (свежее): 1.7 часов
+Скорость горения (высушенное): 2.3 часов</Firewood_Birch.description>
+
+  <FirewoodSeasoned_Birch.label>Высушенные дрова (берёза)</FirewoodSeasoned_Birch.label>
+  <FirewoodSeasoned_Birch.description>Высушенные дрова, используемые в качестве топлива. 
+Скорость горения: 2.3 часов</FirewoodSeasoned_Birch.description>
+
+  <Firewood_Oak.label>Дрова (дуб)</Firewood_Oak.label>
+  <Firewood_Oak.description>Свежие дрова, используемые в качестве топлива. 
+Скорость горения (свежее): 1.8 часов
+Скорость горения (высушенное): 2.9 часов</Firewood_Oak.description>
+
+  <FirewoodSeasoned_Oak.label>Высушенные дрова (дуб)</FirewoodSeasoned_Oak.label>
+  <FirewoodSeasoned_Oak.description>Высушенные дрова, используемые в качестве топлива. 
+Скорость горения: 2.9 часов</FirewoodSeasoned_Oak.description>
+
+  <Firewood_Bamboo.label>Дрова (бамбук)</Firewood_Bamboo.label>
+  <Firewood_Bamboo.description>Свежие дрова, используемые в качестве топлива. 
+Скорость горения (свежее): 0.9 часов
+Скорость горения (высушенное): 1.5 часов</Firewood_Bamboo.description>
+
+  <FirewoodSeasoned_Bamboo.label>Высушенные дрова (бамбук)</FirewoodSeasoned_Bamboo.label>
+  <FirewoodSeasoned_Bamboo.description>Высушенные дрова, используемые в качестве топлива. 
+Скорость горения: 1.5 часов</FirewoodSeasoned_Bamboo.description>
+
+  <Firewood_Dragonwood.label>Дрова (драконовое дерево)</Firewood_Dragonwood.label>
+  <Firewood_Dragonwood.description>Свежие дрова, используемые в качестве топлива. 
+Скорость горения (свежее): 1.5 часов
+Скорость горения (высушенное): 2.9 часов</Firewood_Dragonwood.description>
+
+  <FirewoodSeasoned_Dragonwood.label>Высушенные дрова (драконовое дерево)</FirewoodSeasoned_Dragonwood.label>
+  <FirewoodSeasoned_Dragonwood.description>Высушенные дрова, используемые в качестве топлива. 
+Скорость горения: 2.9 часов</FirewoodSeasoned_Dragonwood.description>
+
+  <Firewood_Mangrove.label>Дрова (мангровое дерево)</Firewood_Mangrove.label>
+  <Firewood_Mangrove.description>Свежие дрова, используемые в качестве топлива. 
+Скорость горения (свежее): 0.9 часов
+Скорость горения (высушенное): 3.1 часов</Firewood_Mangrove.description>
+
+  <FirewoodSeasoned_Mangrove.label>Высушенные дрова (мангровое дерево)</FirewoodSeasoned_Mangrove.label>
+  <FirewoodSeasoned_Mangrove.description>Высушенные дрова, используемые в качестве топлива. 
+Скорость горения: 3.1 часов</FirewoodSeasoned_Mangrove.description>
+
+
+</LanguageData>

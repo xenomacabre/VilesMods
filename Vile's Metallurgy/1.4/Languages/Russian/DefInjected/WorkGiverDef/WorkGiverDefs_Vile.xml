@@ -3,15 +3,15 @@
 
   <DoBillsMakeWeapons.label>Ковать вещи</DoBillsMakeWeapons.label>
   <DoBillsMakeWeapons.verb>Ковать</DoBillsMakeWeapons.verb>
-  <DoBillsMakeWeapons.gerund>Ковать на...</DoBillsMakeWeapons.gerund>
+  <DoBillsMakeWeapons.gerund>Ковать на</DoBillsMakeWeapons.gerund>
 
   <DoBillsMetalCasting.label>Отливать металлы</DoBillsMetalCasting.label>
   <DoBillsMetalCasting.verb>Отливать металлы</DoBillsMetalCasting.verb>
-  <DoBillsMetalCasting.gerund>Отливать металлы в...</DoBillsMetalCasting.gerund>
+  <DoBillsMetalCasting.gerund>Отливать металлы в</DoBillsMetalCasting.gerund>
 
   <DoBillsPottery.label>Заниматься гончарством</DoBillsPottery.label>
   <DoBillsPottery.verb>Производить керамику</DoBillsPottery.verb>
-  <DoBillsPottery.gerund>Производить керамику на...</DoBillsPottery.gerund>
+  <DoBillsPottery.gerund>Производить керамику на</DoBillsPottery.gerund>
 
 
 </LanguageData>

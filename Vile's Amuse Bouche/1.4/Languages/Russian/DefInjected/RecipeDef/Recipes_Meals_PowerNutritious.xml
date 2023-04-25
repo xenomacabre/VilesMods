@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakePastaPrimavera.label>Паста примавера (x2 питательная)</MakePastaPrimavera.label>
+  <MakePastaPrimavera.description>Питательная пища 60% (.85 питательность, хорошая)  
+ Происхождение: Новая Шотландия, Калифорния.
+  Блюдо из макарон с разнообразными свежими овощами.</MakePastaPrimavera.description>
+  <MakePastaPrimavera.jobString>Делаю пасту примавера.</MakePastaPrimavera.jobString>
+
+  <MakePilaf.label>Плов (x3 питательная)</MakePilaf.label>
+  <MakePilaf.description>Питательная пища 60% (.8 питательность, роскошная)
+ Происхождение: Узбекистан 
+  Рис, сваренный в бульоне с мясом или овощами и деликатно приправленный специями.</MakePilaf.description>
+  <MakePilaf.jobString>Готовлю плов.</MakePilaf.jobString>
+
+
+  <!-- POWER FOOD -->
+
+  <MakeSpaghettiBolognese.label>Спагетти болоньезе (x2 энергетическая)</MakeSpaghettiBolognese.label>
+  <MakeSpaghettiBolognese.description>Энергетическая пища 60% (.85 питательность)
+  Происхождение: Италия Benvenuto!
+ Спагетти с мясным соусом. Или митболами. Твой выбор.</MakeSpaghettiBolognese.description>
+  <MakeSpaghettiBolognese.jobString>Варю спагетти болоньезе.</MakeSpaghettiBolognese.jobString>
+
+  <MakeSeafoodChowder.label>Похлебка из морепродуктов (x2 энергетическая)</MakeSeafoodChowder.label>
+  <MakeSeafoodChowder.description>Энергетическая пища 60% (.9 питательность, хорошая) 
+ Происхождение: Новая Англия, США
+  Мясо рыбы в густом белом бульоне.</MakeSeafoodChowder.description>
+  <MakeSeafoodChowder.jobString>Варю похлёбку из морепродуктов.</MakeSeafoodChowder.jobString>
+
+
+</LanguageData>

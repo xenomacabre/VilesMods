@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tree harvest yield reduced by a factor of five, so firewood in increased by that amount -->
+
+  <ExtractPitch.label>Извлечь смолу (x15)</ExtractPitch.label>
+  <ExtractPitch.description>Извлекает легковоспламеняющуюся липкую смолу из смолистого дерева.</ExtractPitch.description>
+  <ExtractPitch.jobString>Извлекаю смолу.</ExtractPitch.jobString>
+
+  <ExtractVegOil.label>Извлечь растительное масло (топливо) из семян (x30)</ExtractVegOil.label>
+  <ExtractVegOil.description>Извлекает масло из семян, используемое для заправки ламп и изготовления свечей. Горит дольше, чем животные масла.</ExtractVegOil.description>
+  <ExtractVegOil.jobString>Извлекаю растительное масло.</ExtractVegOil.jobString>
+
+  <MakeFishOil.label>Извлечь рыбий жир (x15)</MakeFishOil.label>
+  <MakeFishOil.description>Извлекает рыбий жир, используемый для масляных ламп или изготовления свечей. Вонючий и не горит так долго, как животный жир.</MakeFishOil.description>
+  <MakeFishOil.jobString>Извлекаю рыбий жир.</MakeFishOil.jobString>
+
+  <MakeTurpentine.label>Сделать скипидар (x10)</MakeTurpentine.label>
+  <MakeTurpentine.description>Перегнать скипидар из смолы. Полезно в качестве топлива для ламп.</MakeTurpentine.description>
+  <MakeTurpentine.jobString>Делаю скипидар.</MakeTurpentine.jobString>
+
+  <MakeRushlight.label>Сделать рашлайт (x30)</MakeRushlight.label>
+  <MakeRushlight.description>Сделать рашлайты - свечка бедняка. Используется в фонаре. Рашлайт (англ. "rushlight") - это светильник, который использовался в прошлом для освещения жилых помещений. Это была длинная палка или металлический каркас, на конце которого была привязана или прикреплена кусочком воска или смолы пропитанная льняная нить или дикая тростниковая пальма. Когда нить была зажжена, она давала тусклый свет, который использовался для освещения комнаты.
+
+Рашлайты были популярны в Европе и Америке в течение нескольких веков, особенно в бедных сельских районах, где не было доступа к электричеству. Они также использовались на кораблях и в других местах, где было необходимо иметь надежный и экономичный источник света.</MakeRushlight.description>
+  <MakeRushlight.jobString>Делаю рашлайт.</MakeRushlight.jobString>
+
+  <MakeCandles.label>Делать маканые свечи (x20)</MakeCandles.label>
+  <MakeCandles.description>Изготовить свечи для заправки подсвечника. Маканые свечи (англ. "macaroni candles") - это свечи, которые были популярны в XVIII веке в Европе и Америке. Они получили свое название благодаря своей форме, которая напоминала макароны.
+
+Маканые свечи были очень дорогими, так как их изготовление было трудоемким процессом. Сначала пчелиный воск или парафин нагревались до жидкого состояния, затем в эту смесь добавляли цветные пигменты и ароматические масла. После этого масса наливалась в формы, которые имели форму макарон.</MakeCandles.description>
+  <MakeCandles.jobString>Делаю маканые свечи.</MakeCandles.jobString>
+
+
+  <!-- NEW KINDLING -->
+
+  <MakeKindlingFromGreenFirewood_Hand.label>Сделать дрова для растопки из брёвен свежих деревьев (x20)</MakeKindlingFromGreenFirewood_Hand.label>
+  <MakeKindlingFromGreenFirewood_Hand.description>Изготавливает дрова из брёвен свежих деревьев.</MakeKindlingFromGreenFirewood_Hand.description>
+  <MakeKindlingFromGreenFirewood_Hand.jobString>Разрубаю брёвна свежих деревьев на дрова.</MakeKindlingFromGreenFirewood_Hand.jobString>
+
+  <MakeKindlingFromSeasonedFirewood_Hand.label>Сделать дрова для растопки из брёвен высушенных деревьев (x25)</MakeKindlingFromSeasonedFirewood_Hand.label>
+  <MakeKindlingFromSeasonedFirewood_Hand.description>Изготавливает дрова из бревен высушенных деревьев.</MakeKindlingFromSeasonedFirewood_Hand.description>
+  <MakeKindlingFromSeasonedFirewood_Hand.jobString>Разрубаю брёвна высушенных дерева в дрова.</MakeKindlingFromSeasonedFirewood_Hand.jobString>
+
+  <MakeFirewoodFromPlanks_Hand.label>Сделать дрова для растопки из досок или древесины (x50)</MakeFirewoodFromPlanks_Hand.label>
+  <MakeFirewoodFromPlanks_Hand.description>Изготавливает дрова из досок или древесины на растопку.</MakeFirewoodFromPlanks_Hand.description>
+  <MakeFirewoodFromPlanks_Hand.jobString>Рублю доски на дрова.</MakeFirewoodFromPlanks_Hand.jobString>
+
+  <MakeRivenBoards.label>Изготовить древесину из брёвен (x30)</MakeRivenBoards.label>
+  <MakeRivenBoards.description>Разрубает древесину поперек волокон радиально, чтобы сделать тонкие клинья, которые можно использовать для грубого строительства или в качестве быстрогорящего топлива.</MakeRivenBoards.description>
+  <MakeRivenBoards.jobString>Рублю брёвна на древесину.</MakeRivenBoards.jobString>
+
+
+</LanguageData>

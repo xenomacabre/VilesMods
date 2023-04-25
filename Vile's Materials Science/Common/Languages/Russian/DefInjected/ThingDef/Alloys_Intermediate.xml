@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Vanadium.label>Ванадиум (V)</Vanadium.label>
+  <Vanadium.description>Добавка к сплаву, используемая для повышения прочности некоторых сплавов.</Vanadium.description>
+
+  <Solder.label>Припой</Solder.label>
+  <Solder.description>Сплав, используемый для соединения других материалов, часто для электроники.</Solder.description>
+
+  <Manganese.label>Марганец (Mn)</Manganese.label>
+  <Manganese.description>Добавка к сплаву, используемая для повышения прочности и обрабатываемости промышленных сталей.</Manganese.description>
+
+  <Zinc.label>Цинк (Zn)</Zinc.label>
+  <Zinc.description>Важная легирующая добавка, используемая для цинкования низкоуглеродистых сталей и создания латуни.</Zinc.description>
+
+  <Molybdenum.label>Молибден (Mo)</Molybdenum.label>
+  <Molybdenum.description>Произносится мə-либ-дə-нəм, этот металл с добавками имеет невероятно высокую температуру плавления, поэтому его часто используют для повышения стабильности сплава при высоких температурах.</Molybdenum.description>
+
+  <PureSilver.label>Чистое серебро (Ag)</PureSilver.label>
+  <PureSilver.description>Само по себе бесполезно. Превратите его в стерлинговое серебро, после чего из него можно отчеканить серебряные монеты.</PureSilver.description>
+
+
+</LanguageData>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Polymers.label>Этилен</Polymers.label>
+  <Polymers.description>Этилен является продуктом переработки сырой нефти. Это бесцветный легковоспламеняющийся газ, используемый для производства полиэстера, ПВХ, полиэтилена и полистирола на нефтехимическом переработчике.</Polymers.description>
+
+  <Sulphates.label>Бензол</Sulphates.label>
+  <Sulphates.description>Бензол является продуктом переработки сырой нефти. Это бесцветная ароматическая легковоспламеняющаяся жидкость, используемая для производства напалма, поликарбоната, эпоксидной смолы, полистирола и арамидных волокон (таких как кевлар) на нефтехимическом переработчике.</Sulphates.description>
+
+  <Propylene.label>Пропилен</Propylene.label>
+  <Propylene.description>Пропилен является продуктом переработки сырой нефти. Это бесцветный газ, используемый для изготовления акрила.</Propylene.description>
+
+
+  <!-- <ThingDef ParentName="SK_ResourceBase">
+		<defName>Lubricant</defName>
+		<label>Lubricant</label>
+		<description>Synthetic lubricants are required to keep high performance machines running.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Polymers</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<tickerType>Rare</tickerType>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>2</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>5</Flammability>
+			<Mass>0.07</Mass>
+			<Bulk>0.07</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>Hydrocarbons</li>
+		</thingCategories>
+		<stackLimit>600</stackLimit>
+	</ThingDef> -->
+
+  <Butadiene.label>Бутадиен</Butadiene.label>
+  <Butadiene.description>Бутадиен, произносится как "бью-та-дай-ин", является крайне огнеопасным безцветным газом. Он в основном используется для синтеза резины и ПВХ-пластмасс.</Butadiene.description>
+
+  <Xylene.label>Ксилол</Xylene.label>
+  <Xylene.description>Ксилол — важный нефтехимический продукт, используемый для производства различных синтетических тканей на нефтехимическом заводе. Он также входит в состав некоторых лекарств и наркотиков. И он легко воспламеняется.</Xylene.description>
+
+  <SyntheticFibers.label>Синтетические волокна</SyntheticFibers.label>
+  <SyntheticFibers.description>Синтетическое волокно, полученное из полиэтилентерефталата, более известное как ПЭТ, в основном используется для ткачества полиэфирной ткани на ткацком станке. Полимерные волокна можно производить с использованием ксилола и этилена или автоматически в нефтеперерабатывающем переработчике.</SyntheticFibers.description>
+
+  <HMFibers.label>Высокомодульные волокна</HMFibers.label>
+  <HMFibers.description>Эти волокна прядут на специальном рафинировочном заводе. Это форма полиэтилена, называемая полиэтиленом сверхвысокой молекулярной массы или UHMWPE. В отличие от HDPE, он чрезвычайно прочен и может быть включен или вплетен в баллистические материалы.</HMFibers.description>
+
+  <Compaste.label>Смесь пасты</Compaste.label>
+  <Compaste.description>Термореактивная эпоксидная смола имеет множество применений, включая производство одежды и в качестве полимерной матрицы для композитных материалов, таких как стекловолокно.</Compaste.description>
+
+  <Polystyrene.label>Полистирол</Polystyrene.label>
+  <Polystyrene.description>Полистирол представляет собой полимер, полученный из продуктов этилена и бензола. У него есть несколько практических коммерческих применений, но здесь он более важен как ингредиент напалма. Он также используется для изготовления АБС-пластика и является основным компонентом синтетического каучука.</Polystyrene.description>
+
+  <SyntheticAmmonia.label>Аммиак</SyntheticAmmonia.label>
+  <SyntheticAmmonia.description>Аммиак синтезируется через азот и водород с использованием углеводородов в качестве сырья. Это полезно для взрывчатых веществ, в качестве рабочей жидкости для заводов с бинарным циклом и для некоторых пластиков.</SyntheticAmmonia.description>
+
+  <Neutroamine.label>Нейтроамин</Neutroamine.label>
+  <Neutroamine.description>Синтетический химический прекурсор, изготовленный из искусственно созданного растения. Бесполезный сам по себе, многие лекарства требуют нейтроамина в качестве ингредиента.</Neutroamine.description>
+
+
+</LanguageData>

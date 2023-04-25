@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeKippers.label>Копченая рыба (x1 пища для ума)</MakeKippers.label>
+  <MakeKippers.description>Пища для ума 60% (.8 питательность)
+Происхождение: Великобритания
+Способ приготовления рыбы на гриле с засолкой и копчением.</MakeKippers.description>
+  <MakeKippers.jobString>Копчу рыбу.</MakeKippers.jobString>
+
+  <MakeRamen.label>Рамен (x2 пища для ума)</MakeRamen.label>
+  <MakeRamen.description>Пища для ума 60% (.8 питательность, отлично)  
+Происхождение: Япония
+Суп с лапшой с различными начинками, такими как мясо, овощи, яйца или ферментированные побеги бамбука.</MakeRamen.description>
+  <MakeRamen.jobString>Делаю рамен.</MakeRamen.jobString>
+
+  <MakeOystersRimefeller.label>Устрицы (x2 пища для ума)</MakeOystersRimefeller.label>
+  <MakeOystersRimefeller.description>Пища для ума 60% (.85 питательность, .2 Joy, роскошный)  
+Происхождение: Новый Орлеан, США
+Устрицы, приготовленные с травами и панировочными сухарями.</MakeOystersRimefeller.description>
+  <MakeOystersRimefeller.jobString>Приготавливаю устрицы.</MakeOystersRimefeller.jobString>
+
+
+  <!-- HEALTH FOOD -->
+
+  <MakeFlaxseedSmoothie.label>Cмузи из льняного семени (x2 здоровая пища)</MakeFlaxseedSmoothie.label>
+  <MakeFlaxseedSmoothie.description>Здоровая пища 40% (.6 питательность, ужасно)  
+Напиток из смеси семян льна и фруктов. Не очень вкусно.</MakeFlaxseedSmoothie.description>
+  <MakeFlaxseedSmoothie.jobString>Приготавливаю смузи из льняного семени</MakeFlaxseedSmoothie.jobString>
+
+  <MakeHealthyBroth.label>Полезный бульон (x2 здоровая пища)</MakeHealthyBroth.label>
+  <MakeHealthyBroth.description>Здоровая пища 60% (.6 питательность, ужасно)  
+Бульон из грибов, имбиря и лука. Запах отличный, скучноватый вкус.</MakeHealthyBroth.description>
+  <MakeHealthyBroth.jobString>Приготавливаю полезный бульона.</MakeHealthyBroth.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <ThingDef ParentName="SK_ResourceBase">
+		<defName>PureSilver</defName>
+		<label>FineSilver</label>
+		<description>Too soft to be used as-is. Make it into sterling silver or press it into coins.<graphicData>
+			<texPath>Things/Item/Ores/Gold</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(255,215,0)</color>
+		</graphicData>
+		<soundInteract>Silver_Drop</soundInteract>
+		<soundDrop>Silver_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<stackLimit>150</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MarketValue>25</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.25</Mass>
+			<Bulk>0.25</Bulk>
+			<RoyalFavorValue>0.015</RoyalFavorValue>
+		</statBases>
+		<thingCategories>
+			<li>PRS</li>
+		</thingCategories>
+		<smeltable>true</smeltable>
+		<stuffProps>
+			<categories>
+				<li>Matty</li>
+			</categories>
+		</stuffProps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<deepCommonality>0.6</deepCommonality>
+		<deepCountPerCell>1000</deepCountPerCell>
+		<deepCountPerPortion>10</deepCountPerPortion>
+		<deepLumpSizeRange>
+			<min>1</min>
+			<max>12</max>
+		</deepLumpSizeRange>
+	</ThingDef> -->
+
+  <Titanomagnetite.label>Титаномагнетит</Titanomagnetite.label>
+  <Titanomagnetite.description>Титаномагнетит (Fe+Ti+V) - это редкий магнетит, богатый титаном.</Titanomagnetite.description>
+
+  <Sphalerite.label>Сфалерит</Sphalerite.label>
+  <Sphalerite.description>Сфалерит (Zn+Mn+Co) - минерал представляет собой цинковую руду (Zn). Марганец (Mn) и кобальт (Co) также могут быть извлечены на электролитическом переработчике.</Sphalerite.description>
+
+  <BogIron.label>Болотное железо</BogIron.label>
+  <BogIron.description>Готит (Fe + Mn) — это железная руда (Fe) в соединении с марганцем. Марганец (Mn) также можно получить на электроплавильне.</BogIron.description>
+
+  <Quartz.label>Кварц</Quartz.label>
+  <Quartz.description>Кварц (SiO_2) - это минерал почти чистого кремнезема.</Quartz.description>
+
+
+</LanguageData>

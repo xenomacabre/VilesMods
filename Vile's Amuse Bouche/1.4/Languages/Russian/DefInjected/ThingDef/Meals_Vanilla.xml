@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- STIR FRY (FINE MEAL) -->
+
+  <MealFine.label>Блюдо мяса и овощей</MealFine.label>
+  <MealFine.description>.8 питательность, вкусное 
+Мясо и овощи на сковороде, обжаренные.</MealFine.description>
+
+  <MealFine_MeatVile.label>Блюдо из мяса</MealFine_MeatVile.label>
+  <MealFine_MeatVile.description>.8 питательность, вкусное 
+Мясо и другие ингредиенты на сковороде, жареные.</MealFine_MeatVile.description>
+
+  <MealFine_VegVile.label>Вегетарианское блюдо</MealFine_VegVile.label>
+  <MealFine_VegVile.description>.8 питательность, вкусное 
+ Овощное ассорти на сковороде, обжаренное.</MealFine_VegVile.description>
+
+
+  <!-- STEAK DINNER (LAVISH MEAL) SURF N TURF, BEAN N GREEN -->
+
+  <MealLavish.label>Обжаренный стейк</MealLavish.label>
+  <MealLavish.description>.75 питательность, роскошное  
+ Обжаренные на сковороде стейки из отборного мяса или тофу, украшенные овощами.</MealLavish.description>
+
+  <MealLavish_MeatVile.label>Блюдо "волны и трава"</MealLavish_MeatVile.label>
+  <MealLavish_MeatVile.description>.75 питательность, роскошное  
+ Роскошное блюдо, состоящее из морепродуктов и мяса высшего качества.</MealLavish_MeatVile.description>
+
+  <MealLavish_VegVile.label>Блюдо из фасоли и зелени</MealLavish_VegVile.label>
+  <MealLavish_VegVile.description>.75 питательность, роскошное  
+ Роскошный блюдо, состоящее из соевого творога (также известного как тофу) и овощей.</MealLavish_VegVile.description>
+
+
+</LanguageData>

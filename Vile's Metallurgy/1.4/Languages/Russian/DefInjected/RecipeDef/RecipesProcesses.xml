@@ -22,8 +22,8 @@
   <wootz_process.label>Изготовить традиционную сталь Вутц (вукцинит) (x60)</wootz_process.label>
   <wootz_process.description>Подготовьте и обжожгите тигель для получения стали Вутц, используя органические вещества в качестве источника углерода. Занимает 3 дня.</wootz_process.description>
 
-  <wootzPigIron_process.label>Сделать традиционную сталь Вутц (вукцинит) из чугуна (x60)</wootzPigIron_process.label>
-  <wootzPigIron_process.description>Подготовьте и обжожгите тигель для производства стали Вутц, используя чугун в качестве источника углерода. Занимает 2 дня.</wootzPigIron_process.description>
+  <wootzPigIron_process.label>Сделать традиционную сталь Вутц (вукцинит) из сырьевого железа (x60)</wootzPigIron_process.label>
+  <wootzPigIron_process.description>Подготовьте и обжожгите тигель для производства стали Вутц, используя сырьевое железо в качестве источника углерода. Занимает 2 дня.</wootzPigIron_process.description>
 
   <MakeClayBricksCementation.label>Обжечь глинянные кирпичи (x80)</MakeClayBricksCementation.label>
   <MakeClayBricksCementation.description>Обожгите кирпичи из мягкой глины. Занимает 24 часа.</MakeClayBricksCementation.description>

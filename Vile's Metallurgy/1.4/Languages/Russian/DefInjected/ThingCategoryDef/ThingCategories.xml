@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RawLogs.label>Сырые бревна</RawLogs.label>
+  <Hardwoods.label>Твердая древесина</Hardwoods.label>
+  <Softwoods.label>Мягкая древесина</Softwoods.label>
+  <Ultrahardwoods.label>Ультратвердая древесина</Ultrahardwoods.label>
+  <BambooLogs.label>Неочищенный бамбук</BambooLogs.label>
+  <HardwoodLumber.label>Пиломатериалы из твердой древесины</HardwoodLumber.label>
+  <SoftwoodLumber.label>Пиломатериалы из мягкой древесины</SoftwoodLumber.label>
+  <UltrahardwoodLumber.label>Ультратвердые пиломатериалы</UltrahardwoodLumber.label>
+  <EngineeredLumber.label>Инженерная древесина</EngineeredLumber.label>
+  <FirewoodSeasoned.label>Дрова (высушенные)</FirewoodSeasoned.label>
+  <FirewoodGreen.label>Дрова (свежие)</FirewoodGreen.label>
+
+
+</LanguageData>

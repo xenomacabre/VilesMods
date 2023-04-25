@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Pasta.label>Паста</Pasta.label>
+  <Pasta.description>Сухие макароны из муки.</Pasta.description>
+
+  <RawPeppers.label>Красные перцы</RawPeppers.label>
+  <RawPeppers.description>Эти перцы относятся к роду Capsicum — очень острые.</RawPeppers.description>
+
+  <Seitan.label>Соевый белок</Seitan.label>
+  <Seitan.description>Сейтан — это мясной белок, изготовленный из жизненно важного пшеничного глютена, который поглощает вкус всего, в чем его готовят. Тысячи лет назад им наслаждались монахи-вегетарианцы, и его иногда называют «пшеничным мясом».</Seitan.description>
+
+
+</LanguageData>

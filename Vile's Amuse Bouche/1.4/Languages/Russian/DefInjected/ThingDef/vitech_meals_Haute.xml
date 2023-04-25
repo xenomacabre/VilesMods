@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Duckalorange.label>Утка с апельсином</Duckalorange.label>
+  <Duckalorange.description>Высокая кухня 60% (.1 питательность, .3 удовольствие, .3 удовольствие, роскошная, красота +16)
+  Происхождение: Франция
+  Жареная утка в апельсиновом соусе. Пятизвездочная.</Duckalorange.description>
+
+
+  <!-- <ThingDef ParentName="SK_MealBase">
+		<defName>ChileenNogada</defName>
+		<label>Чили в ногаде</label>
+		<description></description>
+		<graphicData>
+			<texPath>Things/Item/Meal/ChileenNogada</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>100</MarketValue>
+			<WorkToMake>2700</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>1.0</Nutrition>
+			<Beauty>8.0</Beauty>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteLavishMeal</tasteThought>
+			<preferability>MealLavish</preferability>
+			<joy>0.2</joy>
+			<joyKind>Gluttonous</joyKind>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedHauteCuisine</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef> -->
+
+  <ThreeBirdRoast.label>Жаркое из трех птиц</ThreeBirdRoast.label>
+  <ThreeBirdRoast.description>Высокая кухня 60% (.85 питательность, .4 удовольствие, роскошная, красота +8)  
+Происхождение: США
+АКА Турдакен или Гудакен, это три птицы, одна внутри другой, панированные и приправленные.</ThreeBirdRoast.description>
+
+  <SteakWellington.label>Стейк Веллингтон</SteakWellington.label>
+  <SteakWellington.description>Высокая кухня 60% (1.0 питательность, .9 удовольствие, роскошная, красота +16)  
+ Происхождение: Великобритания
+  Филе первосортного мяса, завернутое в паштетно-грибную смесь в слоеном тесте. Для паштета требуется вино, коньяк или бренди. Чрезвычайно трудно сделать.</SteakWellington.description>
+
+  <Souffle.label>Суфле</Souffle.label>
+  <Souffle.description>Высокая кухня 80% (.75 питательность, .8 удовольствие, роскошная, красота +24)  
+ Происхождение: Франция
+  Воздушное блюдо на яичной основе, которое может быть как пикантным (сыр), так и сладким (шоколад).</Souffle.description>
+
+  <Consomme.label>Консоме</Consomme.label>
+  <Consomme.description>Высокая кухня 80% (1.0 питательность, .8 удовольствие, роскошная, красота +24)  
+ Происхождение: Франция
+  Верх кулинарной сложности, консоме — это прозрачный суп, приготовленный путем удаления всех примесей из его ингредиентов.</Consomme.description>
+
+
+</LanguageData>

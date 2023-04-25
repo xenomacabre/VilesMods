@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeSilicon_Electric.label>Сделать кремний x5</MakeSilicon_Electric.label>
+  <MakeSilicon_Electric.description>Не совсем проводит, не совсем не проводит. Полупроводник как компонент для электроники.</MakeSilicon_Electric.description>
+  <MakeSilicon_Electric.jobString>Делает кремний.</MakeSilicon_Electric.jobString>
+
+  <MakeElectronicComponents.label>Собрать электронные компоненты x5</MakeElectronicComponents.label>
+  <MakeElectronicComponents.description>Электронные компоненты являются важным базовым компонентом электроники.</MakeElectronicComponents.description>
+  <MakeElectronicComponents.jobString>Собирает электронные компоненты.</MakeElectronicComponents.jobString>
+
+  <MakeIntegratedCircuits.label>Собрать набор интегральных микросхем x5</MakeIntegratedCircuits.label>
+  <MakeIntegratedCircuits.description>Собирать набор интегральных микросхемы Используется при создании электроники более высокого уровня. Производит 5.</MakeIntegratedCircuits.description>
+  <MakeIntegratedCircuits.jobString>Собирает интегральных микросхем.</MakeIntegratedCircuits.jobString>
+
+  <MakeMicrochipIntegratedCircuits.label>Собрать набор микрочипов x1</MakeMicrochipIntegratedCircuits.label>
+  <MakeMicrochipIntegratedCircuits.description>Собрать набор микрочипов. Используется в электронике высокого уровня. Производит 1.</MakeMicrochipIntegratedCircuits.description>
+  <MakeMicrochipIntegratedCircuits.jobString>Собирает набор микрочипов.</MakeMicrochipIntegratedCircuits.jobString>
+
+  <MakeBioelectronicDevices.label>Собрать квантовый компьютер</MakeBioelectronicDevices.label>
+  <MakeBioelectronicDevices.description>Собрать квантовый компьютер. Используется в высокоуровневой электронике и бионике. Производит 1.</MakeBioelectronicDevices.description>
+  <MakeBioelectronicDevices.jobString>Собирает квантовый компьютер.</MakeBioelectronicDevices.jobString>
+
+
+</LanguageData>

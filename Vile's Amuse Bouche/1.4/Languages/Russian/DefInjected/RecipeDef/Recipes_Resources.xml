@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeFlour.label>Молоть муку</MakeFlour.label>
+  <MakeFlour.description>Измельчите пшеницу или рис в клейкую муку. Производит 10.</MakeFlour.description>
+  <MakeFlour.jobString>Измельчаю муку.</MakeFlour.jobString>
+
+  <CraftCornmeal.label>Молоть кукурузную муку</CraftCornmeal.label>
+  <CraftCornmeal.description>Перемолоть кукурузу в кукурузную муку. Производит 4.</CraftCornmeal.description>
+  <CraftCornmeal.jobString>Измельчаю муку.</CraftCornmeal.jobString>
+
+  <MakePasta.label>Сделать пасту (x5)</MakePasta.label>
+  <MakePasta.description>Делает макароны из муки для использования в рецептах.</MakePasta.description>
+  <MakePasta.jobString>Делаю пасту.</MakePasta.jobString>
+
+  <Seitan.label>Сделать сеитан (x5)</Seitan.label>
+  <Seitan.description>Сейтан — это мясной белок, изготовленный из жизненно важного пшеничного глютена, который поглощает вкус всего, в чем его готовят. Тысячи лет назад им наслаждались монахи-вегетарианцы, и его иногда называют «пшеничным мясом». Производит 5.</Seitan.description>
+  <Seitan.jobString>Делаю сеитан.</Seitan.jobString>
+
+
+</LanguageData>

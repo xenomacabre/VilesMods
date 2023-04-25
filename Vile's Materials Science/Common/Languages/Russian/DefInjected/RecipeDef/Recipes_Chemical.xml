@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeChlorine.label>Синтез хлора и щелочи из соли</MakeChlorine.label>
+  <MakeChlorine.description>Хлор и гидроксид натрия создаются из хлорида натрия путем электролиза.</MakeChlorine.description>
+  <MakeChlorine.jobString>Синтезирую хлор и щелоч.</MakeChlorine.jobString>
+
+  <MakePTFE.label>Сделать тефлон</MakePTFE.label>
+  <MakePTFE.description>Тефлон, или ПТФЭ (политетрафторэтилен), представляет собой термопласт с чрезвычайно высокой коррозионной и химической стойкостью, стойкостью к трению и является гидрофобным. Его применение включает в себя защитное снаряжение в качестве биоматериала и смазку для определенных машин. Он очень токсичен, поэтому лучше не использовать его для покрытия кастрюль. Изготовлен путем полимеризации соединения, состоящего из хлороформа, плавиковой кислоты и фторида кальция.</MakePTFE.description>
+  <MakePTFE.jobString>Изготавливаю тефлон.</MakePTFE.jobString>
+
+  <MakeCelluloseCotton.label>Извлечь целлюлозу из хлопка или дымолиста (x20)</MakeCelluloseCotton.label>
+  <MakeCelluloseCotton.description>Извлекает целлюлозу для изготовления боеприпасов или вискозной ткани. Быстро и эффективно.</MakeCelluloseCotton.description>
+  <MakeCelluloseCotton.jobString>Извлекаю целлюлозу.</MakeCelluloseCotton.jobString>
+
+  <MakeCelluloseWood.label>Извлечь целлюлозу из дров (x15)</MakeCelluloseWood.label>
+  <MakeCelluloseWood.description>Извлечение целлюлозы из дров - это процесс разложения древесины в ее составные части с последующим выделением целлюлозы. Этот процесс может быть выполнен с использованием химических реагентов, таких как сода, серная кислота или хлор, а также с помощью бактерий или ферментов. Медленно и неэффективно.</MakeCelluloseWood.description>
+  <MakeCelluloseWood.jobString>Извлекаю целлюлозу.</MakeCelluloseWood.jobString>
+
+  <MakeNitrocellulose.label>Сделать порох на основе нитроцеллюлозы (x20)</MakeNitrocellulose.label>
+  <MakeNitrocellulose.description>Изготавливает порох. Nitrocellulose propellant - это порох, который изготавливается путем нитрации целлюлозы с последующей обработкой различными химическими соединениями. Этот тип пороха широко используется в огнестрельном оружии, а также в ракетах и других взрывчатых устройствах. Производится 20.</MakeNitrocellulose.description>
+  <MakeNitrocellulose.jobString>Изготавливаю порох.</MakeNitrocellulose.jobString>
+
+
+  <!-- Plant Wax - replaces paraffins for candles -->
+
+  <MakePlantWax.label>Сделать растительный воск (x15)</MakePlantWax.label>
+  <MakePlantWax.description>Растительный воск производится из растительного сырья, такого кокос или соевый воск из соевых бобов. Процесс производства растительного воска может варьироваться в зависимости от типа растительного сырья, но в целом он включает в себя очистку и обработку растительных материалов для выделения воска. Растительный воск может использоваться в качестве компонента в свечах. Производится 15.</MakePlantWax.description>
+  <MakePlantWax.jobString>Делаю растительный воск.</MakePlantWax.jobString>
+
+
+  <!-- Sulfur -->
+
+  <ExtractSulfur.label>Извлечь серу (x15)</ExtractSulfur.label>
+  <ExtractSulfur.description>Сера может быть найдена в англезите и сфалерите. Извлеките ее. Процесс уничтожает руду. Производит 15.</ExtractSulfur.description>
+  <ExtractSulfur.jobString>Извлекаю серу.</ExtractSulfur.jobString>
+
+
+  <!-- Halite -->
+
+  <ExtractSalt.label>Извлечь соль (x20)</ExtractSalt.label>
+  <ExtractSalt.description>Хлорид натрия она же поваренная соль - часто можно найти в аргиллитах и известняках в виде галита.  Галит - это минерал, который представляет собой кристаллическую форму хлорида натрия (NaCl) образованный в результате осаждения морских отложений. Не так эффективно, как добыча напрямую.</ExtractSalt.description>
+  <ExtractSalt.jobString>Извлекаю соль.</ExtractSalt.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeWoodPlanks_Hand.label>Сделать простые доски из брёвен</MakeWoodPlanks_Hand.label>
+  <MakeWoodPlanks_Hand.description>Вырезать и ламинировать различные виды древесины, чтобы сделать доски. Это более эффективное использование бревна, но оно довольно уродливо, если использовать для строительства.</MakeWoodPlanks_Hand.description>
+  <MakeWoodPlanks_Hand.jobString>Делаю простые доски из досок высушенного или свежего дерева.</MakeWoodPlanks_Hand.jobString>
+
+  <SawPlanks_Plywood_Planks.label>Сделать простые доски из красивых досок</SawPlanks_Plywood_Planks.label>
+  <SawPlanks_Plywood_Planks.description>Вырезать и ламинировать различные виды древесины, чтобы сделать доски. Это более эффективное использование бревна, но оно довольно уродливо, если использовать для строительства.</SawPlanks_Plywood_Planks.description>
+  <SawPlanks_Plywood_Planks.jobString>Делаю простые доски из досок высушенного или свежего дерева.</SawPlanks_Plywood_Planks.jobString>
+
+  <MakeWoodPlanks_Electric.label>Сделать простые доски из брёвен</MakeWoodPlanks_Electric.label>
+  <MakeWoodPlanks_Electric.description>Вырезать и ламинировать различные виды древесины, чтобы сделать доски. Это более эффективное использование бревна, но оно довольно уродливо, если использовать для строительства.</MakeWoodPlanks_Electric.description>
+  <MakeWoodPlanks_Electric.jobString>Делаю простые доски из брёвен.</MakeWoodPlanks_Electric.jobString>
+
+  <MillPlanks_Plywood_Planks.label>Сделать простые доски из красивых досок</MillPlanks_Plywood_Planks.label>
+  <MillPlanks_Plywood_Planks.description>Вырезать и ламинировать различные виды древесины, чтобы сделать доски. Это более эффективное использование бревна, но оно довольно уродливо, если использовать для строительства.</MillPlanks_Plywood_Planks.description>
+  <MillPlanks_Plywood_Planks.jobString>Делаю простые доски из красивых.</MillPlanks_Plywood_Planks.jobString>
+
+  <SawPlanks_Cecropia.label>Распилить брёвна цекорпии на цекорпиевые доски</SawPlanks_Cecropia.label>
+  <SawPlanks_Cecropia.description>Распилить брёвна на полосы и склеить слои вместе, чтобы получились красивые доски. Довольно медленно. Производится 15</SawPlanks_Cecropia.description>
+  <SawPlanks_Cecropia.jobString>Распиливаю брёвна на цекорпиевые доски.</SawPlanks_Cecropia.jobString>
+
+  <MillPlanks_Cecropia.label>Распилить брёвна цекорпии на цекорпиевые доски</MillPlanks_Cecropia.label>
+  <MillPlanks_Cecropia.description>Распилить брёвна цекорпии на большую партии цекорпиевых досок. Производит 30.</MillPlanks_Cecropia.description>
+  <MillPlanks_Cecropia.jobString>Распиливаю брёвна на цекорпиевые доски.</MillPlanks_Cecropia.jobString>
+
+  <SawPlanks_Pine.label>Распилить брёвна сосны на сосновые доски</SawPlanks_Pine.label>
+  <SawPlanks_Pine.description>Распилить брёвна на полосы и склеить слои вместе, чтобы получились красивые доски. Довольно медленно. Производится 15.</SawPlanks_Pine.description>
+  <SawPlanks_Pine.jobString>Распиливаю брёвна на сосновые доски.</SawPlanks_Pine.jobString>
+
+  <MillPlanks_Pine.label>Распилить брёвна сосны на сосновые доски</MillPlanks_Pine.label>
+  <MillPlanks_Pine.description>Распилить брёвна сосны на большую партии сосновых досок. Производит 30.</MillPlanks_Pine.description>
+  <MillPlanks_Pine.jobString>Распиливаю брёвна на сосновые доски.</MillPlanks_Pine.jobString>
+
+  <SawPlanks_Willow.label>Распилить брёвна ивы на ивовые доски</SawPlanks_Willow.label>
+  <SawPlanks_Willow.description>Распилить брёвна на полосы и склеить слои вместе, чтобы получились красивые доски. Довольно медленно. Производится 15.</SawPlanks_Willow.description>
+  <SawPlanks_Willow.jobString>Распиливаю брёвна на ивовые доски.</SawPlanks_Willow.jobString>
+
+  <MillPlanks_Willow.label>Распилить брёвна ивы на ивовые доски</MillPlanks_Willow.label>
+  <MillPlanks_Willow.description>Распилить брёвна ивы на большую партии ивовых досок. Производит 30.</MillPlanks_Willow.description>
+  <MillPlanks_Willow.jobString>Распиливаю брёвна на ивовые доски.</MillPlanks_Willow.jobString>
+
+  <MakeRedWoodPlanks_Hand.label>Распилить брёвна красного дерева на доски из красного дерева</MakeRedWoodPlanks_Hand.label>
+  <MakeRedWoodPlanks_Hand.description>Распилить брёвна на полосы и склеить слои вместе, чтобы получились красивые доски. Довольно медленно. Производится 15.</MakeRedWoodPlanks_Hand.description>
+  <MakeRedWoodPlanks_Hand.jobString>Распиливаю брёвна на доски из красного дерева.</MakeRedWoodPlanks_Hand.jobString>
+
+  <MakeRedWoodPlanks_Electric.label>Распилить брёвна красного дерева на доски из красного дерева</MakeRedWoodPlanks_Electric.label>
+  <MakeRedWoodPlanks_Electric.description>Распилить брёвна красного дерева на большую партии досок из красного дерева. Производит 30.</MakeRedWoodPlanks_Electric.description>
+  <MakeRedWoodPlanks_Electric.jobString>Распиливаю брёвна на доски из красного дерева.</MakeRedWoodPlanks_Electric.jobString>
+
+  <SawPlanks_Cypress.label>Распилить брёвна кипариса на кипарисовые доски</SawPlanks_Cypress.label>
+  <SawPlanks_Cypress.description>Распилить брёвна на полосы и склеить слои вместе, чтобы получились красивые доски. Довольно медленно. Производится 15.</SawPlanks_Cypress.description>
+  <SawPlanks_Cypress.jobString>Распиливаю брёвна на кипарисовые доски.</SawPlanks_Cypress.jobString>
+
+  <MillPlanks_Cypress.label>Распилить брёвна кипариса на кипарисовые доски</MillPlanks_Cypress.label>
+  <MillPlanks_Cypress.description>Распилить брёвна кипариса на большую партии кипарисовых досок. Производит 30.</MillPlanks_Cypress.description>
+  <MillPlanks_Cypress.jobString>Распиливаю брёвна на кипарисовые доски.</MillPlanks_Cypress.jobString>
+
+  <SawPlanks_Poplar.label>Распилить брёвна тополя на тополиные доски</SawPlanks_Poplar.label>
+  <SawPlanks_Poplar.description>Распилить брёвна на полосы и склеить слои вместе, чтобы получились красивые доски. Довольно медленно. Производится 15.</SawPlanks_Poplar.description>
+  <SawPlanks_Poplar.jobString>Распиливаю брёвна на тополиные доски.</SawPlanks_Poplar.jobString>
+
+  <MillPlanks_Poplar.label>Распилить брёвна тополя на тополиные доски</MillPlanks_Poplar.label>
+  <MillPlanks_Poplar.description>Распилить брёвна тополя на большую партии тополиных досок. Производит 30.</MillPlanks_Poplar.description>
+  <MillPlanks_Poplar.jobString>Распиливаю брёвна на тополиные доски.</MillPlanks_Poplar.jobString>
+
+  <SawPlanks_Maple.label>Распилить брёвна клёна на кленовые доски</SawPlanks_Maple.label>
+  <SawPlanks_Maple.description>Распилить брёвна на полосы и склеить слои вместе, чтобы получились красивые доски. Довольно медленно. Производится 15.</SawPlanks_Maple.description>
+  <SawPlanks_Maple.jobString>Распиливаю брёвна на кленовые доски.</SawPlanks_Maple.jobString>
+
+  <MillPlanks_Maple.label>Распилить брёвна клёна на кленовые доски</MillPlanks_Maple.label>
+  <MillPlanks_Maple.description>Распилить брёвна клёна на большую партии кленовых досок. Производит 30.</MillPlanks_Maple.description>
+  <MillPlanks_Maple.jobString>Распиливаю брёвна на кленовые доски.</MillPlanks_Maple.jobString>
+
+  <SawPlanks_Teak.label>Распилить брёвна тикового дерева на доски из тикового дерева</SawPlanks_Teak.label>
+  <SawPlanks_Teak.description>Распилить брёвна на полосы и склеить слои вместе, чтобы получились красивые доски. Довольно медленно. Производится 15.</SawPlanks_Teak.description>
+  <SawPlanks_Teak.jobString>Распиливаю брёвна на доски из тикового дерева.</SawPlanks_Teak.jobString>
+
+  <MillPlanks_Teak.label>Распилить брёвна тикового дерева на доски из тикового дерева</MillPlanks_Teak.label>
+  <MillPlanks_Teak.description>Распилить брёвна тикового дерева на большую партии досок из тикового дерева. Производит 30.</MillPlanks_Teak.description>
+  <MillPlanks_Teak.jobString>Распиливаю брёвна на доски из тикового дерева.</MillPlanks_Teak.jobString>
+
+  <SawPlanks_Drago.label>Распилить брёвна дуба драконового дерева на доски из драконового дерева</SawPlanks_Drago.label>
+  <SawPlanks_Drago.description>Распилить брёвна на полосы и склеить слои вместе, чтобы получились красивые доски. Довольно медленно. Производится 15.</SawPlanks_Drago.description>
+  <SawPlanks_Drago.jobString>Распиливаю брёвна на доски из драконового дерева.</SawPlanks_Drago.jobString>
+
+  <MillPlanks_Drago.label>Распилить брёвна дуба драконового дерева на доски из драконового дерева</MillPlanks_Drago.label>
+  <MillPlanks_Drago.description>Распилить брёвна драконового дерева на большую партии досок из драконового дерева. Производит 30.</MillPlanks_Drago.description>
+  <MillPlanks_Drago.jobString>Распиливаю брёвна на доски из драконового дерева.</MillPlanks_Drago.jobString>
+
+  <SawPlanks_Birch.label>Распилить брёвна берёзы на берёзовые доски</SawPlanks_Birch.label>
+  <SawPlanks_Birch.description>Распилить брёвна на полосы и склеить слои вместе, чтобы получились красивые доски. Довольно медленно. Производится 15.</SawPlanks_Birch.description>
+  <SawPlanks_Birch.jobString>Распиливаю брёвна на берёзовые доски.</SawPlanks_Birch.jobString>
+
+  <MillPlanks_Birch.label>Распилить брёвна берёзы на берёзовые доски</MillPlanks_Birch.label>
+  <MillPlanks_Birch.description>Распилить брёвна берёзы на большую партии берёзовых досок. Производит 30.</MillPlanks_Birch.description>
+  <MillPlanks_Birch.jobString>Распиливаю брёвна на берёзовые доски.</MillPlanks_Birch.jobString>
+
+  <SawPlanks_Oak.label>Распилить брёвна дуба на дубовые доски</SawPlanks_Oak.label>
+  <SawPlanks_Oak.description>Распилить брёвна на полосы и склеить слои вместе, чтобы получились красивые доски. Довольно медленно. Производится 15.</SawPlanks_Oak.description>
+  <SawPlanks_Oak.jobString>Распиливаю брёвна на дубовые доски.</SawPlanks_Oak.jobString>
+
+  <MillPlanks_Oak.label>Распилить брёвна дуба на дубовые доски</MillPlanks_Oak.label>
+  <MillPlanks_Oak.description>Распилить брёвна дуба на большую партии дубовых досок. Производит 30.</MillPlanks_Oak.description>
+  <MillPlanks_Oak.jobString>Распиливаю брёвна на дубовые доски.</MillPlanks_Oak.jobString>
+
+  <SawPlanks_Acacia.label>Распилить брёвна акации на акацивые доски</SawPlanks_Acacia.label>
+  <SawPlanks_Acacia.description>Распилить брёвна на полосы и склеить слои вместе, чтобы получились красивые доски. Довольно медленно. Производится 15.</SawPlanks_Acacia.description>
+  <SawPlanks_Acacia.jobString>Распиливаю брёвна на акацивые доски.</SawPlanks_Acacia.jobString>
+
+  <MillPlanks_Acacia.label>Распилить брёвна акации на акацивые доски</MillPlanks_Acacia.label>
+  <MillPlanks_Acacia.description>Распилить брёвна акации на большую партии акацивыех досок. Производит 30.</MillPlanks_Acacia.description>
+  <MillPlanks_Acacia.jobString>Распиливаю брёвна на акацивые доски.</MillPlanks_Acacia.jobString>
+
+  <MakeBambooPlanks_Hand.label>Распилить бамбук на бамбуковые доски</MakeBambooPlanks_Hand.label>
+  <MakeBambooPlanks_Hand.description>Распилить бамбук на полосы и склеить слои вместе, чтобы получились красивые доски. Довольно медленно. Производится 15.</MakeBambooPlanks_Hand.description>
+  <MakeBambooPlanks_Hand.jobString>Распиливаю бамбук на бамбуковые доски.</MakeBambooPlanks_Hand.jobString>
+
+  <MakeBambooPlanks_Electric.label>Распилить бамбук на бамбуковые доски</MakeBambooPlanks_Electric.label>
+  <MakeBambooPlanks_Electric.description>Распилить бамбук на большую партии бамбуковых досок. Производит 30.</MakeBambooPlanks_Electric.description>
+  <MakeBambooPlanks_Electric.jobString>Распиливаю бамбук на бамбуковые доски.</MakeBambooPlanks_Electric.jobString>
+
+  <SawPlanks_Mangrove.label>Распилить брёвна мангрового дерева на доски из мангрового дерева</SawPlanks_Mangrove.label>
+  <SawPlanks_Mangrove.description>Распилить брёвна на полосы и склеить слои вместе, чтобы получились красивые доски. Довольно медленно. Производится 15.</SawPlanks_Mangrove.description>
+  <SawPlanks_Mangrove.jobString>Распиливаю брёвна на мангрововые доски.</SawPlanks_Mangrove.jobString>
+
+  <MillPlanks_Mangrove.label>Распилить брёвна мангрового дерева на доски из мангрового дерева</MillPlanks_Mangrove.label>
+  <MillPlanks_Mangrove.description>Распилить брёвна мангрового дерева на большую партии мангровых досок. Производит 30.</MillPlanks_Mangrove.description>
+  <MillPlanks_Mangrove.jobString>Распиливаю брёвна на мангрововые доски.</MillPlanks_Mangrove.jobString>
+
+  <SawPlanks_Chipboard.label>Сделать доски из ДСП</SawPlanks_Chipboard.label>
+  <SawPlanks_Chipboard.description>Разрезать древесный лом на хлопья и спрессовать с помощью клея, чтобы сделать пригодные для использования пиломатериалы.</SawPlanks_Chipboard.description>
+  <SawPlanks_Chipboard.jobString>Делаю доски из ДСП.</SawPlanks_Chipboard.jobString>
+
+  <MillPlanks_Chipboard.label>Сделать доски из ДСП</MillPlanks_Chipboard.label>
+  <MillPlanks_Chipboard.description>Разрезать древесный лом на хлопья и спрессовать с помощью клея, чтобы сделать пригодные для использования пиломатериалы.</MillPlanks_Chipboard.description>
+  <MillPlanks_Chipboard.jobString>Делаю доски из ДСП.</MillPlanks_Chipboard.jobString>
+
+
+</LanguageData>

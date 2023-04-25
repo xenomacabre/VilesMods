@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- At loom, near petrochem lab -->
+
+  <MakePolymerFibers.label>Синтезировать синтетические волокна x8</MakePolymerFibers.label>
+  <MakePolymerFibers.description>ПЭТ-пластик синтезируется и скручивается в синтетические волокна. Пригодится для полиэфирной ткани, а также во многих других рецептах.</MakePolymerFibers.description>
+  <MakePolymerFibers.jobString>Синтезирует синтетические волокна.</MakePolymerFibers.jobString>
+
+
+  <!-- Polyester -->
+
+  <MakePolyester.label>Изготовить синткань x20</MakePolyester.label>
+  <MakePolyester.description>Синткань это экономичная ткань, которую легко шить. Он долговечен и обладает хорошими антимикробными свойствами.</MakePolyester.description>
+  <MakePolyester.jobString>Изготавливает синткань.</MakePolyester.jobString>
+
+
+  <!-- <RecipeDef>
+		<defName>MakeRayonCurpo</defName>
+		<label>Make Polyester (cupro method) x20</label>
+		<description>Rayon is a semi-synthetic silk-like fabric. It's very breathable in the summer, extremely light, and fairly strong.</description>
+		<jobString>Making rayon fabric.</jobString>
+		<workAmount>1800</workAmount>
+		<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Cellulose</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SyntheticAmmonia</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CopperBar</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+			<li>Cellulose</li>
+			<li>SyntheticAmmonia</li>
+			<li>CopperBar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Rayon>20</Rayon>
+		</products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>AdvancedFabrication</researchPrerequisite>
+	</RecipeDef> -->
+
+  <MakeRayonViscose.label>Изготовить вискозу x20</MakeRayonViscose.label>
+  <MakeRayonViscose.description>Вискоза — полусинтетическая ткань, похожая на шелк. Летом он очень дышащий, очень легкий и довольно прочный.</MakeRayonViscose.description>
+  <MakeRayonViscose.jobString>Изготвливает вискозу.</MakeRayonViscose.jobString>
+
+  <MakeMycotanLeather.label>Изготовить дьявлонитник x15</MakeMycotanLeather.label>
+  <MakeMycotanLeather.description>Дьявлонитник производится из мицелия (грибов) и пластификатора.</MakeMycotanLeather.description>
+  <MakeMycotanLeather.jobString>Изготвливает дьявлонитник</MakeMycotanLeather.jobString>
+
+
+  <!-- Modacrylic -->
+
+  <MakeModacrylic.label>Изготовить модакрил х20</MakeModacrylic.label>
+  <MakeModacrylic.description>Модакриловое волокно — это синтетическое волокно, часто используемое для коммерческой защиты от многих рисков. Помогает регулировать температуру тела и влажность.</MakeModacrylic.description>
+  <MakeModacrylic.jobString>Изготавливает модакрил.</MakeModacrylic.jobString>
+
+  <MakePVCLeather.label>Изготовить виниловая кожа x20</MakePVCLeather.label>
+  <MakePVCLeather.description>Винил представляет собой синтетическую кожу на полимерной основе. Он экономичный, теплый и странный.</MakePVCLeather.description>
+  <MakePVCLeather.jobString>Изготавливает виниловую кожу.</MakePVCLeather.jobString>
+
+
+  <!-- NOMEX -->
+
+  <MakeNomex.label>Изготовить номекс x10</MakeNomex.label>
+  <MakeNomex.description>Номекс — это метаарамидный текстиль с невероятной теплоизоляцией и термостойкостью. Использует Co или Mn в качестве катализатора, и материал проталкивается через ролики, а не скручивается в нить.</MakeNomex.description>
+  <MakeNomex.jobString>Изготавливает ткань номекс из арамидных волокон.</MakeNomex.jobString>
+
+
+  <!-- Kevlar -->
+
+  <MakeKevlar.label>Изготовить кевлар x10</MakeKevlar.label>
+  <MakeKevlar.description>Кевлар является очень прочным и термостойким материалом, который широко используется для изготовления защитной одежды, шлемов, бронежилетов, тросов, шин и других изделий, где необходима высокая степень защиты от механических и тепловых воздействий. Кевлар также имеет низкий уровень проводимости тепла и электричества, что делает его идеальным для использования в аэрокосмической, автомобильной и других отраслях, где требуется высокая прочность и надежность материала.</MakeKevlar.description>
+  <MakeKevlar.jobString>Изготавливаю кевлар .</MakeKevlar.jobString>
+
+
+  <!-- Micropel -->
+
+  <MakeMicropel.label>Изготовить микропеловую ткань x10</MakeMicropel.label>
+  <MakeMicropel.description>Микропел - это технологически продвинутый материал, который изготавливается из микрофибры, обычно из полиэстера или нейлона. Микрофибра - это тонкий, легкий и очень прочный материал, который имеет многочисленные преимущества по сравнению с традиционными тканями. Микропел очень мягкий, легкий и гладкий на ощупь, что делает его идеальным для изготовления мебели, постельного белья, одежды, полотенец и других предметов быта. Кроме того, микропел имеет отличные влагоотводящие свойства, что позволяет ему быстро впитывать влагу и быстро сохнуть, а также отличные антистатические свойства, которые предотвращают налипание пыли и грязи.</MakeMicropel.description>
+  <MakeMicropel.jobString>Изготавливает микропеловую ткань.</MakeMicropel.jobString>
+
+
+  <!-- Dyneema -->
+
+  <MakeDyneema.label>Изготовить ткань дайнема x10</MakeDyneema.label>
+  <MakeDyneema.description>Дайнема это композитная ткань, где основным материалом является ультра-высокомолекулярный полиэтилен (UHMWPE). Она предлагает высочайшую защиту от баллистики, намного большую, чем у кевлара. При этом она также легче.</MakeDyneema.description>
+  <MakeDyneema.jobString>Изготавливает ткань дайнема.</MakeDyneema.jobString>
+
+
+  <!-- Zylon -->
+
+  <MakeZylon.label>Изготовить ткань зилон x10</MakeZylon.label>
+  <MakeZylon.description>Зилон (Zylon) - это полимерный материал, превосходящий кевлар по прочности и имеющий высокую термическую стойкость, превосходящую только номекс. Его единственным недостатком является быстрое разрушение со временем, однако он по-прежнему полезен для производства защитной одежды и защиты от баллистики и направленной энергии. В его производстве применяется экстракт ксенохитина, сочетаемый с соединением, синтезированным из ксилола.</MakeZylon.description>
+  <MakeZylon.jobString>Изготавливает ткань зилон.</MakeZylon.jobString>
+
+
+</LanguageData>

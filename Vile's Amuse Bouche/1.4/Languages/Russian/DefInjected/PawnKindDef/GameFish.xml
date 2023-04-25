@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- гипнокальмар - medium -->
+
+  <PawnKindDefFishSduiggles.label>Гипнокальмар</PawnKindDefFishSduiggles.label>
+  <PawnKindDefFishSduiggles.labelPlural>гипнокальмаров</PawnKindDefFishSduiggles.labelPlural>
+  <PawnKindDefFishSduiggles.lifeStages.0.label>Гипнокальмар</PawnKindDefFishSduiggles.lifeStages.0.label>
+  <PawnKindDefFishSduiggles.lifeStages.0.labelPlural>гипнокальмар</PawnKindDefFishSduiggles.lifeStages.0.labelPlural>
+  <PawnKindDefFishSduiggles.lifeStages.0.labelMale>самец гипнокальмара</PawnKindDefFishSduiggles.lifeStages.0.labelMale>
+  <PawnKindDefFishSduiggles.lifeStages.0.labelMalePlural>самцы гипнокальмара</PawnKindDefFishSduiggles.lifeStages.0.labelMalePlural>
+  <PawnKindDefFishSduiggles.lifeStages.0.labelFemale>самка гипнокальмара</PawnKindDefFishSduiggles.lifeStages.0.labelFemale>
+  <PawnKindDefFishSduiggles.lifeStages.0.labelFemalePlural>самки гипнокальмаров</PawnKindDefFishSduiggles.lifeStages.0.labelFemalePlural>
+  <PawnKindDefFishSduiggles.lifeStages.1.label>Гипнокальмар</PawnKindDefFishSduiggles.lifeStages.1.label>
+  <PawnKindDefFishSduiggles.lifeStages.1.labelPlural>гипнокальмар</PawnKindDefFishSduiggles.lifeStages.1.labelPlural>
+  <PawnKindDefFishSduiggles.lifeStages.1.labelMale>самец гипнокальмара</PawnKindDefFishSduiggles.lifeStages.1.labelMale>
+  <PawnKindDefFishSduiggles.lifeStages.1.labelMalePlural>самцы гипнокальмара</PawnKindDefFishSduiggles.lifeStages.1.labelMalePlural>
+  <PawnKindDefFishSduiggles.lifeStages.1.labelFemale>самка гипнокальмара</PawnKindDefFishSduiggles.lifeStages.1.labelFemale>
+  <PawnKindDefFishSduiggles.lifeStages.1.labelFemalePlural>самки гипнокальмаров</PawnKindDefFishSduiggles.lifeStages.1.labelFemalePlural>
+  <PawnKindDefFishSduiggles.lifeStages.2.label>Гипнокальмар</PawnKindDefFishSduiggles.lifeStages.2.label>
+  <PawnKindDefFishSduiggles.lifeStages.2.labelPlural>гипнокальмар</PawnKindDefFishSduiggles.lifeStages.2.labelPlural>
+  <PawnKindDefFishSduiggles.lifeStages.2.labelMale>самец гипнокальмар</PawnKindDefFishSduiggles.lifeStages.2.labelMale>
+  <PawnKindDefFishSduiggles.lifeStages.2.labelMalePlural>самцы гипнокальмара</PawnKindDefFishSduiggles.lifeStages.2.labelMalePlural>
+  <PawnKindDefFishSduiggles.lifeStages.2.labelFemale>самка гипнокальмара</PawnKindDefFishSduiggles.lifeStages.2.labelFemale>
+  <PawnKindDefFishSduiggles.lifeStages.2.labelFemalePlural>самки гипнокальмаров</PawnKindDefFishSduiggles.lifeStages.2.labelFemalePlural>
+  <PawnKindDefFishSduiggles.labelMale>Самец гипнокальмара</PawnKindDefFishSduiggles.labelMale>
+  <PawnKindDefFishSduiggles.labelMalePlural>самцы гипнокальмаров</PawnKindDefFishSduiggles.labelMalePlural>
+  <PawnKindDefFishSduiggles.labelFemale>Самка гипнокальмара</PawnKindDefFishSduiggles.labelFemale>
+  <PawnKindDefFishSduiggles.labelFemalePlural>самки гипнокальмаров</PawnKindDefFishSduiggles.labelFemalePlural>
+
+
+  <!-- SABERFISH - big game -->
+
+  <PawnKindDefSaberfish.label>Рыба-сабля</PawnKindDefSaberfish.label>
+  <PawnKindDefSaberfish.labelPlural>рыба-сабляs</PawnKindDefSaberfish.labelPlural>
+  <PawnKindDefSaberfish.lifeStages.0.label>рыба-сабля</PawnKindDefSaberfish.lifeStages.0.label>
+  <PawnKindDefSaberfish.lifeStages.0.labelPlural>рыба-сабля</PawnKindDefSaberfish.lifeStages.0.labelPlural>
+  <PawnKindDefSaberfish.lifeStages.0.labelMale>самец рыба-сабля</PawnKindDefSaberfish.lifeStages.0.labelMale>
+  <PawnKindDefSaberfish.lifeStages.0.labelMalePlural>самец рыба-сабляs</PawnKindDefSaberfish.lifeStages.0.labelMalePlural>
+  <PawnKindDefSaberfish.lifeStages.0.labelFemale>самка рыба-сабля</PawnKindDefSaberfish.lifeStages.0.labelFemale>
+  <PawnKindDefSaberfish.lifeStages.0.labelFemalePlural>самка рыба-сабляs</PawnKindDefSaberfish.lifeStages.0.labelFemalePlural>
+  <PawnKindDefSaberfish.lifeStages.1.label>рыба-сабля</PawnKindDefSaberfish.lifeStages.1.label>
+  <PawnKindDefSaberfish.lifeStages.1.labelPlural>рыба-сабля</PawnKindDefSaberfish.lifeStages.1.labelPlural>
+  <PawnKindDefSaberfish.lifeStages.1.labelMale>самец рыба-сабля</PawnKindDefSaberfish.lifeStages.1.labelMale>
+  <PawnKindDefSaberfish.lifeStages.1.labelMalePlural>самец рыба-сабляs</PawnKindDefSaberfish.lifeStages.1.labelMalePlural>
+  <PawnKindDefSaberfish.lifeStages.1.labelFemale>самка рыба-сабля</PawnKindDefSaberfish.lifeStages.1.labelFemale>
+  <PawnKindDefSaberfish.lifeStages.1.labelFemalePlural>самка рыба-сабляs</PawnKindDefSaberfish.lifeStages.1.labelFemalePlural>
+  <PawnKindDefSaberfish.lifeStages.2.label>рыба-сабля</PawnKindDefSaberfish.lifeStages.2.label>
+  <PawnKindDefSaberfish.lifeStages.2.labelPlural>рыба-сабля</PawnKindDefSaberfish.lifeStages.2.labelPlural>
+  <PawnKindDefSaberfish.lifeStages.2.labelMale>самец рыба-сабля</PawnKindDefSaberfish.lifeStages.2.labelMale>
+  <PawnKindDefSaberfish.lifeStages.2.labelMalePlural>самец рыба-сабляs</PawnKindDefSaberfish.lifeStages.2.labelMalePlural>
+  <PawnKindDefSaberfish.lifeStages.2.labelFemale>самка рыба-сабля</PawnKindDefSaberfish.lifeStages.2.labelFemale>
+  <PawnKindDefSaberfish.lifeStages.2.labelFemalePlural>самка рыба-сабляs</PawnKindDefSaberfish.lifeStages.2.labelFemalePlural>
+  <PawnKindDefSaberfish.labelMale>самец рыба-сабля</PawnKindDefSaberfish.labelMale>
+  <PawnKindDefSaberfish.labelMalePlural>самец рыба-сабляs</PawnKindDefSaberfish.labelMalePlural>
+  <PawnKindDefSaberfish.labelFemale>самка рыба-сабля</PawnKindDefSaberfish.labelFemale>
+  <PawnKindDefSaberfish.labelFemalePlural>самка рыба-сабляs</PawnKindDefSaberfish.labelFemalePlural>
+
+
+  <!-- REDFIN TUNA - large -->
+
+  <PawnKindDefRedfinTuna.label>Красноперый тунец</PawnKindDefRedfinTuna.label>
+  <PawnKindDefRedfinTuna.labelPlural>красноперые тунцы</PawnKindDefRedfinTuna.labelPlural>
+  <PawnKindDefRedfinTuna.lifeStages.0.label>красноперый тунец</PawnKindDefRedfinTuna.lifeStages.0.label>
+  <PawnKindDefRedfinTuna.lifeStages.0.labelPlural>красноперый тунец</PawnKindDefRedfinTuna.lifeStages.0.labelPlural>
+  <PawnKindDefRedfinTuna.lifeStages.0.labelMale>самец красноперый тунец</PawnKindDefRedfinTuna.lifeStages.0.labelMale>
+  <PawnKindDefRedfinTuna.lifeStages.0.labelMalePlural>самец красноперых тунцов</PawnKindDefRedfinTuna.lifeStages.0.labelMalePlural>
+  <PawnKindDefRedfinTuna.lifeStages.0.labelFemale>самка красноперый тунец</PawnKindDefRedfinTuna.lifeStages.0.labelFemale>
+  <PawnKindDefRedfinTuna.lifeStages.0.labelFemalePlural>самка красноперых тунцов</PawnKindDefRedfinTuna.lifeStages.0.labelFemalePlural>
+  <PawnKindDefRedfinTuna.lifeStages.1.label>красноперый тунец</PawnKindDefRedfinTuna.lifeStages.1.label>
+  <PawnKindDefRedfinTuna.lifeStages.1.labelPlural>красноперый тунец</PawnKindDefRedfinTuna.lifeStages.1.labelPlural>
+  <PawnKindDefRedfinTuna.lifeStages.1.labelMale>самец красноперый тунец</PawnKindDefRedfinTuna.lifeStages.1.labelMale>
+  <PawnKindDefRedfinTuna.lifeStages.1.labelMalePlural>самец красноперых тунцов</PawnKindDefRedfinTuna.lifeStages.1.labelMalePlural>
+  <PawnKindDefRedfinTuna.lifeStages.1.labelFemale>самка красноперый тунец</PawnKindDefRedfinTuna.lifeStages.1.labelFemale>
+  <PawnKindDefRedfinTuna.lifeStages.1.labelFemalePlural>самка красноперых тунцов</PawnKindDefRedfinTuna.lifeStages.1.labelFemalePlural>
+  <PawnKindDefRedfinTuna.lifeStages.2.label>красноперый тунец</PawnKindDefRedfinTuna.lifeStages.2.label>
+  <PawnKindDefRedfinTuna.lifeStages.2.labelPlural>красноперый тунец</PawnKindDefRedfinTuna.lifeStages.2.labelPlural>
+  <PawnKindDefRedfinTuna.lifeStages.2.labelMale>самец красноперый тунец</PawnKindDefRedfinTuna.lifeStages.2.labelMale>
+  <PawnKindDefRedfinTuna.lifeStages.2.labelMalePlural>самец красноперых тунцов</PawnKindDefRedfinTuna.lifeStages.2.labelMalePlural>
+  <PawnKindDefRedfinTuna.lifeStages.2.labelFemale>самка красноперый тунец</PawnKindDefRedfinTuna.lifeStages.2.labelFemale>
+  <PawnKindDefRedfinTuna.lifeStages.2.labelFemalePlural>самка красноперых тунцов</PawnKindDefRedfinTuna.lifeStages.2.labelFemalePlural>
+  <PawnKindDefRedfinTuna.labelMale>самец красноперый тунец</PawnKindDefRedfinTuna.labelMale>
+  <PawnKindDefRedfinTuna.labelMalePlural>самец красноперых тунцов</PawnKindDefRedfinTuna.labelMalePlural>
+  <PawnKindDefRedfinTuna.labelFemale>самка красноперый тунец</PawnKindDefRedfinTuna.labelFemale>
+  <PawnKindDefRedfinTuna.labelFemalePlural>самка красноперых тунцов</PawnKindDefRedfinTuna.labelFemalePlural>
+
+
+  <!-- Snackeral - tiny -->
+
+  <PawnKindDefFishMashgon.label>Эсколар</PawnKindDefFishMashgon.label>
+  <PawnKindDefFishMashgon.labelPlural>Эсколары</PawnKindDefFishMashgon.labelPlural>
+  <PawnKindDefFishMashgon.lifeStages.0.label>Эсколар</PawnKindDefFishMashgon.lifeStages.0.label>
+  <PawnKindDefFishMashgon.lifeStages.0.labelPlural>Эсколар</PawnKindDefFishMashgon.lifeStages.0.labelPlural>
+  <PawnKindDefFishMashgon.lifeStages.0.labelMale>самец Эсколар</PawnKindDefFishMashgon.lifeStages.0.labelMale>
+  <PawnKindDefFishMashgon.lifeStages.0.labelMalePlural>самец эсколары</PawnKindDefFishMashgon.lifeStages.0.labelMalePlural>
+  <PawnKindDefFishMashgon.lifeStages.0.labelFemale>самка Эсколар</PawnKindDefFishMashgon.lifeStages.0.labelFemale>
+  <PawnKindDefFishMashgon.lifeStages.0.labelFemalePlural>самка эсколары</PawnKindDefFishMashgon.lifeStages.0.labelFemalePlural>
+  <PawnKindDefFishMashgon.lifeStages.1.label>Эсколар</PawnKindDefFishMashgon.lifeStages.1.label>
+  <PawnKindDefFishMashgon.lifeStages.1.labelPlural>Эсколар</PawnKindDefFishMashgon.lifeStages.1.labelPlural>
+  <PawnKindDefFishMashgon.lifeStages.1.labelMale>самец Эсколар</PawnKindDefFishMashgon.lifeStages.1.labelMale>
+  <PawnKindDefFishMashgon.lifeStages.1.labelMalePlural>самец эсколары</PawnKindDefFishMashgon.lifeStages.1.labelMalePlural>
+  <PawnKindDefFishMashgon.lifeStages.1.labelFemale>самка Эсколар</PawnKindDefFishMashgon.lifeStages.1.labelFemale>
+  <PawnKindDefFishMashgon.lifeStages.1.labelFemalePlural>самка эсколары</PawnKindDefFishMashgon.lifeStages.1.labelFemalePlural>
+  <PawnKindDefFishMashgon.lifeStages.2.label>Эсколар</PawnKindDefFishMashgon.lifeStages.2.label>
+  <PawnKindDefFishMashgon.lifeStages.2.labelPlural>Эсколар</PawnKindDefFishMashgon.lifeStages.2.labelPlural>
+  <PawnKindDefFishMashgon.lifeStages.2.labelMale>самец Эсколар</PawnKindDefFishMashgon.lifeStages.2.labelMale>
+  <PawnKindDefFishMashgon.lifeStages.2.labelMalePlural>самец эсколары</PawnKindDefFishMashgon.lifeStages.2.labelMalePlural>
+  <PawnKindDefFishMashgon.lifeStages.2.labelFemale>самка Эсколар</PawnKindDefFishMashgon.lifeStages.2.labelFemale>
+  <PawnKindDefFishMashgon.lifeStages.2.labelFemalePlural>самка эсколары</PawnKindDefFishMashgon.lifeStages.2.labelFemalePlural>
+  <PawnKindDefFishMashgon.labelMale>самец Эсколар</PawnKindDefFishMashgon.labelMale>
+  <PawnKindDefFishMashgon.labelMalePlural>самец эсколары</PawnKindDefFishMashgon.labelMalePlural>
+  <PawnKindDefFishMashgon.labelFemale>самка Эсколар</PawnKindDefFishMashgon.labelFemale>
+  <PawnKindDefFishMashgon.labelFemalePlural>самка эсколары</PawnKindDefFishMashgon.labelFemalePlural>
+
+
+  <!-- Cuda - small -->
+
+  <PawnKindDefCuda.label>Кумжа</PawnKindDefCuda.label>
+  <PawnKindDefCuda.labelPlural>Кумжи</PawnKindDefCuda.labelPlural>
+  <PawnKindDefCuda.lifeStages.0.label>Кумжа</PawnKindDefCuda.lifeStages.0.label>
+  <PawnKindDefCuda.lifeStages.0.labelPlural>Кумжа</PawnKindDefCuda.lifeStages.0.labelPlural>
+  <PawnKindDefCuda.lifeStages.0.labelMale>самец Кумжа</PawnKindDefCuda.lifeStages.0.labelMale>
+  <PawnKindDefCuda.lifeStages.0.labelMalePlural>самец кумжи</PawnKindDefCuda.lifeStages.0.labelMalePlural>
+  <PawnKindDefCuda.lifeStages.0.labelFemale>самка Кумжа</PawnKindDefCuda.lifeStages.0.labelFemale>
+  <PawnKindDefCuda.lifeStages.0.labelFemalePlural>самка кумжи</PawnKindDefCuda.lifeStages.0.labelFemalePlural>
+  <PawnKindDefCuda.lifeStages.1.label>Кумжа</PawnKindDefCuda.lifeStages.1.label>
+  <PawnKindDefCuda.lifeStages.1.labelPlural>Кумжа</PawnKindDefCuda.lifeStages.1.labelPlural>
+  <PawnKindDefCuda.lifeStages.1.labelMale>самец Кумжа</PawnKindDefCuda.lifeStages.1.labelMale>
+  <PawnKindDefCuda.lifeStages.1.labelMalePlural>самец кумжи</PawnKindDefCuda.lifeStages.1.labelMalePlural>
+  <PawnKindDefCuda.lifeStages.1.labelFemale>самка Кумжа</PawnKindDefCuda.lifeStages.1.labelFemale>
+  <PawnKindDefCuda.lifeStages.1.labelFemalePlural>самка кумжи</PawnKindDefCuda.lifeStages.1.labelFemalePlural>
+  <PawnKindDefCuda.lifeStages.2.label>Кумжа</PawnKindDefCuda.lifeStages.2.label>
+  <PawnKindDefCuda.lifeStages.2.labelPlural>Кумжа</PawnKindDefCuda.lifeStages.2.labelPlural>
+  <PawnKindDefCuda.lifeStages.2.labelMale>самец Кумжа</PawnKindDefCuda.lifeStages.2.labelMale>
+  <PawnKindDefCuda.lifeStages.2.labelMalePlural>самец кумжи</PawnKindDefCuda.lifeStages.2.labelMalePlural>
+  <PawnKindDefCuda.lifeStages.2.labelFemale>самка Кумжа</PawnKindDefCuda.lifeStages.2.labelFemale>
+  <PawnKindDefCuda.lifeStages.2.labelFemalePlural>самка кумжи</PawnKindDefCuda.lifeStages.2.labelFemalePlural>
+  <PawnKindDefCuda.labelMale>самец Кумжа</PawnKindDefCuda.labelMale>
+  <PawnKindDefCuda.labelMalePlural>самец кумжи</PawnKindDefCuda.labelMalePlural>
+  <PawnKindDefCuda.labelFemale>самка Кумжа</PawnKindDefCuda.labelFemale>
+  <PawnKindDefCuda.labelFemalePlural>самка кумжи</PawnKindDefCuda.labelFemalePlural>
+
+
+  <!-- ICE FLOUNDER - medium -->
+
+  <PawnKindDefIceFlounder.label>Ледяная камбала</PawnKindDefIceFlounder.label>
+  <PawnKindDefIceFlounder.labelPlural>Ледяные камбалы</PawnKindDefIceFlounder.labelPlural>
+  <PawnKindDefIceFlounder.lifeStages.0.label>ледяная камбала</PawnKindDefIceFlounder.lifeStages.0.label>
+  <PawnKindDefIceFlounder.lifeStages.0.labelPlural>ледяная камбала</PawnKindDefIceFlounder.lifeStages.0.labelPlural>
+  <PawnKindDefIceFlounder.lifeStages.0.labelMale>самец ледяная камбала</PawnKindDefIceFlounder.lifeStages.0.labelMale>
+  <PawnKindDefIceFlounder.lifeStages.0.labelMalePlural>самец ледяные камбалы</PawnKindDefIceFlounder.lifeStages.0.labelMalePlural>
+  <PawnKindDefIceFlounder.lifeStages.0.labelFemale>самка ледяная камбала</PawnKindDefIceFlounder.lifeStages.0.labelFemale>
+  <PawnKindDefIceFlounder.lifeStages.0.labelFemalePlural>самка ледяные камбалы</PawnKindDefIceFlounder.lifeStages.0.labelFemalePlural>
+  <PawnKindDefIceFlounder.lifeStages.1.label>ледяная камбала</PawnKindDefIceFlounder.lifeStages.1.label>
+  <PawnKindDefIceFlounder.lifeStages.1.labelPlural>ледяная камбала</PawnKindDefIceFlounder.lifeStages.1.labelPlural>
+  <PawnKindDefIceFlounder.lifeStages.1.labelMale>самец ледяная камбала</PawnKindDefIceFlounder.lifeStages.1.labelMale>
+  <PawnKindDefIceFlounder.lifeStages.1.labelMalePlural>самец ледяные камбалы</PawnKindDefIceFlounder.lifeStages.1.labelMalePlural>
+  <PawnKindDefIceFlounder.lifeStages.1.labelFemale>самка ледяная камбала</PawnKindDefIceFlounder.lifeStages.1.labelFemale>
+  <PawnKindDefIceFlounder.lifeStages.1.labelFemalePlural>самка ледяные камбалы</PawnKindDefIceFlounder.lifeStages.1.labelFemalePlural>
+  <PawnKindDefIceFlounder.lifeStages.2.label>ледяная камбала</PawnKindDefIceFlounder.lifeStages.2.label>
+  <PawnKindDefIceFlounder.lifeStages.2.labelPlural>ледяная камбала</PawnKindDefIceFlounder.lifeStages.2.labelPlural>
+  <PawnKindDefIceFlounder.lifeStages.2.labelMale>самец ледяная камбала</PawnKindDefIceFlounder.lifeStages.2.labelMale>
+  <PawnKindDefIceFlounder.lifeStages.2.labelMalePlural>самец ледяные камбалы</PawnKindDefIceFlounder.lifeStages.2.labelMalePlural>
+  <PawnKindDefIceFlounder.lifeStages.2.labelFemale>самка ледяная камбала</PawnKindDefIceFlounder.lifeStages.2.labelFemale>
+  <PawnKindDefIceFlounder.lifeStages.2.labelFemalePlural>самка ледяные камбалы</PawnKindDefIceFlounder.lifeStages.2.labelFemalePlural>
+  <PawnKindDefIceFlounder.labelMale>самец ледяная камбала</PawnKindDefIceFlounder.labelMale>
+  <PawnKindDefIceFlounder.labelMalePlural>самец ледяные камбалы</PawnKindDefIceFlounder.labelMalePlural>
+  <PawnKindDefIceFlounder.labelFemale>самка ледяная камбала</PawnKindDefIceFlounder.labelFemale>
+  <PawnKindDefIceFlounder.labelFemalePlural>самка ледяные камбалы</PawnKindDefIceFlounder.labelFemalePlural>
+
+
+  <!-- Eeel - small -->
+
+  <PawnKindDefFishSeasnake.label>Угорь</PawnKindDefFishSeasnake.label>
+  <PawnKindDefFishSeasnake.labelPlural>Угри</PawnKindDefFishSeasnake.labelPlural>
+  <PawnKindDefFishSeasnake.lifeStages.0.label>угорь</PawnKindDefFishSeasnake.lifeStages.0.label>
+  <PawnKindDefFishSeasnake.lifeStages.0.labelPlural>угорь</PawnKindDefFishSeasnake.lifeStages.0.labelPlural>
+  <PawnKindDefFishSeasnake.lifeStages.0.labelMale>самец угорь</PawnKindDefFishSeasnake.lifeStages.0.labelMale>
+  <PawnKindDefFishSeasnake.lifeStages.0.labelMalePlural>самец угрей</PawnKindDefFishSeasnake.lifeStages.0.labelMalePlural>
+  <PawnKindDefFishSeasnake.lifeStages.0.labelFemale>самка угорь</PawnKindDefFishSeasnake.lifeStages.0.labelFemale>
+  <PawnKindDefFishSeasnake.lifeStages.0.labelFemalePlural>самка угрей</PawnKindDefFishSeasnake.lifeStages.0.labelFemalePlural>
+  <PawnKindDefFishSeasnake.lifeStages.1.label>угорь</PawnKindDefFishSeasnake.lifeStages.1.label>
+  <PawnKindDefFishSeasnake.lifeStages.1.labelPlural>угорь</PawnKindDefFishSeasnake.lifeStages.1.labelPlural>
+  <PawnKindDefFishSeasnake.lifeStages.1.labelMale>самец угорь</PawnKindDefFishSeasnake.lifeStages.1.labelMale>
+  <PawnKindDefFishSeasnake.lifeStages.1.labelMalePlural>самец угрей</PawnKindDefFishSeasnake.lifeStages.1.labelMalePlural>
+  <PawnKindDefFishSeasnake.lifeStages.1.labelFemale>самка угорь</PawnKindDefFishSeasnake.lifeStages.1.labelFemale>
+  <PawnKindDefFishSeasnake.lifeStages.1.labelFemalePlural>самка угрей</PawnKindDefFishSeasnake.lifeStages.1.labelFemalePlural>
+  <PawnKindDefFishSeasnake.lifeStages.2.label>угорь</PawnKindDefFishSeasnake.lifeStages.2.label>
+  <PawnKindDefFishSeasnake.lifeStages.2.labelPlural>угорь</PawnKindDefFishSeasnake.lifeStages.2.labelPlural>
+  <PawnKindDefFishSeasnake.lifeStages.2.labelMale>самец угорь</PawnKindDefFishSeasnake.lifeStages.2.labelMale>
+  <PawnKindDefFishSeasnake.lifeStages.2.labelMalePlural>самец угрей</PawnKindDefFishSeasnake.lifeStages.2.labelMalePlural>
+  <PawnKindDefFishSeasnake.lifeStages.2.labelFemale>самка угорь</PawnKindDefFishSeasnake.lifeStages.2.labelFemale>
+  <PawnKindDefFishSeasnake.lifeStages.2.labelFemalePlural>самка угрей</PawnKindDefFishSeasnake.lifeStages.2.labelFemalePlural>
+  <PawnKindDefFishSeasnake.labelMale>самец угорь</PawnKindDefFishSeasnake.labelMale>
+  <PawnKindDefFishSeasnake.labelMalePlural>самец угрей</PawnKindDefFishSeasnake.labelMalePlural>
+  <PawnKindDefFishSeasnake.labelFemale>самка угорь</PawnKindDefFishSeasnake.labelFemale>
+  <PawnKindDefFishSeasnake.labelFemalePlural>самка угрей</PawnKindDefFishSeasnake.labelFemalePlural>
+
+
+  <!-- Alligar - large -->
+
+  <PawnKindDefFishTailteeth.label>Аллигар</PawnKindDefFishTailteeth.label>
+  <PawnKindDefFishTailteeth.labelPlural>Аллигары</PawnKindDefFishTailteeth.labelPlural>
+  <PawnKindDefFishTailteeth.lifeStages.0.label>аллигар</PawnKindDefFishTailteeth.lifeStages.0.label>
+  <PawnKindDefFishTailteeth.lifeStages.0.labelPlural>аллигар</PawnKindDefFishTailteeth.lifeStages.0.labelPlural>
+  <PawnKindDefFishTailteeth.lifeStages.0.labelMale>самец аллигара</PawnKindDefFishTailteeth.lifeStages.0.labelMale>
+  <PawnKindDefFishTailteeth.lifeStages.0.labelMalePlural>самец аллигары</PawnKindDefFishTailteeth.lifeStages.0.labelMalePlural>
+  <PawnKindDefFishTailteeth.lifeStages.0.labelFemale>самка аллигар</PawnKindDefFishTailteeth.lifeStages.0.labelFemale>
+  <PawnKindDefFishTailteeth.lifeStages.0.labelFemalePlural>самка аллигары</PawnKindDefFishTailteeth.lifeStages.0.labelFemalePlural>
+  <PawnKindDefFishTailteeth.lifeStages.1.label>аллигар</PawnKindDefFishTailteeth.lifeStages.1.label>
+  <PawnKindDefFishTailteeth.lifeStages.1.labelPlural>аллигар</PawnKindDefFishTailteeth.lifeStages.1.labelPlural>
+  <PawnKindDefFishTailteeth.lifeStages.1.labelMale>самец аллигара</PawnKindDefFishTailteeth.lifeStages.1.labelMale>
+  <PawnKindDefFishTailteeth.lifeStages.1.labelMalePlural>самец аллигары</PawnKindDefFishTailteeth.lifeStages.1.labelMalePlural>
+  <PawnKindDefFishTailteeth.lifeStages.1.labelFemale>самка аллигар</PawnKindDefFishTailteeth.lifeStages.1.labelFemale>
+  <PawnKindDefFishTailteeth.lifeStages.1.labelFemalePlural>самка аллигары</PawnKindDefFishTailteeth.lifeStages.1.labelFemalePlural>
+  <PawnKindDefFishTailteeth.lifeStages.2.label>аллигар</PawnKindDefFishTailteeth.lifeStages.2.label>
+  <PawnKindDefFishTailteeth.lifeStages.2.labelPlural>аллигар</PawnKindDefFishTailteeth.lifeStages.2.labelPlural>
+  <PawnKindDefFishTailteeth.lifeStages.2.labelMale>самец аллигара</PawnKindDefFishTailteeth.lifeStages.2.labelMale>
+  <PawnKindDefFishTailteeth.lifeStages.2.labelMalePlural>самец аллигары</PawnKindDefFishTailteeth.lifeStages.2.labelMalePlural>
+  <PawnKindDefFishTailteeth.lifeStages.2.labelFemale>самка аллигар</PawnKindDefFishTailteeth.lifeStages.2.labelFemale>
+  <PawnKindDefFishTailteeth.lifeStages.2.labelFemalePlural>самка аллигары</PawnKindDefFishTailteeth.lifeStages.2.labelFemalePlural>
+  <PawnKindDefFishTailteeth.labelMale>самец аллигара</PawnKindDefFishTailteeth.labelMale>
+  <PawnKindDefFishTailteeth.labelMalePlural>самец аллигары</PawnKindDefFishTailteeth.labelMalePlural>
+  <PawnKindDefFishTailteeth.labelFemale>самка аллигар</PawnKindDefFishTailteeth.labelFemale>
+  <PawnKindDefFishTailteeth.labelFemalePlural>самка аллигары</PawnKindDefFishTailteeth.labelFemalePlural>
+
+
+  <!-- breadmouth Bass - large -->
+
+  <PawnKindDefFishBlueblade.label>Большеротый окунь</PawnKindDefFishBlueblade.label>
+  <PawnKindDefFishBlueblade.labelPlural>Большеротые окуни</PawnKindDefFishBlueblade.labelPlural>
+  <PawnKindDefFishBlueblade.lifeStages.0.label>большеротый окунь</PawnKindDefFishBlueblade.lifeStages.0.label>
+  <PawnKindDefFishBlueblade.lifeStages.0.labelPlural>большеротый окунь</PawnKindDefFishBlueblade.lifeStages.0.labelPlural>
+  <PawnKindDefFishBlueblade.lifeStages.0.labelMale>самец большеротый окунь</PawnKindDefFishBlueblade.lifeStages.0.labelMale>
+  <PawnKindDefFishBlueblade.lifeStages.0.labelMalePlural>самец большеротый окунь</PawnKindDefFishBlueblade.lifeStages.0.labelMalePlural>
+  <PawnKindDefFishBlueblade.lifeStages.0.labelFemale>самка большеротый окунь</PawnKindDefFishBlueblade.lifeStages.0.labelFemale>
+  <PawnKindDefFishBlueblade.lifeStages.0.labelFemalePlural>самка большеротый окунь</PawnKindDefFishBlueblade.lifeStages.0.labelFemalePlural>
+  <PawnKindDefFishBlueblade.lifeStages.1.label>большеротый окунь</PawnKindDefFishBlueblade.lifeStages.1.label>
+  <PawnKindDefFishBlueblade.lifeStages.1.labelPlural>большеротый окунь</PawnKindDefFishBlueblade.lifeStages.1.labelPlural>
+  <PawnKindDefFishBlueblade.lifeStages.1.labelMale>самец большеротый окунь</PawnKindDefFishBlueblade.lifeStages.1.labelMale>
+  <PawnKindDefFishBlueblade.lifeStages.1.labelMalePlural>самец большеротый окунь</PawnKindDefFishBlueblade.lifeStages.1.labelMalePlural>
+  <PawnKindDefFishBlueblade.lifeStages.1.labelFemale>самка большеротый окунь</PawnKindDefFishBlueblade.lifeStages.1.labelFemale>
+  <PawnKindDefFishBlueblade.lifeStages.1.labelFemalePlural>самка большеротый окунь</PawnKindDefFishBlueblade.lifeStages.1.labelFemalePlural>
+  <PawnKindDefFishBlueblade.lifeStages.2.label>большеротый окунь</PawnKindDefFishBlueblade.lifeStages.2.label>
+  <PawnKindDefFishBlueblade.lifeStages.2.labelPlural>большеротый окунь</PawnKindDefFishBlueblade.lifeStages.2.labelPlural>
+  <PawnKindDefFishBlueblade.lifeStages.2.labelMale>самец большеротый окунь</PawnKindDefFishBlueblade.lifeStages.2.labelMale>
+  <PawnKindDefFishBlueblade.lifeStages.2.labelMalePlural>самец большеротый окунь</PawnKindDefFishBlueblade.lifeStages.2.labelMalePlural>
+  <PawnKindDefFishBlueblade.lifeStages.2.labelFemale>самка большеротый окунь</PawnKindDefFishBlueblade.lifeStages.2.labelFemale>
+  <PawnKindDefFishBlueblade.lifeStages.2.labelFemalePlural>самка большеротый окунь</PawnKindDefFishBlueblade.lifeStages.2.labelFemalePlural>
+  <PawnKindDefFishBlueblade.labelMale>самец большеротый окунь</PawnKindDefFishBlueblade.labelMale>
+  <PawnKindDefFishBlueblade.labelMalePlural>самец большеротый окунь</PawnKindDefFishBlueblade.labelMalePlural>
+  <PawnKindDefFishBlueblade.labelFemale>самка большеротый окунь</PawnKindDefFishBlueblade.labelFemale>
+  <PawnKindDefFishBlueblade.labelFemalePlural>самка большеротый окунь</PawnKindDefFishBlueblade.labelFemalePlural>
+
+
+  <!-- Killer Catfish - big game -->
+
+  <PawnKindDefFishKillerCatfish.label>Сом-убийца</PawnKindDefFishKillerCatfish.label>
+  <PawnKindDefFishKillerCatfish.labelPlural>Сомы-убийцы</PawnKindDefFishKillerCatfish.labelPlural>
+  <PawnKindDefFishKillerCatfish.lifeStages.0.label>сом-убийца</PawnKindDefFishKillerCatfish.lifeStages.0.label>
+  <PawnKindDefFishKillerCatfish.lifeStages.0.labelPlural>сом-убийца</PawnKindDefFishKillerCatfish.lifeStages.0.labelPlural>
+  <PawnKindDefFishKillerCatfish.lifeStages.0.labelMale>самец сом-убийца</PawnKindDefFishKillerCatfish.lifeStages.0.labelMale>
+  <PawnKindDefFishKillerCatfish.lifeStages.0.labelMalePlural>самец сомы-убийцы</PawnKindDefFishKillerCatfish.lifeStages.0.labelMalePlural>
+  <PawnKindDefFishKillerCatfish.lifeStages.0.labelFemale>самка сом-убийца</PawnKindDefFishKillerCatfish.lifeStages.0.labelFemale>
+  <PawnKindDefFishKillerCatfish.lifeStages.0.labelFemalePlural>самка сомы-убийцы</PawnKindDefFishKillerCatfish.lifeStages.0.labelFemalePlural>
+  <PawnKindDefFishKillerCatfish.lifeStages.1.label>сом-убийца</PawnKindDefFishKillerCatfish.lifeStages.1.label>
+  <PawnKindDefFishKillerCatfish.lifeStages.1.labelPlural>сом-убийца</PawnKindDefFishKillerCatfish.lifeStages.1.labelPlural>
+  <PawnKindDefFishKillerCatfish.lifeStages.1.labelMale>самец сом-убийца</PawnKindDefFishKillerCatfish.lifeStages.1.labelMale>
+  <PawnKindDefFishKillerCatfish.lifeStages.1.labelMalePlural>самец сомы-убийцы</PawnKindDefFishKillerCatfish.lifeStages.1.labelMalePlural>
+  <PawnKindDefFishKillerCatfish.lifeStages.1.labelFemale>самка сом-убийца</PawnKindDefFishKillerCatfish.lifeStages.1.labelFemale>
+  <PawnKindDefFishKillerCatfish.lifeStages.1.labelFemalePlural>самка сомы-убийцы</PawnKindDefFishKillerCatfish.lifeStages.1.labelFemalePlural>
+  <PawnKindDefFishKillerCatfish.lifeStages.2.label>сом-убийца</PawnKindDefFishKillerCatfish.lifeStages.2.label>
+  <PawnKindDefFishKillerCatfish.lifeStages.2.labelPlural>сом-убийца</PawnKindDefFishKillerCatfish.lifeStages.2.labelPlural>
+  <PawnKindDefFishKillerCatfish.lifeStages.2.labelMale>самец сом-убийца</PawnKindDefFishKillerCatfish.lifeStages.2.labelMale>
+  <PawnKindDefFishKillerCatfish.lifeStages.2.labelMalePlural>самец сомы-убийцы</PawnKindDefFishKillerCatfish.lifeStages.2.labelMalePlural>
+  <PawnKindDefFishKillerCatfish.lifeStages.2.labelFemale>самка сом-убийца</PawnKindDefFishKillerCatfish.lifeStages.2.labelFemale>
+  <PawnKindDefFishKillerCatfish.lifeStages.2.labelFemalePlural>самка сомы-убийцы</PawnKindDefFishKillerCatfish.lifeStages.2.labelFemalePlural>
+  <PawnKindDefFishKillerCatfish.labelMale>самец сом-убийца</PawnKindDefFishKillerCatfish.labelMale>
+  <PawnKindDefFishKillerCatfish.labelMalePlural>самец сомы-убийцы</PawnKindDefFishKillerCatfish.labelMalePlural>
+  <PawnKindDefFishKillerCatfish.labelFemale>самка сом-убийца</PawnKindDefFishKillerCatfish.labelFemale>
+  <PawnKindDefFishKillerCatfish.labelFemalePlural>самка сомы-убийцы</PawnKindDefFishKillerCatfish.labelFemalePlural>
+
+
+  <!-- DEATH STURGEON - Big Game -->
+
+  <PawnKindDefDeathSturgeon.label>Мертвый осетр</PawnKindDefDeathSturgeon.label>
+  <PawnKindDefDeathSturgeon.labelPlural>Мертвые осетры</PawnKindDefDeathSturgeon.labelPlural>
+  <PawnKindDefDeathSturgeon.lifeStages.0.label>мертвый осетр</PawnKindDefDeathSturgeon.lifeStages.0.label>
+  <PawnKindDefDeathSturgeon.lifeStages.0.labelPlural>мертвый осетр</PawnKindDefDeathSturgeon.lifeStages.0.labelPlural>
+  <PawnKindDefDeathSturgeon.lifeStages.0.labelMale>самец мертвый осетр</PawnKindDefDeathSturgeon.lifeStages.0.labelMale>
+  <PawnKindDefDeathSturgeon.lifeStages.0.labelMalePlural>самец Мертвые осетры</PawnKindDefDeathSturgeon.lifeStages.0.labelMalePlural>
+  <PawnKindDefDeathSturgeon.lifeStages.0.labelFemale>самка мертвый осетр</PawnKindDefDeathSturgeon.lifeStages.0.labelFemale>
+  <PawnKindDefDeathSturgeon.lifeStages.0.labelFemalePlural>самка Мертвые осетры</PawnKindDefDeathSturgeon.lifeStages.0.labelFemalePlural>
+  <PawnKindDefDeathSturgeon.lifeStages.1.label>мертвый осетр</PawnKindDefDeathSturgeon.lifeStages.1.label>
+  <PawnKindDefDeathSturgeon.lifeStages.1.labelPlural>мертвый осетр</PawnKindDefDeathSturgeon.lifeStages.1.labelPlural>
+  <PawnKindDefDeathSturgeon.lifeStages.1.labelMale>самец мертвый осетр</PawnKindDefDeathSturgeon.lifeStages.1.labelMale>
+  <PawnKindDefDeathSturgeon.lifeStages.1.labelMalePlural>самец Мертвые осетры</PawnKindDefDeathSturgeon.lifeStages.1.labelMalePlural>
+  <PawnKindDefDeathSturgeon.lifeStages.1.labelFemale>самка мертвый осетр</PawnKindDefDeathSturgeon.lifeStages.1.labelFemale>
+  <PawnKindDefDeathSturgeon.lifeStages.1.labelFemalePlural>самка Мертвые осетры</PawnKindDefDeathSturgeon.lifeStages.1.labelFemalePlural>
+  <PawnKindDefDeathSturgeon.lifeStages.2.label>мертвый осетр</PawnKindDefDeathSturgeon.lifeStages.2.label>
+  <PawnKindDefDeathSturgeon.lifeStages.2.labelPlural>мертвый осетр</PawnKindDefDeathSturgeon.lifeStages.2.labelPlural>
+  <PawnKindDefDeathSturgeon.lifeStages.2.labelMale>самец мертвый осетр</PawnKindDefDeathSturgeon.lifeStages.2.labelMale>
+  <PawnKindDefDeathSturgeon.lifeStages.2.labelMalePlural>самец Мертвые осетры</PawnKindDefDeathSturgeon.lifeStages.2.labelMalePlural>
+  <PawnKindDefDeathSturgeon.lifeStages.2.labelFemale>самка мертвый осетр</PawnKindDefDeathSturgeon.lifeStages.2.labelFemale>
+  <PawnKindDefDeathSturgeon.lifeStages.2.labelFemalePlural>самка Мертвые осетры</PawnKindDefDeathSturgeon.lifeStages.2.labelFemalePlural>
+  <PawnKindDefDeathSturgeon.labelMale>самец мертвый осетр</PawnKindDefDeathSturgeon.labelMale>
+  <PawnKindDefDeathSturgeon.labelMalePlural>самец Мертвые осетры</PawnKindDefDeathSturgeon.labelMalePlural>
+  <PawnKindDefDeathSturgeon.labelFemale>самка мертвый осетр</PawnKindDefDeathSturgeon.labelFemale>
+  <PawnKindDefDeathSturgeon.labelFemalePlural>самка Мертвые осетры</PawnKindDefDeathSturgeon.labelFemalePlural>
+
+
+  <!-- стерлинговый окунь - tiny -->
+
+  <PawnKindDefFishSterlingPerch.label>Стерлинговый окунь</PawnKindDefFishSterlingPerch.label>
+  <PawnKindDefFishSterlingPerch.labelPlural>Стерлинговые окуни</PawnKindDefFishSterlingPerch.labelPlural>
+  <PawnKindDefFishSterlingPerch.lifeStages.0.label>стерлинговый окунь</PawnKindDefFishSterlingPerch.lifeStages.0.label>
+  <PawnKindDefFishSterlingPerch.lifeStages.0.labelPlural>стерлинговый окунь</PawnKindDefFishSterlingPerch.lifeStages.0.labelPlural>
+  <PawnKindDefFishSterlingPerch.lifeStages.0.labelMale>самец стерлинговый окунь</PawnKindDefFishSterlingPerch.lifeStages.0.labelMale>
+  <PawnKindDefFishSterlingPerch.lifeStages.0.labelMalePlural>самец стерлинговые окуни</PawnKindDefFishSterlingPerch.lifeStages.0.labelMalePlural>
+  <PawnKindDefFishSterlingPerch.lifeStages.0.labelFemale>самка стерлинговый окунь</PawnKindDefFishSterlingPerch.lifeStages.0.labelFemale>
+  <PawnKindDefFishSterlingPerch.lifeStages.0.labelFemalePlural>самка стерлинговые окуни</PawnKindDefFishSterlingPerch.lifeStages.0.labelFemalePlural>
+  <PawnKindDefFishSterlingPerch.lifeStages.1.label>стерлинговый окунь</PawnKindDefFishSterlingPerch.lifeStages.1.label>
+  <PawnKindDefFishSterlingPerch.lifeStages.1.labelPlural>стерлинговый окунь</PawnKindDefFishSterlingPerch.lifeStages.1.labelPlural>
+  <PawnKindDefFishSterlingPerch.lifeStages.1.labelMale>самец стерлинговый окунь</PawnKindDefFishSterlingPerch.lifeStages.1.labelMale>
+  <PawnKindDefFishSterlingPerch.lifeStages.1.labelMalePlural>самец стерлинговые окуни</PawnKindDefFishSterlingPerch.lifeStages.1.labelMalePlural>
+  <PawnKindDefFishSterlingPerch.lifeStages.1.labelFemale>самка стерлинговый окунь</PawnKindDefFishSterlingPerch.lifeStages.1.labelFemale>
+  <PawnKindDefFishSterlingPerch.lifeStages.1.labelFemalePlural>самка стерлинговые окуни</PawnKindDefFishSterlingPerch.lifeStages.1.labelFemalePlural>
+  <PawnKindDefFishSterlingPerch.lifeStages.2.label>стерлинговый окунь</PawnKindDefFishSterlingPerch.lifeStages.2.label>
+  <PawnKindDefFishSterlingPerch.lifeStages.2.labelPlural>стерлинговый окунь</PawnKindDefFishSterlingPerch.lifeStages.2.labelPlural>
+  <PawnKindDefFishSterlingPerch.lifeStages.2.labelMale>самец стерлинговый окунь</PawnKindDefFishSterlingPerch.lifeStages.2.labelMale>
+  <PawnKindDefFishSterlingPerch.lifeStages.2.labelMalePlural>самец стерлинговые окуни</PawnKindDefFishSterlingPerch.lifeStages.2.labelMalePlural>
+  <PawnKindDefFishSterlingPerch.lifeStages.2.labelFemale>самка стерлинговый окунь</PawnKindDefFishSterlingPerch.lifeStages.2.labelFemale>
+  <PawnKindDefFishSterlingPerch.lifeStages.2.labelFemalePlural>самка стерлинговые окуни</PawnKindDefFishSterlingPerch.lifeStages.2.labelFemalePlural>
+  <PawnKindDefFishSterlingPerch.labelMale>самец стерлинговый окунь</PawnKindDefFishSterlingPerch.labelMale>
+  <PawnKindDefFishSterlingPerch.labelMalePlural>самец стерлинговые окуни</PawnKindDefFishSterlingPerch.labelMalePlural>
+  <PawnKindDefFishSterlingPerch.labelFemale>самка стерлинговый окунь</PawnKindDefFishSterlingPerch.labelFemale>
+  <PawnKindDefFishSterlingPerch.labelFemalePlural>самка стерлинговые окуни</PawnKindDefFishSterlingPerch.labelFemalePlural>
+
+
+  <!-- пилорылый скат - tiny -->
+
+  <PawnKindDefFishPinstripeBass.label>Пилорылый скат</PawnKindDefFishPinstripeBass.label>
+  <PawnKindDefFishPinstripeBass.labelPlural>пилорылые скаты</PawnKindDefFishPinstripeBass.labelPlural>
+  <PawnKindDefFishPinstripeBass.lifeStages.0.label>пилорылый скат</PawnKindDefFishPinstripeBass.lifeStages.0.label>
+  <PawnKindDefFishPinstripeBass.lifeStages.0.labelPlural>пилорылый скат</PawnKindDefFishPinstripeBass.lifeStages.0.labelPlural>
+  <PawnKindDefFishPinstripeBass.lifeStages.0.labelMale>самец пилорылый скат</PawnKindDefFishPinstripeBass.lifeStages.0.labelMale>
+  <PawnKindDefFishPinstripeBass.lifeStages.0.labelMalePlural>самец пилорылые скаты</PawnKindDefFishPinstripeBass.lifeStages.0.labelMalePlural>
+  <PawnKindDefFishPinstripeBass.lifeStages.0.labelFemale>самка пилорылый скат</PawnKindDefFishPinstripeBass.lifeStages.0.labelFemale>
+  <PawnKindDefFishPinstripeBass.lifeStages.0.labelFemalePlural>самка пилорылые скаты</PawnKindDefFishPinstripeBass.lifeStages.0.labelFemalePlural>
+  <PawnKindDefFishPinstripeBass.lifeStages.1.label>пилорылый скат</PawnKindDefFishPinstripeBass.lifeStages.1.label>
+  <PawnKindDefFishPinstripeBass.lifeStages.1.labelPlural>пилорылый скат</PawnKindDefFishPinstripeBass.lifeStages.1.labelPlural>
+  <PawnKindDefFishPinstripeBass.lifeStages.1.labelMale>самец пилорылый скат</PawnKindDefFishPinstripeBass.lifeStages.1.labelMale>
+  <PawnKindDefFishPinstripeBass.lifeStages.1.labelMalePlural>самец пилорылые скаты</PawnKindDefFishPinstripeBass.lifeStages.1.labelMalePlural>
+  <PawnKindDefFishPinstripeBass.lifeStages.1.labelFemale>самка пилорылый скат</PawnKindDefFishPinstripeBass.lifeStages.1.labelFemale>
+  <PawnKindDefFishPinstripeBass.lifeStages.1.labelFemalePlural>самка пилорылые скаты</PawnKindDefFishPinstripeBass.lifeStages.1.labelFemalePlural>
+  <PawnKindDefFishPinstripeBass.lifeStages.2.label>пилорылый скат</PawnKindDefFishPinstripeBass.lifeStages.2.label>
+  <PawnKindDefFishPinstripeBass.lifeStages.2.labelPlural>пилорылый скат</PawnKindDefFishPinstripeBass.lifeStages.2.labelPlural>
+  <PawnKindDefFishPinstripeBass.lifeStages.2.labelMale>самец пилорылый скат</PawnKindDefFishPinstripeBass.lifeStages.2.labelMale>
+  <PawnKindDefFishPinstripeBass.lifeStages.2.labelMalePlural>самец пилорылые скаты</PawnKindDefFishPinstripeBass.lifeStages.2.labelMalePlural>
+  <PawnKindDefFishPinstripeBass.lifeStages.2.labelFemale>самка пилорылый скат</PawnKindDefFishPinstripeBass.lifeStages.2.labelFemale>
+  <PawnKindDefFishPinstripeBass.lifeStages.2.labelFemalePlural>самка пилорылые скаты</PawnKindDefFishPinstripeBass.lifeStages.2.labelFemalePlural>
+  <PawnKindDefFishPinstripeBass.labelMale>самец пилорылый скат</PawnKindDefFishPinstripeBass.labelMale>
+  <PawnKindDefFishPinstripeBass.labelMalePlural>самец пилорылые скаты</PawnKindDefFishPinstripeBass.labelMalePlural>
+  <PawnKindDefFishPinstripeBass.labelFemale>самка пилорылый скат</PawnKindDefFishPinstripeBass.labelFemale>
+  <PawnKindDefFishPinstripeBass.labelFemalePlural>самка пилорылые скаты</PawnKindDefFishPinstripeBass.labelFemalePlural>
+
+
+</LanguageData>

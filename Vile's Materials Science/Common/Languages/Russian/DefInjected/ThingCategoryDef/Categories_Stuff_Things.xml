@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- IN PATCHES
+	<ThingCategoryDef>
+		<defName>RARBar</defName>
+		<label>Engineering</label>
+		<iconPath>UI/Icons/Bars</iconPath>
+		<parent>Metallic</parent>
+	</ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>USLDBar</defName>
+		<label>tech-solid</label>
+		<iconPath>UI/Icons/Metals</iconPath>
+		<parent>Metallic</parent>
+	</ThingCategoryDef>
+	<ThingCategoryDef>
+		<defName>USLDHBar</defName>
+		<label>Tech-solid heavy</label>
+		<iconPath>UI/Icons/Metals</iconPath>
+		<parent>Metallic</parent>
+	</ThingCategoryDef> -->
+
+  <INSBar.label>Изолирующие</INSBar.label>
+  <LightBar.label>Светлые</LightBar.label>
+  <MAGBar.label>Магнитящие</MAGBar.label>
+  <SuperBar.label>Суперсплавы</SuperBar.label>
+  <Plastics.label>Полимеры</Plastics.label>
+
+
+</LanguageData>

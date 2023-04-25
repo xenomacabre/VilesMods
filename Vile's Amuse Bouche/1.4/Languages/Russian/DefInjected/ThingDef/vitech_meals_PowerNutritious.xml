@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PastaPrimavera.label>Паста примавера</PastaPrimavera.label>
+  <PastaPrimavera.description>Питательная пища 60% (.85 питательность, хорошая)  
+ Происхождение: Новая Шотландия, Калифорния.
+  Блюдо из макарон с разнообразными свежими овощами.</PastaPrimavera.description>
+
+
+  <!-- <ThingDef ParentName="SK_MealBase">
+		<defName>GingerTofu</defName>
+		<label>Имбирный тофу</label>
+		<description>Имбирный тофу - это блюдо в азиатской кухне, где кусочки тофу обжариваются на сковороде с имбирным соусом. Кусочки тофу обычно маринуются в соусе, состоящем из соевого соуса, имбиря, чеснока, меда и других специй. Затем они обжариваются на сковороде до золотистой корочки и подаются на гарнире из овощей или риса. Имбирный тофу является популярным блюдом в вегетарианской кухне, так как тофу является богатым источником растительного белка.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/GingerTofu</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>10</DeteriorationRate>
+			<MarketValue>40</MarketValue>
+			<WorkToMake>720</WorkToMake>
+			<Bulk>1.50</Bulk>
+			<Mass>1.20</Mass>
+			<Nutrition>0.8</Nutrition>
+		</statBases>
+		<ingestible>
+			<tasteThought>AteFineMeal</tasteThought>
+			<preferability>MealFine</preferability>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HedNutritiousFood</hediffDef>
+					<severity>0.6</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef> -->
+
+  <Pilaf.label>Плов</Pilaf.label>
+  <Pilaf.description>Питательная пища 60% (.8 питательность, роскошная)
+ Происхождение: Узбекистан 
+  Рис, сваренный в бульоне с мясом или овощами и деликатно приправленный специями.</Pilaf.description>
+
+
+  <!-- POWER FOOD -->
+
+  <SpaghettiBolognese.label>Спагетти болоньезе</SpaghettiBolognese.label>
+  <SpaghettiBolognese.description>Энергетическая пища 60% (.85 питательность)
+  Происхождение: Италия Benvenuto!
+ Спагетти с мясным соусом. Или митболами. Твой выбор.</SpaghettiBolognese.description>
+
+  <SeafoodChowder.label>Похлебка из морепродуктов</SeafoodChowder.label>
+  <SeafoodChowder.description>Энергетическая пища 60% (.9 питательность, хорошая) 
+ Происхождение: Новая Англия, США
+  Мясо рыбы в густом белом бульоне.</SeafoodChowder.description>
+
+
+</LanguageData>

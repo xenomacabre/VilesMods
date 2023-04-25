@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Poutine.label>Поутин</Poutine.label>
+  <Poutine.description>Комфортная еда 60% (.6 питательность, .1 удовольсвтие, нормальное)  
+ Происхождение: Квебек, Калифорния
+  Жареный картофель с соусом и сырным творогом.</Poutine.description>
+
+  <FishandChips.label>Рыба с картошкой</FishandChips.label>
+  <FishandChips.description>Комфортная еда 60% (.85 питательность, .2 удовольсвтие)  
+Происхождение: Великобритания
+  Рыба в пивном кляре с картофелем.</FishandChips.description>
+
+  <Pho.label>Фо</Pho.label>
+  <Pho.description>Комфортная еда 80% (1.0 питательность, .1 удовольсвтие, роскошное)  
+ Происхождение: Вьетнам
+  Произносится как «фоу», это суп из бульона, трав, лапши и мяса.</Pho.description>
+
+
+  <!-- HEARTY FOOD -->
+
+  <Tempura.label>Блюдо в кляре</Tempura.label>
+  <Tempura.description>Сытная еда 40% (.75 питательность, .1 удовольсвтие, роскошное)  
+ Происхождение: Япония
+  Рыба или овощи в кляре и обжаренные. Удивительно сытно.</Tempura.description>
+
+  <PotPie.label>Мясной пирог</PotPie.label>
+  <PotPie.description>Сытная еда 60% (.9 питательность)  
+Сытный, ароматный пирог.</PotPie.description>
+
+  <Quiche.label>Пирог с заварным кремом</Quiche.label>
+  <Quiche.description>Сытная еда 60% (.9 питательность, .2 удовольсвтие, роскошное)  
+ Происхождение: Франция
+  Пикантный пирог на яичной основе с мясом или сыром.</Quiche.description>
+
+
+</LanguageData>

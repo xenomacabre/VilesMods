@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Donut.label>Пончик</Donut.label>
+  <Donut.description>Кондитерские изделия 50% (.25 питательности, .45 удовольствие) 
+Происхождение: Голландия/США
+ Круглое жареное угощение. С дыркой.</Donut.description>
+
+
+  <!-- CHILLED -->
+
+  <Sundae.label>Мороженое сандей</Sundae.label>
+  <Sundae.description>Охлажденное 60% (.5 питательность, .6 удовольствие) 
+Происхождение: США
+Банановый сплит-мороженое с шоколадной или карамельной начинкой.</Sundae.description>
+
+  <GazpachoSoup.label>Суп гаспачо</GazpachoSoup.label>
+  <GazpachoSoup.description>Охлажденное 60% (.5 питательность, отлично) 
+Происхождение: Португалия/Испания
+Холодный освежающий суп из сырых овощей.</GazpachoSoup.description>
+
+
+</LanguageData>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeMildSteel.label>Выплавить сталь x35</MakeMildSteel.label>
+  <MakeMildSteel.description>УРОВЕНЬ 3 - Индустриальный	
+&gt;&gt;&gt; Оптимально для производства: 	Экономный
+&gt;&gt; Хорошо подходящий для: 	Строительства
+X Нецелесообразно для использования в: 	Броня, Клинковое оружие
+			
+Рекомендуемые инструменты: Нет/Любой (ниже среднего, экономичный)
+			
+Доступный металл, мягкая сталь, ныне эквивалент кованому железу. Его также называют низкоуглеродистой сталью. Он мягкий и пластичный, легко формируется и сваривается. Его гальванизируют цинковым покрытием, чтобы предотвратить коррозию, и в качестве бонуса это обеспечивает антимикробные свойства.</MakeMildSteel.description>
+  <MakeMildSteel.jobString>Выплавляю сталь.</MakeMildSteel.jobString>
+
+  <MakeStainlessSteel.label>Выплавить нержавеющую сталь (Альсифер) x30</MakeStainlessSteel.label>
+  <MakeStainlessSteel.description>Сталь с высоким содержанием хрома, известная своей стойкостью к коррозии и долговечностью. Экономичный выбор для кухонь, мастерских и больниц.</MakeStainlessSteel.description>
+  <MakeStainlessSteel.jobString>Выплавляю нержавеющую сталь.</MakeStainlessSteel.jobString>
+
+  <MakeCarbonSteel.label>Выплавить среднеуглеродистую сталь x25</MakeCarbonSteel.label>
+  <MakeCarbonSteel.description>Производят среднеуглеродистую сталь. Сплавленная с марганцем для повышения прочности и твердости. Хорошо сочетает в себе многие качества, быстрая в обработке, и делает острые лезвия.</MakeCarbonSteel.description>
+  <MakeCarbonSteel.jobString>Выплавляю среднеуглеродистую сталь.</MakeCarbonSteel.jobString>
+
+  <MakeAR500.label>Выплавить абразионно-стойкую сталь (Штейн) x25</MakeAR500.label>
+  <MakeAR500.description>Закаленная сталь высокого содержания углерода. Рекомендуется для тяжелых доспехов и инструментов для копания. Производится 20.</MakeAR500.description>
+  <MakeAR500.jobString>Выплавляю абразионно-стойкую сталь.</MakeAR500.jobString>
+
+  <MakeToolSteel.label>Выплавить инструментальную сталь (Альнико) x25</MakeToolSteel.label>
+  <MakeToolSteel.description>Эта сталь для инструментов O1-класса сплавлена с вольфрамом для увеличения твердости. Она особенно эффективна для мастерских и... инструментов.</MakeToolSteel.description>
+  <MakeToolSteel.jobString>Выплавляю инструментальную сталь.</MakeToolSteel.jobString>
+
+  <MakeSpringSteel.label>Выплавить пружинную сталь x25</MakeSpringSteel.label>
+  <MakeSpringSteel.description>5160 пружинная сталь имеет добавленный кремний для увеличения упругости. В сочетании с хорошей удерживаемостью кромки, это делает ее отличным кандидатом для лезвийных инструментов и оружия.</MakeSpringSteel.description>
+  <MakeSpringSteel.jobString>Выплавляю пружинную сталь.</MakeSpringSteel.jobString>
+
+
+  <!-- BRASS -->
+
+  <MakeBrass.label>Выплавить купроникель (Мельхиор) x25</MakeBrass.label>
+  <MakeBrass.description>Латунь - это красивый материал для изготовления мебели, а также может использоваться в мастерских и больниц.</MakeBrass.description>
+  <MakeBrass.jobString>Выплавляю купроникель.</MakeBrass.jobString>
+
+
+  <!-- anodized aluminium -->
+
+  <MakeAnodizedAluminiumBlue.label>Выплавить 6061 алюминий  x25 (синий)</MakeAnodizedAluminiumBlue.label>
+  <MakeAnodizedAluminiumBlue.description>6061 алюминий - это распространенный универсальный легкий алюминиевый сплав, который очень легко обрабатывается. 6061 часто используется для облицовки стен и сайдинга, и хотя он может использоваться для создания средних или неплохих инструментов, они могут быть изготовлены очень быстро и не будут сильно утяжелять пользователя.</MakeAnodizedAluminiumBlue.description>
+  <MakeAnodizedAluminiumBlue.jobString>Изготавливаю анодированный алюминий.</MakeAnodizedAluminiumBlue.jobString>
+
+  <MakeAnodizedAluminiumRed.label>Выплавить 3003 алюминий x25 (красный)</MakeAnodizedAluminiumRed.label>
+  <MakeAnodizedAluminiumRed.description>Анодирование - это химический процесс, который не только придает цвет и красоту сплаву 3003 Aluminum, но также повышает его прочность. Добавления кремния придают ему прочность и долговечность, сохраняя при этом его легкость и прекрасную обработку. Он менее прочный, чем 6061, поэтому лучше всего подходит для коммерческого использования. Оружие и инструменты, изготовленные из этого материала, обычно несколько хуже, но их можно быстро изготовить, а здания, построенные из 6061, возводятся быстро.</MakeAnodizedAluminiumRed.description>
+  <MakeAnodizedAluminiumRed.jobString>Изготавливаю анодированный алюминий.</MakeAnodizedAluminiumRed.jobString>
+
+
+  <!-- BRONZE -->
+
+  <MakeBronze_Electric.label>Выплавить сплав бронзы x25</MakeBronze_Electric.label>
+  <MakeBronze_Electric.description>Бронза - это старинный сплав, но он все еще полезен.</MakeBronze_Electric.description>
+  <MakeBronze_Electric.jobString>Выплавляю бронзовый сплав.</MakeBronze_Electric.jobString>
+
+
+  <!-- Sterling silver -->
+
+  <MakeSterlingSilver_Industrial.label>Выплавить сплав стерлингового серебра (серебряный сплав) x30</MakeSterlingSilver_Industrial.label>
+  <MakeSterlingSilver_Industrial.description>Стерлинговое серебро имеет несколько нишевых применений, в основном в инженерных областях.</MakeSterlingSilver_Industrial.description>
+  <MakeSterlingSilver_Industrial.jobString>Выплавляю сплав стерлингового серебра.</MakeSterlingSilver_Industrial.jobString>
+
+  <MakeSolder.label>Изготовить припой (x10)</MakeSolder.label>
+  <MakeSolder.description>Sn60-Pb40 - это распространенный припой на основе олова, содержащий 60% олова и 40% свинца. Он используется для соединения материалов, обычно в электронике.</MakeSolder.description>
+  <MakeSolder.jobString>Изготавливаю припой.</MakeSolder.jobString>
+
+  <MakeSolderGalvanite.label>Изготовить гальванитный припой (x10)</MakeSolderGalvanite.label>
+  <MakeSolderGalvanite.description>Sn50-Zn49-Cu1, также известный как гальванит, является нетоксичной, не содержащей свинец альтернативной припойной пастой. Она используется для соединения различных материалов, в основном в электронике.</MakeSolderGalvanite.description>
+  <MakeSolderGalvanite.jobString>Изготавливаю гальванитный припой.</MakeSolderGalvanite.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- At petrochem lab -->
+
+  <MakePolystyrene.label>Сделать полистирол x10</MakePolystyrene.label>
+  <MakePolystyrene.description>Полистирол представляет собой полимер, полученный из продуктов этилена и бензола. У него есть несколько практических коммерческих применений, но здесь он более важен как ингредиент напалма. Он также используется для изготовления АБС-пластика и является основным компонентом синтетического каучука.</MakePolystyrene.description>
+  <MakePolystyrene.jobString>Делать полистирол.</MakePolystyrene.jobString>
+
+  <MakeIsopropylAlcohol.label>Сделать изопропиловый спирт x10</MakeIsopropylAlcohol.label>
+  <MakeIsopropylAlcohol.description>Полезное дезинфицирующее средство.</MakeIsopropylAlcohol.description>
+  <MakeIsopropylAlcohol.jobString>Делает изопропиловый спирт.</MakeIsopropylAlcohol.jobString>
+
+  <MakeAmmonia.label>Сделать аммиак x10</MakeAmmonia.label>
+  <MakeAmmonia.description>Аммиак синтезируется через азот и водород с использованием углеводородов в качестве сырья. Это полезно для взрывчатых веществ, в качестве рабочей жидкости для установок с бинарным циклом и для некоторых пластмасс.</MakeAmmonia.description>
+  <MakeAmmonia.jobString>Making ammonia.</MakeAmmonia.jobString>
+
+  <VulcanizeRubber.label>Вулканизация каучука x10</VulcanizeRubber.label>
+  <VulcanizeRubber.description>Вулканизировать каучук из натурального латекса и серы в резину. Производит 10.</VulcanizeRubber.description>
+  <VulcanizeRubber.jobString>Вулканизирует каучук.</VulcanizeRubber.jobString>
+
+  <MakeRubber.label>Сделать синтетический каучук x10</MakeRubber.label>
+  <MakeRubber.description>Создавайте резину из полимеров и сульфатов. Производит 10.</MakeRubber.description>
+  <MakeRubber.jobString>Делает синтетический каучук.</MakeRubber.jobString>
+
+  <MakeEpoxy.label>Сделать смесь пасты x15</MakeEpoxy.label>
+  <MakeEpoxy.description>Сделайте пасту, используемую для склеивания, а также для матричных материалов.</MakeEpoxy.description>
+  <MakeEpoxy.jobString>Делает смесь пасты.</MakeEpoxy.jobString>
+
+
+</LanguageData>

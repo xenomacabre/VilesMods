@@ -198,7 +198,7 @@
                     </value>
                 </li>               
                 <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[DefName="PlasmaGeothermalPlant"]/costList</xpath>
+                    <xpath>Defs/ThingDef[defName="PlasmaGeothermalPlant"]/comps</xpath>
                     <value>                  
                        <comps>
                             <li Class="CompProperties_Flickable"/>

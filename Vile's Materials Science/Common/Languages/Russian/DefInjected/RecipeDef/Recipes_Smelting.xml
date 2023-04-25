@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- MAGNETITE -->
+
+  <SmeltMagnetite_Basic.label>Базовая плавка: Магнетит/Болотное железо (30 Fe)</SmeltMagnetite_Basic.label>
+  <SmeltMagnetite_Basic.description>Переплавить магнетит или болотное железо в чугун (Fe).</SmeltMagnetite_Basic.description>
+  <SmeltMagnetite_Basic.jobString>Переплавляет магнетит в чугун.</SmeltMagnetite_Basic.jobString>
+
+  <SmeltMagnetite_Industrial.label>Продвинутая плавка: Магнетит (35 Fe, 5 Cr)</SmeltMagnetite_Industrial.label>
+  <SmeltMagnetite_Industrial.description>Переплавить магнетит в чугун (Fe) и хром (Cr).</SmeltMagnetite_Industrial.description>
+  <SmeltMagnetite_Industrial.jobString>Переплавляет магнетит (Fe, Cr).</SmeltMagnetite_Industrial.jobString>
+
+  <SmeltMagnetite_HighTech.label>Высокотехнологичная плавка: Магнетит (40 Fe, 5 Cr, 5 Zn)</SmeltMagnetite_HighTech.label>
+  <SmeltMagnetite_HighTech.description>Переплавить магнетит в чугун (Fe), хром (Cr) и цинк (Zn). Производит больше ресурсов, но занимает больше времени.</SmeltMagnetite_HighTech.description>
+  <SmeltMagnetite_HighTech.jobString>Переплавляет магнетит (Fe, Cr, Zn).</SmeltMagnetite_HighTech.jobString>
+
+
+  <!-- BOG IRON -->
+
+  <SmeltBogIron_Industrial.label>Продвинутая плавка: Болотное железо (35 Fe, 5 Mn)</SmeltBogIron_Industrial.label>
+  <SmeltBogIron_Industrial.description>Переплавить болотное железо в чугун (Fe) и марганец (Mn).</SmeltBogIron_Industrial.description>
+  <SmeltBogIron_Industrial.jobString>Переплавляет Болотное железо (Fe, Mn).</SmeltBogIron_Industrial.jobString>
+
+
+  <!-- TITANOMAGNETITE -->
+
+  <SmeltTitanomagnetite_Industrial.label>Продвинутая плавка: Титаномагнетит (25 Fe, 10 Ti)</SmeltTitanomagnetite_Industrial.label>
+  <SmeltTitanomagnetite_Industrial.description>Переплавить титаномагнетит в чугун (Fe) и Титан (Ti).</SmeltTitanomagnetite_Industrial.description>
+  <SmeltTitanomagnetite_Industrial.jobString>Переплавляет титаномагнетит (Fe, Ti).</SmeltTitanomagnetite_Industrial.jobString>
+
+  <SmeltTitanomagnetite_HighTech.label>Высокотехнологичная плавка: Титаномагнетит (25 Fe, 15 Ti, 5 V)</SmeltTitanomagnetite_HighTech.label>
+  <SmeltTitanomagnetite_HighTech.description>Переплавить титаномагнетит в чугун (Fe), Титан (Ti) и Ванадиум (V). Производит больше ресурсов, но занимает больше времени.</SmeltTitanomagnetite_HighTech.description>
+  <SmeltTitanomagnetite_HighTech.jobString>Переплавляет титаномагнетит (Fe, Ti, V).</SmeltTitanomagnetite_HighTech.jobString>
+
+
+  <!-- KALCOPYRITE -->
+
+  <SmeltKalcopyrite_Basic.label>Базовая плавка: Калькопирит (25 Cu)</SmeltKalcopyrite_Basic.label>
+  <SmeltKalcopyrite_Basic.description>Переплавить калькопирит в медь (Cu).</SmeltKalcopyrite_Basic.description>
+  <SmeltKalcopyrite_Basic.jobString>Переплавляет калькопирит в медь (Cu).</SmeltKalcopyrite_Basic.jobString>
+
+  <SmeltKalcopyrite_Industrial.label>Продвинутая плавка: Калькопирит (30 Cu, 10 Fe)</SmeltKalcopyrite_Industrial.label>
+  <SmeltKalcopyrite_Industrial.description>Переплавить калькопирит в медь (Cu) и чугун (Fe).</SmeltKalcopyrite_Industrial.description>
+  <SmeltKalcopyrite_Industrial.jobString>Переплавляет калькопирит (Fe, Cr).</SmeltKalcopyrite_Industrial.jobString>
+
+  <SmeltKalcopyrite_HighTech.label>Высокотехнологичная плавка: Калькопирит (35 Cu, 10 Fe, 5 Au)</SmeltKalcopyrite_HighTech.label>
+  <SmeltKalcopyrite_HighTech.description>Переплавить калькопирит в медь (Cu), чугун (Fe) и золото (Au). Производит больше ресурсов, но занимает больше времени.</SmeltKalcopyrite_HighTech.description>
+  <SmeltKalcopyrite_HighTech.jobString>Переплавляет калькопирит (Fe, Cr, Au).</SmeltKalcopyrite_HighTech.jobString>
+
+
+  <!-- CASSITERITE -->
+
+  <SmeltCassiterite_Basic.label>Базовая плавка: Касситерит (олово) (20 Sn)</SmeltCassiterite_Basic.label>
+  <SmeltCassiterite_Basic.description>Переплавить касситерит (SnO2) в олово (Sn).</SmeltCassiterite_Basic.description>
+  <SmeltCassiterite_Basic.jobString>Переплавляет касситерит в олово (Sn).</SmeltCassiterite_Basic.jobString>
+
+  <SmeltCassiterite_Industrial.label>Продвинутая плавка: Касситерит (25 Sn, 5 Ag)</SmeltCassiterite_Industrial.label>
+  <SmeltCassiterite_Industrial.description>Переплавить касситерит (SnO2) в олово (Sn) и серебро (Ag).</SmeltCassiterite_Industrial.description>
+  <SmeltCassiterite_Industrial.jobString>Переплавляет касситерит (Sn, Ag).</SmeltCassiterite_Industrial.jobString>
+
+  <SmeltCassiterite_HighTech.label>Высокотехнологичная плавка: Касситерит 30 Sn, 5 Ag, 5 W)</SmeltCassiterite_HighTech.label>
+  <SmeltCassiterite_HighTech.description>Переплавить касситерит (SnO2) в олово (Sn), серебро (Ag) и вольфрам (W). Производит больше ресурсов, но занимает больше времени.</SmeltCassiterite_HighTech.description>
+  <SmeltCassiterite_HighTech.jobString>Переплавляет касситерит (Sn, Ag, W).</SmeltCassiterite_HighTech.jobString>
+
+
+  <!-- GALENA -->
+
+  <SmeltGalena_Basic.label>Базовая плавка: Галенит (свинец и серебро) (15 Pb, 10 Ag)</SmeltGalena_Basic.label>
+  <SmeltGalena_Basic.description>Переплавить галенит (PbS) в свинец (Pb) и серебро (Ag).</SmeltGalena_Basic.description>
+  <SmeltGalena_Basic.jobString>Переплавляет галенит (Pb, Ag).</SmeltGalena_Basic.jobString>
+
+  <SmeltGalena_Industrial.label>Продвинутая плавка: Галенит (20 Pb, 15 Ag, 10 S)</SmeltGalena_Industrial.label>
+  <SmeltGalena_Industrial.description>Переплавить галенит (PbS) в свинец (Pb), серебро (Ag) и серу (S).</SmeltGalena_Industrial.description>
+  <SmeltGalena_Industrial.jobString>Переплавляет галенит (англезит) (Pb, Ag, S).</SmeltGalena_Industrial.jobString>
+
+  <SmeltGalena_HighTech.label>Высокотехнологичная плавка: Галенит (25 Pb, 15 Ag, 10 Cu, 10 S)</SmeltGalena_HighTech.label>
+  <SmeltGalena_HighTech.description>Переплавить галенит (PbS) в свинец (Pb), серебро (Ag), серу (S) и медь (Cu). Производит больше ресурсов, но занимает больше времени.</SmeltGalena_HighTech.description>
+  <SmeltGalena_HighTech.jobString>Переплавляет галенит (англезит) (Pb, Ag, Cu, S).</SmeltGalena_HighTech.jobString>
+
+
+  <!-- SPHALERITE -->
+
+  <SmeltSphalerite_Basic.label>Базовая плавка: Cфалерит (цинк) (20 Zn)</SmeltSphalerite_Basic.label>
+  <SmeltSphalerite_Basic.description>Переплавить сфалерит (ZnS) в цинк (Zn).</SmeltSphalerite_Basic.description>
+  <SmeltSphalerite_Basic.jobString>Переплавляет сфалерит в цинк (Zn).</SmeltSphalerite_Basic.jobString>
+
+  <SmeltSphalerite_Industrial.label>Продвинутая плавка: Cфалерит (25 Zn, 10 Mn)</SmeltSphalerite_Industrial.label>
+  <SmeltSphalerite_Industrial.description>Переплавить сфалерит (ZnS) в цинк (Zn) и марганец (Mn).</SmeltSphalerite_Industrial.description>
+  <SmeltSphalerite_Industrial.jobString>Переплавляет сфалерит (Zn, Mn).</SmeltSphalerite_Industrial.jobString>
+
+  <SmeltSphalerite_HighTech.label>Высокотехнологичная плавка: Cфалерит (25 Zn, 15 Mn, 15 Co)</SmeltSphalerite_HighTech.label>
+  <SmeltSphalerite_HighTech.description>Переплавить сфалерит (ZnS) в цинк (Zn), марганец (Mn) и кобальт (Co). Производит больше ресурсов, но занимает больше времени.</SmeltSphalerite_HighTech.description>
+  <SmeltSphalerite_HighTech.jobString>Переплавляет сфалерит(Zn, Mn, Co).</SmeltSphalerite_HighTech.jobString>
+
+
+  <!-- NATIVE GOLD -->
+
+  <SmeltNativeGold_Basic.label>Переплавить золотую руду и медь в золотой сплав</SmeltNativeGold_Basic.label>
+  <SmeltNativeGold_Basic.description>Переплавить золотую руду (Au) и медь (Cu) в золотой сплав (Au)</SmeltNativeGold_Basic.description>
+  <SmeltNativeGold_Basic.jobString>Выплавляет золотой сплав.</SmeltNativeGold_Basic.jobString>
+
+
+  <!-- BAUXITE -->
+
+  <SmeltBauxite_Basic.label>Базовая плавка: Бокситы (алюминий) (20 Al)</SmeltBauxite_Basic.label>
+  <SmeltBauxite_Basic.description>Переплавить бокситы (Al2O3) в алюминий (Al).</SmeltBauxite_Basic.description>
+  <SmeltBauxite_Basic.jobString>Переплавляет бокситы в алюминий (Al) с использованием процесса Девиля.</SmeltBauxite_Basic.jobString>
+
+  <SmeltBauxite_Industrial.label>Продвинутая плавка: Бокситы  (30 Al)</SmeltBauxite_Industrial.label>
+  <SmeltBauxite_Industrial.description>Переплавить бокситы (Al2O3) в алюминий (Al) с использованием процесса Холла-Эру. Требует времени и электричества, но производит больше металла.</SmeltBauxite_Industrial.description>
+  <SmeltBauxite_Industrial.jobString>Переплавляет бокситы в алюминий (Al).</SmeltBauxite_Industrial.jobString>
+
+  <SmeltBauxite_HighTech.label>Высокотехнологичная плавка: Бокситы (35 Al, 10 Cr)</SmeltBauxite_HighTech.label>
+  <SmeltBauxite_HighTech.description>Переплавить бокситы (Al2O3) в алюминий (Al) с использованием процесса Холла-Эру. Требует времени и электричества, но производит хром (Cr) в дополнение к алюминию (Al).</SmeltBauxite_HighTech.description>
+  <SmeltBauxite_HighTech.jobString>Переплавляет бокситы (Al, Cr).</SmeltBauxite_HighTech.jobString>
+
+
+  <!-- PENTLANDITE -->
+
+  <SmeltPendladite_Basic.label>Базовая плавка: Пентландит (никель) (20 Ni)</SmeltPendladite_Basic.label>
+  <SmeltPendladite_Basic.description>Переплавить пентландит (Fe,Ni)9S8 в никель (Ni).</SmeltPendladite_Basic.description>
+  <SmeltPendladite_Basic.jobString>Переплавляет пентландит в никель (Ni).</SmeltPendladite_Basic.jobString>
+
+  <SmeltPentlandite_Industrial.label>Продвинутая плавка: Пентландит (20 Ni, 20 Fe)</SmeltPentlandite_Industrial.label>
+  <SmeltPentlandite_Industrial.description>Переплавить пентландит (Fe,Ni)9S8 в никель (Ni) и чугун (Fe).</SmeltPentlandite_Industrial.description>
+  <SmeltPentlandite_Industrial.jobString>Переплавляет пентландит (Ni, Fe).</SmeltPentlandite_Industrial.jobString>
+
+  <SmeltPentlandite_HighTech.label>Высокотехнологичная плавка: Пентландит (20 Ni, 20 Fe, 15 Co)</SmeltPentlandite_HighTech.label>
+  <SmeltPentlandite_HighTech.description>Переплавить пентландит (Fe,Ni)9S8 в никель (Ni), чугун (Fe) и кобальт (Co).</SmeltPentlandite_HighTech.description>
+  <SmeltPentlandite_HighTech.jobString>Переплавляет пентландит (Ni, Fe, Co).</SmeltPentlandite_HighTech.jobString>
+
+
+  <!-- SCHEELITE -->
+
+  <SmeltScheelite_Industrial.label>Продвинутая плавка: Шелит (вольфрам) (25 W)</SmeltScheelite_Industrial.label>
+  <SmeltScheelite_Industrial.description>Переплавить шелит (CaWO4) в вольфрам (W).</SmeltScheelite_Industrial.description>
+  <SmeltScheelite_Industrial.jobString>Переплавляет шелит (W).</SmeltScheelite_Industrial.jobString>
+
+  <SmeltScheelite_HighTech.label>Высокотехнологичная плавка: Шелит (30 W, 10 Mo)</SmeltScheelite_HighTech.label>
+  <SmeltScheelite_HighTech.description>Переплавить шелит (CaWO4) в вольфрам (W) и молибден (Mo), требует много времени и электричества.</SmeltScheelite_HighTech.description>
+  <SmeltScheelite_HighTech.jobString>Переплавляет шелит (W, Mo).</SmeltScheelite_HighTech.jobString>
+
+
+  <!-- RUTILE -->
+
+  <SmeltRutile_Industrial.label>Продвинутая плавка: Рутил (титан) (15 Ti)</SmeltRutile_Industrial.label>
+  <SmeltRutile_Industrial.description>Переплавить рутил (TiO2) в титан (Ti).</SmeltRutile_Industrial.description>
+  <SmeltRutile_Industrial.jobString>Переплавляет рутил (Ti).</SmeltRutile_Industrial.jobString>
+
+  <SmeltRutile_HighTech.label>Высокотехнологичная плавка: Рутил (20 Ti, 10 Mo)</SmeltRutile_HighTech.label>
+  <SmeltRutile_HighTech.description>Переплавить рутил (TiO2) в титан (Ti) и молибден (Mo), требует много времени и электричества.</SmeltRutile_HighTech.description>
+  <SmeltRutile_HighTech.jobString>Переплавляет рутил (Ti, Mo).</SmeltRutile_HighTech.jobString>
+
+
+  <!-- CARNOTITE -->
+
+  <SmeltCarnotite_Industrial.label>Продвинутая плавка: Карнотит (сплав обедненного урана) (15 DU)</SmeltCarnotite_Industrial.label>
+  <SmeltCarnotite_Industrial.description>Переплавить карнотит (K2(UO2)2(VO4)2·3H2O) в обедненный уран (U3O8).</SmeltCarnotite_Industrial.description>
+  <SmeltCarnotite_Industrial.jobString>Переплавляет карнотит (DU).</SmeltCarnotite_Industrial.jobString>
+
+  <SmeltCarnotite_HighTech.label>Высокотехнологичная плавка: Карнотит (20 DU, 10 V)</SmeltCarnotite_HighTech.label>
+  <SmeltCarnotite_HighTech.description>Переплавить карнотит (K2(UO2)2(VO4)2·3H2O) в обедненный уран (U3O8) и ванадиум (V) - из которых он является единственным жизнеспособным источником.</SmeltCarnotite_HighTech.description>
+  <SmeltCarnotite_HighTech.jobString>Переплавляет карнотит (DU, V).</SmeltCarnotite_HighTech.jobString>
+
+
+  <!-- QUARTZ -->
+
+  <RefineQuartz_Basic.label>Выплавить стекольную шихту x100 из Кварца</RefineQuartz_Basic.label>
+  <RefineQuartz_Basic.description>Выплавить стекольную шихту из кварца. Стекольная шихта представляет собой мелкий порошок, который полезен для производства стекла и кремния, а также используется в нескольких сплавных составах. Стекольная шихта также может быть переплавлена из песка.</RefineQuartz_Basic.description>
+  <RefineQuartz_Basic.jobString>Выплавляет стекольную шихту из кварца.</RefineQuartz_Basic.jobString>
+
+
+</LanguageData>

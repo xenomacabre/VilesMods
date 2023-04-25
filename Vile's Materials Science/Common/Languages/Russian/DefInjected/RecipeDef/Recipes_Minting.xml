@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeCoins.label>Чеканить серебряные монеты x10</MakeCoins.label>
+  <MakeCoins.description>Чеканить серебряные монеты из серебренного сплава. Производит 10.</MakeCoins.description>
+  <MakeCoins.jobString>Чеканю серебряные монеты.</MakeCoins.jobString>
+
+  <MeltCoins.label>Выплавить серебряные монеты в серебряный сплав x100</MeltCoins.label>
+  <MeltCoins.description>Расплавить серебряные моенты в серебряный сплав. Производит 10.</MeltCoins.description>
+  <MeltCoins.jobString>Расплавляю монеты.</MeltCoins.jobString>
+
+
+</LanguageData>

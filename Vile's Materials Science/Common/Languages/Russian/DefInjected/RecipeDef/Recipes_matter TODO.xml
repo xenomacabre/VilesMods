@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ConvertResourcesRaw.label>Синтезировать нуклеосинтетический субстрат</ConvertResourcesRaw.label>
+  <ConvertResourcesRaw.description>Синтез нуклеосинтетического субстрата путем обработки и преобразования различных видов сырья. Производится 150.</ConvertResourcesRaw.description>
+  <ConvertResourcesRaw.jobString>Преобразую ресурсы в неорганическое вещество.</ConvertResourcesRaw.jobString>
+
+
+</LanguageData>

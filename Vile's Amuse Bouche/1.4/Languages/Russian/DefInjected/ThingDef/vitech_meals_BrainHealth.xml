@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Ramen.label>Рамен</Ramen.label>
+  <Ramen.description>Пища для ума 60% (.8 питательность, отлично)  
+Происхождение: Япония
+Суп с лапшой с различными начинками, такими как мясо, овощи, яйца или ферментированные побеги бамбука.</Ramen.description>
+
+  <Kippers.label>Копченая рыба</Kippers.label>
+  <Kippers.description>Пища для ума 60% (.8 питательность)
+Происхождение: Великобритания
+Способ приготовления рыбы на гриле с засолкой и копчением.</Kippers.description>
+
+  <OystersRimefeller.label>Устрицы</OystersRimefeller.label>
+  <OystersRimefeller.description>Пища для ума 60% (.85 питательность, .2 Joy, роскошный)  
+Происхождение: Новый Орлеан, США
+Устрицы, приготовленные с травами и панировочными сухарями.</OystersRimefeller.description>
+
+
+  <!-- HEALTH FOOD -->
+
+  <FlaxseedSmoothie.label>Cмузи из льняного семени</FlaxseedSmoothie.label>
+  <FlaxseedSmoothie.description>Здоровая пища 40% (.6 питательность, ужасно)  
+Напиток из смеси семян льна и фруктов. Не очень вкусно.</FlaxseedSmoothie.description>
+
+  <HealthyBroth.label>Полезный бульон</HealthyBroth.label>
+  <HealthyBroth.description>Здоровая пища 60% (.6 питательность, ужасно)  
+Бульон из грибов, имбиря и лука. Запах отличный, скучноватый вкус.</HealthyBroth.description>
+
+
+</LanguageData>

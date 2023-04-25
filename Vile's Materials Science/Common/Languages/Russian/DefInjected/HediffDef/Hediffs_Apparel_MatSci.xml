@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <WearingTurnoutGear.label>Снаряжения для тушения пожаров</WearingTurnoutGear.label>
+  <WearingTurnoutGear.description>Использование защитной одежды для тушения пожаров.</WearingTurnoutGear.description>
+  <WearingTurnoutGear.stages.0.label>Одевать защитную одежду</WearingTurnoutGear.stages.0.label>
+
+
+</LanguageData>

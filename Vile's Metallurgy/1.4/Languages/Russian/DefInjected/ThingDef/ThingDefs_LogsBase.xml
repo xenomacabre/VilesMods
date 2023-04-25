@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Softwood Base -->
+
+  <SoftwoodLogBase.description>Нераспилинные бревна. За исключением строительства бревенчатых стен, их необходимо распилить на древесину, чтобы использовать дрова.</SoftwoodLogBase.description>
+
+
+  <!-- Hardwodo Base -->
+
+  <HardwoodLogBase.description>Нераспилинные бревна. За исключением строительства бревенчатых стен, их необходимо распилить на древесину, чтобы использовать дрова.</HardwoodLogBase.description>
+
+
+</LanguageData>

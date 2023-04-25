@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <NanotechFramework.label>Нанотехнологическая структура</NanotechFramework.label>
+  <NanotechFramework.description>Программируемая материя включена. Функционирование операционной системы в пределах нормальных параметров. Машинное обучение искусственного интеллекта с помощью клеточного органического материала. Готов к вводу команды.</NanotechFramework.description>
+
+  <SewingKit.label>Швейный набор</SewingKit.label>
+  <SewingKit.description>Швейный набор с иглой, нитками, пуговицами, люверсами, металлическими деталями и т. д. Используется для изготовления одежды.</SewingKit.description>
+
+
+  <!-- <ThingDef ParentName="RimatomicResourceBase"> -->
+
+  <TurbineBlade_Vile.label>Лопасти турбины</TurbineBlade_Vile.label>
+  <TurbineBlade_Vile.description>Используется для создания турбогенераторов.</TurbineBlade_Vile.description>
+
+
+</LanguageData>

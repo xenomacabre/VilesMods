@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BuildMagneticMaterial.label>Синтезировать пьезоэлектрический материал x5</BuildMagneticMaterial.label>
+  <BuildMagneticMaterial.description>Синтезировать материал, способный накапливать экстремальный электрический заряд. Производит 5.</BuildMagneticMaterial.description>
+  <BuildMagneticMaterial.jobString>Синтезирует пьезоэлектрический материал.</BuildMagneticMaterial.jobString>
+
+  <BuildBiosyntheticMaterial.label>Синтезировать электроактивный полимер</BuildBiosyntheticMaterial.label>
+  <BuildBiosyntheticMaterial.description>Синтез программируемого высокоэластичного материала, реагирующего на электрические токи. Производит 5.</BuildBiosyntheticMaterial.description>
+  <BuildBiosyntheticMaterial.jobString>Синтезирует электроактивный полимер.</BuildBiosyntheticMaterial.jobString>
+
+  <MakeNanowireBattery.label>Сделать батарею из нанопроволоки</MakeNanowireBattery.label>
+  <MakeNanowireBattery.description>Создавайте батареи из нанопроволоки — очень маленькое постоянное хранилище энергии, которое можно использовать для брони или оружия. Производит 10.</MakeNanowireBattery.description>
+  <MakeNanowireBattery.jobString>Делает батарею из нанопроволоки.</MakeNanowireBattery.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeSewingKits.label>Изготовить швейный набор</MakeSewingKits.label>
+  <MakeSewingKits.description>Швейный набор с иглой, нитками, пуговицами, люверсами, металлическими деталями и т. д. Используется для изготовления одежды.</MakeSewingKits.description>
+  <MakeSewingKits.jobString>Изготавливаю швейный набор.</MakeSewingKits.jobString>
+
+
+  <!-- COMPONENTS -->
+
+  <Make_ComponentIndustrial.label>Изготовить компоненты</Make_ComponentIndustrial.label>
+  <Make_ComponentIndustrial.description>Производит компоненты из металла. Винты и болты. Ранняя индустриальная технология. Производит 10.</Make_ComponentIndustrial.description>
+  <Make_ComponentIndustrial.jobString>Изготавливает компоненты.</Make_ComponentIndustrial.jobString>
+
+  <Make_ComponentAdvanced.label>Изготовить продвинутые компоненты</Make_ComponentAdvanced.label>
+  <Make_ComponentAdvanced.description>Производство точных механических крепежных элементов из высокопрочных сплавов. Высокотехнологично. Производит 10.</Make_ComponentAdvanced.description>
+  <Make_ComponentAdvanced.jobString>Изготавливает продвинутые компоненты.</Make_ComponentAdvanced.jobString>
+
+  <Make_ComponentSpacer.label>Изготовить высокотехнологичные компоненты</Make_ComponentSpacer.label>
+  <Make_ComponentSpacer.description>Изготавливает самоуплотняющиеся компоненты. Космическая технология. Производит 10.</Make_ComponentSpacer.description>
+  <Make_ComponentSpacer.jobString>Изготавливает высокотехнологичные компоненты.</Make_ComponentSpacer.jobString>
+
+  <Make_ComponentUltra.label>Изготовить клейтронные компоненты</Make_ComponentUltra.label>
+  <Make_ComponentUltra.description>Производит клейтронные компоненты из программируемых наноматериалов. Производит 10.</Make_ComponentUltra.description>
+  <Make_ComponentUltra.jobString>Изготавливает клейтронные компоненты.</Make_ComponentUltra.jobString>
+
+
+  <!-- MECHANISMS -->
+
+  <MakeSimpleMechanism_Hand.label>Собрать механизм x5</MakeSimpleMechanism_Hand.label>
+  <MakeSimpleMechanism_Hand.description>Собрать механизмы. Механизмы представляют собой простые зубчатые части для использования в машинах или верстаках. Довольно медленно. Производит 5.</MakeSimpleMechanism_Hand.description>
+  <MakeSimpleMechanism_Hand.jobString>Собирает механизм.</MakeSimpleMechanism_Hand.jobString>
+
+  <MakeSimpleMechanism_Electric.label>Собрать механизм x10</MakeSimpleMechanism_Electric.label>
+  <MakeSimpleMechanism_Electric.description>Собрать механизмы. Механизмы представляют собой простые зубчатые части для использования в машинах или верстаках. Довольно быстро. Производит 10.</MakeSimpleMechanism_Electric.description>
+  <MakeSimpleMechanism_Electric.jobString>Собирает механизм.</MakeSimpleMechanism_Electric.jobString>
+
+  <MakeAdvMechanism_Hand.label>Собрать продвинутый механизм x5</MakeAdvMechanism_Hand.label>
+  <MakeAdvMechanism_Hand.description>Собрать продвинутые механизмы - машинные механизмы, которые заставляют вещи двигаться. Производит 5.</MakeAdvMechanism_Hand.description>
+  <MakeAdvMechanism_Hand.jobString>Собирает продвинутый механизмы</MakeAdvMechanism_Hand.jobString>
+
+  <MakeTurbineBlades.label>Собрать лопасти трубины x10</MakeTurbineBlades.label>
+  <MakeTurbineBlades.description>Используется для создания турбогенераторов. Должны быть изготовлены из материалов, способных выдерживать экстремальные условия.</MakeTurbineBlades.description>
+  <MakeTurbineBlades.jobString>Собирает лопасти трубины.</MakeTurbineBlades.jobString>
+
+  <MakeAdvMechanism_Electric.label>Собрать продвинутый механизм x10</MakeAdvMechanism_Electric.label>
+  <MakeAdvMechanism_Electric.description>Собрать продвинутые механизмы - машинные механизмы, которые заставляют вещи двигаться. Производит 10.</MakeAdvMechanism_Electric.description>
+  <MakeAdvMechanism_Electric.jobString>Собирает продвинутый механизмы.</MakeAdvMechanism_Electric.jobString>
+
+
+  <!-- Petrochem -->
+
+  <MakeCarbonNanotubes.label>Синтезировать карбоновые нано-трубки x15</MakeCarbonNanotubes.label>
+  <MakeCarbonNanotubes.description>Нанотрубки создаются с использованием синтетического графита (образованного из кокса) с использованием кобальта и никеля в качестве катализатора..</MakeCarbonNanotubes.description>
+  <MakeCarbonNanotubes.jobString>Синтезирует карбоновые нано-трубки.</MakeCarbonNanotubes.jobString>
+
+  <MakeNanotechFramework.label>Собрать нанотехнологическую структуру x1</MakeNanotechFramework.label>
+  <MakeNanotechFramework.description>Создайте материал, который станет основой для проектов нанороботов и клейтроники. Живая клеточная материя используется для «обучения» ее биомиметическому интеллекту. Производит 1.</MakeNanotechFramework.description>
+  <MakeNanotechFramework.jobString>Собирает нанотехнологическую структуру.</MakeNanotechFramework.jobString>
+
+
+</LanguageData>

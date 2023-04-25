@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Taco.label>Тако</Taco.label>
+  <Taco.description>Острая пища 60% (.6 питательность) 
+ Происхождение: Мексика
+ Ручная кукурузная лепешка с начинкой из острого мяса или бобовой смеси.</Taco.description>
+
+  <JerkMeat.label>Вяленое мясо</JerkMeat.label>
+  <JerkMeat.description>Острая пища 60% (.85 питательность, нормально) 
+ Происхождение: Ямайка
+  Мясо натирают или маринуют в острой смеси специй.</JerkMeat.description>
+
+  <HotandSourSoup.label>Горячий и кислый суп</HotandSourSoup.label>
+  <HotandSourSoup.description>Острая пища 60% (.85 питательность, роскошная) 
+ Происхождение: Китай
+Суп одновременно острый и кислый.</HotandSourSoup.description>
+
+
+</LanguageData>

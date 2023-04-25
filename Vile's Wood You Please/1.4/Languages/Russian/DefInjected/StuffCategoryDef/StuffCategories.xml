@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Hardwoods.label>Брёвна твердой древесины</Hardwoods.label>
+  <Softwoods.label>Брёвна мягкой древесины</Softwoods.label>
+  <HardwoodLumber.label>Пиломатериалы из твердой древесины</HardwoodLumber.label>
+  <SoftwoodLumber.label>Пиломатериалы из мягкой древесины</SoftwoodLumber.label>
+  <Ultrahardwoods.label>Бревна из сверхтвердой древесины</Ultrahardwoods.label>
+  <UltrahardwoodLumber.label>Ультратвердые пиломатериалы</UltrahardwoodLumber.label>
+  <EngineeredLumber.label>Инженерная древесина</EngineeredLumber.label>
+  <Bambooish.label>Сырой бамбук</Bambooish.label>
+
+
+</LanguageData>

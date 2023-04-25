@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- SOFTWOOD LOGS -->
+
+  <CecropiaPlank.label>Цекорпиевые доски</CecropiaPlank.label>
+  <CecropiaPlank.description>Цекорпия — самый легкий из светлых пород дерева, с ним очень легко работать, и он довольно мягкий.</CecropiaPlank.description>
+  <CecropiaPlank.stuffProps.stuffAdjective>цекорпиевых досок</CecropiaPlank.stuffProps.stuffAdjective>
+
+  <PinePlank.label>Сосновые доски</PinePlank.label>
+  <PinePlank.description>Сосна – распространенный строительный материал, для которого долговечность не так важна. Он легкий и привлекательный, с ним легко работать.</PinePlank.description>
+  <PinePlank.stuffProps.stuffAdjective>сосновых досок</PinePlank.stuffProps.stuffAdjective>
+
+  <WillowPlank.label>Ивовые доски</WillowPlank.label>
+  <WillowPlank.description>Ива — мягкая древесина, которая ничем не примечательна. Однако из него получаются хорошие ручки для инструментов.</WillowPlank.description>
+  <WillowPlank.stuffProps.stuffAdjective>ивовых досок</WillowPlank.stuffProps.stuffAdjective>
+
+  <RedWoodPlank.label>Доски красного дерева</RedWoodPlank.label>
+  <RedWoodPlank.stuffProps.stuffAdjective>досок красного дерева</RedWoodPlank.stuffProps.stuffAdjective>
+
+  <CypressPlank.label>Кипарисовые доски</CypressPlank.label>
+  <CypressPlank.description>Кипарис, известный своей узловатой структурой древесины, довольно прочный для того, чтобы быть легкой хвойной древесиной.</CypressPlank.description>
+  <CypressPlank.stuffProps.stuffAdjective>кипарисовых досок</CypressPlank.stuffProps.stuffAdjective>
+
+  <PoplarPlank.label>Тополевые доски</PoplarPlank.label>
+  <PoplarPlank.description>Тополь — одна из самых распространенных пород дерева, она очень дешевая и мягкая, но ее умеренный вес и прочность делают ее полезной во всех видах применения.</PoplarPlank.description>
+  <PoplarPlank.stuffProps.stuffAdjective>тополевых досок</PoplarPlank.stuffProps.stuffAdjective>
+
+
+  <!-- HARDWOODS -->
+
+  <MaplePlank.label>Кленовые доски</MaplePlank.label>
+  <MaplePlank.description>Клен умеренно прочен и немного тяжел, и часто имеет красивый рисунок древесных волокон. Обычно это древесина для строительства, несмотря на то, что с ней трудно работать.</MaplePlank.description>
+  <MaplePlank.stuffProps.stuffAdjective>maple</MaplePlank.stuffProps.stuffAdjective>
+
+  <TeakPlank.label>Доски из тикового дерева</TeakPlank.label>
+  <TeakPlank.description>Тиковое дерево - часто востребованная лиственная древесина. Он очень дорогой, потому что растет только в тропических лесах, а его красота и сила почти не имеют себе равных. Однако он очень тяжелый.</TeakPlank.description>
+  <TeakPlank.stuffProps.stuffAdjective>досок тикового дерева</TeakPlank.stuffProps.stuffAdjective>
+
+  <BirchPlank.label>Берёзовые доски</BirchPlank.label>
+  <BirchPlank.description>Береза — очень мягкая твердая древесина, но с ней легко работать, несмотря на то, что она тяжелая и прочная.</BirchPlank.description>
+  <BirchPlank.stuffProps.stuffAdjective>берёзовых досок</BirchPlank.stuffProps.stuffAdjective>
+
+  <OakPlank.label>Дубовые доски</OakPlank.label>
+  <OakPlank.description>Поговорка «Крепкий как дуб» относится и к пиломатериалам. Это самая прочная древесина, которую вы можете найти в регионах с умеренным климатом. Он же и самый тяжелый.</OakPlank.description>
+  <OakPlank.stuffProps.stuffAdjective>дубовых досок</OakPlank.stuffProps.stuffAdjective>
+
+  <AcaciaPlank.label>Акациевые доски</AcaciaPlank.label>
+  <AcaciaPlank.description>Акация — самая твердая и тяжелая из стандартных лиственных пород.</AcaciaPlank.description>
+  <AcaciaPlank.stuffProps.stuffAdjective>акациевых досок</AcaciaPlank.stuffProps.stuffAdjective>
+
+  <DragonwoodPlank.label>Доски драконового дерева</DragonwoodPlank.label>
+  <DragonwoodPlank.description>Драконово дерево — редкая и невероятно твердая, красивая древесина. Его сок кроваво-красный и обладает целебными свойствами. С ним очень сложно работать из-за его чрезвычайной твердости.</DragonwoodPlank.description>
+  <DragonwoodPlank.stuffProps.stuffAdjective>досок драконового дерева</DragonwoodPlank.stuffProps.stuffAdjective>
+
+  <MangrovePlank.label>Мангровые доски</MangrovePlank.label>
+  <MangrovePlank.description>Мангровая древисина — отличный строительный материал благодаря своей естественной огнестойкости и невероятной прочности (уступает только драконовому дереву). Однако его часто предпочитают использовать в качестве дров, поскольку он очень тяжелый и с ним трудно работать.</MangrovePlank.description>
+  <MangrovePlank.stuffProps.stuffAdjective>мангровых досок</MangrovePlank.stuffProps.stuffAdjective>
+
+  <ChipBoard.label>ДСП</ChipBoard.label>
+  <ChipBoard.description>Деревянные листы и доски, изготовленные из прессованной щепы. Дешево, некрасиво и слишком легоко ломаются</ChipBoard.description>
+  <ChipBoard.stuffProps.stuffAdjective>ДСП</ChipBoard.stuffProps.stuffAdjective>
+
+
+</LanguageData>

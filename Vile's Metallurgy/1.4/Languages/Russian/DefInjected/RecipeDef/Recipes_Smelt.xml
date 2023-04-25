@@ -10,9 +10,9 @@
 
   <!-- SMELT Pig Iron -->
 
-  <MakePigIron_Furnace.label>Выплавка чугуна (x100)</MakePigIron_Furnace.label>
-  <MakePigIron_Furnace.description>Выплавляет большие слитки чугуна (непереработанный высокоуглеродистый чугун). Не так много шлака как в примитивном чугуне, но его все равно нужно декарбонизировать, чтобы получить полезное кованое железо, либо путем ковки на кузне, либо в специальной печи. Это намного эффективнее, доменная печь, но поскольку требуется много времени, чтобы раскалить огонь до достаточно высокой температуры, это лучше делать большими партиями.</MakePigIron_Furnace.description>
-  <MakePigIron_Furnace.jobString>Выплавляю чугун.</MakePigIron_Furnace.jobString>
+  <MakePigIron_Furnace.label>Выплавка сырьевого железа (x100)</MakePigIron_Furnace.label>
+  <MakePigIron_Furnace.description>Выплавляет сырьевое железо (непереработанное высокоуглеродистое сырьевое железо). Не так много шлака как в цветении, но его все равно нужно декарбонизировать, чтобы получить полезное кованое железо, либо путем ковки на кузне, либо в специальной печи. Это намного эффективнее, доменная печь, но поскольку требуется много времени, чтобы раскалить огонь до достаточно высокой температуры, это лучше делать большими партиями.</MakePigIron_Furnace.description>
+  <MakePigIron_Furnace.jobString>Выплавляю сырьевое железо.</MakePigIron_Furnace.jobString>
 
 
   <!-- blast furnace recipe users in building def -->
@@ -25,7 +25,7 @@
   <!-- SMELT Copper -->
 
   <MakeCopperBars_Hand.label>Выплавить медный сплав (x10)</MakeCopperBars_Hand.label>
-  <MakeCopperBars_Hand.description>Выплавить медный слиток из медной руды. Производит 10.</MakeCopperBars_Hand.description>
+  <MakeCopperBars_Hand.description>Выплавить медный сплав из медной руды. Производит 10.</MakeCopperBars_Hand.description>
   <MakeCopperBars_Hand.jobString>Выплавляю медь.</MakeCopperBars_Hand.jobString>
 
 

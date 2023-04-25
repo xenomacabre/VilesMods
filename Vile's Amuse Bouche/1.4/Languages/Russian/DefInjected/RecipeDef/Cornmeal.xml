@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- MEAL RECIPES -->
+
+  <BakeCornbread.label>Испечь кукурузный хлеб (2x)</BakeCornbread.label>
+  <BakeCornbread.description>Выпекает вкусный кукурузный хлеб. Производит 2.</BakeCornbread.description>
+  <BakeCornbread.jobString>Печёт кукурузный хлеб.</BakeCornbread.jobString>
+
+  <BakeCornbreadmuffin.label>Маффин с кукурузными отрубями и изюмом (x3 здоровая пища)</BakeCornbreadmuffin.label>
+  <BakeCornbreadmuffin.description>Выпекает маффин с кукурузными отрубями и изюмом. Здоровая пища на 80% (.6 питательность, Ужасно) Многозерновой кекс. С изюмом.</BakeCornbreadmuffin.description>
+  <BakeCornbreadmuffin.jobString>Печёт маффин с кукурузными отрубями и изюмом.</BakeCornbreadmuffin.jobString>
+
+
+</LanguageData>

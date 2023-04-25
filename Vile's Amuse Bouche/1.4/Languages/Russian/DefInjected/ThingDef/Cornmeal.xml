@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- RESOURCE -->
+
+  <Cornmeal.label>Кукурузная мука</Cornmeal.label>
+  <Cornmeal.description>Простая кукурузная мука, используемая в выпечке.</Cornmeal.description>
+
+
+  <!-- MEALS THINGDEFS -->
+
+  <Cornbread.label>Кукурузный хлеб</Cornbread.label>
+  <Cornbread.description>Очень простая выпечка из кукурузной муки.</Cornbread.description>
+
+  <Cornbreadmuffin.label>Маффин с кукурузными отрубями и изюмом</Cornbreadmuffin.label>
+  <Cornbreadmuffin.description>Здоровая пища 80% (.6 питательность, ужасно) 
+Многозерновой маффин. С изюмом.</Cornbreadmuffin.description>
+
+
+</LanguageData>
