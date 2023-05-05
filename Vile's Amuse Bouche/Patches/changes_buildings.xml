@@ -11,7 +11,7 @@
         		
 				
 			<li Class="PatchOperationReplace">
-            			<xpath>/Defs/ThingDef[defName="ElectricStove_Pro"]/statBases/WorkTableWorkSpeedFactor</xpath>
+            			<xpath>Defs/ThingDef[defName="ElectricStove_Pro"]/statBases/WorkTableWorkSpeedFactor</xpath>
             				<value>
 								<WorkTableWorkSpeedFactor>1.2</WorkTableWorkSpeedFactor>
             				</value>

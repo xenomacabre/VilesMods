@@ -137,8 +137,11 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<categories>
-				<li>USLDBar</li>
+				<li>SuperBar</li>
 			</categories>
+			<thingDefs>
+				<li>AerMet</li>
+			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<ComponentAdvanced>10</ComponentAdvanced>
