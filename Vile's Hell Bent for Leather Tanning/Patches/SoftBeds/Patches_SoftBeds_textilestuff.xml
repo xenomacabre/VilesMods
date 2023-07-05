@@ -10,13 +10,13 @@
 		<nomatch Class="PatchOperationSequence">
         <operations>
             <li Class="PatchOperationReplace"> <!-- stock leather -->
-				<xpath>Defs/ThingDef[defName="HayBed"]/statBases/BedRestEffectiveness</xpath>
+				<xpath>Defs/ThingDef[defName="HayBed" or defName="HayBedDouble"]/statBases/BedRestEffectiveness</xpath>
 				<value><!-- IGSF 0.96 -->
 					<BedRestEffectiveness>0.57</BedRestEffectiveness>
 				</value>
 			</li>
             <li Class="PatchOperationReplace"> <!-- stock leather -->
-				<xpath>Defs/ThingDef[defName="HayBed"]/statBases/ImmunityGainSpeedFactor</xpath>
+				<xpath>Defs/ThingDef[defName="HayBed" or defName="HayBedDouble"]/statBases/ImmunityGainSpeedFactor</xpath>
 				<value><!-- IGSF 0.96 -->
 					<ImmunityGainSpeedFactor>0.85</ImmunityGainSpeedFactor>
 				</value>
@@ -28,7 +28,7 @@
 				</value>
 			</li>
             <li Class="PatchOperationReplace"> <!-- stock leather -->
-				<xpath>Defs/ThingDef[defName="HayBed" or defName="DoubleSleepingSpot"]/statBases/ImmunityGainSpeedFactor</xpath>
+				<xpath>Defs/ThingDef[defName="HayBed" or defName="DoubleSleepingSpot" or defName="HayBedDouble"]/statBases/ImmunityGainSpeedFactor</xpath>
 				<value><!-- IGSF 0.96 -->
 					<ImmunityGainSpeedFactor>0.8</ImmunityGainSpeedFactor>
 				</value>

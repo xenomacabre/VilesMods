@@ -120,6 +120,7 @@
 				
 				
 		<!-- RECIPE DEF sCRAM -->
+
         			<li Class="PatchOperationReplace">
         				<xpath>Defs/RecipeDef[defName="CookScrambledEggs"]/label</xpath>
 	        				<value>
@@ -132,7 +133,7 @@
 	        					<description>.7 Nutr &#xA;Simple scrambled eggs or tofu.</description>
         					</value>
         			</li>
-			<li Class="PatchOperationReplace">
+			<!--<li Class="PatchOperationReplace">
             			<xpath>Defs/RecipeDef[defName="CookScrambledEggs"]/ingredients</xpath>
 				<value>
 					<ingredients>
@@ -165,6 +166,7 @@
 					</fixedIngredientFilter>
 				</value>
         			</li>
+					
 			<li Class="PatchOperationReplace">
             			<xpath>Defs/RecipeDef[defName="CookScrambledEggs"]/defaultIngredientFilter</xpath>
 				<value>
@@ -181,7 +183,7 @@
 					</defaultIngredientFilter>
 				</value>
         			</li>
-				
+				-->
         		<!-- THING DEF  sCRAM  -->
 			<li Class="PatchOperationReplace">
         				<xpath>Defs/ThingDef[defName="ScrambledEggs"]/label</xpath>

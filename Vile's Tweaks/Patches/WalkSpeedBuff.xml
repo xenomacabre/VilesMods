@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+<!-- formula = x * 10 + 1 -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparello_Shoes"]/equippedStatOffsets/MoveSpeed</xpath>
+			<value>
+   				 <MoveSpeed>1.8</MoveSpeed>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace"> <!-- Calliagae -->
+			<xpath>Defs/ThingDef[defName="Apparello_Clawboots"]/equippedStatOffsets/MoveSpeed</xpath>
+			<value>
+   				 <MoveSpeed>2.2</MoveSpeed>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparello_Snowboots"]/equippedStatOffsets/MoveSpeed</xpath>
+			<value>
+   				 <MoveSpeed>1.2</MoveSpeed>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace"> <!-- Sandals -->
+			<xpath>Defs/ThingDef[defName="Apparello_NorbalMuffshoes"]/equippedStatOffsets/MoveSpeed</xpath>
+			<value>
+   				 <MoveSpeed>1.6</MoveSpeed>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace"> <!-- sabatons -->
+			<xpath>Defs/ThingDef[defName="Apparello_MetalBoots"]/equippedStatOffsets/MoveSpeed</xpath>
+			<value>
+   				 <MoveSpeed>0.6</MoveSpeed>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace"> <!-- greaves -->
+			<xpath>Defs/ThingDef[defName="MedievalTimes_Boots_Steel_Plated"]/equippedStatOffsets/MoveSpeed</xpath>
+			<value>
+   				 <MoveSpeed>0.4</MoveSpeed>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace"> <!-- spurred boots -->
+			<xpath>Defs/ThingDef[defName="Apparello_Boots"]/equippedStatOffsets/MoveSpeed</xpath>
+			<value>
+   				 <MoveSpeed>2.2</MoveSpeed>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace"> <!-- combat boots -->
+			<xpath>Defs/ThingDef[defName="MedievalTimes_Boots_Combat"]/equippedStatOffsets/MoveSpeed</xpath>
+			<value>
+   				 <MoveSpeed>1.5</MoveSpeed>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace"> <!-- techno boots -->
+			<xpath>Defs/ThingDef[defName="MedievalTimes_Boots_Techno"]/equippedStatOffsets/MoveSpeed</xpath>
+			<value>
+   				 <MoveSpeed>1.8</MoveSpeed>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace"> <!-- springers -->
+			<xpath>Defs/ThingDef[defName="Apparello_Spboots"]/equippedStatOffsets/MoveSpeed</xpath>
+			<value>
+   				 <MoveSpeed>2.5</MoveSpeed>
+			</value>
+		</li>
+		
+		
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

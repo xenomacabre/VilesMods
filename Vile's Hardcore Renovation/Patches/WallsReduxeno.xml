@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[@Name = "WallBase"]/altitudeLayer</xpath>
+	<value>
+		<altitudeLayer>DoorMoveable</altitudeLayer>
+	</value>
+</Operation>
   
  <Operation Class="PatchOperationAdd">
 	<xpath>Defs/ThingDef[defName = "Wall"]/graphicData</xpath>

@@ -220,7 +220,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="WeatheredOreAluminium" or defName="SolidOreAluminium" or defName="HewnOreAluminium"]/description</xpath>
 				<value>
-					<description>This mineral is an aluminium ore (Al). Silicon (Si) and Chromium (Cr) can also be recovered at a Metal Extraction Plant and Electrolytic Refinery respectively.</description>
+					<description>This mineral is an aluminium ore (Al). Chromium (Cr) can also be recovered at a Metal Extraction Plant and Electrolytic Refinery respectively.</description>
 				</value>
 			</li>
 			

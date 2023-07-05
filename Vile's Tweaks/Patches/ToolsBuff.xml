@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vile's Metallurgy</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="MeleeWeapon_Schiv"
+			or defName="MeleeWeapon_Dagger"
+			or defName="MeleeWeapon_Cleaver"
+			or defName="MeleeWeapon_Knife"
+			or defName="TFJ_Tool_Woodcutting_Handaxe"
+			or defName="TFJ_Tool_Mining_Pickaxe"
+			or defName="TFJ_Tool_Building_Hammer"
+			or defName="TFJ_Tool_Sickle"
+			or defName="TFJ_Tool_Broom"
+			or defName="TFJ_Tool_Hoe"
+			or defName="TFJ_Tool_Multitool"
+			or defName="MeleeWeapon_Monkeywrench"
+			or defName="MeleeWeapon_Sledgehammer"]/statBases/ToolEffectivenessFactor</xpath>
+			<value>
+   				 <ToolEffectivenessFactor>2.5</ToolEffectivenessFactor>
+			</value>
+		</li>
+		
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

@@ -80,4 +80,28 @@
 		</operations>
 	</Operation>
 
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/StatDef[defName="TailoringSpeed"]/parts</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/StatDef[defName="TailoringSpeed"]</xpath>
+				<value>
+					<parts/>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/StatDef[defName="TailoringSpeed"]/parts</xpath>
+				<value>
+					<li Class="SurvivalToolsLite.StatPart_SurvivalTool">
+						<noToolStatFactor>1</noToolStatFactor>
+						<noToolStatFactorHardcore>1</noToolStatFactorHardcore>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
 </Patch>

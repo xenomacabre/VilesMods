@@ -60,7 +60,10 @@
 		<stuffCategories>
 			<li>StrongMetallic</li>
 		</stuffCategories>
-		<costStuffCount>25</costStuffCount>
+		<costStuffCount>20</costStuffCount>
+		<costList>
+			<ComponentMedieval>4</ComponentMedieval>
+		</costList>
 		<modExtensions>
 <!-- 			<li Class="RightToolForJob.EquipRightToolExtension">
 				<purpose>Harvesing</purpose>
@@ -78,6 +81,77 @@
 		</modExtensions>
 		
 	</ThingDef>
+<!--
+	<ThingDef ParentName="BaseTool">
+		<defName>Tool_Shears</defName>
+		<label>Shears</label>
+		<description>A pair of shears for sewing. You can stab things with them too.</description>
+		<thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
+		<graphicData>
+			<texPath>Things/Weapons/Shears</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>0.5</Mass>
+			<Bulk>0.5</Bulk>
+			<MeleeCounterParryBonus>0.1</MeleeCounterParryBonus>
+			<ToolEffectivenessFactor>1</ToolEffectivenessFactor>
+		</statBases>
+		<equippedAngleOffset>-90</equippedAngleOffset>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.3</cooldownTime>
+				<chanceFactor>0.3</chanceFactor>
+				<armorPenetrationBlunt>3</armorPenetrationBlunt>				
+				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>1.6</cooldownTime>
+				<chanceFactor>1.33</chanceFactor>
+				<armorPenetrationBlunt>1.0</armorPenetrationBlunt>
+				<armorPenetrationSharp>2.0</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<thingCategories>
+			<li>SurvivalToolsNeolithic</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+			</recipeUsers>
+			<researchPrerequisite>LongBlades</researchPrerequisite>
+		</recipeMaker>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>25</costStuffCount>
+		<modExtensions>
+			<li Class="SurvivalToolsLite.SurvivalToolProperties">
+				<baseWorkStatFactors>
+					<TailoringSpeed>1.3</TailoringSpeed>
+				</baseWorkStatFactors>
+				<defaultSurvivalToolAssignmentTags>
+					<li>Tailor</li>
+				</defaultSurvivalToolAssignmentTags>
+			</li>
+		</modExtensions>
+		
+	</ThingDef>
+	-->
 	
 	<ThingDef ParentName="WeaponMedievalBase">
 		<defName>NorbalMeleeWeapon_ShortSword</defName>

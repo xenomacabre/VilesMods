@@ -22,7 +22,7 @@
 
 <!--BedRestEffectiveness Settings-->
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName = "HayBed"]/stuffCategories</xpath>
+		<xpath>/Defs/ThingDef[defName = "HayBed" or defName="HayBedDouble"]/stuffCategories</xpath>
 		<value>
 			<stuffCategories>
 				<li>WoodLogs</li>
@@ -40,13 +40,13 @@
 		<operations>
 
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName = "HayBed"]/statBases/BedRestEffectiveness</xpath>
+				<xpath>/Defs/ThingDef[defName = "HayBed" or defName="HayBedDouble"]/statBases/BedRestEffectiveness</xpath>
 					<value>
 						<BedRestEffectiveness>0.55</BedRestEffectiveness>
 					</value>
 			</li>
 			<li Class="PatchOperationReplace">
-			  <xpath>Defs/ThingDef[defName="HayBed"]/statBases/ImmunityGainSpeedFactor</xpath>
+			  <xpath>Defs/ThingDef[defName="HayBed" or defName="HayBedDouble"]/statBases/ImmunityGainSpeedFactor</xpath>
 			  <value>
 				<ImmunityGainSpeedFactor>0.25</ImmunityGainSpeedFactor>
 			  </value>

@@ -164,12 +164,12 @@
                 <label>fish at pier</label>
             </value>
     </Operation>     
-     <Operation Class="PatchOperationAdd">
+     <!-- <Operation Class="PatchOperationAdd">
             <xpath>Defs/WorkGiverDef[defName="WorkGiver_FishAtFishingZone"]</xpath>
             <value>
                 <label>fish zone</label>
             </value>
-    </Operation>   
+    </Operation>    -->
     <Operation Class="PatchOperationReplace">
             <xpath>Defs/WorkGiverDef[defName="DoBillsMakeFishingBait"]/label</xpath>
             <value>

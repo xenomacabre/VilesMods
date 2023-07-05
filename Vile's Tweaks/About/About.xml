@@ -10,7 +10,8 @@
 	<packageId>vitech.tweaks</packageId>
 	<modDependencies>
 	</modDependencies>
-	<loadAfter>
+		<loadAfter>
+        <li>vitech.metallurgy</li>
 	</loadAfter>
 	<description>
 This is where I keep minor tweaks for my own personal use. I'll try to keep the file names descriptive so you can delete files and tailor it to your liking.

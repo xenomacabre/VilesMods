@@ -724,8 +724,8 @@
 		<livesInRiver>true</livesInRiver>
 		<commonality>0.45</commonality>
 		<naturalBiomes>
-            <li>MontaneForest</li>
-            <li>MontaneGrasslands</li>
+            <li MayRequire="vileheathen.mountainsmeadows">MontaneForest</li>
+            <li MayRequire="vileheathen.mountainsmeadows">MontaneGrasslands</li>
 			<li>SeaIce</li>
 			<li>IceSheet</li>
 			<li>Tundra</li>
@@ -1088,9 +1088,9 @@
 		<livesInRiver>true</livesInRiver>
 		<commonality>0.45</commonality>
 		<naturalBiomes>
-             <li>Prairie</li>
-            <li>MontaneForest</li>
-            <li>MontaneGrasslands</li>
+              <li MayRequire="vileheathen.mountainsmeadows">Prairie</li>
+             <li MayRequire="vileheathen.mountainsmeadows">MontaneForest</li>
+             <li MayRequire="vileheathen.mountainsmeadows">MontaneGrasslands</li>
 			<li>SeaIce</li>
 			<li>IceSheet</li>
 			<li>Tundra</li>
@@ -1324,9 +1324,9 @@
 		<livesInRiver>true</livesInRiver>
 		<commonality>0.13</commonality>
 		<naturalBiomes>
-            <li>Prairie</li>
-            <li>MontaneForest</li>
-            <li>MontaneGrasslands</li>
+             <li MayRequire="vileheathen.mountainsmeadows">Prairie</li>
+             <li MayRequire="vileheathen.mountainsmeadows">MontaneForest</li>
+             <li MayRequire="vileheathen.mountainsmeadows">MontaneGrasslands</li>
 			<li>SeaIce</li>
 			<li>IceSheet</li>
 			<li>Tundra</li>
@@ -1444,9 +1444,9 @@
 		<livesInRiver>true</livesInRiver>
 		<commonality>0.77</commonality>
 		<naturalBiomes>
-		<li>Prairie</li>
-		<li>MontaneForest</li>
-		<li>MontaneGrasslands</li>
+		 <li MayRequire="vileheathen.mountainsmeadows">Prairie</li>
+		 <li MayRequire="vileheathen.mountainsmeadows">MontaneForest</li>
+		 <li MayRequire="vileheathen.mountainsmeadows">MontaneGrasslands</li>
             <li>SeaIce</li>
 			<li>IceSheet</li>
 			<li>Tundra</li>
