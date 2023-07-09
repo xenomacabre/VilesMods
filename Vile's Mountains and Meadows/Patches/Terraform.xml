@@ -1,63 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
 	
-<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Terraform_EnrichSoil"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
-		<value>
-			<li>PrairieSoil</li>
-		</value>
-    </Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vile's Biomes: From The Ground Up</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
 			
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Terraform_GatherNutrientsFromFertileSoil"]/description</xpath>
-		<value>
-			<description>Fertile / Prairie / Volcanic Soil \n +6 Clay\n +6 Silt\n +6 Compost\n +3 Fertilizer</description>
-		</value>
-    </Operation>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Terraform_EnrichSoil"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
+					<value>
+						<li>PrairieSoil</li>
+					</value>
+				</li>
+						
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Terraform_GatherNutrientsFromFertileSoil"]/description</xpath>
+					<value>
+						<description>Fertile / Prairie / Volcanic Soil \n +6 Clay\n +6 Silt\n +6 Compost\n +3 Fertilizer</description>
+					</value>
+				</li>
+				
+			   <li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Terraform_GatherNutrientsFromFertileSoil"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
+					<value>
+						<li>PrairieSoil</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Terraform_SodLawn"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
+					<value>
+						<li>PrairieSoil</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Terraform_SodPattern"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
+					<value>
+						<li>PrairieSoil</li>
+					</value>
+				</li>
+				
+					<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Terraform_SodClover"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
+					<value>
+						<li>PrairieSoil</li>
+					</value>
+				</li>
+				
+					<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Terraform_ToPackedDirt"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
+					<value>
+						<li>PrairieSoil</li>
+					</value>
+				</li>
+			
+			</operations>
+		</match>
+	</Operation>
 	
-   <Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Terraform_GatherNutrientsFromFertileSoil"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
-		<value>
-			<li>PrairieSoil</li>
-		</value>
-    </Operation>
-    
-    <Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Terraform_SodLawn"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
-		<value>
-			<li>PrairieSoil</li>
-		</value>
-    </Operation>
-    
-    <Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Terraform_SodPattern"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
-		<value>
-			<li>PrairieSoil</li>
-		</value>
-    </Operation>
-    
-        <Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Terraform_SodClover"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
-		<value>
-			<li>PrairieSoil</li>
-		</value>
-    </Operation>
-    
-        <Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Terraform_ToPackedDirt"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
-		<value>
-			<li>PrairieSoil</li>
-		</value>
-    </Operation>
-    
-        <Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="SoilF-EarthenFloor"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
-		<value>
-			<li>PrairieSoil</li>
-		</value>
-    </Operation>
-    
-
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vile's Hardcore Renovations</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="SoilF-EarthenFloor"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
+					<value>
+						<li>PrairieSoil</li>
+					</value>
+				</li>
+			
+			</operations>
+		</match>
+	</Operation>
+	
 </Patch>
 
 
