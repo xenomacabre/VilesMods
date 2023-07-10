@@ -79,7 +79,7 @@ Wrought iron is your mostly-pure form of iron, meaning it has a very low carbon 
                 <toolStatFactors>
                     <TreeFellingSpeed>1.05</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1</PlantHarvestingSpeed>
-					<PlantSowingSpeed>1.1</PlantSowingSpeed>
+					<PlantWorkSpeed>1.1</PlantWorkSpeed>
 					<MiningSpeed>1</MiningSpeed>
 					<MiningYieldDigging>1</MiningYieldDigging>
 					<ConstructionSpeed>1.05</ConstructionSpeed>
@@ -170,7 +170,7 @@ Take your iron bloom, and forge some of it into useless high-carbon bars and som
                 <toolStatFactors>
                     <TreeFellingSpeed>1.1</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.1</PlantHarvestingSpeed>
-					<PlantSowingSpeed>0.9</PlantSowingSpeed>
+					<PlantWorkSpeed>0.9</PlantWorkSpeed>
 					<MiningSpeed>1</MiningSpeed>
 					<MiningYieldDigging>1.1</MiningYieldDigging>
 					<ConstructionSpeed>1.1</ConstructionSpeed>
@@ -262,7 +262,7 @@ Cast iron has an exceptionally high carbon content which makes it very hard but 
                 <toolStatFactors>
                     <TreeFellingSpeed>1</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1</PlantHarvestingSpeed>
-					<PlantSowingSpeed>1</PlantSowingSpeed>
+					<PlantWorkSpeed>1</PlantWorkSpeed>
 					<MiningSpeed>0.4</MiningSpeed>
 					<MiningYieldDigging>1</MiningYieldDigging>
 					<ConstructionSpeed>1</ConstructionSpeed>
@@ -355,7 +355,7 @@ Wootz steel is made in small batches by filling a disposable clay crucible with 
                 <toolStatFactors>
                     <TreeFellingSpeed>1.2</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.3</PlantHarvestingSpeed>
-					<PlantSowingSpeed>0.9</PlantSowingSpeed>
+					<PlantWorkSpeed>0.9</PlantWorkSpeed>
 					<MiningSpeed>0.9</MiningSpeed>
 					<MiningYieldDigging>1.1</MiningYieldDigging>
 					<ConstructionSpeed>1</ConstructionSpeed>
@@ -448,7 +448,7 @@ Blister Steel is placed in a refractory crucible for several hours in a very hot
                 <toolStatFactors>
                     <TreeFellingSpeed>1.3</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.2</PlantHarvestingSpeed>
-					<PlantSowingSpeed>1</PlantSowingSpeed>
+					<PlantWorkSpeed>1</PlantWorkSpeed>
 					<MiningSpeed>1</MiningSpeed>
 					<MiningYieldDigging>1.2</MiningYieldDigging>
 					<ConstructionSpeed>1.3</ConstructionSpeed>

@@ -129,7 +129,7 @@
 		<livesInRiver>false</livesInRiver>
 		<commonality>0.4</commonality>
 		<naturalBiomes>
-            <li>Prairie</li>
+            <li MayRequire="vileheathen.mountainsmeadows">Prairie</li>
 			<li>TemperateForest</li>
 			<li>TemperateSwamp</li>
 			<li>TropicalRainforest</li>
@@ -250,7 +250,7 @@
 		<livesInRiver>false</livesInRiver>
 		<commonality>0.13</commonality>
 		<naturalBiomes>
-            <li>Prairie</li>
+            <li MayRequire="vileheathen.mountainsmeadows">Prairie</li>
 			<li>TemperateForest</li>
 			<li>TemperateSwamp</li>
 			<li>TropicalRainforest</li>

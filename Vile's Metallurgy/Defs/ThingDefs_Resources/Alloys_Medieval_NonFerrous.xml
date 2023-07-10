@@ -75,7 +75,7 @@ Bronze is an alloy consisting primarily of copper, commonly with about 12% tin a
                 <toolStatFactors>
                     <TreeFellingSpeed>1.1</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.1</PlantHarvestingSpeed>
-					<PlantSowingSpeed>1</PlantSowingSpeed>
+					<PlantWorkSpeed>1</PlantWorkSpeed>
 					<MiningSpeed>0.9</MiningSpeed>
 					<MiningYieldDigging>0.9</MiningYieldDigging>
 					<ConstructionSpeed>1.1</ConstructionSpeed>

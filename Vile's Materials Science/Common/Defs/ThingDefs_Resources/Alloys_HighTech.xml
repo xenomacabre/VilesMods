@@ -81,7 +81,7 @@ MaxaMet is an ultra-hard high-speed tool steel (HSS). It's just shy of the hardn
                 <toolStatFactors>
                     <TreeFellingSpeed>1.5</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.8</PlantHarvestingSpeed>
-					<PlantSowingSpeed>1.5</PlantSowingSpeed>
+					<PlantWorkSpeed>1.5</PlantWorkSpeed>
 					<MiningSpeed>1.5</MiningSpeed>
 					<MiningYieldDigging>1.5</MiningYieldDigging>
 					<ConstructionSpeed>1.5</ConstructionSpeed>
@@ -175,7 +175,7 @@ Possibly coined for its use in the aerospace industry, Aermet is the highest-rat
                 <toolStatFactors>
                     <TreeFellingSpeed>1.8</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.5</PlantHarvestingSpeed>
-					<PlantSowingSpeed>1.4</PlantSowingSpeed>
+					<PlantWorkSpeed>1.4</PlantWorkSpeed>
 					<MiningSpeed>1.5</MiningSpeed>
 					<MiningYieldDigging>1.4</MiningYieldDigging>
 					<ConstructionSpeed>1.6</ConstructionSpeed>
@@ -269,7 +269,7 @@ Pyromet is a nickel-chromium stainless steel superalloy, useful for producing co
                 <toolStatFactors>
                     <TreeFellingSpeed>1.25</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.25</PlantHarvestingSpeed>
-					<PlantSowingSpeed>1.25</PlantSowingSpeed>
+					<PlantWorkSpeed>1.25</PlantWorkSpeed>
 					<MiningSpeed>1.25</MiningSpeed>
 					<MiningYieldDigging>1.25</MiningYieldDigging>
 					<ConstructionSpeed>1.25</ConstructionSpeed>
@@ -363,7 +363,7 @@ Stellite is a superalloy of cobalt and chromium, an important material for turbi
                 <toolStatFactors>
                     <TreeFellingSpeed>1.6</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.5</PlantHarvestingSpeed>
-					<PlantSowingSpeed>1.4</PlantSowingSpeed>
+					<PlantWorkSpeed>1.4</PlantWorkSpeed>
 					<MiningSpeed>1.4</MiningSpeed>
 					<MiningYieldDigging>1.4</MiningYieldDigging>
 					<ConstructionSpeed>1.65</ConstructionSpeed>
@@ -456,7 +456,7 @@ Nimonic is a nickel-based superalloy used for components needed for high-tempera
                 <toolStatFactors>
                     <TreeFellingSpeed>1.65</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.6</PlantHarvestingSpeed>
-					<PlantSowingSpeed>1.7</PlantSowingSpeed>
+					<PlantWorkSpeed>1.7</PlantWorkSpeed>
 					<MiningSpeed>1.55</MiningSpeed>
 					<MiningYieldDigging>1.6</MiningYieldDigging>
 					<ConstructionSpeed>1.6</ConstructionSpeed>
@@ -551,7 +551,7 @@ Perhaps more commmonly known as silicon carbide, this diamond-hard ceramic is co
                 <toolStatFactors>
                     <TreeFellingSpeed>1.3</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.4</PlantHarvestingSpeed>
-					<PlantSowingSpeed>1.4</PlantSowingSpeed>
+					<PlantWorkSpeed>1.4</PlantWorkSpeed>
 					<MiningSpeed>1.2</MiningSpeed>
 					<MiningYieldDigging>1.2</MiningYieldDigging>
 					<ConstructionSpeed>1.4</ConstructionSpeed>
@@ -645,7 +645,7 @@ Cemented tungsten carbide is a very hard, dense material often used for tools â€
                 <toolStatFactors>
                     <TreeFellingSpeed>1.55</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.55</PlantHarvestingSpeed>
-					<PlantSowingSpeed>1.7</PlantSowingSpeed>
+					<PlantWorkSpeed>1.7</PlantWorkSpeed>
 					<MiningSpeed>1.8</MiningSpeed>
 					<MiningYieldDigging>1.8</MiningYieldDigging>
 					<ConstructionSpeed>1.55</ConstructionSpeed>
@@ -742,7 +742,7 @@ Tennalum is a high-grade variety of 7068 Aluminium, perhaps the strongest alumin
                 <toolStatFactors>
                     <TreeFellingSpeed>1.3</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.5</PlantHarvestingSpeed>
-					<PlantSowingSpeed>1.4</PlantSowingSpeed>
+					<PlantWorkSpeed>1.4</PlantWorkSpeed>
 					<MiningSpeed>1.1</MiningSpeed>
 					<MiningYieldDigging>1.3</MiningYieldDigging>
 					<ConstructionSpeed>1.3</ConstructionSpeed>
@@ -840,7 +840,7 @@ Also known as Ti-6Al-4V or more commonly Grade 5 Titanium, it's alloyed with Alu
                 <toolStatFactors>
                     <TreeFellingSpeed>1.65</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.6</PlantHarvestingSpeed>
-					<PlantSowingSpeed>1.8</PlantSowingSpeed>
+					<PlantWorkSpeed>1.8</PlantWorkSpeed>
 					<MiningSpeed>1.8</MiningSpeed>
 					<MiningYieldDigging>1.6</MiningYieldDigging>
 					<ConstructionSpeed>1.8</ConstructionSpeed>
@@ -934,7 +934,7 @@ Half Nickel, half titanium. It's an important alloy used for high tech actuators
                 <toolStatFactors>
                     <TreeFellingSpeed>1.6</TreeFellingSpeed>
 					<PlantHarvestingSpeed>1.5</PlantHarvestingSpeed>
-					<PlantSowingSpeed>1.5</PlantSowingSpeed>
+					<PlantWorkSpeed>1.5</PlantWorkSpeed>
 					<MiningSpeed>1.5</MiningSpeed>
 					<MiningYieldDigging>1.5</MiningYieldDigging>
 					<ConstructionSpeed>1.5</ConstructionSpeed>
