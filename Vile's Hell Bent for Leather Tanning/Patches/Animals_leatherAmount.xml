@@ -82,12 +82,14 @@
 	</mods>
 	<match Class="PatchOperationSequence">
 		<operations>
+
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[@Name="FishThingBase"]/statBases/LeatherAmount</xpath>
+				<xpath>Defs/ThingDef[defName="ThingDefFishTailteeth" or defName="ThingDefDeathSturgeon"]/statBases/LeatherAmount</xpath>
 				<value>
 					<LeatherAmount>1</LeatherAmount>
 				</value>
 			</li>
+
 		</operations>
 		</match>
     </Operation>	
