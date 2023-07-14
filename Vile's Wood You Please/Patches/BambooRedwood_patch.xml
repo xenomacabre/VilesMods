@@ -23,7 +23,7 @@
 					<color>(162,94,100)</color>
 				</graphicData>
 				<statBases>
-					<MarketValue>17.5</MarketValue>
+					<MarketValue>9</MarketValue>
 					<StuffPower_Armor_Blunt>1.0</StuffPower_Armor_Blunt>
 					<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
 					<BurnDurationHours>2.85</BurnDurationHours>

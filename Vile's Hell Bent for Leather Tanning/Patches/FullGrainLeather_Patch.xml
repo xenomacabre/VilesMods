@@ -71,7 +71,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/statBases/MarketValue</xpath>
 				<value>
-					<MarketValue>7</MarketValue>
+					<MarketValue>9</MarketValue>
 				</value>
 			</li>
 			
@@ -194,7 +194,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Boomanimal"]/statBases/MarketValue</xpath>
 				<value>
-					<MarketValue>7</MarketValue>
+					<MarketValue>8</MarketValue>
 				</value>
 			</li>
 			
@@ -318,7 +318,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Lizard"]/statBases/MarketValue</xpath>
 				<value>
-					<MarketValue>10</MarketValue>
+					<MarketValue>12</MarketValue>
 				</value>
 			</li>
 			
@@ -442,7 +442,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Elephant"]/statBases/MarketValue</xpath>
 				<value>
-					<MarketValue>9</MarketValue>
+					<MarketValue>11</MarketValue>
 				</value>
 			</li>
 			
@@ -567,7 +567,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Plain"]/statBases/MarketValue</xpath>
 				<value>
-					<MarketValue>5</MarketValue>
+					<MarketValue>6.5</MarketValue>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -691,7 +691,7 @@
 					<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Light"]/statBases/MarketValue</xpath>
 				<value>
-					<MarketValue>3</MarketValue>
+					<MarketValue>5</MarketValue>
 				</value>
 			</li>
 			
@@ -815,7 +815,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Pig"]/statBases/MarketValue</xpath>
 				<value>
-					<MarketValue>5</MarketValue>
+					<MarketValue>7</MarketValue>
 				</value>
 			</li>
 			
@@ -939,7 +939,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Nightling"]/statBases/MarketValue</xpath>
 				<value>
-					<MarketValue>7</MarketValue>
+					<MarketValue>9</MarketValue>
 				</value>
 			</li>
 			

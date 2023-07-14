@@ -24,7 +24,7 @@
 			<li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[defName="Leather_KirinHide" or defName="Leather_FireDragonskin" or defName="Leather_Thrumbo" or defName="Leather_FeatheredRaptorLeather"]/stuffProps/statFactors/MarketValue</xpath>
 					<value>
-						<MarketValue>1.6</MarketValue>
+						<MarketValue>2.4</MarketValue>
 					</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -42,7 +42,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_KirinHide" or defName="Leather_FireDragonskin" or defName="Leather_Thrumbo" or defName="Leather_FeatheredRaptorLeather"]/stuffProps/statFactors/MarketValue</xpath>
 				<value>
-					<MarketValue>12.5</MarketValue>
+					<MarketValue>20</MarketValue>
 				</value>
 			</li>
 

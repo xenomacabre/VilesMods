@@ -372,6 +372,12 @@ Efficiency: 25%</description>
 					<label>candelabra</label>
 				</value>
 			</li>
+				<li Class="PatchOperationAdd">	
+				<xpath>Defs/ThingDef[defName="Candle"]</xpath> 
+				<value>
+					<altitudeLayer>PawnUnused</altitudeLayer>
+				</value>
+			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Candle"]/costStuffCount</xpath> 
 				<value>

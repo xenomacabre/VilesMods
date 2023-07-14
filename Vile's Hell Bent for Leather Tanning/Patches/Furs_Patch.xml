@@ -17,6 +17,12 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Wolf"]/statBases/MarketValue</xpath>
+				<value>
+					<MarketValue>8.5</MarketValue>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Wolf"]/description</xpath>
 				<value>
 					<description>Taking advantage of the course guard hairs of animals such as the wolf, this offers good protection against blades. And although it does not have as much padding as heavy fur, it's lighter and lasts longer.</description>
@@ -131,6 +137,12 @@
 				<xpath>Defs/ThingDef[defName="Leather_Bluefur"]/label</xpath>
 				<value>
 					<label>warm fur</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Bluefur"]/statBases/MarketValue</xpath>
+				<value>
+					<MarketValue>7</MarketValue>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -251,6 +263,12 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Heavy"]/statBases/MarketValue</xpath>
+				<value>
+					<MarketValue>12</MarketValue>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Heavy"]/description</xpath>
 				<value>
 					<description>No standerd fur or full-grain leather is stronger and meaner than beastly heavy furs. In the wrong situations, clothes made from heavy fur can be extremely heavy and hot, however.</description>
@@ -365,6 +383,12 @@
 				<xpath>Defs/ThingDef[defName="Leather_Panthera"]/label</xpath>
 				<value>
 					<label>fine fur</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Panthera"]/statBases/MarketValue</xpath>
+				<value>
+					<MarketValue>13</MarketValue>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
