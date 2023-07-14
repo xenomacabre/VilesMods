@@ -406,6 +406,7 @@
 			    <recipes>
                     <li>MakePolymerFibers</li>
                     <li>MakePolyester</li>
+					<li>MakeModacrylic</li>
                     <li>MakeRayonViscose</li>
                     <li>MakeMycotanLeather</li>
                     <li>MakePVCLeather</li>

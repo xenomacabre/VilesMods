@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	 <SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Cloudberry</defName>
+		<label>cloudberry seeds</label>
+		<sources>
+			<li>Plant_Cloudberry</li>
+		</sources>
+		<graphicData><texPath>Things/Item/Seeds/Cloudberry</texPath></graphicData>
+	    <statBases>
+	      <MarketValue>6</MarketValue>
+	    </statBases>
+	</SeedsPlease.SeedDef>
+
+
+ 
+  
+</Defs>

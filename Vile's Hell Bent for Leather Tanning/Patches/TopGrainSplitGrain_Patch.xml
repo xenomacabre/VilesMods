@@ -41,7 +41,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Fox"]/label</xpath>
 				<value>
-					<label>finished leather (vintage brown)</label>
+					<label>embossed leather (vintage brown)</label>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -96,7 +96,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Fox"]/statBases/MarketValue</xpath>
 				<value>
-					<MarketValue>4</MarketValue>
+					<MarketValue>5</MarketValue>
 				</value>
 			</li>
 			
@@ -177,6 +177,12 @@
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/statBases/MarketValue</xpath>
+				<value>
+					<MarketValue>5.5</MarketValue>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/description</xpath>
 				<value>
 					<description>Nubuck is a top-grain leather where the surface grain is sanded off. Unlike other corrected-grain leathers, nubuck is left with a smooth, sanded surface, though it may be dyed. The surface is similar to suede, though smoother, stronger, and indesputibly of higher quality. Because the surface is not embossed or coated, the leather breathes exceptionably well.</description>
@@ -224,14 +230,6 @@
 					<StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>
 				</value>
 			</li>
-			
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/statBases/MarketValue</xpath>
-				<value>
-					<MarketValue>4</MarketValue>
-				</value>
-			</li>
-			
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/stuffProps/color</xpath>
 				<value>
@@ -471,7 +469,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Chinchilla"]/statBases/MarketValue</xpath>
 				<value>
-					<MarketValue>1.8</MarketValue>
+					<MarketValue>3</MarketValue>
 				</value>
 			</li>
 			
@@ -595,7 +593,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Bird"]/statBases/MarketValue</xpath>
 				<value>
-					<MarketValue>2.2</MarketValue>
+					<MarketValue>2.5</MarketValue>
 				</value>
 			</li>
 			
@@ -718,7 +716,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Patch"]/statBases/MarketValue</xpath>
 				<value>
-					<MarketValue>1.7</MarketValue>
+					<MarketValue>2</MarketValue>
 				</value>
 			</li>
 			

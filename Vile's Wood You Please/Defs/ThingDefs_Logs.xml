@@ -63,7 +63,7 @@
 			<color>(239,222,199)</color>
 		</graphicData>
 		<statBases>
-			<MarketValue>6.5</MarketValue>
+			<MarketValue>5</MarketValue>
 			<StuffPower_Armor_Blunt>1.0</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Sharp>0.55</StuffPower_Armor_Sharp>
 			<StuffPower_Insulation_Heat>1</StuffPower_Insulation_Heat>
@@ -103,7 +103,7 @@
 			<color>(244,183,79)</color>
 		</graphicData>
 		<statBases>
-			<MarketValue>6.5</MarketValue>
+			<MarketValue>5</MarketValue>
 			<StuffPower_Armor_Blunt>1.0</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Sharp>0.55</StuffPower_Armor_Sharp>
 			<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>
@@ -143,7 +143,7 @@
 						<color>(139,125,107)</color>
 		</graphicData>
 		<statBases>
-			<MarketValue>6.5</MarketValue>
+			<MarketValue>5</MarketValue>
 			<StuffPower_Armor_Blunt>1.2</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Sharp>0.55</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
@@ -223,7 +223,7 @@
 		</graphicData>
 		<statBases>
 			
-			<MarketValue>6.5</MarketValue>
+			<MarketValue>5</MarketValue>
 			<StuffPower_Armor_Blunt>0.8</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
@@ -264,7 +264,7 @@
 						<color>(222,225,153)</color>
 		</graphicData>
 		<statBases>
-			<MarketValue>6.5</MarketValue>
+			<MarketValue>5</MarketValue>
 			<StuffPower_Armor_Blunt>0.9</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Sharp>0.8</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
@@ -355,7 +355,7 @@
 						<color>(205,157,90)</color>
 		</graphicData>
 		<statBases>
-			<MarketValue>8.5</MarketValue>
+			<MarketValue>6.5</MarketValue>
 			<StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Sharp>0.8</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
@@ -429,7 +429,7 @@
 			<color>(116,92,63)</color>
 		</graphicData>
 		<statBases>
-			<MarketValue>12.5</MarketValue>
+			<MarketValue>8.5</MarketValue>
 			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Sharp>1.0</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
@@ -470,7 +470,7 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>8</MarketValue>
+			<MarketValue>6</MarketValue>
 			<StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
@@ -510,7 +510,7 @@
 			<color>(169,107,7)</color>
 		</graphicData>
 		<statBases>
-			<MarketValue>9.5</MarketValue>
+			<MarketValue>7</MarketValue>
 			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
@@ -552,7 +552,7 @@
 			<color>(145,107,90)</color>
 		</graphicData>
 		<statBases>
-			<MarketValue>11</MarketValue>
+			<MarketValue>8</MarketValue>
 			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Sharp>0.85</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
@@ -595,7 +595,7 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>20</MarketValue>
+			<MarketValue>12</MarketValue>
 			<StuffPower_Armor_Blunt>0.8</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
@@ -656,7 +656,7 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>10</MarketValue>
+			<MarketValue>8	</MarketValue>
 			<StuffPower_Armor_Blunt>0.8</StuffPower_Armor_Blunt>
 			<StuffPower_Armor_Sharp>0.8</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
