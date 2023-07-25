@@ -9,7 +9,7 @@
 	<success>Always</success>
 		<operations>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName="MakeGlassBatch"]/label</xpath>
+				<xpath>Defs/RecipeDef[defName="MakeGlassBatch" or defName="MakeGlassBatch_Process"]/label</xpath>
 				<value>
 					<label>extract silica from sand</label>
 				</value>
@@ -21,7 +21,7 @@
 				</value>
 			</li>-->
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName="MakeGlassBatch"]/description</xpath>
+				<xpath>Defs/RecipeDef[defName="MakeGlassBatch" or defName="MakeGlassBatch_Process"]/description</xpath>
 				<value>
 					<description>Extract silicon dioxide from quartz found in sand. Useful for making glass, ceramics and for metallurgical purposes.</description>
 				</value>

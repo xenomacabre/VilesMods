@@ -878,10 +878,10 @@
 			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
 			<MarketValue>100</MarketValue>
 			<Mass>10</Mass>
-			<LeatherAmount>1</LeatherAmount>
+			<LeatherAmount>3</LeatherAmount>
 		</statBases>
 		<race>
-            <leatherDef>Hide_PorousHide</leatherDef>
+             <leatherDef>Leather_Lizard</leatherDef>
 			<body>Fish</body>
 			<predator>true</predator>
 			<maxPreyBodySize>0.20</maxPreyBodySize>
@@ -1230,7 +1230,7 @@
 			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
 			<MarketValue>100</MarketValue>
 			<Mass>20</Mass>
-			<LeatherAmount>1</LeatherAmount>
+			<LeatherAmount>4</LeatherAmount>
 		</statBases>
 		<race>
             <leatherDef>Leather_Lizard</leatherDef>
