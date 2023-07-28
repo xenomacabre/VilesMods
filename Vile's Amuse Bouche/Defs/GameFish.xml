@@ -83,6 +83,26 @@
 		</race>
 		<tradeTags>
 		</tradeTags>
+		<tools Inherit="False">
+			<li Class="CombatExtended.ToolCE">
+				<capacities>
+					<li>ToxicBite</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.85</cooldownTime>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>12</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<armorPenetrationSharp>0.1</armorPenetrationSharp>
+				<armorPenetrationBlunt>0.4</armorPenetrationBlunt>
+			</li>
+		</tools>
 	</ThingDef>
 
 	<PawnKindDef ParentName="FishKindBase" Class="SK.PawnKindDef_FishSpecies">
@@ -437,6 +457,26 @@
 		</race>
 		<tradeTags>
 		</tradeTags>
+		<tools Inherit="False">
+			<li Class="CombatExtended.ToolCE">
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>10</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<armorPenetrationSharp>0.2</armorPenetrationSharp>
+				<armorPenetrationBlunt>0.1</armorPenetrationBlunt>
+			</li>
+		</tools>
 	</ThingDef>
 
 	<PawnKindDef ParentName="FishKindBase" Class="SK.PawnKindDef_FishSpecies">
@@ -881,7 +921,7 @@
 			<LeatherAmount>3</LeatherAmount>
 		</statBases>
 		<race>
-             <leatherDef>Leather_Lizard</leatherDef>
+            <leatherDef>Leather_Lizard</leatherDef>
 			<body>Fish</body>
 			<predator>true</predator>
 			<maxPreyBodySize>0.20</maxPreyBodySize>
@@ -1042,6 +1082,26 @@
 		</race>
 		<tradeTags>
 		</tradeTags>
+		<tools Inherit="False">
+			<li Class="CombatExtended.ToolCE">
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>7</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<armorPenetrationSharp>0.1</armorPenetrationSharp>
+				<armorPenetrationBlunt>0.1</armorPenetrationBlunt>
+			</li>
+		</tools>
 	</ThingDef>
 
 	<PawnKindDef ParentName="FishKindBase" Class="SK.PawnKindDef_FishSpecies">
