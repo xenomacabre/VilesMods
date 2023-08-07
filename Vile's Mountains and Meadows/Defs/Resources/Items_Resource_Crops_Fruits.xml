@@ -2,6 +2,7 @@
 <Defs>
 
 
+
 	<ThingDef ParentName="SmallFruitFoodRawBase">
 		<defName>Rawcloudberry</defName>
 		<label>Cloudberry</label>
@@ -28,5 +29,6 @@
 			<joy>0.05</joy>
 		</ingestible>
 	</ThingDef>
+
 
 </Defs>

@@ -9,7 +9,7 @@
 		<workSpeedStat>TailoringSpeed</workSpeedStat>
 		<effectWorking>Tailor</effectWorking>
 		<soundWorking>Recipe_Tailor</soundWorking>
-		<workAmount>500</workAmount>
+		<workAmount>400</workAmount>
 		<allowMixingIngredients>true</allowMixingIngredients>
 		<targetCountAdjustment>50</targetCountAdjustment>
 		<recipeUsers>
@@ -23,7 +23,7 @@
 						<li>Leather_Scraps</li>
 					</thingDefs>
 				</filter>
-				<count>100</count>
+				<count>50</count>
 			</li>
 			<li>
 				<filter>
@@ -79,7 +79,7 @@
 						<li>Polymers</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>2</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>

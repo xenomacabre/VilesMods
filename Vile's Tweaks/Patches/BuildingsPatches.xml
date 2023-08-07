@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="LWM_Hayloft"]/building/preventDeteriorationOnTop</xpath>
+				<value>
+				
+					<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+					
+				</value>
+		</Operation>	
+
+
+
+</Patch>	

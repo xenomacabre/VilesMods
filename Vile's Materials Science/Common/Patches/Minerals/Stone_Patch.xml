@@ -147,6 +147,15 @@ Work to craft: Very difficult
 Work to build: Very difficult</description>
     </value>
 </li>
+
+<li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BlocksGranite"]/statProps</xpath>
+    <value>
+			<statOffsets>
+				<Beauty>1.0</Beauty>
+			</statOffsets>
+    </value>
+</li>  
             
 <li Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="BlocksLimestone"]/description</xpath>
@@ -169,6 +178,15 @@ Durability: low
 Beauty: Luxurious
 Work to craft: Fast
 Work to build: Very difficult</description>
+    </value>
+</li>   
+
+<li Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BlocksMarble"]/statProps</xpath>
+    <value>
+			<statOffsets>
+				<Beauty>3.0</Beauty>
+			</statOffsets>
     </value>
 </li>   
             

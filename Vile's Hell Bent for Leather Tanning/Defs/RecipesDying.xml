@@ -30,15 +30,23 @@
 	
 	<RecipeDef ParentName="Recipe_DyeLeatherBase">
 		<defName>Make_FinishedLeatherBrown</defName>
-		<label>dye and finish leather (indy brown)</label>
+		<label>finish top-grain (indy brown)</label>
 		<products>
 			<Leather_Fox>8</Leather_Fox>
 		</products>
 	</RecipeDef>
 
 	<RecipeDef ParentName="Recipe_DyeLeatherBase">
+		<defName>Make_FinishedLeatherRed</defName>
+		<label>finish top-grain (thriller red)</label>
+		<products>
+			<Leather_FinishedBlack>8</Leather_FinishedBlack>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="Recipe_DyeLeatherBase">
 		<defName>Make_FinishedLeatherBlack</defName>
-		<label>dye and finish leather (patent black)</label>
+		<label>finish top-grain (patent black)</label>
 		<products>
 			<Leather_FinishedBlack>8</Leather_FinishedBlack>
 		</products>
@@ -46,7 +54,7 @@
 	
 	<RecipeDef ParentName="Recipe_DyeLeatherBase">
 		<defName>Make_NubuckChestnut</defName>
-		<label>sand and dye nubuck (chestnut)</label>
+		<label>make nubuck (chestnut)</label>
 		<jobString>Dyeing nubuck.</jobString>
 		<description>Dye and lightly sand corrected-grain leather. Nubuck is considered "good" quality leather compared to "excellent" quality full-grain leather. It's gently sanded to have a suede-like finish, but since it's not coated, it breathes better than other corrected-grain treatments and is quite attractive.</description>
 		<products>
@@ -55,7 +63,7 @@
 	</RecipeDef>
 	<RecipeDef ParentName="Recipe_DyeLeatherBase">
 		<defName>Make_NubuckYellow</defName>
-		<label>sand and dye nubuck (danger yellow)</label>
+		<label>make nubuck (danger yellow)</label>
 		<jobString>Dyeing nubuck.</jobString>
 		<description>Dye and lightly sand corrected-grain leather. Nubuck is considered "good" quality leather compared to "excellent" quality full-grain leather. It's gently sanded to have a suede-like finish, but since it's not coated, it breathes better than other corrected-grain treatments and is quite attractive.</description>
 		<products>

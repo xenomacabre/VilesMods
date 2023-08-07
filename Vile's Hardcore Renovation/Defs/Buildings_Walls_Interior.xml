@@ -40,7 +40,10 @@
 			<li>Bricks</li>
 			<li>Ceramic</li> 
 		</stuffCategories>
-		<costStuffCount>5</costStuffCount>
+		<costStuffCount>20</costStuffCount>
+		<costList>
+			<ComponentMedieval>2</ComponentMedieval>
+		</costList>
 		<rotatable>false</rotatable>
 		<placingDraggableDimensions>2</placingDraggableDimensions>
 		<researchPrerequisites>
@@ -88,7 +91,10 @@
 			<li>Bricks</li>
 			<li>Ceramic</li> 
 		</stuffCategories>
-		<costStuffCount>5</costStuffCount>
+		<costStuffCount>20</costStuffCount>
+		<costList>
+			<ComponentMedieval>2</ComponentMedieval>
+		</costList>
 		<rotatable>false</rotatable>
 		<placingDraggableDimensions>2</placingDraggableDimensions>
 		<researchPrerequisites>

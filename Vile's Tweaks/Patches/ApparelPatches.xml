@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="Apparel_HatLadies" 
+				or defName="Apparel_HatTop"
+				or defName="Apparel_Corset"
+				or defName="Apparel_VestRoyal"]/apparel/gender</xpath>
+		</Operation>	
+
+
+
+</Patch>	

@@ -2,10 +2,9 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 	<mods>
-		<li>Wood You Please</li>
+		<li>Vile's Wood You Please</li>
 	</mods>
 	<nomatch Class="PatchOperationSequence">
-	<success>Always</success>
 		<operations>
 			
 			<li Class="PatchOperationAdd">
@@ -60,7 +59,7 @@
 	
 	<Operation Class="PatchOperationFindMod">
 	<mods>
-		<li>Wood You Please</li>
+		<li>Vile's Wood You Please</li>
 	</mods>
 	<match Class="PatchOperationSequence">
 	<success>Always</success>
@@ -86,7 +85,7 @@
 										<li>Softwoods</li>
 									</categories>
 								</filter>
-								<count>2</count>
+								<count>3</count>
 							</li>
 						</ingredients>
 						<fixedIngredientFilter>
@@ -107,8 +106,8 @@
 						<workSkill>Crafting</workSkill>
 						<workSkillLearnFactor>0.8</workSkillLearnFactor>
 						<recipeUsers>
-							<li>TableSawmillHand</li>
-							<li>TableSawmillElectric</li>
+							<li>ChoppingBlock</li>
+							<li>LogSplittingSpot</li>
 						</recipeUsers>
 					</RecipeDef>
 				</value>

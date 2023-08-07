@@ -12,6 +12,13 @@
     </Operation>
 
 	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="TableSawmillHand"]/description</xpath>
+		<value>
+			<description>A workbench for making planks from logs. Work speed is governed by smithing speed.</description>
+		</value>
+    </Operation>
+
+	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Basket"]/stuffCategories</xpath>
 		<value>
 			<stuffCategories>

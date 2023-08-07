@@ -7,7 +7,7 @@
 	</mods>
 	<match Class="PatchOperationSequence">
 		<operations>
-		<!-- BLISTER STEEL -->
+
 		<li Class="PatchOperationReplace">
 			<xpath>Defs/TraitDef[defName="Gay" or defName="Bisexual"]/commonality</xpath>
 			<value>
@@ -18,6 +18,13 @@
 			<xpath>Defs/TraitDef[defName="Asexual"]/commonality</xpath>
 			<value>
    				 <commonality>1.5</commonality>
+			</value>
+		</li>
+
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/TraitDef[defName="Rockhound"]/degreeDatas/li/statOffsets</xpath>
+			<value>
+   				 <StonecuttingSpeed>0.4</StonecuttingSpeed>
 			</value>
 		</li>
 		</operations>

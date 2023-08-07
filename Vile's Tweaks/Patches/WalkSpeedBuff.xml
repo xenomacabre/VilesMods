@@ -11,13 +11,13 @@
 		<li Class="PatchOperationReplace">
 			<xpath>Defs/ThingDef[defName="Apparello_Shoes"]/equippedStatOffsets/MoveSpeed</xpath>
 			<value>
-   				 <MoveSpeed>1.8</MoveSpeed>
+   				 <MoveSpeed>2.0</MoveSpeed>
 			</value>
 		</li>
 		<li Class="PatchOperationReplace"> <!-- Calliagae -->
 			<xpath>Defs/ThingDef[defName="Apparello_Clawboots"]/equippedStatOffsets/MoveSpeed</xpath>
 			<value>
-   				 <MoveSpeed>2.2</MoveSpeed>
+   				 <MoveSpeed>1.8</MoveSpeed>
 			</value>
 		</li>
 		<li Class="PatchOperationReplace">

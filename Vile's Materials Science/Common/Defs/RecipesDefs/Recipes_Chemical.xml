@@ -4,8 +4,8 @@
 	<RecipeDef>
 		<defName>MakeChlorine</defName>
 		<label>Synthesize chlorine and lye</label>
-		<description>Chlorine and sodium hydroxide is created from sodium chloride through electrolysis.</description>
-		<jobString>Synthesizing Chlorine.</jobString>
+		<description>Chlorine and sodium hydroxide (lye) is created from sodium chloride through electrolysis.</description>
+		<jobString>Synthesizing Chlorine and lye.</jobString>
 		<workAmount>900</workAmount>
 		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
@@ -17,7 +17,7 @@
 						<li>Salt</li>
 					</thingDefs>
 				</filter>
-				<count>15</count>
+				<count>10</count>
 			</li>
 		</ingredients>
 		<products>
@@ -58,10 +58,12 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>FluxPowder</li>
+						<!-- <li>FluxPowder</li>-->
+						<li>CrushedStone</li>
+						<!-- This should become fluorite -->
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>10</count>
 			</li>
 			<li>
 				<filter>

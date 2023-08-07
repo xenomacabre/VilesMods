@@ -20,8 +20,8 @@
 					<description>A wall-mounted oil lamp. Fairly efficient and much brighter than candles and torches.
 Light radius: 8
 Max Heat: 23
-Capacity: 5
-Efficiency: 65%
+Capacity: 10
+Efficiency: 80%
 Rain-proof</description>
 				</value>
 			</li>
@@ -92,8 +92,8 @@ Rain-proof</description>
 						<fireDrawScale>0.25</fireDrawScale> -->
 						<!-- <fuelDrawOffset>(0,0.1,-0.05)</fuelDrawOffset>
 						<fuelDrawScale>0.25</fuelDrawScale> -->
-						<fuelCapacity>5</fuelCapacity>
-						<burnFuelMultiplier>6.5</burnFuelMultiplier>
+						<fuelCapacity>10</fuelCapacity>
+						<burnFuelMultiplier>8</burnFuelMultiplier>
 						<canAutoBurn>true</canAutoBurn>
 						<smokeEnabled>false</smokeEnabled>
 						<effectOnWeather>false</effectOnWeather>
@@ -277,7 +277,7 @@ Efficiency: 30%</description>
 Light radius: 10
 Max heat: 30
 Capacity: 20
-Efficiency: 25%</description>
+Efficiency: 35%</description>
 				</value>
 			</li>
 				<li Class="PatchOperationReplace">
@@ -297,7 +297,7 @@ Efficiency: 25%</description>
 						<fuelDrawOffset>(0,0.1,-0.2)</fuelDrawOffset>
 						<fuelDrawScale>0.8</fuelDrawScale> -->
 						<fuelCapacity>20</fuelCapacity>
-						<burnFuelMultiplier>2.5</burnFuelMultiplier>
+						<burnFuelMultiplier>3.5</burnFuelMultiplier>
 						<canAutoBurn>true</canAutoBurn>
 						<smokeEnabled>false</smokeEnabled>
 						<effectOnWeather>true</effectOnWeather>
@@ -387,11 +387,11 @@ Efficiency: 25%</description>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Candle"]/description</xpath> 
 				<value>
-					<description>A stand that holds three candles. Illuminates a much greater space than a single candle holder.
+					<description>A stand that holds three candles. Illuminates a much greater space than a single candle holder, but of course burns through candles quicker.
 Light radius: 8
 Max heat: 16
 Capacity: 3
-Efficiency: 20%</description>
+Efficiency: 50%</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">	
@@ -452,7 +452,7 @@ Efficiency: 20%</description>
 						<fuelDrawOffset>(0,0.1,-0.05)</fuelDrawOffset>
 						<fuelDrawScale>0.75</fuelDrawScale> -->
 						<fuelCapacity>15</fuelCapacity>
-						<burnFuelMultiplier>2</burnFuelMultiplier>
+						<burnFuelMultiplier>5</burnFuelMultiplier>
 						<canAutoBurn>true</canAutoBurn>
 						<smokeEnabled>false</smokeEnabled>
 						<effectOnWeather>true</effectOnWeather>
@@ -603,7 +603,7 @@ Efficiency: 20%</description>
 	<li Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Campfire"]/comps/li[@Class="SK.CompFueled_Properties"]/burnFuelMultiplier</xpath> 
 		<value>
-			<burnFuelMultiplier>1.5</burnFuelMultiplier>
+			<burnFuelMultiplier>1.6</burnFuelMultiplier>
 		</value>
 	</li>
 	</operations>

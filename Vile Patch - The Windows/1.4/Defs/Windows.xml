@@ -360,6 +360,7 @@
 		<costList>
             <ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
+		<coversFloor>false</coversFloor>
 	</ThingDef>
 	
 	<ThingDef ParentName="WindowBase">
@@ -386,6 +387,7 @@
 		<costList>
             <ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
+		<coversFloor>false</coversFloor>
 	</ThingDef>
     
     <ThingDef ParentName="WindowBase">
@@ -412,6 +414,7 @@
 		<costList>
             <ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
+		<coversFloor>false</coversFloor>
 	</ThingDef>
 	
 </Defs>

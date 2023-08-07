@@ -58,7 +58,8 @@
 			
 			
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Ermine" or
+				<xpath>Defs/ThingDef[@Name="SK_BigBirdThingBase" or 
+					defName="Ermine" or
 					defName="Meerkat" or
 					defName="YorkshireTerrier" or
 					defName="Goose"]/statBases/LeatherAmount</xpath>

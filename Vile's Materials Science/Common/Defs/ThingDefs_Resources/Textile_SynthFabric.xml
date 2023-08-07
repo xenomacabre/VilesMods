@@ -367,7 +367,7 @@ Kevlar is a para-aramid (a class of high-performance synthetic fiber). In contra
 		<graphicData>
 			<texPath>Things/Item/Textile/HiTech</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
-			<color>(136,189,97)</color>
+			<color>(109,128,33)</color>
 		</graphicData>
 		<soundInteract>Standard_Drop</soundInteract>
 		<soundDrop>Standard_Drop</soundDrop>
@@ -393,7 +393,7 @@ Kevlar is a para-aramid (a class of high-performance synthetic fiber). In contra
 			<categories>
 				<li>HF</li>
 			</categories>
-			<color>(136,189,97)</color>
+			<color>(109,128,33)</color>
 			<statFactors>
 				<MaxHitPoints>2.4</MaxHitPoints>
 				<Flammability>0.03</Flammability>
@@ -429,7 +429,7 @@ Dyneema is an UHMWPE (ultra-high molecular weight polyurythane). It is the stron
 		<graphicData>
 			<texPath>Things/Item/Textile/HexFabric</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
-			<color>(161,182,180)</color>
+			<color>(52,122,46)</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>35</MarketValue>
@@ -547,7 +547,7 @@ Micropel is a self-cleaning polyester-based fabric that utilizes nanoparticles o
 		<graphicData>
 			<texPath>Things/Item/Textile/HiTech</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
-			<color>(188,220,255)</color>
+			<color>(90,210,255)</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>25</MarketValue>
@@ -570,7 +570,7 @@ Micropel is a self-cleaning polyester-based fabric that utilizes nanoparticles o
 			<categories>
 				<li>HF</li>
 			</categories>
-			<color>(188,220,255)</color>
+			<color>(90,210,255)</color>
 			<statFactors>
 				<MaxHitPoints>2.4</MaxHitPoints>
 				<Flammability>0</Flammability>

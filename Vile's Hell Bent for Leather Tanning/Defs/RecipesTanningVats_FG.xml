@@ -2,7 +2,7 @@
 <Defs>
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>TanVat_LeatherLight</defName>
-		<label>tan light full-grain leather (x5)</label>
+		<label>light full-grain leather (x5)</label>
 		<description>LoremIpsum</description>
          <jobString>Veg-tanning light leather.</jobString>
 		<ingredients>
@@ -14,7 +14,7 @@
 						
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -52,7 +52,7 @@
 	
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>TanVat_LeatherLightRodent</defName>
-		<label>tan light full-grain leather (rodent) (x5)</label>
+		<label>light full-grain leather (rodent) (x5)</label>
 		<description>LoremIpsum</description>
          <jobString>Veg-tanning light rodent leather.</jobString>
 		<ingredients>
@@ -63,7 +63,7 @@
 						<li>Hide_RodentSkin</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -100,7 +100,7 @@
 		
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>TanVat_LeatherExotic</defName>
-		<label>tan exotic full-grain leather (x5)</label>
+		<label>exotic full-grain leather (x5)</label>
 		<description>LoremIpsum</description>
          <jobString>Veg-tanning exotic leather.</jobString>
 		<ingredients>
@@ -111,7 +111,7 @@
 						<li>Hide_ExoticSkin</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -149,7 +149,7 @@
 	
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>TanVat_LeatherBreathable</defName>
-		<label>tan breathable full-grain leather (x5)</label>
+		<label>breathable full-grain leather (x5)</label>
 		<description>LoremIpsum</description>
          <jobString>Veg-tanning breathable leather.</jobString>
 		<ingredients>
@@ -160,7 +160,7 @@
 						<li>Hide_PorousHide</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -198,7 +198,7 @@
 	
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>TanVat_LeatherHeavy</defName>
-		<label>tan heavy full-grain leather (x5)</label>
+		<label>heavy full-grain leather (x5)</label>
 		<description>LoremIpsum</description>
          <jobString>Veg-tanning heavy leather.</jobString>
 		<ingredients>
@@ -211,7 +211,7 @@
 						<li>Hide_HeavyFurPelt</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -251,7 +251,7 @@
 	
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>TanVat_LeatherDurable</defName>
-		<label>tan durable full-grain leather (x5)</label>
+		<label>durable full-grain leather (x5)</label>
 		<description>LoremIpsum</description>
          <jobString>Veg-tanning durable leather.</jobString>
 		<ingredients>
@@ -264,7 +264,7 @@
 						<li>Hide_RuggedFurPelt</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -304,7 +304,7 @@
 	
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>TanVat_LeatherStock</defName>
-		<label>tan stock full-grain leather (x5)</label>
+		<label>stock full-grain leather (x5)</label>
 		<description>LoremIpsum</description>
          <jobString>Veg-tanning stock leather.</jobString>
 		<ingredients>
@@ -315,7 +315,7 @@
 						<li>Hide_StockHide</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -353,7 +353,7 @@
 
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>TanVat_LeatherSoft</defName>
-		<label>tan soft full-grain leather (x5)</label>
+		<label>soft full-grain leather (x5)</label>
 		<description>LoremIpsum</description>
          <jobString>Veg-tanning soft leather.</jobString>
 		<ingredients>
@@ -366,7 +366,7 @@
 						<li>Hide_WarmFurPelt</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -406,7 +406,7 @@
 	
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>TanVat_LeatherSterile</defName>
-		<label>tan sterile full-grain leather (x5)</label>
+		<label>sterile full-grain leather (x5)</label>
 		<description>LoremIpsum</description>
          <jobString>Veg-tanning sterile leather.</jobString>
 		<ingredients>
@@ -417,7 +417,7 @@
 						<li>Hide_ImmunogenicHide</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -457,7 +457,7 @@
 	
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>TanVat_FurWarm</defName>
-		<label>tan warm furs (x5)</label>
+		<label>warm furs (x5)</label>
 		<description>LoremIpsum</description>
          <jobString>Veg-tanning warm fur.</jobString>
 		<ingredients>
@@ -468,7 +468,7 @@
 						<li>Hide_WarmFurPelt</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -506,7 +506,7 @@
 	
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>TanVat_FurRugged</defName>
-		<label>tan rugged furs (x5)</label>
+		<label>rugged furs (x5)</label>
 		<description>LoremIpsum</description>
          <jobString>Veg-tanning rugged fur.</jobString>
 		<ingredients>
@@ -517,7 +517,7 @@
 						<li>Hide_RuggedFurPelt</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -555,7 +555,7 @@
 	
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>TanVat_FurHeavy</defName>
-		<label>tan heavy furs (x5)</label>
+		<label>heavy furs (x5)</label>
 		<description>LoremIpsum</description>
          <jobString>Veg-tanning heavy fur.</jobString>
 		<ingredients>
@@ -566,7 +566,7 @@
 						<li>Hide_HeavyFurPelt</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -604,7 +604,7 @@
 	
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>TanVat_FurRich</defName>
-		<label>tan rich furs (x5)</label>
+		<label>rich furs (x5)</label>
 		<description>LoremIpsum</description>
          <jobString>Veg-tanning rich fur.</jobString>
 		<ingredients>
@@ -615,7 +615,7 @@
 						<li>Hide_RichFurPelt</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -664,7 +664,7 @@
 						<li>Hide_HumanSkin</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>

@@ -15,7 +15,7 @@
 						<li>CuredHides</li>	
 					</categories>
 				</filter>
-				<count>2</count>
+				<count>4</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -56,7 +56,7 @@
 						<li>Hide_WarmFurPelt</li>
 					</thingDefs>
 				</filter>
-				<count>2</count>
+				<count>4</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>

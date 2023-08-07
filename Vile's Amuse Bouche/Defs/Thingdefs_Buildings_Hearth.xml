@@ -57,8 +57,8 @@ Efficiency: 22%</description>
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Glower">
-				<glowRadius>8</glowRadius>
-				<glowColor>(255,202,124,0)</glowColor>
+				<glowRadius>10</glowRadius>
+				<glowColor>(255,232,134,0)</glowColor>
 			</li>
 			<li Class="SK.CompProperties_HeatPusherAdvanced">
 				<compClass>SK.CompHeatPusherAdvanced</compClass>
@@ -216,7 +216,7 @@ Efficiency: 25%</description>
 			</li>-->
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Glower">
-				<glowRadius>8</glowRadius>
+				<glowRadius>12</glowRadius>
 				<glowColor>(255,202,124,0)</glowColor>
 			</li>
 			<li Class="SK.CompProperties_HeatPusherAdvanced">

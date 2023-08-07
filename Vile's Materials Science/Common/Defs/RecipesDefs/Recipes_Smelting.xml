@@ -42,7 +42,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<PigIron>30</PigIron>
+			<PigIron>35</PigIron>
 		</products>
 		<skillRequirements>
 			<Crafting>4</Crafting>
@@ -51,6 +51,7 @@
     	<workSkillLearnFactor>0.8</workSkillLearnFactor>
 		<researchPrerequisite>Metals_C1</researchPrerequisite>
 	</RecipeDef>
+	
 	<RecipeDef>
 		<defName>SmeltMagnetite_Industrial</defName>
 		<label>Adv: Magnetite (35 Fe, 5 Cr)</label>
@@ -87,7 +88,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<PigIron>35</PigIron>
+			<PigIron>40</PigIron>
 			<Chromium>5</Chromium>
 		</products>
 		<skillRequirements>
@@ -197,6 +198,54 @@
 	<!-- TITANOMAGNETITE -->
 	
 	<RecipeDef>
+		<defName>MakePigIron_TitanoFurnace</defName>
+		<label>Pig iron from titanomagnetite (x30)</label>
+		<description>Makes large ingots of pig iron (an unrefined high-carbon cast iron). Not as slaggy as primitive iron bloom, but it still must be decarbonized to produce useful wrought iron, either by forging at a finery, or at a pudding furnace. It's much more efficient than a bloomery, but because it takes a lot of time to get fires hot enough, it's best done in large batches.</description>
+		<jobString>Smelting pig iron.</jobString>
+		<workAmount>1400</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Titanomagnetite</li> <!-- iron ore -->
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Coal</li> 
+						<li>Metallurgical</li>
+					</categories>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Titanomagnetite</li><!-- iron ore -->
+			</thingDefs>
+			<categories>
+				<li>Coal</li>
+				<li>Metallurgical</li>
+			</categories>
+			
+		</fixedIngredientFilter>
+		<products>
+			<PigIron>30</PigIron>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+	
+	<RecipeDef>
 		<defName>SmeltTitanomagnetite_Industrial</defName>
 		<label>Adv: Titanomagnetite (25 Fe, 10 Ti)</label>
 		<description>Process titanomagnetite into pig iron (Fe) and Titanium (Ti).</description>
@@ -217,7 +266,8 @@
 			<li>
 				<filter>
 					<categories>
-						<li>Coal</li> <li>Metallurgical</li>
+						<li>Coal</li> 
+						<li>Metallurgical</li>
 					</categories>
 				</filter>
 				<count>3</count>
@@ -228,11 +278,12 @@
 				<li>Titanomagnetite</li>
 			</thingDefs>
 			<categories>
-				<li>Coal</li> <li>Metallurgical</li>
+				<li>Coal</li> 
+				<li>Metallurgical</li>
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<PigIron>25</PigIron>
+			<PigIron>35</PigIron>
 			<Titanium>10</Titanium>
 		</products>
 		<skillRequirements>
@@ -278,7 +329,7 @@
 			</categories>
 		</fixedIngredientFilter>
 		<products>
-			<PigIron>25</PigIron>
+			<PigIron>40</PigIron>
 			<Titanium>15</Titanium>
 			<Vanadium>5</Vanadium>
 		</products>
@@ -599,7 +650,7 @@
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
     	<workSkillLearnFactor>0.8</workSkillLearnFactor>
-		<researchPrerequisite>Metals_C2</researchPrerequisite>
+		<researchPrerequisite>Craft_0</researchPrerequisite>
 	</RecipeDef>
 	<RecipeDef>
 		<defName>SmeltGalena_HighTech</defName>

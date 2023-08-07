@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+				defName="Leather_Patch" or 
+				defName="Leather_Human" or 
+				defName="Leather_Dog"
+				]</xpath>
+				<value>
+					<thingCategories>
+						<li>LeathersE</li>
+					</thingCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+				defName="Leather_Bird" or 
+				defName="Leather_Chinchilla"]</xpath>
+				<value>
+					<thingCategories>
+						<li>LeathersD</li>
+					</thingCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+				defName="Leather_Fox" or 
+				defName="Leather_BarghestFur"
+				]</xpath>
+				<value>
+					<thingCategories>
+						<li>LeathersC</li>
+					</thingCategories>
+					</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+				defName="Leather_Rhinoceros" or 
+				defName="Leather_Lizard" or 
+				defName="Leather_Boomanimal" or 
+				defName="Leather_Elephant" or 
+				defName="Leather_Plain" or 
+				defName="Leather_Light" or 
+				defName="Leather_Pig" or 
+				defName="Leather_Nightling" or 
+				defName="Leather_Wolf" or 
+				defName="Leather_Bluefur" or 
+				defName="Leather_Heavy" or 
+				defName="Leather_Panthera"
+				]</xpath>
+				<value>
+					<thingCategories>
+						<li>LeathersB</li>
+					</thingCategories>
+					</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+				defName="Leather_KirinHide" or 
+				defName="Leather_FireDragonskin" or 
+				defName="Leather_Thrumbo" or 
+				defName="Leather_FeatheredRaptorLeather"
+				]</xpath>
+				<value>
+					<thingCategories>
+						<li>LeathersA</li>
+					</thingCategories>
+					</value>
+			</li>
+			
+
+		</operations>
+		</match>
+    </Operation>	
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vile's Materials Science</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="PVCLeather"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>LeathersD</li>
+					</thingCategories>
+					</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="DevilstrandCloth"]/thingCategories</xpath>
+				<value>
+					<thingCategories>
+						<li>LeathersA</li>
+					</thingCategories>
+					</value>
+			</li>
+				<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="PVCLeather"]/label</xpath>
+				<value>
+					<label>Vinyl faux-leather (D+)</label>
+					</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="DevilstrandCloth"]/label</xpath>
+				<value>
+					<label>Mycotan faux leather (A)</label>
+					</value>
+			</li>
+
+		</operations>
+		</match>
+</Operation>	
+</Patch>	

@@ -145,6 +145,7 @@
 		<graphicData>
 			<texPath>Things/Building/DyeingVat</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
 			<drawSize>(3.8,3.8)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 			<shadowData>

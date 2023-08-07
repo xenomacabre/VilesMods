@@ -15,6 +15,60 @@
 					</researchPrerequisites>
 				</value>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Building_Heater"]/comps/li[@Class="SK.CompProperties_HeatPusherAdvanced"]</xpath> 
+				<value>
+					<li Class="SK.CompProperties_HeatPusherAdvanced">
+						<compClass>SK.CompHeatPusherAdvanced</compClass>
+						<heatPerSecond>15</heatPerSecond>
+						<heatPushMaxTemperature>30</heatPushMaxTemperature>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Building_Heater"]/description</xpath> 
+				<value>
+					
+		<description>A wood-burning stove. Won't overheat your house and is much more efficient than an open fireplace, but provides very little light.
+Light radius: 3
+Max heat: 30
+Capacity: 15
+Efficiency: 50%</description>
+		
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Building_Heater"]/comps/li[@Class="SK.CompFueled_Properties"]</xpath> 
+					<value>
+						<li Class="SK.CompFueled_Properties">
+							<operatingTemp>500</operatingTemp>
+							<drawfirefuel>false</drawfirefuel>
+							<canAutoBurn>true</canAutoBurn>
+							<smokeDrawOffset>(0,-0.1,0.85)</smokeDrawOffset>
+							<smokesize>0.3</smokesize>
+							<fuelCapacity>15</fuelCapacity>
+							<burnFuelMultiplier>5.0</burnFuelMultiplier>
+							<effectOnWeather>true</effectOnWeather>
+							<smokeEnabled>false</smokeEnabled>
+							<smokeDensity>0.5</smokeDensity>
+							<fuelFilter>
+								<thingDefs>
+									<li>Coal</li>
+									<!--<li>Charcoal</li>-->
+									<li>Peat</li>
+									<li>Kindling</li>
+								</thingDefs>
+								<categories>
+									<li>Wooden</li>
+									<!--<li>Woody</li>-->
+								</categories>
+							</fuelFilter>
+						</li>
+					</value>
+			</li>
+			
+			
+			
 		</operations>
 		</match>
     </Operation>	
@@ -44,6 +98,9 @@
 		</operations>
 		</match>
     </Operation>	
+	
+
+	
 	
 	
 	
