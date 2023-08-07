@@ -73,7 +73,7 @@
 			</categories>
 		</stuffProps>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<!--<deepCommonality>0.6</deepCommonality>
+		<deepCommonality>0.6</deepCommonality>
 		<deepCountPerCell>1000</deepCountPerCell>
 		<deepCountPerPortion>10</deepCountPerPortion>
 		<deepLumpSizeRange>
