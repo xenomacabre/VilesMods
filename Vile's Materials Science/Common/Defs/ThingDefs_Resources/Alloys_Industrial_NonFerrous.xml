@@ -62,7 +62,7 @@ Commercially pure aluminium is the lightest weight metal available. It has super
 				<Flammability>0</Flammability>
 				<WorkToMake>0.6</WorkToMake>
 				<WorkToBuild>0.6</WorkToBuild>
-				<DoorOpenSpeed>0.35</DoorOpenSpeed>
+				<DoorOpenSpeed>1.0</DoorOpenSpeed>
 				<MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
 				<MoveSpeed>0.7</MoveSpeed>
 				<MarketValue>0.7</MarketValue>

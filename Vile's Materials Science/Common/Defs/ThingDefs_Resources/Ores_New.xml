@@ -73,13 +73,13 @@
 			</categories>
 		</stuffProps>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<!--<deepCommonality>0.6</deepCommonality>
+		<deepCommonality>0.6</deepCommonality>
 		<deepCountPerCell>1000</deepCountPerCell>
 		<deepCountPerPortion>10</deepCountPerPortion>
 		<deepLumpSizeRange>
 			<min>1</min>
 			<max>12</max>
-		</deepLumpSizeRange>-->
+		</deepLumpSizeRange>
 	</ThingDef>
 	
 	<ThingDef ParentName="SK_ResourceBase">
@@ -115,12 +115,12 @@
 			</categories>
 		</stuffProps>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<deepCommonality>0.6</deepCommonality>
+		<deepCommonality>1.8</deepCommonality>
 		<deepCountPerCell>1000</deepCountPerCell>
-		<deepCountPerPortion>10</deepCountPerPortion>
+		<deepCountPerPortion>20</deepCountPerPortion>
 		<deepLumpSizeRange>
-			<min>1</min>
-			<max>12</max>
+			<min>32</min>
+			<max>68</max>
 		</deepLumpSizeRange>
 	</ThingDef>
 	

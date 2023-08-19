@@ -10,7 +10,11 @@
 		<operations>
 			
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Leather_KirinHide" or defName="Leather_FireDragonskin" or defName="Leather_Thrumbo" or defName="Leather_FeatheredRaptorLeather"]/stuffProps/commonality</xpath>
+				<xpath>Defs/ThingDef[defName="Leather_KirinHide" or 
+				defName="Leather_FireDragonskin" or 
+				defName="Leather_Thrumbo" or 
+				defName="Leather_FeatheredRaptorLeather"
+				]/stuffProps/commonality</xpath>
 				<value>
 					<commonality>0.0025</commonality>
 				</value>
@@ -50,7 +54,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_KirinHide"]/label</xpath>
 				<value>
-					<label>thermatan leather</label>
+					<label>thermatan leather (A+)</label>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -62,7 +66,13 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_KirinHide"]/graphicData/color</xpath>
 				<value>
-					<color>(92,97,204)</color>
+					<color>(255,255,255)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Leather_KirinHide"]/graphicData</xpath>
+				<value>
+					<texPath>Things/Item/Resource/leatherThermatan</texPath>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -139,13 +149,13 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_FireDragonskin"]/label</xpath>
 				<value>
-					<label>ventan leather</label>
+					<label>ventan leather (A+)</label>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_FireDragonskin"]/graphicData/texPath</xpath>
 				<value>
-					<texPath>Things/Item/Resource/Leather</texPath>
+					<texPath>Things/Item/Resource/leatherVentan</texPath>
 				</value>
 			</li>
 			
@@ -155,10 +165,17 @@
 					<description>By saturating the breathable leathers (such as from a feenix) with draconic glycerides, the leather becomes very insulated, and with qualities that exceed all other standard leather grades. It fares well in both cold climates and extremely hot ones.</description>
 				</value>
 			</li>
+
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_FireDragonskin"]/graphicData/color</xpath>
 				<value>
-					<color>(230, 96, 26)</color>
+					<color>(255,255,255)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_FireDragonskin"]/graphicData/drawSize</xpath>
+				<value>
+					<drawSize>0.75</drawSize>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -234,7 +251,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Thrumbo"]/label</xpath>
 				<value>
-					<label>armatan fur</label>
+					<label>armatan fur (A+)</label>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -243,10 +260,16 @@
 					<description>By reinforcing heavy furs with the guard hairs from the barghest or thrumbo, the defensive qualities of the fur becomes unmatched, with qualities that exceed all other standard leather grades.</description>
 				</value>
 			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Leather_Thrumbo"]/graphicData</xpath>
+				<value>
+					<texPath>Things/Item/Resource/leatherArmatan</texPath>
+				</value>
+			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Thrumbo"]/graphicData/color</xpath>
 				<value>
-					<color>(168,171,87)</color>
+					<color>(255,255,255)</color>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -283,7 +306,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Thrumbo"]/stuffProps/color</xpath>
 				<value>
-					<color>(168,171,87)</color>
+					<color>(144,168,65)</color>
 				</value>
 			</li>
 					<li Class="PatchOperationReplace">
@@ -321,7 +344,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_FeatheredRaptorLeather"]/label</xpath>
 				<value>
-					<label>hygieiatan leather</label>
+					<label>hygieiatan leather (A+)</label>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -333,7 +356,13 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_FeatheredRaptorLeather"]/graphicData/color</xpath>
 				<value>
-					<color>(131,255,254)</color>
+					<color>(255,255,255)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Leather_FeatheredRaptorLeather"]/graphicData</xpath>
+				<value>
+					<texPath>Things/Item/Resource/leatherHyg</texPath>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">

@@ -5,7 +5,7 @@
 	
 	<ThingDef ParentName="SK_ResourceBase">
 		<defName>PVCLeather</defName>
-		<label>Vinyl</label>
+		<label>Vinyl faux-leather</label>
 		<description>TIER 3 - Industrial
 >>> Optimal	Economy
 >> Suitable     Winter
@@ -15,18 +15,18 @@ Also known as PVC leather, this vegan material competes with animal leathers. It
 		<graphicData>
 			<texPath>Things/Item/Resource/Leather</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
-			<color>(78,82,90)</color>
+			<color>(33,24,36)</color>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<MarketValue>3.0</MarketValue>
 			<Flammability>0</Flammability>
 			<DeteriorationRate>0</DeteriorationRate>
-			<StuffPower_Armor_Blunt>1.1</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>1.25</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Heat>0.14</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>-2</StuffPower_Insulation_Heat>
+			<StuffPower_Armor_Blunt>0.65</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.0</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.11</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>-5</StuffPower_Insulation_Heat>
 			<Mass>0.03</Mass>
 			<Bulk>0.03</Bulk>
 		</statBases>
@@ -39,16 +39,16 @@ Also known as PVC leather, this vegan material competes with animal leathers. It
 			<categories>
 				<li>Leathery</li>
 			</categories>
-			<color>(78,82,90)</color>
+			<color>(33,24,36)</color>
 			<statFactors>
-				<MaxHitPoints>1.2</MaxHitPoints>
-				<Beauty>1.25</Beauty>
+				<MaxHitPoints>1</MaxHitPoints>
+				<Beauty>1.1</Beauty>
 				<WorkToMake>1.2</WorkToMake>
 				<WorkToBuild>1.2</WorkToBuild>
 				<MoveSpeed>0.7</MoveSpeed>
-				<MarketValue>1</MarketValue>
-				<BedRestEffectiveness>1.1</BedRestEffectiveness>
-				<ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+				<MarketValue>0.8</MarketValue>
+				<BedRestEffectiveness>0.8</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>0.9</ImmunityGainSpeedFactor>
 				<Mass>0.5</Mass>
 			</statFactors>
 		</stuffProps>
@@ -62,7 +62,7 @@ Also known as PVC leather, this vegan material competes with animal leathers. It
 	
 	<ThingDef ParentName="SK_ResourceBase">
 		<defName>DevilstrandCloth</defName>
-		<label>Mycotan leather</label>
+		<label>Mycotan faux-leather</label>
 		<description>TIER 3 - Industrial
 >>> Optimal	Durability
 >> Suitable     Armor

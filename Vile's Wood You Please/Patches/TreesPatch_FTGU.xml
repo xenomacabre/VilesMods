@@ -59,7 +59,7 @@
 				<value>
 					<ThingDef ParentName="FirewoodBase">
 						<defName>Firewood_Acacia</defName>
-						<label>firewood (acacia)</label>
+						<label>acacia firewood</label>
 						<graphicData>
 							<color>(145,107,90)</color>
 						</graphicData>
@@ -83,7 +83,7 @@ Burn rate: 1.9 hrs</description>
 				<value>
 					<ThingDef ParentName="FirewoodSeasonedBase">
 						<defName>FirewoodSeasoned_Acacia</defName>
-						<label>seasoned firewood (acacia)</label>
+						<label>acacia firewood, seasoned</label>
 						<graphicData>
 							<color>(145,107,90)</color>
 						</graphicData>

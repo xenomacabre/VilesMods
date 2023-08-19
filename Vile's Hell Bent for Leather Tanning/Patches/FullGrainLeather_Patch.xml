@@ -10,15 +10,31 @@
 		<operations>
 			
 
-			
-			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+				defName="Leather_Rhinoceros" or 
+				defName="Leather_Lizard" or 
+				defName="Leather_Boomanimal" or 
+				defName="Leather_Elephant" or 
+				defName="Leather_Plain" or 
+				defName="Leather_Light" or 
+				defName="Leather_Pig" or 
+				defName="Leather_Nightling"
+				]/graphicData</xpath>
+				<value>
+					<texPath>Things/Item/Resource/leatherFullGrain</texPath>
+					<shaderType>CutoutComplex</shaderType>
+				</value>
+			</li>
+		
 			<!-- DURABLE LEATHER --> 
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/label</xpath>
 				<value>
-					<label>durable leather</label>
+					<label>durable leather (B)</label>
 				</value>
 			</li>
+
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/description</xpath>
 				<value>
@@ -34,7 +50,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/graphicData/color</xpath>
 				<value>
-					<color>(161,104,91)</color>
+					<color>(161,111,105)</color>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -78,9 +94,15 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/stuffProps/color</xpath>
 				<value>
-					<color>(161,104,91)</color>
+					<color>(161,111,105)</color>
 				</value>
 			</li>
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/stuffProps</xpath>
+						<value>
+							<stuffAdjective>durable leather</stuffAdjective>
+						</value>
+					</li>
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
@@ -140,9 +162,12 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Boomanimal"]/label</xpath>
 				<value>
-					<label>breathable leather</label>
+					<label>breathable leather (B)</label>
 				</value>
 			</li>
+
+
+
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Boomanimal"]/description</xpath>
 				<value>
@@ -204,6 +229,12 @@
 					<color>(92,97,204)</color>
 				</value>
 			</li>
+			<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Leather_Boomanimal"]/stuffProps</xpath>
+						<value>
+							<stuffAdjective>breathable leather</stuffAdjective>
+						</value>
+					</li>
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Boomanimal"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
@@ -263,9 +294,14 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Lizard"]/label</xpath>
 				<value>
-					<label>exotic leather</label>
+					<label>exotic leather (B)</label>
 				</value>
 			</li>
+
+
+
+
+
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Lizard"]/description</xpath>
 				<value>
@@ -328,6 +364,12 @@
 					<color>(107, 163, 106)</color>
 				</value>
 			</li>
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Leather_Lizard"]/stuffProps</xpath>
+						<value>
+							<stuffAdjective>exotic leather</stuffAdjective>
+						</value>
+					</li>
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Lizard"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
@@ -387,7 +429,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Elephant"]/label</xpath>
 				<value>
-					<label>heavy leather</label>
+					<label>heavy leather (B)</label>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -452,6 +494,12 @@
 					<color>(179,166,175)</color>
 				</value>
 			</li>
+				<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Leather_Elephant"]/stuffProps</xpath>
+						<value>
+							<stuffAdjective>heavy leather</stuffAdjective>
+						</value>
+					</li>
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Elephant"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
@@ -513,7 +561,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Plain"]/label</xpath>
 				<value>
-					<label>stock leather</label>
+					<label>stock leather (B)</label>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -531,7 +579,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Plain"]/graphicData/color</xpath>
 				<value>
-					<color>(183,96,59)</color>
+					<color>(122,81,56)</color>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -573,9 +621,15 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Plain"]/stuffProps/color</xpath>
 				<value>
-					<color>(183,96,59)</color>
+					<color>(122,81,56)</color>
 				</value>
 			</li>
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Leather_Plain"]/stuffProps</xpath>
+						<value>
+							<stuffAdjective>stock leather</stuffAdjective>
+						</value>
+					</li>
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Plain"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
@@ -636,7 +690,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Light"]/label</xpath>
 				<value>
-					<label>light leather</label>
+					<label>light leather (B-)</label>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -702,6 +756,12 @@
 					<color>(224,179,101)</color>
 				</value>
 			</li>
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Leather_Light"]/stuffProps</xpath>
+						<value>
+							<stuffAdjective>light leather</stuffAdjective>
+						</value>
+					</li>
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Light"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
@@ -761,7 +821,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Pig"]/label</xpath>
 				<value>
-					<label>soft leather</label>
+					<label>soft leather (B)</label>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -779,7 +839,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Pig"]/graphicData/color</xpath>
 				<value>
-					<color>(301,131,76)</color>
+					<color>(201,131,76)</color>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -822,9 +882,15 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Pig"]/stuffProps/color</xpath>
 				<value>
-					<color>(301,131,76)</color>
+					<color>(201,131,76)</color>
 				</value>
 			</li>
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Leather_Pig"]/stuffProps</xpath>
+						<value>
+							<stuffAdjective>soft leather</stuffAdjective>
+						</value>
+					</li>
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Pig"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
@@ -884,7 +950,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Nightling"]/label</xpath>
 				<value>
-					<label>sterile leather</label>
+					<label>sterile leather (B)</label>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -949,6 +1015,13 @@
 					<color>(204,237,218)</color>
 				</value>
 			</li>
+
+			<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Leather_Nightling"]/stuffProps</xpath>
+						<value>
+							<stuffAdjective>sterile leather</stuffAdjective>
+						</value>
+					</li>
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Nightling"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
@@ -1009,7 +1082,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Dog"]/label</xpath>
 				<value>
-					<label>buckskin</label>
+					<label>buckskin (E)</label>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -1073,6 +1146,12 @@
 					<color>(255,175,57)</color>
 				</value>
 			</li>
+						<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Leather_Dog"]/stuffProps</xpath>
+						<value>
+							<stuffAdjective>buckskin</stuffAdjective>
+						</value>
+					</li>
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Dog"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
@@ -1130,6 +1209,12 @@
 						</li>
 			
 			<!-- HUMAN -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Leather_Human"]/label</xpath>
+				<value>
+					<label>humanoid leather</label>
+				</value>
+			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Human"]/graphicData/color</xpath>
 				<value>

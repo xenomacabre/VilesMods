@@ -14,7 +14,7 @@ A study, all-purpose fabric. It's good for all seasons and makes fantastic bed s
 		<graphicData>
 			<texPath>Things/Item/Resource/Cloth</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
-			<color>(214,196,170)</color>
+			<color>(180,155,120)</color>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -36,7 +36,7 @@ A study, all-purpose fabric. It's good for all seasons and makes fantastic bed s
 			<categories>
 				<li>Fabric</li>
 			</categories>
-			<color>(214,196,170)</color>
+			<color>(180,155,120)</color>
 			<statFactors>
 				<MaxHitPoints>1.75</MaxHitPoints>
 				<Beauty>1.2</Beauty>
@@ -74,7 +74,7 @@ Cotton cloth is an economical and production-oriented fabric in that it's easy t
 		<graphicData>
 			<texPath>Things/Item/Resource/Cloth</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
-			<color>(206,204,204)</color>	
+			<color>(226,224,223)</color>	
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -96,7 +96,7 @@ Cotton cloth is an economical and production-oriented fabric in that it's easy t
 			<categories>
 				<li>Fabric</li>
 			</categories>
-			<color>(206,204,204)</color>			
+			<color>(226,224,223)</color>			
 			<statFactors>
 				<MaxHitPoints>1.5</MaxHitPoints>
 				<Beauty>1.1</Beauty>
@@ -156,7 +156,7 @@ Hemp is a type of cloth woven from smokeweed. It has natural antimicrobial prope
 		<graphicData>
 			<texPath>Things/Item/Resource/Cloth</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
-			<color>(170,181,133)</color>
+			<color>(113,152,86)</color>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -179,7 +179,7 @@ Hemp is a type of cloth woven from smokeweed. It has natural antimicrobial prope
 			<categories>
 				<li>Fabric</li>
 			</categories>
-			<color>(170,181,133)</color>
+			<color>(113,152,86)</color>
 			<allowColorGenerators>false</allowColorGenerators>
 			<statFactors>
 				<MaxHitPoints>1.8</MaxHitPoints>

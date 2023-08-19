@@ -42,7 +42,7 @@
     <Operation Class="PatchOperationReplace">
             <xpath>Defs/WorkGiverDef[defName="DoBillsKitchenTable"]/label</xpath>
             <value>
-                <label>prep meal</label>
+                <label>kitchen table</label>
             </value>
     </Operation>	
     <!-- === SMITHING === -->

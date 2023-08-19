@@ -7,8 +7,8 @@
 		<description>Rush or grass is dipped in grease. They're typically a sign of poverty. Has a clip for attaching the rush light as well as a counterbalance that can hold a small, trimmed candle.
 Light radius: 5
 Max heat: 12
-Capacity: 1
-Efficiency: 50%</description>
+Capacity: 5
+Efficiency: 60%</description>
 		<graphicData>
 			<texPath>Things/Building/Rushlight</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -59,7 +59,7 @@ Efficiency: 50%</description>
 				<fuelDrawOffset>(0,0,0.01)</fuelDrawOffset>
 				<fuelDrawScale>0.7</fuelDrawScale> -->
 				<fuelCapacity>5</fuelCapacity>
-				<burnFuelMultiplier>5</burnFuelMultiplier>
+				<burnFuelMultiplier>6</burnFuelMultiplier>
 				<canAutoBurn>true</canAutoBurn>
 				<smokeEnabled>false</smokeEnabled>
 				<effectOnWeather>true</effectOnWeather>
@@ -142,7 +142,7 @@ Efficiency: 50%</description>
 		<description>A metal basket for a contained bonfire. Typically meant for outdoor use as it heats up a room quickly.
 Light radius: 8
 Max heat: 35
-Capacity: 20
+Capacity: 25
 Efficiency: 15%</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
@@ -200,7 +200,7 @@ Efficiency: 15%</description>
 				<fireDrawScale>0.2</fireDrawScale>
 				<fuelDrawOffset>(0,0,0.01)</fuelDrawOffset>
 				<fuelDrawScale>0.7</fuelDrawScale> -->
-				<fuelCapacity>20</fuelCapacity>
+				<fuelCapacity>25</fuelCapacity>
 				<burnFuelMultiplier>2</burnFuelMultiplier>
 				<canAutoBurn>true</canAutoBurn>
 				<smokeEnabled>false</smokeEnabled>
@@ -286,8 +286,8 @@ Efficiency: 15%</description>
 		<description>An elegant fueled street lamp. Has a reservoir which can hold a decent amount of oil, and through the use of mirrors, it reflects light downward, providing excellent light.
 Light radius: 10
 Max heat: 15
-Capacity: 10
-Efficiency: 65%
+Capacity: 15
+Efficiency: 85%
 Rain-proof</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
@@ -347,8 +347,8 @@ Rain-proof</description>
 				<fireDrawScale>0.2</fireDrawScale>
 				<fuelDrawOffset>(0,0,0.01)</fuelDrawOffset>
 				<fuelDrawScale>0.7</fuelDrawScale> -->
-				<fuelCapacity>10</fuelCapacity>
-				<burnFuelMultiplier>6.5</burnFuelMultiplier>
+				<fuelCapacity>15</fuelCapacity>
+				<burnFuelMultiplier>8.5</burnFuelMultiplier>
 				<canAutoBurn>true</canAutoBurn>
 				<smokeEnabled>false</smokeEnabled>
 				<effectOnWeather>false</effectOnWeather>
@@ -432,8 +432,8 @@ Rain-proof</description>
 		<description>A wall mounted candle for lighting a small area. Burns slowly, but not a great source of light or heat.
 Light radius: 6
 Max heat: 10
-Capacity: 1
-Efficiency: 60%</description>
+Capacity: 5
+Efficiency: 80%</description>
 		<graphicData>
 			<texPath>Things/Building/WallCandle/WallCandle</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -486,7 +486,7 @@ Efficiency: 60%</description>
 						<fuelDrawOffset>(0,0.1,-0.05)</fuelDrawOffset>
 						<fuelDrawScale>0.75</fuelDrawScale> -->
 						<fuelCapacity>5</fuelCapacity>
-						<burnFuelMultiplier>6.5</burnFuelMultiplier>
+						<burnFuelMultiplier>8</burnFuelMultiplier>
 						<canAutoBurn>true</canAutoBurn>
 						<smokeEnabled>false</smokeEnabled>
 						<effectOnWeather>true</effectOnWeather>

@@ -52,7 +52,7 @@
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
-		<thingCategories>
+	<thingCategories Inherit="False">
 			<li>UncuredHides</li>
 		</thingCategories>
 	</ThingDef>
@@ -81,7 +81,7 @@
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
-		<thingCategories>
+	<thingCategories Inherit="False">
 			<li>UncuredHides</li>
 		</thingCategories>
 	</ThingDef>
@@ -113,7 +113,7 @@
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
-		<thingCategories>
+	<thingCategories Inherit="False">
 			<li>UncuredHides</li>
 		</thingCategories>
 	</ThingDef>
@@ -147,7 +147,7 @@
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
-		<thingCategories>
+	<thingCategories Inherit="False">
 			<li>UncuredHides</li>
 		</thingCategories>
 	</ThingDef>
@@ -182,7 +182,7 @@
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
-		<thingCategories>
+	<thingCategories Inherit="False">
 			<li>UncuredHides</li>
 		</thingCategories>
 	</ThingDef>
@@ -214,7 +214,7 @@
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
-		<thingCategories>
+	<thingCategories Inherit="False">
 			<li>UncuredHides</li>
 		</thingCategories>
 	</ThingDef>
@@ -246,7 +246,7 @@
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
-		<thingCategories>
+	<thingCategories Inherit="False">
 			<li>UncuredHides</li>
 		</thingCategories>
 	</ThingDef>
@@ -279,7 +279,7 @@
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
-		<thingCategories>
+	<thingCategories Inherit="False">
 			<li>UncuredHides</li>
 		</thingCategories>
 	</ThingDef>
@@ -312,7 +312,7 @@
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
-		<thingCategories>
+	<thingCategories Inherit="False">
 			<li>UncuredHides</li>
 		</thingCategories>
 	</ThingDef>
@@ -345,7 +345,7 @@
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
-		<thingCategories>
+	<thingCategories Inherit="False">
 			<li>UncuredHides</li>
 		</thingCategories>
 	</ThingDef>
@@ -385,7 +385,7 @@
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
-		<thingCategories>
+	<thingCategories Inherit="False">
 			<li>UncuredHides</li>
 		</thingCategories>
 	</ThingDef>
@@ -419,7 +419,7 @@
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
-		<thingCategories>
+	<thingCategories Inherit="False">
 			<li>UncuredHides</li>
 		</thingCategories>
 	</ThingDef>
@@ -452,7 +452,7 @@
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
-		<thingCategories>
+	<thingCategories Inherit="False">
 			<li>UncuredHides</li>
 		</thingCategories>
 	</ThingDef>
@@ -485,7 +485,7 @@
 			</li>
 		</comps>
 		<tickerType>Rare</tickerType>
-		<thingCategories>
+	<thingCategories Inherit="False">
 			<li>UncuredHides</li>
 		</thingCategories>
 	</ThingDef>

@@ -161,7 +161,7 @@
 	</statBases>
 	<techLevel>Neolithic</techLevel>
 	<stackLimit>300</stackLimit>
-	<thingCategories>
+	<thingCategories Inherit="False">
 		<li>FirewoodSeasoned</li>
 	</thingCategories>
 </ThingDef>
@@ -208,7 +208,7 @@
 
 <ThingDef ParentName="FirewoodBase">
 	<defName>Firewood_Cecropia</defName>
-	<label>firewood (cecropia)</label>
+	<label>cecropia firewood</label>
 	<graphicData>
 		<color>(239,222,199)</color>
 	</graphicData>
@@ -227,7 +227,7 @@ Seasoned burn rate: 1.5 hrs</description>
 </ThingDef>
 	<ThingDef ParentName="FirewoodSeasonedBase">
 		<defName>FirewoodSeasoned_Cecropia</defName>
-		<label>seasoned firewood (cecropia)</label>
+		<label>cecropia firewood, seasoned</label>
 		<graphicData>
 			<color>(239,222,199)</color>
 		</graphicData>
@@ -240,7 +240,7 @@ Burn rate: 1.5 hrs</description>
 
 <ThingDef ParentName="FirewoodBase">
 	<defName>Firewood_Pine</defName>
-	<label>firewood (pine)</label>
+	<label>pine firewood</label>
 	<graphicData>
 			<color>(244,183,79)</color>
 	</graphicData>
@@ -261,7 +261,7 @@ Seasoned burn rate: 1.3 hrs</description>
 
 	<ThingDef ParentName="FirewoodSeasonedBase">
 		<defName>FirewoodSeasoned_Pine</defName>
-		<label>seasoned firewood (pine)</label>
+		<label>pine firewood, seasoned</label>
 		<graphicData>
 				<color>(244,183,79)</color>
 		</graphicData>
@@ -274,7 +274,7 @@ Burn rate: 1.3 hrs</description>
 
 <ThingDef ParentName="FirewoodBase">
 	<defName>Firewood_Willow</defName>
-	<label>firewood (willow)</label>
+	<label>willow firewood</label>
 	<graphicData>
 						<color>(139,125,107)</color>
 		</graphicData>
@@ -293,7 +293,7 @@ Seasoned burn rate: 1.6 hrs</description>
 </ThingDef>
 	<ThingDef ParentName="FirewoodSeasonedBase">
 		<defName>FirewoodSeasoned_Willow</defName>
-		<label>seasoned firewood (willow)</label>
+		<label>willow firewood, seasoned</label>
 		<graphicData>
 						<color>(139,125,107)</color>
 		</graphicData>
@@ -306,7 +306,7 @@ Burn rate: 1.6 hrs</description>
 
 <ThingDef ParentName="FirewoodBase">
 	<defName>Firewood_Redwood</defName>
-	<label>firewood (redwood)</label>
+	<label>redwood firewood</label>
 	<graphicData>
 			<color>(162,94,100)</color>
 		</graphicData>
@@ -325,7 +325,7 @@ Seasoned burn rate: 1.6 hrs</description>
 </ThingDef>
 	<ThingDef ParentName="FirewoodSeasonedBase">
 		<defName>FirewoodSeasoned_Redwood</defName>
-		<label>seasoned firewood (redwood)</label>
+		<label>redwood firewood, seasoned</label>
 		<graphicData>
 			<color>(162,94,100)</color>
 		</graphicData>
@@ -338,7 +338,7 @@ Burn rate: 1.6 hrs</description>
 
 <ThingDef ParentName="FirewoodSeasonedBase"> <!-- No log -->
 	<defName>Firewood_Spruce</defName>
-	<label>firewood (spruce)</label>
+	<label>spruce firewood</label>
 	<description>Green firewood used for fuel. 
 Green burn rate: 1.0 hrs
 Seasoned burn rate: 1.7 hrs</description>
@@ -351,7 +351,7 @@ Seasoned burn rate: 1.7 hrs</description>
 </ThingDef>
 	<ThingDef ParentName="FirewoodSeasonedBase">
 		<defName>FirewoodSeasoned_Spruce</defName>
-		<label>seasoned firewood (spruce)</label>
+		<label>spruce firewood, seasoned</label>
 		<description>Seasoned firewood used for fuel. 
 Burn rate: 1.7 hrs</description>
 		<statBases>
@@ -361,7 +361,7 @@ Burn rate: 1.7 hrs</description>
 
 <ThingDef ParentName="FirewoodBase">
 	<defName>Firewood_Cypress</defName>
-	<label>firewood (cypress)</label>
+	<label>cypress firewood</label>
 	<graphicData>
 						<color>(182,123,77)</color>
 		</graphicData>
@@ -380,7 +380,7 @@ Seasoned burn rate: 1.9 hrs</description>
 </ThingDef>
 	<ThingDef ParentName="FirewoodSeasonedBase">
 		<defName>FirewoodSeasoned_Cypress</defName>
-		<label>seasoned firewood (cypress)</label>
+		<label>cypress firewood, seasoned</label>
 		<graphicData>
 						<color>(182,123,77)</color>
 		</graphicData>
@@ -393,7 +393,7 @@ Burn rate: 1.9 hrs</description>
 
 <ThingDef ParentName="FirewoodBase">
 	<defName>Firewood_Poplar</defName>
-	<label>firewood (poplar)</label>
+	<label>poplar firewood</label>
 	<graphicData>
 						<color>(222,225,153)</color>
 		</graphicData>
@@ -412,7 +412,7 @@ Seasoned burn rate: 1.4 hrs</description>
 </ThingDef>
 	<ThingDef ParentName="FirewoodSeasonedBase">
 		<defName>FirewoodSeasoned_Poplar</defName>
-		<label>seasoned firewood (poplar)</label>
+		<label>poplar firewood, seasoned</label>
 		<graphicData>
 						<color>(222,225,153)</color>
 		</graphicData>
@@ -425,7 +425,7 @@ Burn rate: 1.4 hrs</description>
 
 <ThingDef ParentName="FirewoodBase">
 	<defName>Firewood_Maple</defName>
-	<label>firewood (maple)</label>
+	<label>maple firewood</label>
 	<graphicData>
 						<color>(205,157,90)</color>
 		</graphicData>
@@ -444,7 +444,7 @@ Seasoned burn rate: 2.1 hrs</description>
 </ThingDef>
 	<ThingDef ParentName="FirewoodSeasonedBase">
 		<defName>FirewoodSeasoned_Maple</defName>
-		<label>seasoned firewood (maple)</label>
+		<label>maple firewood, seasoned</label>
 		<graphicData>
 						<color>(205,157,90)</color>
 		</graphicData>
@@ -457,7 +457,7 @@ Burn rate: 2.1 hrs</description>
 
 <ThingDef ParentName="FirewoodBase">
 	<defName>Firewood_Teak</defName>
-	<label>firewood (teak)</label>
+	<label>teak firewood</label>
 			<graphicData>
 			<color>(116,92,63)</color>
 		</graphicData>
@@ -476,7 +476,7 @@ Seasoned burn rate: 2.6 hrs</description>
 </ThingDef>
 	<ThingDef ParentName="FirewoodSeasonedBase">
 		<defName>FirewoodSeasoned_Teak</defName>
-		<label>seasoned firewood (teak)</label>
+		<label>teak firewood, seasoned</label>
 				<graphicData>
 			<color>(116,92,63)</color>
 		</graphicData>
@@ -514,7 +514,7 @@ Burn rate: 2.6 hrs</description>
 
 <ThingDef ParentName="FirewoodBase">
 	<defName>Firewood_Birch</defName>
-	<label>firewood (birch)</label>
+	<label>birch firewood</label>
 			<graphicData>
 			<color>(217,176,167)</color>
 		</graphicData>
@@ -533,7 +533,7 @@ Seasoned burn rate: 2.3 hrs</description>
 </ThingDef>
 	<ThingDef ParentName="FirewoodSeasonedBase">
 		<defName>FirewoodSeasoned_Birch</defName>
-		<label>seasoned firewood (birch)</label>
+		<label>birch firewood, seasoned</label>
 		<graphicData>
 			<color>(217,176,167)</color>
 		</graphicData>
@@ -546,7 +546,7 @@ Burn rate: 2.3 hrs</description>
 
 <ThingDef ParentName="FirewoodBase">
 	<defName>Firewood_Oak</defName>
-	<label>firewood (oak)</label>
+	<label>oak firewood</label>
 			<graphicData>
 			<color>(169,107,7)</color>
 		</graphicData>
@@ -565,7 +565,7 @@ Seasoned burn rate: 2.9 hrs</description>
 </ThingDef>
 	<ThingDef ParentName="FirewoodSeasonedBase">
 		<defName>FirewoodSeasoned_Oak</defName>
-		<label>seasoned firewood (oak)</label>
+		<label>oak firewood, seasoned</label>
 				<graphicData>
 			<color>(169,107,7)</color>
 		</graphicData>
@@ -578,7 +578,7 @@ Burn rate: 2.9 hrs</description>
 
 <ThingDef ParentName="FirewoodBase">
 	<defName>Firewood_Bamboo</defName>
-	<label>firewood (bamboo)</label>
+	<label>bamboo firewood</label>
 		<graphicData>
 		<color>(245,238,103)</color>
 		</graphicData>
@@ -597,7 +597,7 @@ Seasoned burn rate: 1.5 hrs</description>
 </ThingDef>
 	<ThingDef ParentName="FirewoodSeasonedBase">
 		<defName>FirewoodSeasoned_Bamboo</defName>
-		<label>seasoned firewood (bamboo)</label>
+		<label>bamboo firewood, seasoned</label>
 		<graphicData>
 			<color>(245,238,103)</color>
 		</graphicData>
@@ -610,7 +610,7 @@ Burn rate: 1.5 hrs</description>
 
 <ThingDef ParentName="FirewoodBase">
 	<defName>Firewood_Dragonwood</defName>
-	<label>firewood (dragonwood)</label>
+	<label>dragonwood firewood</label>
 		<graphicData>
 			<color>(196,56,27)</color>
 		</graphicData>
@@ -629,7 +629,7 @@ Seasoned burn rate: 2.9 hrs</description>
 </ThingDef>
 	<ThingDef ParentName="FirewoodSeasonedBase">
 		<defName>FirewoodSeasoned_Dragonwood</defName>
-		<label>seasoned firewood (dragonwood)</label>
+		<label>dragonwood firewood, seasoned</label>
 		<graphicData>
 			<color>(196,56,27)</color>
 		</graphicData>
@@ -642,7 +642,7 @@ Burn rate: 2.9 hrs</description>
 
 <ThingDef ParentName="FirewoodBase">
 	<defName>Firewood_Mangrove</defName>
-	<label>firewood (mangrove)</label>
+	<label>mangrove firewood</label>
 		<graphicData>
 			<color>(128,106,121)</color>
 		</graphicData>
@@ -661,7 +661,7 @@ Seasoned burn rate: 3.1 hrs</description>
 </ThingDef>
 	<ThingDef ParentName="FirewoodSeasonedBase">
 		<defName>FirewoodSeasoned_Mangrove</defName>
-		<label>seasoned firewood (mangrove)</label>
+		<label>mangrove firewood, seasoned</label>
 		<graphicData>
 			<color>(128,106,121)</color>
 		</graphicData>

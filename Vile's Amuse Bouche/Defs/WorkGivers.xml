@@ -33,6 +33,20 @@
 		<verb>bake</verb>
 		<gerund>baking at</gerund>
 	</WorkGiverDef>
+
+	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains"> <!-- NEW-->
+		<defName>DoBillsHearth</defName>
+		<label>cook at hearth</label>
+		<workType>Cooking</workType>
+		<priorityInType>93</priorityInType>
+		<fixedBillGiverDefs>
+			<li>Campfire</li>
+			<li>Hearth</li>
+			<li>OpenHearth</li>
+		</fixedBillGiverDefs>
+		<verb>cook</verb>
+		<gerund>cooking at</gerund>
+	</WorkGiverDef>
 	
 	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains">
 		<defName>DoBillsKitchenTable</defName>
@@ -54,7 +68,7 @@
 		<priorityInType>85</priorityInType>
 		<fixedBillGiverDefs>
 			<li>ButcherSpot</li>
-			<li>TableKitchen</li>
+			<!--<li>TableKitchen</li>-->
 			<li>TableButcher</li>
 		</fixedBillGiverDefs>
 		<verb>butcher</verb>

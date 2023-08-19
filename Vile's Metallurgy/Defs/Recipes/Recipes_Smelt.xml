@@ -55,15 +55,30 @@
 				<filter>
 					<thingDefs>
 						<li>Steel</li> <!-- iron ore -->
+						<li MayRequire="vitech.materialsscience">BogIron</li>
 					</thingDefs>
 				</filter>
-				<count>80</count>
+				<count>50</count>
+				<li>
+				<filter>
+					<categories>
+						<li>Coal</li> <li>Metallurgical</li>
+					</categories>
+				</filter>
+				<count>20</count>
+			</li>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li><!-- iron ore -->
+				<li MayRequire="vitech.materialsscience">BogIron</li>
 			</thingDefs>
+			<categories>
+				<li>Coal</li>
+				<li>Metallurgical</li>
+			</categories>
+			
 		</fixedIngredientFilter>
 		<products>
 			<PigIron>100</PigIron>

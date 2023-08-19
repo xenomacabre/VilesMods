@@ -40,6 +40,7 @@
 						<BurnDurationHours>0.21</BurnDurationHours>
 					</statOffsets>
 					<statFactors>
+						<DoorOpenSpeed>1.5</DoorOpenSpeed>
 						<MaxHitPoints>0.7</MaxHitPoints>
 						<Flammability>0.4</Flammability>
 						<Beauty>3.0</Beauty>

@@ -12,7 +12,7 @@ While somewhat coarse, Megasloth wool's long fibers make it very strong with fai
 		<graphicData>
 			<texPath>Things/Item/Resource/Wool</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<color>(189,161,116)</color>
+			<color>(128,122,116)</color>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
@@ -34,7 +34,7 @@ While somewhat coarse, Megasloth wool's long fibers make it very strong with fai
 			<categories>
 				<li>Fabric</li>
 			</categories>
-			<color>(189,161,116)</color>
+			<color>(128,122,116)</color>
 			<statFactors>
 				<MaxHitPoints>1.4</MaxHitPoints>
 				<Beauty>1.1</Beauty>
@@ -65,7 +65,7 @@ Thick and coarse wool of a bison. Great for winter clothes an its thickness help
 		<graphicData>
 			<texPath>Things/Item/Resource/Wool</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<color>(104,69,45)</color>
+			<color>(99,69,49)</color>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
@@ -87,7 +87,7 @@ Thick and coarse wool of a bison. Great for winter clothes an its thickness help
 			<categories>
 				<li>Fabric</li>
 			</categories>
-			<color>(104,69,45)</color>
+			<color>(99,69,49)</color>
 			<statFactors>
 				<MaxHitPoints>1.25</MaxHitPoints>
 				<Beauty>1</Beauty>
@@ -118,7 +118,7 @@ Muffalo Wool is soft, light and provides very good insulation. It's easier to wo
 		<graphicData>
 			<texPath>Things/Item/Resource/Wool</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<color>(179,192,186)</color>
+			<color>(146,166,216)</color>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
@@ -140,7 +140,7 @@ Muffalo Wool is soft, light and provides very good insulation. It's easier to wo
 			<categories>
 				<li>Fabric</li>
 			</categories>
-			<color>(179,192,186)</color>
+			<color>(146,166,216)</color>
 			<statFactors>
 				<MaxHitPoints>1.35</MaxHitPoints>
 				<Beauty>1.2</Beauty>
@@ -171,7 +171,7 @@ Alpaca is warm and sturdy, but isn't very useful for armor.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/Wool</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<color>(237,216,174)</color>
+			<color>(163,134,71)</color>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
@@ -193,7 +193,7 @@ Alpaca is warm and sturdy, but isn't very useful for armor.</description>
 			<categories>
 				<li>Fabric</li>
 			</categories>
-			<color>(180,148,109)</color>
+			<color>(163,134,71)</color>
 			<statFactors>
 				<MaxHitPoints>1.5</MaxHitPoints>
 				<Beauty>1.3</Beauty>
@@ -277,7 +277,7 @@ Sheep's wool is soft and makes decent bedding and is good for all seasons, but i
 		<graphicData>
 			<texPath>Things/Item/Resource/Wool</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<color>(219,214,209)</color>
+			<color>(244,233,202)</color>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
@@ -301,7 +301,7 @@ Sheep's wool is soft and makes decent bedding and is good for all seasons, but i
 			<categories>
 				<li>Fabric</li>
 			</categories>
-			<color>(219,214,209)</color>
+			<color>(244,233,202)</color>
 			<statFactors>
 				<MaxHitPoints>1.15</MaxHitPoints>
 				<Beauty>1.2</Beauty>

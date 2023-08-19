@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+<!-- ROBE -->
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Apparel_Robe"]/equippedStatOffsets</xpath>
+	<value>	
+		<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+		<ConversionPower>0.05</ConversionPower>
+	</value>
+</Operation>
+
+<!-- VISAGE MASK-->
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Apparel_VisageMask"]</xpath>
+	<value>	
+		<equippedStatOffsets>
+			<ConversionPower>0.1</ConversionPower>
+		</equippedStatOffsets>
+	</value>
+</Operation>
+
+<!-- Tailcap-->
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Apparel_Tailcap"]</xpath>
+	<value>	
+		<equippedStatOffsets>
+			<TrainAnimalChance>0.12</TrainAnimalChance>
+			<TameAnimalChance>0.06</TameAnimalChance>
+		</equippedStatOffsets>
+	</value>
+</Operation>
+
+
+<!-- authroity cap -->
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Apparel_AuthorityCap"]/equippedStatOffsets</xpath>
+	<value>	
+		<ArrestSuccessChance>0.25</ArrestSuccessChance>
+		<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+	</value>
+</Operation>
+
+
+
+
+
+</Patch>	

@@ -59,6 +59,9 @@
 						<li>MakeCopperBars_Hand</li>
 						<li>MakeBronze_Hand</li>
 						<li>SmeltGalena_Basic</li>
+						<li>MakeCoins</li>
+						<li>MeltCoins</li>
+						<li>MakeSilverBars_Hand</li>
 						<li>MakeGoldBars_Hand</li>
 						<li>MakeGlass</li>
 						<li>MakeCharcoal_Hand</li>

@@ -8,14 +8,28 @@
 	<match Class="PatchOperationSequence">
 	<success>Always</success>
 		<operations>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+				defName="Leather_Wolf" or 
+				defName="Leather_Bluefur" or 
+				defName="Leather_Heavy" or 
+				defName="Leather_Panthera"
+				]/graphicData</xpath>
+				<value>
+					<texPath>Things/Item/Resource/fur</texPath>
+					<shaderType>CutoutComplex</shaderType>
+				</value>
+			</li>
 			
 			<!-- RUGGED FUR --> 
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Wolf"]/label</xpath>
 				<value>
-					<label>rugged fur</label>
+					<label>rugged fur (B)</label>
 				</value>
 			</li>
+			
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Wolf"]/statBases/MarketValue</xpath>
 				<value>
@@ -25,7 +39,12 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Wolf"]/description</xpath>
 				<value>
-					<description>Taking advantage of the course guard hairs of animals such as the wolf, this offers good protection against blades. And although it does not have as much padding as heavy fur, it's lighter and lasts longer.</description>
+					<description>TIER 2 - Medieval
+&#x2713;&#x2713; Durabilty
+&#x2713; Winter
+X Production
+
+Taking advantage of the course guard hairs of animals such as the wolf, this offers good protection against blades. And although it does not have as much padding as heavy fur, it's lighter and lasts longer.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -77,6 +96,12 @@
 					<color>(157,150,136)</color>
 				</value>
 			</li>
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Leather_Wolf"]/stuffProps</xpath>
+						<value>
+							<stuffAdjective>rugged fur</stuffAdjective>
+						</value>
+					</li>
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Wolf"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
@@ -136,7 +161,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Bluefur"]/label</xpath>
 				<value>
-					<label>warm fur</label>
+					<label>warm fur (B)</label>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -148,7 +173,11 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Bluefur"]/description</xpath>
 				<value>
-					<description>This fur is made from the pelts of animals such as muffalos and foxes. They're stylish and keep you warm in the winter.</description>
+					<description>TIER 2 - Medieval
+&#x2713;&#x2713; Durabilty
+&#x2713; Winter
+X Production
+This fur is made from the pelts of animals such as muffalos and foxes. They're stylish and keep you warm in the winter.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -200,6 +229,12 @@
 					<color>(177,194,205)</color>
 				</value>
 			</li>
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Leather_Bluefur"]/stuffProps</xpath>
+						<value>
+							<stuffAdjective>warm fur</stuffAdjective>
+						</value>
+					</li>
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Bluefur"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
@@ -259,7 +294,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Heavy"]/label</xpath>
 				<value>
-					<label>heavy fur</label>
+					<label>heavy fur (B)</label>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -323,6 +358,12 @@
 					<color>(128,106,75)</color>
 				</value>
 			</li>
+			<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Leather_Heavy"]/stuffProps</xpath>
+						<value>
+							<stuffAdjective>heavy fur</stuffAdjective>
+						</value>
+					</li>
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Heavy"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
@@ -382,7 +423,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Panthera"]/label</xpath>
 				<value>
-					<label>fine fur</label>
+					<label>fine fur (B)</label>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -446,6 +487,12 @@
 					<color>(255,233,192)</color>
 				</value>
 			</li>
+						<li Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Leather_Panthera"]/stuffProps</xpath>
+						<value>
+							<stuffAdjective>fine fur</stuffAdjective>
+						</value>
+					</li>
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Panthera"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
