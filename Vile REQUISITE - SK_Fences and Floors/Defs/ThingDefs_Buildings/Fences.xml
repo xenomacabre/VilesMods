@@ -16,9 +16,6 @@
 		<statBases>
 			<SellPriceFactor>0.70</SellPriceFactor>
 		</statBases>
-		<building>
-			<isFence>true</isFence>
-		</building>
 	</ThingDef>
 	<ThingDef ParentName="FencesAFBuildingBase"
         		Name="FencesAFGateBase"
