@@ -24,8 +24,7 @@
 		</statBases>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<pathCost>80</pathCost>
+		<passability>Impassable</passability>
 		<useHitPoints>true</useHitPoints>
 		<blockWind>false</blockWind>
 		<castEdgeShadows>false</castEdgeShadows>
@@ -78,8 +77,7 @@
 		</statBases>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<pathCost>60</pathCost>
+		<passability>Impassable</passability>
 		<useHitPoints>true</useHitPoints>
 		<blockWind>false</blockWind>
 		<castEdgeShadows>false</castEdgeShadows>
