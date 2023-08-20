@@ -46,6 +46,7 @@
 		<costStuffCount>3</costStuffCount>
 		<building>
 			<isInert>true</isInert>
+			<isFence>true</isFence>
 			<ai_chillDestination>false</ai_chillDestination>
 			<blueprintGraphicData>
 				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
@@ -101,6 +102,7 @@
 		</costList>
 		<building>
 			<isInert>true</isInert>
+			<isFence>true</isFence>
 			<ai_chillDestination>false</ai_chillDestination>
 			<blueprintGraphicData>
 				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
