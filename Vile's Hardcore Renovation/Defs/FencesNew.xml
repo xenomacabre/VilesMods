@@ -25,7 +25,7 @@
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
-		<pathCost>80</pathCost>
+		<pathCost>100</pathCost>
 		<useHitPoints>true</useHitPoints>
 		<blockWind>false</blockWind>
 		<castEdgeShadows>false</castEdgeShadows>
