@@ -112,6 +112,7 @@
 		<stuffProps>
 			<color>(30,29,28)</color>
 			<commonality>0.0025</commonality>
+			<stuffAdjective>leather (black)</stuffAdjective>
 		</stuffProps>
 	</ThingDef>
 	
@@ -125,6 +126,7 @@
 		<stuffProps>
 			<color>(244,197,52)</color>
 			<commonality>0.0025</commonality>
+			<stuffAdjective>nubuck (yellow)</stuffAdjective>
 		</stuffProps>
 	</ThingDef>
 	
@@ -141,6 +143,7 @@
 		<stuffProps>
 			<color>(183,179,165)</color>
 			<commonality>0.0025</commonality>
+			<stuffAdjective>upholstery leather (gray)</stuffAdjective>
 		</stuffProps>
 	</ThingDef>
 	
@@ -154,6 +157,7 @@
 		<stuffProps>
 			<color>(166,61,95)</color>
 			<commonality>0.0025</commonality>
+			<stuffAdjective>upholstery leather (bordeaux)</stuffAdjective>
 		</stuffProps>
 	</ThingDef>
 	
