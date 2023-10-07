@@ -55,7 +55,6 @@
 				<filter>
 					<thingDefs>
 						<li>Steel</li> <!-- iron ore -->
-						<li MayRequire="vitech.materialsscience">BogIron</li>
 					</thingDefs>
 				</filter>
 				<count>50</count>
@@ -72,7 +71,6 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li><!-- iron ore -->
-				<li MayRequire="vitech.materialsscience">BogIron</li>
 			</thingDefs>
 			<categories>
 				<li>Coal</li>
