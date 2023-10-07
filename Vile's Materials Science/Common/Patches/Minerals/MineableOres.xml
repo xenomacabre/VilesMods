@@ -26,13 +26,14 @@
 			</li>
 -->
  
-            <li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Silver"
-				or defName="Peat"]/deepCommonality</xpath>
-				<value>
-					<deepCommonality>0</deepCommonality>
-				</value>
+            <li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="Silver" or defName="Peat"]/deepCommonality</xpath>
 			</li>
+			
+            <li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="Silver" or defName="Peat"]/deepLumpSizeRange</xpath>
+			</li>
+			
  			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Tin"]/deepCommonality</xpath>
 				<value>
