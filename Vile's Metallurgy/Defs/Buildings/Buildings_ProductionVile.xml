@@ -432,7 +432,7 @@
 	<!-- ==== FINERY FORGE ==== -->
 	<ThingDef Class="SK.ThingDef_AnimatedWorktable" ParentName="BuildingFueled">
 		<defName>Finery</defName>
-		<label>finery Forge</label>
+		<label>finery forge</label>
         <thingClass>SK.Building_AnimatedWorktable</thingClass>
 		<description>A finery is a forge that specialized in producing wrought bar iron from cast iron or bloom. The raw iron is melted and hammered into shape with a (preferrably) water-powered trip hammer, and then reheated and hammered again until the slag and much of the carbon is removed. At this stage, the melting point is too high to be melted again unless recarbonized. It can also be used to make certain products such as plate armor.</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
@@ -440,7 +440,7 @@
 			<texPath>Things/Building/Finery/Finery</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(7,7)</drawSize>
+			<drawSize>(6.5,6.6)</drawSize>
 			<shadowData>
 				<volume>(6, 2, 1)</volume>
 				<offset>(0,0,0)</offset>
@@ -478,7 +478,7 @@
 			<OutdoorWorkRateFactor>1</OutdoorWorkRateFactor>
 		</statBases>
 		<pathCost>90</pathCost>
-		<size>(6,3)</size>
+		<size>(6,2)</size>
 		<designationCategory>Production</designationCategory>
 		<interactionCellOffset>(2,0,2)</interactionCellOffset>
 		<fillPercent>0.85</fillPercent>

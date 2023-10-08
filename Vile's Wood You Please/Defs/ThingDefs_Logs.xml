@@ -64,8 +64,8 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>5</MarketValue>
-			<StuffPower_Armor_Blunt>1.0</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>0.55</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.45</StuffPower_Armor_Sharp>
 			<StuffPower_Insulation_Heat>1</StuffPower_Insulation_Heat>
 			<BurnDurationHours>2.4</BurnDurationHours>
 			<Mass>0.9</Mass>
@@ -94,7 +94,12 @@
 				<Mass>0.32</Mass>
 			</statFactors>
 		</stuffProps>
-	
+		<butcherProducts>
+			<MedicineHerbal>5</MedicineHerbal>
+			<TreeBark MayRequire="vitech.leathertanning">10</TreeBark>
+			<Kindling>30</Kindling>
+			<Seed_TreeCecropia>1</Seed_TreeCecropia>
+		</butcherProducts>
 	</ThingDef>
 	<ThingDef Name="PineLog" ParentName="SoftwoodLogBase">
 		<defName>PineLog</defName>
@@ -105,8 +110,8 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>5</MarketValue>
-			<StuffPower_Armor_Blunt>1.0</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>0.55</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.45</StuffPower_Armor_Sharp>
 			<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>
 			<BurnDurationHours>2.4</BurnDurationHours>
 			<Mass>1.15</Mass>
@@ -136,18 +141,24 @@
 				<Mass>0.37</Mass>
 			</statFactors>
 		</stuffProps>
+		<butcherProducts>
+			<Pitch>50</Pitch>
+			<TreeBark MayRequire="vitech.leathertanning">20</TreeBark>
+			<Kindling>10</Kindling>
+			<Seed_TreePine>1</Seed_TreePine>
+		</butcherProducts>
 	</ThingDef>
 	<ThingDef Name="WillowLog" ParentName="SoftwoodLogBase">
 		<defName>WillowLog</defName>
 		<label>willow log</label>
 		<description>Willow is a soft wood which is fairly unremarkable. It makes good tool handles, however.</description>
 		<graphicData>
-						<color>(139,125,107)</color>
+			<color>(139,125,107)</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>5</MarketValue>
-			<StuffPower_Armor_Blunt>1.2</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>0.55</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.5</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
 			<BurnDurationHours>2.55</BurnDurationHours>
 			<Mass>1.25</Mass>
@@ -176,6 +187,12 @@
 				<Mass>0.41</Mass>
 			</statFactors>
 		</stuffProps>
+		<butcherProducts>
+			<Painstopper_WillowBark>5</Painstopper_WillowBark>
+			<TreeBark MayRequire="vitech.leathertanning">10</TreeBark>
+			<Kindling>30</Kindling>
+			<Seed_TreeWillow>1</Seed_TreeWillow>
+		</butcherProducts>
 	</ThingDef>
 <!--
 	<ThingDef Name="RedWoodLog" ParentName="SoftwoodLogBase">
@@ -226,8 +243,8 @@
 		<statBases>
 			
 			<MarketValue>5</MarketValue>
-			<StuffPower_Armor_Blunt>0.8</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.5</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
 			<BurnDurationHours>2.7</BurnDurationHours>
 			<Mass>1.25</Mass>
@@ -256,6 +273,11 @@
 				<Mass>0.46</Mass>
 			</statFactors>
 		</stuffProps>
+		<butcherProducts>
+			<TreeBark MayRequire="vitech.leathertanning">30</TreeBark>
+			<Kindling>45</Kindling>
+			<Seed_TreeCypress>1</Seed_TreeCypress>
+		</butcherProducts>
 	</ThingDef>	
 
 	<ThingDef Name="PoplarLog" ParentName="SoftwoodLogBase">
@@ -263,12 +285,12 @@
 		<label>poplar log</label>
 		<description>Poplar is one of the most common woods and is very cheap and bland, but its moderate weight and strength makes it useful in all sorts of applications. It makes a half-decent shield, too.</description>
 		<graphicData>
-						<color>(222,225,153)</color>
+			<color>(222,225,153)</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>5</MarketValue>
-			<StuffPower_Armor_Blunt>0.9</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>0.8</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.5</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
 			<BurnDurationHours>2.7</BurnDurationHours>
 			<Mass>1.45</Mass>
@@ -297,6 +319,11 @@
 				<Mass>0.45</Mass>
 			</statFactors>
 		</stuffProps>
+		<butcherProducts>
+			<TreeBark MayRequire="vitech.leathertanning">30</TreeBark>
+			<Kindling>20</Kindling>
+			<Seed_TreePoplar>1</Seed_TreePoplar>
+		</butcherProducts>
 	</ThingDef>	
 	
 	<!-- HARD WOOD LOGS -->
@@ -359,8 +386,8 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>6.5</MarketValue>
-			<StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>0.8</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.55</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
 			<BurnDurationHours>3.0</BurnDurationHours>
 			<Mass>1.7</Mass>
@@ -389,6 +416,12 @@
 				<Mass>0.55</Mass>
 			</statFactors>
 		</stuffProps>
+		<butcherProducts>
+			<SapMaple>2</SapMaple>
+			<TreeBark MayRequire="vitech.leathertanning">10</TreeBark>
+			<Kindling>30</Kindling>
+			<Seed_TreeMaple>1</Seed_TreeMaple>
+		</butcherProducts>
 	</ThingDef>	
 	<!--<ThingDef Name="HazelLog" ParentName="HardwoodLogBase">  JUST GIVES FIREWOOD
 		<defName>HazelLog</defName>
@@ -435,7 +468,7 @@
 		<statBases>
 			<MarketValue>8.5</MarketValue>
 			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>1.0</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
 			<BurnDurationHours>3.3</BurnDurationHours>
 			<Mass>1.8</Mass>
@@ -464,6 +497,11 @@
 				<Mass>0.58</Mass>
 			</statFactors>
 		</stuffProps>
+		<butcherProducts>
+			<TreeBark MayRequire="vitech.leathertanning">10</TreeBark>
+			<Kindling>30</Kindling>
+			<Seed_TreeTeak>1</Seed_TreeTeak>
+		</butcherProducts>
 	</ThingDef>	
 	
 	<ThingDef Name="BirchLog" ParentName="HardwoodLogBase">
@@ -477,7 +515,7 @@
 		<statBases>
 			<MarketValue>6</MarketValue>
 			<StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Sharp>0.5</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
 			<BurnDurationHours>3.3</BurnDurationHours>
 			<Mass>1.8</Mass>
@@ -506,6 +544,12 @@
 				<Mass>0.58</Mass>
 			</statFactors>
 		</stuffProps>
+		<butcherProducts>
+			<SapBirch>2</SapBirch>
+			<TreeBark MayRequire="vitech.leathertanning">40</TreeBark>
+			<Kindling>10</Kindling>
+			<Seed_TreeBirch>1</Seed_TreeBirch>
+		</butcherProducts>
 	</ThingDef>	
 	
 	<ThingDef Name="OakLog" ParentName="HardwoodLogBase">
@@ -518,7 +562,7 @@
 		<statBases>
 			<MarketValue>7</MarketValue>
 			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
 			<SharpDamageMultiplier>0.45</SharpDamageMultiplier>
 			<BluntDamageMultiplier>1.0</BluntDamageMultiplier>
@@ -549,6 +593,11 @@
 				<Mass>0.71</Mass>
 			</statFactors>
 		</stuffProps>
+		<butcherProducts>
+			<TreeBark MayRequire="vitech.leathertanning">35</TreeBark>
+			<Kindling>15</Kindling>
+			<Seed_TreeOak>1</Seed_TreeOak>
+		</butcherProducts>
 	</ThingDef>	
 	
 	<ThingDef Name="AcaciaLog" ParentName="HardwoodLogBase">
@@ -561,7 +610,7 @@
 		<statBases>
 			<MarketValue>8</MarketValue>
 			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>0.85</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
 			<SharpDamageMultiplier>0.55</SharpDamageMultiplier>
 			<BluntDamageMultiplier>1.0</BluntDamageMultiplier>
@@ -592,6 +641,11 @@
 				<Mass>0.75</Mass>
 			</statFactors>
 		</stuffProps>
+		<butcherProducts>
+			<TreeBark MayRequire="vitech.leathertanning">20</TreeBark>
+			<Kindling>20</Kindling>
+			<Seed_Acacia>1</Seed_Acacia>
+		</butcherProducts>
 	</ThingDef>	
 	
 	<ThingDef Name="DragonwoodLog" ParentName="HardwoodLogBase">
@@ -604,8 +658,8 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>12</MarketValue>
-			<StuffPower_Armor_Blunt>0.8</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.7</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
 			<SharpDamageMultiplier>0.7</SharpDamageMultiplier>
 			<BluntDamageMultiplier>0.85</BluntDamageMultiplier>
@@ -654,6 +708,12 @@
                 </toolStatFactors>
             </li>
 		</modExtensions>
+		<butcherProducts>
+			<Medicine_DragonsBlood>5</Medicine_DragonsBlood>
+			<TreeBark MayRequire="vitech.leathertanning">20</TreeBark>
+			<Kindling>15</Kindling>
+			<Seed_TreeDrago>1</Seed_TreeDrago>
+		</butcherProducts>
 	</ThingDef>	
 	
 	<ThingDef Name="MangroveLog" ParentName="HardwoodLogBase">
@@ -666,8 +726,8 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>8	</MarketValue>
-			<StuffPower_Armor_Blunt>0.8</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>0.8</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.7</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
 			<SharpDamageMultiplier>0.4</SharpDamageMultiplier>
 			<BluntDamageMultiplier>0.95</BluntDamageMultiplier>
@@ -716,6 +776,11 @@
                 </toolStatFactors>
             </li>
 		</modExtensions>
+		<butcherProducts>
+			<TreeBark MayRequire="vitech.leathertanning">20</TreeBark>
+			<Kindling>40</Kindling>
+			<SeedMangrove>1</SeedMangrove>
+		</butcherProducts>
 	</ThingDef>	
 
 	<!--

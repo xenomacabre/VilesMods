@@ -14,7 +14,13 @@
 					<MaxTemp>45</MaxTemp>
 				</value>	
 			</li>
-			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="FirePit" or defName="Bloomery" or defName="TableFurnace" or defName="Finery" or defName="Foundry"]/statBases</xpath>
+				<value>
+					<MinTemp>-15</MinTemp>
+				</value>	
+			</li>
+
 			
 		</operations>
 		</match>

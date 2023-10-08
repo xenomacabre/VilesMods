@@ -92,11 +92,11 @@
     <uiIconPath>Terrain/Surfaces/FloorGrateIco</uiIconPath>
     <statBases>
       <Beauty>-1</Beauty>
-      <Cleanliness>0.4</Cleanliness>
+      <Cleanliness>0.7</Cleanliness>
 			<WorkToBuild>300</WorkToBuild>
     </statBases>
     <costList>
-		    <Plasteel>4</Plasteel>
+		    
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<researchPrerequisites>
@@ -113,7 +113,7 @@
     <texturePath>Terrain/Surfaces/FloorPlate</texturePath>
     <uiIconPath>Terrain/Surfaces/FloorPlateIco</uiIconPath>
     <statBases>
-			<Beauty>-1</Beauty>
+			<Beauty>0</Beauty>
 			<Cleanliness>0.4</Cleanliness>
 			<WorkToBuild>300</WorkToBuild>
 		</statBases>
@@ -129,14 +129,14 @@
   <!-- ================= Advanced Tech Paneling ================= -->
   <TerrainDef ParentName="FAFloorBase">
     <defName>FAFTechTile</defName>
-    <label>Sensor panels</label>
+    <label>Self-cleaning panels</label>
     <renderPrecedence>242</renderPrecedence>
     <description>These incredibly advanced floor panels are actually in active communication with one another.  Utilizing built in sensors and an integrated high speed network these "smart" tiles can detect and subtly react to being walked upon to give the best walking experience possible.</description>
     <texturePath>Terrain/Surfaces/FloorTech</texturePath>
     <uiIconPath>Terrain/Surfaces/FloorTechIco</uiIconPath>
     <pathCost>0</pathCost>
     <statBases>
-		    <Cleanliness>0.8</Cleanliness>
+		    <Cleanliness>1.0</Cleanliness>
 			<Beauty>6</Beauty>
 			<WorkToBuild>600</WorkToBuild>
 		</statBases>

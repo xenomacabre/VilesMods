@@ -69,6 +69,10 @@
 				<li>AllowRotten</li>
 			</specialFiltersToDisallow>
 		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>GrindStone</li>
+			<li>MillElectric</li>
+		</recipeUsers>
 		<products>
 			<Cornmeal>4</Cornmeal>
 		</products>

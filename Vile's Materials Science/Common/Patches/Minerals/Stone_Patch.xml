@@ -149,7 +149,7 @@ Work to build: Very difficult</description>
 </li>
 
 <li Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="BlocksGranite"]/statProps</xpath>
+    <xpath>Defs/ThingDef[defName="BlocksGranite"]/stuffProps</xpath>
     <value>
 			<statOffsets>
 				<Beauty>1.0</Beauty>
@@ -182,7 +182,7 @@ Work to build: Very difficult</description>
 </li>   
 
 <li Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="BlocksMarble"]/statProps</xpath>
+    <xpath>Defs/ThingDef[defName="BlocksMarble"]/stuffProps</xpath>
     <value>
 			<statOffsets>
 				<Beauty>3.0</Beauty>

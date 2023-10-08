@@ -239,7 +239,7 @@ Cast iron has an exceptionally high carbon content which makes it very hard but 
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
-				<MaxHitPoints>0.8</MaxHitPoints>
+				<MaxHitPoints>1.2</MaxHitPoints>
 				<Beauty>1</Beauty>
 				<Flammability>0</Flammability>
 				<WorkToMake>1.9</WorkToMake>

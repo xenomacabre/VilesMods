@@ -254,6 +254,7 @@
 		</stuffCategories>
 		<building>
 			<isInert>true</isInert>
+			<!--<isFence>true</isFence>-->
 			<ai_chillDestination>false</ai_chillDestination>
 			<blueprintGraphicData>
 				<texPath>Things/Building/Fences/WoodFence_Blueprint</texPath>

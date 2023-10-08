@@ -105,6 +105,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Chinchilla" 
 				or @Name="SK_BigCatThingBase" 
+				or defName="Jaguar"
 				or defName="Tiger"
 				or defName="WhiteTiger"
 				or @Name="MartinThingBase" 

@@ -26,14 +26,21 @@
 			</li>
 -->
  
-            <li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName="Silver" or defName="Peat"]/deepCommonality</xpath>
+           <!-- <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Silver"
+				or defName="Peat"]/deepCommonality</xpath>
+				<value>
+					<deepCommonality>0.05</deepCommonality>
+				</value>
+			</li>-->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="Silver"
+				or defName="Peat"]/deepCommonality</xpath>	
 			</li>
-			
-            <li Class="PatchOperationRemove">
-				<xpath>Defs/ThingDef[defName="Silver" or defName="Peat"]/deepLumpSizeRange</xpath>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="Silver"
+				or defName="Peat"]/deepLumpSizeRange</xpath>	
 			</li>
-			
  			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Tin"]/deepCommonality</xpath>
 				<value>
@@ -56,7 +63,7 @@
 				<xpath>Defs/ThingDef[defName="Glowstone"
 				or defName="Coldstone"]/deepCommonality</xpath>
 				<value>
-					<deepCommonality>0.55</deepCommonality>
+					<deepCommonality>0.35</deepCommonality>
 				</value>
 			</li>
 		</operations>

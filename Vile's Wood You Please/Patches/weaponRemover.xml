@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+<!--
+			<Operation Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[
+				   defName="Kindling"
+				or defName="RedWoodPlank"
+				or defName="BambooPlank"
+				or defName="Bamboo"
+				or defName="WoodPlank"
+				or defName="RedWoodLog"
+				or defName="WoodLog"
+				]/tools</xpath>
+			</Operation>
+--><!--
+			<Operation Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="WoodLog"]/tools/li[@Class="CombatExtended.ToolCE"]</xpath> 
+			</Operation>
+
+	-->
+
+	
+	
+</Patch>

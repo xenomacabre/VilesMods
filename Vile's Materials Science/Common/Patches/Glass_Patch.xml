@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>  
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Glass"]/stuffProps/color</xpath>
+				<value>
+                    <color>RGBA(205,230,250,180)</color>
+				</value>
+			</li>
+          
+            
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	
+

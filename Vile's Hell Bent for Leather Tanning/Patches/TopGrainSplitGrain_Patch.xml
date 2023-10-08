@@ -130,7 +130,7 @@
 				<li Class="PatchOperationAdd">
 						<xpath>Defs/ThingDef[defName="Leather_Fox"]/stuffProps</xpath>
 						<value>
-							<stuffAdjective>leather</stuffAdjective>
+							<stuffAdjective>embossed leather</stuffAdjective>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">
