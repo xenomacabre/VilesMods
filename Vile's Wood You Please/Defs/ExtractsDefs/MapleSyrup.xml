@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>SyrupMaple</defName>
+		<label>maple syrup</label>
+		<description>A delicious sweet from our friend the tree.</description>
+		<graphicData>
+			<texPath>Things/VileWood/SyrupMaple</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>16</MarketValue>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>5</DeteriorationRate>
+			<Mass>0.2</Mass>
+			<Bulk>0.2</Bulk>
+			<Nutrition>0.1</Nutrition>
+		</statBases>
+ 		<thingCategories>
+			<li>CookingSupplies</li>
+		</thingCategories>
+		<ingestible>
+			<tasteThought>AteMapleSyrup</tasteThought>
+			<preferability>DesperateOnly</preferability>
+			<foodType>AnimalProduct, Fluid</foodType>
+			<joy>0.15</joy>
+			<joyKind>Gluttonous</joyKind>
+			<maxNumToIngestAtOnce>2</maxNumToIngestAtOnce>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>Meal_Eat</ingestSound>
+			<canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+		</ingestible>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+
+	 <ThoughtDef>
+    <defName>AteMapleSyrup</defName>
+    <durationDays>0.25</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>ate maple syrup</label>
+        <description>There's no taste like maple syrup.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+<ThingDef ParentName="SK_RoughPlantBase">
+		<defName>SapMaple</defName>
+		<label>Maple Sap</label>
+		<description>Sap from maple trees. Boil lots of it to produce maple syrup.</description>
+		<graphicData>
+			<texPath>Things/VileWood/SapMaple</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>2.0</MarketValue>
+		</statBases>
+		<tickerType>Rare</tickerType>   
+		<thingCategories>
+			<li>CookingSupplies</li>
+		</thingCategories>
+		<stuffProps>
+			<categories>
+				<li>Stuff</li>
+			</categories>
+		</stuffProps>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>25</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+  <RecipeDef>
+		<defName>MakeMapleSyrup</defName>
+		<label>make maple syrup (x5)</label>
+		<description>Boil sap to produce maple syrup. Produces 5.</description>
+		<jobString>Making maple syrup.</jobString>
+		<workAmount>500</workAmount>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Chemlab_Medicine_Drink</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SapMaple</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SapMaple</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<products>
+			<SyrupMaple>5</SyrupMaple>
+		</products>
+		<skillRequirements>
+			<Cooking>2</Cooking>
+		</skillRequirements>
+		<recipeUsers>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+			<li>Hearth</li>
+			<li>OpenHearth</li>
+		</recipeUsers>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>Bakery_B2</researchPrerequisite>
+	</RecipeDef>
+
+
+	
+</Defs>

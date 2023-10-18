@@ -261,7 +261,7 @@ Plexiglass is transparent Polymethyl methacrylate, or acrylic glass. It's strong
 				<li>Glass</li>
 			</categories>
 			<constructEffect>ConstructMetal</constructEffect>
-			<color>(179,234,255)</color>
+			<color>RGBA(179,234,255,200)</color>
 			<commonality>0.25</commonality>
 			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
@@ -441,7 +441,7 @@ Polycarbonate is a clear plastic which is often used for bulletproof glass and r
 		</thingCategories>
 		<smeltable>true</smeltable>
 		<stuffProps>
-            <appearance>Cladding</appearance>
+            <appearance>GlassGL</appearance>
 			<stuffAdjective>Polycarbonate</stuffAdjective>
 			<categories>
 				<li>Plastic</li>
@@ -452,7 +452,8 @@ Polycarbonate is a clear plastic which is often used for bulletproof glass and r
 				<li>Glass</li>
 			</categories>
 			<constructEffect>ConstructMetal</constructEffect>
-			<color>(255,85,50)</color>
+			<color>RGBA(255,85,50,220)</color>
+			<!--<color>(255,85,50)</color>-->
 			<commonality>0.25</commonality>
 			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
@@ -625,7 +626,7 @@ Glass-fiber reinforced plastic is a composite material of glass fibers set into 
 			<categories>
 				<li>Glass</li>
 			</categories>
-			<color>(244,245,233)</color>
+			<color>RGBA(244,245,233,200)</color>
 			<constructEffect>ConstructMetal</constructEffect>
 			<appearance>GlassGL</appearance>
 			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>

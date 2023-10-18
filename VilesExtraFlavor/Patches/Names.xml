@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAttributeAdd">
+		<xpath>/Defs/ThingDef[defName="Norballo_Shirt"]</xpath>
+		<attribute>Name</attribute>
+		<value>UndershirtBase</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeAdd">
+		<xpath>/Defs/ThingDef[defName="Apparel_CollarShirt"]</xpath>
+		<attribute>Name</attribute>
+		<value>DressShirtBase</value>
+	</Operation>
+
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Apparel_CollarShirt"]/label</xpath>
+				<value>
+					<label>dress shirt, collared</label>
+				</value>
+			</Operation>
+
+	<Operation Class="PatchOperationAttributeAdd">
+		<xpath>/Defs/ThingDef[defName="Apparel_TunicFine"]</xpath>
+		<attribute>Name</attribute>
+		<value>KirtleBase</value>
+	</Operation>
+			<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Apparel_TunicFine"]/graphicData/texPath</xpath>
+				<value>
+					<texPath>Things/Apparel/KirtleNew/Tunic_Fine</texPath>
+				</value>
+			</Operation>
+
+	<Operation Class="PatchOperationAttributeAdd">
+		<xpath>/Defs/ThingDef[defName="Apparel_TunicPoor"]</xpath>
+		<attribute>Name</attribute>
+		<value>WorkTunicBase</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeAdd">
+		<xpath>/Defs/ThingDef[defName="Apparel_RagDress"]</xpath>
+		<attribute>Name</attribute>
+		<value>BlacksmithApronBase</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeAdd">
+		<xpath>/Defs/ThingDef[defName="Apparel_Bonnet"]</xpath>
+		<attribute>Name</attribute>
+		<value>BonnetBase</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeAdd">
+		<xpath>/Defs/ThingDef[defName="Apparello_Vandal"]</xpath>
+		<attribute>Name</attribute>
+		<value>CoifBase</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeAdd">
+		<xpath>/Defs/ThingDef[defName="Apparello_NorbalSagecowl"]</xpath>
+		<attribute>Name</attribute>
+		<value>CowlBase</value>
+	</Operation>
+
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Apparello_NorbalSagecowl"]/graphicData/texPath</xpath>
+			<value>
+				<texPath>Things/Apparel/HatsVile/Sagecowl</texPath>
+			</value>
+		</Operation>
+	
+	<Operation Class="PatchOperationAttributeAdd">
+		<xpath>/Defs/ThingDef[defName="MedievalTimes_Pants_Suspenders"]</xpath>
+		<attribute>Name</attribute>
+		<value>WorkTrousersBase</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeAdd">
+		<xpath>/Defs/ThingDef[defName="MedievalTimes_Pants_Suspenders_Striped"]</xpath>
+		<attribute>Name</attribute>
+		<value>OverallsBase</value>
+	</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="MedievalTimes_Pants_Suspenders_Striped"]/graphicData/texPath</xpath>
+			<value>
+				<texPath>Things/Apparel/OverallsStriped/MedievalTimes_Suspenders_Striped</texPath>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="MedievalTimes_Pants_Suspenders_Striped"]/label</xpath>
+			<value>
+				<label>suspendered overalls, striped</label>
+			</value>
+		</Operation>
+
+		<Operation Class="PatchOperationAttributeAdd">
+			<xpath>/Defs/ThingDef[defName="Apparello_Tunic"]</xpath>
+			<attribute>Name</attribute>
+			<value>OvertunicBase</value>
+		</Operation>
+
+</Patch>

@@ -345,7 +345,9 @@
 		<graphicData>
             <texPath>Things/Building/WindowWall1</texPath>
 			<drawSize>(1.019999980926513671875,1)</drawSize>
+            <shaderType>CutoutComplex</shaderType>
 		</graphicData>
+        <castEdgeShadows>false</castEdgeShadows>
          <uiIconPath>Things/Building/WindowWall1_north</uiIconPath>
 		<statBases>
 			<WorkToBuild>405</WorkToBuild>
@@ -361,6 +363,19 @@
             <ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<coversFloor>false</coversFloor>
+        <!--
+        <comps>
+          <li Class="RimFridge.CompProperties_SecondLayer">
+				<graphicData>
+					<texPath>Things/Building/WindowWall1</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>Transparent</shaderType>
+					<drawSize>(1.019999980926513671875,1)</drawSize>
+				</graphicData>
+				<altitudeLayer>Projectile</altitudeLayer>
+			</li>
+         </comps>
+         -->
 	</ThingDef>
 	
 	<ThingDef ParentName="WindowBase">
@@ -370,7 +385,9 @@
 		<graphicData>
 			<texPath>Things/Building/WindowWall3</texPath>
 			<drawSize>(4,1)</drawSize>
+            <shaderType>CutoutComplex</shaderType>
 		</graphicData>
+        <castEdgeShadows>false</castEdgeShadows>
 		<uiIconPath>Things/Building/WindowWall3_north</uiIconPath>
 		<uiIconScale>1.33</uiIconScale>
 		<statBases>
@@ -388,6 +405,18 @@
             <ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<coversFloor>false</coversFloor>
+        <!--<drawerType>MapMeshAndRealTime</drawerType>
+        <comps>
+          <li Class="RimFridge.CompProperties_SecondLayer">
+				<graphicData>
+					<texPath>Things/Building/WindowWall3</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>Transparent</shaderType>
+					<drawSize>(4,1)</drawSize>
+				</graphicData>
+				<altitudeLayer>Projectile</altitudeLayer>
+			</li>
+         </comps>-->
 	</ThingDef>
     
     <ThingDef ParentName="WindowBase">
@@ -395,10 +424,12 @@
 		<label>window wall (5x1)</label>
 		<description>A floor-to-ceiling window and blinds. Can control light and air separately. Can be very fragile or very strong, depending on materials used.</description>
 		<graphicData>
-			<texPath>Things/Building/WindowWall3</texPath>
-			<drawSize>(7,1)</drawSize>
+			<texPath>Things/Building/WindowWall5</texPath>
+			<drawSize>(8,1)</drawSize>
+            <shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<uiIconPath>Things/Building/WindowWall3_north</uiIconPath>
+        <castEdgeShadows>false</castEdgeShadows>
+		<uiIconPath>Things/Building/WindowWall5_north</uiIconPath>
 		<uiIconScale>1.6</uiIconScale>
 		<statBases>
 			<WorkToBuild>1215</WorkToBuild>
@@ -415,6 +446,19 @@
             <ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<coversFloor>false</coversFloor>
+<!--
+        <comps>
+          <li Class="RimFridge.CompProperties_SecondLayer">
+				<graphicData>
+					<texPath>Things/Building/WindowWall5</texPath>
+                    <graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>Transparent</shaderType>
+					<drawSize>(8,1)</drawSize>
+				</graphicData>
+				<altitudeLayer>Projectile</altitudeLayer>
+			</li>
+         </comps>
+         -->
 	</ThingDef>
 	
 </Defs>

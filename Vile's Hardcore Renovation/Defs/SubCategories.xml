@@ -120,6 +120,48 @@
 		<designationCategory>Structure</designationCategory>
 		<debug>false</debug>
 	</ArchitectSense.DesignationSubCategoryDef> 
+
+	<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_SmallBrickTileV</defName>
+		<label>Small brick tile (V)</label>
+		<description>Smaller bricks laid in an interlocking pattern. Takes slightly longer to make than the regular variety.</description>
+		<defNames>
+			<li>SBrickSandstoneV</li>
+			<li>SBrickGraniteV</li>
+			<li>SBrickLimestoneV</li>
+			<li>SBrickSlateV</li>
+			<li>SBrickMarbleV</li>
+			<li>SBrickClayBrickV</li>
+			<li>SBrickCeramicsV</li>
+			<li>SBrickBasaltV</li>
+			<li>SBrickDuniteV</li>
+			<li>SBrickPegmatiteV</li>
+			<li>SBrickAlabasterV</li>
+		</defNames>
+		<designationCategory>OutsideFloors</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+	<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_MediumBrickTileV</defName>
+		<label>Medium brick tile (V)</label>
+		<description>Bricks laid in an interlocking pattern.</description>
+		<defNames>
+			<li>MBrickSandstoneV</li>
+			<li>MBrickGraniteV</li>
+			<li>MBrickLimestoneV</li>
+			<li>MBrickSlateV</li>
+			<li>MBrickMarbleV</li>
+			<li>MBrickClayBrickV</li>
+			<li>MBrickCeramicsV</li>
+			<li>MBrickBasaltV</li>
+			<li>MBrickDuniteV</li>
+			<li>MBrickPegmatiteV</li>
+			<li>MBrickAlabasterV</li>
+		</defNames>
+		<designationCategory>OutsideFloors</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
 	 
 	 
 </Defs>

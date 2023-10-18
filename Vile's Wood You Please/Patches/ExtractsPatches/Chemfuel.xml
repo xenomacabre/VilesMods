@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="Make_ChemfuelFromWood"]/ingredients</xpath>
+		<value>
+			<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>	
+					</thingDefs>
+					<categories>
+						<li>FirewoodGreen</li>
+					</categories>
+				</filter>
+				<count>75</count>
+			</li>
+		</ingredients>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="Make_ChemfuelFromWood"]/fixedIngredientFilter</xpath>
+		<value>
+			<fixedIngredientFilter>
+			<categories>
+				<li>FirewoodGreen</li>
+			</categories>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+			<disallowedThingDefs>
+				<li>Firewood_Poplar</li>
+			</disallowedThingDefs>
+		</fixedIngredientFilter>
+		</value>
+	</Operation>
+	
+	
+</Patch>

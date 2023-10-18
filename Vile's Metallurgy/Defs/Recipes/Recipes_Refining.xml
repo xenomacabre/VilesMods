@@ -358,10 +358,10 @@
 <!-- CAST cast iron bars -->
 	<RecipeDef>
 		<defName>MakeCastIron</defName>
-		<label>Make Cast Iron (x30)</label>
-		<description>Further refine pig iron into cast iron by melting it down and removing impurities. Produces 30.</description>
+		<label>Make Cast Iron (x100)</label>
+		<description>Further refine pig iron into cast iron by melting it down and removing impurities. Produces 100.</description>
 		<jobString>Making cast iron.</jobString>
-		<workAmount>500</workAmount>
+		<workAmount>900</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>
 		<soundWorking>Recipe_Smelt</soundWorking>
@@ -372,16 +372,16 @@
 						<li>PigIron</li>
 					</thingDefs>
 				</filter>
-				<count>30</count>
+				<count>75</count>
 			</li>
-			<li>
+			<!--<li>
 				<filter>
 					<thingDefs>
 						<li>FluxPowder</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
-			</li>
+			</li>-->
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
@@ -389,7 +389,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<CastIron>30</CastIron>
+			<CastIron>100</CastIron>
 		</products>
 		<skillRequirements>
 			<Crafting>3</Crafting>

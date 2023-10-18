@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+
+	<ThingDef ParentName="CoifBase">
+		<defName>Vile_CoifFlapped</defName>
+		<label>coif, flapped</label>
+		<graphicData>
+			<texPath>Things/Apparel/HatsVile/CoifFlapped</texPath>
+		</graphicData>				
+	</ThingDef>
+	<ThingDef ParentName="CowlBase">
+		<defName>Vile_CowlPointed</defName>
+		<label>cowl, pointed</label>
+		<graphicData>
+			<texPath>Things/Apparel/HatsVile/SagecowlPointed</texPath>
+		</graphicData>				
+	</ThingDef>
+	<ThingDef ParentName="BonnetBase">
+		<defName>Vile_BonnetBrimmed</defName>
+		<label>bonnet, brimmed</label>
+		<graphicData>
+			<texPath>Things/Apparel/HatsVile/BonnetBrimmed</texPath>
+		</graphicData>				
+	</ThingDef>
+
+	<ThingDef ParentName="BlacksmithApronBase">
+		<defName>Vile_BlacksmithsApronStitched</defName>
+		<label>blacksmith's apron, stitched</label>
+		<graphicData>
+			<texPath>Things/Apparel/BlacksmithsApronStitched/BlacksmithsApron</texPath>
+		</graphicData>				
+	</ThingDef>	
+	<ThingDef ParentName="DressShirtBase">
+		<defName>Vile_DressShirtPlain</defName>
+		<label>dress shirt</label>
+		<graphicData>
+			<texPath>Things/Apparel/dressShirtPlain/ShirtButton</texPath>
+		</graphicData>				
+	</ThingDef>
+	<ThingDef ParentName="DressShirtBase">
+		<defName>Vile_DressShirtStriped</defName>
+		<label>dress shirt, striped</label>
+		<graphicData>
+			<texPath>Things/Apparel/dressShirtStriped/ShirtButton</texPath>
+		</graphicData>				
+	</ThingDef>
+
+	<ThingDef ParentName="KirtleBase">
+		<defName>Vile_KirtleButtoned</defName>
+		<label>kirtle, buttoned</label>
+		<graphicData>
+			<texPath>Things/Apparel/KirtleButtoned/Tunic_Fine</texPath>
+		</graphicData>				
+	</ThingDef>
+
+	<ThingDef ParentName="UndershirtBase">
+		<defName>Vile_UndershirtLaced</defName>
+		<label>undershirt, laced</label>
+		<graphicData>
+			<texPath>Things/Apparel/shirtbasicLaced/ShirtBasic</texPath>
+		</graphicData>				
+	</ThingDef>
+	<ThingDef ParentName="UndershirtBase">
+		<defName>Vile_UndershirtUnlaced</defName>
+		<label>undershirt, unlaced</label>
+		<graphicData>
+			<texPath>Things/Apparel/shirtbasicUnlaced/ShirtBasic</texPath>
+		</graphicData>				
+	</ThingDef>
+
+	<ThingDef ParentName="WorkTunicBase">
+		<defName>Vile_WorkTunicButtoned</defName>
+		<label>work tunic, buttoned</label>
+		<graphicData>
+			<texPath>Things/Apparel/WorkTunicButtoned/Tunic_Poor</texPath>
+		</graphicData>				
+	</ThingDef>
+	<ThingDef ParentName="WorkTunicBase">
+		<defName>Vile_WorkTunicNorbal</defName>
+		<label>work tunic, norbal</label>
+		<graphicData>
+			<texPath>Things/Apparel/WorkTunicNorbal/Tunic_Poor</texPath>
+		</graphicData>				
+	</ThingDef>
+
+	
+	<ThingDef ParentName="OverallsBase">
+		<defName>Vile_OverallsPlain</defName>
+		<label>suspended overalls</label>
+		<graphicData>
+			<texPath>Things/Apparel/OverallsPlain/MedievalTimes_Suspenders_Striped</texPath>
+		</graphicData>				
+	</ThingDef>
+
+	<ThingDef ParentName="WorkTrousersBase">
+		<defName>Vile_WorkTrousersCuffed</defName>
+		<label>work trousers, cuffed</label>			
+	</ThingDef>
+
+	<ThingDef ParentName="OvertunicBase">
+		<defName>Vile_OvertunicCuffed</defName>
+		<label>overtunic, cuffed</label>			
+	</ThingDef>
+</Defs>

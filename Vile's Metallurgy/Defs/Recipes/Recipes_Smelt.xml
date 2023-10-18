@@ -55,6 +55,7 @@
 				<filter>
 					<thingDefs>
 						<li>Steel</li> <!-- iron ore -->
+						<li MayRequire="vitech.materialsscience">BogIron</li>
 					</thingDefs>
 				</filter>
 				<count>50</count>
@@ -71,6 +72,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li><!-- iron ore -->
+				<li MayRequire="vitech.materialsscience">BogIron</li>
 			</thingDefs>
 			<categories>
 				<li>Coal</li>
@@ -141,9 +143,60 @@
 		<researchPrerequisite>Craft_B1</researchPrerequisite>
 	<recipeUsers>
 		<li>FirePit</li>
+
+	</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>MakeBronze_Foundry</defName>
+		<label>Smelt bronze (x75)</label>
+		<description>Smelts bronze alloy from copper ore and other metals. Produces 75.</description>
+		<jobString>Smelting bronze alloy.</jobString>
+		<workAmount>900</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CopperBar</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TinBar</li>
+						<li>AluminiumBar</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Copper</li>
+				<li>CopperBar</li>
+				<li>TinBar</li>
+				<li>AluminiumBar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Bronze>75</Bronze>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Craft_B1</researchPrerequisite>
+	<recipeUsers>
         <li>Foundry</li>
 	</recipeUsers>
 	</RecipeDef>
+	
 	
 	<!-- SMELT Copper -->
 	
@@ -152,7 +205,7 @@
 		<label>Smelt copper (x10)</label>
 		<description>Smelts copper bar from copper ore. Produces 10.</description>
 		<jobString>Smelting copper alloy.</jobString>
-		<workAmount>700</workAmount>
+		<workAmount>500</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>
 		<soundWorking>Recipe_Smelt</soundWorking>
@@ -181,6 +234,43 @@
     	<workSkillLearnFactor>0.8</workSkillLearnFactor>
 	<recipeUsers>
 		<li>FirePit</li>
+
+	</recipeUsers>
+	</RecipeDef>
+	
+		<RecipeDef>
+		<defName>MakeCopperBars_Foundry</defName>
+		<label>Smelt copper (x50)</label>
+		<description>Smelts copper bar from copper ore. Produces 10.</description>
+		<jobString>Smelting copper alloy.</jobString>
+		<workAmount>800</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Copper</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Copper</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<CopperBar>50</CopperBar>
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	<recipeUsers>
         <li>Foundry</li>
 	</recipeUsers>
 	</RecipeDef>
@@ -221,6 +311,44 @@
 		<researchPrerequisite>Craft_B1</researchPrerequisite>
 	<recipeUsers>
 		<li>FirePit</li>
+
+	</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>MakeTinBars_Foundry</defName>
+		<label>Smelt tin alloy (x50)</label>
+		<description>Smelts tin alloy from tin ore. Mainly used as an ingredient in other alloy recipes. Produces 10.</description>
+		<jobString>Smelting tin alloy.</jobString>
+		<workAmount>900</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Tin</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Tin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<TinBar>50</TinBar>
+		</products>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Craft_B1</researchPrerequisite>
+	<recipeUsers>
         <li>Foundry</li>
 	</recipeUsers>
 	</RecipeDef>
@@ -231,7 +359,7 @@
 		<label>Smelt lead alloy (x10)</label>
 		<description>Smelts lead alloy from anglesite ore. Produces 15.</description>
 		<jobString>Smelting lead alloy.</jobString>
-		<workAmount>800</workAmount>
+		<workAmount>500</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>
 		<soundWorking>Recipe_Smelt</soundWorking>
@@ -261,6 +389,45 @@
 		<researchPrerequisite>Craft_B1</researchPrerequisite>
 	<recipeUsers>
 		<li>FirePit</li>
+        <li>TableFurnace</li>
+	</recipeUsers>
+	</RecipeDef>
+	
+		<RecipeDef>
+		<defName>MakeLeadBars_Foundry</defName>
+		<label>Smelt lead alloy (x50)</label>
+		<description>Smelts lead alloy from anglesite ore. Produces 15.</description>
+		<jobString>Smelting lead alloy.</jobString>
+		<workAmount>900</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Anglesite</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Anglesite</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<LeadBar>15</LeadBar>
+			<Silver MayRequire="vitech.materialsscience">15</Silver>
+		</products>
+		<skillRequirements>
+			<Crafting>2</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<researchPrerequisite>Craft_B1</researchPrerequisite>
+	<recipeUsers>
         <li>Foundry</li>
 	</recipeUsers>
 	</RecipeDef>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<RecipeDef>
+		<defName>MakeFlourFromSeeds</defName>
+		<label>grind flour from tree nuts</label>
+		<description>Grind certain tree seeds into flour. Produces 10.</description>
+		<jobString>Grinding flour.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<workAmount>800</workAmount>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Seed_Acacia</li>
+						<li>Seed_TreeOak</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Seed_Acacia</li>
+				<li>Seed_TreeOak</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<products>
+			<Flour>10</Flour>
+		</products>
+		<skillRequirements>
+			<Cooking>2</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>Bakery_B1</researchPrerequisite>
+	</RecipeDef>
+</Defs>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+		<ThingDef ParentName="SK_ResourceBase">
+		<defName>Medicine_DragonsBlood</defName>
+		<label>Dragonsblood tincture</label>
+		<description>The resin of the dragonwood tree which has medicinal uses. Not very effective, but can be used to make stronger medicines.</description>
+		<graphicData>
+			<texPath>Things/VileWood/DragonsBlood</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<DeteriorationRate>12</DeteriorationRate>
+			<MarketValue>15</MarketValue>
+			<Flammability>5</Flammability>
+			<Bulk>0.8</Bulk>
+			<Mass>0.4</Mass>		
+			<Nutrition>0.01</Nutrition>			
+		</statBases>
+		<stackLimit>25</stackLimit>
+		<thingCategories>
+			<li>Drugs</li>
+		</thingCategories>
+		<ingestible>
+			<foodType>Fluid, Processed</foodType>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<drugCategory>Medical</drugCategory>
+			<preferability>NeverForNutrition</preferability>
+			<ingestSound>Ingest_Drink</ingestSound>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>MedicalDrink</hediffDef>
+					<severity>0.10</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<addictiveness>0</addictiveness>
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+			</li>
+		</comps>
+	</ThingDef>
+
+	
+</Defs>

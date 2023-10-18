@@ -1,13 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
-	
+
+
+ <Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName = "Barricade"]/stuffCategories</xpath>
+	<value>
+		<stuffCategories>
+			<li>Stony</li>
+			<li>Bricks</li>
+			<li>Metallic</li>
+			<li>StrongMetallic</li>
+			<li>Aggregate</li>
+		</stuffCategories>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "Barricade"]/uiIconPath</xpath>
+		<value>
+			<uiIconPath>Things/Building/Linked/Barricade_Ico</uiIconPath>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "Barricade"]/graphicData/texPath</xpath>
+		<value>
+			<texPath>Things/Building/Linked/Barricade</texPath>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "Barricade"]/graphicData/graphicClass</xpath>
+		<value>
+			<graphicClass>Graphic_Appearances</graphicClass>
+		</value>
+	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "Barricade"]/graphicData</xpath>
 		<value>
 			<shaderType>CutoutComplex</shaderType>
 		</value>
 	</Operation>
-	<!--<Operation Class="PatchOperationReplace">
+	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName = "Barricade"]/graphicData/linkType</xpath>
 		<value>
 			<linkType>CornerFiller</linkType>
@@ -21,7 +52,7 @@
 				<li>Rock</li>
 			</linkFlags>
 		</value>
-	</Operation>-->
+	</Operation>
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName = "Barricade"]/graphicData/color</xpath>
 		<value>

@@ -149,7 +149,7 @@
 			<drawSize>(3.8,3.8)</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 			<shadowData>
-				<volume>(0.5, 0.5, 0.5)</volume>
+				<volume>(1.5, 1.5, 1.5)</volume>
 				<offset>(0,0,0)</offset>
 			</shadowData>
 			<damageData>

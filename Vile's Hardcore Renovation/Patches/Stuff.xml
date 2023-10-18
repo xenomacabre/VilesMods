@@ -24,6 +24,7 @@
 		<xpath>/Defs/ThingDef[defName="Dirt"]</xpath>
 		<value>
 			<stuffProps>
+				<appearance>Agg</appearance>
 				<categories>
 					<li>Aggregate</li>
 				</categories>
@@ -54,6 +55,7 @@
 				<categories>
 					<li>Aggregate</li>
 				</categories>
+				<appearance>Agg</appearance>
 				<color>(189,166,118)</color>
 				<constructEffect>ConstructMetal</constructEffect>
 				<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -81,6 +83,7 @@
 				<categories>
 					<li>Aggregate</li>
 				</categories>
+				<appearance>Agg</appearance>
 				<color>(155,155,137)</color>
 				<constructEffect>ConstructMetal</constructEffect>
 				<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>

@@ -115,7 +115,12 @@
 				</value>
 			</li>
             
-            
+              <li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="Make_ComponentIndustrialCast"]/label</xpath>
+				<value>
+                   <label>Cast threaded fasteners x30</label>
+				</value>
+			</li>
             
             
              <li Class="PatchOperationReplace">
