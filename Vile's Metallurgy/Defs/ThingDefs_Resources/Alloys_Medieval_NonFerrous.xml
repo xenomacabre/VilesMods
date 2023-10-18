@@ -36,6 +36,7 @@ Bronze is an alloy consisting primarily of copper, commonly with about 12% tin a
 		<useHitPoints>true</useHitPoints>
 		<thingCategories>
 			<li>SLDBar</li>
+			<li>CastBar</li>
 		</thingCategories>
 		<smeltable>true</smeltable>
 		<stuffProps>
@@ -44,6 +45,7 @@ Bronze is an alloy consisting primarily of copper, commonly with about 12% tin a
 				<li>Metallic</li>
 				<li>StrongMetallic</li>
 				<li>RuggedMetallic</li>
+				<li>CastMetallic</li>
 			</categories>
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(210,140,20)</color>

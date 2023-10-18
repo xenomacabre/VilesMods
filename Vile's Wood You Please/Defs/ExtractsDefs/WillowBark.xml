@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+		<ThingDef ParentName="SK_ResourceBase">
+		<defName>Painstopper_WillowBark</defName>
+		<label>Willow Bark Asprin</label>
+		<description>A natural pain reliever.</description>
+		<graphicData>
+			<texPath>Things/VileWood/BarkWillow</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>200</WorkToMake>
+			<MarketValue>5</MarketValue>
+			<Mass>0.005</Mass>
+			<Nutrition>0.01</Nutrition>
+		</statBases>
+		<ingestible>
+			<foodType>Fluid, Processed</foodType>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<drugCategory>Medical</drugCategory>
+			<preferability>NeverForNutrition</preferability>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>WillowBarkHigh</hediffDef>
+					<severity>1.0</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<addictiveness>0</addictiveness>
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+			</li>
+		</comps>
+	</ThingDef>
+	<HediffDef>
+		<defName>WillowBarkHigh</defName>
+		<description>Pain reduced by willow bark</description>
+		<hediffClass>Hediff_High</hediffClass>
+		<label>Willow Bark</label>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.5</severityPerDay>
+				<showDaysToRecover>true</showDaysToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0.1</minSeverity>
+				<label>feeling better</label>
+				<painFactor>0.75</painFactor>
+			</li>
+		</stages>
+	</HediffDef>
+	
+</Defs>

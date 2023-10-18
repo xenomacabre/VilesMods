@@ -10,6 +10,11 @@
 				</value>
 		</Operation>	
 
-
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/ThingDef[defName="DiningChair"]/comps/li[@Class="CompProperties_Styleable"]</xpath> 
+		</Operation>
+		<Operation Class="PatchOperationRemove">
+			<xpath>Defs/ThingDef[defName="DiningChair"]/statBases/StyleDominance</xpath> 
+		</Operation>
 
 </Patch>	

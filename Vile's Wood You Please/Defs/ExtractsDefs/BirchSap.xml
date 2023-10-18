@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+<ThingDef ParentName="CropsBase">
+		<defName>SapBirch</defName>
+		<label>Birch Sap</label>
+		<description>Sap from birch trees. Can be made into a sweet beverage.</description>
+		<graphicData>
+			<texPath>Things/VileWood/SapBirch</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>2.0</MarketValue>
+		</statBases>
+		<tickerType>Rare</tickerType>   
+		<thingCategories>
+			<li>CookingSupplies</li>
+		</thingCategories>
+		<stuffProps>
+			<categories>
+				<li>Stuff</li>
+			</categories>
+		</stuffProps>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>25</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="MealBeverage">
+		<defName>BirchBeer</defName>
+		<label>Birch Beer</label>
+		<description>A soft drink made from birch sap.</description>
+		<graphicData>
+			<texPath>Things/VileWood/BirchBeer</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<stackLimit>10</stackLimit>
+		<statBases>
+			<MarketValue>9</MarketValue>
+			<Nutrition>0.15</Nutrition>
+		</statBases>
+		<thingCategories>
+			<li>Energetics</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<joy>0.21</joy>
+			<nurseable>true</nurseable>
+			<drugCategory>Social</drugCategory>
+			<ingestSound>Ingest_Drink</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<chairSearchRadius>25</chairSearchRadius>
+			<joyKind>Gluttonous</joyKind>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>GoodHappy</hediffDef>
+					<severity>0.15</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<addictiveness>0</addictiveness>
+				<listOrder>1100</listOrder>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<RecipeDef>
+		<defName>MakeBirchBeer</defName>
+		<label>make birch beer</label>
+		<description>Make non-alcoholic birch beer from sap. Produces 3.</description>
+		<jobString>Making birch beer.</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workAmount>1350</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SapBirch</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SapBirch</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BirchBeer>3</BirchBeer>
+		</products>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>Food_B2</researchPrerequisite>
+	</RecipeDef>
+
+	
+</Defs>

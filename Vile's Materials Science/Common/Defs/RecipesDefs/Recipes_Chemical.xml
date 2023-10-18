@@ -166,8 +166,8 @@
 	<RecipeDef>
 		<defName>MakeNitrocellulose</defName>
 		<label>Make nitrocellulose propellant (x20)</label>
-		<description>Makes gunpowder, which is useful for crafting ammo. Produces 20.</description>
-		<jobString>Making gunpowder.</jobString>
+		<description>Originally known as guncotton, it's a smokeless propellant which is useful for crafting ammo. Produces 20.</description>
+		<jobString>Making nitrocellulose propellant.</jobString>
 		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>

@@ -5,7 +5,7 @@
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>
 		<soundWorking>Recipe_Smelt</soundWorking>
-		<recipeUsers>
+		<recipeUsers Inherit="False">
 			<li>Foundry</li>
 		</recipeUsers>
 		<researchPrerequisites Inherit = "false"><li>Metallurgy_B4</li></researchPrerequisites>
@@ -112,11 +112,11 @@
 		<!-- == 200Shell Cast == -->
 	<RecipeDef ParentName="AmmoRecipeBlackPowder_Cast">
 		<defName>CastAmmo_200Pounder_Shell</defName>
-		<label>make 200-lb explosive shell</label>
+		<label>make 200-lb explosive shell (x18)</label>
 		<description>Craft 200-lb explosive shell.</description>
 		<jobString>Making 200-lb explosive shell.</jobString>
 		<targetCountAdjustment>1</targetCountAdjustment>
-		<workAmount>1200</workAmount>
+		<workAmount>1800</workAmount>
 		<unfinishedThingDef>UnfinishedBalls</unfinishedThingDef>
 		<ingredients>
 				<li>
@@ -125,7 +125,7 @@
 						<li>CastBar</li>
 					</categories>
 				</filter>
-				<count>50</count>
+				<count>120</count>
 			</li>
 			<li>
 				<filter>
@@ -133,7 +133,7 @@
 						<li>Woody</li>
 					</categories>
 				</filter>
-				<count>50</count>
+				<count>60</count>
 			</li>
 			<li>
 				<filter>
@@ -141,7 +141,7 @@
 						<li>Powder</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>60</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -154,18 +154,18 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_200Pounder_Shell>5</Ammo_200Pounder_Shell>
+			<Ammo_200Pounder_Shell>18</Ammo_200Pounder_Shell>
 		</products>
 	</RecipeDef>
 	
 			<!-- == GREEKFIRE CAST == -->
 	<RecipeDef ParentName="AmmoRecipeBlackPowder_Cast">
 		<defName>CastAmmo_200Pounder_GreekFire</defName>
-		<label>make 200-lb greek fire shell</label>
+		<label>make 200-lb greek fire shell (x18)</label>
 		<description>Craft 200-lb greek fire shell.</description>
 		<jobString>Making 200-lb greek fire shell.</jobString>
 		<targetCountAdjustment>1</targetCountAdjustment>
-		<workAmount>1200</workAmount>
+		<workAmount>1800</workAmount>
 		<unfinishedThingDef>UnfinishedBalls</unfinishedThingDef>
 		<ingredients>
 				<li>
@@ -174,7 +174,7 @@
 						<li>CastBar</li>
 					</categories>
 				</filter>
-				<count>50</count>
+				<count>90</count>
 			</li>
 			<li>
 				<filter>
@@ -182,7 +182,7 @@
 						<li>Woody</li>
 					</categories>
 				</filter>
-				<count>50</count>
+				<count>60</count>
 			</li>
 			<li>
 				<filter>
@@ -190,7 +190,7 @@
 						<li>FSX</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>30</count>
 			</li>
 			<li>
 				<filter>
@@ -198,7 +198,7 @@
 						<li>Powder</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>60</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -212,7 +212,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_200Pounder_GreekFire>5</Ammo_200Pounder_GreekFire>
+			<Ammo_200Pounder_GreekFire>18</Ammo_200Pounder_GreekFire>
 		</products>
 	</RecipeDef>
 	

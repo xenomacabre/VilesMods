@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_ChemfuelFromWoodPoplar</defName>
+		<label>make chemfuel from poplar wood</label>
+		<description>Make a batch of chemfuel by extracting and condensing wood gas from logs. Takes 1.2 days to make. Faster and more efficient than other wood species.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Firewood_Poplar</li>
+					</thingDefs>
+				</filter>
+				<count>60</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Firewood_Poplar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Chemfuel>35</Chemfuel>
+		</products>
+		<recipeUsers>
+			<li>BiofuelRefinery</li>
+		</recipeUsers>
+
+		<!-- RecipeDef_UF fields -->
+		<ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>5</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+		<usesTemperature>false</usesTemperature>
+		<processDays>1.2</processDays>
+	</RecipeDef>
+	
+	
+</Defs>

@@ -102,6 +102,8 @@
 				<filter>
 					<categories>
 						<li>MeatRaw</li>
+						<li>EggsUnfertilized</li>
+						<li>EggsFertilized</li>
 					</categories>
 					<thingDefs>
 						<li>Tofu</li>
@@ -111,10 +113,6 @@
 			</li>
 			<li>
 				<filter>
-					<categories>
-						<li>EggsUnfertilized</li>
-						<li>EggsFertilized</li>
-					</categories>
 					<thingDefs>
 						<li>Rawonion</li>
 					</thingDefs>
@@ -130,6 +128,7 @@
 				<li>Pasta</li>
 				<li>Bamboo</li>
 				<li>Tofu</li>
+				<li>Rawonion</li>
 			</thingDefs>
 			<categories>
 				<li>EggsUnfertilized</li>
@@ -146,6 +145,7 @@
 				<li>Pasta</li>
 				<li>Bamboo</li>
 				<li>Tofu</li>
+				<li>Rawonion</li>
 			</thingDefs>
 			<categories>
 				<li>EggsUnfertilized</li>

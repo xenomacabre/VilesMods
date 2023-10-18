@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ <Defs>
+
+	 
+	 <TerrainDef Abstract="True" ParentName="SK_TileStoneBase" Name="SmallBrickVBase">
+		<renderPrecedence>222</renderPrecedence>
+		<description>Verticle smaller bricks laid in an interlocking pattern. Takes slightly longer to make than the regular variety.
+	Beauty: 2.</description>
+		<texturePath>Terrain/Surfaces/SmallBricksV</texturePath>
+		<statBases>
+			<WorkToBuild>600</WorkToBuild>
+			<Beauty>2</Beauty>
+		</statBases>
+		<researchPrerequisites><li>Stone_floor_B2</li></researchPrerequisites>
+		<designationCategory>OutsideFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="SmallBrickVBase">
+		<defName>SBrickSandstoneV</defName>
+		<label>sandstone small bricks (V)</label>
+		<color>(126,104,94)</color>
+		<costList>
+			<BlocksSandstone>4</BlocksSandstone>
+		</costList>
+	</TerrainDef>
+	<TerrainDef ParentName="SmallBrickVBase">
+		<defName>SBrickGraniteV</defName>
+		<label>granite small bricks (V)</label>
+		<color>(105,95,97)</color>
+		<costList>
+			<BlocksGranite>4</BlocksGranite>
+		</costList>
+	</TerrainDef>
+	<TerrainDef ParentName="SmallBrickVBase">
+		<defName>SBrickLimestoneV</defName>
+		<label>limestone small bricks (V)</label>
+		<color>(158,153,135)</color>
+		<costList>
+			<BlocksLimestone>4</BlocksLimestone>
+		</costList>
+	</TerrainDef>
+	<TerrainDef ParentName="SmallBrickVBase">
+		<defName>SBrickSlateV</defName>
+		<label>slate small bricks (V)</label>
+		<color>(70,70,70)</color>
+		<costList>
+			<BlocksSlate>4</BlocksSlate>
+		</costList>
+	</TerrainDef>
+	<TerrainDef ParentName="SmallBrickVBase">
+		<defName>SBrickMarbleV</defName>
+		<label>marble small bricks (V)</label>
+		<color>(132,135,132)</color>
+		<costList>
+			<BlocksMarble>4</BlocksMarble>
+		</costList>
+	</TerrainDef>
+	<TerrainDef ParentName="SmallBrickVBase">
+		<defName>SBrickClayBrickV</defName>
+		<label>clay small bricks (V)</label>
+		<color>(153,87,61)</color>
+		<costList>
+			<ClayBrick>4</ClayBrick>
+		</costList>
+	</TerrainDef>
+	<TerrainDef ParentName="SmallBrickVBase">
+		<defName>SBrickCeramicsV</defName>
+		<label>Ceramic small bricks (V)</label>
+		<color>(255,255,255)</color>
+		<costList>
+			<Ceramics>4</Ceramics>
+		</costList>
+	</TerrainDef>	
+	
+	<TerrainDef ParentName="SmallBrickVBase">
+		<defName>SBrickBasaltV</defName>
+		<label>Basalt small bricks (V)</label>
+		<color>(50,50,50)</color>
+		<costList>
+			<ZF_BlocksBasalt>4</ZF_BlocksBasalt>
+		</costList>
+	</TerrainDef>
+	<TerrainDef ParentName="SmallBrickVBase">
+		<defName>SBrickDuniteV</defName>
+		<label>Dunite small bricks (V)</label>
+		<color>(166,210,121)</color>
+		<costList>
+			<ZF_BlocksDunite>4</ZF_BlocksDunite>
+		</costList>
+	</TerrainDef>
+	<TerrainDef ParentName="SmallBrickVBase">
+		<defName>SBrickPegmatiteV</defName>
+		<label>Pegmatite small bricks (V)</label>
+		<color>(226,174,156)</color>
+		<costList>
+			<ZF_BlocksPegmatite>4</ZF_BlocksPegmatite>
+		</costList>
+	</TerrainDef>
+	<TerrainDef ParentName="SmallBrickVBase">
+		<defName>SBrickAlabasterV</defName>
+		<label>Alabaster small bricks (V)</label>
+		<color>(215,215,215)</color>
+		<costList>
+			<ZF_BlocksAlabaster>4</ZF_BlocksAlabaster>
+		</costList>
+	</TerrainDef>
+
+
+	<TerrainDef Abstract="True" ParentName="SK_TileStoneBase" Name="MediumBrickVBase">
+		<renderPrecedence>220</renderPrecedence>
+		<description>Vertical bricks laid in an interlocking pattern.
+	Beauty: 2.</description>
+		<texturePath>Terrain/Surfaces/BrickFloorV</texturePath>
+		<statBases>
+			<WorkToBuild>600</WorkToBuild>
+			<Beauty>2</Beauty>
+			<CleaningTimeFactor>1</CleaningTimeFactor>
+		</statBases>
+		<researchPrerequisites><li>Stone_floor_B2</li></researchPrerequisites>
+		<designationCategory>OutsideFloors</designationCategory>
+	</TerrainDef>
+
+	<TerrainDef ParentName="MediumBrickVBase">
+		<defName>MBrickSandstoneV</defName>
+		<label>sandstone bricks (V)</label>
+		<color>(126,104,94)</color>
+		<costList>
+			<BlocksSandstone>4</BlocksSandstone>
+		</costList>
+	</TerrainDef>
+	<TerrainDef ParentName="MediumBrickVBase">
+		<defName>MBrickGraniteV</defName>
+		<label>granite bricks (V)</label>
+		<color>(105,95,97)</color>
+		<costList>
+			<BlocksGranite>4</BlocksGranite>
+		</costList>
+	</TerrainDef>
+	<TerrainDef ParentName="MediumBrickVBase">
+		<defName>MBrickLimestoneV</defName>
+		<label>limestone bricks (V)</label>
+		<color>(158,153,135)</color>
+		<costList>
+			<BlocksLimestone>4</BlocksLimestone>
+		</costList>
+	</TerrainDef>
+	<TerrainDef ParentName="MediumBrickVBase">
+		<defName>MBrickSlateV</defName>
+		<label>slate bricks (V)</label>
+		<color>(70,70,70)</color>
+		<costList>
+			<BlocksSlate>4</BlocksSlate>
+		</costList>
+	</TerrainDef>
+	<TerrainDef ParentName="MediumBrickVBase">
+		<defName>MBrickMarbleV</defName>
+		<label>marble bricks (V)</label>
+		<color>(132,135,132)</color>
+		<costList>
+			<BlocksMarble>4</BlocksMarble>
+		</costList>
+	</TerrainDef>
+	<TerrainDef ParentName="MediumBrickVBase">
+		<defName>MBrickClayBrickV</defName>
+		<label>clay bricks (V)</label>
+		<color>(153,87,61)</color>
+		<costList>
+			<ClayBrick>4</ClayBrick>
+		</costList>
+	</TerrainDef>
+	<TerrainDef ParentName="MediumBrickVBase">
+		<defName>MBrickCeramicsV</defName>
+		<label>Ceramic bricks (V)</label>
+		<color>(255,255,255)</color>
+		<costList>
+			<Ceramics>4</Ceramics>
+		</costList>
+	</TerrainDef>
+
+	<TerrainDef ParentName="MediumBrickVBase">
+		<defName>MBrickAlabasterV</defName>
+		<label>Alabaster bricks (V)</label>
+		<color>(215,215,215)</color>
+		<costList>
+			<ZF_BlocksAlabaster>4</ZF_BlocksAlabaster>
+		</costList>
+	</TerrainDef>
+	<TerrainDef ParentName="MediumBrickVBase">
+		<defName>MBrickBasaltV</defName>
+		<label>Basalt bricks (V)</label>
+		<color>(50,50,50)</color>
+		<costList>
+			<ZF_BlocksBasalt>4</ZF_BlocksBasalt>
+		</costList>
+	</TerrainDef>
+	<TerrainDef ParentName="MediumBrickVBase">
+		<defName>MBrickDuniteV</defName>
+		<label>Dunite bricks (V)</label>
+		<color>(166,210,121)</color>
+		<costList>
+			<ZF_BlocksDunite>4</ZF_BlocksDunite>
+		</costList>
+	</TerrainDef>
+	<TerrainDef ParentName="MediumBrickVBase">
+		<defName>MBrickPegmatiteV</defName>
+		<label>Pegmatite bricks (V)</label>
+		<color>(226,174,156)</color>
+		<costList>
+			<ZF_BlocksPegmatite>4</ZF_BlocksPegmatite>
+		</costList>
+	</TerrainDef>
+
+	 
+	 
+	 
+</Defs>

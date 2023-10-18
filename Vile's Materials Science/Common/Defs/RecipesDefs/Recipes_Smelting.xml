@@ -238,6 +238,9 @@
 		<products>
 			<PigIron>30</PigIron>
 		</products>
+		<recipeUsers>
+			<li>TableFurnace</li>
+		</recipeUsers>
 		<skillRequirements>
 			<Crafting>4</Crafting>
 		</skillRequirements>
@@ -509,8 +512,8 @@
 	</RecipeDef>
 	<RecipeDef>
 		<defName>SmeltCassiterite_Industrial</defName>
-		<label>Adv: Cassiterite (25 Sn, 5 Ag)</label>
-		<description>Process cassiterite into Tin and Silver.</description>
+		<label>Adv: Cassiterite (25 Sn, 5 Mn)</label>
+		<description>Process cassiterite into Tin and Manganese.</description>
 		<jobString>Processing cassiterite (Sn, Mn).</jobString>
 		<workAmount>1000</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
@@ -544,9 +547,9 @@
 	</RecipeDef>
 	<RecipeDef>
 		<defName>SmeltCassiterite_HighTech</defName>
-		<label>Spec: Cassiterite (30 Sn, 5 Ag, 5 W)</label>
-		<description>Process cassiterite into Tin, Silver, and Tungsten. Recovers more but takes longer.</description>
-		<jobString>Processing cassiterite (Sn, Ag, W).</jobString>
+		<label>Spec: Cassiterite (30 Sn, 5 Mn, 5 W)</label>
+		<description>Process cassiterite into Tin, Manganese, and Tungsten. Recovers more but takes longer.</description>
+		<jobString>Processing cassiterite (Sn, Mn, W).</jobString>
 		<workAmount>2400</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>

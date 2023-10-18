@@ -24,8 +24,8 @@
 				</graphicData>
 				<statBases>
 					<MarketValue>9</MarketValue>
-					<StuffPower_Armor_Blunt>1.0</StuffPower_Armor_Blunt>
-					<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
+					<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+					<StuffPower_Armor_Sharp>0.5</StuffPower_Armor_Sharp>
 					<BurnDurationHours>2.85</BurnDurationHours>
 					<Mass>1.25</Mass>
 				</statBases>
@@ -53,6 +53,12 @@
 						<Mass>0.41</Mass>
 					</statFactors>
 				</stuffProps>
+					<butcherProducts>
+						<TreeBark MayRequire="vitech.leathertanning">20</TreeBark>
+						<Kindling>20</Kindling>
+						<Seed_Redwood>1</Seed_Redwood>
+					</butcherProducts>
+				
 			</ThingDef>
 		</value>
     </Operation>

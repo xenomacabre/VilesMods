@@ -16,13 +16,18 @@
 			or defName="TFJ_Tool_Mining_Pickaxe"
 			or defName="TFJ_Tool_Building_Hammer"
 			or defName="TFJ_Tool_Sickle"
-			or defName="TFJ_Tool_Broom"
 			or defName="TFJ_Tool_Hoe"
 			or defName="TFJ_Tool_Multitool"
 			or defName="MeleeWeapon_Monkeywrench"
 			or defName="MeleeWeapon_Sledgehammer"]/statBases/ToolEffectivenessFactor</xpath>
 			<value>
    				 <ToolEffectivenessFactor>2.5</ToolEffectivenessFactor>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="TFJ_Tool_Broom"]/statBases/ToolEffectivenessFactor</xpath>
+			<value>
+   				 <ToolEffectivenessFactor>4</ToolEffectivenessFactor>
 			</value>
 		</li>
 		

@@ -24,6 +24,10 @@
 	 <StuffAppearanceDef>
     <defName>Smooth</defName>
   	</StuffAppearanceDef>
+
+		 <StuffAppearanceDef>
+    <defName>Agg</defName>
+  	</StuffAppearanceDef>
 	 
 	
 	

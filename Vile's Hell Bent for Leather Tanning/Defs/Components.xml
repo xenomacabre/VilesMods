@@ -179,7 +179,7 @@
 			<li>HardLeathers</li> <!--  -->
 		</thingCategories>
 		<stuffProps>
-			<stuffAdjective>Boiled Leather</stuffAdjective>
+			<stuffAdjective>boiled leather</stuffAdjective>
 			<!--<appearance>Metal</appearance>-->
 			<categories>
 				<li>LeatheryHard</li>

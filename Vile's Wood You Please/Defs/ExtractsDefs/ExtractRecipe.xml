@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+		<RecipeDef Name="ExtractLogsBase" Abstract="True">
+		<jobString>Extracting seeds and materials from wood.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_MakeBow</soundWorking>
+		<workAmount>1600</workAmount>
+		<recipeUsers>
+			<li>TableSawmillHand</li>
+		</recipeUsers>
+        <workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.3</workSkillLearnFactor>		
+		<researchPrerequisite>Craft_0</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="ExtractLogsBase">
+		<defName>Extract_SeedsLog</defName>
+		<label>extract tree seeds and materials</label>
+		<description>Extracts seeds from logs. Also yields bark and kindling, and some species yield pitch, sap, or medicinal materials.</description>
+		<!--<workerCounterClass>RecipeWorkerCounter_MakeStoneBlocks</workerCounterClass>-->
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Softwoods</li>
+						<li>Hardwoods</li>
+						<li>Ultrahardwoods</li>
+					</categories>
+					<thingDefs>
+					<li>Firewood_Spruce</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<specialProducts>
+			<li>Butchery</li>
+		</specialProducts>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Softwoods</li>
+				<li>Hardwoods</li>
+				<li>Ultrahardwoods</li>
+			</categories>
+			<thingDefs>
+				<li>Firewood_Spruce</li>
+			</thingDefs>
+			<disallowedThingDefs>
+				<li>Bamboo</li>
+			</disallowedThingDefs>
+		</fixedIngredientFilter>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.3</workSkillLearnFactor>
+	</RecipeDef>
+	
+</Defs>

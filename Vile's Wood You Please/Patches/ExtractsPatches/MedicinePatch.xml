@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeHerbmedicine"]/ingredients</xpath> 
+		<value>
+			<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+						<li>Medicine_DragonsBlood</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Bandagekit</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeHerbmedicine"]/fixedIngredientFilter</xpath> 
+		<value>
+			<fixedIngredientFilter>
+				<thingDefs>
+					<li>aloe</li>
+					<li>Bandagekit</li>
+					<li>Medicine_DragonsBlood</li>
+				</thingDefs>
+			</fixedIngredientFilter>
+		</value>
+	</Operation>
+	
+	
+</Patch>

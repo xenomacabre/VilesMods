@@ -91,7 +91,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Nickel</li>
+						<li>NickelBar</li>
 					</thingDefs>
 				</filter>
 				<count>3</count>
@@ -117,7 +117,7 @@
 			<thingDefs>
 						<li>PigIron</li>
 						<li>Cobalt</li>
-						<li>Nickel</li>
+						<li>NickelBar</li>
 						<li>Chromium</li>
 						<li>Molybdenum</li>
 			</thingDefs>
@@ -154,7 +154,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Nickel</li>
+						<li>NickelBar</li>
 					</thingDefs>
 				</filter>
 				<count>8</count>
@@ -179,7 +179,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>PigIron</li>
-				<li>Nickel</li>
+				<li>NickelBar</li>
 				<li>Chromium</li>
 				<li>Molybdenum</li>
 			</thingDefs>
@@ -240,8 +240,8 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>PigIron</li>
-				<li>Nickel</li>
+				<li>Cobalt</li>
+				<li>Tungsten</li>
 				<li>Chromium</li>
 				<li>Molybdenum</li>
 			</thingDefs>
@@ -270,7 +270,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Nickel</li>
+						<li>NickelBar</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -302,10 +302,10 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>PigIron</li>
-				<li>Nickel</li>
+				<li>NickelBar</li>
 				<li>Chromium</li>
-				<li>Molybdenum</li>
+				<li>Titanium</li>
+				<li>AluminiumBar</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -535,7 +535,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Nickel</li>
+						<li>NickelBar</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -552,7 +552,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Titanium</li>
-				<li>Nickel</li>
+				<li>NickelBar</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
