@@ -81,6 +81,7 @@
     <Compile Include="Comps\HediffComps\SeverityFromSkill\HediffCompProperties_SeverityFromSkill.cs" />
     <Compile Include="Comps\HediffComps\SeverityFromSkill\HediffComp_SeverityFromSkill.cs" />
     <Compile Include="DefOf\CF_StatDefOf.cs" />
+    <Compile Include="Harmony patches\AutoLinks.cs" />
     <Compile Include="Harmony patches\CompFacility.cs" />
     <Compile Include="Harmony patches\OutputWorkerPatch.cs" />
     <Compile Include="OutputWorker\OutputWorker.cs" />
