@@ -351,7 +351,7 @@ Seasoned burn rate: 1.7 hrs</description>
 		<butcherProducts>
 			<TreeBark MayRequire="vitech.leathertanning">5</TreeBark>
 			<Kindling>10</Kindling>
-			<Seed_Spruce>1</Seed_Spruce>
+			<Seed_Spruce MayRequire="xenomacabre.HSKBiomes">1</Seed_Spruce>
 		</butcherProducts>
 </ThingDef>
 	<ThingDef ParentName="FirewoodSeasonedBase">

@@ -14,7 +14,6 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Seed_Acacia</li>
 						<li>Seed_TreeOak</li>
 					</thingDefs>
 				</filter>
@@ -23,7 +22,6 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Seed_Acacia</li>
 				<li>Seed_TreeOak</li>
 			</thingDefs>
 			<specialFiltersToDisallow>
