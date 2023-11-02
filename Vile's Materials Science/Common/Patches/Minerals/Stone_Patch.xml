@@ -181,6 +181,33 @@ Work to build: Very difficult</description>
     </value>
 </li>   
 
+<li Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BlocksMarble"]/stuffProps/statOffsets</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BlocksMarble"]/stuffProps</xpath>
+		<value>
+			<statOffsets>
+				<Beauty>3.0</Beauty>
+			</statOffsets>
+		</value>
+	</nomatch>
+	<match Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="BlocksMarble"]/stuffProps/statOffsets/Beauty</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="BlocksMarble"]/stuffProps/statOffsets</xpath>
+			<value>
+				<Beauty>3.0</Beauty>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="BlocksMarble"]/stuffProps/statOffsets/Beauty</xpath>
+			<value>
+				<Beauty>3.0</Beauty>
+			</value>
+		</match>
+	</match>
+</li>
+
 <li Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="BlocksMarble"]/stuffProps</xpath>
     <value>
