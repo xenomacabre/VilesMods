@@ -207,16 +207,7 @@ Work to build: Very difficult</description>
 		</match>
 	</match>
 </li>
-
-<li Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="BlocksMarble"]/stuffProps</xpath>
-    <value>
-			<statOffsets>
-				<Beauty>3.0</Beauty>
-			</statOffsets>
-    </value>
-</li>   
-            
+ 
 <li Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="BlocksSandstone"]/description</xpath>
     <value>
