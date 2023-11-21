@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Patch>
+<Patch>	<!--
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/StatDef[defName="CookSpeed"]/minValue</xpath>
 		<value>
 			<minValue>0</minValue>
 		</value>
 	</Operation>
+
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<li Class="PatchOperationTest">
@@ -79,7 +80,7 @@
 			</li>
 		</operations>
 	</Operation>
-
+-->
 	<Operation Class="PatchOperationSequence">
 		<operations>
 			<li Class="PatchOperationTest">
