@@ -8,8 +8,8 @@
 	<match Class="PatchOperationSequence">
 		<operations>
 		<li Class="PatchOperationReplace">
-			<xpath>Defs/ThingDef[defName="MeleeWeapon_Schiv"
-			or defName="MeleeWeapon_Dagger"
+			<xpath>Defs/ThingDef[<!--defName="MeleeWeapon_Schiv"
+			or -->defName="MeleeWeapon_Dagger"
 			or defName="MeleeWeapon_Cleaver"
 			or defName="MeleeWeapon_Knife"
 			or defName="TFJ_Tool_Woodcutting_Handaxe"
