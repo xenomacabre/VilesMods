@@ -644,7 +644,7 @@
 		<butcherProducts>
 			<TreeBark MayRequire="vitech.leathertanning">20</TreeBark>
 			<Kindling>20</Kindling>
-			<Seed_Acacia>1</Seed_Acacia>
+			<Seed_Acacia MayRequire="xenomacabre.HSKBiomes">1</Seed_Acacia>
 		</butcherProducts>
 	</ThingDef>	
 	

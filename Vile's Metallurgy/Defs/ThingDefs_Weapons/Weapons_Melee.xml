@@ -73,9 +73,12 @@
 					<CookSpeed>1.3</CookSpeed>
 					<ButcheryFleshSpeed>1.2</ButcheryFleshSpeed>
 					<ButcheryFleshEfficiency>1</ButcheryFleshEfficiency>
+					<MedicalOperationSpeed>0.9</MedicalOperationSpeed>
+					<MedicalSurgerySuccessChance>0.85</MedicalSurgerySuccessChance>
 				</baseWorkStatFactors>
 				<defaultSurvivalToolAssignmentTags>
 					<li>Cook</li>
+					<li>Tend</li>
 				</defaultSurvivalToolAssignmentTags>
 			</li>
 		</modExtensions>

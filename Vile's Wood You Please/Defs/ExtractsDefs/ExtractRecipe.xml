@@ -18,7 +18,7 @@
 		<defName>Extract_SeedsLog</defName>
 		<label>extract tree seeds and materials</label>
 		<description>Extracts seeds from logs. Also yields bark and kindling, and some species yield pitch, sap, or medicinal materials.</description>
-		<!--<workerCounterClass>RecipeWorkerCounter_MakeStoneBlocks</workerCounterClass>-->
+		<workerCounterClass>ImprovedWorkbenches.RecipeWorkerCounter_MultipleButcherProducts</workerCounterClass>
 		<ingredients>
 			<li>
 				<filter>
