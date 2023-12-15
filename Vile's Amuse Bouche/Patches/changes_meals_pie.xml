@@ -215,6 +215,8 @@
 								<thingDefs>
 									<li>RawShimmershroom</li>
 									<li>RawGlowbulb</li>
+									<li>RawFungus</li>
+									<li>Rawmushroom</li>
 								</thingDefs>
 							</filter>
 							<count>0.45</count>
@@ -232,6 +234,8 @@
 								<thingDefs>
 									<li>RawShimmershroom</li>
 									<li>RawGlowbulb</li>
+									<li>RawFungus</li>
+									<li>Rawmushroom</li>
 								</thingDefs>
 							</fixedIngredientFilter>
 						</value>
@@ -246,6 +250,8 @@
 								<thingDefs>
 									<li>RawShimmershroom</li>
 									<li>RawGlowbulb</li>
+									<li>RawFungus</li>
+									<li>Rawmushroom</li>
 								</thingDefs>
 							</defaultIngredientFilter>
 						</value>

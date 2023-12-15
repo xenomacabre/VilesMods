@@ -18,7 +18,7 @@
           <li>AllWork</li>
         </workTags>
          <visible>false</visible>
-      </WorkTypeDef>
+    </WorkTypeDef>
     
     <WorkTypeDef>
         <defName>Processing</defName>
@@ -54,6 +54,6 @@
           <li>Commoner</li>
           <li>AllWork</li>
         </workTags>
-      </WorkTypeDef>   
+    </WorkTypeDef>   
     
 </Defs>
