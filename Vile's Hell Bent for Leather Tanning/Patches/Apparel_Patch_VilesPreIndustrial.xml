@@ -148,6 +148,13 @@
 				</value>
 			</li>
 			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName="BuildPavise"]/fixedIngredientFilter/categories</xpath>
+				<value>
+					<li>HardLeathers</li>
+				</value>
+			</li>
+			
 			<!-- LEATHER STIP STUFF -->
 			
 				<li Class="PatchOperationReplace">
