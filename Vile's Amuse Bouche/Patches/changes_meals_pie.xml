@@ -211,11 +211,8 @@
 							<filter>
 								<categories>
 									<li>BasicPlantFoodRaw</li>
+									<li>FungusPlantRaw</li>
 								</categories>
-								<thingDefs>
-									<li>RawShimmershroom</li>
-									<li>RawGlowbulb</li>
-								</thingDefs>
 							</filter>
 							<count>0.45</count>
 						</li>
@@ -228,11 +225,8 @@
 							<fixedIngredientFilter>
 								<categories>
 									<li>BasicPlantFoodRaw</li>
+									<li>FungusPlantRaw</li>
 								</categories>
-								<thingDefs>
-									<li>RawShimmershroom</li>
-									<li>RawGlowbulb</li>
-								</thingDefs>
 							</fixedIngredientFilter>
 						</value>
         			</li>
@@ -242,11 +236,8 @@
 							<defaultIngredientFilter>
 								<categories>
 									<li>BasicPlantFoodRaw</li>
+									<li>FungusPlantRaw</li>
 								</categories>
-								<thingDefs>
-									<li>RawShimmershroom</li>
-									<li>RawGlowbulb</li>
-								</thingDefs>
 							</defaultIngredientFilter>
 						</value>
         			</li>

@@ -29,7 +29,7 @@
 
 <!--BedRestEffectiveness Settings-->
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName = "HayBed" or defName="HayBedDouble"]/stuffCategories</xpath>
+		<xpath>Defs/ThingDef[defName = "HayBed" or defName="HayBedDouble"]/stuffCategories</xpath>
 		<value>
 			<stuffCategories>
 				<li>WoodLogs</li>
@@ -39,26 +39,47 @@
 	</Operation>
 
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>[JPT] Soft Warm Beds HSK</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[JPT] Soft Warm Beds HSK</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
 
-			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName = "HayBed" or defName="HayBedDouble"]/statBases/BedRestEffectiveness</xpath>
-					<value>
-						<BedRestEffectiveness>0.55</BedRestEffectiveness>
-					</value>
-			</li>
-			<li Class="PatchOperationReplace">
-			  <xpath>Defs/ThingDef[defName="HayBed" or defName="HayBedDouble"]/statBases/ImmunityGainSpeedFactor</xpath>
-			  <value>
-				<ImmunityGainSpeedFactor>0.25</ImmunityGainSpeedFactor>
-			  </value>
-			</li>
-		</operations>
-	</match>
- </Operation>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "HayBed" or defName="HayBedDouble"]/statBases/BedRestEffectiveness</xpath>
+						<value>
+							<BedRestEffectiveness>0.55</BedRestEffectiveness>
+						</value>
+				</li>
+				<li Class="PatchOperationReplace">
+				  <xpath>Defs/ThingDef[defName="HayBed" or defName="HayBedDouble"]/statBases/ImmunityGainSpeedFactor</xpath>
+				  <value>
+					<ImmunityGainSpeedFactor>0.25</ImmunityGainSpeedFactor>
+				  </value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+ 
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>MineralsCraft_SK</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "ChoppingBlock"]/costList</xpath>
+						<value>
+							<costList>
+								<MeleeWeapon_TribalAxe>1</MeleeWeapon_TribalAxe>
+							</costList>
+						</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+ 
 </Patch>

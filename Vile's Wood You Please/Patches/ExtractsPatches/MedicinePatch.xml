@@ -30,7 +30,7 @@
 		<value>
 			<fixedIngredientFilter>
 				<thingDefs>
-					<li>aloe</li>
+					<li>MedicineHerbal</li>
 					<li>Bandagekit</li>
 					<li>Medicine_DragonsBlood</li>
 				</thingDefs>
