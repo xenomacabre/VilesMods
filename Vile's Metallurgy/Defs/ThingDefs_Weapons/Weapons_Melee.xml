@@ -70,8 +70,8 @@
 			</li> -->
 			<li Class="SurvivalToolsLite.SurvivalToolProperties">
 				<baseWorkStatFactors>
-					<CookSpeed>1.3</CookSpeed>
-					<ButcheryFleshSpeed>1.2</ButcheryFleshSpeed>
+					<CookSpeed>1.35</CookSpeed>
+					<ButcheryFleshSpeed>1.25</ButcheryFleshSpeed>
 					<ButcheryFleshEfficiency>1</ButcheryFleshEfficiency>
 					<MedicalOperationSpeed>0.9</MedicalOperationSpeed>
 					<MedicalSurgerySuccessChance>0.85</MedicalSurgerySuccessChance>
@@ -178,7 +178,7 @@
 			<WootzSteel>50</WootzSteel>
 		</costList>
 		<statBases>
-			<WorkToMake>8000</WorkToMake>
+			<WorkToMake>7500</WorkToMake>
 			<Bulk>6</Bulk>
 			<Mass>2.2</Mass>
 			<MeleeCounterParryBonus>1.1</MeleeCounterParryBonus>
@@ -206,7 +206,7 @@
 					<li>Stab</li>
 				</capacities>
 				<power>16</power>
-				<cooldownTime>1.65</cooldownTime>
+				<cooldownTime>1.4</cooldownTime>
 				<armorPenetrationBlunt>1.2</armorPenetrationBlunt>
 				<armorPenetrationSharp>5.0</armorPenetrationSharp>
 				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
@@ -216,8 +216,8 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>21</power>
-				<cooldownTime>1.8</cooldownTime>
+				<power>18</power>
+				<cooldownTime>2.0</cooldownTime>
 				<chanceFactor>1.33</chanceFactor>
 				<armorPenetrationBlunt>6.0</armorPenetrationBlunt>
 				<armorPenetrationSharp>3.1</armorPenetrationSharp>
@@ -251,7 +251,7 @@
 			<WootzSteel>40</WootzSteel>
 		</costList>
 		<statBases>
-			<WorkToMake>8000</WorkToMake>
+			<WorkToMake>7500</WorkToMake>
 			<Bulk>6</Bulk>
 			<Mass>3</Mass>
 			<MeleeCounterParryBonus>1.0</MeleeCounterParryBonus>
@@ -296,9 +296,9 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>17.5</power>
+				<power>17</power>
 				<cooldownTime>1.5</cooldownTime>
-				<armorPenetrationBlunt>2.8</armorPenetrationBlunt>
+				<armorPenetrationBlunt>3</armorPenetrationBlunt>
 				<armorPenetrationSharp>3</armorPenetrationSharp>
 				<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
 			</li>

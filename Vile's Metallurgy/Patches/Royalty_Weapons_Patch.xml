@@ -10,7 +10,28 @@
 		<Operation Class="PatchOperationReplace">
 			<xpath>Defs/ThingDef[defName="MeleeWeapon_Warhammer"]/description</xpath>
 			<value>			
-				<description>A type of polarm / warhammer with a sharp spike for penetrating armor and a hammer for causing concussions. Very effective against armor, but doesn't inflict the most deadly wounds.</description>
+				<description>TYPE: 2H Offensive Anti-Armor
+TIER: Late Medieval
+++ Good penetration
+- Poor lethality
+- Poor defense
+				
+A type of polarm / warhammer with a sharp spike for penetrating armor and a hammer for causing concussions. Very effective against armor, but doesn't inflict the most deadly wounds.</description>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="MeleeWeapon_Warhammer"]/costStuffCount</xpath>
+			<value>			
+				<costStuffCount>50</costStuffCount>
+			</value>
+		</Operation>
+		<Operation Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="MeleeWeapon_Warhammer"]</xpath>
+			<value>			
+				<costList>
+					<ComponentMedieval>7</ComponentMedieval>
+					<WoodLog>20</WoodLog>
+				</costList>
 			</value>
 		</Operation>
 		
@@ -34,11 +55,11 @@
 					<capacities>
 						<li>Stab</li>
 					</capacities>
-					<power>15</power>
-					<cooldownTime>2</cooldownTime>
-					<chanceFactor>0.33</chanceFactor>
+					<power>14</power>
+					<cooldownTime>1.6</cooldownTime>
+					<chanceFactor>0.75</chanceFactor>
 					<armorPenetrationBlunt>4</armorPenetrationBlunt>
-					<armorPenetrationSharp>8</armorPenetrationSharp>
+					<armorPenetrationSharp>4.5</armorPenetrationSharp>
 					<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
 				</li>
 				<li Class="CombatExtended.ToolCE">
@@ -46,11 +67,11 @@
 					<capacities>
 						<li>Stab</li>
 					</capacities>
-					<power>10</power>
+					<power>12</power>
 					<cooldownTime>1.8</cooldownTime>
 					<chanceFactor>1</chanceFactor>
-					<armorPenetrationBlunt>2.8</armorPenetrationBlunt>
-					<armorPenetrationSharp>8</armorPenetrationSharp>
+					<armorPenetrationBlunt>8</armorPenetrationBlunt>
+					<armorPenetrationSharp>6</armorPenetrationSharp>
 					<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
 				</li>
 				<li Class="CombatExtended.ToolCE">
@@ -58,8 +79,8 @@
 					<capacities>
 						<li>Blunt</li>
 					</capacities>
-					<power>10</power>
-					<cooldownTime>2.1</cooldownTime>
+					<power>17</power>
+					<cooldownTime>1.8</cooldownTime>
 					<chanceFactor>1</chanceFactor>
 					<armorPenetrationBlunt>12</armorPenetrationBlunt>
 					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
@@ -72,7 +93,7 @@
 		<xpath>Defs/ThingDef[defName="MeleeWeapon_Warhammer"]/statBases</xpath>
 		<value>
 			<statBases>
-				<WorkToMake>8000</WorkToMake>
+				<WorkToMake>8100</WorkToMake>
 				<Bulk>8</Bulk>
 				<Mass>3</Mass>
 				<MeleeCounterParryBonus>1.0</MeleeCounterParryBonus>
@@ -128,7 +149,14 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="MeleeWeapon_Axe"]/description</xpath>
 		<value>			
-			<description>A two-handed staff made of hardwood and with metal tips. It's not the deadliest weapon, but it's easy to use and dodge with and a skilled user can knock an oppenent down. Often a practice weapon.</description>
+			<description>TYPE: 2H Defensive Blunt
+TIER: Early Medieval
+++ Very High stun chance
++ Easy to use / quick
+- No armor penetration
+- Very low lethality (this can be a feature)
+
+A two-handed staff made of hardwood and with metal tips. It's not the deadliest weapon, but it's easy to use and dodge with and a skilled user can knock an oppenent down. Often a practice weapon.</description>
 		</value>
 	</Operation>
 		
@@ -152,7 +180,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>7</power>
+				<power>12</power>
 				<cooldownTime>1.3</cooldownTime>
 				<chanceFactor>1.33</chanceFactor>
 				<armorPenetrationBlunt>5</armorPenetrationBlunt>
@@ -166,7 +194,7 @@
 		<xpath>Defs/ThingDef[defName="MeleeWeapon_Axe"]/statBases</xpath>
 		<value>
 			<statBases>
-				<WorkToMake>6000</WorkToMake>
+				<WorkToMake>4800</WorkToMake>
 				<Bulk>7</Bulk>
 				<Mass>3</Mass>
 				<MeleeCounterParryBonus>1.8</MeleeCounterParryBonus>

@@ -60,7 +60,12 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_KirinHide"]/description</xpath>
 				<value>
-					<description>By saturating heavy leather which comes from kirins and similar creatures with draconic glycerides, the leather becomes incredibly insulated, and with qualities that exceed all other standard leather grades. It is, however not great in hot climates, and may be better utilized for bedding.</description>
+					<description>TIER 3 - Industrial
+>>> Optimal	Winter
+>> Suitable	Bedding
+X Inadvisable 	Summer
+
+By saturating heavy leather which comes from kirins and similar creatures with draconic glycerides, the leather becomes incredibly insulated, and with qualities that exceed all other standard leather grades. It is, however not great in hot climates, and may be better utilized for bedding.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -162,7 +167,12 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_FireDragonskin"]/description</xpath>
 				<value>
-					<description>By saturating the breathable leathers (such as from a feenix) with draconic glycerides, the leather becomes very insulated, and with qualities that exceed all other standard leather grades. It fares well in both cold climates and extremely hot ones.</description>
+					<description>TIER 3 - Industrial
+>>> Optimal	Summer
+>> Suitable	Armor
+X Inadvisable 	Winter
+
+By saturating the breathable leathers (such as from a feenix) with draconic glycerides, the leather becomes very insulated, and with qualities that exceed all other standard leather grades. It fares well in both cold climates and extremely hot ones.</description>
 				</value>
 			</li>
 
@@ -257,7 +267,12 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Thrumbo"]/description</xpath>
 				<value>
-					<description>By reinforcing heavy furs with the guard hairs from the barghest or thrumbo, the defensive qualities of the fur becomes unmatched, with qualities that exceed all other standard leather grades.</description>
+					<description>TIER 3 - Industrial
+>>> Optimal	Armor
+>> Suitable	Durability
+X Inadvisable 	Summer
+
+By reinforcing heavy furs with the guard hairs from the barghest or thrumbo, the defensive qualities of the fur becomes unmatched, with qualities that exceed all other standard leather grades.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -350,7 +365,12 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_FeatheredRaptorLeather"]/description</xpath>
 				<value>
-					<description>By processing sterile leathers with talon aether extracted from the behir and raptor, the leather better repels bacteria, and has other qualities that exceed all other standard leather grades.</description>
+					<description>TIER 3 - Industrial
+>>> Optimal	Hospitals
+>> Suitable	All-Season, Durability
+X Inadvisable 	Production
+
+By processing sterile leathers with talon aether extracted from the behir and raptor, the leather better repels bacteria, and has other qualities that exceed all other standard leather grades.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">

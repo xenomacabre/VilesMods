@@ -67,7 +67,12 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Fox"]/description</xpath>
 				<value>
-				<description>Top-grain leather is the upper, quality part of the hide after being split. Surface imperfections are sanded off to provide more useable material and less waste. It's embossed and dyed to make it more authentic.</description>				</value>
+				<description>TIER 2 - Medieval
+>>> Optimal	Production
+>> Suitable	Winter
+X Inadvisable 	Bedding
+
+Top-grain leather is the upper, quality part of the hide after being split. Surface imperfections are sanded off to provide more useable material and less waste. It's embossed and dyed to make it more authentic.</description>				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Fox"]/stuffProps/commonality</xpath>
@@ -213,7 +218,12 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_BarghestFur"]/description</xpath>
 				<value>
-					<description>Nubuck is a top-grain leather where the surface grain is sanded off. Unlike other corrected-grain leathers, nubuck is left with a smooth, sanded surface, though it may be dyed. The surface is similar to suede, though smoother, stronger, and indesputibly of higher quality. Because the surface is not embossed or coated, the leather breathes exceptionably well.</description>
+					<description>TIER 2 - Medieval
+>>> Optimal	Bedding
+>> Suitable	Summer
+X Inadvisable 	Armor
+
+Nubuck is a top-grain leather where the surface grain is sanded off. Unlike other corrected-grain leathers, nubuck is left with a smooth, sanded surface, though it may be dyed. The surface is similar to suede, though smoother, stronger, and indesputibly of higher quality. Because the surface is not embossed or coated, the leather breathes exceptionably well.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -344,7 +354,12 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Chinchilla"]/description</xpath>
 				<value>
-					<description>When a hide is split during the tanning process, the cheaper, inner flesh side of the split, if uncoated, it suede. Suede breathes incredibly well since it doesn't contain the strong, thick part of the hide, and it can be quite fashionable, however, it tears easily and offers very little protection.</description>
+					<description>TIER 2 - Medieval
+>>> Optimal	Summer
+>> Suitable	Beauty
+X Inadvisable 	Durability, Armor
+
+When a hide is split during the tanning process, the cheaper, inner flesh side of the split, if uncoated, it suede. Suede breathes incredibly well since it doesn't contain the strong, thick part of the hide, and it can be quite fashionable, however, it tears easily and offers very little protection.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -478,7 +493,12 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Bird"]/description</xpath>
 				<value>
-					<description>Don't let the name fool you - the "genuine" means that it's not not leather. I.e. it's technically leather. Hooray. It's what you get when you take leftovers after splitting top-grain (suede), dying it, and pressing a pattern on it to seal it and make it look like leather grain. It's stronger and warmer than suede, but bested by all other types of leather, except bonded leather. It's highly economical, but still useful for clothing and furniture.</description>
+					<description>TIER 2 - Medieval
+>>> Optimal	Economy
+>> Suitable	Winter
+X Inadvisable 	Summer
+
+Don't let the name fool you - the "genuine" means that it's not not leather. I.e. it's technically leather. Hooray. It's what you get when you take leftovers after splitting top-grain (suede), dying it, and pressing a pattern on it to seal it and make it look like leather grain. It's stronger and warmer than suede, but bested by all other types of leather, except bonded leather. It's highly economical, but still useful for clothing and furniture.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -607,7 +627,12 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Patch"]/description</xpath>
 				<value>
-					<description>Bonded leather is made by combining leftover scraps of leather. It holds together slightly better than suede, but it is inferior in every other aspect.</description>
+					<description>TIER 2 - Medieval
+>>> Optimal	Economy
+>> Suitable	Winter
+X Inadvisable 	Summer, Armor
+
+Bonded leather is made by combining leftover scraps of leather. It holds together slightly better than suede, but it is inferior in every other aspect.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">

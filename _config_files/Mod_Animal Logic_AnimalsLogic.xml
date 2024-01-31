@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="AnimalsLogic.Settings">
+		<shear_corpses>False</shear_corpses>
+	</ModSettings>
+</SettingsBlock>

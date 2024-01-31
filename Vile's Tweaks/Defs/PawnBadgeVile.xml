@@ -1,38 +1,291 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  	<RR_PawnBadge.BadgeDef>
-		<defName>Building</defName>
-		<label>Building</label>
-		<description>Building</description>
-		<icon>PawnBadge/Skill/Building</icon>
+
+<!-- Firefight -->
+	<RR_PawnBadge.BadgeDef>
+		<defName>Skill_Firefight</defName>
+		<label>Firefight</label>
+		<description>Skill - Firefight</description>
+		<icon>PawnBadge/Skill/Firefight</icon>
+		<fromBaseMod>True</fromBaseMod>
 	</RR_PawnBadge.BadgeDef>
-  	<RR_PawnBadge.BadgeDef>
-		<defName>Harvest</defName>
-		<label>Harvest</label>
-		<description>Harvest</description>
-		<icon>PawnBadge/Skill/Harvest</icon>
+<!-- Medicine -->
+	<RR_PawnBadge.BadgeDef>
+		<defName>Skill_Medicine</defName>
+		<label>Emergency Treatment</label>
+		<description>Emergency Treatment</description>
+		<icon>PawnBadge/Skill/Medicine</icon>
+		<fromBaseMod>True</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>Skill_Nurse</defName>
+		<label>Nurse / Attendant</label>
+		<description>Nurse / Attendant</description>
+		<icon>PawnBadge/Skill/Nurse</icon>
+		<fromBaseMod>True</fromBaseMod>
 	</RR_PawnBadge.BadgeDef>
 
+<!-- SOCIAL -->
+	<RR_PawnBadge.BadgeDef>
+			<defName>Skill_Social</defName>
+			<label>Therapist</label>
+			<description>Skill - Therapist</description>
+			<icon>PawnBadge/Skill/Therapist</icon>
+			<fromBaseMod>True</fromBaseMod>
+		</RR_PawnBadge.BadgeDef>
+		<RR_PawnBadge.BadgeDef>
+			<defName>Skill_Trade</defName>
+			<label>Trade</label>
+			<description>Skill - Trade</description>
+			<icon>PawnBadge/Skill/Trade</icon>
+			<fromBaseMod>True</fromBaseMod>
+		</RR_PawnBadge.BadgeDef>
+<!-- BASIC-->
+<RR_PawnBadge.BadgeDef>
+			<defName>Skill_Refuel</defName>
+			<label>Refuel</label>
+			<description>Refuel</description>
+			<icon>PawnBadge/Skill/Refuel</icon>
+			<fromBaseMod>True</fromBaseMod>
+		</RR_PawnBadge.BadgeDef>
+	<!-- PRISON -->
+	<RR_PawnBadge.BadgeDef>
+			<defName>Skill_Warden</defName>
+			<label>Warden</label>
+			<description>Skill - Warden</description>
+			<icon>PawnBadge/Skill/PrisonWarden</icon>
+			<fromBaseMod>True</fromBaseMod>
+		</RR_PawnBadge.BadgeDef>
+		<RR_PawnBadge.BadgeDef>
+			<defName>Skill_PrisonService</defName>
+			<label>Prison Service</label>
+			<description>Skill - Prison Service</description>
+			<icon>PawnBadge/Skill/PrisonService</icon>
+			<fromBaseMod>True</fromBaseMod>
+		</RR_PawnBadge.BadgeDef>
+<!-- ANIMAL -->
+	<RR_PawnBadge.BadgeDef>
+		<defName>Skill_Animal</defName>
+		<label>Animal</label>
+		<description>Skill - Animal</description>
+		<icon>PawnBadge/Skill/Animal</icon>
+		<fromBaseMod>True</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>Skill_AnimalTrainer</defName>
+		<label>Animal Trianer</label>
+		<description>Skill -  Trainer</description>
+		<icon>PawnBadge/Skill/AnimalTrainer</icon>
+		<fromBaseMod>True</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+
+	<!-- Cooking -->
+	<RR_PawnBadge.BadgeDef>
+		<defName>Skill_Cooking</defName>
+		<label>Cooking</label>
+		<description>Cooking</description>
+		<icon>PawnBadge/Skill/Cooking</icon>
+		<fromBaseMod>True</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>Skill_Baking</defName>
+		<label>Baking</label>
+		<description>Baking</description>
+		<icon>PawnBadge/Skill/Baking</icon>
+		<fromBaseMod>True</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>Skill_Butchering</defName>
+		<label>Butchering</label>
+		<description>Butchering</description>
+		<icon>PawnBadge/Skill/Butchering</icon>
+		<fromBaseMod>True</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>Skill_Brewing</defName>
+		<label>Brewing</label>
+		<description>Brewing</description>
+		<icon>PawnBadge/Skill/Brewing</icon>
+		<fromBaseMod>True</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	<!-- HUNTING-->
+
+	<RR_PawnBadge.BadgeDef>
+		<defName>Skill_Shooting</defName>
+		<label>Hunting</label>
+		<description>Skill - Hunting</description>
+		<icon>PawnBadge/Skill/Hunting</icon>
+		<fromBaseMod>True</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>Skill_Fishing</defName>
+		<label>Fishing</label>
+		<description>Skill - Fishing</description>
+		<icon>PawnBadge/Skill/Fishing</icon>
+		<fromBaseMod>True</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
+	<!-- Melee -->
+	<RR_PawnBadge.BadgeDef>
+		<defName>Skill_Melee</defName>
+		<label>Melee</label>
+		<description>Skill - Melee</description>
+		<icon>PawnBadge/Skill/Melee</icon>
+		<fromBaseMod>True</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	<!-- Construction --> 
+	<RR_PawnBadge.BadgeDef>
+		<defName>Skill_Construction</defName>
+		<label>Construction Haul</label>
+		<description>Construction Hauling</description>
+		<icon>PawnBadge/Skill/BuildingHaul</icon>
+		<fromBaseMod>True</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+		<RR_PawnBadge.BadgeDef>
+		<defName>Building</defName>
+		<label>Construction</label>
+		<description>Construction</description>
+		<icon>PawnBadge/Skill/Building</icon>
+	</RR_PawnBadge.BadgeDef>
+
+	<!-- FARMING-->
+
+  	<RR_PawnBadge.BadgeDef>
+		<defName>Harvest</defName>
+		<label>Harvesting</label>
+		<description>Harvesting</description>
+		<icon>PawnBadge/Skill/Harvest</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>Skill_Plant</defName>
+		<label>Sowing</label>
+		<description>Sowing</description>
+		<icon>PawnBadge/Skill/Plant</icon>
+		<fromBaseMod>True</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+<!-- Mining -->
+<RR_PawnBadge.BadgeDef>
+		<defName>Skill_Mining</defName>
+		<label>Mining</label>
+		<description>Skill - Mining</description>
+		<icon>PawnBadge/Skill/Mining</icon>
+		<fromBaseMod>True</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+<!-- Plant Cutting-->
 	<RR_PawnBadge.BadgeDef>
 		<defName>Timber</defName>
 		<label>Timber</label>
 		<description>Timber</description>
 		<icon>PawnBadge/Skill/Timber</icon>
 	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>Forage</defName>
+		<label>Forage</label>
+		<description>Forage</description>
+		<icon>PawnBadge/Skill/Forage</icon>
+	</RR_PawnBadge.BadgeDef>
+<!-- SKILLED CRAFT -->
+ 	<RR_PawnBadge.BadgeDef>
+		<defName>SkillCraft</defName>
+		<label>Smithing</label>
+		<description>Smithing</description>
+		<icon>PawnBadge/Skill/SkillCraft</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>AmmoMaking</defName>
+		<label>Ammo Making</label>
+		<description>Ammo Making</description>
+		<icon>PawnBadge/Skill/AmmoMaking</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>GunMaking</defName>
+		<label>Gun Making</label>
+		<description>Gun-Making</description>
+		<icon>PawnBadge/Skill/MakeGuns</icon>
+	</RR_PawnBadge.BadgeDef>
 	
+	<RR_PawnBadge.BadgeDef>
+		<defName>Tailor</defName>
+		<label>Tailor</label>
+		<description>Tailoring</description>
+		<icon>PawnBadge/Skill/Tailor</icon>
+	</RR_PawnBadge.BadgeDef>
+
+
+<!-- ART -->
+ 	<RR_PawnBadge.BadgeDef>
+		<defName>Skill_Art</defName>
+		<label>Art</label>
+		<description>Skill - Art</description>
+		<icon>PawnBadge/Skill/Art</icon>
+		<fromBaseMod>True</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+
+	<!-- CRAFT-->
   	<RR_PawnBadge.BadgeDef>
 		<defName>LaborCraft</defName>
 		<label>Fast Labor</label>
 		<description>Fast Labor Craft</description>
 		<icon>PawnBadge/Skill/LaborCraft</icon>
 	</RR_PawnBadge.BadgeDef>
-  	<RR_PawnBadge.BadgeDef>
-		<defName>SkillCraft</defName>
-		<label>Skill Craft</label>
-		<description>Skill Craft</description>
-		<icon>PawnBadge/Skill/SkillCraft</icon>
+	<RR_PawnBadge.BadgeDef>
+		<defName>LaborSaw</defName>
+		<label>Sawmill</label>
+		<description>Sawmill</description>
+		<icon>PawnBadge/Skill/LaborCraftSawmill</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>LaborStone</defName>
+		<label>Stonecut</label>
+		<description>Stonecutting</description>
+		<icon>PawnBadge/Skill/LaborCraftStone</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>LaborSmelt</defName>
+		<label>Smelt</label>
+		<description>Smelting</description>
+		<icon>PawnBadge/Skill/LaborCraftSmelt</icon>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>Fuelmaking</defName>
+		<label>Fuelmaking</label>
+		<description>Fuelmaking</description>
+		<icon>PawnBadge/Skill/Fuelmaking</icon>
+	</RR_PawnBadge.BadgeDef>
+		<RR_PawnBadge.BadgeDef>
+		<defName>Drugmaking</defName>
+		<label>Drugmaking</label>
+		<description>Drugmaking</description>
+		<icon>PawnBadge/Skill/Drugmaking</icon>
 	</RR_PawnBadge.BadgeDef>
 
+ 
+
+	<!-- labor -->
+	<RR_PawnBadge.BadgeDef>
+		<defName>Skill_Hauling</defName>
+		<label>Hauling</label>
+		<description>Skill - Hauling</description>
+		<icon>PawnBadge/Skill/Haul</icon>
+		<fromBaseMod>True</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	<RR_PawnBadge.BadgeDef>
+		<defName>Skill_Cleaning</defName>
+		<label>Cleaning</label>
+		<description>Skill - Cleaning</description>
+		<icon>PawnBadge/Skill/Cleaning</icon>
+		<fromBaseMod>True</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+
+	<!-- Intellectual -->
+	<RR_PawnBadge.BadgeDef>
+		<defName>Skill_Intellectual</defName>
+		<label>Intellectual</label>
+		<description>Research</description>
+		<icon>PawnBadge/Skill/Intellectual</icon>
+		<fromBaseMod>True</fromBaseMod>
+	</RR_PawnBadge.BadgeDef>
+	
 
 
 <!-- Melee -->

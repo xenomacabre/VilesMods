@@ -25,7 +25,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Silver>10</Silver>
+			<Silver>100</Silver>
 		</products>
 		<skillRequirements>
 			<Crafting>3</Crafting>
@@ -37,8 +37,8 @@
     <RecipeDef>
 		<defName>MeltCoins</defName>
 		<label>Melt Coins into Alloy x10</label>
-		<description>Melt silver coins into useful ingots. Produces 10.</description>
-		<jobString>Minting coins.</jobString>
+		<description>Melt sterling silver coins into useful ingots. Produces 10.</description>
+		<jobString>Melting coins.</jobString>
 		<workAmount>300</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>
@@ -50,7 +50,7 @@
 						<li>Silver</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>100</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>

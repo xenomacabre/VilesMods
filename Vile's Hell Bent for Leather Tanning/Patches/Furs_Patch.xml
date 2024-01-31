@@ -40,9 +40,9 @@
 				<xpath>Defs/ThingDef[defName="Leather_Wolf"]/description</xpath>
 				<value>
 					<description>TIER 2 - Medieval
-&#x2713;&#x2713; Durabilty
-&#x2713; Winter
-X Production
+>>> Optimal	Durability
+>> Suitable	Armor/Winter
+X Inadvisable 	Bedding
 
 Taking advantage of the course guard hairs of animals such as the wolf, this offers good protection against blades. And although it does not have as much padding as heavy fur, it's lighter and lasts longer.</description>
 				</value>
@@ -174,9 +174,10 @@ Taking advantage of the course guard hairs of animals such as the wolf, this off
 				<xpath>Defs/ThingDef[defName="Leather_Bluefur"]/description</xpath>
 				<value>
 					<description>TIER 2 - Medieval
-&#x2713;&#x2713; Durabilty
-&#x2713; Winter
-X Production
+>>> Optimal	Winter
+>> Suitable	Production
+X Inadvisable 	Summer, Durability
+
 This fur is made from the pelts of animals such as muffalos and foxes. They're stylish and keep you warm in the winter.</description>
 				</value>
 			</li>
@@ -306,7 +307,12 @@ This fur is made from the pelts of animals such as muffalos and foxes. They're s
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Heavy"]/description</xpath>
 				<value>
-					<description>No standerd fur or full-grain leather is stronger and meaner than beastly heavy furs. In the wrong situations, clothes made from heavy fur can be extremely heavy and hot, however.</description>
+					<description>TIER 2 - Medieval
+>>> Optimal	Armor
+>> Suitable	Winter
+X Inadvisable 	Summer, Weight
+
+No standerd fur or full-grain leather is stronger and meaner than beastly heavy furs. In the wrong situations, clothes made from heavy fur can be extremely heavy and hot, however.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -435,7 +441,12 @@ This fur is made from the pelts of animals such as muffalos and foxes. They're s
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Panthera"]/description</xpath>
 				<value>
-					<description>Fine furs aren't as tough as other furs, but they are still fairly sturdy and are attractive and comforable.</description>
+					<description>TIER 2 - Medieval
+>>> Optimal	Bedding
+>> Suitable	Beauty
+X Inadvisable 	Armor
+
+Fine furs aren't as tough as other furs, but they are still fairly sturdy and are attractive and comforable.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
