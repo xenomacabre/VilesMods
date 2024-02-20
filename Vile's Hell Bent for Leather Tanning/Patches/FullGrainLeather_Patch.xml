@@ -38,7 +38,12 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/description</xpath>
 				<value>
-					<description>This top-shelf full-grain leather is made to last. It has good defensive qualities among the full-grain leathers, bested only by heavy leathers, but nothing beats it for longevity.</description>
+					<description>TIER 2 - Medieval
+>>> Optimal	Durability
+>> Suitable	Armor
+X Inadvisable 	Bedding
+
+This top-shelf full-grain leather is made to last. It has good defensive qualities among the full-grain leathers, bested only by heavy leathers, but nothing beats it for longevity.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -171,7 +176,12 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Boomanimal"]/description</xpath>
 				<value>
-					<description>A full-grain pourous leather that insulates well in various climates, but especially in hot ones. It's fairly strong and might deflect a blade if thick enough. Full-grain leather is the highest quality of natural leather, compared to top-grain and split-grain.</description>
+					<description>TIER 2 - Medieval
+>>> Optimal	Summer
+>> Suitable	Bedding
+X Inadvisable 	Production
+
+A full-grain pourous leather that insulates well in various climates, but especially in hot ones. It's fairly strong and might deflect a blade if thick enough. Full-grain leather is the highest quality of natural leather, compared to top-grain and split-grain.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -298,14 +308,15 @@
 				</value>
 			</li>
 
-
-
-
-
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Lizard"]/description</xpath>
 				<value>
-					<description>A highly-prized full-grain leather made from the skins of reptiles, flightless birds, and the leg-skin of smaller birds. Though it has a beautiful grain, it doesn't really perform any better than any of the other high-quality full-grain leathers.</description>
+					<description>TIER 2 - Medieval
+>>> Optimal	Beauty
+>> Suitable	Summer
+X Inadvisable 	Armor
+
+A highly-prized full-grain leather made from the skins of reptiles, flightless birds, and the leg-skin of smaller birds. Though it has a beautiful grain, it doesn't really perform any better than any of the other high-quality full-grain leathers.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -435,7 +446,12 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Elephant"]/description</xpath>
 				<value>
-					<description>A full-grain leather with a course surface. It's a thick, dense leather which comes from larger beasts like elaphants and rhinos. It can take a beating like no other full-grain leather, and if you take care of it, it can last a long time. It is, however, quite difficult to work with, and in case you were wondering, it's quite heavy.</description>
+					<description>TIER 2 - Medieval
+>>> Optimal	Armor
+>> Suitable	Winter
+X Inadvisable 	Bedding
+
+A full-grain leather with a course surface. It's a thick, dense leather which comes from larger beasts like elaphants and rhinos. It can take a beating like no other full-grain leather, and if you take care of it, it can last a long time. It is, however, quite difficult to work with, and in case you were wondering, it's quite heavy.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -567,7 +583,12 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="Leather_Plain"]</xpath>
 				<value>
-					<description>This full-grain leather comes from common domesticated animals such as cows and goats. It's an economical utility leather striking a balance between durability, strength, insulation, while being very easy to work with. This is a utility leather suitible for most products, and because it is a full-grain leather, it's still considered high-quality.</description>
+					<description>TIER 2 - Medieval
+>>> Optimal	Mass Production
+>> Suitable	All-Season / Durabilty
+X Inadvisable 	Armor
+
+This full-grain leather comes from common domesticated animals such as cows and goats. It's an economical utility leather striking a balance between durability, strength, insulation, while being very easy to work with. This is a utility leather suitible for most products, and because it is a full-grain leather, it's still considered high-quality.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -696,7 +717,12 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Light"]/description</xpath>
 				<value>
-					<description>All light leather is full-grain leather because it is too thin to split, coming from rodents and other small animals. So unlike other full-grain leathers, light leather is not considered a top-shelf leather. Though it's fairly fragile, moreso than top-grain leathers, it's quite breathable and lightweight.</description>
+					<description>TIER 2 - Medieval
+>>> Optimal	Summer
+>> Suitable	Production
+X Inadvisable 	Bedding, Durability
+
+All light leather is full-grain leather because it is too thin to split, coming from rodents and other small animals. So unlike other full-grain leathers, light leather is not considered a top-shelf leather. Though it's fairly fragile, moreso than top-grain leathers, it's quite breathable and lightweight.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -827,7 +853,12 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Pig"]/description</xpath>
 				<value>
-					<description>This full-grain leather makes comfortable and attractive clothing and furniture. It's a good quality leather since it utilizes the full grain of the hide.</description>
+					<description>TIER 2 - Medieval
+>>> Optimal	Bedding
+>> Suitable	All-Season, Furniture
+X Inadvisable 	Armor
+
+This full-grain leather makes comfortable and attractive clothing and furniture. It's a good quality leather since it utilizes the full grain of the hide.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -956,7 +987,12 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Nightling"]/description</xpath>
 				<value>
-					<description>Certain venomous animals on the Rim have a natural to their own venom, and this leather takes advantage of that. It's a good quality leather since it utilizes the full grain of the hide.</description>
+					<description>TIER 2 - Medieval
+>>> Optimal	Hospitals
+>> Suitable	All-Season
+X Inadvisable 	Bedding
+
+Certain venomous animals on the Rim have a natural to their own venom, and this leather takes advantage of that. It's a good quality leather since it utilizes the full grain of the hide.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -1088,7 +1124,12 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="Leather_Dog"]</xpath>
 				<value>
-					<description>Buckskin is made by tanning hides using the brains and fats of animals after scraping off the top grain. It was originally made from mostly deerskin, but any hide will do. It's then smoked to further preserve it. The resulting leather is soft and pourous, similar to suede.</description>
+					<description>TIER 1 - Neolithic
+>>> Optimal	Early Use
+>> Suitable	All-Season
+X Inadvisable 	Bedding, Armor
+
+Buckskin is made by tanning hides using the brains and fats of animals after scraping off the top grain. It was originally made from mostly deerskin, but any hide will do. It's then smoked to further preserve it. The resulting leather is soft and pourous, similar to suede.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">

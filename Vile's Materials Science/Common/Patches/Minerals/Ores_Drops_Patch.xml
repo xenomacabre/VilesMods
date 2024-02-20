@@ -16,12 +16,12 @@
 					 	<li>
 							<ResourceDefName>Titanomagnetite</ResourceDefName>
 							<DropProbability>0.05</DropProbability>
-							<CountPerDrop>10</CountPerDrop>
+							<CountPerDrop>15</CountPerDrop>
 						 </li>
 						 <li>
 							<ResourceDefName>Steel</ResourceDefName>
 							<DropProbability>7</DropProbability>
-							<CountPerDrop>5</CountPerDrop>
+							<CountPerDrop>12</CountPerDrop>
 						 </li>
 					</randomlyDropResources>
 				</value>
@@ -33,12 +33,12 @@
 						  <li>
 							<ResourceDefName>Titanomagnetite</ResourceDefName>
 							<DropProbability>0.07</DropProbability>
-							<CountPerDrop>10</CountPerDrop>
+							<CountPerDrop>15</CountPerDrop>
 						  </li>
 						  <li>
 							<ResourceDefName>Steel</ResourceDefName>
 							<DropProbability>11</DropProbability>
-							<CountPerDrop>5</CountPerDrop>
+							<CountPerDrop>12</CountPerDrop>
 						  </li>
 						</randomlyDropResources>
 				</value>
@@ -50,12 +50,12 @@
 						  <li>
 							<ResourceDefName>Titanomagnetite</ResourceDefName>
 							<DropProbability>0.1</DropProbability>
-							<CountPerDrop>10</CountPerDrop>
+							<CountPerDrop>20</CountPerDrop>
 						  </li>
 						  <li>
 							<ResourceDefName>Steel</ResourceDefName>
 							<DropProbability>13</DropProbability>
-							<CountPerDrop>5</CountPerDrop>
+							<CountPerDrop>15</CountPerDrop>
 						  </li>
 						</randomlyDropResources>
 				</value>

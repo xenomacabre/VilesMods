@@ -159,7 +159,12 @@
 	<ThingDef ParentName="WeaponMedievalBase">
 		<defName>NorbalMeleeWeapon_ShortSword</defName>
 		<label>+Ulfbert+</label>
-		<description>A sharp two-handed sword used only by the fiercest norbal warriors, forged from Wootz crucible steel, possibly imported from the other side of the continent.</description>
+		<description>TYPE: 1H Balanced Frontline Weapon
+TIER: Medieval
++ Balanced Defense and Damage
+- Difficult to make
+
+A one-handed sword used by Norbal warriors, often with a shield. Forged from Wootz crucible steel, possibly imported from the other side of the continent. Design is similar to the Legion's Spatha - the sword that eventually replaced the gladius.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ulfbert</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -168,7 +173,7 @@
 		<techLevel>Medieval</techLevel>
 		<weaponTags>
 			<li>NorbalHeroMelee</li>
-			<li>MedievalMelee2H</li>
+			<li>CE_OneHandedWeapon</li>
 		</weaponTags>			
 		<stuffCategories>
 			<li>StrongMetallic</li>
@@ -185,8 +190,9 @@
 		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<equippedStatOffsets>
-			<MeleeCritChance>0.7</MeleeCritChance>
+			<MeleeCritChance>0.35</MeleeCritChance>
 			<MeleeParryChance>0.6</MeleeParryChance>
+			<MeleeDodgeChance>0.4</MeleeDodgeChance>
 		</equippedStatOffsets>
 		<tools>
 			<li Class="CombatExtended.ToolCE">
@@ -205,8 +211,9 @@
 				<capacities>
 					<li>Stab</li>
 				</capacities>
-				<power>16</power>
+				<power>14</power>
 				<cooldownTime>1.4</cooldownTime>
+				<chanceFactor>1</chanceFactor>
 				<armorPenetrationBlunt>1.2</armorPenetrationBlunt>
 				<armorPenetrationSharp>5.0</armorPenetrationSharp>
 				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
@@ -216,8 +223,8 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>18</power>
-				<cooldownTime>2.0</cooldownTime>
+				<power>17</power>
+				<cooldownTime>1.5</cooldownTime>
 				<chanceFactor>1.33</chanceFactor>
 				<armorPenetrationBlunt>6.0</armorPenetrationBlunt>
 				<armorPenetrationSharp>3.1</armorPenetrationSharp>
@@ -236,7 +243,14 @@
 	<ThingDef ParentName="WeaponMedievalBase">
 		<defName>MeleeWeapon_Scimitar</defName>
 		<label>Rimascus Scimitar</label>
-		<description>Also called a shamshir, this scimitar has an exceptionally curved blade, originally forged in an ancient land from steel produced in another ancient land. Designed to produce deep, grievous cuts, but it's terrible against armor.</description>
+		<description>TYPE: 1H Offensive Wounding
+TIER: Medieval
+++ Very high damage (DPS)
+- Low armor penetration
+- Poor defense
+- Difficult to make
+
+Also called a shamshir, this type of sabre has an exceptionally curved blade, originally forged in an ancient land from steel produced in another ancient land. Designed to produce deep grievous cuts against peasants, but it's terrible against armor.</description>
 		<graphicData>
 			<texPath>Things/Weapons/RimascusScimitar</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -259,7 +273,7 @@
 		<equippedAngleOffset>-45</equippedAngleOffset>
 		<equippedStatOffsets>
 			<MeleeCritChance>0.6</MeleeCritChance>
-			<MeleeParryChance>0.35</MeleeParryChance>
+			<MeleeParryChance>0.2</MeleeParryChance>
 			<MeleeDodgeChance>0.2</MeleeDodgeChance>
 		</equippedStatOffsets>
 		<techLevel>Medieval</techLevel>
@@ -296,7 +310,7 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>17</power>
+				<power>18</power>
 				<cooldownTime>1.5</cooldownTime>
 				<armorPenetrationBlunt>3</armorPenetrationBlunt>
 				<armorPenetrationSharp>3</armorPenetrationSharp>

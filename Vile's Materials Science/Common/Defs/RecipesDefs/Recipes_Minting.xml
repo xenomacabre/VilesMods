@@ -50,7 +50,7 @@
 						<li>Silver</li>
 					</thingDefs>
 				</filter>
-				<count>100</count>
+				<count>10</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>

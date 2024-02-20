@@ -186,6 +186,7 @@ Efficiency: 25%</description>
 		<costList>
 			<ComponentMedieval>8</ComponentMedieval>
 		</costList>
+		<pathCost>0</pathCost>
 		<fillPercent>0.1</fillPercent>
 		<castEdgeShadows>true</castEdgeShadows>
 		<statBases>

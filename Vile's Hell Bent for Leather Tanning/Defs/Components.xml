@@ -140,7 +140,7 @@
 				<ImmunityGainSpeedFactor>0.95</ImmunityGainSpeedFactor>
 				<WorkTableWorkSpeedFactor>0.9</WorkTableWorkSpeedFactor>
 				<MeleePenetrationFactor>0.7</MeleePenetrationFactor>
-				<Mass>1.2</Mass>
+				<Mass>1.22</Mass>
 			</statFactors>
 		</stuffProps>
 		<!--<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>-->
@@ -149,7 +149,7 @@
 	<ThingDef ParentName="SK_ResourceBase">
 		<defName>BoiledLeather</defName>
 		<label>cuir bouilli</label>
-		<description>Also known as 'boiled leather', it's made by treating leather to make it hard and mouldable. It can be used in place of metal on many medieval armors, though because it as to be thick to provide protection, it's quite heavy and is not suitable for full-plate. Because it doesn't conduct heat like metal, it provides better protection against heat.</description>
+		<description>Also known as 'boiled leather', it's made by treating leather (most likely with animal glue) to make it hard and mouldable. It can be used in place of metal on many medieval armors, though because it as to be thick to provide protection, it's quite heavy and is not suitable for full-plate. Because it doesn't conduct heat like metal, it provides better protection against heat.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/ChitinScales</texPath>
 			<color>(100,75,18)</color>
@@ -204,7 +204,7 @@
 				<ImmunityGainSpeedFactor>0.95</ImmunityGainSpeedFactor>
 				<WorkTableWorkSpeedFactor>0.9</WorkTableWorkSpeedFactor>
 				<MeleePenetrationFactor>0.7</MeleePenetrationFactor>
-				<Mass>1.15</Mass>
+				<Mass>1.18</Mass>
 			</statFactors>
 		</stuffProps>
 		<!--<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>-->

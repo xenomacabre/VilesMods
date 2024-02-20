@@ -869,10 +869,7 @@
 		<size>(2,2)</size>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<recipes>
-			<!--<li>MakeFlour</li>
-			<li>MakeSugar</li>
-			<li>CraftCornmeal</li>-->
-			<li>MakePowder</li>
+			<li>MakePowder_medieval</li>
 			<li>MakeSand_Hand</li>
 			<li>MakeSand_Hand_Chunk</li>
 			<li>MakeCrushedStone_Hand_Chunk</li>

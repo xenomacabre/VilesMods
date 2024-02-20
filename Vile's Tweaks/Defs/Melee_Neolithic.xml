@@ -1,19 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BasePilumProjectile">
+		<defName>Pilum_Thrown</defName>
+		<label>pilum (thrown)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>18</damageAmountBase> <!-- was 22-->
+			<speed>23</speed><!-- was 18 -->
+			<!-- <armorPenetrationBase>0.35</armorPenetrationBase> -->
+			<armorPenetrationBlunt>5.92</armorPenetrationBlunt>
+			<armorPenetrationSharp>4</armorPenetrationSharp><!-- was 5.1-->
+			<preExplosionSpawnChance>0.75</preExplosionSpawnChance>
+			<!-- 4 javelins per resource -->
+			<preExplosionSpawnThingDef>Pila</preExplosionSpawnThingDef>
+            <suppressionFactor>0.6</suppressionFactor>
+            <dangerFactor>1</dangerFactor>
+            <airborneSuppressionFactor>0.3</airborneSuppressionFactor>
+		</projectile>
+	</ThingDef>
+
 	<!-- =========================== Neolithic ================================ -->
-	<ThingDef ParentName="WeaponNeoliticBase">
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseWeaponAndAmmoNeolithic"> <!-- ParentName="WeaponNeoliticBase">-->
 		<defName>MeleeWeapon_Ikwa</defName>
-		<label>Heavy Spear</label>
-		<description>TYPE: 1H Economic Polearm
+		<label>Throwing Spear</label>
+		<description>TYPE: 1H Offensive Polearm / Thrown
 TIER: Neolithic
-+ Cheap
++ Powerful projectile
 + Easy to use / quick
+- Somewhat cumbersome 
 - Poor penetration
 
-A long spear used for thrusting. It is short enough that the blunt end can be used as well.</description>
+A long spear/javelin similar to the Legion's pilum, but will not bend as easily. Historcially, it was thrown when in pursuit or on the offensive and used in melee when defending. NOTE: Can only be thrown manually, so make sure you have a backup weapon!</description>
 		<graphicData>
-			<texPath>Things/Weapons/Melee/Ikwa</texPath>
+			<texPath>Things/Weapons/Melee/throwingSpear</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<weaponTags>
@@ -25,23 +44,37 @@ A long spear used for thrusting. It is short enough that the blunt end can be us
 		<stuffCategories>
 			<li>StrongMetallic</li>
 		</stuffCategories>
-		<costStuffCount>25</costStuffCount>
+		<costStuffCount>35</costStuffCount>
 		<costList>
 			<ComponentMedieval>2</ComponentMedieval>
-			<WoodLog>30</WoodLog>
+			<WoodLog>35</WoodLog>
 		</costList>
 		<statBases>
 			<WorkToMake>3300</WorkToMake>
-			<Bulk>8</Bulk>
-			<Mass>2.5</Mass>
+			<Bulk>7</Bulk>
+			<Mass>2.2</Mass>
 			<MeleeCounterParryBonus>0.7</MeleeCounterParryBonus>	
+			<WorkToMake>1000</WorkToMake>
+			<SightsEfficiency>0.75</SightsEfficiency>
+			<ShotSpread>1.1</ShotSpread>
+			<SwayFactor>1.25</SwayFactor>
+			<RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedAngleOffset>-25</equippedAngleOffset>
 		<equippedStatOffsets>
 			<MeleeCritChance>0.7</MeleeCritChance>
-			<MeleeParryChance>0.8</MeleeParryChance>
-			<MeleeDodgeChance>0.6</MeleeDodgeChance>
+			<MeleeParryChance>0.35</MeleeParryChance>
+			<MeleeDodgeChance>0.5</MeleeDodgeChance>
 		</equippedStatOffsets>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Spear_Thrown</defaultProjectile>
+				<warmupTime>0.8</warmupTime>
+				<range>8</range>
+			</li>
+		</verbs>
 		<tools>
 			<li Class="CombatExtended.ToolCE">
 				<!--<id>shaftblunt</id>-->
@@ -49,10 +82,10 @@ A long spear used for thrusting. It is short enough that the blunt end can be us
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>10</power>
+				<power>9</power>
 				<cooldownTime>1.2</cooldownTime>
 				<chanceFactor>0.4</chanceFactor>
-				<armorPenetrationBlunt>10</armorPenetrationBlunt>
+				<armorPenetrationBlunt>8</armorPenetrationBlunt>
 				<linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
 			</li>
 			<li Class="CombatExtended.ToolCE">
@@ -60,7 +93,7 @@ A long spear used for thrusting. It is short enough that the blunt end can be us
 				<capacities>
 					<li>Stab</li>
 				</capacities>
-				<power>12</power>
+				<power>11</power>
 				<cooldownTime>1.4</cooldownTime>
 				<chanceFactor>1</chanceFactor>
 				<armorPenetrationBlunt>5</armorPenetrationBlunt>
@@ -70,7 +103,7 @@ A long spear used for thrusting. It is short enough that the blunt end can be us
 		</tools>
 		<modExtensions>
 			<li Class="CombatExtended.GunDrawExtension">
-				<DrawSize>1.15,1.15</DrawSize>
+				<DrawSize>1.4,1.4</DrawSize>
 			</li>
 		</modExtensions>
 		<weaponClasses>
@@ -85,27 +118,30 @@ A long spear used for thrusting. It is short enough that the blunt end can be us
 
 	<ThingDef ParentName="WeaponNeoliticBase">
 		<defName>MeleeWeapon_Spear</defName>
-		<label>Pike</label>
-		<description>TYPE: 2H Defensive Spear
-++ Good defense
-- Cumbersome		
+		<label>Heavy Spear</label>
+		<description>TYPE: 1H Defensive Polearm
++ High defense (especially with shield)
+* Good damage
+- Slow and Cumbersome
+- Cannot be thrown		
 
-A very long two-handed spear to poke your enemies from 6 feet away.</description>
+A long one-handed spear with a broad head for heavy damage and wings to assist in parrying.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Melee/Spear</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.2,1.2</drawSize>
 		</graphicData>
 		<weaponTags>
 			<li>Neolithic</li>
-			<li>NeolithicMeleeBasic2H</li>
+			<li>CE_OneHandedWeapon</li>
 		</weaponTags>
 		<tradeability>Sellable</tradeability>			
 		<stuffCategories>
 			<li>StrongMetallic</li>
 		</stuffCategories>
-		<costStuffCount>35</costStuffCount>
+		<costStuffCount>40</costStuffCount>
 		<costList>
-			<ComponentMedieval>3</ComponentMedieval>
+			<ComponentMedieval>4</ComponentMedieval>
 			<WoodLog>40</WoodLog>
 		</costList>
 		<statBases>
@@ -117,8 +153,8 @@ A very long two-handed spear to poke your enemies from 6 feet away.</description
 		<equippedAngleOffset>-20</equippedAngleOffset>
 		<equippedStatOffsets>
 			<MeleeCritChance>0.3</MeleeCritChance>
-			<MeleeParryChance>0.2</MeleeParryChance>
-			<MeleeDodgeChance>1.1</MeleeDodgeChance>
+			<MeleeParryChance>0.5</MeleeParryChance>
+			<MeleeDodgeChance>0.8</MeleeDodgeChance>
 		</equippedStatOffsets>
 		<tools>
 			<li Class="CombatExtended.ToolCE">
@@ -127,10 +163,10 @@ A very long two-handed spear to poke your enemies from 6 feet away.</description
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>8</power>
+				<power>11</power>
 				<cooldownTime>2</cooldownTime>
 				<chanceFactor>0.2</chanceFactor>
-				<armorPenetrationBlunt>8</armorPenetrationBlunt>
+				<armorPenetrationBlunt>10</armorPenetrationBlunt>
 				<linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
 			</li>
 			<li Class="CombatExtended.ToolCE">
@@ -138,8 +174,8 @@ A very long two-handed spear to poke your enemies from 6 feet away.</description
 				<capacities>
 					<li>Stab</li>
 				</capacities>
-				<power>16</power>
-				<cooldownTime>1.9</cooldownTime>
+				<power>13</power>
+				<cooldownTime>1.8</cooldownTime>
 				<chanceFactor>1</chanceFactor>
 				<armorPenetrationBlunt>7</armorPenetrationBlunt>
 				<armorPenetrationSharp>4.3</armorPenetrationSharp>
@@ -148,7 +184,7 @@ A very long two-handed spear to poke your enemies from 6 feet away.</description
 		</tools>
 		<modExtensions>
 			<li Class="CombatExtended.GunDrawExtension">
-				<DrawSize>1.3,1.3</DrawSize>
+				<DrawSize>2.5,2.5</DrawSize>
 			</li>
 		</modExtensions>
 		<weaponClasses>

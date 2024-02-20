@@ -8,7 +8,7 @@
 	<match Class="PatchOperationSequence">
 	<success>Always</success>
 		<operations>
-			
+
 			
 			<li Class="PatchOperationAdd"> <!-- KABUTO --><!-- SPANGENHELM --> <!-- HORDE HELMET -->
 				<xpath>Defs/ThingDef[defName="MedievalTimes_Helmet_Domed" or defName="MedievalArmor_NasalHelmet" or defName="Apparel_ThumperHood"]/stuffCategories</xpath>
