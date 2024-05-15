@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<!-- LIGHT LEATHER -->
+<!-- THERMATAN LEATHER -->
 	<RecipeDef>
 		<defName>Make_LeatherThermatan</defName>
 		<label>make thermatan leather x25</label>
@@ -9,6 +9,7 @@
 			<li>
 				<filter>
 					<thingDefs>
+						<li>Leather_Waterproof</li>
 						<li>Leather_Elephant</li>
 					</thingDefs>
 				</filter>

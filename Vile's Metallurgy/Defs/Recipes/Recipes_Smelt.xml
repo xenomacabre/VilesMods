@@ -59,15 +59,15 @@
 					</thingDefs>
 				</filter>
 				<count>50</count>
-				<li>
+			</li>
+			<!--<li>
 				<filter>
 					<categories>
 						<li>Coal</li> <li>Metallurgical</li>
 					</categories>
 				</filter>
 				<count>20</count>
-			</li>
-			</li>
+			</li>-->
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RimThemes>
-  <customFontSizeTinyDefault>14</customFontSizeTinyDefault>
-  <customFontSizeSmallDefault>16</customFontSizeSmallDefault>
+  <customFontSizeTinyDefault>13</customFontSizeTinyDefault>
+  <customFontSizeSmallDefault>15</customFontSizeSmallDefault>
   <customFontSizeMediumDefault>18</customFontSizeMediumDefault>
 
   <particleMode>mono</particleMode>

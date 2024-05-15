@@ -34,7 +34,14 @@
 				<overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
 			</li>
 		</comps>
+		<thingCategories>
+			<li>Drugs</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Drugs</li>
+		</tradeTags>
 	</ThingDef>
+
 	<HediffDef>
 		<defName>WillowBarkHigh</defName>
 		<description>Pain reduced by willow bark</description>
@@ -52,7 +59,7 @@
 		</comps>
 		<stages>
 			<li>
-				<minSeverity>0.1</minSeverity>
+				<minSeverity>0</minSeverity>
 				<label>feeling better</label>
 				<painFactor>0.75</painFactor>
 			</li>

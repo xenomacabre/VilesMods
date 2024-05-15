@@ -96,7 +96,7 @@ Burn rate: 2.6 hrs</description>
 	
 				</value>
 			</li>
-
+			
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/RecipeDef[defName="MakeFlourFromSeeds"]/ingredients/li/filter/thingDefs</xpath> 
 				<value>
@@ -110,6 +110,8 @@ Burn rate: 2.6 hrs</description>
 					<li>Seed_Acacia</li>
 				</value>
 			</li>
+
+
 
 		</operations>
 	</match>

@@ -79,7 +79,7 @@ This top-shelf full-grain leather is made to last. It has good defensive qualiti
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/statBases/StuffPower_Insulation_Cold</xpath>
 				<value>
-					<StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+					<StuffPower_Insulation_Cold>22</StuffPower_Insulation_Cold>
 				</value>
 			</li>
 				<li Class="PatchOperationReplace">
@@ -624,13 +624,13 @@ This full-grain leather comes from common domesticated animals such as cows and 
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Plain"]/statBases/StuffPower_Insulation_Cold</xpath>
 				<value>
-					<StuffPower_Insulation_Cold>25</StuffPower_Insulation_Cold>
+					<StuffPower_Insulation_Cold>23</StuffPower_Insulation_Cold>
 				</value>
 			</li>
 				<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Plain"]/statBases/StuffPower_Insulation_Heat</xpath>
 				<value>
-					<StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+					<StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -654,7 +654,7 @@ This full-grain leather comes from common domesticated animals such as cows and 
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Plain"]/stuffProps/statFactors/MaxHitPoints</xpath>
 						<value>
-							<MaxHitPoints>1.55</MaxHitPoints>
+							<MaxHitPoints>1.4</MaxHitPoints>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">
@@ -672,7 +672,7 @@ This full-grain leather comes from common domesticated animals such as cows and 
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_Plain"]/stuffProps/statFactors/BedRestEffectiveness</xpath>
 						<value>
-							<BedRestEffectiveness>1</BedRestEffectiveness>
+							<BedRestEffectiveness>0.8</BedRestEffectiveness>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">
@@ -894,13 +894,13 @@ This full-grain leather makes comfortable and attractive clothing and furniture.
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Pig"]/statBases/StuffPower_Insulation_Cold</xpath>
 				<value>
-					<StuffPower_Insulation_Cold>25</StuffPower_Insulation_Cold>
+					<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
 				</value>
 			</li>
 				<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Pig"]/statBases/StuffPower_Insulation_Heat</xpath>
 				<value>
-					<StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+					<StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">

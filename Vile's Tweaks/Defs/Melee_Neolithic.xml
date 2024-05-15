@@ -73,6 +73,7 @@ A long spear/javelin similar to the Legion's pilum, but will not bend as easily.
 				<defaultProjectile>Spear_Thrown</defaultProjectile>
 				<warmupTime>0.8</warmupTime>
 				<range>8</range>
+				<onlyManualCast>true</onlyManualCast>
 			</li>
 		</verbs>
 		<tools>

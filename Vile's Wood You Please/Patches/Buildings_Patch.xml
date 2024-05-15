@@ -39,30 +39,30 @@
 	</Operation>
 
 
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>[JPT] Soft Warm Beds HSK</li>
-		</mods>
-		<match Class="PatchOperationSequence">
-			<operations>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>[JPT] Soft Warm Beds HSK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
 
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName = "HayBed" or defName="HayBedDouble"]/statBases/BedRestEffectiveness</xpath>
-						<value>
-							<BedRestEffectiveness>0.55</BedRestEffectiveness>
-						</value>
-				</li>
-				<li Class="PatchOperationReplace">
-				  <xpath>Defs/ThingDef[defName="HayBed" or defName="HayBedDouble"]/statBases/ImmunityGainSpeedFactor</xpath>
-				  <value>
-					<ImmunityGainSpeedFactor>0.25</ImmunityGainSpeedFactor>
-				  </value>
-				</li>
-			</operations>
-		</match>
-	</Operation>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "HayBed" or defName="HayBedDouble"]/statBases/BedRestEffectiveness</xpath>
+					<value>
+						<BedRestEffectiveness>0.55</BedRestEffectiveness>
+					</value>
+			</li>
+			<li Class="PatchOperationReplace">
+			  <xpath>Defs/ThingDef[defName="HayBed" or defName="HayBedDouble"]/statBases/ImmunityGainSpeedFactor</xpath>
+			  <value>
+				<ImmunityGainSpeedFactor>0.25</ImmunityGainSpeedFactor>
+			  </value>
+			</li>
+		</operations>
+	</match>
+ </Operation>
  
-	<Operation Class="PatchOperationFindMod">
+ <Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>MineralsCraft_SK</li>
 		</mods>
@@ -81,5 +81,4 @@
 			</operations>
 		</match>
 	</Operation>
- 
 </Patch>

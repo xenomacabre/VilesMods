@@ -181,6 +181,34 @@ Work to build: Very difficult</description>
     </value>
 </li>   
 
+<li Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="BlocksMarble"]/stuffProps</xpath>
+	<value>
+			<statOffsets>
+				<Beauty>1.0</Beauty>
+			</statOffsets>
+	</value>
+</li>
+<li Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="BlocksMarble"]/stuffProps/statFactors/Beauty</xpath>
+	<value>
+		<Beauty>2.0</Beauty>
+	</value>
+</li>
+<li Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="BlocksGranite"]/stuffProps/statFactors/Beauty</xpath>
+	<value>
+		<Beauty>1.0</Beauty>
+	</value>
+</li>
+<li Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="BlocksLimestone"]/stuffProps/statFactors/Beauty</xpath>
+	<value>
+		<Beauty>0.5</Beauty>
+	</value>
+</li>
+
+<!--
 <li Class="PatchOperationConditional">
 	<xpath>Defs/ThingDef[defName="BlocksMarble"]/stuffProps/statOffsets</xpath>
 	<nomatch Class="PatchOperationAdd">
@@ -202,12 +230,12 @@ Work to build: Very difficult</description>
 		<match Class="PatchOperationReplace">
 			<xpath>Defs/ThingDef[defName="BlocksMarble"]/stuffProps/statOffsets/Beauty</xpath>
 			<value>
-				<Beauty>3.0</Beauty>
+				<Beauty>1.0</Beauty>
 			</value>
 		</match>
 	</match>
 </li>
- 
+ -->
 <li Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="BlocksSandstone"]/description</xpath>
     <value>
@@ -226,7 +254,7 @@ Work to build: Slightly difficult</description>
 <description>Recommended: Workbench/Utility construction, Tree-cutting Tools (adequate)
     
 Durability: Moderate-low
-Beauty: Average
+Beauty: Attractive
 Work to craft: Average
 Work to build: Slightly difficult</description>
     </value>

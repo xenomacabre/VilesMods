@@ -21,7 +21,7 @@
 			or defName="MeleeWeapon_Monkeywrench"
 			or defName="MeleeWeapon_Sledgehammer"]/statBases/ToolEffectivenessFactor</xpath>
 			<value>
-   				 <ToolEffectivenessFactor>1.75</ToolEffectivenessFactor>
+   				 <ToolEffectivenessFactor>1.5</ToolEffectivenessFactor>
 			</value>
 		</li>
 		<li Class="PatchOperationReplace">

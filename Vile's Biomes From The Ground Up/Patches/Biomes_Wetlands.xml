@@ -16,7 +16,7 @@
 				<li>
 					<terrain>MarshyTerrain</terrain>
 					<min>0.3</min>
-					<max>1.0</max>
+					<max>999</max>
 				</li>
 			
 			</terrainsByFertility>

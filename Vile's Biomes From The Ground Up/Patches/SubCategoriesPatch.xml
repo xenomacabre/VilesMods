@@ -148,6 +148,7 @@
 		<value>
 			<defNames>
 				<li>Terraform_ToPackedDirt</li>
+				<li>Terraform_MakeGravel</li>
 				<li>Terraform_SodLawn</li>
 				<li>Terraform_SodPattern</li>
 				<li>Terraform_SodClover</li>

@@ -136,7 +136,7 @@
     </Operation>
 	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Mud"]/pathCost</xpath>
 		<value>
-			 <pathCost>20</pathCost>
+			 <pathCost>27</pathCost>
 		</value>
     </Operation>
 	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Mud"]/label</xpath>
@@ -180,7 +180,7 @@
     </Operation>
 	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="DustySoil"]/pathCost</xpath>
 		<value>
-			 <pathCost>4</pathCost>
+			 <pathCost>3</pathCost>
 		</value>
     </Operation>
 	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="DustySoil"]/label</xpath>
@@ -226,7 +226,7 @@
     </Operation>
 	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="RockySoil"]/pathCost</xpath>
 		<value>
-			 <pathCost>16</pathCost>
+			 <pathCost>5</pathCost>
 		</value>
     </Operation>	
 	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="RockySoil"]/label</xpath>
@@ -248,7 +248,7 @@
     </Operation>
 	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Gravel"]/pathCost</xpath>
 		<value>
-			 <pathCost>4</pathCost>
+			 <pathCost>2</pathCost>
 		</value>
     </Operation>
 	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Gravel"]/label</xpath>

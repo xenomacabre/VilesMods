@@ -218,6 +218,49 @@
 		<workAmount>800</workAmount>
 	</RecipeDef>
 	
+	<!-- WATERPROOF LEATHER -->
+	<RecipeDef>
+		<defName>TanDrum_LeatherWaterproof</defName>
+		<label>tan waterproof full-grain leather (x25)</label>
+		<description>LoremIpsum</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_WaterproofSkinCured</li>
+						<li>Hide_WaterproofSkin</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chromium</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_WaterproofSkinCured</li>
+				<li>Hide_WaterproofSkin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_WaterproofSkin>25</Hide_WaterproofSkin>
+			<Leather_Scraps>125</Leather_Scraps>
+
+		</products>
+		<recipeUsers>
+			<li>TanningDrum</li>
+		</recipeUsers>
+		<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<workAmount>800</workAmount>
+	</RecipeDef>
+	
 	<!-- DURABLE LEATHER -->
 	<RecipeDef>
 		<defName>TanDrum_LeatherDurable</defName>

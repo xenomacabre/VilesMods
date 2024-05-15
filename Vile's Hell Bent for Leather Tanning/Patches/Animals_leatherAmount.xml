@@ -25,16 +25,35 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[@Name="SK_AnimalThingBase"]/statBases/LeatherAmount</xpath>
 				<value>
+					<LeatherAmount>4</LeatherAmount>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Cow"or
+					defName="Yak"]/statBases</xpath>
+				<value>
+					<LeatherAmount>6</LeatherAmount>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Goat"]/statBases</xpath>
+				<value>
 					<LeatherAmount>5</LeatherAmount>
 				</value>
 			</li>
+			
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[@Name="InstectoidBase" or
 					defName="Mutant_Ogre" or
-					defName="FRaptor" or
                     defName="Animal_Desiri"]/statBases/LeatherAmount</xpath>
 				<value>
 					<LeatherAmount>4</LeatherAmount>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="FRaptor"]/statBases/LeatherAmount</xpath>
+				<value>
+					<LeatherAmount>6</LeatherAmount>
 				</value>
 			</li>
 			

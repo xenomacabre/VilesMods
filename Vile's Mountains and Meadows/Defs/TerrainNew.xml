@@ -6,7 +6,7 @@
 		<label>prairie soil</label>
 		<texturePath>Terrain/Surfaces/PrairieSoil</texturePath>
 		<edgeType>FadeRough</edgeType>
-		<renderPrecedence>397</renderPrecedence>
+		<renderPrecedence>341</renderPrecedence>
 		<pathCost>5</pathCost>
 		<statBases>
 			<Beauty>-1</Beauty>
@@ -35,6 +35,5 @@
 		</tools>
 	</TerrainDef>
 
-	
 	
 </Defs>

@@ -19,6 +19,7 @@
 		<label>extract tree seeds and materials</label>
 		<description>Extracts seeds from logs. Also yields bark and kindling, and some species yield pitch, sap, or medicinal materials.</description>
 		<workerCounterClass>ImprovedWorkbenches.RecipeWorkerCounter_MultipleButcherProducts</workerCounterClass>
+		<!--<workerCounterClass>RecipeWorkerCounter_MakeStoneBlocks</workerCounterClass>-->
 		<ingredients>
 			<li>
 				<filter>
@@ -28,7 +29,7 @@
 						<li>Ultrahardwoods</li>
 					</categories>
 					<thingDefs>
-					<li>Firewood_Spruce</li>
+					<li MayRequire="xenomacabre.HSKBiomes">Firewood_Spruce</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -44,7 +45,7 @@
 				<li>Ultrahardwoods</li>
 			</categories>
 			<thingDefs>
-				<li>Firewood_Spruce</li>
+				<li MayRequire="xenomacabre.HSKBiomes">Firewood_Spruce</li>
 			</thingDefs>
 			<disallowedThingDefs>
 				<li>Bamboo</li>

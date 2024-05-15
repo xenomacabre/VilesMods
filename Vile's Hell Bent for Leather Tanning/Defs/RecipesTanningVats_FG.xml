@@ -47,7 +47,7 @@
 			<max>30</max>
 		</temperatureIdeal>
 		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
-		<processDays>4</processDays>
+		<processDays>3.5</processDays>
 	</RecipeDef>
 	
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
@@ -95,7 +95,7 @@
 			<max>30</max>
 		</temperatureIdeal>
 		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
-		<processDays>4</processDays>
+		<processDays>3.5</processDays>
 	</RecipeDef>
 		
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
@@ -246,7 +246,56 @@
 			<max>30</max>
 		</temperatureIdeal>
 		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
-		<processDays>4</processDays>
+		<processDays>5</processDays>
+	</RecipeDef>
+	
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>TanVat_LeatherWaterproof</defName>
+		<label>waterproof full-grain leather (x5)</label>
+		<description>LoremIpsum</description>
+         <jobString>Veg-tanning waterproof leather.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hide_WaterproofSkinCured</li>
+						<li>Hide_WaterproofSkin</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TreeBark</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Hide_WaterproofSkinCured</li>
+				<li>Hide_WaterproofSkin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hide_WaterproofSkin>5</Hide_WaterproofSkin>
+			<Leather_Scraps>5</Leather_Scraps>
+		</products>
+		<recipeUsers>
+			<li>TanningVat</li>
+		</recipeUsers>
+		<temperatureSafe>
+			<min>0</min>
+			<max>55</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>10</min>
+			<max>30</max>
+		</temperatureIdeal>
+		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<processDays>5</processDays>
 	</RecipeDef>
 	
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
@@ -348,7 +397,7 @@
 			<max>30</max>
 		</temperatureIdeal>
 		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
-		<processDays>4</processDays>
+		<processDays>3.5</processDays>
 	</RecipeDef>
 
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
@@ -599,7 +648,7 @@
 			<max>30</max>
 		</temperatureIdeal>
 		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
-		<processDays>4</processDays>
+		<processDays>5</processDays>
 	</RecipeDef>
 	
 	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">

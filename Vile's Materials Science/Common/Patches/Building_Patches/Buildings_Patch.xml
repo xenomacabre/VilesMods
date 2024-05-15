@@ -112,7 +112,7 @@
 					<li>MakeNitrocellulose</li>
 				</value>
 			</li>
-            
+            <!--
             <li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="TableLoom"]/comps</xpath>
 				<value>
@@ -121,7 +121,7 @@
                         </li>
 				</value>
 			</li>
-            
+            -->
 		<!--	<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="TableLoom"]/recipes</xpath>
 				<value>

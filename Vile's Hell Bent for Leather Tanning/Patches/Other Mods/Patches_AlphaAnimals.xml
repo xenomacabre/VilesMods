@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+    
+    <!-- NOT -->
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>[JPT] Soft Warm Beds HSK</li>
+	</mods>
+		<match Class="PatchOperationSequence">
+        <operations>
+		<!-- LIGHT SKINS -->
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="AA_Eyeling" or 
+				defName="AA_DuskRat" or
+				defName="AA_Erin" or
+				defName="AA_Mantrap" or
+				defName="AA_MatureFleshbeast" or
+				defName="AA_EngorgedTentacularAberration" or
+				defName="AA_OcularJelly" or
+				defName="AA_RedSpore" or
+				defName="AA_Skiphound" or
+					defName="AA_AnimusVox"]/race/leatherDef</xpath>
+				<value>
+					<leatherDef>Hide_LightAnimalSkin</leatherDef>
+				</value>
+			</li>
+		<!-- HEAVY HIDE -->
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="AA_Gigantelope" or 
+				defName="AA_RipperHound" or
+				defName="AA_SpinedGow" or
+				defName="AA_Thunderbeast" or
+				defName="AA_Thunderox"]/race/leatherDef</xpath>
+				<value>
+					<leatherDef>Hide_HeavyHide</leatherDef>
+				</value>
+			</li>	
+		<!-- DURABLE HIDE -->
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="AA_Groundrunner" or 
+				defName="AA_Lockjaw" or
+				defName="AA_OvergrownColossus"]/race/leatherDef</xpath>
+				<value>
+					<leatherDef>Hide_DurableHide</leatherDef>
+				</value>
+			</li>		
+		<!-- STOCK HIDE -->
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="AA_Bobeene" or 
+				defName="AA_DevilSheep" or
+				defName="AA_GreyCoatedMouflon" or
+				defName="AA_Needlepost" or
+				defName="AA_Needleroll" or
+				defName="AA_Cactipine" or
+				defName="AA_ShockGoat" or
+				defName="AA_Razorjack"]/race/leatherDef</xpath>
+				<value>
+					<leatherDef>Hide_StockHide</leatherDef>
+				</value>
+			</li>
+			
+		
+		<!-- WATERPROOF HIDE -->
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="AA_AnimaColossus" or 
+				defName="AA_FrostAve" or 
+				defName="AA_UnblinkingEye"]/race/leatherDef</xpath>
+				<value>
+					<leatherDef>Hide_WaterproofSkin</leatherDef>
+				</value>
+			</li>
+			
+		<!-- POROUS HIDE -->
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="AA_FlamingoPhoenix" or 
+				defName="AA_RoughPlatedMonitor" or
+				defName="AA_SandLion" or 
+				defName="AA_SandProwler" or
+				defName="AA_WindBeast"]/race/leatherDef</xpath>
+				<value>
+					<leatherDef>Hide_PorousHide</leatherDef>
+				</value>
+			</li>	
+			
+		<!-- EXOTIC SKIN -->
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="AA_CrescendoAnole" or 
+				defName="AA_DesertAve" or
+				defName="AA_DuskProwler" or
+				defName="AA_Gallatross" or
+				defName="AA_GiantCrownedSilkie" or
+				defName="AA_MeadowAve" or
+				defName="AA_CrystallineCaracal" or
+				defName="AA_PhoenixOwlcat" or
+				defNAme="AA_RoyalAve" or
+				defName="AA_ShadowCharger"]/race/leatherDef</xpath>
+				<value>
+					<leatherDef>Hide_ExoticSkin</leatherDef>
+				</value>
+			</li>
+		<!-- IMMUNOGENIC SKIN -->
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="AA_DarkVandal" or 
+				defName="AA_Murkling" or
+				defName="AA_NightAve" or
+				defName="AA_NightMule" or
+				defName="AA_NightRam" or
+				defName="AA_OcularNightling" or
+				defName="AA_PedigreedRaptor" or
+				defName="AA_Radyak" or
+				defName="AA_RayHound"]/race/leatherDef</xpath>
+				<value>
+					<leatherDef>Hide_ImmunogenicHide</leatherDef>
+				</value>
+			</li>	
+		<!-- HUMANOID SKIN -->
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="AA_FungalHusk" or
+				defName="AA_Mime"]/race/leatherDef</xpath>
+				<value>
+					<leatherDef>Hide_HumanSkin</leatherDef>
+				</value>
+			</li>	
+		<!-- HEAVY PELT -->
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="AA_ArcticLion" or
+				defName="AA_Frostling" or				
+				defName="AA_Behemoth"]/race/leatherDef</xpath>
+				<value>
+					<leatherDef>Hide_HeavyFurPelt</leatherDef>
+				</value>
+			</li>
+		<!-- WARM PELT -->
+            <li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="AA_ChameleonYak" or 
+				defName="AA_Genix" or
+				defName="AA_FrostLynx"]/race/leatherDef</xpath>
+				<value>
+					<leatherDef>Hide_WarmFurPelt</leatherDef>
+				</value>
+			</li>	
+			
+<!-- LEATHER AMOUNTS -->
+<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="AA_DuskRat" or
+				defName="AA_MatureFleshbeast" or
+				defName="AA_FissionMouse" or
+				defName="AA_DecayDrake" or
+				defName="AA_Mime"
+				or defName="AA_FungalHusk"]/statBases/LeatherAmount</xpath>
+				<value>
+					<LeatherAmount>5</LeatherAmount>
+				</value>
+			</li>					
+<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="AA_Behemoth"]/statBases/LeatherAmount</xpath>
+				<value>
+					<LeatherAmount>10</LeatherAmount>
+				</value>
+			</li>						
+<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="AA_DecayDrake"]/statBases/LeatherAmount</xpath>
+				<value>
+					<LeatherAmount>12</LeatherAmount>
+				</value>
+			</li>				
+		
+    	</operations>
+		</match>
+</Operation>
+
+</Patch>

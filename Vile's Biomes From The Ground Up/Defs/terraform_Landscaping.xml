@@ -79,6 +79,29 @@
  	   </costList>
 	</ThingDef>
 	
+	<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_MakeGravel</defName>
+	<label>Add Gravel</label>
+	<description>Undeveloped Soil</description>
+	<uiIconPath>UI/Icons/Terraforming/UndevelopedSoil</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>RockySoil</li>
+			</above>
+			<result>Gravel</result>
+		</li>
+	</modExtensions>
+	<costList>
+		<CrushedStone>20</CrushedStone>
+		<SandResource>4</SandResource>
+	</costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>	
+	
 	 
 	
 	<ThingDef ParentName="RFF_TerraformBasicBase">

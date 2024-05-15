@@ -13,6 +13,7 @@
 				or defName="Cobra" 
 				or defName="Iguana"
 				or defName="Lacosdile"
+				or defName="Goose"
 				or defName="Tortoise"]/race/leatherDef</xpath>
 				<value>
 					<leatherDef>Hide_ExoticSkin</leatherDef>
@@ -42,15 +43,13 @@
 					<leatherDef>Hide_HumanSkin</leatherDef>
 				</value>
 			</li>
-			
-		
-			
 
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Boomalope" 
 				or defName="Boomrat" 
 				or defName="Feenix"
-				or defName="GreenWyvern"]/race/leatherDef</xpath>
+				or defName="GreenWyvern"
+				or defName="Pig"]/race/leatherDef</xpath>
 				<value>
 					<leatherDef>Hide_PorousHide</leatherDef>
 				</value>
@@ -61,7 +60,8 @@
 				or @Name="SK_BearThingBase" 
 				or defName="Mammoth"
 				or defName="Rhino_Wooly"
-				or defName="Thrumbo"]/race/leatherDef</xpath>
+				or defName="Thrumbo"
+				or defName="SmilodonPop"]/race/leatherDef</xpath>
 				<value>
 					<leatherDef>Hide_HeavyFurPelt</leatherDef>
 				</value>
@@ -108,8 +108,7 @@
 				or defName="Jaguar"
 				or defName="Tiger"
 				or defName="WhiteTiger"
-				or @Name="MartinThingBase" 
-				or defName="SmilodonPop"]/race/leatherDef</xpath>
+				or @Name="MartinThingBase"]/race/leatherDef</xpath>
 				<value>
 					<leatherDef>Hide_RichFurPelt</leatherDef>
 				</value>
@@ -137,12 +136,7 @@
 				or defName="Caribou" 
 				or defName="Deer" 
 				or defName="Donkey"
-				or defName="Gazelle"
-				or defName="Ibex"
-				or defName="Okapi"
-				or defName="Pig"
-				or defName="Sheep"
-				or defName="WildBoar"]/race/leatherDef</xpath>
+				or defName="Okapi"]/race/leatherDef</xpath>
 				<value>
 					<leatherDef>Hide_SoftHide</leatherDef>
 				</value>
@@ -153,16 +147,25 @@
 				or defName="Dromedary" 
 				or defName="Elk"
 				or @Name="BaseHorses"
-				or defName="Kirin"
 				or defName="Snork"]/race/leatherDef</xpath>
 				<value>
 					<leatherDef>Hide_DurableHide</leatherDef>
 				</value>
 			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Kirin"]/race/leatherDef</xpath>
+				<value>
+					<leatherDef>Hide_WaterproofSkin</leatherDef>
+				</value>
+			</li>
+			
+			
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Horse_Wooly" 
 				or defName="Warg" 
-				or @Name="SK_WolfThingBase"]/race/leatherDef</xpath>
+				or @Name="SK_WolfThingBase"
+				or defName="WildBoar"]/race/leatherDef</xpath>
 				<value>
 					<leatherDef>Hide_RuggedFurPelt</leatherDef>
 				</value>
@@ -181,7 +184,9 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Cow" 
 				or defName="Goat" 
+				or defName="Ibex"
 				or defName="Yak"
+				or defName="Gazelle"
                 or defName="Animal_Desiri"]/race/leatherDef</xpath>
 				<value>
 					<leatherDef>Hide_StockHide</leatherDef>
@@ -197,7 +202,8 @@
 				or @Name="SK_ThingFoxBase" 
 				or defName="SnowLeopard"
 				or defName="Snowhare"
-				or defName="Raccoon"]/race/leatherDef</xpath>
+				or defName="Raccoon"
+				or defName="Sheep"]/race/leatherDef</xpath>
 				<value>
 					<leatherDef>Hide_WarmFurPelt</leatherDef>
 				</value>
@@ -220,14 +226,29 @@
 	</mods>
 	<match Class="PatchOperationSequence">
 		<operations>
+
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="ThingDefFishTailteeth" or 
-				defName="ThingDefDeathSturgeon"]/race/leatherDef</xpath>
+				<xpath>Defs/ThingDef[defName="ThingDefFishBlueblade" or 
+				defName="ThingDefIceFlounder" or 
+				defName="ThingDefFishTailteeth" or 
+				defName="ThingDefDeathSturgeon" or
+				defName="ThingDefSaberfish"]/race/leatherDef</xpath>
 				<value>
-					<leatherDef>Hide_ExoticSkin</leatherDef>
+					<leatherDef>Hide_WaterproofSkin</leatherDef>
 				</value>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="ThingDefRedfinTuna" or 
+				defName="ThingDefFishKillerCatfish"]/race/leatherDef</xpath>
+				<value>
+					<leatherDef>Hide_DurableHide</leatherDef>
+				</value>
+			</li>
+			
+			
 		</operations>
 		</match>
     </Operation>
+	
+	
 </Patch>	

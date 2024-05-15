@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
+<ThingDef ParentName="SK_LeatherBase">
+		<defName>Leather_Waterproof</defName>
+		<label>waterproof leather (B+)</label>
+<description>TIER 2 - Medieval
+>>> Optimal	Durability
+>> Suitable	Winter, Armor
+X Inadvisable 	Bedding, Production
+
+A surprisingly durable full-grain leather made from the skins of large, predatory fish. Highly soght after due to its rarity.</description>
+		<graphicData>
+			<color>(74,149,162)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>14</MarketValue>
+			<StuffPower_Armor_Sharp>1.1</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1.3</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.15</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+			<Mass>0.01</Mass>
+			<Bulk>0.01</Bulk>
+		</statBases>
+		<stuffProps>
+			<color>(74,149,162)</color>
+			<commonality>0.01</commonality>
+			<stuffAdjective>waterproof leather</stuffAdjective>
+			<statFactors>
+				<MaxHitPoints>2.0</MaxHitPoints>
+				<Beauty>4.0</Beauty>
+				<MoveSpeed>1</MoveSpeed>
+				<MarketValue>0.75</MarketValue>
+				<WorkToMake>2.0</WorkToMake>
+				<WorkToBuild>2.0</WorkToBuild>
+				<BedRestEffectiveness>0.75</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.0</ImmunityGainSpeedFactor>
+				<Mass>0.75</Mass>
+				<Cleanliness>1.2</Cleanliness>
+			</statFactors>
+		</stuffProps>
+		<thingCategories>
+			<li>LeathersE</li>
+		</thingCategories>
+	</ThingDef>
+
 	<ThingDef ParentName="SK_LeatherBase">
 		<defName>TannedFur</defName>
 		<label>tanned fur (E)</label>

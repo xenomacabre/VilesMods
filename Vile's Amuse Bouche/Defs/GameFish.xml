@@ -172,14 +172,15 @@
     <ThingDef ParentName="FishThingBase">
 		<defName>ThingDefSaberfish</defName>
 		<label>saberfish</label>
-		<description>lorem ipsum</description>
+		<description>Provides a lot of meat and a small amount of usable hide.</description>
 		<statBases>
 			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
 			<MarketValue>100</MarketValue>
 			<Mass>30</Mass>
-			<LeatherAmount>0</LeatherAmount>
+			<LeatherAmount>2</LeatherAmount>
 		</statBases>
 		<race>
+			<leatherDef>Leather_Lizard</leatherDef>
 			<body>Fish</body>
 			<predator>true</predator>
 			<maxPreyBodySize>0.20</maxPreyBodySize>
@@ -231,7 +232,7 @@
 		<label>saberfish</label>
 		<race>ThingDefSaberfish</race>
 		<combatPower>30</combatPower>
-		<ecoSystemWeight>0.05</ecoSystemWeight>
+		<ecoSystemWeight>0.1</ecoSystemWeight>
 		<canArriveManhunter>false</canArriveManhunter>
 		<lifeStages>
 			<li>
@@ -293,17 +294,18 @@
     <ThingDef ParentName="FishThingBase">
 		<defName>ThingDefRedfinTuna</defName>
 		<label>redfin tuna</label>
-		<description>lorem ipsum</description>
+		<description>Provides a fair amount of meat, and a small amount of hide.</description>
 		<statBases>
 			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
 			<MarketValue>100</MarketValue>
 			<Mass>14</Mass>
-			<LeatherAmount>0</LeatherAmount>
+			<LeatherAmount>2</LeatherAmount>
 		</statBases>
 		<race>
+			<leatherDef>Leather_Lizard</leatherDef>
 			<body>Fish</body>
 			<predator>true</predator>
-			<maxPreyBodySize>0.6</maxPreyBodySize>
+			<maxPreyBodySize>0.8</maxPreyBodySize>
 			<baseBodySize>1</baseBodySize>
 			<baseHealthScale>0.45</baseHealthScale>
 			<baseHungerRate>0.07</baseHungerRate>
@@ -668,12 +670,12 @@
     <ThingDef ParentName="FishThingBase">
 		<defName>ThingDefIceFlounder</defName>
 		<label>ice flounder</label>
-		<description>lorem ipsum</description>
+		<description>Provides a very small amount of meat and leather.</description>
 		<statBases>
 			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
 			<MarketValue>100</MarketValue>
 			<Mass>7</Mass>
-			<LeatherAmount>0</LeatherAmount>
+			<LeatherAmount>2</LeatherAmount>
 		</statBases>
 		<race>
 			<body>Fish</body>
@@ -915,12 +917,12 @@
     <ThingDef ParentName="FishThingBase">
 		<defName>ThingDefFishTailteeth</defName>
 		<label>alligar</label>
-		<description>lorem ipsum</description>
+		<description>Provides a moderate amount of meat and leather.</description>
 		<statBases>
 			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
 			<MarketValue>100</MarketValue>
 			<Mass>10</Mass>
-			<LeatherAmount>3</LeatherAmount>
+			<LeatherAmount>4</LeatherAmount>
 		</statBases>
 		<race>
             <leatherDef>Leather_Lizard</leatherDef>
@@ -1016,6 +1018,7 @@
 		<breedQuantity>280</breedQuantity>
 		<breedingDurationInDays>6</breedingDurationInDays>
 		<naturalBiomes>
+			<li MayRequire="vileheathen.mountainsmeadows">Prairie</li>
 			<li>TemperateForest</li>
 			<li>TropicalRainforest</li>
 			<li>AridShrubland</li>
@@ -1034,14 +1037,15 @@
     <ThingDef ParentName="FishThingBase">
 		<defName>ThingDefFishBlueblade</defName>
 		<label>breadmouth bass</label>
-		<description>lorem ipsum</description>
+		<description>Provides a small amount of meat and a small amount of leather.</description>
 		<statBases>
 			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
 			<MarketValue>100</MarketValue>
 			<Mass>8</Mass>
-			<LeatherAmount>0</LeatherAmount>
+			<LeatherAmount>2</LeatherAmount>
 		</statBases>
 		<race>
+			<leatherDef>Leather_Lizard</leatherDef>
 			<body>Fish</body>
 			<predator>true</predator>
 			<maxPreyBodySize>0.20</maxPreyBodySize>
@@ -1175,14 +1179,15 @@
     <ThingDef ParentName="FishThingBase">
 		<defName>ThingDefFishKillerCatfish</defName>
 		<label>killer catfish</label>
-		<description>lorem ipsum</description>
+		<description>Provides a decent amount of meat and a fair amount of light leather.</description>
 		<statBases>
 			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
 			<MarketValue>100</MarketValue>
 			<Mass>16</Mass>
-			<LeatherAmount>0</LeatherAmount>
+			<LeatherAmount>4</LeatherAmount>
 		</statBases>
 		<race>
+			<leatherDef>Leather_Lizard</leatherDef>
 			<body>Fish</body>
 			<predator>true</predator>
 			<maxPreyBodySize>0.20</maxPreyBodySize>
@@ -1273,6 +1278,7 @@
 		<livesInRiver>true</livesInRiver>
 		<commonality>0.12</commonality>
 		<naturalBiomes>
+			<li MayRequire="vileheathen.mountainsmeadows">Prairie</li>
 			<li>TemperateForest</li>
 			<li>TropicalRainforest</li>
 			<li>TemperateArchipelago</li>
@@ -1291,19 +1297,19 @@
     <ThingDef ParentName="FishThingBase">
 		<defName>ThingDefDeathSturgeon</defName>
 		<label>death sturgeon</label>
-		<description>lorem ipsum</description>
+		<description>Provides a fair amount of meat and a lot of leather.</description>
 		<statBases>
 			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
 			<MarketValue>100</MarketValue>
 			<Mass>20</Mass>
-			<LeatherAmount>4</LeatherAmount>
+			<LeatherAmount>5</LeatherAmount>
 		</statBases>
 		<race>
             <leatherDef>Leather_Lizard</leatherDef>
 			<body>Fish</body>
 			<predator>true</predator>
 			<maxPreyBodySize>0.20</maxPreyBodySize>
-			<baseBodySize>1.1</baseBodySize>
+			<baseBodySize>1.2</baseBodySize>
 			<baseHealthScale>0.45</baseHealthScale>
 			<baseHungerRate>0.07</baseHungerRate>
 			<foodType>OmnivoreAnimal</foodType>
@@ -1351,7 +1357,7 @@
 		<label>death sturgeon</label>
 		<race>ThingDefDeathSturgeon</race>
 		<combatPower>30</combatPower>
-		<ecoSystemWeight>0.13</ecoSystemWeight>
+		<ecoSystemWeight>0.11</ecoSystemWeight>
 		<canArriveManhunter>false</canArriveManhunter>
 		<lifeStages>
 			<li>

@@ -10,15 +10,17 @@
       <value>
 		  
 	<TerrainDef Abstract="True" ParentName="SK_FloorBase" Name="SK_FlagstoneBase">
-		<renderPrecedence>220</renderPrecedence>
+		<label>Crushed Stone</label>
+		<renderPrecedence>350</renderPrecedence>
 		<!--<description>Roughly-cut stone tiles. Not super pretty, but they make good surfaces for roads and outdoor walkways. Deconstructing 			flagstone yields no resources. Beauty: 1.</description> -->
-		<description>Rough cut gravel. Good for roads or against a building's foundation. Deconstructing yields no resources. Beauty: 			1.</description>
+		<description>Rough cut gravel. Good for roads or against a building's foundation. Deconstructing yields no resources. Beauty: 1.</description>
 		<texturePath>Terrain/Surfaces/Flagstone</texturePath>
 		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
 		<statBases>
 			<WorkToBuild>400</WorkToBuild>
 			<Beauty>1</Beauty>
 		</statBases>
+		<edgeType>FadeRough</edgeType>
 		<tags>
 			<li>Road</li>
 		</tags>

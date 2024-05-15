@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>[JPT] Soft Warm Beds HSK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="Make_SimpleBedding"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+						<filter>
+						  <categories>
+							<li>BTextiles</li>
+							<li>Wools</li>
+							<li>Leathers</li>
+							<li>HTextiles</li>
+						  </categories>
+						</filter>
+						<count>60</count>
+					  </li>
+					  <li>
+						<filter>
+						  <thingDefs>
+							<li>BeddingStuffing</li>
+						  </thingDefs>
+						</filter>
+						<count>80</count>
+					  </li>
+					  <li>
+						<filter>
+						  <thingDefs>
+							<li>ComponentMedieval</li>
+						  </thingDefs>
+						</filter>
+						<count>4</count>
+					  </li>
+					  </ingredients>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="Make_SimpleBeddingDouble"]/ingredients</xpath>
+				<value>
+					<ingredients>
+						<li>
+						<filter>
+						  <categories>
+							<li>BTextiles</li>
+							<li>Wools</li>
+							<li>Leathers</li>
+							<li>HTextiles</li>
+						  </categories>
+						</filter>
+						<count>100</count>
+					  </li>
+					  <li>
+						<filter>
+						  <thingDefs>
+							<li>BeddingStuffing</li>
+						  </thingDefs>
+						</filter>
+						<count>120</count>
+					  </li>
+					  <li>
+						<filter>
+						  <thingDefs>
+							<li>ComponentMedieval</li>
+						  </thingDefs>
+						</filter>
+						<count>8</count>
+					  </li>
+					  </ingredients>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="Make_SimpleBedding" or defName="Make_SimpleBeddingDouble"]/fixedIngredientFilter</xpath>
+				<value>
+					  <fixedIngredientFilter>
+						<categories>
+							<li>BTextiles</li>
+							<li>Wools</li>
+							<li>Leathers</li>
+							<li>HTextiles</li>
+						</categories>
+						<thingDefs>
+							<li>BeddingStuffing</li>
+							<li>ComponentMedieval</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+	
+			
+			
+			
+			
+		</operations>
+		</match>
+    </Operation>	
+
+</Patch>	
+

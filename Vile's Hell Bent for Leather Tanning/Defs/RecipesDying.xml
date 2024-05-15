@@ -40,7 +40,7 @@
 		<defName>Make_FinishedLeatherRed</defName>
 		<label>finish top-grain (thriller red)</label>
 		<products>
-			<Leather_FinishedBlack>8</Leather_FinishedBlack>
+			<Leather_FinishedRed>8</Leather_FinishedRed>
 		</products>
 	</RecipeDef>
 

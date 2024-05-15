@@ -86,6 +86,35 @@
 		</thingCategories>
 	</ThingDef>
 	
+	<ThingDef Name= "Hide_WaterproofSkinBase" ParentName="VileSK_HidesBase">
+		<defName>Hide_WaterproofSkinCured</defName>
+		<label>cured waterproof skins</label>
+		<graphicData>
+			<texPath>Things/Item/Resource/TanningStuff/SkinCured</texPath>
+			<color>(156,212,189)</color>
+		</graphicData>
+		<thingCategories>
+			<li>CuredHides</li>
+		</thingCategories>
+	</ThingDef>
+	<ThingDef ParentName="Hide_ExoticSkinBase">
+		<defName>Hide_WaterproofSkin</defName>
+		<label>raw waterproof skins</label>
+		<graphicData>
+			<texPath>Things/Item/Resource/TanningStuff/SkinRaw</texPath>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>15</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<tickerType>Rare</tickerType>
+	<thingCategories Inherit="False">
+			<li>UncuredHides</li>
+		</thingCategories>
+	</ThingDef>
+	
 	<ThingDef Name= "Hide_LightAnimalSkinBase" ParentName="VileSK_HidesBase">
 		<defName>Hide_LightAnimalSkinCured</defName>
 		<label>cured light animal skins</label>

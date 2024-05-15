@@ -57,6 +57,12 @@
 					<label>thermatan leather (A+)</label>
 				</value>
 			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Leather_KirinHide"]/stuffProps</xpath>
+				<value>
+					<stuffAdjective>thermatan</stuffAdjective>
+				</value>
+			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_KirinHide"]/description</xpath>
 				<value>
@@ -155,6 +161,12 @@ By saturating heavy leather which comes from kirins and similar creatures with d
 				<xpath>Defs/ThingDef[defName="Leather_FireDragonskin"]/label</xpath>
 				<value>
 					<label>ventan leather (A+)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Leather_FireDragonskin"]/stuffProps</xpath>
+				<value>
+					<stuffAdjective>ventan</stuffAdjective>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -264,6 +276,12 @@ By saturating the breathable leathers (such as from a feenix) with draconic glyc
 					<label>armatan fur (A+)</label>
 				</value>
 			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Leather_Thrumbo"]/stuffProps</xpath>
+				<value>
+					<stuffAdjective>armatan</stuffAdjective>
+				</value>
+			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_Thrumbo"]/description</xpath>
 				<value>
@@ -359,18 +377,24 @@ By reinforcing heavy furs with the guard hairs from the barghest or thrumbo, the
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_FeatheredRaptorLeather"]/label</xpath>
 				<value>
-					<label>hygieiatan leather (A+)</label>
+					<label>luxitan leather (A+)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Leather_FeatheredRaptorLeather"]/stuffProps</xpath>
+				<value>
+					<stuffAdjective>hygieiatan</stuffAdjective>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Leather_FeatheredRaptorLeather"]/description</xpath>
 				<value>
 					<description>TIER 3 - Industrial
->>> Optimal	Hospitals
+>>> Optimal	Hospitals, Furniture
 >> Suitable	All-Season, Durability
 X Inadvisable 	Production
 
-By processing sterile leathers with talon aether extracted from the behir and raptor, the leather better repels bacteria, and has other qualities that exceed all other standard leather grades.</description>
+By processing sterile leathers with talon aether extracted from the behir and raptor, the leather better repels bacteria, and has other qualities that exceed all other standard leather grades. It's also extremely soft and velvety.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
@@ -431,13 +455,13 @@ By processing sterile leathers with talon aether extracted from the behir and ra
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_FeatheredRaptorLeather"]/stuffProps/statFactors/Beauty</xpath>
 						<value>
-							<Beauty>5</Beauty>
+							<Beauty>8</Beauty>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Leather_FeatheredRaptorLeather"]/stuffProps/statFactors/BedRestEffectiveness</xpath>
 						<value>
-							<BedRestEffectiveness>1.2</BedRestEffectiveness>
+							<BedRestEffectiveness>1.35</BedRestEffectiveness>
 						</value>
 					</li>
 					<li Class="PatchOperationReplace">

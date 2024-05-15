@@ -77,7 +77,7 @@
 			<terrainsByFertility>
 			<li>
 				<terrain>SavannaSoil</terrain>
-				<min>-0.1</min>
+				<min>-999</min>
 				<max>0.55</max>
 			</li>
 			<li>

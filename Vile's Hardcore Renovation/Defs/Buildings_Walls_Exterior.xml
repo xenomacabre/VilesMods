@@ -278,7 +278,7 @@
 			<MaxHitPoints>320</MaxHitPoints> <!-- vanilla is 380 -->
 			<WorkToBuild>250</WorkToBuild> <!-- vanilla is 270 -->
 			<Flammability>0.8</Flammability>
-			<Beauty>1</Beauty>
+			<Beauty>0</Beauty>
 		</statBases>
 		<stuffCategories>
 			<li>Aggregate</li>

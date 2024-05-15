@@ -3,13 +3,13 @@
 
   <!-- FORGE Wrought Iron from Bloom -->
 
-  <MakeWroughtIron_Forge.label>Выковать кузнечное железо из цветений x15</MakeWroughtIron_Forge.label>
+  <MakeWroughtIron_Forge.label>Выковать кованое железо из цветений x15</MakeWroughtIron_Forge.label>
   <MakeWroughtIron_Forge.description>Убрать шлак из цветений с помощью молотка и перековать в полу-готовые изделия из кузнечного железо.</MakeWroughtIron_Forge.description>
-  <MakeWroughtIron_Forge.jobString>Изготавливаю кузнечное железо железо из цветений.</MakeWroughtIron_Forge.jobString>
+  <MakeWroughtIron_Forge.jobString>Изготавливаю кованое железо железо из цветений.</MakeWroughtIron_Forge.jobString>
 
-  <MakeWroughtIron_Finery.label>Выковать кузнечное железо из цветений x15</MakeWroughtIron_Finery.label>
+  <MakeWroughtIron_Finery.label>Выковать кованое железо из цветений x15</MakeWroughtIron_Finery.label>
   <MakeWroughtIron_Finery.description>Убрать шлак из цветений с помощью отбойного молотка и перековать в полу-готовые изделия из кованого железа. Производит 15.</MakeWroughtIron_Finery.description>
-  <MakeWroughtIron_Finery.jobString>Изготавливаю кузнечное железо из цветений.</MakeWroughtIron_Finery.jobString>
+  <MakeWroughtIron_Finery.jobString>Изготавливаю кованое железо из цветений.</MakeWroughtIron_Finery.jobString>
 
   <MakeForgeWeldedSteel_Smithy.label>Ковать кузнечную сталь сварочным способом x15</MakeForgeWeldedSteel_Smithy.label>
   <MakeForgeWeldedSteel_Smithy.description>Многократно обжигать кованое железо на огне чтобы оно обуглилось, образуя прочный сплав с сотнями слоев мягкого железа и твердой стали. Производит 25.</MakeForgeWeldedSteel_Smithy.description>
@@ -29,7 +29,7 @@
 
   <!-- FORGE / FINERY Shear Steel -->
 
-  <MakeForgeWeldedSteel_BlisterSteel_Finery.label>Выковать чёрную сталь x30</MakeForgeWeldedSteel_BlisterSteel_Finery.label>
+  <MakeForgeWeldedSteel_BlisterSteel_Finery.label>Выковать кузнечную сталь x30</MakeForgeWeldedSteel_BlisterSteel_Finery.label>
   <MakeForgeWeldedSteel_BlisterSteel_Finery.description>Выковывание чёрной стали - это процесс создания металлической конструкции из  стали, используя технику ковки. Чёрная сталь получается из стали, содержащее большое количество углерода. В процессе выковывания удаляется лишний углерод, что делает сталь более прочной и эластичной.
 
 Процесс начинается с подогрева металла до достаточно высокой температуры, при которой он становится пластичным и готовым к ковке. Затем металл ударяют молотом или прессуют, чтобы изменить его форму и размеры. В процессе ковки металл часто перекалывают, чтобы улучшить его свойства.
@@ -37,7 +37,7 @@
 Выковка металла происходит на наковальнях. Металлические заготовки помещаются на наковальню, где специальный молот их деформирует и изменяет форму. В зависимости от требуемой формы, заготовки могут поворачиваться и обрабатываться с разных сторон.
 
 После ковки металлические заготовки охлаждаются и обрабатываются, чтобы улучшить их качество. Этот процесс может включать в себя обрезку, шлифовку, прожигание и другие методы обработки металла.</MakeForgeWeldedSteel_BlisterSteel_Finery.description>
-  <MakeForgeWeldedSteel_BlisterSteel_Finery.jobString>Изготавливает чёрную сталь.</MakeForgeWeldedSteel_BlisterSteel_Finery.jobString>
+  <MakeForgeWeldedSteel_BlisterSteel_Finery.jobString>Изготавливает кузнечную сталь.</MakeForgeWeldedSteel_BlisterSteel_Finery.jobString>
 
 
   <!-- REFINE Crucible Steel -->
@@ -53,9 +53,9 @@
   <MakeCastIron.description>Переработать сырьевое железо в литое железо путем его расплавления и очищения. Производит 30.</MakeCastIron.description>
   <MakeCastIron.jobString>Изготавливает отливное железо.</MakeCastIron.jobString>
 
-  <PuddleWroughtIronFromPigIron.label>Сделать кузнечное железо из сырьевого железа x75</PuddleWroughtIronFromPigIron.label>
+  <PuddleWroughtIronFromPigIron.label>Сделать кованое железо из сырьевого железа x75</PuddleWroughtIronFromPigIron.label>
   <PuddleWroughtIronFromPigIron.description>Грейте сырьевое железо или литое железо в очаге до тех пор, пока не расплавится. Перемешайте его, удалив тем самым содержание углерода и кислорода. Как только углерод покинет сплав, температура плавления повысится, и сплав больше не может оставаться жидким. Так вы узнаете, что процес завершён. Производит 75.</PuddleWroughtIronFromPigIron.description>
-  <PuddleWroughtIronFromPigIron.jobString>Изготавливает кузнечное железо.</PuddleWroughtIronFromPigIron.jobString>
+  <PuddleWroughtIronFromPigIron.jobString>Изготавливает кованое железо.</PuddleWroughtIronFromPigIron.jobString>
 
   <PuddleWroughtIronFromCastIron.label>Сделать кованое железо из отливного литого железа X100</PuddleWroughtIronFromCastIron.label>
   <PuddleWroughtIronFromCastIron.description>Грейте сырьевое железо или литое железо в очаге до тех пор, пока не расплавится. Перемешайте его, удалив тем самым содержание углерода и кислорода. Как только углерод покинет сплав, температура плавления повысится, и сплав больше не может оставаться жидким. Так вы узнаете, что процес завершён. Производит 100.</PuddleWroughtIronFromCastIron.description>

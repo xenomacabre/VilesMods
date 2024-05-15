@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>[JPT] Soft Warm Beds HSK</li>
+	</mods>
+		<match Class="PatchOperationSequence">
+        <operations>
+
+    <li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_AcanthamoebaGiganteaSmall" or
+			defName="AA_AngelMothLarva" or 
+			defName="AA_AnimusVox" or 
+			defName="AA_BoulderMit" or 
+			defName="AA_Bumbledrone" or 
+			defName="AA_Bumbledrone" or 
+			defName="AA_AuroraSylph" or 
+			defName="AA_BloodShrimp" or 
+			defName="AA_CrystallineCaracal" or 
+			defName="AA_DuskProwler" or 
+			defName="AA_DarkVandal" or 
+			defName="AA_Frostmite" or 
+			defName="AA_FissionMouse" or 
+			defName="AA_Genix" or 
+			defName="AA_MegaLouse" or 
+			defName="AA_MatureFleshbeast" or 
+			defName="AA_RoughPlatedMonitor" or 
+			defName="AA_RoyalAve" or 
+			defName="AA_PebbleMit" or 
+			defName="AA_PhoenixOwlcat" or 
+			defName="AA_Radyak" or 
+			defName="AA_Terramorph" or 
+			defName="AA_ShadowCharger" or 
+            defName="AA_GreyCoatedMouflon"]/race/wildBiomes</xpath>
+		<value>
+			<Prairie>0.01</Prairie>
+			<MontaneForest>0.02</MontaneForest>
+			<MontaneGrasslands>0.01</MontaneGrasslands>
+		</value>
+    </li>
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_Aerofleet" or
+			defName="AA_ChameleonYak" or 
+			defName="AA_Gigantelope" or 
+			defName="AA_Groundrunner" or 
+			defName="AA_Murkling"]/race/wildBiomes</xpath>
+		<value>
+			<Prairie>0.22</Prairie>
+			<MontaneForest>0.2</MontaneForest>
+			<MontaneGrasslands>0.25</MontaneGrasslands>
+		</value>
+    </li>
+	
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_ArcticLion" or
+            defName="AA_Blizzarisk" or 
+			defName="AA_Darkbeast" or 
+			defName="AA_DecayDrake" or 
+			defName="AA_FrostLynx" or 
+			defName="AA_Helixien" or 
+			defName="AA_GreatDevourer" or 
+            defName="AA_ShockGoat"]/race/wildBiomes</xpath>
+		<value>
+            <MontaneForest>0.015</MontaneForest>
+			<MontaneGrasslands>0.025</MontaneGrasslands>
+		</value>
+    </li>
+	<li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_FrostAve" or
+			defName="AA_Wildpod" or 
+			defName="AA_Wildpawn"]/race/wildBiomes</xpath>
+		<value>
+            <MontaneForest>0.18</MontaneForest>
+		</value>
+    </li>
+	
+     <li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_LarvalAtispec" or
+			defName="AA_Razorjack" or 
+			defName="AA_RipperHound" or 
+			defName="AA_Thunderbeast" or 
+            defName="AA_Thunderox"]/race/wildBiomes</xpath>
+		<value>
+			<Prairie>0.03</Prairie>
+		</value>
+    </li>
+	 <li Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_MeadowAve"]/race/wildBiomes</xpath>
+		<value>
+			<Prairie>0.5</Prairie>
+		</value>
+    </li>
+	    	</operations>
+		</match>
+</Operation>
+</Patch>
+
+
+
+			
