@@ -5,7 +5,7 @@
     <!-- NOT -->
 <Operation Class="PatchOperationFindMod">
 	<mods>
-		<li>[JPT] Soft Warm Beds HSK</li>
+		<li>Alpha Animals</li>
 	</mods>
 		<match Class="PatchOperationSequence">
         <operations>
