@@ -12,6 +12,8 @@
 						<li>Hide_HeavyHideCured</li>
 						<li>Hide_HeavyFurPelt</li>
 						<li>Hide_HeavyFurPeltCured</li>
+						<li>Hide_WaterproofSkin</li>
+						<li>Hide_WaterproofSkinCured</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -31,6 +33,8 @@
 				<li>Hide_HeavyHideCured</li>
 				<li>Hide_HeavyFurPelt</li>
 				<li>Hide_HeavyFurPeltCured</li>
+				<li>Hide_WaterproofSkin</li>
+				<li>Hide_WaterproofSkinCured</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>

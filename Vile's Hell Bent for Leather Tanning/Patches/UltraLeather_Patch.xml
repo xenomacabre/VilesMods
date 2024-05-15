@@ -383,7 +383,7 @@ By reinforcing heavy furs with the guard hairs from the barghest or thrumbo, the
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="Leather_FeatheredRaptorLeather"]/stuffProps</xpath>
 				<value>
-					<stuffAdjective>hygieiatan</stuffAdjective>
+					<stuffAdjective>luxitan</stuffAdjective>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">

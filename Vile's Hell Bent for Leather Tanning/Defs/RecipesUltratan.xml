@@ -5,6 +5,7 @@
 		<defName>Make_LeatherThermatan</defName>
 		<label>make thermatan leather x25</label>
 		<description>Make an ultra-grade variety of leather with exceptional strength, beauty, and insulation by infusing heavy leathers with esters extracted from dragon blood.</description>
+		<jobString>Making thermatan leather.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -46,6 +47,7 @@
 		<defName>Make_LeatherVentan</defName>
 		<label>make ventan leather x25</label>
 		<description>Make an ultra-grade variety of leather with exceptional strength and breathability by infusing breathable leathers with esters extracted from dragon blood.</description>
+		<jobString>Making ventan leather.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -87,6 +89,7 @@
 		<defName>Make_LeatherArmatan</defName>
 		<label>make armatan leather x25</label>
 		<description>Make an ultra-grade variety of leather with unbeatable strength and durability by lining Heavy Fur with a mesh made of the guard hairs of beasts.</description>
+		<jobString>Making armatan leather.</jobString>
 		<ingredients>
 			<li>
 				<filter>
@@ -126,8 +129,9 @@
 	<!-- BREATHABLE LEATHER -->
 	<RecipeDef>
 		<defName>Make_LeatherHygieiatan</defName>
-		<label>make hygieiatan leather x25</label>
+		<label>make luxitan leather x25</label>
 		<description>Make and ultra-grade variety of leather with uncanny immunogenic properties by infusing sterile leather with the vapors created from the talons of beithirian beasts.</description>
+		<jobString>Making luxitan leather.</jobString>
 		<ingredients>
 			<li>
 				<filter>

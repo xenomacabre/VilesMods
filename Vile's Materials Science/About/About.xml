@@ -57,12 +57,6 @@ This is the final major part of the Vile's series of overhaul mods for Hardcore 
 			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
 			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
 		</li>
-		<li>
-			<packageId>isorex.communityframework</packageId>
-			<displayName>Community Framework</displayName>
-			<downloadUrl>https://github.com/ISOR3X/communityframework</downloadUrl>
-			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2585162118</steamWorkshopUrl>
-		</li>
         <li>
 			<packageId>zacharyfoster.minerals</packageId>
 			<displayName>Minerals</displayName>
