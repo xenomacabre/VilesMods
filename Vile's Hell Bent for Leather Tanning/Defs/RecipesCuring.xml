@@ -674,7 +674,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Hide_HeavyHideCuredCured>1</Hide_WaterproofSkinCured>
+			<Hide_WaterproofSkinCured>1</Hide_WaterproofSkinCured>
 		</products>
 		<recipeUsers>
 			<li>TanningRack</li>
