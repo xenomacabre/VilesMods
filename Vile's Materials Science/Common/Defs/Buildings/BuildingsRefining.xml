@@ -414,41 +414,11 @@
 			<li>
 				<compClass>CompReportWorkSpeed</compClass>
 			</li>
-
-            <li Class="CompProperties_AffectedByFacilities">
-				<linkableFacilities>
-					<li>Patterner</li>
-					<li>TableLoom</li>
-				</linkableFacilities>
-			</li>
-<!--
-			<li Class="CF.CompProperties_UnlocksRecipe">
-			   <linkableFacilities>
-				  <li>
-					 <targetFacility>TableLoom</targetFacility>
-				  </li>
-			   </linkableFacilities>
-			    <recipes>
-                    <li>MakePolymerFibers</li>
-                    <li>MakePolyester</li>
-					<li>MakeModacrylic</li>
-                    <li>MakeRayonViscose</li>
-                    <li>MakeMycotanLeather</li>
-                    <li>MakePVCLeather</li>
-                    <li>MakeNomex</li>
-                    <li>MakeKevlar</li>
-                    <li>MakeMicropel</li>
-                    <li>MakeDyneema</li>
-                    <li>MakeZylon</li>
-				 </recipes>
-            </li>
--->
 		</comps>
 		<building>
 			<uninstallWork>1450</uninstallWork>
 		</building>
 		<placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
 			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
 		</placeWorkers>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
