@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DoorsExpanded>Doors Expanded</DoorsExpanded>
+  <DoorsExpanded_logLevel>Log level (for debugging)</DoorsExpanded_logLevel>
+  <DoorsExpanded_logLevel_Normal>Normal</DoorsExpanded_logLevel_Normal>
+  <DoorsExpanded_logLevel_Debug>Debug</DoorsExpanded_logLevel_Debug>
+  <DoorsExpanded_logLevel_StackTrace>Stack Trace</DoorsExpanded_logLevel_StackTrace>
+
+  <PH_RemoteDoor>Can be opened and closed from a distance with a button or lever.</PH_RemoteDoor>
+  <PH_ButtonDisconnect>Disconnect button or lever</PH_ButtonDisconnect>
+  <PH_ButtonDisconnectDesc>Disconnects any connected button or lever.</PH_ButtonDisconnectDesc>
+  <PH_CannotOpenRemotelyWithoutPower>{0} requires power to be opened remotely.</PH_CannotOpenRemotelyWithoutPower>
+  <PH_UseButtonOrLever>Use {0}</PH_UseButtonOrLever>
+  <PH_UseButtonOrLeverDesc>Toggles whether or not a colonist should make their way over to activate or deactivate {0}.</PH_UseButtonOrLeverDesc>
+  <PH_PowerNeeded>Connect a power source to secure remotely.</PH_PowerNeeded>
+  <PH_ButtonNeeded>Connect a button or lever to secure remotely.</PH_ButtonNeeded>
+  <PH_ButtonConnect>Connect to a button or lever</PH_ButtonConnect>
+  <PH_ButtonConnectDesc>Instantly links the remote door to a button or lever</PH_ButtonConnectDesc>
+  <PH_ButtonConnectFailed>Failed to set new button or lever from {0}</PH_ButtonConnectFailed>
+  <PH_UseButtonOrLeverNoConnection>Must be connected to a remote door</PH_UseButtonOrLeverNoConnection>
+  <PH_UseButtonOrLeverNoPower>Must be connected to power</PH_UseButtonOrLeverNoPower>
+  <PH_RemoteDoorSecuredRemotely>Secured remotely</PH_RemoteDoorSecuredRemotely>
+  <PH_RemoteDoorSecuredRemotelyDesc>With this setting on, the door may only be opened remotely by using the corresponding button or lever. The door will act like it is in a locked state, no entry or exit, while closed. When this setting is off, characters may freely open and close the door like normal doors.</PH_RemoteDoorSecuredRemotelyDesc>
+
+  <!-- Copied from JecsTools (note: using different translation key ("JT" => "PH") to avoid "duplicate keyed translation key" warnings) -->
+  <PH_PlaceWorker_OnTopOfWalls>Must be placed on a wall.</PH_PlaceWorker_OnTopOfWalls>
+
+</LanguageData>

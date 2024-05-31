@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Configurations>RW1.3;RW1.3Unstable;RW1.4Unstable;RW1.5Unstable</Configurations>
+    <Configuration Condition=" '$(Configuration)' == '' ">RW1.3</Configuration>
+    <AssemblyName>DoorsExpanded</AssemblyName>
+    <TargetFramework>net472</TargetFramework>
+    <NoStdLib>true</NoStdLib>
+    <LangVersion>9.0</LangVersion>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <Version>1.4.0.1</Version>
+  </PropertyGroup>
+  <PropertyGroup>
+    <!-- Always using "Release" build -->
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Choose>
+	  <When Condition=" '$(Configuration)' == 'RW1.4' ">
+		  <PropertyGroup>
+			  <OutputPath>..\1.4\Assemblies\</OutputPath>
+		  </PropertyGroup>
+		  <ItemGroup>
+			  <PackageReference Include="Krafs.Rimworld.Ref" Version="1.4.*" /> <!-- only stable versions -->
+			  <!-- only stable versions -->
+		  </ItemGroup>
+	  </When>
+	  <When Condition=" '$(Configuration)' == 'RW1.4Unstable' ">
+		  <PropertyGroup>
+			  <OutputPath>..\1.4\Assemblies\</OutputPath>
+		  </PropertyGroup>
+		  <ItemGroup>
+			  <PackageReference Include="Krafs.Rimworld.Ref" Version="1.4.*-*" />
+			  <!-- * suffix allows beta/prerelease versions -->
+		  </ItemGroup>
+	  </When>	  
+    <When Condition=" '$(Configuration)' == 'RW1.3' ">
+      <PropertyGroup>
+        <OutputPath>..\1.3\Assemblies\</OutputPath>
+      </PropertyGroup>
+      <ItemGroup>
+        <PackageReference Include="Krafs.Rimworld.Ref" Version="1.3.*" /> <!-- only stable versions -->
+      </ItemGroup>
+    </When>
+    <When Condition=" '$(Configuration)' == 'RW1.3Unstable' ">
+      <PropertyGroup>
+        <OutputPath>..\1.3\Assemblies\</OutputPath>
+      </PropertyGroup>
+      <ItemGroup>
+        <PackageReference Include="Krafs.Rimworld.Ref" Version="1.3.*-*" /> <!-- -* suffix allows beta/prerelease versions -->
+      </ItemGroup>
+    </When>
+  </Choose>
+  <ItemGroup>
+    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.4.3901" />
+    <PackageReference Include="Lib.Harmony" Version="2.1.*" ExcludeAssets="runtime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Building_Door_Reference\Building_Door.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Building_Door_Reference\Building_Door.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\**\*" Exclude="..\.git\**\*;..\Source\**\*" LinkBase="!ModFolder" />
+  </ItemGroup>
+</Project>

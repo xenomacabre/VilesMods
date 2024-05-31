@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PH_DoorButton.label>Botón de puerta</PH_DoorButton.label>
+  <PH_DoorButton.description>Un botón que se conecta a las puertas (funciona igual que una palanca).</PH_DoorButton.description>
+
+  <PH_DoorLever.label>Palanca de puerta</PH_DoorLever.label>
+  <PH_DoorLever.description>Una palanca que se conecta a las puertas (funciona igual que un botón).</PH_DoorLever.description>
+
+  <PH_DoorRemoteSingle.label>Puerta remota</PH_DoorRemoteSingle.label> <!-- size suffix is auto-appended to label -->
+  <PH_DoorRemoteSingle.description>Puerta corredera vertical de metal. Divide habitaciones. Se puede abrir y cerrar a distancia con un botón.</PH_DoorRemoteSingle.description> <!-- needs translation update -->
+
+  <!-- PH_DoorRemoteDouble/PH_DoorRemoteTriple's label & description default to PH_DoorRemoteSingle's, and size suffix is auto-appended to label -->
+
+</LanguageData>

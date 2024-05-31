@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>OliveOil</defName>
+		<label>olive oil</label>
+		<description>It's oil. From olives. Can be used as a clean-burning fuel or for cooking (WIP). It's just as efficient as other vegetable oils.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/OliveOil</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<!--<color>(150,150,0)</color>-->
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<techLevel>Neolithic</techLevel>
+		<statBases>
+			<MaxHitPoints>5</MaxHitPoints>
+			<MarketValue>2</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0.4</Flammability>
+			<MaxBurningTempCelsius>350</MaxBurningTempCelsius>
+			<BurnDurationHours>1.4</BurnDurationHours>
+			<Mass>0.09</Mass>
+			<Bulk>0.1</Bulk>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<thingCategories>
+			<li>FuelCat</li>
+		</thingCategories>
+		<stackLimit>300</stackLimit>
+	</ThingDef>
+	
+</Defs>

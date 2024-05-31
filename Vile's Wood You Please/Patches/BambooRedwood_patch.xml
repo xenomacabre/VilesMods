@@ -29,6 +29,7 @@
 					<BurnDurationHours>2.85</BurnDurationHours>
 					<Mass>1.25</Mass>
 				</statBases>
+				<stackLimit>75</stackLimit>
 				<stuffProps>
 					<categories>
 						<li>Softwoods</li>

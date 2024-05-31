@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- COMFORT FOOD-->
+<Defs>
+	<ThingDef ParentName="CannedNonMeatBase">
+		<defName>FermentedOlives</defName>
+		<label>table olives</label>
+		<description>Olives that have undergone fermentation and brining. Delectable.</description>
+		<possessionCount>2</possessionCount>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Item/Meal/Preserves/FermentedOlives</texPath>
+		</graphicData>
+		<thingCategories>
+			<li>Preserves</li>
+			<li>BasicPlantFoodRaw</li>
+		</thingCategories>
+		<stackLimit>25</stackLimit>
+		<statBases>
+			<MarketValue>12</MarketValue>
+			<Nutrition>0.25</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<joy>0.45</joy>
+			<joyKind>Gluttonous</joyKind>
+			<preferability>RawTasty</preferability>
+			<tasteThought>HadTableOlives</tasteThought>
+			<foodType>VegetableOrFruit</foodType>
+			<maxNumToIngestAtOnce>2</maxNumToIngestAtOnce>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>100</daysToRotStart>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="MealBeverage">
+		<defName>KombuchaDrink</defName>
+		<label>kombucha drink</label>
+		<description>A fermented drink made of sweetened tea.</description>
+		<graphicData>
+			<texPath>Things/Item/Meal/Preserves/Kombucha</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<stackLimit>25</stackLimit>
+		<statBases>
+			<MarketValue>9</MarketValue>
+			<Nutrition>0.25</Nutrition>
+		</statBases>
+		<thingCategories>
+			<li>Energetics</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<joy>0.17</joy>
+			<nurseable>true</nurseable>
+			<drugCategory>Social</drugCategory>
+			<ingestSound>Ingest_Drink</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<tasteThought>HadTea</tasteThought>
+			<chairSearchRadius>25</chairSearchRadius>
+			<joyKind>Gluttonous</joyKind>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>GoodHappy</hediffDef>
+					<severity>0.35</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<addictiveness>0</addictiveness>
+				<listOrder>1100</listOrder>
+			</li>
+		</comps>
+	</ThingDef>
+
+<!--
+	<ThingDef ParentName="CannedNonMeatBase">
+		<defName>FruitJam</defName>
+		<label>fruit jam</label>
+		<description>loremipsum</description>
+		<possessionCount>2</possessionCount>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Item/Meal/Preserves/FermentedOlives</texPath>
+		</graphicData>
+		<thingCategories>
+			<li>Preserves</li>
+			<li>BasicPlantFoodRaw</li>
+		</thingCategories>
+		<statBases>
+			<MarketValue>12</MarketValue>
+			<Nutrition>0.15</Nutrition>
+		</statBases>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<joy>0.45</joy>
+			<joyKind>Gluttonous</joyKind>
+			<preferability>RawTasty</preferability>
+			<tasteThought>HadTableOlives</tasteThought>
+			<foodType>VegetableOrFruit</foodType>
+			<maxNumToIngestAtOnce>2</maxNumToIngestAtOnce>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>100</daysToRotStart>
+			</li>
+		</comps>
+	</ThingDef>
+-->
+	<ThoughtDef>
+		<defName>HadTableOlives</defName>
+		<durationDays>0.5</durationDays>
+		<stackLimit>2</stackLimit>
+		<stages>
+			<li>
+				<label>Ate Olives</label>
+				<description>Salty and mouthwatering.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

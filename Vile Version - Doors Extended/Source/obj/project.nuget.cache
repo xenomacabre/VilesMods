@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "p3Ym+71swMNdYD55NW1bSEO72N3yPex45WaapHarnt/lgLmg9IYaWPmDIYwXYWH+ySJE6W/XD3cnspqSxpUiug==",
+  "success": true,
+  "projectFilePath": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Workspace\\DoorsExpanded\\Source\\ProjectHeron.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jecre\\.nuget\\packages\\krafs.rimworld.ref\\1.5.4069\\krafs.rimworld.ref.1.5.4069.nupkg.sha512",
+    "C:\\Users\\jecre\\.nuget\\packages\\lib.harmony\\2.2.2\\lib.harmony.2.2.2.nupkg.sha512"
+  ],
+  "logs": []
+}

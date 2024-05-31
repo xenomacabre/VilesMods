@@ -7,7 +7,7 @@
 		<texturePath>Terrain/Surfaces/PrairieSoil</texturePath>
 		<edgeType>FadeRough</edgeType>
 		<renderPrecedence>341</renderPrecedence>
-		<pathCost>5</pathCost>
+		<pathCost>6</pathCost>
 		<statBases>
 			<Beauty>-1</Beauty>
 			<Cleanliness>-1</Cleanliness>
@@ -22,6 +22,40 @@
 		</affordances>
 		<generatedFilth>Filth_Dirt</generatedFilth>
 		<fertility>1</fertility>
+		<takeFootprints>True</takeFootprints>
+		<tools>
+			<li>
+				<label>dirt</label>
+				<capacities>
+					<li>KickMaterialInEyes</li>
+				</capacities>
+				<hediff>DirtInEyes</hediff>
+				<cooldownTime>1.5</cooldownTime>
+			</li>
+		</tools>
+	</TerrainDef>
+
+	<TerrainDef ParentName="NaturalTerrainBase">
+		<defName>RedSoil</defName>
+		<label>red soil</label>
+		<texturePath>Terrain/Surfaces/TerraRossa</texturePath>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>341</renderPrecedence>
+		<pathCost>6</pathCost>
+		<statBases>
+			<Beauty>-1</Beauty>
+			<Cleanliness>-1</Cleanliness>
+		</statBases>
+		<scatterType>Rocky</scatterType>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<li>GrowSoil</li>
+			<li>Diggable</li>
+		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
+		<fertility>0.8</fertility>
 		<takeFootprints>True</takeFootprints>
 		<tools>
 			<li>

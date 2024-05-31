@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="WeaponMedievalBase">
+		<defName>MeleeWeapon_Rapier</defName>
+		<label>Rapier</label>
+		<description>TYPE: 1H Defensive Sidearm
+TIER: Late Medieval		
+++ Good defense
++ Raises social status
+- Poor Lethality</description>
+		<graphicData>
+			<texPath>Things/Weapons/Melee/Rapier</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractMelee</soundInteract>			
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<costList>
+			<ComponentMedieval>5</ComponentMedieval>
+		</costList>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>7500</WorkToMake>
+			<Bulk>3</Bulk>
+			<Mass>2</Mass>
+			<MeleeCounterParryBonus>1.1</MeleeCounterParryBonus>
+		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<equippedStatOffsets>
+			<MeleeCritChance>0.6</MeleeCritChance>
+			<MeleeParryChance>0.4</MeleeParryChance>
+			<MeleeDodgeChance>0.</MeleeDodgeChance>
+			<SocialImpact>0.1</SocialImpact>
+		</equippedStatOffsets>
+		<techLevel>Medieval</techLevel>
+		<weaponTags>
+			<li>MedievalMelee</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>pommel</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.2</cooldownTime>
+				<chanceFactor>0.1</chanceFactor>
+				<armorPenetrationBlunt>4</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.25</cooldownTime>
+				<chanceFactor>1.2</chanceFactor>
+				<armorPenetrationBlunt>1.3</armorPenetrationBlunt>
+				<armorPenetrationSharp>4</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<recipeMaker>
+			<researchPrerequisite>LongBlades</researchPrerequisite>
+		</recipeMaker>
+		<weaponClasses>
+			<li>MeleePiercer</li>
+		</weaponClasses>
+		<thingCategories>
+			<li>SharpMelee</li>
+		</thingCategories>
+	</ThingDef>
+
+	<!-- Throwing Spear -->
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_TruePilum</defName>
+		<label>pilum</label>
+		<ammoTypes>
+			<TruePilum>TruePilum_Thrown</TruePilum>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<!-- ================== Pilum ================== -->
+<!--
+	<ThingDef Class="CombatExtended.AmmoDef" Name="SK_BaseProjectileNeolithic" Abstract="True">
+		<category>Projectile</category>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Projectile</altitudeLayer>
+		<thingClass>CombatExtended.BulletCE</thingClass>
+		<label>arrow</label>
+		<useHitPoints>False</useHitPoints>
+		<neverMultiSelect>True</neverMultiSelect>
+		<graphicData>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE" />
+	</ThingDef>
+-->
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="SK_BaseProjectileNeolithic" Name="BaseTruePilumProjectile" Abstract="true">
+		<graphicData>
+			<texPath>Things/Projectile/TruePilum</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Stab</damageDef>
+            <suppressionFactor>5</suppressionFactor>
+            <dangerFactor>4</dangerFactor>
+            <airborneSuppressionFactor>7</airborneSuppressionFactor>
+		</projectile>
+	</ThingDef>
+
+	<!-- The amount of arrows usable over the ammo lifetime for each resource cost is equal to
+	[r / (1 - x)];
+		x = preExplosionSpawnChance,
+		r = resource cost. -->
+<!--
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseSpearProjectile">
+		<defName>Spear_Thrown</defName>
+		<label>pilum (thrown)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>20</damageAmountBase>
+			<speed>18</speed>
+			<armorPenetrationBlunt>5.92</armorPenetrationBlunt>
+			<armorPenetrationSharp>3</armorPenetrationSharp>
+			<preExplosionSpawnChance>0.9</preExplosionSpawnChance>
+			<preExplosionSpawnThingDef>MeleeWeapon_Ikwa</preExplosionSpawnThingDef>
+            <suppressionFactor>0.6</suppressionFactor>
+            <dangerFactor>1</dangerFactor>
+            <airborneSuppressionFactor>0.3</airborneSuppressionFactor>
+		</projectile>
+	</ThingDef>
+-->
+<!--	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseSpearProjectile">
+		<defName>Spear_Fired</defName>
+		<label>spear (fired)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>28</damageAmountBase>
+			<speed>38</speed>
+			<armorPenetrationBlunt>141.12</armorPenetrationBlunt>
+			<armorPenetrationSharp>8</armorPenetrationSharp>
+			<preExplosionSpawnChance>0.6</preExplosionSpawnChance>
+			<preExplosionSpawnThingDef>MeleeWeapon_Ikwa</preExplosionSpawnThingDef>
+            <suppressionFactor>1.2</suppressionFactor>
+            <dangerFactor>1.5</dangerFactor>
+            <airborneSuppressionFactor>0.5</airborneSuppressionFactor>
+		</projectile>
+	</ThingDef>
+-->
+
+</Defs>

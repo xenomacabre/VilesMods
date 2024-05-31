@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--
+<SeedsPlease.SeedDef ParentName="SeedBase">
+  <defName>Seed_TreeHolmOak</defName>
+  <label>holm oak seeds</label>
+  <sources>
+    <li>Plant_TreeHolmOak</li>
+  </sources>
+</SeedsPlease.SeedDef>
+
+<SeedsPlease.SeedDef ParentName="SeedBase">
+  <defName>Seed_TreeUmbrellaPine</defName>
+  <label>umbrella pine seeds</label>
+  <sources>
+    <li>Plant_TreeUmbrellaPine</li>
+  </sources>
+</SeedsPlease.SeedDef>
+
+<SeedsPlease.SeedDef ParentName="SeedBase">
+  <defName>Seed_BroomShrub</defName>
+  <label>broom shrub seeds</label>
+  <sources>
+    <li>Plant_BroomShrub</li>
+  </sources>
+</SeedsPlease.SeedDef>
+
+<SeedsPlease.SeedDef ParentName="SeedBase">
+  <defName>Seed_Myrtle</defName>
+  <label>myrtle seeds</label>
+  <sources>
+    <li>Plant_Myrtle</li>
+  </sources>
+</SeedsPlease.SeedDef>
+
+<SeedsPlease.SeedDef ParentName="SeedBase">
+  <defName>Seed_TreeLaurel</defName>
+  <label>laurel seeds</label>
+  <sources>
+    <li>Plant_TreeLaurel</li>
+  </sources>
+</SeedsPlease.SeedDef>
+
+<SeedsPlease.SeedDef ParentName="SeedBase">
+  <defName>Seed_TreeOlive</defName>
+  <label>olive tree seeds</label>
+  <sources>
+    <li>Plant_TreeOlive</li>
+  </sources>
+</SeedsPlease.SeedDef>
+-->
+</Defs>

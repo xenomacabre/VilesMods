@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	
+
+			
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="SawPlanks_Oak" or defName = "MillPlanks_Oak"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>HolmOakLog</li>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="SawPlanks_Oak" or defName = "MillPlanks_Oak"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>HolmOakLog</li>
+		</value>
+    </Operation>
+
+
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="SawPlanks_Pine" or defName = "MillPlanks_Pine"]/ingredients/li/filter/thingDefs</xpath>
+		<value>
+			<li>StonePineLog</li>
+		</value>
+    </Operation>
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="SawPlanks_Pine" or defName = "MillPlanks_Pine"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>StonePineLog</li>
+		</value>
+    </Operation>
+    
+    
+	
+</Patch>
+
+
+			

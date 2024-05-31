@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Preserve_FermentKombucha</defName>
+		<label>ferment kombucha (x10, 4 days)</label>
+		<description>Make kombucha out of tea and sugar. Takes 4 days.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawTea</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+      <li>
+				<filter>
+					<thingDefs>
+						<li>Sugar</li>
+					</thingDefs>
+				</filter>
+				<count>0.02</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+						<li>RawTea</li>
+            <li>Sugar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<KombuchaDrink>10</KombuchaDrink>
+		</products>
+		<recipeUsers>
+			<li>PicklingStation</li>
+		</recipeUsers>
+		<temperatureSafe>
+			<min>0</min>
+			<max>50</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>15</min>
+			<max>30</max>
+		</temperatureIdeal>
+		<ruinedPerDegreePerHour>1</ruinedPerDegreePerHour>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.2</speedAboveSafe>
+		<processDays>6</processDays>
+	</RecipeDef>
+	
+	
+  <RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Preserve_PickledVeg</defName>
+		<label>pickle vegetables (x2, 2 days)</label>
+		<description>Preserve vegetables in a saltry brine. Tasty, but nothing special. Takes 2 days.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawPotatoes</li>
+						<li>RawCorn</li>
+						<li>Rawbean</li>
+						<li>RawTomatoes</li>
+						<li>RawCarrots</li>
+						<li>Rawmushroom</li>
+						<li>RawAlgae</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+      <li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+					</thingDefs>
+				</filter>
+				<count>0.02</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+						<li>RawPotatoes</li>
+						<li>RawCorn</li>
+						<li>Rawbean</li>
+						<li>RawTomatoes</li>
+						<li>RawCarrots</li>
+						<li>Rawmushroom</li>
+            <li>Salt</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PickledVeg>10 </PickledVeg>
+		</products>
+		<recipeUsers>
+			<li>PicklingStation</li>
+		</recipeUsers>
+		<temperatureSafe>
+			<min>0</min>
+			<max>50</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>15</min>
+			<max>30</max>
+		</temperatureIdeal>
+		<ruinedPerDegreePerHour>1</ruinedPerDegreePerHour>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.2</speedAboveSafe>
+		<processDays>2</processDays>
+	</RecipeDef>
+
+	
+</Defs>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- *DoorOpenTime stats are shown instead of the DoorOpenSpeed stat -->
+  <StatDef>
+    <defName>DoorOpenTime</defName>
+    <workerClass>DoorsExpanded.StatWorker_DoorOpenTime</workerClass>
+    <label>door opening time</label>
+    <description>The amount of seconds it takes for the door to open.\n\nSlow doors will slow down everyone who uses them.</description>
+    <category>Building</category>
+    <toStringStyle>FloatMaxTwo</toStringStyle>
+    <formatString>{0} s</formatString>
+    <displayPriorityInCategory>3104</displayPriorityInCategory>
+    <forInformationOnly>true</forInformationOnly>
+  </StatDef>
+
+  <!-- This is hidden if DoorOpenTime stat would show the same value -->
+  <StatDef>
+    <defName>PoweredDoorOpenTime</defName>
+    <workerClass>DoorsExpanded.StatWorker_DoorOpenTime</workerClass>
+    <label>powered door opening time</label>
+    <description>The amount of seconds it takes for the door to open if powered.\n\nSlow doors will slow down everyone who uses them.</description>
+    <category>Building</category>
+    <toStringStyle>FloatMaxTwo</toStringStyle>
+    <formatString>{0} s</formatString>
+    <displayPriorityInCategory>3103</displayPriorityInCategory>
+    <forInformationOnly>true</forInformationOnly>
+  </StatDef>
+
+  <!-- This is hidden if DoorOpenTime stat would show the same value -->
+  <StatDef>
+    <defName>UnpoweredDoorOpenTime</defName>
+    <workerClass>DoorsExpanded.StatWorker_DoorOpenTime</workerClass>
+    <label>unpowered door opening time</label>
+    <description>The amount of seconds it takes for the door to open if unpowered.\n\nSlow doors will slow down everyone who uses them.</description>
+    <category>Building</category>
+    <toStringStyle>FloatMaxTwo</toStringStyle>
+    <formatString>{0} s</formatString>
+    <displayPriorityInCategory>3102</displayPriorityInCategory>
+    <forInformationOnly>true</forInformationOnly>
+  </StatDef>
+
+</Defs>

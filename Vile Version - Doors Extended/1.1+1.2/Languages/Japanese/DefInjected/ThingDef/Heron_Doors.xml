@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--
+  ██████   ██████   ██████  ██████  ███████
+  ██   ██ ██    ██ ██    ██ ██   ██ ██
+  ██   ██ ██    ██ ██    ██ ██████  ███████
+  ██   ██ ██    ██ ██    ██ ██   ██      ██
+  ██████   ██████   ██████  ██   ██ ███████
+  -->
+
+  <!-- PH_DoorDouble/PH_DoorTriple's label & description default to Door's, and size suffix is auto-appended to label -->
+
+  <!-- PH_AutodoorDouble/PH_AutodoorTriple's label & description default to Door's, and size suffix is auto-appended to label -->
+
+  <PH_DoorJail.label>囚人用ドア</PH_DoorJail.label>
+  <PH_DoorJail.description>強力な鉄格子を持ちスライドさせて開閉する刑務所用の囚人部屋のドアです.</PH_DoorJail.description>
+
+  <!--
+   ██████ ██    ██ ██████  ████████  █████  ██ ███    ██ ███████
+  ██      ██    ██ ██   ██    ██    ██   ██ ██ ████   ██ ██
+  ██      ██    ██ ██████     ██    ███████ ██ ██ ██  ██ ███████
+  ██      ██    ██ ██   ██    ██    ██   ██ ██ ██  ██ ██      ██
+   ██████  ██████  ██   ██    ██    ██   ██ ██ ██   ████ ███████
+  -->
+
+  <HeronCurtainTribal.label>カーテン (部族)</HeronCurtainTribal.label> <!-- size suffix is auto-appended to label -->
+  <HeronCurtainTribal.description>部屋を隔てる手動扉です.カーテンは標準的なドアよりも素早く開く事ができますが,可燃性なのと換気口のように仕切られた空間同士の温度が通り抜けます.</HeronCurtainTribal.description>
+
+  <!-- HeronCurtainTribalDouble/HeronCurtainTribalTriple's label & description default to HeronCurtainTribal's, and size suffix is auto-appended to label -->
+
+  <!--
+   ██████   █████  ████████ ███████ ███████
+  ██       ██   ██    ██    ██      ██
+  ██   ███ ███████    ██    █████   ███████
+  ██    ██ ██   ██    ██    ██           ██
+   ██████  ██   ██    ██    ███████ ███████
+  -->
+
+  <!-- PH_GateDoubleThick's description defaults to Door's, and size suffix is auto-appended to label -->
+  <PH_GateDoubleThick.label>ゲート</PH_GateDoubleThick.label>
+
+  <!--
+  ██████  ██       █████  ███████ ████████     ██████   ██████   ██████  ██████  ███████
+  ██   ██ ██      ██   ██ ██         ██        ██   ██ ██    ██ ██    ██ ██   ██ ██
+  ██████  ██      ███████ ███████    ██        ██   ██ ██    ██ ██    ██ ██████  ███████
+  ██   ██ ██      ██   ██      ██    ██        ██   ██ ██    ██ ██    ██ ██   ██      ██
+  ██████  ███████ ██   ██ ███████    ██        ██████   ██████   ██████  ██   ██ ███████
+  -->
+
+  <PH_DoorBlastSingle.label>ブラストドア</PH_DoorBlastSingle.label> <!-- size suffix is auto-appended to label -->
+  <PH_DoorBlastSingle.description>損傷に対してはるかに弾力性のある重いドア。</PH_DoorBlastSingle.description> <!-- Google Translate -->
+
+  <PH_DoorBlastDoor.label>ブラストドア</PH_DoorBlastDoor.label> <!-- size suffix is auto-appended to label -->
+  <PH_DoorBlastDoor.description>損傷に対してはるかに弾力性のある重いドアのペア。</PH_DoorBlastDoor.description> <!-- Google Translate -->
+
+  <!-- PH_DoorThickBlastDoor's label & description default to PH_DoorBlastDoor's, and size suffix is auto-appended to label -->
+
+</LanguageData>

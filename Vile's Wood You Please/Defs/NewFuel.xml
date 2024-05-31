@@ -139,7 +139,7 @@
 		</thingCategories>
 		<stackLimit>75</stackLimit>
 	</ThingDef>
-	
+	  
 <!-- Seasoned is parent -->
 <ThingDef ParentName="SK_ResourceBase" Name="FirewoodSeasonedBase" Abstract="True">
 	<description>Wood logs cut into large, rough pieces of firewood. Hardwoods tend to burn longer than softwoods.</description>

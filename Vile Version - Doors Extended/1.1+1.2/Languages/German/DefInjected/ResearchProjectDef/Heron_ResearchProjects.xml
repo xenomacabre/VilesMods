@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ProjectHeron_Curtains.label>Einfache Vorhänge</ProjectHeron_Curtains.label>
+  <ProjectHeron_Curtains.description>Schaltet einfache Konstruktionstechniken zur Herstellung von Ringen, einfachen Haken und Stangen für die Herstellung von Vorhängen frei, die sich weitaus schneller öffnen als Standardtüren, jedoch die Temperaturen zwischen den Räumen langsam ablassen.</ProjectHeron_Curtains.description>
+
+  <ProjectHeron_PrisonDoors.label>Häftlingskontrolle</ProjectHeron_PrisonDoors.label>
+  <ProjectHeron_PrisonDoors.description>Bietet einfache Gefängnistüren, um die Insassen größtenteils zu schützen.</ProjectHeron_PrisonDoors.description>
+
+  <ProjectHeron_RemoteDoors.label>Fernbediente Türen</ProjectHeron_RemoteDoors.label>
+  <ProjectHeron_RemoteDoors.description>Schalte Fernbedienbare Türen für die ferngesteuerte Kontrolle sowie Knöpfe und Hebel frei, um sie zu kontrollieren.</ProjectHeron_RemoteDoors.description>
+
+  <ProjectHeron_Gates.label>Scharniere und Tore</ProjectHeron_Gates.label>
+  <ProjectHeron_Gates.description>Scharniere und Befestigungstechniken ermöglichen den Bau von Pendeltüren, z. B. großen Toren.</ProjectHeron_Gates.description>
+
+  <ProjectHeron_BlastDoors.label>Explosionsschutztüren</ProjectHeron_BlastDoors.label>
+  <ProjectHeron_BlastDoors.description>Ermöglicht die Herstellung von druckstoßabsorbierenden Türen.</ProjectHeron_BlastDoors.description>
+
+
+</LanguageData>

@@ -150,6 +150,7 @@
 		<commonality>0.4</commonality>
 		<naturalBiomes>
             <li MayRequire="vileheathen.mountainsmeadows">Prairie</li>
+			<li MayRequire="vileheathen.mountainsmeadows">MaquisShrubland</li>
 			<li>TemperateForest</li>
 			<li>TemperateSwamp</li>
 			<li>TropicalRainforest</li>
@@ -272,6 +273,7 @@
 		<commonality>0.13</commonality>
 		<naturalBiomes>
             <li MayRequire="vileheathen.mountainsmeadows">Prairie</li>
+			<li MayRequire="vileheathen.mountainsmeadows">MaquisShrubland</li>
 			<li>TemperateForest</li>
 			<li>TemperateSwamp</li>
 			<li>TropicalRainforest</li>
@@ -527,6 +529,7 @@
 		<breedingDurationInDays>2</breedingDurationInDays>
 		<commonality>0.8</commonality>
 		<naturalBiomes>
+			<li MayRequire="vileheathen.mountainsmeadows">MaquisShrubland</li>
 			<li>SeaIce</li>
 			<li>IceSheet</li>
 			<li>Tundra</li>
@@ -658,6 +661,7 @@
 		<naturalBiomes>
 			<li>TropicalRainforest</li>
 			<li>TropicalSwamp</li>
+			<li MayRequire="vileheathen.mountainsmeadows">MaquisShrubland</li>
 			<li>AridShrubland</li>
 			<li>TropicalArchipelago</li>
 			<li>TropicalArchipelago_Fresh</li>
@@ -885,6 +889,7 @@
 		<livesInRiver>true</livesInRiver>
 		<commonality>0.7</commonality>
 		<naturalBiomes>
+			<li MayRequire="vileheathen.mountainsmeadows">MaquisShrubland</li>
            	<li>SeaIce</li>
 			<li>IceSheet</li>
 			<li>Tundra</li>
@@ -1019,6 +1024,7 @@
 		<breedingDurationInDays>6</breedingDurationInDays>
 		<naturalBiomes>
 			<li MayRequire="vileheathen.mountainsmeadows">Prairie</li>
+			<li MayRequire="vileheathen.mountainsmeadows">MaquisShrubland</li>
 			<li>TemperateForest</li>
 			<li>TropicalRainforest</li>
 			<li>AridShrubland</li>
@@ -1279,6 +1285,7 @@
 		<commonality>0.12</commonality>
 		<naturalBiomes>
 			<li MayRequire="vileheathen.mountainsmeadows">Prairie</li>
+			<li MayRequire="vileheathen.mountainsmeadows">MaquisShrubland</li>
 			<li>TemperateForest</li>
 			<li>TropicalRainforest</li>
 			<li>TemperateArchipelago</li>
@@ -1519,6 +1526,7 @@
 		 <li MayRequire="vileheathen.mountainsmeadows">Prairie</li>
 		 <li MayRequire="vileheathen.mountainsmeadows">MontaneForest</li>
 		 <li MayRequire="vileheathen.mountainsmeadows">MontaneGrasslands</li>
+		 <li MayRequire="vileheathen.mountainsmeadows">MaquisShrubland</li>
             <li>SeaIce</li>
 			<li>IceSheet</li>
 			<li>Tundra</li>
@@ -1649,6 +1657,7 @@
 		<livesInRiver>true</livesInRiver>
 		<commonality>0.7</commonality>
 		<naturalBiomes>
+		<li MayRequire="vileheathen.mountainsmeadows">MaquisShrubland</li>
 			<li>BorealForest</li>
 			<li>TemperateForest</li>
 			<li>TropicalRainforest</li>

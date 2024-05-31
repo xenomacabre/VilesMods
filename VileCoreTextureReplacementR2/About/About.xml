@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Core Texture Replacement</name>
+	<name>Vile's Core Texture Replacement</name>
 	<author>VileHeathen</author>
 	<supportedVersions>
 		<li>1.2</li>
@@ -9,7 +9,7 @@
 	</supportedVersions>
 	<packageId>vitech.coretexturereplacement</packageId>
 	<description>
-
+A halfway house for textures.
 
 </description>
 <url></url>

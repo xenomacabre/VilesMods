@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PH_ButtonDisconnect>断开按钮或控制杆</PH_ButtonDisconnect>
+  <PH_ButtonDisconnectDesc>断开所有连接的按钮或控制杆。</PH_ButtonDisconnectDesc>
+  <PH_CannotOpenRemotelyWithoutPower>{0}需要远程打开电源。</PH_CannotOpenRemotelyWithoutPower>
+  <PH_UseButtonOrLever>使用按钮或控制杆</PH_UseButtonOrLever>
+  <PH_UseButtonOrLeverDesc>切换殖民者是否应该去激活或停用按钮或控制杆。</PH_UseButtonOrLeverDesc>
+  <PH_PowerNeeded>连接电源进行远程安全防护。</PH_PowerNeeded>
+  <PH_ButtonNeeded>连接按钮或控制杆进行远程安全防护。</PH_ButtonNeeded>
+  <PH_ButtonConnect>连接到按钮或控制杆</PH_ButtonConnect>
+  <PH_ButtonConnectDesc>立即将遥控门连接到按钮</PH_ButtonConnectDesc>
+  <PH_ButtonConnectSuccess>在 {0} 处成功设置新按钮或控制杆</PH_ButtonConnectSuccess>
+  <PH_ButtonConnectFailed>{0}无法设置新按钮</PH_ButtonConnectFailed>
+  <PH_ButtonUnlinked>在 {0} 取消链接先前连接的按钮或控制杆</PH_ButtonUnlinked>
+  <PH_ButtonUnlinkedUnspawned>取消链接先前连接的按钮或控制杆</PH_ButtonUnlinkedUnspawned>
+  <PH_UseButtonOrLeverNoConnection>必须连接到遥控门</PH_UseButtonOrLeverNoConnection>
+  <PH_UseButtonOrLeverNoPower>必须接通电源</PH_UseButtonOrLeverNoPower>
+  <PH_RemoteDoorSecuredRemotely>远程安全防护</PH_RemoteDoorSecuredRemotely>
+  <PH_RemoteDoorSecuredRemotelyDesc>启用此设置后，只能通过对应按钮远程开关此门，此门关闭时，将处于锁定状态，无法出入。 当此设置关闭时，任何人都可以像使用普通门一样自由开关此门。</PH_RemoteDoorSecuredRemotelyDesc>
+
+  <!-- Copied from JecsTools (note: using different translation key ("JT" => "PH") to avoid "duplicate keyed translation key" warnings) -->
+  <PH_PlaceWorker_OnTopOfWalls>必须安装在墙上。</PH_PlaceWorker_OnTopOfWalls>
+
+</LanguageData>

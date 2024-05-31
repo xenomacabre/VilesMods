@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PH_RemoteDoor>ボタンで遠くから開閉できます。</PH_RemoteDoor>
+  <PH_ButtonDisconnect>ボタンやレバーを解除</PH_ButtonDisconnect>
+  <PH_ButtonDisconnectDesc>接続されているボタンまたはレバーを解除します。</PH_ButtonDisconnectDesc>
+  <PH_CannotOpenRemotelyWithoutPower>{0}を遠隔操作で開く必要があります。</PH_CannotOpenRemotelyWithoutPower>
+  <PH_UseButtonOrLever>{0}を使用</PH_UseButtonOrLever>
+  <PH_UseButtonOrLeverDesc>入植者が{0}の操作をできるのか、できないかを切り替えます。</PH_UseButtonOrLeverDesc>
+  <PH_PowerNeeded>遠隔操作で安全を確保するために電源に接続してください。</PH_PowerNeeded>
+  <PH_ButtonNeeded>ボタンやレバーを接続して遠隔操作で安全を確保します。</PH_ButtonNeeded>
+  <PH_ButtonConnect>ボタンに接続</PH_ButtonConnect>
+  <PH_ButtonConnectDesc>離れていても操作できるように遠隔ドアをドアボタンやドアレバーに接続します。</PH_ButtonConnectDesc>
+  <PH_ButtonConnectFailed>新しい操作ボタン(座標:{0})に設定できませんでした</PH_ButtonConnectFailed>
+  <PH_UseButtonOrLeverNoConnection>遠隔操作するドアに接続する必要があります</PH_UseButtonOrLeverNoConnection>
+  <PH_UseButtonOrLeverNoPower>電源に接続する必要があります</PH_UseButtonOrLeverNoPower>
+  <PH_RemoteDoorSecuredRemotely>遠隔ドアを施錠</PH_RemoteDoorSecuredRemotely>
+  <PH_RemoteDoorSecuredRemotelyDesc>この設定がオンの場合、ドアは対応するボタンを押すことによってのみ遠隔操作で開くことができます。閉じられている間、ドアはロックされた状態、つまり出入り口とはならない状態になります。この設定がオフの場合、ポーン(人間や動物)は通常のドアのようにドアを自由に開閉できます。</PH_RemoteDoorSecuredRemotelyDesc>
+
+  <!-- Copied from JecsTools (note: using different translation key ("JT" => "PH") to avoid "duplicate keyed translation key" warnings) -->
+  <PH_PlaceWorker_OnTopOfWalls>壁に置く必要があります。</PH_PlaceWorker_OnTopOfWalls>
+
+</LanguageData>

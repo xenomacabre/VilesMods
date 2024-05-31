@@ -14,5 +14,10 @@
 			<li>OpenHearth</li>	
 		</value>
 	</Operation>
-
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_CookingStuff"]/defNames</xpath>
+		<value>
+			<li>PicklingStation</li>
+		</value>
+	</Operation>
 </Patch>

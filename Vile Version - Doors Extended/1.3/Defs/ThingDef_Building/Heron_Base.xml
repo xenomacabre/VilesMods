@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--
+  ========================= Base Doors =============================
+  
+  You don't need to use these as a base doors for your custom doors, but they're convenient to base off of.
+  Custom doors must define a "DoorsExpanded.CompProperties_DoorExpanded" comp - see Heron_Doors.xml for examples.
+  -->
+
+  <ThingDef ParentName="AbstractHeronDoorBase" Name="HeronClothDoorBase" Abstract="True">
+    <!-- Only cloth doors are minifiable by default. -->
+    <thingCategories>
+      <li>Buildings</li>
+    </thingCategories>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="AbstractHeronDoorBase" Name="HeronMetalDoorBase" Abstract="True">
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="AbstractHeronDoorBase" Name="HeronDoorBase" Abstract="True">
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+  </ThingDef>
+
+  <!-- Based off /Defs/ThingDefs[@Name="DoorBase"] - can't simply inherit from it, since there's no way to override its building.blueprintGraphicData with null. -->
+  <ThingDef Name="AbstractHeronDoorBase" ParentName="BuildingBase" Abstract="True">
+    <!-- Note: thingClass will be overriden in a DoorsExpanded.CompProperties_DoorExpanded, which must be defined. -->
+    <thingClass>DoorsExpanded.Building_DoorExpanded</thingClass>
+    <category>Building</category>
+    <altitudeLayer>DoorMoveable</altitudeLayer>
+    <fillPercent>1</fillPercent>
+    <useHitPoints>true</useHitPoints>
+    <!-- Note: Not using stuffCategories from /Defs/ThingDefs[@Name="DoorBase"] - they're defined in ThingDefs inheriting this. -->
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <selectable>true</selectable>
+    <tickerType>Normal</tickerType>
+    <!-- Note: rotatable should be false for 1x1 doors since they're auto-rotated. -->
+    <rotatable>true</rotatable>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <useStuffTerrainAffordance>true</useStuffTerrainAffordance>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Structure</designationCategory>
+    <holdsRoof>true</holdsRoof>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <drawerType>RealtimeOnly</drawerType>
+    <building>
+      <isInert>true</isInert>
+      <canPlaceOverWall>true</canPlaceOverWall>
+      <soundDoorOpenPowered>Door_OpenPowered</soundDoorOpenPowered>
+      <soundDoorClosePowered>Door_ClosePowered</soundDoorClosePowered>
+      <soundDoorOpenManual>Door_OpenManual</soundDoorOpenManual>
+      <soundDoorCloseManual>Door_CloseManual</soundDoorCloseManual>
+      <ai_chillDestination>false</ai_chillDestination>
+      <!-- Note: Not using blueprintClass or blueprintGraphicData from /Defs/ThingDefs[@Name="DoorBase"]
+           since we're patching Blueprint and want the default blueprintGraphicData. -->
+    </building>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_DoorLearnOpeningSpeed</li>
+    </placeWorkers>
+  </ThingDef>
+
+  <!--
+  ========================= Internal =============================
+  Doors Expanded doors are internally composed of these 1x1 invisible doors primarily for pathfinding purposes.
+  This is used for internal use only - do NOT reuse for other purposes.
+  -->
+  <ThingDef>
+    <defName>HeronInvisibleDoor</defName>
+    <label>(internal invisible door)</label> <!-- Note: This shouldn't need translation, since the user should never see this -->
+    <thingClass>DoorsExpanded.Building_DoorRegionHandler</thingClass>
+    <category>Building</category>
+    <thingCategories/>
+    <repairEffect>Repair</repairEffect>
+    <graphicData>
+      <texPath>BlankTex</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
+    </graphicData>
+    <!-- In case another mod makes invis doors minifiable (note: Minify Everything is already mitigated against in code)
+         and a mod like Home Mover needs to show ghost textures, specify a dummy blank uiIconPath for said ghost textures. -->
+    <uiIconPath>BlankTex</uiIconPath>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <fillPercent>0</fillPercent>
+    <useHitPoints>false</useHitPoints>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <selectable>false</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <isAutoAttackableMapObject>false</isAutoAttackableMapObject>
+    <tickerType>Normal</tickerType>
+    <rotatable>false</rotatable>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <drawerType>RealtimeOnly</drawerType>
+    <building>
+      <isEdifice>true</isEdifice>
+      <isInert>true</isInert>
+      <canPlaceOverWall>true</canPlaceOverWall>
+    </building>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+  </ThingDef>
+
+</Defs>
