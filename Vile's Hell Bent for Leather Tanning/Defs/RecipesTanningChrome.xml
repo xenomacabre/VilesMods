@@ -249,7 +249,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Hide_WaterproofSkin>25</Hide_WaterproofSkin>
+			<Leather_Waterproof>25</Leather_Waterproof>
 			<Leather_Scraps>125</Leather_Scraps>
 
 		</products>
