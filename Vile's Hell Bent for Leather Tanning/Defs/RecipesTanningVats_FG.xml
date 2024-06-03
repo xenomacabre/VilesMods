@@ -280,7 +280,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Hide_WaterproofSkin>5</Hide_WaterproofSkin>
+			<Leather_Waterproof>5</Leather_Waterproof>
 			<Leather_Scraps>5</Leather_Scraps>
 		</products>
 		<recipeUsers>
