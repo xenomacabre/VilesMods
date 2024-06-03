@@ -46,7 +46,7 @@ TIER: Neolithic
 + Excellent penetration
 - Somewhat cumbersome 
 
-A heavy javelin with a long, weighted spearhead meant for penetrating armor. Works well as a melee weapon, too. NOTE: Can only be cast manually. </description>
+A heavy javelin with a long, weighted spearhead meant for penetrating armor. Works well as a melee weapon, too. NOTE: Can only be cast manually.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Melee/TruePilum</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
