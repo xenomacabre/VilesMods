@@ -116,8 +116,8 @@
 		<recipeUsers>
 			<li>FueledStove</li>
 			<li>ElectricStove</li>
-			<li>Hearth</li>
-			<li>OpenHearth</li>
+			<li MayRequire="ViTech.HCSKamusebouche">Hearth</li>
+			<li MayRequire="ViTech.HCSKamusebouche">OpenHearth</li>
 		</recipeUsers>
 		<workSkill>Cooking</workSkill>
 		<researchPrerequisite>Bakery_B2</researchPrerequisite>
