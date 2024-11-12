@@ -7,6 +7,12 @@
 			<texPath>Things/Building/Doors/DoorRustic_Mover</texPath>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Door"]/statBases</xpath>
+		<value>
+			<DoorOpenSpeed>1.1</DoorOpenSpeed>
+		</value>
+	</Operation>
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName = "Door"]/uiIconPath</xpath>
 		<value>
@@ -24,6 +30,8 @@
 			</stuffCategories>
 		</value>
 	</Operation>
+
+	
     
 
 	<Operation Class="PatchOperationReplace">
@@ -49,6 +57,13 @@
 		<xpath>Defs/ThingDef[defName = "Autodoor"]/uiIconPath</xpath>
 		<value>
 			<uiIconPath>Things/Building/Doors/Autodoor_MenuIcon</uiIconPath>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "FenceGate"]/statBases/DoorOpenSpeed</xpath>
+		<value>
+			<DoorOpenSpeed>1.25</DoorOpenSpeed>
 		</value>
 	</Operation>
 	

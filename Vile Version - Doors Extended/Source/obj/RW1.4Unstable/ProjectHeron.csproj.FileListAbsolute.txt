@@ -1,0 +1,7 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Workspace\DoorsExpanded\Source\obj\RW1.4Unstable\ProjectHeron.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Workspace\DoorsExpanded\Source\obj\RW1.4Unstable\ProjectHeron.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Workspace\DoorsExpanded\Source\obj\RW1.4Unstable\ProjectHeron.AssemblyInfoInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Workspace\DoorsExpanded\Source\obj\RW1.4Unstable\ProjectHeron.AssemblyInfo.cs
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Workspace\DoorsExpanded\Source\obj\RW1.4Unstable\ProjectHeron.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Workspace\DoorsExpanded\1.4\Assemblies\DoorsExpanded.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Workspace\DoorsExpanded\Source\obj\RW1.4Unstable\DoorsExpanded.dll

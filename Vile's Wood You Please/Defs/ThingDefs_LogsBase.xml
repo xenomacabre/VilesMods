@@ -40,9 +40,10 @@
 				<!--<color>(149,103,65)</color>-->
 				<constructEffect>ConstructWood</constructEffect>
 				<appearance>Planks</appearance>
-				<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+				<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
 				<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
 				<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+				<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
 				<!--<statOffsets>
 					<Beauty>2</Beauty>
 				</statOffsets>-->
@@ -125,9 +126,10 @@
 					<!--<color>(149,103,65)</color>-->
 					<constructEffect>ConstructWood</constructEffect>
 					<appearance>Planks</appearance>
-					<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+					<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
 					<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
 					<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+					<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
 					<!--<statOffsets>
 						<Beauty>2</Beauty>
 					</statOffsets>-->

@@ -70,7 +70,7 @@
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>900</basePowerConsumption>
+				<basePowerConsumption>800</basePowerConsumption>
 				<shortCircuitInRain>False</shortCircuitInRain>
 			</li>
 			<li Class="CompProperties_Glower">
@@ -86,7 +86,7 @@
 			</li>
 			<li Class="SK.CompProperties_LowIdleDraw">
 				<compClass>SK.CompPowerLowIdleDraw</compClass>
-				<idlePowerFactor>0.1</idlePowerFactor>
+				<idlePowerFactor>0.4</idlePowerFactor>
 			</li>
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
@@ -177,12 +177,16 @@
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>1900</basePowerConsumption>
+				<basePowerConsumption>2000</basePowerConsumption>
 				<shortCircuitInRain>false</shortCircuitInRain>
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>1</glowRadius>
 				<glowColor>(237,60,33,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_LowIdleDraw">
+				<compClass>SK.CompPowerLowIdleDraw</compClass>
+				<idlePowerFactor>0.1</idlePowerFactor>
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
@@ -319,7 +323,7 @@
 			</li>
 			<li Class="SK.CompProperties_LowIdleDraw">
 				<compClass>SK.CompPowerLowIdleDraw</compClass>
-				<idlePowerFactor>0.1</idlePowerFactor>
+				<idlePowerFactor>0.25</idlePowerFactor>
 			</li>
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
@@ -348,7 +352,7 @@
     <ThingDef ParentName="WorkTable">
 		<defName>ChemistryLab</defName>
 		<label>Chemistry Station</label>
-		<description>A table and all the tools needed for mixing and manipulated chemicals. If connected to an electric loom, advanced textiles can be made here. Constructed of corrosion-resistant materials.</description>
+		<description>A table and all the tools needed for mixing and manipulated chemicals. Constructed of corrosion-resistant materials.</description>
         <drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/ChemStation/Lab</texPath>

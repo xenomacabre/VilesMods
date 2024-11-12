@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ██████   ██████   ██████  ██████  ███████
+    ██   ██ ██    ██ ██    ██ ██   ██ ██
+    ██   ██ ██    ██ ██    ██ ██████  ███████
+    ██   ██ ██    ██ ██    ██ ██   ██      ██
+    ██████   ██████   ██████  ██   ██ ███████ -->
+
+  <PH_DoorDouble.label>drzwi (1x2)</PH_DoorDouble.label>
+  <PH_DoorDouble.description>Rozdzielają pomieszczenia. Muszą zostać otwarte i zamknięte, co spowalnia ruch.</PH_DoorDouble.description>
+
+  <PH_DoorTriple.label>drzwi (1x3)</PH_DoorTriple.label>
+  <PH_DoorTriple.description>Rozdzielają pomieszczenia. Muszą zostać otwarte i zamknięte, co spowalnia ruch.</PH_DoorTriple.description>
+
+  <PH_DoorJail.label>więzienne drzwi</PH_DoorJail.label>
+  <PH_DoorJail.description>Przesuwane więzienne drzwi z mocnymi kratami.</PH_DoorJail.description>
+
+
+  <!-- ██████ ██    ██ ██████  ████████  █████  ██ ███    ██ ███████
+  ██      ██    ██ ██   ██    ██    ██   ██ ██ ████   ██ ██
+  ██      ██    ██ ██████     ██    ███████ ██ ██ ██  ██ ███████
+  ██      ██    ██ ██   ██    ██    ██   ██ ██ ██  ██ ██      ██
+   ██████  ██████  ██   ██    ██    ██   ██ ██ ██   ████ ███████ -->
+
+  <HeronCurtainTribal.label>kurtyna (plemienna)</HeronCurtainTribal.label>
+  <HeronCurtainTribal.description>Rozdziela pomieszczenia. Kurtyny otwierają się szybciej niż zwykłe drzwi, ale są łatwopalne i powoli przepuszczają temperatury z innych pomieszczeń.</HeronCurtainTribal.description>
+
+
+  <!-- ██████   █████  ████████ ███████ ███████
+  ██       ██   ██    ██    ██      ██
+  ██   ███ ███████    ██    █████   ███████
+  ██    ██ ██   ██    ██    ██           ██
+   ██████  ██   ██    ██    ███████ ███████ -->
+
+  <PH_GateDoubleThick.label>brama (1x2)</PH_GateDoubleThick.label>
+  <PH_GateDoubleThick.description>Rozdziela pomieszczenia. Musi zostać otwarta i zamknięta, co spowalnia ruch.</PH_GateDoubleThick.description>
+
+
+  <!-- ██████  ██       █████  ███████ ████████     ██████   ██████   ██████  ██████  ███████
+  ██   ██ ██      ██   ██ ██         ██        ██   ██ ██    ██ ██    ██ ██   ██ ██
+  ██████  ██      ███████ ███████    ██        ██   ██ ██    ██ ██    ██ ██████  ███████
+  ██   ██ ██      ██   ██      ██    ██        ██   ██ ██    ██ ██    ██ ██   ██      ██
+  ██████  ███████ ██   ██ ███████    ██        ██████   ██████   ██████  ██   ██ ███████ -->
+
+  <PH_DoorBlastDoor.label>drzwi pancerne (1x2)</PH_DoorBlastDoor.label>
+  <PH_DoorBlastDoor.description>Ciężkie drzwi, które mają podwójną odporność na wybuchy i potrójną odporność na tępę i ostre bronie.</PH_DoorBlastDoor.description>
+
+  <PH_DoorThickBlastDoor.description>Ciężkie drzwi, które mają podwójną odporność na wybuchy i potrójną odporność na tępę i ostre bronie.</PH_DoorThickBlastDoor.description>
+  <PH_DoorThickBlastDoor.label>drzwi pancerne (2x3)</PH_DoorThickBlastDoor.label>
+
+
+</LanguageData>

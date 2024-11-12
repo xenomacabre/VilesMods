@@ -15,6 +15,7 @@
 			<BurnDurationHours>0.8</BurnDurationHours>
 			<Mass>0.18</Mass>
 		</statBases>
+		<stackLimit>300</stackLimit>
 		<stuffProps>	
 			<appearance>Planks</appearance>		
 			<stuffAdjective>cecropia</stuffAdjective>
@@ -39,6 +40,7 @@
 			<BurnDurationHours>0.8</BurnDurationHours>
 			<Mass>0.23</Mass>
 		</statBases>
+		<stackLimit>300</stackLimit>
 		<stuffProps>	
 			<appearance>Planks</appearance>		
 			<stuffAdjective>pine</stuffAdjective>
@@ -63,6 +65,7 @@
 			<BurnDurationHours>0.85</BurnDurationHours>
 			<Mass>0.25</Mass>
 		</statBases>
+		<stackLimit>300</stackLimit>
 		<stuffProps>	
 			<appearance>Planks</appearance>			
 			<stuffAdjective>willow</stuffAdjective>
@@ -82,6 +85,7 @@
 		<graphicData>
 			<texPath>Things/VileWood/NewPlanksStacked</texPath>	
 		</graphicData>
+		<stackLimit>300</stackLimit>
 		<statBases>
 			<MarketValue>3.5</MarketValue>
 			<BurnDurationHours>0.95</BurnDurationHours>
@@ -106,6 +110,7 @@
 		<graphicData>
 			<texPath>Things/VileWood/NewPlanksStacked</texPath>	
 		</graphicData>
+		<stackLimit>300</stackLimit>
 		<statBases>
 			<MarketValue>1.3</MarketValue>
 			<BurnDurationHours>0.9</BurnDurationHours>
@@ -130,6 +135,7 @@
 		<graphicData>
 			<texPath>Things/VileWood/NewPlanksStacked</texPath>	
 		</graphicData>
+	<stackLimit>300</stackLimit>
 		<statBases>
 			<MarketValue>1.3</MarketValue>
 			<BurnDurationHours>0.9</BurnDurationHours>
@@ -160,6 +166,7 @@
 			<BurnDurationHours>1.0</BurnDurationHours>
 			<Mass>0.34</Mass>
 		</statBases>
+		<stackLimit>300</stackLimit>
 		<stuffProps>	
 			<appearance>Planks</appearance>	
 			<stuffAdjective>maple</stuffAdjective>
@@ -184,6 +191,7 @@
 			<BurnDurationHours>1.0</BurnDurationHours>
 			<Mass>0.36</Mass>
 		</statBases>
+		<stackLimit>300</stackLimit>
 		<stuffProps>	
 			<appearance>Planks</appearance>	
 			<stuffAdjective>teak</stuffAdjective>
@@ -209,6 +217,7 @@
 			<BurnDurationHours>1.1</BurnDurationHours>
 			<Mass>0.36</Mass>
 		</statBases>
+		<stackLimit>300</stackLimit>
 		<stuffProps>	
 			<appearance>Planks</appearance>	
 			<stuffAdjective>birch</stuffAdjective>
@@ -228,6 +237,7 @@
 		<graphicData>
 			<texPath>Things/VileWood/NewPlanksStacked</texPath>			
 		</graphicData>
+		<stackLimit>300</stackLimit>
 		<statBases>
 			<MarketValue>1.9</MarketValue>
 			<BurnDurationHours>1.1</BurnDurationHours>
@@ -258,6 +268,7 @@
 			<BurnDurationHours>1.2</BurnDurationHours>
 			<Mass>0.48</Mass>
 		</statBases>
+		<stackLimit>300</stackLimit>
 		<stuffProps>	
 			<appearance>Planks</appearance>	
 			<stuffAdjective>acacia</stuffAdjective>
@@ -283,6 +294,7 @@
 			<BurnDurationHours>1.1</BurnDurationHours>
 			<Mass>0.56</Mass>
 		</statBases>
+		<stackLimit>300</stackLimit>
 		<stuffProps>	
 			<appearance>Planks</appearance>	
 			<stuffAdjective>dragonwood</stuffAdjective>
@@ -308,6 +320,7 @@
 			<BurnDurationHours>1.1</BurnDurationHours>
 			<Mass>0.54</Mass>
 		</statBases>
+		<stackLimit>300</stackLimit>
 		<stuffProps>
 			<appearance>Planks</appearance>			
 			<stuffAdjective>mangrove</stuffAdjective>
@@ -362,7 +375,10 @@
 			<color>(255,214,189)</color>
 			<constructEffect>ConstructWood</constructEffect>
 			<appearance>Planks</appearance>
-			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
 			<stuffAdjective>chipboard</stuffAdjective>
 			<statOffsets>
 				<Beauty>-2</Beauty>

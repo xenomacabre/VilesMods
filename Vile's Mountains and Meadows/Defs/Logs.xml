@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef Name="HolmOakLog" ParentName="OakLog">
+		<defName>HolmOakLog</defName>
+		<label>holm oak log</label>
+		<description>The saying "Strong as an oak" also pertains to the lumber. This variety of oak from the holm oak tree.</description>
+		<graphicData>
+			<color>(138,114,76)</color>
+		</graphicData>
+		<stuffProps>
+			<stuffAdjective>holm oak log</stuffAdjective>
+			<color>(184, 126, 18)</color>
+		</stuffProps>
+		<butcherProducts>
+			<TreeBark MayRequire="vitech.leathertanning">35</TreeBark>
+			<Kindling>15</Kindling>
+			<Seed_TreeHolmOak>1</Seed_TreeHolmOak>
+		</butcherProducts>
+	</ThingDef>	
+<ThingDef Name="UmbrellaPineLog" ParentName="PineLog">
+		<defName>StonePineLog</defName>
+		<label>stonepine log</label>
+		<graphicData>
+			<color>(194, 142, 74)</color>
+		</graphicData>
+		<stuffProps>
+			<stuffAdjective>stone pine log</stuffAdjective>
+			<color>(194, 142, 74)</color>
+		</stuffProps>
+		<butcherProducts>
+			<Pitch>40</Pitch>
+			<TreeBark MayRequire="vitech.leathertanning">20</TreeBark>
+			<Kindling>15</Kindling>
+			<Seed_StonePine>1</Seed_StonePine>
+		</butcherProducts>
+	</ThingDef>	
+
+<!--	<ThingDef Name="HolmOakLog" ParentName="HardwoodLogBase">
+		<defName>HolmOakLog</defName>
+		<label>holm oak log</label>
+		<description>A variety of oak from the holm oak tree. Harder than the deciduous red or white oak.</description>
+		<graphicData>
+			<color>(138,114,76)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>7</MarketValue>
+			<StuffPower_Armor_Blunt>0.5</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.65</StuffPower_Armor_Sharp>
+			<SharpDamageMultiplier>0.45</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+			<BurnDurationHours>3.5</BurnDurationHours>
+			<Mass>2.3</Mass>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Hardwoods</li>
+   			</categories>
+			<stuffAdjective>holm oak log</stuffAdjective>
+			<color>(138,114,76)</color>
+			<statOffsets>
+				<Beauty>1.5</Beauty>
+				<BurnDurationHours>0.5</BurnDurationHours>
+			</statOffsets>
+			<statFactors>
+				<DoorOpenSpeed>1.14</DoorOpenSpeed>
+				<MaxHitPoints>1.2</MaxHitPoints>
+				<Flammability>1</Flammability>
+				<Beauty>1.5</Beauty>
+				<WorkToMake>1.2</WorkToMake>
+				<WorkToBuild>1.2</WorkToBuild>
+				<MarketValue>1.17</MarketValue>
+				<BedRestEffectiveness>1.2</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.05</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.6</WorkTableWorkSpeedFactor>
+				<Mass>0.85</Mass>
+			</statFactors>
+		</stuffProps>
+		<butcherProducts>
+			<TreeBark MayRequire="vitech.leathertanning">35</TreeBark>
+			<Kindling>15</Kindling>
+			<Seed_TreeHolmOak>1</Seed_TreeHolmOak>
+		</butcherProducts>
+	</ThingDef>	
+
+	<ThingDef Name="HolmOakPlank" ParentName="HolmOakLog">
+		<defName>HolmOakPlank</defName>
+		<label>holm oak plank</label>
+		<graphicData>
+			<texPath>Things/VileWood/NewPlanksStacked</texPath>			
+		</graphicData>
+		<statBases>
+			<MarketValue>1.9</MarketValue>
+			<BurnDurationHours>1.2</BurnDurationHours>
+			<Mass>0.48</Mass>
+		</statBases>
+		<stuffProps>	
+			<appearance>Planks</appearance>	
+			<stuffAdjective>oak</stuffAdjective>
+			<categories Inherit="False">
+				<li>Woody</li>
+				<li>HardwoodLumber</li>
+   			</categories>
+		</stuffProps>
+		<thingCategories Inherit="False">
+			<li>HardwoodLumber</li>
+		</thingCategories>
+	</ThingDef>
+-->
+<!--
+<ThingDef Name="StonePineLog" ParentName="SoftwoodLogBase">
+		<defName>StonePineLog</defName>
+		<label>stone pine log</label>
+		<description>Pine is a common building material where durability isn't so important. It's lightweight, and attractive, and is easy to work with.</description>
+		<graphicData>
+			<color>(244,183,79)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>5</MarketValue>
+			<StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.45</StuffPower_Armor_Sharp>
+			<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>
+			<BurnDurationHours>2.4</BurnDurationHours>
+			<Mass>1.15</Mass>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Softwoods</li>
+   			</categories>
+			<stuffAdjective>pine log</stuffAdjective>
+			<color>(244,183,79)</color>
+			<statOffsets>
+				<Beauty>2</Beauty>
+				<BurnDurationHours>0</BurnDurationHours>
+			</statOffsets>
+			<statFactors>
+				<DoorOpenSpeed>1.7</DoorOpenSpeed>
+				<BurnDurationHours>2.4</BurnDurationHours>
+				<MaxHitPoints>0.65</MaxHitPoints>
+				<Flammability>0.7</Flammability>
+				<Beauty>1.75</Beauty>
+				<WorkToMake>0.35</WorkToMake>
+				<WorkToBuild>0.35</WorkToBuild>
+				<MarketValue>0.78</MarketValue>
+				<BedRestEffectiveness>1.32</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.0</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.6</WorkTableWorkSpeedFactor>
+				<Mass>0.37</Mass>
+			</statFactors>
+		</stuffProps>
+		<butcherProducts>
+			<Pitch>50</Pitch>
+			<TreeBark MayRequire="vitech.leathertanning">20</TreeBark>
+			<Kindling>10</Kindling>
+			<Seed_TreePine>1</Seed_TreePine>
+		</butcherProducts>
+	</ThingDef>
+
+ -->
+  
+</Defs>

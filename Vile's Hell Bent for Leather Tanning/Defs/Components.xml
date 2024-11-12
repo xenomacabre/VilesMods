@@ -123,9 +123,10 @@
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(245,189,109)</color>
 			<commonality>0.1</commonality>
-			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
 			<statFactors>
 				<MaxHitPoints>0.9</MaxHitPoints>
 				<Beauty>0.8</Beauty>
@@ -187,9 +188,10 @@
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(127,81,18)</color>
 			<commonality>0.1</commonality>
-			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
 			<statFactors>
 				<MaxHitPoints>1.2</MaxHitPoints>
 				<Beauty>0.8</Beauty>
@@ -251,9 +253,10 @@
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(210,140,20)</color>
 			<commonality>0.5</commonality>
-		<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+		<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
 			<statFactors>
 				<MaxHitPoints>1.55</MaxHitPoints>
 				<Beauty>0.8</Beauty>
@@ -317,9 +320,10 @@
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(50,190,122)</color>
 			<commonality>0.05</commonality>
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
 			<statFactors>
 				<MaxHitPoints>1.7</MaxHitPoints>
 				<Beauty>1.0</Beauty>

@@ -13,8 +13,30 @@
 					<li>PlayerGuild</li>
 				</value>
 			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/FactionDef[defName="ImperialLegion"]/apparelStuffFilter</xpath>
+				<value>
+					<apparelStuffFilter>
+						<categories>
+							<li>Leathers</li>
+						</categories>
+						<thingDefs>
+							<li>Flaxcloth</li>
+							<li>WoolDromedary</li>
+							<li>WoolAlpaca</li>
+							<li>WoolSheep</li>
+							<li>Bronze</li>
+							<li>WroughtIron</li>
+							<li>ForgedSteel</li>
+						</thingDefs>
+					</apparelStuffFilter>
+				</value>
+			</li>
 
 		</operations>
 		</match>
     </Operation>	
+	
+	
 </Patch>	

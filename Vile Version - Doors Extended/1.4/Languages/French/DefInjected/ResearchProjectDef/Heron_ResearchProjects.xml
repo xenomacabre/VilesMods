@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ProjectHeron_Curtains.label>Rideaux</ProjectHeron_Curtains.label>
+  <ProjectHeron_Curtains.description>Déverrouille des techniques de construction simples pour fabriquer des anneaux, des crochets simples et des tringles pour fabriquer des rideaux qui s'ouvrent beaucoup plus rapidement que les portes standard, mais libèrent lentement les températures entre les pièces.</ProjectHeron_Curtains.description>
+
+  <ProjectHeron_PrisonDoors.label>Portes de prison</ProjectHeron_PrisonDoors.label>
+  <ProjectHeron_PrisonDoors.description>Fournit des portes de prison simples pour protéger les détenus.</ProjectHeron_PrisonDoors.description>
+
+  <ProjectHeron_RemoteDoors.label>Portes automatique</ProjectHeron_RemoteDoors.label>
+  <ProjectHeron_RemoteDoors.description>Déverrouille les portes automatique ainsi que les télécommandes pour les contrôler.</ProjectHeron_RemoteDoors.description>
+
+  <ProjectHeron_Gates.label>Portails</ProjectHeron_Gates.label>
+  <ProjectHeron_Gates.description>Les charnières et les techniques de fixation permettent de construire des portes battantes.</ProjectHeron_Gates.description>
+
+  <ProjectHeron_BlastDoors.label>Portes anti-souffle</ProjectHeron_BlastDoors.label>
+  <ProjectHeron_BlastDoors.description>Permet la fabrication de portes résistantes aux explosions.</ProjectHeron_BlastDoors.description>
+
+</LanguageData>

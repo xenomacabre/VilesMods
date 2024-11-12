@@ -53,7 +53,7 @@ MaxaMet is an ultra-hard high-speed tool steel (HSS). It's just shy of the hardn
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(233,211,255)</color>
 			<commonality>0.4</commonality>
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -147,7 +147,7 @@ Possibly coined for its use in the aerospace industry, Aermet is the highest-rat
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(221,232,190)</color>
 			<commonality>0.4</commonality> 
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -241,7 +241,7 @@ Pyromet is a nickel-chromium stainless steel superalloy, useful for producing co
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(176,131,136)</color>
 			<commonality>0.5</commonality> 
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -335,7 +335,7 @@ Stellite is a superalloy of cobalt and chromium, an important material for turbi
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(128,126,176)</color>
 			<commonality>0.4</commonality> 
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -429,7 +429,7 @@ Nimonic is a nickel-based superalloy used for components needed for high-tempera
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(175,159,131)</color>
 			<commonality>0.4</commonality> 
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -523,7 +523,7 @@ Perhaps more commmonly known as silicon carbide, this diamond-hard ceramic is co
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(83,112,106)</color>
 			<commonality>0.6</commonality> 
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -617,7 +617,7 @@ Cemented tungsten carbide is a very hard, dense material often used for tools â€
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(89,90,91)</color>
 			<commonality>0.4</commonality> 
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -712,7 +712,7 @@ Tennalum is a high-grade variety of 7068 Aluminium, perhaps the strongest alumin
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(155,231,255)</color>
 			<commonality>0.4</commonality> 
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -810,7 +810,7 @@ Also known as Ti-6Al-4V or more commonly Grade 5 Titanium, it's alloyed with Alu
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(243,255,255)</color>
 			<commonality>0.4</commonality> 
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -905,7 +905,7 @@ Half Nickel, half titanium. It's an important alloy used for high tech actuators
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(255,225,193)</color>
 			<commonality>0.3</commonality> 
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>

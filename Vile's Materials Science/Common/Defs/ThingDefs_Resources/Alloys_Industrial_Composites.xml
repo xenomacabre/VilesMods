@@ -54,7 +54,7 @@ High-density polyethylene is one of the three main commodity plastics. It can be
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(248,248,239)</color>
 			<commonality>0.5</commonality>
-			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<statFactors>
@@ -263,7 +263,7 @@ Plexiglass is transparent Polymethyl methacrylate, or acrylic glass. It's strong
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>RGBA(179,234,255,200)</color>
 			<commonality>0.25</commonality>
-			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<statFactors>
@@ -357,7 +357,7 @@ Riding the line between a commodity and engineering plastic, Acrylonitrile-butad
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(41,55,57)</color>
 			<commonality>0.25</commonality>
-			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<statFactors>
@@ -455,7 +455,7 @@ Polycarbonate is a clear plastic which is often used for bulletproof glass and r
 			<color>RGBA(255,85,50,220)</color>
 			<!--<color>(255,85,50)</color>-->
 			<commonality>0.25</commonality>
-			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<statFactors>
@@ -551,7 +551,7 @@ Glass-fiber reinforced plastic is a composite material of glass fibers set into 
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(255,246,145)</color>
 			<commonality>0.35</commonality>
-			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<statFactors>
@@ -629,7 +629,7 @@ Glass-fiber reinforced plastic is a composite material of glass fibers set into 
 			<color>RGBA(244,245,233,200)</color>
 			<constructEffect>ConstructMetal</constructEffect>
 			<appearance>GlassGL</appearance>
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<statFactors>
 				<MaxHitPoints>2.25</MaxHitPoints>
 				<Beauty>1.75</Beauty>

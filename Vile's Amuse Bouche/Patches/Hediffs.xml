@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HediffDef[defName = "GoodHappy"]/label</xpath>
+		<value>
+		 	<label>Sweetened beverage</label>
+		</value>
+  	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HediffDef[defName = "GoodHappy"]/description</xpath>
+		<value>
+		 	<description>Had a sweetened non-alcoholic beverage.</description>
+		</value>
+  	</Operation>
+	
+</Patch>

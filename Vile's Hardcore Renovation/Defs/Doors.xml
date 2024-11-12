@@ -2,18 +2,17 @@
 <Defs>
 	<ThingDef ParentName="SK_DoorBase">
 		<defName>DoorBarn</defName>
-		<label>barn door</label>
-		<description>Animals can pass through this door. Lock it to close it for the winter.</description>
+		<label>top-hung door</label>
+		<description>A simple sliding door with a barn aesthetic. Heavier than a normal door and opens slower.</description>
 		<statBases>
-			<MaxHitPoints>180</MaxHitPoints>
-			<WorkToBuild>400</WorkToBuild>
+			<MaxHitPoints>220</MaxHitPoints>
+			<WorkToBuild>600</WorkToBuild>
+			<DoorOpenSpeed>1</DoorOpenSpeed>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Building/Doors/DoorBarn_Mover</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<damageData>
-				<!--  no damage marks because they don't move with the door
-        <rect>(0,0.12,1,0.76)</rect>-->
 				<enabled>false</enabled>
 			</damageData>
 		</graphicData>
@@ -24,13 +23,13 @@
 			<li>UltrahardwoodLumber</li>
 			<li>EngineeredLumber</li>
 		</stuffCategories>
-		<building>
-		  <roamerCanOpen>true</roamerCanOpen>
-		</building>
-		<costStuffCount>10</costStuffCount>
-		<costList>
+		<costStuffCount>20</costStuffCount>
+		<!--<costList>
 			<ComponentMedieval>1</ComponentMedieval>
-		</costList>
+		</costList>-->
+		<!--<building>
+		  <roamerCanOpen>true</roamerCanOpen>
+		</building>-->
 	</ThingDef>
 
 	<ThingDef ParentName="SK_DoorBase">
@@ -38,17 +37,15 @@
 		<label>ornate door</label>
 		<description>A door with ornate hinges and reinforced with metal bands.</description>
 		<statBases>
-			<MaxHitPoints>250</MaxHitPoints>
-			<WorkToBuild>900</WorkToBuild>
-			<Beauty>5</Beauty>
-			<DoorOpenSpeed>0.9</DoorOpenSpeed>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>1200</WorkToBuild>
+			<Beauty>6</Beauty>
+			<DoorOpenSpeed>0.85</DoorOpenSpeed>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Building/Doors/DoorOrnate_Mover</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<damageData>
-				<!--  no damage marks because they don't move with the door
-        <rect>(0,0.12,1,0.76)</rect>-->
 				<enabled>false</enabled>
 			</damageData>
 		</graphicData>
@@ -59,7 +56,7 @@
 			<li>UltrahardwoodLumber</li>
 			<li>EngineeredLumber</li>
 		</stuffCategories>
-		<costStuffCount>20</costStuffCount>
+		<costStuffCount>30</costStuffCount>
 		<costList>
 			<ComponentMedieval>5</ComponentMedieval>
 		</costList>
@@ -69,7 +66,7 @@
 		<label>palisade fence gate</label>
 		<description>A strong gate made of wooden logs.</description>
 		<statBases>
-			<MaxHitPoints>250</MaxHitPoints>
+			<MaxHitPoints>300</MaxHitPoints>
 			<WorkToBuild>500</WorkToBuild>
 			<DoorOpenSpeed>0.75</DoorOpenSpeed>
 		</statBases>

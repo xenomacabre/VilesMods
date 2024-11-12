@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PH_DoorButton.label>Türknopf</PH_DoorButton.label>
+  <PH_DoorButton.description>Eine Taste, die mit Türen verbunden wird (funktioniert wie ein Hebel).</PH_DoorButton.description>
+  <PH_DoorButton_Blueprint.label>Türknopf (Entwurf)</PH_DoorButton_Blueprint.label>
+  <PH_DoorButton_Frame.label>Türknopf (im Bau)</PH_DoorButton_Frame.label>
+  <PH_DoorButton_Frame.description>Eine Taste, die mit Türen verbunden wird (funktioniert wie ein Hebel).</PH_DoorButton_Frame.description>
+
+  <PH_DoorLever.label>Türhebel</PH_DoorLever.label>
+  <PH_DoorLever.description>Ein Hebel, der mit Türen verbunden wird (funktioniert wie ein Knopf).</PH_DoorLever.description>
+  <PH_DoorLever_Blueprint.label>Türhebel (Entwurf)</PH_DoorLever_Blueprint.label>
+  <PH_DoorLever_Frame.label>Türhebel (im Bau)</PH_DoorLever_Frame.label>
+  <PH_DoorLever_Frame.description>Ein Hebel, der mit Türen verbunden wird(funktioniert wie ein Knopf).</PH_DoorLever_Frame.description>
+
+  <PH_DoorRemoteSingle.label>Fernbedienbare Tür (1x1)</PH_DoorRemoteSingle.label>
+  <PH_DoorRemoteSingle.description>Vertikale Metallschiebetür. Teilt Räume. Kann mit einem Knopf aus der Ferne geöffnet und geschlossen werden.</PH_DoorRemoteSingle.description>
+
+  <PH_DoorRemoteDouble.label>Fernbedienbare Tür (2x1)</PH_DoorRemoteDouble.label>
+  <PH_DoorRemoteDouble.description>Vertikale Metallschiebetür. Teilt Räume. Kann mit einem Knopf aus der Ferne geöffnet und geschlossen werden..</PH_DoorRemoteDouble.description>
+
+</LanguageData>

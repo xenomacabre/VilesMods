@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Soup.label>Суп</Soup.label>
+  <Soup.description>.8 питательности
+ Совет: если вы разбавите еду водой, она сохранится дольше.</Soup.description>
+
+  <Gruel.label>Каша</Gruel.label>
+  <Gruel.description>.7 питательности
+ Разбавленная каша. Мерзко, если только ты не крестьянин.</Gruel.description>
+
+
+</LanguageData>

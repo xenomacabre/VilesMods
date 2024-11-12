@@ -14,8 +14,78 @@
 	      <MarketValue>6</MarketValue>
 	    </statBases>
 	</SeedsPlease.SeedDef>
+	
+	 <SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_TreeHolmOak</defName>
+		<label>holm oak tree seeds</label>
+		<sources>
+			<li>Plant_TreeHolmOak</li>
+		</sources>
+		<graphicData><texPath>Things/Item/Seeds/SeedsHolmOak</texPath></graphicData>
+	    <statBases>
+	      <MarketValue>6</MarketValue>
+	    </statBases>
+	</SeedsPlease.SeedDef>
+	
+	 <SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_StonePine</defName>
+		<label>umbrella pine tree seeds</label>
+		<sources>
+			<li>Plant_TreeStonePine</li>
+		</sources>
+		<graphicData><texPath>Things/Item/Seeds/SeedsStonePine</texPath></graphicData>
+	    <statBases>
+	      <MarketValue>6</MarketValue>
+	    </statBases>
+	</SeedsPlease.SeedDef>
+	
+	 <SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_BroomShrub</defName>
+		<label>broom shrub seeds</label>
+		<sources>
+			<li>Plant_BroomShrub</li>
+		</sources>
+		<graphicData><texPath>Things/Item/Seeds/SeedsBroomShrub</texPath></graphicData>
+	    <statBases>
+	      <MarketValue>6</MarketValue>
+	    </statBases>
+	</SeedsPlease.SeedDef>
+	
+	 <SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_Myrtle</defName>
+		<label>myrtle seeds</label>
+		<sources>
+			<li>Plant_Myrtle</li>
+		</sources>
+		<graphicData><texPath>Things/Item/Seeds/SeedsMyrtle</texPath></graphicData>
+	    <statBases>
+	      <MarketValue>6</MarketValue>
+	    </statBases>
+	</SeedsPlease.SeedDef>
 
-
+ <SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_TreeLaurel</defName>
+		<label>laurel tree seeds</label>
+		<sources>
+			<li>Plant_TreeLaurel</li>
+		</sources>
+		<graphicData><texPath>Things/Item/Seeds/SeedsLaurel</texPath></graphicData>
+	    <statBases>
+	      <MarketValue>6</MarketValue>
+	    </statBases>
+	</SeedsPlease.SeedDef>
+	
+	 <SeedsPlease.SeedDef ParentName="SeedBase">
+		<defName>Seed_TreeOlive</defName>
+		<label>olive seeds</label>
+		<sources>
+			<li>Plant_TreeOlive</li>
+		</sources>
+		<graphicData><texPath>Things/Item/Seeds/SeedsOlive</texPath></graphicData>
+	    <statBases>
+	      <MarketValue>9</MarketValue>
+	    </statBases>
+	</SeedsPlease.SeedDef>
  
   
 </Defs>

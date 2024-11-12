@@ -30,5 +30,36 @@
 		</ingestible>
 	</ThingDef>
 
+	<ThingDef ParentName="SK_PlantFoodRawBase">
+		<defName>RawOlives</defName>
+		<label>Olives</label>
+		<description>The primary use for olives is for oil which can be used as fuel or in cooking. They taste very bitter unless they are fermented.</description>
+		<possessionCount>10</possessionCount>
+		<graphicData>
+			<texPath>Things/Fruits/Olives</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>6</MarketValue>
+			<Nutrition>0.05</Nutrition>
+		</statBases>
+		<tickerType>Rare</tickerType>   
+		<thingCategories>
+			<li>CookingSupplies</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>9</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+			<preferability>RawBad</preferability>
+			<tasteThought>AteRawFood</tasteThought>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>RawVegetable_Eat</ingestSound>
+		</ingestible>
+	</ThingDef>
+
 
 </Defs>

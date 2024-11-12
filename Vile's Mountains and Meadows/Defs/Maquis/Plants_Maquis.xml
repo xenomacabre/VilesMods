@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="SK_DeciduousBushBase">	
+		<defName>Plant_BroomShrub</defName>
+		<label>broom shrub</label>
+		<description>A deciduous shrub with bright yellow flowers.</description>
+		<statBases>
+			<Beauty>6</Beauty>
+			<BeautyOutdoors>6</BeautyOutdoors>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Nutrition>0.22</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/PlantBroomShrub</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<plant>
+			<visualSizeRange>
+				<min>0.5</min>
+				<max>1.4</max>
+			</visualSizeRange>
+			<maxMeshCount>16</maxMeshCount>
+			<leaflessGraphicPath>Things/Plant/PlantBroomShrub_Leafless</leaflessGraphicPath>
+			<harvestWork>150</harvestWork>
+			<fertilityMin>0.1</fertilityMin>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>Kindling</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<harvestMinGrowth>0.5</harvestMinGrowth>
+			<harvestFailable>false</harvestFailable>
+			<growDays>6</growDays>
+			<wildClusterRadius>18</wildClusterRadius>
+			<wildClusterWeight>200</wildClusterWeight>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<sowMinSkill>6</sowMinSkill>
+			<sowResearchPrerequisites>
+				<li>TreeSowing</li>
+			</sowResearchPrerequisites>
+		</plant>
+	</ThingDef>
+
+	<ThingDef ParentName="SK_DeciduousBushBase">	
+		<defName>Plant_Myrtle</defName>
+		<label>Common Myrtle</label>
+		<description>An evergreen shrub.</description>
+		<statBases>
+			<Beauty>6</Beauty>
+			<BeautyOutdoors>6</BeautyOutdoors>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Nutrition>0.30</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/PlantMyrtle</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<plant>
+			<visualSizeRange>
+				<min>0.3</min>
+				<max>1.0</max>
+			</visualSizeRange>
+			<maxMeshCount>16</maxMeshCount>
+			<harvestWork>150</harvestWork>
+			<fertilityMin>0.35</fertilityMin>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>Kindling</harvestedThingDef>
+			<harvestYield>4</harvestYield>
+			<harvestMinGrowth>0.5</harvestMinGrowth>
+			<harvestFailable>false</harvestFailable>
+			<growDays>7</growDays>
+			<wildClusterRadius>25</wildClusterRadius>
+			<wildClusterWeight>35</wildClusterWeight>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<sowMinSkill>8</sowMinSkill>
+			<sowResearchPrerequisites>
+				<li>TreeSowing</li>
+			</sowResearchPrerequisites>
+		</plant>
+		<modExtensions>
+			<li Class="SK.ExtendedPlantGraphic">
+				<hasSnowyGraphic>true</hasSnowyGraphic>
+			</li>
+		</modExtensions>
+	</ThingDef>
+    
+
+</Defs>

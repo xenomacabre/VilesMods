@@ -139,7 +139,7 @@
 		</thingCategories>
 		<stackLimit>75</stackLimit>
 	</ThingDef>
-	
+	  
 <!-- Seasoned is parent -->
 <ThingDef ParentName="SK_ResourceBase" Name="FirewoodSeasonedBase" Abstract="True">
 	<description>Wood logs cut into large, rough pieces of firewood. Hardwoods tend to burn longer than softwoods.</description>
@@ -724,7 +724,7 @@ Burn rate: 3.1 hrs</description>
 			<color>(149,103,65)</color>
 			<constructEffect>ConstructWood</constructEffect>
 			<appearance>Planks</appearance>
-			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
 			<statOffsets>

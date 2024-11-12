@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PH_DoorButton.label>Poignée de porte</PH_DoorButton.label>
+  <PH_DoorButton.description>Une poignée qui se connecte aux portes (fonctionne comme un levier).</PH_DoorButton.description>
+
+  <PH_DoorLever.label>Levier de porte</PH_DoorLever.label>
+  <PH_DoorLever.description>Un levier qui se connecte aux portes (fonctionne comme un bouton).</PH_DoorLever.description>
+
+  <PH_DoorRemoteSingle.label>Porte automatique</PH_DoorRemoteSingle.label> <!-- size suffix is auto-appended to label -->
+  <PH_DoorRemoteSingle.description>Porte métallique coulissante verticale. Utilise moins d'énergie qu'une porte automatique mais s'ouvre plus lentement</PH_DoorRemoteSingle.description> <!-- needs translation update -->
+
+  <!-- PH_DoorRemoteDouble/PH_DoorRemoteTriple's label & description default to PH_DoorRemoteSingle's, and size suffix is auto-appended to label -->
+
+</LanguageData>

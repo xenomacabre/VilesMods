@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>PH_DoorButton</defName>
+    <label>door button</label>
+    <description>A button that connects to doors (functions the same as a lever).</description>
+    <thingClass>DoorsExpanded.Building_DoorRemoteButton</thingClass>
+    <category>Building</category>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,1)</interactionCellOffset>
+    <building>
+      <isEdifice>false</isEdifice>
+      <fullGraveGraphicData>
+        <texPath>Things/Building/RemoteDoorButton/RemoteDoorButton_ON</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <shadowData>
+          <volume>(0.9,0.3,0.9)</volume>
+        </shadowData>
+        <damageData>
+          <rect>(0.2,0,0.6,0.1)</rect>
+        </damageData>
+        <drawSize>2</drawSize>
+      </fullGraveGraphicData>
+    </building>
+    <clearBuildingArea>false</clearBuildingArea>
+    <graphicData>
+      <texPath>Things/Building/RemoteDoorButton/RemoteDoorButton_OFF</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shadowData>
+        <volume>(0.9,0.3,0.9)</volume>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0,0.6,0.1)</rect>
+      </damageData>
+      <drawSize>2</drawSize>
+    </graphicData>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <constructEffect>ConstructDirt</constructEffect>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <fillPercent>0.40</fillPercent>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToBuild>200</WorkToBuild>
+      <Flammability>1</Flammability>
+    </statBases>
+    <selectable>true</selectable>
+    <costList>
+      <Steel>10</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>0.5</resourcesFractionWhenDeconstructed>
+    <placeWorkers>
+      <li>JecsTools.PlaceWorker_OnTopOfWalls</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>5</basePowerConsumption>
+      </li>
+    </comps>
+    <designationCategory>Structure</designationCategory>
+    <researchPrerequisites>
+      <li>ProjectHeron_RemoteDoors</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>PH_DoorLever</defName>
+    <label>door lever</label>
+    <description>A lever that connects to doors (functions the same as a button).</description>
+    <thingClass>DoorsExpanded.Building_DoorRemoteButton</thingClass>
+    <category>Building</category>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,1)</interactionCellOffset>
+    <building>
+      <isEdifice>false</isEdifice>
+      <fullGraveGraphicData>
+        <texPath>Things/Building/RemoteDoorLever/RemoteDoorLever_ON</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <shadowData>
+          <volume>(0.9,0.3,0.9)</volume>
+        </shadowData>
+        <damageData>
+          <rect>(0.2,0,0.6,0.1)</rect>
+        </damageData>
+        <drawSize>2</drawSize>
+      </fullGraveGraphicData>
+    </building>
+    <clearBuildingArea>false</clearBuildingArea>
+    <graphicData>
+      <texPath>Things/Building/RemoteDoorLever/RemoteDoorLever_OFF</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shadowData>
+        <volume>(0.9,0.3,0.9)</volume>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0,0.6,0.1)</rect>
+      </damageData>
+      <drawSize>2</drawSize>
+    </graphicData>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <constructEffect>ConstructDirt</constructEffect>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <fillPercent>0.40</fillPercent>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Flammability>1</Flammability>
+    </statBases>
+    <selectable>true</selectable>
+    <costList>
+      <Steel>5</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>0.5</resourcesFractionWhenDeconstructed>
+    <placeWorkers>
+      <li>JecsTools.PlaceWorker_OnTopOfWalls</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>1</basePowerConsumption>
+      </li>
+    </comps>
+    <designationCategory>Structure</designationCategory>
+    <researchPrerequisites>
+      <li>ProjectHeron_RemoteDoors</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <DoorsExpanded.DoorExpandedDef Name="HeronDoorRemote" ParentName="HeronMetalDoorBase">
+    <defName>PH_DoorRemoteSingle</defName>
+    <label>remote door (1x1)</label>
+    <thingClass>DoorsExpanded.Building_DoorRemote</thingClass>
+    <description>Vertical sliding metal door. Divides rooms. Can be opened and closed from a distance with a button or lever.</description>
+    <building>
+      <soundDoorOpenManual>HeronGarageOpen</soundDoorOpenManual>
+      <soundDoorCloseManual>HeronGarageClose</soundDoorCloseManual>
+    </building>
+    <statBases>
+      <Mass>20</Mass>
+      <MaxHitPoints>160</MaxHitPoints>
+      <WorkToBuild>1100</WorkToBuild>
+    </statBases>
+    <size>(1,1)</size>
+    <rotatable>false</rotatable>
+    <graphicData>
+      <texPath>Things/Building/Door/DoorRemote_Mover</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <!--  no damage marks because they don't move with the door
+        <rect>(0,0.12,1,0.76)</rect>-->
+        <enabled>false</enabled>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>15</basePowerConsumption>
+      </li>
+    </comps>
+    <costStuffCount>50</costStuffCount>
+    <costList>
+      <Steel>5</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <designationCategory>Structure</designationCategory>
+    <doorType>StretchVertical</doorType>
+    <singleDoor>true</singleDoor>
+    <doorOpenSpeedRate>2</doorOpenSpeedRate>
+    <researchPrerequisites>
+      <li>ProjectHeron_RemoteDoors</li>
+    </researchPrerequisites>
+  </DoorsExpanded.DoorExpandedDef>
+
+  <DoorsExpanded.DoorExpandedDef Name="HeronDoorDoubleRemote" ParentName="HeronMetalDoorBase">
+    <defName>PH_DoorRemoteDouble</defName>
+    <label>remote door (2x1)</label>
+    <thingClass>DoorsExpanded.Building_DoorRemote</thingClass>
+    <description>Vertical sliding metal door. Divides rooms. Can be opened and closed from a distance with a button or lever.</description>
+    <building>
+      <soundDoorOpenManual>HeronGarageOpen</soundDoorOpenManual>
+      <soundDoorCloseManual>HeronGarageClose</soundDoorCloseManual>
+    </building>
+    <statBases>
+      <Mass>20</Mass>
+      <MaxHitPoints>320</MaxHitPoints>
+      <WorkToBuild>2200</WorkToBuild>
+    </statBases>
+    <placeWorkers>
+      <li>JecsTools.PlaceWorker_Outline</li>
+    </placeWorkers>
+    <size>(2,1)</size>
+    <rotatable>true</rotatable>
+    <graphicData>
+      <texPath>Things/Building/Door/DoorDoubleRemote_Mover</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,1)</drawSize>
+      <damageData>
+        <!--  no damage marks because they don't move with the door
+        <rect>(0,0.12,1,0.76)</rect>-->
+        <enabled>false</enabled>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>15</basePowerConsumption>
+      </li>
+    </comps>
+    <costStuffCount>100</costStuffCount>
+    <costList>
+      <Steel>10</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <designationCategory>Structure</designationCategory>
+    <doorType>StretchVertical</doorType>
+    <singleDoor>true</singleDoor>
+    <doorOpenSpeedRate>2</doorOpenSpeedRate>
+    <researchPrerequisites>
+      <li>ProjectHeron_RemoteDoors</li>
+    </researchPrerequisites>
+  </DoorsExpanded.DoorExpandedDef>
+
+</Defs>

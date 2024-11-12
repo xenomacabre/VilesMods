@@ -30,9 +30,10 @@
 				</categories>
 				<color>(130,96,66)</color>
 				<constructEffect>ConstructMetal</constructEffect>
-				<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
-				<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
-				<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+				<soundImpactBullet>BulletImpact_Ground</soundImpactBullet>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Stone</soundImpactMelee>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 				<statOffsets>
 					<Beauty>0</Beauty>
 				</statOffsets>
@@ -58,9 +59,10 @@
 				<appearance>Agg</appearance>
 				<color>(189,166,118)</color>
 				<constructEffect>ConstructMetal</constructEffect>
-				<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
-				<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
-				<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+				<soundImpactBullet>BulletImpact_Ground</soundImpactBullet>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Stone</soundImpactMelee>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 				<statOffsets>
 					<Beauty>0</Beauty>
 				</statOffsets>
@@ -86,9 +88,10 @@
 				<appearance>Agg</appearance>
 				<color>(155,155,137)</color>
 				<constructEffect>ConstructMetal</constructEffect>
-				<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
-				<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
-				<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+				<soundImpactBullet>BulletImpact_Ground</soundImpactBullet>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Stone</soundImpactMelee>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 				<statOffsets>
 					<Beauty>0</Beauty>
 				</statOffsets>

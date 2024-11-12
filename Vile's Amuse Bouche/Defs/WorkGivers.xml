@@ -86,7 +86,19 @@
 		<verb>can</verb>
 		<gerund>canning at</gerund>
 	</WorkGiverDef>
-	
+
+	<!--<WorkGiverDef ParentName="WorkGiverPrioritizeSustains"> 
+		<defName>DoBillsPickling</defName>
+		<label>pickle/ferment foods</label>
+		<workType>Cooking</workType>
+		<priorityInType>49</priorityInType>
+		<fixedBillGiverDefs>
+			<li>PicklingStation</li>
+		</fixedBillGiverDefs>
+		<verb>pickle</verb>
+		<gerund>pickling at</gerund>
+	</WorkGiverDef>
+-->
 	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains"> <!-- NEW-->
 		<defName>DoBillsCoffee</defName>
 		<label>brew nonalcoholic</label>

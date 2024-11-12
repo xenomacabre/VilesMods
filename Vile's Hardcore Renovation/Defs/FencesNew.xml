@@ -39,6 +39,7 @@
 		<holdsRoof>false</holdsRoof>
 		<staticSunShadowHeight>0</staticSunShadowHeight>
 		<blockLight>false</blockLight>
+		<disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
 		<canOverlapZones>true</canOverlapZones>
 		<stuffCategories>
 			<li>Stony</li>
@@ -91,6 +92,7 @@
 		<holdsRoof>false</holdsRoof>
 		<staticSunShadowHeight>0</staticSunShadowHeight>
 		<blockLight>false</blockLight>
+		<disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
 		<canOverlapZones>true</canOverlapZones>
 		<stuffCategories>
 			<li>WoodLogs</li>
@@ -245,6 +247,7 @@
 		<holdsRoof>false</holdsRoof>
 		<staticSunShadowHeight>0</staticSunShadowHeight>
 		<blockLight>false</blockLight>
+		<disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
 		<canOverlapZones>true</canOverlapZones>
 		<stuffCategories>
 			<li>SoftwoodLumber</li>

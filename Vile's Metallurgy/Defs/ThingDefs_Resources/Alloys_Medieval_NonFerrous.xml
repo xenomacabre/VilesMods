@@ -50,7 +50,7 @@ Bronze is an alloy consisting primarily of copper, commonly with about 12% tin a
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(210,140,20)</color>
 			<commonality>1.0</commonality>
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>

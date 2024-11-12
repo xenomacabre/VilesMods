@@ -12,7 +12,7 @@
 			<value>			
 				<description>TYPE: 2H Offensive Anti-Armor
 TIER: Late Medieval
-++ Good penetration
+++ Great penetration / may bypass armor
 - Poor lethality
 - Mediocre defense
 				
@@ -105,7 +105,7 @@ A type of polarm / warhammer with a sharp spike for penetrating armor and a hamm
 		<xpath>Defs/ThingDef[defName="MeleeWeapon_Warhammer"]/equippedStatOffsets</xpath>
 		<value>
 			<equippedStatOffsets>
-				<MeleeCritChance>0.8</MeleeCritChance>
+				<MeleeCritChance>1.0</MeleeCritChance>
 				<MeleeParryChance>0.25</MeleeParryChance>
 				<MeleeDodgeChance>0.7</MeleeDodgeChance>
 			</equippedStatOffsets>

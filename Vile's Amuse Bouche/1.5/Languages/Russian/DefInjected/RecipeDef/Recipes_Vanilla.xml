@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- STIR FRY -->
+
+  <CookMealFine.label>Обжарить блюдо (2 вкусных блюда)</CookMealFine.label>
+  <CookMealFine.description>Еда на одной сковороде из овощей и белка. Производит 2.</CookMealFine.description>
+  <CookMealFine.jobString>Обжариваю блюдо.</CookMealFine.jobString>
+
+  <CookMealFine_MeatVile.label>Приготовить жаркое (2 вкусных блюда)</CookMealFine_MeatVile.label>
+  <CookMealFine_MeatVile.description>Блюдо на одной сковороде, состоящее в основном из мяса. Готовится немного быстрее, чем обычное жаркое. Производит 2.</CookMealFine_MeatVile.description>
+  <CookMealFine_MeatVile.jobString>Обжариваю блюдо.</CookMealFine_MeatVile.jobString>
+
+  <CookMealFine_VegVile.label>Вегетарианское жаркое (2 вкусных блюда)</CookMealFine_VegVile.label>
+  <CookMealFine_VegVile.description>Еда из одной сковороды, приготовленная из овощей и веганского белка, такого как тофу, сейтан или грибы.
+Более эффективен с ингредиентами, чем обычное жаркое. Производит 2.</CookMealFine_VegVile.description>
+  <CookMealFine_VegVile.jobString>Обжариваю блюдо.</CookMealFine_VegVile.jobString>
+
+
+  <!-- LAVISH MEALS -->
+
+  <CookMealLavish.label>Обжаренный на сковороде стейк (х2 роскошных блюда)</CookMealLavish.label>
+  <CookMealLavish.description>.75 питательность, роскошное 
+ Обжаренные на сковороде стейки из отборного мяса, сейтана или изысканных грибов в панировке с травами.</CookMealLavish.description>
+  <CookMealLavish.jobString>Готовлю стейк на сковороде.</CookMealLavish.jobString>
+
+  <CookMealLavish_MeatVile.label> "Волны и трава" морепродукты (х2 роскошных блюда)</CookMealLavish_MeatVile.label>
+  <CookMealLavish_MeatVile.description>.75 питательность, роскошное 
+ Основное блюдо, состоящее из морепродуктов и лучшего мяса. Готовится чуть быстрее, чем обычный стейк.</CookMealLavish_MeatVile.description>
+  <CookMealLavish_MeatVile.jobString>Готовлю морепродукты.</CookMealLavish_MeatVile.jobString>
+
+  <CookMealLavish_VegVile.label>Фасоль и зелень (х2 роскошных блюда)</CookMealLavish_VegVile.label>
+  <CookMealLavish_VegVile.description>.75 питательность, роскошное  
+ Вегетарианское блюдо, состоящее из соевого творога (он же тофу) и овощей. Чуть более эффективен с ингредиентами, чем его обычный аналог стейка из тофу.</CookMealLavish_VegVile.description>
+  <CookMealLavish_VegVile.jobString>Обжариваю фасоль и зелень.</CookMealLavish_VegVile.jobString>
+
+
+</LanguageData>

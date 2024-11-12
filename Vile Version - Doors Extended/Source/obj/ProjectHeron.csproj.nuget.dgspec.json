@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Workspace\\DoorsExpanded\\Source\\ProjectHeron.csproj": {}
+  },
+  "projects": {
+    "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Workspace\\DoorsExpanded\\Source\\ProjectHeron.csproj": {
+      "version": "1.4.0.1",
+      "restore": {
+        "projectUniqueName": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Workspace\\DoorsExpanded\\Source\\ProjectHeron.csproj",
+        "projectName": "DoorsExpanded",
+        "projectPath": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Workspace\\DoorsExpanded\\Source\\ProjectHeron.csproj",
+        "packagesPath": "C:\\Users\\jecre\\.nuget\\packages\\",
+        "outputPath": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Workspace\\DoorsExpanded\\Source\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jecre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Krafs.Rimworld.Ref": {
+              "target": "Package",
+              "version": "[1.5.*-*, )"
+            },
+            "Lib.Harmony": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[2.2.*, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

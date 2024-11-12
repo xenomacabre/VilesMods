@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BasePilumProjectile">
+		<defName>Pilum_Thrown</defName>
+		<label>javelin (thrown)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>18</damageAmountBase> <!-- was 22-->
+			<speed>23</speed><!-- was 18 -->
+			<!-- <armorPenetrationBase>0.35</armorPenetrationBase> -->
+			<armorPenetrationBlunt>4</armorPenetrationBlunt>
+			<armorPenetrationSharp>4</armorPenetrationSharp><!-- was 5.1-->
+			<preExplosionSpawnChance>0.8</preExplosionSpawnChance>
+			<!-- 4 javelins per resource -->
+			<preExplosionSpawnThingDef>Pila</preExplosionSpawnThingDef>
+            <suppressionFactor>0.4</suppressionFactor>
+            <dangerFactor>1</dangerFactor>
+            <airborneSuppressionFactor>0.25</airborneSuppressionFactor>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BasePilumProjectile">
+		<defName>TruePilum_Thrown</defName>
+		<label>pilum (thrown)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>21</damageAmountBase> <!-- was 22-->
+			<speed>18</speed><!-- was 18 -->
+			<!-- <armorPenetrationBase>0.35</armorPenetrationBase> -->
+			<armorPenetrationBlunt>6</armorPenetrationBlunt>
+			<armorPenetrationSharp>5.5</armorPenetrationSharp><!-- was 5.1-->
+			<preExplosionSpawnChance>0.8</preExplosionSpawnChance>
+			<!-- 4 javelins per resource -->
+			<preExplosionSpawnThingDef>TruePilum</preExplosionSpawnThingDef>
+            <suppressionFactor>0.7</suppressionFactor>
+            <dangerFactor>1</dangerFactor>
+            <airborneSuppressionFactor>0.35</airborneSuppressionFactor>
+		</projectile>
+	</ThingDef>
+
+	<!-- =========================== Pilum - a heavy javelin ================================ -->
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseWeaponAndAmmoNeolithic"> <!-- ParentName="WeaponNeoliticBase">-->
+		<defName>TruePilum</defName>
+		<label>Pilum</label>
+		<description>TYPE: 1H Anti-Armor Javelin
+TIER: Neolithic
++ Excellent penetration
+- Somewhat cumbersome 
+
+A heavy javelin with a long, weighted spearhead meant for penetrating armor. Works well as a melee weapon, too. NOTE: Can only be cast manually.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Melee/TruePilum</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.2,1.2</drawSize>
+		</graphicData>
+		<weaponTags>
+			<li>NeolithicRanged</li>
+			<li>CE_Pila</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+		<tradeability>Sellable</tradeability>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>35</costStuffCount>
+		<costList>
+			<ComponentMedieval>2</ComponentMedieval>
+			<WoodLog>35</WoodLog>
+		</costList>
+		<statBases>
+			<WorkToMake>3300</WorkToMake>
+			<Bulk>7</Bulk>
+			<Mass>2.2</Mass>
+			<MeleeCounterParryBonus>0.7</MeleeCounterParryBonus>	
+			<SightsEfficiency>0.75</SightsEfficiency>
+			<ShotSpread>1.1</ShotSpread>
+			<SwayFactor>1.25</SwayFactor>
+			<RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedAngleOffset>-25</equippedAngleOffset>
+		<stackLimit>1</stackLimit>
+		<equippedStatOffsets>
+			<MeleeCritChance>0.3</MeleeCritChance>
+			<MeleeParryChance>0.35</MeleeParryChance>
+			<MeleeDodgeChance>0.5</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>TruePilum_Thrown</defaultProjectile>
+				<warmupTime>0.8</warmupTime>
+				<range>8</range>
+				<onlyManualCast>true</onlyManualCast>
+			</li>
+		</verbs>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<!--<id>shaftblunt</id>-->
+				<label>shaft</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>1.2</cooldownTime>
+				<chanceFactor>0.3</chanceFactor>
+				<armorPenetrationBlunt>8</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>1.6</cooldownTime>
+				<chanceFactor>1</chanceFactor>
+				<armorPenetrationBlunt>4</armorPenetrationBlunt>
+				<armorPenetrationSharp>3</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>butt</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>1.2</cooldownTime>
+				<chanceFactor>0.3</chanceFactor>
+				<armorPenetrationBlunt>6</armorPenetrationBlunt>
+				<armorPenetrationSharp>2</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawSize>1.8,1.8</DrawSize>
+			</li>
+		</modExtensions>
+		<weaponClasses>
+			<li>MeleePiercer</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<thingCategories>
+			<li>SharpMelee</li>
+		</thingCategories>
+	</ThingDef>
+
+
+	<!-- =========================== Neolithic ================================ -->
+	<!--<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseWeaponAndAmmoNeolithic"> 
+		<defName>MeleeWeapon_Ikwa</defName>
+		<label>Spear</label>
+		<description>TYPE: 1H Economic Polearm
+TIER: Neolithic
++ Easy to use / quick
+- Somewhat cumbersome 
+- Poor penetration
+
+A long Spear typically used with a shield.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Melee/throwingSpear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<weaponTags>
+			<li>Neolithic</li>
+			<li>NeolithicMeleeBasic</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+		<tradeability>Sellable</tradeability>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>35</costStuffCount>
+		<costList>
+			<ComponentMedieval>2</ComponentMedieval>
+			<WoodLog>35</WoodLog>
+		</costList>
+		<statBases>
+			<WorkToMake>3300</WorkToMake>
+			<Bulk>7</Bulk>
+			<Mass>2.2</Mass>
+			<MeleeCounterParryBonus>0.7</MeleeCounterParryBonus>	
+			<WorkToMake>1000</WorkToMake>
+			<SightsEfficiency>0.75</SightsEfficiency>
+			<ShotSpread>1.1</ShotSpread>
+			<SwayFactor>1.25</SwayFactor>
+			<RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedAngleOffset>-25</equippedAngleOffset>
+		<equippedStatOffsets>
+			<MeleeCritChance>0.7</MeleeCritChance>
+			<MeleeParryChance>0.35</MeleeParryChance>
+			<MeleeDodgeChance>0.5</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Spear_Thrown</defaultProjectile>
+				<warmupTime>0.8</warmupTime>
+				<range>8</range>
+				<onlyManualCast>true</onlyManualCast>
+			</li>
+		</verbs>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>shaft</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>1.2</cooldownTime>
+				<chanceFactor>0.4</chanceFactor>
+				<armorPenetrationBlunt>8</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>1.4</cooldownTime>
+				<chanceFactor>1</chanceFactor>
+				<armorPenetrationBlunt>5</armorPenetrationBlunt>
+				<armorPenetrationSharp>3</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawSize>1.4,1.4</DrawSize>
+			</li>
+		</modExtensions>
+		<weaponClasses>
+			<li>MeleePiercer</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<thingCategories>
+			<li>SharpMelee</li>
+		</thingCategories>
+	</ThingDef>
+
+		-->
+
+	<ThingDef ParentName="WeaponNeoliticBase">
+		<defName>MeleeWeapon_Ikwa</defName>
+		<label>Winged Spear</label>
+		<description>TYPE: 1H Defensive Polearm
++ High defense (especially with shield)
+- Somewhat Cumbersome
+- Cannot be thrown		
+
+A long one-handed spear with a broad head for heavy damage and lugs to assist in parrying.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Melee/Spear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.4,1.4</drawSize>
+		</graphicData>
+		<weaponTags>
+			<li>Neolithic</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+		<tradeability>Sellable</tradeability>			
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<costList>
+			<ComponentMedieval>2</ComponentMedieval>
+			<WoodLog>40</WoodLog>
+		</costList>
+		<statBases>
+			<WorkToMake>6000</WorkToMake>
+			<Bulk>9</Bulk>
+			<Mass>2.7</Mass>
+			<MeleeCounterParryBonus>1.2</MeleeCounterParryBonus>
+		</statBases>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<equippedStatOffsets>
+			<MeleeCritChance>0.3</MeleeCritChance>
+			<MeleeParryChance>0.65</MeleeParryChance>
+			<MeleeDodgeChance>0.75</MeleeDodgeChance>
+		</equippedStatOffsets>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<!--<id>shaftblunt</id>-->
+				<label>shaft</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>2</cooldownTime>
+				<chanceFactor>0.2</chanceFactor>
+				<armorPenetrationBlunt>10</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>1.8</cooldownTime>
+				<chanceFactor>1</chanceFactor>
+				<armorPenetrationBlunt>7</armorPenetrationBlunt>
+				<armorPenetrationSharp>4.3</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawSize>2.3,2.3</DrawSize>
+			</li>
+		</modExtensions>
+		<weaponClasses>
+			<li>MeleePiercer</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<thingCategories>
+			<li>SharpMelee</li>
+		</thingCategories>
+	</ThingDef>
+
+
+	
+
+
+
+
+
+
+	<ThingDef ParentName="WeaponNeoliticBase">
+		<defName>MeleeWeapon_Club</defName>
+		<label>Club</label>
+		<description>TYPE: 1H Offensive Blunt Economic
+Tier: Neolithic
++ Cheap
++ High stun chance
+- Poor defense
+- Difficult to use / slow
+- Very low lethality (this can be a feature)
+
+A club is the oldest human weapon. It is a one-handed blunt weapon for bashing enemies to death. Primitive but effective.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Melee/Club</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<weaponTags>
+			<li>Neolithic</li>
+			<li>NeolithicMeleeBasic</li>
+			<li>CE_Sidearm_Tribal</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+		<tradeability>Sellable</tradeability>			
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<statBases>
+			<WorkToMake>4500</WorkToMake>
+			<DeteriorationRate>1</DeteriorationRate>
+			<Bulk>6</Bulk>
+			<Mass>2.5</Mass>
+			<MeleeCounterParryBonus>0.7</MeleeCounterParryBonus>
+		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<equippedStatOffsets>
+			<MeleeCritChance>0.8</MeleeCritChance>
+			<MeleeDodgeChance>0.2</MeleeDodgeChance>	
+		</equippedStatOffsets>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2.2</cooldownTime>
+				<chanceFactor>1.33</chanceFactor>
+				<armorPenetrationBlunt>8</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<weaponClasses>
+			<li>MeleeBlunt</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<thingCategories>
+			<li>BluntMelee</li>
+		</thingCategories>
+	</ThingDef>
+
+
+	<ThingDef ParentName="WeaponNeoliticBase">
+		<defName>MeleeWeapon_Schiv</defName>
+		<label>Shiv</label>
+		<description>TYPE: Compact sidearm, economic cook's tool
+TIER: Neolithic
++ Cheap
++ Easy to use / quick
+- Poor lethality
+- Poor defense
+		
+An improvised knife-like weapon. Must get in close to the enemy to be effective which puts the user at risk.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Melee/Shiv</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractMelee</soundInteract>
+		<tradeability>Sellable</tradeability>			
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+			<li>Glass</li>
+		</stuffCategories>
+		<costStuffCount>25</costStuffCount>
+		<statBases>
+			<WorkToMake>3500</WorkToMake>
+			<DeteriorationRate>1</DeteriorationRate>
+			<Bulk>0.25</Bulk>
+			<Mass>0.25</Mass>
+			<MeleeCounterParryBonus>0.8</MeleeCounterParryBonus>
+		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<equippedStatOffsets>
+			<!--<CookSpeed>0.15</CookSpeed>
+			<ButcheryFleshSpeed>0.15</ButcheryFleshSpeed>-->
+			<MeleeCritChance>0.8</MeleeCritChance>
+			<MeleeDodgeChance>0.1</MeleeDodgeChance>
+			<MeleeParryChance>0.1</MeleeParryChance>
+		</equippedStatOffsets>
+		<weaponTags>
+			<li>MidworldMelee</li>
+			<li>CE_Sidearm_Melee</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.1</cooldownTime>
+				<chanceFactor>0.1</chanceFactor>
+				<armorPenetrationBlunt>4</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>9.5</power>
+				<cooldownTime>1.1</cooldownTime>
+				<armorPenetrationBlunt>1.1</armorPenetrationBlunt>
+				<armorPenetrationSharp>3</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<weaponClasses>
+			<li>MeleePiercer</li>
+			<li>Neolithic</li>
+		</weaponClasses>
+		<thingCategories>
+			<li>AgileMelee</li>
+			<li>SharpMelee</li>
+		</thingCategories>
+	</ThingDef>
+</Defs>

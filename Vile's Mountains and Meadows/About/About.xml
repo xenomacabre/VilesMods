@@ -3,10 +3,7 @@
   <name>Vile's Mountains and Meadows</name>
   <author>Vile Heathen</author>
   <supportedVersions>
-    <li>1.1</li>
-    <li>1.2</li>
-    <li>1.3</li>
-    <li>1.4</li>
+    <li>1.5</li>
   </supportedVersions>
   <packageId>vileheathen.mountainsmeadows</packageId>
   <modDependencies>
@@ -16,6 +13,12 @@
         <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
         <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
     </li>
+	<li>
+        <packageId>xenomacabre.HSKBiomes</packageId>
+        <displayName>Vile's Biomes: From The Ground Up</displayName>
+       <downloadUrl>https://github.com/xenomacabre/VilesMods</downloadUrl>
+    </li>
+	
 </modDependencies>
   <loadBefore>
     <li>xenomacabre.HSKBiomes</li>

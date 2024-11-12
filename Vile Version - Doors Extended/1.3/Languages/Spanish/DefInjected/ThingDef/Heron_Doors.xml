@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--
+  ██████   ██████   ██████  ██████  ███████
+  ██   ██ ██    ██ ██    ██ ██   ██ ██
+  ██   ██ ██    ██ ██    ██ ██████  ███████
+  ██   ██ ██    ██ ██    ██ ██   ██      ██
+  ██████   ██████   ██████  ██   ██ ███████
+  -->
+
+  <!-- PH_DoorDouble/PH_DoorTriple's label & description default to Door's, and size suffix is auto-appended to label -->
+
+  <!-- PH_AutodoorDouble/PH_AutodoorTriple's label & description default to Door's, and size suffix is auto-appended to label -->
+
+  <PH_DoorJail.label>Puerta de prisión</PH_DoorJail.label>
+  <PH_DoorJail.description>Puerta corredera de celda con fuertes rejas.</PH_DoorJail.description>
+
+  <!--
+   ██████ ██    ██ ██████  ████████  █████  ██ ███    ██ ███████
+  ██      ██    ██ ██   ██    ██    ██   ██ ██ ████   ██ ██
+  ██      ██    ██ ██████     ██    ███████ ██ ██ ██  ██ ███████
+  ██      ██    ██ ██   ██    ██    ██   ██ ██ ██  ██ ██      ██
+   ██████  ██████  ██   ██    ██    ██   ██ ██ ██   ████ ███████ -->
+
+  <HeronCurtainTribal.label>Cortina (tribal)</HeronCurtainTribal.label> <!-- size suffix is auto-appended to label -->
+  <HeronCurtainTribal.description>Divide habitaciones. Las cortinas son mucho más rápidas de abrir que las puertas estándar, pero son inflamables y ventilan lentamente las temperaturas entre las habitaciones.</HeronCurtainTribal.description>
+
+  <!-- HeronCurtainTribalDouble/HeronCurtainTribalTriple's label & description default to HeronCurtainTribal's, and size suffix is auto-appended to label -->
+
+  <!--
+   ██████   █████  ████████ ███████ ███████
+  ██       ██   ██    ██    ██      ██
+  ██   ███ ███████    ██    █████   ███████
+  ██    ██ ██   ██    ██    ██           ██
+   ██████  ██   ██    ██    ███████ ███████
+  -->
+
+  <!-- PH_GateDoubleThick's description defaults to Door's, and size suffix is auto-appended to label -->
+  <PH_GateDoubleThick.label>Portón</PH_GateDoubleThick.label>
+
+  <!--
+  ██████  ██       █████  ███████ ████████     ██████   ██████   ██████  ██████  ███████
+  ██   ██ ██      ██   ██ ██         ██        ██   ██ ██    ██ ██    ██ ██   ██ ██
+  ██████  ██      ███████ ███████    ██        ██   ██ ██    ██ ██    ██ ██████  ███████
+  ██   ██ ██      ██   ██      ██    ██        ██   ██ ██    ██ ██    ██ ██   ██      ██
+  ██████  ███████ ██   ██ ███████    ██        ██████   ██████   ██████  ██   ██ ███████
+  -->
+
+  <PH_DoorBlastSingle.label>Puerta blindada</PH_DoorBlastSingle.label> <!-- size suffix is auto-appended to label -->
+  <PH_DoorBlastSingle.description>Una puerta pesada que es mucho más resistente al daño.</PH_DoorBlastSingle.description>
+
+  <PH_DoorBlastDoor.label>Puerta blindada</PH_DoorBlastDoor.label> <!-- size suffix is auto-appended to label -->
+  <PH_DoorBlastDoor.description>Un par de puertas pesadas que es mucho más resistente al daño.</PH_DoorBlastDoor.description>
+
+  <!-- PH_DoorThickBlastDoor's label & description default to PH_DoorBlastDoor's, and size suffix is auto-appended to label -->
+
+</LanguageData>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeTacos.label>Сделать тако (x4 острые)</MakeTacos.label>
+  <MakeTacos.description>Острая пища 60% (.6 питательность) 
+ Происхождение: Мексика
+ Ручная кукурузная лепешка с начинкой из острого мяса или бобовой смеси.</MakeTacos.description>
+  <MakeTacos.jobString>Делаю тако.</MakeTacos.jobString>
+
+
+  <!-- Fine Meals -->
+
+  <MakeJerkMeat.label>Приготовить вяленое мясо (x2 острое)</MakeJerkMeat.label>
+  <MakeJerkMeat.description>Острая пища 60% (.85 питательность, нормально) 
+ Происхождение: Ямайка
+  Мясо натирают или маринуют в острой смеси специй.</MakeJerkMeat.description>
+  <MakeJerkMeat.jobString>Готовлю вяленое мясо.</MakeJerkMeat.jobString>
+
+  <MakeHotandSourSoup.label>Горячий и кислый суп (x2 острое)</MakeHotandSourSoup.label>
+  <MakeHotandSourSoup.description>Острая пища 60% (.85 питательность, роскошная) 
+ Происхождение: Китай
+Суп одновременно острый и кислый.</MakeHotandSourSoup.description>
+  <MakeHotandSourSoup.jobString>Варю острый и кислый суп.</MakeHotandSourSoup.jobString>
+
+
+</LanguageData>

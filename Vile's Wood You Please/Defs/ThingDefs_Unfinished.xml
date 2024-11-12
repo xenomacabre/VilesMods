@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<ThingDef ParentName="SK_UnfinishedBase">
+	<!--<ThingDef ParentName="SK_UnfinishedBase">
 		<defName>UnfinishedPlank</defName>
 		<label>Unfinished wooden planks</label>
 		<description>Unfinished wooden planks.</description>
@@ -9,6 +9,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories Inherit="false" />
-	</ThingDef>
+	</ThingDef>-->
 	
 </Defs>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedOlive</defName>
+    <label>extract olive seeds</label>
+    <description>Extract seeds.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawOlives</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawOlives</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Seed_TreeOlive>3</Seed_TreeOlive>
+    </products>
+    <researchPrerequisite>Cocoa</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef>
+		<defName>ExtractOliveOil</defName>
+		<label>extract olive oil (fuel, x25)</label>
+		<description>Exctact oil from seed used for fueling lamps and for cooking (WIP). Burns longer than animal oils.</description>
+		<jobString>Extracting olive oil.</jobString>
+		<workAmount>600</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Seed_TreeOlive</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Seed_TreeOlive</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+		</defaultIngredientFilter>
+		<recipeUsers>
+			<li>GrindStone</li>
+			<li>MillElectric</li>
+		</recipeUsers>
+		<products>
+			<OliveOil>25</OliveOil>
+		</products>
+		<workSkill>Cooking</workSkill>
+		<workSkillLearnFactor>0.25</workSkillLearnFactor>
+	</RecipeDef>
+	
+	 <RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>ExtractOliveOilWindmill</defName>
+		<label>extract olive oil (fuel, x50)</label>
+		<description>Exctact oil from seed used for fueling lamps and for cooking (WIP). Burns longer than animal oils.</description>
+		<jobString>Extracting olive oil.</jobString>
+		<effectWorking>Cook</effectWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawOlives</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawOlives</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+		</defaultIngredientFilter>
+			<usesTemperature>false</usesTemperature>
+		<recipeUsers>
+			<li>SK_Windmill</li>
+		</recipeUsers>
+		<processDays>0.5</processDays>
+		<products>
+			<OliveOil>50</OliveOil>
+		</products>
+		<sunFactor>
+			<min>1</min>
+			<max>1</max>
+		</sunFactor>
+		<rainFactor>
+			<min>1</min>
+			<max>0.8</max>
+		</rainFactor>
+		<snowFactor>
+			<min>1</min>
+			<max>0.6</max>
+		</snowFactor>
+		<windFactor>
+			<min>0</min>
+			<max>1.8</max>
+		</windFactor>
+	</RecipeDef>
+	
+	
+
+<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Preserve_FermentOlives</defName>
+		<label>ferment olives (x10, 6 days)</label>
+		<description>Ferment and brine olives. A delicacy. Takes 6 days.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawOlives</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+      <li>
+				<filter>
+					<thingDefs>
+						<li>Salt</li>
+					</thingDefs>
+				</filter>
+				<count>0.02</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+						<li>RawOlives</li>
+            <li>Salt</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<FermentedOlives>10</FermentedOlives>
+		</products>
+		<recipeUsers>
+			<li>PicklingStation</li>
+		</recipeUsers>
+		<temperatureSafe>
+			<min>0</min>
+			<max>50</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>15</min>
+			<max>30</max>
+		</temperatureIdeal>
+		<ruinedPerDegreePerHour>1</ruinedPerDegreePerHour>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.2</speedAboveSafe>
+		<processDays>6</processDays>
+	</RecipeDef>
+
+  
+ 
+  
+</Defs>

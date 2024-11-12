@@ -1,0 +1,26 @@
+# Changelog for SeasonalWeather
+
+1.5.1 - Fixed an issue where the season-change is missed by the weather-replacer
+
+
+1.5.0 - Mod updated for 1.5 and passed autotests
+
+
+1.4.2 - Removed an old assembly-file
+
+
+1.4.1 - Mod updated for 1.4 and passed autotests.
+Used DeepL to update translations for ChineseSimplified, French, German, Russian, Turkish
+
+
+1.3.1 - Fixed ambient sounds for all added weathers, thank you Salthos for the detailed report!
+
+
+1.0.3.0 - New version of 1SettingsHelper
+
+
+1.0.2.0 - Mod updated for 1.3 and passed autotests
+
+
+1.0.1.0 - Code cleanup, no longer reupload but continued instead as original is unchanged since 1.1
+

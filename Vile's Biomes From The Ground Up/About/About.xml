@@ -4,8 +4,7 @@
 <name>Vile's Biomes: From The Ground Up</name>
 <author>VileHeathen</author>
 <supportedVersions>
-	<li>1.3</li>
-    <li>1.4</li>
+    <li>1.5</li>
 </supportedVersions>
 <packageId>xenomacabre.HSKBiomes</packageId>
 <modDependencies>
@@ -60,7 +59,7 @@ Mossy Soil - Spododsol - Found is boreal forests and tundra in smaller amounts.
 Arid Soil - Aridisol - Found in deserts.
 Muck - Sapric Histosol - Found in Tropical Swamps. Contains moderate amounds of peat and organic matter.
 Cracked Clay - Vertisol - Found in deserts. Nutrients and be extracted via terraforming.
-Weak Soil - Inseptisol - Young soils found in boreal forests.
+Weak Soil - Inseptisol - Young soils found in boreak forests.
 Mucky Peat - Hemist Histosol - Found in temperate swamps. Contains a fair amount of peat and some organic matter.
 Turbulent Soil - Gelisol (Turbels) - Rocky tundra soil. 
 Peat Soil - Fabrist Histosol - Found in Bogs. Contains high amounts of peat.

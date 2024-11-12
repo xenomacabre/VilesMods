@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <HedHauteCuisine.label>Съедено изысканное блюдо</HedHauteCuisine.label>
+  <HedHauteCuisine.description>Вау! Какое впечатляющее блюдо. Идеальный баланс вкуса и насыщенности.</HedHauteCuisine.description>
+  <HedHauteCuisine.stages.0.label>Хорошо накормлен: изысканное блюдо</HedHauteCuisine.stages.0.label>
+
+  <HedHeartyFood.label>Съедено сытное блюдо</HedHeartyFood.label>
+  <HedHeartyFood.description>Сытый! Теплое, пикантное и сытное блюдо, но не слишком вычурное.</HedHeartyFood.description>
+  <HedHeartyFood.stages.0.label>Хорошо накормлен: сытное блюдо</HedHeartyFood.stages.0.label>
+
+  <HedComfortFood.label>Съедено комфортное блюдо</HedComfortFood.label>
+  <HedComfortFood.description>Ностальгическая и превосходная. Хочу еще.</HedComfortFood.description>
+  <HedComfortFood.stages.0.label>Хорошо накормлен: комфортное блюдо</HedComfortFood.stages.0.label>
+
+  <HedPowerFood.label>Съедено энергетическое блюдо</HedPowerFood.label>
+  <HedPowerFood.description>Вы полны энергии? Я в восторге! РОААРР!</HedPowerFood.description>
+  <HedPowerFood.stages.0.label>Хорошо накормлен: энергетическое блюдо</HedPowerFood.stages.0.label>
+
+  <HedNutritiousFood.label>Съедено питательное блюдо</HedNutritiousFood.label>
+  <HedNutritiousFood.description>Хорошо сбалансированная еда действительно помогает очистить разум.</HedNutritiousFood.description>
+  <HedNutritiousFood.stages.0.label>Хорошо накормлен: питательное блюдо</HedNutritiousFood.stages.0.label>
+
+  <HedHealthFood.label>Съедена здоровая пища</HedHealthFood.label>
+  <HedHealthFood.description>Тьфу пресно и горько, но я знаю, что мне будет лучше в долгосрочной перспективе.</HedHealthFood.description>
+  <HedHealthFood.stages.0.label>Хорошо накормлен: здоровая пища</HedHealthFood.stages.0.label>
+
+  <HedBrainFood.label>Съедена пища для ума</HedBrainFood.label>
+  <HedBrainFood.description>Теперь я могу сконцетрироваться.</HedBrainFood.description>
+  <HedBrainFood.stages.0.label>Хорошо накормлен: пища для ума</HedBrainFood.stages.0.label>
+
+  <HedSpicyFood.label>Съедено горячее блюдо</HedSpicyFood.label>
+  <HedSpicyFood.description>Горячо! Пиздец! Я чувствую, как мои эндорфины зашкаливают!</HedSpicyFood.description>
+  <HedSpicyFood.stages.0.label>Хорошо накормлен: горячее блюдо</HedSpicyFood.stages.0.label>
+
+  <HedBakedGood.label>Съедена выпечка</HedBakedGood.label>
+  <HedBakedGood.description>Сладкое и сытное. Теперь приступим!</HedBakedGood.description>
+  <HedBakedGood.stages.0.label>Хорошо накормлен: выпечка</HedBakedGood.stages.0.label>
+
+  <HedDessert.label>Съеден десерт</HedDessert.label>
+  <HedDessert.description>Хороший способ закончить ужин.</HedDessert.description>
+  <HedDessert.stages.0.label>Хорошо накормлен: десерт</HedDessert.stages.0.label>
+
+  <HedAppetizer.label>Съедена закуска</HedAppetizer.label>
+  <HedAppetizer.description>Вкусная закуска, но не очень сытная.</HedAppetizer.description>
+  <HedAppetizer.stages.0.label>Хорошо накормлен: закуска</HedAppetizer.stages.0.label>
+
+  <HedChilled.label>Съедена охлажденное блюдо</HedChilled.label>
+  <HedChilled.description>Освежает в жаркий день.</HedChilled.description>
+  <HedChilled.stages.0.label>Хорошо накормлен: охлажденное блюдо</HedChilled.stages.0.label>
+
+
+</LanguageData>

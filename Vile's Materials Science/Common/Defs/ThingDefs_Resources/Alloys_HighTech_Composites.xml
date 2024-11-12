@@ -55,7 +55,7 @@ Carbon nanotubes and UHMWPE fibers in an epoxy matrix. Features superior ballist
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(198,184,239)</color>
 			<commonality>0.05</commonality>
-			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<statFactors>
@@ -149,7 +149,7 @@ Aerographene, or graphene aerogel is the only known solid that is lighter than a
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(206,255,203)</color>
 			<commonality>0.04</commonality>
-			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
 			<statFactors>

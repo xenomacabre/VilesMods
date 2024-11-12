@@ -65,8 +65,8 @@
 		<defaultIngredientFilter>
 		</defaultIngredientFilter>
 		<recipeUsers>
-			<li>TableButcher</li>
-			<li>TableKitchen</li>
+			<li>GrindStone</li>
+			<li>MillElectric</li>
 		</recipeUsers>
 		<products>
 			<PlantWax>30</PlantWax>
@@ -74,6 +74,56 @@
 		<workSkill>Cooking</workSkill>
 		<workSkillLearnFactor>0.25</workSkillLearnFactor>
 	</RecipeDef>
+	
+	 <RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>ExtractOliveOilWindmill</defName>
+		<label>extract olive oil (fuel, x60)</label>
+		<description>Exctact oil from seed used for fueling lamps and for making candles. Burns longer than animal oils.</description>
+		<jobString>Extracting vegetable oil.</jobString>
+		<effectWorking>Cook</effectWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SeedsCategory</li>
+					</categories>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SeedsCategory</li>
+			</categories>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+		</defaultIngredientFilter>
+			<usesTemperature>false</usesTemperature>
+		<recipeUsers>
+			<li>SK_Windmill</li>
+		</recipeUsers>
+		<processDays>0.3</processDays>
+		<products>
+			<PlantWax>100</PlantWax>
+		</products>
+				<sunFactor>
+			<min>1</min>
+			<max>1</max>
+		</sunFactor>
+		<rainFactor>
+			<min>1</min>
+			<max>0.8</max>
+		</rainFactor>
+		<snowFactor>
+			<min>1</min>
+			<max>0.6</max>
+		</snowFactor>
+		<windFactor>
+			<min>0</min>
+			<max>1.8</max>
+		</windFactor>
+	</RecipeDef>
+	
 
 	<RecipeDef>
 		<defName>MakeFishOil</defName>

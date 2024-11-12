@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Windy.label>rüzgârlı</Windy.label>
+  <Windy.description>Açık, rüzgârlı bir hava. Türbinler için iyi, ama ateş etme için değil.</Windy.description>
+  <Cloudy.label>bulutlu</Cloudy.label>
+  <Cloudy.description>Bulutlu bir gün, parlaklığı azaltır.</Cloudy.description>
+  <FogSnow.label>tipi</FogSnow.label>
+  <FogSnow.description>Kar menzilli silahların isabetliliğini düşürür, ateşleri söndürür, insanları yavaşlatır, sisi ile de görüş mesafesini azaltır.</FogSnow.description>
+  <Dust.label>toz</Dust.label>
+  <Dust.description>Toz menzilli silahların isabetliliğini azaltır.</Dust.description>
+  <DryDuststorm.label>kuru fırtına</DryDuststorm.label>
+  <DryDuststorm.description>Kuru kum fırtınaları tehlikelidir çünkü yangın çıkabilir ve onları söndürmek için yağmur yoktur.</DryDuststorm.description>
+</LanguageData>

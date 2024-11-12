@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeGardenSalad.label>Зелёный салат с винегретом (x4)</MakeGardenSalad.label>
+  <MakeGardenSalad.description>.75 питательности, отлично 
+ Салат из сырых овощей, заправленный винегретом из вина, ягодного вина или сидра.</MakeGardenSalad.description>
+  <MakeGardenSalad.jobString>Готовлю зелёный салат с винегретом.</MakeGardenSalad.jobString>
+
+  <MakeCasserole.label>Запеканка (x5)</MakeCasserole.label>
+  <MakeCasserole.description>.8 питательности 
+ Рецепт запеканки круглой формы. На основе из картофеля или пасты, с овощами и мясом / грибами.</MakeCasserole.description>
+  <MakeCasserole.jobString>Готовлю запеканку.</MakeCasserole.jobString>
+
+
+</LanguageData>

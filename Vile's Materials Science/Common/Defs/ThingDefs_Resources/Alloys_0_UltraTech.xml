@@ -55,7 +55,7 @@ Hyperalloy is synthesized at the atomic level and refined with niobium and tanta
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(255,168,170)</color>
 			<commonality>0.6</commonality>
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -154,7 +154,7 @@ Originally developed as military hardware, polymimetic alloy is programmable mat
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(255,201,240)</color>
 			<commonality>0.6</commonality> 
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -255,7 +255,7 @@ This lightweight, exotic alloy is refined at the molecular level and it can hold
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(218,230,26)</color>
 			<commonality>0.5</commonality> 
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -343,7 +343,7 @@ This lightweight, exotic alloy is refined at the molecular level and it can hold
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(53,76,94)</color>
 			<commonality>0.6</commonality> 
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>

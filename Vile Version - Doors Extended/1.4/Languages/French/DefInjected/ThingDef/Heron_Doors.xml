@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--
+  ██████   ██████   ██████  ██████  ███████
+  ██   ██ ██    ██ ██    ██ ██   ██ ██
+  ██   ██ ██    ██ ██    ██ ██████  ███████
+  ██   ██ ██    ██ ██    ██ ██   ██      ██
+  ██████   ██████   ██████  ██   ██ ███████
+  -->
+
+  <!-- PH_DoorDouble/PH_DoorTriple's label & description default to Door's, and size suffix is auto-appended to label -->
+
+  <!-- PH_AutodoorDouble/PH_AutodoorTriple's label & description default to Door's, and size suffix is auto-appended to label -->
+
+  <PH_DoorJail.label>Porte de prison</PH_DoorJail.label>
+  <PH_DoorJail.description>Une porte de prison avec de solides barreaux.</PH_DoorJail.description>
+
+  <!--
+   ██████ ██    ██ ██████  ████████  █████  ██ ███    ██ ███████
+  ██      ██    ██ ██   ██    ██    ██   ██ ██ ████   ██ ██
+  ██      ██    ██ ██████     ██    ███████ ██ ██ ██  ██ ███████
+  ██      ██    ██ ██   ██    ██    ██   ██ ██ ██  ██ ██      ██
+   ██████  ██████  ██   ██    ██    ██   ██ ██ ██   ████ ███████ -->
+
+  <HeronCurtainTribal.label>Rideaux</HeronCurtainTribal.label> <!-- size suffix is auto-appended to label -->
+  <HeronCurtainTribal.description>Sépare les chambres. Les rideaux s'ouvrent beaucoup plus rapidement que les portes conventionnelles, mais ils sont hautement inflammables et laissent lentement l'air passer entre les pièces.</HeronCurtainTribal.description>
+
+  <!-- HeronCurtainTribalDouble/HeronCurtainTribalTriple's label & description default to HeronCurtainTribal's, and size suffix is auto-appended to label -->
+
+  <!--
+   ██████   █████  ████████ ███████ ███████
+  ██       ██   ██    ██    ██      ██
+  ██   ███ ███████    ██    █████   ███████
+  ██    ██ ██   ██    ██    ██           ██
+   ██████  ██   ██    ██    ███████ ███████
+  -->
+
+  <!-- PH_GateDoubleThick's description defaults to Door's, and size suffix is auto-appended to label -->
+  <PH_GateDoubleThick.label>Portail</PH_GateDoubleThick.label>
+
+  <!--
+  ██████  ██       █████  ███████ ████████     ██████   ██████   ██████  ██████  ███████
+  ██   ██ ██      ██   ██ ██         ██        ██   ██ ██    ██ ██    ██ ██   ██ ██
+  ██████  ██      ███████ ███████    ██        ██   ██ ██    ██ ██    ██ ██████  ███████
+  ██   ██ ██      ██   ██      ██    ██        ██   ██ ██    ██ ██    ██ ██   ██      ██
+  ██████  ███████ ██   ██ ███████    ██        ██████   ██████   ██████  ██   ██ ███████
+  -->
+
+  <PH_DoorBlastSingle.label>Porte anti-souffle</PH_DoorBlastSingle.label> <!-- size suffix is auto-appended to label -->
+  <PH_DoorBlastSingle.description>Une porte lourde qui est beaucoup plus résistante aux dommages que les portes classiques.</PH_DoorBlastSingle.description> <!-- Google Translate -->
+
+  <PH_DoorBlastDoor.label>Porte anti-souffle</PH_DoorBlastDoor.label> <!-- size suffix is auto-appended to label -->
+  <PH_DoorBlastDoor.description>Une paire de portes lourdes qui sont beaucoup plus résistantes aux dommages que les portes classique.</PH_DoorBlastDoor.description>
+
+  <!-- PH_DoorThickBlastDoor's label & description default to PH_DoorBlastDoor's, and size suffix is auto-appended to label -->
+
+</LanguageData>

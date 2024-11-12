@@ -8,6 +8,37 @@
 	<match Class="PatchOperationSequence">
 	<success>Always</success>
 			<operations>
+
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="PickledVeg"]/graphicData/texPath</xpath>
+			<value>
+				<texPath>Things/Item/Meal/Preserves/PickledVeg</texPath>
+			</value>
+		</li> 			
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="PickledVeg"]/statBases</xpath>
+			<value>
+				<statBases>
+					<MarketValue>20</MarketValue>
+					<Nutrition>0.2</Nutrition>
+				</statBases>
+			</value>
+		</li> 
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="PickledVeg"]/ingestible</xpath>
+			<value>
+				<preferability>MealFine</preferability>
+				<joy>0.2</joy>
+				<joyKind>Gluttonous</joyKind>
+			</value>
+		</li> 		
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="PickledVeg"]</xpath>
+			<value>
+				<stackLimit>25</stackLimit>
+			</value>
+		</li> 	
+
 		<!-- THING DEF  HEARTY STEW -->
 			<li Class="PatchOperationReplace">
             			<xpath>Defs/ThingDef[defName="HeartyStew"]/description</xpath>

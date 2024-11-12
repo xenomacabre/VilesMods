@@ -34,6 +34,7 @@
 		<holdsRoof>false</holdsRoof>
 		<staticSunShadowHeight>0</staticSunShadowHeight>
 		<blockLight>true</blockLight>
+		<disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
 		<designationCategory>Structure</designationCategory>
 		<drawerType>RealtimeOnly</drawerType>
 		<building>

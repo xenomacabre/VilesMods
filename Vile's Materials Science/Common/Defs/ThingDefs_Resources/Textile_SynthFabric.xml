@@ -389,7 +389,7 @@ Kevlar is a para-aramid (a class of high-performance synthetic fiber). In contra
 		<stuffProps>
 			<commonality>0.35</commonality>
 			<constructEffect>ConstructMetal</constructEffect>
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<categories>
 				<li>HF</li>
 			</categories>

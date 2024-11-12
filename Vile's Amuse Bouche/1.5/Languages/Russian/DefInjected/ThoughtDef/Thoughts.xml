@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AteBlandMeal.stages.0.label>Съел безвкусную еду</AteBlandMeal.stages.0.label>
+  <AteBlandMeal.stages.0.description>Конечно, может быть, это и полезно, но я бы предпочел съесть носок.</AteBlandMeal.stages.0.description>
+
+  <AteAppetizer.stages.0.label>Съел закуску</AteAppetizer.stages.0.label>
+  <AteAppetizer.stages.0.description>Мой рот полностью позабавился... до основного блюда. Есть основное блюдо, верно?</AteAppetizer.stages.0.description>
+
+  <AteDessert.stages.0.label>Съел закуску</AteDessert.stages.0.label>
+  <AteDessert.stages.0.description>М-м-м. Это дополняет мой вкус.</AteDessert.stages.0.description>
+
+
+</LanguageData>

@@ -52,7 +52,7 @@ Wrought iron is your mostly-pure form of iron, meaning it has a very low carbon 
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(97,108,138)</color>
 			<commonality>1.0</commonality>
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -143,7 +143,7 @@ Take your iron bloom, and forge some of it into useless high-carbon bars and som
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(194,219,233)</color>
 			<commonality>1.0</commonality>
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -235,7 +235,7 @@ Cast iron has an exceptionally high carbon content which makes it very hard but 
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(121,102,104)</color>
 			<commonality>1.0</commonality>
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -328,7 +328,7 @@ Wootz steel is made in small batches by filling a disposable clay crucible with 
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(181,194,133)</color>
 			<commonality>1.0</commonality>
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -421,7 +421,7 @@ Blister Steel is placed in a refractory crucible for several hours in a very hot
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(180,188,200)</color>
 			<commonality>1.0</commonality>
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>

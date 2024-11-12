@@ -53,7 +53,7 @@ Commercially pure aluminium is the lightest weight metal available. It has super
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(225,219,234)</color>
 			<commonality>0.8</commonality>
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -142,7 +142,7 @@ Brass is a conductive copper-zinc alloy. It's tougher than bronze, but softer so
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(221,206,94)</color>
 			<commonality>1.0</commonality>
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -236,7 +236,7 @@ Anodizing is a chemical process that not only colors and adds beauty to the 3003
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(255,71,85)</color>
 			<commonality>0.8</commonality>
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -371,7 +371,7 @@ Many engineers consider titanium to be an over-rated metal, filling an overlappi
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(253,254,250)</color>
 			<commonality>0.8</commonality>
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -460,7 +460,7 @@ Depleted Uranium Alloy is created by refining Uranium Ore through a Gas Centrifu
 			<color>(120,141,82)</color>
 			<commonality>0.15</commonality>
 			<constructEffect>ConstructMetal</constructEffect>
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<stuffAdjective>Depleted Uranium</stuffAdjective>
 			<statFactors>
 				<MaxHitPoints>3</MaxHitPoints>

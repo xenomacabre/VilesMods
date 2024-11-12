@@ -1,0 +1,183 @@
+1.4.1.1 (10-21-2022)
+========================
+Initial update for RimWorld 1.4 for Doors Expanded
+
+1.4.1.0 (10-11-2022)
+========================
+Updates DoorsExpanded to support 1.4.3514 Unstable
+
+1.4.0.1 (09-10-2021)
+========================
+Fix crash due to infinite recursion in RW 1.3.3116+
+Fix blueprints and frames of our doors not having proper labels
+Fix CompProperties_PostProcessText not being removed after processing if not in dev mode (minor optimization)
+Update PlaceWorker_OnTopOfWalls to consider smoothed buildings as walls (note: if JecsTools is loaded before Doors Expanded, this fix won't apply for the time being)
+
+1.4.0.0 (08-08-2021)
+========================
+Note: Starting from this version, changes only apply to RimWorld 1.3+.
+RimWorld 1.3 compatibility
+Add Chinese Simplified translation (thanks Juijote!) - applies to all RW versions
+Various fixes and updates from a new audit of relevant parts of current RW codebase
+More debug info, including new drawDoorTempEqualization debug view
+Misc minor optimizations and cleanup
+
+1.3.3.2 (07-18-2021)
+========================
+Actually fix "invis door has different faction" errors (and remove previous workaround)
+Add Spanish translation (thanks Crusader!)
+Add/update machine-translations for new blast doors where applicable, and some other translation cleanup
+
+1.3.3.1 (05-09-2021)
+========================
+Workaround "invis door has different faction" errors (yet unknown cause) by only logging them if in dev mode or if mod's log option is debug/stacktrace
+
+1.3.3.0 (05-06-2021)
+========================
+Add 1x1 blast door (thanks Jiopaba/InsanityPrelude!)
+Add French translation (thanks qux!)
+Attempt to fix potential errors (like NullReferenceException) due to stale linked doors (removed/unspawned outside of this mod's control)
+Allow patches (or future changes) to change building's thingClass from Building_DoorExpanded to another class (like Building_Door) without breaking saves
+Rebuild to latest RW version
+Mod option for log level (for debugging)
+
+1.3.2.1 (08-13-2020)
+========================
+Fix regressions in RW 1.1 version by compiling separate assemblies for RW 1.1 and RW 1.2 to account for different enum/constant values in RW assemblies
+Internal: Migrate to SDK-style csproj, assembly name/version attributes align with actual name/version
+
+1.3.2.0 (08-11-2020)
+========================
+Note: Starting from this version, changes only apply to RimWorld 1.1+.
+RimWorld 1.2 compatibility
+New doors:
+- 2x1 and 3x1 autodoors
+- 3x1 remote garage-style doors
+- 2x1 and 3x1 tribal curtains
+Improved compatibility with:
+- Minify Everything (note: existing broken doors may not be fixed, but new doors should be fine)
+- Home Mover
+Remote door changes:
+- Fix blast doors not being remotely securable - blast doors now require power like autodoors
+- Autodoors, including the vanilla 1x1 autodoor, are remote controllable
+- Blast doors and remote garage-style doors can now breakdown like autodoors, but only at half the normal frequency
+- Remote doors rebalanced such that they open more slowly than autodoors but cost less and use less power (and breakdown less frequently)
+- Tweak all the various costs of blast doors and remote garage-style doors such that: blast doors > autodoors > remote doors > vanilla doors
+- Remove superfluous remote button/lever linking/unlinking messages
+Show east/west door frames above buildings (fixes blast door frames showing below walls)
+Door open time (in seconds) stats are now displayed instead of door open speed stat
+Modders: DoorExpandedDef deprecated in favor of new CompProperties_DoorExpanded (see Heron_Doors.xml for examples):
+- Misleading DoorExpandedDef.doorOpenSpeedRate deprecated in favor of statBase for vanilla DoorOpenSpeed (backcompat default to 1.0/doorOpenSpeedRate)
+- Misleading DoorExpandedDef.tempLeakRate deprecated in favor of CompProperties_DoorExpanded.tempEqualizeRate (backcompat default to 375.0/tempLeakRate)
+- All other DoorExpandedDef fields can be copied as-is to CompProperties_DoorExpanded
+- Non-abstract door defs have had their Name attributes (used for XML inheritance) removed,
+  since fields of comp properties (such as CompProperties_DoorExpanded) can't be overwritten in a derived def.
+  Specifically, "HeronDoor", "HeronDoorRemote", "HeronDoorDoubleRemote" Name attributes have been removed.
+Replace Pawn_PathFollower.TryEnterNextPathCell transpiler with Building_Door.StartManualOpenBy prefix patch (to avoid misleading report in Dubs Performance Analyzer)
+Improve debug logging, add more logging when the "Verbose logging" setting is enabled, add full path cost in "write path costs"
+Misc label & description tweaks and XML & texture cleanup
+
+1.3.1.0 (05-06-2020)
+========================
+Blast doors can be remote controlled now. Additional rebalancing and cleanup. Patch by lbmaian.
+- More robust patching in case other mods are broken (should no longer fail if another mod has an invalid assembly reference).
+- Blast doors can be remote controlled now (remote control tech still required to build remote buttons/levers).
+- Blast doors now have half flammability (so half the flammability of the material they're made of).
+- Tribal curtains cost halved to 25 fabric or leather as part of RimWorld 1.0/1.1 rebalance.
+- Remove obsolete Manifest.xml loadBefore/loadAfter and migrate vanilla door mass patch to code to prevent some warnings.
+
+1.3.0.1 (03-14-2020)
+========================
+Improves compatibility with other mods, including recovering from game-breaking errors that can somehow happen. Engineered by lbmaian.
+
+1.3.0.0 (03-07-2020)
+========================
+A 1.1 compatible version of Doors Expanded, rewritten and recreated by lbmaian to be even better than before.
+
+1.22.1.2 (03-06-2020)
+========================
+Fix potential NRE and room unfogging in edge cases involving large doors, and fix more potential subtle issues related to Fillage. Engineered by lbmaian.
+Scale WorkToBuild linearly like most of vanilla, rebalance thick gate and blast door costs
+
+1.22.1.1 (03-04-2020)
+========================
+Backport tweaks and fixes to RimWorld 1.0 version. Engineered by lbmaian.
+"JT_PlaceWorker_OnTopOfWalls" is now translated if JecsTools isn't loaded.
+
+1.22.1.0 (02-29-2020)
+========================
+Balance pass based on ~b18~r1.1 changes and consistency. Engineered by lbmaian.
+- All doors (except blast doors and curtains) MaxHitPoints were reduced, typically by about a quarter to match the B19 change to vanilla doors.
+- All doors (except curtains) Mass have reduced, with the assumption that vanilla doors have 20 mass (only relevant if a mod like MinifyEverything is installed).
+- Related 1-wide vs 2-wide vs 3-wide door stats and costs have been rescaled for consistency.
+- Blast doors have same terrain affordance as walls, and same construction skill requirement as autodoors.
+- Prisoner containment research requires medieval tech level.
+- Blast door research requires hi-tech research bench.
+Also add dependency to the Harmony mod.
+
+1.22.0.0 (02-28-2020)
+========================
+RimWorld 1.1 compatibility (RimWorld 1.0 still works). Engineered by lbmaian.
+No longer requires JecsTools in either RimWorld 1.0 or 1.1.
+Also revamp door remote button/lever job so that it consistently respects whether door remote button/lever is enabled throughout the job, and fixes related pathing issues.
+
+1.21.0.0 (01-31-2020)
+========================
+Rewrite and fully rebase code onto 1.0 RimWorld, fixing several bugs. Engineered by lbmaian.
+- fixes pathing issues, including enemies warping through large doors
+- forbid/unforbid has immediate effect (instead of having to wait a tick)
+- fixes behavior inconsistent with vanilla doors, including default door opening/closing speeds, previously held open door closing behavior, whether enemies set fire to doors, heat transfer rates through open/closed doors
+- allow <1.0 fillPercent doors with correct cover/snow/etc. calculations
+- doors are non-minifiable (non-uninstallable) by default
+- doors block light by default
+- door opening speed stat now appears in door expanded doors' info dialog (note: def.doorOpenSpeedRate value currently isn't reflected in this)
+- remote doors default to non-remotely secured
+- remote hold open state now linked to remote button/lever, with latter's state initialized to first linked remote door
+- remote hold open state no longer clobbers native hold open state (in case door is unlinked)
+- secured remotely doors ignore native hold open state (and disables hold open gizmo)
+- custom remote door gizmos now appear right after hold open gizmo
+- more consistent messages on button connect/disconnect
+- remote button/lever no longer appears above pawns
+- fixed Stretch and StretchVertical and non-2-width DoubleSwing door type animations
+- Stretch/StretchVertical defs have new custom parameters, with the only functional difference between Stretch and StretchVertical being defaults
+- ghost (pre-placement) and blueprint door graphics now always match actual door graphics
+- ghost graphics for def.rotatesSouth=false now skip south rotation, and fix subtle bugs when spawning def.rotatesSouth=false doors
+- ghost graphics now appear above existing buildings as in vanilla
+- 1x1 non-manually-rotatable doors, including blueprints, auto-rotate like vanilla doors (and all such 1x1 doors in this mod are updated accordingly)
+- dev mode inspector has new toggles (write temperature, write edifice grid, write doors), more path info, more precise mouse position, and patch call registry for debugging
+
+Add German translation by Erdnussbrot.
+Update Japanese translation by Proxyer.
+
+1.20.0.7 (06-03-2019)
+========================
+Fixes explosion slowdowns that occur while playing the CE mod coupled with Doors Expanded. The fix was engineered by JonnyNova.
+
+1.20.0.6 (06-02-2019)
+========================
+Remote doors can be secured and locked properly. Also pathing fixes.
+
+1.20.0.5 (04-11-2019)
+========================
+Adds research for remote buttons and doors as well. Updates Japanese translation.
+
+1.20.0.4 (04-09-2019)
+========================
+Adds remote doors, buttons, and levers to Doors Expanded.
+
+1.20.0.3 (04-07-2019)
+========================
+Added remote doors, buttons, and levers
+
+1.20.0.2 (02-10-2019)
+========================
+Crossing through blast doors should be faster now.
+
+1.20.0.1 (10-27-2018)
+========================
+This should fix the issue where animals do not want to walk through the doors for whatever reason.
+
+1.20.0.0 (10-18-2018)
+========================
+Initial release for RimWorld 1.0
+

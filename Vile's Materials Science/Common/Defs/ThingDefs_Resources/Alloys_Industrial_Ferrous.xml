@@ -50,7 +50,7 @@ An economical metal, mild steel would be the modern equivalent to wrought iron. 
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(220,231,247)</color>
 			<commonality>1.5</commonality>
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -140,7 +140,7 @@ Carbon steels have more carbon than wrought iron and less than cast iron. This o
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(205,208,208)</color>
 			<commonality>1.1</commonality> 
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -228,7 +228,7 @@ AR500 is an Abrasion-Resistant Steel - a high-carbon steel which is quenched and
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(145,135,116)</color>
 			<commonality>0.8</commonality> 
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -316,7 +316,7 @@ Tools Recommended: Bladed (fair)
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(225,233,255)</color>
 			<commonality>1.25</commonality> 
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -404,7 +404,7 @@ Tool steel has tungsten and other components to increase hardness and toughness,
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(136,205,127)</color>
 			<commonality>0.8</commonality> 
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>
@@ -493,7 +493,7 @@ Spring steel is one of the toughest industrial steels. Part of this comes from i
 			<constructEffect>ConstructMetal</constructEffect>
 			<color>(204,231,238)</color>
 			<commonality>0.8</commonality> 
-			<soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<statFactors>

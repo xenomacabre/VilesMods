@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ProjectHeron_Curtains.label>Cortinas simples</ProjectHeron_Curtains.label>
+  <ProjectHeron_Curtains.description>Desbloquea técnicas de construcción simples para hacer anillos, ganchos simples y postes para la producción de cortinas, que se abren mucho más rápido que las puertas estándar, pero que ventilan lentamente las temperaturas entre las habitaciones.</ProjectHeron_Curtains.description>
+
+  <ProjectHeron_PrisonDoors.label>Contención de prisioneros</ProjectHeron_PrisonDoors.label>
+  <ProjectHeron_PrisonDoors.description>Proporciona puertas de prisión simples para mantener a los internos seguros, bueno, en su mayoría.</ProjectHeron_PrisonDoors.description>
+
+  <ProjectHeron_RemoteDoors.label>Puertas remotas</ProjectHeron_RemoteDoors.label>
+  <ProjectHeron_RemoteDoors.description>Desbloquea puertas remotas para contención remota, así como botones y palancas para manipularlas.</ProjectHeron_RemoteDoors.description>
+
+  <ProjectHeron_Gates.label>Bisagras y puertas</ProjectHeron_Gates.label>
+  <ProjectHeron_Gates.description>Las bisagras y las técnicas de fijación permiten la construcción de puertas batientes, como puertas grandes.</ProjectHeron_Gates.description>
+
+  <ProjectHeron_BlastDoors.label>Puertas batientes</ProjectHeron_BlastDoors.label>
+  <ProjectHeron_BlastDoors.description>Permite la producción de puertas de explosión presurizadas que absorben explosiones.</ProjectHeron_BlastDoors.description>
+
+</LanguageData>

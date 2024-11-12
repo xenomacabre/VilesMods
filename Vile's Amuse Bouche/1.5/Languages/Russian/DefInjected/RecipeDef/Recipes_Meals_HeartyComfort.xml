@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeFishandChips.label>Рыба с картошкой (x2 комфортная пища)</MakeFishandChips.label>
+  <MakeFishandChips.description>Комфортная еда 60% (.85 питательность, .2 удовольсвтие)  
+Происхождение: Великобритания
+  Рыба в пивном кляре с картофелем.</MakeFishandChips.description>
+  <MakeFishandChips.jobString>Готовлю рыбу с картошкой.</MakeFishandChips.jobString>
+
+  <MakePoutine.label>Поутин (x4 комфортная пища)</MakePoutine.label>
+  <MakePoutine.description>Комфортная еда 60% (.6 питательность, .1 удовольсвтие, нормальное)  
+ Происхождение: Квебек, Калифорния
+  Жареный картофель с соусом и сырным творогом.</MakePoutine.description>
+  <MakePoutine.jobString>Готовлю поутин.</MakePoutine.jobString>
+
+  <MakePho.label>Фо (x2 комфортная пища)</MakePho.label>
+  <MakePho.description>Комфортная еда 80% (1.0 питательность, .1 удовольсвтие, роскошное)  
+ Происхождение: Вьетнам
+  Произносится как «фоу», это суп из бульона, трав, лапши и мяса.</MakePho.description>
+  <MakePho.jobString>Готовлю фо.</MakePho.jobString>
+
+
+  <!-- HEARTY -->
+
+  <MakeTempura.label>Блюдо в кляре (x2 сытная пища)</MakeTempura.label>
+  <MakeTempura.description>Сытная еда 40% (.75 питательность, .1 удовольсвтие, роскошное)  
+ Происхождение: Япония
+  Рыба или овощи в кляре и обжаренные. Удивительно сытно.</MakeTempura.description>
+  <MakeTempura.jobString>Готовлю блюдо в кляре.</MakeTempura.jobString>
+
+  <MakePotPie.label>Мясной пирог (x4 сытная пища)</MakePotPie.label>
+  <MakePotPie.description>Сытная еда 60% (.9 питательность)  
+Сытный, ароматный пирог.</MakePotPie.description>
+  <MakePotPie.jobString>Делаю мясной пирог.</MakePotPie.jobString>
+
+  <MakeQuiche.label>Пирог с заварным кремом (x3 сытная пища)</MakeQuiche.label>
+  <MakeQuiche.description>Сытная еда 60% (.9 питательность, .2 удовольсвтие, роскошное)  
+ Происхождение: Франция
+  Пикантный пирог на яичной основе с мясом или сыром.</MakeQuiche.description>
+  <MakeQuiche.jobString>Делаю пирог с заварным кремом.</MakeQuiche.jobString>
+
+
+</LanguageData>

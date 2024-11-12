@@ -520,7 +520,7 @@
                 -->
                 <operatingTemp>1400</operatingTemp>
 				<drawfirefuel>false</drawfirefuel>
-				<canAutoBurn>true</canAutoBurn>
+				<!--<canAutoBurn>true</canAutoBurn>-->
 				<smokeDrawOffset>(2,-0.1,-1)</smokeDrawOffset>
 				<smokesize>0.5</smokesize>
 				<fuelCapacity>30</fuelCapacity>
