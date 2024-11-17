@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<ThingDef ParentName="UniversalFermenterBase" Class="UniversalFermenterSK.ThingDef_UF">
@@ -44,7 +44,7 @@
 			<uninstallWork>900</uninstallWork>
 		</building>
 		<comps>
-			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Forbiddable" />
 		</comps>
 		<tickerType>Rare</tickerType>
 		<!--<placeWorkers>
@@ -85,7 +85,7 @@
 		</graphicData>
 		<stuffCategories>
 			<li>StrongMetallic</li>
-		</stuffCategories> 
+		</stuffCategories>
 		<costStuffCount>135</costStuffCount>
 		<costList>
 			<ComponentIndustrial>5</ComponentIndustrial>
@@ -130,11 +130,9 @@
 					<li>CookingTools</li>
 				</linkableFacilities>
 			</li>
-			<li Class="CompProperties_Flickable"/>
-			<li Class="CompProperties_Breakdownable"/>
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
-			</li>
+			<li Class="CompProperties_Flickable" />
+			<li Class="CompProperties_Breakdownable" />
+			
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>

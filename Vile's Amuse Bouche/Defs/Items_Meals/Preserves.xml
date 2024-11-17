@@ -23,7 +23,6 @@
 			<preferability>MealFine</preferability>
 			<joy>0.45</joy>
 			<joyKind>Gluttonous</joyKind>
-			<preferability>RawTasty</preferability>
 			<tasteThought>HadTableOlives</tasteThought>
 			<foodType>VegetableOrFruit</foodType>
 			<maxNumToIngestAtOnce>2</maxNumToIngestAtOnce>

@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThingDef Class="SK.ThingDef_AnimatedWorktable"  ParentName="WorkTable">
+	<ThingDef Class="SK.ThingDef_AnimatedWorktable" ParentName="WorkTable">
 		<defName>ElectricSmelter</defName>
 		<label>metal extraction plant</label>
-        <thingClass>SK.Building_AnimatedWorktable</thingClass>
-        <description>A crushes, grinds, and roasts raw ores to extract metals. It extracts a wider variety of metals than earlier extraction techniques, and the addition of an electroextraction cell will isolate even more valueable metals. It can operate outdoors.</description>
+		<thingClass>SK.Building_AnimatedWorktable</thingClass>
+		<description>A crushes, grinds, and roasts raw ores to extract metals. It extracts a wider variety of metals than earlier extraction techniques, and the addition of an electroextraction cell will isolate even more valueable metals. It can operate outdoors.</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/MEP/MEP</texPath>
@@ -77,8 +77,8 @@
 				<glowRadius>3</glowRadius>
 				<glowColor>(217,112,33,0)</glowColor>
 			</li>
-			<li Class="CompProperties_Flickable"/>
-			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Flickable" />
+			<li Class="CompProperties_Breakdownable" />
 			<li Class="CompProperties_HeatPusher">
 				<compClass>CompHeatPusherPowered</compClass>
 				<heatPerSecond>9.5</heatPerSecond>
@@ -100,9 +100,7 @@
 				</statOffsets>
 				<maxSimultaneous>3</maxSimultaneous>
 			</li>
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
-			</li>
+			
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
@@ -123,7 +121,7 @@
 		<label>electrolytic refinery</label>
 		<description>Electroextraction of base metals from their ores in a solution. Extracts more useful material than traditional pyroextraction but uses a lot of power. NOTICE: Operates very slowly unless connected to an extraction plant.</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
-        <graphicData>
+		<graphicData>
 			<texPath>Things/Building/EEC/EEC</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(3.1,3.1)</drawSize>
@@ -161,17 +159,17 @@
 		<designationCategory>Production</designationCategory>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<recipes>
-					<li>SmeltMagnetite_HighTech</li>
-				   <li>SmeltTitanomagnetite_HighTech</li>
-				   <li>SmeltKalcopyrite_HighTech</li>
-				   <li>SmeltCassiterite_HighTech</li>
-				   <li>SmeltGalena_HighTech</li>
-				   <li>SmeltSphalerite_HighTech</li>
-				   <li>SmeltBauxite_HighTech</li>
-				   <li>SmeltPentlandite_HighTech</li>
-				   <li>SmeltScheelite_HighTech</li>
-				   <li>SmeltRutile_HighTech</li>
-				   <li>SmeltCarnotite_HighTech</li>
+			<li>SmeltMagnetite_HighTech</li>
+			<li>SmeltTitanomagnetite_HighTech</li>
+			<li>SmeltKalcopyrite_HighTech</li>
+			<li>SmeltCassiterite_HighTech</li>
+			<li>SmeltGalena_HighTech</li>
+			<li>SmeltSphalerite_HighTech</li>
+			<li>SmeltBauxite_HighTech</li>
+			<li>SmeltPentlandite_HighTech</li>
+			<li>SmeltScheelite_HighTech</li>
+			<li>SmeltRutile_HighTech</li>
+			<li>SmeltCarnotite_HighTech</li>
 		</recipes>
 		<tickerType>Normal</tickerType>
 		<comps>
@@ -188,16 +186,14 @@
 				<compClass>SK.CompPowerLowIdleDraw</compClass>
 				<idlePowerFactor>0.1</idlePowerFactor>
 			</li>
-			<li Class="CompProperties_Flickable"/>
-			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Flickable" />
+			<li Class="CompProperties_Breakdownable" />
 			<li Class="CompProperties_HeatPusher">
 				<compClass>CompHeatPusherPowered</compClass>
 				<heatPerSecond>4</heatPerSecond>
 				<heatPushMaxTemperature>50</heatPushMaxTemperature>
 			</li>
-            <li>
-				<compClass>CompReportWorkSpeed</compClass>
-			</li>
+			
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
 					<li>ElectricSmelter</li>
@@ -244,7 +240,7 @@
 		<label>induction furnace</label>
 		<description>A furnace which produces alloys from base metals. Requires power.</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
-        <graphicData>
+		<graphicData>
 			<texPath>Things/Building/InductionFurnace/InductionFurnace</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(4,4)</drawSize>
@@ -291,14 +287,14 @@
 			<li>MakeBronze_Electric</li>
 			<li>MakeAnodizedAluminiumBlue</li>
 			<li>MakeAnodizedAluminiumRed</li>
-            <li>MakeSterlingSilver_Industrial</li>
-            <li>MakeSilicon_Electric</li>
-            <li>MakeSolder</li>
-            <li>MakeSolderGalvanite</li>
-            <li>MakeCoins</li>
-            <li>MeltCoins</li>
-          <!-- <li>LiquidateSilver</li>-->
-		<!--	<li>MakeCopperBars_Hand</li>
+			<li>MakeSterlingSilver_Industrial</li>
+			<li>MakeSilicon_Electric</li>
+			<li>MakeSolder</li>
+			<li>MakeSolderGalvanite</li>
+			<li>MakeCoins</li>
+			<li>MeltCoins</li>
+			<!-- <li>LiquidateSilver</li>-->
+			<!--	<li>MakeCopperBars_Hand</li>
 			<li>MakeGoldBars_Electric</li>
 			<li>MakeSilverBars_Electric</li>-->
 			<li>ExtractMetalFromSlag</li>
@@ -314,8 +310,8 @@
 				<glowRadius>3</glowRadius>
 				<glowColor>(217,112,33,0)</glowColor>
 			</li>
-			<li Class="CompProperties_Flickable"/>
-			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Flickable" />
+			<li Class="CompProperties_Breakdownable" />
 			<li Class="CompProperties_HeatPusher">
 				<compClass>CompHeatPusherPowered</compClass>
 				<heatPerSecond>9.5</heatPerSecond>
@@ -331,9 +327,7 @@
 					<li>PodChair</li>
 				</linkableFacilities>
 			</li>
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
-			</li>
+			
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
@@ -349,11 +343,11 @@
 		<constructionSkillPrerequisite>9</constructionSkillPrerequisite>
 	</ThingDef>
 
-    <ThingDef ParentName="WorkTable">
+	<ThingDef ParentName="WorkTable">
 		<defName>ChemistryLab</defName>
 		<label>Chemistry Station</label>
 		<description>A table and all the tools needed for mixing and manipulated chemicals. Constructed of corrosion-resistant materials.</description>
-        <drawerType>MapMeshAndRealTime</drawerType>
+		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/ChemStation/Lab</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -375,9 +369,9 @@
 			<li>CorrosionResistant</li>
 		</stuffCategories>
 		<costStuffCount>120</costStuffCount>
-        <costList>
+		<costList>
 			<Glass>80</Glass>
-            <ComponentIndustrial>8</ComponentIndustrial>
+			<ComponentIndustrial>8</ComponentIndustrial>
 		</costList>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<thingCategories>
@@ -390,34 +384,32 @@
 			<Cleanliness>-12</Cleanliness>
 			<Mass>300</Mass>
 		</statBases>
-        <recipes>
-            <li>MakeChlorine</li>
-            <li>MakeCelluloseCotton</li>
-            <li>MakeCelluloseWood</li>
-            <li>VulcanizeRubber</li>
-            <li>MakePTFE</li>
+		<recipes>
+			<li>MakeChlorine</li>
+			<li>MakeCelluloseCotton</li>
+			<li>MakeCelluloseWood</li>
+			<li>VulcanizeRubber</li>
+			<li>MakePTFE</li>
 			<li>ExtractSulfur</li>
 			<li>MakeAmmonia</li>
-					<!-- Need to make new building for these-->
-					<li>MakePolymerFibers</li>
-                    <li>MakePolyester</li>
-					<li>MakeModacrylic</li>
-                    <li>MakeRayonViscose</li>
-                    <li>MakeMycotanLeather</li>
-                    <li>MakePVCLeather</li>
-                    <li>MakeNomex</li>
-                    <li>MakeKevlar</li>
-                    <li>MakeMicropel</li>
-                    <li>MakeDyneema</li>
-                    <li>MakeZylon</li>
-        </recipes>
+			<!-- Need to make new building for these-->
+			<li>MakePolymerFibers</li>
+			<li>MakePolyester</li>
+			<li>MakeModacrylic</li>
+			<li>MakeRayonViscose</li>
+			<li>MakeMycotanLeather</li>
+			<li>MakePVCLeather</li>
+			<li>MakeNomex</li>
+			<li>MakeKevlar</li>
+			<li>MakeMicropel</li>
+			<li>MakeDyneema</li>
+			<li>MakeZylon</li>
+		</recipes>
 		<designationCategory>Production</designationCategory>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<tickerType>Normal</tickerType>
 		<comps>
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
-			</li>
+			
 		</comps>
 		<building>
 			<uninstallWork>1450</uninstallWork>
@@ -426,7 +418,7 @@
 			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
 		</placeWorkers>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
-        <researchPrerequisites>
+		<researchPrerequisites>
 			<li>Chemistry_C0</li>
 		</researchPrerequisites>
 	</ThingDef>

@@ -186,9 +186,7 @@
 					</thingDefs>
 				</fuelFilter>
 			</li>
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
-			</li>
+			
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
@@ -305,9 +303,7 @@
 					</thingDefs>
 				</fuelFilter>
 			</li>
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
-			</li>
+			
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
@@ -411,9 +407,7 @@
 					</thingDefs>
 				</fuelFilter>
 			</li>
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
-			</li>
+			
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
@@ -535,9 +529,7 @@
 					</thingDefs>
 				</fuelFilter>
 			</li>
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
-			</li>
+			
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
@@ -651,9 +643,7 @@
 					</thingDefs>
 				</fuelFilter>
 			</li>
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
-			</li>
+			
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
@@ -733,8 +723,8 @@
 					<li>Waterwheel</li>
 				</linkableFacilities>
 			</li>-->
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
+			<li Class="CompProperties_ReportWorkSpeed">
+				<workSpeedStat>WorkTableWorkSpeedFactor</workSpeedStat>
 			</li>
 		</comps>
 		<placeWorkers>
@@ -768,6 +758,7 @@
 			</shadowData>
 			<drawRotated>false</drawRotated>
 		</graphicData>
+		<disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
 		<stuffCategories>
 			<li>StrongMetallic</li>
 		</stuffCategories>
@@ -806,8 +797,8 @@
 					<li>SteamEngineFuel</li>
 				</linkableFacilities>
 			</li>-->
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
+			<li Class="CompProperties_ReportWorkSpeed">
+				<workSpeedStat>WorkTableWorkSpeedFactor</workSpeedStat>
 			</li>
 		</comps>
 		<placeWorkers>
@@ -888,9 +879,7 @@
 					<li>WaterWheel</li>
 				</linkableFacilities>
 			</li>
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
-			</li>
+			
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
@@ -948,9 +937,7 @@
 			<uninstallWork>900</uninstallWork>
 		</building>
 		<comps>
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
-			</li>
+			
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ReportWorkSpeedPenalties</li>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/PawnKindDef[
+			defName="Empire_Royal_Yeoman" or
+			defName="Empire_Royal_Acolyte" or
+			defName="Empire_Royal_Knight" or
+			defName="Empire_Royal_Praetor" or
+			defName="Empire_Royal_Baron" or
+			defName="Empire_Royal_Count" or
+			defName="Empire_Royal_Duke" or
+			defName="Empire_Royal_Consul" or
+			defName="Empire_Royal_Stellarch"]</xpath>
+		<value>
+			<weaponMoney>11620~20000</weaponMoney>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/PawnKindDef[defName="Empire_Fighter_StellicGuardMelee"]</xpath>
+		<value>
+			<weaponMoney>20000~30000</weaponMoney>
+		</value>
+	</Operation>
+</Patch>
