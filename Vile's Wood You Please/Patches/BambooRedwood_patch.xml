@@ -18,7 +18,7 @@
 			<ThingDef Name="RedWoodLog" ParentName="SoftwoodLogBase">
 				<defName>RedWoodLog</defName>
 				<label>redwood log</label>
-				<description>description</description>
+				<description>Redwoods are notable for several species of massive trees, including the Sequoiadendron giganteum, which is the most massive tree known. The strength and rich colours of its softwood timber make it much sought after for decorative purposes.</description>
 				<graphicData>
 					<color>(162,94,100)</color>
 				</graphicData>
