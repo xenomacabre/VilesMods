@@ -28,6 +28,7 @@
 	<ThingDef Name= "Hide_HumanSkinBase" ParentName="VileSK_HidesBase">
 		<defName>Hide_HumanSkinCured</defName>
 		<label>cured human skins</label>
+		<description>Cured human skin. Is that a face?</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/SkinCured</texPath>
 			<color>(174,51,6)</color>
@@ -42,6 +43,7 @@
 	<ThingDef ParentName="Hide_HumanSkinBase">
 		<defName>Hide_HumanSkin</defName>
 		<label>raw human skins</label>
+		<description>The raw skin of a human</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/SkinRaw</texPath>
 		</graphicData>
@@ -60,6 +62,7 @@
 	<ThingDef Name= "Hide_ExoticSkinBase" ParentName="VileSK_HidesBase">
 		<defName>Hide_ExoticSkinCured</defName>
 		<label>cured exotic skins</label>
+		<description>The skin of some exotic animal, nature has woven complex patterns across it's surface, it's colors resplendent. It has been cured.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/SkinCured</texPath>
 			<color>(144,180,143)</color>
@@ -71,6 +74,7 @@
 	<ThingDef ParentName="Hide_ExoticSkinBase">
 		<defName>Hide_ExoticSkin</defName>
 		<label>raw exotic skins</label>
+		<description>The raw skin of an animal. It will decompose if not frozen or cured soon.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/SkinRaw</texPath>
 		</graphicData>
@@ -89,6 +93,7 @@
 	<ThingDef Name= "Hide_WaterproofSkinBase" ParentName="VileSK_HidesBase">
 		<defName>Hide_WaterproofSkinCured</defName>
 		<label>cured waterproof skins</label>
+		<description>Skin removed from an aquatic creature, cured so it may forever deny water.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/SkinCured</texPath>
 			<color>(156,212,189)</color>
@@ -100,6 +105,7 @@
 	<ThingDef ParentName="Hide_ExoticSkinBase">
 		<defName>Hide_WaterproofSkin</defName>
 		<label>raw waterproof skins</label>
+		<description>The raw skin of an animal. It will decompose if not frozen or cured soon.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/SkinRaw</texPath>
 		</graphicData>
@@ -118,6 +124,7 @@
 	<ThingDef Name= "Hide_LightAnimalSkinBase" ParentName="VileSK_HidesBase">
 		<defName>Hide_LightAnimalSkinCured</defName>
 		<label>cured light animal skins</label>
+		<description>A cured light animal skin.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/SkinCured</texPath>
 			<color>(241,191,144)</color>
@@ -132,6 +139,7 @@
 	<ThingDef ParentName="Hide_LightAnimalSkinBase">
 		<defName>Hide_LightAnimalSkin</defName>
 		<label>raw light animal skins</label>
+		<description>The raw skin of an animal. It will decompose if not frozen or cured soon.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/SkinRaw</texPath>
 		</graphicData>
@@ -152,6 +160,7 @@
 	<ThingDef Name= "Hide_RodentSkinBase" ParentName="VileSK_HidesBase">
 		<defName>Hide_RodentSkinCured</defName>
 		<label>cured rodent skins</label>
+		<description>A cured roden skin.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/SkinCured</texPath>
 			<color>(175,137,105)</color>
@@ -166,6 +175,7 @@
 	<ThingDef ParentName="Hide_RodentSkinBase">
 		<defName>Hide_RodentSkin</defName>
 		<label>raw rodent skins</label>
+		<description>The raw skin of an animal. It will decompose if not frozen or cured soon.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/SkinRaw</texPath>
 		</graphicData>
@@ -187,6 +197,7 @@
 	<ThingDef Name= "Hide_PorousHideBase" ParentName="VileSK_HidesBase">
 		<defName>Hide_PorousHideCured</defName>
 		<label>cured porous hide</label>
+		<description>A cured porous hide.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/HideCured</texPath>
 			<color>(102,136,154)</color>
@@ -201,6 +212,7 @@
 	<ThingDef ParentName="Hide_PorousHideBase">
 		<defName>Hide_PorousHide</defName>
 		<label>raw porous hide</label>
+		<description>The raw skin of an animal. It will decompose if not frozen or cured soon.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/HideRaw</texPath>
 		</graphicData>
@@ -219,6 +231,7 @@
 	<ThingDef Name= "Hide_ImmunogenicHideBase" ParentName="VileSK_HidesBase">
 		<defName>Hide_ImmunogenicHideCured</defName>
 		<label>cured immunogenic hide</label>
+		<description>Venomous creatures grow protective skins, resistant to their own poisons. This one has been cured.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/HideCured</texPath>
 			<color>(232,239,214)</color>
@@ -233,6 +246,7 @@
 	<ThingDef ParentName="Hide_ImmunogenicHideBase">
 		<defName>Hide_ImmunogenicHide</defName>
 		<label>raw immunogenic hide</label>
+		<description>The raw skin of an animal. It will decompose if not frozen or cured soon.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/HideRaw</texPath>
 		</graphicData>
@@ -251,6 +265,7 @@
 	<ThingDef Name= "Hide_SoftHideBase" ParentName="VileSK_HidesBase">
 		<defName>Hide_SoftHideCured</defName>
 		<label>cured soft hide</label>
+		<description>A cured soft hide.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/HideCured</texPath>
 			<color>(201,131,76)</color>
@@ -265,6 +280,7 @@
 	<ThingDef ParentName="Hide_SoftHideBase">
 		<defName>Hide_SoftHide</defName>
 		<label>raw soft hide</label>
+		<description>The raw skin of an animal. It will decompose if not frozen or cured soon.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/HideRaw</texPath>
 		</graphicData>
@@ -283,6 +299,7 @@
 	<ThingDef Name= "Hide_DurableHideBase" ParentName="VileSK_HidesBase">
 		<defName>Hide_DurableHideCured</defName>
 		<label>cured durable hide</label>
+		<description>A cured durable hide.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/HideCured</texPath>
 			<color>(161,104,91)</color>
@@ -297,6 +314,7 @@
 	<ThingDef ParentName="Hide_DurableHideBase">
 		<defName>Hide_DurableHide</defName>
 		<label>raw durable hide</label>
+		<description>The raw skin of an animal. It will decompose if not frozen or cured soon.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/HideRaw</texPath>
 		</graphicData>
@@ -316,6 +334,7 @@
 	<ThingDef Name= "Hide_HeavyHideBase" ParentName="VileSK_HidesBase">
 		<defName>Hide_HeavyHideCured</defName>
 		<label>cured heavy hide</label>
+		<description>A cured heavy hide.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/HideCured</texPath>
 			<color>(179,166,155)</color>
@@ -330,6 +349,7 @@
 	<ThingDef ParentName="Hide_HeavyHideBase">
 		<defName>Hide_HeavyHide</defName>
 		<label>raw heavy hide</label>
+		<description>The raw skin of an animal. It will decompose if not frozen or cured soon.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/HideRaw</texPath>
 		</graphicData>
@@ -349,6 +369,7 @@
 	<ThingDef Name= "Hide_StockHideBase" ParentName="VileSK_HidesBase">
 		<defName>Hide_StockHideCured</defName>
 		<label>cured stock hide</label>
+		<description>Cured stock hide.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/HideCured</texPath>
 			<color>(186,96,59)</color>
@@ -363,6 +384,7 @@
 	<ThingDef ParentName="Hide_StockHideBase">
 		<defName>Hide_StockHide</defName>
 		<label>raw stock hide</label>
+		<description>The raw skin of an animal. It will decompose if not frozen or cured soon.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/HideRaw</texPath>
 		</graphicData>
@@ -389,6 +411,7 @@
 	<ThingDef Name= "Hide_HeavyFurPeltBase" ParentName="VileSK_HidesBase">
 		<defName>Hide_HeavyFurPeltCured</defName>
 		<label>cured heavy fur pelt</label>
+		<description>A cured heavy fur pelt.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/PeltCured</texPath>
 			<color>(128,106,75)</color>
@@ -403,6 +426,7 @@
 	<ThingDef ParentName="Hide_HeavyFurPeltBase">
 		<defName>Hide_HeavyFurPelt</defName>
 		<label>raw heavy fur pelt</label>
+		<description>The raw skin of an animal. It will decompose if not frozen or cured soon.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/PeltRaw</texPath>
 		</graphicData>
@@ -422,6 +446,7 @@
 	<ThingDef Name= "Hide_RichFurPeltBase" ParentName="VileSK_HidesBase">
 		<defName>Hide_RichFurPeltCured</defName>
 		<label>cured rich fur pelt</label>
+		<description>A cured rich fur pelt.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/PeltCured</texPath>
 			<color>(255,233,192)</color>
@@ -437,6 +462,7 @@
 	<ThingDef ParentName="Hide_RichFurPeltBase">
 		<defName>Hide_RichFurPelt</defName>
 		<label>raw rich fur pelt</label>
+		<description>The raw skin of an animal. It will decompose if not frozen or cured soon.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/PeltRaw</texPath>
 		</graphicData>
@@ -456,6 +482,7 @@
 	<ThingDef Name= "Hide_RuggedFurPeltBase" ParentName="VileSK_HidesBase">
 		<defName>Hide_RuggedFurPeltCured</defName>
 		<label>cured rugged fur pelt</label>
+		<description>A cured rugged fur pelt.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/PeltCured</texPath>
 			<color>(157,150,136)</color>
@@ -470,6 +497,7 @@
 	<ThingDef ParentName="Hide_RuggedFurPeltBase">
 		<defName>Hide_RuggedFurPelt</defName>
 		<label>raw rugged fur pelt</label>
+		<description>The raw skin of an animal. It will decompose if not frozen or cured soon.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/PeltRaw</texPath>
 		</graphicData>
@@ -489,6 +517,7 @@
 	<ThingDef Name= "Hide_WarmFurPeltBase" ParentName="VileSK_HidesBase">
 		<defName>Hide_WarmFurPeltCured</defName>
 		<label>cured warm fur pelt</label>
+		<description>A cured warm fur pelt.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/PeltCured</texPath>
 			<color>(177,194,205)</color>
@@ -503,6 +532,7 @@
 	<ThingDef ParentName="Hide_WarmFurPeltBase">
 		<defName>Hide_WarmFurPelt</defName>
 		<label>raw warm fur pelt</label>
+		<description>The raw skin of an animal. It will decompose if not frozen or cured soon.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/PeltRaw</texPath>
 		</graphicData>
