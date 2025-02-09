@@ -151,7 +151,7 @@
 	</ThingDef>
 	
 <!-- Patchwork Garment -->	
-<ThingDef ParentName="ApparelMedievalBase">
+<ThingDef ParentName="ApparelNeoliticSimpleBase">
 		<defName>Apparel_RagDressB</defName>
 		<description>This is a nice way of saying “rags”. Cheap to make and you can use whatever material you can find. Use it to dress your prisoners or people you don't like.</description>
 		<label>Patchwork Garment</label>
