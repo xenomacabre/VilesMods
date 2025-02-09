@@ -128,7 +128,7 @@
 	<ThingDef ParentName="SK_ResourceBase">
 		<defName>PureSilver</defName>
 		<label>pure silver (Ag)</label>
-		<description>Not useful on its own. Make it into sterling silver or press it into coins.</description>
+		<description>Silver, a valuable metal that can be found in native deposits, as well as occuring within Tetrahedrite and Galena. Far too soft to be useful, it should be alloyed into sterling silver, or pressed into coins.</description>
 		<graphicData>
 			<texPath>Things/Item/Ingot</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>

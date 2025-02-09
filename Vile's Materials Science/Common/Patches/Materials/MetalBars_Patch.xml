@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Core SK</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<!-- =Names= -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Silver"]/label</xpath>
+					<value>
+						<label>Silver Coins</label>
+					</value>
+				</li>
+				
+				<!-- =Descriptions= -->
+				 <li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="CopperBar"]/description</xpath>
+					<value>
+						<description>Copper is a thermally and electrically conductive, non-magnetic metal extracted from Kalcopyrite and Malachite ores.</description> <!-- Not as important late-game-->
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="TinBar"]/description</xpath>
+					<value>
+						<description>Tin is an uncommon, low-value metal extracted from cassiterite, the primary ore of tin. While it's not very useful on it's own, it's a component of useful alloys, and can be used to glaze ceramics.</description>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Silver"]/description</xpath>
+					<value>
+						<description>Sterling silver that has been pressed into coins, these see widespread use as the de-facto currency across the Rim.</description>
+					</value>
+				</li>
+			</operations>
+</Patch>
