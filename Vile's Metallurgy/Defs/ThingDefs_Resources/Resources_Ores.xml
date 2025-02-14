@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>SilverNative</defName>
+		<label>Native Silver</label>
+		<description>Not technically an ore, due to the low reactivity of silver it is often found in chunks in it's pure metallic form. Needs to be processed into a usable form such as bars before it can be used.</description>
+		<graphicData>
+			<texPath>Things/Item/Ores/Cassiterite</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(185,185,185)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<soundInteract>Silver_Drop</soundInteract>
+		<soundDrop>Silver_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<stackLimit>150</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MarketValue>1</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0</Flammability>
+			<Mass>0.25</Mass>
+			<Bulk>0.25</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>RAR</li>
+		</thingCategories>
+		<!--<smeltable>true</smeltable>-->
+		<stuffProps>
+			<categories>
+				<li>Matty</li>
+			</categories>
+		</stuffProps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<deepCommonality>0.6</deepCommonality>
+		<deepCountPerCell>1000</deepCountPerCell>
+		<deepCountPerPortion>10</deepCountPerPortion>
+		<deepLumpSizeRange>
+			<min>1</min>
+			<max>12</max>
+		</deepLumpSizeRange>
+	</ThingDef>
+</Defs>

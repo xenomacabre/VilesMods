@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="WeatheredOre" Class="Minerals.ThingDef_StaticMineral">
+		<defName>WeatheredOreSilverNative</defName>
+		<label>Weathered Native Silver Deposits</label>
+		<description>A deposit of native silver. Technically not an ore, due to the low reactivity of silver it is often found in chunks in its pure metallic form. Rarer than native gold as silver is more reactive than gold.</description>
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Ore/WeatheredOre</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+			<color>(105,95,97)</color>
+			<colorTwo>(147,144,134)</colorTwo>
+		</graphicData>
+		<randomlyDropResources>
+			<li>
+				<ResourceDefName>SilverNative</ResourceDefName>
+				<DropProbability>5</DropProbability>
+				<CountPerDrop>50</CountPerDrop>
+			</li>
+		</randomlyDropResources>
+		<building>
+			<mineableThing>SilverNative</mineableThing>
+		</building>
+		<ThingsToReplace>
+			<li>MineableSilverNative</li>
+		</ThingsToReplace>
+		<mineSpeedFactor>0.5</mineSpeedFactor>	<!-- How easy it is to mine -->
+	</ThingDef>
+
+	<ThingDef ParentName="SolidOre" Class="Minerals.ThingDef_SolidRock">
+		<defName>SolidOreSilverNative</defName>
+		<label>Solid Native Silver Deposits</label>
+		<description>A deposit of native silver. Technically not an ore, due to the low reactivity of silver it is often found in chunks in its pure metallic form. Rarer than native gold as silver is more reactive than gold.</description>
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Ore/WeatheredOre</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+			<color>(105,95,97)</color>
+			<colorTwo>(147,144,134)</colorTwo>
+		</graphicData>
+		<randomlyDropResources>
+			<li>
+				<ResourceDefName>SilverNative</ResourceDefName>
+				<DropProbability>6</DropProbability>
+				<CountPerDrop>50</CountPerDrop>
+			</li>
+		</randomlyDropResources>
+		<building>
+			<mineableThing>SilverNative</mineableThing>
+		</building>
+		<ThingsToReplace>
+			<li>MineableSilverNative</li>
+			<li>HewnOreSilverNative</li>
+		</ThingsToReplace>
+		<mineSpeedFactor>0.5</mineSpeedFactor>	<!-- How easy it is to mine -->
+	</ThingDef>
+
+	<ThingDef ParentName="HewnOre" Class="Minerals.ThingDef_StaticMineral">
+		<defName>HewnOreSilverNative</defName>
+		<label>Hewn Native Silver Deposits</label>
+		<description>A deposit of native silver. Technically not an ore, due to the low reactivity of silver it is often found in chunks in its pure metallic form. Rarer than native gold as silver is more reactive than gold.</description>
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+				<li>Rock</li>
+				<li>MapEdge</li>
+			</linkFlags>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+			<texPath>Things/Ore/HewnOre</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+			<color>(105,95,97)</color>
+			<colorTwo>(147,144,134)</colorTwo>
+		</graphicData>
+		<randomlyDropResources>
+			<li>
+				<ResourceDefName>SilverNative</ResourceDefName>
+				<DropProbability>6</DropProbability>
+				<CountPerDrop>60</CountPerDrop>
+			</li>
+		</randomlyDropResources>
+		<building>
+			<mineableThing>SilverNative</mineableThing>
+		</building>
+		<ThingsToReplace>
+			<li>MineableSilverNative</li>
+		</ThingsToReplace>
+		<mineSpeedFactor>0.5</mineSpeedFactor>	<!-- How easy it is to mine -->
+	</ThingDef>
+</Defs>

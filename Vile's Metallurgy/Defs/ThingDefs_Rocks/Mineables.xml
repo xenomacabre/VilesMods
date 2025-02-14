@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Required because these are replaced by the Minerals rock system -->
+	<ThingDef ParentName="SK_RockBase">
+		<defName>MineableSilverNative</defName>
+		<label>Native Silver Deposits</label>
+		<graphicData>
+			<texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(89,83,68)</color>
+			<colorTwo>(147,144,134)</colorTwo>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>3500</MaxHitPoints>
+		</statBases>
+		<description>Deposits of Native Silver.</description>
+		<building>
+			<isResourceRock>true</isResourceRock>
+			<mineableThing>SilverNative</mineableThing>
+			<mineableYield>250</mineableYield>
+			<mineableScatterCommonality>5</mineableScatterCommonality>
+			<mineableScatterLumpSizeRange>
+				<min>3</min>
+				<max>8</max>
+			</mineableScatterLumpSizeRange>
+		</building>
+	</ThingDef>
+</Defs>

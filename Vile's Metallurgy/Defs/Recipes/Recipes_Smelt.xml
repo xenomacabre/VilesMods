@@ -393,7 +393,7 @@
 	</recipeUsers>
 	</RecipeDef>
 	
-		<RecipeDef>
+	<RecipeDef>
 		<defName>MakeLeadBars_Foundry</defName>
 		<label>Smelt lead alloy (x50)</label>
 		<description>Smelts lead alloy from anglesite ore. Produces 15.</description>
@@ -409,7 +409,7 @@
 						<li>Anglesite</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>50</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -418,8 +418,8 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<LeadBar>15</LeadBar>
-			<Silver MayRequire="vitech.materialsscience">15</Silver>
+			<LeadBar>75</LeadBar>
+			<PureSilver MayRequire="vitech.materialsscience">7</PureSilver>
 		</products>
 		<skillRequirements>
 			<Crafting>2</Crafting>
@@ -427,9 +427,9 @@
 		<workSkill>Crafting</workSkill>
     	<workSkillLearnFactor>0.8</workSkillLearnFactor>
 		<researchPrerequisite>Craft_B1</researchPrerequisite>
-	<recipeUsers>
-        <li>Foundry</li>
-	</recipeUsers>
+		<recipeUsers>
+			<li>Foundry</li>
+		</recipeUsers>
 	</RecipeDef>
 	
 	<!-- SMELT Sterling silver -->
@@ -446,7 +446,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Silver</li>
+						<li>PureSilver</li>
 					</thingDefs>
 				</filter>
 				<count>8</count>
@@ -462,7 +462,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Silver</li>
+				<li>PureSilver</li>
 			</thingDefs>
 					<categories>
 						<li>HCM</li>
