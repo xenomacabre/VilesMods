@@ -13,6 +13,17 @@
 					<li>PlayerGuild</li>
 				</value>
 			</li>
+
+		</operations>
+		</match>
+    </Operation>	
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>HMC Vile's Pre-Industrial Overhaul</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<operations>
 			
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/FactionDef[defName="ImperialLegion"]/apparelStuffFilter</xpath>

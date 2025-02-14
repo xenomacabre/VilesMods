@@ -81,7 +81,7 @@
 </Operation>  
   <!--https://weatherspark.com/y/1255/Average-Weather-in-Hope-British-Columbia-Canada-Year-Round-->
   <Operation Class="PatchOperationAddModExtension">
-    <xpath>/Defs/BiomeDef[defName = "BorealForest" or defName = "MontaneGrasslands"]</xpath> <!-- technically temperate conifer forest. Will add Taiga later maybe -->
+    <xpath>/Defs/BiomeDef[defName = "MontaneForest" or defName = "MontaneGrasslands"]</xpath> <!-- technically temperate conifer forest. Will add Taiga later maybe -->
     <value>
       <li Class="SeasonalWeather.SeasonalWeatherExtension">
         <spring>

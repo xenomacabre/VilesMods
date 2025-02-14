@@ -22,7 +22,7 @@
             <drawRotated>false</drawRotated>
 			<allowFlip>true</allowFlip>
 		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
         <uiIconPath>Things/Building/DiagonalWall_ui</uiIconPath>
 		<fillPercent>0</fillPercent>
 		<statBases>
@@ -69,7 +69,7 @@
             <drawRotated>false</drawRotated>
 			<allowFlip>true</allowFlip>
 		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
         <uiIconPath>Things/Building/DiagonalWallCabin_ui</uiIconPath>
 		<fillPercent>0</fillPercent>
 		<statBases>
@@ -116,7 +116,7 @@
             <drawRotated>false</drawRotated>
 			<allowFlip>true</allowFlip>
 		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
         <uiIconPath>Things/Building/DiagonalWall2_ui</uiIconPath>
 		<fillPercent>0</fillPercent>
 		<statBases>
@@ -163,7 +163,7 @@
             <drawRotated>false</drawRotated>
 			<allowFlip>true</allowFlip>
 		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
         <uiIconPath>Things/Building/DiagonalWallCabin2_ui</uiIconPath>
 		<fillPercent>0</fillPercent>
 		<statBases>

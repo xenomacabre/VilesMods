@@ -248,6 +248,38 @@
 			<color>(93,197,229)</color>
 		</stuffProps>
 	</ThingDef>
+
+		<ThingDef ParentName="SK_ResourceBase">
+		<defName>Nylon</defName>
+		<label>Nylon</label>
+		<description>Nylon 66, or Polyamide-66, is a synthetic material which is stronger than most basic polymers. It is often reinforced with glass, carbon, or arammid fibers, and is essential is the construction of many firearms. It's made using two monomers each containing 6 carbon atoms, which is where it gets it's designation. The base elements used to produce thse are Butadiene, Chlorine, and ammonia.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/Nylon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<tickerType>Rare</tickerType>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>7</MarketValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>2</Flammability>
+			<Mass>0.12</Mass>
+			<Bulk>0.12</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>Chemical</li>
+		</thingCategories>
+		<stackLimit>150</stackLimit>
+        <stuffProps>
+			<!--<categories>
+				<li>Nothing</li>
+			</categories>-->
+			<!--<color>(93,197,229)</color>-->
+		</stuffProps>
+	</ThingDef>
 	
 	<ThingDef ParentName="SK_ResourceBase">
 		<defName>HMFibers</defName>

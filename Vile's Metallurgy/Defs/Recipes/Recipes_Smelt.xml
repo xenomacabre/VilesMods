@@ -395,7 +395,7 @@
 	
 		<RecipeDef>
 		<defName>MakeLeadBars_Foundry</defName>
-		<label>Smelt lead alloy (x50)</label>
+		<label>Smelt lead alloy (x25)</label>
 		<description>Smelts lead alloy from anglesite ore. Produces 15.</description>
 		<jobString>Smelting lead alloy.</jobString>
 		<workAmount>900</workAmount>
@@ -409,7 +409,7 @@
 						<li>Anglesite</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>20</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -418,8 +418,8 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<LeadBar>15</LeadBar>
-			<Silver MayRequire="vitech.materialsscience">15</Silver>
+			<LeadBar>25</LeadBar>
+			<PureSilver MayRequire="vitech.materialsscience">20</PureSilver>
 		</products>
 		<skillRequirements>
 			<Crafting>2</Crafting>

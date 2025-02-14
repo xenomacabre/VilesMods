@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- CX4 -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="RF_Gun_CXfour"]/label</xpath> 
+	<value>
+        <label>Beretta CX4 Storm</label>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="RF_Gun_CXfour" 
+        or defName="BuildCXfour"]/description</xpath> 
+	<value>
+        <description>A civilian personal defense carbine designed to fire pistol rounds at longer ranges.
+Type: 9mm Civilian Carbine
+Pros: Fair effective range
+Cons: Below average damage</description>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="RF_Gun_CXfour"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]/magazineSize</xpath> 
+	<value>
+	        <magazineSize>15</magazineSize>
+	</value>
+</Operation>
+
+<!-- USC -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="RF_Gun_USC" or 
+        defName="BuildUSC"]/description</xpath> 
+	<value>
+        <description>A civilian variant of the HK UMP45 meant for personal defense, the Universal Self-loading Carbine is a semi-automatic weapon with low kickback and an unusual stock design. Only accepts 10-round magazines and includes an thumbhole-type stock.
+Type: .45 ACP Civilian Carbine
+Pros: Fair damage
+Cons: Low magazine capacity</description>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="RF_Gun_USC"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]/magazineSize</xpath> 
+	<value>
+	        <magazineSize>10</magazineSize>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="RF_Gun_USC"]/verbs/li[@Class="CombatExtended.VerbPropertiesCE"]/range</xpath> 
+	<value>
+                <range>35</range>
+	</value>
+</Operation>
+
+
+
+<!-- M4 Commando -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Gun_M4A1Gun"]/label</xpath> 
+	<value>
+           <label>Colt Commando</label>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Gun_M4A1Gun" 
+        or defName="BuildM4A1Gun"]/description</xpath> 
+	<value>
+           <description>The M4 Commando Colt model 935 is a shortened version of the M4 Carbine which in turn is the shortened version of the M16. It's shorter range is compensated by its maneuverability in close quarters combat. Fire control includes safe, semi-automatic, and three-round burst.
+Type: 5.56mm Military Carbine
+Pros: Compact / Maneuverable / Powerful (compared to SMGs)
+Cons: No full auto / Shorter range than most ARs.</description>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Gun_M4A1Gun"]/statBases</xpath> 
+	<value>
+         <statBases>
+            <MarketValue>1300</MarketValue>
+            <SightsEfficiency>1</SightsEfficiency>
+            <ShotSpread>0.06</ShotSpread>
+            <SwayFactor>1.1</SwayFactor>
+            <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+            <Bulk>7.5</Bulk>
+            <Mass>2.7</Mass>
+        </statBases>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Gun_M4A1Gun"]/verbs</xpath> 
+	<value>
+         <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilAmount>1.3</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
+                <warmupTime>0.65</warmupTime>
+                <range>40</range>
+                <burstShotCount>3</burstShotCount>
+                <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                <soundCast>ShotM4A1</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+	</value>
+</Operation>
+<Operation Class="PatchOperationRemove">
+	<xpath>Defs/ThingDef[defName="Gun_M4A1Gun"]/comps/li[@Class="CombatExtended.CompProperties_FireModes"]/aimedBurstShotCount</xpath> 
+</Operation>
+
+<!-- SG553 Commando-->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Gun_SG553Gun"]/label</xpath> 
+	<value>
+           <label>SG-553 Commando</label>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Gun_SG553Gun" or 
+    defName="BuildSG553Gun"]/description</xpath> 
+	<value>
+           <description>The Sig SG553 Carbine is a luxury car among assault rifles, which means it looks nice and is fun to shoot—it's also robust and has good longevity thanks to strong construction and resistant, coated steel. It's very accurate in the hands of a skilled user and with a barrel extension can be used as a Designated Marksman Rifle in a pinch. It takes a proprietary translucent magazine which is kinda cool but limits it to a 30-round capacity.
+Type: 5.56mm Carbine
+Pros: Good accuracy / Durable / Quick
+Cons: Carbine range / Expensive Production</description>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Gun_SG553Gun"]/statBases</xpath> 
+	<value>
+        <statBases>
+            <MaxHitPoints>120</MaxHitPoints>
+            <Beauty>1</Beauty>
+            <MarketValue>1700</MarketValue>
+            <SightsEfficiency>1.1</SightsEfficiency>
+            <ShotSpread>0.05</ShotSpread>
+            <SwayFactor>1.21</SwayFactor>
+            <RangedWeapon_Cooldown>0.40</RangedWeapon_Cooldown>
+            <Bulk>8</Bulk>
+            <Mass>3.5</Mass>
+        </statBases>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Gun_SG553Gun"]/verbs</xpath> 
+	<value>
+       <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilAmount>1.1</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
+                <warmupTime>0.58</warmupTime>
+                <range>42</range>
+                <burstShotCount>5</burstShotCount>
+                <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                <soundCast>ShotSG553</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Gun_SG553Gun"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]</xpath> 
+	<value>
+        <li Class="CombatExtended.CompProperties_AmmoUser">
+            <magazineSize>30</magazineSize>
+            <reloadTime>3</reloadTime>
+            <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
+        </li>
+    </value>
+</Operation>
+
+<!-- SG553 LB-->
+
+</Patch>  
+
+        

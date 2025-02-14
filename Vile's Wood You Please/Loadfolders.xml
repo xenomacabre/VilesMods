@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Loadfolders>
-	<v1.4>
+	<v1.5>
 		<li>/</li>
 		<li IfModActive="ludeon.rimworld.royalty">Royalty</li>
 		<li IfModActive="ludeon.rimworld.ideology">Ideology</li>
-	</v1.4>
+	</v1.5>
 </Loadfolders>

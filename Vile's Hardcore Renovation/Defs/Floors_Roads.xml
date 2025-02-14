@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!--
+<TerrainDef Abstract="True" ParentName="SK_TileStoneBase" Name="CobblestoneBase">
+	<renderPrecedence>223</renderPrecedence>
+	<constructEffect>ConstructDirt</constructEffect>
+	<description>Unmaintained road - Unsanitary and very hard to clean and so is best left to the elements.
+	
+Pros: High traction		
+Perks: Economical
+Cons: Very unsanitary, Hard to clean
+
+Quirk: High dirt tracking
+Material type has no special effect.</description>
+	<texturePath>Terrain/Surfaces/CobblestoneFloor</texturePath>
+	<statBases>
+		<WorkToBuild>760</WorkToBuild>
+		<Beauty>1</Beauty>
+		<Cleanliness>-0.4</Cleanliness>
+		<CleaningTimeFactor>1.5</CleaningTimeFactor>
+	</statBases>
+	<edgeType>FadeRough</edgeType>
+	<tags>
+		<li>Road</li>
+	</tags>
+	<designationCategory>NaturalFloors</designationCategory>
+	<researchPrerequisites><li>Stone_floor_B1</li></researchPrerequisites>
+</TerrainDef>
+-->
+<!--
+<TerrainDef Abstract="True" ParentName="SK_FloorBase" Name="SK_FlagstoneBase">
+		<label>gravel road</label>
+		<renderPrecedence>350</renderPrecedence>
+		<constructEffect>ConstructDirt</constructEffect>
+		<description>Unmaintained road - Unsanitary and very hard to clean and so is best left to the elements. Gravel also works well against a building's foundation.
+Pros: High traction		
+Perks: Quick installation
+Cons: Very unsanitary, Hard to clean
+Quirk: High dirt tracking
+Material type has no special effect.</description>
+		<texturePath>Terrain/Surfaces/Flagstone</texturePath>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<statBases>
+			<WorkToBuild>300</WorkToBuild>
+			<Beauty>1</Beauty>
+			<Cleanliness>-0.4</Cleanliness>
+			<CleaningTimeFactor>1.5</CleaningTimeFactor>
+		</statBases>
+		<edgeType>FadeRough</edgeType>
+		<tags>
+			<li>Road</li>
+		</tags>
+		<researchPrerequisites>
+			<li>Stone_floor_B1</li>
+		</researchPrerequisites>
+		<designationCategory>NaturalFloors</designationCategory>
+</TerrainDef>
+-->
+</Defs>

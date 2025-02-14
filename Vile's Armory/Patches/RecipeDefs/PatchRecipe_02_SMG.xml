@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- Colt N99 -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildTecnine"]/label</xpath> 
+	<value>
+		<label>Build Colt N99</label> 
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildTecnine"]/researchPrerequisite</xpath> 
+	<value>
+		<researchPrerequisite>SMG_C2</researchPrerequisite>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildTecnine"]/workAmount</xpath> 
+	<value>
+		<workAmount>15600</workAmount>
+	</value>
+</Operation>
+
+<!-- Beretta 93R -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="Build93RBurstPistol"]/researchPrerequisite</xpath> 
+	<value>
+		<researchPrerequisite>BlowbackOperation</researchPrerequisite>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="Build93RBurstPistol"]/workAmount</xpath> 
+	<value>
+		<workAmount>11000</workAmount>
+	</value>
+</Operation>
+
+<!-- TMP  -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildTMPMachinePistol"]/label</xpath> 
+	<value>
+		<label>Build Steyr TMP</label> 
+	</value>
+</Operation> 
+
+<!-- Skorpion  -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildSkorpionSMG"]/label</xpath> 
+	<value>
+		<label>Build Skorpion vz.61</label> 
+	</value>
+</Operation> 
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildSkorpionSMG"]/workAmount</xpath> 
+	<value>
+		<workAmount>13000</workAmount>
+	</value>
+</Operation>
+
+<!-- Vector  -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildVector"]/label</xpath> 
+	<value>
+		<label>Build Vector SMG</label>
+	</value>
+</Operation>
+
+<!-- SPECTRE M4  -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildHeavySMG"]/label</xpath> 
+	<value>
+		<label>Build Spectre M4</label>
+	</value>
+</Operation>
+
+
+<!-- RECIPES-->
+
+<!-- Colt N99 -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildTecnine"]/ingredients</xpath> 
+	<value>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SMG_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AlnicoAlloy</li> <!-- tool steel -->
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+		</ingredients>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildTecnine"]/fixedIngredientFilter</xpath> 
+	<value>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SMG_Component</li>
+				<li>Weapon_Parts</li>
+				<li>AlnicoAlloy</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<disallowedCategories>
+				<li>ForgedBar</li>
+				<li>CastBar</li>
+			</disallowedCategories>
+		</fixedIngredientFilter>
+	</value>
+</Operation>
+
+<!-- Beretta 93R -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="Build93RBurstPistol"]/ingredients</xpath> 
+	<value>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Pistol_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Tennalum</li>
+						<li>AnodizedAluminiumBlue</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Fiberglass</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="Build93RBurstPistol"]/fixedIngredientFilter</xpath> 
+	<value>
+	<fixedIngredientFilter>
+			<thingDefs>
+				<li>Pistol_Component</li>
+				<li>Weapon_Parts</li>
+				<li>Fiberglass</li>
+				<li>Tennalum</li>
+				<li>AnodizedAluminiumBlue</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</value>
+</Operation>
+
+<!-- Skorpion vz. 61--> 
+
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildSkorpionSMG"]/ingredients</xpath> 
+	<value>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SMG_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+					</categories>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Hardwoods</li>
+						<li>Ultrahardwoods</li>
+					</categories>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildSkorpionSMG"]/fixedIngredientFilter</xpath> 
+	<value>
+	<fixedIngredientFilter>
+			<thingDefs>
+				<li>SMG_Component</li>
+				<li>Weapon_Parts</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>Hardwoods</li>
+				<li>Ultrahardwoods</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>WroughtIron</li>
+				<li>ForgedSteel</li>
+				<li>WootzSteel</li>
+			</disallowedThingDefs>
+		</fixedIngredientFilter>
+	</value>
+</Operation>
+
+
+<!--  M3 Greasegun --> 
+
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildM3SMG"]/ingredients</xpath> 
+	<value>
+	<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SMG_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>60</count>
+			</li>
+		</ingredients>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildM3SMG"]/fixedIngredientFilter</xpath> 
+	<value>
+	<fixedIngredientFilter>
+			<thingDefs>
+				<li>SMG_Component</li>
+				<li>Weapon_Parts</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>Hardwoods</li>
+				<li>Ultrahardwoods</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>WroughtIron</li>
+				<li>ForgedSteel</li>
+				<li>WootzSteel</li>
+			</disallowedThingDefs>
+		</fixedIngredientFilter>
+	</value>
+</Operation>
+
+<!-- TMP --> 
+
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildTMPMachinePistol"]/ingredients</xpath> 
+	<value>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SMG_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Nylon</li>
+						<li>PPPlastic</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildTMPMachinePistol"]/fixedIngredientFilter</xpath> 
+	<value>
+	<fixedIngredientFilter>
+			<thingDefs>
+				<li>SMG_Component</li>
+				<li>Weapon_Parts</li>
+				<li>Nylon</li>
+				<li>PPPlastic</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<disallowedCategories>
+				<li>ForgedBar</li>
+				<li>CastBar</li>
+			</disallowedCategories>
+		</fixedIngredientFilter>
+	</value>
+</Operation>
+
+<!-- UZI -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildPDW"]/ingredients</xpath> 
+	<value>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SMG_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li> <!-- mild steel-->
+						<li>CarbonSteel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+		</ingredients>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildPDW"]/fixedIngredientFilter</xpath> 
+	<value>
+	<fixedIngredientFilter>
+			<thingDefs>
+				<li>SMG_Component</li>
+				<li>Weapon_Parts</li>
+				<li>ComponentIndustrial</li>
+				<li>Plasteel</li>
+				<li>CarbonSteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</value>
+</Operation>
+
+
+<!-- MP5 -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildMP5Gun"]/ingredients</xpath> 
+	<value>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SMG_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SpringSteel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Nylon</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GlassBatch</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildMP5Gun"]/fixedIngredientFilter</xpath> 
+	<value>
+	<fixedIngredientFilter>
+			<thingDefs>
+				<li>SMG_Component</li>
+				<li>Weapon_Parts</li>
+				<li>SpringSteel</li>
+				<li>GlassBatch</li>
+				<li>Nylon</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</value>
+</Operation>
+
+
+<!-- Vector -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildVector"]/ingredients</xpath> 
+	<value>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SMG_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Tennalum</li>
+						<li>AnodizedAluminiumBlue</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Nylon</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GlassBatch</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			</ingredients>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildVector"]/fixedIngredientFilter</xpath> 
+	<value>
+	<fixedIngredientFilter>
+			<thingDefs>
+				<li>SMG_Component</li>
+				<li>Weapon_Parts</li>
+				<li>Tennalum</li>
+				<li>AnodizedAluminiumBlue</li>
+				<li>Nylon</li>
+				<li>GlassBatch</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<disallowedCategories>
+				<li>ForgedBar</li>
+				<li>CastBar</li>
+			</disallowedCategories>
+		</fixedIngredientFilter>
+	</value>
+</Operation>
+
+
+<!-- UMP -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildUMP45Gun"]/ingredients</xpath> 
+	<value>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SMG_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>9</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>28</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Nylon</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GlassBatch</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildUMP45Gun"]/fixedIngredientFilter</xpath> 
+	<value>
+	<fixedIngredientFilter>
+			<thingDefs>
+				<li>SMG_Component</li>
+				<li>Weapon_Parts</li>
+				<li>Nylon</li>
+				<li>GlassBatch</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<disallowedCategories>
+				<li>ForgedBar</li>
+				<li>CastBar</li>
+			</disallowedCategories>
+		</fixedIngredientFilter>
+	</value>
+</Operation>
+
+
+<!-- Spectre -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildHeavySMG"]/ingredients</xpath> 
+	<value>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SMG_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CarbonSteel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Nylon</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildHeavySMG"]/fixedIngredientFilter</xpath> 
+	<value>
+	<fixedIngredientFilter>
+			<thingDefs>
+				<li>SMG_Component</li>
+				<li>Weapon_Parts</li>
+				<li>ComponentIndustrial</li>
+				<li>CarbonSteel</li>
+				<li>Nylon</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</value>
+</Operation>
+
+</Patch>
+
+
+

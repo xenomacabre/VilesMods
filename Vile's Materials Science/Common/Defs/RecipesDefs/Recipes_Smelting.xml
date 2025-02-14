@@ -586,9 +586,9 @@
 	
 	<RecipeDef>
 		<defName>SmeltGalena_Basic</defName>
-		<label>Quick: Galena (15 Pb, 10 Ag)</label>
-		<description>Smelt Galena into Lead.</description>
-		<jobString>Smelting Galena into Lead (Pb).</jobString>
+		<label>Quick: Galena (15 Pb, 15 Ag)</label>
+		<description>Smelt Galena into Lead and Silver.</description>
+		<jobString>Smelting Galena into Lead (Pb) and Silver (Ag).</jobString>
 		<workAmount>500</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
 		<effectWorking>Smelt</effectWorking>
@@ -610,7 +610,7 @@
 		</fixedIngredientFilter>
 		<products>
 			<LeadBar>15</LeadBar>
-            <PureSilver>10</PureSilver>
+            <PureSilver>15</PureSilver>
 		</products>
 		<skillRequirements>
 			<Crafting>4</Crafting>
@@ -621,7 +621,7 @@
 	</RecipeDef>
 	<RecipeDef>
 	<defName>SmeltGalena_Industrial</defName>
-		<label>Adv: Galena (20 Pb, 15 Ag, 10 S)</label>
+		<label>Adv: Galena (25 Pb, 15 Ag, 10 S)</label>
 		<description>Process Galena into Lead, Silver, and sulfur.</description>
 		<jobString>Processing Galena (Pb, Ag, S).</jobString>
 		<workAmount>1500</workAmount>
@@ -644,7 +644,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<LeadBar>20</LeadBar>
+			<LeadBar>25</LeadBar>
 			<PureSilver>15</PureSilver>
 			<Sulfur>10</Sulfur>
 		</products>

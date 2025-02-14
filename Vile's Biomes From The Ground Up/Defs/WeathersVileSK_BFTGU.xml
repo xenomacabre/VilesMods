@@ -125,7 +125,7 @@
 		</temperatureRange>
 		<windSpeedFactor>3</windSpeedFactor>
 		<favorability>Neutral</favorability>
-		<exposedThought>SoakingWet</exposedThought>
+		<weatherThought>SoakingWet</weatherThought>
 		<perceivePriority>2</perceivePriority>
 		<accuracyMultiplier>0.4</accuracyMultiplier>
 		<rainRate>2.0</rainRate>

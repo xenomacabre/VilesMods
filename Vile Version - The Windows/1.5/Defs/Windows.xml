@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ThingDef ParentName="BuildingBase" Name="WindowBase" Abstract="True">
-		<!--<thingClass>OpenTheWindows.Building_Window</thingClass>-->
+		<thingClass>OpenTheWindows.Building_Window</thingClass>
 		<category>Building</category>
 		<graphicData>
             <graphicClass>Graphic_Multi</graphicClass>
@@ -33,16 +33,15 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<canOverlapZones>false</canOverlapZones>
 		<tickerType>Normal</tickerType>
-		<!--<placeWorkers>
+		<placeWorkers>
 			<li>OpenTheWindows.PlaceWorker_Window</li>
-		</placeWorkers>-->
-		<!--<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>-->
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<building>
 			<paintable>true</paintable>
 			<isInert>true</isInert>
 			<canPlaceOverWall>true</canPlaceOverWall>
 		</building>
-<!--
 		<comps>
 			<li Class="OpenTheWindows.CompProperties_Window">
 				<commandTexture>UI/LightIcon</commandTexture>
@@ -57,7 +56,6 @@
 				<signal>air</signal>
 			</li>
 		</comps>
-	-->	
 		<researchPrerequisites>
 			<li>Glassworks</li>
 		</researchPrerequisites>
@@ -88,7 +86,6 @@
 			<Beauty>1.0</Beauty>
 		</statBases>
 		<costStuffCount>5</costStuffCount>
-		<!--
 		<comps Inherit="False">
 			<li Class="OpenTheWindows.CompProperties_Window">
 				<commandTexture>UI/OpenWindows</commandTexture>
@@ -97,7 +94,6 @@
 				<signal>both</signal>
 			</li>
 		</comps>
-		-->
 		<researchPrerequisites Inherit="False">
 			<li>Fortification_A1</li>
 		</researchPrerequisites>
@@ -361,7 +357,7 @@
             <ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<coversFloor>false</coversFloor>
-        <!--
+<!--
         <comps>
           <li Class="RimFridge.CompProperties_SecondLayer">
 				<graphicData>
@@ -373,7 +369,7 @@
 				<altitudeLayer>Projectile</altitudeLayer>
 			</li>
          </comps>
-         -->
+-->
 	</ThingDef>
 	
 	<ThingDef ParentName="WindowBase">
@@ -403,7 +399,7 @@
             <ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<coversFloor>false</coversFloor>
-        <!--<drawerType>MapMeshAndRealTime</drawerType>
+<!--<drawerType>MapMeshAndRealTime</drawerType>
         <comps>
           <li Class="RimFridge.CompProperties_SecondLayer">
 				<graphicData>
@@ -444,7 +440,7 @@
             <ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<coversFloor>false</coversFloor>
-<!--
+		<!--
         <comps>
           <li Class="RimFridge.CompProperties_SecondLayer">
 				<graphicData>
@@ -456,7 +452,7 @@
 				<altitudeLayer>Projectile</altitudeLayer>
 			</li>
          </comps>
-         -->
+		 -->
 	</ThingDef>
 	
 </Defs>

@@ -242,7 +242,7 @@
 	<ThingDef ParentName="WallBase">
 		<defName>WattleWall</defName>
 		<label>wattle and daub wall</label>
-		<description>A wall made of earth and clay around a wooden latticework and binded with straw. Uses a lot of different materials found around the building site.</description>
+		<description>A wall made of earth and clay around a wooden latticework and reinforced with straw. Uses a lot of different materials found around the building site.</description>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
 			<texPath>Things/Building/Walls/Wall_Atlas_Wattle/Wall_Atlas_WattleB</texPath>

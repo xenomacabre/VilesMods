@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+
+<!-- Decriptions added to normal patch file to save space-->
+<!-- <Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="BuildCXfour"]/description</xpath> 
+	<value>
+        <description>A civilian personal defense carbine designed to fire pistol rounds at longer ranges. The standard 10-round box magazine can be upgraded to up to 30.
+Type: 9mm Civilian Carbine
+Pros: Fair effective range / More magazine options
+Cons: Below average damage</description>
+	</value>
+</Operation> -->
+
+
+
+<!-- Removes Leather from advanced weapons -->
+<!-- <Operation Class="PatchOperationRemove">
+	<xpath>Defs/RecipeDef[
+	defName="BuildCXfour" or 
+	defName="BuildUSC" or
+	defName="BuildM4A1Gun" or
+	]/ingredients/li[6]</xpath> 
+
+</Operation>
+<Operation Class="PatchOperationRemove">
+	<xpath>Defs/RecipeDef[
+	defName="BuildCXfour" or 
+	defName="BuildUSC" or
+	defName="BuildM4A1Gun" or
+	]/fixedIngredientFilter/categories/li[3]</xpath>  
+</Operation> -->
+
+
+<!-- Beretta CX4 -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildCXfour"]/ingredients</xpath> 
+	<value>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Rifle_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Fiberglass</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildCXfour"]/fixedIngredientFilter</xpath> 
+	<value>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Rifle_Component</li>
+				<li>Weapon_Parts</li>
+				<li>Fiberglass</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<disallowedCategories>
+				<li>ForgedBar</li>
+				<li>CastBar</li>
+			</disallowedCategories>
+		</fixedIngredientFilter>
+	</value>
+</Operation>
+
+
+<!-- HK USC -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildCXfour"]/ingredients</xpath> 
+	<value>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Rifle_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+				<categories>
+					<li>SLDBar</li>
+					<li>USLDBar</li>
+				</categories>
+				</filter>
+				<count>18</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Nylon</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GlassBatch</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildCXfour"]/fixedIngredientFilter</xpath> 
+	<value>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Rifle_Component</li>
+				<li>Weapon_Parts</li>
+				<li>Nylon</li>
+				<li>GlassBatch</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<disallowedCategories>
+				<li>ForgedBar</li>
+				<li>CastBar</li>
+			</disallowedCategories>
+		</fixedIngredientFilter>
+	</value>
+</Operation>
+
+<!-- Colt Commando-->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildCXfour"]/ingredients</xpath> 
+	<value>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Rifle_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Tennalum</li>
+						<li>AnodizedAluminiumBlue</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Nylon</li>
+						<li>ABS</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildCXfour"]/fixedIngredientFilter</xpath> 
+	<value>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Rifle_Component</li>
+				<li>Weapon_Parts</li>
+				<li>Tennalum</li>
+				<li>AnodizedAluminiumBlue</li>
+				<li>Nylon</li>
+				<li>ABS</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<disallowedCategories>
+				<li>ForgedBar</li>
+				<li>CastBar</li>
+			</disallowedCategories>
+		</fixedIngredientFilter>
+	</value>
+</Operation>
+
+<!-- SG 553-->
+<!-- SG553 -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildSG553Gun"]/ingredients</xpath> 
+	<value>
+	<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvRifle_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Polycarbonate</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Paraffins</li> <!-- teflon-->
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildSG553Gun"]/fixedIngredientFilter</xpath> 
+	<value>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdvRifle_Component</li>
+				<li>Weapon_Parts</li>
+				<li>Paraffins</li>
+				<li>Polycarbonate</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<disallowedCategories>
+				<li>ForgedBar</li>
+				<li>CastBar</li>
+			</disallowedCategories>
+		</fixedIngredientFilter>
+	</value>
+</Operation>
+
+
+</Patch>
+
+
+

@@ -73,6 +73,7 @@
 				<li>Custom2</li>
 			</linkFlags>
 		</graphicData>
+		<disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
 		<uiIconPath>Things/Building/Fences/ChainFenceIco</uiIconPath>
 		<statBases>
 			<MaxHitPoints>250</MaxHitPoints>

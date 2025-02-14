@@ -394,7 +394,8 @@ Glass-fiber reinforced plastic is a composite material of glass fibers set into 
 			<li>
 				<filter>
 					<thingDefs>
-						<li>HMFibers</li> 
+						<li>HMFibers</li>
+						<li>GuardianHairs</li> 
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -408,6 +409,7 @@ Glass-fiber reinforced plastic is a composite material of glass fibers set into 
 				<li>Carbon</li>
 				<li>Compaste</li>
 				<li>HMFibers</li>
+				<li>GuardianHairs</li> 
 			</thingDefs>
 		</fixedIngredientFilter>
 		<skillRequirements>

@@ -88,6 +88,7 @@
 	<ThingDef ParentName="ClayPotWet">
 		<defName>ClayPot</defName>
 		<label>Clay Pot</label>
+		<description>A fired, but unglazed clay pot. Used for food storage, but it's porous and doesn't seal as well as glazed pots. Reduces spoilage by 35%.</description>
 		<graphicData>
 			<texPath>Things/Pottery/Pot_full_crate</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -97,6 +98,8 @@
 	<ThingDef ParentName="ClayPotWet">
 		<defName>ClayPotAsh</defName>
 		<label>Ash-Glazed Pot</label>
+		<description>A glazed clay pot. Beautiful and seals well for food storage. Reduces spoilage by 45%.</description>
+		<description></description>
 		<graphicData>
 			<texPath>Things/Pottery/Pot_Ash_full_crate</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -105,6 +108,7 @@
 	<ThingDef ParentName="ClayPotWet">
 		<defName>ClayPotPainted</defName>
 		<label>Painted Clay Pot</label>
+		<description>A glazed clay pot. Beautiful and seals well for food storage. Reduces spoilage by 45%.</description>
 		<graphicData>
 			<texPath>Things/Pottery/Pot_RedFigure_full_crate</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -113,6 +117,7 @@
 	<ThingDef ParentName="ClayPotWet">
 		<defName>ClayPotLead</defName>
 		<label>Lead-Glazed Pot</label>
+		<description>A glazed clay pot. Beautiful and seals well for food storage. Reduces spoilage by 45%.</description>
 		<graphicData>
 			<texPath>Things/Pottery/Pot_Lead_full_crate</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -120,7 +125,8 @@
 	</ThingDef>
 	<ThingDef ParentName="ClayPotWet">
 		<defName>ClayPotTin</defName>
-		<label>Tin-Glzed Pot</label>
+		<label>Tin-Glazed Pot</label>
+		<description>A glazed clay pot. Beautiful and seals well for food storage. Reduces spoilage by 45%.</description>
 		<graphicData>
 			<texPath>Things/Pottery/Pot_Tin_full_crate</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -129,6 +135,7 @@
 	<ThingDef ParentName="ClayPotWet">
 		<defName>ClayPotSalt</defName>
 		<label>Salt-Glazed Pot</label>
+		<description>A glazed clay pot. Beautiful and seals well for food storage. Reduces spoilage by 45%.</description>
 		<graphicData>
 			<texPath>Things/Pottery/Pot_Salt_full_crate</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

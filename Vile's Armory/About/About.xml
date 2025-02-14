@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<ModMetaData>
+<name>Vile's Armory</name>
+<author>VileHeathen</author>
+<supportedVersions>
+    <li>1.5</li>
+</supportedVersions>
+<packageId>vitech.armory</packageId>
+<modDependencies>
+	<li>
+		<packageId>vitech.materialsscience</packageId>
+        <displayName>Vile's Materials Science</displayName>
+        <downloadUrl>https://github.com/xenomacabre/VilesMods</downloadUrl>
+	</li>
+</modDependencies>
+<loadBefore>
+</loadBefore>
+<loadAfter>
+	<li>vitech.materialsscience</li>
+	
+
+</loadAfter>
+<incompatibleWith>
+	<li>RWNodeTree.ModularizationVanillaWeapon</li>
+</incompatibleWith>
+<description>Vile's Armory reworks, retextures, and rebalances firearms for Hardcore SK. It uses all the textures I created for Weapon Modularization, but is an alternative to that mod, for those of us who want better guns, but not the excessive options.
+
+As with most of my mods, it's my thinking that every available option (be they guns, apparel, materials, etc) does something that the other options don't and that they are unique and distinct. And so it is with this mod as well. Each gun has listed in its description what its pros and cons are to make decisions easier. 
+
+This also utilizes Vile's Materials Science, to make better use of the variety of materials. For instance, lighter guns may require a light material such as aluminum or nylon. Much of this is based on real-life construction too, just for fun.
+
+This mod is still in the early stages and there may be some typos and balancing that will need to be worked out. The spacer guns are still a WIP as well, and I may add some very minor "modularization" of my own, if I feel there are some places where certain gun qualities are missing.
+</description> 
+</ModMetaData>
+
+
+
+
+
+
+	

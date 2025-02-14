@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- COMFORT FOOD-->
 <Defs>
 	<ThingDef ParentName="CannedNonMeatBase">
 		<defName>FermentedOlives</defName>

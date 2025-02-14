@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch><!--
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Core SK</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<operations>
+
+			<li Class="PatchOperationReplace"><xpath>Defs/TerrainDef[@Name="CobblestoneBase"]/description</xpath>
+				<value>
+					<description>Unmaintained road - Unsanitary and very hard to clean and so is best left to the elements.
+	
+Pros: High traction		
+Perks: Economical
+Cons: Very unsanitary, Hard to clean
+
+* High dirt tracking
+* Material type has no special effect.</description>
+				</value>
+			</li>
+
+
+
+			<li Class="PatchOperationReplace"><xpath>Defs/TerrainDef[@Name="SK_FlagstoneBase"]/description</xpath>
+				<value>
+					<description>Unmaintained road - Unsanitary and very hard to clean and so is best left to the elements. Gravel also works well against a building's foundation.
+Pros: High traction		
+Perks: Quick installation
+Cons: Very unsanitary, Hard to clean
+* High dirt tracking
+* Material type has no special effect.</description>
+				</value>
+			</li>
+
+
+		</operations>
+		</match>
+    </Operation>	
+-->
+</Patch>

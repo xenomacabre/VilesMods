@@ -29,6 +29,40 @@
 	<match Class="PatchOperationSequence">
 	<success>Always</success>
 		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeLeadBars_Hand"]/label</xpath>
+				<value>
+                    <label>Smelt lead and silver (15 Pb / 10 Ag)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeLeadBars_Hand"]/description</xpath>
+				<value>
+                    <description>Smelts 15 lead and 10 silver from anglesite ore.</description>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeLeadBars_Hand"]/jobString</xpath>
+				<value>
+                    <jobString>Smelting lead and silver.</jobString>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakeLeadBars_Hand"]/products</xpath>
+				<value>
+                    <products>
+						<LeadBar>15</LeadBar>
+						<PureSilver>10</PureSilver>
+					</products>
+				</value>
+			</li>
+		
+		<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Silver"]/label</xpath>
+				<value>
+                    <label>Silver Coin</label>
+				</value>
+			</li>
             
             <li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="CrucibleSteel"]/stuffProps</xpath>
@@ -58,7 +92,6 @@
 						<li>MakeTinBars_Hand</li>
 						<li>MakeCopperBars_Hand</li>
 						<li>MakeBronze_Hand</li>
-						<li>SmeltGalena_Basic</li>
 						<li>MakeCoins</li>
 						<li>MeltCoins</li>
 						<li>MakeSilverBars_Hand</li>

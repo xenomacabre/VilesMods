@@ -9,7 +9,7 @@
 	<success>Always</success>
 		<operations>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="MakeSilverBars_Hand"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName="MakeSilverBars_Hand"]/ingredients</xpath>
 				<value>
                    <ingredients>
                         <li>
@@ -32,15 +32,13 @@
 				</value>
 			</li>
              <li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="MakeSilverBars_Hand"]/fixedIngredientFilter</xpath>
+				<xpath>Defs/RecipeDef[defName="MakeSilverBars_Hand"]/fixedIngredientFilter</xpath>
 				<value>
                   <fixedIngredientFilter>
                         <thingDefs>
                             <li>PureSilver</li>
-                        </thingDefs>
-                                <thingDefs>
-                                    <li>CopperBar</li>
-                                </thingDefs>
+							<li>CopperBar</li>
+						</thingDefs>
                     </fixedIngredientFilter>
 				</value>
 			</li>

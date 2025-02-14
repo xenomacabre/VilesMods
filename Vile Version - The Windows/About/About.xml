@@ -10,9 +10,9 @@
 	</supportedVersions>
 		<packageId>thewindows.sk.jptrrs.owlchemist.vile</packageId>
 	<description>
-	    This is a fork and continuation of Open the Windows. The original mod was by jptrrs, patched to 1.3 by MangoThunder, with seamless texture edits by Yap. All three have been rolled together along with a number of optimizations, updates and balances adjustments.
+This is a fork and continuation of Open the Windows. The original mod was by jptrrs, patched to 1.3 by MangoThunder, with seamless texture edits by Yap. All three have been rolled together along with a number of optimizations, updates and balances adjustments.
 	
-		Patched for Hardcore SK and with original textures by Vile Heathen.	</description>
+Patched for Hardcore SK 1.5 by TheLoneTec and Vile Heathen with original textures by Vile Heathen.</description>
 	<modDependencies>
 		<li>
 			<packageId>brrainz.harmony</packageId>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-<ThingDef ParentName="UniversalFermenterBase" Class="UniversalFermenterSK.ThingDef_UF">
+	<ThingDef ParentName="UniversalFermenterBase" Class="UniversalFermenterSK.ThingDef_UF">
 		<defName>SeasoningRack</defName>
 		<label>SeasoningRack</label>
 		<description>A storage rack for seasoning firewood. Some species take longer to season than others.</description>
@@ -38,12 +38,12 @@
 		</statBases>
 		<size>(2,1)</size>
 		<comps>
-			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Forbiddable" />
 		</comps>
 		<tickerType>Rare</tickerType>
 		<rotatable>true</rotatable>
 		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
-		<designationCategory>Production</designationCategory>	
+		<designationCategory>Production</designationCategory>
 		<!-- ThingDef_UF fields -->
 		<showProductIcon>false</showProductIcon>
 		<barOffset>(0.0, 0.25)</barOffset>
@@ -106,16 +106,14 @@
 					<li>Small_ToolCabinet</li>
 				</linkableFacilities>
 			</li>
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
-			</li>
+			
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
 		</placeWorkers>
 		<useStuffTerrainAffordance>false</useStuffTerrainAffordance>
-	</ThingDef>	
+	</ThingDef>
 
 	<ThingDef ParentName="WorkTable">
 		<defName>ChoppingBlock</defName>
@@ -179,16 +177,14 @@
 					<li>Small_ToolCabinet</li>
 				</linkableFacilities>
 			</li>
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
-			</li>
+			
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
 		</placeWorkers>
 		<useStuffTerrainAffordance>false</useStuffTerrainAffordance>
-	</ThingDef>	
+	</ThingDef>
 
 
 </Defs>

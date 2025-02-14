@@ -214,6 +214,7 @@
 				<filter>
 					<thingDefs>
 						<li>Sulphates</li>
+						<li>TalonAether</li>
 					</thingDefs>
 				</filter>
 				<count>20</count>
@@ -234,6 +235,7 @@
 			<thingDefs>
 				<li>Sulphates</li>
 				<li>Lye</li>
+				<li>TalonAether</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<skillRequirements>

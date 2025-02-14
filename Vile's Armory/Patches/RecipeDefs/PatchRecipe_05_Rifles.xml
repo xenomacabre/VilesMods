@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- AUG -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildAUG"]/researchPrerequisite</xpath> 
+	<value>
+		<researchPrerequisite>Rifles_C2</researchPrerequisite> <!-- Rifles II-->
+	</value>
+</Operation>
+<!-- Morita -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildMarineSturmRifle"]/label</xpath> 
+	<value>
+		<label>Build Morita II AR</label> 
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildMarineSturmRifle"]/researchPrerequisite</xpath> 
+	<value>
+		<researchPrerequisite>Rifles_C2</researchPrerequisite> <!-- Rifles II-->
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildMarineSturmRifle"]/workAmount</xpath> 
+	<value>
+		<workAmount>16000</workAmount>
+	</value>
+</Operation>
+
+<!-- Lancer  -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildXM8MilitaryRifle"]/label</xpath> 
+	<value>
+		<label>Build Mk2 Lancer</label> 
+	</value>
+</Operation> 
+
+<!-- ICWS  -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildXM8MilitaryRifle"]/researchPrerequisite</xpath> 
+	<value>
+		<researchPrerequisite>Heavy_D1</researchPrerequisite>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildXM8MilitaryRifle"]/workAmount</xpath> 
+	<value>
+		<workAmount>24000</workAmount>
+	</value>
+</Operation>
+
+<!-- RECIPES -->
+<!-- M16 -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildAssaultRifle"]/ingredients</xpath> 
+	<value>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvRifle_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>11</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AnodizedAluminiumBlue</li>
+						<li>Tennalum</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Nylon</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GlassBatch</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildAssaultRifle"]/fixedIngredientFilter</xpath> 
+	<value>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdvRifle_Component</li>
+				<li>Weapon_Parts</li>
+				<li>Nylon</li>
+				<li>AnodizedAluminiumBlue</li>
+				<li>Tennalum</li>
+				<li>GlassBatch</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<disallowedCategories>
+				<li>ForgedBar</li>
+				<li>CastBar</li>
+			</disallowedCategories>
+		</fixedIngredientFilter>
+	</value>
+</Operation>
+
+<!-- Lancer -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildXM8MilitaryRifle"]/ingredients</xpath> 
+	<value>
+		<ingredients>
+		<li>
+				<filter>
+					<thingDefs>
+						<li>AdvRifle_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MaxametSteel</li>
+						<li>Carborundum</li>
+						<li>PobediteAlloy</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>60</count>
+			</li>
+		</ingredients>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildXM8MilitaryRifle"]/fixedIngredientFilter</xpath> 
+	<value>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdvRifle_Component</li>
+				<li>Weapon_Parts</li>
+				<li>MaxametSteel</li>
+				<li>Carborundum</li>
+				<li>PobediteAlloy</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<disallowedCategories>
+				<li>ForgedBar</li>
+				<li>CastBar</li>
+			</disallowedCategories>
+		</fixedIngredientFilter>
+	</value>
+</Operation>
+
+
+<!-- FAMAS -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildFAMAS"]/ingredients</xpath> 
+	<value>
+	<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvRifle_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Tennalum</li>
+						<li>AnodizedAluminiumBlue</li>
+						<li>TitaniumBar</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Fiberglass</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+		</ingredients>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildFAMAS"]/fixedIngredientFilter</xpath> 
+	<value>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdvRifle_Component</li>
+				<li>Weapon_Parts</li>
+				<li>ComponentIndustrial</li>
+				<li>Tennalum</li>
+				<li>AnodizedAluminiumBlue</li>
+				<li>TitaniumBar</li>
+				<li>Fiberglass</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<disallowedCategories>
+				<li>ForgedBar</li>
+				<li>CastBar</li>
+			</disallowedCategories>
+		</fixedIngredientFilter>
+	</value>
+</Operation>
+
+
+<!-- AK -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildAK47Gun"]/ingredients</xpath> 
+	<value>
+	<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvRifle_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>9</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentAdvanced</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>45</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Hardwoods</li>
+						<li>Ultrahardwoods</li>
+					</categories>
+					<thingDefs>
+						<li>Nylon</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildAK47Gun"]/fixedIngredientFilter</xpath> 
+	<value>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdvRifle_Component</li>
+				<li>Weapon_Parts</li>
+				<li>ComponentAdvanced</li>
+				<li>Nylon</li>
+			</thingDefs>
+			<categories>
+				<li>Hardwoods</li>
+				<li>Ultrahardwoods</li>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<disallowedCategories>
+				<li>ForgedBar</li>
+				<li>CastBar</li>
+			</disallowedCategories>
+		</fixedIngredientFilter>
+	</value>
+</Operation>
+
+
+<!-- Morita -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildMarineSturmRifle"]/ingredients</xpath> 
+	<value>
+	<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvRifle_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentAdvanced</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Fiberglass</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildMarineSturmRifle"]/fixedIngredientFilter</xpath> 
+	<value>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdvRifle_Component</li>
+				<li>Weapon_Parts</li>
+				<li>ComponentIndustrial</li>
+				<li>Plastic</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<disallowedCategories>
+				<li>ForgedBar</li>
+				<li>CastBar</li>
+			</disallowedCategories>
+		</fixedIngredientFilter>
+	</value>
+</Operation>
+
+
+
+<!-- AUG -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildAUG"]/ingredients</xpath> 
+	<value>
+	<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvRifle_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>13</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Tennalum</li>
+						<li>AnodizedAluminiumBlue</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Nylon</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GlassBatch</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildAUG"]/fixedIngredientFilter</xpath> 
+	<value>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdvRifle_Component</li>
+				<li>Weapon_Parts</li>
+				<li>Tennalum</li>
+				<li>Nylon</li>
+				<li>GlassBatch</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</value>
+</Operation>
+
+<!-- SCAR -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildSCAR_H"]/ingredients</xpath> 
+	<value>
+	<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvRifle_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Tennalum</li>
+						<li>TitaniumBar</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Nylon</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GlassBatch</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildSCAR_H"]/fixedIngredientFilter</xpath> 
+	<value>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdvRifle_Component</li>
+				<li>Weapon_Parts</li>
+				<li>ComponentIndustrial</li>
+				<li>Plastic</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+	</value>
+</Operation>
+
+
+<!-- MA5B -->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildTacticalCombatrifle"]/ingredients</xpath> 
+	<value>
+	<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvRifle_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>18</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Polycarbonate</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CarbonAlloy</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>SuperBar</li>
+					</categories>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+	</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/RecipeDef[defName="BuildTacticalCombatrifle"]/fixedIngredientFilter</xpath> 
+	<value>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdvRifle_Component</li>
+				<li>Weapon_Parts</li>
+				<li>Polycarbonate</li>
+				<li>CarbonAlloy</li>
+			</thingDefs>
+			<categories>
+				<li>SuperBar</li>
+			</categories>
+		</fixedIngredientFilter>
+	</value>
+</Operation>
+
+
+</Patch>
+
+
+

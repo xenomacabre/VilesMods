@@ -140,7 +140,7 @@
 		<defName>WoodFloor_Maple</defName>
 		<label>maple floor (H)</label>
 		<renderPrecedence>245</renderPrecedence>
-		<description>Maple looks great as flooring and is known for having subtle grains and a soft color, as well as its durability. Beuaty: 3 Cleanliness: 0.2 Install Time: 3.5</description>
+		<description>Maple looks great as flooring and is known for having subtle grains and a soft color, as well as its durability. Beauty: 3 Cleanliness: 0.2 Install Time: 3.5</description>
 		<texturePath>Terrain/Surfaces/WoodFloors/Maple</texturePath>
 		<uiIconPath>Terrain/Surfaces/WoodFloors/Maple</uiIconPath>
 		<statBases>

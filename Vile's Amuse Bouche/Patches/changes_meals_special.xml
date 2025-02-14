@@ -24,7 +24,7 @@
 				</statBases>
 			</value>
 		</li> 
-		<li Class="PatchOperationAdd">
+		<li Class="SK.PatchOperationReplaceExtended">
 			<xpath>Defs/ThingDef[defName="PickledVeg"]/ingestible</xpath>
 			<value>
 				<preferability>MealFine</preferability>
@@ -745,6 +745,3 @@
 		</match>
     </Operation>	
 </Patch>
-
-
-

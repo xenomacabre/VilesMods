@@ -26,7 +26,7 @@
 			</visualSizeRange>
 			<growDays>17</growDays>
 			<harvestWork>600</harvestWork>
-			<harvestYield>35</harvestYield>
+			<harvestYield>15</harvestYield>
 			<sowMinSkill>6</sowMinSkill>
 			<sowResearchPrerequisites>
 				<li>Trees_B3</li>
