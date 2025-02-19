@@ -3,6 +3,7 @@
 	<name>HMC Vile's Pre-Industrial Overhaul</name>
 	<author>VileHeathen</author>
 	<supportedVersions>
+		<li>1.4</li>
 		<li>1.5</li>
 	</supportedVersions>
 	<packageId>ViTech.MedievalOverhaul</packageId>
