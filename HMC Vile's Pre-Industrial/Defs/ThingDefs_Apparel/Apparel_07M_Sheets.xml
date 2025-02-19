@@ -218,7 +218,7 @@
 			<li>SetCommoner</li>
 		</thingCategories>
 		<recipeMaker>
-			<researchPrerequisite>Apparel_A1</researchPrerequisite>
+			<researchPrerequisite>Apparel_B1</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>	
 	
