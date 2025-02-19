@@ -119,6 +119,7 @@
 		</modExtensions>
 		<techLevel>Medieval</techLevel>
 	</ThingDef>
+
 	<ThingDef ParentName="Shield_Base">
 		<defName>MedievalShield</defName>
 		<label>Heater Shield</label>
@@ -295,6 +296,7 @@
 		</recipeUsers>
 		<researchPrerequisite>Armor_B2</researchPrerequisite>
 </RecipeDef>
+
 <ThingDef ParentName="ItemCrateBase">
 		<defName>PaviseCrate</defName>
 		<label>Pavise Crate</label>
