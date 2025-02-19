@@ -523,8 +523,8 @@
 			</li>
 		</lifeStages>
 		<livesInOcean>true</livesInOcean>
-		<livesInMarsh>false</livesInMarsh>
-		<livesInRiver>false</livesInRiver>
+		<livesInMarsh>true</livesInMarsh>
+		<livesInRiver>true</livesInRiver>
 		<breedQuantity>60</breedQuantity>
 		<breedingDurationInDays>2</breedingDurationInDays>
 		<commonality>0.8</commonality>
@@ -535,6 +535,7 @@
 			<li>Tundra</li>
 			<li>BorealForest</li>
 			<li>TemperateForest</li>
+			<li>TemperateSwamp</li>
 			<li>TropicalRainforest</li>
 			<li>AridShrubland</li>
 			<li>Desert</li>
@@ -885,7 +886,7 @@
 			</li>
 		</lifeStages>
 		<livesInOcean>true</livesInOcean>
-		<livesInMarsh>false</livesInMarsh>
+		<livesInMarsh>true</livesInMarsh>
 		<livesInRiver>true</livesInRiver>
 		<commonality>0.7</commonality>
 		<naturalBiomes>
@@ -893,6 +894,7 @@
            	<li>SeaIce</li>
 			<li>IceSheet</li>
 			<li>Tundra</li>
+			<li>TemperateSwamp</li>
 			<li>BorealForest</li>
 			<li>TemperateForest</li>
 			<li>TropicalRainforest</li>
