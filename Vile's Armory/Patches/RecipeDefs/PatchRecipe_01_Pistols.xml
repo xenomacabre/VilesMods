@@ -242,8 +242,8 @@
 			<li>
 				<filter>
 					<categories>
-						<li>Hardwoods</li>
-						<li>Ultrahardwoods</li>
+				<li>HardwoodLumber</li>
+				<li>UltrahardwoodLumber</li>
 					</categories>
 				</filter>
 				<count>10</count>
@@ -262,8 +262,8 @@
 			</thingDefs>
 			<categories>
 				<li>SLDBar</li>
-				<li>Hardwoods</li>
-				<li>Ultrahardwoods</li>
+				<li>HardwoodLumber</li>
+				<li>UltrahardwoodLumber</li>
 			</categories>
 			<disallowedThingDefs>
 				<li>CastIron</li>
@@ -316,8 +316,8 @@
 			<li>
 				<filter>
 					<categories>
-						<li>Hardwoods</li>
-						<li>Ultrahardwoods</li>
+				<li>HardwoodLumber</li>
+				<li>UltrahardwoodLumber</li>
 					</categories>
 				</filter>
 				<count>15</count>
@@ -336,8 +336,8 @@
 			</thingDefs>
 			<categories>
 				<li>SLDBar</li>
-				<li>Hardwoods</li>
-				<li>Ultrahardwoods</li>
+				<li>HardwoodLumber</li>
+				<li>UltrahardwoodLumber</li>
 			</categories>
 			<disallowedThingDefs>
 				<li>WroughtIron</li>

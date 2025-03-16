@@ -318,8 +318,8 @@
 			<li>
 				<filter>
 					<categories>
-						<li>Hardwoods</li>
-						<li>Ultrahardwoods</li>
+				<li>HardwoodLumber</li>
+				<li>UltrahardwoodLumber</li>
 					</categories>
 					<thingDefs>
 						<li>Nylon</li>
@@ -341,8 +341,8 @@
 				<li>Nylon</li>
 			</thingDefs>
 			<categories>
-				<li>Hardwoods</li>
-				<li>Ultrahardwoods</li>
+				<li>HardwoodLumber</li>
+				<li>UltrahardwoodLumber</li>
 				<li>SLDBar</li>
 				<li>USLDBar</li>
 			</categories>
