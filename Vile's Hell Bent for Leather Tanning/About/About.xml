@@ -6,6 +6,9 @@
         <li>1.5</li>
     </supportedVersions>
 	<packageId>vitech.leathertanning</packageId>
+	<loadAfter>
+		<li>JPT.SoftWarmBedsHSK</li>
+	</loadAfter>
 	<description>
 =====================================
 VILE'S HELL BENT FOR LEATHER Tanning 

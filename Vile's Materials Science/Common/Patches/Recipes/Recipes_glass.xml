@@ -9,7 +9,7 @@
 	<success>Always</success>
 		<operations>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="MakeReinforcedGlass"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName="MakeReinforcedGlass"]/ingredients</xpath>
 				<value>
                    <ingredients>
                         <li>
@@ -32,7 +32,7 @@
 				</value>
 			</li>
              <li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="MakeReinforcedGlass"]/fixedIngredientFilter</xpath>
+				<xpath>Defs/RecipeDef[defName="MakeReinforcedGlass"]/fixedIngredientFilter</xpath>
 				<value>
                   <fixedIngredientFilter>
                         <thingDefs>

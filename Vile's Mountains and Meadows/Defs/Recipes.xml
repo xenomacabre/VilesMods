@@ -1,54 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
-		<defName>Preserve_FermentKombucha</defName>
-		<label>ferment kombucha (x10, 4 days)</label>
-		<description>Make kombucha out of tea and sugar. Takes 4 days.</description>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>RawTea</li>
-					</thingDefs>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Sugar</li>
-					</thingDefs>
-				</filter>
-				<count>0.02</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-						<li>RawTea</li>
-            <li>Sugar</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<KombuchaDrink>10</KombuchaDrink>
-		</products>
-		<recipeUsers>
-			<li>PicklingStation</li>
-		</recipeUsers>
-		<temperatureSafe>
-			<min>0</min>
-			<max>50</max>
-		</temperatureSafe>
-		<temperatureIdeal>
-			<min>15</min>
-			<max>30</max>
-		</temperatureIdeal>
-		<ruinedPerDegreePerHour>1</ruinedPerDegreePerHour>
-		<speedBelowSafe>0.05</speedBelowSafe>
-		<speedAboveSafe>0.2</speedAboveSafe>
-		<processDays>6</processDays>
-	</RecipeDef>
-
   <RecipeDef ParentName="ExtractSeed">
     <defName>ExtractSeedCloudberry</defName>
     <label>extract cloudberry seeds</label>

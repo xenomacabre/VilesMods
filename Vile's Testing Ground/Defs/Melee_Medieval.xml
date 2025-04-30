@@ -95,7 +95,7 @@ TIER: Early Medieval
 
 Used to thrust into unprotected parts of the knight's armor, the dagger is surprisingly useful as an every day tool. Typically only used as a backup weapon. Must get in close to the enemy to be effective which puts the user at risk.</description>
 		<graphicData>
-			<texPath>Things/Weapons/Melee/Dagger</texPath>
+			<texPath>Things/Weapons/Melee/VileDagger</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractMelee</soundInteract>			
@@ -177,7 +177,7 @@ TIER: Early Medieval
 
 A short sword of the Legion meant to be used with a shield. It's broad blade gave to high thrusting damage and less likely to break or bend.</description>
 		<graphicData>
-			<texPath>Things/Weapons/Melee/Gladius</texPath>
+			<texPath>Things/Weapons/Melee/VileGladius</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractMelee</soundInteract>			
@@ -265,7 +265,7 @@ TIER: Late Medieval
 
 A two-handed cut-and-thrust weapon typically used as a backup weapon for elite archers on the Rim.</description>
 		<graphicData>
-			<texPath>Things/Weapons/Melee/Longsword</texPath>
+			<texPath>Things/Weapons/Melee/VileLongsword</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractMelee</soundInteract>			
@@ -357,7 +357,7 @@ TIER: Late Medieval
 
 A very long two-handed sword which is meant to cut through swaths of enemies. Harder to counter than a longsword, but not as cumbersome as a polearm.</description>
 		<graphicData>
-			<texPath>Things/Weapons/Melee/Zweihander</texPath>
+			<texPath>Things/Weapons/Melee/VileZweihander</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractMelee</soundInteract>			
@@ -451,7 +451,7 @@ TIER: Early Medieval
 
 A weighted spiked ball on a wooden shaft, intended for piercing trough enemy armor.</description>
 		<graphicData>
-			<texPath>Things/Weapons/Melee/Morningstar</texPath>
+			<texPath>Things/Weapons/Melee/VileMorningstar</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
@@ -600,7 +600,7 @@ TIER: Late Medieval
 
 Essentially a sword on a very long pole. Inflicts grievous wounds, but does not penetrate armor as well as a halberd. Its long reach makes keeping the enemy from getting close to you easier.</description>
 		<graphicData>
-			<texPath>Things/Weapons/Melee/Glaive</texPath>
+			<texPath>Things/Weapons/Melee/VileGlaive</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractMelee</soundInteract>			
@@ -695,7 +695,7 @@ TIER: Late Medieval
 		
 Essentially an axe on a very long pole. Punctures armor very easily but does not inflict as much damage as a glaive. Its long reach makes keeping the enemy from getting close to you easier.</description>
 		<graphicData>
-			<texPath>Things/Weapons/Melee/Halberd</texPath>
+			<texPath>Things/Weapons/Melee/VileHalberd</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractMelee</soundInteract>			
@@ -804,7 +804,7 @@ NOTES: Fair lethality, poor penetration, poor defense.
 
 An knife/shortsword used by the Norbals as a weapon and tool for hunting and butchering.</description>
 		<graphicData>
-			<texPath>Things/Weapons/Norbal/NorbalierSword</texPath>
+			<texPath>Things/Weapons/Norbal/VileNorbalierSword</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractMelee</soundInteract>
@@ -990,7 +990,7 @@ TIER: Early Medieval
 - Difficult to use (slow)
 - Poor defense</description>
 		<graphicData>
-			<texPath>Things/Weapons/Norbal/NorbalHandukarAx</texPath>
+			<texPath>Things/Weapons/Norbal/VileNorbalHandukarAx</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractMelee</soundInteract>
@@ -1081,7 +1081,7 @@ TIER: Early Medieval
 
 A two-handed axe with the length of a polearm. Cheap and effective. A popular weapon among Norbal berserkers.</description>
 		<graphicData>
-			<texPath>Things/Weapons/Norbal/NorbalAx</texPath>
+			<texPath>Things/Weapons/Norbal/VileNorbalAx</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractMelee</soundInteract>
@@ -1175,7 +1175,7 @@ TIER: Early Medieval
 
 A baton with a weighted metal end for cracking skulls. Constuction is solid, reinforced metal.</description>
 		<graphicData>
-			<texPath>Things/Weapons/Melee/Mace</texPath>
+			<texPath>Things/Weapons/Melee/VileMace</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<weaponTags>

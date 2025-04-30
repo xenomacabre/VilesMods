@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Vile's Tweaks</name>
+	<name>Vile's Testing Grounds</name>
 	<author>VileHeathen</author>
 	<supportedVersions>
         <li>1.5</li>
@@ -11,14 +11,7 @@
 		<loadAfter>
         <li>vitech.metallurgy</li>
 	</loadAfter>
-	<description>
-This is where I keep minor tweaks for my own personal use. I'll try to keep the file names descriptive so you can delete files and tailor it to your liking.
-
-Changes:
-1. Variations of badge textures, added some new ones to cover more skills and military roles.
-2. Increased asexual/bisexual/gay commonalities make it more realistic.
-3. Inreases likelyhood of a cold snap in winter.
-</description>
+	<description>A place where I'm testing out new textures and tweaks before implementing them into my mods or core SK.</description>
 <url></url>
 </ModMetaData>
 

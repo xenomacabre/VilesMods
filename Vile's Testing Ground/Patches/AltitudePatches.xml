@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="SK_TreeBase"]/altitudeLayer</xpath>
+				<value>
+					<altitudeLayer>BuildingBelowTop</altitudeLayer>
+				</value>
+		</Operation>	
+
+
+</Patch>	
