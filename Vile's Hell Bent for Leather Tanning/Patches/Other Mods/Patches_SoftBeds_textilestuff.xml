@@ -197,14 +197,14 @@
 			
 			
 						
-			<li Class="PatchOperationReplace"> <!-- soft leather -->
-				<xpath>Defs/ThingDef[defName="Leather_Pig"]/statBases/Textile_Softness</xpath>
+			<li Class="PatchOperationAdd"> <!-- soft leather -->
+				<xpath>Defs/ThingDef[defName="Leather_Pig"]/statBases</xpath>
 				<value><!-- IGSF 1 -->
 					<Textile_Softness>0.49</Textile_Softness>
 				</value>
 			</li>
-			<li Class="PatchOperationAdd"> <!-- soft leather -->
-				<xpath>Defs/ThingDef[defName="Leather_Pig"]/statBases</xpath>
+			<li Class="PatchOperationReplace"> <!-- soft leather -->
+				<xpath>Defs/ThingDef[defName="Leather_Pig"]/statBases/Bed_Immunity_Stuff</xpath>
 				<value><!-- IGSF 1 -->
 					<Bed_Immunity_Stuff>0.5</Bed_Immunity_Stuff>
 				</value>
