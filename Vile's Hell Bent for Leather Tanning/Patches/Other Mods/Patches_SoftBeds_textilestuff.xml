@@ -44,7 +44,6 @@
 		<li>[JPT] Soft Warm Beds HSK</li>
 	</mods>
 		<match Class="PatchOperationSequence">
-		<success>Always</success>
 			<operations>
 
 			<!-- ========== Leather ========== -->
@@ -223,8 +222,8 @@
 					<Textile_Softness>0.49</Textile_Softness>
 				</value>
 			</li>
-			<li Class="PatchOperationReplace"> <!-- soft leather -->
-				<xpath>Defs/ThingDef[defName="Leather_Pig"]/statBases/Bed_Immunity_Stuff</xpath>
+			<li Class="PatchOperationAdd"> <!-- soft leather -->
+				<xpath>Defs/ThingDef[defName="Leather_Pig"]/statBases</xpath>
 				<value><!-- IGSF 1 -->
 					<Bed_Immunity_Stuff>0.5</Bed_Immunity_Stuff>
 				</value>
@@ -237,8 +236,8 @@
 			
 			
 			
-			<li Class="PatchOperationReplace"> <!-- light leather -->
-				<xpath>Defs/ThingDef[defName="Leather_Light"]/statBases/Textile_Softness</xpath>
+			<li Class="PatchOperationAdd"> <!-- light leather -->
+				<xpath>Defs/ThingDef[defName="Leather_Light"]/statBases</xpath>
 				<value><!-- IGSF 0.84 -->
 					<Textile_Softness>0.32</Textile_Softness>
 				</value>
@@ -258,8 +257,8 @@
 			
 			
 			
-			<li Class="PatchOperationReplace"> <!-- genione leather -->
-				<xpath>Defs/ThingDef[defName="Leather_Bird"]/statBases/Textile_Softness</xpath>
+			<li Class="PatchOperationAdd"> <!-- genione leather -->
+				<xpath>Defs/ThingDef[defName="Leather_Bird"]/statBases</xpath>
 				<value><!-- IGSF 0.92 -->
 					<Textile_Softness>0.30</Textile_Softness>
 				</value>
@@ -525,8 +524,8 @@
 			
 			
 			
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Leather_Patch"]/statBases/Textile_Softness</xpath>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Leather_Patch"]/statBases</xpath>
 				<value><!-- IGSF 0.84 -->
 					<Textile_Softness>0.22</Textile_Softness>
 				</value>
