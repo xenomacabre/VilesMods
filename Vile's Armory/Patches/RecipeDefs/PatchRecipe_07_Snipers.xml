@@ -252,8 +252,8 @@ Cons: Advanced production costs</description>
 			<li>
 				<filter>
 					<categories>
-						<li>Hardwoods</li>
-						<li>Ultrahardwoods</li>
+						<li>HardwoodLumber</li>
+						<li>UltrahardwoodLumber</li>
 					</categories>
 				</filter>
 				<count>30</count>
@@ -272,8 +272,8 @@ Cons: Advanced production costs</description>
 			</thingDefs>
 			<categories>
 				<li>SLDBar</li>
-				<li>Hardwoods</li>
-				<li>Ultrahardwoods</li>
+				<li>HardwoodLumber</li>
+				<li>UltrahardwoodLumber</li>
 			</categories>
 			<disallowedThingDefs>
 				<li>WroughtIron</li>
@@ -324,8 +324,8 @@ Cons: Advanced production costs</description>
 			<li>
 				<filter>
 					<categories>
-						<li>Hardwoods</li>
-						<li>Ultrahardwoods</li>
+				<li>HardwoodLumber</li>
+				<li>UltrahardwoodLumber</li>
 					</categories>
 				</filter>
 				<count>30</count>
@@ -344,8 +344,8 @@ Cons: Advanced production costs</description>
 			</thingDefs>
 			<categories>
 				<li>SLDBar</li>
-				<li>Hardwoods</li>
-				<li>Ultrahardwoods</li>
+				<li>HardwoodLumber</li>
+				<li>UltrahardwoodLumber</li>
 			</categories>
 			<disallowedCategories>
 				<li>ForgedBar</li>
@@ -467,8 +467,8 @@ Cons: Advanced production costs</description>
 			<li>
 				<filter>
 					<categories>
-						<li>Hardwoods</li>
-						<li>Ultrahardwoods</li>
+				<li>HardwoodLumber</li>
+				<li>UltrahardwoodLumber</li>
 					</categories>
 				</filter>
 				<count>50</count>
@@ -489,8 +489,8 @@ Cons: Advanced production costs</description>
 			<categories>
 				<li>SLDBar</li>
 				<li>USLDBar</li>
-				<li>Hardwoods</li>
-				<li>Ultrahardwoods</li>
+				<li>HardwoodLumber</li>
+				<li>UltrahardwoodLumber</li>
 			</categories>
 		</fixedIngredientFilter>
 	</value>
