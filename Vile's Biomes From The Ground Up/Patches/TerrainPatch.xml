@@ -226,7 +226,7 @@
     </Operation>
 	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="RockySoil"]/pathCost</xpath>
 		<value>
-			 <pathCost>5</pathCost>
+			 <pathCost>3</pathCost>
 		</value>
     </Operation>	
 	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="RockySoil"]/label</xpath>
@@ -243,7 +243,7 @@
     </Operation>
 	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Gravel"]/fertility</xpath>
 		<value>
-			 <fertility>0.3</fertility>
+			 <fertility>0.5</fertility>
 		</value>
     </Operation>
 	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Gravel"]/pathCost</xpath>
@@ -315,6 +315,18 @@
 	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="Ice"]/scatterType</xpath>
 		<value>
 			<scatterType>None</scatterType>
+		</value>
+    </Operation>
+	
+	<!-- PACKED DIRT -->
+	<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="PackedDirt"]/texturePath</xpath>
+		<value>
+			<texturePath>Terrain/Surfaces/PackedDirtLight</texturePath>
+		</value>
+    </Operation>
+		<Operation Class="PatchOperationReplace"><xpath>Defs/TerrainDef[defName="PackedDirt"]/fertility</xpath>
+		<value>
+			 <fertility>0.025</fertility>
 		</value>
     </Operation>
 	

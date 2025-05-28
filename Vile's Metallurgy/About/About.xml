@@ -119,10 +119,7 @@ A0.2
 -Removed grain recipes from stamp mill, fixed it so it's craft-worker based.
 -Patched cleaver, dagger, and knife to work as survival tools. The latter is renamed "survival knife" and may instill bonuses to construction and smithing. There's no penalty for not using a knife for cooking, and if the bonusus will only take affect if over 100%. Late-game alloys have cooking bonuses of 100%... updating that is on the road map.
 -Fixed some textures
--Improved labels for processing recipes	
-		
-
-</description>
+-Improved labels for processing recipes</description>
 <url></url>
 </ModMetaData>
 

@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Manifest>
-  <identifier>DoorsExpanded</identifier>
-  <version>1.5.0.0</version>
-  <dependencies />
-  <incompatibleWith />
-  <manifestUri>https://raw.githubusercontent.com/jecrell/DoorsExpanded/master/About/Manifest.xml</manifestUri>
-  <downloadUri>https://github.com/jecrell/DoorsExpanded/releases</downloadUri>
-</Manifest>

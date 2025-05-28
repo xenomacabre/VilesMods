@@ -9,7 +9,7 @@
 	<success>Always</success>
 		<operations>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="MakeNapalm"]/recipeUsers</xpath>
+				<xpath>Defs/RecipeDef[defName="MakeNapalm"]/recipeUsers</xpath>
 				<value>
                    <recipeUsers>
                        <li>TableChemlab</li>
@@ -17,7 +17,7 @@
 				</value>
 			</li>
  	        <li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="MakeNapalm"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName="MakeNapalm"]/ingredients</xpath>
 				<value>
                   <ingredients>
                         <li>
@@ -40,7 +40,7 @@
 				</value>
 			</li>
 		  <li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="MakeNapalm"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName="MakeNapalm"]/ingredients</xpath>
 				<value>
                      <fixedIngredientFilter>
                         <thingDefs>
@@ -54,7 +54,7 @@
             <!-- AMMO -->
             
             <li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="MakeAmmo_Flamethrower_Napalm"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName="MakeAmmo_Flamethrower_Napalm"]/ingredients</xpath>
 				<value>
                   <ingredients>
                         <li>
@@ -69,13 +69,23 @@
 				</value>
 			</li>
 		  <li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="MakeAmmo_Flamethrower_Napalm"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName="MakeAmmo_Flamethrower_Napalm"]/ingredients</xpath>
 				<value>
                      <fixedIngredientFilter>
                         <thingDefs>
                             <li>Napalm</li>
                         </thingDefs>
                     </fixedIngredientFilter>
+				</value>
+			</li>
+			
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/RecipeDef[defName="MakePowder"]/ingredients</xpath>
+				<value>
+                 <products>
+					<BlackPowder>20</BlackPowder>
+				</products>
 				</value>
 			</li>
             

@@ -12,25 +12,25 @@
             <li Class="PatchOperationReplace"> <!-- stock leather -->
 				<xpath>Defs/ThingDef[defName="HayBed" or defName="HayBedDouble"]/statBases/BedRestEffectiveness</xpath>
 				<value><!-- IGSF 0.96 -->
-					<BedRestEffectiveness>0.57</BedRestEffectiveness>
+					<BedRestEffectiveness>0.53</BedRestEffectiveness>
 				</value>
 			</li>
             <li Class="PatchOperationReplace"> <!-- stock leather -->
 				<xpath>Defs/ThingDef[defName="HayBed" or defName="HayBedDouble"]/statBases/ImmunityGainSpeedFactor</xpath>
 				<value><!-- IGSF 0.96 -->
-					<ImmunityGainSpeedFactor>0.85</ImmunityGainSpeedFactor>
+					<ImmunityGainSpeedFactor>0.80</ImmunityGainSpeedFactor>
 				</value>
 			</li>
               <li Class="PatchOperationReplace"> <!-- stock leather -->
 				<xpath>Defs/ThingDef[defName="SleepingSpot" or defName="DoubleSleepingSpot"]/statBases/BedRestEffectiveness</xpath>
 				<value><!-- IGSF 0.96 -->
-					<BedRestEffectiveness>0.52</BedRestEffectiveness>
+					<BedRestEffectiveness>0.5</BedRestEffectiveness>
 				</value>
 			</li>
             <li Class="PatchOperationReplace"> <!-- stock leather -->
 				<xpath>Defs/ThingDef[defName="HayBed" or defName="DoubleSleepingSpot" or defName="HayBedDouble"]/statBases/ImmunityGainSpeedFactor</xpath>
 				<value><!-- IGSF 0.96 -->
-					<ImmunityGainSpeedFactor>0.8</ImmunityGainSpeedFactor>
+					<ImmunityGainSpeedFactor>0.79</ImmunityGainSpeedFactor>
 				</value>
 			</li> 
     	</operations>
@@ -66,7 +66,26 @@
 					<Bedding_Beauty_Stuff>2</Bedding_Beauty_Stuff> 
 				</value>
 			</li>
-			
+			<!--
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Bedroll" or defName="BedrollDouble"]/statBases/Textile_Softness</xpath>
+				<value>
+					<Textile_Softness>0.34</Textile_Softness>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Bedroll" or defName="BedrollDouble"]/statBases/Bed_Immunity_Stuff</xpath>
+				<value>
+					<Bed_Immunity_Stuff>0.5</Bed_Immunity_Stuff>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace"> 
+				<xpath>Defs/ThingDef[defName="Bedroll" or defName="BedrollDouble"]/statBases/Bedding_Beauty_Stuff</xpath>
+				<value>
+					<Bedding_Beauty_Stuff>2</Bedding_Beauty_Stuff> 
+				</value>
+			</li>
+			-->
 
 			<li Class="PatchOperationReplace"> <!-- mattress bed -->
 				<xpath>Defs/ThingDef[defName="Bedroll"]/costList</xpath>
@@ -90,7 +109,7 @@
 			<li Class="PatchOperationReplace"> <!-- Buckskin -->
 				<xpath>Defs/ThingDef[defName="Leather_Dog"]/statBases/Textile_Softness</xpath>
 				<value><!-- IGSF 0.8 -->
-					<Textile_Softness>0.22</Textile_Softness>
+					<Textile_Softness>0.27</Textile_Softness>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace"> <!-- Buckskin -->
@@ -109,7 +128,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="TannedFur"]/statBases</xpath>
 				<value><!-- IGSF 0.84 -->
-					<Textile_Softness>0.27</Textile_Softness>
+					<Textile_Softness>0.32</Textile_Softness>
 					<Bed_Immunity_Stuff>0.48</Bed_Immunity_Stuff>
 					<Bedding_Beauty_Stuff>1.4</Bedding_Beauty_Stuff> 
 				</value>
@@ -203,8 +222,8 @@
 					<Textile_Softness>0.49</Textile_Softness>
 				</value>
 			</li>
-			<li Class="PatchOperationReplace"> <!-- soft leather -->
-				<xpath>Defs/ThingDef[defName="Leather_Pig"]/statBases/Bed_Immunity_Stuff</xpath>
+			<li Class="PatchOperationAdd"> <!-- soft leather -->
+				<xpath>Defs/ThingDef[defName="Leather_Pig"]/statBases</xpath>
 				<value><!-- IGSF 1 -->
 					<Bed_Immunity_Stuff>0.5</Bed_Immunity_Stuff>
 				</value>
@@ -226,7 +245,7 @@
 			<li Class="PatchOperationReplace"> <!-- light leather -->
 				<xpath>Defs/ThingDef[defName="Leather_Light"]/statBases/Bed_Immunity_Stuff</xpath>
 				<value><!-- IGSF 0.84 -->
-					<Bed_Immunity_Stuff>0.48</Bed_Immunity_Stuff>
+					<Bed_Immunity_Stuff>0.5</Bed_Immunity_Stuff>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace"> <!-- light leather -->

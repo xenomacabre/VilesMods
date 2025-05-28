@@ -71,6 +71,65 @@
 		</damageMultipliers>
 	</ThingDef>
 
+<!--
+ <ThingDef ParentName="BuildingBase" Name="WindowBase" Abstract="True">
+    <thingClass>OpenTheWindows.Building_Window</thingClass>
+    <category>Building</category>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>1</fillPercent>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <selectable>true</selectable>
+    <rotatable>true</rotatable>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Structure</designationCategory>
+    <designationHotKey>Misc3</designationHotKey>
+    <holdsRoof>true</holdsRoof>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <passability>Impassable</passability>
+    <blockLight>false</blockLight>
+    <blockWind>true</blockWind>
+    <coversFloor>true</coversFloor>
+    <castEdgeShadows>true</castEdgeShadows>
+    <canOverlapZones>false</canOverlapZones>
+    <tickerType>Normal</tickerType>
+    <placeWorkers>
+      <li>OpenTheWindows.PlaceWorker_Window</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <building>
+      <paintable>true</paintable>
+      <isInert>true</isInert>
+      <canPlaceOverWall>true</canPlaceOverWall>
+      <roamerCanOpen>false</roamerCanOpen>
+    </building>
+    <comps>
+			<li Class="OpenTheWindows.CompProperties_Window">
+				<commandTexture>UI/LightIcon</commandTexture>
+				<commandLabelKey>CommandOpenCloseWindowLightLabel</commandLabelKey>
+				<commandDescKey>CommandOpenCloseWindowLightDesc</commandDescKey>
+				<signal>light</signal>
+			</li>
+			<li Class="OpenTheWindows.CompProperties_Window">
+				<commandTexture>UI/AirVentIcon</commandTexture>
+				<commandLabelKey>CommandOpenCloseWindowVentLabel</commandLabelKey>
+				<commandDescKey>CommandOpenCloseWindowVentDesc</commandDescKey>
+				<signal>air</signal>
+			</li>
+		</comps>
+    <graphicData>
+      <linkFlags>
+        <li>Wall</li>
+        <li>Rock</li>
+      </linkFlags>
+    </graphicData>
+    <pathCost>50</pathCost>
+  </ThingDef>
+
+  -->
     <!--2571189146 -->
     	
 	<ThingDef ParentName="WindowBase" Name="RusticWindowBase" Abstract="True">

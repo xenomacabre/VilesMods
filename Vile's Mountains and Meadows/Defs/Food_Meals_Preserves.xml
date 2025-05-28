@@ -19,7 +19,6 @@
 			<Nutrition>0.25</Nutrition>
 		</statBases>
 		<ingestible>
-			<preferability>MealFine</preferability>
 			<joy>0.45</joy>
 			<joyKind>Gluttonous</joyKind>
 			<preferability>RawTasty</preferability>
