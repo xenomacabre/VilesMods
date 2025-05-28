@@ -99,7 +99,6 @@
 		<defName>ClayPotAsh</defName>
 		<label>Ash-Glazed Pot</label>
 		<description>A glazed clay pot. Beautiful and seals well for food storage. Reduces spoilage by 45%.</description>
-		<description></description>
 		<graphicData>
 			<texPath>Things/Pottery/Pot_Ash_full_crate</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
