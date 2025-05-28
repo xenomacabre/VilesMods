@@ -25,6 +25,13 @@
 		</naturalBiomes>
 		</value>
     </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/PawnKindDef[defName="PawnKindDefFishMashgon"]/livesInMarsh</xpath>
+		<value>
+			<livesInMarsh>true</livesInMarsh>
+		</value>
+    </Operation>		
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/PawnKindDef[defName="PawnKindDefFishMashgon"]/naturalBiomes</xpath>
@@ -32,6 +39,7 @@
 			<naturalBiomes>
 			<li MayRequire="vileheathen.mountainsmeadows">Prairie</li>
 			<li MayRequire="vileheathen.mountainsmeadows">MontaneForest</li>
+			<li MayRequire="vileheathen.mountainsmeadows">MixedForest</li>
 			<li MayRequire="vileheathen.mountainsmeadows">MontaneGrasslands</li>
 			<li>BorealForest</li>
 			<li>ColdBog</li>
@@ -78,9 +86,17 @@
 			<li MayRequire="vileheathen.mountainsmeadows">Prairie</li>
 			<li MayRequire="vileheathen.mountainsmeadows">MontaneForest</li>
 			<li MayRequire="vileheathen.mountainsmeadows">MontaneGrasslands</li>
+						<li MayRequire="vileheathen.mountainsmeadows">MixedForest</li>
 		</naturalBiomes>
 	</value>
     </Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/PawnKindDef[defName="PawnKindDefFishTailteeth"]/livesInMarsh</xpath>
+		<value>
+			<livesInMarsh>true</livesInMarsh>
+		</value>
+    </Operation>	
 	
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/PawnKindDef[defName="PawnKindDefFishTailteeth"]/naturalBiomes</xpath>
@@ -88,6 +104,7 @@
 	<naturalBiomes>
 			<li>TemperateForest</li>
 			<li>TropicalRainforest</li>
+			<li>TemperateSwamp</li>
 			<li>TropicalSwamp</li> <!-- Add Tropical Swamp -->
 			<li>AridShrubland</li>
 			<li>Desert</li>
@@ -102,6 +119,7 @@
 			<li>TropicalSwampArchipelago</li>
 			<li>TropicalSwampArchipelago_Fresh</li>
 			<li MayRequire="vileheathen.mountainsmeadows">Prairie</li>
+						<li MayRequire="vileheathen.mountainsmeadows">MixedForest</li>
 		</naturalBiomes>
 	</value>
     </Operation>

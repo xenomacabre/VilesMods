@@ -253,7 +253,7 @@ A long Spear typically used with a shield.</description>
 
 A long one-handed spear with a broad head for heavy damage and lugs to assist in parrying.</description>
 		<graphicData>
-			<texPath>Things/Weapons/Melee/Spear</texPath>
+			<texPath>Things/Weapons/Melee/VileSpearWinged</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.4,1.4</drawSize>
 		</graphicData>
@@ -343,7 +343,7 @@ Tier: Neolithic
 
 A club is the oldest human weapon. It is a one-handed blunt weapon for bashing enemies to death. Primitive but effective.</description>
 		<graphicData>
-			<texPath>Things/Weapons/Melee/Club</texPath>
+			<texPath>Things/Weapons/Melee/VileClub</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<weaponTags>
@@ -404,7 +404,7 @@ TIER: Neolithic
 		
 An improvised knife-like weapon. Must get in close to the enemy to be effective which puts the user at risk.</description>
 		<graphicData>
-			<texPath>Things/Weapons/Melee/Shiv</texPath>
+			<texPath>Things/Weapons/Melee/VileShiv</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractMelee</soundInteract>

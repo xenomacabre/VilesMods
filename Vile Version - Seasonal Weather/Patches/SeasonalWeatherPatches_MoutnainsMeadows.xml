@@ -228,4 +228,81 @@
     </value>
   </Operation>
   
+    <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/BiomeDef[defName = "MixedForest"]/description</xpath>
+	<value>
+		<description>Populated by both coniferous and deciduous trees, this forest has cold winters with heavy snow, a wet and windy spring, mild but pleasant summer, and an autumn that tends to be overcast.</description>
+	</value>
+</Operation>
+  
+  
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>/Defs/BiomeDef[defName = "MixedForest"]</xpath>
+    <value>
+      <li Class="SeasonalWeather.SeasonalWeatherExtension">
+        <spring> <!-- windy, rainy-->
+          <Clear>15</Clear>
+          <Rain>4</Rain>
+          <Fog>1</Fog>
+          <DryThunderstorm>0.3</DryThunderstorm>
+          <RainyThunderstorm>0.5</RainyThunderstorm>
+          <FoggyRain>1</FoggyRain>
+          <SnowGentle>4</SnowGentle>
+          <SnowHard>3</SnowHard>
+          <DoubleRainbow>0.1</DoubleRainbow>
+          <FogSnow>2</FogSnow>
+          <Windy>8</Windy>
+          <Cloudy>6</Cloudy>
+        </spring>
+        <summer> <!-- dry month -->
+          <Clear>15</Clear>
+          <Rain>1.5</Rain>
+          <Fog>2</Fog>
+          <DryThunderstorm>3</DryThunderstorm>
+          <RainyThunderstorm>4</RainyThunderstorm>
+          <FoggyRain>1</FoggyRain>
+          <SnowGentle>2</SnowGentle>
+          <SnowHard>1</SnowHard>
+          <DoubleRainbow>0.1</DoubleRainbow>
+          <FogSnow>2</FogSnow>
+          <Windy>3</Windy>
+          <Cloudy>5</Cloudy>
+        </summer>
+        <fall> <!-- Overcast -->
+          <Clear>12</Clear>
+          <Fog>4</Fog>
+          <Rain>2</Rain>
+		  <Rainstorm>2</Rainstorm>
+          <DryThunderstorm>1</DryThunderstorm>
+          <RainyThunderstorm>1</RainyThunderstorm>
+          <FoggyRain>6</FoggyRain>
+          <SnowGentle>4</SnowGentle>
+          <SnowHard>5</SnowHard>
+          <DoubleRainbow>0.1</DoubleRainbow>
+          <FogSnow>2</FogSnow>
+          <Windy>5</Windy>
+          <Cloudy>10</Cloudy>
+		  <Blizzard>0.8</Blizzard>
+		  <Whiteout>0.5</Whiteout>
+        </fall>
+        <winter> <!-- cold with heavy snow -->
+          <Clear>12</Clear>
+          <Fog>1</Fog>
+          <Rain>2</Rain>
+          <DryThunderstorm>1</DryThunderstorm>
+          <RainyThunderstorm>1</RainyThunderstorm>
+          <FoggyRain>1</FoggyRain>
+          <SnowGentle>8</SnowGentle>
+          <SnowHard>7</SnowHard>
+          <DoubleRainbow>0.1</DoubleRainbow>
+          <FogSnow>2</FogSnow>
+          <Windy>5</Windy>
+          <Cloudy>5</Cloudy>
+		  <Blizzard>3</Blizzard>
+		  <Whiteout>3</Whiteout>
+        </winter>
+      </li>
+    </value>
+  </Operation>
+  
 </Patch>

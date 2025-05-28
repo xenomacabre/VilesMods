@@ -10,7 +10,7 @@
     <ambientSounds>
       <li>Ambient_Wind_Clear</li>
     </ambientSounds>
-    <windSpeedFactor>1e12</windSpeedFactor>
+    <windSpeedFactor>2</windSpeedFactor>
     <!--This forces windy-->
     <accuracyMultiplier>0.9</accuracyMultiplier>
     <!-- Colors are Clear -->

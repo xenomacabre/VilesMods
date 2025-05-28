@@ -9,7 +9,7 @@
 	<success>Always</success>
 		<operations>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="MakeMetalCan"]/recipeUsers</xpath>
+				<xpath>Defs/RecipeDef[defName="MakeMetalCan"]/recipeUsers</xpath>
 				<value>
                    <recipeUsers>
                        <li>InductionFurnace</li>
