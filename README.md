@@ -35,14 +35,15 @@ A quick rundown of what we got so far, and recommended mod-order:
 
 
 ___________________________________________ 
-Update September 20, 2021 - Updated for 1.3
 
-These Rimworld mods are meant to work with Hardcore SK. They're currently built for Rimworld 1.4, so you'll need the dev branch here, if you're not already playing it: https://github.com/skyarkhangel/Hardcore-SK/tree/development
+These Rimworld mods are meant to work with Hardcore SK. They're currently built for Rimworld 1.5, so you'll need the dev branch here, if you're not already playing it: https://github.com/skyarkhangel/Hardcore-SK/tree/development
 
 Adding these mods is unlikely to break your savegames, though weird things might happen and you'll be missing out on some content, so I recommend starting a new save file.
 Note that Hardcore Renovations requires both my brand new mod "Wood You Please", as well as "Fences and Floors". The latter is not my mod, but I'm including a patched version that's needed.
 
 Please send any bug reports or balance/gameplay issues my way on Discord. Thanks!
+
+For 1.4 version: See GitHub history or go here: https://github.com/xenomacabre/VilesMods/tree/576b6c21990d37f350038e6bacb8ea3037400480
 
 
 
