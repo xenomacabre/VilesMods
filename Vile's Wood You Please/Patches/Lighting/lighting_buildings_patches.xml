@@ -504,7 +504,7 @@ Efficiency: 50%</description>
 
 <!-- Brazier-->
 
-			<!-- <li Class="PatchOperationReplace">
+			 <li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Brazier"]/description</xpath> 
 				<value>
 					<description>A large, ceremonial bowl used for burning solid fuel.
@@ -513,7 +513,7 @@ Max heat: 25
 Capacity: 30
 Efficiency: 20%</description>
 				</value>
-			</li>
+			</li><!--
 	<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Brazier"]/comps/li[@Class="CompProperties_Glower"]</xpath> 
 				<value>
@@ -532,9 +532,9 @@ Efficiency: 20%</description>
 						<fireSize>1</fireSize>
 					</li>
 				</value>
-			</li>
+			</li>-->
 		<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Brazier"]/comps/li[@Class="CompProperties_Refuelable"]</xpath> 
+				<xpath>Defs/ThingDef[defName="Brazier"]/comps/li[@Class="SK.CompFueled_Properties"]</xpath> 
 				<value>
 					   <li Class="SK.CompFueled_Properties">
 						<factorByDifficulty>false</factorByDifficulty>
@@ -557,7 +557,7 @@ Efficiency: 20%</description>
 						</fuelFilter>
 					</li>
 				</value>
-			</li>
+			</li><!--
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="Brazier"]</xpath> 
 				<value>
