@@ -75,7 +75,7 @@
 	<!-- embrasure -->
 	
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName = "Embrasure"]/fillPercent</xpath>
+		<xpath>Defs/ThingDef[defName = "CE_Embrasure"]/fillPercent</xpath>
 		<value>
 			<fillPercent>0.75</fillPercent>
 		</value>

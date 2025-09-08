@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	
+	<!--
 	<ThingDef ParentName="SK_LampBase">
 		<defName>Brazier</defName>
 		<label>brazier</label>
@@ -59,10 +59,6 @@ Efficiency: 20%</description>
 			<li Class="SK.CompFueled_Properties">
 						<factorByDifficulty>false</factorByDifficulty>
 						<operatingTemp>700</operatingTemp>
-						<!-- <fireDrawOffset>(0,0,0)</fireDrawOffset>
-						<fireDrawScale>0.2</fireDrawScale>
-						<fuelDrawOffset>(0,0.1,-0.05)</fuelDrawOffset>
-						<fuelDrawScale>0.75</fuelDrawScale> -->
 						<fuelCapacity>40</fuelCapacity>
 						<burnFuelMultiplier>2.5</burnFuelMultiplier>
 						<canAutoBurn>true</canAutoBurn>
@@ -132,6 +128,6 @@ Efficiency: 20%</description>
 		</building>
 		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
 	</ThingDef>
-
+-->
 
 </Defs>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/PawnKindDef[defName="Empire_Fighter_StellicGuardMelee"]</xpath>
+		<value>
+			<weaponMoney>20000~22000</weaponMoney>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/PawnKindDef[@Name="RoyalBase"]</xpath>
+		<value>
+			<weaponMoney>12000~16000</weaponMoney>
+		</value>
+	</Operation>
+	
+</Patch>
