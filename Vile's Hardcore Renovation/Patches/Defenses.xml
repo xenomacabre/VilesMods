@@ -71,6 +71,20 @@
 			<passability>Impassable</passability>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "Barricade"]/building/isFence</xpath>
+		<value>
+			<isFence>false</isFence>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName = "Barricade"]/pathCost</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">	
+		<xpath>Defs/ThingDef[defName = "Barricade"]/pathCostIgnoreRepeat</xpath>
+	</Operation>
+
+
 	
 	<!-- embrasure -->
 	

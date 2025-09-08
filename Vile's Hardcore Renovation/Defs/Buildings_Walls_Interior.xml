@@ -150,8 +150,8 @@
 		</stuffCategories>
 		<costStuffCount>2</costStuffCount>
 		<costList>
-			<ComponentMedieval>1</ComponentMedieval>
-			<ConcreteResource>1</ConcreteResource>
+			<!--<ComponentMedieval>1</ComponentMedieval>-->
+			<ConcreteResource>2</ConcreteResource>
 		</costList>
 		<researchPrerequisites>
 			<li>Construction_B3</li>

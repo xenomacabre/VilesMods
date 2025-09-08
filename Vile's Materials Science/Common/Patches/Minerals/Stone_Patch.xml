@@ -181,10 +181,12 @@ Work to build: Very difficult</description>
 					</value>
 				</li>
 
-				<li Class="SK.PatchOperationReplaceExtended">
-					<xpath>Defs/ThingDef[defName="BlocksMarble"]/stuffProps/statOffsets</xpath>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BlocksMarble"]/stuffProps</xpath>
 					<value>
-						<Beauty>1.0</Beauty>
+						<statOffsets>
+							<Beauty>2.0</Beauty>
+						</statOffsets>
 					</value>
 				</li>
 				<li Class="PatchOperationReplace">

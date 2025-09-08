@@ -131,9 +131,17 @@ A heavy javelin with a long, weighted spearhead meant for penetrating armor. Wor
 				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
 			</li>
 		</tools>
+		<recipeMaker>
+			<recipeUsers>
+				<li>CraftingSpot</li>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+			</recipeUsers>
+			<researchPrerequisite>LongBlades</researchPrerequisite>
+		</recipeMaker>
 		<modExtensions>
 			<li Class="CombatExtended.GunDrawExtension">
-				<DrawSize>1.8,1.8</DrawSize>
+				<DrawSize>1.5,1.5</DrawSize>
 			</li>
 		</modExtensions>
 		<weaponClasses>
@@ -310,23 +318,22 @@ A long one-handed spear with a broad head for heavy damage and lugs to assist in
 		</tools>
 		<modExtensions>
 			<li Class="CombatExtended.GunDrawExtension">
-				<DrawSize>2.3,2.3</DrawSize>
+				<DrawSize>1.8,1.8</DrawSize>
 			</li>
 		</modExtensions>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+			</recipeUsers>
+		</recipeMaker>
 		<weaponClasses>
 			<li>MeleePiercer</li>
-			<li>Neolithic</li>
 		</weaponClasses>
 		<thingCategories>
 			<li>SharpMelee</li>
 		</thingCategories>
 	</ThingDef>
-
-
-	
-
-
-
 
 
 

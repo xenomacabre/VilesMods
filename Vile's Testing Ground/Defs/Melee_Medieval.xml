@@ -67,7 +67,7 @@ A two-handed heavy spear with a long, sharp head for exploiting weak points in e
 		</tools>
 		<modExtensions>
 			<li Class="CombatExtended.GunDrawExtension">
-				<DrawSize>2.5,2.5</DrawSize>
+				<DrawSize>1.8,1.8</DrawSize>
 			</li>
 		</modExtensions>
 		<techLevel>Medieval</techLevel>

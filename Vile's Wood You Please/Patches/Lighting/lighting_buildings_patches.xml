@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
-
 	<Operation Class="PatchOperationFindMod">
 	<mods>
 		<li>Core SK</li>
 	</mods>
 	<match Class="PatchOperationSequence">
-	<success>Always</success>
 		<operations><!-- WALL LAMP -->
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="WallTorch"]/label</xpath> 
+				<xpath>Defs/ThingDef[defName="TorchWallLamp"]/label</xpath> 
 				<value>
 					<label>lantern sconce</label>
 				</value>
 			</li>
 				<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="WallTorch"]/description</xpath> 
+				<xpath>Defs/ThingDef[defName="TorchWallLamp"]/description</xpath> 
 				<value>
 					<description>A wall-mounted oil lamp. Fairly efficient and much brighter than candles and torches.
 Light radius: 8
@@ -26,20 +24,20 @@ Rain-proof</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">	
-				<xpath>Defs/ThingDef[defName="WallTorch"]/graphicData/texPath</xpath> 
+				<xpath>Defs/ThingDef[defName="TorchWallLamp"]/graphicData/texPath</xpath> 
 				<value>
 					<texPath>Things/Building/Sconce/Sconce</texPath>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">	
-				<xpath>Defs/ThingDef[defName="WallTorch"]/uiIconPath</xpath> 
+				<xpath>Defs/ThingDef[defName="TorchWallLamp"]/uiIconPath</xpath> 
 				<value>
 					<uiIconPath>Things/Building/Sconce/Sconce_ui</uiIconPath>
 
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="WallTorch"]/stuffCategories</xpath> 
+				<xpath>Defs/ThingDef[defName="TorchWallLamp"]/stuffCategories</xpath> 
 				<value>
 					<stuffCategories>
 						<li>Metallic</li>
@@ -47,14 +45,14 @@ Rain-proof</description>
 					</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="WallTorch"]/costStuffCount</xpath> 
+				<xpath>Defs/ThingDef[defName="TorchWallLamp"]/costStuffCount</xpath> 
 				<value>
 					<costStuffCount>25</costStuffCount>
 				</value>
 			</li>
 
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="WallTorch"]</xpath> 
+				<xpath>Defs/ThingDef[defName="TorchWallLamp"]</xpath> 
 				<value>
 					<costList>
 						<ComponentMedieval>1</ComponentMedieval>
@@ -62,20 +60,20 @@ Rain-proof</description>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="WallTorch"]/comps</xpath> 
+				<xpath>Defs/ThingDef[defName="TorchWallLamp"]/comps</xpath> 
 				<value>
 					<li Class="CompProperties_Flickable"/>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="WallTorch"]/drawerType</xpath> 
+				<xpath>Defs/ThingDef[defName="TorchWallLamp"]/drawerType</xpath> 
 				<value>
 					<drawerType>MapMeshAndRealTime</drawerType>
 				</value>
 			</li>
 			
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="WallTorch"]</xpath> 
+				<xpath>Defs/ThingDef[defName="TorchWallLamp"]</xpath> 
 				<value>
 					<inspectorTabs>
 						<li>SK.ITab_Fuel</li>
@@ -83,7 +81,7 @@ Rain-proof</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="WallTorch"]/comps/li[@Class="CompProperties_Refuelable"]</xpath> 
+				<xpath>Defs/ThingDef[defName="TorchWallLamp"]/comps/li[@Class="CompProperties_Refuelable"]</xpath> 
 				<value>
 					<li Class="SK.CompFueled_Properties">
 						<factorByDifficulty>false</factorByDifficulty>
@@ -110,7 +108,7 @@ Rain-proof</description>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName="WallTorch"]/comps</xpath> 
+				<xpath>Defs/ThingDef[defName="TorchWallLamp"]/comps</xpath> 
 				<value>
 					<li Class="RimFridge.CompProperties_SecondLayer">
 						<graphicData>
@@ -123,7 +121,7 @@ Rain-proof</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="WallTorch"]/comps/li[@Class="CompProperties_Glower"]</xpath> 
+				<xpath>Defs/ThingDef[defName="TorchWallLamp"]/comps/li[@Class="CompProperties_Glower"]</xpath> 
 				<value>
 					<li Class="CompProperties_Glower">
 						<glowRadius>8</glowRadius>
@@ -132,7 +130,7 @@ Rain-proof</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="WallTorch"]/comps/li[@Class="SK.CompProperties_FireOverlayMod"]</xpath> 
+				<xpath>Defs/ThingDef[defName="TorchWallLamp"]/comps/li[@Class="SK.CompProperties_FireOverlayMod"]</xpath> 
 				<value>
 					<li Class="SK.CompProperties_FireOverlayMod">
 						<fireSize>0.25</fireSize>
@@ -141,7 +139,7 @@ Rain-proof</description>
 				</value>
 			</li>
 				<li Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[defName="WallTorch"]</xpath> 
+						<xpath>Defs/ThingDef[defName="TorchWallLamp"]</xpath> 
 						<value>
 							<researchPrerequisites>
 								<li>Light_B2</li>

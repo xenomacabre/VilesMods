@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="FueledStove" 
+					or defName="ElectricOven"]/statBases</xpath>
+		<value>
+			<Cleanliness>2</Cleanliness>
+		</value>
+	</Operation>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="TableKitchen"]/statBases</xpath>
+		<value>
+			<Cleanliness>3</Cleanliness>
+		</value>
+	</Operation>
+</Patch>	

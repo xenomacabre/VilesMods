@@ -65,7 +65,7 @@
 	
 <!-- SAVANNA -->
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/BiomeDef[defName="AridShrubland"]/label</xpath> <!-- technically, it's tropical -->
+		<xpath>Defs/BiomeDef[defName="AridShrubland"]/label</xpath> 
 		<value>
 			<label>savanna</label> 
 		</value>

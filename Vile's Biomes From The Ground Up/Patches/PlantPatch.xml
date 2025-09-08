@@ -154,16 +154,37 @@
 		</value>
     </Operation>
 	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Strawberry"]/plant/maxMeshCount</xpath>
+		<value>
+			<maxMeshCount>4</maxMeshCount>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Plant_Berry"]/plant/visualSizeRange</xpath>
 		<value>
 			<visualSizeRange Inherit="False">
-				<min>0.9</min>
-				<max>1.4</max>
+				<min>0.8</min>
+				<max>1.7</max>
+			</visualSizeRange>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Strawberry"]/plant/visualSizeRange</xpath>
+		<value>
+			<visualSizeRange Inherit="False">
+				<min>1.1</min>
+				<max>1.3</max>
 			</visualSizeRange>
 		</value>
     </Operation>
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Plant_Berry"]/label</xpath>
+		<value>
+			<label>Wild Strazberry</label>
+		</value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Strawberry"]/label</xpath>
 		<value>
 			<label>Strazberry</label>
 		</value>
@@ -175,7 +196,7 @@
 		</value>
     </Operation>
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Plant_Berry"]/graphicData/texPath</xpath>
+		<xpath>Defs/ThingDef[defName="Plant_Berry" or defName="Plant_Strawberry"]/graphicData/texPath</xpath>
 		<value>
 			<texPath>Things/Plant/PlantStrazberry_Harvest</texPath>
 		</value>
@@ -184,14 +205,14 @@
         <success>Always</success>
         <operations>
             <li Class="PatchOperationTest">
-                <xpath>Defs/ThingDef[defName = "Plant_Berry"]/plant/immatureGraphicPath</xpath>
+                <xpath>Defs/ThingDef[defName = "Plant_Berry" or defName="Plant_Strawberry"]/plant/immatureGraphicPath</xpath>
                 <success>Normal</success>
             </li>
             <li Class="PatchOperationRemove">
-                <xpath>Defs/ThingDef[defName = "Plant_Berry"]/plant/immatureGraphicPath</xpath>
+                <xpath>Defs/ThingDef[defName = "Plant_Berry" or defName="Plant_Strawberry]/plant/immatureGraphicPath</xpath>
             </li>
             <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName = "Plant_Berry"]/plant</xpath>
+                <xpath>Defs/ThingDef[defName = "Plant_Berry" or defName="Plant_Strawberry]/plant</xpath>
                 <value>
                     <immatureGraphicPath>Things/Plant/PlantStrazberry</immatureGraphicPath>
                 </value>
@@ -199,7 +220,7 @@
         </operations>
     </Operation>
 	<Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="Plant_Berry"]/plant/leaflessGraphicPath</xpath>
+        <xpath>Defs/ThingDef[defName="Plant_Berry" or defName="Plant_Strawberry"]/plant/leaflessGraphicPath</xpath>
         <value>
 			<leaflessGraphicPath>Things/Plant/PlantStrazberry_Leafless</leaflessGraphicPath>
         </value>

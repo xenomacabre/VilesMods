@@ -166,10 +166,10 @@ Efficiency: 25%</description>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>  
 			<drawSize>(3,3)</drawSize>
-			<!-- <shadowData>
-				<volume>(1.7, 0.9, 0.85)</volume>
+			<shadowData>
+				<volume>(0,0,0)</volume>
 				<offset>(0,0,0)</offset>
-			</shadowData> -->
+			</shadowData>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>

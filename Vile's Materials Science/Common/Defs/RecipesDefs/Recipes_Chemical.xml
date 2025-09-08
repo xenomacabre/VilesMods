@@ -130,7 +130,7 @@
 	</RecipeDef>
 	<RecipeDef>
 		<defName>MakeCelluloseWood</defName>
-		<label>Extract cellulose from cotton or hemp (x15)</label>
+		<label>Extract cellulose from kindling (x15)</label>
 		<description>Extract cellulose for making ammo propellant or rayon fabric. Slow and inefficient.</description>
 		<jobString>Extracting cellulose.</jobString>
 		<workAmount>1200</workAmount>

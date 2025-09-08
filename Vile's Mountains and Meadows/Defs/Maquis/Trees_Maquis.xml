@@ -63,7 +63,7 @@ Seasoned burn rate: 1.6 hrs</description>
 		<StonePineLog>3</StonePineLog>
 	</costList>
 </ThingDef>	
-	<ThingDef ParentName="FirewoodSeasonedBase">
+	<!--<ThingDef ParentName="FirewoodSeasonedBase">
 		<defName>FirewoodSeasoned_Pine</defName>
 		<label>stonepine firewood, seasoned</label>
 		<graphicData>
@@ -74,7 +74,7 @@ Burn rate: 1.6 hrs</description>
 		<statBases>
 			<BurnDurationHours>1.6</BurnDurationHours>
 		</statBases>
-	</ThingDef>
+	</ThingDef>-->
 	
 	
 	

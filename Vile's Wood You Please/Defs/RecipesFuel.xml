@@ -420,7 +420,7 @@
 		<defName>MakeRivenBoards</defName>
 		<label>Split logs into riven boards (x30)</label>
 		<description>Split wood down the grain, radially to make thin wedges which can be used for crude construction or as fast-burning fuel.</description>
-		<jobString>Riving logs into boards.</jobString>
+		<jobString>Riving firewood into boards.</jobString>
 		<workAmount>450</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>MakeWoodPlanks_Hand</effectWorking>
