@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 	
+<ThingDef ParentName="RFF_TerraformBasicBase">
+		<defName>Terraform_TilledHtoV</defName>
+		<label>Make plowed soil vertical</label>
+		<description>Change orientation of plowed soil rows. Aesthetic change only.</description>
+		<uiIconPath>UI/Icons/Terraforming/TilledSoilV</uiIconPath>
+		<modExtensions>
+			<li Class="FertileFields.Terrain">
+				<above>
+					<li>SoilTilled</li>
+				</above>
+				<result>SoilTilledV</result>
+			</li>
+		</modExtensions>
+		<statBases>
+			<WorkToBuild>10</WorkToBuild>
+		</statBases>
+	</ThingDef>
+<ThingDef ParentName="RFF_TerraformBasicBase">
+		<defName>Terraform_TilledVtoH</defName>
+		<label>Make plowed soil horizontal</label>
+		<description>Change orientation of plowed soil rows. Aesthetic change only.</description>
+		<uiIconPath>UI/Icons/Terraforming/TilledSoilH</uiIconPath>
+		<modExtensions>
+			<li Class="FertileFields.Terrain">
+				<above>
+					<li>SoilTilledV</li>
+				</above>
+				<result>SoilTilled</result>
+			</li>
+		</modExtensions>
+		<statBases>
+			<WorkToBuild>10</WorkToBuild>
+		</statBases>
+	</ThingDef>
 
+	
 	
 	<ThingDef ParentName="RFF_TerraformBasicBase">
 		<defName>Terraform_ToPackedDirt</defName>

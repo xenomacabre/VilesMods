@@ -41,6 +41,12 @@
 				<li>Corpse_ThingDefFishBlueblade</li>
 				<li>Corpse_ThingDefFishSeasnake</li>
 				<li>Corpse_ThingDefFishTailteeth</li>
+				<li>Corpse_ThingDefFishMashgon</li>
+				<li>Corpse_ThingDefCuda</li>
+				<li>Corpse_ThingDefIceFlounder</li>
+				<li>Corpse_ThingDefFishSterlingPerch</li>
+				<li>Corpse_ThingDefFishPinstripeBass</li>
+				
 				<li>Salt</li>
 			</thingDefs>
 			<specialFiltersToDisallow>
@@ -52,6 +58,11 @@
 				<li>Corpse_ThingDefFishBlueblade</li>
 				<li>Corpse_ThingDefFishSeasnake</li>
 				<li>Corpse_ThingDefFishTailteeth</li>
+				<li>Corpse_ThingDefFishMashgon</li>
+				<li>Corpse_ThingDefCuda</li>
+				<li>Corpse_ThingDefIceFlounder</li>
+				<li>Corpse_ThingDefFishSterlingPerch</li>
+				<li>Corpse_ThingDefFishPinstripeBass</li>
 				<li>Salt</li>
 			</thingDefs>
 			</defaultIngredientFilter>

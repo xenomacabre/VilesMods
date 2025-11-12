@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--Low-end Leathers (E-grade)-->
+  <LeathersE.label>Кожа низкого качества (E-класс)</LeathersE.label>
+  <!--Split-Grain Leathers (D-grade)-->
+  <LeathersD.label>Спилок кожи (D-класс)</LeathersD.label>
+  <!--Top-Grain Leathers (C-grade)-->
+  <LeathersC.label>Шлифованная кожа (С-класс)</LeathersC.label>
+  <!--Full-Grain Leathers (B-grade)-->
+  <LeathersB.label>Полнозернистая кожа (B-класс)</LeathersB.label>
+  <!--High-Tech Leathers (A-grade)-->
+  <LeathersA.label>Высокотехнологичная кожа (A-класс)</LeathersA.label>
+  <!--Hard Leatherlike-->
+  <HardLeathers.label>Твердая кожа/оболочка</HardLeathers.label>
+  <!--Cured Hides-->
+  <CuredHides.label>Обработанная шкура</CuredHides.label>
+  <!--uncured Hides-->
+  <UncuredHides.label>Необработанная шкура</UncuredHides.label>
+</LanguageData>

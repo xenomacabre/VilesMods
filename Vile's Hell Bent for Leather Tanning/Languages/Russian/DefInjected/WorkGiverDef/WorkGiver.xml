@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--use chrome-tanning drum-->
+  <DoBillsTanningDrum.label>использовать барабан для хромового дубления</DoBillsTanningDrum.label>
+  <!--tanning hides-->
+  <DoBillsTanningDrum.gerund>дубление шкур</DoBillsTanningDrum.gerund>
+  <!--tanning hides-->
+  <DoBillsTanningDrum.verb>дубление шкур</DoBillsTanningDrum.verb>
+  <!--brine-cure hides-->
+  <DoBillsBriningStation.label>выделка шкур в соляном растворе</DoBillsBriningStation.label>
+  <!--brining hides-->
+  <DoBillsBriningStation.gerund>выделка шкур</DoBillsBriningStation.gerund>
+  <!--brining hides-->
+  <DoBillsBriningStation.verb>выделка шкур</DoBillsBriningStation.verb>
+  <!--dye and process leathers-->
+  <DoBillsDyeingStation.label>красить и обрабатывать кожу</DoBillsDyeingStation.label>
+  <!--post-processing leathers-->
+  <DoBillsDyeingStation.gerund>постобработка кожи</DoBillsDyeingStation.gerund>
+  <!--post-processing leathers-->
+  <DoBillsDyeingStation.verb>постобработка кожи</DoBillsDyeingStation.verb>
+</LanguageData>

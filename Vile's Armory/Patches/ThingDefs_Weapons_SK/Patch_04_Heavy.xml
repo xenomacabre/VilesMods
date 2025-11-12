@@ -116,13 +116,13 @@ Cons: No ability to aim</description>
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Gun_LMG"]/verbs/li[@Class="CombatExtended.VerbPropertiesCE"]/warmupTime</xpath> 
 		<value>
-			 <warmupTime>1.1</warmupTime>
+			 <warmupTime>1.0</warmupTime>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Gun_LMG"]/verbs/li[@Class="CombatExtended.VerbPropertiesCE"]/range</xpath> 
 		<value>
-			 <range>42</range>
+			 <range>40</range>
 		</value>
 	</Operation>
 

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SubCategory_Primitive.label>примитивные окна</SubCategory_Primitive.label>
+  <SubCategory_Primitive.description>Примитивные окна в деревенском стиле.</SubCategory_Primitive.description>
+  <SubCategory_Farmhouse.label>фермерский стиль</SubCategory_Farmhouse.label>
+  <SubCategory_Farmhouse.description>Стеклянные окна.</SubCategory_Farmhouse.description>
+  <SubCategory_Traditional.label>традиционный стиль</SubCategory_Traditional.label>
+  <SubCategory_Traditional.description>Стеклянные окна.</SubCategory_Traditional.description>
+  <SubCategory_Ornate.label>декоративный стиль</SubCategory_Ornate.label>
+  <SubCategory_Ornate.description>Стеклянные окна.</SubCategory_Ornate.description>
+  <SubCategory_Industrial.label>индустриальный стиль</SubCategory_Industrial.label>
+  <SubCategory_Industrial.description>Стеклянные окна.</SubCategory_Industrial.description>
+  <SubCategory_WindowWalls.label>стеклянные стены</SubCategory_WindowWalls.label>
+  <SubCategory_WindowWalls.description>Окна от пола до потолка.</SubCategory_WindowWalls.description>
+</LanguageData>

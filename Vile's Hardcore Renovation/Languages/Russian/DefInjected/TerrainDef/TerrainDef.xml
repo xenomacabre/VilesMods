@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--sandstone small bricks (V)-->
+  <SBrickSandstoneV.label>небольшие кирпичи из песчаника (В)</SBrickSandstoneV.label>
+  <!--Verticle smaller bricks laid in an interlocking pattern. Takes slightly longer to make than the regular variety.\n	Beauty: 2.-->
+  <SBrickSandstoneV.description>Вертикально расположенные кирпичи небольшого размера, уложенные по принципу перекрещивания. Изготавливается немного дольше, чем обычная кладка.\n	Красота: 2.</SBrickSandstoneV.description>
+  <!--granite small bricks (V)-->
+  <SBrickGraniteV.label>небольшие кирпичи из гранита (В)</SBrickGraniteV.label>
+  <!--Verticle smaller bricks laid in an interlocking pattern. Takes slightly longer to make than the regular variety.\n	Beauty: 2.-->
+  <SBrickGraniteV.description>Вертикально расположенные кирпичи небольшого размера, уложенные по принципу перекрещивания. Изготавливается немного дольше, чем обычная кладка.\n	Красота: 2.</SBrickGraniteV.description>
+  <!--limestone small bricks (V)-->
+  <SBrickLimestoneV.label>небольшие кирпичи из известняка (В)</SBrickLimestoneV.label>
+  <!--Verticle smaller bricks laid in an interlocking pattern. Takes slightly longer to make than the regular variety.\n	Beauty: 2.-->
+  <SBrickLimestoneV.description>Вертикально расположенные кирпичи небольшого размера, уложенные по принципу перекрещивания. На изготовление уходит немного больше времени, чем на изготовление обычной кладки.\n	Красота: 2.</SBrickLimestoneV.description>
+  <!--slate small bricks (V)-->
+  <SBrickSlateV.label>небольшие кирпичи из сланца (В)</SBrickSlateV.label>
+  <!--Verticle smaller bricks laid in an interlocking pattern. Takes slightly longer to make than the regular variety.\n	Beauty: 2.-->
+  <SBrickSlateV.description>Вертикально расположенные кирпичи небольшого размера, уложенные по принципу перекрещивания. Изготавливается немного дольше, чем обычная кладка.\n	Красота: 2.</SBrickSlateV.description>
+  <!--marble small bricks (V)-->
+  <SBrickMarbleV.label>небольшие кирпичи из мрамора (В)</SBrickMarbleV.label>
+  <!--Verticle smaller bricks laid in an interlocking pattern. Takes slightly longer to make than the regular variety.\n	Beauty: 2.-->
+  <SBrickMarbleV.description>Вертикально расположенные кирпичи небольшого размера, уложенные по принципу перекрещивания. Изготавливается немного дольше, чем обычная кладка.\n	Красота: 2.</SBrickMarbleV.description>
+  <!--clay small bricks (V)-->
+  <SBrickClayBrickV.label>небольшие кирпичи из глины (В)</SBrickClayBrickV.label>
+  <!--Verticle smaller bricks laid in an interlocking pattern. Takes slightly longer to make than the regular variety.\n	Beauty: 2.-->
+  <SBrickClayBrickV.description>Вертикально расположенные кирпичи небольшого размера, уложенные по принципу перекрещивания. Изготавливается немного дольше, чем обычная кладка.\n	Красота: 2.</SBrickClayBrickV.description>
+  <!--Ceramic small bricks (V)-->
+  <SBrickCeramicsV.label>небольшие кирпичи из керамики (В)</SBrickCeramicsV.label>
+  <!--Verticle smaller bricks laid in an interlocking pattern. Takes slightly longer to make than the regular variety.\n	Beauty: 2.-->
+  <SBrickCeramicsV.description>Вертикально расположенные кирпичи небольшого размера, уложенные по принципу перекрещивания. Изготавливается немного дольше, чем обычная кладка.\n	Красота: 2.</SBrickCeramicsV.description>
+  <!--Basalt small bricks (V)-->
+  <SBrickBasaltV.label>небольшие кирпичи из базальта (В)</SBrickBasaltV.label>
+  <!--Verticle smaller bricks laid in an interlocking pattern. Takes slightly longer to make than the regular variety.\n	Beauty: 2.-->
+  <SBrickBasaltV.description>Вертикально расположенные кирпичи небольшого размера, уложенные по принципу перекрещивания. Изготавливается немного дольше, чем обычная кладка.\n	Красота: 2.</SBrickBasaltV.description>
+  <!--Dunite small bricks (V)-->
+  <SBrickDuniteV.label>небольшие кирпичи из дунита (В)</SBrickDuniteV.label>
+  <!--Verticle smaller bricks laid in an interlocking pattern. Takes slightly longer to make than the regular variety.\n	Beauty: 2.-->
+  <SBrickDuniteV.description>Вертикально расположенные кирпичи небольшого размера, уложенные по принципу перекрещивания. Изготавливается немного дольше, чем обычная кладка.\n	Красота: 2.</SBrickDuniteV.description>
+  <!--Pegmatite small bricks (V)-->
+  <SBrickPegmatiteV.label>небольшие кирпичи из пегматита (В)</SBrickPegmatiteV.label>
+  <!--Verticle smaller bricks laid in an interlocking pattern. Takes slightly longer to make than the regular variety.\n	Beauty: 2.-->
+  <SBrickPegmatiteV.description>Вертикально расположенные кирпичи небольшого размера, уложенные по принципу перекрещивания. Изготавливается немного дольше, чем обычная кладка.\n	Красота: 2.</SBrickPegmatiteV.description>
+  <!--Alabaster small bricks (V)-->
+  <SBrickAlabasterV.label>небольшие кирпичи из алебастра (В)</SBrickAlabasterV.label>
+  <!--Verticle smaller bricks laid in an interlocking pattern. Takes slightly longer to make than the regular variety.\n	Beauty: 2.-->
+  <SBrickAlabasterV.description>Вертикально расположенные кирпичи небольшого размера, уложенные по принципу перекрещивания. Изготавливается немного дольше, чем обычная кладка.\n	Красота: 2.</SBrickAlabasterV.description>
+  <!--sandstone bricks (V)-->
+  <MBrickSandstoneV.label>кирпичи из песчаника (В)</MBrickSandstoneV.label>
+  <!--Vertical bricks laid in an interlocking pattern.\n	Beauty: 2.-->
+  <MBrickSandstoneV.description>Вертикальные кирпичи, уложенные перекрестным рисунком.\n	Красота: 2.</MBrickSandstoneV.description>
+  <!--granite bricks (V)-->
+  <MBrickGraniteV.label>кирпичи из гранита (В)</MBrickGraniteV.label>
+  <!--Vertical bricks laid in an interlocking pattern.\n	Beauty: 2.-->
+  <MBrickGraniteV.description>Вертикальные кирпичи, уложенные перекрестным рисунком.\n	Красота: 2.</MBrickGraniteV.description>
+  <!--limestone bricks (V)-->
+  <MBrickLimestoneV.label>кирпичи из известняка (В)</MBrickLimestoneV.label>
+  <!--Vertical bricks laid in an interlocking pattern.\n	Beauty: 2.-->
+  <MBrickLimestoneV.description>Вертикальные кирпичи, уложенные перекрестным рисунком.\n	Красота: 2.</MBrickLimestoneV.description>
+  <!--slate bricks (V)-->
+  <MBrickSlateV.label>кирпичи из сланца (В)</MBrickSlateV.label>
+  <!--Vertical bricks laid in an interlocking pattern.\n	Beauty: 2.-->
+  <MBrickSlateV.description>Вертикальные кирпичи, уложенные перекрестным рисунком.\n	Красота: 2.</MBrickSlateV.description>
+  <!--marble bricks (V)-->
+  <MBrickMarbleV.label>кирпичи из мрамора (В)</MBrickMarbleV.label>
+  <!--Vertical bricks laid in an interlocking pattern.\n	Beauty: 2.-->
+  <MBrickMarbleV.description>Вертикальные кирпичи, уложенные перекрестным рисунком.\n	Красота: 2.</MBrickMarbleV.description>
+  <!--clay bricks (V)-->
+  <MBrickClayBrickV.label>кирпичи из глины (В)</MBrickClayBrickV.label>
+  <!--Vertical bricks laid in an interlocking pattern.\n	Beauty: 2.-->
+  <MBrickClayBrickV.description>Вертикальные кирпичи, уложенные перекрестным рисунком.\n	Красота: 2.</MBrickClayBrickV.description>
+  <!--Ceramic bricks (V)-->
+  <MBrickCeramicsV.label>кирпичи из керамики (В)</MBrickCeramicsV.label>
+  <!--Vertical bricks laid in an interlocking pattern.\n	Beauty: 2.-->
+  <MBrickCeramicsV.description>Вертикальные кирпичи, уложенные перекрестным рисунком.\n	Красота: 2.</MBrickCeramicsV.description>
+  <!--Alabaster bricks (V)-->
+  <MBrickAlabasterV.label>кирпичи из алебастра (В)</MBrickAlabasterV.label>
+  <!--Vertical bricks laid in an interlocking pattern.\n	Beauty: 2.-->
+  <MBrickAlabasterV.description>Вертикальные кирпичи, уложенные перекрестным рисунком.\n	Красота: 2.</MBrickAlabasterV.description>
+  <!--Basalt bricks (V)-->
+  <MBrickBasaltV.label>кирпичи из базальта (В)</MBrickBasaltV.label>
+  <!--Vertical bricks laid in an interlocking pattern.\n	Beauty: 2.-->
+  <MBrickBasaltV.description>Вертикальные кирпичи, уложенные перекрестным рисунком.\n	Красота: 2.</MBrickBasaltV.description>
+  <!--Dunite bricks (V)-->
+  <MBrickDuniteV.label>кирпичи из дунита (В)</MBrickDuniteV.label>
+  <!--Vertical bricks laid in an interlocking pattern.\n	Beauty: 2.-->
+  <MBrickDuniteV.description>Вертикальные кирпичи, уложенные перекрестным рисунком.\n	Красота: 2.</MBrickDuniteV.description>
+  <!--Pegmatite bricks (V)-->
+  <MBrickPegmatiteV.label>кирпичи из пегматита (В)</MBrickPegmatiteV.label>
+  <!--Vertical bricks laid in an interlocking pattern.\n	Beauty: 2.-->
+  <MBrickPegmatiteV.description>Вертикальные кирпичи, уложенные перекрестным рисунком.\n	Красота: 2.</MBrickPegmatiteV.description>
+  <!--earthen floor-->
+  <EarthenFloor.label>земляной пол</EarthenFloor.label>
+  <!--Terracotta herringbone-->
+  <FloorRedWood.label>терракотовая ёлочка</FloorRedWood.label>
+  <!--Earthenware tiles. Functional and fire-proof. Beauty: 1. Install time: 7-->
+  <FloorRedWood.description>Фаянсовая плитка. Функциональная и огнеупорная. Красота: 1. Время монтажа: 7</FloorRedWood.description>
+  <!--pine floor (H)-->
+  <WoodFloor_Pine.label>пол из сосны (Г)</WoodFloor_Pine.label>
+  <!--Pine is a softwood, but they're still called hardwood floors. Huh? Beautiful flooring, but scratches easily. Beauty: 3 Cleanliness: -0.15 Install Time: 2-->
+  <WoodFloor_Pine.description>Сосна - мягкая порода, но ее все равно называют паркетной доской. А? Красивый пол, но легко царапается. Красота: 3 Чистота: -0.15 Время монтажа: 2</WoodFloor_Pine.description>
+  <!--willow floor (H)-->
+  <WoodFloor_Willow.label>пол из ивы (Г)</WoodFloor_Willow.label>
+  <!--Finished wood floor made of willow. Harder to keep clean, but easy to install. Beauty: 2 Cleanliness: -0.1  Install Time: 2-->
+  <WoodFloor_Willow.description>Готовый деревянный пол из ивы. Его сложнее содержать в чистоте, но легко установить. Красота: 2 Чистота: -0.1  Время монтажа: 2</WoodFloor_Willow.description>
+  <!--redwood floor (H)-->
+  <WoodFloor_Redwood.label>пол из красного дерева (Г)</WoodFloor_Redwood.label>
+  <!--Redwood makes for rich, beautiful flooring, but it's still a softwood so it scratches easily and is thus harder to keep clean. Somewhat fire resistant. Beauty: 4 Cleanliness: -0.1 Install Time: 3-->
+  <WoodFloor_Redwood.description>Из красного дерева получаются красивые и роскошные полы, но это все же мягкая порода, поэтому она легко царапается и ее сложнее содержать в чистоте. В некоторой степени огнестойкая. Красота: 4 Чистота: -0.1 Время монтажа: 3</WoodFloor_Redwood.description>
+  <!--cypress floor (H)-->
+  <WoodFloor_Cypress.label>пол из кипариса (Г)</WoodFloor_Cypress.label>
+  <!--Hardwood floors made of knotty cypress. Beauty: 2 Cleanliness: 0.05 Install Time: 3-->
+  <WoodFloor_Cypress.description>Деревянные полы из сучковатого кипариса. Красота: 2 Чистота: 0.05 Время монтажа: 3</WoodFloor_Cypress.description>
+  <!--poplar floor (H)-->
+  <WoodFloor_Poplar.label>пол из тополя (Г)</WoodFloor_Poplar.label>
+  <!--Just some poplar wood flooring. Holds up well, but is otherwise not very noteworthy. Beauty: 2 Cleanliness: 0.1 Install Time: 3-->
+  <WoodFloor_Poplar.description>Просто деревянный пол из тополя. Держится хорошо, но в остальном ничем не примечателен. Красота: 2 Чистота: 0.1 Время монтажа: 3</WoodFloor_Poplar.description>
+  <!--maple floor (H)-->
+  <WoodFloor_Maple.label>пол из клёна (Г)</WoodFloor_Maple.label>
+  <!--Maple looks great as flooring and is known for having subtle grains and a soft color, as well as its durability. Beuaty: 3 Cleanliness: 0.2 Install Time: 3.5-->
+  <WoodFloor_Maple.description>Клен прекрасно смотрится в качестве напольного покрытия, он известен своей нежной зернистостью и мягким цветом, а также долговечностью. Красота: 3 Чистота: 0.2 Время монтажа: 3.5</WoodFloor_Maple.description>
+  <!--teak floor (H)-->
+  <WoodFloor_Teak.label>пол из тикового дерева (Г)</WoodFloor_Teak.label>
+  <!--Teak is an expensive, tropical wood with deep colors and even grains. It's naturally scratch resistant, so cleans easily. Beauty: 4 Cleanliness: 0.25 Install Time: 4-->
+  <WoodFloor_Teak.description>Тик - это дорогая тропическая древесина с глубокими цветами и ровным зерном. Он устойчив к царапинам, поэтому легко чистится. Красота: 4 Чистота: 0.25 Время монтажа: 4</WoodFloor_Teak.description>
+  <!--birch floor (H)-->
+  <WoodFloor_Birch.label>пол из берёзы (Г)</WoodFloor_Birch.label>
+  <!--Birch makes a fairly unremarkable floor, except that it doesn't mark easily. Beauty: 1 Cleanliness: 0.25 Install Time: 3.5-->
+  <WoodFloor_Birch.description>Из березы получаются довольно непримечательные полы, за исключением того, что его не так легко повредить. Красота: 1 Чистота: 0.25 Время монтажа: 3.5</WoodFloor_Birch.description>
+  <!--oak floor (H)-->
+  <WoodFloor_Oak.label>пол из дуба (Г)</WoodFloor_Oak.label>
+  <!--Oak is known as being a standard for hardwood floors. It looks nice and is very scratch resistant. Beauty: 2 Cleanliness: 0.3 Install Time: 3.5-->
+  <WoodFloor_Oak.description>Дуб известен как стандарт для паркетных полов. Он прекрасно выглядит и очень устойчив к царапинам. Красота: 2 Чистота: 0.3 Время монтажа: 3.5</WoodFloor_Oak.description>
+  <!--dragonwood floor (H)-->
+  <WoodFloor_Dragonwood.label>пол из драконового дерева (Г)</WoodFloor_Dragonwood.label>
+  <!--An exotic floor from a rare, hardy tree. Beauty: 3 Cleanliness: 0.4 Install Time: 5-->
+  <WoodFloor_Dragonwood.description>Экзотический пол из редкого стойкого дерева. Красота: 3 Чистота: 0.4 Время монтажа: 5</WoodFloor_Dragonwood.description>
+  <!--mangrove floor (H)-->
+  <WoodFloor_Mangrove.label>пол из мангрового дерева (Г)</WoodFloor_Mangrove.label>
+  <!--Floors made from very hard mangrove tree wood. Naturally fire resistant. Beauty: 1 Cleanliness: 0.4 Flammability: .1 Install Time: 5-->
+  <WoodFloor_Mangrove.description>Полы изготовлены из очень твердой древесины мангрового дерева. Естественная огнестойкость. Красота: 1 Чистота: 0.4 Воспламеняемость: .1 Время монтажа: 5</WoodFloor_Mangrove.description>
+  <!--pine floor (V)-->
+  <WoodFloor_PineV.label>пол из сосны (В)</WoodFloor_PineV.label>
+  <!--Pine is a softwood, but they're still called hardwood floors. Huh? Beautiful flooring, but scratches easily. Beauty: 3 Cleanliness: -0.15 Install Time: 2-->
+  <WoodFloor_PineV.description>Сосна - мягкая порода, но ее все равно называют паркетной доской. А? Красивый пол, но легко царапается. Красота: 3 Чистота: -0.15 Время монтажа: 2</WoodFloor_PineV.description>
+  <!--willow floor (V)-->
+  <WoodFloor_WillowV.label>пол из ивы (В)</WoodFloor_WillowV.label>
+  <!--Finished wood floor made of willow. Harder to keep clean, but easy to install. Beauty: 2 Cleanliness: -0.1  Install Time: 2-->
+  <WoodFloor_WillowV.description>Готовый деревянный пол из ивы. Его сложнее содержать в чистоте, но легко установить. Красота: 2 Чистота: -0.1  Время монтажа: 2</WoodFloor_WillowV.description>
+  <!--redwood floor (V)-->
+  <WoodFloor_RedwoodV.label>пол из красного дерева (В)</WoodFloor_RedwoodV.label>
+  <!--Redwood makes for rich, beautiful flooring, but it's still a softwood so it scratches easily and is thus harder to keep clean. Somewhat fire resistant. Beauty: 4 Cleanliness: -0.1 Install Time: 3-->
+  <WoodFloor_RedwoodV.description>Из красного дерева получаются красивые и роскошные полы, но это все же мягкая порода, поэтому она легко царапается и ее сложнее содержать в чистоте. В некоторой степени огнестойкая. Красота: 4 Чистота: -0.1 Время монтажа: 3</WoodFloor_RedwoodV.description>
+  <!--cypress floor (V)-->
+  <WoodFloor_CypressV.label>пол из кипариса (В)</WoodFloor_CypressV.label>
+  <!--Hardwood floors made of knotty cypress. Beauty: 2 Cleanliness: 0.05 Install Time: 3-->
+  <WoodFloor_CypressV.description>Деревянные полы из сучковатого кипариса. Красота: 2 Чистота: 0.05 Время монтажа: 3</WoodFloor_CypressV.description>
+  <!--poplar floor (V)-->
+  <WoodFloor_PoplarV.label>пол из тополя (В)</WoodFloor_PoplarV.label>
+  <!--Just some poplar wood flooring. Holds up well, but is otherwise not very noteworthy. Beauty: 2 Cleanliness: 0.1 Install Time: 3-->
+  <WoodFloor_PoplarV.description>Просто деревянный пол из тополя. Держится хорошо, но в остальном ничем не примечателен. Красота: 2 Чистота: 0.1 Время монтажа: 3</WoodFloor_PoplarV.description>
+  <!--maple floor (V)-->
+  <WoodFloor_MapleV.label>пол из клёна (В)</WoodFloor_MapleV.label>
+  <!--Maple looks great as flooring and is known for having subtle grains and a soft color, as well as its durability. Beuaty: 3 Cleanliness: 0.2 Install Time: 3.5-->
+  <WoodFloor_MapleV.description>Клен прекрасно смотрится в качестве напольного покрытия, он известен своей нежной зернистостью и мягким цветом, а также долговечностью. Beuaty: 3 Чистота: 0.2 Время монтажа: 3.5</WoodFloor_MapleV.description>
+  <!--teak floor (V)-->
+  <WoodFloor_TeakV.label>пол из тикового дерева (В)</WoodFloor_TeakV.label>
+  <!--Teak is an expensive, tropical wood with deep colors and even grains. It's naturally scratch resistant, so cleans easily. Beauty: 4 Cleanliness: 0.25 Install Time: 4-->
+  <WoodFloor_TeakV.description>Тик - это дорогая тропическая древесина с глубокими цветами и ровным зерном. Он устойчив к царапинам, поэтому легко чистится. Красота: 4 Чистота: 0.25 Время монтажа: 4</WoodFloor_TeakV.description>
+  <!--birch floor (V)-->
+  <WoodFloor_BirchV.label>пол из берёзы (В)</WoodFloor_BirchV.label>
+  <!--Birch makes a fairly unremarkable floor, except that it doesn't mark easily. Beauty: 1 Cleanliness: 0.25 Install Time: 3.5-->
+  <WoodFloor_BirchV.description>Из березы получаются довольно непримечательные полы, за исключением того, что его не так легко повредить. Красота: 1 Чистота: 0.25 Время монтажа: 3.5</WoodFloor_BirchV.description>
+  <!--oak floor (V)-->
+  <WoodFloor_OakV.label>пол из дуба (В)</WoodFloor_OakV.label>
+  <!--Oak is known as being a standard for hardwood floors. It looks nice and is very scratch resistant. Beauty: 2 Cleanliness: 0.3 Install Time: 3.5-->
+  <WoodFloor_OakV.description>Дуб известен как стандарт для паркетных полов. Он прекрасно выглядит и очень устойчив к царапинам. Красота: 2 Чистота: 0.3 Время монтажа: 3.5</WoodFloor_OakV.description>
+  <!--dragonwood floor (V)-->
+  <WoodFloor_DragonwoodV.label>пол из драконового дерева (В)</WoodFloor_DragonwoodV.label>
+  <!--An exotic floor from a rare, hardy tree. Beauty: 3 Cleanliness: 0.4 Install Time: 5-->
+  <WoodFloor_DragonwoodV.description>Экзотический пол из редкого стойкого дерева. Красота: 3 Чистота: 0.4 Время монтажа: 5</WoodFloor_DragonwoodV.description>
+  <!--mangrove floor (V)-->
+  <WoodFloor_MangroveV.label>пол из мангрового дерева (В)</WoodFloor_MangroveV.label>
+  <!--Floors made from very hard mangrove tree wood. Naturally fire resistant. Beauty: 1 Cleanliness: 0.4 Flammability: .1 Install Time: 5-->
+  <WoodFloor_MangroveV.description>Полы изготовлены из очень твердой древесины мангрового дерева. Естественная огнестойкость. Красота: 1 Чистота: 0.4 Воспламеняемость: .1 Время монтажа: 5</WoodFloor_MangroveV.description>
+  <!--end-cut oak floor-->
+  <EndCutFloor.label>торцевой дубовый пол</EndCutFloor.label>
+  <!--You can see the growth rings in these floorboards. Beauty: 2. Install Time: 6-->
+  <EndCutFloor.description>Вы можете увидеть годичные кольца на этих половицах. Красота: 2. Время монтажа: 6</EndCutFloor.description>
+  <!--sanded birch floor-->
+  <RandomBirch.label>шлифованный березовый пол</RandomBirch.label>
+  <!--Sanded birch floorboards of random widths. Beauty: 1. Install time: 5-->
+  <RandomBirch.description>Шлифованные березовые половицы произвольной ширины. Красота: 1. Время монтажа: 5</RandomBirch.description>
+  <!--reclaimed versailles parquet-->
+  <ReclaimedVersailles.label>восстановленный версальский паркет</ReclaimedVersailles.label>
+  <!--Rough parquet with an aged, antique feel. Beauty: 3. Install time: 7-->
+  <ReclaimedVersailles.description>Грубый паркет с эффектом старины. Красота: 3. Время монтажа: 7</ReclaimedVersailles.description>
+  <!--Tatami Matting-->
+  <TatamiMatting.label>коврики татами</TatamiMatting.label>
+  <!--Strong, attractive matting made of dense, finely-woven straw. Great for a tea room or dojo. Surprisingly fire-resistant. Beauty: 4 Install Time: 6.5-->
+  <TatamiMatting.description>Прочная, привлекательная циновка из плотной, тонко плетеной соломы. Отлично подходит для чайной комнаты или додзё. Удивительно огнестойкая. Красота: 4 Время монтажа: 6.5</TatamiMatting.description>
+  <!--Rubber Matting-->
+  <RubberMatting.label>резиновые коврики</RubberMatting.label>
+  <!--Rubber matting which is easy to install. Function over form. Beauty: 1-->
+  <RubberMatting.description>Резиновые коврики, которые легко укладывать. Функции превыше формы. Красота: 1</RubberMatting.description>
+  <!--Redwood Decking (H)-->
+  <WoodPlankFloorVertical.label>настил из красного дерева (Г)</WoodPlankFloorVertical.label>
+  <!--Raised wooden planks for a deck, porch, or walkway. Terrain won't encroach on it. Low flammability redwood. Beauty: 3. Install time: 2-->
+  <WoodPlankFloorVertical.description>Приподнятые деревянные доски для палубы, крыльца или пешеходной дорожки. Рельеф не будет препятствовать этому. Красная древесина с низким уровнем воспламеняемости. Красота: 3. Время монтажа: 2</WoodPlankFloorVertical.description>
+  <!--Oak Decking (H)-->
+  <OakDeck.label>настил из дуба (Г)</OakDeck.label>
+  <!--Raised wooden planks for a deck, porch, or walkway. Terrain won't encroach on it. Beauty: 3. Install time: 3-->
+  <OakDeck.description>Приподнятые деревянные доски для палубы, крыльца или пешеходной дорожки. Рельеф не будет препятствовать этому. Красота: 3. Время монтажа: 3</OakDeck.description>
+  <!--Oak Decking (V)-->
+  <OakDeckV.label>настил из дуба (В)</OakDeckV.label>
+  <!--Raised wooden planks for a deck, porch, or walkway. Terrain won't encroach on it. Beauty: 3. Install time: 2-->
+  <OakDeckV.description>Приподнятые деревянные доски для палубы, крыльца или пешеходной дорожки. Рельеф не будет препятствовать этому. Красота: 3. Время монтажа: 2</OakDeckV.description>
+  <!--Pine Decking (H)-->
+  <PineDeck.label>настил из сосны (Г)</PineDeck.label>
+  <!--Raised wooden planks for a deck, porch, or walkway. Terrain won't encroach on it. Beauty: 3. Install time: 2-->
+  <PineDeck.description>Приподнятые деревянные доски для палубы, крыльца или пешеходной дорожки. Рельеф не будет препятствовать этому. Красота: 3. Время монтажа: 2</PineDeck.description>
+  <!--Pine Decking (V)-->
+  <PineDeckV.label>настил из сосны (В)</PineDeckV.label>
+  <!--Raised wooden planks for a deck, porch, or walkway. Terrain won't encroach on it. Beauty: 3. Install time: 2-->
+  <PineDeckV.description>Приподнятые деревянные доски для палубы, крыльца или пешеходной дорожки. Рельеф не будет препятствовать этому. Красота: 3. Время монтажа: 2</PineDeckV.description>
+  <!--Laminate cecropia floor.-->
+  <CecropiaLaminate.label>ламинированный пол из цекропии.</CecropiaLaminate.label>
+  <!--Laminated cecropia planks. Not very attractive, but they snap together quickly. Fire-resistant construction. Beauty: 1. Install time: 1-->
+  <CecropiaLaminate.description>Ламинированные доски из цекропии. Не очень привлекательны, но быстро соединяются. Огнестойкая конструкция. Красота: 1. Время монтажа: 1</CecropiaLaminate.description>
+</LanguageData>

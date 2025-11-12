@@ -137,7 +137,7 @@ A heavy javelin with a long, weighted spearhead meant for penetrating armor. Wor
 				<li>ElectricSmithy</li>
 				<li>FueledSmithy</li>
 			</recipeUsers>
-			<researchPrerequisite>LongBlades</researchPrerequisite>
+			<!--<researchPrerequisite>LongBlades</researchPrerequisite>-->
 		</recipeMaker>
 		<modExtensions>
 			<li Class="CombatExtended.GunDrawExtension">
@@ -322,7 +322,7 @@ A long one-handed spear with a broad head for heavy damage and lugs to assist in
 			</li>
 		</modExtensions>
 		<recipeMaker>
-			<recipeUsers>
+			<recipeUsers Inherit="False">
 				<li>ElectricSmithy</li>
 				<li>FueledSmithy</li>
 			</recipeUsers>

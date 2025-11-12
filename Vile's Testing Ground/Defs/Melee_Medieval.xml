@@ -13,7 +13,7 @@ A two-handed heavy spear with a long, sharp head for exploiting weak points in e
 		<graphicData>
 			<texPath>Things/Weapons/Melee/Ahlspiess</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.4,1.4</drawSize>
+			<drawSize>1.3,1.3</drawSize>
 		</graphicData>
 		<weaponTags>
 			<li>MedievalMelee2H</li>
@@ -67,7 +67,7 @@ A two-handed heavy spear with a long, sharp head for exploiting weak points in e
 		</tools>
 		<modExtensions>
 			<li Class="CombatExtended.GunDrawExtension">
-				<DrawSize>1.8,1.8</DrawSize>
+				<DrawSize>1.65,1.65</DrawSize>
 			</li>
 		</modExtensions>
 		<techLevel>Medieval</techLevel>

@@ -603,8 +603,8 @@
 	
 	<RecipeDef>
 		<defName>MakeNanotechFramework</defName>
-		<label>Assemble nanotech framework x1</label>
-		<description>Create material that will be the base for nanorobotic and claytronic projects. Living cellular matter is used to "train" it with biomimetic intelligence. Produces 1.</description>
+		<label>Assemble nanotech framework x3</label>
+		<description>Create material that will be the base for nanorobotic and claytronic projects. Living cellular matter is used to "train" it with biomimetic intelligence.</description>
 		<jobString>Creating nanotech framework.</jobString>
 		<workAmount>3000</workAmount>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
@@ -629,7 +629,7 @@
 			</li>
 		</ingredients>
 		<products>
-			<NanotechFramework>1</NanotechFramework>
+			<NanotechFramework>3</NanotechFramework>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>

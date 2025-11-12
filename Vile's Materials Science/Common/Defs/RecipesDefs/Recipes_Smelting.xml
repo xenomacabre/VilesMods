@@ -428,7 +428,7 @@
 	</RecipeDef>
 	<RecipeDef>
 		<defName>SmeltKalcopyrite_HighTech</defName>
-		<label>Spec: Kalcopyrite (30 Cu, 10 Fe, 10 Au)</label>
+		<label>Spec: Kalcopyrite (30 Cu, 15 Fe, 2 Au)</label>
 		<description>Process Kalcopyrite into Copper, Pig Iron, and Gold. Recovers more but takes longer.</description>
 		<jobString>Processing Kalcopyrite (Cu, Fe, Au).</jobString>
 		<workAmount>2400</workAmount>
@@ -463,8 +463,8 @@
 		</fixedIngredientFilter>
 		<products>
 			<CopperBar>30</CopperBar>
-			<PigIron>10</PigIron>
-			<GoldBar>10</GoldBar>
+			<PigIron>15</PigIron>
+			<GoldBar>2</GoldBar>
 		</products>
 		<skillRequirements>
 			<Crafting>10</Crafting>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--Gates-->
+  <SubCategory_FenceGatesH.label>Ворота</SubCategory_FenceGatesH.label>
+  <!--Fence gates.-->
+  <SubCategory_FenceGatesH.description>Ворота для забора.</SubCategory_FenceGatesH.description>
+  <!--Hardwood Floors (H)-->
+  <SubCategory_HardwoodFloors_H.label>Деревянные полы (Г)</SubCategory_HardwoodFloors_H.label>
+  <!--Horizontal hardwood floors.-->
+  <SubCategory_HardwoodFloors_H.description>Горизонтальные паркетные полы.</SubCategory_HardwoodFloors_H.description>
+  <!--Hardwood Floors (V)-->
+  <SubCategory_HardwoodFloors_V.label>Деревянные полы (В)</SubCategory_HardwoodFloors_V.label>
+  <!--Vertical hardwood floors.-->
+  <SubCategory_HardwoodFloors_V.description>Вертикальные паркетные полы.</SubCategory_HardwoodFloors_V.description>
+  <!--Reclaimed Wood Floors-->
+  <SubCategory_ReclaimedWoodFloors.label>Полы из восстановленного дерева</SubCategory_ReclaimedWoodFloors.label>
+  <!--Rustic, rough, and repurposed hardwood floors.-->
+  <SubCategory_ReclaimedWoodFloors.description>Деревенские, грубые и восстановленные полы из твердых пород дерева.</SubCategory_ReclaimedWoodFloors.description>
+  <!--Decking-->
+  <SubCategory_RaisedFloors.label>Настил</SubCategory_RaisedFloors.label>
+  <!--Raised wood floors for decks, porches, and boardwalks.-->
+  <SubCategory_RaisedFloors.description>Деревянные полы с рельефной поверхностью для террас, веранд и площадок.</SubCategory_RaisedFloors.description>
+  <!--Floor Matting-->
+  <SubCategory_Matting.label>Напольные коврики</SubCategory_Matting.label>
+  <!--Various forms of matting.-->
+  <SubCategory_Matting.description>Различные формы ковриков.</SubCategory_Matting.description>
+  <!--Primitive Walls-->
+  <SubCategory_PrimitiveWalls.label>Примитивные стены</SubCategory_PrimitiveWalls.label>
+  <!--Walls made out of unrefined materials.-->
+  <SubCategory_PrimitiveWalls.description>Стены из необработанных материалов.</SubCategory_PrimitiveWalls.description>
+  <!--Interior Walls-->
+  <SubCategory_InteriorWalls.label>Внутренние стены</SubCategory_InteriorWalls.label>
+  <!--Cheap and attractive interior walls.-->
+  <SubCategory_InteriorWalls.description>Дешевые и привлекательные внутренние стены.</SubCategory_InteriorWalls.description>
+  <!--Small brick tile (V)-->
+  <SubCategory_SmallBrickTileV.label>Маленькая кирпичная плитка (В)</SubCategory_SmallBrickTileV.label>
+  <!--Smaller bricks laid in an interlocking pattern. Takes slightly longer to make than the regular variety.-->
+  <SubCategory_SmallBrickTileV.description>Маленькие кирпичи, уложенные по принципу перекрещивания. На изготовление уходит немного больше времени, чем на изготовление обычного кирпича..</SubCategory_SmallBrickTileV.description>
+  <!--Medium brick tile (V)-->
+  <SubCategory_MediumBrickTileV.label>Средняя кирпичная плитка (В)</SubCategory_MediumBrickTileV.label>
+  <!--Bricks laid in an interlocking pattern.-->
+  <SubCategory_MediumBrickTileV.description>Кирпичи, уложенные по принципу чередования.</SubCategory_MediumBrickTileV.description>
+</LanguageData>

@@ -381,9 +381,9 @@
                         <li Class="Rimefeller.CompProperties_Refinery">
                             <compClass>Rimefeller.CompRefineryThreader</compClass>
                             <Product>SyntheticFibers</Product>
-                            <StackSize>1</StackSize>
-                            <BufferSize>100</BufferSize>
-                            <ConsumeRate>1.5</ConsumeRate>
+                            <StackSize>2</StackSize>
+							<BufferSize>100</BufferSize>
+							<ConsumeRate>1.5</ConsumeRate>
                         </li>
                     </comps>
 				</value>
@@ -433,9 +433,9 @@
                         <li Class="Rimefeller.CompProperties_Refinery">
                             <compClass>Rimefeller.CompRefineryThreader</compClass>
                             <Product>HMFibers</Product>
-                            <StackSize>1</StackSize>
-                            <BufferSize>120</BufferSize>
-                            <ConsumeRate>2</ConsumeRate>
+                            <StackSize>2</StackSize>
+							<BufferSize>120</BufferSize>
+							<ConsumeRate>1.5</ConsumeRate>
                         </li>
 		            </comps>
 				</value>

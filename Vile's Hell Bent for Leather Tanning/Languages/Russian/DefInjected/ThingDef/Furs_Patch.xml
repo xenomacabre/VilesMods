@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- RUGGED FUR --> 
+  <Leather_Wolf.label>грубый мех (B)</Leather_Wolf.label>
+  <Leather_Wolf.description>Уровень 2 - Средневековый
+>>> Оптимально для 	Прочность
+>> Пригодно для	Броня/Зима
+X Нежелательно для 	Постельное белье
+
+Благодаря преимуществам защитной шерсти таких животных, как волк, обеспечивается хорошая защита от лезвий. И хотя в них не настолько много набивки, как в толстом меху, они легче и служат дольше.</Leather_Wolf.description>
+  <Leather_Wolf.stuffProps.stuffAdjective>грубого меха</Leather_Wolf.stuffProps.stuffAdjective>
+  <!-- WARM FUR -->   
+  <Leather_Bluefur.label>теплый мех (B)</Leather_Bluefur.label>
+  <Leather_Bluefur.description>Уровень 2 - Средневековый
+>>> Оптимально для 	Зима
+>> Пригодно для	Продуктивность
+X Нежелательно для 	Лето, Прочность
+
+Этот мех изготавливается из шкурок таких животных, как муфало и лиса. Они стильные и согревают вас зимой.</Leather_Bluefur.description>
+  <Leather_Bluefur.stuffProps.stuffAdjective>теплого меха</Leather_Bluefur.stuffProps.stuffAdjective>
+  <!-- HEAVY FUR -->   
+  <Leather_Heavy.label>толстый мех (B)</Leather_Heavy.label>
+  <Leather_Heavy.description>Уровень 2 - Средневековый
+>>> Оптимально для 	Броня
+>> Пригодно для	Зима
+X Нежелательно для 	Лето, Вес
+
+Ни один стандартный мех или полнозернистая кожа не сравнятся по прочности и надежности со звериным толстым мехом. Однако в неправильных ситуациях одежда из толстого меха может быть очень тяжелой и теплой.</Leather_Heavy.description>
+  <Leather_Heavy.stuffProps.stuffAdjective>толстого меха</Leather_Heavy.stuffProps.stuffAdjective>
+  <!-- FINE FUR -->   
+  <Leather_Panthera.label>тонкий мех (B)</Leather_Panthera.label>
+  <Leather_Panthera.description>Уровень 2 - Средневековый
+>>> Оптимально для 	Постельное белье
+>> Пригодно для	Привлекательность
+X Нежелательно для 	Броня
+
+Тонкие меха не такие плотные, как другие, но все же достаточно крепкие, привлекательные и удобные.</Leather_Panthera.description>
+  <Leather_Panthera.stuffProps.stuffAdjective>тонкого меха</Leather_Panthera.stuffProps.stuffAdjective>
+</LanguageData>

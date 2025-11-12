@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--adobe-->
+  <RusticWindowAdobe.label>глинобитное</RusticWindowAdobe.label>
+  <!--A simple, low-tech window which is little more than a hole in the wall. Equip with with a shutter to control the light, but does almost nothing to keep the heat in or out.-->
+  <RusticWindowAdobe.description>Простое, низкотехнологичное окно, которое представляет собой не более чем отверстие в стене. Оно оснащено жалюзи для управления светом, но почти ничего не делает для сохранения тепла внутри или снаружи.</RusticWindowAdobe.description>
+  <!--bamboo-->
+  <RusticWindowBamboo.label>бамбуковое</RusticWindowBamboo.label>
+  <!--A simple, low-tech window which is little more than a hole in the wall. Equip with with a shutter to control the light, but does almost nothing to keep the heat in or out.-->
+  <RusticWindowBamboo.description>Простое, низкотехнологичное окно, которое представляет собой не более чем отверстие в стене. Оно оснащено жалюзи для управления светом, но почти ничего не делает для сохранения тепла внутри или снаружи.</RusticWindowBamboo.description>
+  <!--rammed earth-->
+  <RusticWindowMud.label>утрамбованное</RusticWindowMud.label>
+  <!--A simple, low-tech window which is little more than a hole in the wall. Equip with with a shutter to control the light, but does almost nothing to keep the heat in or out.-->
+  <RusticWindowMud.description>Простое, низкотехнологичное окно, которое представляет собой не более чем отверстие в стене. Оно оснащено жалюзи для управления светом, но почти ничего не делает для сохранения тепла внутри или снаружи.</RusticWindowMud.description>
+  <!--clapboard-->
+  <RusticWindowClapboard.label>дощатое</RusticWindowClapboard.label>
+  <!--A simple, low-tech window which is little more than a hole in the wall. Equip with with a shutter to control the light, but does almost nothing to keep the heat in or out.-->
+  <RusticWindowClapboard.description>Простое, низкотехнологичное окно, которое представляет собой не более чем отверстие в стене. Оно оснащено жалюзи для управления светом, но почти ничего не делает для сохранения тепла внутри или снаружи.</RusticWindowClapboard.description>
+  <!--daub-->
+  <RusticWindowDaub.label>штукатуренное</RusticWindowDaub.label>
+  <!--A simple, low-tech window which is little more than a hole in the wall. Equip with with a shutter to control the light, but does almost nothing to keep the heat in or out.-->
+  <RusticWindowDaub.description>Простое, низкотехнологичное окно, которое представляет собой не более чем отверстие в стене. Оно оснащено жалюзи для управления светом, но почти ничего не делает для сохранения тепла внутри или снаружи.</RusticWindowDaub.description>
+  <!--clapboard-->
+  <WindowClapboard.label>дощатое</WindowClapboard.label>
+  <!--A window with a glass pane and blinds. Can control light and air separately.-->
+  <WindowClapboard.description>Окно со стеклопакетом и жалюзи. Можно отдельно регулировать свет и воздух.</WindowClapboard.description>
+  <!--daub-->
+  <WindowDaub.label>штукатуренное</WindowDaub.label>
+  <!--A window with a glass pane and blinds. Can control light and air separately.-->
+  <WindowDaub.description>Окно со стеклопакетом и жалюзи. Можно отдельно регулировать свет и воздух.</WindowDaub.description>
+  <!--panel-->
+  <WindowPanel.label>панельное</WindowPanel.label>
+  <!--A window with a glass pane and blinds. Can control light and air separately.-->
+  <WindowPanel.description>Окно со стеклопакетом и жалюзи. Можно отдельно регулировать свет и воздух.</WindowPanel.description>
+  <!--cabin-->
+  <WindowCabin.label>сруб</WindowCabin.label>
+  <!--A window with a glass pane and blinds. Can control light and air separately.-->
+  <WindowCabin.description>Окно со стеклопакетом и жалюзи. Можно отдельно регулировать свет и воздух.</WindowCabin.description>
+  <!--adobe-->
+  <WindowAdobe.label>глинобитное</WindowAdobe.label>
+  <!--A window with a glass pane and blinds. Can control light and air separately.-->
+  <WindowAdobe.description>Окно со стеклопакетом и жалюзи. Можно отдельно регулировать свет и воздух.</WindowAdobe.description>
+  <!--bamboo-->
+  <WindowBamboo.label>бамбуковое</WindowBamboo.label>
+  <!--A window with a glass pane and blinds. Can control light and air separately.-->
+  <WindowBamboo.description>Окно со стеклопакетом и жалюзи. Можно отдельно регулировать свет и воздух.</WindowBamboo.description>
+  <!--rammed earth-->
+  <WindowMud.label>утрамбованное</WindowMud.label>
+  <!--A window with a glass pane and blinds. Can control light and air separately.-->
+  <WindowMud.description>Окно со стеклопакетом и жалюзи. Можно отдельно регулировать свет и воздух.</WindowMud.description>
+  <!--brick-->
+  <WindowBrick.label>кирпичное</WindowBrick.label>
+  <!--A window with a glass pane and blinds. Can control light and air separately.-->
+  <WindowBrick.description>Окно со стеклопакетом и жалюзи. Можно отдельно регулировать свет и воздух.</WindowBrick.description>
+  <!--stone block-->
+  <WindowSlab.label>каменное</WindowSlab.label>
+  <!--A window with a glass pane and blinds. Can control light and air separately.-->
+  <WindowSlab.description>Окно со стеклопакетом и жалюзи. Можно отдельно регулировать свет и воздух.</WindowSlab.description>
+  <!--smooth metal-->
+  <WindowSmooth.label>полированное</WindowSmooth.label>
+  <!--A window with a glass pane and blinds. Can control light and air separately.-->
+  <WindowSmooth.description>Окно со стеклопакетом и жалюзи. Можно отдельно регулировать свет и воздух.</WindowSmooth.description>
+  <!--plated metal-->
+  <WindowPlate.label>плакированное</WindowPlate.label>
+  <!--A window with a glass pane and blinds. Can control light and air separately.-->
+  <WindowPlate.description>Окно со стеклопакетом и жалюзи. Можно отдельно регулировать свет и воздух.</WindowPlate.description>
+  <!--cladding-->
+  <WindowCladding.label>облицованное</WindowCladding.label>
+  <!--A window with a glass pane and blinds. Can control light and air separately.-->
+  <WindowCladding.description>Окно со стеклопакетом и жалюзи. Можно отдельно регулировать свет и воздух.</WindowCladding.description>
+  <!--window wall (1x1)-->
+  <WindowWall1x.label>стеклянная стена (1x1)</WindowWall1x.label>
+  <!--A floor-to-ceiling window and blinds. Can control light and air separately. Can be very fragile or very strong, depending on materials used.-->
+  <WindowWall1x.description>Окно от пола до потолка и жалюзи. Может регулировать свет и воздух по отдельности. Может быть очень хрупким или очень прочным, в зависимости от используемых материалов.</WindowWall1x.description>
+  <!--window wall (3x1)-->
+  <WindowWall3x.label>стеклянная стена (3x1)</WindowWall3x.label>
+  <!--A floor-to-ceiling window and blinds. Can control light and air separately. Can be very fragile or very strong, depending on materials used.-->
+  <WindowWall3x.description>Окно от пола до потолка и жалюзи. Может регулировать свет и воздух по отдельности. Может быть очень хрупким или очень прочным, в зависимости от используемых материалов.</WindowWall3x.description>
+  <!--window wall (5x1)-->
+  <WindowWall5x.label>стеклянная стена (5x1)</WindowWall5x.label>
+  <!--A floor-to-ceiling window and blinds. Can control light and air separately. Can be very fragile or very strong, depending on materials used.-->
+  <WindowWall5x.description>Окно от пола до потолка и жалюзи. Может регулировать свет и воздух по отдельности. Может быть очень хрупким или очень прочным, в зависимости от используемых материалов.</WindowWall5x.description>
+
+  <SimpleOpenWindow.label>деревенское окно</SimpleOpenWindow.label>
+  <SimpleOpenWindow.description>Простая заслонка, открывающая доступ к свету и воздух, но даже в закрытом состоянии не обеспечивает хорошей теплоизоляции.</SimpleOpenWindow.description>
+
+  <OpenWindow.label>окно</OpenWindow.label>
+  <OpenWindow.description>Окно со стеклопакетом и ставнями. Может предоставлять свет и воздух отдельно.</OpenWindow.description>
+
+  <LargeOpenWindow.label>большое окно</LargeOpenWindow.label>
+  <LargeOpenWindow.description>Большое окно, пропускающее большое количество света и воздуха.</LargeOpenWindow.description>
+
+  <HugeOpenWindow.label>огромное окно</HugeOpenWindow.label>
+  <HugeOpenWindow.description>Высокое, огромное окно. Пропускает огромное количество света.</HugeOpenWindow.description>
+
+  <ReinforcedOpenWindow.label>прочное окно</ReinforcedOpenWindow.label>
+  <ReinforcedOpenWindow.description>Укреплённое окно со стеклопакетом и ставнями. Может предоставлять свет и воздух отдельно.</ReinforcedOpenWindow.description>
+
+  <LargeReinforcedOpenWindow.label>большое прочное окно</LargeReinforcedOpenWindow.label>
+  <LargeReinforcedOpenWindow.description>Большое укреплённое окно, пропускающее большое количество света и воздуха.</LargeReinforcedOpenWindow.description>
+
+</LanguageData>

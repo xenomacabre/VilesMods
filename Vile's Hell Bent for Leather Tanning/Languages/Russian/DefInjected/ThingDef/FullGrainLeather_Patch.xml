@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- DURABLE LEATHER --> 
+  <Leather_Rhinoceros.label>прочная кожа (B)</Leather_Rhinoceros.label>
+  <Leather_Rhinoceros.description>Уровень 2 - Средневековый
+>>> Оптимально для 	Прочность
+>> Пригодно для	Броня
+X Нежелательно для 	Постельное белье
+
+Эта первоклассная полнозернистая кожа создана для того, чтобы служить долго. Она обладает хорошими защитными свойствами среди полнозернистых кож, уступая только толстым кожам, но ничто не сравнится с ней по прочности.</Leather_Rhinoceros.description>
+  <Leather_Rhinoceros.stuffProps.stuffAdjective>прочной кожи</Leather_Rhinoceros.stuffProps.stuffAdjective>
+  <!-- BREATHABLE LEATHER -->   
+  <Leather_Boomanimal.label>дышащая кожа (B)</Leather_Boomanimal.label>
+  <Leather_Boomanimal.description>Уровень 2 - Средневековый
+>>> Оптимально для 	Лето
+>> Пригодно для	Постельное белье
+X Нежелательно для 	Продуктивность
+
+Полнозернистая пупырчатая кожа, которая хорошо изолирует в разных климатических условиях, но особенно в жарких. Она довольно прочная и может отразить лезвие, если оно достаточно толстое. Полнозернистая кожа - это самый качественный вид натуральной кожи, по сравнению с высокозернистой и нешлифованной.</Leather_Boomanimal.description>
+  <Leather_Boomanimal.stuffProps.stuffAdjective>дышащей кожи</Leather_Boomanimal.stuffProps.stuffAdjective>
+  <!-- EXOTIC LEATHER -->   
+  <Leather_Lizard.label>экзотическая кожа (B)</Leather_Lizard.label>
+  <Leather_Lizard.description>Уровень 2 - Средневековый
+>>> Оптимально для 	Привлекательность
+>> Пригодно для	Лето
+X Нежелательно для 	Броня
+
+Очень ценная полнозернистая кожа, изготовленная из шкур рептилий, нелетающих птиц и кожи ног более мелких птиц. Несмотря на красивую фактуру, по своим характеристикам она не превосходит другие высококачественные зернистые кожи.</Leather_Lizard.description>
+  <Leather_Lizard.stuffProps.stuffAdjective>экзотической кожи</Leather_Lizard.stuffProps.stuffAdjective>
+  <!-- HEAVY LEATHER -->   
+  <Leather_Elephant.label>толстая кожа (B)</Leather_Elephant.label>
+  <Leather_Elephant.description>Уровень 2 - Средневековый
+>>> Оптимально для 	Броня
+>> Пригодно для	Зима
+X Нежелательно для 	Постельное белье
+
+Полнозернистая кожа с гладкой поверхностью. Это толстая, плотная кожа, которую получают от крупных зверей, таких как элафанты и носороги. Она выдерживает удары, как никакая другая полнозернистая кожа, и если за ней ухаживать, то она может прослужить долгое время. Однако с ней довольно сложно работать, и, если вам интересно, она довольно тяжелая.</Leather_Elephant.description>
+  <Leather_Elephant.stuffProps.stuffAdjective>толстой кожи</Leather_Elephant.stuffProps.stuffAdjective>
+  <!-- STOCK LEATHER -->   
+  <Leather_Plain.label>кожа (B)</Leather_Plain.label>
+  <Leather_Plain.description>Уровень 2 - Средневековый
+>>> Оптимально для 	Массовое производство
+>> Пригодно для	Всесезонность / Прочность
+X Нежелательно для 	Броня
+
+Эта полнозернистая кожа производится из обычных домашних животных, таких как коровы и козы. Это экономичная хозяйственная кожа, в которой соблюден баланс между долговечностью, прочностью, теплоизоляцией и при этом очень легко обрабатывается. Эта кожа подходит для большинства изделий, а поскольку она является полнозернистой, она по-прежнему считается высококачественной.</Leather_Plain.description>
+  <Leather_Plain.stuffProps.stuffAdjective>кожи</Leather_Plain.stuffProps.stuffAdjective>
+  <!-- LIGHT LEATHER -->   
+  <Leather_Light.label>легкая кожа (B-)</Leather_Light.label>
+  <Leather_Light.description>Уровень 2 - Средневековый
+>>> Оптимально для 	Лето
+>> Пригодно для	Продуктивность
+X Нежелательно для 	Постельное белье, Прочность
+
+Вся легкая кожа - это полнозернистая кожа, потому что она слишком тонкая, чтобы ее можно было расслаивать, ее получают от грызунов и других мелких животных. Поэтому, в отличие от других полнозернистых кож, легкая кожа не считается кожей высшего класса. Хотя она довольно непрочная, в большей степени, чем кожа высшего класса, она достаточно воздухопроницаема и легка.</Leather_Light.description>
+  <Leather_Light.stuffProps.stuffAdjective>легкой кожи</Leather_Light.stuffProps.stuffAdjective>
+  <!-- SOFT LEATHER -->   
+  <Leather_Pig.label>мягкая кожа (B)</Leather_Pig.label>
+  <Leather_Pig.description>Уровень 2 - Средневековый
+>>> Оптимально для 	Постельное белье
+>> Пригодно для	Всесезонность, Мебель
+X Нежелательно для 	Броня
+
+Из этой полнозернистой кожи получается удобная и привлекательная одежда и мебель. Это кожа хорошего качества, поскольку в ней используется вся поверхность шкуры.</Leather_Pig.description>
+  <Leather_Pig.stuffProps.stuffAdjective>мягкой кожи</Leather_Pig.stuffProps.stuffAdjective>
+  <!-- STERILE LEATHER -->   
+  <Leather_Nightling.label>стерильная кожа (B)</Leather_Nightling.label>
+  <Leather_Nightling.description>Уровень 2 - Средневековый
+>>> Оптимально для 	Больница
+>> Пригодно для	Всесезонность
+X Нежелательно для 	Постельное белье
+
+Некоторые ядовитые животные, обитающие в этом мире, обладают естественным ядом, и эта кожа использует это преимущество. Это кожа хорошего качества, поскольку в ней используется вся текстура шкуры.</Leather_Nightling.description>
+  <Leather_Nightling.stuffProps.stuffAdjective>стерильной кожи</Leather_Nightling.stuffProps.stuffAdjective>
+  <!-- BUCKSKIN LEATHER -->   
+  <Leather_Dog.label>дублёнка (E)</Leather_Dog.label>
+  <Leather_Dog.description>Уровень 1 - Неолит
+>>> Оптимально для 	Раннее использование
+>> Пригодно для	Всесезонность
+X Нежелательно для 	Постельное белье, Броня
+
+Бакскин(дублёнка) изготавливают путем дубления шкур, используя мозги и жиры животных после очистки от остатков шерсти. Изначально она изготавливалась в основном из оленьей кожи, но подойдет любая шкура. Затем ее коптят, чтобы еще больше сохранить. Получаемая кожа мягкая и пористая, похожая на замшу.</Leather_Dog.description>
+  <Leather_Dog.stuffProps.stuffAdjective>дублёнки</Leather_Dog.stuffProps.stuffAdjective>
+  <!-- HUMAN -->   
+  <Leather_Human.label>гуманоидная кожа</Leather_Human.label>
+  <Leather_Human.stuffProps.stuffAdjective>гуманоидной кожи</Leather_Human.stuffProps.stuffAdjective>
+  
+</LanguageData>

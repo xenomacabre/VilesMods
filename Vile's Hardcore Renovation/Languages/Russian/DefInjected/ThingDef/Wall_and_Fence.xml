@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--Diagonal Wall (N)-->
+  <wall_angle.label>диагональная стена (С)</wall_angle.label>
+  <!--A visual overlay to give a wall a diagonal appearance. Must be placed over a normal wall. The occupying tile is to the North.-->
+  <wall_angle.description>Визуальная накладка для придания стене диагонального вида. Должна быть размещена над обычной стеной. Расположенная плитка находится на севере.</wall_angle.description>
+  <!--Diagonal Cabin Wall (N)-->
+  <wallCabin_angle.label>диагональная стенка сруба (С)</wallCabin_angle.label>
+  <!--A visual overlay to give a wall a diagonal appearance. Must be placed over a normal wall. The occupying tile is to the North.-->
+  <wallCabin_angle.description>Визуальная накладка для придания стене диагонального вида. Должна быть размещена над обычной стеной. Расположенная плитка находится на севере.</wallCabin_angle.description>
+  <!--Diagonal Wall (S)-->
+  <wall_angle_north.label>диагональная стена (Ю)</wall_angle_north.label>
+  <!--A visual overlay to give a wall a diagonal appearance. Must be placed over a normal wall. The occupying tile is to the South.-->
+  <wall_angle_north.description>Визуальная накладка для придания стене диагонального вида. Должна быть размещена над обычной стеной. Расположенная плитка находится на юге.</wall_angle_north.description>
+  <!--Diagonal Cabin Wall (S)-->
+  <wallCabin_angle_north.label>диагональная стенка сруба (Ю)</wallCabin_angle_north.label>
+  <!--A visual overlay to give a wall a diagonal appearance. Must be placed over a normal wall. The occupying tile is to the South.-->
+  <wallCabin_angle_north.description>Визуальная накладка для придания стене диагонального вида. Должна быть размещена над обычной стеной. Расположенная плитка находится на юге.</wallCabin_angle_north.description>
+  <!--cabin wall-->
+  <LogWall.label>стена сруба</LogWall.label>
+  <!--A rustic wall made of unrefined logs. Sturdy, but uses a lot of material.-->
+  <LogWall.description>Деревенская стена из необработанных бревен. Прочная, но на нее уходит много материала..</LogWall.description>
+  <!--clapboard wall-->
+  <ClapboardWall.label>обшитая стена</ClapboardWall.label>
+  <!--A wall with siding made of wedges split from a log (ie. firewood). It can also be made from planks. Not the most sanitary.-->
+  <ClapboardWall.description>Стена с сайдингом из клиньев, расколотых из бревна (т.е. дров). Также может быть изготовлена из досок. Не самый гигиеничный вариант.</ClapboardWall.description>
+  <!--bamboo wall-->
+  <BambooWall.label>бамбуковая стена</BambooWall.label>
+  <!--A wall made out of unrefined bamboo.-->
+  <BambooWall.description>Стена из нечищеного бамбука.</BambooWall.description>
+  <!--rammed-earth wall-->
+  <MudWall.label>утрамбованная земляная стена</MudWall.label>
+  <!--A wall made out of compressed earth. Fireproof and stronger than you might expect, but very time consuming to make.-->
+  <MudWall.description>Стена из спрессованной земли. Огнеупорная и более прочная, чем вы могли бы ожидать, но на ее изготовление уходит очень много времени.</MudWall.description>
+  <!--adobe wall-->
+  <AdobeWall.label>глинобитная стена</AdobeWall.label>
+  <!--A wall made of earthen material and finished with stucco. Time-consuming to make, but inexpensive and fire proof.-->
+  <AdobeWall.description>Стена, выполненная из глиняного материала и отделанная штукатуркой. Трудоемкая в изготовлении, но недорогая и пожаробезопасная.</AdobeWall.description>
+  <!--wattle and daub wall-->
+  <WattleWall.label>плетеная и глинобитная стена</WattleWall.label>
+  <!--A wall made of earth and clay around a wooden latticework and binded with straw. Uses a lot of different materials found around the building site.-->
+  <WattleWall.description>Стена из земли и глины вокруг деревянной решетки, обвязанная соломой. Используется множество различных материалов, найденных на строительной площадке.</WattleWall.description>
+  <!--service counter-->
+  <CounterServiceModular.label>стойка обслуживания</CounterServiceModular.label>
+  <!--A bar which can have stockpile zones overlapping.-->
+  <CounterServiceModular.description>Стойка, в которой зоны хранения могут перекрываться.</CounterServiceModular.description>
+  <!--bar counter-->
+  <CounterBarModular.label>барная стойка</CounterBarModular.label>
+  <!--A bar for eating a drinking.-->
+  <CounterBarModular.description>Бар для еды и питья.</CounterBarModular.description>
+  <!--Interior Wall-->
+  <InteriorWall.label>внутренняя стена</InteriorWall.label>
+  <!--An interior with very little structural integrity. The cement backerboard is flame retardant, however.-->
+  <InteriorWall.description>Интерьер с очень низкой структурной целостностью. Цементная плита огнестойкая, однако.</InteriorWall.description>
+  <!--Interior Striped Wall-->
+  <InteriorWall_Stripe.label>внутренняя полосатая стена</InteriorWall_Stripe.label>
+  <!--An interior plaster wall with very little structural integrity. Decorated with wallpaper.-->
+  <InteriorWall_Stripe.description>Внутренняя гипсовая стена с очень слабой структурной целостностью. Декорирована обоями.</InteriorWall_Stripe.description>
+  <!--Interior Floral Wall-->
+  <InteriorWall_Floral.label>внутренняя стена с цветами</InteriorWall_Floral.label>
+  <!--An interior plaster wall with very little structural integrity. Decorated with wallpaper.-->
+  <InteriorWall_Floral.description>Внутренняя гипсовая стена с очень слабой структурной целостностью. Декорирована обоями.</InteriorWall_Floral.description>
+  <!--Interior Leaf-Patterned Wall-->
+  <InteriorWall_Leafy.label>внутренняя стена с узором в виде листьев</InteriorWall_Leafy.label>
+  <!--An interior plaster wall with very little structural integrity. Decorated with wallpaper.-->
+  <InteriorWall_Leafy.description>Внутренняя гипсовая стена с очень слабой структурной целостностью. Декорирована обоями.</InteriorWall_Leafy.description>
+  <!--Panel Wall-->
+  <WoodPanelWall.label>панельная стена</WoodPanelWall.label>
+  <!--A frame wall with thing wood panels for siding. Just strong enough to justify being an exterior wall, but cheap enough to be interior as well.-->
+  <WoodPanelWall.description>Каркасная стена с деревянными панелями для сайдинга. Достаточно прочная, чтобы быть наружной стеной, но достаточно дешевая, чтобы быть и внутренней.</WoodPanelWall.description>
+  <!--Tile Wall-->
+  <CeramicTileWall.label>кафельная стена</CeramicTileWall.label>
+  <!--Interior wall made of grouted tiles. Clean and pristine.-->
+  <CeramicTileWall.description>Внутренняя стена из затирочной плитки. Чистота и первозданность.</CeramicTileWall.description>
+  <!--barn door-->
+  <DoorBarn.label>амбарная дверь</DoorBarn.label>
+  <!--Animals can pass through this door. Lock it to close it for the winter.-->
+  <DoorBarn.description>Через эту дверь могут проходить животные. Заприте ее, чтобы закрыть на зиму.</DoorBarn.description>
+  <!--ornate door-->
+  <DoorOrnate.label>декоративная дверь</DoorOrnate.label>
+  <!--A door with ornate hinges and reinforced with metal bands.-->
+  <DoorOrnate.description>Дверь с витиеватыми петлями и усиленными металлическими планками.</DoorOrnate.description>
+  <!--palisade fence gate-->
+  <PalisadeGate.label>ворота частокольного забора</PalisadeGate.label>
+  <!--A strong gate made of wooden logs.-->
+  <PalisadeGate.description>Прочные ворота из деревянных бревен.</PalisadeGate.description>
+  <!--wattle fence gate-->
+  <WattleFenceGate.label>ворота забора из плетня</WattleFenceGate.label>
+  <!--A gate made of sticks.-->
+  <WattleFenceGate.description>Ворота из палок.</WattleFenceGate.description>
+  <!--drystone wall-->
+  <DryStoneWall.label>стена из сухого камня</DryStoneWall.label>
+  <!--A short wall made of stacked stones.-->
+  <DryStoneWall.description>Короткая стена из сложенных камней.</DryStoneWall.description>
+  <!--wattle fence-->
+  <WattleFence.label>плетеный забор</WattleFence.label>
+  <!--A weak fence made of sticks.-->
+  <WattleFence.description>Хлипкий забор из палок.</WattleFence.description>
+  <!--palisade wall-->
+  <PalisadeWall.label>стена-частокол</PalisadeWall.label>
+  <!--A hastily-built defensive wall made of logs. It's tall and strong and surprisingly difficult to set fire, but you can't shoot over it. Only hide.-->
+  <PalisadeWall.description>Наскоро построенная оборонительная стена из бревен. Она высокая и прочная, и ее на удивление трудно поджечь, но стрелять через нее нельзя. Только прятаться.</PalisadeWall.description>
+</LanguageData>

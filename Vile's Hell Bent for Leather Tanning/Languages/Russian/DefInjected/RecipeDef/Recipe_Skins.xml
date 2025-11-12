@@ -1,0 +1,561 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--cure waterproof skins-->
+  <BrineCure_WaterproofSkin.label>обработать водостойкую кожу</BrineCure_WaterproofSkin.label>
+  <!--Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.-->
+  <BrineCure_WaterproofSkin.description>Шкуры и кожа погружаются в соленую воду. Воду приходится вычерпывать вручную, хотя это гораздо быстрее, чем сухая выделка.</BrineCure_WaterproofSkin.description>
+  <!--Brine-curing.-->
+  <BrineCure_WaterproofSkin.jobString>Обрабатывает соляным раствором.</BrineCure_WaterproofSkin.jobString>
+  <!--cure exotic skins-->
+  <BrineCure_ExoticSkins.label>обработать экзотическую кожу</BrineCure_ExoticSkins.label>
+  <!--Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.-->
+  <BrineCure_ExoticSkins.description>Шкуры и кожа погружаются в соленую воду. Воду приходится вычерпывать вручную, хотя это гораздо быстрее, чем сухая выделка.</BrineCure_ExoticSkins.description>
+  <!--Brine-curing.-->
+  <BrineCure_ExoticSkins.jobString>Обрабатывает соляным раствором.</BrineCure_ExoticSkins.jobString>
+  <!--cure light animal skins-->
+  <BrineCure_LightAnimalSkins.label>обработать легкую кожу животных</BrineCure_LightAnimalSkins.label>
+  <!--Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.-->
+  <BrineCure_LightAnimalSkins.description>Шкуры и кожа погружаются в соленую воду. Воду приходится вычерпывать вручную, хотя это гораздо быстрее, чем сухая выделка.</BrineCure_LightAnimalSkins.description>
+  <!--Brine-curing.-->
+  <BrineCure_LightAnimalSkins.jobString>Обрабатывает соляным раствором.</BrineCure_LightAnimalSkins.jobString>
+  <!--cure rodent skins-->
+  <BrineCure_RodentSkins.label>обработать кожу грызунов</BrineCure_RodentSkins.label>
+  <!--Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.-->
+  <BrineCure_RodentSkins.description>Шкуры и кожа погружаются в соленую воду. Воду приходится вычерпывать вручную, хотя это гораздо быстрее, чем сухая выделка.</BrineCure_RodentSkins.description>
+  <!--Brine-curing.-->
+  <BrineCure_RodentSkins.jobString>Обрабатывает соляным раствором.</BrineCure_RodentSkins.jobString>
+  <!--cure human skins-->
+  <BrineCure_HumanSkins.label>обработать человеческую кожу</BrineCure_HumanSkins.label>
+  <!--Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.-->
+  <BrineCure_HumanSkins.description>Шкуры и кожа погружаются в соленую воду. Воду приходится вычерпывать вручную, хотя это гораздо быстрее, чем сухая выделка.</BrineCure_HumanSkins.description>
+  <!--Brine-curing.-->
+  <BrineCure_HumanSkins.jobString>Обрабатывает соляным раствором.</BrineCure_HumanSkins.jobString>
+  <!--cure porous hides-->
+  <BrineCure_PorousHide.label>обработать пористую шкуру</BrineCure_PorousHide.label>
+  <!--Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.-->
+  <BrineCure_PorousHide.description>Шкуры и кожа погружаются в соленую воду. Воду приходится вычерпывать вручную, хотя это гораздо быстрее, чем сухая выделка.</BrineCure_PorousHide.description>
+  <!--Brine-curing.-->
+  <BrineCure_PorousHide.jobString>Обрабатывает соляным раствором.</BrineCure_PorousHide.jobString>
+  <!--cure immunogenic hides-->
+  <BrineCure_ImmunogenicHide.label>обработать иммуногенную шкуру</BrineCure_ImmunogenicHide.label>
+  <!--Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.-->
+  <BrineCure_ImmunogenicHide.description>Шкуры и кожа погружаются в соленую воду. Воду приходится вычерпывать вручную, хотя это гораздо быстрее, чем сухая выделка.</BrineCure_ImmunogenicHide.description>
+  <!--Brine-curing.-->
+  <BrineCure_ImmunogenicHide.jobString>Обрабатывает соляным раствором.</BrineCure_ImmunogenicHide.jobString>
+  <!--cure soft hides-->
+  <BrineCure_SoftHide.label>обработать мягкую шкуру</BrineCure_SoftHide.label>
+  <!--Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.-->
+  <BrineCure_SoftHide.description>Шкуры и кожа погружаются в соленую воду. Воду приходится вычерпывать вручную, хотя это гораздо быстрее, чем сухая выделка.</BrineCure_SoftHide.description>
+  <!--Brine-curing.-->
+  <BrineCure_SoftHide.jobString>Обрабатывает соляным раствором.</BrineCure_SoftHide.jobString>
+  <!--cure durable hides-->
+  <BrineCure_DurableHide.label>обработать прочную шкуру</BrineCure_DurableHide.label>
+  <!--Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.-->
+  <BrineCure_DurableHide.description>Шкуры и кожа погружаются в соленую воду. Воду приходится вычерпывать вручную, хотя это гораздо быстрее, чем сухая выделка.</BrineCure_DurableHide.description>
+  <!--Brine-curing.-->
+  <BrineCure_DurableHide.jobString>Обрабатывает соляным раствором.</BrineCure_DurableHide.jobString>
+  <!--cure heavy hides-->
+  <BrineCure_HeavyHide.label>обработать толстую шкуру</BrineCure_HeavyHide.label>
+  <!--Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.-->
+  <BrineCure_HeavyHide.description>Шкуры и кожа погружаются в соленую воду. Воду приходится вычерпывать вручную, хотя это гораздо быстрее, чем сухая выделка.</BrineCure_HeavyHide.description>
+  <!--Brine-curing.-->
+  <BrineCure_HeavyHide.jobString>Обрабатывает соляным раствором.</BrineCure_HeavyHide.jobString>
+  <!--cure stock hides-->
+  <BrineCure_StockHide.label>обработать шкуру</BrineCure_StockHide.label>
+  <!--Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.-->
+  <BrineCure_StockHide.description>Шкуры и кожа погружаются в соленую воду. Воду приходится вычерпывать вручную, хотя это гораздо быстрее, чем сухая выделка.</BrineCure_StockHide.description>
+  <!--Brine-curing.-->
+  <BrineCure_StockHide.jobString>Обрабатывает соляным раствором.</BrineCure_StockHide.jobString>
+  <!--cure heavy fur pelts-->
+  <BrineCure_HeavyFurPelt.label>обработать толстую меховую шкуру</BrineCure_HeavyFurPelt.label>
+  <!--Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.-->
+  <BrineCure_HeavyFurPelt.description>Шкуры и кожа погружаются в соленую воду. Воду приходится вычерпывать вручную, хотя это гораздо быстрее, чем сухая выделка.</BrineCure_HeavyFurPelt.description>
+  <!--Brine-curing.-->
+  <BrineCure_HeavyFurPelt.jobString>Обрабатывает соляным раствором.</BrineCure_HeavyFurPelt.jobString>
+  <!--cure rich fur pelts-->
+  <BrineCure_RichFurPelt.label>обработать ценную меховую шкуру</BrineCure_RichFurPelt.label>
+  <!--Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.-->
+  <BrineCure_RichFurPelt.description>Шкуры и кожа погружаются в соленую воду. Воду приходится вычерпывать вручную, хотя это гораздо быстрее, чем сухая выделка.</BrineCure_RichFurPelt.description>
+  <!--Brine-curing.-->
+  <BrineCure_RichFurPelt.jobString>Обрабатывает соляным раствором.</BrineCure_RichFurPelt.jobString>
+  <!--cure rugged fur pelts-->
+  <BrineCure_RuggedFurPelt.label>обработать грубую меховую шкуру</BrineCure_RuggedFurPelt.label>
+  <!--Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.-->
+  <BrineCure_RuggedFurPelt.description>Шкуры и кожа погружаются в соленую воду. Воду приходится вычерпывать вручную, хотя это гораздо быстрее, чем сухая выделка.</BrineCure_RuggedFurPelt.description>
+  <!--Brine-curing.-->
+  <BrineCure_RuggedFurPelt.jobString>Обрабатывает соляным раствором.</BrineCure_RuggedFurPelt.jobString>
+  <!--cure warm fur pelts-->
+  <BrineCure_WarmFurPelt.label>обработать теплую меховую шкуру</BrineCure_WarmFurPelt.label>
+  <!--Skins and hides are submersed in salty water. The water must be paddled by hand, though it's much faster than dry curing.-->
+  <BrineCure_WarmFurPelt.description>Шкуры и кожа погружаются в соленую воду. Воду приходится вычерпывать вручную, хотя это гораздо быстрее, чем сухая выделка.</BrineCure_WarmFurPelt.description>
+  <!--Brine-curing.-->
+  <BrineCure_WarmFurPelt.jobString>Обрабатывает соляным раствором.</BrineCure_WarmFurPelt.jobString>
+  <!--make rawhide-->
+  <RackDry_Rawhide.label>сделать сыромятную шкуру</RackDry_Rawhide.label>
+  <!--Rawhide is made by curing and treating raw skins and hides, but it's not tanned. It dries very hard and can be used in place of metal in some armor recipes.-->
+  <RackDry_Rawhide.description>Сыромятная кожа изготавливается путем выделки и обработки сырых шкур и кожи, но не дубится. Она становится очень твердой и может использоваться вместо металла в некоторых рецептах доспехов.</RackDry_Rawhide.description>
+  <!--Doing an unknown recipe.-->
+  <RackDry_Rawhide.jobString>Приготовление по неизвестному рецепту.</RackDry_Rawhide.jobString>
+  <!--air-cure exotic skins-->
+  <RackDry_ExoticSkins.label>высушить экзотическую кожу</RackDry_ExoticSkins.label>
+  <!--Thin skins of small animals can be cured simply by air-drying. Climate conditions must be favorable.-->
+  <RackDry_ExoticSkins.description>Тонкие шкуры мелких животных можно обработать, просто высушив на воздухе. Климатические условия должны быть благоприятными.</RackDry_ExoticSkins.description>
+  <!--Doing an unknown recipe.-->
+  <RackDry_ExoticSkins.jobString>Приготовление по неизвестному рецепту.</RackDry_ExoticSkins.jobString>
+  <!--air-cure light animal skins-->
+  <RackDry_LightAnimalSkins.label>высушить легкую кожу животных</RackDry_LightAnimalSkins.label>
+  <!--Thin skins of small animals can be cured simply by air-drying. Climate conditions must be favorable.-->
+  <RackDry_LightAnimalSkins.description>Тонкие шкуры мелких животных можно обработать, просто высушив на воздухе. Климатические условия должны быть благоприятными.</RackDry_LightAnimalSkins.description>
+  <!--Doing an unknown recipe.-->
+  <RackDry_LightAnimalSkins.jobString>Приготовление по неизвестному рецепту.</RackDry_LightAnimalSkins.jobString>
+  <!--air-cure rodent skins-->
+  <RackDry_RodentSkins.label>высушить кожу грызунов</RackDry_RodentSkins.label>
+  <!--Thin skins of small animals can be cured simply by air-drying. Climate conditions must be favorable.-->
+  <RackDry_RodentSkins.description>Тонкие шкуры мелких животных можно обработать, просто высушив на воздухе. Климатические условия должны быть благоприятными.</RackDry_RodentSkins.description>
+  <!--Doing an unknown recipe.-->
+  <RackDry_RodentSkins.jobString>Приготовление по неизвестному рецепту.</RackDry_RodentSkins.jobString>
+  <!--air-cure human skins-->
+  <RackDry_HumanSkins.label>высушить человеческую кожу</RackDry_HumanSkins.label>
+  <!--Thin skins of small animals can be cured simply by air-drying. Climate conditions must be favorable.-->
+  <RackDry_HumanSkins.description>Тонкие шкуры мелких животных можно обработать, просто высушив на воздухе. Климатические условия должны быть благоприятными.</RackDry_HumanSkins.description>
+  <!--Doing an unknown recipe.-->
+  <RackDry_HumanSkins.jobString>Приготовление по неизвестному рецепту.</RackDry_HumanSkins.jobString>
+  <!--cure waterproof hides-->
+  <RackSalt_WaterproofHide.label>обработать водостойкую кожу</RackSalt_WaterproofHide.label>
+  <!--Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.-->
+  <RackSalt_WaterproofHide.description>Чтобы сохранить шкуры, их натирают солью или золой. Более толстые шкуры хранятся дольше.</RackSalt_WaterproofHide.description>
+  <!--Doing an unknown recipe.-->
+  <RackSalt_WaterproofHide.jobString>Приготовление по неизвестному рецепту.</RackSalt_WaterproofHide.jobString>
+  <!--cure exotic skins-->
+  <RackSalt_ExoticSkins.label>обработать экзотическую кожу</RackSalt_ExoticSkins.label>
+  <!--Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.-->
+  <RackSalt_ExoticSkins.description>Чтобы сохранить шкуры, их натирают солью или золой. Более толстые шкуры хранятся дольше.</RackSalt_ExoticSkins.description>
+  <!--Doing an unknown recipe.-->
+  <RackSalt_ExoticSkins.jobString>Приготовление по неизвестному рецепту.</RackSalt_ExoticSkins.jobString>
+  <!--cure light animal skins-->
+  <RackSalt_LightAnimalSkins.label>обработать легкую кожу животных</RackSalt_LightAnimalSkins.label>
+  <!--Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.-->
+  <RackSalt_LightAnimalSkins.description>Чтобы сохранить шкуры, их натирают солью или золой. Более толстые шкуры хранятся дольше.</RackSalt_LightAnimalSkins.description>
+  <!--Doing an unknown recipe.-->
+  <RackSalt_LightAnimalSkins.jobString>Приготовление по неизвестному рецепту.</RackSalt_LightAnimalSkins.jobString>
+  <!--cure rodent skins-->
+  <RackSalt_RodentSkins.label>обработать кожу грызунов</RackSalt_RodentSkins.label>
+  <!--Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.-->
+  <RackSalt_RodentSkins.description>Чтобы сохранить шкуры, их натирают солью или золой. Более толстые шкуры хранятся дольше.</RackSalt_RodentSkins.description>
+  <!--Doing an unknown recipe.-->
+  <RackSalt_RodentSkins.jobString>Приготовление по неизвестному рецепту.</RackSalt_RodentSkins.jobString>
+  <!--cure human skins-->
+  <RackSalt_HumanSkins.label>обработать человеческую кожу</RackSalt_HumanSkins.label>
+  <!--Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.-->
+  <RackSalt_HumanSkins.description>Чтобы сохранить шкуры, их натирают солью или золой. Более толстые шкуры хранятся дольше.</RackSalt_HumanSkins.description>
+  <!--Doing an unknown recipe.-->
+  <RackSalt_HumanSkins.jobString>Приготовление по неизвестному рецепту.</RackSalt_HumanSkins.jobString>
+  <!--cure porous hides-->
+  <RackSalt_PorousHide.label>обработать пористую шкуру</RackSalt_PorousHide.label>
+  <!--Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.-->
+  <RackSalt_PorousHide.description>Чтобы сохранить шкуры, их натирают солью или золой. Более толстые шкуры хранятся дольше.</RackSalt_PorousHide.description>
+  <!--Doing an unknown recipe.-->
+  <RackSalt_PorousHide.jobString>Приготовление по неизвестному рецепту.</RackSalt_PorousHide.jobString>
+  <!--cure immunogenic hides-->
+  <RackSalt_ImmunogenicHide.label>обработать иммуногенную шкуру</RackSalt_ImmunogenicHide.label>
+  <!--Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.-->
+  <RackSalt_ImmunogenicHide.description>Чтобы сохранить шкуры, их натирают солью или золой. Более толстые шкуры хранятся дольше.</RackSalt_ImmunogenicHide.description>
+  <!--Doing an unknown recipe.-->
+  <RackSalt_ImmunogenicHide.jobString>Приготовление по неизвестному рецепту.</RackSalt_ImmunogenicHide.jobString>
+  <!--cure soft hides-->
+  <RackSalt_SoftHide.label>обработать мягкую шкуру</RackSalt_SoftHide.label>
+  <!--Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.-->
+  <RackSalt_SoftHide.description>Чтобы сохранить шкуры, их натирают солью или золой. Более толстые шкуры хранятся дольше.</RackSalt_SoftHide.description>
+  <!--Doing an unknown recipe.-->
+  <RackSalt_SoftHide.jobString>Приготовление по неизвестному рецепту.</RackSalt_SoftHide.jobString>
+  <!--cure durable hides-->
+  <RackSalt_DurableHide.label>обработать прочную шкуру</RackSalt_DurableHide.label>
+  <!--Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.-->
+  <RackSalt_DurableHide.description>Чтобы сохранить шкуры, их натирают солью или золой. Более толстые шкуры хранятся дольше.</RackSalt_DurableHide.description>
+  <!--Doing an unknown recipe.-->
+  <RackSalt_DurableHide.jobString>Приготовление по неизвестному рецепту.</RackSalt_DurableHide.jobString>
+  <!--cure heavy hides-->
+  <RackSalt_HeavyHide.label>обработать толстую шкуру</RackSalt_HeavyHide.label>
+  <!--Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.-->
+  <RackSalt_HeavyHide.description>Чтобы сохранить шкуры, их натирают солью или золой. Более толстые шкуры хранятся дольше.</RackSalt_HeavyHide.description>
+  <!--Doing an unknown recipe.-->
+  <RackSalt_HeavyHide.jobString>Приготовление по неизвестному рецепту.</RackSalt_HeavyHide.jobString>
+  <!--cure stock hides-->
+  <RackSalt_StockHide.label>обработать шкуру</RackSalt_StockHide.label>
+  <!--Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.-->
+  <RackSalt_StockHide.description>Чтобы сохранить шкуры, их натирают солью или золой. Более толстые шкуры хранятся дольше.</RackSalt_StockHide.description>
+  <!--Doing an unknown recipe.-->
+  <RackSalt_StockHide.jobString>Приготовление по неизвестному рецепту.</RackSalt_StockHide.jobString>
+  <!--cure heavy fur pelts-->
+  <RackSalt_HeavyFurPelt.label>обработать толстую меховую шкуру</RackSalt_HeavyFurPelt.label>
+  <!--Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.-->
+  <RackSalt_HeavyFurPelt.description>Чтобы сохранить шкуры, их натирают солью или золой. Более толстые шкуры хранятся дольше.</RackSalt_HeavyFurPelt.description>
+  <!--Doing an unknown recipe.-->
+  <RackSalt_HeavyFurPelt.jobString>Приготовление по неизвестному рецепту.</RackSalt_HeavyFurPelt.jobString>
+  <!--cure rich fur pelts-->
+  <RackSalt_RichFurPelt.label>обработать ценную меховую шкуру</RackSalt_RichFurPelt.label>
+  <!--Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.-->
+  <RackSalt_RichFurPelt.description>Чтобы сохранить шкуры, их натирают солью или золой. Более толстые шкуры хранятся дольше.</RackSalt_RichFurPelt.description>
+  <!--Doing an unknown recipe.-->
+  <RackSalt_RichFurPelt.jobString>Приготовление по неизвестному рецепту.</RackSalt_RichFurPelt.jobString>
+  <!--cure rugged fur pelts-->
+  <RackSalt_RuggedFurPelt.label>обработать грубую меховую шкуру</RackSalt_RuggedFurPelt.label>
+  <!--Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.-->
+  <RackSalt_RuggedFurPelt.description>Чтобы сохранить шкуры, их натирают солью или золой. Более толстые шкуры хранятся дольше.</RackSalt_RuggedFurPelt.description>
+  <!--Doing an unknown recipe.-->
+  <RackSalt_RuggedFurPelt.jobString>Приготовление по неизвестному рецепту.</RackSalt_RuggedFurPelt.jobString>
+  <!--cure warm fur pelts-->
+  <RackSalt_WarmFurPelt.label>обработать теплую меховую шкуру</RackSalt_WarmFurPelt.label>
+  <!--Skins and hides are rubbed with salt or ash to preserve them. Thicker hides take longer.-->
+  <RackSalt_WarmFurPelt.description>Чтобы сохранить шкуры, их натирают солью или золой. Более толстые шкуры хранятся дольше.</RackSalt_WarmFurPelt.description>
+  <!--Doing an unknown recipe.-->
+  <RackSalt_WarmFurPelt.jobString>Приготовление по неизвестному рецепту.</RackSalt_WarmFurPelt.jobString>
+  <!--finish top-grain (indy brown)-->
+  <Make_FinishedLeatherBrown.label>дообработать шлифованную кожу (инди коричневый)</Make_FinishedLeatherBrown.label>
+  <!--Dye, finish, and emboss corrected-grain leather. This is considered "good" quality leather compared to "excellent" quality full-grain leather. It doesn't breathe as well, but it is still sturdy and attractive.-->
+  <Make_FinishedLeatherBrown.description>Окрашивание, отделка и тиснение кожи с коррекцией зернистости. Такая кожа считается "хорошим" качеством по сравнению с "отличным" качеством полнозернистой кожи. Она не так хорошо пропускает воздух, но по-прежнему прочна и привлекательна.</Make_FinishedLeatherBrown.description>
+  <!--Dyeing leather.-->
+  <Make_FinishedLeatherBrown.jobString>Окрашивание кожи.</Make_FinishedLeatherBrown.jobString>
+  <!--finish top-grain (thriller red)-->
+  <Make_FinishedLeatherRed.label>дообработать шлифованную кожу (триллер красный)</Make_FinishedLeatherRed.label>
+  <!--Dye, finish, and emboss corrected-grain leather. This is considered "good" quality leather compared to "excellent" quality full-grain leather. It doesn't breathe as well, but it is still sturdy and attractive.-->
+  <Make_FinishedLeatherRed.description>Окрашивание, отделка и тиснение кожи с коррекцией зернистости. Такая кожа считается "хорошим" качеством по сравнению с "отличным" качеством полнозернистой кожи. Она не так хорошо пропускает воздух, но по-прежнему прочна и привлекательна.</Make_FinishedLeatherRed.description>
+  <!--Dyeing leather.-->
+  <Make_FinishedLeatherRed.jobString>Окрашивание кожи.</Make_FinishedLeatherRed.jobString>
+  <!--finish top-grain (patent black)-->
+  <Make_FinishedLeatherBlack.label>дообработать шлифованную кожу (лакированный чёрный)</Make_FinishedLeatherBlack.label>
+  <!--Dye, finish, and emboss corrected-grain leather. This is considered "good" quality leather compared to "excellent" quality full-grain leather. It doesn't breathe as well, but it is still sturdy and attractive.-->
+  <Make_FinishedLeatherBlack.description>Окрашивание, отделка и тиснение кожи с коррекцией зернистости. Такая кожа считается "хорошим" качеством по сравнению с "отличным" качеством полнозернистой кожи. Она не так хорошо пропускает воздух, но по-прежнему прочна и привлекательна.</Make_FinishedLeatherBlack.description>
+  <!--Dyeing leather.-->
+  <Make_FinishedLeatherBlack.jobString>Окрашивание кожи.</Make_FinishedLeatherBlack.jobString>
+  <!--make nubuck (chestnut)-->
+  <Make_NubuckChestnut.label>изготовить нубук (каштановый)</Make_NubuckChestnut.label>
+  <!--Dye and lightly sand corrected-grain leather. Nubuck is considered "good" quality leather compared to "excellent" quality full-grain leather. It's gently sanded to have a suede-like finish, but since it's not coated, it breathes better than other corrected-grain treatments and is quite attractive.-->
+  <Make_NubuckChestnut.description>Окрашивание и легкая шлифовка кожи с коррекцией зернистости. Нубук считается "хорошим" качеством кожи по сравнению с "отличным" качеством полнозернистой кожи. Его слегка шлифуют, чтобы получить отделку, похожую на замшу, но поскольку он не покрыт лаком, он дышит лучше, чем другие виды кожи с коррекцией зернистости, и выглядит довольно привлекательно.</Make_NubuckChestnut.description>
+  <!--Dyeing nubuck.-->
+  <Make_NubuckChestnut.jobString>Окрашивание нубука.</Make_NubuckChestnut.jobString>
+  <!--make nubuck (danger yellow)-->
+  <Make_NubuckYellow.label>изготовить нубук (опасный желтый)</Make_NubuckYellow.label>
+  <!--Dye and lightly sand corrected-grain leather. Nubuck is considered "good" quality leather compared to "excellent" quality full-grain leather. It's gently sanded to have a suede-like finish, but since it's not coated, it breathes better than other corrected-grain treatments and is quite attractive.-->
+  <Make_NubuckYellow.description>Окрашивание и легкая шлифовка кожи с коррекцией зернистости. Нубук считается "хорошим" качеством кожи по сравнению с "отличным" качеством полнозернистой кожи. Его слегка шлифуют, чтобы получить отделку, похожую на замшу, но поскольку он не покрыт лаком, он дышит лучше, чем другие виды кожи с коррекцией зернистости, и выглядит довольно привлекательно.</Make_NubuckYellow.description>
+  <!--Dyeing nubuck.-->
+  <Make_NubuckYellow.jobString>Окрашивание нубука.</Make_NubuckYellow.jobString>
+  <!--make upholstery leather (vintage brown)-->
+  <Make_UpholsteryLeatherBrown.label>изготовить обивочную кожу (винтажный коричневый)</Make_UpholsteryLeatherBrown.label>
+  <!--Dye and finish corrected-grain leather with a protective coat. This leather is considered "good" quality leather compared to "excellent" quality full-grain leather. It works well for furniture, and though not quite as comfortable as nubuck, it can take a beating.-->
+  <Make_UpholsteryLeatherBrown.description>Окрашивание и отделка кожи с коррекцией зернистости с нанесением защитного покрытия. Эта кожа считается "хорошим" качеством по сравнению с "отличным" качеством полнозернистой кожи. Она хорошо подходит для изготовления мебели и, хотя не так удобна, как нубук, выдерживает удары.</Make_UpholsteryLeatherBrown.description>
+  <!--Dyeing upholstery leather.-->
+  <Make_UpholsteryLeatherBrown.jobString>Окрашивание обивочной кожи.</Make_UpholsteryLeatherBrown.jobString>
+  <!--make upholstery leather (modern gray)-->
+  <Make_UpholsteryLeatherGray.label>изготовить обивочную кожу (современный серый)</Make_UpholsteryLeatherGray.label>
+  <!--Dye and finish corrected-grain leather with a protective coat. This leather is considered "good" quality leather compared to "excellent" quality full-grain leather. It works well for furniture, and though not quite as comfortable as nubuck, it can take a beating.-->
+  <Make_UpholsteryLeatherGray.description>Окрашивание и отделка кожи с коррекцией зернистости с нанесением защитного покрытия. Эта кожа считается "хорошим" качеством по сравнению с "отличным" качеством полнозернистой кожи. Она хорошо подходит для изготовления мебели и, хотя не так удобна, как нубук, выдерживает удары.</Make_UpholsteryLeatherGray.description>
+  <!--Dyeing upholstery leather.-->
+  <Make_UpholsteryLeatherGray.jobString>Окрашивание обивочной кожи.</Make_UpholsteryLeatherGray.jobString>
+  <!--make upholstery leather (bordeaux)-->
+  <Make_UpholsteryLeatherBordeaux.label>изготовить обивочную кожу (бордо)</Make_UpholsteryLeatherBordeaux.label>
+  <!--Dye and finish corrected-grain leather with a protective coat. This leather is considered "good" quality leather compared to "excellent" quality full-grain leather. It works well for furniture, and though not quite as comfortable as nubuck, it can take a beating.-->
+  <Make_UpholsteryLeatherBordeaux.description>Окрашивание и отделка кожи с коррекцией зернистости с нанесением защитного покрытия. Эта кожа считается "хорошим" качеством по сравнению с "отличным" качеством полнозернистой кожи. Она хорошо подходит для изготовления мебели и, хотя не так удобна, как нубук, выдерживает удары.</Make_UpholsteryLeatherBordeaux.description>
+  <!--Dyeing upholstery leather.-->
+  <Make_UpholsteryLeatherBordeaux.jobString>Окрашивание обивочной кожи.</Make_UpholsteryLeatherBordeaux.jobString>
+  <!--make genuine leather-->
+  <Make_GenuineLeather.label>изготовить натуральную кожу</Make_GenuineLeather.label>
+  <!--Suede is polished, finished, and coated with a polymer to strengthen it and give it a fake leather grain. It's poor-quality leather, but still useful.-->
+  <Make_GenuineLeather.description>Замшу полируют, обрабатывают и покрывают полимером, чтобы укрепить ее и придать ей вид искусственной кожи. Это некачественная кожа, но все равно полезная.</Make_GenuineLeather.description>
+  <!--Making genuine leather.-->
+  <Make_GenuineLeather.jobString>Изготовление натуральной кожи.</Make_GenuineLeather.jobString>
+  <!--make leather strips-->
+  <Make_LeatherScraps.label>изготовить кожаные полоски</Make_LeatherScraps.label>
+  <!--Shred leather into small strips which can be used to make bonded leather, or may be used as a building component for certain recipes.-->
+  <Make_LeatherScraps.description>Нарежьте кожу на небольшие полоски, которые можно использовать для изготовления бондарной кожи или в качестве строительного компонента для некоторых рецептов.</Make_LeatherScraps.description>
+  <!--Making leather strips.-->
+  <Make_LeatherScraps.jobString>Изготовление кожаных полосок.</Make_LeatherScraps.jobString>
+  <!--brain-tan buckskin x10-->
+  <TanBrain_LeatherBuckskin.label>дубленая мозгами дубленка x10</TanBrain_LeatherBuckskin.label>
+  <!--Tan raw hides into simple buckskin leather using a solution made with animal brains.-->
+  <TanBrain_LeatherBuckskin.description>Дубление сырых шкур в простую кожу с использованием раствора, приготовленного из мозгов животных.</TanBrain_LeatherBuckskin.description>
+  <!--Brain-tanning buckskin.-->
+  <TanBrain_LeatherBuckskin.jobString>Дубление дубленки мозгами.</TanBrain_LeatherBuckskin.jobString>
+  <!--brain-tan fur x10-->
+  <TanBrain_FurTanned.label>дубленый мозгами мех x10</TanBrain_FurTanned.label>
+  <!--Tan raw furs into simple tanned fur using a solution made with animal brains.-->
+  <TanBrain_FurTanned.description>Дубление сырого меха в простой дубленый мех с помощью раствора, приготовленного из мозгов животных.</TanBrain_FurTanned.description>
+  <!--Brain-tanning fur.-->
+  <TanBrain_FurTanned.jobString>Дубление меха мозгами.</TanBrain_FurTanned.jobString>
+  <!--tan waterproof full-grain leather (x25)-->
+  <TanDrum_LeatherWaterproof.label>дубленая водостойкая полнозернистая кожа (x25)</TanDrum_LeatherWaterproof.label>
+  <!--LoremIpsum-->
+  <TanDrum_LeatherWaterproof.description>¯\_(ツ)_/¯</TanDrum_LeatherWaterproof.description>
+  <!--Doing an unknown recipe.-->
+  <TanDrum_LeatherWaterproof.jobString>Приготовление по неизвестному рецепту.</TanDrum_LeatherWaterproof.jobString>
+  <!--tan light full-grain leather (x25)-->
+  <TanDrum_LeatherLight.label>дубленая легкая полнозернистая кожа (x25)</TanDrum_LeatherLight.label>
+  <!--LoremIpsum-->
+  <TanDrum_LeatherLight.description>¯\_(ツ)_/¯</TanDrum_LeatherLight.description>
+  <!--Doing an unknown recipe.-->
+  <TanDrum_LeatherLight.jobString>Приготовление по неизвестному рецепту.</TanDrum_LeatherLight.jobString>
+  <!--tan light full-grain leather (rodent) (x25)-->
+  <TanDrum_LeatherLightRodent.label>дубленая легкая полнозернистая кожа (грызуны) (x25)</TanDrum_LeatherLightRodent.label>
+  <!--LoremIpsum-->
+  <TanDrum_LeatherLightRodent.description>¯\_(ツ)_/¯</TanDrum_LeatherLightRodent.description>
+  <!--Doing an unknown recipe.-->
+  <TanDrum_LeatherLightRodent.jobString>Приготовление по неизвестному рецепту.</TanDrum_LeatherLightRodent.jobString>
+  <!--tan exotic full-grain leather (x25)-->
+  <TanDrum_LeatherExotic.label>дубленая экзотическая полнозернистая кожа (x25)</TanDrum_LeatherExotic.label>
+  <!--LoremIpsum-->
+  <TanDrum_LeatherExotic.description>¯\_(ツ)_/¯</TanDrum_LeatherExotic.description>
+  <!--Doing an unknown recipe.-->
+  <TanDrum_LeatherExotic.jobString>Приготовление по неизвестному рецепту.</TanDrum_LeatherExotic.jobString>
+  <!--tan breathable full-grain leather (x25)-->
+  <TanDrum_LeatherBreathable.label>дубленая дышащая полнозернистая кожа (x25)</TanDrum_LeatherBreathable.label>
+  <!--LoremIpsum-->
+  <TanDrum_LeatherBreathable.description>¯\_(ツ)_/¯</TanDrum_LeatherBreathable.description>
+  <!--Doing an unknown recipe.-->
+  <TanDrum_LeatherBreathable.jobString>Приготовление по неизвестному рецепту.</TanDrum_LeatherBreathable.jobString>
+  <!--tan heavy full-grain leather (x25)-->
+  <TanDrum_LeatherHeavy.label>дубленая толстая полнозернистая кожа (x25)</TanDrum_LeatherHeavy.label>
+  <!--LoremIpsum-->
+  <TanDrum_LeatherHeavy.description>¯\_(ツ)_/¯</TanDrum_LeatherHeavy.description>
+  <!--Doing an unknown recipe.-->
+  <TanDrum_LeatherHeavy.jobString>Приготовление по неизвестному рецепту.</TanDrum_LeatherHeavy.jobString>
+  <!--tan durable full-grain leather (x25)-->
+  <TanDrum_LeatherDurable.label>дубленая прочная полнозернистая кожа (x25)</TanDrum_LeatherDurable.label>
+  <!--LoremIpsum-->
+  <TanDrum_LeatherDurable.description>¯\_(ツ)_/¯</TanDrum_LeatherDurable.description>
+  <!--Doing an unknown recipe.-->
+  <TanDrum_LeatherDurable.jobString>Приготовление по неизвестному рецепту.</TanDrum_LeatherDurable.jobString>
+  <!--tan stock full-grain leather (x25)-->
+  <TanDrum_LeatherStock.label>дубленая полнозернистая кожа (x25)</TanDrum_LeatherStock.label>
+  <!--LoremIpsum-->
+  <TanDrum_LeatherStock.description>¯\_(ツ)_/¯</TanDrum_LeatherStock.description>
+  <!--Doing an unknown recipe.-->
+  <TanDrum_LeatherStock.jobString>Приготовление по неизвестному рецепту.</TanDrum_LeatherStock.jobString>
+  <!--tan soft full-grain leather (x25)-->
+  <TanDrum_LeatherSoft.label>дубленая мягкая полнозернистая кожа (x25)</TanDrum_LeatherSoft.label>
+  <!--LoremIpsum-->
+  <TanDrum_LeatherSoft.description>¯\_(ツ)_/¯</TanDrum_LeatherSoft.description>
+  <!--Doing an unknown recipe.-->
+  <TanDrum_LeatherSoft.jobString>Приготовление по неизвестному рецепту.</TanDrum_LeatherSoft.jobString>
+  <!--tan sterile full-grain leather (x25)-->
+  <TanDrum_LeatherSterile.label>дубленая стерильная полнозернистая кожа (x25)</TanDrum_LeatherSterile.label>
+  <!--LoremIpsum-->
+  <TanDrum_LeatherSterile.description>¯\_(ツ)_/¯</TanDrum_LeatherSterile.description>
+  <!--Doing an unknown recipe.-->
+  <TanDrum_LeatherSterile.jobString>Приготовление по неизвестному рецепту.</TanDrum_LeatherSterile.jobString>
+  <!--tan warm furs (x25)-->
+  <TanDrum_FurWarm.label>дубленый теплый мех (x25)</TanDrum_FurWarm.label>
+  <!--LoremIpsum-->
+  <TanDrum_FurWarm.description>¯\_(ツ)_/¯</TanDrum_FurWarm.description>
+  <!--Doing an unknown recipe.-->
+  <TanDrum_FurWarm.jobString>Приготовление по неизвестному рецепту.</TanDrum_FurWarm.jobString>
+  <!--tan rugged furs (x25)-->
+  <TanDrum_FurRugged.label>дубленый грубый мех (x25)</TanDrum_FurRugged.label>
+  <!--LoremIpsum-->
+  <TanDrum_FurRugged.description>¯\_(ツ)_/¯</TanDrum_FurRugged.description>
+  <!--Doing an unknown recipe.-->
+  <TanDrum_FurRugged.jobString>Приготовление по неизвестному рецепту.</TanDrum_FurRugged.jobString>
+  <!--tan heavy furs (x25)-->
+  <TanDrum_FurHeavy.label>дубленый толстый мех (x25)</TanDrum_FurHeavy.label>
+  <!--LoremIpsum-->
+  <TanDrum_FurHeavy.description>¯\_(ツ)_/¯</TanDrum_FurHeavy.description>
+  <!--Doing an unknown recipe.-->
+  <TanDrum_FurHeavy.jobString>Приготовление по неизвестному рецепту.</TanDrum_FurHeavy.jobString>
+  <!--tan fine furs (x25)-->
+  <TanDrum_FurFine.label>дубленый хороший мех (x25)</TanDrum_FurFine.label>
+  <!--LoremIpsum-->
+  <TanDrum_FurFine.description>¯\_(ツ)_/¯</TanDrum_FurFine.description>
+  <!--Doing an unknown recipe.-->
+  <TanDrum_FurFine.jobString>Приготовление по неизвестному рецепту.</TanDrum_FurFine.jobString>
+  <!--split and tan heavy hides (x25)-->
+  <TanDrum_SplitHeavy.label>разделить и дубить толстую шкуру (x25)</TanDrum_SplitHeavy.label>
+  <!--LoremIpsum-->
+  <TanDrum_SplitHeavy.description>¯\_(ツ)_/¯</TanDrum_SplitHeavy.description>
+  <!--Doing an unknown recipe.-->
+  <TanDrum_SplitHeavy.jobString>Приготовление по неизвестному рецепту.</TanDrum_SplitHeavy.jobString>
+  <!--split and tan thick hides (x25)-->
+  <TanDrum_SplitThick.label>разделить и дубить плотную шкуру (x25)</TanDrum_SplitThick.label>
+  <!--LoremIpsum-->
+  <TanDrum_SplitThick.description>¯\_(ツ)_/¯</TanDrum_SplitThick.description>
+  <!--Doing an unknown recipe.-->
+  <TanDrum_SplitThick.jobString>Приготовление по неизвестному рецепту.</TanDrum_SplitThick.jobString>
+  <!--split and tan medium hides (x25)-->
+  <TanDrum_SplitMedium.label>разделить и дубить среднюю шкуру (x25)</TanDrum_SplitMedium.label>
+  <!--LoremIpsum-->
+  <TanDrum_SplitMedium.description>¯\_(ツ)_/¯</TanDrum_SplitMedium.description>
+  <!--Doing an unknown recipe.-->
+  <TanDrum_SplitMedium.jobString>Приготовление по неизвестному рецепту.</TanDrum_SplitMedium.jobString>
+  <!--split and tan thin skins (x25)-->
+  <TanDrum_SplitThin.label>разделить и дубить тонкую кожу (x25)</TanDrum_SplitThin.label>
+  <!--LoremIpsum-->
+  <TanDrum_SplitThin.description>¯\_(ツ)_/¯</TanDrum_SplitThin.description>
+  <!--Doing an unknown recipe.-->
+  <TanDrum_SplitThin.jobString>Приготовление по неизвестному рецепту.</TanDrum_SplitThin.jobString>
+  <!--tan human leather (x25)-->
+  <TanDrum_HumanLeather.label>дубленая человеческая кожа (x25)</TanDrum_HumanLeather.label>
+  <!--LoremIpsum-->
+  <TanDrum_HumanLeather.description>¯\_(ツ)_/¯</TanDrum_HumanLeather.description>
+  <!--Doing an unknown recipe.-->
+  <TanDrum_HumanLeather.jobString>Приготовление по неизвестному рецепту.</TanDrum_HumanLeather.jobString>
+  <!--waterproof full-grain leather (x5)-->
+  <TanVat_LeatherWaterproof.label>водостойкая полнозернистая кожа (x5)</TanVat_LeatherWaterproof.label>
+  <!--LoremIpsum-->
+  <TanVat_LeatherWaterproof.description>¯\_(ツ)_/¯</TanVat_LeatherWaterproof.description>
+  <!--Veg-tanning waterproof leather.-->
+  <TanVat_LeatherWaterproof.jobString>Растительное дубление водостойкой кожи.</TanVat_LeatherWaterproof.jobString>
+  <!--light full-grain leather (x5)-->
+  <TanVat_LeatherLight.label>легкая полнозернистая кожа (x5)</TanVat_LeatherLight.label>
+  <!--LoremIpsum-->
+  <TanVat_LeatherLight.description>¯\_(ツ)_/¯</TanVat_LeatherLight.description>
+  <!--Veg-tanning light leather.-->
+  <TanVat_LeatherLight.jobString>Растительное дубление легкой кожи.</TanVat_LeatherLight.jobString>
+  <!--light full-grain leather (rodent) (x5)-->
+  <TanVat_LeatherLightRodent.label>легкая полнозернистая кожа (грызуны) (x5)</TanVat_LeatherLightRodent.label>
+  <!--LoremIpsum-->
+  <TanVat_LeatherLightRodent.description>¯\_(ツ)_/¯</TanVat_LeatherLightRodent.description>
+  <!--Veg-tanning light rodent leather.-->
+  <TanVat_LeatherLightRodent.jobString>Растительное дубление лёгкой кожи грызунов.</TanVat_LeatherLightRodent.jobString>
+  <!--exotic full-grain leather (x5)-->
+  <TanVat_LeatherExotic.label>экзотическая полнозернистая кожа (x5)</TanVat_LeatherExotic.label>
+  <!--LoremIpsum-->
+  <TanVat_LeatherExotic.description>¯\_(ツ)_/¯</TanVat_LeatherExotic.description>
+  <!--Veg-tanning exotic leather.-->
+  <TanVat_LeatherExotic.jobString>Растительное дубление экзотической кожи.</TanVat_LeatherExotic.jobString>
+  <!--breathable full-grain leather (x5)-->
+  <TanVat_LeatherBreathable.label>дышащая полнозернистая кожа (x5)</TanVat_LeatherBreathable.label>
+  <!--LoremIpsum-->
+  <TanVat_LeatherBreathable.description>¯\_(ツ)_/¯</TanVat_LeatherBreathable.description>
+  <!--Veg-tanning breathable leather.-->
+  <TanVat_LeatherBreathable.jobString>Растительное дубление дышащей кожи.</TanVat_LeatherBreathable.jobString>
+  <!--heavy full-grain leather (x5)-->
+  <TanVat_LeatherHeavy.label>толстая полнозернистая кожа (x5)</TanVat_LeatherHeavy.label>
+  <!--LoremIpsum-->
+  <TanVat_LeatherHeavy.description>¯\_(ツ)_/¯</TanVat_LeatherHeavy.description>
+  <!--Veg-tanning heavy leather.-->
+  <TanVat_LeatherHeavy.jobString>Растительное дубление толстой кожи.</TanVat_LeatherHeavy.jobString>
+  <!--durable full-grain leather (x5)-->
+  <TanVat_LeatherDurable.label>прочная полнозернистая кожа (x5)</TanVat_LeatherDurable.label>
+  <!--LoremIpsum-->
+  <TanVat_LeatherDurable.description>¯\_(ツ)_/¯</TanVat_LeatherDurable.description>
+  <!--Veg-tanning durable leather.-->
+  <TanVat_LeatherDurable.jobString>Растительное дубление прочной кожи.</TanVat_LeatherDurable.jobString>
+  <!--stock full-grain leather (x5)-->
+  <TanVat_LeatherStock.label>полнозернистая кожа (x5)</TanVat_LeatherStock.label>
+  <!--LoremIpsum-->
+  <TanVat_LeatherStock.description>¯\_(ツ)_/¯</TanVat_LeatherStock.description>
+  <!--Veg-tanning stock leather.-->
+  <TanVat_LeatherStock.jobString>Растительное дубление кожи.</TanVat_LeatherStock.jobString>
+  <!--soft full-grain leather (x5)-->
+  <TanVat_LeatherSoft.label>мягкая полнозернистая кожа (x5)</TanVat_LeatherSoft.label>
+  <!--LoremIpsum-->
+  <TanVat_LeatherSoft.description>¯\_(ツ)_/¯</TanVat_LeatherSoft.description>
+  <!--Veg-tanning soft leather.-->
+  <TanVat_LeatherSoft.jobString>Растительное дубление мягкой кожи.</TanVat_LeatherSoft.jobString>
+  <!--sterile full-grain leather (x5)-->
+  <TanVat_LeatherSterile.label>стерильная полнозернистая кожа (x5)</TanVat_LeatherSterile.label>
+  <!--LoremIpsum-->
+  <TanVat_LeatherSterile.description>¯\_(ツ)_/¯</TanVat_LeatherSterile.description>
+  <!--Veg-tanning sterile leather.-->
+  <TanVat_LeatherSterile.jobString>Растительное дубление стерильной кожи.</TanVat_LeatherSterile.jobString>
+  <!--warm furs (x5)-->
+  <TanVat_FurWarm.label>теплый мех (x5)</TanVat_FurWarm.label>
+  <!--LoremIpsum-->
+  <TanVat_FurWarm.description>¯\_(ツ)_/¯</TanVat_FurWarm.description>
+  <!--Veg-tanning warm fur.-->
+  <TanVat_FurWarm.jobString>Растительное дубление теплого меха.</TanVat_FurWarm.jobString>
+  <!--rugged furs (x5)-->
+  <TanVat_FurRugged.label>грубый мех (x5)</TanVat_FurRugged.label>
+  <!--LoremIpsum-->
+  <TanVat_FurRugged.description>¯\_(ツ)_/¯</TanVat_FurRugged.description>
+  <!--Veg-tanning rugged fur.-->
+  <TanVat_FurRugged.jobString>Растительное дубление грубого меха.</TanVat_FurRugged.jobString>
+  <!--heavy furs (x5)-->
+  <TanVat_FurHeavy.label>толстый мех (x5)</TanVat_FurHeavy.label>
+  <!--LoremIpsum-->
+  <TanVat_FurHeavy.description>¯\_(ツ)_/¯</TanVat_FurHeavy.description>
+  <!--Veg-tanning heavy fur.-->
+  <TanVat_FurHeavy.jobString>Растительное дубление толстого меха.</TanVat_FurHeavy.jobString>
+  <!--rich furs (x5)-->
+  <TanVat_FurRich.label>ценный мех (x5)</TanVat_FurRich.label>
+  <!--LoremIpsum-->
+  <TanVat_FurRich.description>¯\_(ツ)_/¯</TanVat_FurRich.description>
+  <!--Veg-tanning rich fur.-->
+  <TanVat_FurRich.jobString>Растительное дубление ценного меха.</TanVat_FurRich.jobString>
+  <!--tan human leather-->
+  <TanVat_HumanLeather.label>дубленая человеческая кожа</TanVat_HumanLeather.label>
+  <!--LoremIpsum-->
+  <TanVat_HumanLeather.description>¯\_(ツ)_/¯</TanVat_HumanLeather.description>
+  <!--Veg-tanning human leather.-->
+  <TanVat_HumanLeather.jobString>Растительное дубление человеческой кожи.</TanVat_HumanLeather.jobString>
+  <!--split and tan heavy hides (x8/x15)-->
+  <TanVat_TopGrain_Heavy.label>разделить и дубить толстую шкуру (x8/x15)</TanVat_TopGrain_Heavy.label>
+  <!--Splits a hide into good-quality top-grain and low-quality suede. The Top-grain leather has the surface corrected to remove imperfections which allows for less wasted product. It may later be dyed and embossed to make a higher-quality product.-->
+  <TanVat_TopGrain_Heavy.description>Разделяет шкуру на высококачественную шлифованную и низкокачественную замшу. Шлифованная кожа корректируется для устранения дефектов, что позволяет получить меньше отходов. Впоследствии она может быть окрашена и тиснена для получения более качественного продукта.</TanVat_TopGrain_Heavy.description>
+  <!--Doing an unknown recipe.-->
+  <TanVat_TopGrain_Heavy.jobString>Приготовление по неизвестному рецепту.</TanVat_TopGrain_Heavy.jobString>
+  <!--split and tan thick hides (x8/x10)-->
+  <TanVat_TopGrain_Thick.label>разделить и дубить плотную шкуру (x8/x10)</TanVat_TopGrain_Thick.label>
+  <!--Splits a hide into good-quality top-grain and low-quality suede. The Top-grain leather has the surface corrected to remove imperfections which allows for less wasted product. It may later be dyed and embossed to make a higher-quality product.-->
+  <TanVat_TopGrain_Thick.description>Разделяет шкуру на высококачественную шлифованную и низкокачественную замшу. Шлифованная кожа корректируется для устранения дефектов, что позволяет получить меньше отходов. Впоследствии она может быть окрашена и тиснена для получения более качественного продукта.</TanVat_TopGrain_Thick.description>
+  <!--Doing an unknown recipe.-->
+  <TanVat_TopGrain_Thick.jobString>Приготовление по неизвестному рецепту.</TanVat_TopGrain_Thick.jobString>
+  <!--split and tan medium hides (x7/x6)-->
+  <TanVat_TopGrain_Medium.label>разделить и дубить среднюю шкуру (x7/x6)</TanVat_TopGrain_Medium.label>
+  <!--Splits a hide into good-quality top-grain and low-quality suede. The Top-grain leather has the surface corrected to remove imperfections which allows for less wasted product. It may later be dyed and embossed to make a higher-quality product.-->
+  <TanVat_TopGrain_Medium.description>Разделяет шкуру на высококачественную шлифованную и низкокачественную замшу. Шлифованная кожа корректируется для устранения дефектов, что позволяет получить меньше отходов. Впоследствии она может быть окрашена и тиснена для получения более качественного продукта.</TanVat_TopGrain_Medium.description>
+  <!--Doing an unknown recipe.-->
+  <TanVat_TopGrain_Medium.jobString>Приготовление по неизвестному рецепту.</TanVat_TopGrain_Medium.jobString>
+  <!--split and tan thin skins (x8/x3)-->
+  <TanVat_TopGrain_ThinSkins.label>разделить и дубить тонкую кожу (x8/x3)</TanVat_TopGrain_ThinSkins.label>
+  <!--Splits a skin into good-quality top-grain and low-quality suede. The Top-grain leather has the surface corrected to remove imperfections which allows for less wasted product. It may later be dyed and embossed to make a higher-quality product.-->
+  <TanVat_TopGrain_ThinSkins.description>Разделяет шкуру на высококачественную шлифованную и низкокачественную замшу. Шлифованная кожа корректируется для устранения дефектов, что позволяет получить меньше отходов. Впоследствии она может быть окрашена и тиснена для получения более качественного продукта.</TanVat_TopGrain_ThinSkins.description>
+  <!--Doing an unknown recipe.-->
+  <TanVat_TopGrain_ThinSkins.jobString>Приготовление по неизвестному рецепту.</TanVat_TopGrain_ThinSkins.jobString>
+  <!--make thermatan leather x25-->
+  <Make_LeatherThermatan.label>изготовить кожу терматана x25</Make_LeatherThermatan.label>
+  <!--Make an ultra-grade variety of leather with exceptional strength, beauty, and insulation by infusing heavy leathers with esters extracted from dragon blood.-->
+  <Make_LeatherThermatan.description>Изготовьте ультракачественную кожу с исключительной прочностью, красотой и теплоизоляцией, пропитав толстую кожу эфирами, полученными из крови дракона.</Make_LeatherThermatan.description>
+  <!--Doing an unknown recipe.-->
+  <Make_LeatherThermatan.jobString>Приготовление по неизвестному рецепту.</Make_LeatherThermatan.jobString>
+  <!--make ventan leather x25-->
+  <Make_LeatherVentan.label>изготовить кожу вентана x25</Make_LeatherVentan.label>
+  <!--Make an ultra-grade variety of leather with exceptional strength and breathability by infusing breathable leathers with esters extracted from dragon blood.-->
+  <Make_LeatherVentan.description>Изготовьте ультракачественную кожу с исключительной прочностью и воздухопроницаемостью, пропитав ее эфирами, полученными из крови дракона.</Make_LeatherVentan.description>
+  <!--Doing an unknown recipe.-->
+  <Make_LeatherVentan.jobString>Приготовление по неизвестному рецепту.</Make_LeatherVentan.jobString>
+  <!--make armatan leather x25-->
+  <Make_LeatherArmatan.label>изготовить мех арматана x25</Make_LeatherArmatan.label>
+  <!--Make an ultra-grade variety of leather with unbeatable strength and durability by lining Heavy Fur with a mesh made of the guard hairs of beasts.-->
+  <Make_LeatherArmatan.description>Изготовьте сверхкачественный мех, обладающую непревзойденной прочностью и долговечностью, подбив толстый мех сеткой из волосков зверя.</Make_LeatherArmatan.description>
+  <!--Doing an unknown recipe.-->
+  <Make_LeatherArmatan.jobString>Приготовление по неизвестному рецепту.</Make_LeatherArmatan.jobString>
+  <!--make hygieiatan leather x25-->
+  <Make_LeatherHygieiatan.label>изготовить кожу люкситана x25</Make_LeatherHygieiatan.label>
+  <!--Make and ultra-grade variety of leather with uncanny immunogenic properties by infusing sterile leather with the vapors created from the talons of beithirian beasts.-->
+  <Make_LeatherHygieiatan.description>Изготовьте сверхкачественную кожу со сверхъестественными иммуногенными свойствами, пропитав стерильную кожу испарениями, выделяемыми когтями бехира.</Make_LeatherHygieiatan.description>
+  <!--Doing an unknown recipe.-->
+  <Make_LeatherHygieiatan.jobString>Приготовление по неизвестному рецепту.</Make_LeatherHygieiatan.jobString>
+  <!--Craft compound paste from dragon scale x5-->
+  <MakeCompasteFromDragonScales.label>Создание смеси пасты из чешуи дракона x5</MakeCompasteFromDragonScales.label>
+  <!--Craft bottles of compound paste, used in a wide variety of clothing.-->
+  <MakeCompasteFromDragonScales.description>Самодельные бутылочки с пастой, используемой в самых разных видах одежды.</MakeCompasteFromDragonScales.description>
+  <!--Crafting compound paste.-->
+  <MakeCompasteFromDragonScales.jobString>Создание смеси пасты.</MakeCompasteFromDragonScales.jobString>
+  <!--Craft polymers from chitin x5-->
+  <MakePolymersFromChitin.label>Создание полимеров из хитина x5</MakePolymersFromChitin.label>
+  <!--Typically made from crude oil, small amounts can be produced by processing chitin, which may be useful for producing bonded leather and genuine leather.-->
+  <MakePolymersFromChitin.description>Обычно производится из сырой нефти, но в небольших количествах может быть получен путем переработки хитина, который может быть полезен для производства склеенной кожи и натуральной кожи.</MakePolymersFromChitin.description>
+  <!--Crafting polymers.-->
+  <MakePolymersFromChitin.jobString>Создание полимеров.</MakePolymersFromChitin.jobString>
+  <!--make rawhide-->
+  <Make_Rawhide.label>изготовить сыромятную кожу</Make_Rawhide.label>
+  <!--Rawhide is a stretched and cured animal hide, like parchment, but thicker. It becomes very hard and strong once it solidifies and can be used in the place of metal in some armors, providing protection. However, it's unstable and breaks down over time when exposed to the elements. It's also not especially light since it had to be very thick to offer protection.-->
+  <Make_Rawhide.description>Сыромятная кожа - это растянутая и затвердевшая шкура животного, похожая на пергамент, но более толстая. После застывания она становится очень твердой и прочной и может использоваться вместо металла в некоторых доспехах, обеспечивая защиту. Однако она нестабильна и со временем разрушается под воздействием стихий. Кроме того, она не слишком легкая, поскольку для защиты ей приходится быть очень толстой.</Make_Rawhide.description>
+  <!--Making rawhide.-->
+  <Make_Rawhide.jobString>Изготовление сыромятной кожи.</Make_Rawhide.jobString>
+  <!--make cuir bouilli (boiled leather)-->
+  <Make_BoiledLeather.label>изготовить кюрболи (вываренная кожа)</Make_BoiledLeather.label>
+  <!--Also known as 'boiled leather', it's made by treating leather to make it hard and mouldable. It can be used in place of metal on many medieval armors, though because it as to be thick to provide protection, it's quite heavy and is not suitable for full-plate. Because it doesn't conduct heat like metal, it provides better protection against heat.-->
+  <Make_BoiledLeather.description>Известная также как "вареная кожа", она изготавливается путем обработки кожи, чтобы сделать ее твердой и поддающейся формовке. Она может использоваться вместо металла во многих средневековых доспехах, хотя, поскольку для обеспечения защиты она должна быть толстой, она довольно тяжелая и не подходит для полной пластины. Поскольку она не проводит тепло, как металл, то обеспечивает лучшую защиту от жары.</Make_BoiledLeather.description>
+  <!--Making cuir bouilli.-->
+  <Make_BoiledLeather.jobString>Изготовление кюрболи.</Make_BoiledLeather.jobString>
+</LanguageData>

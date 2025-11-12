@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--Drying Rack-->
+  <TanningRack.label>Сушильная стойка</TanningRack.label>
+  <!--A rack from drying and preserving animals skins and hides.-->
+  <TanningRack.description>Стойка для сухой обработки шкур и кожи животных.</TanningRack.description>
+  <!--brine-curing station-->
+  <BriningStation.label>Установка для обработки солевым раствором</BriningStation.label>
+  <!--Fresh skins and hides are submersed in salty water and then dried to prevent rotting. The bath must be paddled by hand, but it's much faster than dry-salt curing.-->
+  <BriningStation.description>Свежие шкуры и кожи погружают в соленую воду, а затем высушивают, чтобы предотвратить гниение. Ванну нужно грести вручную, но это гораздо быстрее, чем обработка сухим методом.</BriningStation.description>
+  <!--leather-dyeing station-->
+  <DyeingStation.label>Красильня для кожи</DyeingStation.label>
+  <!--Top-grain leathers are manually dyed here.-->
+  <DyeingStation.description>Здесь вручную окрашивают первосортные кожи.</DyeingStation.description>
+  <!--Tanning Vat-->
+  <TanningVat.label>Дубильный чан</TanningVat.label>
+  <!--An earthen vat for tanning hides and skins into leather.-->
+  <TanningVat.description>Глиняный чан для дубления мехов и шкур с целью получения готовой кожи.</TanningVat.description>
+  <!--tanning drum-->
+  <TanningDrum.label>дубильный барабан</TanningDrum.label>
+  <!--Leathers are tanned here using the much faster chrome tanning process. Chrome leather tanning is the second-most most dangerous industry on The Rim, just after fission battery taste-testing. Prolongued exposure to tanning chemicals can be lethal.-->
+  <TanningDrum.description>Кожи здесь дубят с помощью более быстрого процесса хромового дубления. Процесс дубления с использованием хрома - вторая по опасности отрасль на планете, сразу после проверки качества ядерных батарей на стойкость. Предполагается, что воздействие химических веществ, используемых для дубления, является для человека смертельным.</TanningDrum.description>
+  <!--Dragon Esters-->
+  <DragonEsters.label>Экстракты дракона</DragonEsters.label>
+  <!--A glyceride extracted from kirins, wyverns, and feenix. Can be infused with certain leathers to improve their properties.-->
+  <DragonEsters.description>Глицерид, добываемый из киринов, виверн и фениксов. Может быть использован в производстве некоторых видов кожи для улучшения ее свойств.</DragonEsters.description>
+  <!--Guardian Hairs-->
+  <GuardianHairs.label>Волосы Хранителей</GuardianHairs.label>
+  <!--The coarse, outer hairs found in the fur of mythical canines and thrumbo. It can be used to enhanced certain furs.-->
+  <GuardianHairs.description>Огрубевшие верхние части шерсти мифических зверей и трумбо. Их можно использовать для улучшения некоторых видов меха.</GuardianHairs.description>
+  <!--Talon Aether-->
+  <TalonAether.label>Эфир из когтей</TalonAether.label>
+  <!--A smokelike vapor that forms when the pulverizing the talons of a behir or other the raptors which are hybridized from behir DNA.-->
+  <TalonAether.description>Испарения, похожие на дым, которые образуются при измельчении когтей бехира или других хищников, гибридизированных с бехиром по ДНК.</TalonAether.description>
+  <!--Rawhide-->
+  <Rawhide.label>Сыромятная кожа</Rawhide.label>
+  <!--Rawhide is a stretched and cured animal hide, like parchment, but thicker. It becomes very hard and strong once it solidifies and can be used in the place of metal in some armors, providing protection. However, it's unstable and breaks down over time when exposed to the elements. It's also not especially light since it had to be very thick to offer protection.-->
+  <Rawhide.description>Сыромятная кожа - это растянутая и затвердевшая шкура животного, похожая на пергамент, но более толстая. После застывания она становится очень твердой и прочной и может использоваться вместо металла в некоторых доспехах, обеспечивая защиту. Однако она недолговечна и со временем разрушается под воздействием окружающей среды. Кроме того, она не слишком легкая, поскольку для защиты требуется большая толщина.</Rawhide.description>
+  <!--cuir bouilli-->
+  <BoiledLeather.label>кюрболи</BoiledLeather.label>
+  <!--Also known as 'boiled leather', it's made by treating leather (most likely with animal glue) to make it hard and mouldable. It can be used in place of metal on many medieval armors, though because it as to be thick to provide protection, it's quite heavy and is not suitable for full-plate. Because it doesn't conduct heat like metal, it provides better protection against heat.-->
+  <BoiledLeather.description>Известная также как "вареная кожа", она изготавливается путем обработки кожи (скорее всего, животным клеем), чтобы сделать ее твердой и поддающейся формовке. Она может использоваться вместо металла во многих средневековых доспехах, хотя, поскольку для защиты она должна быть толстой, она довольно тяжелая и не подходит для полной пластины. Поскольку он не проводит тепло, как металл, он обеспечивает лучшую защиту от жары.</BoiledLeather.description>
+  <!--boiled leather-->
+  <BoiledLeather.stuffProps.stuffAdjective>вареной кожи</BoiledLeather.stuffProps.stuffAdjective>
+  <!--dragon scales-->
+  <DragonScales.label>драконья чешуя</DragonScales.label>
+  <!--Draconic reptiles sport a strong armor which protects their skin. The small plates are hard as iron but light as feathers and can be used as a component for building armor. It can aslo be processed into compound paste.-->
+  <DragonScales.description>Драконьи рептилии обладают прочной бронированной кожей. Небольшие чешуйки прочны, как металл, но легки, как перья, и могут использоваться в качестве материала для изготовления доспехов. Кроме того, их можно переработать в смесь пасты.</DragonScales.description>
+  <!--Dragon Plate-->
+  <DragonScales.stuffProps.stuffAdjective>драконьей чешуи</DragonScales.stuffProps.stuffAdjective>
+  <!--cured waterproof skins-->
+  <Hide_WaterproofSkinCured.label>обработанная водостойкая кожа</Hide_WaterproofSkinCured.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_WaterproofSkinCured.description>Обработанная водостойкая кожа.Не разлагается.</Hide_WaterproofSkinCured.description>
+  <!--raw waterproof skins-->
+  <Hide_WaterproofSkin.label>сырая водостойкая кожа</Hide_WaterproofSkin.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_WaterproofSkin.description>Сырая водостойкая кожа.Разлагается.</Hide_WaterproofSkin.description>
+  <!--cured human skins-->
+  <Hide_HumanSkinCured.label>обработанная человеческая кожа</Hide_HumanSkinCured.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_HumanSkinCured.description>Обработанная кожа человека.Не разлагается.</Hide_HumanSkinCured.description>
+  <!--raw human skins-->
+  <Hide_HumanSkin.label>сырая человеческая кожа</Hide_HumanSkin.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_HumanSkin.description>Сырая кожа человека. Она разлагается, если ее не заморозить или не обработать в ближайшее время.</Hide_HumanSkin.description>
+  <!--cured exotic skins-->
+  <Hide_ExoticSkinCured.label>обработанная экзотическая кожа</Hide_ExoticSkinCured.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_ExoticSkinCured.description>Обработанная кожа экзотического животного. Не разлагается.</Hide_ExoticSkinCured.description>
+  <!--raw exotic skins-->
+  <Hide_ExoticSkin.label>сырая экзотическая кожа</Hide_ExoticSkin.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_ExoticSkin.description>Сырая кожа животного. Она разлагается, если ее не заморозить или не обработать в ближайшее время.</Hide_ExoticSkin.description>
+  <!--cured light animal skins-->
+  <Hide_LightAnimalSkinCured.label>обработанная легкая кожа животных</Hide_LightAnimalSkinCured.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_LightAnimalSkinCured.description>Обработанная легкая кожа животного. Не разлагается.</Hide_LightAnimalSkinCured.description>
+  <!--raw light animal skins-->
+  <Hide_LightAnimalSkin.label>сырая легкая кожа животных</Hide_LightAnimalSkin.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_LightAnimalSkin.description>Сырая легкая кожа животного. Она разлагается, если ее не заморозить или не обработать в ближайшее время.</Hide_LightAnimalSkin.description>
+  <!--cured rodent skins-->
+  <Hide_RodentSkinCured.label>обработанная кожа грызунов</Hide_RodentSkinCured.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_RodentSkinCured.description>Обработанная шкура грызунов. Не разлагаются.</Hide_RodentSkinCured.description>
+  <!--raw rodent skins-->
+  <Hide_RodentSkin.label>сырая кожа грызунов</Hide_RodentSkin.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_RodentSkin.description>Сырая кожа грызунов. Она разлагается, если ее не заморозить или не обработать в ближайшее время.</Hide_RodentSkin.description>
+  <!--cured porous hide-->
+  <Hide_PorousHideCured.label>обработанная пористая шкура</Hide_PorousHideCured.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_PorousHideCured.description>Обработанная пористая шкура. Не разлагается.</Hide_PorousHideCured.description>
+  <!--raw porous hide-->
+  <Hide_PorousHide.label>сырая пористая шкура</Hide_PorousHide.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_PorousHide.description>Сырая пористая шкура. Она разлагается, если ее не заморозить или не обработать в ближайшее время.</Hide_PorousHide.description>
+  <!--cured immunogenic hide-->
+  <Hide_ImmunogenicHideCured.label>обработанная имуногенная шкура</Hide_ImmunogenicHideCured.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_ImmunogenicHideCured.description>Обработанная имуногенная шкура. Не разлагается.</Hide_ImmunogenicHideCured.description>
+  <!--raw immunogenic hide-->
+  <Hide_ImmunogenicHide.label>сырая имуногенная шкура</Hide_ImmunogenicHide.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_ImmunogenicHide.description>Сырая имуногенная шкура. Она разлагается, если ее не заморозить или не обработать в ближайшее время.</Hide_ImmunogenicHide.description>
+  <!--cured soft hide-->
+  <Hide_SoftHideCured.label>обработанная мягкая шкура</Hide_SoftHideCured.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_SoftHideCured.description>Обработанная мягкая шкура. Не разлагается.</Hide_SoftHideCured.description>
+  <!--raw soft hide-->
+  <Hide_SoftHide.label>сырая мягкая шкура</Hide_SoftHide.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_SoftHide.description>Сырая мягкая шкура. Она разлагается, если ее не заморозить или не обработать в ближайшее время.</Hide_SoftHide.description>
+  <!--cured durable hide-->
+  <Hide_DurableHideCured.label>обработанная прочная шкура</Hide_DurableHideCured.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_DurableHideCured.description>Обработанная прочная шкура. Не разлагается.</Hide_DurableHideCured.description>
+  <!--raw durable hide-->
+  <Hide_DurableHide.label>сырая прочная шкура.</Hide_DurableHide.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_DurableHide.description>Сырая прочная шкура. Она разлагается, если ее не заморозить или не обработать в ближайшее время.</Hide_DurableHide.description>
+  <!--cured heavy hide-->
+  <Hide_HeavyHideCured.label>обработанная толстая шкура</Hide_HeavyHideCured.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_HeavyHideCured.description>Обработанная толстая шкура. Не разлагается.</Hide_HeavyHideCured.description>
+  <!--raw heavy hide-->
+  <Hide_HeavyHide.label>сырая толстая шкура</Hide_HeavyHide.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_HeavyHide.description>Сырая толстая шкура. Она разлагается, если ее не заморозить или не обработать в ближайшее время.</Hide_HeavyHide.description>
+  <!--cured stock hide-->
+  <Hide_StockHideCured.label>обработанная шкура</Hide_StockHideCured.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_StockHideCured.description>Обработанная шкура. Не разлагается.</Hide_StockHideCured.description>
+  <!--raw stock hide-->
+  <Hide_StockHide.label>сырая шкура</Hide_StockHide.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_StockHide.description>Сырая шкура. Она разлагается, если ее не заморозить или не обработать в ближайшее время.</Hide_StockHide.description>
+  <!--cured heavy fur pelt-->
+  <Hide_HeavyFurPeltCured.label>обработанная шкура с толстым мехом.</Hide_HeavyFurPeltCured.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_HeavyFurPeltCured.description>Обработанный толстый мех. Не разлагается.</Hide_HeavyFurPeltCured.description>
+  <!--raw heavy fur pelt-->
+  <Hide_HeavyFurPelt.label>сырая шкура с толстым мехом.</Hide_HeavyFurPelt.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_HeavyFurPelt.description>Сырая шкура с толстым мехом. Она разлагается, если ее не заморозить или не обработать в ближайшее время.</Hide_HeavyFurPelt.description>
+  <!--cured rich fur pelt-->
+  <Hide_RichFurPeltCured.label>обработанная шкура с ценным мехом</Hide_RichFurPeltCured.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_RichFurPeltCured.description>Обработанная шкура с ценным мехом. Не разлагается.</Hide_RichFurPeltCured.description>
+  <!--raw rich fur pelt-->
+  <Hide_RichFurPelt.label>сырая шкура с ценным мехом</Hide_RichFurPelt.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_RichFurPelt.description>Сырая шкура с ценным мехом. Она разлагается, если ее не заморозить или не обработать в ближайшее время.</Hide_RichFurPelt.description>
+  <!--cured rugged fur pelt-->
+  <Hide_RuggedFurPeltCured.label>обработанная шкура с грубым мехом</Hide_RuggedFurPeltCured.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_RuggedFurPeltCured.description>Обработанная шкура с грубым мехом. Не разлагается.</Hide_RuggedFurPeltCured.description>
+  <!--raw rugged fur pelt-->
+  <Hide_RuggedFurPelt.label>сырая шкура с грубым мехом</Hide_RuggedFurPelt.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_RuggedFurPelt.description>Сырая шкура с грубым мехом. Она разлагается, если ее не заморозить или не обработать в ближайшее время.</Hide_RuggedFurPelt.description>
+  <!--cured warm fur pelt-->
+  <Hide_WarmFurPeltCured.label>обработанная шкура с теплым мехом</Hide_WarmFurPeltCured.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_WarmFurPeltCured.description>Обработанная шкура с теплым мехом. Не разлагается.</Hide_WarmFurPeltCured.description>
+  <!--raw warm fur pelt-->
+  <Hide_WarmFurPelt.label>сырая шкура с теплым мехом</Hide_WarmFurPelt.label>
+  <!--The raw skin of an animal. It will decompose if not frozen or cured soon.-->
+  <Hide_WarmFurPelt.description>Сырая шкура с теплым мехом. Она разлагается, если ее не заморозить или не обработать в ближайшее время.</Hide_WarmFurPelt.description>
+  <!--tanned fur (E)-->
+  <TannedFur.label>дублёный мех (E)</TannedFur.label>
+  <!--TIER 2 - Medieval\n>>> Optimal	Low-tech Access\n>> Suitable	Winter, Bedding\nX Inadvisable 	Durability, Hospital\n\nA crudely-tanned animal fur. Warmer and comfier than buckskin, but it's not a very strong material.-->
+  <TannedFur.description>Уровень 2 - Средневековый\n&gt;&gt;&gt; Оптимально для 	Легкодоступность\n&gt;&gt; Пригодно для	Зима, Постельное белье\nX Нежелательно для 	Прочность, Больница\n\nA Грубый дубленый мех животных. Теплее и комфортнее, чем дублёнка, но это не очень прочный материал.</TannedFur.description>
+  <!--tanned fur-->
+  <TannedFur.stuffProps.stuffAdjective>дублёного меха</TannedFur.stuffProps.stuffAdjective>
+  <!--waterproof leather (B+)-->
+  <Leather_Waterproof.label>водостойкая кожа (B+)</Leather_Waterproof.label>
+  <!--TIER 2 - Medieval\n>>> Optimal	Durability\n>> Suitable	Winter, Armor\nX Inadvisable 	Bedding, Production\n\nA surprisingly durable full-grain leather made from the skins of large, predatory fish. Highly soght after due to its rarity..-->
+  <Leather_Waterproof.description>Уровень 2 - Средневековый\n&gt;&gt;&gt; Оптимально для 	Долговечный\n&gt;&gt; Пригодно для	Зима, Броня\nX Нежелательно для 	Постельное белье, Продуктивность\n\nУдивительно прочная полнозернистая кожа, изготовленная из кожи крупных хищных рыб. Пользуется большим спросом из-за своей редкости.</Leather_Waterproof.description>
+  <!--waterproof leather-->
+  <Leather_Waterproof.stuffProps.stuffAdjective>водостойкой кожи</Leather_Waterproof.stuffProps.stuffAdjective>
+  <!--upholstery leather, oxblood (C)-->
+  <Leather_UpholsteryBrown.label>обивочная кожа, кровавый (C)</Leather_UpholsteryBrown.label>
+  <!--TIER 2 - Medieval\n>>> Optimal	Hospitals, Furniture\n>> Suitable	Economy, Durability\nX Inadvisable 	Summer, Armor\n\nCorrected-grain leather that is finished and embossed. It's attractive, sturdy, and somewhat comfortable, and great for furniture of all types, but makes for terrible clothing. Very easy to clean.-->
+  <Leather_UpholsteryBrown.description>Уровень 2 - Средневековый\n&gt;&gt;&gt; Оптимально для 	Больница, Мебель\n&gt;&gt; Пригодно для	Экономность, Долговечный\nX Нежелательно для 	Лето, Броня\n\nКожа с исправленной зернистостью, обработанная и тисненая. Она привлекательна, прочна и комфортна, отлично подходит для мебели любого типа, но из нее получается ужасная одежда. Очень легко чистится.</Leather_UpholsteryBrown.description>
+  <!--upholstery leather-->
+  <Leather_UpholsteryBrown.stuffProps.stuffAdjective>обивочной кожи</Leather_UpholsteryBrown.stuffProps.stuffAdjective>
+  <!--embossed leather, red (C)-->
+  <Leather_FinishedRed.label>тисненая кожа, красный (C)</Leather_FinishedRed.label>
+  <!--TIER 2 - Medieval\n>>> Optimal	Production\n>> Suitable	Winter\nX Inadvisable 	Bedding\n\nTop-grain leather is the upper, quality part of the hide after being split. Surface imperfections are sanded off to provide more useable material and less waste. It's embossed and dyed to make it more authentic.-->
+  <Leather_FinishedRed.description>Уровень 2 - Средневековый\n&gt;&gt;&gt; Оптимально для 	Продуктивность\n&gt;&gt; Пригодно для	Зима\nX Нежелательно для 	Постельное белье\n\nШлифованная кожа - это верхняя, качественная часть шкуры после расслоения. Поверхностные дефекты сошлифовываются, чтобы получить больше пригодного материала и меньше отходов. Для придания ей большей натуральности на нее наносят тиснение и окрашивают.</Leather_FinishedRed.description>
+  <!--embossed leather-->
+  <Leather_FinishedRed.stuffProps.stuffAdjective>тисненой кожи</Leather_FinishedRed.stuffProps.stuffAdjective>
+  <!--patent leather (C)-->
+  <Leather_FinishedBlack.label>лакированная кожа(C)</Leather_FinishedBlack.label>
+  <!--Top-grain leather is the upper, quality part of the hide after being split. Surface imperfections are sanded off to provide more useable material and less waste. This kind has an sleak, oily finish.-->
+  <Leather_FinishedBlack.description>Шлифованная кожа - это верхняя, качественная часть шкуры после расслоения. Поверхностные дефекты сошлифовываются, чтобы получить больше пригодного материала и меньше отходов. Этот вид имеет гладкую, маслянистую поверхность.</Leather_FinishedBlack.description>
+  <!--embossed leather-->
+  <Leather_FinishedBlack.stuffProps.stuffAdjective>лакированной кожи</Leather_FinishedBlack.stuffProps.stuffAdjective>
+  <!--nubuck, yellow (C)-->
+  <Leather_NubuckYellow.label>нубук, желтый (C)</Leather_NubuckYellow.label>
+  <!--TIER 2 - Medieval\n>>> Optimal	Bedding\n>> Suitable	Summer\nX Inadvisable 	Armor\n\nNubuck is a top-grain leather where the surface grain is sanded off. Unlike other corrected-grain leathers, nubuck is left with a smooth, sanded surface, though it may be dyed. The surface is similar to suede, though smoother, stronger, and indesputibly of higher quality. Because the surface is not embossed or coated, the leather breathes exceptionably well.-->
+  <Leather_NubuckYellow.description>Уровень 2 - Средневековый\n&gt;&gt;&gt; Оптимально для 	Постельное белье\n&gt;&gt; Пригодно для	Лето\nX Нежелательно для 	Броня\n\nНубук - это кожа с отшлифованной поверхностью. В отличие от других видов шлифованной кожи, нубук имеет гладкую поверхность, хотя может быть окрашен. Поверхность похожа на замшу, но более гладкая, прочная и, несомненно, более качественная. Поскольку на поверхность не нанесено тиснение или покрытие, эта кожа исключительно хорошо пропускает воздух.</Leather_NubuckYellow.description>
+  <!--nubuck-->  
+  <Leather_NubuckYellow.stuffProps.stuffAdjective>нубука</Leather_NubuckYellow.stuffProps.stuffAdjective>
+  <!--upholstery leather, gray (C)-->
+  <Leather_UpholsteryGray.label>обивочная кожа, серый (C)</Leather_UpholsteryGray.label>
+  <!--TIER 2 - Medieval\n>>> Optimal	Hospitals, Furniture\n>> Suitable	Economy, Durability\nX Inadvisable 	Summer, Armor\n\nCorrected-grain leather that is finished and embossed. It's attractive, sturdy, and somewhat comfortable, and great for furniture of all types, but makes for terrible clothing. Very easy to clean.-->
+  <Leather_UpholsteryGray.description>Уровень 2 - Средневековый\n&gt;&gt;&gt; Оптимально для 	Больница, Мебель\n&gt;&gt; Пригодно для	Экономность, Прочность\nX Нежелательно для 	Лето, Броня\n\nКожа с исправленной зернистостью, обработанная и тисненая. Она привлекательна, прочна и комфортна, отлично подходит для мебели любого типа, но из нее получается ужасная одежда. Очень легко чистится.</Leather_UpholsteryGray.description>
+  <!--upholstery leather-->
+  <Leather_UpholsteryGray.stuffProps.stuffAdjective>обивочной кожи</Leather_UpholsteryGray.stuffProps.stuffAdjective>
+  <!--upholstery leather, bordeaux (C)-->
+  <Leather_UpholsteryBordeaux.label>обивочная кожа, бордо (C)</Leather_UpholsteryBordeaux.label>
+  <!--TIER 2 - Medieval\n>>> Optimal	Hospitals, Furniture\n>> Suitable	Economy, Durability\nX Inadvisable 	Summer, Armor\n\nCorrected-grain leather that is finished and embossed. It's attractive, sturdy, and somewhat comfortable, and great for furniture of all types, but makes for terrible clothing. Very easy to clean.-->
+  <Leather_UpholsteryBordeaux.description>Уровень 2 - Средневековый\n&gt;&gt;&gt; Оптимально для 	Больница, Мебель\n&gt;&gt; Пригодно для	Экономность, Прочность\nX Нежелательно для 	Лето, Броня\n\nКожа с исправленной зернистостью, обработанная и тисненая. Она привлекательна, прочна и комфортна, отлично подходит для мебели любого типа, но из нее получается ужасная одежда. Очень легко чистится.</Leather_UpholsteryBordeaux.description>
+  <!--upholstery leather-->
+  <Leather_UpholsteryBordeaux.stuffProps.stuffAdjective>обивочной кожи</Leather_UpholsteryBordeaux.stuffProps.stuffAdjective>
+  <!--unpolished leather (C-)-->
+  <Leather_CorrectedGrain.label>нешлифованная кожа (C-)</Leather_CorrectedGrain.label>
+  <!--TIER 2 - Medieval\n>>> Optimal	Fast production\n>> Suitable	Economy, Summer\nX Inadvisable 	Durability, Beauty\n\nThis is unfinished leather, fresh after being split. It is not embossed or polished, so it still breathes well, but it's ugly and unprotected.-->
+  <Leather_CorrectedGrain.description>Уровень 2 - Средневековый\n&gt;&gt;&gt; Оптимально для 	Быстрое производство\n&gt;&gt; Пригодно для	Экономность, Лето\nX Нежелательно для 	Прочность, Привлекательность\n\nЭто нешлифованная кожа, только что расслоенная. Она не тиснена и не полирована, поэтому хорошо пропускает воздух, но она некрасивая и незащищенная.</Leather_CorrectedGrain.description>
+  <!--unpolished leather-->
+  <Leather_CorrectedGrain.stuffProps.stuffAdjective>нешлифованной кожи</Leather_CorrectedGrain.stuffProps.stuffAdjective>
+  <!--leather strips-->
+  <Leather_Scraps.label>лоскуты кожи</Leather_Scraps.label>
+  <!--Shredded pieces of leather which can be used to make bonded leather or as a component in certain recipes.-->
+  <Leather_Scraps.description>Измельченные куски кожи, которые можно использовать для изготовления клееной лоскутной кожи или в качестве компонента в некоторых рецептах.</Leather_Scraps.description>
+  <!--tree bark-->
+  <TreeBark.label>кора дерева</TreeBark.label>
+  <!--The tannins in this bark can be used for tanning hides into leather.-->
+  <TreeBark.description>Дубильные вещества, содержащиеся в коре, могут использоваться в дублении шкур для получения кожи.</TreeBark.description>
+</LanguageData>

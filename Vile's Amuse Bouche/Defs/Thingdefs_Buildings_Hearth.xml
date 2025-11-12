@@ -166,10 +166,6 @@ Efficiency: 25%</description>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>  
 			<drawSize>(3,3)</drawSize>
-			<shadowData>
-				<volume>(0,0,0)</volume>
-				<offset>(0,0,0)</offset>
-			</shadowData>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -188,7 +184,7 @@ Efficiency: 25%</description>
 		</costList>
 		<pathCost>0</pathCost>
 		<fillPercent>0.1</fillPercent>
-		<castEdgeShadows>true</castEdgeShadows>
+		<castEdgeShadows>false</castEdgeShadows>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToBuild>2000</WorkToBuild>

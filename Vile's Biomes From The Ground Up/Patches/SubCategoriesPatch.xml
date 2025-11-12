@@ -168,6 +168,8 @@
 				<li>Terraform_MakeDesertPavement</li>
 				<li>Terraform_FillStone</li>
 				<li>Terraform_FillQuarry</li>
+				<li>Terraform_TilledHtoV</li>
+				<li>Terraform_TilledVtoH</li>
 			</defNames>
 		</value>
 	</Operation>

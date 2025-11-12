@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--security glass-->
+  <AdvancedGlassworks.label>защитное стекло</AdvancedGlassworks.label>
+  <!--Construct windows made of crytalized plasteel, equally as strong as the walls themselves.-->
+  <AdvancedGlassworks.description>Постройте окна из критализированной пластали, такие же прочные, как и сами стены.</AdvancedGlassworks.description>
+  <Glassworks.label>стекольные изделия</Glassworks.label>
+  <Glassworks.description>Стекло позволит строить окна, которые блокируют ветер, но пропускают свет.</Glassworks.description>
+</LanguageData>

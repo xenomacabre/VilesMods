@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--extract bark for tannins-->
+  <ExtractTreeBark_Hand.label>получить кору для дубления</ExtractTreeBark_Hand.label>
+  <!--Remove tree bark to be used for tannins. The rest is kindling, though much is wasted.-->
+  <ExtractTreeBark_Hand.description>Снимите кору деревьев, чтобы использовать ее для получения дубильных веществ. Все остальное - хворост, хотя многое пропадает зря.</ExtractTreeBark_Hand.description>
+  <!--Removing tree bark.-->
+  <ExtractTreeBark_Hand.jobString>Удаляет кору с деревьев.</ExtractTreeBark_Hand.jobString>
+
+</LanguageData>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- THERMATAN LEATHER --> 
+  <Leather_KirinHide.label>кожа терматана (A+)</Leather_KirinHide.label>
+  <Leather_KirinHide.description>Уровень 3 - Индустриальный
+>>> Оптимально для 	Зима
+>> Пригодно для	Постельное белье
+X Нежелательно для 	Лето
+
+Если пропитать толстую кожу, полученную от киринов и подобных существ, драконьими глицеридами, она становится невероятно теплоизолированной и по своим качествам превосходит все остальные стандартные виды кожи. Однако она не очень хорошо подходит для жаркого климата и может быть использована для изготовления постельных принадлежностей.</Leather_KirinHide.description>
+  <Leather_KirinHide.stuffProps.stuffAdjective>кожи терматана</Leather_KirinHide.stuffProps.stuffAdjective>
+  <!-- VENTAN LEATHER -->   
+  <Leather_FireDragonskin.label>кожа вентана (A+)</Leather_FireDragonskin.label>
+  <Leather_FireDragonskin.description>Уровень 3 - Индустриальный
+>>> Оптимально для 	Лето
+>> Пригодно для	Броня
+X Нежелательно для 	Зима
+
+Если пропитать дышащую кожу (например, с феникса) глицеридами драконов, она становится очень теплоизолированной и по своим качествам превосходит все остальные стандартные виды кожи. Она хорошо себя чувствует как в холодном, так и в очень жарком климате.</Leather_FireDragonskin.description>
+  <Leather_FireDragonskin.stuffProps.stuffAdjective>кожи вентана</Leather_FireDragonskin.stuffProps.stuffAdjective>
+  <!-- ARMATAN LEATHER -->   
+  <Leather_Thrumbo.label>мех арматана(A+)</Leather_Thrumbo.label>
+  <Leather_Thrumbo.description>Уровень 3 - Индустриальный
+>>> Оптимально для 	Броня
+>> Пригодно для	Прочность
+X Нежелательно для 	Лето
+
+Благодаря усилению тяжёлого меха защитными волокнами баргеста или трумбо, защитные свойства меха становятся непревзойдёнными и превосходят все другие стандартные виды кожи.</Leather_Thrumbo.description>
+  <Leather_Thrumbo.stuffProps.stuffAdjective>меха арматана</Leather_Thrumbo.stuffProps.stuffAdjective>
+  <!-- HYGIEIATAN LEATHER -->   
+  <Leather_FeatheredRaptorLeather.label>кожа люкситана(A+)</Leather_FeatheredRaptorLeather.label>
+  <Leather_FeatheredRaptorLeather.description>Уровень 3 - Индустриальный
+>>> Оптимально для 	Больница
+>> Пригодно для	Всесезонность, Прочность
+X Нежелательно для 	Продуктивность
+
+Благодаря обработке стерильной кожи когтевым эфиром, добываемым из бехира и раптора, кожа лучше отталкивает бактерии и обладает другими качествами, превосходящими все остальные стандартные виды кожи.</Leather_FeatheredRaptorLeather.description>
+  <Leather_FeatheredRaptorLeather.stuffProps.stuffAdjective>кожи люкситана</Leather_FeatheredRaptorLeather.stuffProps.stuffAdjective>
+</LanguageData>

@@ -161,7 +161,7 @@
     <value>
       <li Class="SeasonalWeather.SeasonalWeatherExtension">
         <spring>
-			<Clear>15</Clear>
+			<Clear>13</Clear>
 			<Fog>1</Fog>
 			<Rain>4</Rain>
 			<DryThunderstorm>2</DryThunderstorm>
@@ -177,11 +177,11 @@
           	<Cloudy>2</Cloudy>
         </spring>
         <summer>
-			<Clear>15</Clear>
+			<Clear>18</Clear>
 			<Fog>1</Fog>
 			<Rain>0.5</Rain>
-			<DryThunderstorm>2</DryThunderstorm>
-			<RainyThunderstorm>5</RainyThunderstorm>
+			<DryThunderstorm>4</DryThunderstorm>
+			<RainyThunderstorm>2</RainyThunderstorm>
 			<FoggyRain>1</FoggyRain>
 			<SnowGentle>2</SnowGentle>
 			<SnowHard>2</SnowHard>
