@@ -172,7 +172,7 @@
 			<Rainstorm>2</Rainstorm>
 			<Blizzard>1</Blizzard>
 			<Whiteout>1</Whiteout>
-			<Hurricane>1</Hurricane>
+			<Hurricane>0.5</Hurricane>
 			<Windy>8</Windy>
           	<Cloudy>2</Cloudy>
         </spring>
@@ -188,7 +188,7 @@
 			<Rainstorm>5</Rainstorm>
 			<Blizzard>1</Blizzard>
 			<Whiteout>1</Whiteout>
-			<Hurricane>2</Hurricane>
+			<Hurricane>1</Hurricane>
 			<Windy>4</Windy>
 			<Cloudy>2</Cloudy>
         </summer>
@@ -204,7 +204,7 @@
 			<Rainstorm>2</Rainstorm>
 			<Blizzard>1</Blizzard>
 			<Whiteout>2</Whiteout>
-			<Hurricane>2</Hurricane>
+			<Hurricane>0.5</Hurricane>
 			<Windy>7</Windy>
 			<Cloudy>4</Cloudy>
         </fall>

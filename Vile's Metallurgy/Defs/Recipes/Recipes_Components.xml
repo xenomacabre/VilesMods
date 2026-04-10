@@ -209,31 +209,37 @@
 			<li>
 				<filter>
 					<categories>
-						<li>SLDBar</li>
-						<li>USLDBar</li>
+						<li>CastBar</li>
 					</categories>
 				</filter>
 				<count>30</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SandResource</li>
+						<li>SoftClay</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<categories>
-				<li>SLDBar</li>
-				<li>USLDBar</li>
+				<li>CastBar</li>
 			</categories>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
+			<categories>
+				<li>CastBar</li>
+			</categories>
 			<thingDefs>
-				<li>Bronze</li>	
-				<li>Plasteel</li>			
+				<li>SandResource</li>
+				<li>SoftClay</li>
 			</thingDefs>
-			<disallowedThingDefs>
-				<li>FerrosiliconAlloy</li>
-				<li>CupronickelAlloy</li>
-			</disallowedThingDefs>
 		</defaultIngredientFilter>
 		<products>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentIndustrial>30</ComponentIndustrial>
 		</products>
 		<skillRequirements>
 			<Crafting>3</Crafting>

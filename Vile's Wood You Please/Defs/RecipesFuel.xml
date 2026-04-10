@@ -8,7 +8,7 @@
 		<label>extract pitch (x15)</label>
 		<description>Extract flammable, sticky pitch from resinous wood.</description>
 		<jobString>Extracting pitch.</jobString>
-		<workAmount>700</workAmount>
+		<workAmount>400</workAmount>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_MakeBow</soundWorking>
@@ -314,6 +314,37 @@
 	
 
 	<!-- NEW KINDLING -->
+	<RecipeDef>
+		<defName>MakeKindlingFromLogs</defName>
+		<label>Make Wicker from Logs</label>
+		<description>Making kindling from logs.</description>
+		<workAmount>300</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>MakeWoodPlanks_Hand</effectWorking>
+		<soundWorking>Recipe_MakeWoodPlanks_Hand</soundWorking>
+		<jobString>Splitting logs into kindling.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>FirewoodGreen</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>FirewoodGreen</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Kindling>20</Kindling>
+		</products>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.25</workSkillLearnFactor>
+	</RecipeDef>
+	
 	<RecipeDef>
 		<defName>MakeKindlingFromGreenFirewood_Hand</defName>
 		<label>Make kindling from green firewood (x20)</label>

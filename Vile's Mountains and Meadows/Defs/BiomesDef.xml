@@ -921,17 +921,17 @@
 		
 				<Plant_Moss>2</Plant_Moss>
 				<Plant_PeatMoss>0.3</Plant_PeatMoss>
-				<Plant_Blueberry>0.25</Plant_Blueberry>
-				<Plant_Juniper>0.8</Plant_Juniper>
+				<Plant_Blueberry>0.15</Plant_Blueberry>
+				<Plant_Juniper>0.2</Plant_Juniper>
 			
-				<Plant_Grass>4.0</Plant_Grass>
+				<Plant_Sedge>4.0</Plant_Sedge>
 				<Plant_Potato>0.07</Plant_Potato>
 				<Plant_Flax>0.1</Plant_Flax>
-				<Plant_Berry>0.15</Plant_Berry>
-				<Plant_TreeApple>0.13</Plant_TreeApple>
-				<Plant_Bush>1.0</Plant_Bush>
+				<Plant_Berry>0.1</Plant_Berry>
+				<Plant_TreeApple>0.025</Plant_TreeApple>
+				<Plant_Bush>0.7</Plant_Bush>
 				<Plant_Rhododendron>0.1</Plant_Rhododendron>
-				<Plant_HealrootWild>0.1</Plant_HealrootWild>
+				<Plant_Healroot>0.07</Plant_Healroot>
 				<Plant_Brambles>0.4</Plant_Brambles>
 				<Plant_Daylily>0.3</Plant_Daylily>
 				<Plant_Astragalus>0.4</Plant_Astragalus>
@@ -941,14 +941,14 @@
 				<Plant_Mushroom_Red>0.1</Plant_Mushroom_Red>
 				<Plant_Mushroom>0.1</Plant_Mushroom>
 				<Plant_WhiteRose>0.13</Plant_WhiteRose>
-				<Plant_TreeBirch>0.8</Plant_TreeBirch>
-				<Plant_TreeOak>0.5</Plant_TreeOak>
-				<Plant_TreeMaple>0.7</Plant_TreeMaple>
-				<Plant_TreePine>1.0</Plant_TreePine>
-				<Plant_TreeSpruce>0.5</Plant_TreeSpruce>
-				<Plant_TreeWillow>0.1</Plant_TreeWillow>
-				<Plant_Fern>0.1</Plant_Fern>
-				<Plant_SwordFern>0.5</Plant_SwordFern>
+				<Plant_TreeBirch>0.6</Plant_TreeBirch>
+				<Plant_TreeOak>0.4</Plant_TreeOak>
+				<Plant_TreeMaple>0.8</Plant_TreeMaple>
+				<Plant_TreePine>0.8</Plant_TreePine>
+				<Plant_TreeSpruce>0.8</Plant_TreeSpruce>
+				<Plant_TreeWillow>0.15</Plant_TreeWillow>
+				<Plant_Fern>0.25</Plant_Fern>
+				<Plant_SwordFern>0.7</Plant_SwordFern>
 			<Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">2</Plant_GrayGrass>
 			<Plant_Ripthorn MayRequire="Ludeon.RimWorld.Biotech">0.8</Plant_Ripthorn>
 			<Plant_Witchwood MayRequire="Ludeon.RimWorld.Biotech">0.6</Plant_Witchwood>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<ModMetaData>
+<name>Vile's Sow Farm Sow Good</name>
+<author>VileHeathen</author>
+<supportedVersions>
+    <li>1.5</li>
+</supportedVersions>
+<packageId>vitech.farmingoverhaul</packageId>
+<modDependencies>
+	<li>
+		<packageId>xenomacabre.HSKBiomes</packageId>
+        <displayName>Vile's Biomes: From The Ground Up</displayName>
+        <downloadUrl>https://github.com/xenomacabre/VilesMods</downloadUrl>
+	</li>
+	<li>
+		<packageId>ViTech.HCSKWood</packageId>
+        <displayName>Vile's Wood You Please</displayName>
+        <downloadUrl>https://github.com/xenomacabre/VilesMods</downloadUrl>
+	</li>
+</modDependencies>
+<loadBefore>
+</loadBefore>
+<loadAfter>
+	<li>xenomacabre.HSKBiomes</li>
+	<li>ViTech.HCSKWood</li>
+	
+
+</loadAfter>
+
+<description>lorem ipsum</description> 
+</ModMetaData>
+
+
+
+
+
+
+	

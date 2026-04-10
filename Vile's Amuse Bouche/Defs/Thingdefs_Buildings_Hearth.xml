@@ -197,7 +197,7 @@ Efficiency: 25%</description>
 		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<resourcesFractionWhenDeconstructed>0.75</resourcesFractionWhenDeconstructed>
-		<altitudeLayer>Projectile</altitudeLayer>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<interactionCellOffset>(0,0,0)</interactionCellOffset>
 		<comps>
 			<li>

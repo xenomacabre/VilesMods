@@ -14,7 +14,6 @@
 			or defName="MeleeWeapon_Knife"
 			or defName="TFJ_Tool_Woodcutting_Handaxe"
 			or defName="TFJ_Tool_Mining_Pickaxe"
-			or defName="TFJ_Tool_Building_Hammer"
 			or defName="TFJ_Tool_Sickle"
 			or defName="TFJ_Tool_Hoe"
 			or defName="TFJ_Tool_Multitool"
@@ -24,6 +23,14 @@
    				 <ToolEffectivenessFactor>1.5</ToolEffectivenessFactor>
 			</value>
 		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="TFJ_Tool_Building_Hammer"]/statBases/ToolEffectivenessFactor</xpath>
+			<value>
+   				 <ToolEffectivenessFactor>1.2</ToolEffectivenessFactor>
+			</value>
+		</li>
+
+
 		<li Class="PatchOperationReplace">
 			<xpath>Defs/ThingDef[defName="TFJ_Tool_Broom"]/statBases/ToolEffectivenessFactor</xpath>
 			<value>

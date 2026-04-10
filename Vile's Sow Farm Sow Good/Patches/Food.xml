@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+
+
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Raworange"]/description</xpath>
+			<value>
+				<description>Oranges are a sweet, citric fruit that grows on Orange Trees. A tough outer rind protects the soft pulpy flesh inside. When eaten raw, it provides more joy than other fruits despite being less nutrient-dense.</description>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Raworange"]/statBases/Nutrition</xpath>
+			<value>
+				<Nutrition>0.1</Nutrition>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Raworange"]/ingestible/joy</xpath>
+			<value>
+				<joy>0.9</joy>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="RawCoconut"]/description</xpath>
+			<value>
+				<description>Coconuts are fruits of the palm tree, which are mistakenly called nuts. They are nutrient-dense but fairly plain-tasting.</description>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="RawCoconut"]/ingestible/joy</xpath>
+			<value>
+				<joy>0.2</joy>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Rawapple"]/comps/li[@Class="CompProperties_Rottable"]/daysToRotStart</xpath>
+			<value>
+				<daysToRotStart>10</daysToRotStart>
+			</value>
+		</li>
+		
+		
+		
+		
+		
+	
+		
+<!-- also fuck ice -->
+
+
+		</operations>
+		</match>
+    </Operation>
+</Patch>

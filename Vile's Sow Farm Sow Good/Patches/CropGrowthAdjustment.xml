@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+		
+		<!-- PLANT BASE  -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[@Name="SK_PlantBaseNonEdible"]/plant/sowWork</xpath>
+			<value>
+   				 <sowWork>350</sowWork>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[@Name="SK_PlantBaseNonEdible"]/plant/harvestWork</xpath>
+			<value>
+   				 <harvestWork>400</harvestWork>
+			</value>
+		</li>
+
+
+<!-- Algae test. Might Delete Later.-->
+	<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="PlantAlgae"]/plant</xpath>
+			<value>
+   				<wildOrder>1</wildOrder>
+			</value>
+		</li>		
+		
+
+<!-- SINGLE HARVEST ANNUALS  -->
+		<!-- Potato -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Potato"]/plant/growDays</xpath>
+			<value>
+   				<growDays>8</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Potato"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>17</harvestYield>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Potato"]/plant/fertilitySensitivity</xpath>
+			<value>
+   				 <fertilitySensitivity>0.3</fertilitySensitivity>
+			</value>
+		</li>
+		
+		<!-- Carrot -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="PlantCarrot"]/plant/growDays</xpath>
+			<value>
+   				<growDays>7</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="PlantCarrot"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>13</harvestYield> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="PlantCarrot"]/plant/fertilitySensitivity</xpath>
+			<value>
+   				 <fertilitySensitivity>1.0</fertilitySensitivity>
+			</value>
+		</li>
+		
+		<!-- Onion -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Onion"]/plant/growDays</xpath>
+			<value>
+   				<growDays>13</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Onion"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>12</harvestYield> 
+			</value>
+		</li>
+		
+		<!-- Ginger Wort -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Hypericum"]/plant/growDays</xpath>
+			<value>
+   				<growDays>13</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Hypericum"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>9</harvestYield> 
+			</value>
+		</li>
+		
+		<!-- Tea -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Tea"]/plant/growDays</xpath>
+			<value>
+   				<growDays>11</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Tea"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>13</harvestYield> 
+			</value>
+		</li>
+		
+		<!-- Healroot -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Healroot"]/plant/growDays</xpath>
+			<value>
+   				<growDays>7</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Healroot"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>8</harvestYield> 
+			</value>
+		</li>
+		
+		<!-- Neutro -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_NeutroFlower"]/plant/growDays</xpath>
+			<value>
+   				<growDays>10</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_NeutroFlower"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>16</harvestYield> 
+			</value>
+		</li>
+		
+		<!-- Neutro -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Agave"]/plant/growDays</xpath>
+			<value>
+   				<growDays>20</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Agave"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>12</harvestYield> 
+			</value>
+		</li>
+		
+<!-- CONTINUOUS HARVEST ANNUALS -->
+		
+		<!-- Bean -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plantbean"]/plant/growDays</xpath>
+			<value>
+   				<growDays>11</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plantbean"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>12</harvestYield>
+			</value>
+		</li>
+
+		
+		<!-- Tomato -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="PlantTomato"]/plant/growDays</xpath>
+			<value>
+   				<growDays>14</growDays> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="PlantTomato"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>9</harvestYield> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="PlantTomato"]/plant/fertilitySensitivity</xpath>
+			<value>
+   				 <fertilitySensitivity>1.4</fertilitySensitivity>
+			</value>
+		</li>
+
+		<!-- Champignon		-->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Mushroom"]/plant/growDays</xpath>
+			<value>
+   				<growDays>6</growDays> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Mushroom"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>3</harvestYield> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Mushroom"]/plant/fertilitySensitivity</xpath>
+			<value>
+   				 <fertilitySensitivity>0.5</fertilitySensitivity>
+			</value>
+		</li>
+
+		
+		<!-- Devilstrand -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Devilstrand"]/plant/growDays</xpath>
+			<value>
+   				<growDays>18</growDays> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Devilstrand"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>8</harvestYield> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Devilstrand"]/plant/fertilitySensitivity</xpath>
+			<value>
+   				 <fertilitySensitivity>0.75</fertilitySensitivity>
+			</value>
+		</li>
+		
+		<!-- Pepper -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="PepperPlant"]/plant/growDays</xpath>
+			<value>
+   				<growDays>8</growDays> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="PepperPlant"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>5</harvestYield> 
+			</value>
+		</li>
+		
+		<!-- Watermelon -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Watermelon"]/plant/growDays</xpath>
+			<value>
+   				<growDays>12</growDays> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Watermelon"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>3</harvestYield> 
+			</value>
+		</li>
+		
+		<!-- Psychoid	-->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Psychoid"]/plant/growDays</xpath>
+			<value>
+   				<growDays>12</growDays> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Psychoid"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>6</harvestYield>
+			</value>
+		</li>
+		
+<!-- FIELD CROPS -->
+		
+		<!-- Wheat	-->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plantwheat"]/plant/growDays</xpath>
+			<value>
+   				<growDays>10</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plantwheat"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>10</harvestYield>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plantwheat"]/plant/fertilitySensitivity</xpath>
+			<value>
+   				 <fertilitySensitivity>0.9</fertilitySensitivity>
+			</value>
+		</li>
+		
+		
+		<!-- Corn	-->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Corn"]/plant/growDays</xpath>
+			<value>
+   				<growDays>15</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Corn"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>14</harvestYield>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Corn"]/plant/fertilitySensitivity</xpath>
+			<value>
+   				 <fertilitySensitivity>1.4</fertilitySensitivity>
+			</value>
+		</li>
+		
+		
+		<!-- Rice	-->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Rice"]/plant/growDays</xpath>
+			<value>
+   				<growDays>16</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Rice"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>18</harvestYield>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Rice"]/plant/fertilitySensitivity</xpath>
+			<value>
+   				 <fertilitySensitivity>1.15</fertilitySensitivity>
+			</value>
+		</li>
+		
+		
+		<!-- Haygrass / Alfalfa	-->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Haygrass"]/plant/growDays</xpath>
+			<value>
+   				<growDays>8</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Haygrass"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>9</harvestYield>
+			</value>
+		</li>
+		
+		<!-- Tobacco	-->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Tobacco"]/plant/growDays</xpath>
+			<value>
+   				<growDays>8</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Tobacco"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>4</harvestYield>
+			</value>
+		</li>
+						
+		<!-- Smokeleaf / Hemp	-->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Smokeleaf"]/plant/growDays</xpath>
+			<value>
+   				<growDays>8</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Smokeleaf"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>3</harvestYield>
+			</value>
+		</li>
+						
+		<!-- Flax	-->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Flax"]/plant/growDays</xpath>
+			<value>
+   				<growDays>12</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Flax"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>5</harvestYield>
+			</value>
+		</li>
+		
+		<!-- Cotton	-->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Cotton"]/plant/growDays</xpath>
+			<value>
+   				<growDays>15</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Cotton"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>8</harvestYield>
+			</value>
+		</li>		
+
+		<!-- Sugarcane	-->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Sugarcane"]/plant/growDays</xpath>
+			<value>
+   				<growDays>10</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Sugarcane"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>6</harvestYield>
+			</value>
+		</li>		
+		
+<!-- CONTINUOUS HARVEST PERENNIALS -->		
+		
+		<!-- Cranberry -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Cranberry"]/plant/growDays</xpath>
+			<value>
+   				<growDays>14</growDays> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Cranberry"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>18</harvestYield>
+			</value>
+		</li>
+		
+		<!-- Blueberry	-->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Blueberry"]/plant/growDays</xpath>
+			<value>
+   				<growDays>16</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Blueberry"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>25</harvestYield> 
+			</value>
+		</li>
+		
+		<!-- Strawberry / Strazberry	-->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Strawberry"]/plant/growDays</xpath>
+			<value>
+   				<growDays>12</growDays> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Strawberry"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>9</harvestYield> 
+			</value>
+		</li>
+		
+		<!-- Grape	-->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeGrape"]/plant/growDays</xpath>
+			<value>
+   				<growDays>18</growDays> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeGrape"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>17</harvestYield> 
+			</value>
+		</li>
+		
+		<!-- Hops	-->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Hops"]/plant/growDays</xpath>
+			<value>
+   				<growDays>14</growDays> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Hops"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>17</harvestYield> 
+			</value>
+		</li>
+		
+		<!-- Cinnamon Rose	-->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_WildRose"]/plant/growDays</xpath>
+			<value>
+   				<growDays>12</growDays> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_WildRose"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>9</harvestYield>
+			</value>
+		</li>
+		
+		<!-- Mint -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Mint"]/plant/growDays</xpath>
+			<value>
+   				<growDays>14</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Mint"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>14</harvestYield>
+			</value>
+		</li>
+	
+		<!-- Prickly Pear -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_PricklyPear"]/plant/growDays</xpath>
+			<value>
+   				<growDays>16</growDays> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_PricklyPear"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>8</harvestYield> 
+			</value>
+		</li>
+		
+		<!-- Aloe -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_HealrootWild"]/plant/growDays</xpath>
+			<value>
+   				<growDays>17</growDays> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_HealrootWild"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>12</harvestYield> 
+			</value>
+		</li>
+		
+		<!-- Banana 
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeBanana"]/plant/growDays</xpath>
+			<value>
+   				<growDays>15</growDays> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeBanana"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>16</harvestYield> 
+			</value>
+		</li>
+		-->
+<!-- SLEEPING PERENNIALS -->	
+			
+		<!-- Orange -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeOrange"]/plant/growDays</xpath>
+			<value>
+   				<growDays>40</growDays> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeOrange"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>68</harvestYield> 
+			</value>
+		</li>
+		
+		<!-- Apple -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeApple"]/plant/growDays</xpath>
+			<value>
+   				<growDays>32</growDays> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeApple"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>36</harvestYield> 
+			</value>
+		</li>
+		
+		<!-- Peach -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreePeach"]/plant/growDays</xpath>
+			<value>
+   				<growDays>35</growDays> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreePeach"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>33</harvestYield> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreePeach"]/plant/fertilitySensitivity</xpath>
+			<value>
+   				 <fertilitySensitivity>1.1</fertilitySensitivity>
+			</value>
+		</li>
+		
+		<!-- Coconut -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreePalm"]/plant/growDays</xpath>
+			<value>
+   				<growDays>44</growDays> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreePalm"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>40</harvestYield> 
+			</value>
+		</li>
+
+		<!-- Hevea -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeHevea"]/plant/growDays</xpath>
+			<value>
+   				<growDays>32</growDays> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeHevea"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>10</harvestYield> 
+			</value>
+		</li>
+		
+		<!-- Cocoa -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeCocoa"]/plant/growDays</xpath>
+			<value>
+   				<growDays>25</growDays> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeCocoa"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>29</harvestYield> 
+			</value>
+		</li>
+			
+		<!-- Coffee -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Coffee"]/plant/growDays</xpath>
+			<value>
+   				<growDays>22</growDays> 
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Coffee"]/plant/harvestYield</xpath>
+			<value>
+   				 <harvestYield>13</harvestYield> 
+			</value>
+		</li>
+		
+
+		
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

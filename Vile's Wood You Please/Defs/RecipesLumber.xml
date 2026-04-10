@@ -31,10 +31,10 @@
 	
 	<RecipeDef ParentName="LumberRecipeBase_Hand">
 		<defName>MakeWoodPlanks_Hand</defName>
-		<label>make plywood from logs</label>
+		<label>make plywood from logs (x20)</label>
 		<jobString>Making plywood.</jobString>
-		<description>Cut and laminate different types of timber to make plywood. It's a more efficient use of the log, but it's quite ugly when used for construction.</description>
-		<workAmount>1000</workAmount>
+		<description>Cut and laminate different types of timber to make plywood. It's a more efficient use of the log, but takes a lot of work to produce.</description>
+		<workAmount>1600</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -60,10 +60,10 @@
 	</RecipeDef>
 	<RecipeDef ParentName="LumberRecipeBase_Hand">
 		<defName>SawPlanks_Plywood_Planks</defName>
-		<label>make plywood from planks</label>
+		<label>make plywood from planks (x15)</label>
 		<jobString>Making Plywood.</jobString>
-		<description>Cut and laminate different types of lumber to make plywood. It's a more efficient use of the plank, but it's quite ugly when used for construction.</description>
-		<workAmount>350</workAmount>
+		<description>Cut and laminate different types of lumber to make plywood. Even chipboard can be used.</description>
+		<workAmount>500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -72,6 +72,9 @@
 						<li>HardwoodLumber</li>
 						<li>UltrahardwoodLumber</li>
 					</categories>
+					<thingDefs>
+						<li>ChipBoard</li>
+					</thingDefs>
 				</filter>
 				<count>15</count>
 			</li>
@@ -82,18 +85,21 @@
 				<li>HardwoodLumber</li>
 				<li>UltrahardwoodLumber</li>
 			</categories>
+			<thingDefs>
+				<li>ChipBoard</li>
+			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<WoodPlank>20</WoodPlank>
+			<WoodPlank>15</WoodPlank>
 		</products>
 	</RecipeDef>
 	
 	<RecipeDef ParentName="LumberRecipeBase_Hand">
 		<defName>MakeWoodPlanks_Electric</defName>
-		<label>make plywood from logs</label>
+		<label>make plywood from logs (x40)</label>
 		<jobString>Making Plywood.</jobString>
-		<description>Cut and laminate different types of timber to make plywood. It's a more efficient use of the log, but it's quite ugly when used for construction.</description>
-		<workAmount>1000</workAmount>
+		<description>Cut and laminate different types of timber to make plywood. It's a more efficient use of the log, but takes a lot of work to produce.</description>
+		<workAmount>1600</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -119,10 +125,10 @@
 	</RecipeDef>
 	<RecipeDef ParentName="LumberRecipeBase_Hand">
 		<defName>MillPlanks_Plywood_Planks</defName>
-		<label>make plywood from planks</label>
+		<label>make plywood from planks (x30)</label>
 		<jobString>Making Plywood.</jobString>
-		<description>Cut and laminate different types of lumber to make plywood. It's a more efficient use of the plank, but it's quite ugly when used for construction.</description>
-		<workAmount>350</workAmount>
+		<description>Cut and laminate different types of lumber to make plywood. Even chipboard can be used.</description>
+		<workAmount>500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -131,6 +137,9 @@
 						<li>HardwoodLumber</li>
 						<li>UltrahardwoodLumber</li>
 					</categories>
+					<thingDefs>
+						<li>ChipBoard</li>
+					</thingDefs>
 				</filter>
 				<count>30</count>
 			</li>
@@ -141,9 +150,12 @@
 				<li>HardwoodLumber</li>
 				<li>UltrahardwoodLumber</li>
 			</categories>
+			<thingDefs>
+				<li>ChipBoard</li>
+			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<WoodPlank>40</WoodPlank>
+			<WoodPlank>30</WoodPlank>
 		</products>
 	</RecipeDef>
 	

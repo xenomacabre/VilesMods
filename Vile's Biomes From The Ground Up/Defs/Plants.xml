@@ -81,7 +81,7 @@
 	<ThingDef ParentName="TreewoodBase">
 		<defName>Plant_TreeKapok</defName>
 		<label>kapok tree</label>
-		<description>A gigantic tropical tree.</description>
+		<description>A gigantic tropical tree known for creating a canopy over rainforests. The wood is extremely low density and can only be used for construction if processed into chipboard.</description>
 		<graphicData>
 			<texPath>Things/Trees/TreeKapok/TreeKapok</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -103,7 +103,8 @@
 			</visualSizeRange>
 			<growDays>90</growDays>
 			<harvestWork>850</harvestWork>
-			<harvestYield>60</harvestYield>
+			<harvestYield>500</harvestYield>
+			<harvestedThingDef>Kindling</harvestedThingDef>
 			<sowResearchPrerequisites>
 				<li>Trees_B2</li>
 			</sowResearchPrerequisites>
@@ -162,7 +163,7 @@
 			<harvestWork>200</harvestWork>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>RawPricklyPear</harvestedThingDef>
-			<harvestYield>2</harvestYield>
+			<harvestYield>4</harvestYield>
 			<fertilityMin>0.35</fertilityMin>
 			<wildClusterWeight>55</wildClusterWeight>
 			<wildClusterRadius>4</wildClusterRadius>

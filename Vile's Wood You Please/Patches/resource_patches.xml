@@ -172,22 +172,28 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="WoodPlank"]/description</xpath>
 		<value>
-			<description>Laminated veneers of different kinds of wood. Ugly, but sturdy.</description>
+			<description>>>> Optimal	n/a
+>> Suitible	Durability, Workability
+X Inadvisable	n/a
+
+Sustainability: Available and sustainable.
+
+Laminated veneers of different kinds of wood. Ugly, but as durable as some hardwoods. Can even be made from chipboard, if you're desperate.</description>
 		</value>
     </Operation>
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="WoodPlank"]/statBases</xpath>
 		<value>
 			<statBases>
-				<MarketValue>1.1</MarketValue>
+				<MarketValue>1.25</MarketValue>
 				<Flammability>5.0</Flammability>
 				<DeteriorationRate>0</DeteriorationRate>
 				<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
-				<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
+				<StuffPower_Armor_Sharp>0.8</StuffPower_Armor_Sharp>
 				<StuffPower_Armor_Heat>0.05</StuffPower_Armor_Heat>
 				<StuffPower_Insulation_Cold>1.1</StuffPower_Insulation_Cold>
 				<StuffPower_Insulation_Heat>0.6</StuffPower_Insulation_Heat>
-				<SharpDamageMultiplier>0.25</SharpDamageMultiplier>
+				<SharpDamageMultiplier>0.4</SharpDamageMultiplier>
 				<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
 				<MaxBurningTempCelsius>500</MaxBurningTempCelsius>
 				<BurnDurationHours>0.8</BurnDurationHours>
@@ -200,17 +206,19 @@
 		<xpath>Defs/ThingDef[defName="WoodPlank"]/stuffProps/statFactors</xpath>
 		<value>
 			<statFactors>
-				<MaxHitPoints>0.75</MaxHitPoints>
+				<Comfort>0.6</Comfort>
+				<MaxHitPoints>1.0</MaxHitPoints>
 				<Flammability>1.1</Flammability>
-				<Beauty>0.6</Beauty>
-				<WorkToMake>0.9</WorkToMake>
-				<WorkToBuild>0.9</WorkToBuild>
+				<Beauty>0.7</Beauty>
+				<WorkToMake>1.0</WorkToMake>
+				<WorkToBuild>1.0</WorkToBuild>
 				<MeleeWeapon_CooldownMultiplier>1.1</MeleeWeapon_CooldownMultiplier>
 				<MoveSpeed>0.8</MoveSpeed>
-				<MarketValue>0.6</MarketValue>
-				<BedRestEffectiveness>0.9</BedRestEffectiveness>
+				<MarketValue>0.7</MarketValue>
+				<BedRestEffectiveness>1.1</BedRestEffectiveness>
+				<Cleanliness>0.6</Cleanliness>
 				<ImmunityGainSpeedFactor>0.9</ImmunityGainSpeedFactor>
-				<WorkTableWorkSpeedFactor>0.6</WorkTableWorkSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.45</WorkTableWorkSpeedFactor>
 				<DoorOpenSpeed>1.5</DoorOpenSpeed>
 				<MeleePenetrationFactor>0.3</MeleePenetrationFactor>
 				<Mass>0.5</Mass>

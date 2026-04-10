@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+		
+		<!-- Determines if a plant can be reharvested and what life stage it is set to when harvested. Higher is better. -->
+		
+		<li Class="PatchOperationRemove"> <!--REMOVAL -->
+			<xpath>Defs/ThingDef[defName="Plant_Agave"]/plant/harvestAfterGrowth</xpath>
+		</li>
+		
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Plant_TreeHevea"]/plant</xpath>
+			<value>
+   				 <harvestAfterGrowth>0.87</harvestAfterGrowth> <!-- tapped - harvested approx once per week -->
+			</value>
+		</li>
+		
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="PlantTomato"]/plant</xpath>
+			<value>
+   				 <harvestAfterGrowth>0.66</harvestAfterGrowth>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Plant_Mushroom" 
+								or defName="Plant_Devilstrand"
+								or defName="PepperPlant"
+								or defName="Plant_Watermelon"
+								or defName="Plant_Psychoid"]/plant</xpath>
+			<value>
+   				 <harvestAfterGrowth>0.6</harvestAfterGrowth>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Plantbean"
+								or defName="Plant_TreePeach"
+								or defName="Plant_TreePalm"
+								or defName="Plant_Coffee"]/plant</xpath>
+			<value>
+   				 <harvestAfterGrowth>0.50</harvestAfterGrowth>
+			</value>
+		</li>
+
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Cranberry" 
+								or defName="Plant_Blueberry"
+								or defName="Plant_Strawberry"
+								or defName="Plant_TreeGrape"
+								or defName="Plant_Hops"
+								or defName="Plant_PricklyPear"]/plant</xpath>
+			<value>
+   				 <harvestAfterGrowth>0.3</harvestAfterGrowth>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Plant_WildRose" 
+								or defName="Plant_Mint"
+								or defName="HealrootWild"
+								or defName="Plant_TreeBanana"]/plant</xpath>
+			<value>
+   				 <harvestAfterGrowth>0.1</harvestAfterGrowth>
+			</value>
+		</li>
+		
+		
+		
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

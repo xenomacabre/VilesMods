@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+		
+		<!-- Default, I believe, is 8. Multiply this by grow time to find lifespan -->
+		
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[@Name="SK_PlantBaseNonEdible"]/plant/sowWork</xpath> 
+			<value>
+					<sowWork>350</sowWork>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[@Name="SK_PlantBaseNonEdible"]/plant/harvestWork</xpath> 
+			<value>
+					<harvestWork>450</harvestWork>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Plant_Corn"
+				or defName="Plant_Rice"
+				or defName="Plant_Tobacco"
+				or defName="Plant_Smokeleaf"
+				or defName="Plant_Cotton"
+				or defName="Plant_Sugarcane"]/plant</xpath>
+			<value>
+					<sowWork>80</sowWork>
+					<harvestWork>100</harvestWork>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Plantwheat"
+				or defName="Plant_Flax"
+				or defName="Plant_Haygrass"]/plant</xpath>
+			<value>
+					<sowWork>66</sowWork>
+					<harvestWork>77</harvestWork>
+			</value>
+		</li>
+		
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

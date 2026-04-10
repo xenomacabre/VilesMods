@@ -1,71 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-
-	
-	<!-- SOFTWOOD LOGS -->
-	<!--
-	<ThingDef Name="SoftwoodLogBase" ParentName="SK_ResourceBase" Abstract="True">
-		<defName>SoftwoodLogBase</defName>
-		<description>Uncut logs. Except when building logs walls, needs to be cut into planks for firewood to be of use.</description>
-		<graphicData>
-			<texPath>Things/VileWood/NewLogStackedBig</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<soundInteract>Wood_Drop</soundInteract>
-		<soundDrop>Wood_Drop</soundDrop>
-		<tickerType>Rare</tickerType>
-		<statBases>
-			<MarketValue>1.3</MarketValue>
-			<MaxHitPoints>150</MaxHitPoints>
-			<Flammability>5.0</Flammability>
-			<DeteriorationRate>0</DeteriorationRate>
-			<StuffPower_Armor_Heat>0.05</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>1.0</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>0.6</StuffPower_Insulation_Heat>
-			<SharpDamageMultiplier>0.3</SharpDamageMultiplier>
-			<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
-			<MeleeCounterParryBonus>0.85</MeleeCounterParryBonus>
-			<MaxBurningTempCelsius>500</MaxBurningTempCelsius>
-			<Mass>1.25</Mass>
-			<Bulk>1.25</Bulk>
-		</statBases>
-		<techLevel>Neolithic</techLevel>
-		<stackLimit>75</stackLimit>
-		<stuffProps>
-			<constructEffect>ConstructWood</constructEffect>
-			<appearance>Planks</appearance>
-			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
-			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
-			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
-			<statFactors>
-				<MeleeWeapon_CooldownMultiplier>1.05</MeleeWeapon_CooldownMultiplier>
-				<MoveSpeed>1.1</MoveSpeed>
-				<DoorOpenSpeed>1.4</DoorOpenSpeed>
-				<MeleePenetrationFactor>0.4</MeleePenetrationFactor>
-			</statFactors>
-		</stuffProps>
-		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		<isTechHediff>true</isTechHediff>
-		<thingCategories>
-			<li>Softwoods</li>
-		</thingCategories>
-		<techHediffsTags>
-			<li>Poor</li>
-		</techHediffsTags>
-	</ThingDef>
-	-->
 	<ThingDef Name="CecropiaLog" ParentName="SoftwoodLogBase">
 		<defName>CecropiaLog</defName>
 		<label>cecropia log</label>
-		<description>Cecropia is the lightest of the light and very easy to work with, but it's quite bland.</description>
+		<description>>>> Optimal	Workable, light
+>> Suitible	Comfort, Bedding
+X Inadvisable	Durability, firewood
+
+Sustainability: Common in tropical biomes, somewhat economical (grows very quickly).
+		
+Cecropia is the lightest of the light and very easy to work with, but it's very fragile.</description>
 		<graphicData>
 			<color>(239,222,199)</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>5</MarketValue>
-			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>0.45</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.9</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.5</StuffPower_Armor_Sharp>
 			<StuffPower_Insulation_Heat>1</StuffPower_Insulation_Heat>
 			<BurnDurationHours>2.4</BurnDurationHours>
 			<Mass>0.9</Mass>
@@ -81,20 +33,23 @@
 				<BurnDurationHours>-0.1</BurnDurationHours>
 			</statOffsets>
 			<statFactors>		
+				<Comfort>1.4</Comfort>
 				<DoorOpenSpeed>1.8</DoorOpenSpeed>
-				<MaxHitPoints>0.6</MaxHitPoints>
+				<MaxHitPoints>0.5</MaxHitPoints>
 				<Flammability>1.2</Flammability>
 				<Beauty>1.2</Beauty>
 				<WorkToMake>0.35</WorkToMake>
 				<WorkToBuild>0.35</WorkToBuild>
 				<MarketValue>0.78</MarketValue>
-				<BedRestEffectiveness>1.2</BedRestEffectiveness>
-				<ImmunityGainSpeedFactor>1.15</ImmunityGainSpeedFactor>
-				<WorkTableWorkSpeedFactor>0.55</WorkTableWorkSpeedFactor>
+				<BedRestEffectiveness>1.1</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.0</ImmunityGainSpeedFactor>
+				<Cleanliness>1.0</Cleanliness>
+				<WorkTableWorkSpeedFactor>0.6</WorkTableWorkSpeedFactor>
 				<Mass>0.32</Mass>
 			</statFactors>
 		</stuffProps>
 		<butcherProducts>
+			<CecropiaPlank>5</CecropiaPlank>
 			<MedicineHerbal>5</MedicineHerbal>
 			<TreeBark MayRequire="vitech.leathertanning">10</TreeBark>
 			<Kindling>30</Kindling>
@@ -104,14 +59,20 @@
 	<ThingDef Name="PineLog" ParentName="SoftwoodLogBase">
 		<defName>PineLog</defName>
 		<label>pine log</label>
-		<description>Pine is a common building material where durability isn't so important. It's lightweight, and attractive, and is easy to work with.</description>
+		<description>>>> Optimal	Workability, Comfort
+>> Suitible	Economy, Beauty
+X Inadvisable	Durability, Firewood
+
+Sustainability: Common in colder biomes and very economical.
+		
+Pine is a common building material where durability isn't so important. It's lightweight, and attractive, and is easy to work with.</description>
 		<graphicData>
 			<color>(244,183,79)</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>5</MarketValue>
-			<StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>0.45</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1.2</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
 			<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>
 			<BurnDurationHours>2.4</BurnDurationHours>
 			<Mass>1.15</Mass>
@@ -123,25 +84,28 @@
 			<stuffAdjective>pine log</stuffAdjective>
 			<color>(244,183,79)</color>
 			<statOffsets>
-				<Beauty>2</Beauty>
+				<Beauty>1</Beauty>
 				<BurnDurationHours>0</BurnDurationHours>
 			</statOffsets>
 			<statFactors>
+				<Comfort>1.7</Comfort>
 				<DoorOpenSpeed>1.7</DoorOpenSpeed>
 				<BurnDurationHours>2.4</BurnDurationHours>
-				<MaxHitPoints>0.65</MaxHitPoints>
+				<MaxHitPoints>0.7</MaxHitPoints>
 				<Flammability>0.7</Flammability>
-				<Beauty>1.75</Beauty>
-				<WorkToMake>0.35</WorkToMake>
-				<WorkToBuild>0.35</WorkToBuild>
+				<Beauty>2.4</Beauty>
+				<WorkToMake>0.5</WorkToMake>
+				<WorkToBuild>0.5</WorkToBuild>
 				<MarketValue>0.78</MarketValue>
-				<BedRestEffectiveness>1.32</BedRestEffectiveness>
+				<BedRestEffectiveness>1.1</BedRestEffectiveness>
 				<ImmunityGainSpeedFactor>1.0</ImmunityGainSpeedFactor>
-				<WorkTableWorkSpeedFactor>0.6</WorkTableWorkSpeedFactor>
+				<Cleanliness>1.0</Cleanliness>
+				<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
 				<Mass>0.37</Mass>
 			</statFactors>
 		</stuffProps>
 		<butcherProducts>
+			<PinePlank>5</PinePlank>
 			<Pitch>50</Pitch>
 			<TreeBark MayRequire="vitech.leathertanning">20</TreeBark>
 			<Kindling>10</Kindling>
@@ -151,14 +115,20 @@
 	<ThingDef Name="WillowLog" ParentName="SoftwoodLogBase">
 		<defName>WillowLog</defName>
 		<label>willow log</label>
-		<description>Willow is a soft wood which is fairly unremarkable. It makes good tool handles, however.</description>
+		<description>>>> Optimal	Comfortable Beds and Seating
+>> Suitible	Blunt Armor
+X Inadvisable	Hygiene
+
+Sustainability: Common, but low harvest yield.
+		
+Willow is a soft wood which has a very low modulus of elasticity, which means it goes boing when struck. Beds made of Willow are restful but also very comfortable.</description>
 		<graphicData>
 			<color>(139,125,107)</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>5</MarketValue>
-			<StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>0.5</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1.4</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.7</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
 			<BurnDurationHours>2.55</BurnDurationHours>
 			<Mass>1.25</Mass>
@@ -170,24 +140,27 @@
 			<stuffAdjective>willow log</stuffAdjective>
 			<color>(139,125,107)</color>
 			<statOffsets>
-				<Beauty>1</Beauty>
+				<Beauty>0</Beauty>
 				<BurnDurationHours>0.08</BurnDurationHours>
 			</statOffsets>
 			<statFactors>
+				<Comfort>1.9</Comfort>
 				<DoorOpenSpeed>1.6</DoorOpenSpeed>
-				<MaxHitPoints>0.7</MaxHitPoints>
+				<MaxHitPoints>0.8</MaxHitPoints>
 				<Flammability>0.9</Flammability>
-				<Beauty>1.35</Beauty>
-				<WorkToMake>0.35</WorkToMake>
-				<WorkToBuild>0.35</WorkToBuild>
+				<Beauty>1.8</Beauty>
+				<WorkToMake>0.7</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
 				<MarketValue>0.78</MarketValue>
-				<BedRestEffectiveness>1.32</BedRestEffectiveness>
-				<ImmunityGainSpeedFactor>1.0</ImmunityGainSpeedFactor>
+				<BedRestEffectiveness>1.25</BedRestEffectiveness>
+				<Cleanliness>0.75</Cleanliness>
+				<ImmunityGainSpeedFactor>0.9</ImmunityGainSpeedFactor>
 				<WorkTableWorkSpeedFactor>0.6</WorkTableWorkSpeedFactor>
 				<Mass>0.41</Mass>
 			</statFactors>
 		</stuffProps>
 		<butcherProducts>
+			<WillowPlank>5</WillowPlank>
 			<Painstopper_WillowBark>5</Painstopper_WillowBark>
 			<TreeBark MayRequire="vitech.leathertanning">10</TreeBark>
 			<Kindling>30</Kindling>
@@ -236,15 +209,21 @@
 	<ThingDef Name="CypressLog" ParentName="SoftwoodLogBase">
 		<defName>CypressLog</defName>
 		<label>cypress log</label>
-		<description>Cypress, which is known for its knotty wood grain, is fairly strong for being a light softwood.</description>
+		<description>>>> Optimal	Beauty, Seating
+>> Suitible	Workability
+X Inadvisable	Bedding
+
+Sustainability: Common in swamps and has a high yield, but grows slowly.
+
+Cypress, which is known for its knotty wood grain, is often prized for making comfortable, attractive chairs, but beds tend to be rickety.</description>
 		<graphicData>
 						<color>(182,123,77)</color>
 		</graphicData>
 		<statBases>
 			
 			<MarketValue>5</MarketValue>
-			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>0.5</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1.1</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.7</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
 			<BurnDurationHours>2.7</BurnDurationHours>
 			<Mass>1.25</Mass>
@@ -256,24 +235,27 @@
 			<stuffAdjective>cypress log</stuffAdjective>
 			<color>(182,123,77)</color>
 			<statOffsets>
-				<Beauty>1</Beauty>
+				<Beauty>2</Beauty>
 				<BurnDurationHours>0.1</BurnDurationHours>
 			</statOffsets>
 			<statFactors>
+				<Comfort>2.0</Comfort>
 				<DoorOpenSpeed>1.45</DoorOpenSpeed>
 				<MaxHitPoints>0.8</MaxHitPoints>
 				<Flammability>1.5</Flammability>
-				<Beauty>1.5</Beauty>
-				<WorkToMake>0.6</WorkToMake>
-				<WorkToBuild>0.6</WorkToBuild>
+				<Beauty>3.0</Beauty>
+				<WorkToMake>0.9</WorkToMake>
+				<WorkToBuild>0.9</WorkToBuild>
 				<MarketValue>0.78</MarketValue>
-				<BedRestEffectiveness>1.08</BedRestEffectiveness>
+				<BedRestEffectiveness>1.0</BedRestEffectiveness>
+				<Cleanliness>1.0</Cleanliness>
 				<ImmunityGainSpeedFactor>1.0</ImmunityGainSpeedFactor>
-				<WorkTableWorkSpeedFactor>0.55</WorkTableWorkSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.6</WorkTableWorkSpeedFactor>
 				<Mass>0.46</Mass>
 			</statFactors>
 		</stuffProps>
 		<butcherProducts>
+			<CypressPlank>5</CypressPlank>
 			<TreeBark MayRequire="vitech.leathertanning">30</TreeBark>
 			<Kindling>45</Kindling>
 			<Seed_TreeCypress>1</Seed_TreeCypress>
@@ -283,14 +265,20 @@
 	<ThingDef Name="PoplarLog" ParentName="SoftwoodLogBase">
 		<defName>PoplarLog</defName>
 		<label>poplar log</label>
-		<description>Poplar is one of the most common woods and is very cheap and bland, but its moderate weight and strength makes it useful in all sorts of applications. It makes a half-decent shield, too.</description>
+		<description>>>> Optimal	Comfort, Economy
+>> Suitible	Workability
+X Inadvisable	Durability, Beauty
+
+Sustainability: Common and very economical.
+		
+Poplar is one of the most common woods and is very cheap and easy to work with. Its great workability allows construction of more ergonomic furniture.</description>
 		<graphicData>
 			<color>(222,225,153)</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>5</MarketValue>
-			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>0.5</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1.0</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
 			<BurnDurationHours>2.7</BurnDurationHours>
 			<Mass>1.45</Mass>
@@ -306,20 +294,23 @@
 				<BurnDurationHours>-0.1</BurnDurationHours>
 			</statOffsets>
 			<statFactors>
+				<Comfort>2.3</Comfort>
 				<DoorOpenSpeed>1.45</DoorOpenSpeed>
 				<MaxHitPoints>0.7</MaxHitPoints>
 				<Flammability>1.75</Flammability>
-				<Beauty>1</Beauty>
-				<WorkToMake>0.7</WorkToMake>
-				<WorkToBuild>0.7</WorkToBuild>
+				<Beauty>1.0</Beauty>
+				<WorkToMake>0.5</WorkToMake>
+				<WorkToBuild>0.5</WorkToBuild>
 				<MarketValue>0.78</MarketValue>
-				<BedRestEffectiveness>1.2</BedRestEffectiveness>
-				<ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
-				<WorkTableWorkSpeedFactor>0.55</WorkTableWorkSpeedFactor>
+				<BedRestEffectiveness>1.1</BedRestEffectiveness>
+				<Cleanliness>1</Cleanliness>
+				<ImmunityGainSpeedFactor>1.12</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
 				<Mass>0.45</Mass>
 			</statFactors>
 		</stuffProps>
 		<butcherProducts>
+			<PoplarPlank>5</PoplarPlank>
 			<TreeBark MayRequire="vitech.leathertanning">30</TreeBark>
 			<Kindling>20</Kindling>
 			<Seed_TreePoplar>1</Seed_TreePoplar>
@@ -380,14 +371,20 @@
 	<ThingDef Name="MapleLog" ParentName="HardwoodLogBase">
 		<defName>MapleLog</defName>
 		<label>maple log</label>
-		<description>Maple is modestly durable and slightly heavy, and often has a beautiful wood grain pattern. It's commonly wood for construction, despite being difficult to work with.</description>
+		<description>>>> Optimal	Balanced
+>> Suitible	Beauty, Beds
+X Inadvisable	Balanced
+
+Sustainability: Very common and somewhat sustainable.
+		
+Maple is modestly durable and slightly heavy, and often has a beautiful wood grain pattern. Although slightly difficult to work with, it's a well-rounded material with no major pros or cons.</description>
 		<graphicData>
 						<color>(205,157,90)</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>6.5</MarketValue>
 			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>0.55</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Sharp>0.8</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
 			<BurnDurationHours>3.0</BurnDurationHours>
 			<Mass>1.7</Mass>
@@ -399,24 +396,27 @@
 			<stuffAdjective>maple log</stuffAdjective>
 			<color>(205,157,90)</color>
 			<statOffsets>
-				<Beauty>3</Beauty>
+				<Beauty>2</Beauty>
 				<BurnDurationHours>0.14</BurnDurationHours>
 			</statOffsets>
 			<statFactors>
+				<Comfort>1.1</Comfort>
 				<DoorOpenSpeed>1.3</DoorOpenSpeed>
-				<MaxHitPoints>0.9</MaxHitPoints>
+				<MaxHitPoints>1.0</MaxHitPoints>
 				<Flammability>0.9</Flammability>
 				<Beauty>2.0</Beauty>
-				<WorkToMake>1.1</WorkToMake>
-				<WorkToBuild>1.1</WorkToBuild>
+				<WorkToMake>1.2</WorkToMake>
+				<WorkToBuild>1.2</WorkToBuild>
 				<MarketValue>1.02</MarketValue>
-				<BedRestEffectiveness>1.32</BedRestEffectiveness>
-				<ImmunityGainSpeedFactor>1.05</ImmunityGainSpeedFactor>
-				<WorkTableWorkSpeedFactor>0.65</WorkTableWorkSpeedFactor>
+				<BedRestEffectiveness>1.3</BedRestEffectiveness>
+				<Cleanliness>1.0</Cleanliness>
+				<ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.7</WorkTableWorkSpeedFactor>
 				<Mass>0.55</Mass>
 			</statFactors>
 		</stuffProps>
 		<butcherProducts>
+			<MaplePlank>5</MaplePlank>
 			<SapMaple>2</SapMaple>
 			<TreeBark MayRequire="vitech.leathertanning">10</TreeBark>
 			<Kindling>30</Kindling>
@@ -461,43 +461,52 @@
 	<ThingDef Name="TeakLog" ParentName="HardwoodLogBase">
 		<defName>TeakLog</defName>
 		<label>teak log</label>
-		<description>Teak is an often sought-after hardwood. It's very expensive because it only grows in rainforest regions, and its beauty and strenth is nearly unmatched. It's very heavy, however.</description>
+		<description>>>> Optimal	Beauty, Strength
+>> Suitible	Military, Worktables
+X Inadvisable	Workability, Economy
+
+Sustainability: Rare, even in tropical biomes, and very uneconomical.		
+		
+Teak is an often sought-after hardwood. It's very expensive because it only grows in rainforest regions, and it grows slowly. Its beauty and strenth is nearly unmatched. It's very heavy, however.</description>
 		<graphicData>
 			<color>(116,92,63)</color>
 		</graphicData>
 		<statBases>
-			<MarketValue>8.5</MarketValue>
-			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
+			<MarketValue>10</MarketValue>
+			<StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.1</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
 			<BurnDurationHours>3.3</BurnDurationHours>
-			<Mass>1.8</Mass>
+			<Mass>2.2</Mass>
 		</statBases>
 		<stuffProps>
-			<categories>
-				<li>Hardwoods</li>
+			<categories Inherit="False">
+				<li>Ultrahardwoods</li>
    			</categories>
 			<stuffAdjective>teak log</stuffAdjective>
 			<color>(116,92,63)</color>
 			<statOffsets>
-				<Beauty>4</Beauty>
+				<Beauty>3</Beauty>
 				<BurnDurationHours>0.35</BurnDurationHours>
 			</statOffsets>
 			<statFactors>
+				<Comfort>0.8</Comfort>
 				<DoorOpenSpeed>1.2</DoorOpenSpeed>
-				<MaxHitPoints>1.2</MaxHitPoints>
+				<MaxHitPoints>1.4</MaxHitPoints>
 				<Flammability>0.6</Flammability>
-				<Beauty>2.0</Beauty>
-				<WorkToMake>1</WorkToMake>
-				<WorkToBuild>1</WorkToBuild>
+				<Beauty>4</Beauty>
+				<WorkToMake>1.6</WorkToMake>
+				<WorkToBuild>1.6</WorkToBuild>
 				<MarketValue>1.5</MarketValue>
-				<BedRestEffectiveness>1.2</BedRestEffectiveness>
-				<ImmunityGainSpeedFactor>0.95</ImmunityGainSpeedFactor>
-				<WorkTableWorkSpeedFactor>0.55</WorkTableWorkSpeedFactor>
-				<Mass>0.58</Mass>
+				<BedRestEffectiveness>1.1</BedRestEffectiveness>
+				<Cleanliness>1.25</Cleanliness>
+				<ImmunityGainSpeedFactor>1.2</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.75</WorkTableWorkSpeedFactor>
+				<Mass>0.75</Mass>
 			</statFactors>
 		</stuffProps>
 		<butcherProducts>
+			<TeakPlank>5</TeakPlank>
 			<TreeBark MayRequire="vitech.leathertanning">10</TreeBark>
 			<Kindling>30</Kindling>
 			<Seed_TreeTeak>1</Seed_TreeTeak>
@@ -507,16 +516,24 @@
 	<ThingDef Name="BirchLog" ParentName="HardwoodLogBase">
 		<defName>BirchLog</defName>
 		<label>birch log</label>
-		<description>Birch is a very bland hardwood, but is easy to work with despite being heavy and durable.</description>
+		<description>>>> Optimal	Workbenches
+>> Suitible	Arms and Armor, Hospitals
+X Inadvisable	Workability, Comfortable Bedding
+
+Sustainability:	Common and economical.
+
+Birch is a fairly unremakrable wood, but it makes a decent hospital bed (for a wood), and is often used for clubs and shields.</description>
 		<graphicData>
 			<texPath>Things/VileWood/NewLogBirchStackedBig</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
 			<MarketValue>6</MarketValue>
-			<StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>0.5</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.8</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.2</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
+			<SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.3</BluntDamageMultiplier>
 			<BurnDurationHours>3.3</BurnDurationHours>
 			<Mass>1.8</Mass>
 		</statBases>
@@ -531,20 +548,23 @@
 				<BurnDurationHours>0.29</BurnDurationHours>
 			</statOffsets>
 			<statFactors>
+				<Comfort>1.1</Comfort>
 				<DoorOpenSpeed>1.15</DoorOpenSpeed>
-				<MaxHitPoints>0.95</MaxHitPoints>
+				<MaxHitPoints>1.0</MaxHitPoints>
 				<Flammability>1.1</Flammability>
-				<Beauty>1.2</Beauty>
-				<WorkToMake>0.8</WorkToMake>
-				<WorkToBuild>0.8</WorkToBuild>
+				<Beauty>2.0</Beauty>
+				<WorkToMake>1.2</WorkToMake>
+				<WorkToBuild>1.2</WorkToBuild>
 				<MarketValue>0.96</MarketValue>
-				<BedRestEffectiveness>1.02</BedRestEffectiveness>
-				<ImmunityGainSpeedFactor>1.05</ImmunityGainSpeedFactor>
-				<WorkTableWorkSpeedFactor>0.6</WorkTableWorkSpeedFactor>
+				<BedRestEffectiveness>1</BedRestEffectiveness>
+				<Cleanliness>1.25</Cleanliness>
+				<ImmunityGainSpeedFactor>1.2</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.7</WorkTableWorkSpeedFactor>
 				<Mass>0.58</Mass>
 			</statFactors>
 		</stuffProps>
 		<butcherProducts>
+			<BirchPlank>5</BirchPlank>
 			<SapBirch>2</SapBirch>
 			<TreeBark MayRequire="vitech.leathertanning">40</TreeBark>
 			<Kindling>10</Kindling>
@@ -555,17 +575,25 @@
 	<ThingDef Name="OakLog" ParentName="HardwoodLogBase">
 		<defName>OakLog</defName>
 		<label>oak log</label>
-		<description>The saying "Strong as an oak" also pertains to the lumber. It's the strongest wood you can find in temperate regions. It's also the heaviest.</description>
+		<description>>>> Optimal	Firewood, Kitchens
+>> Suitible	Strength
+X Inadvisable	Workability, Bedding/Seating
+
+Sustainability: Common but not very economical (grows slowly).
+
+Makes slightly better tools than other hardwoods.
+
+The saying "Strong as an oak" also pertains to the lumber. It's the strongest wood you can find in temperate regions. It's also the heaviest.</description>
 		<graphicData>
 			<color>(169,107,7)</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>7</MarketValue>
-			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.9</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.0</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
-			<SharpDamageMultiplier>0.45</SharpDamageMultiplier>
-			<BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+			<SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.2</BluntDamageMultiplier>
 			<BurnDurationHours>3.3</BurnDurationHours>
 			<Mass>2.2</Mass>
 		</statBases>
@@ -576,24 +604,41 @@
 			<stuffAdjective>oak log</stuffAdjective>
 			<color>(169,107,7)</color>
 			<statOffsets>
-				<Beauty>2</Beauty>
+				<Beauty>0</Beauty>
 				<BurnDurationHours>0.43</BurnDurationHours>
 			</statOffsets>
 			<statFactors>
 				<DoorOpenSpeed>1.12</DoorOpenSpeed>
-				<MaxHitPoints>1.1</MaxHitPoints>
+				<MaxHitPoints>1.2</MaxHitPoints>
 				<Flammability>1</Flammability>
-				<Beauty>1.65</Beauty>
-				<WorkToMake>1</WorkToMake>
-				<WorkToBuild>1</WorkToBuild>
+				<Beauty>1.2</Beauty>
+				<WorkToMake>1.4</WorkToMake>
+				<WorkToBuild>1.4</WorkToBuild>
 				<MarketValue>1.14</MarketValue>
-				<BedRestEffectiveness>1.26</BedRestEffectiveness>
-				<ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>
-				<WorkTableWorkSpeedFactor>0.55</WorkTableWorkSpeedFactor>
+				<BedRestEffectiveness>1.1</BedRestEffectiveness>
+				<Cleanliness>1.5</Cleanliness>
+				<ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.6</WorkTableWorkSpeedFactor>
 				<Mass>0.71</Mass>
 			</statFactors>
 		</stuffProps>
+		<modExtensions>
+				<li Class="SurvivalToolsLite.StuffPropsTool">
+					<toolStatFactors>
+						<TreeFellingSpeed>0.7</TreeFellingSpeed>
+						<PlantHarvestingSpeed>0.8</PlantHarvestingSpeed>
+						<PlantWorkSpeed>0.8</PlantWorkSpeed>
+						<MiningSpeed>0.6</MiningSpeed>
+						<MiningYieldDigging>0.85</MiningYieldDigging>
+						<ConstructionSpeed>0.8</ConstructionSpeed>
+						<SmithingSpeed>0.8</SmithingSpeed>
+						<CookSpeed>0.65</CookSpeed>
+						<ButcheryFleshSpeed>0.6</ButcheryFleshSpeed>
+					</toolStatFactors>
+				</li>
+		</modExtensions>
 		<butcherProducts>
+			<OakPlank>5</OakPlank>
 			<TreeBark MayRequire="vitech.leathertanning">35</TreeBark>
 			<Kindling>15</Kindling>
 			<Seed_TreeOak>1</Seed_TreeOak>
@@ -603,45 +648,70 @@
 	<ThingDef Name="AcaciaLog" ParentName="HardwoodLogBase">
 		<defName>AcaciaLog</defName>
 		<label>acacia log</label>
-		<description>Acacia is the hardest and heaviest of the standard hardwoods.</description>
+		<description>>>> Optimal	Strength, Arms and Armor
+>> Suitible	Beauty, Firewood
+X Inadvisable	Comfort, Workability
+
+Sustainability: Rare, and not very economical.
+
+Makes decent farming tools.
+		
+Acacia is extremely hard and heavy. It makes strong weapons, shields, and armor, when wood is all you have.</description>
 		<graphicData>
 			<color>(145,107,90)</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>8</MarketValue>
-			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>0.6</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.8</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.3</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
-			<SharpDamageMultiplier>0.55</SharpDamageMultiplier>
-			<BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+			<SharpDamageMultiplier>0.7</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.4</BluntDamageMultiplier>
 			<BurnDurationHours>3.4</BurnDurationHours>
 			<Mass>2.4</Mass>
 		</statBases>
 		<stuffProps>
-			<categories>
-				<li>Hardwoods</li>
+			<categories Inherit="False">
+				<li>Ultrahardwoods</li>
    			</categories>
 			<stuffAdjective>acacia log</stuffAdjective>
 			<color>(145,107,90)</color>
 			<statOffsets>
-				<Beauty>2</Beauty>
+				<Beauty>3</Beauty>
 				<BurnDurationHours>0.3</BurnDurationHours>
 			</statOffsets>
 			<statFactors>
+				<Comfort>0.6</Comfort>
 				<DoorOpenSpeed>1.1</DoorOpenSpeed>
-				<MaxHitPoints>1.1</MaxHitPoints>
+				<MaxHitPoints>1.7</MaxHitPoints>
 				<Flammability>1</Flammability>
-				<Beauty>1.65</Beauty>
-				<WorkToMake>1</WorkToMake>
-				<WorkToBuild>1</WorkToBuild>
+				<Beauty>2.4</Beauty>
+				<WorkToMake>1.6</WorkToMake>
+				<WorkToBuild>1.6</WorkToBuild>
 				<MarketValue>1.14</MarketValue>
-				<BedRestEffectiveness>1.26</BedRestEffectiveness>
-				<ImmunityGainSpeedFactor>0.9</ImmunityGainSpeedFactor>
-				<WorkTableWorkSpeedFactor>0.55</WorkTableWorkSpeedFactor>
-				<Mass>0.75</Mass>
+				<BedRestEffectiveness>1.1</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.0</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>0.7</WorkTableWorkSpeedFactor>
+				<Mass>0.85</Mass>
 			</statFactors>
 		</stuffProps>
+		<modExtensions>
+		    <li Class="SurvivalToolsLite.StuffPropsTool">
+                <toolStatFactors>
+                    <TreeFellingSpeed>0.75</TreeFellingSpeed>
+					<PlantHarvestingSpeed>0.9</PlantHarvestingSpeed>
+					<PlantWorkSpeed>0.9</PlantWorkSpeed>
+					<MiningSpeed>0.6</MiningSpeed>
+					<MiningYieldDigging>0.55</MiningYieldDigging>
+					<ConstructionSpeed>0.75</ConstructionSpeed>
+					<SmithingSpeed>0.75</SmithingSpeed>
+					<CookSpeed>0.6</CookSpeed>
+					<ButcheryFleshSpeed>0.6</ButcheryFleshSpeed>
+                </toolStatFactors>
+            </li>
+		</modExtensions>
 		<butcherProducts>
+			<AcaciaPlank>5</AcaciaPlank>
 			<TreeBark MayRequire="vitech.leathertanning">20</TreeBark>
 			<Kindling>20</Kindling>
 			<Seed_Acacia MayRequire="xenomacabre.HSKBiomes">1</Seed_Acacia>
@@ -650,65 +720,59 @@
 	
 	<ThingDef Name="DragonwoodLog" ParentName="HardwoodLogBase">
 		<defName>DragonwoodLog</defName>
-		<label>Dragonwood log</label>
-		<description>Dragonwood is a rare and incredibly hard, beautiful wood. It's sap is blood-red and has healing properties. It's very difficult to work with due to its extreme hardness.</description>
+		<label>Dragonblood log</label>
+		<description>>>> Optimal	Hospitals, Beds
+>> Suitible	Beauty
+X Inadvisable	Economy
+
+Sustainability:	Very rare and uneconomical.		
+		
+Dragonblood wood is a dense, beautiful wood. It is prized for its blood-red resin and healing properties.</description>
 		<graphicData>
 			<texPath>Things/VileWood/NewLogDragonStackedBig</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
 			<MarketValue>12</MarketValue>
-			<StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>0.7</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1.0</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.8</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
-			<SharpDamageMultiplier>0.7</SharpDamageMultiplier>
-			<BluntDamageMultiplier>0.85</BluntDamageMultiplier>
+			<!--<SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.0</BluntDamageMultiplier>-->
 			<BurnDurationHours>3.8</BurnDurationHours>
-			<Mass>2.6</Mass>
+			<Mass>1.8</Mass>
 		</statBases>
 		<stuffProps>
 			<categories Inherit="False">
-				<li>Ultrahardwoods</li>
+				<li>Hardwoods</li>
    			</categories>
-			<stuffAdjective>dragonwood log</stuffAdjective>
+			<stuffAdjective>dragonblood log</stuffAdjective>
 			<color>(196,56,27)</color>
 			<statOffsets>
-				<Beauty>3</Beauty>
+				<Beauty>2</Beauty>
 				<BurnDurationHours>0.5</BurnDurationHours>
 			</statOffsets>
 			<statFactors>
-				<DoorOpenSpeed>1</DoorOpenSpeed>
-				<MaxHitPoints>1.25</MaxHitPoints>
+				<Comfort>1.4</Comfort>
+				<DoorOpenSpeed>1.12</DoorOpenSpeed>
+				<MaxHitPoints>1.0</MaxHitPoints>
 				<Flammability>0.7</Flammability>
-				<Beauty>2</Beauty>
-				<WorkToMake>1.5</WorkToMake>
-				<WorkToBuild>1.5</WorkToBuild>
+				<Beauty>1.8</Beauty>
+				<WorkToMake>1.2</WorkToMake>
+				<WorkToBuild>1.2</WorkToBuild>
 				<MarketValue>3.0</MarketValue>
-				<BedRestEffectiveness>1.14</BedRestEffectiveness>
+				<BedRestEffectiveness>1.3</BedRestEffectiveness>
+				<Cleanliness>1.75</Cleanliness>
 				<ImmunityGainSpeedFactor>1.3</ImmunityGainSpeedFactor>
-				<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
-				<Mass>0.83</Mass>
+				<WorkTableWorkSpeedFactor>0.6</WorkTableWorkSpeedFactor>
+				<Mass>0.7</Mass>
 			</statFactors>
 		</stuffProps>
 		<thingCategories Inherit="False">
-			<li>Ultrahardwoods</li>
+			<li>Hardwoods</li>
 		</thingCategories>
-		<modExtensions>
-		    <li Class="SurvivalToolsLite.StuffPropsTool">
-                <toolStatFactors>
-                    <TreeFellingSpeed>0.85</TreeFellingSpeed>
-					<PlantHarvestingSpeed>0.85</PlantHarvestingSpeed>
-					<PlantWorkSpeed>0.85</PlantWorkSpeed>
-					<MiningSpeed>0.85</MiningSpeed>
-					<MiningYieldDigging>0.95</MiningYieldDigging>
-					<ConstructionSpeed>0.85</ConstructionSpeed>
-					<SmithingSpeed>0.85</SmithingSpeed>
-					<CookSpeed>0.7</CookSpeed>
-					<ButcheryFleshSpeed>0.7</ButcheryFleshSpeed>
-                </toolStatFactors>
-            </li>
-		</modExtensions>
 		<butcherProducts>
+			<DragonwoodPlank>5</DragonwoodPlank>
 			<Medicine_DragonsBlood>5</Medicine_DragonsBlood>
 			<TreeBark MayRequire="vitech.leathertanning">20</TreeBark>
 			<Kindling>15</Kindling>
@@ -719,18 +783,26 @@
 	<ThingDef Name="MangroveLog" ParentName="HardwoodLogBase">
 		<defName>MangroveLog</defName>
 		<label>Mangrove log</label>
-		<description>Mangrove is an excellent building material due to its natural fire-resistance and incredible strength (only surpassed by dragonwood). It's often preferred to be used as firewood, however, being extremely heavy and difficult to work with.</description>
+		<description>>>> Optimal	Workbenches, Firewood
+>> Suitible	Durability		
+X Inadvisable	Workability, Comfort
+
+Sustainability: Rare and not very economical.
+
+Makes decent construction tools.
+
+Mangrove is an excellent building material due to its natural fire-resistance and incredible strength. It's often preferred to be used as long-burning firewood, however, being extremely heavy and difficult to work with.</description>
 		<graphicData>
 			<texPath>Things/VileWood/NewLogMangroveStackedBig</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>8	</MarketValue>
-			<StuffPower_Armor_Blunt>0.7</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>0.7</StuffPower_Armor_Sharp>
+			<MarketValue>8</MarketValue>
+			<StuffPower_Armor_Blunt>0.8</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>1.0</StuffPower_Armor_Sharp>
 			<!--<StuffPower_Insulation_Cold>1.2</StuffPower_Insulation_Cold>-->
 			<SharpDamageMultiplier>0.4</SharpDamageMultiplier>
-			<BluntDamageMultiplier>0.95</BluntDamageMultiplier>
+			<BluntDamageMultiplier>1.4</BluntDamageMultiplier>
 			<BurnDurationHours>3.8</BurnDurationHours>
 			<Mass>2.8</Mass>
 		</statBases>
@@ -741,20 +813,22 @@
 			<stuffAdjective>mangrove log</stuffAdjective>
 			<color>(128,106,121)</color>
 			<statOffsets>
-				<Beauty>2</Beauty>
+				<Beauty>0</Beauty>
 				<BurnDurationHours>0.65</BurnDurationHours>
 			</statOffsets>
 			<statFactors>
+				<Comfort>0.5</Comfort>
 				<DoorOpenSpeed>1</DoorOpenSpeed>
-				<MaxHitPoints>1.15</MaxHitPoints>
+				<MaxHitPoints>1.3</MaxHitPoints>
 				<Flammability>0.25</Flammability>
-				<Beauty>1.65</Beauty>
-				<WorkToMake>1.5</WorkToMake>
-				<WorkToBuild>1.5</WorkToBuild>
+				<Beauty>1.2</Beauty>
+				<WorkToMake>1.6</WorkToMake>
+				<WorkToBuild>1.6</WorkToBuild>
 				<MarketValue>3.0</MarketValue>
-				<BedRestEffectiveness>1.14</BedRestEffectiveness>
-				<ImmunityGainSpeedFactor>1.05</ImmunityGainSpeedFactor>	
-				<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
+				<BedRestEffectiveness>1.1</BedRestEffectiveness>
+				<Cleanliness>1.0</Cleanliness>
+				<ImmunityGainSpeedFactor>1.0</ImmunityGainSpeedFactor>	
+				<WorkTableWorkSpeedFactor>0.8</WorkTableWorkSpeedFactor>
 				<Mass>0.91</Mass>
 			</statFactors>
 		</stuffProps>
@@ -764,19 +838,20 @@
 		<modExtensions>
 		    <li Class="SurvivalToolsLite.StuffPropsTool">
                 <toolStatFactors>
-                    <TreeFellingSpeed>0.85</TreeFellingSpeed>
-					<PlantHarvestingSpeed>0.85</PlantHarvestingSpeed>
-					<PlantWorkSpeed>0.85</PlantWorkSpeed>
-					<MiningSpeed>0.85</MiningSpeed>
-					<MiningYieldDigging>0.95</MiningYieldDigging>
+                    <TreeFellingSpeed>0.65</TreeFellingSpeed>
+					<PlantHarvestingSpeed>0.75</PlantHarvestingSpeed>
+					<PlantWorkSpeed>0.75</PlantWorkSpeed>
+					<MiningSpeed>0.6</MiningSpeed>
+					<MiningYieldDigging>0.55</MiningYieldDigging>
 					<ConstructionSpeed>0.85</ConstructionSpeed>
 					<SmithingSpeed>0.85</SmithingSpeed>
-					<CookSpeed>0.7</CookSpeed>
-					<ButcheryFleshSpeed>0.7</ButcheryFleshSpeed>
+					<CookSpeed>0.6</CookSpeed>
+					<ButcheryFleshSpeed>0.6</ButcheryFleshSpeed>
                 </toolStatFactors>
             </li>
 		</modExtensions>
 		<butcherProducts>
+			<MangrovePlank>5</MangrovePlank>
 			<TreeBark MayRequire="vitech.leathertanning">20</TreeBark>
 			<Kindling>40</Kindling>
 			<SeedMangrove>1</SeedMangrove>

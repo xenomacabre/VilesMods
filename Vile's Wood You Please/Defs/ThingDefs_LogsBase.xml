@@ -64,7 +64,6 @@
 					<!--<Mass>0.45</Mass>-->
 				</statFactors>
 			</stuffProps>
-			<burnableByRecipe>True</burnableByRecipe>
 			<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 			<isTechHediff>true</isTechHediff>
 			<thingCategories>
@@ -151,7 +150,6 @@
 						<!--<Mass>0.45</Mass>-->
 					</statFactors>
 				</stuffProps>
-				<burnableByRecipe>True</burnableByRecipe>
 				<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 				<isTechHediff>true</isTechHediff>
 				<thingCategories>

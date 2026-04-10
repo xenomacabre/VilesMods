@@ -249,6 +249,7 @@
 			<Plant_Chokevine>0.8</Plant_Chokevine>
 			<Plant_Bush>0.5</Plant_Bush>
 			<Plant_TreeWillow>0.40</Plant_TreeWillow>
+			<Plant_TreeWillow>0.30</Plant_TreeWillow>
 			<Plant_TreeCypress>0.80</Plant_TreeCypress>
 			<Plant_TreeMaple>0.07</Plant_TreeMaple>
 			<Plant_Mangrove>0.05</Plant_Mangrove>
@@ -351,7 +352,7 @@
 			<Plant_Astragalus>0.15</Plant_Astragalus>
 			<Plant_Crocus>0.3</Plant_Crocus>
 			<Plant_TreePoplar>0.03</Plant_TreePoplar>
-			<Plant_TreePine>3.0</Plant_TreePine>
+			<Plant_TreePine>2.5</Plant_TreePine>
 			<Plant_TreeSpruce>2.0</Plant_TreeSpruce>
 			<Plant_TreeBirch>0.7</Plant_TreeBirch>
 			<Plant_Mushroom_Blue>0.22</Plant_Mushroom_Blue>

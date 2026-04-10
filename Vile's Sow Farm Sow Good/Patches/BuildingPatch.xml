@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+		
+		<!-- Refrigeration, but not freezers for pre-industrial -->
+		
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="ColdstoneBattery"]/comps/li[@Class="SK.CompProperties_ColdPusher"]/ColdPerSecond</xpath> 
+			<value>
+					<ColdPerSecond>-35</ColdPerSecond> <!-- slightly better-->
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="ColdstoneBattery"]/comps/li[@Class="SK.CompProperties_ColdPusher"]/ColdPushMinTemperature</xpath> 
+			<value>
+					<ColdPushMinTemperature>1</ColdPushMinTemperature>
+			</value>
+		</li>
+
+		
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

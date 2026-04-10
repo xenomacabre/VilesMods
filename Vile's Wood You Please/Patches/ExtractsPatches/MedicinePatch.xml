@@ -8,7 +8,6 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>aloe</li>
 						<li>MedicineHerbal</li>
 						<li>Medicine_DragonsBlood</li>
 					</thingDefs>
@@ -31,7 +30,6 @@
 		<value>
 			<fixedIngredientFilter>
 				<thingDefs>
-					<li>aloe</li>
 					<li>MedicineHerbal</li>
 					<li>Bandagekit</li>
 					<li>Medicine_DragonsBlood</li>

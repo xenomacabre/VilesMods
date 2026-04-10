@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+		
+		<!-- Bamboo		-->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeBamboo"]/plant/growDays</xpath>
+			<value>
+				<growDays>15</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeBamboo"]/plant/harvestYield</xpath>
+			<value>
+				<harvestYield>20</harvestYield> 
+			</value>
+		</li>
+		
+	
+		
+		<!-- Cecropia -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeCecropia"]/plant/harvestYield</xpath>
+			<value>
+				<harvestYield>6</harvestYield>
+			</value>
+		</li>
+		
+		<!-- Pine -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreePine"]/plant/growDays</xpath>
+			<value>
+				<growDays>38</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreePine"]/plant/harvestYield</xpath>
+			<value>
+				<harvestYield>15</harvestYield>
+			</value>
+		</li>
+		
+		<!-- Willow-->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeWillow"]/plant/growDays</xpath>
+			<value>
+				<growDays>22</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeWillow"]/plant/harvestYield</xpath>
+			<value>
+				<harvestYield>6</harvestYield>
+			</value>
+		</li>
+		
+		<!-- Redwood-->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="PlantTreeRedwood"]/plant/growDays</xpath>
+			<value>
+				<growDays>85</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="PlantTreeRedwood"]/plant/harvestYield</xpath>
+			<value>
+				<harvestYield>24</harvestYield>
+			</value>
+		</li>
+		
+		<!-- Spruce-->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeSpruce"]/plant/growDays</xpath>
+			<value>
+				<growDays>26</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeSpruce"]/plant/harvestYield</xpath>
+			<value>
+				<harvestYield>22</harvestYield>
+			</value>
+		</li>
+		
+		<!-- Cypress -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeCypress"]/plant/growDays</xpath>
+			<value>
+				<growDays>52</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeCypress"]/plant/harvestYield</xpath>
+			<value>
+				<harvestYield>18</harvestYield>
+			</value>
+		</li>
+
+		<!-- Poplar -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreePoplar"]/plant/growDays</xpath>
+			<value>
+				<growDays>18</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreePoplar"]/plant/harvestYield</xpath>
+			<value>
+				<harvestYield>8</harvestYield>
+			</value>
+		</li>
+		
+		<!-- Maple -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeMaple"]/plant/growDays</xpath>
+			<value>
+				<growDays>42</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeMaple"]/plant/harvestYield</xpath>
+			<value>
+				<harvestYield>10</harvestYield>
+			</value>
+		</li>
+		
+				
+		<!-- teak -->
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeTeak"]/plant/growDays</xpath>
+			<value>
+				<growDays>55</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeTeak"]/plant/harvestYield</xpath>
+			<value>
+				<harvestYield>7</harvestYield>
+			</value>
+		</li>
+		
+	<!-- ACACIA -->	
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeTeak"]/plant/growDays</xpath>
+			<value>
+				<growDays>44</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeTeak"]/plant/harvestYield</xpath>
+			<value>
+				<harvestYield>8</harvestYield>
+			</value>
+		</li>
+		
+		<!-- birch -->	
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeBirch"]/plant/growDays</xpath>
+			<value>
+				<growDays>65</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeBirch"]/plant/harvestYield</xpath>
+			<value>
+				<harvestYield>12</harvestYield>
+			</value>
+		</li>
+		
+		<!-- oak -->	
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeOak"]/plant/growDays</xpath>
+			<value>
+				<growDays>66</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeOak"]/plant/harvestYield</xpath>
+			<value>
+				<harvestYield>12</harvestYield>
+			</value>
+		</li>
+		
+			<!-- mangrove -->	
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Mangrove"]/plant/growDays</xpath>
+			<value>
+				<growDays>34</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Mangrove"]/plant/harvestYield</xpath>
+			<value>
+				<harvestYield>6</harvestYield>
+			</value>
+		</li>
+		
+		<!-- dragonwood -->	
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeDrago"]/plant/growDays</xpath>
+			<value>
+				<growDays>65</growDays>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeDrago"]/plant/harvestYield</xpath>
+			<value>
+				<harvestYield>14</harvestYield>
+			</value>
+		</li>
+		
+		</operations>
+		</match>
+    </Operation>	
+	
+	
+	
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+	
+
+		</operations>
+		</match>
+    </Operation>
+	
+	
+</Patch>	

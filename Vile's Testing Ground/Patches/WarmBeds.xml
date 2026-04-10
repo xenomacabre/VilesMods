@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>[JPT] Soft Warm Beds HSK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="PrimitiveBedding"]/statBases/WorkToMake</xpath>
+			<value>
+   				 <WorkToMake>2000</WorkToMake>
+			</value>
+		</li>
+<li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="PrimitiveDoubleBedding"]/statBases/WorkToMake</xpath>
+			<value>
+   				 <WorkToMake>3500</WorkToMake>
+			</value>
+		</li>
+		
+		<li Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="Make_SimpleBedding"]/workAmount</xpath>
+			<value>
+   				 <workAmount>3000</workAmount>
+			</value>
+		</li>
+<li Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="Make_SimpleBeddingDouble"]/workAmount</xpath>
+			<value>
+   				 <workAmount>5000</workAmount>
+			</value>
+		</li>
+
+		</operations>
+		</match>
+    </Operation>	
+</Patch>	

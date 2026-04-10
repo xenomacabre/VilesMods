@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+
+<!-- dies from frost -->
+
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Plant_Agave"
+				or defName="Plantbean"
+				or defName="PlantTomato"
+				or defName="Plant_Mushroom"
+				or defName="Plant_Devilstrand"
+				or defName="PepperPlant"
+				or defName="Plant_Psychoid"
+				or defName="Plant_Watermelon"
+				or defName="Plant_Cotton"
+				or defName="Plant_Sugarcane"
+				or defName="Plant_PricklyPear"
+				or defName="Plant_HealrootWild"
+				or defName="Plant_TreeBanana"]/plant</xpath>
+			<value>
+					<dieIfLeafless>true</dieIfLeafless>
+			</value>
+		</li>
+
+<!-- also fuck ice -->
+
+
+		</operations>
+		</match>
+    </Operation>
+</Patch>
