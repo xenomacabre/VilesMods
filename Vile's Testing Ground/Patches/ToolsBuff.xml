@@ -18,9 +18,10 @@
 			or defName="TFJ_Tool_Hoe"
 			or defName="TFJ_Tool_Multitool"
 			or defName="MeleeWeapon_Monkeywrench"
+			or defName="NorbalMeleeWeapon_Bigax"
 			or defName="MeleeWeapon_Sledgehammer"]/statBases/ToolEffectivenessFactor</xpath>
 			<value>
-   				 <ToolEffectivenessFactor>1.5</ToolEffectivenessFactor>
+   				 <ToolEffectivenessFactor>1.3</ToolEffectivenessFactor>
 			</value>
 		</li>
 		<li Class="PatchOperationReplace">

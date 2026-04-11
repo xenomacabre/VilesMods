@@ -797,14 +797,16 @@ TIER: Early Medieval
 + Cheap
 + Good Lethality
 + Balanced Penetration (blunt)
++ An excellent tree-cutting tool
 - Difficult to use / slow
 - Poor defense
 
-A two-handed axe with the length of a polearm. Cheap and effective. A popular weapon among Norbal berserkers.</description>
+A two-handed axe with the length of a polearm. Cheap and effective. A popular weapon among Norbal berserkers. Great for felling trees, but much heavier than a handaxe.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Norbal/VileNorbalAx</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
 		<soundInteract>InteractMelee</soundInteract>
 		<techLevel>Medieval</techLevel>
 		<weaponTags>
@@ -824,6 +826,7 @@ A two-handed axe with the length of a polearm. Cheap and effective. A popular we
 			<Bulk>8</Bulk>
 			<Mass>4</Mass>
 			<MeleeCounterParryBonus>0.35</MeleeCounterParryBonus>
+			<ToolEffectivenessFactor>1</ToolEffectivenessFactor>
 		</statBases>
 		<equippedAngleOffset>-25</equippedAngleOffset>
 		<equippedStatOffsets>
@@ -866,7 +869,7 @@ A two-handed axe with the length of a polearm. Cheap and effective. A popular we
 		<modExtensions>
 			<li Class="SurvivalToolsLite.SurvivalToolProperties"  Inherit="false">
 				<baseWorkStatFactors>
-					<TreeFellingSpeed>1.1</TreeFellingSpeed>
+					<TreeFellingSpeed>1.55</TreeFellingSpeed>
 				</baseWorkStatFactors>
 				<defaultSurvivalToolAssignmentTags>
 					<li>PlantWorker</li>
@@ -1080,8 +1083,12 @@ TIER: Early Medieval
 + Cheap
 + Average lethality
 + Average penetration
++ Useful as a tool
 - Difficult to use (slow)
-- Poor defense</description>
+- Poor defense
+
+Can be used for felling trees and cutting plants, but not as efficient as a hand axe or sickle.</description>
+		<thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
 		<graphicData>
 			<texPath>Things/Weapons/Norbal/VileNorbalHandukarAx</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -1106,6 +1113,7 @@ TIER: Early Medieval
 			<Bulk>6</Bulk>
 			<Mass>2.5</Mass>
 			<MeleeCounterParryBonus>0.3</MeleeCounterParryBonus>
+			<ToolEffectivenessFactor>1</ToolEffectivenessFactor>
 		</statBases>
 		<equippedAngleOffset>0</equippedAngleOffset>
 		<equippedStatOffsets>
@@ -1145,10 +1153,11 @@ TIER: Early Medieval
 			<li>SharpMelee</li>
 		</thingCategories>
 		<modExtensions>
-			<li Class="SurvivalToolsLite.SurvivalToolProperties"  Inherit="false">
+			<li Class="SurvivalToolsLite.SurvivalToolProperties" Inherit="false">
 				<baseWorkStatFactors>
 					<TreeFellingSpeed>1.0</TreeFellingSpeed>
 					<PlantHarvestingSpeed>0.3</PlantHarvestingSpeed>
+					<PruningSpeed MayRequire="ludeon.rimworld.ideology">1.0</PruningSpeed>
 				</baseWorkStatFactors>
 				<defaultSurvivalToolAssignmentTags>
 					<li>PlantWorker</li>
