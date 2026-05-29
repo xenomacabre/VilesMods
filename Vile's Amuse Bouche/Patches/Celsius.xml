@@ -3,42 +3,21 @@
 
 	<Operation Class="PatchOperationFindMod">
 	<mods>
-		<li>Core SK</li>
+		<li>Celsius</li>
 	</mods>
-	<match Class="PatchOperationSequence">
-	<success>Always</success>
-			<operations>
-        		
-				
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="ElectricStove_Pro"]/statBases/WorkTableWorkSpeedFactor</xpath>
-				<value>
-					<WorkTableWorkSpeedFactor>1.2</WorkTableWorkSpeedFactor>
-				</value>
-			</li>
-			
-			<li Class="PatchOperationFindMod">
-			<mods>
-				<li>Celsius</li>
-			</mods>
-			<match Class="PatchOperationSequence">
+		<match Class="PatchOperationSequence">
 			<success>Always</success>
-				<operations>
-				
+			<operations>
+
 					<li Class="PatchOperationAdd">
 						<xpath>Defs/ThingDef[defName="Hearth" or defName="OpenHearth"]/statBases</xpath>
 						<value>
-							<MaxTemp>40</MaxTemp>
+							<MaxTemp>44</MaxTemp>
 						</value>	
 					</li>
-						
-				</operations>
-				</match>
-			</li>
-			
+							
 			</operations>
-
-			</match>
+		</match>
     </Operation>	
 
 	

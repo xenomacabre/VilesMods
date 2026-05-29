@@ -159,7 +159,7 @@ Rain-proof</description>
 				<value>
 					<description>A large standing torch, too big to be carried. Coated with oil or pitch, and you can even tie dry plant matter around it and burn that in a pinch.
 Light radius: 8
-Max Heat: 23
+Max Heat: 20 (4 per sec)
 Capacity: 8
 Efficiency: 30%</description>
 				</value>
@@ -186,8 +186,8 @@ Efficiency: 30%</description>
 				<value>
 					<li Class="SK.CompProperties_HeatPusherAdvanced">
 						<compClass>SK.CompHeatPusherAdvanced</compClass>
-						<heatPerSecond>8</heatPerSecond>
-						<heatPushMaxTemperature>23</heatPushMaxTemperature>
+						<heatPerSecond>4</heatPerSecond>
+						<heatPushMaxTemperature>20</heatPushMaxTemperature>
 					</li>
 				</value>
 			</li>
@@ -387,7 +387,7 @@ Efficiency: 35%</description>
 				<value>
 					<description>A stand that holds three candles. Illuminates a much greater space than a single candle holder, but of course burns through candles quicker.
 Light radius: 8
-Max heat: 16
+Max heat: 8 (2 per sec)
 Capacity: 3
 Efficiency: 50%</description>
 				</value>
@@ -486,8 +486,8 @@ Efficiency: 50%</description>
 				<value>
 					<li Class="SK.CompProperties_HeatPusherAdvanced">
 						<compClass>SK.CompHeatPusherAdvanced</compClass>
-						<heatPerSecond>4</heatPerSecond>
-						<heatPushMaxTemperature>16</heatPushMaxTemperature>
+						<heatPerSecond>2</heatPerSecond>
+						<heatPushMaxTemperature>8</heatPushMaxTemperature>
 					</li>
 				</value>
 			</li>

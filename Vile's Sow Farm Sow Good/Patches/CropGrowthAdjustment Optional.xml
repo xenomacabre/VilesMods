@@ -39,7 +39,7 @@
 		<li Class="PatchOperationReplace">
 			<xpath>Defs/ThingDef[defName="Plant_Cloudberry"]/plant/harvestYield</xpath>
 			<value>
-   				 <harvestYield>21</harvestYield> 
+   				 <harvestYield>16</harvestYield> 
 			</value>
 		</li>
 		<li Class="PatchOperationAdd">

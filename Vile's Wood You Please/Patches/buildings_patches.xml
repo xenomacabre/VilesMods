@@ -20,8 +20,8 @@
 				<value>
 					<li Class="SK.CompProperties_HeatPusherAdvanced">
 						<compClass>SK.CompHeatPusherAdvanced</compClass>
-						<heatPerSecond>15</heatPerSecond>
-						<heatPushMaxTemperature>30</heatPushMaxTemperature>
+						<heatPerSecond>22</heatPerSecond>
+						<heatPushMaxTemperature>34</heatPushMaxTemperature>
 					</li>
 				</value>
 			</li>
@@ -31,7 +31,7 @@
 					
 		<description>A wood-burning stove. Won't overheat your house and is much more efficient than an open fireplace, but provides very little light.
 Light radius: 3
-Max heat: 30
+Max heat: 32 (18/sec)
 Capacity: 15
 Efficiency: 50%</description>
 		

@@ -771,7 +771,7 @@
 		</lifeStages>
 		<livesInOcean>true</livesInOcean>
 		<livesInMarsh>false</livesInMarsh>
-		<livesInRiver>true</livesInRiver>
+		<livesInRiver>false</livesInRiver>
 		<commonality>0.45</commonality>
 		<naturalBiomes>
             <li MayRequire="vileheathen.mountainsmeadows">MontaneForest</li>

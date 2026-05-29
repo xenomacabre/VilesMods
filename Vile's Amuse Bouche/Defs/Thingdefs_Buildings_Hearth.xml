@@ -4,10 +4,10 @@
 <ThingDef ParentName="BuildingFueled">
 		<defName>OpenHearth</defName>
 		<label>open hearth</label>
-		<description>An open fireplace for cooking food, heating the home, and gathering with friends.
+		<description>A small open fireplace for cooking food, heating a small home, and gathering with friends.
 Light radius: 8
-Max heat: 35 (12 per sec)
-Capacity: 20
+Max heat: 30 (25 per sec)
+Capacity: 18
 Efficiency: 22%</description>    
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
@@ -29,7 +29,7 @@ Efficiency: 22%</description>
 		</stuffCategories>
 		<costStuffCount>90</costStuffCount>
 		<costList>
-			<ComponentMedieval>6</ComponentMedieval>
+			<ComponentMedieval>4</ComponentMedieval>
 		</costList>
 		<fillPercent>0.2</fillPercent>
 		<statBases>
@@ -62,8 +62,8 @@ Efficiency: 22%</description>
 			</li>
 			<li Class="SK.CompProperties_HeatPusherAdvanced">
 				<compClass>SK.CompHeatPusherAdvanced</compClass>
-				<heatPerSecond>12</heatPerSecond>
-				<heatPushMaxTemperature>35</heatPushMaxTemperature>
+				<heatPerSecond>25</heatPerSecond>
+				<heatPushMaxTemperature>30</heatPushMaxTemperature>
 			</li>
 			<li Class="SK.CompFueled_Properties">
 				<operatingTemp>400</operatingTemp>
@@ -71,7 +71,7 @@ Efficiency: 22%</description>
 				<smokeDrawOffset>(0,0,0.5)</smokeDrawOffset>
 				<fuelDrawOffset>(0,0.1,0.01)</fuelDrawOffset>
 				<fuelDrawScale>0.5</fuelDrawScale>
-				<fuelCapacity>20</fuelCapacity>
+				<fuelCapacity>18</fuelCapacity>
 				<burnFuelMultiplier>2.2</burnFuelMultiplier>
 				<smokesize>0.4</smokesize>
 				<canAutoBurn>true</canAutoBurn>
@@ -145,6 +145,9 @@ Efficiency: 22%</description>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>
 			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
+			<buildingTags>
+				<li MayRequire="Garwel.Celsius.SK">CelsiusSK_EveryBuildingCellPlusOne</li>
+			</buildingTags>
 		</building>
 		<researchPrerequisites>
 			<li>Pemmican</li>
@@ -156,10 +159,10 @@ Efficiency: 22%</description>
 		<defName>Hearth</defName>
 		<label>hearth</label>
 		<!--<thingClass>SK.Building_AnimatedWorktable</thingClass>-->
-		<description>An wall fireplace for cooking food, heating the home, and gathering with friends. More efficient and burns longer than a campfire.
+		<description>A large wall fireplace for cooking food, heating the home, and gathering with friends. More efficient and burns longer than a campfire.
 Light radius: 8
-Max heat: 32 (20 per sec)
-Capacity: 25
+Max heat: 35 (25 per sec)
+Capacity: 27
 Efficiency: 25%</description>    
 		<graphicData>
 			<texPath>Things/Building/Production/Hearth</texPath>
@@ -218,8 +221,8 @@ Efficiency: 25%</description>
 			</li>
 			<li Class="SK.CompProperties_HeatPusherAdvanced">
 				<compClass>SK.CompHeatPusherAdvanced</compClass>
-				<heatPerSecond>5</heatPerSecond> <!-- should be slow. Heating a cold cabin with a fireplace takes quite a while -->
-				<heatPushMaxTemperature>35</heatPushMaxTemperature> <!-- slightly more than campfire, less than heater stove -->
+				<heatPerSecond>25</heatPerSecond>
+				<heatPushMaxTemperature>35</heatPushMaxTemperature>
 			</li>
 				<li Class="SK.CompFueled_Properties">
 					<operatingTemp>400</operatingTemp>
@@ -227,7 +230,7 @@ Efficiency: 25%</description>
 					<fuelDrawScale>0.8</fuelDrawScale>
 					<smokeDrawOffset>(0,-0.1,0.85)</smokeDrawOffset>
 					<smokesize>0.6</smokesize>
-					<fuelCapacity>25</fuelCapacity>
+					<fuelCapacity>27</fuelCapacity>
 					<burnFuelMultiplier>2.5</burnFuelMultiplier>
 					<effectOnWeather>true</effectOnWeather>
 					<smokeEnabled>true</smokeEnabled>
@@ -277,9 +280,7 @@ Efficiency: 25%</description>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 			<li>PlaceWorker_Heater</li>
 			<li>PlaceWorker_MeditationOffsetBuildingsNear</li>
-			<!--<li>SK.PlaceWorker_OnlyOnThing</li>-->
 			<li>SK.PlaceWorker_WallAttachment</li>
-				<!--<li>SK.PlaceWorker_OnWall</li>-->
 		</placeWorkers>
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<designationCategory>Accessories</designationCategory>		

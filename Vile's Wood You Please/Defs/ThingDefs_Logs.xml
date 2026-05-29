@@ -505,6 +505,9 @@ Teak is an often sought-after hardwood. It's very expensive because it only grow
 				<Mass>0.75</Mass>
 			</statFactors>
 		</stuffProps>
+		<thingCategories Inherit="False">
+			<li>Ultrahardwoods</li>
+		</thingCategories>
 		<butcherProducts>
 			<TeakPlank>5</TeakPlank>
 			<TreeBark MayRequire="vitech.leathertanning">10</TreeBark>
@@ -710,6 +713,9 @@ Acacia is extremely hard and heavy. It makes strong weapons, shields, and armor,
                 </toolStatFactors>
             </li>
 		</modExtensions>
+		<thingCategories Inherit="False">
+			<li>Ultrahardwoods</li>
+		</thingCategories>
 		<butcherProducts>
 			<AcaciaPlank>5</AcaciaPlank>
 			<TreeBark MayRequire="vitech.leathertanning">20</TreeBark>

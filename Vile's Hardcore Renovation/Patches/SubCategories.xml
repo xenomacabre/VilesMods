@@ -8,31 +8,33 @@
     <match Class="PatchOperationAdd">
       <xpath>Defs</xpath>
       <value>
-
-	<ArchitectSense.DesignationSubCategoryDef>
-		<defName>SubCategory_Flagstone</defName>
-		<label>Gravel</label>
-		<description>Rough cut gravel. Good for roads or against a building's foundation. Deconstructing yields no resources.</description>
-		<defNames>
-			<li>FlagstoneSandstone</li>
-			<li>FlagstoneGranite</li>
-			<li>FlagstoneLimestone</li>
-			<li>FlagstoneSlate</li>
-			<li>FlagstoneMarble</li>
-			<li>FlagstoneBasalt</li>
-		</defNames>
-		<designationCategory>NaturalFloors</designationCategory>
-		<debug>false</debug>
-	</ArchitectSense.DesignationSubCategoryDef>
-
-
-
-
-
-		
+		<ArchitectSense.DesignationSubCategoryDef>
+			<defName>SubCategory_Flagstone</defName>
+			<label>Gravel</label>
+			<description>Rough cut gravel. Good for roads or against a building's foundation. Deconstructing yields no resources.</description>
+			<defNames>
+				<li>FlagstoneSandstone</li>
+				<li>FlagstoneGranite</li>
+				<li>FlagstoneLimestone</li>
+				<li>FlagstoneSlate</li>
+				<li>FlagstoneMarble</li>
+				<li>FlagstoneBasalt</li>
+			</defNames>
+			<designationCategory>NaturalFloors</designationCategory>
+			<debug>false</debug>
+		</ArchitectSense.DesignationSubCategoryDef>
 	</value>
     </match>
   </Operation>
 
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Bridges"]/defNames</xpath>
+		<value>
+			<li>BridgeOak</li>
+			<li>BridgeOakV</li>
+			<li>BridgePine</li>
+			<li>BridgePineV</li>
+		</value>
+	</Operation>
 
 </Patch>

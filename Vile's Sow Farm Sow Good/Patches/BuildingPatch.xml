@@ -13,13 +13,13 @@
 		<li Class="PatchOperationReplace">
 			<xpath>Defs/ThingDef[defName="ColdstoneBattery"]/comps/li[@Class="SK.CompProperties_ColdPusher"]/ColdPerSecond</xpath> 
 			<value>
-					<ColdPerSecond>-35</ColdPerSecond> <!-- slightly better-->
+					<ColdPerSecond>-100</ColdPerSecond> <!-- slightly better-->
 			</value>
 		</li>
 		<li Class="PatchOperationReplace">
 			<xpath>Defs/ThingDef[defName="ColdstoneBattery"]/comps/li[@Class="SK.CompProperties_ColdPusher"]/ColdPushMinTemperature</xpath> 
 			<value>
-					<ColdPushMinTemperature>1</ColdPushMinTemperature>
+					<ColdPushMinTemperature>-1</ColdPushMinTemperature>
 			</value>
 		</li>
 

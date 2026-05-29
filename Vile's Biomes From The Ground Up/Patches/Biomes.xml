@@ -238,7 +238,7 @@
 <Operation Class="PatchOperationReplace">
 <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/plantDensity</xpath>	
 	<value>	
-		<plantDensity>0.85</plantDensity>	
+		<plantDensity>0.55</plantDensity>	
 	</value>
 </Operation>			
 <Operation Class="PatchOperationReplace">
@@ -283,7 +283,7 @@
 <Operation Class="PatchOperationReplace">
 <xpath>Defs/BiomeDef[defName="TemperateSwampArchipelago"]/plantDensity</xpath>	
 	<value>	
-		<plantDensity>0.85</plantDensity>	
+		<plantDensity>0.55</plantDensity>	
 	</value>
 </Operation>			
 <Operation Class="PatchOperationReplace">
@@ -326,7 +326,7 @@
 <Operation Class="PatchOperationReplace">
 <xpath>Defs/BiomeDef[defName="BorealForest"]/plantDensity</xpath>	
 	<value>	
-		<plantDensity>1.0</plantDensity>	
+		<plantDensity>0.7</plantDensity>	
 	</value>
 </Operation>		
 	
@@ -447,7 +447,7 @@
 <Operation Class="PatchOperationReplace">
 <xpath>Defs/BiomeDef[defName="Tundra"]/plantDensity</xpath>	
 	<value>
-		<plantDensity>0.42</plantDensity>
+		<plantDensity>0.32</plantDensity>
 	</value>
 </Operation>	
 	
@@ -482,7 +482,7 @@
 <Operation Class="PatchOperationReplace">
 <xpath>Defs/BiomeDef[defName="AridShrubland"]/plantDensity</xpath>	
 	<value>	
-		<plantDensity>0.8</plantDensity>	
+		<plantDensity>0.6</plantDensity>	
 	</value>
 </Operation>	
 	
@@ -515,7 +515,7 @@
 <Operation Class="PatchOperationReplace">
 <xpath>Defs/BiomeDef[defName="Desert"]/plantDensity</xpath>	
 	<value>	
-		<plantDensity>0.8</plantDensity>	
+		<plantDensity>0.6</plantDensity>	
 	</value>
 </Operation>	
 <Operation Class="PatchOperationReplace">

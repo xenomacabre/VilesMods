@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <TerrainDef>
+    <defName>BridgeOak</defName>
+    <label>oak bridge (H)</label>
+    <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+    <texturePath>Terrain/Surfaces/OakDeck</texturePath>
+    <uiIconPath>Terrain/Surfaces/OakDeck</uiIconPath>
+    <layerable>true</layerable>
+    <bridge>true</bridge>
+    <affordances>
+      <li>Medium</li>
+    </affordances>
+    <designationCategory>Structure</designationCategory>
+    <fertility>0</fertility>
+    <constructEffect>ConstructWood</constructEffect>
+    <terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
+    <edgeType>Hard</edgeType>
+    <renderPrecedence>400</renderPrecedence>
+    <autoRebuildable>true</autoRebuildable>
+    <statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+    </statBases>
+    <costList>
+      <OakPlank>15</OakPlank>
+    </costList>
+    <tags>
+      <li>Floor</li>
+    </tags>
+    <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+    <destroyBuildingsOnDestroyed>true</destroyBuildingsOnDestroyed>
+    <destroyEffect>Bridge_Collapse</destroyEffect>
+    <destroyEffectWater>Bridge_CollapseWater</destroyEffectWater>
+  </TerrainDef>
+  
+   <TerrainDef>
+    <defName>BridgeOakV</defName>
+    <label>oak bridge (V)</label>
+    <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+    <texturePath>Terrain/Surfaces/OakDeckV</texturePath>
+    <uiIconPath>Terrain/Surfaces/OakDeckV</uiIconPath>
+    <layerable>true</layerable>
+    <bridge>true</bridge>
+    <affordances>
+      <li>Medium</li>
+    </affordances>
+    <designationCategory>Structure</designationCategory>
+    <fertility>0</fertility>
+    <constructEffect>ConstructWood</constructEffect>
+    <terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
+    <edgeType>Hard</edgeType>
+    <renderPrecedence>400</renderPrecedence>
+    <autoRebuildable>true</autoRebuildable>
+    <statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+    </statBases>
+    <costList>
+      <OakPlank>15</OakPlank>
+    </costList>
+    <tags>
+      <li>Floor</li>
+    </tags>
+    <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+    <destroyBuildingsOnDestroyed>true</destroyBuildingsOnDestroyed>
+    <destroyEffect>Bridge_Collapse</destroyEffect>
+    <destroyEffectWater>Bridge_CollapseWater</destroyEffectWater>
+  </TerrainDef>
+
+
+   <TerrainDef>
+    <defName>BridgePine</defName>
+    <label>pine bridge (H)</label>
+    <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+    <texturePath>Terrain/Surfaces/PineDeck</texturePath>
+    <uiIconPath>Terrain/Surfaces/PineDeck</uiIconPath>
+    <layerable>true</layerable>
+    <bridge>true</bridge>
+    <affordances>
+      <li>Medium</li>
+    </affordances>
+    <designationCategory>Structure</designationCategory>
+    <fertility>0</fertility>
+    <constructEffect>ConstructWood</constructEffect>
+    <terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
+    <edgeType>Hard</edgeType>
+    <renderPrecedence>400</renderPrecedence>
+    <autoRebuildable>true</autoRebuildable>
+    <statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+    </statBases>
+    <costList>
+      <PinePlank>15</PinePlank>
+    </costList>
+    <tags>
+      <li>Floor</li>
+    </tags>
+    <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+    <destroyBuildingsOnDestroyed>true</destroyBuildingsOnDestroyed>
+    <destroyEffect>Bridge_Collapse</destroyEffect>
+    <destroyEffectWater>Bridge_CollapseWater</destroyEffectWater>
+  </TerrainDef>
+  
+   <TerrainDef>
+    <defName>BridgePineV</defName>
+    <label>pine bridge (V)</label>
+    <description>A flat wooden surface on supportive beams which can be built over water. You can build light structures on bridges, but be careful - bridges are fragile. If a bridge falls, buildings on top of it fall as well.</description>
+    <texturePath>Terrain/Surfaces/PineDeckV</texturePath>
+    <uiIconPath>Terrain/Surfaces/PineDeckV</uiIconPath>
+    <layerable>true</layerable>
+    <bridge>true</bridge>
+    <affordances>
+      <li>Medium</li>
+    </affordances>
+    <designationCategory>Structure</designationCategory>
+    <fertility>0</fertility>
+    <constructEffect>ConstructWood</constructEffect>
+    <terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
+    <edgeType>Hard</edgeType>
+    <renderPrecedence>400</renderPrecedence>
+    <autoRebuildable>true</autoRebuildable>
+    <statBases>
+      <WorkToBuild>1500</WorkToBuild>
+      <Flammability>0.8</Flammability>
+    </statBases>
+    <costList>
+      <PinePlank>15</PinePlank>
+    </costList>
+    <tags>
+      <li>Floor</li>
+    </tags>
+    <designationHotKey>Misc4</designationHotKey>
+    <destroyOnBombDamageThreshold>35</destroyOnBombDamageThreshold>
+    <destroyBuildingsOnDestroyed>true</destroyBuildingsOnDestroyed>
+    <destroyEffect>Bridge_Collapse</destroyEffect>
+    <destroyEffectWater>Bridge_CollapseWater</destroyEffectWater>
+  </TerrainDef>
+
+</Defs>

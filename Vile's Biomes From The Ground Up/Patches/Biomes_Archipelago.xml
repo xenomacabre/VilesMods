@@ -82,21 +82,58 @@
 	<!-- Temperate Archipelago -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/BiomeDef[defName="TemperateArchipelago"]/terrainsByFertility</xpath>
-		<value>
+		<value>	
 		<terrainsByFertility>
-				<li>
-					<terrain>Soil</terrain>
-					<min>-999</min>
-					<max>0.6</max>
-				</li>
-				<li>
-					<terrain>RedClaySoil</terrain>
-					<min>0.6</min>
-					<max>999</max>
-				</li>
-			</terrainsByFertility>
+			<li>
+				<terrain>Soil</terrain>
+				<min>-999</min>
+				<max>0.87</max>
+			</li>
+			<li>
+				<terrain>RedClaySoil</terrain>
+				<min>0.87</min>
+				<max>999</max>
+			</li>
+			<li>
+				<terrain>MarshyTerrain</terrain>
+				<min>0.30</min>
+				<max>0.67</max>
+			</li>	
+		</terrainsByFertility>
 		</value>
+    </Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Geological Landforms</li>
+	</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/BiomeDef[defName="TemperateArchipelago"]/terrainPatchMakers</xpath>
+						<value>
+							<terrainPatchMakers>
+								<li>
+									<perlinFrequency>0.015</perlinFrequency>
+									<thresholds>
+										<li>
+											<terrain>Gravel</terrain>
+											<min>0.85</min>
+											<max>999</max>
+										</li>
+									</thresholds>
+								</li>
+							</terrainPatchMakers>	
+						</value>	
+					</li>
+							
+			</operations>
+		</match>
     </Operation>	
+
+	
 	
 	<!-- Swamp Archipelago -->
 	<Operation Class="PatchOperationReplace">

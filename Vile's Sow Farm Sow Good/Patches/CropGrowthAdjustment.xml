@@ -452,7 +452,7 @@
 		<li Class="PatchOperationReplace">
 			<xpath>Defs/ThingDef[defName="Plant_Blueberry"]/plant/harvestYield</xpath>
 			<value>
-   				 <harvestYield>25</harvestYield> 
+   				 <harvestYield>18</harvestYield> 
 			</value>
 		</li>
 		
@@ -480,7 +480,7 @@
 		<li Class="PatchOperationReplace">
 			<xpath>Defs/ThingDef[defName="Plant_TreeGrape"]/plant/harvestYield</xpath>
 			<value>
-   				 <harvestYield>17</harvestYield> 
+   				 <harvestYield>16</harvestYield> 
 			</value>
 		</li>
 		
