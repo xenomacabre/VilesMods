@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+    
+
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>[JPT] Soft Warm Beds HSK</li>
+	</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+			<!-- ========== Leather ========== -->
+			
+			<li Class="PatchOperationReplace"> <!-- Mycotan Leather -->
+				<xpath>Defs/ThingDef[defName="DevilstrandCloth"]/statBases/Textile_Softness</xpath>
+				<value><!-- IGSF 0.96 -->
+					<Textile_Softness>0.32</Textile_Softness>
+				</value>
+			</li>
+		
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>
