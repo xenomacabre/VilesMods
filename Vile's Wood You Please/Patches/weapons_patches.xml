@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
-
+<!--
 	<Operation Class="PatchOperationFindMod">
 	<mods>
 		<li>Core SK</li>
@@ -28,4 +28,5 @@
 		</operations>
 		</match>
     </Operation>	
+	-->
 </Patch>	

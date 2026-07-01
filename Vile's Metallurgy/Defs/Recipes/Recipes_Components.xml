@@ -228,16 +228,11 @@
 			<categories>
 				<li>CastBar</li>
 			</categories>
-		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<categories>
-				<li>CastBar</li>
-			</categories>
 			<thingDefs>
 				<li>SandResource</li>
 				<li>SoftClay</li>
 			</thingDefs>
-		</defaultIngredientFilter>
+		</fixedIngredientFilter>
 		<products>
 			<ComponentIndustrial>30</ComponentIndustrial>
 		</products>
