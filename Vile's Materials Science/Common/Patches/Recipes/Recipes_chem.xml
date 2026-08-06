@@ -69,7 +69,7 @@
 				</value>
 			</li>
 		  <li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName="MakeAmmo_Flamethrower_Napalm"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName="MakeAmmo_Flamethrower_Napalm"]/fixedIngredientFilter</xpath>
 				<value>
                      <fixedIngredientFilter>
                         <thingDefs>
@@ -81,7 +81,7 @@
 			
 			
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName="MakePowder"]/ingredients</xpath>
+				<xpath>Defs/RecipeDef[defName="MakePowder"]/products</xpath>
 				<value>
                  <products>
 					<BlackPowder>20</BlackPowder>
