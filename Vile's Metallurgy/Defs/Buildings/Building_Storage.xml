@@ -272,32 +272,117 @@
 	<AdaptiveStorage.GraphicsDef>
 		<defName>Building_ClayPotAshASF</defName>
 		<targetDef>Building_ClayPotAsh</targetDef>
-		<graphics><li><graphicData><texPath>Things/Pottery/Pot_Ash</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li></graphics>
+		<graphics>
+			<li><graphicData><texPath>Things/Pottery/Pot_Ash</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li>
+			<li>
+				<graphicData><texPath>Things/Pottery/Pot_Ash_full</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData>
+				<minimumStackCount>5</minimumStackCount>
+				<showContainedItems>false</showContainedItems>
+			</li>
+		</graphics>
 		<showContainedItems>true</showContainedItems>
+		<itemGraphics>
+			<columns><c0><rows><r0>
+				<stackBehaviour>Circle</stackBehaviour>
+				<stackOffset>(0,0,0.5)</stackOffset>
+				<drawOffset>(0,0,0.05)</drawOffset>
+				<stackOffsetFactor>0.2</stackOffsetFactor>
+				<drawScale>0.3</drawScale>
+				<maxDrawSize>(0.3,0.3)</maxDrawSize>
+			</r0></rows></c0></columns>
+		</itemGraphics>
 	</AdaptiveStorage.GraphicsDef>
 	<AdaptiveStorage.GraphicsDef>
 		<defName>Building_ClayPotPaintedASF</defName>
 		<targetDef>Building_ClayPotPainted</targetDef>
-		<graphics><li><graphicData><texPath>Things/Pottery/Pot_RedFigure</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li></graphics>
+		<graphics>
+			<li><graphicData><texPath>Things/Pottery/Pot_RedFigure</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li>
+			<li>
+				<graphicData><texPath>Things/Pottery/Pot_RedFigure_full</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData>
+				<minimumStackCount>5</minimumStackCount>
+				<showContainedItems>false</showContainedItems>
+			</li>
+		</graphics>
 		<showContainedItems>true</showContainedItems>
+		<itemGraphics>
+			<columns><c0><rows><r0>
+				<stackBehaviour>Circle</stackBehaviour>
+				<stackOffset>(0,0,0.5)</stackOffset>
+				<drawOffset>(0,0,0.05)</drawOffset>
+				<stackOffsetFactor>0.2</stackOffsetFactor>
+				<drawScale>0.3</drawScale>
+				<maxDrawSize>(0.3,0.3)</maxDrawSize>
+			</r0></rows></c0></columns>
+		</itemGraphics>
 	</AdaptiveStorage.GraphicsDef>
 	<AdaptiveStorage.GraphicsDef>
 		<defName>Building_ClayPotSaltASF</defName>
 		<targetDef>Building_ClayPotSalt</targetDef>
-		<graphics><li><graphicData><texPath>Things/Pottery/Pot_Salt</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li></graphics>
+		<graphics>
+			<li><graphicData><texPath>Things/Pottery/Pot_Salt</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li>
+			<li>
+				<graphicData><texPath>Things/Pottery/Pot_Salt_full</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData>
+				<minimumStackCount>5</minimumStackCount>
+				<showContainedItems>false</showContainedItems>
+			</li>
+		</graphics>
 		<showContainedItems>true</showContainedItems>
+		<itemGraphics>
+			<columns><c0><rows><r0>
+				<stackBehaviour>Circle</stackBehaviour>
+				<stackOffset>(0,0,0.5)</stackOffset>
+				<drawOffset>(0,0,0.05)</drawOffset>
+				<stackOffsetFactor>0.2</stackOffsetFactor>
+				<drawScale>0.3</drawScale>
+				<maxDrawSize>(0.3,0.3)</maxDrawSize>
+			</r0></rows></c0></columns>
+		</itemGraphics>
 	</AdaptiveStorage.GraphicsDef>
 	<AdaptiveStorage.GraphicsDef>
 		<defName>Building_ClayPotLeadASF</defName>
 		<targetDef>Building_ClayPotLead</targetDef>
-		<graphics><li><graphicData><texPath>Things/Pottery/Pot_Lead</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li></graphics>
+		<graphics>
+			<li><graphicData><texPath>Things/Pottery/Pot_Lead</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li>
+			<li>
+				<graphicData><texPath>Things/Pottery/Pot_Lead_full</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData>
+				<minimumStackCount>5</minimumStackCount>
+				<showContainedItems>false</showContainedItems>
+			</li>
+		</graphics>
 		<showContainedItems>true</showContainedItems>
+		<itemGraphics>
+			<columns><c0><rows><r0>
+				<stackBehaviour>Circle</stackBehaviour>
+				<stackOffset>(0,0,0.5)</stackOffset>
+				<drawOffset>(0,0,0.05)</drawOffset>
+				<stackOffsetFactor>0.2</stackOffsetFactor>
+				<drawScale>0.3</drawScale>
+				<maxDrawSize>(0.3,0.3)</maxDrawSize>
+			</r0></rows></c0></columns>
+		</itemGraphics>
 	</AdaptiveStorage.GraphicsDef>
 	<AdaptiveStorage.GraphicsDef>
 		<defName>Building_ClayPotTinASF</defName>
 		<targetDef>Building_ClayPotTin</targetDef>
-		<graphics><li><graphicData><texPath>Things/Pottery/Pot_Tin</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li></graphics>
+		<graphics>
+			<li><graphicData><texPath>Things/Pottery/Pot_Tin</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li>
+			<li>
+				<graphicData><texPath>Things/Pottery/Pot_Tin_full</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData>
+				<minimumStackCount>5</minimumStackCount>
+				<showContainedItems>false</showContainedItems>
+			</li>
+		</graphics>
 		<showContainedItems>true</showContainedItems>
+		<itemGraphics>
+			<columns><c0><rows><r0>
+				<stackBehaviour>Circle</stackBehaviour>
+				<stackOffset>(0,0,0.5)</stackOffset>
+				<drawOffset>(0,0,0.05)</drawOffset>
+				<stackOffsetFactor>0.2</stackOffsetFactor>
+				<drawScale>0.3</drawScale>
+				<maxDrawSize>(0.3,0.3)</maxDrawSize>
+			</r0></rows></c0></columns>
+		</itemGraphics>
 	</AdaptiveStorage.GraphicsDef>
 	
 	

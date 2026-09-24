@@ -248,8 +248,27 @@
 						<drawRotated>false</drawRotated>
 					</graphicData>
 				</li>
+				<li>
+					<graphicData>
+						<texPath>Things/Pottery/Pot_unglazed_full</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<drawRotated>false</drawRotated>
+					</graphicData>
+					<minimumStackCount>5</minimumStackCount>
+					<showContainedItems>false</showContainedItems>
+				</li>
 			</graphics>
 			<showContainedItems>true</showContainedItems>
+			<itemGraphics DeepReplace="true">
+				<columns><c0><rows><r0>
+					<stackBehaviour>Circle</stackBehaviour>
+					<stackOffset>(0,0,0.5)</stackOffset>
+					<drawOffset>(0,0,0.05)</drawOffset>
+					<stackOffsetFactor>0.2</stackOffsetFactor>
+					<drawScale>0.3</drawScale>
+					<maxDrawSize>(0.3,0.3)</maxDrawSize>
+				</r0></rows></c0></columns>
+			</itemGraphics>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
