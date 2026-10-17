@@ -144,7 +144,7 @@
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<statBases>
 			<WorkToBuild>400</WorkToBuild>
-			<WorkTableWorkSpeedFactor>1.2</WorkTableWorkSpeedFactor>
+			<WorkTableWorkSpeedFactor>2.4</WorkTableWorkSpeedFactor>
 			<OutdoorWorkRateFactor>1.2</OutdoorWorkRateFactor>
 			<Mass>1</Mass>
 		</statBases>
