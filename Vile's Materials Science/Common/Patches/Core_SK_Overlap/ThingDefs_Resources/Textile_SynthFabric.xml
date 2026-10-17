@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<!-- Core_SK overlap changes from Common/Defs/ThingDefs_Resources/Textile_SynthFabric.xml. Identical fields are intentionally omitted. -->
+	<!-- ThingDef: Velour -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Velour"]/burnableByRecipe</xpath>
+	</Operation>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="Velour"]</xpath>
+		<value Merge="true">
+			<description>TIER 3 - Industrial
+&gt;&gt;&gt; Optimal	Bedding, Furniture
+&gt;&gt; Suitable	All-season
+X Inadvisable 	Armor, Economy
+
+This luxurious fabric is made of a blend of cotton and rayon. It's exceptionally beautiful and makes fantastic furniture.</description>
+			<graphicData>
+				<texPath>Things/Item/Resource/Cloth</texPath>
+				<graphicClass>Graphic_StackCount</graphicClass>
+				<color>(209,52,83)</color>
+			</graphicData>
+			<statBases>
+				<StuffPower_Insulation_Cold>15</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+			</statBases>
+			<stuffProps>
+				<commonality>0.2</commonality>
+				<stuffAdjective>Velour</stuffAdjective>
+				<color>(209,52,83)</color>
+				<statFactors>
+					<MaxHitPoints>1.5</MaxHitPoints>
+					<Beauty>4</Beauty>
+					<WorkToMake>1.2</WorkToMake>
+					<WorkToBuild>1.2</WorkToBuild>
+					<ImmunityGainSpeedFactor>1.05</ImmunityGainSpeedFactor>
+					<Mass>0.5</Mass>
+					<Cleanliness>1.33</Cleanliness>
+				</statFactors>
+			</stuffProps>
+		</value>
+	</Operation>
+	<!-- ThingDef: Synthread -->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="Synthread"]</xpath>
+		<value Merge="true">
+			<label>Polyester</label>
+			<description>TIER 3 - Industrial (Commodity)
+&gt;&gt;&gt; Optimal	Production
+&gt;&gt; Suitable	Hospitals, Durability
+X Inadvisable 	Bedding
+
+Polyester is synthetic fabric made from polymer fibers. It's exceptionally easy to work with making it a commodity material, insulates well, but isn't the most comfortable in hot climates. It's antimicrobial properties make it an excellent candidate for hospital bedding.</description>
+			<graphicData>
+				<texPath>Things/Item/Textile/Polyester</texPath>
+				<color>(255,255,190)</color>
+			</graphicData>
+			<statBases>
+				<MaxHitPoints>90</MaxHitPoints>
+				<MarketValue>5.0</MarketValue>
+				<Flammability>0.3</Flammability>
+				<StuffPower_Armor_Blunt>1.2</StuffPower_Armor_Blunt>
+				<StuffPower_Armor_Sharp>1.5</StuffPower_Armor_Sharp>
+				<StuffPower_Armor_Heat>0.135</StuffPower_Armor_Heat>
+				<StuffPower_Insulation_Heat>6</StuffPower_Insulation_Heat>
+				<Mass>0.03</Mass>
+				<Bulk>0.03</Bulk>
+			</statBases>
+			<stackLimit>300</stackLimit>
+			<techLevel>Industrial</techLevel>
+			<stuffProps>
+				<commonality>1.6</commonality>
+				<stuffAdjective>Polyester</stuffAdjective>
+				<color>(255,255,190)</color>
+				<statFactors>
+					<MaxHitPoints>1.8</MaxHitPoints>
+					<Beauty>1.2</Beauty>
+					<WorkToMake>0.6</WorkToMake>
+					<WorkToBuild>0.7</WorkToBuild>
+					<MoveSpeed>0.7</MoveSpeed>
+					<MarketValue>1.3</MarketValue>
+					<BedRestEffectiveness>1</BedRestEffectiveness>
+					<ImmunityGainSpeedFactor>1.3</ImmunityGainSpeedFactor>
+					<Mass>0.4</Mass>
+					<Cleanliness>3</Cleanliness>
+				</statFactors>
+			</stuffProps>
+		</value>
+	</Operation>
+	<!-- ThingDef: Kevlar -->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="Kevlar"]</xpath>
+		<value Merge="true">
+			<description>TIER 3 - Industrial (Engineering)
+&gt;&gt;&gt; Optimal	Ballistic Armor
+&gt;&gt; Suitable	Durability
+X Inadvisable 	Economy, Summer
+
+Kevlar is a para-aramid (a class of high-performance synthetic fiber). In contrast to Nomex, it has can be used as ballistic armor and tends to be uncomfortable in hot weather. Both aramids are durable and long-lasting.</description>
+			<graphicData>
+				<texPath>Things/Item/Textile/HiTech</texPath>
+				<color>(109,128,33)</color>
+			</graphicData>
+			<statBases>
+				<MaxHitPoints>150</MaxHitPoints>
+				<StuffPower_Armor_Blunt>1.65</StuffPower_Armor_Blunt>
+				<StuffPower_Armor_Sharp>1.85</StuffPower_Armor_Sharp>
+				<StuffPower_Armor_Heat>0.158</StuffPower_Armor_Heat>
+				<StuffPower_Insulation_Cold>15</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>-3</StuffPower_Insulation_Heat>
+			</statBases>
+			<stuffProps>
+				<commonality>0.35</commonality>
+				<constructEffect>ConstructMetal</constructEffect>
+				<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+				<categories>
+					<li>HF</li>
+				</categories>
+				<color>(109,128,33)</color>
+				<statFactors>
+					<MaxHitPoints>2.4</MaxHitPoints>
+					<Flammability>0.03</Flammability>
+					<Beauty>1.0</Beauty>
+					<WorkToMake>1.5</WorkToMake>
+					<WorkToBuild>1.5</WorkToBuild>
+					<MoveSpeed>0.8</MoveSpeed>
+					<MarketValue>2</MarketValue>
+					<BedRestEffectiveness>1</BedRestEffectiveness>
+					<ImmunityGainSpeedFactor>1</ImmunityGainSpeedFactor>
+					<Mass>0.8</Mass>
+				</statFactors>
+			</stuffProps>
+			<thingCategories DeepReplace="true">
+				<li>HTextiles</li>
+			</thingCategories>
+		</value>
+	</Operation>
+	<!-- ThingDef: Hyperweave -->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="Hyperweave"]</xpath>
+		<value Merge="true">
+			<label>Dyneema</label>
+			<description>TIER 4 - High Tech
+&gt;&gt;&gt; Optimal	Ballistic Armor
+&gt;&gt; Suitable	Durability
+X Inadvisable 	Production
+
+Dyneema is an UHMWPE (ultra-high molecular weight polyurythane). It is the strongest ballistic fiber on the market, is lightweight and comfortable.</description>
+			<graphicData>
+				<texPath>Things/Item/Textile/HexFabric</texPath>
+				<color>(52,122,46)</color>
+			</graphicData>
+			<statBases>
+				<MarketValue>35</MarketValue>
+				<MaxHitPoints>200</MaxHitPoints>
+				<Flammability>0.1</Flammability>
+				<StuffPower_Armor_Blunt>1.65</StuffPower_Armor_Blunt>
+				<StuffPower_Armor_Sharp>2.2</StuffPower_Armor_Sharp>
+				<StuffPower_Armor_Heat>0.16</StuffPower_Armor_Heat>
+				<StuffPower_Insulation_Cold>7</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>18</StuffPower_Insulation_Heat>
+			</statBases>
+			<stuffProps>
+				<commonality>0.2</commonality>
+				<stuffAdjective>dyneema</stuffAdjective>
+				<statFactors>
+					<MaxHitPoints>2.6</MaxHitPoints>
+					<Flammability>0.1</Flammability>
+					<WorkToMake>2</WorkToMake>
+					<WorkToBuild>2</WorkToBuild>
+					<MarketValue>2.5</MarketValue>
+					<BedRestEffectiveness>1.2</BedRestEffectiveness>
+					<ImmunityGainSpeedFactor>1.2</ImmunityGainSpeedFactor>
+					<Mass>0.55</Mass>
+					<Cleanliness>2</Cleanliness>
+				</statFactors>
+			</stuffProps>
+		</value>
+	</Operation>
+	<!-- ThingDef: ChitinPlating -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="ChitinPlating"]/soundInteract</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="ChitinPlating"]/soundDrop</xpath>
+	</Operation>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="ChitinPlating"]</xpath>
+		<value Merge="true">
+			<label>Zylon</label>
+			<description>TIER 4 - High Tech
+&gt;&gt;&gt; Optimal	Thermal Armor, Heat Resistance
+&gt;&gt; Suitable	Ballistic Armor
+X Inadvisable 	Durability
+
+Recognized by its golden hue, Zylon is a high-perfomance synthetic fiber with fire-resistant properties. It makes top-tier ballistic armor, bested only by Dyneema, but as a textile, it's unrivaled against energy weapons. It also makes effective fire-fighting apparel, second only to Nomex. Its only real failing is the fibers tend to break down over time so it doesn't have the longevity other ballistic fibers have.</description>
+			<graphicData>
+				<texPath>Things/Item/Textile/HexFabric</texPath>
+				<graphicClass>Graphic_StackCount</graphicClass>
+				<color>(255,207,100)</color>
+			</graphicData>
+			<statBases>
+				<MaxHitPoints>200</MaxHitPoints>
+				<Flammability>0</Flammability>
+				<StuffPower_Armor_Blunt>1.7</StuffPower_Armor_Blunt>
+				<StuffPower_Armor_Sharp>1.9</StuffPower_Armor_Sharp>
+				<StuffPower_Armor_Heat>0.2</StuffPower_Armor_Heat>
+				<StuffPower_Insulation_Cold>14</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>75</StuffPower_Insulation_Heat>
+				<Mass>0.03</Mass>
+				<Bulk>0.03</Bulk>
+			</statBases>
+			<stuffProps>
+				<commonality>0.2</commonality>
+				<stuffAdjective>zylon</stuffAdjective>
+				<color>(255,207,100)</color>
+				<statFactors>
+					<MaxHitPoints>1.9</MaxHitPoints>
+					<Flammability>-1</Flammability>
+					<WorkToMake>1.8</WorkToMake>
+					<WorkToBuild>1.8</WorkToBuild>
+					<Beauty>2</Beauty>
+					<MoveSpeed>1.2</MoveSpeed>
+					<MarketValue>2.5</MarketValue>
+					<BedRestEffectiveness>1.15</BedRestEffectiveness>
+					<ImmunityGainSpeedFactor>1.3</ImmunityGainSpeedFactor>
+					<Mass>0.8</Mass>
+					<Cleanliness>3</Cleanliness>
+				</statFactors>
+			</stuffProps>
+			<stackLimit>150</stackLimit>
+		</value>
+	</Operation>
+</Patch>

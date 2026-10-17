@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<!-- BASE -->
-	<ThingDef Name="RangedWeaponBase" Abstract="True">
+	<!-- 	<ThingDef Name="RangedWeaponBase" Abstract="True">
 		<category>Item</category>
 		<thingClass>ThingWithComps</thingClass>
 		<equipmentType>Primary</equipmentType>
@@ -30,7 +30,6 @@
 		</weaponTags>
 		<tools>
 			<li Class="CombatExtended.ToolCE">
-				 <!--<id>limb</id>-->
 				<label>limb</label>
 				<capacities>
 					<li>Blunt</li>
@@ -42,7 +41,6 @@
 				<linkedBodyPartsGroup>Base</linkedBodyPartsGroup>
 			</li>
 			<li Class="CombatExtended.ToolCE">
-				 <!--<id>nock</id>-->
 				<label>nock</label>
 				<capacities>
 					<li>Poke</li>
@@ -68,7 +66,7 @@
 				<minQualityForArtistic>Excellent</minQualityForArtistic>
 			</li>
 		</comps>
-	</ThingDef>
+	</ThingDef> -->
 	<ThingDef Name="RangedWeaponNeoliticBase" ParentName="RangedWeaponBase" Abstract="True">
 		<techLevel>Neolithic</techLevel>
 		<recipeMaker>
@@ -86,7 +84,7 @@
 		</recipeMaker>
 		<burnableByRecipe>True</burnableByRecipe>
 	</ThingDef>
-	<ThingDef Name="RangedWeaponMedievalBase" ParentName="RangedWeaponBase" Abstract="True">
+<!-- 	<ThingDef Name="RangedWeaponMedievalBase" ParentName="RangedWeaponBase" Abstract="True">
 		<techLevel>Medieval</techLevel>
 		<recipeMaker>
 			<workSpeedStat>SmithingSpeed</workSpeedStat>
@@ -103,10 +101,10 @@
 			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
 		</recipeMaker>
 		<burnableByRecipe>True</burnableByRecipe>
-	</ThingDef>
+	</ThingDef> -->
 
 	<!-- FLAT BOW -->
-	<ThingDef ParentName="RangedWeaponNeoliticBase">
+	<!-- <ThingDef ParentName="RangedWeaponNeoliticBase">
 		<defName>Bow_Short</defName>
 		<label>Flat Bow</label>
 		<description>This is the simplest bow which can be made with primitive tech and unrefined wood. Bows require a lot of training to use effectively, although this is the easiest type to use despite having a long draw time.</description>
@@ -155,10 +153,10 @@
 		<thingCategories>
 			<li>BowRanged</li>
 		</thingCategories>
-	</ThingDef>	
-	
+	</ThingDef> -->
+
 	<!-- LONG BOW -->
-	<ThingDef ParentName="RangedWeaponNeoliticBase">
+	<!-- <ThingDef ParentName="RangedWeaponNeoliticBase">
 		<defName>Bow_Great</defName>
 		<label>Long Bow</label>
 		<description>Your classic medieval bow shaped like a “D”. It can be mass-produced, and fires quite far (farther than a crossbow). Bows require a lot of training to use: An amateur archer may only be effective against targets within 10 or so meters, but a master can hit things 30 or so meters away.</description>
@@ -210,10 +208,10 @@
 		<thingCategories>
 			<li>BowRanged</li>
 		</thingCategories>
-	</ThingDef>
-	
+	</ThingDef> -->
+
 	<!-- RECURVE BOW -->
-	<ThingDef ParentName="RangedWeaponMedievalBase">
+	<!-- <ThingDef ParentName="RangedWeaponMedievalBase">
 		<defName>Bow_Recurve</defName>
 		<label>Recurve Bow</label>
 		<description>This bow favored by The Horde takes a long time to make but can fire further than a long bow and is also less bulky. It is curved in a manner that allows it to store more energy with a shorter limb. The composite construction is tempermental and difficult to make. Bows require a lot of training to use: An amateur archer may only be effective against targets within 10 or so meters, but a master can hit things 30 or 40m away.</description>
@@ -266,11 +264,11 @@
 		<thingCategories>
 			<li>BowRanged</li>
 		</thingCategories>
-	</ThingDef>
-	
+	</ThingDef> -->
 
-		<!-- NU GONG -->
-	<ThingDef ParentName="RangedWeaponMedievalBase">
+
+	<!-- NU GONG -->
+	<!-- <ThingDef ParentName="RangedWeaponMedievalBase">
 		<defName>Norbal_Scorpion</defName>
 		<label>Repeating Nu Gong</label>
 		<description>With a magazine of 20 bolts, high rate of fire, and firing two bolts at once, it seems like a beast, but the user will soon find that it fires easily-deflected bolts with terrible accuracy at a very short range. It is however, fairly compact and is a good self-defense weapon for unskilled noncombatants. For added lethality, poison-tipped bolts are often used.</description>
@@ -309,7 +307,7 @@
 				<range>16</range>
 				<soundCast>Crossbow_S_hold</soundCast>
 				<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
-               		 	<burstShotCount>2</burstShotCount>	
+				<burstShotCount>2</burstShotCount>
 			</li>
 		</verbs>
 		<comps>
@@ -327,10 +325,10 @@
 		<thingCategories>
 			<li>CrossbarRanged</li>
 		</thingCategories>
-	</ThingDef>
+	</ThingDef> -->
 
-		<!-- CROSSBOW -->
-	<ThingDef ParentName="RangedWeaponMedievalBase">
+	<!-- CROSSBOW -->
+	<!-- <ThingDef ParentName="RangedWeaponMedievalBase">
 		<defName>Crossbow</defName>
 		<label>Light Crossbow</label>
 		<description>Fires smaller bolts than an arbalest, but light enough to be fired from one hand.</description>
@@ -389,10 +387,10 @@
 		<thingCategories>
 			<li>CrossbarRanged</li>
 		</thingCategories>
-	</ThingDef>
-	
+	</ThingDef> -->
+
 	<!-- ARBALEST -->
-	<ThingDef ParentName="RangedWeaponMedievalBase">
+	<!-- <ThingDef ParentName="RangedWeaponMedievalBase">
 		<defName>Arbalest</defName>
 		<label>Arbalest Mk2</label>
 		<description>A crossbow with a metal bow and a special mechanism for drawing back and releasing the string. Very slow-firing but the firepower is superior to any other handheld bow weapon. It also doesn't take a lot of training to learn to fire accurately.</description>
@@ -426,7 +424,7 @@
 			<li Class="CombatExtended.VerbPropertiesCE">
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>Projectile_MetallicBolt</defaultProjectile>
+				<defaultProjectile>Projectile_BodkinBolt</defaultProjectile>
 				<warmupTime>1.25</warmupTime>
 				<range>37</range>
 				<soundCast>Crossbow_S_hold</soundCast>
@@ -450,6 +448,6 @@
 		<thingCategories>
 			<li>CrossbarRanged</li>
 		</thingCategories>
-	</ThingDef>
+	</ThingDef> -->
 
 </Defs>

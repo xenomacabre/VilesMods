@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
-<!-- CULTIVATE-->
+	<!-- CULTIVATE-->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_RockDirt"]/label</xpath>
 		<value>
 			<label>Cultivate</label>
 		</value>
 	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_RockDirt"]/defNames</xpath>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_RockDirt"]</xpath>
 		<value>
-			<defNames>
+			<defNames Merge="True">
 				<li>Terraform_EnrichSoil</li>
 				<li>Terraform_EnrichWithAsh</li>
 				<li>Topsoil-DirtFert</li>
@@ -19,18 +19,18 @@
 			</defNames>
 		</value>
 	</Operation>
-	
-<!-- IMPROVE SOIL -->
+
+	<!-- IMPROVE SOIL -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Sand"]/label</xpath>
 		<value>
 			<label>Improve Soil From...</label>
 		</value>
 	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Sand"]/defNames</xpath>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Sand"]</xpath>
 		<value>
-			<defNames>
+			<defNames Merge="True">
 				<li>Terraform_FertileFromClay</li>
 				<li>Terraform_FertileFromSilty</li>
 				<li>Terraform_FertileFromSandy</li>
@@ -40,17 +40,17 @@
 			</defNames>
 		</value>
 	</Operation>
-<!-- DEVELOP SOIL -->
+	<!-- DEVELOP SOIL -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Gravel"]/label</xpath>
 		<value>
 			<label>Undeveloped Soil to...</label>
 		</value>
 	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Gravel"]/defNames</xpath>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Gravel"]</xpath>
 		<value>
-			<defNames>
+			<defNames Merge="True">
 				<li>Terraform_DevelopToWeak</li>
 				<li>Terraform_DevelopToRedClay</li>
 				<li>Terraform_DevelopToCrackedClay</li>
@@ -60,17 +60,17 @@
 			</defNames>
 		</value>
 	</Operation>
-<!-- EXTRACT -->
+	<!-- EXTRACT -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Soil"]/label</xpath>
 		<value>
 			<label>Extract...</label>
 		</value>
 	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Soil"]/defNames</xpath>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Soil"]</xpath>
 		<value>
-			<defNames>
+			<defNames Merge="True">
 				<li>Terraform_GatherNutrientsFromRichSoil</li>
 				<li>Terraform_GatherNutrientsFromFertileSoil</li>
 				<li>Terraform_GatherClay</li>
@@ -80,35 +80,35 @@
 				<li>Terraform_GatherGravel</li>
 			</defNames>
 		</value>
-	</Operation>		
-<!-- HARVEST PEAT -->
+	</Operation>
+	<!-- HARVEST PEAT -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_SoilMarshy"]/label</xpath>
 		<value>
 			<label>Harvest Peat from...</label>
 		</value>
 	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_SoilMarshy"]/defNames</xpath>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_SoilMarshy"]</xpath>
 		<value>
-			<defNames>
+			<defNames Merge="True">
 				<li>Terraform_GatherPeatFromPeatSoil</li>
 				<li>Terraform_GatherPeatFromMuckyPeat</li>
 				<li>Terraform_GatherPeatFromMuck</li>
 			</defNames>
 		</value>
-	</Operation>	
-<!-- Fill Wetland to -->
+	</Operation>
+	<!-- Fill Wetland to -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Marsh"]/label</xpath>
 		<value>
 			<label>Wetlands</label>
 		</value>
 	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Marsh"]/defNames</xpath>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Marsh"]</xpath>
 		<value>
-			<defNames>
+			<defNames Merge="True">
 				<li>Terraform_FillWetlandToMarshySoil</li>
 				<li>Terraform_FillWetlandToUndevelopedSoil</li>
 				<li>Terraform_WaterToBlackWater</li>
@@ -116,18 +116,18 @@
 				<li>Terraform_WaterToBog</li>
 			</defNames>
 		</value>
-	</Operation>	
-<!-- Shallow Water To-->	
+	</Operation>
+	<!-- Shallow Water To-->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_WaterShallow"]/label</xpath>
 		<value>
 			<label>Water</label>
 		</value>
 	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_WaterShallow"]/defNames</xpath>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_WaterShallow"]</xpath>
 		<value>
-			<defNames>
+			<defNames Merge="True">
 				<li>Terraform_SandToWater</li>
 				<li>Terraform_WaterToSand</li>
 				<li>Terraform_MarshySoilToWater</li>
@@ -136,17 +136,17 @@
 			</defNames>
 		</value>
 	</Operation>
-<!-- Architectural -->	
+	<!-- Architectural -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Cultivate"]/label</xpath>
 		<value>
 			<label>Architectural</label>
 		</value>
 	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Cultivate"]/defNames</xpath>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Cultivate"]</xpath>
 		<value>
-			<defNames>
+			<defNames Merge="True">
 				<li>Terraform_ToPackedDirt</li>
 				<li>Terraform_MakeGravel</li>
 				<li>Terraform_SodLawn</li>
@@ -156,11 +156,11 @@
 			</defNames>
 		</value>
 	</Operation>
-<!-- MISC -->	
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Misc"]/defNames</xpath>
+	<!-- MISC -->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Misc"]</xpath>
 		<value>
-			<defNames>
+			<defNames Merge="True">
 				<li>Terraform_SandToDesertSand</li>
 				<li>Terraform_IceToFrozenSnow</li>
 				<li>Terraform_ResurfaceIce</li>
@@ -173,24 +173,12 @@
 			</defNames>
 		</value>
 	</Operation>
-	
-<!-- Desert / Wasteland -->
-<Operation Class="PatchOperationReplace">
+
+	<!-- Desert / Wasteland -->
+	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Gather"]/label</xpath>
 		<value>
 			<label>Wasteland</label>
 		</value>
 	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Gather"]/defNames</xpath>
-		<value>
-			<defNames>
-			
-			</defNames>
-		</value>
-	</Operation>
-
-
-
-
 </Patch>

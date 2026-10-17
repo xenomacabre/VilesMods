@@ -31,7 +31,7 @@
       <WorkToBuild>500</WorkToBuild>
       <Flammability>1.0</Flammability>
     </statBases>
-    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <drawStyleCategory>Default1D</drawStyleCategory>
     <rotatable>false</rotatable>
     <neverMultiSelect>true</neverMultiSelect>
     <clearBuildingArea>false</clearBuildingArea>
@@ -79,7 +79,7 @@
       <Flammability>1.0</Flammability>
 	  <Beauty>-8</Beauty>
     </statBases>
-    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <drawStyleCategory>Default1D</drawStyleCategory>
     <rotatable>false</rotatable>
     <neverMultiSelect>true</neverMultiSelect>
     <clearBuildingArea>false</clearBuildingArea>

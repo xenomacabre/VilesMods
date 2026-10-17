@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+<!--
 	<RecipeDef>
 		<defName>MakeFlour</defName>
 		<label>grind flour</label>
@@ -40,6 +41,7 @@
 		<workSkill>Cooking</workSkill>
 		<researchPrerequisite>Bakery_B1</researchPrerequisite>
 	</RecipeDef>
+-->
 	
 	<RecipeDef>
 		<defName>CraftCornmeal</defName>

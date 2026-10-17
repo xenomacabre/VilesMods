@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Abstract="True" Name="VileSK_HidesBase" ParentName="SK_ResourceBase">
+	<ThingDef Abstract="True" Name="VileSK_HidesBase" ParentName="ResourceBase">
 		<description>The raw skin of an animal. It will decompose if not frozen or cured soon.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/TanningStuff/SkinCured</texPath>

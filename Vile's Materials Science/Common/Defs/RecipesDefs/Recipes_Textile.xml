@@ -423,58 +423,7 @@
 		<researchPrerequisite>AdvancedFabrication</researchPrerequisite>
 	</RecipeDef>
 		<!-- Kevlar -->
-	<RecipeDef>
-		<defName>MakeKevlar</defName>
-		<label>Make Kevlar x10</label>
-		<description>Nomex is a para-aramid textile with great ballistic properties.</description>
-		<jobString>Making kevlar.</jobString>
-		<workAmount>1800</workAmount>
-		<workSpeedStat>TailoringSpeed</workSpeedStat>
-		<effectWorking>Smith</effectWorking>
-		<soundWorking>Recipe_Machining</soundWorking>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Sulphates</li>
-					</thingDefs>
-				</filter>
-				<count>10</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Xylene</li>
-					</thingDefs>
-				</filter>
-				<count>10</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>SyntheticAmmonia</li>
-					</thingDefs>
-				</filter>
-				<count>10</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Sulphates</li>
-				<li>Xylene</li>	
-				<li>SyntheticAmmonia</li>	
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<Kevlar>10</Kevlar>
-		</products>
-		<skillRequirements>
-			<Crafting>13</Crafting>
-		</skillRequirements>
-		<workSkill>Crafting</workSkill>
-		<workSkillLearnFactor>0.8</workSkillLearnFactor>
-		<researchPrerequisite>AdvancedFabrication</researchPrerequisite>
-	</RecipeDef>
+	<!-- Core_SK owns RecipeDef MakeKevlar; Materials Science changes are applied by Common/Patches/Core_SK_Overlap/RecipesDefs/Recipes_Textile.xml. -->
 	
 	<!-- Micropel -->
 	<RecipeDef>

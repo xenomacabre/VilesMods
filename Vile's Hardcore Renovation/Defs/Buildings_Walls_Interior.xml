@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-    
-    <ThingDef ParentName="MiscBuildingBase">
+
+	<ThingDef ParentName="MiscBuildingBase">
 		<defName>CounterServiceModular</defName>
 		<label>service counter</label>
 		<description>A bar which can have stockpile zones overlapping.</description>
-        <!--<socialPropernessMatters>true</socialPropernessMatters>
+		<!--<socialPropernessMatters>true</socialPropernessMatters>
         <surfaceType>Eat</surfaceType>-->
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Standable</passability>
@@ -14,8 +14,8 @@
 		<fillPercent>0.4</fillPercent>
 		<designationCategory>Furniture</designationCategory>
 		<canOverlapZones>true</canOverlapZones>
-		<staticSunShadowHeight>0.20</staticSunShadowHeight>	
-		<uiIconPath>Things/Building/Research/CounterIco</uiIconPath>	
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<uiIconPath>Things/Building/Research/CounterIco</uiIconPath>
 		<graphicData>
 			<texPath>Things/Building/Linked/Counter/CounterService_Atlas</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -23,7 +23,7 @@
 			<linkFlags>
 				<li>Custom1</li>
 			</linkFlags>
-		</graphicData>	
+		</graphicData>
 		<statBases>
 			<MaxHitPoints>75</MaxHitPoints>
 			<WorkToBuild>450</WorkToBuild>
@@ -38,26 +38,26 @@
 			<li>Metallic</li>
 			<li>Stony</li>
 			<li>Bricks</li>
-			<li>Ceramic</li> 
+			<li>Ceramic</li>
 		</stuffCategories>
 		<costStuffCount>20</costStuffCount>
 		<costList>
 			<ComponentMedieval>2</ComponentMedieval>
 		</costList>
 		<rotatable>false</rotatable>
-		<placingDraggableDimensions>2</placingDraggableDimensions>
+		<drawStyleCategory>Default1D</drawStyleCategory>
 		<researchPrerequisites>
 			<li>Fortification_A1</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 	</ThingDef>
-    
-    <ThingDef ParentName="MiscBuildingBase">
+
+	<ThingDef ParentName="MiscBuildingBase">
 		<defName>CounterBarModular</defName>
 		<label>bar counter</label>
 		<description>A bar for eating a drinking.</description>
-        <socialPropernessMatters>true</socialPropernessMatters>
-        <surfaceType>Eat</surfaceType>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<surfaceType>Eat</surfaceType>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Standable</passability>
 		<pathCost>80</pathCost>
@@ -65,8 +65,8 @@
 		<fillPercent>0.4</fillPercent>
 		<designationCategory>Furniture</designationCategory>
 		<canOverlapZones>true</canOverlapZones>
-		<staticSunShadowHeight>0.20</staticSunShadowHeight>	
-		<uiIconPath>Things/Building/Research/CounterIco</uiIconPath>	
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<uiIconPath>Things/Building/Research/CounterIco</uiIconPath>
 		<graphicData>
 			<texPath>Things/Building/Linked/Counter/CounterBar_Atlas</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -74,7 +74,7 @@
 			<linkFlags>
 				<li>Custom1</li>
 			</linkFlags>
-		</graphicData>	
+		</graphicData>
 		<statBases>
 			<MaxHitPoints>75</MaxHitPoints>
 			<WorkToBuild>450</WorkToBuild>
@@ -89,21 +89,21 @@
 			<li>Metallic</li>
 			<li>Stony</li>
 			<li>Bricks</li>
-			<li>Ceramic</li> 
+			<li>Ceramic</li>
 		</stuffCategories>
 		<costStuffCount>20</costStuffCount>
 		<costList>
 			<ComponentMedieval>2</ComponentMedieval>
 		</costList>
 		<rotatable>false</rotatable>
-		<placingDraggableDimensions>2</placingDraggableDimensions>
+		<drawStyleCategory>Default1D</drawStyleCategory>
 		<researchPrerequisites>
 			<li>Fortification_A1</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 	</ThingDef>
 
-	<ThingDef ParentName="WallBase" Name="InteriorWall">
+	<ThingDef ParentName="Wall" Name="InteriorWall">
 		<defName>InteriorWall</defName>
 		<label>Interior Wall</label>
 		<description>An interior with very little structural integrity. The cement backerboard is flame retardant, however.</description>
@@ -141,7 +141,7 @@
 		</statBases>
 		<coversFloor>true</coversFloor>
 		<tickerType>Never</tickerType>
-		<stuffCategories>
+		<stuffCategories Inherit="False">
 			<li>SoftwoodLumber</li>
 			<li>HardwoodLumber</li>
 			<li>UltrahardwoodLumber</li>
@@ -158,7 +158,7 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="InteriorWall">
 		<defName>InteriorWall_Stripe</defName>
 		<label>Interior Striped Wall</label>
@@ -207,8 +207,8 @@
 			<Cleanliness>0.2</Cleanliness>
 		</statBases>
 	</ThingDef>
-	
-	<ThingDef ParentName="WallBase">
+
+	<ThingDef ParentName="Wall">
 		<defName>WoodPanelWall</defName>
 		<label>Panel Wall</label>
 		<description>A frame wall with thing wood panels for siding. Just strong enough to justify being an exterior wall, but cheap enough to be interior as well.</description>
@@ -245,7 +245,7 @@
 		</statBases>
 		<coversFloor>true</coversFloor>
 		<tickerType>Never</tickerType>
-		<stuffCategories>
+		<stuffCategories Inherit="False">
 			<li>SoftwoodLumber</li>
 			<li>HardwoodLumber</li>
 			<li>UltrahardwoodLumber</li>
@@ -257,9 +257,9 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
 	</ThingDef>
-	
-	
-	<ThingDef ParentName="WallBase">
+
+
+	<ThingDef ParentName="Wall">
 		<defName>CeramicTileWall</defName>
 		<label>Tile Wall</label>
 		<description>Interior wall made of grouted tiles. Clean and pristine.</description>
@@ -296,7 +296,7 @@
 		</statBases>
 		<coversFloor>true</coversFloor>
 		<tickerType>Never</tickerType>
-		<stuffCategories>
+		<stuffCategories Inherit="False">
 			<li>Ceramic</li>
 		</stuffCategories>
 		<costStuffCount>5</costStuffCount>

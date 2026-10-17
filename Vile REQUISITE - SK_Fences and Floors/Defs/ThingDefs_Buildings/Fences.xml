@@ -96,7 +96,6 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>0.15</fillPercent>
 		<coversFloor>false</coversFloor>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<tickerType>Never</tickerType>
 		<rotatable>false</rotatable>
 		<selectable>true</selectable>
@@ -300,7 +299,6 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>1.0</fillPercent>
 		<coversFloor>true</coversFloor>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<tickerType>Never</tickerType>
 		<rotatable>false</rotatable>
 		<selectable>true</selectable>
@@ -502,7 +500,6 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>0.65</fillPercent>
 		<coversFloor>true</coversFloor>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
 		<tickerType>Never</tickerType>
 		<rotatable>false</rotatable>
 		<selectable>true</selectable>

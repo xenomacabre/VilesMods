@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- <ThingDef ParentName="SK_ResourceBase">
+  <!-- <ThingDef ParentName="ResourceBase">
 		<defName>PureSilver</defName>
 		<label>FineSilver</label>
 		<description>Too soft to be used as-is. Make it into sterling silver or press it into coins.<graphicData>

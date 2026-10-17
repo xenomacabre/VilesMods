@@ -24,7 +24,7 @@
 						<CountPerDrop>10</CountPerDrop>
 					  </li>
 					  <li>
-						<ResourceDefName>Plasteel</ResourceDefName>
+						<ResourceDefName>Steel</ResourceDefName>
 						<DropProbability>1</DropProbability>
 						<CountPerDrop>10</CountPerDrop>
 					  </li>
@@ -59,7 +59,7 @@
 						<CountPerDrop>10</CountPerDrop>
 					  </li>
 					  <li>
-						<ResourceDefName>Plasteel</ResourceDefName>
+						<ResourceDefName>Steel</ResourceDefName>
 						<DropProbability>2</DropProbability>
 						<CountPerDrop>10</CountPerDrop>
 					  </li>
@@ -110,7 +110,7 @@
 							<CountPerDrop>10</CountPerDrop>
 						  </li>
 						  <li>
-							<ResourceDefName>Plasteel</ResourceDefName>
+							<ResourceDefName>Steel</ResourceDefName>
 							<DropProbability>3</DropProbability>
 							<CountPerDrop>10</CountPerDrop>
 						  </li>

@@ -130,6 +130,10 @@
 			<thingDefs>
 				<li>RawGiantLeaf</li>
 				<li>RawRice</li>
+				<li>WildRose</li>
+				<li>Hypericum</li>
+				<li>MintLeaves</li>
+				<li>Rawonion</li>
 			</thingDefs>
 			<specialFiltersToDisallow>
 				<li>AllowPlantFood</li>
@@ -146,6 +150,10 @@
 			<thingDefs>
 				<li>RawGiantLeaf</li>
 				<li>RawRice</li>
+				<li>WildRose</li>
+				<li>Hypericum</li>
+				<li>MintLeaves</li>
+				<li>Rawonion</li>
 			</thingDefs>
 			<disallowedThingDefs>
 				<li>Meat_Megaspider</li>

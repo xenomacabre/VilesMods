@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Loadfolders>
+	<v1.6>
+		<li>/</li>
+		<li IfModActive="Vitech.materialsscience">Compat/Materials Science</li>
+	</v1.6>
+</Loadfolders>

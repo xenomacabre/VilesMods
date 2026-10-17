@@ -15,19 +15,15 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Conversion"]/defNames</xpath>
 		<value>
-
 				<li>SeasoningRack</li>
-
 		</value>
 	</Operation>
 
 		<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Sawmills"]/defNames</xpath>
 		<value>
-
 				<li>ChoppingBlock</li>
 				<li>LogSplittingSpot</li>
-
 		</value>
 	</Operation>
 

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<!-- Core_SK overlap changes from Common/Defs/RecipesDefs/Recipes_Petrochemical.xml. Identical fields are intentionally omitted. -->
+	<!-- RecipeDef: VulcanizeRubber -->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/RecipeDef[defName="VulcanizeRubber"]</xpath>
+		<value Merge="true">
+			<label>Make natural rubber x10</label>
+			<description>Vulcanize rubber from natural latex and sulfur. Produces 10.</description>
+			<jobString>Vulcanizing rubber from natural latex and sulfur.</jobString>
+			<ingredients DeepReplace="true">
+				<li>
+					<filter>
+						<thingDefs>
+							<li>RawCaoutchouc</li>
+						</thingDefs>
+					</filter>
+					<count>30</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Sulfur</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+			</ingredients>
+			<fixedIngredientFilter>
+				<thingDefs DeepReplace="true">
+					<li>RawCaoutchouc</li>
+					<li>Sulfur</li>
+				</thingDefs>
+			</fixedIngredientFilter>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+		</value>
+	</Operation>
+	<!-- RecipeDef: MakeRubber -->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/RecipeDef[defName="MakeRubber"]</xpath>
+		<value Merge="true">
+			<label>Make synthetic rubber x10</label>
+			<ingredients DeepReplace="true">
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Butadiene</li>
+						</thingDefs>
+					</filter>
+					<count>20</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Polystyrene</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+			</ingredients>
+			<fixedIngredientFilter>
+				<thingDefs DeepReplace="true">
+					<li>Butadiene</li>
+					<li>Polystyrene</li>
+				</thingDefs>
+			</fixedIngredientFilter>
+			<researchPrerequisite>Oil_Industry_C3</researchPrerequisite>
+		</value>
+	</Operation>
+</Patch>

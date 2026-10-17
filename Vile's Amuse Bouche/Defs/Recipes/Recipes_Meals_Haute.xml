@@ -54,6 +54,10 @@
 			<thingDefs>
 				<li>Corpse_Duck</li>
 				<li>Raworange</li>
+				<li>WildRose</li>
+				<li>Hypericum</li>
+				<li>MintLeaves</li>
+				<li>Rawonion</li>
 			</thingDefs>
 			<categories>
 				<li>ExtraPlantFoodRaw</li>
@@ -67,6 +71,10 @@
 			<thingDefs>
 				<li>Corpse_Duck</li>
 				<li>Raworange</li>
+				<li>WildRose</li>
+				<li>Hypericum</li>
+				<li>MintLeaves</li>
+				<li>Rawonion</li>
 			</thingDefs>
 			<categories>
 				<li>ExtraPlantFoodRaw</li>
@@ -151,6 +159,10 @@
 				<li>Corpse_Turkey</li>
 				<li>Corpse_Goose</li>
 				<li>bread</li>
+				<li>WildRose</li>
+				<li>Hypericum</li>
+				<li>MintLeaves</li>
+				<li>Rawonion</li>
 			</thingDefs>
 			<categories>
 				<li>LuxuryStuffs</li>
@@ -167,6 +179,10 @@
 				<li>Corpse_Turkey</li>
 				<li>Corpse_Goose</li>
 				<li>bread</li>
+				<li>WildRose</li>
+				<li>Hypericum</li>
+				<li>MintLeaves</li>
+				<li>Rawonion</li>
 			</thingDefs>
 			<categories>
 				<li>LuxuryStuffs</li>
@@ -236,9 +252,9 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Cognac</li>
-						<li>Brandy</li>
-						<li>Wine</li>
+						<li>Alcohol_Cognac</li>
+						<li>Alcohol_Brandy</li>
+						<li>Alcohol_Wine</li>
 					</thingDefs>
 				</filter>
 				<count>3</count>
@@ -254,10 +270,14 @@
 				<li>RawShimmershroom</li>
 				<li>RawGlowbulb</li>
 				<li>Rawmushroom</li>
-				<li>Cognac</li>
-				<li>Brandy</li>
-				<li>Wine</li>
+				<li>Alcohol_Cognac</li>
+				<li>Alcohol_Brandy</li>
+				<li>Alcohol_Wine</li>
 				<li>Seitan</li>
+				<li>WildRose</li>
+				<li>Hypericum</li>
+				<li>MintLeaves</li>
+				<li>Rawonion</li>
 			</thingDefs>
 			<categories>
 				<li>LuxuryStuffs</li>
@@ -273,10 +293,14 @@
 				<li>RawShimmershroom</li>
 				<li>RawGlowbulb</li>
 				<li>Rawmushroom</li>
-				<li>Cognac</li>
-				<li>Brandy</li>
-				<li>Wine</li>
+				<li>Alcohol_Cognac</li>
+				<li>Alcohol_Brandy</li>
+				<li>Alcohol_Wine</li>
 				<li>Seitan</li>
+				<li>WildRose</li>
+				<li>Hypericum</li>
+				<li>MintLeaves</li>
+				<li>Rawonion</li>
 			</thingDefs>
 			<categories>
 				<li>LuxuryStuffs</li>

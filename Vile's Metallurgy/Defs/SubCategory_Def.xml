@@ -7,6 +7,7 @@
 		<defNames>
 			<li>Kiln</li>
 			<li>CementationFurnace</li>
+			<li>PotteryStation</li>
 		</defNames>
 		<designationCategory>Production</designationCategory>
 		<debug>false</debug>
@@ -17,13 +18,14 @@
 		<label>Glazed Ceramics</label>
 		<description>Ceramic pots.</description>
 		<defNames>
+			<li>Pot</li>
 			<li>Building_ClayPotAsh</li>
 			<li>Building_ClayPotPainted</li>
 			<li>Building_ClayPotSalt</li>
 			<li>Building_ClayPotLead</li>
 			<li>Building_ClayPotTin</li>
 		</defNames>
-		<designationCategory>LWM_DS_Storage</designationCategory>
+		<designationCategory>ASFstorage</designationCategory>
 		<debug>false</debug>
 	</ArchitectSense.DesignationSubCategoryDef>
 	

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<!-- Cotehardie -->
-	<ThingDef ParentName="ApparelMedievalBase">
+<!-- 	<ThingDef ParentName="ApparelMedievalBase">
 		<defName>Apparel_TunicFine</defName>
 		<description>Also called a cothardie, it's a long loose-fitting sleeved garment which goes past the knees and may or may not open in the front. It can be worn over a shirt and pants, single garment, or under outerwear. It's worn by everyone from the working class to nobility, and is the preferred garment worn by tailors.</description>
 		<label>Kirtle</label>
@@ -81,10 +81,10 @@
 		<recipeMaker>
 			<researchPrerequisite>ComplexClothing</researchPrerequisite>
 		</recipeMaker>
-	</ThingDef>
+	</ThingDef> -->
 	
 	<!-- Work Tunic -->
-	<ThingDef ParentName="ApparelMedievalBase">
+<!-- 	<ThingDef ParentName="ApparelMedievalBase">
 		<defName>Apparel_TunicPoor</defName>
 		<description>Some will call this a “classical” tunic as it borrows the style from ancient designs, but really it's just cheaper to make without sleeves. Working peasants favor this because it has less constriction and more pockets, and it's also a bit more rugged than a kirtle, so it's great for work on in the fields.</description>
 		<label>Work Tunic</label>
@@ -160,7 +160,7 @@
 		<recipeMaker>
 			<researchPrerequisite>ComplexClothing</researchPrerequisite>
 		</recipeMaker>
-	</ThingDef>
+	</ThingDef> -->
 	
 	<!-- Doublet -->
 	<ThingDef ParentName="ApparelMedievalBase">
@@ -241,7 +241,7 @@
 	</ThingDef>
 	
 	<!-- Apron -->
-	<ThingDef ParentName="ApparelMedievalBase">
+<!-- 	<ThingDef ParentName="ApparelMedievalBase">
 		<defName>Apparel_RagDress</defName>
 		<description>A simple leather garment that protects the wearer's torso from sparks and other hot accidents. For anyone else, it's just going to slow them down.</description>
 		<label>Blacksmith's Apron</label>
@@ -312,6 +312,6 @@
 		<recipeMaker>
 			<researchPrerequisite>ComplexClothing</researchPrerequisite>
 		</recipeMaker>
-	</ThingDef>
+	</ThingDef> -->
 
 </Defs>

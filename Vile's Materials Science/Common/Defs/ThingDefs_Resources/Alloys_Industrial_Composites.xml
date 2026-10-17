@@ -2,97 +2,7 @@
 <Defs>
 <!-- INDUSTRIAL -->
 	<!-- HDPE -->
-	<ThingDef ParentName="SK_ResourceBase" Name="HDPEBase">
-		<defName>Plastic</defName>
-		<label>polyethylene plastic (HDPE)</label>
-		<description>TIER 3 - Industrial (commodity)
->>> Optimal	Economy
->> Suitable	Hospitals
-X Inadvisable 	Weapons, Tools
-			
-Tools Recommended: None
-Notes: Apparel made from this is equipped much faster
-			
-High-density polyethylene is one of the three main commodity plastics. It can be used for many practical applications, but isn't especially outstanding in any regard except weight and production speed. It's resistant to harsh solvents and cleaning products making it an good material for hospitals and kitchens.</description>
-		<graphicData>
-			<texPath>Things/Item/Material/HDPEWhite</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<soundInteract>Standard_Drop</soundInteract>
-		<soundDrop>Standard_Drop</soundDrop>
-		<stackLimit>600</stackLimit>
-		<techLevel>Industrial</techLevel>
-		<statBases>
-			<MarketValue>2</MarketValue>
-			<StuffPower_Armor_Blunt>1.55</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>0.68</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Heat>0.095</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>6</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
-			<SharpDamageMultiplier>0.6</SharpDamageMultiplier>
-			<BluntDamageMultiplier>1</BluntDamageMultiplier>
-			<DeteriorationRate>0</DeteriorationRate>
-			<Flammability>0</Flammability>
-			<Mass>0.20</Mass>
-			<Bulk>0.35</Bulk>
-		</statBases>
-		<useHitPoints>true</useHitPoints>
-		<thingCategories>
-			<li>Plastics</li>
-			<li>LightBar</li>
-			<li>INSBar</li>
-		</thingCategories>
-		<smeltable>true</smeltable>
-		<stuffProps>
-            <appearance>Cladding</appearance>
-			<stuffAdjective>HDPE</stuffAdjective>
-			<categories>
-				<li>Plastic</li>
-				<li>StrongMetallic</li>
-				<li>LightMaterial</li>
-			</categories>
-			<constructEffect>ConstructMetal</constructEffect>
-			<color>(248,248,239)</color>
-			<commonality>0.5</commonality>
-			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
-			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
-			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
-			<statFactors>
-				<MaxHitPoints>1.2</MaxHitPoints>
-				<Beauty>1.2</Beauty>
-				<Flammability>0</Flammability>
-				<WorkToMake>0.9</WorkToMake>
-				<WorkToBuild>0.9</WorkToBuild>
-				<DoorOpenSpeed>1.4</DoorOpenSpeed>
-				<MeleeWeapon_CooldownMultiplier>0.7</MeleeWeapon_CooldownMultiplier>
-				<MoveSpeed>0.8</MoveSpeed>
-				<MarketValue>0.75</MarketValue>
-				<BedRestEffectiveness>1.2</BedRestEffectiveness>
-				<ImmunityGainSpeedFactor>1.25</ImmunityGainSpeedFactor>
-				<WorkTableWorkSpeedFactor>1.05</WorkTableWorkSpeedFactor>
-				<MeleePenetrationFactor>0.6</MeleePenetrationFactor>
-				<Mass>0.42</Mass>
-				<Cleanliness>1.5</Cleanliness>
-				<EquipDelay>0.5</EquipDelay>
-			</statFactors>
-		</stuffProps>
-		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		<modExtensions>
-		    <li Class="SurvivalToolsLite.StuffPropsTool">
-                <toolStatFactors>
-                    <TreeFellingSpeed>0.8</TreeFellingSpeed>
-					<PlantHarvestingSpeed>0.8</PlantHarvestingSpeed>
-					<PlantWorkSpeed>0.8</PlantWorkSpeed>
-					<MiningSpeed>0.8</MiningSpeed>
-					<MiningYieldDigging>0.8</MiningYieldDigging>
-					<ConstructionSpeed>0.8</ConstructionSpeed>
-					<SmithingSpeed>0.8</SmithingSpeed>
-					<CookSpeed>0.8</CookSpeed>
-					<ButcheryFleshSpeed>0.6</ButcheryFleshSpeed>
-                </toolStatFactors>
-            </li>
-		</modExtensions>
-	</ThingDef>
+	<!-- Core_SK owns ThingDef Plastic; Materials Science changes are applied by Common/Patches/Core_SK_Overlap/ThingDefs_Resources/Alloys_Industrial_Composites.xml. -->
 	
 	<ThingDef ParentName="HDPEBase">
 		<defName>PPPlastic</defName>
@@ -208,7 +118,7 @@ Polyvinyl chloride is one of the three main commodity plastics. It can be used f
 	</ThingDef>
 	
 	<!-- Plexiglass -->
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Plexiglass</defName>
 		<label>plexiglass</label>
 		<description>TIER 3 - Industrial (commodity)
@@ -304,7 +214,7 @@ Plexiglass is transparent Polymethyl methacrylate, or acrylic glass. It's strong
 	</ThingDef>
 
 	<!-- ABS -->
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>ABS</defName>
 		<label>ABS plastic</label>
 		<description>TIER 3 - Industrial (engineering)
@@ -398,7 +308,7 @@ Riding the line between a commodity and engineering plastic, Acrylonitrile-butad
 	</ThingDef>	
 	
 	<!-- PC-->
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Polycarbonate</defName>
 		<label>polycarbonate</label>
 		<description>TIER 3 - Industrial (engineering)
@@ -498,7 +408,7 @@ Polycarbonate is a clear plastic which is often used for bulletproof glass and r
 	
 	<!-- FIBERGLASS -->
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Fiberglass</defName>
 		<label>fiberglass</label>
 		<description>TIER 3 - Industrial (engineering)
@@ -592,57 +502,6 @@ Glass-fiber reinforced plastic is a composite material of glass fibers set into 
 	</ThingDef>
 
     <!-- REINFORCED GLASS -->
-    <ThingDef ParentName="SK_ResourceBase">
-		<defName>ReinforcedGlass</defName>
-		<label>Reinforced Glass Frame</label>
-		<description>A stronger version of Glass Frames that is harder to work with, but has more potential uses.</description>
-		<graphicData>
-			<texPath>Things/Item/ReinforcedGlass</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<soundInteract>Metal_Drop</soundInteract>
-		<soundDrop>Metal_Drop</soundDrop>
-		<stackLimit>150</stackLimit>
-		<techLevel>Industrial</techLevel>
-		<statBases>
-            <MarketValue>20</MarketValue>
-			<StuffPower_Armor_Blunt>1.5</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>1.2</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Heat>0.11</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>5</StuffPower_Insulation_Heat>
-			<SharpDamageMultiplier>1.5</SharpDamageMultiplier>
-			<BluntDamageMultiplier>1</BluntDamageMultiplier>
-			<DeteriorationRate>0</DeteriorationRate>
-			<Flammability>0</Flammability>
-			<Mass>0.25</Mass>
-			<Bulk>0.35</Bulk>
-		</statBases>
-		<thingCategories>
-			<li>GlassCat</li>
-		</thingCategories>
-		<stuffProps>
-			<stuffAdjective>Reinforced Glass</stuffAdjective>
-			<categories>
-				<li>Glass</li>
-			</categories>
-			<color>RGBA(244,245,233,200)</color>
-			<constructEffect>ConstructMetal</constructEffect>
-			<appearance>GlassGL</appearance>
-			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
-			<statFactors>
-				<MaxHitPoints>2.25</MaxHitPoints>
-				<Beauty>1.75</Beauty>
-				<Flammability>0</Flammability>
-				<WorkToMake>2.5</WorkToMake>
-				<WorkToBuild>2.5</WorkToBuild>
-				<DoorOpenSpeed>1.5</DoorOpenSpeed>
-				<MeleeWeapon_CooldownMultiplier>0.6</MeleeWeapon_CooldownMultiplier>
-				<MeleePenetrationFactor>1.25</MeleePenetrationFactor>
-				<Mass>0.55</Mass>
-			</statFactors>
-		</stuffProps>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-	</ThingDef>
+    <!-- Core_SK owns ThingDef ReinforcedGlass; Materials Science changes are applied by Common/Patches/Core_SK_Overlap/ThingDefs_Resources/Alloys_Industrial_Composites.xml. -->
 	
 </Defs>

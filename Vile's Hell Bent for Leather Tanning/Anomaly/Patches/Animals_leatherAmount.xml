@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Tanning multiplies raw hides by about five, so reduce the direct DLC yield accordingly. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Chimera"
+            or defName="Devourer"
+            or defName="Gorehulk"
+            or defName="Noctol"
+            or defName="Sightstealer"]/statBases/LeatherAmount</xpath>
+        <value>
+            <LeatherAmount>4</LeatherAmount>
+        </value>
+    </Operation>
+
+</Patch>

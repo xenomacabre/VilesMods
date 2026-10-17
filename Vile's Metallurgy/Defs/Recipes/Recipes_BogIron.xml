@@ -32,7 +32,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Steel>10</Steel>
+			<Iron>10</Iron>
 		</products>
 		<workSkill>Crafting</workSkill>
 		<researchPrerequisite>BogIronTech</researchPrerequisite>

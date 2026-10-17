@@ -159,6 +159,7 @@
 						<li>MakeFiberglass</li>
 						<li>MakeNanotechFramework</li>
 						<li>MakeCarbonNanotubes</li>
+						<li>MakeCarbonNanotubesAdvanced</li>
 						<li>MakeNanocomposite</li> <!-- nanocomposite -->
 						<li>MakeAerographene</li>
 					</recipes>

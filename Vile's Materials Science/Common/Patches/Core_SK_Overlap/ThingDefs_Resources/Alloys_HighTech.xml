@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<!-- Core_SK overlap changes from Common/Defs/ThingDefs_Resources/Alloys_HighTech.xml. Identical fields are intentionally omitted. -->
+	<!-- ThingDef: StelliteAlloy -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="StelliteAlloy"]/graphicData/color</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="StelliteAlloy"]/stuffProps/appearance</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="StelliteAlloy"]/stuffProps/soundImpactMelee</xpath>
+	</Operation>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="StelliteAlloy"]</xpath>
+		<value Merge="true">
+			<label>Stellite superalloy</label>
+			<description>TIER 4 - High Tech
+&gt;&gt;&gt; Optimal	Workshops
+&gt;&gt; Suitable	Tools
+X Inadvisable 	Economy
+
+Tools Recommended: Building, Tree-Cutting, Cooking
+Notes: Corrosion-resistant, Superalloy
+
+Stellite is a superalloy of cobalt and chromium, an important material for turbines, rocket engines and other applications that require performance in extreme conditions. Though not exceptionally feasible from an economic standpoint, lathes and workbenches operate at peak efficienty with this material, and it makes decent hammers and other tools.</description>
+			<graphicData>
+				<texPath>Things/Item/Material/Stellite</texPath>
+			</graphicData>
+			<stackLimit>600</stackLimit>
+			<statBases>
+				<MarketValue>35</MarketValue>
+				<StuffPower_Armor_Blunt>1.4</StuffPower_Armor_Blunt>
+				<StuffPower_Armor_Sharp>1.5</StuffPower_Armor_Sharp>
+				<StuffPower_Armor_Heat>0.142</StuffPower_Armor_Heat>
+				<StuffPower_Insulation_Cold>-4</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>-4</StuffPower_Insulation_Heat>
+				<BluntDamageMultiplier>1.5</BluntDamageMultiplier>
+				<Mass>0.35</Mass>
+				<Bulk>0.35</Bulk>
+			</statBases>
+			<slagDef>ChunkSlagSteel</slagDef>
+			<thingCategories DeepReplace="true">
+				<li>USLDBar</li>
+				<li>SuperBar</li>
+			</thingCategories>
+			<stuffProps>
+				<categories DeepReplace="true">
+					<li>Metallic</li>
+					<li>StrongMetallic</li>
+					<li>RuggedMetallic</li>
+					<li>SolidMetallic</li>
+					<li>CorrosionResistant</li>
+				</categories>
+				<color>(128,126,176)</color>
+				<commonality>0.4</commonality>
+				<statFactors>
+					<MaxHitPoints>3.2</MaxHitPoints>
+					<Beauty>1.2</Beauty>
+					<WorkToMake>2.4</WorkToMake>
+					<WorkToBuild>2.4</WorkToBuild>
+					<DoorOpenSpeed>0.7</DoorOpenSpeed>
+					<MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
+					<MoveSpeed>0.7</MoveSpeed>
+					<MarketValue>0.9</MarketValue>
+					<ImmunityGainSpeedFactor>1.15</ImmunityGainSpeedFactor>
+					<WorkTableWorkSpeedFactor>1.65</WorkTableWorkSpeedFactor>
+					<MeleePenetrationFactor>1.4</MeleePenetrationFactor>
+					<Mass>1.15</Mass>
+					<Cleanliness>3</Cleanliness>
+					<WornBulk>1</WornBulk>
+				</statFactors>
+			</stuffProps>
+			<modExtensions>
+				<li Class="SurvivalToolsLite.StuffPropsTool">
+					<toolStatFactors>
+						<TreeFellingSpeed>1.6</TreeFellingSpeed>
+						<PlantHarvestingSpeed>1.5</PlantHarvestingSpeed>
+						<PlantWorkSpeed>1.4</PlantWorkSpeed>
+						<MiningSpeed>1.4</MiningSpeed>
+						<MiningYieldDigging>1.4</MiningYieldDigging>
+						<ConstructionSpeed>1.65</ConstructionSpeed>
+						<SmithingSpeed>1.65</SmithingSpeed>
+						<CookSpeed>1.65</CookSpeed>
+						<ButcheryFleshSpeed>1.6</ButcheryFleshSpeed>
+					</toolStatFactors>
+				</li>
+			</modExtensions>
+		</value>
+	</Operation>
+	<!-- ThingDef: PobediteAlloy -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="PobediteAlloy"]/graphicData/color</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="PobediteAlloy"]/stuffProps/appearance</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="PobediteAlloy"]/stuffProps/soundImpactMelee</xpath>
+	</Operation>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="PobediteAlloy"]</xpath>
+		<value Merge="true">
+			<label>cemented carbide</label>
+			<description>TIER 4 - High Tech
+&gt;&gt;&gt; Optimal	Workshops
+&gt;&gt; Suitable	Tools, Bladed Weapons
+X Inadvisable 	Construction
+
+Tools Recommended: Mining, Digging, Cooking
+Notes: Magnetic, Corrosion-resistant, Heavy
+
+Cemented tungsten carbide is a very hard, dense material often used for tools – especially drills and mining tools, and it's the industry highest standard for machine tools and work benches. It's also use for high-end surgical tools and armor-piercing ammunition.</description>
+			<graphicData>
+				<texPath>Things/Item/Material/Carbide</texPath>
+			</graphicData>
+			<stackLimit>600</stackLimit>
+			<statBases>
+				<MarketValue>40</MarketValue>
+				<StuffPower_Armor_Blunt>1.4</StuffPower_Armor_Blunt>
+				<StuffPower_Armor_Sharp>1.45</StuffPower_Armor_Sharp>
+				<StuffPower_Armor_Heat>0.13</StuffPower_Armor_Heat>
+				<StuffPower_Insulation_Cold>-6</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>-6</StuffPower_Insulation_Heat>
+				<SharpDamageMultiplier>1.44</SharpDamageMultiplier>
+				<BluntDamageMultiplier>1.44</BluntDamageMultiplier>
+				<Mass>0.40</Mass>
+				<Bulk>0.35</Bulk>
+			</statBases>
+			<slagDef>ChunkSlagSteel</slagDef>
+			<stuffProps>
+				<stuffAdjective>Carbide</stuffAdjective>
+				<categories DeepReplace="true">
+					<li>Metallic</li>
+					<li>StrongMetallic</li>
+					<li>RuggedMetallic</li>
+					<li>HeavyMetallic</li>
+					<li>CorrosionResistant</li>
+				</categories>
+				<color>(89,90,91)</color>
+				<commonality>0.4</commonality>
+				<statFactors>
+					<MaxHitPoints>2.4</MaxHitPoints>
+					<Beauty>1</Beauty>
+					<WorkToMake>3.2</WorkToMake>
+					<WorkToBuild>3.2</WorkToBuild>
+					<DoorOpenSpeed>0.5</DoorOpenSpeed>
+					<MoveSpeed>0.7</MoveSpeed>
+					<MarketValue>0.8</MarketValue>
+					<BedRestEffectiveness>1</BedRestEffectiveness>
+					<ImmunityGainSpeedFactor>1.25</ImmunityGainSpeedFactor>
+					<WorkTableWorkSpeedFactor>1.7</WorkTableWorkSpeedFactor>
+					<MeleePenetrationFactor>1.6</MeleePenetrationFactor>
+					<Cleanliness>1.9</Cleanliness>
+					<EquipDelay>0.8</EquipDelay>
+				</statFactors>
+			</stuffProps>
+			<modExtensions>
+				<li Class="SurvivalToolsLite.StuffPropsTool">
+					<toolStatFactors>
+						<TreeFellingSpeed>1.55</TreeFellingSpeed>
+						<PlantHarvestingSpeed>1.55</PlantHarvestingSpeed>
+						<PlantWorkSpeed>1.7</PlantWorkSpeed>
+						<MiningSpeed>1.8</MiningSpeed>
+						<MiningYieldDigging>1.8</MiningYieldDigging>
+						<ConstructionSpeed>1.55</ConstructionSpeed>
+						<SmithingSpeed>1.55</SmithingSpeed>
+						<CookSpeed>1.7</CookSpeed>
+						<ButcheryFleshSpeed>1.6</ButcheryFleshSpeed>
+					</toolStatFactors>
+				</li>
+			</modExtensions>
+		</value>
+	</Operation>
+	<!-- ThingDef: NitinolAlloy -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="NitinolAlloy"]/graphicData/color</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="NitinolAlloy"]/stuffProps/soundImpactMelee</xpath>
+	</Operation>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="NitinolAlloy"]</xpath>
+		<value Merge="true">
+			<description>TIER 4 - High Tech
+&gt;&gt;&gt; Optimal	Bedrooms, Engineering
+&gt;&gt; Suitable	Blades, Hospitals
+X Inadvisable 	Workshops
+
+Tools Recommended: Cooking, Tree-cutting
+Notes: Used in special components
+
+Half Nickel, half titanium. It's an important alloy used for high tech actuators and robotics due to its superelasticity and shape memory features, and it's used for surgical tools and implants as well. These qualities also allow it to perform fairly well against heat and ballistic impacts, but not so much blunt force, and tools made of nitinol are tough and effective. The combination of strength and ductility give it superior resiliancy to damage. It's also difficult to work with.</description>
+			<graphicData>
+				<texPath>Things/Item/Material/Nitinol</texPath>
+			</graphicData>
+			<stackLimit>600</stackLimit>
+			<statBases>
+				<MarketValue>45</MarketValue>
+				<StuffPower_Armor_Blunt>1.22</StuffPower_Armor_Blunt>
+				<StuffPower_Armor_Sharp>1.52</StuffPower_Armor_Sharp>
+				<StuffPower_Armor_Heat>0.16</StuffPower_Armor_Heat>
+				<StuffPower_Insulation_Cold>0</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+				<SharpDamageMultiplier>1.4</SharpDamageMultiplier>
+				<BluntDamageMultiplier>1.22</BluntDamageMultiplier>
+				<Mass>0.35</Mass>
+				<Bulk>0.35</Bulk>
+			</statBases>
+			<slagDef>ChunkSlagSteel</slagDef>
+			<stuffProps>
+				<appearance>Panel</appearance>
+				<categories DeepReplace="true">
+					<li>Metallic</li>
+					<li>StrongMetallic</li>
+					<li>RuggedMetallic</li>
+				</categories>
+				<color>(255,225,193)</color>
+				<commonality>0.3</commonality>
+				<statFactors>
+					<MaxHitPoints>3.5</MaxHitPoints>
+					<Beauty>1.8</Beauty>
+					<WorkToMake>2.9</WorkToMake>
+					<WorkToBuild>2.9</WorkToBuild>
+					<DoorOpenSpeed>1.4</DoorOpenSpeed>
+					<MeleeWeapon_CooldownMultiplier>0.7</MeleeWeapon_CooldownMultiplier>
+					<MoveSpeed>0.7</MoveSpeed>
+					<MarketValue>0.9</MarketValue>
+					<BedRestEffectiveness>1.14</BedRestEffectiveness>
+					<ImmunityGainSpeedFactor>1.28</ImmunityGainSpeedFactor>
+					<WorkTableWorkSpeedFactor>1.3</WorkTableWorkSpeedFactor>
+					<Mass>1.15</Mass>
+				</statFactors>
+				<statOffsets>
+					<Beauty>4</Beauty>
+				</statOffsets>
+			</stuffProps>
+			<modExtensions>
+				<li Class="SurvivalToolsLite.StuffPropsTool">
+					<toolStatFactors>
+						<TreeFellingSpeed>1.6</TreeFellingSpeed>
+						<PlantHarvestingSpeed>1.5</PlantHarvestingSpeed>
+						<PlantWorkSpeed>1.5</PlantWorkSpeed>
+						<MiningSpeed>1.5</MiningSpeed>
+						<MiningYieldDigging>1.5</MiningYieldDigging>
+						<ConstructionSpeed>1.5</ConstructionSpeed>
+						<SmithingSpeed>1.5</SmithingSpeed>
+						<CookSpeed>1.6</CookSpeed>
+						<ButcheryFleshSpeed>1.65</ButcheryFleshSpeed>
+					</toolStatFactors>
+				</li>
+			</modExtensions>
+		</value>
+	</Operation>
+</Patch>

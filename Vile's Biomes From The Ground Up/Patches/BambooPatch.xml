@@ -2,49 +2,27 @@
 <Patch>
 
 
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Plant_TreeBamboo"]/graphicData/texPath</xpath>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="Plant_TreeBamboo"]/graphicData</xpath>
 		<value>
 			<texPath>Things/Trees/BambooStalk</texPath>
+			<shadowData>
+				<volume>(0.15, 0.2, 0.15)</volume>
+			</shadowData>
 		</value>
-    </Operation>		
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Plant_TreeBamboo"]/plant/visualSizeRange</xpath>
+	</Operation>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="Plant_TreeBamboo"]/plant</xpath>
 		<value>
 			<visualSizeRange Inherit="False">
 				<min>1.0</min>
 				<max>2.3</max>
 			</visualSizeRange>
-		</value>
-    </Operation>	
-		<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Plant_TreeBamboo"]/plant/wildClusterRadius</xpath>
-		<value>
 			<wildClusterRadius>20</wildClusterRadius>
-		</value>
-    </Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Plant_TreeBamboo"]/plant/wildClusterWeight</xpath>
-		<value>
 			<wildClusterWeight>100</wildClusterWeight>
-		</value>
-    </Operation>	
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Plant_TreeBamboo"]/plant/maxMeshCount</xpath>
-		<value>
 			<maxMeshCount>9</maxMeshCount>
 		</value>
-    </Operation>	
-	
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="Plant_TreeBamboo"]/graphicData/shadowData</xpath>
-		<value>
-			<shadowData>
-				<volume>(0.15, 0.2, 0.15)</volume>
-			</shadowData>
-		</value>
-    </Operation>
-	
-	
+	</Operation>
+
+
 </Patch>

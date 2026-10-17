@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<!-- Core_SK overlap changes from Common/Defs/ThingDefs_Resources/Alloys_HighTech_Composites.xml. Identical fields are intentionally omitted. -->
+	<!-- ThingDef: CarbonAlloy -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="CarbonAlloy"]/graphicData/color</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="CarbonAlloy"]/stuffProps/appearance</xpath>
+	</Operation>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="CarbonAlloy"]</xpath>
+		<value Merge="true">
+			<label>nanocomposite</label>
+			<description>TIER 4 - High Tech
+&gt;&gt;&gt; Optimal	Light Armor, Hospitals
+&gt;&gt; Suitable	Workshops
+X Inadvisable 	Production, Economy
+
+Tools Recommended: Bladed (good), Any (fair)
+Notes: Apparel made from this is equipped much faster and is less bulky
+
+Carbon nanotubes and UHMWPE fibers in an epoxy matrix. Features superior ballistic protection with good flexibility, toughness, and is lightweight.</description>
+			<graphicData>
+				<texPath>Things/Item/Material/Nanocomposite</texPath>
+			</graphicData>
+			<soundInteract>Standard_Drop</soundInteract>
+			<soundDrop>Standard_Drop</soundDrop>
+			<stackLimit>600</stackLimit>
+			<techLevel>Spacer</techLevel>
+			<statBases>
+				<MarketValue>50</MarketValue>
+				<StuffPower_Armor_Blunt>1.5</StuffPower_Armor_Blunt>
+				<StuffPower_Armor_Sharp>1.55</StuffPower_Armor_Sharp>
+				<StuffPower_Armor_Heat>0.155</StuffPower_Armor_Heat>
+				<StuffPower_Insulation_Cold>7</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>7</StuffPower_Insulation_Heat>
+				<SharpDamageMultiplier>1.5</SharpDamageMultiplier>
+				<BluntDamageMultiplier>1.2</BluntDamageMultiplier>
+				<Mass>0.25</Mass>
+				<Bulk>0.35</Bulk>
+			</statBases>
+			<useHitPoints>true</useHitPoints>
+			<thingCategories DeepReplace="true">
+				<li>Plastics</li>
+				<li>LightBar</li>
+				<li>INSBar</li>
+			</thingCategories>
+			<stuffProps>
+				<stuffAdjective>Nanocomposite</stuffAdjective>
+				<categories DeepReplace="true">
+					<li>Plastic</li>
+					<li>StrongMetallic</li>
+					<li>RuggedMetallic</li>
+					<li>LightMaterial</li>
+					<li>CorrosionResistant</li>
+				</categories>
+				<constructEffect>ConstructMetal</constructEffect>
+				<color>(198,184,239)</color>
+				<commonality>0.05</commonality>
+				<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+				<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+				<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+				<statFactors>
+					<MaxHitPoints>3.1</MaxHitPoints>
+					<Beauty>4</Beauty>
+					<WorkToMake>3.8</WorkToMake>
+					<WorkToBuild>3.8</WorkToBuild>
+					<DoorOpenSpeed>1.3</DoorOpenSpeed>
+					<MoveSpeed>0.8</MoveSpeed>
+					<MarketValue>0.95</MarketValue>
+					<BedRestEffectiveness>1.3</BedRestEffectiveness>
+					<ImmunityGainSpeedFactor>1.3</ImmunityGainSpeedFactor>
+					<WorkTableWorkSpeedFactor>1.5</WorkTableWorkSpeedFactor>
+					<MeleePenetrationFactor>1.7</MeleePenetrationFactor>
+					<Mass>0.6</Mass>
+					<Cleanliness>4.5</Cleanliness>
+					<WornBulk>0.9</WornBulk>
+					<EquipDelay>0.5</EquipDelay>
+				</statFactors>
+			</stuffProps>
+			<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+			<modExtensions>
+				<li Class="SurvivalToolsLite.StuffPropsTool">
+					<toolStatFactors>
+						<TreeFellingSpeed>1.2</TreeFellingSpeed>
+						<PlantHarvestingSpeed>1.5</PlantHarvestingSpeed>
+						<PlantWorkSpeed>1.5</PlantWorkSpeed>
+						<MiningSpeed>1.3</MiningSpeed>
+						<MiningYieldDigging>1.6</MiningYieldDigging>
+						<ConstructionSpeed>1.2</ConstructionSpeed>
+						<SmithingSpeed>1.2</SmithingSpeed>
+						<CookSpeed>1.7</CookSpeed>
+						<ButcheryFleshSpeed>1.6</ButcheryFleshSpeed>
+					</toolStatFactors>
+				</li>
+			</modExtensions>
+		</value>
+	</Operation>
+</Patch>

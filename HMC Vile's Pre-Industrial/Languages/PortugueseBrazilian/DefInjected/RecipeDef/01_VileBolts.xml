@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MakeAmmo_Bolt_Light_Metallic.label>Faça raio de luz metálico leves de metal x60</MakeAmmo_Bolt_Light_Metallic.label>
-  <MakeAmmo_Bolt_Light_Metallic.description>Faça 60 raio de luz metálico de metal leve.</MakeAmmo_Bolt_Light_Metallic.description>
-  <MakeAmmo_Bolt_Light_Metallic.jobString>Faz raio de luz metálico de metal leves.</MakeAmmo_Bolt_Light_Metallic.jobString>
+  <MakeAmmo_Bolt_Light_Metallic.label>Produza virotes leves de metal x60</MakeAmmo_Bolt_Light_Metallic.label>
+  <MakeAmmo_Bolt_Light_Metallic.description>Produza 60 virotes leves de metal.</MakeAmmo_Bolt_Light_Metallic.description>
+  <MakeAmmo_Bolt_Light_Metallic.jobString>Fabricando virotes leves de metal.</MakeAmmo_Bolt_Light_Metallic.jobString>
 
-  <MakeAmmo_Bolt_Light_Venom.label>Faça raio de luz envenenados х60</MakeAmmo_Bolt_Light_Venom.label>
-  <MakeAmmo_Bolt_Light_Venom.description>Faça 60 raio de luz envenenados.</MakeAmmo_Bolt_Light_Venom.description>
-  <MakeAmmo_Bolt_Light_Venom.jobString>Faz raio de luz envenenados.</MakeAmmo_Bolt_Light_Venom.jobString>
+  <MakeAmmo_Bolt_Light_Venom.label>Produza virotes leves envenenados x60</MakeAmmo_Bolt_Light_Venom.label>
+  <MakeAmmo_Bolt_Light_Venom.description>Produza 60 virotes leves envenenados.</MakeAmmo_Bolt_Light_Venom.description>
+  <MakeAmmo_Bolt_Light_Venom.jobString>Fabricando virotes leves envenenados.</MakeAmmo_Bolt_Light_Venom.jobString>
+
+  <MakeAmmo_Bolt_Broadhead.label>Faça virotes de ponta larga x50</MakeAmmo_Bolt_Broadhead.label>
+  <MakeAmmo_Bolt_Broadhead.description>Produza 50 virotes de ponta larga.</MakeAmmo_Bolt_Broadhead.description>
+  <MakeAmmo_Bolt_Broadhead.jobString>Fabricando virotes de ponta larga.</MakeAmmo_Bolt_Broadhead.jobString>
+
+  <MakeAmmo_Bolt_Bodkin.label>Faça virotes perfurantes x50</MakeAmmo_Bolt_Bodkin.label>
+  <MakeAmmo_Bolt_Bodkin.description>Produza 50 virotes perfurantes.</MakeAmmo_Bolt_Bodkin.description>
+  <MakeAmmo_Bolt_Bodkin.jobString>Fabricando virotes perfurantes.</MakeAmmo_Bolt_Bodkin.jobString>
 
 </LanguageData>

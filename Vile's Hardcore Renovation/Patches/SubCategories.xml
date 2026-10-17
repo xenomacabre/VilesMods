@@ -37,4 +37,12 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Tables"]/defNames</xpath>
+		<value>
+			<li>CounterServiceModular</li>
+			<li>CounterBarModular</li>
+		</value>
+	</Operation>
+
 </Patch>

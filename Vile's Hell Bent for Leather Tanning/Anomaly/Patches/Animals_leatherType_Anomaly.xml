@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Dread entities use the existing sterile-leather production chain. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Chimera"
+            or defName="Devourer"
+            or defName="Noctol"
+            or defName="Sightstealer"]/race/leatherDef</xpath>
+        <value>
+            <leatherDef>Hide_ImmunogenicHide</leatherDef>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gorehulk"]/race/leatherDef</xpath>
+        <value>
+            <leatherDef>Hide_HumanSkin</leatherDef>
+        </value>
+    </Operation>
+
+</Patch>

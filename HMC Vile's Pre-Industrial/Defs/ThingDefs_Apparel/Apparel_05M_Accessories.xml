@@ -47,7 +47,6 @@
 				<li>Hands</li>
 			</bodyPartGroups>
 			<layers>
-				<li>OnSkin</li>
 				<li>Shell</li>
 			</layers>
 			<tags>
@@ -125,7 +124,6 @@
 				<li>Hands</li>
 			</bodyPartGroups>
 			<layers>
-				<li>OnSkin</li>
 				<li>Shell</li>
 			</layers>
 			<tags>

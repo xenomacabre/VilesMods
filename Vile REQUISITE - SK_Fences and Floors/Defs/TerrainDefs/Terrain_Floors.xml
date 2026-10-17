@@ -6,6 +6,7 @@
       <li>Light</li>
       <li>Medium</li>
       <li>Heavy</li>
+      <li>Walkable</li>
     </affordances>
     <designationCategory>Floors</designationCategory>
     <fertility>0</fertility>
@@ -102,7 +103,7 @@
 		<researchPrerequisites>
 			<li>Metal_floor_C1</li>
 		</researchPrerequisites>
-		<designationCategory>OutsideFloors</designationCategory>
+		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
   <!-- ================= Ship Paneling ================= -->
   <TerrainDef ParentName="FAFloorBase">
@@ -118,13 +119,13 @@
 			<WorkToBuild>300</WorkToBuild>
 		</statBases>
 		<costList>
-		    <Plasteel>4</Plasteel>
+		    <Steel>4</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<researchPrerequisites>
 			<li>Metal_floor_C1</li>
 		</researchPrerequisites>
-		<designationCategory>OutsideFloors</designationCategory>
+		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
   <!-- ================= Advanced Tech Paneling ================= -->
   <TerrainDef ParentName="FAFloorBase">
@@ -149,7 +150,7 @@
 		<researchPrerequisites>
 			<li>Metal_floor_D1</li>
 		</researchPrerequisites>
-		<designationCategory>OutsideFloors</designationCategory>
+		<designationCategory>NaturalFloors</designationCategory>
 			<tags>
       <li>FineFloor</li>
     </tags>

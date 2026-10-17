@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/RecipeDef[defName="MakeFlour"]</xpath>
+		<value>
+			<description>Grind wheat or rice into glutinous flour. Produces 10.</description>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeFlour"]/ingredients/li[1]/filter/thingDefs/li[text()="RawCorn"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeFlour"]/fixedIngredientFilter/thingDefs/li[text()="RawCorn"]</xpath>
+	</Operation>
+</Patch>

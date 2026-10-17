@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<FactionDef ParentName="SK_PlayerFactionBase">
+	<FactionDef ParentName="PlayerFactionBase">
 		<defName>PlayerGuild</defName>
 		<label>Guildmasters</label>
 		<description>A guild of trade professionals and apprentices.</description>
@@ -53,7 +53,7 @@
 		</apparelStuffFilter>
 	</FactionDef>
 	
-	<PawnKindDef ParentName="SK_BasePlayerPawnKind">
+	<PawnKindDef ParentName="BasePlayerPawnKind">
 		<defName>Tradesperson</defName>
 		<label>tradesperson</label>
 

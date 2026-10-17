@@ -9,19 +9,19 @@
 	<success>Always</success>
 		<operations>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Steel"]/label</xpath>
+				<xpath>Defs/ThingDef[defName="Iron"]/label</xpath>
 				<value>
 					<label>Magnetite (Fe+Cr+Zn)</label>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Steel"]/description</xpath>
+				<xpath>Defs/ThingDef[defName="Iron"]/description</xpath>
 				<value>
 					<description>This mineral is an iron ore (Fe). Chromium (Cr) and Zinc (Zn) can also be recovered at a Metal Extraction Plant and Electrolytic Refinery respectively.</description>
 				</value>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Steel"]/graphicData</xpath>
+				<xpath>Defs/ThingDef[defName="Iron"]/graphicData</xpath>
 				<value>
 					<graphicData>
 						<texPath>Things/Item/Ores/Magnetite</texPath>

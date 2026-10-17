@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!--<ThingDef ParentName="SK_ResourceBase">
+	<!--<ThingDef ParentName="ResourceBase">
 		<defName>PureSilver</defName>
 		<label>FineSilver</label>
 		<description>Too soft to be used as-is. Make it into sterling silver or press it into coins.<graphicData>
@@ -41,7 +41,7 @@
 	</ThingDef>
 	-->
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Titanomagnetite</defName>
 		<label>Titanomagnetite (Fe+Ti+V)</label>
 		<description>This is a rare titanium-rich magnetite.</description>
@@ -82,7 +82,7 @@
 		</deepLumpSizeRange>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Sphalerite</defName>
 		<label>Sphalerite (Zn+Mn+Co)</label>
 		<description>This mineral is an zinc ore (Zn). Manganese (Mn) and Cobalt (Co) can also be recovered at a Metal Extraction Plant and Electrolytic Refinery respectively.</description>
@@ -124,7 +124,7 @@
 		</deepLumpSizeRange>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>BogIron</defName>
 		<label>Bog Iron (Fe + Mn)</label>
 		<description>Gothite is an iron ore (Fe). Manganese (Mn) can also be recovered at a Metal Extraction Plant.</description>

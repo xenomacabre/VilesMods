@@ -53,7 +53,7 @@
 		<takeDelay>33</takeDelay>
 	</ThingDef>
 
-	<ThingDef ParentName="WorkTable">
+	<ThingDef ParentName="SK_WorkTable">
 		<defName>LogSplittingSpot</defName>
 		<label>splitting spot</label>
 		<description>A space designated for splitting logs into firewood and firewood into kindling.</description>
@@ -70,13 +70,10 @@
 		</graphicData>
 		<altitudeLayer>FloorEmplacement</altitudeLayer>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<statBases>
 			<WorkToBuild>300</WorkToBuild>
 			<WorkTableWorkSpeedFactor>0.6</WorkTableWorkSpeedFactor>
-			<OutdoorWorkRateFactor>0.6</OutdoorWorkRateFactor>
+			<OutdoorWorkRateFactor>1</OutdoorWorkRateFactor>
 			<Mass>1</Mass>
 		</statBases>
 		<scatterableOnMapGen>false</scatterableOnMapGen>
@@ -115,7 +112,7 @@
 		<useStuffTerrainAffordance>false</useStuffTerrainAffordance>
 	</ThingDef>
 
-	<ThingDef ParentName="WorkTable">
+	<ThingDef ParentName="SK_WorkTable">
 		<defName>ChoppingBlock</defName>
 		<label>chopping block</label>
 		<description>A sturdy block and maul for efficiently cutting and splitting logs into firewood.</description>
@@ -145,12 +142,9 @@
 			<TFJ_Tool_Woodcutting_Handaxe>1</TFJ_Tool_Woodcutting_Handaxe>
 		</costList>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<statBases>
 			<WorkToBuild>400</WorkToBuild>
-			<WorkTableWorkSpeedFactor>1.2</WorkTableWorkSpeedFactor>
+			<WorkTableWorkSpeedFactor>2.4</WorkTableWorkSpeedFactor>
 			<OutdoorWorkRateFactor>1.2</OutdoorWorkRateFactor>
 			<Mass>1</Mass>
 		</statBases>

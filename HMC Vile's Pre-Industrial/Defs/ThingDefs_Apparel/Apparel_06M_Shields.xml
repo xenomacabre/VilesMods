@@ -325,7 +325,7 @@
 	
 	
 	
-<ThingDef ParentName="SK_BuildingBase">
+<ThingDef ParentName="BuildingBase">
 		<defName>Pavise</defName>
 		<label>Pavise</label>
 		<graphicData>

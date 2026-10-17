@@ -2,11 +2,13 @@
 
 <Defs>
 
+<!--
 	<ThingCategoryDef>
 		<defName>MeatSubRaw</defName>
 		<label>MeatSubstitute</label>
 		<parent>FoodRaw</parent>
 		<iconPath>Things/Item/Meal_Tofu</iconPath>
 	</ThingCategoryDef>
+-->
 
 </Defs>

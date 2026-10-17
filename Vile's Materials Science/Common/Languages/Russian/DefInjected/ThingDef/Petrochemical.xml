@@ -11,7 +11,7 @@
   <Propylene.description>Пропилен является продуктом переработки сырой нефти. Это бесцветный газ, используемый для изготовления акрила.</Propylene.description>
 
 
-  <!-- <ThingDef ParentName="SK_ResourceBase">
+  <!-- <ThingDef ParentName="ResourceBase">
 		<defName>Lubricant</defName>
 		<label>Lubricant</label>
 		<description>Synthetic lubricants are required to keep high performance machines running.</description>

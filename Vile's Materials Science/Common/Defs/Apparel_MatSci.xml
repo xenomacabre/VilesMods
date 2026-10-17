@@ -2,7 +2,7 @@
 <Defs>
 	
 	
-	<!-- <ThingDef ParentName="ArmorIndustrialBase">
+	<!-- <ThingDef ParentName="ApparelSpacerBase">
 		<defName>TurnoutGear</defName>
 		<label>Bunker Gear</label>
 		<description>Hear-resistant jumpsuit worn by fire fighters.</description>

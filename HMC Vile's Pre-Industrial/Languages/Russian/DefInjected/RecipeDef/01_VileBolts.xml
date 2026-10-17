@@ -11,5 +11,12 @@
   <MakeAmmo_Bolt_Light_Venom.description>Сделать 60 отравленных лёгких болтов.</MakeAmmo_Bolt_Light_Venom.description>
   <MakeAmmo_Bolt_Light_Venom.jobString>Делает отравленные болты</MakeAmmo_Bolt_Light_Venom.jobString>
 
+  <MakeAmmo_Bolt_Broadhead.label>Сделать арбалетные болты с широким наконечником x50</MakeAmmo_Bolt_Broadhead.label>
+  <MakeAmmo_Bolt_Broadhead.description>Сделать 50 арбалетных болтов с широким наконечником.</MakeAmmo_Bolt_Broadhead.description>
+  <MakeAmmo_Bolt_Broadhead.jobString>Делает арбалетные болты с широким наконечником.</MakeAmmo_Bolt_Broadhead.jobString>
+
+  <MakeAmmo_Bolt_Bodkin.label>Сделать бронебойные арбалетные болты x50</MakeAmmo_Bolt_Bodkin.label>
+  <MakeAmmo_Bolt_Bodkin.description>Сделать 50 бронебойных арбалетных болтов.</MakeAmmo_Bolt_Bodkin.description>
+  <MakeAmmo_Bolt_Bodkin.jobString>Делает бронебойные арбалетные болты.</MakeAmmo_Bolt_Bodkin.jobString>
 
 </LanguageData>

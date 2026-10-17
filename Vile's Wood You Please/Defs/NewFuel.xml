@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Pitch</defName>
 		<label>pitch</label>
 		<description>Pitch extracted from trees. Can be used as a fuel.</description>
@@ -29,7 +29,7 @@
 		</thingCategories>
 		<stackLimit>300</stackLimit>
 	</ThingDef>
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>FishOil</defName>
 		<label>fish oil</label>
 		<description>Flammable oil extracted from fish. Can be used as a fuel.</description>
@@ -56,7 +56,7 @@
 		</thingCategories>
 		<stackLimit>300</stackLimit>
 	</ThingDef>
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Turpentine</defName>
 		<label>turpentine</label>
 		<description>A fluid obtained by processing tree pitch. Can be burned as lamp fuel.</description>
@@ -84,7 +84,7 @@
 		<stackLimit>300</stackLimit>
 	</ThingDef>
 
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>RushlightFuel</defName>
 		<label>rushlights</label>
 		<description>Grass or plant matter dipped in grease - A poor man's candle.</description>
@@ -112,7 +112,7 @@
 		<stackLimit>75</stackLimit>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>CandleFuel</defName>
 		<label>Candles</label>
 		<description>A candle made of wax or fat. Must be burned in a candle holder.</description>
@@ -141,7 +141,7 @@
 	</ThingDef>
 	  
 <!-- Seasoned is parent -->
-<ThingDef ParentName="SK_ResourceBase" Name="FirewoodSeasonedBase" Abstract="True">
+<ThingDef ParentName="ResourceBase" Name="FirewoodSeasonedBase" Abstract="True">
 	<description>Wood logs cut into large, rough pieces of firewood. Hardwoods tend to burn longer than softwoods.</description>
 	<graphicData>
 		<texPath>Things/VileWood/SeasonedFirewood</texPath>
@@ -168,7 +168,7 @@
 
 <!-- Green is child -->
 <!-- <ThingDef ParentName="FirewoodSeasonedBase" Name="FirewoodBase" Abstract="True"> -->
-<ThingDef ParentName="SK_ResourceBase" Name="FirewoodBase" Abstract="True">
+<ThingDef ParentName="ResourceBase" Name="FirewoodBase" Abstract="True">
 	<description>Wood logs cut into large, rough pieces of firewood. Hardwoods tend to burn longer than softwoods.</description>
 	<graphicData>
 		<texPath>Things/VileWood/GreenFirewood</texPath>
@@ -679,7 +679,7 @@ Burn rate: 3.1 hrs</description>
 
 
 <!-- 
-	<ThingDef ParentName="SK_ResourceVerbBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>WoodLog</defName>
 		<label>firewood</label>
 		<description>Wood from trees or other fibrous plants. Useful for building structures, weapons, and even simple prosthetics. A raw stick of wood can be used as a weapon in a pinch. It can be processed into planks or kindling.</description>

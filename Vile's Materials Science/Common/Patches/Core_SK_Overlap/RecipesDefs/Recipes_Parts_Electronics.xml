@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<!-- Core_SK overlap changes from Common/Defs/RecipesDefs/Recipes_Parts_Electronics.xml. Identical fields are intentionally omitted. -->
+	<!-- RecipeDef: MakeSilicon_Electric -->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/RecipeDef[defName="MakeSilicon_Electric"]</xpath>
+		<value Merge="true">
+			<label>Make semiconductor material x5</label>
+			<description>Doesn't quite conduct, doesn't quite not. Critical component for electronics. Typically made from silicon.</description>
+			<jobString>Making semiconductor material.</jobString>
+			<ingredients DeepReplace="true">
+				<li>
+					<filter>
+						<thingDefs>
+							<li>GlassBatch</li>
+						</thingDefs>
+					</filter>
+					<count>15</count>
+				</li>
+			</ingredients>
+			<fixedIngredientFilter>
+				<thingDefs DeepReplace="true">
+					<li>GlassBatch</li>
+				</thingDefs>
+			</fixedIngredientFilter>
+			<recipeUsers>
+				<li>GlassworkTable</li>
+			</recipeUsers>
+			<researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
+		</value>
+	</Operation>
+	<!-- RecipeDef: MakeElectronicComponents -->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/RecipeDef[defName="MakeElectronicComponents"]</xpath>
+		<value Merge="true">
+			<label>Assemble transistors x5</label>
+			<description>Transistors are an important basic component of electronics.</description>
+			<jobString>Assembling transistors.</jobString>
+			<ingredients DeepReplace="true">
+				<li>
+					<filter>
+						<categories>
+							<li>INSBar</li>
+						</categories>
+						<thingDefs>
+							<li>Glass</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Silicon</li>
+						</thingDefs>
+					</filter>
+					<count>30</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>SilverBar</li>
+							<li>AluminiumBar</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Solder</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+			</ingredients>
+			<fixedIngredientFilter>
+				<thingDefs DeepReplace="true">
+					<li>Silicon</li>
+					<li>AluminiumBar</li>
+					<li>Solder</li>
+					<li>SilverBar</li>
+					<li>Glass</li>
+				</thingDefs>
+				<categories DeepReplace="true">
+					<li>INSBar</li>
+				</categories>
+			</fixedIngredientFilter>
+		</value>
+	</Operation>
+	<!-- RecipeDef: MakeIntegratedCircuits -->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/RecipeDef[defName="MakeIntegratedCircuits"]</xpath>
+		<value Merge="true">
+			<label>Assemble integrated circuits x5</label>
+			<ingredients DeepReplace="true">
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Silicon</li>
+						</thingDefs>
+					</filter>
+					<count>25</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Compaste</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>ElectronicComponents</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Solder</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+			</ingredients>
+			<fixedIngredientFilter>
+				<thingDefs DeepReplace="true">
+					<li>Silicon</li>
+					<li>ElectronicComponents</li>
+					<li>Compaste</li>
+					<li>Solder</li>
+				</thingDefs>
+			</fixedIngredientFilter>
+		</value>
+	</Operation>
+	<!-- RecipeDef: MakeMicrochipIntegratedCircuits -->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/RecipeDef[defName="MakeMicrochipIntegratedCircuits"]</xpath>
+		<value Merge="true">
+			<label>Assemble microprocessor x1</label>
+			<description>Assemble a microprocessor. Used in high tier electronics. Produces 1.</description>
+			<jobString>Assembling a microprocessor.</jobString>
+			<ingredients DeepReplace="true">
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Electronics</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Carborundum</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>GoldBar</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Solder</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+			</ingredients>
+			<fixedIngredientFilter>
+				<thingDefs DeepReplace="true">
+					<li>Electronics</li>
+					<li>Carborundum</li>
+					<li>GoldBar</li>
+					<li>Solder</li>
+				</thingDefs>
+			</fixedIngredientFilter>
+		</value>
+	</Operation>
+	<!-- RecipeDef: MakeBioelectronicDevices -->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/RecipeDef[defName="MakeBioelectronicDevices"]</xpath>
+		<value Merge="true">
+			<label>Assemble quantum computer</label>
+			<description>Assemble a quantum computer. Used in high tier electronics and bionics. Produces 1.</description>
+			<jobString>Assembling a quantum computer.</jobString>
+			<workAmount>6000</workAmount>
+			<ingredients DeepReplace="true">
+				<li>
+					<filter>
+						<thingDefs>
+							<li>NanotechFramework</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>HMFibers</li>
+						</thingDefs>
+					</filter>
+					<count>15</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Microchips</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
+			</ingredients>
+			<fixedIngredientFilter>
+				<thingDefs DeepReplace="true">
+					<li>NanotechFramework</li>
+					<li>HMFibers</li>
+					<li>Microchips</li>
+				</thingDefs>
+			</fixedIngredientFilter>
+		</value>
+	</Operation>
+</Patch>

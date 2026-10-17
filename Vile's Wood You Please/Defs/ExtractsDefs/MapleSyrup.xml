@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>SyrupMaple</defName>
 		<label>maple syrup</label>
 		<description>A delicious sweet from our friend the tree.</description>

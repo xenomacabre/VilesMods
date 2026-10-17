@@ -10,7 +10,7 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="PlantWax"]</xpath>
 				<value>
-					<ThingDef ParentName="SK_ResourceBase">
+					<ThingDef ParentName="ResourceBase">
 						<defName>PlantWax</defName>
 						<label>vegetable oil</label>
 						<description>Oil extracted from certain seeds.</description>
@@ -53,7 +53,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs</xpath>
 				<value>
-					<ThingDef ParentName="SK_ResourceBase">
+					<ThingDef ParentName="ResourceBase">
 						<defName>PlantWax</defName>
 						<label>vegetable oil</label>
 						<description>Oil extracted from certain seeds.</description>

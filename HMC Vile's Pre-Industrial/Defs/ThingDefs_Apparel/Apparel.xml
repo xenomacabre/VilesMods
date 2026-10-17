@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<ThingDef Name="SK_ApparelBase" Abstract="True">
@@ -25,14 +25,14 @@
 		<alwaysHaulable>True</alwaysHaulable>
 		<tickerType>Never</tickerType>
 		<comps>
-			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Forbiddable" />
 			<li>
 				<compClass>CompColorable</compClass>
 			</li>
 			<li>
 				<compClass>CompQuality</compClass>
 			</li>
-			<li Class="CompProperties_Styleable"></li>
+			<li Class="CompProperties_Styleable" />
 		</comps>
 		<colorGenerator Class="ColorGenerator_Options">
 			<options>
@@ -52,11 +52,13 @@
 			<tags>
 				<li>UniqueNeolitic</li>
 			</tags>
-			<ideoDesireAllowedFactionCategoryTags><li>Tribal</li></ideoDesireAllowedFactionCategoryTags>
+			<ideoDesireAllowedFactionCategoryTags>
+				<li>Tribal</li>
+			</ideoDesireAllowedFactionCategoryTags>
 		</apparel>
 		<techLevel>Neolithic</techLevel>
 	</ThingDef>
-	
+
 	<ThingDef Name="ApparelNeoliticBase" ParentName="ApparelNeoliticSimpleBase" Abstract="True">
 		<recipeMaker>
 			<workSpeedStat>TailoringSpeed</workSpeedStat>
@@ -82,11 +84,13 @@
 			<tags>
 				<li>UniqueNeolitic</li>
 			</tags>
-			<ideoDesireAllowedFactionCategoryTags><li>Tribal</li></ideoDesireAllowedFactionCategoryTags>
+			<ideoDesireAllowedFactionCategoryTags>
+				<li>Tribal</li>
+			</ideoDesireAllowedFactionCategoryTags>
 		</apparel>
 		<techLevel>Neolithic</techLevel>
 	</ThingDef>
-	
+
 	<ThingDef Name="ArmorNeoliticBase" ParentName="ArmorNeoliticSimpleBase" Abstract="True">
 		<recipeMaker>
 			<workSpeedStat>SmithingSpeed</workSpeedStat>
@@ -104,7 +108,7 @@
 		<techLevel>Neolithic</techLevel>
 	</ThingDef>
 
-	<ThingDef Name="ApparelMedievalSimpleBase" ParentName="SK_ApparelBase" Abstract="True">
+	<!-- 	<ThingDef Name="ApparelMedievalSimpleBase" ParentName="ApparelBase" Abstract="True">
 		<equippedStatOffsets>
 			<Suppressability>-0.03</Suppressability>
 		</equippedStatOffsets>
@@ -112,12 +116,14 @@
 			<tags>
 				<li>UniqueMedieval</li>
 			</tags>
-			<ideoDesireAllowedFactionCategoryTags><li>Medieval</li></ideoDesireAllowedFactionCategoryTags>
+			<ideoDesireAllowedFactionCategoryTags>
+				<li>Medieval</li>
+			</ideoDesireAllowedFactionCategoryTags>
 		</apparel>
 		<techLevel>Medieval</techLevel>
-	</ThingDef>
-	
-	<ThingDef Name="ApparelMedievalBase" ParentName="ApparelMedievalSimpleBase" Abstract="True">
+	</ThingDef> -->
+
+	<!-- 	<ThingDef Name="ApparelMedievalBase" ParentName="ApparelMedievalSimpleBase" Abstract="True">
 		<recipeMaker>
 			<workSpeedStat>TailoringSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
@@ -132,9 +138,9 @@
 			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
 		</recipeMaker>
 		<techLevel>Medieval</techLevel>
-	</ThingDef>
+	</ThingDef> -->
 
-	<ThingDef Name="ArmorMedievalSimpleBase" ParentName="SK_ApparelBase" Abstract="True">
+	<!-- 	<ThingDef Name="ArmorMedievalSimpleBase" ParentName="ApparelBase" Abstract="True">
 		<equippedStatOffsets>
 			<Suppressability>-0.06</Suppressability>
 		</equippedStatOffsets>
@@ -142,12 +148,14 @@
 			<tags>
 				<li>UniqueMedieval</li>
 			</tags>
-			<ideoDesireAllowedFactionCategoryTags><li>Medieval</li></ideoDesireAllowedFactionCategoryTags>
+			<ideoDesireAllowedFactionCategoryTags>
+				<li>Medieval</li>
+			</ideoDesireAllowedFactionCategoryTags>
 		</apparel>
 		<techLevel>Medieval</techLevel>
 	</ThingDef>
-	
-	<ThingDef Name="ArmorMedievalBase" ParentName="ArmorMedievalSimpleBase" Abstract="True">
+ -->
+	<!-- 	<ThingDef Name="ArmorMedievalBase" ParentName="ArmorMedievalSimpleBase" Abstract="True">
 		<recipeMaker>
 			<workSpeedStat>SmithingSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
@@ -163,9 +171,9 @@
 			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
 		</recipeMaker>
 		<techLevel>Medieval</techLevel>
-	</ThingDef>
+	</ThingDef> -->
 
-	<ThingDef Name="ApparelIndustrialSimpleBase" ParentName="SK_ApparelBase" Abstract="True">
+<!-- 	<ThingDef Name="ApparelIndustrialSimpleBase" ParentName="SK_ApparelBase" Abstract="True">
 		<equippedStatOffsets>
 			<Suppressability>-0.06</Suppressability>
 		</equippedStatOffsets>
@@ -175,9 +183,9 @@
 			</tags>
 		</apparel>
 		<techLevel>Industrial</techLevel>
-	</ThingDef>
-	
-	<ThingDef Name="ApparelIndustrialBase" ParentName="ApparelIndustrialSimpleBase" Abstract="True">
+	</ThingDef> -->
+
+<!-- 	<ThingDef Name="ApparelIndustrialBase" ParentName="ApparelIndustrialSimpleBase" Abstract="True">
 		<recipeMaker>
 			<workSpeedStat>TailoringSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
@@ -192,9 +200,9 @@
 			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
 		</recipeMaker>
 		<techLevel>Industrial</techLevel>
-	</ThingDef>
-	
-	<ThingDef Name="ArmorIndustrialSimpleBase" ParentName="SK_ApparelBase" Abstract="True">
+	</ThingDef> -->
+
+<!-- 	<ThingDef Name="ArmorIndustrialSimpleBase" ParentName="SK_ApparelBase" Abstract="True">
 		<equippedStatOffsets>
 			<Suppressability>-0.07</Suppressability>
 		</equippedStatOffsets>
@@ -204,9 +212,9 @@
 			</tags>
 		</apparel>
 		<techLevel>Industrial</techLevel>
-	</ThingDef>
-	
-	<ThingDef Name="ArmorIndustrialBase" ParentName="ArmorIndustrialSimpleBase" Abstract="True">
+	</ThingDef> -->
+
+<!-- 	<ThingDef Name="ArmorIndustrialBase" ParentName="ArmorIndustrialSimpleBase" Abstract="True">
 		<recipeMaker>
 			<workSpeedStat>SmithingSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
@@ -221,9 +229,9 @@
 			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
 		</recipeMaker>
 		<techLevel>Industrial</techLevel>
-	</ThingDef>
+	</ThingDef> -->
 
-	<ThingDef Name="ApparelSpacerSimpleBase" ParentName="SK_ApparelBase" Abstract="True">
+<!-- 	<ThingDef Name="ApparelSpacerSimpleBase" ParentName="ApparelBase" Abstract="True">
 		<equippedStatOffsets>
 			<Suppressability>-0.09</Suppressability>
 		</equippedStatOffsets>
@@ -236,9 +244,9 @@
 			<li>RewardStandardHighFreq</li>
 		</thingSetMakerTags>
 		<techLevel>Spacer</techLevel>
-	</ThingDef>
-	
-	<ThingDef Name="ApparelSpacerBase" ParentName="ApparelSpacerSimpleBase" Abstract="True">
+	</ThingDef> -->
+
+<!-- 	<ThingDef Name="ApparelSpacerBase" ParentName="ApparelSpacerSimpleBase" Abstract="True">
 		<recipeMaker>
 			<workSpeedStat>TailoringSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
@@ -254,11 +262,11 @@
 		</recipeMaker>
 		<techLevel>Spacer</techLevel>
 		<comps>
-		  <li Class="CompProperties_Biocodable"/>
+			<li Class="CompProperties_Biocodable" />
 		</comps>
-	</ThingDef>
+	</ThingDef> -->
 
-	<ThingDef Name="ArmorSpacerSimpleBase" ParentName="SK_ApparelBase" Abstract="True">
+<!-- 	<ThingDef Name="ArmorSpacerSimpleBase" ParentName="ApparelBase" Abstract="True">
 		<equippedStatOffsets>
 			<Suppressability>-0.11</Suppressability>
 		</equippedStatOffsets>
@@ -272,11 +280,11 @@
 		</thingSetMakerTags>
 		<techLevel>Spacer</techLevel>
 		<comps>
-		  <li Class="CompProperties_Biocodable"/>
+			<li Class="CompProperties_Biocodable" />
 		</comps>
-	</ThingDef>
-	
-	<ThingDef Name="ArmorSpacerSimpleBase_30x64mmInc" ParentName="ArmorSpacerSimpleBase" Abstract="True">
+	</ThingDef> -->
+
+<!-- 	<ThingDef Name="ArmorSpacerSimpleBase_30x64mmInc" ParentName="ArmorSpacerSimpleBase" Abstract="True">
 		<comps>
 			<li Class="CompProperties_Reloadable">
 				<maxCharges>2</maxCharges>
@@ -311,10 +319,10 @@
 				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
 			</li>
 		</verbs>
-	</ThingDef>
-	
-	
-	<ThingDef Name="ArmorSpacerBase" ParentName="ArmorSpacerSimpleBase" Abstract="True">
+	</ThingDef> -->
+
+
+<!-- 	<ThingDef Name="ArmorSpacerBase" ParentName="ArmorSpacerSimpleBase" Abstract="True">
 		<recipeMaker>
 			<workSpeedStat>SmithingSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
@@ -329,6 +337,6 @@
 			<unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
 		</recipeMaker>
 		<techLevel>Spacer</techLevel>
-	</ThingDef>
+	</ThingDef> -->
 
 </Defs>

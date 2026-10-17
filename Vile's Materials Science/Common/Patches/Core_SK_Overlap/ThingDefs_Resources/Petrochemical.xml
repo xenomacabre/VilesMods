@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<!-- Core_SK overlap changes from Common/Defs/ThingDefs_Resources/Petrochemical.xml. Identical fields are intentionally omitted. -->
+	<!-- ThingDef: Polymers -->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="Polymers"]</xpath>
+		<value Merge="true">
+			<label>Ethylene</label>
+			<description>Ethylene is product of refined Crude Oil. It's a colorless, very flammable gas used for making polyester, PVC, polyethylene, and plystyrene at a Petrochemical Plant.</description>
+			<graphicData>
+				<texPath>Things/Item/Chemical/Ethylene</texPath>
+			</graphicData>
+			<tickerType>Normal</tickerType>
+			<comps>
+				<li Class="CompProperties_Explosive">
+					<explosiveRadius>1.5</explosiveRadius>
+					<explosiveDamageType>Flame</explosiveDamageType>
+					<explosiveExpandPerStackcount>0.037</explosiveExpandPerStackcount>
+					<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+					<wickTicks>
+						<min>10</min>
+						<max>100</max>
+					</wickTicks>
+				</li>
+			</comps>
+		</value>
+	</Operation>
+	<!-- ThingDef: Sulphates -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Sulphates"]/statBases/MaxHitPoints</xpath>
+	</Operation>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="Sulphates"]</xpath>
+		<value Merge="true">
+			<label>Benzene</label>
+			<description>Benzene is product of refined Crude Oil. It's a colorless, aromatic,  flammable liquid used for making napalm, polycarbonate, epoxy resin, polystyrene, and aramid fibers (such as kevlar) at a Petrochemical Plant.</description>
+			<graphicData>
+				<texPath>Things/Item/Chemical/Benzene</texPath>
+			</graphicData>
+			<statBases>
+				<MarketValue>1.5</MarketValue>
+				<DeteriorationRate>0</DeteriorationRate>
+				<Flammability>5</Flammability>
+				<Mass>0.07</Mass>
+				<Bulk>0.07</Bulk>
+			</statBases>
+			<thingCategories DeepReplace="true">
+				<li>Hydrocarbons</li>
+			</thingCategories>
+			<stackLimit>600</stackLimit>
+			<comps DeepReplace="true">
+				<li Class="CompProperties_Explosive">
+					<explosiveRadius>1.0</explosiveRadius>
+					<explosiveDamageType>Flame</explosiveDamageType>
+					<explosiveExpandPerStackcount>0.03</explosiveExpandPerStackcount>
+					<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+					<wickTicks>
+						<min>60</min>
+						<max>120</max>
+					</wickTicks>
+				</li>
+			</comps>
+		</value>
+	</Operation>
+	<!-- ThingDef: SyntheticFibers -->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="SyntheticFibers"]</xpath>
+		<value Merge="true">
+			<label>Polymer Fibers</label>
+			<description>A synthetic fiber spun from Polyethylene Terephthalate, better known as PET, is mostly used for weaving polyester fabric at a loom. Polymer fibers can be made using xylene and ethylene or automatically via a refinery.</description>
+			<statBases>
+				<MarketValue>5</MarketValue>
+			</statBases>
+			<stuffProps>
+				<color>(93,197,229)</color>
+			</stuffProps>
+		</value>
+	</Operation>
+	<!-- ThingDef: Compaste -->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="Compaste"]</xpath>
+		<value Merge="true">
+			<label>Epoxy Resin</label>
+			<description>Thermoset epoxy has many applications, including apparel production and as a polymer matrix for composite materials such as fiberglass.</description>
+			<graphicData>
+				<texPath>Things/Item/Chemical/ThermosetResin</texPath>
+			</graphicData>
+			<thingCategories DeepReplace="true">
+				<li>Chemical</li>
+			</thingCategories>
+		</value>
+	</Operation>
+	<!-- ThingDef: SyntheticAmmonia -->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="SyntheticAmmonia"]</xpath>
+		<value Merge="true">
+			<label>Ammonia</label>
+			<description>Ammonia is synthesized via nitrogen and hydrogen using hydrocarbons as a feedstock. It's useful for explosives, as a working fluid for binary cycle plants, and for certain plastics.</description>
+		</value>
+	</Operation>
+</Patch>

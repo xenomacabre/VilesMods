@@ -86,7 +86,7 @@
 		<label>Cloak</label>
 		<description>A simple sleeveless garment that covers the body to protect it from the elements. It can be made from everything from fabrics to furs and is only as warm (or cool) as the material it's made of. It's very versatile. A light foot soldier might wear one to keep warm during long marches, and then while fighting it can flap open and back cooling the wearer.</description>
 		<graphicData>
-			<texPath>Things/Apparel/MedievalTimes/Bodywear_Clothing/Cloak/LongCloak</texPath>
+			<texPath>Things/Apparel/Clothes/LongCloak/LongCloak</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>		
 		<stuffCategories>
@@ -131,7 +131,7 @@
 				<li>Neck</li>
 				<li>Shoulders</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Apparel/MedievalTimes/Bodywear_Clothing/Cloak/LongCloak</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/Clothes/LongCloak/LongCloak</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 			</layers>

@@ -1,50 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
 
-	<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Core SK</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-	<success>Always</success>
-		<operations>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName="MakeReinforcedGlass"]/ingredients</xpath>
-				<value>
-                   <ingredients>
-                        <li>
-                            <filter>
-                                <thingDefs>
-                                    <li>Glass</li>
-                                </thingDefs>
-                            </filter>
-                            <count>20</count>
-                        </li>
-                        <li>
-                            <filter>
-                                <thingDefs>
-                                    <li>Polycarbonate</li>
-                                </thingDefs>
-                            </filter>
-                            <count>10</count>
-                        </li>
-                    </ingredients>
-				</value>
-			</li>
-             <li Class="PatchOperationReplace">
-				<xpath>Defs/RecipeDef[defName="MakeReinforcedGlass"]/fixedIngredientFilter</xpath>
-				<value>
-                  <fixedIngredientFilter>
-                        <thingDefs>
-                            <li>Glass</li>
-                            <li>Polycarbonate</li>
-                        </thingDefs>
-                    </fixedIngredientFilter>
-				</value>
-			</li>
-		
-		</operations>
-		</match>
-    </Operation>	
-</Patch>	
-
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Core SK</li>
+    </mods>
+    <match Class="SK.PatchOperationReplaceExtended">
+      <xpath>Defs/RecipeDef[defName="MakeReinforcedGlass"]</xpath>
+      <value>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>Glass</li>
+              </thingDefs>
+            </filter>
+            <count>20</count>
+          </li>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>Polycarbonate</li>
+              </thingDefs>
+            </filter>
+            <count>10</count>
+          </li>
+        </ingredients>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>Glass</li>
+            <li>Polycarbonate</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+          <ReinforcedGlass>20</ReinforcedGlass>
+        </products>
+      </value>
+    </match>
+  </Operation>
+</Patch>

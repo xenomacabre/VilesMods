@@ -2,7 +2,7 @@
 <Defs>
 	<RecipeDef>
 		<defName>MakeMaxametSteel</defName>
-		<label>Make Maxamet high-speed steel x25</label>
+		<label>Make Maxamet high-speed steel x15</label>
 		<description>Maxamet is a brand of high-speed tool steel with excellent edge retention. It fairs well in most applications, but it is unsurpased in bladed tools and weapons.</description>
 		<jobString>Making Maxamet steel</jobString>
 		<workAmount>2100</workAmount>
@@ -52,7 +52,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<MaxametSteel>25</MaxametSteel>
+			<MaxametSteel>15</MaxametSteel>
 		</products>
 		<skillRequirements>
 			<Crafting>15</Crafting>
@@ -64,7 +64,7 @@
 	
 	<RecipeDef>
 		<defName>MakeAerMetSteel</defName>
-		<label>Make AerMet martenistic stainless steel x25</label>
+		<label>Make AerMet martenistic stainless steel x15</label>
 		<description>Aermet 100 is a brand of ultra-strong stainless steel. It's primary role as for personal armor and armor plating, but it's useful for anything you want to last a very long time. Especially wood axes.</description>
 		<jobString>Making AerMet 100 steel.</jobString>
 		<workAmount>2400</workAmount>
@@ -123,7 +123,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<AerMet>25</AerMet>
+			<AerMet>15</AerMet>
 		</products>
 		<skillRequirements>
 			<Crafting>15</Crafting>
@@ -135,7 +135,7 @@
 	<!-- make pyromet -->
 	<RecipeDef>
 		<defName>MakePyromet</defName>
-		<label>Make Pyromet superalloy x35</label>
+		<label>Make Pyromet superalloy x15</label>
 		<description>Pyromet is designated a superalloy, which means it's meant to perform under extreme conditions. This iron-based version is the more economical of the superalloys and holds up well against thermal/energy weapons, but is otherwise unremarkable, except compared to previous generation alloys.</description>
 		<jobString>Making Pyromet superalloy.</jobString>
 		<workAmount>1800</workAmount>
@@ -185,7 +185,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Pyromet>35</Pyromet>
+			<Pyromet>15</Pyromet>
 		</products>
 		<skillRequirements>
 			<Crafting>14</Crafting>
@@ -197,7 +197,7 @@
 	
 	<RecipeDef>
 		<defName>MakeStellite</defName>
-		<label>Make Stellite superalloy x25</label>
+		<label>Make Stellite superalloy x15</label>
 		<description>Stellite is designated a superalloy, which means it's meant to perform under extreme conditions. In addition to its engineering uses, this cobalt-based version makes a good surface for workbenches and is a good material for making constuction and cutting tools. It's very difficult to produce however.</description>
 		<jobString>Making Stellite superalloy.</jobString>
 		<workAmount>2800</workAmount>
@@ -247,7 +247,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<StelliteAlloy>35</StelliteAlloy>
+			<StelliteAlloy>15</StelliteAlloy>
 		</products>
 		<skillRequirements>
 			<Crafting>16</Crafting>
@@ -259,7 +259,7 @@
 	
 	<RecipeDef>
 		<defName>MakeNimonic</defName>
-		<label>Make Nimonic superalloy x25</label>
+		<label>Make Nimonic superalloy x15</label>
 		<description>Nimonic is designated a superalloy, which means it's meant to perform under extreme conditions. In addition to its engineering uses, this nickel-based version is incredibly durable and makes strong digging and farming tools.</description>
 		<jobString>Making Nimonic superalloy.</jobString>
 		<workAmount>2200</workAmount>
@@ -309,7 +309,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Nimonic>35</Nimonic>
+			<Nimonic>15</Nimonic>
 		</products>
 		<skillRequirements>
 			<Crafting>15</Crafting>
@@ -321,7 +321,7 @@
 	
 	<RecipeDef>
 		<defName>MakeCarborundum</defName>
-		<label>Make Carborundum x35</label>
+		<label>Make Carborundum x30</label>
 		<description>Also called Silicon Carbide, this non-metal ceramic compound is cheap and easy to manufacture. Nearly as hard as diamond and lightweight, making it an excellent material for cheap but effective ballistic plates. They're prone to fracture after a few direct hits, however.</description>
 		<jobString>Making carborundum</jobString>
 		<workAmount>2100</workAmount>
@@ -353,7 +353,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Carborundum>35</Carborundum>
+			<Carborundum>30</Carborundum>
 		</products>
 		<skillRequirements>
 			<Crafting>14</Crafting>
@@ -365,7 +365,7 @@
 	
 	<RecipeDef>
 		<defName>MakeTungstenCarbide</defName>
-		<label>Make Tungsten Carbide x25</label>
+		<label>Make Tungsten Carbide x15</label>
 		<description>Tungsten Carbide is extremely hard and very dense. It's often used for drill bits, mining tools, surgical tools, and machine workbenches. Due to it's extremely high density, it's used for armor-piercing ammo. It's hardness means it's quite brittle, however, so don't expect a long life of the product.</description>
 		<jobString>Making tungsten carbide</jobString>
 		<workAmount>2100</workAmount>
@@ -406,7 +406,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<PobediteAlloy>25</PobediteAlloy>
+			<PobediteAlloy>15</PobediteAlloy>
 		</products>
 		<skillRequirements>
 			<Crafting>14</Crafting>
@@ -418,7 +418,7 @@
 	
 	<RecipeDef>
 		<defName>MakeTennalum</defName>
-		<label>Make Tennalum alloy x30</label>
+		<label>Make Tennalum alloy x15</label>
 		<description>Tennalum is a brand of 7068-grade high-performance aluminium. Being an alloy of aluminium, it's lightwight and machines exceptionally easily, but it's also as strong as some steels. It's a great building material given that it goes up fast and is easy to transport, and the champagne anodization is an attractive tough, as well.</description>
 		<jobString>Making tennalum alloy.</jobString>
 		<workAmount>1800</workAmount>
@@ -459,7 +459,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Tennalum>30</Tennalum>
+			<Tennalum>15</Tennalum>
 		</products>
 		<skillRequirements>
 			<Crafting>16</Crafting>
@@ -471,7 +471,7 @@
 	
 	<RecipeDef>
 		<defName>MakeDualPhaseTitanium</defName>
-		<label>Make Dual-Phase Titanium x25</label>
+		<label>Make Dual-Phase Titanium x15</label>
 		<description>This titanium alloy is fairly lightweight and very strong. Its shock absorbtion properties make it an excellend candidate for digging and buliding tools. It also makes good armor, not just because of a good ballistic and thermal insulation rating, but its weight makes it easier to move in. It's very hard to produce and to work with however. It can also be used as a superalloy.</description>
 		<jobString>Making dual-phase titanium.</jobString>
 		<workAmount>3300</workAmount>
@@ -512,7 +512,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<TitaniumBar>25</TitaniumBar>
+			<Plasteel>15</Plasteel>
 		</products>
 		<skillRequirements>
 			<Crafting>17</Crafting>
@@ -524,7 +524,7 @@
 	
 	<RecipeDef>
 		<defName>MakeNitinol</defName>
-		<label>Make Nitinol x25</label>
+		<label>Make Nitinol x15</label>
 		<description>This alloy is equal parts titanium and nickel. It has unique shape memory qualities and superb flexibility. It's an important engineering alloy, required to build advanced machine parts, but its great for swords and knives and medical devices.</description>
 		<jobString>Making nitinol.</jobString>
 		<workAmount>3300</workAmount>
@@ -556,7 +556,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<NitinolAlloy>25</NitinolAlloy>
+			<NitinolAlloy>15</NitinolAlloy>
 		</products>
 		<skillRequirements>
 			<Crafting>17</Crafting>

@@ -18,7 +18,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li> <!-- iron ore -->
+						<li>Iron</li> <!-- iron ore -->
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -26,7 +26,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li><!-- iron ore -->
+				<li>Iron</li><!-- iron ore -->
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -54,7 +54,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li> <!-- iron ore -->
+						<li>Iron</li> <!-- iron ore -->
 						<li MayRequire="vitech.materialsscience">BogIron</li>
 					</thingDefs>
 				</filter>
@@ -71,14 +71,9 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li><!-- iron ore -->
+				<li>Iron</li><!-- iron ore -->
 				<li MayRequire="vitech.materialsscience">BogIron</li>
 			</thingDefs>
-			<categories>
-				<li>Coal</li>
-				<li>Metallurgical</li>
-			</categories>
-			
 		</fixedIngredientFilter>
 		<products>
 			<PigIron>100</PigIron>
@@ -96,10 +91,11 @@
 	<!-- blast furnace recipe users in building def -->
 
 	
+	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 	<RecipeDef>
 		<defName>MakeBronze_Hand</defName>
 		<label>Smelt bronze (x25)</label>
-		<description>Smelts bronze alloy from copper ore and other metals. Produces 30.</description>
+		<description>Smelts bronze alloy from copper ore and other metals. Produces 25.</description>
 		<jobString>Smelting bronze alloy.</jobString>
 		<workAmount>625</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
@@ -126,7 +122,6 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Copper</li>
 				<li>CopperBar</li>
 				<li>TinBar</li>
 				<li>AluminiumBar</li>
@@ -146,6 +141,7 @@
 
 	</recipeUsers>
 	</RecipeDef>
+	-->
 	
 	<RecipeDef>
 		<defName>MakeBronze_Foundry</defName>
@@ -177,7 +173,6 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Copper</li>
 				<li>CopperBar</li>
 				<li>TinBar</li>
 				<li>AluminiumBar</li>
@@ -200,6 +195,7 @@
 	
 	<!-- SMELT Copper -->
 	
+	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 	<RecipeDef>
 		<defName>MakeCopperBars_Hand</defName>
 		<label>Smelt copper (x10)</label>
@@ -237,11 +233,12 @@
 
 	</recipeUsers>
 	</RecipeDef>
+	-->
 	
-		<RecipeDef>
+	<RecipeDef>
 		<defName>MakeCopperBars_Foundry</defName>
 		<label>Smelt copper (x50)</label>
-		<description>Smelts copper bar from copper ore. Produces 10.</description>
+		<description>Smelts copper bar from copper ore. Produces 50.</description>
 		<jobString>Smelting copper alloy.</jobString>
 		<workAmount>800</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
@@ -276,6 +273,7 @@
 	</RecipeDef>
 	
 	<!-- SMELT TIN -->
+	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 	<RecipeDef>
 		<defName>MakeTinBars_Hand</defName>
 		<label>Smelt tin alloy (x10)</label>
@@ -314,11 +312,12 @@
 
 	</recipeUsers>
 	</RecipeDef>
+	-->
 	
 	<RecipeDef>
 		<defName>MakeTinBars_Foundry</defName>
 		<label>Smelt tin alloy (x50)</label>
-		<description>Smelts tin alloy from tin ore. Mainly used as an ingredient in other alloy recipes. Produces 10.</description>
+		<description>Smelts tin alloy from tin ore. Mainly used as an ingredient in other alloy recipes. Produces 50.</description>
 		<jobString>Smelting tin alloy.</jobString>
 		<workAmount>900</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
@@ -354,9 +353,10 @@
 	</RecipeDef>
 
 	<!-- SMELT lead -->
+	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 	<RecipeDef>
 		<defName>MakeLeadBars_Hand</defName>
-		<label>Smelt lead alloy (x10)</label>
+		<label>Smelt lead alloy (x15)</label>
 		<description>Smelts lead alloy from anglesite ore. Produces 15.</description>
 		<jobString>Smelting lead alloy.</jobString>
 		<workAmount>500</workAmount>
@@ -392,11 +392,12 @@
         <li>TableFurnace</li>
 	</recipeUsers>
 	</RecipeDef>
+	-->
 	
-		<RecipeDef>
+	<RecipeDef>
 		<defName>MakeLeadBars_Foundry</defName>
 		<label>Smelt lead alloy (x25)</label>
-		<description>Smelts lead alloy from anglesite ore. Produces 15.</description>
+		<description>Smelts lead alloy from anglesite ore. Produces 25 lead bars and, with Materials Science, 20 pure silver.</description>
 		<jobString>Smelting lead alloy.</jobString>
 		<workAmount>900</workAmount>
 		<workSpeedStat>SmeltingSpeed</workSpeedStat>
@@ -433,6 +434,7 @@
 	</RecipeDef>
 	
 	<!-- SMELT Sterling silver -->
+	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 	<RecipeDef>
 		<defName>MakeSilverBars_Hand</defName>
 		<label>Smelt sterling silver alloy</label>
@@ -481,8 +483,10 @@
 		<li>FirePit</li>
 	</recipeUsers>
 	</RecipeDef>
+	-->
 	
 	<!-- SMELT Yellow Gold -->
+	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 	<RecipeDef>
 		<defName>MakeGoldBars_Hand</defName>
 		<label>Smelt gold alloy</label>
@@ -531,6 +535,7 @@
 		<li>FirePit</li>
 	</recipeUsers>
 	</RecipeDef>
+	-->
 	
 	
 </Defs>

@@ -138,7 +138,7 @@
 			<li>SBrickPegmatiteV</li>
 			<li>SBrickAlabasterV</li>
 		</defNames>
-		<designationCategory>OutsideFloors</designationCategory>
+		<designationCategory>NaturalFloors</designationCategory>
 		<debug>false</debug>
 	</ArchitectSense.DesignationSubCategoryDef>
 
@@ -159,7 +159,7 @@
 			<li>MBrickPegmatiteV</li>
 			<li>MBrickAlabasterV</li>
 		</defNames>
-		<designationCategory>OutsideFloors</designationCategory>
+		<designationCategory>NaturalFloors</designationCategory>
 		<debug>false</debug>
 	</ArchitectSense.DesignationSubCategoryDef>
 	 

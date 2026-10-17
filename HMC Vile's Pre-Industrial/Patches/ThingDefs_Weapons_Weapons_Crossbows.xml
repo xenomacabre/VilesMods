@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="Norbal_Scorpion"]</xpath>
+		<value>
+			<defName>Norbal_Scorpion</defName>
+			<label>Repeating Nu Gong</label>
+			<description>With a magazine of 20 bolts, high rate of fire, and firing two bolts at once, it seems like a beast, but the user will soon find that it fires easily-deflected bolts with terrible accuracy at a very short range. It is however, fairly compact and is a good self-defense weapon for unskilled noncombatants. For added lethality, poison-tipped bolts are often used.</description>
+			<graphicData>
+				<texPath>Things/Weapons/VileBows/RepeatingCrossbow</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+			<stuffCategories>
+				<li>Woody</li>
+			</stuffCategories>
+			<statBases Merge="True">
+				<SightsEfficiency>0.05</SightsEfficiency>
+				<ShotSpread>2</ShotSpread>
+				<SwayFactor>0.9</SwayFactor>
+				<Bulk>5</Bulk>
+				<Mass>3</Mass>
+				<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+			</statBases>
+			<weaponTags>
+				<li>MedievalRanged</li>
+				<li>CE_Bow</li>
+			</weaponTags>
+			<verbs>
+				<li Class="CombatExtended.VerbPropertiesCE">
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Projectile_LightMetallicBolt</defaultProjectile>
+					<warmupTime>0.3</warmupTime>
+					<range>16</range>
+					<soundCast>Crossbow_S_hold</soundCast>
+					<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+					<burstShotCount>2</burstShotCount>
+				</li>
+			</verbs>
+			<comps>
+				<li Class="CombatExtended.CompProperties_AmmoUser">
+					<magazineSize>20</magazineSize>
+					<reloadTime>4.0</reloadTime>
+					<ammoSet>AmmoSet_LightBolt</ammoSet>
+					<throwMote>false</throwMote>
+				</li>
+			</comps>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="Crossbow"]</xpath>
+		<value>
+			<defName>Crossbow</defName>
+			<label>Light Crossbow</label>
+			<description>Fires smaller bolts than an arbalest, but light enough to be fired from one hand.</description>
+			<graphicData>
+				<texPath>Things/Weapons/VileBows/LightCrossbow</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+			<stuffCategories>
+				<li>Woody</li>
+			</stuffCategories>
+			<costList>
+				<ComponentMedieval>6</ComponentMedieval>
+			</costList>
+			<statBases Merge="True">
+				<WorkToMake>4000</WorkToMake>
+				<SightsEfficiency>1.15</SightsEfficiency>
+				<ShotSpread>0.7</ShotSpread>
+				<SwayFactor>0.9</SwayFactor>
+				<Bulk>3</Bulk>
+				<Mass>2.2</Mass>
+			</statBases>
+			<weaponTags>
+				<li>MedievalRanged</li>
+				<li>NorbalRanged</li>
+				<li>CE_Bow</li>
+				<li>CE_OneHandedWeapon</li>
+			</weaponTags>
+			<verbs>
+				<li Class="CombatExtended.VerbPropertiesCE">
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Projectile_LightMetallicBolt</defaultProjectile>
+					<warmupTime>1.1</warmupTime>
+					<range>34</range>
+					<soundCast>Crossbow_S_hold</soundCast>
+				</li>
+			</verbs>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="Arbalest"]</xpath>
+		<value>
+			<label>Arbalest Mk2</label>
+			<description>A crossbow with a metal bow and a special mechanism for drawing back and releasing the string. Very slow-firing but the firepower is superior to any other handheld bow weapon. It also doesn't take a lot of training to learn to fire accurately.</description>
+			<graphicData>
+				<texPath>Things/Weapons/VileBows/ArbalestMk2</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+			<stuffCategories>
+				<li>StrongMetallic</li>
+			</stuffCategories>
+			<costStuffCount>30</costStuffCount>
+			<costList>
+				<ComponentMedieval>12</ComponentMedieval>
+			</costList>
+			<statBases Merge="True">
+				<SightsEfficiency>1.25</SightsEfficiency>
+				<ShotSpread>0.7</ShotSpread>
+				<SwayFactor>1.15</SwayFactor>
+				<Bulk>5</Bulk>
+				<Mass>4</Mass>
+			</statBases>
+			<verbs>
+				<li Class="CombatExtended.VerbPropertiesCE">
+					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Projectile_MetallicBolt</defaultProjectile>
+					<warmupTime>1.25</warmupTime>
+					<range>37</range>
+					<soundCast>Crossbow_S_hold</soundCast>
+				</li>
+			</verbs>
+			<comps>
+				<li Class="CombatExtended.CompProperties_AmmoUser">
+					<magazineSize>1</magazineSize>
+					<reloadTime>2.20</reloadTime>
+					<ammoSet>AmmoSet_Bolt</ammoSet>
+					<throwMote>false</throwMote>
+				</li>
+				<li Class="CombatExtended.CompProperties_FireModes">
+					<noSnapshot>True</noSnapshot>
+				</li>
+			</comps>
+		</value>
+	</Operation>
+</Patch>

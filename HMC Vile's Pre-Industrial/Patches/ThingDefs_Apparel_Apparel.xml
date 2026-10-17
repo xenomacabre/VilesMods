@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="Apparel_TunicFine"]</xpath>
+		<value>
+			<description>Also called a cothardie, it's a long loose-fitting sleeved garment which goes past the knees and may or may not open in the front. It can be worn over a shirt and pants, single garment, or under outerwear. It's worn by everyone from the working class to nobility, and is the preferred garment worn by tailors.</description>
+			<label>Kirtle</label>
+			<graphicData>
+				<texPath>Things/Apparel/VilePart3_Medieval/Kirtle/Tunic_Fine</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+			<stuffCategories>
+				<li>Fabric</li>
+			</stuffCategories>
+			<costStuffCount>85</costStuffCount>
+			<statBases Merge="True">
+				<WorkToMake>6500</WorkToMake>
+				<MaxHitPoints>70</MaxHitPoints>
+				<Insulation_Cold>2.5</Insulation_Cold>
+			</statBases>
+			<equippedStatOffsets Merge="True">
+				<CarryBulk>15</CarryBulk>
+				<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+				<SocialImpact>0.04</SocialImpact>
+				<MentalBreakThreshold>-0.04</MentalBreakThreshold>
+				<GlobalLearningFactor>0.05</GlobalLearningFactor>
+				<TailoringSpeed>0.04</TailoringSpeed>
+				<GermContainment>0.05</GermContainment>
+			</equippedStatOffsets>
+			<generateCommonality>.95</generateCommonality>
+			<apparel Merge="True">
+				<wornGraphicPath>Things/Apparel/VilePart3_Medieval/Kirtle/Tunic_Fine</wornGraphicPath>
+				<layers Merge="False">
+					<li>Middle</li>
+				</layers>
+				<tags>
+					<li>BanditsLight</li>
+					<li>PredatorsLight</li>
+					<li>RenegadesLight</li>
+					<li>NorbalKingly</li>
+					<li>Norbal</li>
+					<li>NorbalArcher</li>
+					<li>NorbalWarrior</li>
+					<li>Medieval</li>
+				</tags>
+				<defaultOutfitTags>
+					<li>Worker</li>
+				</defaultOutfitTags>
+			</apparel>
+			<thingCategories>
+				<li>MiddleLayerCat</li>
+				<li>SetMedieval</li>
+				<li>SetCommoner</li>
+				<li>SetTailor</li>
+				<li>SetSlaver</li>
+			</thingCategories>
+			<recipeMaker>
+				<researchPrerequisite>ComplexClothing</researchPrerequisite>
+			</recipeMaker>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="Apparel_TunicPoor"]</xpath>
+		<value>
+			<description>Some will call this a “classical” tunic as it borrows the style from ancient designs, but really it's just cheaper to make without sleeves. Working peasants favor this because it has less constriction and more pockets, and it's also a bit more rugged than a kirtle, so it's great for work on in the fields.</description>
+			<label>Work Tunic</label>
+			<graphicData>
+				<texPath>Things/Apparel/VilePart3_Medieval/WorkTunic/Tunic_Poor</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+			<statBases Merge="True">
+				<WorkToMake>5500</WorkToMake>
+				<MaxHitPoints>80</MaxHitPoints>
+				<EquipDelay>5</EquipDelay>
+				<StuffEffectMultiplierInsulation_Cold>0.35</StuffEffectMultiplierInsulation_Cold>
+				<StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat>
+				<StuffEffectMultiplierArmor>0.6</StuffEffectMultiplierArmor>
+			</statBases>
+			<equippedStatOffsets Merge="True">
+				<WorkSpeedGlobal>0.07</WorkSpeedGlobal>
+				<PlantWorkSpeed>0.05</PlantWorkSpeed>
+			</equippedStatOffsets>
+			<generateCommonality>0.9</generateCommonality>
+			<apparel Merge="True">
+				<wornGraphicPath>Things/Apparel/VilePart3_Medieval/WorkTunic/Tunic_Poor</wornGraphicPath>
+				<layers Merge="False">
+					<li>Middle</li>
+				</layers>
+			</apparel>
+			<thingCategories>
+				<li>MiddleLayerCat</li>
+				<li>SetMedieval</li>
+				<li>SetCommoner</li>
+				<li>SetSlaver</li>
+				<li>SetHarvester</li>
+			</thingCategories>
+			<recipeMaker>
+				<researchPrerequisite>ComplexClothing</researchPrerequisite>
+			</recipeMaker>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="Apparel_RagDress"]</xpath>
+		<value>
+			<description>A simple leather garment that protects the wearer's torso from sparks and other hot accidents. For anyone else, it's just going to slow them down.</description>
+			<label>Blacksmith's Apron</label>
+			<graphicData>
+				<texPath>Things/Apparel/VilePart3_Medieval/BlacksmithsApron/BlacksmithsApron</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+			</graphicData>
+			<stuffCategories>
+				<li>Leathery</li>
+			</stuffCategories>
+			<statBases Merge="True">
+				<WorkToMake>6000</WorkToMake>
+				<MaxHitPoints>80</MaxHitPoints>
+				<Mass>0.5</Mass>
+				<Bulk>1</Bulk>
+				<WornBulk>3</WornBulk>
+				<Insulation_Heat>2.5</Insulation_Heat>
+				<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+				<StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+				<StuffEffectMultiplierArmor>0.64</StuffEffectMultiplierArmor>
+			</statBases>
+			<equippedStatOffsets Merge="True">
+				<CarryBulk>5</CarryBulk>
+				<MoveSpeed>-0.09</MoveSpeed>
+				<WorkSpeedGlobal>-0.04</WorkSpeedGlobal>
+				<SmithingSpeed>0.16</SmithingSpeed>
+				<SmeltingSpeed>0.2</SmeltingSpeed>
+				<GermResistance>0.03</GermResistance>
+				<GermContainment>0.02</GermContainment>
+			</equippedStatOffsets>
+			<apparel Merge="True">
+				<bodyPartGroups Merge="False">
+					<li>Torso</li>
+					<li>Legs</li>
+				</bodyPartGroups>
+				<wornGraphicPath>Things/Apparel/VilePart3_Medieval/BlacksmithsApron/BlacksmithsApron</wornGraphicPath>
+				<layers Merge="False">
+					<li>Middle</li>
+				</layers>
+				<tags>
+					<li>BanditsLight</li>
+					<li>PredatorsLight</li>
+					<li>RenegadesLight</li>
+					<li>NorbalKingly</li>
+					<li>Norbal</li>
+					<li>NorbalArcher</li>
+					<li>NorbalWarrior</li>
+					<li>Medieval</li>
+				</tags>
+			</apparel>
+			<thingCategories>
+				<li>MiddleLayerCat</li>
+				<li>SetMedieval</li>
+				<li>SetCommoner</li>
+				<li>SetSmith</li>
+			</thingCategories>
+		</value>
+	</Operation>
+</Patch>

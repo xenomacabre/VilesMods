@@ -11,7 +11,7 @@
 	<!-- ACCESSORIES -->	
             <!-- aviators-->
               <li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Apparello_Pilot"]/costList</xpath>
+				<xpath>Defs/ThingDef[defName="Apparel_Aviators"]/costList</xpath>
 				<value>
 					<costList>
                         <Polycarbonate>5</Polycarbonate>
@@ -21,7 +21,7 @@
 			 </li>
               <!-- shades-->
               <li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Apparello_Shadess"]/costList</xpath>
+				<xpath>Defs/ThingDef[defName="Apparel_Sunshades"]/costList</xpath>
 				<value>
 					<costList>
                         <Glass>5</Glass>
@@ -31,7 +31,7 @@
 			 </li>
               <!-- ski goggles-->
               <li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Apparello_Brimsk"]/costList</xpath>
+				<xpath>Defs/ThingDef[defName="Apparel_SkiMask"]/costList</xpath>
 				<value>
 					<costList>
                         <Plexiglass>8</Plexiglass>
@@ -43,7 +43,7 @@
             
              <!-- storm mask-->
               <li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Marine_BattleMask"]/costList</xpath>
+				<xpath>Defs/ThingDef[defName="Apparel_BattleMask"]/costList</xpath>
 				<value>
 					<costList>
                         <Polycarbonate>8</Polycarbonate>
@@ -82,7 +82,7 @@
  <!-- OTHER INDUSTRIAL -->
               <!-- spurred boots-->
               <li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Apparello_Boots"]/costList</xpath>
+				<xpath>Defs/ThingDef[defName="Boots_Spurred"]/costList</xpath>
 				<value>
 					<costList>
                         <ComponentIndustrial>2</ComponentIndustrial>

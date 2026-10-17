@@ -167,7 +167,7 @@
 		<label>Beasthead Cowl</label>
 		<description>Kill the beast! Cut its throat! Spill its blood! Wrap it up! Around your head and neck because it's getting cold out.</description>
 		<graphicData>
-			<texPath>Things/Apparel/Apparello/Hats/Animalhats/ArcticWolfHood</texPath>
+			<texPath>Things/Apparel/Hats/ArcticWolfHood/ArcticWolfHood</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>			
 		<stuffCategories>
@@ -214,7 +214,7 @@
 				<li>UpperHead</li>
 				<li>Neck</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Apparel/Apparello/Hats/Animalhats/ArcticWolfHood</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/Hats/ArcticWolfHood/ArcticWolfHood</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>

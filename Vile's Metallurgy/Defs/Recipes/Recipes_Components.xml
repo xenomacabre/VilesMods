@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 		<!-- ========= forge, cast FASTENERS ========= -->
+	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 	<RecipeDef>
 		<defName>Make_ComponentMedieval</defName>
 		<label>Make fasteners from metal</label>
@@ -45,6 +46,7 @@
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>0.8</workSkillLearnFactor>
 	</RecipeDef>
+	-->
 	
 	<RecipeDef>
 		<defName>Make_ComponentMedieval_Smithy</defName>
@@ -91,6 +93,7 @@
 	</RecipeDef>
 	
 	
+	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 	<RecipeDef>
 		<defName>Make_ComponentMedievalBronze</defName>
 		<label>Cast fasteners (x40).</label>
@@ -140,6 +143,7 @@
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>0.8</workSkillLearnFactor>
 	</RecipeDef>
+	-->
 	
 	<!-- THREADED FASTENERS, (industrial components) -->
 	
@@ -176,7 +180,7 @@
 		<defaultIngredientFilter>
 			<thingDefs>
 				<li>Bronze</li>	
-				<li>Plasteel</li>			
+				<li>Steel</li>
 			</thingDefs>
 			<disallowedThingDefs>
 				<li>FerrosiliconAlloy</li>

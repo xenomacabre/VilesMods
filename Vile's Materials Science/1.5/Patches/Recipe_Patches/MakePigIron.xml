@@ -9,13 +9,13 @@
 		<operations>
 		
 			<li Class="PatchOperationInsert">
-				<xpath>Defs/RecipeDef[defName="MakePigIron_Furnace"]/ingredients/li/filter/thingDefs/li[text()="Steel"]</xpath>
+				<xpath>Defs/RecipeDef[defName="MakePigIron_Furnace"]/ingredients/li/filter/thingDefs/li[text()="Iron"]</xpath>
 				<value>
 					<li>BogIron</li>
 				</value>
 			</li>
 			<li Class="PatchOperationInsert">
-				<xpath>Defs/RecipeDef[defName="MakePigIron_Furnace"]/fixedIngredientFilter/thingDefs/li[text()="Steel"]</xpath>
+				<xpath>Defs/RecipeDef[defName="MakePigIron_Furnace"]/fixedIngredientFilter/thingDefs/li[text()="Iron"]</xpath>
 				<value>
 					<li>BogIron</li>
 				</value>
@@ -25,4 +25,3 @@
 		</match>
     </Operation>	
 </Patch>	
-

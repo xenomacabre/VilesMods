@@ -61,7 +61,7 @@
 		<slotsCount>16</slotsCount>
 	</ThingDef>
 
-	<ThingDef ParentName="WorkTable">
+	<ThingDef ParentName="SK_WorkTable">
 		<defName>Fryer</defName>
 		<label>deep fryer</label>
 		<thingClass>SK.Building_WorkTable_HeatPushAdvanced</thingClass>
@@ -93,9 +93,6 @@
 			<Mechanism>5</Mechanism>
 		</costList>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<statBases>
 			<WorkToBuild>1800</WorkToBuild>
 			<MaxHitPoints>120</MaxHitPoints>
@@ -111,13 +108,9 @@
 		</recipes>
 		<tickerType>Normal</tickerType>
 		<comps>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
+			<li Class="SK.CompProperties_IdlePower">
 				<shortCircuitInRain>true</shortCircuitInRain>
 				<basePowerConsumption>200</basePowerConsumption>
-			</li>
-			<li Class="SK.CompProperties_LowIdleDraw">
-				<compClass>SK.CompPowerLowIdleDraw</compClass>
 				<idlePowerFactor>0.1</idlePowerFactor>
 			</li>
 			<li Class="CompProperties_HeatPusher">
@@ -136,12 +129,12 @@
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
-			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
 		</placeWorkers>
 		<building>
 			<isMealSource>true</isMealSource>
 			<heatPerTickWhileWorking>0.6</heatPerTickWhileWorking>
 			<uninstallWork>250</uninstallWork>
+			<workTableRoomRole>Kitchen</workTableRoomRole>
 		</building>
 		<researchPrerequisites>
 			<li>Food_C6</li>

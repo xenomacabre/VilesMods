@@ -2,19 +2,25 @@
 <LanguageData>
 
   <!-- Ammo -->
-  <Ammo_Bolt_Light_Metallic.label>parafuso de luz de metal</Ammo_Bolt_Light_Metallic.label>
-  <Ammo_Bolt_Light_Metallic.description>Parafuso de besta de metal pequeno.</Ammo_Bolt_Light_Metallic.description>
+  <Ammo_Bolt_Light_Metallic.label>virote leve de metal</Ammo_Bolt_Light_Metallic.label>
+  <Ammo_Bolt_Light_Metallic.description>Um pequeno virote de besta feito de metal.</Ammo_Bolt_Light_Metallic.description>
 
-  <Ammo_Bolt_Light_Venom.label>raio de luz envenenado</Ammo_Bolt_Light_Venom.label>
-  <Ammo_Bolt_Light_Venom.description>Flecha de Besta Envenenada Pequena.</Ammo_Bolt_Light_Venom.description>
+  <Ammo_Bolt_Light_Venom.label>virote leve envenenado</Ammo_Bolt_Light_Venom.label>
+  <Ammo_Bolt_Light_Venom.description>Um pequeno virote de besta envenenado.</Ammo_Bolt_Light_Venom.description>
+
+  <Ammo_Bolt_Broadhead.label>virote de ponta larga</Ammo_Bolt_Broadhead.label>
+  <Ammo_Bolt_Broadhead.description>Um virote pesado de ponta larga para caça e para causar ferimentos graves.</Ammo_Bolt_Broadhead.description>
+
+  <Ammo_Bolt_Bodkin.label>virote perfurante</Ammo_Bolt_Bodkin.label>
+  <Ammo_Bolt_Bodkin.description>Um virote pesado de ponta estreita para perfurar armaduras.</Ammo_Bolt_Bodkin.description>
 
   <!-- Projectiles -->
-  <Projectile_LightMetallicBolt.label>parafuso de luz de metal</Projectile_LightMetallicBolt.label>
-  <Projectile_LightVenomBolt.label>raio de luz envenenado</Projectile_LightVenomBolt.label>
+  <Projectile_LightMetallicBolt.label>virote leve de metal</Projectile_LightMetallicBolt.label>
+  <Projectile_LightVenomBolt.label>virote leve envenenado</Projectile_LightVenomBolt.label>
 
   <!-- Heavy Projectiles -->
-  <Projectile_VenomBolt.label>flecha de besta</Projectile_VenomBolt.label>
-  <Projectile_VenomBolt.description>Uma flecha de besta normal. Projetado para atirar em oponentes desprotegidos.</Projectile_VenomBolt.description>
-  <Projectile_MetallicBolt.label>flecha de besta perfurante</Projectile_MetallicBolt.label>
+  <Projectile_BroadheadBolt.label>virote de ponta larga</Projectile_BroadheadBolt.label>
+  <Projectile_BroadheadBolt.description>Um virote pesado de ponta larga para caça e para causar ferimentos graves.</Projectile_BroadheadBolt.description>
+  <Projectile_BodkinBolt.label>virote perfurante</Projectile_BodkinBolt.label>
 
 </LanguageData>

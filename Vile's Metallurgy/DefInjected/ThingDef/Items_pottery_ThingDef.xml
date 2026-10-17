@@ -27,27 +27,27 @@
 <ClayPotWetTin.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotWetTin.description>
           <!-- Clay Pot -->
 <ClayPot.label>Глиняный горшок</ClayPot.label>
-                <!-- A clay pot which hasn't been fired in a kiln yet. -->
-<ClayPot.description>Глиняный горшок, который еще не обжигали в печи.</ClayPot.description>
+                <!-- A fired, but unglazed clay pot. Used for food storage, but it's porous and doesn't seal as well as glazed pots. Reduces spoilage by 35%. -->
+<ClayPot.description>Обожжённый, но неглазурованный глиняный горшок для хранения продуктов. Из-за пористости он сохраняет продукты хуже глазурованных горшков. Уменьшает скорость порчи на 35%.</ClayPot.description>
              <!-- Ash-Glazed Pot -->
 <ClayPotAsh.label>Горшок, глазированный золой</ClayPotAsh.label>
-                   <!-- A clay pot which hasn't been fired in a kiln yet. -->
-<ClayPotAsh.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotAsh.description>
+                   <!-- A glazed clay pot. Beautiful and seals well for food storage. Reduces spoilage by 45%. -->
+<ClayPotAsh.description>Глазурованный глиняный горшок. Красивый и благодаря плотному покрытию хорошо подходит для хранения продуктов. Уменьшает скорость порчи на 45%.</ClayPotAsh.description>
                  <!-- Painted Clay Pot -->
 <ClayPotPainted.label>Расписной глиняный горшок</ClayPotPainted.label>
-                       <!-- A clay pot which hasn't been fired in a kiln yet. -->
-<ClayPotPainted.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotPainted.description>
+                       <!-- A glazed clay pot. Beautiful and seals well for food storage. Reduces spoilage by 45%. -->
+<ClayPotPainted.description>Глазурованный глиняный горшок. Красивый и благодаря плотному покрытию хорошо подходит для хранения продуктов. Уменьшает скорость порчи на 45%.</ClayPotPainted.description>
               <!-- Lead-Glazed Pot -->
 <ClayPotLead.label>Горшок, глазированный свинцом</ClayPotLead.label>
-                    <!-- A clay pot which hasn't been fired in a kiln yet. -->
-<ClayPotLead.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotLead.description>
+                    <!-- A glazed clay pot. Beautiful and seals well for food storage. Reduces spoilage by 45%. -->
+<ClayPotLead.description>Глазурованный глиняный горшок. Красивый и благодаря плотному покрытию хорошо подходит для хранения продуктов. Уменьшает скорость порчи на 45%.</ClayPotLead.description>
              <!-- Tin-Glzed Pot -->
 <ClayPotTin.label>Горшок, глазированный оловом</ClayPotTin.label>
-                   <!-- A clay pot which hasn't been fired in a kiln yet. -->
-<ClayPotTin.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotTin.description>
+                   <!-- A glazed clay pot. Beautiful and seals well for food storage. Reduces spoilage by 45%. -->
+<ClayPotTin.description>Глазурованный глиняный горшок. Красивый и благодаря плотному покрытию хорошо подходит для хранения продуктов. Уменьшает скорость порчи на 45%.</ClayPotTin.description>
               <!-- Salt-Glazed Pot -->
 <ClayPotSalt.label>Горшок, глазированный солью</ClayPotSalt.label>
-                    <!-- A clay pot which hasn't been fired in a kiln yet. -->
-<ClayPotSalt.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotSalt.description>
+                    <!-- A glazed clay pot. Beautiful and seals well for food storage. Reduces spoilage by 45%. -->
+<ClayPotSalt.description>Глазурованный глиняный горшок. Красивый и благодаря плотному покрытию хорошо подходит для хранения продуктов. Уменьшает скорость порчи на 45%.</ClayPotSalt.description>
 
 </LanguageData>

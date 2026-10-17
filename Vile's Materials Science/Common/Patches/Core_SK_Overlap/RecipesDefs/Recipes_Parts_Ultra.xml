@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<!-- Core_SK overlap changes from Common/Defs/RecipesDefs/Recipes_Parts_Ultra.xml. Identical fields are intentionally omitted. -->
+	<!-- RecipeDef: BuildMagneticMaterial -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="BuildMagneticMaterial"]/fixedIngredientFilter/categories</xpath>
+	</Operation>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/RecipeDef[defName="BuildMagneticMaterial"]</xpath>
+		<value Merge="true">
+			<label>Synthesize piezoelectric material x5</label>
+			<description>Synthesize material which can accumulate extreme electrical charge. Produces 5.</description>
+			<jobString>Synthesizing piezoelectric material.</jobString>
+			<ingredients DeepReplace="true">
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Carbon</li>
+						</thingDefs>
+					</filter>
+					<count>30</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Zinc</li>
+						</thingDefs>
+					</filter>
+					<count>25</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>GlassBatch</li>
+						</thingDefs>
+					</filter>
+					<count>150</count>
+				</li>
+			</ingredients>
+			<fixedIngredientFilter>
+				<thingDefs DeepReplace="true">
+					<li>Zinc</li>
+					<li>GlassBatch</li>
+					<li>NanotechFramework</li>
+				</thingDefs>
+			</fixedIngredientFilter>
+		</value>
+	</Operation>
+	<!-- RecipeDef: BuildBiosyntheticMaterial -->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/RecipeDef[defName="BuildBiosyntheticMaterial"]</xpath>
+		<value Merge="true">
+			<label>Synthesize electroactive polymer</label>
+			<description>Synthesize programmable highly-elastic material which reacts to electric currents. Produces 5.</description>
+			<ingredients DeepReplace="true">
+				<li>
+					<filter>
+						<thingDefs>
+							<li>NanotechFramework</li>
+						</thingDefs>
+					</filter>
+					<count>1</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>SyntheticFibers</li>
+						</thingDefs>
+					</filter>
+					<count>9</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>NitinolAlloy</li>
+						</thingDefs>
+					</filter>
+					<count>30</count>
+				</li>
+			</ingredients>
+			<fixedIngredientFilter>
+				<thingDefs DeepReplace="true">
+					<li>NanotechFramework</li>
+					<li>SyntheticFibers</li>
+					<li>NitinolAlloy</li>
+				</thingDefs>
+			</fixedIngredientFilter>
+		</value>
+	</Operation>
+</Patch>

@@ -2,6 +2,7 @@
 <loadFolders>
   <default>
     <li>/</li>
-	 <li IfModActive="Ludeon.Rimworld.Royalty">Royalty</li>
+    <li IfModActive="Ludeon.Rimworld.Royalty">Royalty</li>
+    <li IfModActive="Ludeon.Rimworld.Odyssey">Odyssey</li>
   </default>
 </loadFolders>

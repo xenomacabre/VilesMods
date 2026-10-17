@@ -144,6 +144,10 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>RawPeppers</li>
+				<li>WildRose</li>
+				<li>Hypericum</li>
+				<li>MintLeaves</li>
+				<li>Rawonion</li>
 			</thingDefs>
 			<categories>
 				<li>MeatRaw</li>
@@ -156,6 +160,10 @@
 		<defaultIngredientFilter>
 			<thingDefs>
 				<li>RawPeppers</li>
+				<li>WildRose</li>
+				<li>Hypericum</li>
+				<li>MintLeaves</li>
+				<li>Rawonion</li>
 			</thingDefs>
 			<categories>
 				<li>MeatRaw</li>
@@ -237,6 +245,10 @@
 				<li>Rawmushroom</li>
 				<li>Tofu</li>
 				<li>RawPeppers</li>
+				<li>WildRose</li>
+				<li>Hypericum</li>
+				<li>MintLeaves</li>
+				<li>Rawonion</li>
 			</thingDefs>
 			<categories>
 				<li>MeatRaw</li>
@@ -253,6 +265,10 @@
 				<li>Rawmushroom</li>
 				<li>Tofu</li>
 				<li>RawPeppers</li>
+				<li>WildRose</li>
+				<li>Hypericum</li>
+				<li>MintLeaves</li>
+				<li>Rawonion</li>
 			</thingDefs>
 			<categories>
 				<li>MeatRaw</li>

@@ -4,7 +4,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName = "Door"]/graphicData/texPath</xpath>
 		<value>
-			<texPath>Things/Building/Doors/DoorRustic_Mover</texPath>
+			<texPath>Things/Building/Doors/DoorRustic/DoorRustic_Mover</texPath>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationAdd">
@@ -16,7 +16,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName = "Door"]/uiIconPath</xpath>
 		<value>
-			<uiIconPath>Things/Building/Doors/DoorRustic_MenuIcon</uiIconPath>
+			<uiIconPath>Things/Building/Doors/DoorRustic/DoorRustic_MenuIcon</uiIconPath>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
@@ -37,26 +37,26 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName = "MDoor"]/graphicData/texPath</xpath>
 		<value>
-			<texPath>Things/Building/Doors/DoorFancy_Mover</texPath>
+			<texPath>Things/Building/Doors/DoorMetal/DoorMetal_Mover</texPath>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName = "MDoor"]/uiIconPath</xpath>
 		<value>
-			<uiIconPath>Things/Building/Doors/DoorFancy_MenuIcon</uiIconPath>
+			<uiIconPath>Things/Building/Doors/DoorMetal/DoorMetal_MenuIcon</uiIconPath>
 		</value>
 	</Operation>
 	
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName = "Autodoor"]/graphicData/texPath</xpath>
 		<value>
-			<texPath>Things/Building/Doors/Autodoor_Mover</texPath>
+			<texPath>Things/Building/Doors/AutoDoor/AutoDoor_Mover</texPath>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName = "Autodoor"]/uiIconPath</xpath>
 		<value>
-			<uiIconPath>Things/Building/Doors/Autodoor_MenuIcon</uiIconPath>
+			<uiIconPath>Things/Building/Doors/AutoDoor/AutoDoor_MenuIcon</uiIconPath>
 		</value>
 	</Operation>
 

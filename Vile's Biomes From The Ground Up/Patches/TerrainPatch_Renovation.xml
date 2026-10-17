@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Vile's Hardcore Renovations</li>
-	</mods>
-	<nomatch Class="PatchOperationSequence">
-	<success>Always</success>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vile's Hardcore Renovations</li>
+		</mods>
+		<nomatch Class="PatchOperationSequence">
+			<success>Always</success>
 			<operations>
 				<li Class="PatchOperationAdd">
-            			<xpath>/Defs</xpath>
-            				<value>
-								 <!-- FLOOR -->
-								   <TerrainDef ParentName="TerrainRoadBase">
-									<defName>EarthenFloor</defName>
-									<label>earthen floor</label>
-									 <texturePath>Terrain/Surfaces/EarthenFloor</texturePath>
-										<edgeType>FadeRough</edgeType>
-										<renderPrecedence>360</renderPrecedence>
-										<pathCost>0</pathCost>
-										<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
-										<statBases>
-										  <Beauty>-1</Beauty>
-										  <Cleanliness>-0.4</Cleanliness>
-										</statBases>
-										<scatterType>Rocky</scatterType>
-										<affordances>
-										  <li>Light</li>
-										  <li>Medium</li>
-										  <li>Heavy</li>
-										  <li>Diggable</li>
-										</affordances>
-										<generatedFilth>Filth_Dirt</generatedFilth>
-										<fertility>0.0</fertility>
-									<!--<researchPrerequisites><li>Wooden_floor_A2</li></researchPrerequisites>-->
-								</TerrainDef>	
-            				</value>
-        			</li>
-				
+					<xpath>/Defs</xpath>
+					<value>
+						<!-- FLOOR -->
+						<TerrainDef ParentName="TerrainRoadBase">
+							<defName>EarthenFloor</defName>
+							<label>earthen floor</label>
+							<texturePath>Terrain/Surfaces/EarthenFloor</texturePath>
+							<edgeType>FadeRough</edgeType>
+							<renderPrecedence>360</renderPrecedence>
+							<pathCost>0</pathCost>
+							<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+							<statBases>
+								<Beauty>-1</Beauty>
+								<Cleanliness>-0.4</Cleanliness>
+							</statBases>
+							<scatterType>Rocky</scatterType>
+							<affordances>
+								<li>Light</li>
+								<li>Medium</li>
+								<li>Heavy</li>
+								<li>Diggable</li>
+							</affordances>
+							<generatedFilth>Filth_Dirt</generatedFilth>
+							<fertility>0.0</fertility>
+							<!--<researchPrerequisites><li>Wooden_floor_A2</li></researchPrerequisites>-->
+						</TerrainDef>
+					</value>
+				</li>
+
 				<!-- TERRAFORMING -->
-				
-			<li Class="PatchOperationAdd">
-            	<xpath>/Defs</xpath>
-            		<value>
-						 <ThingDef ParentName="RFF_TerraformBasicBase">
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<ThingDef ParentName="RFF_TerraformBasicBase">
 							<defName>SoilF-EarthenFloor</defName>
 							<label>Earthen Floor</label>
 							<description>↑ Soil\n↑ Savanna soil\n↑ Rich soil\n↑ Lichen-covered dirt\n\n↓ Earthen Floor</description>
@@ -62,16 +62,17 @@
 								<WorkToBuild>700</WorkToBuild>
 							</statBases>
 							<costList>
-							  <Hay>2</Hay>
-						   </costList>
+								<Hay>2</Hay>
+							</costList>
 						</ThingDef>
 					</value>
 				</li>
-				
+
 				<li Class="PatchOperationAdd">
-            	<xpath>/Defs</xpath>
-            		<value>
-						  <ThingDef ParentName="RFF_TerraformBasicBase"> <!-- Also Included in Hardcore Renovation -->
+					<xpath>/Defs</xpath>
+					<value>
+						<ThingDef ParentName="RFF_TerraformBasicBase">
+							<!-- Also Included in Hardcore Renovation -->
 							<defName>SoilF-EarthenFloor</defName>
 							<label>Earthen floor.</label>
 							<description>A rudimentary floor. Sometimes called and 'adobe floor'.</description>
@@ -95,26 +96,26 @@
 								<WorkToBuild>700</WorkToBuild>
 							</statBases>
 							<costList>
-							  <Hay>2</Hay>
-						   </costList>
+								<Hay>2</Hay>
+							</costList>
 						</ThingDef>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-						<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Cultivate"]/defNames</xpath>            				
-							<value>
-								<li>SoilF-EarthenFloor</li>
-            				</value>
-        		</li>
-								
+					<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Cultivate"]/defNames</xpath>
+					<value>
+						<li>SoilF-EarthenFloor</li>
+					</value>
+				</li>
+
 				<li Class="PatchOperationAdd">
 					<xpath>Defs/ThingDef[defName="Terraform_FertileFromPacked"]/modExtensions/li[@Class="FertileFields.Terrain"]/above</xpath>
-						<value>
-							<li>EarthenFloor</li>
-						</value>
+					<value>
+						<li>EarthenFloor</li>
+					</value>
 				</li>
-				
-		</operations>
-	</nomatch>
-    </Operation>	
+
+			</operations>
+		</nomatch>
+	</Operation>
 </Patch>

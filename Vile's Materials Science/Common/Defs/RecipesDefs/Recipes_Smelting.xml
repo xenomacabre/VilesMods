@@ -16,7 +16,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>Iron</li>
 						<li>BogIron</li>
 					</thingDefs>
 				</filter>
@@ -34,7 +34,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>Iron</li>
 				<li>BogIron</li>
 			</thingDefs>
 			<categories>
@@ -65,7 +65,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>Iron</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -81,7 +81,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>Iron</li>
 			</thingDefs>
 			<categories>
 				<li>Coal</li> <li>Metallurgical</li>
@@ -100,7 +100,7 @@
 	</RecipeDef>
 	<RecipeDef>
 		<defName>SmeltMagnetite_HighTech</defName>
-		<label>Spec: Magnetite (25 Fe, 25 Cr, 10 Zn)</label>
+		<label>Spec: Magnetite (25 Fe, 5 Cr, 10 Zn)</label>
 		<description>Process magnetite into pig iron (Fe), Chromium (Cr), and Zinc (Zn). Some iron is lost in the process.</description>
 		<jobString>Processing magnetite (Fe, Cr, Zn).</jobString>
 		<workAmount>2400</workAmount>
@@ -111,7 +111,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>Iron</li>
 					</thingDefs>
 				</filter>
 				<count>15</count>
@@ -127,7 +127,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>Iron</li>
 			</thingDefs>
 			<categories>
 				<li>Coal</li> <li>Metallurgical</li>
@@ -135,7 +135,7 @@
 		</fixedIngredientFilter>
 		<products>
 			<PigIron>25</PigIron>
-			<Chromium>25</Chromium>
+			<Chromium>5</Chromium>
 			<Zinc>10</Zinc>
 		</products>
 		<skillRequirements>
@@ -1396,4 +1396,3 @@
 	</RecipeDef>
 	
 </Defs>
-	

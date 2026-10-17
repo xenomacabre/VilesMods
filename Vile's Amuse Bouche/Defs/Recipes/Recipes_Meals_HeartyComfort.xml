@@ -32,7 +32,6 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Patreonbrew</li>
 						<li>Beer</li>
 					</thingDefs>
 				</filter>
@@ -46,7 +45,6 @@
 			<thingDefs>
 				<li>RawPotatoes</li>
 				<li>Meat_ThingDefFishSduiggles</li>
-				<li>Patreonbrew</li>
 				<li>Beer</li>
 			</thingDefs>
 			<specialFiltersToDisallow>
@@ -57,7 +55,6 @@
 			<thingDefs>
 				<li>RawPotatoes</li>
 				<li>Meat_ThingDefFishSduiggles</li>
-				<li>Patreonbrew</li>
 				<li>Beer</li>
 			</thingDefs>
 			</defaultIngredientFilter>
@@ -196,6 +193,10 @@
 				<li>Pasta</li>
 				<li>Meat_Muffalo</li>
 				<li>Tofu</li>
+				<li>WildRose</li>
+				<li>Hypericum</li>
+				<li>MintLeaves</li>
+				<li>Rawonion</li>
 			</thingDefs>
 			<specialFiltersToDisallow>
 				<li>AllowPlantFood</li>
@@ -209,6 +210,10 @@
 				<li>Pasta</li>
 				<li>Meat_Muffalo</li>
 				<li>Tofu</li>
+				<li>WildRose</li>
+				<li>Hypericum</li>
+				<li>MintLeaves</li>
+				<li>Rawonion</li>
 			</thingDefs>
 		</defaultIngredientFilter>
 		<skillRequirements>

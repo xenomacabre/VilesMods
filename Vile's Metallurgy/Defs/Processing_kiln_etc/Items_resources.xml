@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 <!-- THINGS -->
-<ThingDef ParentName="SK_ResourceBase">
+<ThingDef ParentName="ResourceBase">
 		<defName>FluxPowder</defName>
 		<label>flux</label>
 		<description>A natural chemical derived from sodium carbonate or calcium oxide which acts as a purifying agent in metallurgy and lowers the melting point for glass formation in ceramics.</description>
@@ -32,7 +32,7 @@
 	
 	
 
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Coke</defName>
 		<label>coke</label>
 		<description>Coke is a reduction of coal - a process that happens in a kiln or oven. It burns hotter and cleaner than coal and is necessary for certain types of steel processing. It also needs to be at a much higher temperature to ignite so it's unsuitible for use at a kiln or bloomery.</description>

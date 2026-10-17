@@ -68,6 +68,35 @@
 		<generateAllowChance>0.15</generateAllowChance>
 	</ThingDef>
 
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBoltBase">
+		<defName>Ammo_Bolt_Broadhead</defName>
+		<label>broadhead quarrel</label>
+		<description>A heavy bolt fired by the arbalest. Has a wide head used for hunting and causing grievous wounds.</description>
+		<graphicData>
+			<texPath>Things/Ammunition/Quarrel/Broadhead</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.3</MarketValue>
+		</statBases>
+		<ammoClass>BroadheadArrow</ammoClass>
+		<generateAllowChance>0.15</generateAllowChance>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBoltBase">
+		<defName>Ammo_Bolt_Bodkin</defName>
+		<label>bodkin quarrel</label>
+		<description>A heavy bolt fired by the arbalest. Has a narrow head for piercing armor, at the cost of stopping power.</description>
+		<graphicData>
+			<texPath>Things/Ammo/Neolithic/Bolt/Steel</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.2</MarketValue>
+		</statBases>
+		<ammoClass>BodkinArrow</ammoClass>
+	</ThingDef>
+
 	<!-- ================== Projectiles ================== -->
 
 	<ThingDef Class="CombatExtended.AmmoDef" Name="BaseLightBoltProjectile" ParentName="SK_BaseBullet" Abstract="true">
@@ -117,26 +146,26 @@
 	<!-- Heavy Projectiles -->
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseBoltProjectile">
-		<defName>Projectile_VenomBolt</defName>
+		<defName>Projectile_BroadheadBolt</defName>
 		<label>broadhead quarrel</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>20</damageAmountBase>
 			<armorPenetrationBlunt>6.0</armorPenetrationBlunt>
 			<armorPenetrationSharp>2.8</armorPenetrationSharp>
 			<preExplosionSpawnChance>0.6</preExplosionSpawnChance>	<!-- 25 arrows per resource -->
-			<preExplosionSpawnThingDef>Ammo_Bolt_Venom</preExplosionSpawnThingDef>			
+			<preExplosionSpawnThingDef>Ammo_Bolt_Broadhead</preExplosionSpawnThingDef>
 		</projectile>
 	</ThingDef>
 	
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseBoltProjectile">
-		<defName>Projectile_MetallicBolt</defName>
+		<defName>Projectile_BodkinBolt</defName>
 		<label>bodkin quarrel</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>17</damageAmountBase>
 			<armorPenetrationBlunt>4.5</armorPenetrationBlunt>
 			<armorPenetrationSharp>4.5</armorPenetrationSharp>
 			<preExplosionSpawnChance>0.6</preExplosionSpawnChance>	<!-- 25 arrows per resource -->
-			<preExplosionSpawnThingDef>Ammo_Bolt_Metallic</preExplosionSpawnThingDef>			
+			<preExplosionSpawnThingDef>Ammo_Bolt_Bodkin</preExplosionSpawnThingDef>
 		</projectile>
 	</ThingDef>
 	
@@ -218,6 +247,81 @@
 		</products>
 	</RecipeDef>
 
+	<RecipeDef ParentName="AmmoRecipeNeolithicBase">
+		<defName>MakeAmmo_Bolt_Broadhead</defName>
+		<label>make broadhead quarrels x50</label>
+		<description>Craft 50 broadhead quarrels for hunting and causing grievous wounds.</description>
+		<jobString>Making broadhead quarrels.</jobString>
+		<workAmount>850</workAmount>
+		<skillRequirements>
+			<Crafting>0</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>12</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_Bolt_Broadhead>50</Ammo_Bolt_Broadhead>
+		</products>
+		<researchPrerequisite>Bow_B2</researchPrerequisite>
+	</RecipeDef>
 
+	<RecipeDef ParentName="AmmoRecipeNeolithicBase">
+		<defName>MakeAmmo_Bolt_Bodkin</defName>
+		<label>make bodkin quarrels x50</label>
+		<description>Craft 50 armor-piercing bodkin quarrels.</description>
+		<jobString>Making bodkin quarrels.</jobString>
+		<workAmount>500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Wooden</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Wooden</li>
+				<li>Metallic</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_Bolt_Bodkin>50</Ammo_Bolt_Bodkin>
+		</products>
+		<researchPrerequisite>Bow_B2</researchPrerequisite>
+	</RecipeDef>
 
 </Defs>

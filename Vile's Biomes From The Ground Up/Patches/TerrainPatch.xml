@@ -11,6 +11,15 @@
 		<value>WaterBase</value>
 	</Operation>
 
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/TerrainDef[defName="Marsh"]</xpath>
+		<value>
+			<affordances Merge="true">
+				<li>Bridgeable</li>
+			</affordances>
+		</value>
+	</Operation>
+
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/TerrainDef[defName="Marsh"]</xpath>
 		<value>

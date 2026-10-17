@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ScenarioDef/scenario/parts/li[@Class="ScenPart_StartingResearch"]/project[text()="Fish_A1"]</xpath>
+    <value>
+      <project>Fishing</project>
+    </value>
+  </Operation>
+
+</Patch>

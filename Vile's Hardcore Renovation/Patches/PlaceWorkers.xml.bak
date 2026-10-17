@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Opearation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="RH_MediumHeater" or defName="RH_SmallCooler" or defName="Cooler" or defName="Vent"]/comps/li[@Class="SK.CompProperties_RestictedPlacement"]/thingDefs</xpath>
+		<value>
+			<li></li>
+		</value>
+	</Opearation>
+</Patch>

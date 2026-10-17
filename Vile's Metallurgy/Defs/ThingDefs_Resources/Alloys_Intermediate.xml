@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>IronBloom</defName>
 		<label>Iron Bloom</label>
 		<description>An unrefined product of smelting iron ore in a bloomery. It's porous and is full of slag and impurities, so is quite worthless until it is forged into wrought iron by removing the other components with heat and a hammer.</description>
@@ -25,7 +25,7 @@
 		</thingCategories>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>PigIron</defName>
 		<label>Pig Iron (Fe)</label>
 		<description>When iron ore is smelted in a high-temperature blast furnace, you get pig iron—a crude, useless intermediate product which is very high in carbon. It can be further refined by melting in a foundry to produce high-carbon cast iron, or decarbonized into useful wrought iron at a finery forge or puddling furnace.</description>
@@ -50,7 +50,7 @@
 		</thingCategories>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>BlisterSteel</defName>
 		<label>Blister Steel Bar</label>
 		<description>Useless on its own, blister steel is an intermediate iron product where carbon is baked into the outer layers. It's used to make crucible steel and can also be folded into forged steel.</description>

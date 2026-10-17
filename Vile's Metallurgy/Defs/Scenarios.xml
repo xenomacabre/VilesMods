@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<ScenarioDef>
+	<ScenarioDef ParentName="ScenarioBase">
 		<defName>TheGuildmasters</defName>
 		<label>The Medieval Guild</label>
 		<description>The trade routes have vanished and the resources have dried up, so a small guild of trade workers sets out to build a new home.</description>
@@ -62,7 +62,7 @@
 					<thingDef>Pemmican</thingDef>
 					<count>500</count>
 				</li>
-                <li Class="ScenPart_StartingThing_Defined">
+				<li Class="ScenPart_StartingThing_Defined" MayRequireAnyOf="owlchemist.seedspleaselite, evyatar108.seedspleaseliteredux, notfood.seedsplease">
 					<def>StartingThing_Defined</def>
 					<thingDef>Seed_Potato</thingDef>
 					<count>50</count>
@@ -78,7 +78,7 @@
 					<count>30</count>
 				</li>
 
-			
+
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>TFJ_Tool_Woodcutting_Handaxe</thingDef>
@@ -109,7 +109,7 @@
 					<stuff>WroughtIron</stuff>
 					<count>2</count>
 				</li>
-				
+
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>Bow_Great</thingDef>
@@ -121,14 +121,14 @@
 					<thingDef>Ammo_Arrow_Steel</thingDef>
 					<count>100</count>
 				</li>
-				
+
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>MeleeWeapon_Morningstar</thingDef>
 					<stuff>WroughtIron</stuff>
 					<count>2</count>
 				</li>
-				
+
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>MedievalShield</thingDef>
@@ -163,10 +163,10 @@
 					<thingDef>ComponentMedieval</thingDef>
 					<count>20</count>
 				</li>
-				
+
 
 				<!-- Scatter some things near player start -->
-				
+
 				<li Class="ScenPart_ScatterThingsAnywhere">
 					<def>ScatterThingsAnywhere</def>
 					<visible>false</visible>
@@ -179,8 +179,8 @@
 					<thingDef>ShipMechChunk</thingDef>
 					<count>6</count>
 				</li>
-				
-				
+
+
 				<li Class="ScenPart_ForcedTrait">
 					<def>ForcedTrait</def>
 					<chance>0.1</chance>
@@ -210,9 +210,9 @@
 					<context>PlayerStarter</context>
 					<trait>DIY</trait>
 				</li>
-				
+
 				<!-- RESEARCH -->
-		
+
 				<li Class="ScenPart_StartingResearch">
 					<def>StartingResearch</def>
 					<visible>false</visible>
@@ -268,7 +268,7 @@
 					<visible>false</visible>
 					<project>Fabric_Plants_A1</project>
 				</li>
-					<li Class="ScenPart_StartingResearch">
+				<li Class="ScenPart_StartingResearch">
 					<def>StartingResearch</def>
 					<visible>false</visible>
 					<project>Craft_B1</project>
@@ -288,7 +288,7 @@
 					<visible>false</visible>
 					<project>Medical_Plants_A1</project>
 				</li>
-				
+
 			</parts>
 		</scenario>
 	</ScenarioDef>

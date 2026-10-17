@@ -26,22 +26,22 @@
   <!-- FIRED UNINSTALLED CLAY POTS -->
 
   <ClayPot.label>Глиняный горшок</ClayPot.label>
-  <ClayPot.description>Глиняный горшок, который еще не обжигали в печи.</ClayPot.description>
+  <ClayPot.description>Обожжённый, но неглазурованный глиняный горшок для хранения продуктов. Из-за пористости он сохраняет продукты хуже глазурованных горшков. Уменьшает скорость порчи на 35%.</ClayPot.description>
 
   <ClayPotAsh.label>Горшок, глазурованный золой/пеплом</ClayPotAsh.label>
-  <ClayPotAsh.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotAsh.description>
+  <ClayPotAsh.description>Глазурованный глиняный горшок. Красивый и благодаря плотному покрытию хорошо подходит для хранения продуктов. Уменьшает скорость порчи на 45%.</ClayPotAsh.description>
 
   <ClayPotPainted.label>Расписной глиняный горшок</ClayPotPainted.label>
-  <ClayPotPainted.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotPainted.description>
+  <ClayPotPainted.description>Глазурованный глиняный горшок. Красивый и благодаря плотному покрытию хорошо подходит для хранения продуктов. Уменьшает скорость порчи на 45%.</ClayPotPainted.description>
 
   <ClayPotLead.label>Горшок, глазурованный свинцом</ClayPotLead.label>
-  <ClayPotLead.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotLead.description>
+  <ClayPotLead.description>Глазурованный глиняный горшок. Красивый и благодаря плотному покрытию хорошо подходит для хранения продуктов. Уменьшает скорость порчи на 45%.</ClayPotLead.description>
 
   <ClayPotTin.label>Горшок, глазурованный оловом</ClayPotTin.label>
-  <ClayPotTin.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotTin.description>
+  <ClayPotTin.description>Глазурованный глиняный горшок. Красивый и благодаря плотному покрытию хорошо подходит для хранения продуктов. Уменьшает скорость порчи на 45%.</ClayPotTin.description>
 
   <ClayPotSalt.label>Горшок, глазурованный солью</ClayPotSalt.label>
-  <ClayPotSalt.description>Глиняный горшок, который еще не обжигали в печи.</ClayPotSalt.description>
+  <ClayPotSalt.description>Глазурованный глиняный горшок. Красивый и благодаря плотному покрытию хорошо подходит для хранения продуктов. Уменьшает скорость порчи на 45%.</ClayPotSalt.description>
 
 
 </LanguageData>

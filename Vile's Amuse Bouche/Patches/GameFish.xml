@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!--
+		Core_SK owns the fish definitions. Keep only Amuse Bouche's differences
+		here so changes to FishThingBase and FishKindBase continue to flow through.
+	-->
+
+	<!-- ThingDef balance and text differences -->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="ThingDefFishSduiggles"]</xpath>
+		<value Merge="true">
+			<description>lorem ipsum</description>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="ThingDefSaberfish"]</xpath>
+		<value Merge="true">
+			<description>Provides a lot of meat and a small amount of usable hide.</description>
+			<statBases>
+				<LeatherAmount>2</LeatherAmount>
+			</statBases>
+			<race>
+				<leatherDef>Leather_Lizard</leatherDef>
+			</race>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="ThingDefRedfinTuna"]</xpath>
+		<value Merge="true">
+			<description>Provides a fair amount of meat, and a small amount of hide.</description>
+			<statBases>
+				<LeatherAmount>2</LeatherAmount>
+			</statBases>
+			<race>
+				<leatherDef>Leather_Lizard</leatherDef>
+				<maxPreyBodySize>0.8</maxPreyBodySize>
+			</race>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="ThingDefFishMashgon"]</xpath>
+		<value Merge="true">
+			<race>
+				<lifeExpectancy>6</lifeExpectancy>
+			</race>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="ThingDefCuda"]</xpath>
+		<value Merge="true">
+			<race>
+				<lifeExpectancy>6</lifeExpectancy>
+			</race>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="ThingDefIceFlounder"]</xpath>
+		<value Merge="true">
+			<description>Provides a very small amount of meat and leather.</description>
+			<statBases>
+				<LeatherAmount>2</LeatherAmount>
+			</statBases>
+			<race>
+				<lifeExpectancy>6</lifeExpectancy>
+			</race>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="ThingDefFishSeasnake"]</xpath>
+		<value Merge="true">
+			<label>eeel</label>
+			<race>
+				<lifeExpectancy>6</lifeExpectancy>
+			</race>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="ThingDefFishTailteeth"]</xpath>
+		<value Merge="true">
+			<description>Provides a moderate amount of meat and leather.</description>
+			<statBases>
+				<LeatherAmount>4</LeatherAmount>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="ThingDefFishBlueblade"]</xpath>
+		<value Merge="true">
+			<description>Provides a small amount of meat and a small amount of leather.</description>
+			<statBases>
+				<LeatherAmount>2</LeatherAmount>
+			</statBases>
+			<race>
+				<leatherDef>Leather_Lizard</leatherDef>
+				<lifeExpectancy>6</lifeExpectancy>
+			</race>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="ThingDefFishKillerCatfish"]</xpath>
+		<value Merge="true">
+			<description>Provides a decent amount of meat and a fair amount of light leather.</description>
+			<statBases>
+				<LeatherAmount>4</LeatherAmount>
+			</statBases>
+			<race>
+				<leatherDef>Leather_Lizard</leatherDef>
+			</race>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="ThingDefDeathSturgeon"]</xpath>
+		<value Merge="true">
+			<description>Provides a fair amount of meat and a lot of leather.</description>
+			<statBases>
+				<ComfyTemperatureMin>-20</ComfyTemperatureMin>
+				<LeatherAmount>5</LeatherAmount>
+			</statBases>
+			<race>
+				<baseBodySize>1.2</baseBodySize>
+			</race>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="ThingDefFishSterlingPerch"]</xpath>
+		<value Merge="true">
+			<statBases>
+				<ComfyTemperatureMin>-20</ComfyTemperatureMin>
+			</statBases>
+			<race>
+				<lifeExpectancy>6</lifeExpectancy>
+			</race>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="ThingDefFishPinstripeBass"]</xpath>
+		<value Merge="true">
+			<statBases>
+				<ComfyTemperatureMin>-20</ComfyTemperatureMin>
+			</statBases>
+			<race>
+				<lifeExpectancy>6</lifeExpectancy>
+			</race>
+		</value>
+	</Operation>
+
+	<!--
+		The updated Core_SK file inherits lifeStageAges from FishThingBase.
+		Replace the list explicitly instead of appending another three entries.
+	-->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="ThingDefFishSduiggles" or defName="ThingDefSaberfish" or defName="ThingDefRedfinTuna" or defName="ThingDefFishTailteeth" or defName="ThingDefFishKillerCatfish" or defName="ThingDefDeathSturgeon"]/race</xpath>
+		<value>
+			<lifeStageAges Inherit="false" DeepReplace="true">
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>2</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>6</minAge>
+					<soundWounded>Pawn_Cobra_Wounded</soundWounded>
+					<soundDeath>Pawn_Cobra_Death</soundDeath>
+					<soundCall>Pawn_Cobra_Call</soundCall>
+					<soundAngry>Pawn_Cobra_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="ThingDefFishMashgon" or defName="ThingDefCuda" or defName="ThingDefIceFlounder" or defName="ThingDefFishSeasnake" or defName="ThingDefFishBlueblade" or defName="ThingDefFishSterlingPerch" or defName="ThingDefFishPinstripeBass"]/race</xpath>
+		<value>
+			<lifeStageAges Inherit="false" DeepReplace="true">
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.75</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>1.5</minAge>
+					<soundWounded>Pawn_Cobra_Wounded</soundWounded>
+					<soundDeath>Pawn_Cobra_Death</soundDeath>
+					<soundCall>Pawn_Cobra_Call</soundCall>
+					<soundAngry>Pawn_Cobra_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+		</value>
+	</Operation>
+
+	<!-- PawnKindDef habitat and population differences -->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/PawnKindDef[defName="PawnKindDefFishSduiggles" or defName="PawnKindDefSaberfish"]</xpath>
+		<value>
+			<naturalBiomes Inherit="false" DeepReplace="true">
+				<li MayRequire="vileheathen.mountainsmeadows">Prairie</li>
+				<li MayRequire="vileheathen.mountainsmeadows">MaquisShrubland</li>
+				<li>TemperateForest</li>
+				<li>TemperateSwamp</li>
+				<li>TropicalRainforest</li>
+				<li>TropicalSwamp</li>
+				<li>AridShrubland</li>
+				<li>DesertArchipelago</li>
+				<li>DesertArchipelago_Fresh</li>
+				<li>TemperateArchipelago</li>
+				<li>TemperateArchipelago_Fresh</li>
+				<li>TropicalArchipelago</li>
+				<li>TropicalArchipelago_Fresh</li>
+				<li>TemperateSwampArchipelago</li>
+				<li>TemperateSwampArchipelago_Fresh</li>
+				<li>TropicalSwampArchipelago</li>
+				<li>TropicalSwampArchipelago_Fresh</li>
+			</naturalBiomes>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/PawnKindDef[defName="PawnKindDefSaberfish"]</xpath>
+		<value>
+			<ecoSystemWeight>0.1</ecoSystemWeight>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/PawnKindDef[defName="PawnKindDefFishMashgon"]</xpath>
+		<value>
+			<livesInMarsh>true</livesInMarsh>
+			<livesInRiver>true</livesInRiver>
+			<naturalBiomes Inherit="false" DeepReplace="true">
+				<li MayRequire="vileheathen.mountainsmeadows">MaquisShrubland</li>
+				<li MayRequire="vileheathen.mountainsmeadows">MixedForest</li>
+				<li>SeaIce</li>
+				<li>IceSheet</li>
+				<li>Tundra</li>
+				<li>BorealForest</li>
+				<li>TemperateForest</li>
+				<li>TemperateSwamp</li>
+				<li>TropicalRainforest</li>
+				<li>AridShrubland</li>
+				<li>Desert</li>
+				<li>BorealArchipelago</li>
+				<li>BorealArchipelago_Fresh</li>
+				<li>DesertArchipelago</li>
+				<li>DesertArchipelago_Fresh</li>
+				<li>TemperateArchipelago</li>
+				<li>TemperateArchipelago_Fresh</li>
+				<li>TropicalArchipelago</li>
+				<li>TropicalArchipelago_Fresh</li>
+				<li>TundraArchipelago</li>
+				<li>TundraArchipelago_Fresh</li>
+				<li>ColdBogArchipelago</li>
+				<li>ColdBogArchipelago_Fresh</li>
+				<li>TemperateSwampArchipelago</li>
+				<li>TemperateSwampArchipelago_Fresh</li>
+				<li>TropicalSwampArchipelago</li>
+				<li>TropicalSwampArchipelago_Fresh</li>
+			</naturalBiomes>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/PawnKindDef[defName="PawnKindDefCuda"]</xpath>
+		<value>
+			<naturalBiomes Inherit="false" DeepReplace="true">
+				<li>TropicalRainforest</li>
+				<li>TropicalSwamp</li>
+				<li MayRequire="vileheathen.mountainsmeadows">MaquisShrubland</li>
+				<li>AridShrubland</li>
+				<li>TropicalArchipelago</li>
+				<li>TropicalArchipelago_Fresh</li>
+				<li>TropicalSwampArchipelago</li>
+				<li>TropicalSwampArchipelago_Fresh</li>
+			</naturalBiomes>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/PawnKindDef[defName="PawnKindDefIceFlounder"]</xpath>
+		<value>
+			<livesInMarsh>false</livesInMarsh>
+			<livesInRiver>false</livesInRiver>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/PawnKindDef[defName="PawnKindDefFishSeasnake"]</xpath>
+		<value>
+			<label>eeel</label>
+			<livesInMarsh>true</livesInMarsh>
+			<naturalBiomes Inherit="false" DeepReplace="true">
+				<li MayRequire="vileheathen.mountainsmeadows">MaquisShrubland</li>
+				<li>SeaIce</li>
+				<li>IceSheet</li>
+				<li>Tundra</li>
+				<li>TemperateSwamp</li>
+				<li>BorealForest</li>
+				<li>TemperateForest</li>
+				<li>TropicalRainforest</li>
+				<li>AridShrubland</li>
+				<li>Desert</li>
+				<li>ColdBog</li>
+				<li>BorealArchipelago</li>
+				<li>BorealArchipelago_Fresh</li>
+				<li>DesertArchipelago</li>
+				<li>DesertArchipelago_Fresh</li>
+				<li>TemperateArchipelago</li>
+				<li>TemperateArchipelago_Fresh</li>
+				<li>TropicalArchipelago</li>
+				<li>TropicalArchipelago_Fresh</li>
+				<li>TundraArchipelago</li>
+				<li>TundraArchipelago_Fresh</li>
+				<li>ColdBogArchipelago</li>
+				<li>ColdBogArchipelago_Fresh</li>
+				<li>TemperateSwampArchipelago</li>
+				<li>TemperateSwampArchipelago_Fresh</li>
+				<li>TropicalSwampArchipelago</li>
+				<li>TropicalSwampArchipelago_Fresh</li>
+			</naturalBiomes>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/PawnKindDef[defName="PawnKindDefFishTailteeth"]</xpath>
+		<value>
+			<livesInMarsh>false</livesInMarsh>
+			<naturalBiomes Inherit="false" DeepReplace="true">
+				<li MayRequire="vileheathen.mountainsmeadows">Prairie</li>
+				<li MayRequire="vileheathen.mountainsmeadows">MaquisShrubland</li>
+				<li>TemperateForest</li>
+				<li>TropicalRainforest</li>
+				<li>AridShrubland</li>
+				<li>TemperateArchipelago</li>
+				<li>TemperateArchipelago_Fresh</li>
+				<li>TropicalArchipelago</li>
+				<li>TropicalArchipelago_Fresh</li>
+				<li>TemperateSwampArchipelago</li>
+				<li>TemperateSwampArchipelago_Fresh</li>
+				<li>TropicalSwampArchipelago</li>
+				<li>TropicalSwampArchipelago_Fresh</li>
+			</naturalBiomes>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/PawnKindDef[defName="PawnKindDefFishBlueblade"]</xpath>
+		<value>
+			<livesInMarsh>false</livesInMarsh>
+			<naturalBiomes Inherit="false" DeepReplace="true">
+				<li MayRequire="vileheathen.mountainsmeadows">Prairie</li>
+				<li MayRequire="vileheathen.mountainsmeadows">MontaneForest</li>
+				<li MayRequire="vileheathen.mountainsmeadows">MontaneGrasslands</li>
+				<li MayRequire="vileheathen.mountainsmeadows">MixedForest</li>
+				<li>SeaIce</li>
+				<li>IceSheet</li>
+				<li>Tundra</li>
+				<li>BorealForest</li>
+				<li>TemperateForest</li>
+				<li>BorealArchipelago_Fresh</li>
+				<li>DesertArchipelago_Fresh</li>
+				<li>TemperateArchipelago_Fresh</li>
+				<li>TundraArchipelago_Fresh</li>
+				<li>ColdBogArchipelago_Fresh</li>
+				<li>TemperateSwampArchipelago_Fresh</li>
+			</naturalBiomes>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/PawnKindDef[defName="PawnKindDefFishKillerCatfish"]</xpath>
+		<value>
+			<livesInMarsh>false</livesInMarsh>
+			<naturalBiomes Inherit="false" DeepReplace="true">
+				<li MayRequire="vileheathen.mountainsmeadows">Prairie</li>
+				<li MayRequire="vileheathen.mountainsmeadows">MaquisShrubland</li>
+				<li MayRequire="vileheathen.mountainsmeadows">MixedForest</li>
+				<li>TemperateForest</li>
+				<li>TropicalRainforest</li>
+				<li>TemperateArchipelago</li>
+				<li>TemperateArchipelago_Fresh</li>
+				<li>TropicalArchipelago</li>
+				<li>TropicalArchipelago_Fresh</li>
+				<li>TemperateSwampArchipelago</li>
+				<li>TemperateSwampArchipelago_Fresh</li>
+				<li>TropicalSwampArchipelago</li>
+				<li>TropicalSwampArchipelago_Fresh</li>
+			</naturalBiomes>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/PawnKindDef[defName="PawnKindDefDeathSturgeon"]</xpath>
+		<value>
+			<ecoSystemWeight>0.11</ecoSystemWeight>
+			<naturalBiomes Inherit="false" DeepReplace="true">
+				<li MayRequire="vileheathen.mountainsmeadows">Prairie</li>
+				<li MayRequire="vileheathen.mountainsmeadows">MontaneForest</li>
+				<li MayRequire="vileheathen.mountainsmeadows">MontaneGrasslands</li>
+				<li MayRequire="vileheathen.mountainsmeadows">MixedForest</li>
+				<li>SeaIce</li>
+				<li>IceSheet</li>
+				<li>Tundra</li>
+				<li>BorealForest</li>
+				<li>TemperateForest</li>
+				<li>Desert</li>
+				<li>BorealArchipelago_Fresh</li>
+				<li>DesertArchipelago_Fresh</li>
+				<li>TemperateArchipelago_Fresh</li>
+				<li>TundraArchipelago_Fresh</li>
+				<li>ColdBogArchipelago_Fresh</li>
+				<li>TemperateSwampArchipelago_Fresh</li>
+			</naturalBiomes>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/PawnKindDef[defName="PawnKindDefFishSterlingPerch"]</xpath>
+		<value>
+			<livesInMarsh>false</livesInMarsh>
+			<naturalBiomes Inherit="false" DeepReplace="true">
+				<li MayRequire="vileheathen.mountainsmeadows">Prairie</li>
+				<li MayRequire="vileheathen.mountainsmeadows">MontaneForest</li>
+				<li MayRequire="vileheathen.mountainsmeadows">MontaneGrasslands</li>
+				<li MayRequire="vileheathen.mountainsmeadows">MaquisShrubland</li>
+				<li MayRequire="vileheathen.mountainsmeadows">MixedForest</li>
+				<li>SeaIce</li>
+				<li>IceSheet</li>
+				<li>Tundra</li>
+				<li>BorealForest</li>
+				<li>TemperateForest</li>
+				<li>TropicalRainforest</li>
+				<li>AridShrubland</li>
+				<li>Desert</li>
+				<li>ColdBog</li>
+				<li>BorealArchipelago</li>
+				<li>BorealArchipelago_Fresh</li>
+				<li>DesertArchipelago</li>
+				<li>DesertArchipelago_Fresh</li>
+				<li>TemperateArchipelago</li>
+				<li>TemperateArchipelago_Fresh</li>
+				<li>TropicalArchipelago</li>
+				<li>TropicalArchipelago_Fresh</li>
+				<li>TundraArchipelago</li>
+				<li>TundraArchipelago_Fresh</li>
+				<li>ColdBogArchipelago</li>
+				<li>ColdBogArchipelago_Fresh</li>
+				<li>TemperateSwampArchipelago</li>
+				<li>TemperateSwampArchipelago_Fresh</li>
+				<li>TropicalSwampArchipelago</li>
+				<li>TropicalSwampArchipelago_Fresh</li>
+			</naturalBiomes>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/PawnKindDef[defName="PawnKindDefFishPinstripeBass"]</xpath>
+		<value>
+			<livesInMarsh>false</livesInMarsh>
+			<naturalBiomes Inherit="false" DeepReplace="true">
+				<li MayRequire="vileheathen.mountainsmeadows">MaquisShrubland</li>
+				<li MayRequire="vileheathen.mountainsmeadows">MixedForest</li>
+				<li>BorealForest</li>
+				<li>TemperateForest</li>
+				<li>TropicalRainforest</li>
+				<li>AridShrubland</li>
+				<li>Desert</li>
+				<li>BorealArchipelago</li>
+				<li>BorealArchipelago_Fresh</li>
+				<li>DesertArchipelago</li>
+				<li>DesertArchipelago_Fresh</li>
+				<li>TemperateArchipelago</li>
+				<li>TemperateArchipelago_Fresh</li>
+				<li>TropicalArchipelago</li>
+				<li>TropicalArchipelago_Fresh</li>
+				<li>TundraArchipelago</li>
+				<li>TundraArchipelago_Fresh</li>
+				<li>ColdBogArchipelago</li>
+				<li>ColdBogArchipelago_Fresh</li>
+				<li>TemperateSwampArchipelago</li>
+				<li>TemperateSwampArchipelago_Fresh</li>
+				<li>TropicalSwampArchipelago</li>
+				<li>TropicalSwampArchipelago_Fresh</li>
+			</naturalBiomes>
+		</value>
+	</Operation>
+
+</Patch>

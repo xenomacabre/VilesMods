@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 <!-- THINGS -->
-<ThingDef ParentName="SK_ResourceBase">
+<ThingDef ParentName="ResourceBase">
 		<defName>CannonParts</defName>
 		<label>cannon barrel part</label>
 		<description>You can't build a cannon without a barrel.</description>
@@ -29,7 +29,7 @@
 	</ThingDef>
 	
 		
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Sudis</defName>
 		<label>sudis</label>
 		<description>A stake used to build temporary defenses.</description>

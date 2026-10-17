@@ -123,16 +123,30 @@
 			</visualSizeRange>
 		</value>
     </Operation>
-	<Operation Class="PatchOperationReplace">
+	<Operation Class="PatchOperationConditional">
 		<xpath>Defs/ThingDef[defName="Plant_TreeWillow"]/graphicData/shaderParameters</xpath>
-		<value>
-			<shaderParameters>
-				<_FallColorSource>(0.38, 0.43, 0.13)</_FallColorSource>
-				<_FallColorDestination>/Other/YellowTreeFallGradient</_FallColorDestination>
-				<_FallTransitionRange>(0.02, 0.18)</_FallTransitionRange>
-				<_FallBehaviorEnabled>1</_FallBehaviorEnabled>
-			</shaderParameters>
-		</value>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_TreeWillow"]/graphicData/shaderParameters</xpath>
+			<value>
+				<shaderParameters>
+					<_FallColorSource>(0.38, 0.43, 0.13)</_FallColorSource>
+					<_FallColorDestination>/Other/YellowTreeFallGradient</_FallColorDestination>
+					<_FallTransitionRange>(0.02, 0.18)</_FallTransitionRange>
+					<_FallBehaviorEnabled>1</_FallBehaviorEnabled>
+				</shaderParameters>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Plant_TreeWillow"]/graphicData</xpath>
+			<value>
+				<shaderParameters>
+					<_FallColorSource>(0.38, 0.43, 0.13)</_FallColorSource>
+					<_FallColorDestination>/Other/YellowTreeFallGradient</_FallColorDestination>
+					<_FallTransitionRange>(0.02, 0.18)</_FallTransitionRange>
+					<_FallBehaviorEnabled>1</_FallBehaviorEnabled>
+				</shaderParameters>
+			</value>
+		</nomatch>
     </Operation>
 	
 <!-- BIRCH -->

@@ -115,7 +115,7 @@
 			<skipChance>0.3</skipChance>
 			<subOptionsChooseOne>
 				<li>
-					<thingDef>Wine</thingDef>
+					<thingDef>Alcohol_Wine</thingDef>
 					<countRange>
 						<min>1</min>
 						<max>2</max>
@@ -169,7 +169,7 @@
 			<skipChance>0.3</skipChance>
 			<subOptionsChooseOne>
 				<li>
-					<thingDef>Wine</thingDef>
+					<thingDef>Alcohol_Wine</thingDef>
 					<countRange>
 						<min>1</min>
 						<max>5</max>

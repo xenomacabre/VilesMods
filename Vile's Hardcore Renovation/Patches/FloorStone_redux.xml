@@ -27,7 +27,7 @@
 		<costList>
 			<BlocksSandstone>4</BlocksSandstone>
 		</costList>
-		<designationCategory>OutsideFloors</designationCategory>
+		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
@@ -48,7 +48,7 @@
 		<costList>
 			<BlocksGranite>4</BlocksGranite>
 		</costList>
-		<designationCategory>OutsideFloors</designationCategory>
+		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
@@ -69,7 +69,7 @@
 		<costList>
 			<BlocksLimestone>4</BlocksLimestone>
 		</costList>
-		<designationCategory>OutsideFloors</designationCategory>
+		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
@@ -90,7 +90,7 @@
 		<costList>
 			<BlocksSlate>4</BlocksSlate>
 		</costList>
-		<designationCategory>OutsideFloors</designationCategory>
+		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
@@ -111,7 +111,7 @@
 		<costList>
 			<BlocksMarble>4</BlocksMarble>
 		</costList>
-		<designationCategory>OutsideFloors</designationCategory>
+		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SK_TileStoneBase">
@@ -132,7 +132,7 @@
 		<costList>
 			<Ceramics>4</Ceramics>
 		</costList>
-		<designationCategory>OutsideFloors</designationCategory>
+		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 		  
 		</value>
