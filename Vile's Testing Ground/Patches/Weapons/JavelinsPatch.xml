@@ -16,6 +16,14 @@
 			</value>
 		</Operation>
 		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="MakeAmmo_Pilum"]/jobString</xpath>
+			<value>			
+				<jobString>Making javelins.</jobString>
+			</value>
+		</Operation>
+				
+		
+		<Operation Class="PatchOperationReplace">
 			<xpath>Defs/RecipeDef[defName="MakeAmmo_Pilum"]/workAmount</xpath>
 			<value>			
 				<workAmount>4800</workAmount>
@@ -34,15 +42,15 @@
 					<li>
 						<filter>
 							<categories>
-								<li>Woody</li>
+								<li>SLDBar</li>
 							</categories>
 						</filter>
-						<count>20</count>
+						<count>24</count>
 					</li>
 					<li>
 						<filter>
 							<categories>
-								<li>SLDBar</li>
+								<li>Woody</li>
 							</categories>
 						</filter>
 						<count>20</count>
@@ -50,6 +58,20 @@
 				</ingredients>
 			</value>
 		</Operation>
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="MakeAmmo_Pilum"]/fixedIngredientFilter</xpath>
+			<value>			
+				<fixedIngredientFilter>
+					<categories>
+						<li>Woody</li>
+						<li>SLDBar</li>
+					</categories>
+				</fixedIngredientFilter>
+			</value>
+		</Operation>
+		
+		
+		
 		<Operation Class="PatchOperationReplace">	
 			<xpath>Defs/ThingDef[defName="Pila"]/equippedStatOffsets</xpath>
 			<value>			

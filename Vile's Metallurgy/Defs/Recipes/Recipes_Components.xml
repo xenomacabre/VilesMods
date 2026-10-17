@@ -237,15 +237,6 @@
 				<li>SoftClay</li>
 			</thingDefs>
 		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<categories>
-				<li>CastBar</li>
-			</categories>
-			<thingDefs>
-				<li>SandResource</li>
-				<li>SoftClay</li>
-			</thingDefs>
-		</defaultIngredientFilter>
 		<products>
 			<ComponentIndustrial>30</ComponentIndustrial>
 		</products>

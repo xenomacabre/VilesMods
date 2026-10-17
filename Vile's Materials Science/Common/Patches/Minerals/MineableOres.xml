@@ -33,6 +33,38 @@
 					<deepCommonality>0.05</deepCommonality>
 				</value>
 			</li>-->
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="WeatheredOreSilver"
+									or defName="SolidOreSilver"
+									or defName="HewnOreSilver"]/building/mineableScatterCommonality</xpath>
+				<value>
+					<mineableScatterCommonality>0.75</mineableScatterCommonality>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Silver"]/deepCommonality</xpath>
+				<value>
+					<deepCommonality>1.4</deepCommonality>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Silver"]/deepCountPerPortion</xpath>
+				<value>
+					<deepCountPerPortion>40</deepCountPerPortion>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Silver"]/deepLumpSizeRange</xpath>
+				<value>
+					<deepLumpSizeRange>
+						<min>58</min>
+						<max>115</max>
+					</deepLumpSizeRange>
+				</value>
+			</li>
+
+			
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName="Silver"
 				or defName="Peat"]/deepCommonality</xpath>	
