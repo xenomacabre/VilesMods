@@ -252,7 +252,7 @@ Cons: Below average damage</description>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>AdvRifle_Component</li>
+						<li>Rifle_Component</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -298,7 +298,7 @@ Cons: Below average damage</description>
 	<value>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>AdvRifle_Component</li>
+				<li>Rifle_Component</li>
 				<li>Weapon_Parts</li>
 				<li>Paraffins</li>
 				<li>Polycarbonate</li>
