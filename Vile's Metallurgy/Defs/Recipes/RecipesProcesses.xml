@@ -32,6 +32,7 @@
 		<products>
 			<BlisterSteel>40</BlisterSteel>
 		</products>
+		<researchPrerequisite>Steel_B2</researchPrerequisite>
 		<usesTemperature>false</usesTemperature>
 		<processDays>2.0</processDays>
 		<recipeUsers>

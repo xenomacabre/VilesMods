@@ -168,7 +168,7 @@
 		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
 		<designationCategory>Production</designationCategory>
 		<researchPrerequisites>
-			<li>Steel_B2</li>
+			<li>Steel_B1</li>
 		</researchPrerequisites>
 	</ThingDef>
 
