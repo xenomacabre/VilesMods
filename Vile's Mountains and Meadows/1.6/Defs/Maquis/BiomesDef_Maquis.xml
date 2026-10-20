@@ -24,6 +24,32 @@
 
 			
         </modExtensions>
+		
+		
+		 <allowFarmingCamps>false</allowFarmingCamps>
+			<lakeBeachTerrain>Marsh</lakeBeachTerrain>
+			<mudTerrain>Marsh</mudTerrain>
+			<riverbankTerrain>Riverbank</riverbankTerrain>
+			<riverbankSizeRange>6~8</riverbankSizeRange>
+			<maxFishPopulation>500</maxFishPopulation>
+			<fishTypes MayRequire="Ludeon.RimWorld.Odyssey">
+			  <freshwater_Common>
+				<Fish_Salmon MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Salmon>
+			  </freshwater_Common>
+			  <freshwater_Uncommon>
+				<Fish_Frostfish MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Frostfish>
+			  </freshwater_Uncommon>
+			  <saltwater_Common>
+				<Fish_Salmon MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Salmon>
+				<Fish_Cod MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Cod>
+			  </saltwater_Common>
+			  <saltwater_Uncommon>
+				<Fish_Dogfish MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Dogfish>
+			  </saltwater_Uncommon>
+			  <rareCatchesSetMaker MayRequire="Ludeon.RimWorld.Odyssey">RareFishingCatches_Cold</rareCatchesSetMaker>
+			</fishTypes>
+		
+		
 		<animalDensity>2</animalDensity>
 		<plantDensity>3.0</plantDensity>
 		<settlementSelectionWeight>0.75</settlementSelectionWeight>

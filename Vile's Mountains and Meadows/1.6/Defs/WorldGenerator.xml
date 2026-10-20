@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <WorldGenStepDef>
+    <defName>BiomesKitWorldGenStep</defName>
+    <order>250</order>
+    <worldGenStep Class="BiomesKit.LateBiomeWorker"/>
+  </WorldGenStepDef>
+  
+
+</Defs>

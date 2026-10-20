@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<ThingDef ParentName="TreewoodBase">
+	<ThingDef ParentName="TreeBase">
 		<defName>Plant_TreeStonePine</defName>
 		<label>stonepine tree</label>
 		<description>Also called "umbrella pine", this variety grows in stony Mediterranean regions.</description>
@@ -78,7 +78,7 @@ Burn rate: 1.6 hrs</description>
 	
 	
 	
-	<ThingDef ParentName="TreewoodBase">
+	<ThingDef ParentName="TreeBase">
 		<defName>Plant_TreeHolmOak</defName>
 		<label>holm oak tree</label>
 		<description>This is an evergreen variety of oak which grows in the Mediterranean region.</description>
@@ -157,7 +157,7 @@ Burn rate: 2.8 hrs</description>
 	
 	
 	
-		<ThingDef ParentName="TreewoodBase">
+		<ThingDef ParentName="TreeBase">
 		<defName>Plant_TreeLaurel</defName>
 		<label>bay laurel</label>
 		<description>The laurel is a small evergreen shrub or tree. The leaves are traditionally used to improve soups and other dishes.</description>
