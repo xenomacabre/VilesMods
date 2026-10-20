@@ -32,6 +32,7 @@
 		<products>
 			<BlisterSteel>40</BlisterSteel>
 		</products>
+		<researchPrerequisite>Steel_B2</researchPrerequisite>
 		<usesTemperature>false</usesTemperature>
 		<processDays>2.0</processDays>
 		<recipeUsers>
@@ -223,7 +224,6 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>WroughtIron</li>
-				<li>ClayPot</li>
 				<li>Kindling</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -273,7 +273,6 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>WroughtIron</li>
-				<li>ClayPot</li>
 				<li>PigIron</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -318,6 +317,7 @@
 		</recipeUsers>
 	</RecipeDef>
 	
+<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 <RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>MakeClayBricks</defName>
 		<label>bake clay bricks (x30)</label>
@@ -346,6 +346,7 @@
 			<li>Kiln</li>
 		</recipeUsers>
 	</RecipeDef>
+-->
 	
 <RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>MakeBlocksSandstoneCementation</defName>
@@ -375,6 +376,7 @@
 			<li>CementationFurnace</li>
 		</recipeUsers>
 	</RecipeDef>
+<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 <RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>MakeBlocksSandstone</defName>
 		<label>bake sandstone blocks (x20)</label>
@@ -403,6 +405,7 @@
 			<li>Kiln</li>
 		</recipeUsers>
 	</RecipeDef>
+-->
 	
 <RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
 		<defName>MakeCeramics_Process</defName>

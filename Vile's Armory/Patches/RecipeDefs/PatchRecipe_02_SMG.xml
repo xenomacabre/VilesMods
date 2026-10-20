@@ -421,7 +421,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Plasteel</li> <!-- mild steel-->
+						<li>Steel</li> <!-- mild steel-->
 						<li>CarbonSteel</li>
 					</thingDefs>
 				</filter>
@@ -438,7 +438,7 @@
 				<li>SMG_Component</li>
 				<li>Weapon_Parts</li>
 				<li>ComponentIndustrial</li>
-				<li>Plasteel</li>
+				<li>Steel</li>
 				<li>CarbonSteel</li>
 			</thingDefs>
 		</fixedIngredientFilter>

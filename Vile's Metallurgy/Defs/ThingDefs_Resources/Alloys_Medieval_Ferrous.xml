@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>WroughtIron</defName>
 		<label>wrought iron</label>
 		<description>TIER 2 - Medieval
@@ -91,7 +91,7 @@ Wrought iron is your mostly-pure form of iron, meaning it has a very low carbon 
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>ForgedSteel</defName>
 		<label>forge-welded steel</label>
 		<description>TIER 2 - Medieval
@@ -183,7 +183,7 @@ Take your iron bloom, and forge some of it into useless high-carbon bars and som
 	</ThingDef>
 	
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>CastIron</defName>
 		<label>cast iron</label>
 		<description>TIER 2 - Medieval
@@ -274,7 +274,7 @@ Cast iron has an exceptionally high carbon content which makes it very hard but 
 		</modExtensions>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>WootzSteel</defName>
 		<label>wootz steel</label>
 		<description>TIER 2 - Medieval
@@ -367,7 +367,7 @@ Wootz steel is made in small batches by filling a disposable clay crucible with 
 		</modExtensions>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>CrucibleSteel</defName>
 		<label>crucible steel</label>
 		<description>TIER 2 - Medieval

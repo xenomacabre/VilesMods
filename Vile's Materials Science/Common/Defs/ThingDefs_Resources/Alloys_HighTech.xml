@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<!-- Maxamet -->
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>MaxametSteel</defName>
 		<label>Maxamet steel</label>
 		<description>TIER 4 - High Tech
@@ -94,7 +94,7 @@ MaxaMet is an ultra-hard high-speed tool steel (HSS). It's just shy of the hardn
 	</ThingDef>
 	
 	<!-- AERMET -->
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>AerMet</defName>
 		<label>AerMet stainless steel</label>
 		<description>TIER 4 - High Tech
@@ -188,7 +188,7 @@ Possibly coined for its use in the aerospace industry, Aermet is the highest-rat
 	</ThingDef>
 	
 	<!-- Pyromet -->
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Pyromet</defName>
 		<label>PyroMet</label>
 		<description>TIER 4 - High Tech
@@ -282,101 +282,10 @@ Pyromet is a nickel-chromium stainless steel superalloy, useful for producing co
 	</ThingDef>
 	
 	<!-- Stellite -->
-	<ThingDef ParentName="SK_ResourceBase">
-		<defName>StelliteAlloy</defName>
-		<label>Stellite superalloy</label>
-		<description>TIER 4 - High Tech
->>> Optimal	Workshops
->> Suitable	Tools
-X Inadvisable 	Economy
-			
-Tools Recommended: Building, Tree-Cutting, Cooking
-Notes: Corrosion-resistant, Superalloy
-
-Stellite is a superalloy of cobalt and chromium, an important material for turbines, rocket engines and other applications that require performance in extreme conditions. Though not exceptionally feasible from an economic standpoint, lathes and workbenches operate at peak efficienty with this material, and it makes decent hammers and other tools.</description>
-		<graphicData>
-			<texPath>Things/Item/Material/Stellite</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<soundInteract>Metal_Drop</soundInteract>
-		<soundDrop>Metal_Drop</soundDrop>
-		<stackLimit>600</stackLimit>
-		<techLevel>Spacer</techLevel>
-		<statBases>
-			<MarketValue>35</MarketValue>
-			<StuffPower_Armor_Blunt>1.4</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>1.5</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Heat>0.142</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>-4</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>-4</StuffPower_Insulation_Heat>
-			<SharpDamageMultiplier>1.35</SharpDamageMultiplier>
-			<BluntDamageMultiplier>1.5</BluntDamageMultiplier>
-			<DeteriorationRate>0</DeteriorationRate>
-			<Flammability>0</Flammability>
-			<Mass>0.35</Mass>
-			<Bulk>0.35</Bulk>
-		</statBases>
-		<useHitPoints>true</useHitPoints>
-		<slagDef>ChunkSlagSteel</slagDef>
-		<thingCategories>
-			<li>USLDBar</li>
-			<li>SuperBar</li>
-		</thingCategories>
-		<smeltable>true</smeltable>
-		<stuffProps>
-			<stuffAdjective>Stellite</stuffAdjective>
-			<categories>
-				<li>Metallic</li>
-				<li>StrongMetallic</li>
-				<li>RuggedMetallic</li>
-				<li>SolidMetallic</li>
-				<li>CorrosionResistant</li>
-			</categories>
-			<constructEffect>ConstructMetal</constructEffect>
-			<color>(128,126,176)</color>
-			<commonality>0.4</commonality> 
-			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
-			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
-			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
-			<statFactors>
-				<MaxHitPoints>3.2</MaxHitPoints>
-				<Beauty>1.2</Beauty>
-				<Flammability>0</Flammability>
-				<WorkToMake>2.4</WorkToMake>
-				<WorkToBuild>2.4</WorkToBuild>
-				<DoorOpenSpeed>0.7</DoorOpenSpeed>
-				<MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
-				<MoveSpeed>0.7</MoveSpeed>
-				<MarketValue>0.9</MarketValue>
-				<BedRestEffectiveness>1.1</BedRestEffectiveness>
-				<ImmunityGainSpeedFactor>1.15</ImmunityGainSpeedFactor>
-				<WorkTableWorkSpeedFactor>1.65</WorkTableWorkSpeedFactor>
-				<MeleePenetrationFactor>1.4</MeleePenetrationFactor>
-				<Mass>1.15</Mass>
-				<Cleanliness>3</Cleanliness>
-				<WornBulk>1</WornBulk>
-			</statFactors>
-		</stuffProps>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<modExtensions>
-		    <li Class="SurvivalToolsLite.StuffPropsTool">
-                <toolStatFactors>
-                    <TreeFellingSpeed>1.6</TreeFellingSpeed>
-					<PlantHarvestingSpeed>1.5</PlantHarvestingSpeed>
-					<PlantWorkSpeed>1.4</PlantWorkSpeed>
-					<MiningSpeed>1.4</MiningSpeed>
-					<MiningYieldDigging>1.4</MiningYieldDigging>
-					<ConstructionSpeed>1.65</ConstructionSpeed>
-					<SmithingSpeed>1.65</SmithingSpeed>
-					<CookSpeed>1.65</CookSpeed>
-					<ButcheryFleshSpeed>1.6</ButcheryFleshSpeed>
-                </toolStatFactors>
-            </li>
-		</modExtensions>
-	</ThingDef>
+	<!-- Core_SK owns ThingDef StelliteAlloy; Materials Science changes are applied by Common/Patches/Core_SK_Overlap/ThingDefs_Resources/Alloys_HighTech.xml. -->
 	
 	<!-- Nimonic -->
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Nimonic</defName>
 		<label>Nimonic superalloy</label>
 		<description>TIER 4 - High Tech
@@ -469,7 +378,7 @@ Nimonic is a nickel-based superalloy used for components needed for high-tempera
 	</ThingDef>
 	
 	<!-- CARBORUNDUM -->
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Carborundum</defName>
 		<label>carborundum</label>
 		<description>TIER 4 - High Tech
@@ -564,101 +473,10 @@ Perhaps more commmonly known as silicon carbide, this diamond-hard ceramic is co
 	</ThingDef>
 	
 	<!-- CEMENTED CARBIDE -->
-	<ThingDef ParentName="SK_ResourceBase">
-		<defName>PobediteAlloy</defName>
-		<label>cemented carbide</label>
-		<description>TIER 4 - High Tech
->>> Optimal	Workshops
->> Suitable	Tools, Bladed Weapons
-X Inadvisable 	Construction
-			
-Tools Recommended: Mining, Digging, Cooking
-Notes: Magnetic, Corrosion-resistant, Heavy
-
-Cemented tungsten carbide is a very hard, dense material often used for tools – especially drills and mining tools, and it's the industry highest standard for machine tools and work benches. It's also use for high-end surgical tools and armor-piercing ammunition.</description>
-		<graphicData>
-			<texPath>Things/Item/Material/Carbide</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<soundInteract>Metal_Drop</soundInteract>
-		<soundDrop>Metal_Drop</soundDrop>
-		<stackLimit>600</stackLimit>
-		<techLevel>Spacer</techLevel>
-		<statBases>
-			<MarketValue>40</MarketValue>
-			<StuffPower_Armor_Blunt>1.4</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>1.45</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Heat>0.13</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>-6</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>-6</StuffPower_Insulation_Heat>
-			<SharpDamageMultiplier>1.44</SharpDamageMultiplier>
-			<BluntDamageMultiplier>1.44</BluntDamageMultiplier>
-			<DeteriorationRate>0</DeteriorationRate>
-			<Flammability>0</Flammability>
-			<Mass>0.40</Mass>
-			<Bulk>0.35</Bulk>
-		</statBases>
-		<useHitPoints>true</useHitPoints>
-		<slagDef>ChunkSlagSteel</slagDef>
-		<thingCategories>
-			<li>USLDBar</li>
-			<li>USLDHBar</li>
-		</thingCategories>
-		<smeltable>true</smeltable>
-		<stuffProps>
-			<stuffAdjective>Carbide</stuffAdjective>
-			<categories>
-				<li>Metallic</li>
-				<li>StrongMetallic</li>
-				<li>RuggedMetallic</li>
-				<li>HeavyMetallic</li>
-				<li>CorrosionResistant</li>
-			</categories>
-			<constructEffect>ConstructMetal</constructEffect>
-			<color>(89,90,91)</color>
-			<commonality>0.4</commonality> 
-			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
-			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
-			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
-			<statFactors>
-				<MaxHitPoints>2.4</MaxHitPoints>
-				<Beauty>1</Beauty>
-				<Flammability>0</Flammability>
-				<WorkToMake>3.2</WorkToMake>
-				<WorkToBuild>3.2</WorkToBuild>
-				<DoorOpenSpeed>0.5</DoorOpenSpeed>
-				<MeleeWeapon_CooldownMultiplier>1.1</MeleeWeapon_CooldownMultiplier>
-				<MoveSpeed>0.7</MoveSpeed>
-				<MarketValue>0.8</MarketValue>
-				<BedRestEffectiveness>1</BedRestEffectiveness>
-				<ImmunityGainSpeedFactor>1.25</ImmunityGainSpeedFactor>
-				<WorkTableWorkSpeedFactor>1.7</WorkTableWorkSpeedFactor>
-				<MeleePenetrationFactor>1.6</MeleePenetrationFactor>
-				<Mass>1.4</Mass>
-				<Cleanliness>1.9</Cleanliness>
-                <EquipDelay>0.8</EquipDelay>
-			</statFactors>
-		</stuffProps>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<modExtensions>
-		    <li Class="SurvivalToolsLite.StuffPropsTool">
-                <toolStatFactors>
-                    <TreeFellingSpeed>1.55</TreeFellingSpeed>
-					<PlantHarvestingSpeed>1.55</PlantHarvestingSpeed>
-					<PlantWorkSpeed>1.7</PlantWorkSpeed>
-					<MiningSpeed>1.8</MiningSpeed>
-					<MiningYieldDigging>1.8</MiningYieldDigging>
-					<ConstructionSpeed>1.55</ConstructionSpeed>
-					<SmithingSpeed>1.55</SmithingSpeed>
-					<CookSpeed>1.7</CookSpeed>
-					<ButcheryFleshSpeed>1.6</ButcheryFleshSpeed>
-                </toolStatFactors>
-            </li>
-		</modExtensions>
-	</ThingDef>
+	<!-- Core_SK owns ThingDef PobediteAlloy; Materials Science changes are applied by Common/Patches/Core_SK_Overlap/ThingDefs_Resources/Alloys_HighTech.xml. -->
 	
 	<!-- TENNALUM 7068 -->
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Tennalum</defName>
 		<label>Tennalum</label>
 		<description>TIER 4 - High Tech
@@ -754,196 +572,9 @@ Tennalum is a high-grade variety of 7068 Aluminium, perhaps the strongest alumin
 		</modExtensions>
 	</ThingDef>
 	
-	<!-- DUAL-PHASE TITANIUM -->
-	<ThingDef ParentName="SK_ResourceBase">
-		<defName>TitaniumBar</defName>
-		<label>dual-phase titanium</label>
-		<description>TIER 4 - High Tech
->>> Optimal	Hospitals, Tools (non-bladed)
->> Suitable	Light/Thermal Armor
-X Inadvisable 	Production
-			
-Tools Recommended: Any non-bladed
-Notes: Corrosion-resistant, Superalloy, Light
-
-Also known as Ti-6Al-4V or more commonly Grade 5 Titanium, it's alloyed with Aluminium and Vanadium. Due to its strength, light weight, and shock-absorbing qualities, it makes fine tools (especially non-bladed ones). And being a superalloy along with Stellite, Pyromet, and Nimonic, it's useful for high-temperature applications and components, and makes lightweight and decently strong armor with a nearly unmatched in energy-weapon defense rating (among alloy armors). It's extremely hard to work with, however.</description>
-		<graphicData>
-			<texPath>Things/Item/Material/DualPhaseTitanium</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-		<soundInteract>Metal_Drop</soundInteract>
-		<soundDrop>Metal_Drop</soundDrop>
-		<stackLimit>600</stackLimit>
-		<techLevel>Spacer</techLevel>
-		<statBases>
-			<MarketValue>45</MarketValue>
-			<StuffPower_Armor_Blunt>1.4</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>1.6</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Heat>0.17</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>-1</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>-1</StuffPower_Insulation_Heat>
-			<SharpDamageMultiplier>1.28</SharpDamageMultiplier>
-			<BluntDamageMultiplier>1.15</BluntDamageMultiplier>
-			<DeteriorationRate>0</DeteriorationRate>
-			<Flammability>0</Flammability>
-			<Mass>0.25</Mass>
-			<Bulk>0.35</Bulk>
-		</statBases>
-		<useHitPoints>true</useHitPoints>
-		<slagDef>ChunkSlagSteel</slagDef>
-		<thingCategories>
-			<li>USLDBar</li>
-			<li>SuperBar</li>
-			<li>LightBar</li>
-		</thingCategories>
-		<smeltable>true</smeltable>
-		<stuffProps>
-			<stuffAdjective>Dual-Phase Titanium</stuffAdjective>
-			<categories>
-				<li>Metallic</li>
-				<li>StrongMetallic</li>
-				<li>RuggedMetallic</li>
-				<li>SolidMetallic</li>
-				<li>CorrosionResistant</li>
-				<li>LightMaterial</li>
-			</categories>
-			<constructEffect>ConstructMetal</constructEffect>
-			<color>(243,255,255)</color>
-			<commonality>0.4</commonality> 
-			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
-			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
-			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
-			<statFactors>
-				<MaxHitPoints>3.1</MaxHitPoints>
-				<Beauty>2</Beauty>
-				<Flammability>0</Flammability>
-				<WorkToMake>3.5</WorkToMake>
-				<WorkToBuild>3.5</WorkToBuild>
-				<DoorOpenSpeed>1.4</DoorOpenSpeed>
-				<MeleeWeapon_CooldownMultiplier>0.85</MeleeWeapon_CooldownMultiplier>
-				<MoveSpeed>0.7</MoveSpeed>
-				<MarketValue>0.9</MarketValue>
-				<BedRestEffectiveness>1.2</BedRestEffectiveness>
-				<ImmunityGainSpeedFactor>1.38</ImmunityGainSpeedFactor>
-				<WorkTableWorkSpeedFactor>1.35</WorkTableWorkSpeedFactor>
-				<MeleePenetrationFactor>1.4</MeleePenetrationFactor>
-				<Mass>0.85</Mass>
-				<Cleanliness>2.5</Cleanliness>
-			</statFactors>
-			<statOffsets>
-				<Beauty>1</Beauty>
-			</statOffsets>
-		</stuffProps>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<modExtensions>
-		    <li Class="SurvivalToolsLite.StuffPropsTool">
-                <toolStatFactors>
-                    <TreeFellingSpeed>1.65</TreeFellingSpeed>
-					<PlantHarvestingSpeed>1.6</PlantHarvestingSpeed>
-					<PlantWorkSpeed>1.8</PlantWorkSpeed>
-					<MiningSpeed>1.8</MiningSpeed>
-					<MiningYieldDigging>1.6</MiningYieldDigging>
-					<ConstructionSpeed>1.8</ConstructionSpeed>
-					<SmithingSpeed>1.8</SmithingSpeed>
-					<CookSpeed>1.5</CookSpeed>
-					<ButcheryFleshSpeed>1.5</ButcheryFleshSpeed>
-                </toolStatFactors>
-            </li>
-		</modExtensions>
-	</ThingDef>
+	<!-- DUAL-PHASE TITANIUM is applied to Plasteel by Common/Patches/Plasteel_Patch.xml. -->
 	
 	<!-- NITINOL -->
-	<ThingDef ParentName="SK_ResourceBase">
-		<defName>NitinolAlloy</defName>
-		<label>nitinol alloy</label>
-		<description>TIER 4 - High Tech
->>> Optimal	Bedrooms, Engineering
->> Suitable	Blades, Hospitals
-X Inadvisable 	Workshops
-			
-Tools Recommended: Cooking, Tree-cutting
-Notes: Used in special components
-
-Half Nickel, half titanium. It's an important alloy used for high tech actuators and robotics due to its superelasticity and shape memory features, and it's used for surgical tools and implants as well. These qualities also allow it to perform fairly well against heat and ballistic impacts, but not so much blunt force, and tools made of nitinol are tough and effective. The combination of strength and ductility give it superior resiliancy to damage. It's also difficult to work with.</description>
-		<graphicData>
-			<texPath>Things/Item/Material/Nitinol</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-			<!--<color>(174,192,226)</color>-->
-		</graphicData>
-		<soundInteract>Metal_Drop</soundInteract>
-		<soundDrop>Metal_Drop</soundDrop>
-		<stackLimit>600</stackLimit>
-		<techLevel>Spacer</techLevel>
-		<statBases>
-			<MarketValue>45</MarketValue>
-			<StuffPower_Armor_Blunt>1.22</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Sharp>1.52</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Heat>0.16</StuffPower_Armor_Heat>
-			<StuffPower_Insulation_Cold>0</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
-			<SharpDamageMultiplier>1.4</SharpDamageMultiplier>
-			<BluntDamageMultiplier>1.22</BluntDamageMultiplier>
-			<DeteriorationRate>0</DeteriorationRate>
-			<Flammability>0</Flammability>
-			<Mass>0.35</Mass>
-			<Bulk>0.35</Bulk>
-		</statBases>
-		<useHitPoints>true</useHitPoints>
-		<slagDef>ChunkSlagSteel</slagDef>
-		<thingCategories>
-			<li>USLDBar</li>
-		</thingCategories>
-		<smeltable>true</smeltable>
-		<stuffProps>
-            <appearance>Panel</appearance>
-			<stuffAdjective>Nitinol</stuffAdjective>
-			<categories>
-				<li>Metallic</li>
-				<li>StrongMetallic</li>
-				<li>RuggedMetallic</li>
-			</categories>
-			<constructEffect>ConstructMetal</constructEffect>
-			<color>(255,225,193)</color>
-			<commonality>0.3</commonality> 
-			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
-			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
-			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
-			<statFactors>
-				<MaxHitPoints>3.5</MaxHitPoints>
-				<Beauty>1.8</Beauty>
-				<Flammability>0</Flammability>
-				<WorkToMake>2.9</WorkToMake>
-				<WorkToBuild>2.9</WorkToBuild>
-				<DoorOpenSpeed>1.4</DoorOpenSpeed>
-				<MeleeWeapon_CooldownMultiplier>0.7</MeleeWeapon_CooldownMultiplier>
-				<MoveSpeed>0.7</MoveSpeed>
-				<MarketValue>0.9</MarketValue>
-				<BedRestEffectiveness>1.14</BedRestEffectiveness>
-				<ImmunityGainSpeedFactor>1.28</ImmunityGainSpeedFactor>
-				<WorkTableWorkSpeedFactor>1.3</WorkTableWorkSpeedFactor>
-				<MeleePenetrationFactor>1.4</MeleePenetrationFactor>
-				<Mass>1.15</Mass>
-			</statFactors>
-			<statOffsets>
-				<Beauty>4</Beauty>
-			</statOffsets>
-		</stuffProps>
-		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
-		<modExtensions>
-		    <li Class="SurvivalToolsLite.StuffPropsTool">
-                <toolStatFactors>
-                    <TreeFellingSpeed>1.6</TreeFellingSpeed>
-					<PlantHarvestingSpeed>1.5</PlantHarvestingSpeed>
-					<PlantWorkSpeed>1.5</PlantWorkSpeed>
-					<MiningSpeed>1.5</MiningSpeed>
-					<MiningYieldDigging>1.5</MiningYieldDigging>
-					<ConstructionSpeed>1.5</ConstructionSpeed>
-					<SmithingSpeed>1.5</SmithingSpeed>
-					<CookSpeed>1.6</CookSpeed>
-					<ButcheryFleshSpeed>1.65</ButcheryFleshSpeed>
-                </toolStatFactors>
-            </li>
-		</modExtensions>
-	</ThingDef>
+	<!-- Core_SK owns ThingDef NitinolAlloy; Materials Science changes are applied by Common/Patches/Core_SK_Overlap/ThingDefs_Resources/Alloys_HighTech.xml. -->
 	
 </Defs>

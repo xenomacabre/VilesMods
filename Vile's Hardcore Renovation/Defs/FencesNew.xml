@@ -30,7 +30,7 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>0.5</fillPercent>
 		<coversFloor>false</coversFloor>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<drawStyleCategory>Default1D</drawStyleCategory>
 		<tickerType>Never</tickerType>
 		<rotatable>false</rotatable>
 		<selectable>true</selectable>
@@ -83,7 +83,7 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>0.25</fillPercent>
 		<coversFloor>false</coversFloor>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<drawStyleCategory>Default1D</drawStyleCategory>
 		<tickerType>Never</tickerType>
 		<rotatable>false</rotatable>
 		<selectable>true</selectable>
@@ -139,7 +139,7 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>1.0</fillPercent>
 		<coversFloor>false</coversFloor>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<drawStyleCategory>Default1D</drawStyleCategory>
 		<tickerType>Never</tickerType>
 		<rotatable>false</rotatable>
 		<selectable>true</selectable>
@@ -238,7 +238,7 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<fillPercent>0.35</fillPercent>
 		<coversFloor>false</coversFloor>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<drawStyleCategory>Default1D</drawStyleCategory>
 		<tickerType>Never</tickerType>
 		<rotatable>false</rotatable>
 		<selectable>true</selectable>

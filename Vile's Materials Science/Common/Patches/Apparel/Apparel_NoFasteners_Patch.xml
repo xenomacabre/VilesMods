@@ -27,18 +27,18 @@
             <!-- Kabuto, visored sallet, bevored sallet, manchira, cuirass, munition, alwyte, gothic, gauntlets, vambraces, sabaton, greaves, barbute -->
              
             <li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="MedievalTimes_Helmet_Domed"
-                     or defName="MedievalTimes_Helmet_Sallet"
+				<xpath>Defs/ThingDef[defName="Helmet_Domed"
+                     or defName="Helmet_Sallet"
                      or defName="Apparello_HornedHead"
                      or defName="MedievalTimes_Plates_Steel_Middle"
                      or defName="Apparello_Syndicatellorare"
                      or defName="Apparel_PlateArmor"
                      or defName="ViTech_WhitePlateArmor"
                      or defName="MedievalArmor_PlateArmor"
-                     or defName="MedievalTimes_Gauntlets"
-                     or defName="MedievalTimes_Gloves_Plated"
-                     or defName="Apparello_MetalBoots"
-                     or defName="MedievalTimes_Boots_Steel_Plated"
+                     or defName="Gloves_Gauntlets"
+                     or defName="Gloves_Plated"
+                     or defName="Boots_Metal"
+                     or defName="Boots_Plated"
                     or defName="Apparello_Slughood"]/costList</xpath>
 				<value>
 					<costList>
@@ -104,7 +104,7 @@
             <!-- Traders coat, feral gas mask,  -->
             <li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="Apparello_Trypophobia"
-                    or defName="Apparel_ScorcherHelmet"]/costList</xpath>
+                    or defName="Helmet_FeralScorcher"]/costList</xpath>
 				<value>
 					<costList>
                         <SewingKit>2</SewingKit>

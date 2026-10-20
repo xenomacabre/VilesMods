@@ -54,6 +54,10 @@
   <MakeCarbonNanotubes.description>Нанотрубки создаются с использованием синтетического графита (образованного из кокса) с использованием кобальта и никеля в качестве катализатора..</MakeCarbonNanotubes.description>
   <MakeCarbonNanotubes.jobString>Синтезирует карбоновые нано-трубки.</MakeCarbonNanotubes.jobString>
 
+  <MakeCarbonNanotubesAdvanced.label>Синтезировать углеродные нанотрубки с регенерацией кобальта x15</MakeCarbonNanotubesAdvanced.label>
+  <MakeCarbonNanotubesAdvanced.description>Усовершенствованный процесс синтеза нанотрубок использует кокс как источник углерода, а кобальт и никелевую руду — как катализаторы. Дополнительное разделение и регенерация катализатора позволяют вернуть две из трёх единиц кобальта, использованных в каждой партии.</MakeCarbonNanotubesAdvanced.description>
+  <MakeCarbonNanotubesAdvanced.jobString>Синтезирует нанотрубки и регенерирует кобальт.</MakeCarbonNanotubesAdvanced.jobString>
+
   <MakeNanotechFramework.label>Собрать нанотехнологическую структуру x1</MakeNanotechFramework.label>
   <MakeNanotechFramework.description>Создайте материал, который станет основой для проектов нанороботов и клейтроники. Живая клеточная материя используется для «обучения» ее биомиметическому интеллекту. Производит 1.</MakeNanotechFramework.description>
   <MakeNanotechFramework.jobString>Собирает нанотехнологическую структуру.</MakeNanotechFramework.jobString>

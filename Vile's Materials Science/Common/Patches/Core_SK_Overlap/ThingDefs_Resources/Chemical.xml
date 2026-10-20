@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<!-- Core_SK overlap changes from Common/Defs/ThingDefs_Resources/Chemical.xml. Identical fields are intentionally omitted. -->
+	<!-- ThingDef: Paraffins -->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="Paraffins"]</xpath>
+		<value Merge="true">
+			<label>Teflon</label>
+			<description>Teflon, or PTFE, is a thermoplastic with extremely high corrosion and chemical resistance, friction resistance, and is hydrophobic. Its applications include hazmat gear, as a biomaterial, and lubricant for certain machines. It's highly toxic so best not to use it to coat your pans.</description>
+			<graphicData>
+				<texPath>Things/Item/Chemical/Teflon</texPath>
+			</graphicData>
+			<statBases>
+				<MaxHitPoints>5</MaxHitPoints>
+				<MarketValue>7</MarketValue>
+				<DeteriorationRate>0.05</DeteriorationRate>
+				<Flammability>0</Flammability>
+				<Mass>0.05</Mass>
+				<Bulk>0.05</Bulk>
+			</statBases>
+			<tickerType>Normal</tickerType>
+			<stackLimit>300</stackLimit>
+		</value>
+	</Operation>
+</Patch>

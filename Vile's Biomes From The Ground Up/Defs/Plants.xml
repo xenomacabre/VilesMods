@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThingDef ParentName="TreewoodBase">
+	<ThingDef ParentName="TreeBase">
 		<defName>Plant_TreeSpruce</defName>
 		<label>spruce tree</label>
 		<description>The Black Spruce is a slow-growing conifer often found in cold taiga regions, and though short for a tree, the spruce will be the tallest thing you might find in a peat bog. Due to its small size, its wood its only useful as pulp or firewood.</description>
@@ -20,7 +20,7 @@
 		<plant>
 			<fertilityMin>0.15</fertilityMin>
 			<fertilitySensitivity>0.2</fertilitySensitivity>
-			<visualSizeRange>
+			<visualSizeRange Inherit="False">
 				<min>1.5</min>
 				<max>3.4</max>
 			</visualSizeRange>
@@ -41,7 +41,7 @@
 		</modExtensions>
 	</ThingDef>
 	
-	<ThingDef ParentName="TreewoodBase">
+	<ThingDef ParentName="TreeBase">
 		<defName>Plant_TreePalmetto</defName>
 		<label>palmetto</label>
 		<description>A type of palm</description>
@@ -57,7 +57,7 @@
 			<Nutrition>0.75</Nutrition>
 		</statBases>
 		<plant>
-			<visualSizeRange>
+			<visualSizeRange Inherit="False">
 				<min>1.2</min>
 				<max>3.2</max>
 			</visualSizeRange>
@@ -78,7 +78,7 @@
 		</modExtensions>-->
 	</ThingDef>
 	
-	<ThingDef ParentName="TreewoodBase">
+	<ThingDef ParentName="TreeBase">
 		<defName>Plant_TreeKapok</defName>
 		<label>kapok tree</label>
 		<description>A gigantic tropical tree known for creating a canopy over rainforests. The wood is extremely low density and can only be used for construction if processed into chipboard.</description>
@@ -97,7 +97,7 @@
 			<Nutrition>1</Nutrition>
 		</statBases>
 		<plant>
-			<visualSizeRange>
+			<visualSizeRange Inherit="False">
 				<min>15</min>
 				<max>16</max>
 			</visualSizeRange>
@@ -110,7 +110,7 @@
 			</sowResearchPrerequisites>
 		</plant>
 		<comps>
-			<li Class="RimFridge.CompProperties_SecondLayer">
+			<li Class="SK.CompProperties_SecondLayer">
 				<graphicData>
 					<texPath>Things/Trees/TreeKapok/TreeKapok_Top</texPath>
 					<graphicClass>Graphic_Single</graphicClass>					
@@ -127,7 +127,7 @@
 		</modExtensions>-->
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_PlantBase">
+	<ThingDef ParentName="PlantBase">
 		<defName>Plant_PricklyPear</defName>
 		<label>prickly pear cactus</label>
 		<description>A cactus. It has fruit. Prickly fruit. Kinda tastes like strawberry.</description>
@@ -167,7 +167,7 @@
 			<fertilityMin>0.35</fertilityMin>
 			<wildClusterWeight>55</wildClusterWeight>
 			<wildClusterRadius>4</wildClusterRadius>
-			<visualSizeRange>
+			<visualSizeRange Inherit="False">
 				<min>0.9</min>
 				<max>1.7</max>
 			</visualSizeRange>
@@ -184,7 +184,7 @@
 		</modExtensions>-->
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_PlantBase">
+	<ThingDef ParentName="PlantBase">
 		<defName>Plant_Cranberry</defName>
 		<label>cranberry shrub</label>
 		<description>A wild evergreen plant that thrives in wet, acidic soil known for its tart berries.</description>
@@ -224,7 +224,7 @@
 			<fertilityMin>0.8</fertilityMin>
 			<wildClusterWeight>200</wildClusterWeight>
 			<wildClusterRadius>4</wildClusterRadius>
-			<visualSizeRange>
+			<visualSizeRange Inherit="False">
 				<min>1.0</min>
 				<max>1.3</max>
 			</visualSizeRange>
@@ -241,7 +241,7 @@
 		</modExtensions>-->
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_PlantBase">
+	<ThingDef ParentName="PlantBase">
 		<defName>Plant_Blueberry</defName>
 		<label>blueberry bush</label>
 		<description>Blueberry bushes produce tiny, round, blue colored fruits called blueberries. Blueberries are tasty when eaten raw.</description>
@@ -280,7 +280,7 @@
 			<fertilityMin>0.35</fertilityMin>
 			<wildClusterWeight>60</wildClusterWeight>
 			<wildClusterRadius>4</wildClusterRadius>
-			<visualSizeRange>
+			<visualSizeRange Inherit="False">
 				<min>0.25</min>
 				<max>1.3</max>
 			</visualSizeRange>
@@ -297,7 +297,7 @@
 		</modExtensions>-->
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_PlantBase">
+	<ThingDef ParentName="PlantBase">
 		<defName>Plant_PeatMoss</defName>
 		<label>peat moss</label>
 		<description>A moss found in acidic bogs which can be dried and used to improve soil.</description>
@@ -325,7 +325,7 @@
 			<fertilityMin>0.2</fertilityMin>
 			<wildClusterWeight>50</wildClusterWeight>
 			<wildClusterRadius>30</wildClusterRadius>
-			<visualSizeRange>
+			<visualSizeRange Inherit="False">
 				<min>0.5</min>
 				<max>1.0</max>
 			</visualSizeRange>
@@ -335,7 +335,7 @@
 			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
-	<ThingDef ParentName="SK_PlantBase">
+	<ThingDef ParentName="PlantBase">
 		<defName>Plant_CaribouMoss</defName>
 		<label>caribou moss</label>
 		<description>A tundra moss.</description>
@@ -363,7 +363,7 @@
 			<fertilityMin>0.1</fertilityMin>
 			<wildClusterWeight>64</wildClusterWeight>
 			<wildClusterRadius>24</wildClusterRadius>
-			<visualSizeRange>
+			<visualSizeRange Inherit="False">
 				<min>0.6</min>
 				<max>0.9</max>
 			</visualSizeRange>
@@ -375,7 +375,7 @@
 		</plant>
 	</ThingDef>		
 	
-	<ThingDef ParentName="SK_PlantBase">
+	<ThingDef ParentName="PlantBase">
 		<defName>Plant_Bearberry</defName>
 		<label>bearberry</label>
 		<description>A low-growing tundra shrub. Their berries are bland raw, but have a taste similar to cranberries when cooked.</description>
@@ -403,7 +403,7 @@
 			<fertilityMin>0.12</fertilityMin>
 			<wildClusterWeight>40</wildClusterWeight>
 			<wildClusterRadius>40</wildClusterRadius>
-			<visualSizeRange>
+			<visualSizeRange Inherit="False">
 				<min>0.6</min>
 				<max>1.0</max>
 			</visualSizeRange>
@@ -415,7 +415,7 @@
 		</plant>
 	</ThingDef>	
 			
-	<ThingDef ParentName="SK_PlantBase">
+	<ThingDef ParentName="PlantBase">
 		<defName>Plant_Cattail</defName>
 		<label>cattail</label>
 		<description>An edible plant which grows in shallow water.</description>
@@ -447,7 +447,7 @@
 			<fertilityMin>0.01</fertilityMin>
 			<wildClusterWeight>100</wildClusterWeight>
 			<wildClusterRadius>5</wildClusterRadius>
-			<visualSizeRange>
+			<visualSizeRange Inherit="False">
 				<min>0.7</min>
 				<max>1.3</max>
 			</visualSizeRange>
@@ -460,7 +460,7 @@
 		
 	</ThingDef>
 
-	<ThingDef ParentName="TreewoodBase">
+	<ThingDef ParentName="TreeBase">
 		<defName>Plant_TreeAcacia</defName>
 		<label>acacia tree</label>
 		<description>A common savanna tree.</description>
@@ -484,7 +484,7 @@
 			<wildClusterWeight>50</wildClusterWeight>
 			<fertilityMin>0.2</fertilityMin>
 			<fertilitySensitivity>0.7</fertilitySensitivity>
-			<visualSizeRange>
+			<visualSizeRange Inherit="False">
 				<min>1.9</min>
 				<max>3.5</max>
 			</visualSizeRange>
@@ -499,7 +499,7 @@
 		</modExtensions>-->
 	</ThingDef>
 
-	<ThingDef ParentName="SK_BushBase">
+	<ThingDef ParentName="BushBase">
 		<defName>Plant_Juniper</defName>
 		<label>juniper shrub</label>
 		<description>A short coniferious shrub.</description>
@@ -514,7 +514,7 @@
 		</statBases>
 		<fillPercent>0.1</fillPercent>
 		<plant>
-			<visualSizeRange>
+			<visualSizeRange Inherit="False">
 				<min>0.7</min>
 				<max>1.5</max>
 			</visualSizeRange>
@@ -541,7 +541,7 @@
 		</plant>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_DeciduousTreeBase">
+	<ThingDef ParentName="DeciduousTreeBase">
 		<defName>Plant_TreeDwarfWillow</defName>
 		<label>dwarf willow tree</label>
 		<description>A variety of willow that has adapted to growing in cold environments. Due to its small stature, it's only useful for pulp and firewood.</description>
@@ -563,7 +563,7 @@
 			<harvestYield>5</harvestYield>
 			<wildClusterRadius>17</wildClusterRadius>
 			<wildClusterWeight>25</wildClusterWeight>
-			<visualSizeRange>
+			<visualSizeRange Inherit="False">
 				<min>0.7</min>
 				<max>1.25</max>
 			</visualSizeRange>

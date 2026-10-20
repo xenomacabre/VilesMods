@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
 
+	<!-- Apparel_Kufiya was removed; keep the old compatibility patch for reference.
 	<Operation Class="PatchOperationFindMod">
 	<mods>
 		<li>Core SK</li>
@@ -18,11 +19,14 @@
 					</value>
 				</li>
 				
+	-->
+
 				<!-- 
 				Example of the Two types of StrappedHead Helmets for wearing under other helmets methods 
 				Adding the Belt layer allows you to still use masks
 				-->
-				
+
+				<!-- Apparel_SkulkerHood is now edited directly; keep the old patch operations for reference.
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[defName="Apparel_SkulkerHood"]/apparel/layers</xpath>
 					<value>
@@ -39,13 +43,14 @@
 						<parentTagDef>ApparelHead</parentTagDef>
 					</value>
 				</li>
-				
+				-->
+
 				<!-- Removing <shaderType> + <useWornGraphicMask> + Adding <renderSkipFlags> (if Necessary) + Adding <parentTagDef>ApparelHead</parentTagDef>
-				
+
 				<li Class="PatchOperationRemove">
 					<xpath>Defs/ThingDef[defName="Apparel_SkulkerHood"]/graphicData/shaderType</xpath>
 				</li>
-				
+
 				<li Class="PatchOperationReplace">
 					<xpath>Defs/ThingDef[defName="Apparel_SkulkerHood"]/apparel/layers</xpath>
 					<value>
@@ -70,8 +75,10 @@
 					</value>
 				</li>
 				-->
-				
+
+	<!-- Retained closing tags for the disabled FindMod operation.
 		</operations>
 		</match>
-    </Operation>	
-</Patch>	
+	</Operation>
+	-->
+</Patch>

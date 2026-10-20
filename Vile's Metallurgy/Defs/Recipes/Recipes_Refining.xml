@@ -1,9 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 
-
-	<!-- FORGE Wrought Iron from Bloom --> 
+	<!-- FORGE Wrought Iron from Bloom -->
 	<RecipeDef>
 		<defName>MakeWroughtIron_Forge</defName>
 		<label>Forge Wrought Iron from bloom (x15)</label>
@@ -22,7 +21,7 @@
 				</filter>
 				<count>1</count>
 			</li>
-				<li>
+			<li>
 				<filter>
 					<categories>
 						<li>Coal</li>
@@ -46,9 +45,9 @@
 			<Crafting>3</Crafting>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
-    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
 	</RecipeDef>
-  
+
 	<RecipeDef>
 		<defName>MakeWroughtIron_Finery</defName>
 		<label>Forge Wrought Iron from bloom (x15)</label>
@@ -67,7 +66,7 @@
 				</filter>
 				<count>1</count>
 			</li>
-				<li>
+			<li>
 				<filter>
 					<categories>
 						<li>Coal</li>
@@ -91,7 +90,7 @@
 			<Crafting>3</Crafting>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
-    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
 	</RecipeDef>
 
 	<RecipeDef>
@@ -123,7 +122,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>FluxPowder</li>					
+						<li>FluxPowder</li>
 					</thingDefs>
 				</filter>
 				<count>5</count>
@@ -132,11 +131,11 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>WroughtIron</li>
-				<li>FluxPowder</li>	
+				<li>FluxPowder</li>
 			</thingDefs>
-					<categories>
-						<li>Coal</li>
-					</categories>
+			<categories>
+				<li>Coal</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
 			<ForgedSteel>15</ForgedSteel>
@@ -145,9 +144,9 @@
 			<Crafting>4</Crafting>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
-    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
 	</RecipeDef>
-	
+
 	<RecipeDef>
 		<defName>MakeForgeWeldedSteel_Finery</defName>
 		<label>Forge-Weld Steel (x15)</label>
@@ -188,9 +187,9 @@
 				<li>WroughtIron</li>
 				<li>FluxPowder</li>
 			</thingDefs>
-					<categories>
-						<li>Coal</li>
-					</categories>
+			<categories>
+				<li>Coal</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
 			<ForgedSteel>15</ForgedSteel>
@@ -199,9 +198,9 @@
 			<Crafting>4</Crafting>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
-    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
 	</RecipeDef>
-	
+
 	<!-- FINERY Wrought Iron -->
 	<RecipeDef>
 		<defName>MakeWroughtIron_PigIron_Finery</defName>
@@ -254,10 +253,10 @@
 			<Crafting>5</Crafting>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
-    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
 	</RecipeDef>
-	
-	<!-- FORGE / FINERY Shear Steel -->		
+
+	<!-- FORGE / FINERY Shear Steel -->
 	<RecipeDef>
 		<defName>MakeForgeWeldedSteel_BlisterSteel_Finery</defName>
 		<label>Forge Shear Steel (x30)</label>
@@ -289,7 +288,7 @@
 			<Crafting>4</Crafting>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
-    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
 		<researchPrerequisite>Steel_B2</researchPrerequisite>
 	</RecipeDef>
 
@@ -342,6 +341,7 @@
 				<li>BlisterSteel</li>
 				<li>FluxPowder</li>
 				<li>Coke</li>
+				<li>SoftClay</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -351,11 +351,11 @@
 			<Crafting>3</Crafting>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
-    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
 		<researchPrerequisite>Steel_B3</researchPrerequisite>
 	</RecipeDef>
-	
-<!-- CAST cast iron bars -->
+
+	<!-- CAST cast iron bars -->
 	<RecipeDef>
 		<defName>MakeCastIron</defName>
 		<label>Make Cast Iron (x100)</label>
@@ -395,9 +395,9 @@
 			<Crafting>3</Crafting>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
-    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
 	</RecipeDef>
-	
+
 	<RecipeDef>
 		<defName>PuddleWroughtIronFromPigIron</defName>
 		<label>Puddle Wrought Iron from Pig Iron (x75)</label>
@@ -429,10 +429,10 @@
 			<Crafting>3</Crafting>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
-    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
 		<researchPrerequisite>Metallurgy_B5</researchPrerequisite>
 	</RecipeDef>
-	
+
 	<RecipeDef>
 		<defName>PuddleWroughtIronFromCastIron</defName>
 		<label>Puddle Wrought Iron from Cast Iron (x100)</label>
@@ -464,12 +464,10 @@
 			<Crafting>3</Crafting>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
-    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
 		<researchPrerequisite>Metallurgy_B5</researchPrerequisite>
 	</RecipeDef>
-	
-	
-	
+
 
 	<RecipeDef>
 		<defName>MakeCokeElectric</defName>
@@ -502,11 +500,11 @@
 			<Crafting>3</Crafting>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
-    	<workSkillLearnFactor>0.8</workSkillLearnFactor>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
 		<recipeUsers>
 			<li>ElectricSmelter</li>
 		</recipeUsers>
 	</RecipeDef>
-	
+
 </Defs>
 	

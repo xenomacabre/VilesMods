@@ -14,7 +14,7 @@
 			<MarketValue>30</MarketValue>
 			<WorkToMake>1000</WorkToMake>
 			<Bulk>1.50</Bulk>
-			<Mass>1.20</Mass>
+			<Mass>0.5</Mass>
 			<Nutrition>0.25</Nutrition>
 		</statBases>
 		<ingestible>
@@ -54,7 +54,7 @@
 			<MarketValue>20</MarketValue>
 			<WorkToMake>420</WorkToMake>
 			<Bulk>1.50</Bulk>
-			<Mass>1.20</Mass>
+			<Mass>0.5</Mass>
 			<Nutrition>0.5</Nutrition>
 		</statBases>
 		<ingestible>
@@ -92,7 +92,7 @@
 			<MarketValue>75</MarketValue>
 			<WorkToMake>600</WorkToMake>
 			<Bulk>1.50</Bulk>
-			<Mass>1.20</Mass>
+			<Mass>0.5</Mass>
 			<Nutrition>0.5</Nutrition>
 		</statBases>
 		<ingestible>

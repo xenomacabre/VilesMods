@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="HandMendingWorkbench"]</xpath>
+		<value>
+			<graphicData>
+				<texPath>Things/Mending/ManualMendingBench</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<drawSize>(2,1)</drawSize>
+				<shaderType>CutoutComplex</shaderType>
+				<shadowData>
+					<volume>(0.5, 0.5, 0.5)</volume>
+					<offset>(0,0,0)</offset>
+				</shadowData>
+				<damageData>
+					<cornerTL>Damage/Corner</cornerTL>
+					<cornerTR>Damage/Corner</cornerTR>
+					<cornerBL>Damage/Corner</cornerBL>
+					<cornerBR>Damage/Corner</cornerBR>
+				</damageData>
+			</graphicData>
+		</value>
+	</Operation>
+</Patch>

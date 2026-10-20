@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="SK_BuildingBase">
+	<ThingDef ParentName="BuildingBase">
 		<defName>wall_angle</defName>
 		<label>Diagonal Wall (N)</label>
 		<graphicData>
@@ -48,7 +48,7 @@
         <clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
     
-	<ThingDef ParentName="SK_BuildingBase">
+	<ThingDef ParentName="BuildingBase">
 		<defName>wallCabin_angle</defName>
 		<label>Diagonal Cabin Wall (N)</label>
 		<graphicData>
@@ -95,7 +95,7 @@
         <clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_BuildingBase">
+	<ThingDef ParentName="BuildingBase">
 		<defName>wall_angle_north</defName>
 		<label>Diagonal Wall (S)</label>
 		<graphicData>
@@ -142,7 +142,7 @@
         <clearBuildingArea>false</clearBuildingArea>
 	</ThingDef>
     
-	<ThingDef ParentName="SK_BuildingBase">
+	<ThingDef ParentName="BuildingBase">
 		<defName>wallCabin_angle_north</defName>
 		<label>Diagonal Cabin Wall (S)</label>
 		<graphicData>

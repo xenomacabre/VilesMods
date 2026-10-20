@@ -59,7 +59,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>AdvRifle_Component</li>
+						<li>Rifle_Component</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -114,7 +114,7 @@
 	<value>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>AdvRifle_Component</li>
+				<li>Rifle_Component</li>
 				<li>Weapon_Parts</li>
 				<li>Nylon</li>
 				<li>AnodizedAluminiumBlue</li>
@@ -141,7 +141,7 @@
 		<li>
 				<filter>
 					<thingDefs>
-						<li>AdvRifle_Component</li>
+						<li>Rifle_Component</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -181,7 +181,7 @@
 	<value>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>AdvRifle_Component</li>
+				<li>Rifle_Component</li>
 				<li>Weapon_Parts</li>
 				<li>MaxametSteel</li>
 				<li>Carborundum</li>
@@ -208,7 +208,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>AdvRifle_Component</li>
+						<li>Rifle_Component</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -256,7 +256,7 @@
 	<value>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>AdvRifle_Component</li>
+				<li>Rifle_Component</li>
 				<li>Weapon_Parts</li>
 				<li>ComponentIndustrial</li>
 				<li>Tennalum</li>
@@ -285,7 +285,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>AdvRifle_Component</li>
+						<li>Rifle_Component</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -335,7 +335,7 @@
 	<value>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>AdvRifle_Component</li>
+				<li>Rifle_Component</li>
 				<li>Weapon_Parts</li>
 				<li>ComponentAdvanced</li>
 				<li>Nylon</li>
@@ -363,7 +363,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>AdvRifle_Component</li>
+						<li>Rifle_Component</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -409,7 +409,7 @@
 	<value>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>AdvRifle_Component</li>
+				<li>Rifle_Component</li>
 				<li>Weapon_Parts</li>
 				<li>ComponentIndustrial</li>
 				<li>Plastic</li>
@@ -436,7 +436,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>AdvRifle_Component</li>
+						<li>Rifle_Component</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -482,7 +482,7 @@
 	<value>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>AdvRifle_Component</li>
+				<li>Rifle_Component</li>
 				<li>Weapon_Parts</li>
 				<li>Tennalum</li>
 				<li>Nylon</li>
@@ -500,7 +500,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>AdvRifle_Component</li>
+						<li>Rifle_Component</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -546,7 +546,7 @@
 	<value>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>AdvRifle_Component</li>
+				<li>Rifle_Component</li>
 				<li>Weapon_Parts</li>
 				<li>ComponentIndustrial</li>
 				<li>Plastic</li>
@@ -568,7 +568,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>AdvRifle_Component</li>
+						<li>Rifle_Component</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -613,7 +613,7 @@
 	<value>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>AdvRifle_Component</li>
+				<li>Rifle_Component</li>
 				<li>Weapon_Parts</li>
 				<li>Polycarbonate</li>
 				<li>CarbonAlloy</li>

@@ -51,6 +51,10 @@
 			</categories>
 			<thingDefs>
 				<li>Flour</li>
+				<li>WildRose</li>
+				<li>Hypericum</li>
+				<li>MintLeaves</li>
+				<li>Rawonion</li>
 			</thingDefs>
 			<specialFiltersToDisallow>
 				<li>AllowPlantFood</li>
@@ -64,6 +68,10 @@
 			</categories>
 			<thingDefs>
 				<li>Flour</li>
+				<li>WildRose</li>
+				<li>Hypericum</li>
+				<li>MintLeaves</li>
+				<li>Rawonion</li>
 			</thingDefs>
 			<disallowedThingDefs>
 				<li>Meat_Megaspider</li>

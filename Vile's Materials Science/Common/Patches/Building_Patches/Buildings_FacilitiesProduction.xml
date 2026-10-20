@@ -207,7 +207,7 @@
 					<value>	
                        <costList>
                             <ABS>80</ABS>
-                            <TitaniumBar>25</TitaniumBar>
+                            <Plasteel>25</Plasteel>
                             <Electronics>15</Electronics>
                             <ComponentSpacer>5</ComponentSpacer>
                         </costList>

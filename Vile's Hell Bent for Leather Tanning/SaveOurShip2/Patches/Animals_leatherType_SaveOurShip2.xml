@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- Archotech animals use the same raw-hide families as their ordinary counterparts. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Archocat" or defName="Archomutt"]/race/leatherDef</xpath>
+        <value>
+            <leatherDef>Hide_LightAnimalSkin</leatherDef>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Archojerboa"]/race/leatherDef</xpath>
+        <value>
+            <leatherDef>Hide_RodentSkin</leatherDef>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Archoffalo"]/race/leatherDef</xpath>
+        <value>
+            <leatherDef>Hide_WarmFurPelt</leatherDef>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Archolope"]/race/leatherDef</xpath>
+        <value>
+            <leatherDef>Hide_PorousHide</leatherDef>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Archothrumbo"]/race/leatherDef</xpath>
+        <value>
+            <leatherDef>Hide_HeavyFurPelt</leatherDef>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Archopanda"]/race/leatherDef</xpath>
+        <value>
+            <leatherDef>Hide_RichFurPelt</leatherDef>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Archotortoise"]/race/leatherDef</xpath>
+        <value>
+            <leatherDef>Hide_ExoticSkin</leatherDef>
+        </value>
+    </Operation>
+    <!-- Archostrich inherits its leather; support either inherited or explicit nodes. -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="Archostrich"]/race/leatherDef</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="Archostrich"]/race/leatherDef</xpath>
+            <value>
+                <leatherDef>Hide_ExoticSkin</leatherDef>
+            </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Archostrich"]/race</xpath>
+            <value>
+                <leatherDef>Hide_ExoticSkin</leatherDef>
+            </value>
+        </nomatch>
+    </Operation>
+</Patch>

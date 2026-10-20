@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<FactionDef ParentName="SK_PlayerFactionBase">
+	<FactionDef ParentName="PlayerFactionBase">
 		<defName>PlayerLegion</defName>
 		<label>Legion</label>
 		<description>A group of legionaries.</description>
@@ -47,12 +47,12 @@
 				<li>WoolSheep</li>
 				<li>CopperBar</li>
 				<li>Bronze</li>
-				<li>Plasteel</li>
+				<li>Steel</li>
 			</thingDefs>
 		</apparelStuffFilter>
 	</FactionDef>
 	
-	<PawnKindDef ParentName="SK_BasePlayerPawnKind">
+	<PawnKindDef ParentName="BasePlayerPawnKind">
 		<defName>Legionary</defName>
 		<label>legionary</label>
 

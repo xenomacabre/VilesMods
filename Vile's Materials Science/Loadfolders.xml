@@ -12,4 +12,11 @@
 		<li>Common</li>
 		<li IfModActive="Ludeon.Rimworld.Royalty">Royalty</li>
 	</v1.5>
+	<v1.6>
+		<li>/</li>
+		<li>1.5</li>
+		<li>Common</li>
+		<li IfModActive="Ludeon.Rimworld.Royalty">Royalty</li>
+		<li IfModActive="solaris.ratkinracemod">RatkinRace</li>
+	</v1.6>
 </Loadfolders>

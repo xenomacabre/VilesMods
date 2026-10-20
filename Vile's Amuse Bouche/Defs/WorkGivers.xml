@@ -48,9 +48,12 @@
 		<gerund>cooking at</gerund>
 	</WorkGiverDef>
 	
+<!--
 	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains">
 		<defName>DoBillsKitchenTable</defName>
+-->
 		<!--<label>prepare meals</label>-->
+<!--
 		<label>Kitchen Table</label>
 		<workType>Cooking</workType>
 		<priorityInType>90</priorityInType>
@@ -60,6 +63,7 @@
 		<verb>prepare</verb>
 		<gerund>preparing</gerund>
 	</WorkGiverDef>
+-->
 	
 	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains">
 		<defName>DoBillsButcherFlesh</defName>
@@ -137,7 +141,11 @@
 	</WorkGiverDef>-->
 	
 
-	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains"> <!-- was orginally DoBillsBake-->
+<!--
+	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains">
+-->
+	<!-- was orginally DoBillsBake-->
+<!--
 		<defName>DoBillsBake</defName>
 		<label>make candy</label>
 		<workType>Cooking</workType>
@@ -148,10 +156,14 @@
 		<verb>candymaking</verb>
 		<gerund>candymaking</gerund>
 	</WorkGiverDef>
+-->
 
+<!--
 	<WorkGiverDef ParentName="WorkGiverPrioritizeSustains">
 		<defName>DoBillsGrindStone</defName>
+-->
 		<!--<label>grind bulk grains</label>-->
+<!--
 		<label>milling</label>
 		<workType>Cooking</workType>
 		<priorityInType>110</priorityInType>
@@ -162,6 +174,7 @@
 		<verb>mill</verb>
 		<gerund>milling</gerund>
 	</WorkGiverDef>
+-->
 
 
 

@@ -190,7 +190,7 @@
 			<DeteriorationRate>10</DeteriorationRate>
 			<MarketValue>45</MarketValue>
 			<Bulk>1.5</Bulk>
-			<Mass>1.2</Mass>
+			<Mass>0.5</Mass>
 			<Nutrition>0.6</Nutrition>
 		</statBases>
 		<ingestible>

@@ -334,7 +334,7 @@
 		</thingCategories>
 	</ThingDef>
 
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>ChipBoard</defName>
 		<label>chipboard</label>
 		<description>>>> Optimal	Workability

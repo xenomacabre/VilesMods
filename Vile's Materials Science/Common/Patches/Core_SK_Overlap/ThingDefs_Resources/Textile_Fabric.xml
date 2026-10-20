@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<!-- Core_SK overlap changes from Common/Defs/ThingDefs_Resources/Textile_Fabric.xml. Identical fields are intentionally omitted. -->
+	<!-- ThingDef: Flaxcloth -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Flaxcloth"]/burnableByRecipe</xpath>
+	</Operation>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="Flaxcloth"]</xpath>
+		<value Merge="true">
+			<label>Linen</label>
+			<description>TIER 2 - Medieval
+&gt;&gt;&gt; Optimal	Bedding
+&gt;&gt; Suitable	Durability
+X Inadvisable 	Production
+
+A sturdy, all-purpose fabric. It's good for all seasons and makes fantastic bed sheets.</description>
+			<graphicData>
+				<color>(180,155,120)</color>
+			</graphicData>
+			<statBases>
+				<MarketValue>1.5</MarketValue>
+				<StuffPower_Armor_Heat>0.10</StuffPower_Armor_Heat>
+				<StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+			</statBases>
+			<stuffProps>
+				<color>(180,155,120)</color>
+				<statFactors>
+					<MaxHitPoints>1.75</MaxHitPoints>
+					<Beauty>1.2</Beauty>
+					<WorkToMake>1.25</WorkToMake>
+					<WorkToBuild>1.25</WorkToBuild>
+					<BedRestEffectiveness>1.2</BedRestEffectiveness>
+					<ImmunityGainSpeedFactor>1.08</ImmunityGainSpeedFactor>
+					<Mass>0.52</Mass>
+				</statFactors>
+			</stuffProps>
+		</value>
+	</Operation>
+	<!-- ThingDef: Cloth -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Cloth"]/burnableByRecipe</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Cloth"]/colorGeneratorInTraderStock</xpath>
+	</Operation>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="Cloth"]</xpath>
+		<value Merge="true">
+			<description>TIER 2 - Medieval
+&gt;&gt;&gt; Optimal	Production
+&gt;&gt; Suitable	Economy, Winter
+X Inadvisable 	Durability
+
+Cotton cloth is an economical and production-oriented fabric in that it's easy to produce and work with and good for all seasons. It's the warmest of the organic fabrics but doesn't breath as well as hemp or linen. It's lightweight, but fragile.</description>
+			<graphicData>
+				<color>(226,224,223)</color>
+			</graphicData>
+			<statBases>
+				<StuffPower_Armor_Heat>0.115</StuffPower_Armor_Heat>
+				<StuffPower_Insulation_Cold>16</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+			</statBases>
+			<stuffProps>
+				<color>(226,224,223)</color>
+				<statFactors>
+					<WorkToMake>0.8</WorkToMake>
+					<WorkToBuild>0.8</WorkToBuild>
+					<ImmunityGainSpeedFactor>1.14</ImmunityGainSpeedFactor>
+				</statFactors>
+			</stuffProps>
+		</value>
+	</Operation>
+	<!-- ThingDef: HempCloth -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="HempCloth"]/burnableByRecipe</xpath>
+	</Operation>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="HempCloth"]</xpath>
+		<value Merge="true">
+			<description>TIER 2 - Medieval
+&gt;&gt;&gt; Optimal	Hospitals
+&gt;&gt; Suitable	Armor, Summer
+X Inadvisable 	Bedding
+
+Hemp is a type of cloth woven from smokeweed. It has natural antimicrobial properties and makes fairly strong padded armor, but it's harder to spin than cloth.</description>
+			<graphicData>
+				<color>(113,152,86)</color>
+			</graphicData>
+			<statBases>
+				<StuffPower_Armor_Heat>0.132</StuffPower_Armor_Heat>
+			</statBases>
+			<stuffProps>
+				<color>(113,152,86)</color>
+				<statFactors>
+					<Cleanliness>1.8</Cleanliness>
+				</statFactors>
+			</stuffProps>
+		</value>
+	</Operation>
+</Patch>

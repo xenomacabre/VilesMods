@@ -238,9 +238,9 @@
                             </li>
                             <li Class="SK.CompProperties_RestrictedPlacement">
                                 <compClass>SK.CompRestrictedPlacement</compClass>
-                                <restrictedThing>
+                                <thingDefs>
                                     <li>SteamGeyser</li>
-                                </restrictedThing>
+                                </thingDefs>
                             </li>
                         </comps>
                     </value>

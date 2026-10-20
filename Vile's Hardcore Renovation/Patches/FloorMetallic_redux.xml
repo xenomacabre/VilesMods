@@ -16,7 +16,7 @@
 			<Beauty>2</Beauty>
 		</statBases>
 		<constructEffect>ConstructMetal</constructEffect>
-		<designationCategory>OutsideFloors</designationCategory>
+		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 	
 	<TerrainDef ParentName="MetalTileBase">
@@ -200,7 +200,7 @@ Beauty: 10. Wokr: 240.</description>
 		<label>Steel plates</label>
 		<color>(128,128,128)</color>
 		<costList>
-			<Plasteel>2</Plasteel>
+			<Steel>2</Steel>
 		</costList>
 	</TerrainDef>
 	<TerrainDef ParentName="MetalPlateBase">

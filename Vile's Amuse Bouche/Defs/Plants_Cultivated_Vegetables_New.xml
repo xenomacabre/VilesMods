@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<ThingDef ParentName="PlantDef">
+	<ThingDef ParentName="CropPlant">
 		<defName>PepperPlant</defName>
 		<label>Pepper Plant</label>
 		<description>Hot Peppers are useful for making spicy meals, but don't pack a lot of calories.</description>
 		<statBases>
 			<Beauty>1</Beauty>
+			<Nutrition>0.2</Nutrition>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Plant/PlantPepper_Harvest</texPath>
@@ -29,7 +30,7 @@
 			<growDays>5</growDays>
 			<fertilitySensitivity>0.8</fertilitySensitivity>
 			<fertilityMin>1.0</fertilityMin>
-			<visualSizeRange>
+			<visualSizeRange Inherit="False">
 				<min>0.2</min>
 				<max>1.0</max>
 			</visualSizeRange>

@@ -319,7 +319,7 @@ Poplar is one of the most common woods and is very cheap and easy to work with. 
 	
 	<!-- HARD WOOD LOGS -->
 	<!--
-	<ThingDef Name="HardwoodLogBase" ParentName="SK_ResourceBase" Abstract="True">
+	<ThingDef Name="HardwoodLogBase" ParentName="ResourceBase" Abstract="True">
 		<defName>HardwoodLogBase</defName>
 		<description>Uncut logs. Except when building logs walls, needs to be cut into planks for firewood to be of use.</description>
 		<graphicData>
@@ -865,7 +865,7 @@ Mangrove is an excellent building material due to its natural fire-resistance an
 	</ThingDef>	
 
 	<!--
-	<ThingDef Name="RedwoodLog" ParentName="SK_ResourceBase">
+	<ThingDef Name="RedwoodLog" ParentName="ResourceBase">
 		<defName>RedwoodLog</defName>
 		<label>redwood log</label>
 		<description>description</description>

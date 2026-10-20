@@ -209,10 +209,10 @@
                 <success>Normal</success>
             </li>
             <li Class="PatchOperationRemove">
-                <xpath>Defs/ThingDef[defName = "Plant_Berry" or defName="Plant_Strawberry]/plant/immatureGraphicPath</xpath>
+                <xpath>Defs/ThingDef[defName = "Plant_Berry" or defName="Plant_Strawberry"]/plant/immatureGraphicPath</xpath>
             </li>
             <li Class="PatchOperationAdd">
-                <xpath>Defs/ThingDef[defName = "Plant_Berry" or defName="Plant_Strawberry]/plant</xpath>
+                <xpath>Defs/ThingDef[defName = "Plant_Berry" or defName="Plant_Strawberry"]/plant</xpath>
                 <value>
                     <immatureGraphicPath>Things/Plant/PlantStrazberry</immatureGraphicPath>
                 </value>

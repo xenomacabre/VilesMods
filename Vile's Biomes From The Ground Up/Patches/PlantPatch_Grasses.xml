@@ -8,6 +8,22 @@
 			<texPath>Things/Plant/PlantHayGrassVile</texPath>
 		</value>
     </Operation>
+	<!-- RimWorld 1.6 gives haygrass a separate vanilla-green immature graphic. -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Plant_Haygrass"]/plant/immatureGraphicPath</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Haygrass"]/plant/immatureGraphicPath</xpath>
+			<value>
+				<immatureGraphicPath>Things/Plant/PlantHayGrassVile</immatureGraphicPath>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Plant_Haygrass"]/plant</xpath>
+			<value>
+				<immatureGraphicPath>Things/Plant/PlantHayGrassVile</immatureGraphicPath>
+			</value>
+		</nomatch>
+	</Operation>
 <!--     Speargrass - Boreal mostly    -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Plant_TallGrass"]/label</xpath>

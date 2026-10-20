@@ -318,7 +318,7 @@
 		<generatedFilth>Filth_Dirt</generatedFilth>
 		<fertility>0.00</fertility>
 		<takeFootprints>False</takeFootprints>
-		<holdSnow>true</holdSnow>
+		<holdSnowOrSand>true</holdSnowOrSand>
 	</TerrainDef>
 	
 	<TerrainDef ParentName="NaturalTerrainBase">
@@ -344,7 +344,7 @@
 		<generatedFilth>Filth_Dirt</generatedFilth>
 		<fertility>0.00</fertility>
 		<takeFootprints>True</takeFootprints>
-		<holdSnow>true</holdSnow>
+		<holdSnowOrSand>true</holdSnowOrSand>
 	</TerrainDef>
 	
 	

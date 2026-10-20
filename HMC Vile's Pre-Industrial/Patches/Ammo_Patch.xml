@@ -13,133 +13,28 @@
 				<xpath>Defs</xpath>
 				<value>
 					<CombatExtended.AmmoCategoryDef>
-						<defName>PiercingArrow</defName>
-						<label>piercing arrow</label>
-						<description>An arrow with a narrow metal head for improved penetration but weaker damage.</description>
+						<defName>BroadheadArrow</defName>
+						<label>broadhead arrow</label>
+						<description>An arrow with a wide cutting head for hunting and causing grievous wounds, at the cost of armor penetration.</description>
+						<advanced>true</advanced>
+					</CombatExtended.AmmoCategoryDef>
+					<CombatExtended.AmmoCategoryDef>
+						<defName>BodkinArrow</defName>
+						<label>bodkin arrow</label>
+						<description>An arrow with a narrow metal head for improved armor penetration but reduced stopping power.</description>
 						<advanced>true</advanced>
 					</CombatExtended.AmmoCategoryDef>
 				</value>
 			</li>
 				
-			<!-- broadhead quarrels -->	
-			<li Class="PatchOperationReplace">	
-				<xpath>Defs/ThingDef[defName="Ammo_Bolt_Venom"]/label</xpath>
+			<!-- specialized quarrels -->
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_Bolt"]/ammoTypes</xpath>
 				<value>
-					<label>broadhead quarrel</label>
+					<Ammo_Bolt_Broadhead>Projectile_BroadheadBolt</Ammo_Bolt_Broadhead>
+					<Ammo_Bolt_Bodkin>Projectile_BodkinBolt</Ammo_Bolt_Bodkin>
 				</value>
 			</li>
-			<li Class="PatchOperationReplace">	
-				<xpath>Defs/ThingDef[defName="Ammo_Bolt_Venom"]/description</xpath>
-				<value>
-					<description>A heavy bolt fired by the arbalest. Has a wide head used for hunting and causing grievous wounds.</description>
-				</value>
-			</li>
-				<li Class="PatchOperationReplace">	
-				<xpath>Defs/ThingDef[defName="Ammo_Bolt_Venom"]/graphicData/texPath</xpath>
-				<value>
-					<texPath>Things/Ammunition/Quarrel/Broadhead</texPath>
-				</value>
-			</li>	
-			<li Class="PatchOperationReplace">	
-				<xpath>Defs/ThingDef[defName="Ammo_Bolt_Venom"]/ammoClass</xpath>
-				<value>
-					<ammoClass>PiercingArrow</ammoClass>
-				</value>
-			</li>	
-			<li Class="PatchOperationReplace">	
-				<xpath>Defs/RecipeDef[defName="MakeAmmo_Bolt_Venom"]/label</xpath>
-				<value>
-					<label>make broadhead quarrels x50</label>
-				</value>
-			</li>	
-			<li Class="PatchOperationReplace">	
-				<xpath>Defs/RecipeDef[defName="MakeAmmo_Bolt_Venom"]/description</xpath>
-				<value>
-					<description>A heavy bolt fired by the arbalest. Has a wide head used for hunting and causing grievous wounds.</description>
-				</value>
-			</li>		
-			<li Class="PatchOperationReplace">	
-				<xpath>Defs/RecipeDef[defName="MakeAmmo_Bolt_Venom"]/skillRequirements</xpath>
-				<value>
-					<skillRequirements>
-						<Crafting>0</Crafting>
-					</skillRequirements>
-				</value>
-			</li>	
-			<li Class="PatchOperationReplace">	
-				<xpath>Defs/RecipeDef[defName="MakeAmmo_Bolt_Venom"]/ingredients</xpath>
-				<value>
-					<ingredients>
-						<li>
-							<filter>
-								<thingDefs>
-									<li>WoodLog</li>
-								</thingDefs>
-							</filter>
-							<count>5</count>
-						</li>
-						<li>
-							<filter>
-								<categories>
-									<li>Metallic</li>
-								</categories>
-							</filter>
-							<count>12</count>
-						</li>
-					</ingredients>
-				</value>
-			</li>		
-			<li Class="PatchOperationReplace">	
-				<xpath>Defs/RecipeDef[defName="MakeAmmo_Bolt_Venom"]/fixedIngredientFilter</xpath>
-				<value>
-					<fixedIngredientFilter>
-						<categories>
-							<li>Metallic</li>
-						</categories>
-						<thingDefs>
-							<li>WoodLog</li>
-						</thingDefs>
-					</fixedIngredientFilter>
-				</value>
-			</li>	
-			<li Class="PatchOperationReplace">	
-				<xpath>Defs/RecipeDef[defName="MakeAmmo_Bolt_Venom"]/researchPrerequisite</xpath>
-				<value>
-					  <researchPrerequisite>Bow_B2</researchPrerequisite>
-				</value>
-			</li>	
-				
-			<!-- bodkin quarrels -->
-			<li Class="PatchOperationReplace">	
-				<xpath>Defs/ThingDef[defName="Ammo_Bolt_Metallic"]/label</xpath>
-				<value>
-					<label>bodkin quarrel</label>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">	
-				<xpath>Defs/ThingDef[defName="Ammo_Bolt_Metallic"]/description</xpath>
-				<value>
-					<description>A heavy bolt fired by the arbalest. Has a thinner head which is better for piercing armor. Hurts less.</description>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">	
-				<xpath>Defs/RecipeDef[defName="MakeAmmo_Bolt_Metallic"]/label</xpath>
-				<value>
-					<label>make bodkin quarrels x50</label>
-				</value>
-			</li>	
-			<li Class="PatchOperationReplace">	
-				<xpath>Defs/RecipeDef[defName="MakeAmmo_Bolt_Metallic"]/description</xpath>
-				<value>
-					<description>A heavy bolt fired by the arbalest. Has a thinner head which is better for piercing armor. Hurts less.</description>
-				</value>
-			</li>	
-			<li Class="PatchOperationReplace">	
-				<xpath>Defs/RecipeDef[defName="MakeAmmo_Bolt_Metallic"]/researchPrerequisite</xpath>
-				<value>
-					  <researchPrerequisite>Bow_B2</researchPrerequisite>
-				</value>
-			</li>	
 				
 			<!-- explosive quarrels -->
 			<li Class="PatchOperationReplace">	
@@ -161,4 +56,4 @@
 		</operations>
 		</match>
     </Operation>	
-</Patch>	
+</Patch>

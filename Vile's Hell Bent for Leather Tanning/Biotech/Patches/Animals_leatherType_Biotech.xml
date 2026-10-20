@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Pollution animals inherit leatherDef, so each one needs its own add-or-replace operation. -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="WasteRat"]/race/leatherDef</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="WasteRat"]/race/leatherDef</xpath>
+            <value>
+                <leatherDef>Hide_ImmunogenicHide</leatherDef>
+            </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="WasteRat"]/race</xpath>
+            <value>
+                <leatherDef>Hide_ImmunogenicHide</leatherDef>
+            </value>
+        </nomatch>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="Toxalope"]/race/leatherDef</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName="Toxalope"]/race/leatherDef</xpath>
+            <value>
+                <leatherDef>Hide_ImmunogenicHide</leatherDef>
+            </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Toxalope"]/race</xpath>
+            <value>
+                <leatherDef>Hide_ImmunogenicHide</leatherDef>
+            </value>
+        </nomatch>
+    </Operation>
+
+</Patch>

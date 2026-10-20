@@ -11,14 +11,14 @@
 				
 
 
-			<li Class="PatchOperationReplace">	
+			<!-- <li Class="PatchOperationReplace">	
 				<xpath>Defs/ResearchProjectDef[defName="Terraform_A1"]/tags</xpath>
 				<value>
 					<tags>
 						<li>TribalStart</li>
 					</tags>
 				</value>
-			</li>
+			</li> -->
 			<li Class="PatchOperationReplace">	
 				<xpath>Defs/ResearchProjectDef[defName="Fortification_A1"]/label</xpath>
 				<value>

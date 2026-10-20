@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+  <Operation Class="SK.PatchOperationReplaceExtended">
+    <xpath>Defs/ThingDef[defName="OpenHearth"]</xpath>
+    <value Merge="true">
+      <description>A small open fireplace for cooking food, heating a small home, and gathering with friends.
+Light radius: 8
+Max heat: 30 (25 per sec)
+Capacity: 18
+Efficiency: 22%</description>
+      <graphicData>
+        <texPath>Things/Building/Production/OpenHearth</texPath>
+      </graphicData>
+      <costList>
+        <ComponentMedieval>4</ComponentMedieval>
+      </costList>
+      <statBases>
+        <Beauty>3</Beauty>
+      </statBases>
+      <designationCategory>Accessories</designationCategory>
+      <designationHotKey>Misc1</designationHotKey>
+      <recipes>
+        <li>Make_Pemmican</li>
+        <li MayRequire="Ludeon.RimWorld.Biotech">Make_BabyFood</li>
+        <li MayRequire="Ludeon.RimWorld.Biotech">Make_BabyFoodBulk</li>
+      </recipes>
+      <building>
+        <buildingTags>
+          <li MayRequire="Garwel.Celsius.SK">CelsiusSK_EveryBuildingCellPlusOne</li>
+        </buildingTags>
+      </building>
+    </value>
+  </Operation>
+
+  <Operation Class="SK.PatchOperationReplaceExtended">
+    <xpath>Defs/ThingDef[defName="OpenHearth"]/comps/li[@Class="SK.CompProperties_HeatPusherAdvanced"]</xpath>
+    <value>
+      <heatPerSecond>25</heatPerSecond>
+      <heatPushMaxTemperature>30</heatPushMaxTemperature>
+    </value>
+  </Operation>
+
+  <Operation Class="SK.PatchOperationReplaceExtended">
+    <xpath>Defs/ThingDef[defName="OpenHearth"]/comps/li[@Class="SK.CompFueled_Properties"]</xpath>
+    <value>
+      <fuelCapacity>18</fuelCapacity>
+    </value>
+  </Operation>
+
+  <Operation Class="SK.PatchOperationReplaceExtended">
+    <xpath>Defs/ThingDef[defName="OpenHearth"]/comps/li[@Class="SK.CompProperties_SecondLayer"]/graphicData</xpath>
+    <value>
+      <texPath>Things/Building/Production/OpenHearth_top</texPath>
+    </value>
+  </Operation>
+</Patch>

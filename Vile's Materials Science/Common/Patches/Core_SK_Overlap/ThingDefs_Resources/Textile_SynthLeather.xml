@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<!-- Core_SK overlap changes from Common/Defs/ThingDefs_Resources/Textile_SynthLeather.xml. Identical fields are intentionally omitted. -->
+	<!-- ThingDef: DevilstrandCloth -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="DevilstrandCloth"]/stuffProps/statFactors/Flammability</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="DevilstrandCloth"]/burnableByRecipe</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="DevilstrandCloth"]/comps</xpath>
+	</Operation>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="DevilstrandCloth"]</xpath>
+		<value Merge="true">
+			<label>Mycotan faux-leather</label>
+			<description>TIER 3 - Industrial
+&gt;&gt;&gt; Optimal	Durability
+&gt;&gt; Suitable     Armor
+X Inadvisable 	Winter
+
+This strong faux leather is made from devilstrand mushrooms. Fairly difficult to process.</description>
+			<graphicData>
+				<texPath>Things/Item/Resource/Leather</texPath>
+				<color>(160,90,128)</color>
+			</graphicData>
+			<statBases>
+				<MaxHitPoints>90</MaxHitPoints>
+				<MarketValue>10.0</MarketValue>
+				<Flammability>0</Flammability>
+				<StuffPower_Armor_Blunt>1.5</StuffPower_Armor_Blunt>
+				<StuffPower_Armor_Heat>0.15</StuffPower_Armor_Heat>
+				<StuffPower_Insulation_Cold>11</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+				<Mass>0.03</Mass>
+				<Bulk>0.03</Bulk>
+			</statBases>
+			<stackLimit>300</stackLimit>
+			<techLevel>Industrial</techLevel>
+			<stuffProps>
+				<commonality>0.05</commonality>
+				<stuffAdjective>Mycotan</stuffAdjective>
+				<categories DeepReplace="true">
+					<li>Leathery</li>
+				</categories>
+				<color>(160,90,128)</color>
+				<statFactors>
+					<MaxHitPoints>2</MaxHitPoints>
+					<Beauty>1.45</Beauty>
+					<WorkToMake>2</WorkToMake>
+					<WorkToBuild>1.5</WorkToBuild>
+					<MoveSpeed>0.7</MoveSpeed>
+					<MarketValue>1.2</MarketValue>
+					<BedRestEffectiveness>1.2</BedRestEffectiveness>
+					<ImmunityGainSpeedFactor>1.3</ImmunityGainSpeedFactor>
+					<Mass>0.55</Mass>
+					<Cleanliness>2.5</Cleanliness>
+				</statFactors>
+			</stuffProps>
+			<thingCategories DeepReplace="true">
+				<li>Leathers</li>
+			</thingCategories>
+		</value>
+	</Operation>
+</Patch>

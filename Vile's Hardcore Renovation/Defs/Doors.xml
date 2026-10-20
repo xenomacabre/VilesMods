@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<ThingDef ParentName="SK_DoorBase">
+	<ThingDef ParentName="DoorBase">
 		<defName>DoorBarn</defName>
 		<label>top-hung door</label>
 		<description>A simple sliding door with a barn aesthetic. Heavier than a normal door and opens slower.</description>
@@ -32,7 +32,7 @@
 		</building>-->
 	</ThingDef>
 
-	<ThingDef ParentName="SK_DoorBase">
+	<ThingDef ParentName="DoorBase">
 		<defName>DoorOrnate</defName>
 		<label>ornate door</label>
 		<description>A door with ornate hinges and reinforced with metal bands.</description>
@@ -61,7 +61,7 @@
 			<ComponentMedieval>5</ComponentMedieval>
 		</costList>
 	</ThingDef>
-	<ThingDef ParentName="SK_DoorBase">
+	<ThingDef ParentName="DoorBase">
 		<defName>PalisadeGate</defName>
 		<label>palisade fence gate</label>
 		<description>A strong gate made of wooden logs.</description>
@@ -236,7 +236,7 @@
 		</placeWorkers>
 	</ThingDef>
 	-->
-	<ThingDef ParentName="SK_DoorBase">
+	<ThingDef ParentName="DoorBase">
 		<defName>WattleFenceGate</defName>
 		<label>wattle fence gate</label>
 		<description>A gate made of sticks.</description>
@@ -405,7 +405,7 @@
 	-->
 	
 	<!--========================= Farm Gate =============================-->
-	<ThingDef ParentName="SK_DoorBase">
+	<ThingDef ParentName="DoorBase">
 		<defName>FenceGate</defName>
 		<label>farm fence gate</label>
 		<description>A gate made of planks. Opens much quicker than wattle fences.</description>

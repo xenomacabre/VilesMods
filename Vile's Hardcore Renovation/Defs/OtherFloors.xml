@@ -13,7 +13,7 @@
 			<Beauty>2</Beauty>
 		</statBases>
 		<researchPrerequisites><li>Stone_floor_B2</li></researchPrerequisites>
-		<designationCategory>OutsideFloors</designationCategory>
+		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="SmallBrickVBase">
@@ -118,7 +118,7 @@
 			<CleaningTimeFactor>1</CleaningTimeFactor>
 		</statBases>
 		<researchPrerequisites><li>Stone_floor_B2</li></researchPrerequisites>
-		<designationCategory>OutsideFloors</designationCategory>
+		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
 	<TerrainDef ParentName="MediumBrickVBase">

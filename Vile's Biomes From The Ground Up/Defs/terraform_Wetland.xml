@@ -76,7 +76,6 @@
 					<li>WaterShallow</li>
 					<li>WaterMovingShallow</li>
 					<li>WaterOceanShallow</li>
-					<li>FishingPierFloorShallowWater</li>
 				</above>
 				<result>Marsh</result>
 			</li>
@@ -105,7 +104,6 @@
 					<li>WaterShallow</li>
 					<li>WaterMovingShallow</li>
 					<li>WaterOceanShallow</li>
-					<li>FishingPierFloorShallowWater</li>
 				</above>
 				<result>SwampWater</result>
 			</li>
@@ -133,7 +131,6 @@
 					<li>WaterShallow</li>
 					<li>WaterMovingShallow</li>
 					<li>WaterOceanShallow</li>
-					<li>FishingPierFloorShallowWater</li>
 				</above>
 				<result>BogWater</result>
 			</li>

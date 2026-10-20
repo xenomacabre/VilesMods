@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="SK_ResourceBase">
+	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
+	<ThingDef ParentName="ResourceBase">
 		<defName>Bronze</defName>
 		<label>bronze bar</label>
 		<description>TIER 1 - Neolithic
@@ -18,7 +19,7 @@ Bronze is an alloy consisting primarily of copper, commonly with about 12% tin a
 		<soundInteract>Metal_Drop</soundInteract>
 		<soundDrop>Metal_Drop</soundDrop>
 		<stackLimit>600</stackLimit>
-		<!--<techLevel>Neolithic</techLevel>-->
+		[original note:<techLevel>Neolithic</techLevel>]
 		<statBases>
 			<MarketValue>2.0</MarketValue>
 			<StuffPower_Armor_Blunt>0.8</StuffPower_Armor_Blunt>
@@ -88,6 +89,7 @@ Bronze is an alloy consisting primarily of copper, commonly with about 12% tin a
             </li>
 		</modExtensions>
 	</ThingDef>
+	-->
 	
 	
 

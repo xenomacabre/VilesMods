@@ -46,7 +46,7 @@
 	<Operation Class="PatchOperationAttributeSet">	
 		<xpath>/Defs/ThingDef[defName="Plant_TreeCypress"]</xpath>
 		<attribute>ParentName</attribute>
-		<value>TreewoodBase</value>
+		<value>TreeBase</value>
 	</Operation>
 	-->
 	

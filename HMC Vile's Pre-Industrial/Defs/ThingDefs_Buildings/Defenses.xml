@@ -2,7 +2,7 @@
 
 <Defs>
 	
-	<ThingDef ParentName="SK_BuildingBase">
+	<ThingDef ParentName="BuildingBase">
 		<defName>StakeWall</defName>
 		<label>StakeWall</label>
 		<graphicData>
@@ -54,7 +54,7 @@
 		<disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_BuildingBase">
+	<ThingDef ParentName="BuildingBase">
 		<defName>Valli</defName>
 		<label>Hedgehog</label>
 		<graphicData>
@@ -105,7 +105,7 @@
 		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
 	</ThingDef>
 		
-	<ThingDef ParentName="SK_BuildingBase">
+<!-- 	<ThingDef ParentName="BuildingBase">
 		<defName>chevalDeFrise</defName>
 		<label>cheval de frise</label>
 		<graphicData>
@@ -155,7 +155,7 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
 	</ThingDef>
-	
+	 -->
 	
 
 </Defs>

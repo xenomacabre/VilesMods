@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<!-- Core_SK overlap changes from Common/Defs/ThingDefs_Resources/Alloys_Industrial_NonFerrous.xml. Identical fields are intentionally omitted. -->
+	<!-- ThingDef: AluminiumBar -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="AluminiumBar"]/graphicData/color</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="AluminiumBar"]/stuffProps/soundImpactMelee</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="AluminiumBar"]/stuffProps/statOffsets</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="AluminiumBar"]/stuffProps/statFactors/Cleanliness</xpath>
+	</Operation>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="AluminiumBar"]</xpath>
+		<value Merge="true">
+			<label>pure aluminium (Al)</label>
+			<description>TIER 3 - Industrial (early)
+&gt;&gt;&gt; Optimal	Base Metal
+&gt;&gt; Suitable	Construction
+X Inadvisable 	Durability, Weapons
+
+Tools Recommended: None / Farm tools (poor, but lightweight)
+
+Commercially pure aluminium is the lightest weight metal available. It has superior machinability and good weldablity so it is great for quick construction. Farm tools made from it, although mediocre in effectiveness, are lightweight which can be important for a multitasking farmer. It's mainly used as an ingredient for more advanced alloys.</description>
+			<graphicData>
+				<texPath>Things/Item/Material/PureAluminium</texPath>
+			</graphicData>
+			<stackLimit>600</stackLimit>
+			<statBases>
+				<MarketValue>1.8</MarketValue>
+				<StuffPower_Armor_Blunt>0.9</StuffPower_Armor_Blunt>
+				<StuffPower_Armor_Sharp>0.65</StuffPower_Armor_Sharp>
+				<StuffPower_Armor_Heat>0.07</StuffPower_Armor_Heat>
+				<StuffPower_Insulation_Cold>-7</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>-7</StuffPower_Insulation_Heat>
+				<SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+				<Mass>0.22</Mass>
+				<Bulk>0.35</Bulk>
+			</statBases>
+			<slagDef>ChunkSlagSteel</slagDef>
+			<thingCategories DeepReplace="true">
+				<li>SLDBar</li>
+				<li>LightBar</li>
+				<li>HCMBar</li>
+				<li>RARBar</li>
+			</thingCategories>
+			<stuffProps>
+				<appearance>Cladding</appearance>
+				<categories DeepReplace="true">
+					<li>Metallic</li>
+					<li>StrongMetallic</li>
+					<li>LightMaterial</li>
+				</categories>
+				<color>(225,219,234)</color>
+				<commonality>0.8</commonality>
+				<statFactors>
+					<Beauty>0.9</Beauty>
+					<WorkToMake>0.6</WorkToMake>
+					<WorkToBuild>0.6</WorkToBuild>
+					<DoorOpenSpeed>1.0</DoorOpenSpeed>
+					<MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
+					<MoveSpeed>0.7</MoveSpeed>
+					<BedRestEffectiveness>0.8</BedRestEffectiveness>
+					<ImmunityGainSpeedFactor>0.9</ImmunityGainSpeedFactor>
+					<WorkTableWorkSpeedFactor>1.05</WorkTableWorkSpeedFactor>
+					<Mass>0.48</Mass>
+				</statFactors>
+			</stuffProps>
+			<modExtensions>
+				<li Class="SurvivalToolsLite.StuffPropsTool">
+					<toolStatFactors>
+						<TreeFellingSpeed>0.9</TreeFellingSpeed>
+						<PlantHarvestingSpeed>1</PlantHarvestingSpeed>
+						<PlantWorkSpeed>1</PlantWorkSpeed>
+						<MiningSpeed>0.8</MiningSpeed>
+						<MiningYieldDigging>1</MiningYieldDigging>
+						<ConstructionSpeed>0.8</ConstructionSpeed>
+						<SmithingSpeed>0.8</SmithingSpeed>
+						<CookSpeed>0.8</CookSpeed>
+						<ButcheryFleshSpeed>0.8</ButcheryFleshSpeed>
+					</toolStatFactors>
+				</li>
+			</modExtensions>
+		</value>
+	</Operation>
+	<!-- ThingDef: CupronickelAlloy -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="CupronickelAlloy"]/graphicData/color</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="CupronickelAlloy"]/stuffProps/soundImpactMelee</xpath>
+	</Operation>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="CupronickelAlloy"]</xpath>
+		<value Merge="true">
+			<label>brass</label>
+			<description>TIER 3 - Industrial
+&gt;&gt;&gt; Optimal	Hospitals, Beauty
+&gt;&gt; Suitable	Kitchens
+X Inadvisable 	Armor
+
+Tools Recommended: Building (decent)
+
+Brass is a conductive copper-zinc alloy. It's tougher than bronze, but softer so makes poor blades. This also means it's easier to work with. Like other copper alloys, it's antimicrobial and often used in hospitals. It can also make a decent workbench.</description>
+			<graphicData>
+				<texPath>Things/Item/Material/Brass</texPath>
+			</graphicData>
+			<stackLimit>600</stackLimit>
+			<statBases>
+				<MarketValue>10</MarketValue>
+				<StuffPower_Armor_Blunt>0.8</StuffPower_Armor_Blunt>
+				<StuffPower_Armor_Sharp>1.1</StuffPower_Armor_Sharp>
+				<StuffPower_Armor_Heat>0.04</StuffPower_Armor_Heat>
+				<StuffPower_Insulation_Cold>-6</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>-6</StuffPower_Insulation_Heat>
+				<SharpDamageMultiplier>0.8</SharpDamageMultiplier>
+				<BluntDamageMultiplier>1.5</BluntDamageMultiplier>
+				<Mass>0.40</Mass>
+				<Bulk>0.35</Bulk>
+			</statBases>
+			<stuffProps>
+				<appearance>Panel</appearance>
+				<stuffAdjective>Brass</stuffAdjective>
+				<categories DeepReplace="true">
+					<li>Metallic</li>
+					<li>StrongMetallic</li>
+					<li>RuggedMetallic</li>
+					<li>CorrosionResistant</li>
+				</categories>
+				<color>(221,206,94)</color>
+				<commonality>1.0</commonality>
+				<statFactors>
+					<MaxHitPoints>2</MaxHitPoints>
+					<Beauty>5</Beauty>
+					<WorkToMake>1.2</WorkToMake>
+					<WorkToBuild>1.2</WorkToBuild>
+					<DoorOpenSpeed>0.7</DoorOpenSpeed>
+					<MeleeWeapon_CooldownMultiplier>1.1</MeleeWeapon_CooldownMultiplier>
+					<MoveSpeed>0.8</MoveSpeed>
+					<MarketValue>0.9</MarketValue>
+					<BedRestEffectiveness>0.8</BedRestEffectiveness>
+					<ImmunityGainSpeedFactor>1.3</ImmunityGainSpeedFactor>
+					<WorkTableWorkSpeedFactor>1.22</WorkTableWorkSpeedFactor>
+					<MeleePenetrationFactor>1</MeleePenetrationFactor>
+					<Mass>1.2</Mass>
+					<Cleanliness>3</Cleanliness>
+				</statFactors>
+				<statOffsets>
+					<Beauty>2</Beauty>
+				</statOffsets>
+			</stuffProps>
+			<modExtensions>
+				<li Class="SurvivalToolsLite.StuffPropsTool">
+					<toolStatFactors>
+						<TreeFellingSpeed>1.1</TreeFellingSpeed>
+						<PlantHarvestingSpeed>1.2</PlantHarvestingSpeed>
+						<PlantWorkSpeed>1.2</PlantWorkSpeed>
+						<MiningSpeed>1.2</MiningSpeed>
+						<MiningYieldDigging>1.2</MiningYieldDigging>
+						<ConstructionSpeed>1.3</ConstructionSpeed>
+						<SmithingSpeed>1.3</SmithingSpeed>
+						<CookSpeed>0.9</CookSpeed>
+						<ButcheryFleshSpeed>0.9</ButcheryFleshSpeed>
+					</toolStatFactors>
+				</li>
+			</modExtensions>
+		</value>
+	</Operation>
+	<!-- ThingDef: Titanium -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Titanium"]/graphicData/color</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Titanium"]/stuffProps/appearance</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Titanium"]/stuffProps/soundImpactMelee</xpath>
+	</Operation>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="Titanium"]</xpath>
+		<value Merge="true">
+			<label>pure titanium (Ti)</label>
+			<description>TIER 3 - Industrial
+&gt;&gt;&gt; Optimal	Base Metal
+&gt;&gt; Suitable	Lightweight
+X Inadvisable 	Durability, Construction
+
+Tools Recommended: Building (best in tier), Harvesting
+
+Many engineers consider titanium to be an over-rated metal, filling an overlapping role between aluminium and steel. It has its uses however, being strong and light. Shocks vibrate titanium less than steel which makes it an ideal metal for hammer construction. It also has biomedical uses.</description>
+			<graphicData>
+				<texPath>Things/Item/Material/PureTitanium</texPath>
+			</graphicData>
+			<stackLimit>600</stackLimit>
+			<techLevel>Industrial</techLevel>
+			<statBases>
+				<MarketValue>8</MarketValue>
+				<StuffPower_Armor_Blunt>0.9</StuffPower_Armor_Blunt>
+				<StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
+				<StuffPower_Insulation_Cold>-3</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>-3</StuffPower_Insulation_Heat>
+				<SharpDamageMultiplier>1.1</SharpDamageMultiplier>
+				<BluntDamageMultiplier>1</BluntDamageMultiplier>
+				<Mass>0.30</Mass>
+				<Bulk>0.35</Bulk>
+			</statBases>
+			<slagDef>ChunkSlagSteel</slagDef>
+			<thingCategories DeepReplace="true">
+				<li>SLDBar</li>
+				<li>RARBar</li>
+			</thingCategories>
+			<smeltable>true</smeltable>
+			<stuffProps>
+				<categories DeepReplace="true">
+					<li>Metallic</li>
+					<li>StrongMetallic</li>
+					<li>LightMaterial</li>
+				</categories>
+				<color>(253,254,250)</color>
+				<commonality>0.8</commonality>
+				<statFactors>
+					<MaxHitPoints>1.7</MaxHitPoints>
+					<Beauty>1</Beauty>
+					<WorkToMake>1.1</WorkToMake>
+					<WorkToBuild>1.8</WorkToBuild>
+					<DoorOpenSpeed>1.2</DoorOpenSpeed>
+					<MoveSpeed>0.7</MoveSpeed>
+					<MarketValue>0.8</MarketValue>
+					<BedRestEffectiveness>0.8</BedRestEffectiveness>
+					<WorkTableWorkSpeedFactor>1.1</WorkTableWorkSpeedFactor>
+					<MeleePenetrationFactor>1.1</MeleePenetrationFactor>
+				</statFactors>
+				<statOffsets>
+					<Beauty>2</Beauty>
+				</statOffsets>
+			</stuffProps>
+			<modExtensions>
+				<li Class="SurvivalToolsLite.StuffPropsTool">
+					<toolStatFactors>
+						<TreeFellingSpeed>1.1</TreeFellingSpeed>
+						<PlantHarvestingSpeed>1.35</PlantHarvestingSpeed>
+						<PlantWorkSpeed>1.1</PlantWorkSpeed>
+						<MiningSpeed>0.9</MiningSpeed>
+						<MiningYieldDigging>1.1</MiningYieldDigging>
+						<ConstructionSpeed>1.55</ConstructionSpeed>
+						<SmithingSpeed>1.55</SmithingSpeed>
+						<CookSpeed>1.2</CookSpeed>
+						<ButcheryFleshSpeed>1.2</ButcheryFleshSpeed>
+					</toolStatFactors>
+				</li>
+			</modExtensions>
+		</value>
+	</Operation>
+	<!-- ThingDef: DepletedUranium -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="DepletedUranium"]/graphicData/color</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="DepletedUranium"]/stuffProps/soundMeleeHitSharp</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="DepletedUranium"]/stuffProps/soundMeleeHitBlunt</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="DepletedUranium"]/stuffProps/soundImpactMelee</xpath>
+	</Operation>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="DepletedUranium"]</xpath>
+		<value Merge="true">
+			<label>depleted uranium (DU)</label>
+			<description>TIER 3 - Industrial
+&gt;&gt;&gt; Optimal	Base Metal, AP ammo
+&gt;&gt; Suitable	Defensive Construction
+X Inadvisable 	Weight, Hospitals, Kitchens
+
+Tools Recommended: Mining
+
+Depleted Uranium Alloy is created by refining Uranium Ore through a Gas Centrifuge. Most of the dangerous radiation has been removed, resulting in a unique high density and strong metal ideal for tank armor plating or armor-piercing projectiles.</description>
+			<graphicData>
+				<texPath>Things/Item/Material/DepletedUranium</texPath>
+			</graphicData>
+			<stackLimit>600</stackLimit>
+			<statBases>
+				<MarketValue>28</MarketValue>
+				<StuffPower_Armor_Blunt>1.5</StuffPower_Armor_Blunt>
+				<StuffPower_Armor_Sharp>1.5</StuffPower_Armor_Sharp>
+				<StuffPower_Armor_Heat>0.14</StuffPower_Armor_Heat>
+				<SharpDamageMultiplier>1.1</SharpDamageMultiplier>
+				<BluntDamageMultiplier>1.6</BluntDamageMultiplier>
+				<Bulk>0.35</Bulk>
+			</statBases>
+			<stuffProps>
+				<appearance>Panel</appearance>
+				<categories DeepReplace="true">
+					<li>Metallic</li>
+					<li>HeavyMetallic</li>
+					<li>StrongMetallic</li>
+				</categories>
+				<color>(120,141,82)</color>
+				<statFactors>
+					<MaxHitPoints>3</MaxHitPoints>
+					<WorkToMake>2.5</WorkToMake>
+					<WorkToBuild>2.5</WorkToBuild>
+					<DoorOpenSpeed>0.45</DoorOpenSpeed>
+					<MarketValue>0.8</MarketValue>
+					<WorkTableWorkSpeedFactor>1</WorkTableWorkSpeedFactor>
+					<MeleePenetrationFactor>1.2</MeleePenetrationFactor>
+					<Cleanliness>0.1</Cleanliness>
+				</statFactors>
+			</stuffProps>
+			<modExtensions>
+				<li Class="SurvivalToolsLite.StuffPropsTool">
+					<toolStatFactors>
+						<TreeFellingSpeed>1.3</TreeFellingSpeed>
+						<PlantHarvestingSpeed>1.1</PlantHarvestingSpeed>
+						<PlantWorkSpeed>1</PlantWorkSpeed>
+						<MiningSpeed>1.4</MiningSpeed>
+						<MiningYieldDigging>1.4</MiningYieldDigging>
+						<ConstructionSpeed>1.3</ConstructionSpeed>
+						<SmithingSpeed>1.3</SmithingSpeed>
+						<CookSpeed>1</CookSpeed>
+						<ButcheryFleshSpeed>1</ButcheryFleshSpeed>
+					</toolStatFactors>
+				</li>
+			</modExtensions>
+		</value>
+	</Operation>
+</Patch>

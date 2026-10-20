@@ -156,7 +156,7 @@
 		<description>This is a nice way of saying “rags”. Cheap to make and you can use whatever material you can find. Use it to dress your prisoners or people you don't like.</description>
 		<label>Patchwork Garment</label>
 		<graphicData>
-			<texPath>Things/Apparel/SlaveOutfits/Neolithic/2_Simple</texPath>
+			<texPath>Things/Apparel/VilePart3_Medieval/NorbalTunic/2_Simple</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Neolithic</techLevel>
@@ -199,7 +199,7 @@
 				<li>Shoulders</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Apparel/SlaveOutfits/Neolithic/2_Simple</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/VilePart3_Medieval/NorbalTunic/2_Simple</wornGraphicPath>
 			<layers>
 				<li>OnSkin</li>
 			</layers>

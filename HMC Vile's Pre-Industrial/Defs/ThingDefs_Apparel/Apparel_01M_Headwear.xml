@@ -7,7 +7,7 @@
 		<label>coif</label>
 		<description>Common coif from middle age. Offers protection from heat and cold.</description>
 		<graphicData>
-			<texPath>Things/Apparel/SlaveOutfits/Hats/Coif</texPath>
+			<texPath>Things/Apparel/Hats/Coif/Coif</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>				
 		<stuffCategories>
@@ -45,7 +45,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Apparel/SlaveOutfits/Hats/Coif</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/Hats/Coif/Coif</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -75,7 +75,7 @@
 		<defName>Apparel_Bonnet</defName>
 		<label>bonnet</label>
 		<graphicData>
-			<texPath>Things/Apparel/SlaveOutfits/Hats/Bonnet</texPath>
+			<texPath>Things/Apparel/Hats/Bonnet/Bonnet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories>
@@ -111,7 +111,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Apparel/SlaveOutfits/Hats/Bonnet</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/Hats/Bonnet/Bonnet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>

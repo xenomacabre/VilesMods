@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/WorkGiverDef[defName="DoBillsGrindStone"]</xpath>
+		<value>
+			<label>milling</label>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/WorkGiverDef[defName="DoBillsBake"]</xpath>
+		<value>
+			<label>make candy</label>
+			<priorityInType>80</priorityInType>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/WorkGiverDef[defName="DoBillsKitchenTable"]</xpath>
+		<value>
+			<label>Kitchen Table</label>
+		</value>
+	</Operation>
+</Patch>

@@ -156,6 +156,7 @@
 	</ThingDef>
 	-->
 	
+	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 	<ThingDef ParentName="WeaponMedievalBase">
 		<defName>NorbalMeleeWeapon_ShortSword</defName>
 		<label>+Ulfbert+</label>
@@ -239,7 +240,9 @@ A one-handed sword used by Norbal warriors, often with a shield. Forged from Woo
 			<researchPrerequisite>Steel_B1</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
+	-->
 	
+	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 	<ThingDef ParentName="WeaponMedievalBase">
 		<defName>MeleeWeapon_Scimitar</defName>
 		<label>Rimascus Scimitar</label>
@@ -324,6 +327,7 @@ Also called a shamshir, this type of sabre has an exceptionally curved blade, or
 			<li>SharpMelee</li>
 		</thingCategories>
 	</ThingDef>
+	-->
 	<!--
 	<ThingDef ParentName="WeaponMedievalBase">
 		<defName>MeleeWeapon_Warhammer</defName>

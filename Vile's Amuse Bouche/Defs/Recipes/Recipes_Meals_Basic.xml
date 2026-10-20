@@ -37,9 +37,9 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Wine</li>
-						<li>strawberrywine</li>
-						<li>cider</li>
+						<li>Alcohol_Wine</li>
+						<li>Alcohol_BerryWine</li>
+						<li>Alcohol_Cider</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>

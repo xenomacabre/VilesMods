@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<ThingDef ParentName="BuildingFueled">
+<!--
+<ThingDef ParentName="SK_WorkTableFueled">
 		<defName>OpenHearth</defName>
 		<label>open hearth</label>
 		<description>A small open fireplace for cooking food, heating a small home, and gathering with friends.
@@ -90,7 +91,7 @@ Efficiency: 22%</description>
 					</categories>
 				</fuelFilter>
 			</li>
-			<li Class="RimFridge.CompProperties_SecondLayer">
+			<li Class="SK.CompProperties_SecondLayer">
 				<graphicData>
 					<texPath>Things/Building/Production/OpenHearth_top</texPath>
 					<graphicClass>Graphic_Single</graphicClass>
@@ -153,9 +154,10 @@ Efficiency: 22%</description>
 			<li>Pemmican</li>
 		</researchPrerequisites>
 	</ThingDef>
+-->
 
 
-	<ThingDef ParentName="BuildingFueled">
+	<ThingDef ParentName="SK_WorkTableFueled">
 		<defName>Hearth</defName>
 		<label>hearth</label>
 		<!--<thingClass>SK.Building_AnimatedWorktable</thingClass>-->
@@ -294,6 +296,7 @@ Efficiency: 25%</description>
 			<li MayRequire="Ludeon.RimWorld.Biotech">Make_BabyFoodBulk</li>
 		</recipes>
 		<building>
+			<workTableRoomRole>Kitchen</workTableRoomRole>
 			<isMealSource>true</isMealSource>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 			<artificialForMeditationPurposes>false</artificialForMeditationPurposes>

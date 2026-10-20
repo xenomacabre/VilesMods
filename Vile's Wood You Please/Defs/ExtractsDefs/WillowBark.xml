@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-		<ThingDef ParentName="SK_ResourceBase">
+		<ThingDef ParentName="ResourceBase">
 		<defName>Painstopper_WillowBark</defName>
 		<label>Willow Bark Asprin</label>
 		<description>A natural pain reliever.</description>

@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<!-- Core_SK overlap changes from Common/Defs/ThingDefs_Resources/Alloys_Industrial_Composites.xml. Identical fields are intentionally omitted. -->
+	<!-- ThingDef: Plastic -->
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>Defs/ThingDef[defName="Plastic"]</xpath>
+		<attribute>Name</attribute>
+		<value>HDPEBase</value>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Plastic"]/stuffProps/soundImpactMelee</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Plastic"]/tickerType</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Plastic"]/comps</xpath>
+	</Operation>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="Plastic"]</xpath>
+		<value Merge="true">
+			<label>polyethylene plastic (HDPE)</label>
+			<description>TIER 3 - Industrial (commodity)
+&gt;&gt;&gt; Optimal	Economy
+&gt;&gt; Suitable	Hospitals
+X Inadvisable 	Weapons, Tools
+
+Tools Recommended: None
+Notes: Apparel made from this is equipped much faster
+
+High-density polyethylene is one of the three main commodity plastics. It can be used for many practical applications, but isn't especially outstanding in any regard except weight and production speed. It's resistant to harsh solvents and cleaning products making it an good material for hospitals and kitchens.</description>
+			<graphicData>
+				<texPath>Things/Item/Material/HDPEWhite</texPath>
+				<graphicClass>Graphic_StackCount</graphicClass>
+			</graphicData>
+			<stackLimit>600</stackLimit>
+			<statBases>
+				<MarketValue>2</MarketValue>
+				<StuffPower_Armor_Blunt>1.55</StuffPower_Armor_Blunt>
+				<StuffPower_Armor_Sharp>0.68</StuffPower_Armor_Sharp>
+				<StuffPower_Armor_Heat>0.095</StuffPower_Armor_Heat>
+				<StuffPower_Insulation_Cold>6</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+				<SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+				<BluntDamageMultiplier>1</BluntDamageMultiplier>
+				<Flammability>0</Flammability>
+				<Mass>0.20</Mass>
+				<Bulk>0.35</Bulk>
+			</statBases>
+			<useHitPoints>true</useHitPoints>
+			<thingCategories DeepReplace="true">
+				<li>Plastics</li>
+				<li>LightBar</li>
+				<li>INSBar</li>
+			</thingCategories>
+			<smeltable>true</smeltable>
+			<stuffProps>
+				<appearance>Cladding</appearance>
+				<stuffAdjective>HDPE</stuffAdjective>
+				<categories DeepReplace="true">
+					<li>Plastic</li>
+					<li>StrongMetallic</li>
+					<li>LightMaterial</li>
+				</categories>
+				<color>(248,248,239)</color>
+				<commonality>0.5</commonality>
+				<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+				<statFactors>
+					<MaxHitPoints>1.2</MaxHitPoints>
+					<Beauty>1.2</Beauty>
+					<Flammability>0</Flammability>
+					<WorkToMake>0.9</WorkToMake>
+					<WorkToBuild>0.9</WorkToBuild>
+					<DoorOpenSpeed>1.4</DoorOpenSpeed>
+					<MoveSpeed>0.8</MoveSpeed>
+					<MarketValue>0.75</MarketValue>
+					<BedRestEffectiveness>1.2</BedRestEffectiveness>
+					<ImmunityGainSpeedFactor>1.25</ImmunityGainSpeedFactor>
+					<WorkTableWorkSpeedFactor>1.05</WorkTableWorkSpeedFactor>
+					<MeleePenetrationFactor>0.6</MeleePenetrationFactor>
+					<Mass>0.42</Mass>
+					<Cleanliness>1.5</Cleanliness>
+					<EquipDelay>0.5</EquipDelay>
+				</statFactors>
+			</stuffProps>
+			<modExtensions>
+				<li Class="SurvivalToolsLite.StuffPropsTool">
+					<toolStatFactors>
+						<TreeFellingSpeed>0.8</TreeFellingSpeed>
+						<PlantHarvestingSpeed>0.8</PlantHarvestingSpeed>
+						<PlantWorkSpeed>0.8</PlantWorkSpeed>
+						<MiningSpeed>0.8</MiningSpeed>
+						<MiningYieldDigging>0.8</MiningYieldDigging>
+						<ConstructionSpeed>0.8</ConstructionSpeed>
+						<SmithingSpeed>0.8</SmithingSpeed>
+						<CookSpeed>0.8</CookSpeed>
+						<ButcheryFleshSpeed>0.6</ButcheryFleshSpeed>
+					</toolStatFactors>
+				</li>
+			</modExtensions>
+		</value>
+	</Operation>
+	<!-- ThingDef: ReinforcedGlass -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="ReinforcedGlass"]/stuffProps/soundMeleeHitSharp</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="ReinforcedGlass"]/stuffProps/soundMeleeHitBlunt</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="ReinforcedGlass"]/stuffProps/soundImpactMelee</xpath>
+	</Operation>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="ReinforcedGlass"]</xpath>
+		<value Merge="true">
+			<statBases>
+				<MarketValue>20</MarketValue>
+				<StuffPower_Armor_Blunt>1.5</StuffPower_Armor_Blunt>
+				<StuffPower_Armor_Sharp>1.2</StuffPower_Armor_Sharp>
+				<StuffPower_Armor_Heat>0.11</StuffPower_Armor_Heat>
+				<StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>5</StuffPower_Insulation_Heat>
+				<SharpDamageMultiplier>1.5</SharpDamageMultiplier>
+				<BluntDamageMultiplier>1</BluntDamageMultiplier>
+				<Mass>0.25</Mass>
+				<Bulk>0.35</Bulk>
+			</statBases>
+			<stuffProps>
+				<color>RGBA(244,245,233,200)</color>
+				<statFactors>
+					<MaxHitPoints>2.25</MaxHitPoints>
+					<Beauty>1.75</Beauty>
+					<Flammability>0</Flammability>
+					<WorkToMake>2.5</WorkToMake>
+					<WorkToBuild>2.5</WorkToBuild>
+				</statFactors>
+			</stuffProps>
+		</value>
+	</Operation>
+</Patch>

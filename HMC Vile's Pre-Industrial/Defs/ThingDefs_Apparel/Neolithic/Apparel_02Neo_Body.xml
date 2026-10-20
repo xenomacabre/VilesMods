@@ -6,7 +6,7 @@
 		<label>Primitive Garment</label>
 		<description>A loincloth. It's a loincloth. If you're cold, start a fire or wear a dead animal.</description>
 		<graphicData>
-			<texPath>Things/Apparel/Norbal/TribalA</texPath>
+			<texPath>Things/Apparel/Bottoms/Loincloth/Loincloth</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>		
 		<stuffCategories>
@@ -45,7 +45,7 @@
 		</equippedStatOffsets>
 		<generateCommonality>2.7</generateCommonality>
 		<apparel>
-			<wornGraphicPath>Things/Apparel/Norbal/TribalA</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/Bottoms/Loincloth/Loincloth</wornGraphicPath>
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Legs</li>
@@ -159,7 +159,7 @@
 		<label>Hide Coat</label>
 		<description>A big heavy coat made of animal hides that covers the entire body. Very warm, but very cumbersome.</description>
 		<graphicData>
-			<texPath>Things/Apparel/Tribal/Coats/TribalFurCoat/TribalFurCoat</texPath>
+			<texPath>Things/Apparel/Clothes/TribalFurCoat/TribalFurCoat</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>		
 		<stuffCategories>
@@ -203,7 +203,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Apparel/Tribal/Coats/TribalFurCoat/TribalFurCoat</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/Clothes/TribalFurCoat/TribalFurCoat</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 			</layers>

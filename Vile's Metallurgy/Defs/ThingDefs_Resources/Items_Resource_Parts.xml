@@ -3,6 +3,7 @@
 
 	<!-- =========== REALISTIC PRODUCTION SK MOD =========== -->
 
+	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 	<ThingDef ParentName="CropsBase">
 		<defName>ComponentMedieval</defName>
 		<label>fasteners</label>
@@ -28,6 +29,7 @@
 		</thingCategories>
 		<stackLimit>300</stackLimit>
 	</ThingDef>
+	-->
 
 <!-- nah, we'll keep calling them components
 	<ThingDef ParentName="CropsBase">

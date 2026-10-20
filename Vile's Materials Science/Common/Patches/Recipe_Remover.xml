@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-	<!-- Remove unused leather from the game -->
-	
+	<!-- Remove superseded recipes and hide legacy production routes replaced by Materials Science. -->
+
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
@@ -18,76 +18,18 @@
                     or defName="MakeSyntheticFibers"
                     or defName="MakeCarbonAlloy"]</xpath>
 			</li>
-		
+
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/RecipeDef[defName="MakeKevlar"]/recipeUsers</xpath>
 			</li>
-			
+
 			<li Class="PatchOperationRemove">
-				<xpath>Defs/RecipeDef[defName="MakeSteelBars_Electric" or 
-				defName="ProcessNickelOre" or 
-				defName="ProcessCobalt" or 
-				defName="ProcessForChromium" or 
-				defName="ProcessTungsten" or 
-				defName="ProcessTitanium" or 
-				defName="MakeCupronickelAlloy" or 
-				defName="MakeFerrosiliconAlloy" or 
-				defName="MakeFerronickelAlloy" or 
-				defName="MakeStelliteAlloy" or 
-				defName="MakeAlnicoAlloy" or 
-				defName="MakePobediteAlloy" or 
-				defName="MakeGoldBars_Electric" or 
-				defName="MakeCopperBars_Electric" or 
-				defName="MakeTinBars_Electric" or 
-				defName="MakeLeadBars_Electric" or 
-				defName="MakeFerrotitaniumAlloy" or 
-				defName="MakeNitinolAlloy" or 
-				defName="MakeCarbonAlloy" or 
-				defName="MakeDepletedUraniumAlloy" or 
-				defName="MakeAluminiumBars_Electric"]/researchPrerequisite</xpath>
-			</li>
-            
-            	<li Class="PatchOperationRemove">
 				<xpath>Defs/RecipeDef[defName="MakeCompaste"]</xpath>
 			</li>
-		<!--
-			<li Class="PatchOperationRemove">
-				<xpath>Defs/RecipeDef[defName="MakeSteelBars_Electric" or 
-				defName="ProcessNickelOre" or 
-				defName="ProcessCobalt" or 
-				defName="ProcessForChromium" or 
-				defName="ProcessTungsten" or 
-				defName="ProcessTitanium" or 
-				defName="MakeCupronickelAlloy" or 
-				defName="MakeFerrosiliconAlloy" or 
-				defName="MakeFerronickelAlloy" or 
-				defName="MakeStelliteAlloy" or 
-				defName="MakeAlnicoAlloy" or 
-				defName="MakePobediteAlloy" or 
-				defName="MakeGoldBars_Electric" or 
-				defName="MakeCopperBars_Electric" or 
-				defName="MakeTinBars_Electric" or 
-				defName="MakeLeadBars_Electric" or 
-				defName="MakeFerrotitaniumAlloy" or 
-				defName="MakeNitinolAlloy" or 
-				defName="MakeCarbonAlloy" or 
-				defName="MakeDepletedUraniumAlloy" or 
-				defName="MakeAluminiumBars_Electric"]</xpath>
-			</li>
--->
-			
-			<!-- not removed
-			defName="MakeBronze_Electric" or 
-			defName="MakeSilverBars_Hand" or 
-			defName="MakeLeadBars_Hand" or 
-			defName="MakeSteelBars_Hand" or
-		defName="MakeGoldBars_Hand" or 
-		defName="MakeTinBars_Hand" or 
-		defName="MakeCopperBars_Hand" or 	
-		defName="MakeBronze_Hand" or 
-		-->
+
+			<!-- Legacy industrial RecipeDefs remain defined for compatibility but are not exposed by Materials Science worktables. -->
 		</operations>
 	</Operation>
-	
+
 
 </Patch>

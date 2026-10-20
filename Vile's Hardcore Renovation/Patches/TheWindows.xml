@@ -26,7 +26,7 @@
 			</li>
                        
             <li Class="PatchOperationReplace">	
-				<xpath>Defs/ThingDef[@Name="SK_DoorBase"]/designationCategory</xpath>
+				<xpath>Defs/ThingDef[@Name="DoorBase"]/designationCategory</xpath>
 				<value>
 					<designationCategory>DoorsWindows</designationCategory>
 				</value>

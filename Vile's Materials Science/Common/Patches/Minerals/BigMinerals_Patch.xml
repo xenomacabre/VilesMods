@@ -53,7 +53,7 @@
                             <DropProbability>0.3</DropProbability>
                           </li>
                           <li>
-                            <ResourceDefName>Steel</ResourceDefName>
+                            <ResourceDefName>Iron</ResourceDefName>
                             <DropProbability>4</DropProbability>
                             <CountPerDrop>10</CountPerDrop>
                           </li>

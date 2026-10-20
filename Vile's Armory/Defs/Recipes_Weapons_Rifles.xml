@@ -14,7 +14,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>AdvRifle_Component</li>
+						<li>Rifle_Component</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -57,7 +57,7 @@
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>AdvRifle_Component</li>
+				<li>Rifle_Component</li>
 				<li>Weapon_Parts</li>
 				<li>ComponentIndustrial</li>
 				<li>Plastic</li>

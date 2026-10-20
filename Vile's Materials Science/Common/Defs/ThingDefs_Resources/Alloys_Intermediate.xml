@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Vanadium</defName>
 		<label>vanadium (V)</label>
 		<description>An alloy additive used to increase the strength of certain alloys.</description>
@@ -25,7 +25,7 @@
 		</thingCategories>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Solder</defName>
 		<label>Solder</label>
 		<description>An alloy used to connect other materials, often for electronics.</description>
@@ -50,7 +50,7 @@
 		</thingCategories>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Manganese</defName>
 		<label>manganese (Mn)</label>
 		<description>An alloy additive used to increase the strength and workability of industrial steels.</description>
@@ -75,7 +75,7 @@
 		</thingCategories>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Zinc</defName>
 		<label>zinc (Zn)</label>
 		<description>An important alloy additive used for galvanizing low-carbon steels and creating brass.</description>
@@ -100,7 +100,7 @@
 		</thingCategories>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Molybdenum</defName>
 		<label>molybdenum (Mo)</label>
 		<description>Pronounced mə-LIB-də-nəm, this additive metal has an incredibly high melting point, so it's often used to increase alloy stability in high temperatures.</description>
@@ -125,7 +125,7 @@
 		</thingCategories>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>PureSilver</defName>
 		<label>pure silver (Ag)</label>
 		<description>Not useful on its own. Make it into sterling silver or press it into coins.</description>

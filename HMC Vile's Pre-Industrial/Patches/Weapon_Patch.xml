@@ -1,12 +1,34 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
+
+  <Operation Class="SK.PatchOperationReplaceExtended">
+    <xpath>Defs/ThingDef[@Name="RangedWeaponBase"]</xpath>
+    <value>
+      <weaponTags Merge="True">
+        <li>Neolithic</li>
+      </weaponTags>
+    </value>
+  </Operation>
+
+  <Operation Class="SK.PatchOperationReplaceExtended">
+    <xpath>Defs/ThingDef[@Name="RangedWeaponMedievalBase"]</xpath>
+    <value>
+      <recipeMaker Merge="True">
+        <recipeUsers>
+          <li>FabricationBench</li>
+          <li>CraftingSpot</li>
+        </recipeUsers>
+      </recipeMaker>
+    </value>
+  </Operation>
+
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="MeleeWeapon_Dagger"]/weaponTags</xpath>
     <value>
       <li>LegionMelee</li>
     </value>
   </Operation>
-   <Operation Class="PatchOperationAdd">
+  <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="MeleeWeapon_Gladius"]/weaponTags</xpath>
     <value>
       <li>LegionMelee</li>
@@ -24,14 +46,12 @@
       <li>LegionMelee</li>
     </value>
   </Operation>-->
-   <Operation Class="PatchOperationAdd">
+  <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="Pila"]/weaponTags</xpath>
     <value>
       <li>LegionRanged</li>
     </value>
   </Operation>
-  
+
 
 </Patch>
-
-

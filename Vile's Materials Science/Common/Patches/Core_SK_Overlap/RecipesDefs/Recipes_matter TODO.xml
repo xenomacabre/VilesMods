@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<!-- Core_SK overlap changes from Common/Defs/RecipesDefs/Recipes_matter TODO.xml. Identical fields are intentionally omitted. -->
+	<!-- RecipeDef: ConvertResourcesRaw -->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/RecipeDef[defName="ConvertResourcesRaw"]</xpath>
+		<value Merge="true">
+			<label>Make nucleosynthetic substrate</label>
+			<description>Create nucleosynthetic substrate by processing and converting various types of raw resources. Produces 150.</description>
+		</value>
+	</Operation>
+</Patch>

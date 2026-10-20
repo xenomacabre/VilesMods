@@ -5,7 +5,7 @@
 <!-- Softwood Base -->	
 	
 
-			<ThingDef Name="SoftwoodLogBase" ParentName="SK_ResourceBase" Abstract="True">
+			<ThingDef Name="SoftwoodLogBase" ParentName="ResourceBase" Abstract="True">
 			<defName>SoftwoodLogBase</defName>
 			<description>Uncut logs. Except when building logs walls, needs to be cut into planks for firewood to be of use.</description>
 			<graphicData>
@@ -92,7 +92,7 @@
 
 	<!-- Hardwodo Base -->
 
-			<ThingDef Name="HardwoodLogBase" ParentName="SK_ResourceBase" Abstract="True">
+			<ThingDef Name="HardwoodLogBase" ParentName="ResourceBase" Abstract="True">
 				<defName>HardwoodLogBase</defName>
 				<description>Uncut logs. Except when building logs walls, needs to be cut into planks for firewood to be of use.</description>
 				<graphicData>

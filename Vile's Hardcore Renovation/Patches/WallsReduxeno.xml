@@ -2,7 +2,7 @@
 <Patch>
 <!--
 <Operation Class="PatchOperationReplace">
-	<xpath>Defs/ThingDef[@Name = "WallBase"]/altitudeLayer</xpath>
+	<xpath>Defs/ThingDef[@Name = "Wall"]/altitudeLayer</xpath>
 	<value>
 		<altitudeLayer>DoorMoveable</altitudeLayer>
 	</value>
@@ -45,7 +45,7 @@
       <xpath>Defs</xpath>
       <value>
 		  
-		  <ThingDef ParentName="WallBase">
+		  <ThingDef ParentName="Wall">
 			<defName>Wall</defName>
 			<label>wall</label>
 			<description>An impassable wall. It is capable of holding up a roof.</description>

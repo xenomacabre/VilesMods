@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="SK.PatchOperationReplaceExtended">
+    <xpath>Defs/ThingDef[defName="ElectricSmelter"]</xpath>
+    <value>
+      <label>metal extraction plant</label>
+      <description>A crushes, grinds, and roasts raw ores to extract metals. It extracts a wider variety of metals than earlier extraction techniques, and the addition of an electroextraction cell will isolate even more valueable metals. It can operate outdoors.</description>
+      <graphicData>
+        <texPath>Things/Building/MEP/MEP</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(6.25,6.25)</drawSize>
+        <shaderType>CutoutComplex</shaderType>
+        <shadowData>
+          <volume>(2.7, 1.0, 0.85)</volume>
+          <offset>(0,0,0)</offset>
+        </shadowData>
+        <damageData>
+          <cornerTL>Damage/Corner</cornerTL>
+          <cornerTR>Damage/Corner</cornerTR>
+          <cornerBL>Damage/Corner</cornerBL>
+          <cornerBR>Damage/Corner</cornerBR>
+        </damageData>
+      </graphicData>
+      <stuffCategories>
+        <li>RuggedMetallic</li>
+      </stuffCategories>
+      <costStuffCount>155</costStuffCount>
+      <costList>
+        <ComponentIndustrial>12</ComponentIndustrial>
+        <ElectronicComponents>6</ElectronicComponents>
+        <Mechanism>8</Mechanism>
+      </costList>
+      <statBases>
+        <WorkToBuild>3500</WorkToBuild>
+        <MaxHitPoints>230</MaxHitPoints>
+        <Flammability>1.0</Flammability>
+        <Cleanliness>-8</Cleanliness>
+      </statBases>
+      <size>(5,2)</size>
+      <inspectorTabs>
+        <li>ITab_Bills</li>
+      </inspectorTabs>
+      <designationCategory>Production</designationCategory>
+      <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+      <recipes>
+        <li>RefineQuartz_Basic</li>
+        <li>ExtractSulfur</li>
+        <li>ExtractSalt</li>
+        <li>SmeltMagnetite_Basic</li>
+        <li>SmeltMagnetite_Industrial</li>
+        <li>SmeltBogIron_Industrial</li>
+        <li>SmeltTitanomagnetite_Industrial</li>
+        <li>SmeltKalcopyrite_Basic</li>
+        <li>SmeltKalcopyrite_Industrial</li>
+        <li>SmeltCassiterite_Basic</li>
+        <li>SmeltCassiterite_Industrial</li>
+        <li>SmeltGalena_Basic</li>
+        <li>SmeltGalena_Industrial</li>
+        <li>SmeltSphalerite_Basic</li>
+        <li>SmeltSphalerite_Industrial</li>
+        <li>SmeltNativeGold_Basic</li>
+        <li>SmeltBauxite_Basic</li>
+        <li>SmeltBauxite_Industrial</li>
+        <li>SmeltPendladite_Basic</li>
+        <li>SmeltPentlandite_Industrial</li>
+        <li>SmeltScheelite_Industrial</li>
+        <li>SmeltRutile_Industrial</li>
+        <li>SmeltCarnotite_Industrial</li>
+        <li>SmeltWeapon</li>
+        <li>MakeCharcoal_Electric</li>
+        <li>MakeSilicon_Electric</li>
+        <!-- <li>MakeTinBars_Electric</li>
+        <li>MakeCopperBars_Electric</li>
+        <li>MakeBronze_Electric</li>
+        <li>MakeSteelBars_Electric</li>
+        <li>MakeAluminiumBars_Electric</li>
+        <li>MakeLeadBars_Electric</li>
+        <li>MakeFerrosiliconAlloy</li>
+        <li>MakeGoldBars_Electric</li>
+        <li>MakeSilverBars_Electric</li> -->
+        <li>ExtractMetalFromSlag</li>
+        <li>SmeltOrDestroyThing</li>
+      </recipes>
+      <tickerType>Normal</tickerType>
+      <comps>
+        <li Class="SK.CompProperties_IdlePower">
+          <basePowerConsumption>950</basePowerConsumption>
+          <shortCircuitInRain>true</shortCircuitInRain>
+          <idlePowerDraw>95</idlePowerDraw>
+        </li>
+        <li Class="CompProperties_Glower">
+          <glowRadius>3</glowRadius>
+          <glowColor>(217,112,33,0)</glowColor>
+        </li>
+        <li Class="CompProperties_Flickable" />
+        <li Class="CompProperties_Breakdownable" />
+        <li Class="CompProperties_HeatPusher">
+          <compClass>CompHeatPusherPowered</compClass>
+          <heatPerSecond>9.5</heatPerSecond>
+          <heatPushMaxTemperature>75</heatPushMaxTemperature>
+        </li>
+        <li Class="CompProperties_AffectedByFacilities">
+          <linkableFacilities>
+            <li>ToolCabinet</li>
+            <li>PodChair</li>
+          </linkableFacilities>
+        </li>
+      </comps>
+      <placeWorkers>
+        <li>PlaceWorker_ReportWorkSpeedPenalties</li>
+        <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+        <li>PlaceWorker_ShowFacilitiesConnections</li>
+      </placeWorkers>
+      <building>
+        <buildingTags>
+          <li>Production</li>
+        </buildingTags>
+        <workTableRoomRole>Workshop</workTableRoomRole>
+        <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+        <heatPerTickWhileWorking>2</heatPerTickWhileWorking>
+        <workTableNotInRoomRoleFactor>1.0</workTableNotInRoomRoleFactor>
+      </building>
+      <researchPrerequisites>
+        <li>Metals_C1</li>
+      </researchPrerequisites>
+      <designationHotKey>Misc4</designationHotKey>
+      <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+    </value>
+  </Operation>
+</Patch>

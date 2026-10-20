@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!-- VANILLA POT -->
-	<ThingDef ParentName="LWM_DeepStorage">
+	<!-- Legacy duplicate Def retained for reference. Core_SK owns Pot; current Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
+	<ThingDef ParentName="AdaptiveStorageMinifiableBase">
 		<defName>Pot</defName>
 		<label>metal pot</label>
 		<description>A big pot made of metal; used to preserve food. Slows rotting process almost as well as glazed ceramics. Reduces spoilage by 40%. Not cheap to construct.</description>
@@ -9,7 +9,7 @@
 			<texPath>Things/Building/Furniture/Containers/Pot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawRotated>false</drawRotated>
-			<!--<color>(141,86,65)</color>-->
+			[original note:<color>(141,86,65)</color>]
 			<shadowData>
 				<volume>(0.7, 0.3, 0.7)</volume>
 			</shadowData>
@@ -33,6 +33,7 @@
 			<Mass>2</Mass>
 		</statBases>
 		<building>
+			<maxItemsInCell>5</maxItemsInCell>
 			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
 			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
 			<fixedStorageSettings>
@@ -48,22 +49,17 @@
 			<li Class="SK.CompProperties_RotModified">
 				<rotmodifier>0.6</rotmodifier>
 			</li>
-			<li Class="LWM.DeepStorage.Properties" >
-				<maxNumberStacks>5</maxNumberStacks>
-				<timeStoringTakes>25</timeStoringTakes>
-				<overlayType>SumOfItemsPerCell</overlayType>
-				<showContents>false</showContents>
-			</li>
 		</comps>
 		<researchPrerequisites>
 			<li>Craft_B1</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
 	</ThingDef>
+	-->
 	
 	<!-- CLAY POTS -->
 	
-	<ThingDef Name="Building_ClayPot" ParentName="LWM_DeepStorage" Abstract="true">
+	<ThingDef Name="Building_ClayPot" ParentName="AdaptiveStorageMinifiableBase" Abstract="true">
 		<defName>Building_ClayPot</defName>
 		<graphicData>
 			<texPath>Things/Pottery/Pot_unglazed</texPath>
@@ -84,6 +80,7 @@
 			<Mass>2</Mass>
 		</statBases>
 		<building>
+			<maxItemsInCell>5</maxItemsInCell>
 			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
 			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
 			<fixedStorageSettings>
@@ -99,21 +96,16 @@
 			<li Class="SK.CompProperties_RotModified">
 				<rotmodifier>0.55</rotmodifier>
 			</li>
-			<li Class="LWM.DeepStorage.Properties" >
-				<maxNumberStacks>5</maxNumberStacks>
-				<timeStoringTakes>25</timeStoringTakes>
-				<overlayType>SumOfItemsPerCell</overlayType>
-				<showContents>false</showContents>
-			</li>
 		</comps>
 		<constructionSkillPrerequisite>1</constructionSkillPrerequisite>
 		
 	</ThingDef>
 	
+	<!-- Disabled duplicate Def: Core_SK owns Pot; this unglazed clay-pot variant is applied by Patches/Core_SK_Overlap.xml.
 	<ThingDef ParentName="Building_ClayPot">
 		<defName>Building_ClayPotUnglazed</defName>
 		<label>clay pot</label>
-		<description>A fired, but unglazed clay pot. Used for food storage, but it's porous and doesn't seal as well as glazed pots. Reduces spoilage by 30%.</description>
+		<description>A fired, but unglazed clay pot. Used for food storage, but it's porous and doesn't seal as well as glazed pots. Reduces spoilage by 35%.</description>
 		<statBases>
 			<MarketValue>100</MarketValue>
 			<MaxHitPoints>65</MaxHitPoints>
@@ -139,6 +131,7 @@
 			<li>Ceramics_A1</li>
 		</researchPrerequisites>
 	</ThingDef>
+	-->
 	
 	
 	<ThingDef ParentName="Building_ClayPot">
@@ -259,6 +252,138 @@
 			<li>Ceramics_B1</li>
 		</researchPrerequisites>
 	</ThingDef>
+
+	<!-- Legacy duplicate Def retained for reference. Core_SK owns PotASF; current Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
+	<AdaptiveStorage.GraphicsDef>
+		<defName>PotASF</defName>
+		<targetDef>Pot</targetDef>
+		<graphics><li><graphicData><texPath>Things/Building/Furniture/Containers/Pot</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li></graphics>
+		<showContainedItems>true</showContainedItems>
+	</AdaptiveStorage.GraphicsDef>
+	-->
+	<!-- Disabled duplicate Def: Core_SK owns PotASF; these unglazed clay-pot graphics are applied by Patches/Core_SK_Overlap.xml.
+	<AdaptiveStorage.GraphicsDef>
+		<defName>Building_ClayPotUnglazedASF</defName>
+		<targetDef>Building_ClayPotUnglazed</targetDef>
+		<graphics><li><graphicData><texPath>Things/Pottery/Pot_unglazed</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li></graphics>
+		<showContainedItems>true</showContainedItems>
+	</AdaptiveStorage.GraphicsDef>
+	-->
+	<AdaptiveStorage.GraphicsDef>
+		<defName>Building_ClayPotAshASF</defName>
+		<targetDef>Building_ClayPotAsh</targetDef>
+		<graphics>
+			<li><graphicData><texPath>Things/Pottery/Pot_Ash</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li>
+			<li>
+				<graphicData><texPath>Things/Pottery/Pot_Ash_full</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData>
+				<minimumStackCount>5</minimumStackCount>
+				<showContainedItems>false</showContainedItems>
+			</li>
+		</graphics>
+		<showContainedItems>true</showContainedItems>
+		<itemGraphics>
+			<columns><c0><rows><r0>
+				<stackBehaviour>Circle</stackBehaviour>
+				<stackOffset>(0,0,0.5)</stackOffset>
+				<drawOffset>(0,0,0.05)</drawOffset>
+				<stackOffsetFactor>0.2</stackOffsetFactor>
+				<drawScale>0.3</drawScale>
+				<maxDrawSize>(0.3,0.3)</maxDrawSize>
+			</r0></rows></c0></columns>
+		</itemGraphics>
+	</AdaptiveStorage.GraphicsDef>
+	<AdaptiveStorage.GraphicsDef>
+		<defName>Building_ClayPotPaintedASF</defName>
+		<targetDef>Building_ClayPotPainted</targetDef>
+		<graphics>
+			<li><graphicData><texPath>Things/Pottery/Pot_RedFigure</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li>
+			<li>
+				<graphicData><texPath>Things/Pottery/Pot_RedFigure_full</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData>
+				<minimumStackCount>5</minimumStackCount>
+				<showContainedItems>false</showContainedItems>
+			</li>
+		</graphics>
+		<showContainedItems>true</showContainedItems>
+		<itemGraphics>
+			<columns><c0><rows><r0>
+				<stackBehaviour>Circle</stackBehaviour>
+				<stackOffset>(0,0,0.5)</stackOffset>
+				<drawOffset>(0,0,0.05)</drawOffset>
+				<stackOffsetFactor>0.2</stackOffsetFactor>
+				<drawScale>0.3</drawScale>
+				<maxDrawSize>(0.3,0.3)</maxDrawSize>
+			</r0></rows></c0></columns>
+		</itemGraphics>
+	</AdaptiveStorage.GraphicsDef>
+	<AdaptiveStorage.GraphicsDef>
+		<defName>Building_ClayPotSaltASF</defName>
+		<targetDef>Building_ClayPotSalt</targetDef>
+		<graphics>
+			<li><graphicData><texPath>Things/Pottery/Pot_Salt</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li>
+			<li>
+				<graphicData><texPath>Things/Pottery/Pot_Salt_full</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData>
+				<minimumStackCount>5</minimumStackCount>
+				<showContainedItems>false</showContainedItems>
+			</li>
+		</graphics>
+		<showContainedItems>true</showContainedItems>
+		<itemGraphics>
+			<columns><c0><rows><r0>
+				<stackBehaviour>Circle</stackBehaviour>
+				<stackOffset>(0,0,0.5)</stackOffset>
+				<drawOffset>(0,0,0.05)</drawOffset>
+				<stackOffsetFactor>0.2</stackOffsetFactor>
+				<drawScale>0.3</drawScale>
+				<maxDrawSize>(0.3,0.3)</maxDrawSize>
+			</r0></rows></c0></columns>
+		</itemGraphics>
+	</AdaptiveStorage.GraphicsDef>
+	<AdaptiveStorage.GraphicsDef>
+		<defName>Building_ClayPotLeadASF</defName>
+		<targetDef>Building_ClayPotLead</targetDef>
+		<graphics>
+			<li><graphicData><texPath>Things/Pottery/Pot_Lead</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li>
+			<li>
+				<graphicData><texPath>Things/Pottery/Pot_Lead_full</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData>
+				<minimumStackCount>5</minimumStackCount>
+				<showContainedItems>false</showContainedItems>
+			</li>
+		</graphics>
+		<showContainedItems>true</showContainedItems>
+		<itemGraphics>
+			<columns><c0><rows><r0>
+				<stackBehaviour>Circle</stackBehaviour>
+				<stackOffset>(0,0,0.5)</stackOffset>
+				<drawOffset>(0,0,0.05)</drawOffset>
+				<stackOffsetFactor>0.2</stackOffsetFactor>
+				<drawScale>0.3</drawScale>
+				<maxDrawSize>(0.3,0.3)</maxDrawSize>
+			</r0></rows></c0></columns>
+		</itemGraphics>
+	</AdaptiveStorage.GraphicsDef>
+	<AdaptiveStorage.GraphicsDef>
+		<defName>Building_ClayPotTinASF</defName>
+		<targetDef>Building_ClayPotTin</targetDef>
+		<graphics>
+			<li><graphicData><texPath>Things/Pottery/Pot_Tin</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData></li>
+			<li>
+				<graphicData><texPath>Things/Pottery/Pot_Tin_full</texPath><graphicClass>Graphic_Single</graphicClass><drawRotated>false</drawRotated></graphicData>
+				<minimumStackCount>5</minimumStackCount>
+				<showContainedItems>false</showContainedItems>
+			</li>
+		</graphics>
+		<showContainedItems>true</showContainedItems>
+		<itemGraphics>
+			<columns><c0><rows><r0>
+				<stackBehaviour>Circle</stackBehaviour>
+				<stackOffset>(0,0,0.5)</stackOffset>
+				<drawOffset>(0,0,0.05)</drawOffset>
+				<stackOffsetFactor>0.2</stackOffsetFactor>
+				<drawScale>0.3</drawScale>
+				<maxDrawSize>(0.3,0.3)</maxDrawSize>
+			</r0></rows></c0></columns>
+		</itemGraphics>
+	</AdaptiveStorage.GraphicsDef>
 	
 	
 </Defs>

@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<ScenarioDef>
+	<ScenarioDef ParentName="ScenarioBase">
 		<defName>DecimatedLegionaries</defName>
 		<label>The Decimated Legionaries</label>
 		<description>One-tenth of your Century was punished with execution by your brutal commander. With broken morale, what's left of your contubernium unit managed to sneak away from the rest of the legion, deserting the army and starting anew.</description>
@@ -11,6 +11,7 @@
 				<factionDef>PlayerLegion</factionDef>
 			</playerFaction>
 			<parts>
+
 				<!-- Game start dialog -->
 				<li Class="ScenPart_GameStartDialog">
 					<def>GameStartDialog</def>
@@ -71,7 +72,7 @@
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>Wine</thingDef>
+					<thingDef>Alcohol_Wine</thingDef>
 					<count>8</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
@@ -85,36 +86,36 @@
 					<count>120</count>
 				</li>
 
-			
+
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>TFJ_Tool_Woodcutting_Handaxe</thingDef>
-					<stuff>Plasteel</stuff>
+					<stuff>Steel</stuff>
 					<count>1</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>TFJ_Tool_Building_Hammer</thingDef>
-					<stuff>Plasteel</stuff>
+					<stuff>Steel</stuff>
 					<count>2</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>TFJ_Tool_Sickle</thingDef>
-					<stuff>Plasteel</stuff>
+					<stuff>Steel</stuff>
 					<count>1</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>TFJ_Tool_Mining_Pickaxe</thingDef>
-					<stuff>Plasteel</stuff>
+					<stuff>Steel</stuff>
 					<count>1</count>
 				</li>
-				
+
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>MeleeWeapon_Dagger</thingDef>
-					<stuff>Plasteel</stuff>
+					<stuff>Steel</stuff>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
@@ -125,7 +126,7 @@
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>MeleeWeapon_Gladius</thingDef>
-					<stuff>Plasteel</stuff>
+					<stuff>Steel</stuff>
 					<count>2</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
@@ -137,16 +138,16 @@
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>ViTech_GladiatorLaminar</thingDef>
-					<stuff>Plasteel</stuff>
-					<count>1</count>
-				</li>
-					<li Class="ScenPart_StartingThing_Defined">
-					<def>StartingThing_Defined</def>
-					<thingDef>ImperialHelmet_Vile</thingDef>
-					<stuff>Plasteel</stuff>
+					<stuff>Steel</stuff>
 					<count>1</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ImperialHelmet_Vile</thingDef>
+					<stuff>Steel</stuff>
+					<count>1</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined" MayRequireAnyOf="owlchemist.seedspleaselite, evyatar108.seedspleaseliteredux, notfood.seedsplease">
 					<def>StartingThing_Defined</def>
 					<thingDef>Seedwheat</thingDef>
 					<count>50</count>
@@ -154,7 +155,7 @@
 				<li Class="ScenPart_StartingThing_Defined" MayRequire="vitech.tweaks">
 					<def>StartingThing_Defined</def>
 					<thingDef>TruePilum</thingDef>
-					<stuff>Plasteel</stuff>
+					<stuff>Steel</stuff>
 					<count>8</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
@@ -168,7 +169,7 @@
 					<thingDef>DeployableTentBig</thingDef>
 					<stuff>Flaxcloth</stuff>
 				</li>
-				
+
 				<!--
 				<li Class="ScenPart_StartingAnimal">
 					<def>StartingAnimal</def>
@@ -207,7 +208,7 @@
 					<thingDef>ShipMechChunk</thingDef>
 					<count>6</count>
 				</li>
-				
+
 				<li Class="ScenPart_ForcedTrait">
 					<def>ForcedTrait</def>
 					<chance>0.2</chance>
@@ -231,9 +232,9 @@
 					<context>PlayerStarter</context>
 					<trait>Hardened</trait>
 				</li>
-				
+
 				<!-- RESEARCH -->
-				
+
 				<li Class="ScenPart_StartingResearch">
 					<def>StartingResearch</def>
 					<visible>false</visible>
@@ -272,7 +273,7 @@
 					<def>StartingResearch</def>
 					<project>Ceramics_B1</project>
 				</li>
-				
+
 			</parts>
 		</scenario>
 	</ScenarioDef>

@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<!-- Mail Coif -->
-	<ThingDef ParentName="ArmorMedievalBase"> 
+	<ThingDef ParentName="ArmorMedievalBase">
 		<defName>Apparel_SkulkerHood</defName>
 		<label>Mail Coif</label>
 		<description>A mail coif is an important article worn under open-style helmets that only protect the top of the head, and can be worn under closed helms to offer additional protection. It can be worn on its own and provides good sharp defense, but will not save the wearer from blunt force trauma to the head. Like other mail products, its cheap but time-consuming to make.</description>
@@ -21,7 +21,7 @@
 			<Bulk>2</Bulk>
 			<WornBulk>0</WornBulk>
 			<EquipDelay>1</EquipDelay>
-			<Insulation_Cold>-2.5</Insulation_Cold>	
+			<Insulation_Cold>-2.5</Insulation_Cold>
 			<Insulation_Heat>2.5</Insulation_Heat>
 			<StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
@@ -46,8 +46,9 @@
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Apparel/MedievalHeadNew/MailCoif/MailCoif</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
+			<parentTagDef>ApparelHead</parentTagDef>
 			<layers>
-				<li>Overhead</li>
+				<li>StrappedHead</li>
 			</layers>
 			<tags>
 				<li>Medieval</li>
@@ -62,9 +63,9 @@
 		</apparel>
 		<recipeMaker>
 			<skillRequirements>
-					<Crafting>4</Crafting>
+				<Crafting>4</Crafting>
 			</skillRequirements>
-            <researchPrerequisite>Armor_IronAge</researchPrerequisite>
+			<researchPrerequisite>Armor_IronAge</researchPrerequisite>
 		</recipeMaker>
 		<thingCategories>
 			<li>PreModernHelmetsCat</li>
@@ -74,7 +75,7 @@
 			<li>SetArcher</li>
 			<li>SetKnight</li>
 			<li>SetInfantry</li>
-			<li>SetMilitia</li> 
+			<li>SetMilitia</li>
 		</thingCategories>
 	</ThingDef>
 
@@ -88,7 +89,7 @@
 			<texPath>Things/Apparel/MedievalHeadNew/Spangenhelm/Spangenhelm</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-		</graphicData>				
+		</graphicData>
 		<stuffCategories>
 			<li>StrongMetallic</li>
 		</stuffCategories>
@@ -142,7 +143,7 @@
 		</apparel>
 		<recipeMaker>
 			<skillRequirements>
-					<Crafting>4</Crafting>
+				<Crafting>4</Crafting>
 			</skillRequirements>
 			<researchPrerequisite>Armor_IronAge</researchPrerequisite>
 		</recipeMaker>
@@ -150,11 +151,11 @@
 			<li>PreModernHelmetsCat</li>
 			<li>SetMedieval</li>
 			<li>SetNorbal</li>
-			<li>SetMilitia</li> 	
+			<li>SetMilitia</li>
 		</thingCategories>
 	</ThingDef>
 
-	
+
 	<!-- Feral Scrapmetal Helmet -->
 	<ThingDef ParentName="ArmorMedievalBase">
 		<defName>Apparel_GrinderHelmet</defName>
@@ -209,7 +210,6 @@
 			<parentTagDef>ApparelHead</parentTagDef>
 			<layers>
 				<li>Overhead</li>
-				<li>OnHead</li>
 			</layers>
 			<tags>
 				<li>FeralOutfit</li>
@@ -225,9 +225,8 @@
 			<researchPrerequisite>Armor_Improvised</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
-	
 
-	
+
 	<!-- Legion Helms -->
 	<ThingDef ParentName="ArmorMedievalBase">
 		<defName>Apparello_NorbalThunder</defName>
@@ -237,7 +236,7 @@
 			<texPath>Things/Apparel/MedievalHeadNew/GladiatorHelm/GladiatorHelm</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-		</graphicData>			
+		</graphicData>
 		<stuffCategories>
 			<li>StrongMetallic</li>
 		</stuffCategories>
@@ -287,8 +286,8 @@
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
-			</defaultOutfitTags>	
-		</apparel>		
+			</defaultOutfitTags>
+		</apparel>
 		<thingCategories>
 			<li>PreModernHelmetsCat</li>
 			<li>SetLegion</li>
@@ -297,7 +296,7 @@
 			<researchPrerequisite>Armor_IronAge</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="ArmorMedievalBase">
 		<defName>ImperialHelmet_Vile</defName>
 		<label>Legion Imperial Helm</label>
@@ -306,7 +305,7 @@
 			<texPath>Things/Apparel/MedievalHeadNew/ImperialHelm/ImperialHelm</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-		</graphicData>			
+		</graphicData>
 		<stuffCategories>
 			<li>StrongMetallic</li>
 		</stuffCategories>
@@ -351,8 +350,8 @@
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
-			</defaultOutfitTags>	
-		</apparel>		
+			</defaultOutfitTags>
+		</apparel>
 		<thingCategories>
 			<li>PreModernHelmetsCat</li>
 			<li>SetLegion</li>
@@ -363,7 +362,6 @@
 	</ThingDef>
 
 
-	
 	<!-- Horde Helmet -->
 	<ThingDef ParentName="ArmorMedievalBase">
 		<defName>Apparel_ThumperHood</defName>
@@ -387,8 +385,8 @@
 			<Mass>1.5</Mass>
 			<Bulk>3</Bulk>
 			<WornBulk>0</WornBulk>
-			<EquipDelay>1.5</EquipDelay>	
-			<Insulation_Cold>5</Insulation_Cold>			
+			<EquipDelay>1.5</EquipDelay>
+			<Insulation_Cold>5</Insulation_Cold>
 			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
 			<StuffEffectMultiplierArmor>1.5</StuffEffectMultiplierArmor>
@@ -438,7 +436,7 @@
 		</recipeMaker>
 	</ThingDef>
 
-	
+
 	<!-- Great Helm -->
 	<ThingDef ParentName="ArmorMedievalBase">
 		<defName>Apparello_NorbalWarrior</defName>
@@ -514,7 +512,7 @@
 		</recipeMaker>
 	</ThingDef>
 
-	
+
 	<!-- Bascinet -->
 	<ThingDef ParentName="ArmorMedievalBase">
 		<defName>MedievalTimes_Helmet_Bascinet</defName>
@@ -564,7 +562,6 @@
 			<parentTagDef>ApparelHead</parentTagDef>
 			<layers>
 				<li>Overhead</li>
-				<li>OnHead</li>
 			</layers>
 			<tags>
 				<li>Medieval</li>
@@ -572,13 +569,13 @@
 				<li>NorbalArcher</li>
 				<li>NorbalWarrior</li>
 			</tags>
-			<defaultOutfitTags>	
+			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
 		<thingCategories>
 			<li>PreModernHelmetsCat</li>
-			<li>SetMedieval</li>	
+			<li>SetMedieval</li>
 			<li>SetNorbal</li>
 			<li>SetArcher</li>
 			<li>SetInfantry</li>
@@ -588,7 +585,7 @@
 		</recipeMaker>
 	</ThingDef>
 
-	
+
 	<!-- Kabuto -->
 	<ThingDef ParentName="ArmorMedievalBase">
 		<defName>MedievalTimes_Helmet_Domed</defName>
@@ -659,7 +656,7 @@
 		</recipeMaker>
 	</ThingDef>
 
-	
+
 	<!-- Burgonet -->
 	<ThingDef ParentName="ArmorMedievalBase">
 		<defName>Apparello_Moron</defName>
@@ -669,7 +666,7 @@
 			<texPath>Things/Apparel/MedievalHeadNew/Bergonet/Bergonet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-		</graphicData>		
+		</graphicData>
 		<stuffCategories>
 			<li>StrongMetallic</li>
 		</stuffCategories>
@@ -720,14 +717,14 @@
 			<li>SetMedieval</li>
 			<li>SetArcher</li>
 			<li>SetInfantry</li>
-			<li>SetMilitia</li> 
+			<li>SetMilitia</li>
 		</thingCategories>
 		<recipeMaker>
 			<researchPrerequisite>Armor_Munition</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 
-	
+
 	<!-- Barbute -->
 	<ThingDef ParentName="ArmorMedievalBase">
 		<defName>Apparello_Slughood</defName>
@@ -737,7 +734,7 @@
 			<texPath>Things/Apparel/MedievalHeadNew/Barbute/Barbute</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-		</graphicData>			
+		</graphicData>
 		<costStuffCount>40</costStuffCount>
 		<stuffCategories>
 			<li>StrongMetallic</li>
@@ -790,7 +787,7 @@
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
-		</apparel>		
+		</apparel>
 		<thingCategories>
 			<li>SetMedieval</li>
 			<li>SetNorbal</li>
@@ -812,7 +809,7 @@
 			<texPath>Things/Apparel/MedievalHeadNew/SalletOpen/SalletOpen</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-		</graphicData>			
+		</graphicData>
 		<stuffCategories>
 			<li>StrongMetallic</li>
 		</stuffCategories>
@@ -848,7 +845,7 @@
 			<wornGraphicPath>Things/Apparel/MedievalHeadNew/SalletOpen/SalletOpen</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<layers>
-				<li>Overhead</li>				
+				<li>Overhead</li>
 			</layers>
 			<tags>
 				<li>Medieval</li>
@@ -857,8 +854,8 @@
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
-			</defaultOutfitTags>	
-		</apparel>		
+			</defaultOutfitTags>
+		</apparel>
 		<thingCategories>
 			<li>PreModernHelmetsCat</li>
 			<li>SetMedieval</li>
@@ -869,7 +866,7 @@
 			<researchPrerequisite>Armor_B2</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
-	
+
 	<!-- Visored Sallet -->
 	<ThingDef ParentName="ArmorMedievalBase">
 		<defName>MedievalTimes_Helmet_Sallet</defName>
@@ -932,17 +929,17 @@
 		</apparel>
 		<recipeMaker>
 			<skillRequirements>
-					<Crafting>8</Crafting>
+				<Crafting>8</Crafting>
 			</skillRequirements>
 			<researchPrerequisite>Armor_B2</researchPrerequisite>
 		</recipeMaker>
 		<thingCategories>
-		<li>PreModernHelmetsCat</li>
+			<li>PreModernHelmetsCat</li>
 			<li>SetMedieval</li>
 			<li>SetKnight</li>
 		</thingCategories>
 	</ThingDef>
-	
+
 	<!-- Bevored Sallet -->
 	<ThingDef ParentName="ArmorMedievalBase">
 		<defName>Apparello_HornedHead</defName>
@@ -952,7 +949,7 @@
 			<texPath>Things/Apparel/MedievalHeadNew/SalletBevor/SalletBevor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-		</graphicData>			
+		</graphicData>
 		<stuffCategories>
 			<li>StrongMetallic</li>
 		</stuffCategories>
@@ -969,8 +966,8 @@
 			<WornBulk>0</WornBulk>
 			<EquipDelay>2.0</EquipDelay>
 			<Insulation_Cold>2.5</Insulation_Cold>
-            <StuffEffectMultiplierInsulation_Cold>0.4</StuffEffectMultiplierInsulation_Cold>
-            <StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierInsulation_Cold>0.4</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat>
 			<StuffEffectMultiplierArmor>1.75</StuffEffectMultiplierArmor>
 			<ArmorRating_Sharp>5</ArmorRating_Sharp>
 			<ArmorRating_Blunt>7.2</ArmorRating_Blunt>
@@ -1003,10 +1000,10 @@
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
-		</apparel>		
+		</apparel>
 		<recipeMaker>
 			<skillRequirements>
-					<Crafting>8</Crafting>
+				<Crafting>8</Crafting>
 			</skillRequirements>
 			<researchPrerequisite>Armor_B2</researchPrerequisite>
 		</recipeMaker>
@@ -1016,7 +1013,7 @@
 			<li>SetKnight</li>
 		</thingCategories>
 	</ThingDef>
-	
+
 	<!-- Royal Armet -->
 	<ThingDef ParentName="ArmorMedievalBase">
 		<defName>Apparello_MojoFeather</defName>
@@ -1082,7 +1079,7 @@
 		</apparel>
 		<recipeMaker>
 			<skillRequirements>
-					<Crafting>8</Crafting>
+				<Crafting>8</Crafting>
 			</skillRequirements>
 			<researchPrerequisite>Armor_B2</researchPrerequisite>
 		</recipeMaker>
@@ -1092,7 +1089,7 @@
 			<li>SetLeader</li>
 		</thingCategories>
 	</ThingDef>
-	
+
 	<!-- Frogmouth Helm -->
 	<ThingDef ParentName="ArmorMedievalBase">
 		<defName>Apparel_TribalHeaddress</defName>
@@ -1119,7 +1116,7 @@
 			<Mass>3</Mass>
 			<Bulk>8</Bulk>
 			<WornBulk>0</WornBulk>
-			<EquipDelay>3</EquipDelay>			
+			<EquipDelay>3</EquipDelay>
 			<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
 			<StuffEffectMultiplierArmor>2.5</StuffEffectMultiplierArmor>
@@ -1158,7 +1155,7 @@
 		</apparel>
 		<recipeMaker>
 			<skillRequirements>
-					<Crafting>8</Crafting>
+				<Crafting>8</Crafting>
 			</skillRequirements>
 			<researchPrerequisite>Armor_Rennaisance</researchPrerequisite>
 		</recipeMaker>
@@ -1168,6 +1165,6 @@
 			<li>SetKnight</li>
 		</thingCategories>
 	</ThingDef>
-	
-	
+
+
 </Defs>

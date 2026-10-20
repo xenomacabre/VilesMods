@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="AnimalThingBase"]/statBases/LeatherAmount</xpath>
+		<value>
+			<LeatherAmount>6</LeatherAmount>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="RK_KingHamster"]/race/leatherDef</xpath>
+		<value>
+			<leatherDef>Hide_SoftHide</leatherDef>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Rotti"]/race/leatherDef</xpath>
+		<value>
+			<leatherDef>Hide_RodentSkin</leatherDef>
+		</value>
+	</Operation>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]</xpath>
+		<value Merge="true">
+			<statBases Merge="true">
+				<LeatherAmount>3</LeatherAmount>
+			</statBases>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/race/leatherDef</xpath>
+		<value>
+			<leatherDef>Hide_HumanSkin</leatherDef>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Feenix" or defName="GreenWyvern"]/statBases/LeatherAmount</xpath>
+		<value>
+			<LeatherAmount>15</LeatherAmount>
+		</value>
+	</Operation>
+
+</Patch>

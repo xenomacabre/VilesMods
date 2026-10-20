@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Core_SK renamed TitaniumBar to Plasteel. Apply the dual-phase titanium definition to the canonical Def. -->
+  <Operation Class="SK.PatchOperationReplaceExtended">
+    <xpath>Defs/ThingDef[defName="Plasteel" and thingCategories/li="USLDBar"]</xpath>
+    <value>
+      <label>dual-phase titanium</label>
+      <description>TIER 4 - High Tech
+&gt;&gt;&gt; Optimal	Hospitals, Tools (non-bladed)
+&gt;&gt; Suitable	Light/Thermal Armor
+X Inadvisable 	Production
+
+Tools Recommended: Any non-bladed
+Notes: Corrosion-resistant, Superalloy, Light
+
+Also known as Ti-6Al-4V or more commonly Grade 5 Titanium, it's alloyed with Aluminium and Vanadium. Due to its strength, light weight, and shock-absorbing qualities, it makes fine tools (especially non-bladed ones). And being a superalloy along with Stellite, Pyromet, and Nimonic, it's useful for high-temperature applications and components, and makes lightweight and decently strong armor with a nearly unmatched in energy-weapon defense rating (among alloy armors). It's extremely hard to work with, however.</description>
+      <graphicData>
+        <texPath>Things/Item/Material/DualPhaseTitanium</texPath>
+        <graphicClass>Graphic_StackCount</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <stackLimit>600</stackLimit>
+      <techLevel>Spacer</techLevel>
+      <statBases>
+        <MarketValue>45</MarketValue>
+        <StuffPower_Armor_Blunt>1.4</StuffPower_Armor_Blunt>
+        <StuffPower_Armor_Sharp>1.6</StuffPower_Armor_Sharp>
+        <StuffPower_Armor_Heat>0.17</StuffPower_Armor_Heat>
+        <StuffPower_Insulation_Cold>-1</StuffPower_Insulation_Cold>
+        <StuffPower_Insulation_Heat>-1</StuffPower_Insulation_Heat>
+        <SharpDamageMultiplier>1.28</SharpDamageMultiplier>
+        <BluntDamageMultiplier>1.15</BluntDamageMultiplier>
+        <DeteriorationRate>0</DeteriorationRate>
+        <Flammability>0</Flammability>
+        <Mass>0.25</Mass>
+        <Bulk>0.35</Bulk>
+      </statBases>
+      <useHitPoints>true</useHitPoints>
+      <slagDef>ChunkSlagSteel</slagDef>
+      <thingCategories>
+        <li>USLDBar</li>
+        <li>SuperBar</li>
+        <li>LightBar</li>
+      </thingCategories>
+      <smeltable>true</smeltable>
+      <stuffProps>
+        <stuffAdjective>Dual-Phase Titanium</stuffAdjective>
+        <categories>
+          <li>Metallic</li>
+          <li>StrongMetallic</li>
+          <li>RuggedMetallic</li>
+          <li>SolidMetallic</li>
+          <li>CorrosionResistant</li>
+          <li>LightMaterial</li>
+        </categories>
+        <constructEffect>ConstructMetal</constructEffect>
+        <color>(243,255,255)</color>
+        <commonality>0.4</commonality>
+        <soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+        <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+        <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+        <statFactors>
+          <MaxHitPoints>3.1</MaxHitPoints>
+          <Beauty>2</Beauty>
+          <Flammability>0</Flammability>
+          <WorkToMake>3.5</WorkToMake>
+          <WorkToBuild>3.5</WorkToBuild>
+          <DoorOpenSpeed>1.4</DoorOpenSpeed>
+          <MeleeWeapon_CooldownMultiplier>0.85</MeleeWeapon_CooldownMultiplier>
+          <MoveSpeed>0.7</MoveSpeed>
+          <MarketValue>0.9</MarketValue>
+          <BedRestEffectiveness>1.2</BedRestEffectiveness>
+          <ImmunityGainSpeedFactor>1.38</ImmunityGainSpeedFactor>
+          <WorkTableWorkSpeedFactor>1.35</WorkTableWorkSpeedFactor>
+          <MeleePenetrationFactor>1.4</MeleePenetrationFactor>
+          <Mass>0.85</Mass>
+          <Cleanliness>2.5</Cleanliness>
+        </statFactors>
+        <statOffsets>
+          <Beauty>1</Beauty>
+          <SolarWeb-Stratum-Insulation>-0.05</SolarWeb-Stratum-Insulation>
+        </statOffsets>
+      </stuffProps>
+      <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+      <modExtensions>
+        <li Class="SurvivalToolsLite.StuffPropsTool">
+          <toolStatFactors>
+            <TreeFellingSpeed>1.65</TreeFellingSpeed>
+            <PlantHarvestingSpeed>1.6</PlantHarvestingSpeed>
+            <PlantWorkSpeed>1.8</PlantWorkSpeed>
+            <MiningSpeed>1.8</MiningSpeed>
+            <MiningYieldDigging>1.6</MiningYieldDigging>
+            <ConstructionSpeed>1.8</ConstructionSpeed>
+            <SmithingSpeed>1.8</SmithingSpeed>
+            <CookSpeed>1.5</CookSpeed>
+            <ButcheryFleshSpeed>1.5</ButcheryFleshSpeed>
+          </toolStatFactors>
+        </li>
+      </modExtensions>
+    </value>
+  </Operation>
+</Patch>

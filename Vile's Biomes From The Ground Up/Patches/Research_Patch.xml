@@ -11,14 +11,14 @@
 				
 
 
-			<li Class="PatchOperationAdd">	
+			<!-- <li Class="PatchOperationAdd">	
 				<xpath>Defs/ResearchProjectDef[defName="Terraform_A1"]</xpath>
 				<value>
 					<tags>
 						<li>TribalStart</li>
 					</tags>
 				</value>
-			</li>
+			</li> -->
 			
 		
 				

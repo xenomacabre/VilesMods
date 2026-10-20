@@ -1,8 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	
 
-	
+
 	<RecipeDef>
 		<defName>Make_PipeSectionBasic_Cast</defName>
 		<label>Cast plumbing components from metal</label>
@@ -39,7 +38,7 @@
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>0.8</workSkillLearnFactor>
 	</RecipeDef>
-	
+
 	<RecipeDef>
 		<defName>Make_PipeSectionBasic_Forged</defName>
 		<label>forge plumbing components</label>
@@ -57,20 +56,20 @@
 		<ingredients>
 			<li>
 				<filter>
-					<categories>
+					<stuffCategoriesToAllow>
 						<li>Metallic</li>
-					</categories>
+					</stuffCategoriesToAllow>
 				</filter>
 				<count>10</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<categories>
+			<stuffCategoriesToAllow>
 				<li>Metallic</li>
-			</categories>
+			</stuffCategoriesToAllow>
 			<disallowedThingDefs>
 				<li>CastIron</li>
-			</disallowedThingDefs>	
+			</disallowedThingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<PipeSection>4</PipeSection>
@@ -81,7 +80,7 @@
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>0.8</workSkillLearnFactor>
 	</RecipeDef>
-	
+
 	<!-- ADVANCED PIPES -->
 	<!--
 	<RecipeDef>
@@ -162,6 +161,6 @@
 	</RecipeDef>
 	
 -->
-	
-	
+
+
 </Defs>

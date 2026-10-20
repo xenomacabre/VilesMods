@@ -76,7 +76,7 @@
 		<label>Suspendered Overalls</label>
 		<description>Leggings that are held up with suspenders which can sometimes get in the way. It has a small bib in the front and is popular among janitors and farmhands.</description>
 		<graphicData>
-			<texPath>Things/Apparel/MedievalTimes/Bodywear_Clothing/Suspenders_Striped/MedievalTimes_Suspenders_Striped</texPath>
+			<texPath>Things/Apparel/Bottoms/SuspendersStriped/Suspenders_Striped</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stuffCategories>
@@ -119,7 +119,7 @@
 		</equippedStatOffsets>
 		<generateCommonality>2</generateCommonality>
 		<apparel>
-			<wornGraphicPath>Things/Apparel/MedievalTimes/Bodywear_Clothing/Suspenders_Striped/MedievalTimes_Suspenders_Striped</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/Bottoms/SuspendersStriped/Suspenders_Striped</wornGraphicPath>
 			<bodyPartGroups>
 				<li>Legs</li>
 			</bodyPartGroups>

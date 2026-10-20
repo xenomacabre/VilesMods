@@ -11,8 +11,8 @@
   <SmeltMagnetite_Industrial.description>Переплавить магнетит в чугун (Fe) и хром (Cr).</SmeltMagnetite_Industrial.description>
   <SmeltMagnetite_Industrial.jobString>Переплавляет магнетит (Fe, Cr).</SmeltMagnetite_Industrial.jobString>
 
-  <SmeltMagnetite_HighTech.label>Высокотехнологичная плавка: Магнетит (40 Fe, 5 Cr, 5 Zn)</SmeltMagnetite_HighTech.label>
-  <SmeltMagnetite_HighTech.description>Переплавить магнетит в чугун (Fe), хром (Cr) и цинк (Zn). Производит больше ресурсов, но занимает больше времени.</SmeltMagnetite_HighTech.description>
+  <SmeltMagnetite_HighTech.label>Высокотехнологичная плавка: Магнетит (25 Fe, 5 Cr, 10 Zn)</SmeltMagnetite_HighTech.label>
+  <SmeltMagnetite_HighTech.description>Переработать магнетит в чугун (Fe), хром (Cr) и цинк (Zn). Часть железа теряется в процессе.</SmeltMagnetite_HighTech.description>
   <SmeltMagnetite_HighTech.jobString>Переплавляет магнетит (Fe, Cr, Zn).</SmeltMagnetite_HighTech.jobString>
 
 

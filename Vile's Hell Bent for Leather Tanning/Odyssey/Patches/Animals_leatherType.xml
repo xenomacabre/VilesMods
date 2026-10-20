@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Reptiles with explicit leather nodes. -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Alligator"
+            or defName="Armadillo"
+            or defName="MonitorLizard"
+            or defName="SeaTurtle"]/race/leatherDef</xpath>
+        <value>
+            <leatherDef>Hide_ExoticSkin</leatherDef>
+        </value>
+    </Operation>
+
+    <!-- Birds inherit their leather node, so add an explicit exotic-skin override. -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Flamingo"
+            or defName="Heron"
+            or defName="Peacock"
+            or defName="Penguin"
+            or defName="Swan"
+            or defName="Vulture"]/race</xpath>
+        <value>
+            <leatherDef>Hide_ExoticSkin</leatherDef>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Bullfrog"
+            or defName="ColossusToad"
+            or defName="Otter"
+            or defName="Seal"
+            or defName="SeaLion"
+            or defName="Walrus"]/race/leatherDef</xpath>
+        <value>
+            <leatherDef>Hide_WaterproofSkin</leatherDef>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="BogHound"]/race/leatherDef</xpath>
+        <value>
+            <leatherDef>Hide_LightAnimalSkin</leatherDef>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Megavole"
+            or defName="Porcupine"
+            or defName="PrairieDog"]/race/leatherDef</xpath>
+        <value>
+            <leatherDef>Hide_RodentSkin</leatherDef>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="AlphaThrumbo"
+            or defName="Mastodon"]/race/leatherDef</xpath>
+        <value>
+            <leatherDef>Hide_HeavyFurPelt</leatherDef>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Mink"
+            or defName="Panda"]/race/leatherDef</xpath>
+        <value>
+            <leatherDef>Hide_RichFurPelt</leatherDef>
+        </value>
+    </Operation>
+
+    <!-- Scimitar cats and tigers inherit big-cat leather. -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Cat_Scimitar"
+            or defName="Tiger"]/race</xpath>
+        <value>
+            <leatherDef>Hide_RichFurPelt</leatherDef>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Badger"
+            or defName="Wolverine"]/race/leatherDef</xpath>
+        <value>
+            <leatherDef>Hide_RuggedFurPelt</leatherDef>
+        </value>
+    </Operation>
+
+    <!-- Greatwolves inherit wolf leather. -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Wolf_Great"]/race</xpath>
+        <value>
+            <leatherDef>Hide_RuggedFurPelt</leatherDef>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gorilla"
+            or defName="Hippo"]/race/leatherDef</xpath>
+        <value>
+            <leatherDef>Hide_HeavyHide</leatherDef>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Moose"]/race/leatherDef</xpath>
+        <value>
+            <leatherDef>Hide_DurableHide</leatherDef>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Muskox"]/race/leatherDef</xpath>
+        <value>
+            <leatherDef>Hide_WarmFurPelt</leatherDef>
+        </value>
+    </Operation>
+
+</Patch>

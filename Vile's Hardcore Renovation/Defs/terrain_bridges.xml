@@ -12,6 +12,7 @@
     <bridge>true</bridge>
     <affordances>
       <li>Medium</li>
+      <li>Walkable</li>
     </affordances>
     <designationCategory>Structure</designationCategory>
     <fertility>0</fertility>
@@ -47,6 +48,7 @@
     <bridge>true</bridge>
     <affordances>
       <li>Medium</li>
+      <li>Walkable</li>
     </affordances>
     <designationCategory>Structure</designationCategory>
     <fertility>0</fertility>
@@ -83,6 +85,7 @@
     <bridge>true</bridge>
     <affordances>
       <li>Medium</li>
+      <li>Walkable</li>
     </affordances>
     <designationCategory>Structure</designationCategory>
     <fertility>0</fertility>
@@ -118,6 +121,7 @@
     <bridge>true</bridge>
     <affordances>
       <li>Medium</li>
+      <li>Walkable</li>
     </affordances>
     <designationCategory>Structure</designationCategory>
     <fertility>0</fertility>

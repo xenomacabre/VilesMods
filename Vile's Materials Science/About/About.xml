@@ -3,10 +3,11 @@
 	<name>Vile's Materials Science</name>
 	<author>VileHeathen</author>
 	<supportedVersions>
-        <li>1.5</li>
-    </supportedVersions>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
 	<packageId>vitech.materialsscience</packageId>
-<description>Version 0.1
+	<description>Version 0.1
 This is the final major part of the Vile's series of overhaul mods for Hardcore SK. It finishes what Metallurgy and Pre-Industrial Overhaul started, namely, adding realism, complixity, and streamlines and rebalances materials while making it a bit more intuitive. Unlike Metallurgy though, it doesn't add a lot more steps in the production chain. Here's a rundown of the overhaul:
         
     CHANGES and ADDITIONS:
@@ -56,7 +57,7 @@ This is the final major part of the Vile's series of overhaul mods for Hardcore 
 			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
 			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
 		</li>
-        <li>
+		<li>
 			<packageId>zacharyfoster.minerals</packageId>
 			<displayName>Minerals</displayName>
 			<downloadUrl>https://github.com/skyarkhangel/Hardcore-SK</downloadUrl>
@@ -76,40 +77,39 @@ This is the final major part of the Vile's series of overhaul mods for Hardcore 
 			<displayName>Rimatomics</displayName>
 			<downloadUrl>https://github.com/skyarkhangel/Hardcore-SK</downloadUrl>
 		</li>
-        <li>
+		<li>
 			<packageId>vitech.metallurgy</packageId>
 			<displayName>Vile's Metallurgy</displayName>
 			<downloadUrl>https://github.com/xenomacabre/VilesMods</downloadUrl>
 		</li>
-        <li>
+		<li>
 			<packageId>vitech.leathertanning</packageId>
 			<displayName>Vile's Hell Bent for Leather Tanning</displayName>
 			<downloadUrl>https://github.com/xenomacabre/VilesMods</downloadUrl>
 		</li>
-        <li>
-            <packageId>ViTech.HCSKWood</packageId>
-            <displayName>Wood You Please</displayName>
-            <downloadUrl>https://github.com/xenomacabre/VilesMods</downloadUrl>
-        </li>
-        <li>
-            <packageId>Dubwise.Rimefeller</packageId>
-            <displayName>Rimefeller</displayName>
+		<li>
+			<packageId>ViTech.HCSKWood</packageId>
+			<displayName>Wood You Please</displayName>
+			<downloadUrl>https://github.com/xenomacabre/VilesMods</downloadUrl>
+		</li>
+		<li>
+			<packageId>Dubwise.Rimefeller</packageId>
+			<displayName>Rimefeller</displayName>
 			<downloadUrl>https://github.com/skyarkhangel/Hardcore-SK</downloadUrl>
-        </li>
-         <li>
-            <packageId>skyarkhangel.HSK</packageId>
-            <displayName>Core SK</displayName>
+		</li>
+		<li>
+			<packageId>skyarkhangel.HSK</packageId>
+			<displayName>Core SK</displayName>
 			<downloadUrl>https://github.com/skyarkhangel/Hardcore-SK</downloadUrl>
-        </li>
+		</li>
 	</modDependencies>
 	<loadAfter>
-        <li>Dubwise.Rimefeller</li>
-        <li>vdubwise.rimatomics</li>
-        <li>vitech.metallurgy</li>
+		<li>Dubwise.Rimefeller</li>
+		<li>vdubwise.rimatomics</li>
+		<li>vitech.metallurgy</li>
 		<li>brrainz.harmony</li>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
 		<li>Ludeon.RimWorld.Ideology</li>
 	</loadAfter>
 </ModMetaData>
-

@@ -3,7 +3,7 @@
 	
 <!-- COMPONENTS -->
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>DragonEsters</defName>
 		<label>Dragon Esters</label>
 		<description>A glyceride extracted from kirins, wyverns, and feenix. Can be infused with certain leathers to improve their properties.</description>
@@ -14,7 +14,6 @@
 		</graphicData>
 		<soundInteract>Standard_Drop</soundInteract>
 		<soundDrop>Standard_Drop</soundDrop>
-		<tickerType>Rare</tickerType>
 		<techLevel>Industrial</techLevel>
 		<statBases>
 			<MarketValue>1</MarketValue>
@@ -29,7 +28,7 @@
 		<stackLimit>500</stackLimit>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>GuardianHairs</defName>
 		<label>Guardian Hairs</label>
 		<description>The coarse, outer hairs found in the fur of mythical canines and thrumbo. It can be used to enhanced certain furs.</description>
@@ -40,7 +39,6 @@
 		</graphicData>
 		<soundInteract>Standard_Drop</soundInteract>
 		<soundDrop>Standard_Drop</soundDrop>
-		<tickerType>Rare</tickerType>
 		<techLevel>Industrial</techLevel>
 		<statBases>
 			<MarketValue>1</MarketValue>
@@ -55,7 +53,7 @@
 		<stackLimit>500</stackLimit>
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>TalonAether</defName>
 		<label>Talon Aether</label>
 		<description>A smokelike vapor that forms when the pulverizing the talons of a behir or other the raptors which are hybridized from behir DNA.</description>
@@ -66,7 +64,6 @@
 		</graphicData>
 		<soundInteract>Standard_Drop</soundInteract>
 		<soundDrop>Standard_Drop</soundDrop>
-		<tickerType>Rare</tickerType>
 		<techLevel>Industrial</techLevel>
 		<statBases>
 			<MarketValue>1</MarketValue>
@@ -82,7 +79,7 @@
 	</ThingDef>
 	
 
-<ThingDef ParentName="SK_ResourceBase">
+<ThingDef ParentName="ResourceBase">
 		<defName>Rawhide</defName>
 		<label>Rawhide</label>
 		<description>Rawhide is a stretched and cured animal hide, like parchment, but thicker. It becomes very hard and strong once it solidifies and can be used in the place of metal in some armors, providing protection. However, it's unstable and breaks down over time when exposed to the elements. It's also not especially light since it had to be very thick to offer protection.</description>
@@ -147,7 +144,7 @@
 		<!--<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>-->
 	</ThingDef>
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>BoiledLeather</defName>
 		<label>cuir bouilli</label>
 		<description>Also known as 'boiled leather', it's made by treating leather (most likely with animal glue) to make it hard and mouldable. It can be used in place of metal on many medieval armors, though because it as to be thick to provide protection, it's quite heavy and is not suitable for full-plate. Because it doesn't conduct heat like metal, it provides better protection against heat.</description>
@@ -212,7 +209,7 @@
 		<!--<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>-->
 	</ThingDef>
 
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>Chitin</defName>
 		<label>Chitin</label>
 		<description>Chitin is extracted from exoskeletons of genetically engineered insects or shelled creatures. It's fairly lightweight and can be used in the place of metal in some types of armor where the smaller pieces can be used like scales. I can be processed into a strong fabric with the right technology, or be processed into polymers for use in finishing certain leathers.</description>
@@ -278,7 +275,7 @@
 	</ThingDef>
 	
 	
-	<ThingDef ParentName="SK_ResourceBase">
+	<ThingDef ParentName="ResourceBase">
 		<defName>DragonScales</defName>
 		<label>dragon scales</label>
 		<description>Draconic reptiles sport a strong armor which protects their skin. The small plates are hard as iron but light as feathers and can be used as a component for building armor. It can aslo be processed into compound paste.</description>

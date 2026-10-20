@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<!-- Core_SK overlap changes from Common/Defs/RecipesDefs/Recipes_Textile.xml. Identical fields are intentionally omitted. -->
+	<!-- RecipeDef: MakeKevlar -->
+	<!-- <Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="MakeKevlar"]/recipeUsers</xpath>
+	</Operation> -->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/RecipeDef[defName="MakeKevlar"]</xpath>
+		<value Merge="true">
+			<label>Make Kevlar x10</label>
+			<description>Nomex is a para-aramid textile with great ballistic properties.</description>
+			<jobString>Making kevlar.</jobString>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<ingredients DeepReplace="true">
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Sulphates</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Xylene</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>SyntheticAmmonia</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+			</ingredients>
+			<fixedIngredientFilter>
+				<thingDefs DeepReplace="true">
+					<li>Sulphates</li>
+					<li>Xylene</li>
+					<li>SyntheticAmmonia</li>
+				</thingDefs>
+			</fixedIngredientFilter>
+		</value>
+	</Operation>
+</Patch>

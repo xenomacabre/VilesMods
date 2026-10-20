@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<!-- Core_SK overlap changes from Common/Defs/RecipesDefs/Recipes_ultra_alloy.xml. Identical fields are intentionally omitted. -->
+	<!-- RecipeDef: ProduceAPoly -->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/RecipeDef[defName="ProduceAPoly"]</xpath>
+		<value Merge="true">
+			<label>Fabricate Hyperalloy x15</label>
+			<description>TTIER 5 - Ultra Tech
+&gt;&gt;&gt; Optimal		Heavy Armor, Hospitals
+&gt;&gt; Suitable		Workshops, Durability
+X Inadvisable 	Weight, Production
+
+Tools Recommended: Digging, Mining, Building
+
+Hyperalloy is synthesized at the atomic level and refined with coltan extracted from certain gemstones. Its unparalleled toughness and strength make it suitable for nearly any application. If only it weren't so hard to fabricate.</description>
+			<workAmount>6000</workAmount>
+			<ingredients DeepReplace="true">
+				<li>
+					<filter>
+						<categories>
+							<li>SuperBar</li>
+						</categories>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>RoughGem</li>
+							<li>CutGem</li>
+						</thingDefs>
+					</filter>
+					<count>1</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Antimatter</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+			</ingredients>
+			<fixedIngredientFilter>
+				<categories>
+					<li>SuperBar</li>
+				</categories>
+				<thingDefs DeepReplace="true">
+					<li>RoughGem</li>
+					<li>CutGem</li>
+					<li>Antimatter</li>
+				</thingDefs>
+			</fixedIngredientFilter>
+		</value>
+	</Operation>
+	<!-- RecipeDef: ProduceBPoly -->
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/RecipeDef[defName="ProduceBPoly"]</xpath>
+		<value Merge="true">
+			<label>Fabricate beta poly x15</label>
+			<description>TIER 5 - Ultra Tech
+&gt;&gt;&gt; Optimal		Durability, Temperature regulation
+&gt;&gt; Suitable		Production
+X Inadvisable 	Weight, Production
+
+Tools Recommended: Digging, Mining, Building
+
+Originally developed as military hardware, polymimetic alloy is programmable matter which is able to change states between liquid and solid. This allows it to be quickly formed and can maintain a rigid or flexible shape, suitible for everything from clothes, weapons, buildings, and armor. Because it can reform when damaged, it has unmatched longevity as a material.</description>
+			<workAmount>9000</workAmount>
+			<ingredients DeepReplace="true">
+				<li>
+					<filter>
+						<thingDefs>
+							<li>BiosyntheticMaterial</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Antimatter</li>
+						</thingDefs>
+					</filter>
+					<count>3</count>
+				</li>
+				<li>
+					<filter>
+						<thingDefs>
+							<li>Vanadium</li>
+						</thingDefs>
+					</filter>
+					<count>5</count>
+				</li>
+			</ingredients>
+			<products>
+				<BetaPoly>15</BetaPoly>
+			</products>
+			<fixedIngredientFilter>
+				<thingDefs DeepReplace="true">
+					<li>Antimatter</li>
+					<li>BiosyntheticMaterial</li>
+					<li>Vanadium</li>
+				</thingDefs>
+			</fixedIngredientFilter>
+		</value>
+	</Operation>
+</Patch>

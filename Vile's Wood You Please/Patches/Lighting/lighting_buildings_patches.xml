@@ -110,7 +110,7 @@ Rain-proof</description>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="TorchWallLamp"]/comps</xpath> 
 				<value>
-					<li Class="RimFridge.CompProperties_SecondLayer">
+					<li Class="SK.CompProperties_SecondLayer">
 						<graphicData>
 							<texPath>Things/Building/Sconce/Sconce_top</texPath>
 							<graphicClass>Graphic_Multi</graphicClass>
@@ -327,7 +327,7 @@ Efficiency: 35%</description>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="BowlLamp"]/comps</xpath> 
 				<value>
-					<li Class="RimFridge.CompProperties_SecondLayer">
+					<li Class="SK.CompProperties_SecondLayer">
 						<graphicData>
 							<texPath>Things/Building/Cresset_top</texPath>
 							<graphicClass>Graphic_Single</graphicClass>

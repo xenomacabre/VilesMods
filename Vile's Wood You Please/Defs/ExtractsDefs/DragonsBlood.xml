@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-		<ThingDef ParentName="SK_ResourceBase">
+		<ThingDef ParentName="ResourceBase">
 		<defName>Medicine_DragonsBlood</defName>
 		<label>Dragonsblood tincture</label>
 		<description>The resin of the dragonwood tree which has medicinal uses. Not very effective, but can be used to make stronger medicines.</description>

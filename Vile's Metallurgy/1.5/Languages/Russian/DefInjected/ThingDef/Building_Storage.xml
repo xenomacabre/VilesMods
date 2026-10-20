@@ -1,16 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- VANILLA POT -->
-
-  <Pot.label>Металлический горшок</Pot.label>
-  <Pot.description>Большая металлическая кастрюля, используемая для консервирования пищи. Замедляет процесс гниения почти так же хорошо, как глазурованная керамика. Уменьшает порчу на 40%. Строительство обходится недешево.</Pot.description>
-
-
   <!-- CLAY POTS -->
 
-  <Building_ClayPotUnglazed.label>Глиняный горшок</Building_ClayPotUnglazed.label>
-  <Building_ClayPotUnglazed.description>Обожженный, но неглазурованный глиняный горшок. Используется для хранения продуктов, но он пористый и не герметизируется так хорошо, как глазированные горшки. Уменьшает порчу на 30%.</Building_ClayPotUnglazed.description>
+  <Pot.label>Глиняный горшок</Pot.label>
+  <Pot.description>Обожженный, но неглазурованный глиняный горшок. Используется для хранения продуктов, но он пористый и не герметизируется так хорошо, как глазированные горшки. Уменьшает порчу на 35%.</Pot.description>
 
   <Building_ClayPotAsh.label>Глиняный горшок, глазурованный золой (пеплом)</Building_ClayPotAsh.label>
   <Building_ClayPotAsh.description>Глазурованный глиняный горшок. Выглядит красиво, к тому же хорошо запечатывается для хранения продуктов. Уменьшает порчу на 45%.</Building_ClayPotAsh.description>

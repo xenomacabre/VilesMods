@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="chevalDeFrise"]</xpath>
+		<value>
+			<description>A defensive barrier made of sharpened stakes. It can be easiliy moved to work as a makeshift door, though enemies can very slowly pass over it.</description>
+			<graphicData>
+				<texPath>Things/Building/ChevalDeFrise/ChevalDeFrise</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<drawSize>(4,4)</drawSize>
+				<shadowData>
+					<volume>(0.3, 0.6, 0.3)</volume>
+				</shadowData>
+			</graphicData>
+			<pathCost>200</pathCost>
+			<passability>PassThroughOnly</passability>
+			<fillPercent>0.25</fillPercent>
+			<statBases Merge="True">
+				<MaxHitPoints>300</MaxHitPoints>
+				<WorkToBuild>900</WorkToBuild>
+				<Mass>12</Mass>
+			</statBases>
+			<building Merge="True">
+				<uninstallWork>200</uninstallWork>
+			</building>
+			<costList>
+				<WoodLog>10</WoodLog>
+				<Sudis>8</Sudis>
+			</costList>
+		</value>
+	</Operation>
+</Patch>

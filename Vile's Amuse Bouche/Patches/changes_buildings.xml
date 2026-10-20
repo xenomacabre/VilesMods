@@ -16,13 +16,6 @@
             				</value>
         	</li>
 			
-			<li Class="PatchOperationReplace">
-            			<xpath>Defs/ThingDef[defName="TableOven"]/graphicData/drawSize</xpath>
-            				<value>
-								<drawSize>(6,6)</drawSize>
-            				</value>
-        	</li>
-					
 			</operations>
 			</match>
     </Operation>	

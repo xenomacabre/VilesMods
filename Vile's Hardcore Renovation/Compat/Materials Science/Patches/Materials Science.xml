@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+
+  <!-- Vile's Materials Science: top-level operations intentionally kept independent so failed XPath is logged directly. -->
+  <!-- Materials-->
+
+
+  <!--Walls -->
+
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="LeadBar" or 
+              defName="AluminiumBar" or 
+              defName="Plasteel" or 
+              defName="CupronickelAlloy" or
+              defName="CopperBar" or defName="TinBar"]/stuffProps/appearance</xpath>
+    <value>
+      <appearance>Cladding</appearance>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CarbonAlloy" or 
+              defName="Bronze" or 
+              defName="GoldBar" or
+              defName="SilverBar" or 
+              defName="StelliteAlloy" or 
+              defName="NitinolAlloy" or 
+              defName="BetaPoly"]/stuffProps/appearance</xpath>
+    <value>
+      <appearance>Smooth</appearance>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="FerrosiliconAlloy" or 
+            defName="SteelBar" or 
+            defName="AlnicoAlloy" or 
+            defName="DepletedUranium" or
+            defName="Plasteel" or
+            defName="PobediteAlloy" or 
+            defName="Titanium" or
+            defName="AlphaPoly"]/stuffProps/appearance</xpath>
+    <value>
+      <appearance>Panel</appearance>
+    </value>
+  </Operation>
+</Patch>

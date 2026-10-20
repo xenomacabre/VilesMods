@@ -14,7 +14,7 @@
 			<MarketValue>40</MarketValue>
 			<WorkToMake>720</WorkToMake>
 			<Bulk>1.50</Bulk>
-			<Mass>1.20</Mass>
+			<Mass>0.5</Mass>
 			<Nutrition>0.75</Nutrition>
 		</statBases>
 		<ingestible>
@@ -52,7 +52,7 @@
 			<MarketValue>40</MarketValue>
 			<WorkToMake>720</WorkToMake>
 			<Bulk>1.50</Bulk>
-			<Mass>1.20</Mass>
+			<Mass>0.5</Mass>
 			<Nutrition>0.8</Nutrition>
 		</statBases>
 		<ingestible>
@@ -88,7 +88,7 @@
 			<MarketValue>50</MarketValue>
 			<WorkToMake>1200</WorkToMake>
 			<Bulk>1.50</Bulk>
-			<Mass>1.20</Mass>
+			<Mass>0.5</Mass>
 			<Nutrition>0.8</Nutrition>
 		</statBases>
 		<ingestible>
@@ -128,7 +128,7 @@
 			<MarketValue>20</MarketValue>
 			<WorkToMake>720</WorkToMake>
 			<Bulk>1.50</Bulk>
-			<Mass>1.20</Mass>
+			<Mass>0.5</Mass>
 			<Nutrition>0.85</Nutrition>
 		</statBases>
 		<ingestible>
@@ -166,7 +166,7 @@
 			<MarketValue>50</MarketValue>
 			<WorkToMake>1200</WorkToMake>
 			<Bulk>1.50</Bulk>
-			<Mass>1.20</Mass>
+			<Mass>0.5</Mass>
 			<Nutrition>0.9</Nutrition>
 		</statBases>
 		<ingestible>

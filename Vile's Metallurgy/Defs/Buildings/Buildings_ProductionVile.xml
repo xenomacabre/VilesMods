@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<ThingDef ParentName="BuildingFueled">
+	<ThingDef ParentName="SK_WorkTableFueled">
 		<defName>FirePit</defName>
 		<label>fire pit</label>
-		<description>A large oven dug into the earth. It can burn hotter than a campfire - enough to smelt pre-iron age metals such as lead and bronze.</description>    
+		<description>A large oven dug into the earth. It can burn hotter than a campfire - enough to smelt pre-iron age metals such as lead and bronze.</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/FirePit</texPath>
@@ -48,7 +48,7 @@
 				<glowRadius>4</glowRadius>
 				<glowColor>(252,187,113,0)</glowColor>
 			</li>
-			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Flickable" />
 			<li Class="SK.CompProperties_HeatPusherAdvanced">
 				<compClass>SK.CompHeatPusherAdvanced</compClass>
 				<heatPerSecond>18</heatPerSecond>
@@ -76,7 +76,7 @@
 					</thingDefs>
 					<categories>
 						<li>Wooden</li>
-					</categories>  
+					</categories>
 				</fuelFilter>
 			</li>
 		</comps>
@@ -93,17 +93,17 @@
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
 			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
 			<buildingTags>
-                <li>NoOutdoorPenaltyUnderRoof</li>
-            </buildingTags>
+				<li>NoOutdoorPenaltyUnderRoof</li>
+			</buildingTags>
 		</building>
 	</ThingDef>
 	<!-- ==== BLOOMERY ==== -->
-	<ThingDef ParentName="WorkTableFueled">
+	<ThingDef ParentName="SK_WorkTableFueled">
 		<defName>Bloomery</defName>
 		<label>bloomery</label>
 		<description>A bloomery is a small furnace used to reduce iron ore (ie. dirty, rusty rocks) into a iron bloom. The furnace doesn't get hot enough to melt the iron, but instead the carbon monoxide (CO) from the burning carbon fuel (charcoal) reacts with the iron oxide (FeO) to make carbon dioxide (CO2), leaving behind metallic iron (Fe) in a spongy mass of slag. Then you'll want to have a blacksmith beat the impurities out with a hammer if you want iron that you can actually use.</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
-        <graphicData>
+		<graphicData>
 			<texPath>Things/Building/Bloomery</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -127,9 +127,6 @@
 		</stuffCategories>
 		<costStuffCount>100</costStuffCount>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<statBases>
 			<WorkToBuild>1000</WorkToBuild>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -146,14 +143,14 @@
 		<building>
 			<uninstallWork>1450</uninstallWork>
 			<buildingTags>
-                <li>NoOutdoorPenaltyUnderRoof</li>
-            </buildingTags>
+				<li>NoOutdoorPenaltyUnderRoof</li>
+			</buildingTags>
 		</building>
 		<recipes>
 			<li>MakeIronBloom_Bloomery</li>
 		</recipes>
 		<comps>
-			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Flickable" />
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
 					<li>ToolCabinet</li>
@@ -163,6 +160,9 @@
 				<glowRadius>2</glowRadius>
 				<glowColor>(217,112,33,0)</glowColor>
 			</li>
+			<li Class="SK.CompProperties_PowerOnGraphic">
+				<onlyWhenInteracting>true</onlyWhenInteracting>
+			</li>
 			<li Class="SK.CompProperties_HeatPusherAdvanced">
 				<compClass>SK.CompHeatPusherAdvanced</compClass>
 				<heatPerSecond>25</heatPerSecond>
@@ -170,7 +170,7 @@
 			</li>
 			<li Class="SK.CompFueled_Properties">
 				<operatingTemp>1000</operatingTemp>
-                <fuelDrawScale>0.25</fuelDrawScale>
+				<fuelDrawScale>0.25</fuelDrawScale>
 				<fireDrawOffset>(0,-1,-0.2)</fireDrawOffset>
 				<smokeDrawOffset>(0.5,-0.1,1.5)</smokeDrawOffset>
 				<fuelDrawOffset>(0,0.1,-0.8)</fuelDrawOffset>
@@ -186,7 +186,7 @@
 					</thingDefs>
 				</fuelFilter>
 			</li>
-			
+
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
@@ -197,20 +197,24 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
 	</ThingDef>
-	
+
 	<!-- ==== BLAST FURNACE ==== -->
-	<ThingDef ParentName="BuildingFueled">
+	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
+	<ThingDef ParentName="SK_WorkTableFueled">
 		<defName>TableFurnace</defName>
 		<label>blast furnace</label>
 		<description>A furnace used for smelting basic metal (typically iron) ores into metal alloys. A bellows blasts air into the furnace and the carbon in the fuel (coal, coke, or charcoal) reacts with the oxygen in the ore removing impurities and leaving behind iron rich with a high carbon content (pig iron). Copper, lead, bronze, gold and silver can also be smelted here, though those processes are much simpler due to lower melting points. Powering the bellows with a steam engine can speed up the process.</description>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
 		<drawerType>MapMeshAndRealTime</drawerType>
-        <graphicData>
+		<graphicData>
 			<texPath>Things/Building/BlastFurnace</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(6.4,6.4)</drawSize>
 			<shadowData>
-				<volume>(4, 5, 3)</volume> <!-- Width, Length?,  Height -->
+				<volume>(4, 5, 3)</volume> [original note: Width, Length?,  Height ]
 				<offset>(0,0,-1)</offset>
 			</shadowData>
 			<damageData>
@@ -232,9 +236,6 @@
 			<Leather_Patch>8</Leather_Patch>
 		</costList>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<statBases>
 			<WorkToBuild>3400</WorkToBuild>
 			<MaxHitPoints>320</MaxHitPoints>
@@ -251,35 +252,38 @@
 		<fillPercent>0.7</fillPercent>
 		<building>
 			<uninstallWork>1450</uninstallWork>
-			<!--<wantsHopperAdjacent>true</wantsHopperAdjacent>-->
+			[original note:<wantsHopperAdjacent>true</wantsHopperAdjacent>]
 			<buildingTags>
-                <li>NoOutdoorPenaltyUnderRoof</li>
-            </buildingTags>
+				<li>NoOutdoorPenaltyUnderRoof</li>
+			</buildingTags>
 		</building>
 		<recipes>
 			<li>MakePigIron_Furnace</li>
 			<li>MakeTinBars_Hand</li>
 			<li>MakeCopperBars_Hand</li>
 			<li>MakeBronze_Hand</li>
-			<!--<li>MakeSteelBars_Hand</li> blast furnace does not get hot enought to melt steel-->
+			[original note:<li>MakeSteelBars_Hand</li> blast furnace does not get hot enought to melt steel]
 			<li>MakeLeadBars_Hand</li>
 			<li>MakeGoldBars_Hand</li>
 			<li>MakeSilverBars_Hand</li>
-			<!-- <li>MakeGlassBatch</li> done at kiln -->
+			[original note: <li>MakeGlassBatch</li> done at kiln ]
 			<li>MakeGlass</li>
 			<li>MakeCharcoal_Hand</li>
 		</recipes>
 		<comps>
-			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Flickable" />
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
-					<!--<li>ToolCabinet</li>-->
+					[original note:<li>ToolCabinet</li>]
 					<li>SteamEngine</li>
 				</linkableFacilities>
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>3</glowRadius>
 				<glowColor>(217,112,33,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_PowerOnGraphic">
+				<onlyWhenInteracting>true</onlyWhenInteracting>
 			</li>
 			<li Class="SK.CompProperties_HeatPusherAdvanced">
 				<compClass>SK.CompHeatPusherAdvanced</compClass>
@@ -303,7 +307,7 @@
 					</thingDefs>
 				</fuelFilter>
 			</li>
-			
+
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
@@ -314,13 +318,14 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 	</ThingDef>
+	-->
 
 	<!-- ==== SMITHY FORGE ==== -->
-	<ThingDef ParentName="WorkTableFueled">
+	<ThingDef ParentName="SK_WorkTableFueled">
 		<defName>FueledSmithy</defName>
 		<label>smithy forge</label>
 		<description>This blacksmithing setup has all the tools needed to build metal armor, work tools, melee weapons, advanced bows and crossbows, as well as simple ammunition such as arrows. It requires some fuel that burns at a high temperature such as coal or peat.</description>
-        <drawerType>MapMeshAndRealTime</drawerType>
+		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/Production/NeolithicProduction/Blacksmith</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -350,29 +355,26 @@
 			<Mechanism>8</Mechanism>
 		</costList>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<statBases>
 			<WorkToBuild>1700</WorkToBuild>
-            <MaxHitPoints>250</MaxHitPoints>
-            <Flammability>1.0</Flammability>
-            <Cleanliness>-12</Cleanliness>
-            <Mass>1000</Mass>
-            <WorkTableWorkSpeedFactor>0.95</WorkTableWorkSpeedFactor>
-            <OutdoorWorkRateFactor>0.9</OutdoorWorkRateFactor>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-12</Cleanliness>
+			<Mass>1000</Mass>
+			<WorkTableWorkSpeedFactor>0.95</WorkTableWorkSpeedFactor>
+			<OutdoorWorkRateFactor>0.9</OutdoorWorkRateFactor>
 		</statBases>
 		<pathCost>90</pathCost>
 		<size>(3,3)</size>
 		<designationCategory>Production</designationCategory>
 		<interactionCellOffset>(0,0,2)</interactionCellOffset>
 		<fillPercent>0.85</fillPercent>
-		 <building>
-            <uninstallWork>1450</uninstallWork>
-            <buildingTags>
-                <li>NoOutdoorPenaltyUnderRoof</li>
-            </buildingTags>
-        </building>
+		<building>
+			<uninstallWork>1450</uninstallWork>
+			<buildingTags>
+				<li>NoOutdoorPenaltyUnderRoof</li>
+			</buildingTags>
+		</building>
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
@@ -380,7 +382,7 @@
 					<li>PodChair</li>
 				</linkableFacilities>
 			</li>
-			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Flickable" />
 			<li Class="SK.CompProperties_HeatPusherAdvanced">
 				<compClass>SK.CompHeatPusherAdvanced</compClass>
 				<heatPerSecond>30</heatPerSecond>
@@ -407,7 +409,7 @@
 					</thingDefs>
 				</fuelFilter>
 			</li>
-			
+
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
@@ -422,15 +424,15 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	</ThingDef>
-	
+
 	<!-- ==== FINERY FORGE ==== -->
-	<ThingDef Class="SK.ThingDef_AnimatedWorktable" ParentName="BuildingFueled">
+	<ThingDef Class="SK.ThingDef_AnimatedWorktable" ParentName="SK_WorkTableFueled">
 		<defName>Finery</defName>
 		<label>finery forge</label>
-        <thingClass>SK.Building_AnimatedWorktable</thingClass>
+		<thingClass>SK.Building_AnimatedWorktable</thingClass>
 		<description>A finery is a forge that specialized in producing wrought bar iron from cast iron or bloom. The raw iron is melted and hammered into shape with a (preferrably) water-powered trip hammer, and then reheated and hammered again until the slag and much of the carbon is removed. At this stage, the melting point is too high to be melted again unless recarbonized. It can also be used to make certain products such as plate armor.</description>
 		<drawerType>MapMeshAndRealTime</drawerType>
-        <graphicData>
+		<graphicData>
 			<texPath>Things/Building/Finery/Finery</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
@@ -459,9 +461,6 @@
 			<WoodLog>100</WoodLog>
 		</costList>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<statBases>
 			<WorkToBuild>1700</WorkToBuild>
 			<MaxHitPoints>250</MaxHitPoints>
@@ -478,10 +477,10 @@
 		<fillPercent>0.85</fillPercent>
 		<building>
 			<uninstallWork>1450</uninstallWork>
-		  <!-- <wantsHopperAdjacent>true</wantsHopperAdjacent>-->
-		  <buildingTags>
-                <li>NoOutdoorPenaltyUnderRoof</li>
-            </buildingTags>
+			<!-- <wantsHopperAdjacent>true</wantsHopperAdjacent>-->
+			<buildingTags>
+				<li>NoOutdoorPenaltyUnderRoof</li>
+			</buildingTags>
 		</building>
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">
@@ -490,7 +489,10 @@
 					<li>WaterWheel</li>
 				</linkableFacilities>
 			</li>
-			<li Class="CompProperties_Flickable"/>
+			<li Class="SK.CompProperties_PowerOnGraphic">
+				<onlyWhenInteracting>true</onlyWhenInteracting>
+			</li>
+			<li Class="CompProperties_Flickable" />
 			<li Class="SK.CompProperties_HeatPusherAdvanced">
 				<compClass>SK.CompHeatPusherAdvanced</compClass>
 				<heatPerSecond>30</heatPerSecond>
@@ -501,7 +503,7 @@
 				<glowColor>(255,140,70,0)</glowColor>
 			</li>
 			<li Class="SK.CompFueled_Properties">
-                <!--
+				<!--
 				<operatingTemp>1400</operatingTemp>
 				<smokeDrawOffset>(3,3.0,1.0)</smokeDrawOffset>
                <fireDrawOffset>(0,-1,-0.05)</fireDrawOffset>
@@ -512,7 +514,7 @@
 				<effectOnWeather>false</effectOnWeather>
 				<smokeDensity>2</smokeDensity>
                 -->
-                <operatingTemp>1400</operatingTemp>
+				<operatingTemp>1400</operatingTemp>
 				<drawfirefuel>false</drawfirefuel>
 				<!--<canAutoBurn>true</canAutoBurn>-->
 				<smokeDrawOffset>(2,-0.1,-1)</smokeDrawOffset>
@@ -529,7 +531,7 @@
 					</thingDefs>
 				</fuelFilter>
 			</li>
-			
+
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
@@ -546,15 +548,15 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	</ThingDef>
-	
+
 	<!-- ==== FOUNDRY ==== -->
-	<ThingDef ParentName="WorkTableFueled">
+	<ThingDef ParentName="SK_WorkTableFueled">
 		<defName>Foundry</defName>
 		<label>foundry</label>
 		<description>A reverberatory furnace for melting metals. The material is heated by reflected thermal energy and combustion gasses without direct contact with the fuel (as opposed to a blast furnace). It's a multi-use furnace. Pots and crucibles can be placed in the hearth, or the chamber can be completely filled with molten metal for puddling pig into wrought iron or, technology allowing, certain types of steel.</description>
 		<!--<description>A tall and narrow furnace for melting metal. The metal is loaded into the top and makes its way past layers of hot coal and flux and pours out a spout into molds.</description>-->
 		<drawerType>MapMeshAndRealTime</drawerType>
-        <graphicData>
+		<graphicData>
 			<texPath>Things/Building/ReverberatoryFurnace</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
@@ -605,8 +607,8 @@
 			<uninstallWork>1450</uninstallWork>
 			<wantsHopperAdjacent>true</wantsHopperAdjacent>
 			<buildingTags>
-                <li>NoOutdoorPenaltyUnderRoof</li>
-            </buildingTags>
+				<li>NoOutdoorPenaltyUnderRoof</li>
+			</buildingTags>
 		</building>
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">
@@ -615,7 +617,10 @@
 					<li>SteamEngine</li>
 				</linkableFacilities>
 			</li>
-			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Flickable" />
+			<li Class="SK.CompProperties_PowerOnGraphic">
+				<onlyWhenInteracting>true</onlyWhenInteracting>
+			</li>
 			<li Class="SK.CompProperties_HeatPusherAdvanced">
 				<compClass>SK.CompHeatPusherAdvanced</compClass>
 				<heatPerSecond>30</heatPerSecond>
@@ -643,7 +648,7 @@
 					</thingDefs>
 				</fuelFilter>
 			</li>
-			
+
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
@@ -730,10 +735,10 @@
 		<placeWorkers>
 			<!--<li>PlaceWorker_ReportWorkSpeedPenalties</li>-->
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
-			 <!-- <li>PlaceWorker_NextToHopperAccepter</li>-->
+			<!-- <li>PlaceWorker_NextToHopperAccepter</li>-->
 			<!--  <li>PlaceWorker_PreventInteractionSpotOverlap</li>-->
-			  <!--<li>PlaceWorker_ReportWorkSpeedPenalties</li>-->
-				<!--<li>PlaceWorker_WatermillGenerator</li>-->
+			<!--<li>PlaceWorker_ReportWorkSpeedPenalties</li>-->
+			<!--<li>PlaceWorker_WatermillGenerator</li>-->
 			<li>Rimatomics.PlaceWorker_WaterStation</li>
 		</placeWorkers>
 		<constructionSkillPrerequisite>3</constructionSkillPrerequisite>
@@ -741,7 +746,7 @@
 			<li>WaterWheelTech</li>
 		</researchPrerequisites>
 	</ThingDef>
-	
+
 	<!-- ==== STEAM ENGINE ==== -->
 	<ThingDef ParentName="FacilitiesBase">
 		<defName>SteamEngine</defName>
@@ -815,7 +820,7 @@
 	</ThingDef>
 
 	<!-- ==== STAMP MILL ==== -->
-	<ThingDef ParentName="WorkTable">
+	<ThingDef ParentName="SK_WorkTable">
 		<defName>StampMill</defName>
 		<label>stamp mill</label>
 		<description>A mill that smashes rather than grinds. It can be powered by hand if you're desperate, but it's meant to be powered by a waterwheel.</description>
@@ -846,9 +851,6 @@
 			<Mechanism>8</Mechanism>
 		</costList>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<statBases>
 			<WorkToBuild>800</WorkToBuild>
 			<MaxHitPoints>300</MaxHitPoints>
@@ -870,8 +872,8 @@
 		<building>
 			<uninstallWork>750</uninstallWork>
 			<buildingTags>
-                <li>NoOutdoorPenaltyUnderRoof</li>
-            </buildingTags>
+				<li>NoOutdoorPenaltyUnderRoof</li>
+			</buildingTags>
 		</building>
 		<comps>
 			<li Class="CompProperties_AffectedByFacilities">
@@ -879,7 +881,7 @@
 					<li>WaterWheel</li>
 				</linkableFacilities>
 			</li>
-			
+
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
@@ -891,8 +893,8 @@
 		</researchPrerequisites>
 	</ThingDef>
 
-	
-<ThingDef ParentName="WorkTable">
+
+	<ThingDef ParentName="SK_WorkTable">
 		<defName>PotteryStation</defName>
 		<label>pottery bench</label>
 		<description>A potter's wheel and bench for preparing earthenware and ceramic objects for the kiln.</description>
@@ -919,9 +921,6 @@
 		</stuffCategories>
 		<costStuffCount>120</costStuffCount>
 		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
-			<li>BuildingsProduction</li>
-		</thingCategories>
 		<statBases>
 			<WorkToBuild>900</WorkToBuild>
 			<MaxHitPoints>180</MaxHitPoints>
@@ -936,9 +935,7 @@
 		<building>
 			<uninstallWork>900</uninstallWork>
 		</building>
-		<comps>
-			
-		</comps>
+		<comps />
 		<placeWorkers>
 			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
 		</placeWorkers>

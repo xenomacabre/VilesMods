@@ -217,7 +217,7 @@ Efficiency: 15%</description>
 					</thingDefs>
 				</fuelFilter>
 			</li>
-			<li Class="RimFridge.CompProperties_SecondLayer">
+			<li Class="SK.CompProperties_SecondLayer">
 				<graphicData>
 					<texPath>Things/Building/FireBasket/FireBasketTop</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
@@ -362,7 +362,7 @@ Rain-proof</description>
 					</thingDefs>  
 				</fuelFilter>
 			</li>
-			<li Class="RimFridge.CompProperties_SecondLayer">
+			<li Class="SK.CompProperties_SecondLayer">
 				<graphicData>
 					<texPath>Things/Building/StreetLamp_top</texPath>
 					<graphicClass>Graphic_Single</graphicClass>

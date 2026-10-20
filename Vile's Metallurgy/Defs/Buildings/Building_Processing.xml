@@ -1,15 +1,14 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<ThingDef Name="UniversalFermenterFueled" ParentName="UniversalFermenterBase" Abstract="True">
-       <inspectorTabs>
+		<inspectorTabs>
 			<li>SK.ITab_Fuel</li>
-        </inspectorTabs>
-    </ThingDef>
+		</inspectorTabs>
+	</ThingDef>
 
-	
-	
 
+	<!-- Disabled duplicate Def: Core_SK owns this Def; Metallurgy differences are applied by Patches/Core_SK_Overlap.xml.
 	<ThingDef ParentName="UniversalFermenterFueled" Class="UniversalFermenterSK.ThingDef_UF">
 		<defName>Kiln</defName>
 		<label>Ceramic Kiln</label>
@@ -49,8 +48,8 @@
 		<barScale>(1.0, 1.0)</barScale>
 		<slotsCount>10</slotsCount>
 		<comps>
-			<li Class="CompProperties_Forbiddable"/>
-			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Forbiddable" />
+			<li Class="CompProperties_Flickable" />
 			<li Class="SK.CompProperties_HeatPusherAdvanced">
 				<compClass>SK.CompHeatPusherAdvanced</compClass>
 				<heatPerSecond>20</heatPerSecond>
@@ -78,7 +77,7 @@
 					</thingDefs>
 					<categories>
 						<li>Wooden</li>
-					</categories>  
+					</categories>
 				</fuelFilter>
 			</li>
 		</comps>
@@ -90,7 +89,8 @@
 			<li>Ceramics_A1</li>
 		</researchPrerequisites>
 	</ThingDef>
-	
+	-->
+
 	<ThingDef ParentName="UniversalFermenterFueled" Class="UniversalFermenterSK.ThingDef_UF">
 		<defName>CementationFurnace</defName>
 		<label>Cementation Furnace</label>
@@ -130,8 +130,8 @@
 		<barScale>(1.0, 1.0)</barScale>
 		<slotsCount>20</slotsCount>
 		<comps>
-			<li Class="CompProperties_Forbiddable"/>
-			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Forbiddable" />
+			<li Class="CompProperties_Flickable" />
 			<li Class="SK.CompProperties_HeatPusherAdvanced">
 				<compClass>SK.CompHeatPusherAdvanced</compClass>
 				<heatPerSecond>20</heatPerSecond>
@@ -141,6 +141,7 @@
 				<glowRadius>3</glowRadius>
 				<glowColor>(217,112,33,0)</glowColor>
 			</li>
+			<li Class="SK.CompProperties_PowerOnGraphic" />
 			<li Class="SK.CompFueled_Properties">
 				<operatingTemp>500</operatingTemp>
 				<drawfirefuel>false</drawfirefuel>
@@ -167,7 +168,7 @@
 		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
 		<designationCategory>Production</designationCategory>
 		<researchPrerequisites>
-			<li>Steel_B2</li>
+			<li>Steel_B1</li>
 		</researchPrerequisites>
 	</ThingDef>
 

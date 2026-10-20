@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+	<!-- Core_SK overlap changes from Common/Defs/ThingDefs_Resources/Alloys_0_UltraTech.xml. Identical fields are intentionally omitted. -->
+	<!-- ThingDef: AlphaPoly -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="AlphaPoly"]/stuffProps/soundImpactMelee</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="AlphaPoly"]/stuffProps/appearance</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="AlphaPoly"]/tradeability</xpath>
+	</Operation>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="AlphaPoly"]</xpath>
+		<value Merge="true">
+			<label>hyperalloy</label>
+			<description>TIER 5 - Ultra Tech
+&gt;&gt;&gt; Optimal	Heavy Armor, Hospitals
+&gt;&gt; Suitable	Workshops, Durability
+X Inadvisable 	Weight, Production
+
+Tools Recommended: Building, Mining
+
+Hyperalloy is synthesized at the atomic level and refined with niobium and tantalum. It's extremely dense which allows for thinner armor plates and unparalleled toughness and strength which make it suitable for nearly any application. If only it weren't so hard to fabricate.</description>
+			<graphicData>
+				<texPath>Things/Item/Material/Hyperalloy</texPath>
+				<graphicClass>Graphic_StackCount</graphicClass>
+				<color>(255,168,170)</color>
+			</graphicData>
+			<soundInteract>Metal_Drop</soundInteract>
+			<soundDrop>Metal_Drop</soundDrop>
+			<stackLimit>600</stackLimit>
+			<statBases>
+				<MarketValue>60</MarketValue>
+				<StuffPower_Armor_Blunt>1.65</StuffPower_Armor_Blunt>
+				<StuffPower_Armor_Sharp>2</StuffPower_Armor_Sharp>
+				<StuffPower_Armor_Heat>0.22</StuffPower_Armor_Heat>
+				<StuffPower_Insulation_Cold>-2</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>-2</StuffPower_Insulation_Heat>
+				<SharpDamageMultiplier>1.6</SharpDamageMultiplier>
+				<BluntDamageMultiplier>2</BluntDamageMultiplier>
+				<Mass>0.40</Mass>
+				<Bulk>0.35</Bulk>
+			</statBases>
+			<useHitPoints>true</useHitPoints>
+			<slagDef>ChunkSlagSteel</slagDef>
+			<thingCategories DeepReplace="true">
+				<li>USLDBar</li>
+				<li>USLDHBar</li>
+			</thingCategories>
+			<smeltable>true</smeltable>
+			<stuffProps>
+				<stuffAdjective>Hyperalloy</stuffAdjective>
+				<categories DeepReplace="true">
+					<li>Metallic</li>
+					<li>StrongMetallic</li>
+					<li>RuggedMetallic</li>
+					<li>SolidMetallic</li>
+					<li>CorrosionResistant</li>
+					<li>RareMetallic</li>
+					<li>HeavyMetallic</li>
+				</categories>
+				<color>(255,168,170)</color>
+				<commonality>0.6</commonality>
+				<statFactors>
+					<MaxHitPoints>4.25</MaxHitPoints>
+					<Beauty>1.5</Beauty>
+					<WorkToMake>4</WorkToMake>
+					<WorkToBuild>4</WorkToBuild>
+					<DoorOpenSpeed>0.5</DoorOpenSpeed>
+					<MoveSpeed>0.7</MoveSpeed>
+					<MarketValue>1</MarketValue>
+					<BedRestEffectiveness>1.42</BedRestEffectiveness>
+					<ImmunityGainSpeedFactor>1.45</ImmunityGainSpeedFactor>
+					<WorkTableWorkSpeedFactor>2</WorkTableWorkSpeedFactor>
+					<Mass>1.25</Mass>
+					<Cleanliness>5.5</Cleanliness>
+					<WornBulk>0.65</WornBulk>
+				</statFactors>
+			</stuffProps>
+			<modExtensions>
+				<li Class="SurvivalToolsLite.StuffPropsTool">
+					<toolStatFactors>
+						<TreeFellingSpeed>1.7</TreeFellingSpeed>
+						<PlantHarvestingSpeed>1.7</PlantHarvestingSpeed>
+						<PlantWorkSpeed>2</PlantWorkSpeed>
+						<MiningSpeed>2.3</MiningSpeed>
+						<MiningYieldDigging>2</MiningYieldDigging>
+						<ConstructionSpeed>2.3</ConstructionSpeed>
+						<SmithingSpeed>2.3</SmithingSpeed>
+						<CookSpeed>1.7</CookSpeed>
+						<ButcheryFleshSpeed>1.7</ButcheryFleshSpeed>
+					</toolStatFactors>
+				</li>
+			</modExtensions>
+		</value>
+	</Operation>
+	<!-- ThingDef: BetaPoly -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="BetaPoly"]/stuffProps/soundImpactMelee</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="BetaPoly"]/stuffProps/appearance</xpath>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="BetaPoly"]/tradeability</xpath>
+	</Operation>
+	<Operation Class="SK.PatchOperationReplaceExtended">
+		<xpath>Defs/ThingDef[defName="BetaPoly"]</xpath>
+		<value Merge="true">
+			<label>polymimetic alloy</label>
+			<description>TIER 5 - Ultra Tech
+&gt;&gt;&gt; Optimal	Durability, Production
+&gt;&gt; Suitable	Firefighters Gear/Armor
+X Inadvisable 	Hospitals
+
+Tools Recommended: Tree-cutting (highest), Cooking tools
+
+Originally developed as military hardware, polymimetic alloy is programmable matter which is able to change states between liquid and solid. This allows it to be quickly formed and can maintain a rigid or flexible shape, suitible for everything from clothes, weapons, buildings, and armor. Because it can reform when damaged, it has unmatched longevity as a material. And because of this, armor made of it can be equipped almost instantly.</description>
+			<graphicData>
+				<texPath>Things/Item/Material/PolymimeticAlloy</texPath>
+				<graphicClass>Graphic_StackCount</graphicClass>
+				<color>(255,201,240)</color>
+			</graphicData>
+			<soundInteract>Metal_Drop</soundInteract>
+			<soundDrop>Metal_Drop</soundDrop>
+			<stackLimit>600</stackLimit>
+			<statBases>
+				<MarketValue>70</MarketValue>
+				<StuffPower_Armor_Blunt>2</StuffPower_Armor_Blunt>
+				<StuffPower_Armor_Sharp>1.7</StuffPower_Armor_Sharp>
+				<StuffPower_Armor_Heat>0.2</StuffPower_Armor_Heat>
+				<StuffPower_Insulation_Cold>60</StuffPower_Insulation_Cold>
+				<StuffPower_Insulation_Heat>250</StuffPower_Insulation_Heat>
+				<SharpDamageMultiplier>2</SharpDamageMultiplier>
+				<BluntDamageMultiplier>1.6</BluntDamageMultiplier>
+				<Mass>0.35</Mass>
+				<Bulk>0.35</Bulk>
+			</statBases>
+			<useHitPoints>true</useHitPoints>
+			<slagDef>ChunkSlagSteel</slagDef>
+			<thingCategories DeepReplace="true">
+				<li>USLDBar</li>
+				<li>LightBar</li>
+			</thingCategories>
+			<smeltable>true</smeltable>
+			<stuffProps>
+				<stuffAdjective>polymimetic alloy</stuffAdjective>
+				<categories DeepReplace="true">
+					<li>Metallic</li>
+					<li>StrongMetallic</li>
+					<li>RuggedMetallic</li>
+					<li>SolidMetallic</li>
+					<li>CorrosionResistant</li>
+					<li>RareMetallic</li>
+					<li>LightMaterial</li>
+					<li>HF</li>
+				</categories>
+				<color>(255,201,240)</color>
+				<commonality>0.6</commonality>
+				<statFactors>
+					<MaxHitPoints>4.5</MaxHitPoints>
+					<Beauty>1.9</Beauty>
+					<WorkToMake>2</WorkToMake>
+					<WorkToBuild>2</WorkToBuild>
+					<DoorOpenSpeed>0.7</DoorOpenSpeed>
+					<MeleeWeapon_CooldownMultiplier>0.7</MeleeWeapon_CooldownMultiplier>
+					<MarketValue>1</MarketValue>
+					<BedRestEffectiveness>1.45</BedRestEffectiveness>
+					<ImmunityGainSpeedFactor>1.25</ImmunityGainSpeedFactor>
+					<WorkTableWorkSpeedFactor>1.65</WorkTableWorkSpeedFactor>
+					<Mass>1</Mass>
+					<Cleanliness>2</Cleanliness>
+					<WornBulk>0.9</WornBulk>
+					<EquipDelay>0.1</EquipDelay>
+				</statFactors>
+			</stuffProps>
+			<modExtensions>
+				<li Class="SurvivalToolsLite.StuffPropsTool">
+					<toolStatFactors>
+						<TreeFellingSpeed>2.3</TreeFellingSpeed>
+						<PlantHarvestingSpeed>2</PlantHarvestingSpeed>
+						<PlantWorkSpeed>1.7</PlantWorkSpeed>
+						<MiningSpeed>1.7</MiningSpeed>
+						<MiningYieldDigging>1.7</MiningYieldDigging>
+						<ConstructionSpeed>1.7</ConstructionSpeed>
+						<SmithingSpeed>1.7</SmithingSpeed>
+						<CookSpeed>2</CookSpeed>
+						<ButcheryFleshSpeed>2</ButcheryFleshSpeed>
+					</toolStatFactors>
+				</li>
+			</modExtensions>
+		</value>
+	</Operation>
+</Patch>
