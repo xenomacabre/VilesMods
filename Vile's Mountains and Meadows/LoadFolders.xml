@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+  <!-- 1.7 reuses the 1.6 content. The BiomesKit folders (dll + world gen step + PlanetLayerDef patch) load only
+       when World Map Beautification Project is not active: WMBP ships its own BiomesKit, which already provides
+       every BiomesKit class/field this mod uses and creates BiomesKitWorldGenStep itself. Loading both gives
+       "Adding duplicate WorldGenStepDef name: BiomesKitWorldGenStep" and two copies of the BiomesKit types. -->
+  <v1.6>
+    <li>/</li>
+    <li>1.6</li>
+    <li IfModNotActive="zal.wmbp">1.6/BiomesKit</li>
+  </v1.6>
+  <v1.7>
+    <li>/</li>
+    <li>1.6</li>
+    <li IfModNotActive="zal.wmbp">1.7/BiomesKit</li>
+  </v1.7>
+</loadFolders>
