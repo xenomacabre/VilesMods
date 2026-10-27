@@ -27,6 +27,7 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
+				<li>Leather_Waterproof</li>
 				<li>Leather_Elephant</li>
 				<li>DragonEsters</li>
 			</thingDefs>
@@ -139,7 +140,7 @@
 						<li>Leather_Nightling</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>25</count>
 			</li>
 			<li>
 				<filter>
@@ -147,7 +148,7 @@
 						<li>TalonAether</li>
 					</thingDefs>
 				</filter>
-				<count>5</count>
+				<count>25</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
