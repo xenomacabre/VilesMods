@@ -9,4 +9,9 @@
 		<li IfModActive="ludeon.rimworld.royalty">Royalty</li>
 		<li IfModActive="ludeon.rimworld.ideology">Ideology</li>
 	</v1.6>
+	<v1.7>
+		<li>/</li>
+		<li IfModActive="ludeon.rimworld.royalty">Royalty</li>
+		<li IfModActive="ludeon.rimworld.ideology">Ideology</li>
+	</v1.7>
 </Loadfolders>
