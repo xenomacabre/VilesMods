@@ -1,0 +1,28 @@
+<Defs>
+
+  <RecipeDef ParentName="ExtractSeed">
+    <defName>ExtractSeedCloudberry</defName>
+    <label>extract cloudberry seeds</label>
+    <description>Extract seeds from Cloudberries.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Rawcloudberry</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Rawcloudberry</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Seed_Cloudberry>3</Seed_Cloudberry>
+    </products>
+    <researchPrerequisite>Cocoa</researchPrerequisite>
+  </RecipeDef>
+	
+</Defs>

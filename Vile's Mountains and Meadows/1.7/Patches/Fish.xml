@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	
+
+    <Operation Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef[defName="PawnKindDefFishBlueblade" or
+            defName="PawnKindDefFishTailteeth" or
+            defName="ThingDefFishSduiggles" or 
+            defName="ThingDefFishMashgon"]/naturalBiomes</xpath>
+		<value>
+			<li>Prairie</li>
+            <li>MontaneForest</li>
+            <li>MontaneGrassland</li>
+		</value>
+    </Operation>
+
+    
+
+</Patch>
+
+
+
+			

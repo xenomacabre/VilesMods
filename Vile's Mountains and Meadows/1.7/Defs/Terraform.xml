@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="RFF_TerraformBasicBase">
+		<defName>Terraform_ToPrairieSoil</defName>
+		<label>Fertile Soil to Prairie Soil</label>
+		<description>Change the appearance of fertile soil to look grassier.</description>
+		<uiIconPath>Terrain/Surfaces/PrairieSoil_Ico</uiIconPath>
+		<modExtensions>
+			<li Class="FertileFields.Terrain">
+				<above>
+					<li>SavannaSoil</li>
+					<li>VolcanicSoil</li>
+					<li>Soil</li>
+				</above>
+				<result>PrairieSoil</result>
+			</li>
+		</modExtensions>
+		<statBases>
+			<WorkToBuild>660</WorkToBuild>
+		</statBases>
+		<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+    </ThingDef>
+
+	<ThingDef ParentName="RFF_TerraformBasicBase">	 
+	<defName>Terraform_DevelopToRedSoil</defName>
+	<label>Red Soil (Terra Rossa)</label>
+	<description>+2 Sand\n +4 Gravel</description>
+	<uiIconPath>UI/Icons/Terraforming/RedClaySoil</uiIconPath>
+	<modExtensions>
+		<li Class="FertileFields.Terrain">
+			<above>
+				<li>RockySoil</li>
+			</above>
+			<result>RedClaySoil</result>
+			<products>
+				<SandResource>2</SandResource>
+				<CrushedStone>4</CrushedStone>
+			</products>
+		</li>
+	</modExtensions>
+	<costList>		
+		<Dirt>2</Dirt>
+		<SoftClay>8</SoftClay>
+		<Compost>6</Compost>
+	</costList>
+	<statBases>
+		<WorkToBuild>960</WorkToBuild>
+	</statBases>
+	<terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+</ThingDef>	
+
+	
+	
+</Defs>
